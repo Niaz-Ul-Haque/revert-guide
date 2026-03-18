@@ -1,0 +1,247 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-white text-textPrimary font-sans antialiased;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  h1 {
+    @apply font-display text-4xl font-semibold leading-tight mb-6 text-textPrimary tracking-tight;
+  }
+
+  h2 {
+    @apply font-display text-2xl font-semibold leading-snug mt-8 mb-4 text-textPrimary tracking-tight;
+  }
+
+  h3 {
+    @apply text-xl font-semibold leading-snug mt-6 mb-3 text-textPrimary;
+  }
+
+  h4 {
+    @apply text-lg font-semibold mt-4 mb-2 text-textPrimary;
+  }
+
+  p {
+    @apply mb-4 text-base leading-relaxed;
+  }
+
+  ul,
+  ol {
+    @apply mb-4 pl-6;
+  }
+
+  li {
+    @apply mb-2;
+  }
+
+  a {
+    @apply text-primary underline decoration-primary/30 underline-offset-2 hover:decoration-primary hover:text-primaryHover transition-colors focus:outline-2 focus:outline-offset-2 focus:outline-borderStrong;
+  }
+
+  :focus-visible {
+    @apply outline-2 outline-offset-2 outline-borderStrong;
+  }
+
+  /* Max line length for readability */
+  .prose-content {
+    max-width: 65ch;
+  }
+}
+
+/* ── Skip to content link ── */
+.skip-link {
+  @apply absolute -top-10 left-4 z-50 bg-primary text-white px-4 py-2 rounded-xl font-medium transition-all;
+}
+
+.skip-link:focus {
+  @apply top-4;
+}
+
+/* ── Arabic text ── */
+[lang="ar"] {
+  font-family: var(--font-amiri), "Amiri", "Traditional Arabic", serif;
+  direction: rtl;
+  font-size: 1.2em;
+}
+
+/* ── Animation utilities ── */
+@layer utilities {
+  /* Stagger delays for entrance animations */
+  .stagger-1 {
+    animation-delay: 0.05s;
+  }
+  .stagger-2 {
+    animation-delay: 0.1s;
+  }
+  .stagger-3 {
+    animation-delay: 0.15s;
+  }
+  .stagger-4 {
+    animation-delay: 0.2s;
+  }
+  .stagger-5 {
+    animation-delay: 0.25s;
+  }
+  .stagger-6 {
+    animation-delay: 0.3s;
+  }
+  .stagger-7 {
+    animation-delay: 0.35s;
+  }
+  .stagger-8 {
+    animation-delay: 0.4s;
+  }
+  .stagger-9 {
+    animation-delay: 0.45s;
+  }
+  .stagger-10 {
+    animation-delay: 0.5s;
+  }
+
+  /* Start invisible for animated elements */
+  .animate-on-scroll {
+    opacity: 0;
+  }
+
+  .animate-on-scroll.is-visible {
+    animation: fade-up 0.6s ease-out forwards;
+  }
+
+  /* Glass surface */
+  .glass {
+    @apply bg-white/70 backdrop-blur-md border border-white/50;
+  }
+
+  .glass-strong {
+    @apply bg-white/85 backdrop-blur-lg border border-white/60;
+  }
+
+  /* Gradient text */
+  .text-gradient {
+    @apply bg-clip-text text-transparent;
+    background-image: linear-gradient(
+      135deg,
+      #4a7c59 0%,
+      #3d6649 50%,
+      #6b7a3d 100%
+    );
+  }
+
+  /* Decorative dot pattern background */
+  .bg-dots {
+    background-image: radial-gradient(circle, #c5d4c1 1px, transparent 1px);
+    background-size: 24px 24px;
+  }
+
+  /* Organic blob shape */
+  .blob {
+    border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+  }
+
+  /* Smooth card hover lift */
+  .hover-lift {
+    @apply transition-all duration-300 ease-out-expo;
+  }
+
+  .hover-lift:hover {
+    transform: translateY(-4px);
+  }
+
+  /* Section divider wave */
+  .section-wave {
+    position: relative;
+  }
+
+  .section-wave::after {
+    content: "";
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+    right: 0;
+    height: 48px;
+    background: white;
+    clip-path: ellipse(55% 100% at 50% 100%);
+  }
+}
+
+/* ── Custom scrollbar ── */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f7faf6;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #c5d4c1;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #8fa889;
+}
+
+/* ── Print styles ── */
+@media print {
+  nav,
+  .mobile-nav,
+  .skip-link,
+  button {
+    display: none !important;
+  }
+
+  body {
+    font-size: 11pt;
+    color: black;
+    background: white;
+  }
+
+  a[href]:after {
+    content: " (" attr(href) ")";
+  }
+
+  details {
+    display: block !important;
+  }
+
+  details > * {
+    display: block !important;
+  }
+
+  .page-break-avoid {
+    page-break-inside: avoid;
+  }
+
+  @page {
+    margin: 0.75in;
+  }
+}
+
+/* ── Reduced motion ── */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+
+  .hover-lift:hover {
+    transform: none;
+  }
+
+  .animate-on-scroll {
+    opacity: 1;
+  }
+}
