@@ -10,33 +10,33 @@ import type {
   Masjid,
 } from "./types";
 
-const contentRoot = path.join(process.cwd(), "content");
+const localeRoot = path.join(process.cwd(), "locales");
 
 function readJson<T>(filePath: string): T {
   const raw = fs.readFileSync(filePath, "utf-8");
   return JSON.parse(raw) as T;
 }
 
-function getContentDir(locale: Locale) {
-  return path.join(contentRoot, locale);
+function getLocaleDir(locale: Locale) {
+  return path.join(localeRoot, locale);
 }
 
-function resolveContentFile(locale: Locale, relativePath: string) {
-  const localizedPath = path.join(getContentDir(locale), relativePath);
+function resolveLocaleFile(locale: Locale, relativePath: string) {
+  const localizedPath = path.join(getLocaleDir(locale), relativePath);
   if (fs.existsSync(localizedPath)) {
     return localizedPath;
   }
 
-  return path.join(getContentDir(DEFAULT_LOCALE), relativePath);
+  return path.join(getLocaleDir(DEFAULT_LOCALE), relativePath);
 }
 
 function readJsonFile<T>(locale: Locale, relativePath: string): T {
-  return readJson<T>(resolveContentFile(locale, relativePath));
+  return readJson<T>(resolveLocaleFile(locale, relativePath));
 }
 
 function readJsonDir<T>(locale: Locale, relativeDir: string): T[] {
-  const fallbackDir = path.join(getContentDir(DEFAULT_LOCALE), relativeDir);
-  const localizedDir = path.join(getContentDir(locale), relativeDir);
+  const fallbackDir = path.join(getLocaleDir(DEFAULT_LOCALE), relativeDir);
+  const localizedDir = path.join(getLocaleDir(locale), relativeDir);
   const fileNames = new Set<string>();
 
   if (fs.existsSync(fallbackDir)) {
@@ -56,7 +56,7 @@ function readJsonDir<T>(locale: Locale, relativeDir: string): T[] {
   }
 
   return Array.from(fileNames).map((fileName) =>
-    readJson<T>(resolveContentFile(locale, path.join(relativeDir, fileName))),
+    readJson<T>(resolveLocaleFile(locale, path.join(relativeDir, fileName))),
   );
 }
 

@@ -45,10 +45,11 @@ export function generateMetadata({
   params: { locale: Locale; stepSlug: string };
 }) {
   const step = getStepBySlug(params.stepSlug, params.locale);
+  const t = getTranslator(params.locale);
   return {
     title: step
-      ? `${step.title} - Revert Guide`
-      : "Step Not Found - Revert Guide",
+      ? `${step.title} - ${t("brand.name")}`
+      : t("metadata.dynamic.stepNotFoundTitle"),
   };
 }
 

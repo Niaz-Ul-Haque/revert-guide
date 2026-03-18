@@ -5,7 +5,7 @@ import { useEffect } from "react";
 import { useRouter } from "next/navigation";
 import {
   DEFAULT_LOCALE,
-  getLocaleLabel,
+  getLocaleDisplayName,
   getTranslator,
   LOCALE_STORAGE_KEY,
   SUPPORTED_LOCALES,
@@ -41,7 +41,7 @@ export default function RootPage() {
             }`}
             lang={locale}
           >
-            {getLocaleLabel(locale)}
+            {getLocaleDisplayName(locale)}
           </Link>
         ))}
       </div>

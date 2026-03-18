@@ -1,0 +1,835 @@
+{
+  "brand": {
+    "name": "Revert Guide",
+    "homeAriaLabel": "Revert Guide - 首页"
+  },
+  "languageSwitcher": {
+    "ariaLabel": "语言切换器",
+    "label": "语言",
+    "locales": {
+      "en": "English",
+      "fr": "Fran?ais",
+      "es": "Espa?ol",
+      "hi": "??????",
+      "ur": "????",
+      "zh": "??",
+      "tl": "Tagalog",
+      "pa": "??????",
+      "pt": "Portugu?s",
+      "ko": "???",
+      "fa": "?????",
+      "ru": "???????"
+    }
+  },
+  "nav": {
+    "home": "首页",
+    "roadmap": "路线图",
+    "topics": "话题",
+    "glossary": "词汇表",
+    "resources": "资源",
+    "allResources": "所有资源",
+    "findMasjid": "找到一个Masjid",
+    "about": "关于",
+    "aboutUs": "关于我们",
+    "accessibility": "无障碍性",
+    "privacy": "隐私政策",
+    "terms": "使用条款",
+    "sources": "来源",
+    "ramadan": "Ramadan 指南",
+    "mentalHealth": "心理健康",
+    "mainNavigation": "主导航",
+    "openMenu": "打开菜单",
+    "closeMenu": "关闭菜单",
+    "mobileMenu": "导航菜单"
+  },
+  "footer": {
+    "about": "关于",
+    "accessibility": "无障碍性",
+    "privacy": "隐私政策",
+    "terms": "使用条款",
+    "sources": "来源",
+    "description": "一个免费的、以离线为优先的新穆斯林资源。无追踪，无广告，只为你的旅程提供指导。",
+    "explore": "探索",
+    "information": "信息",
+    "quickLinksAriaLabel": "快速链接",
+    "navigationAriaLabel": "页脚导航",
+    "copyright": "Revert Guide。用心为全世界的新穆斯林制作。"
+  },
+  "common": {
+    "beginJourney": "开始你的旅程",
+    "nextStep": "下一步",
+    "previousStep": "上一步",
+    "readMore": "阅读更多",
+    "searchPlaceholder": "搜索...",
+    "loading": "正在准备您的下一步...",
+    "offline": "您已离线。某些功能可能会受到限制。",
+    "backToRoadmap": "返回路线图",
+    "skipToContent": "跳到内容",
+    "breadcrumb": "面包屑",
+    "search": "搜索",
+    "clearSearch": "清除搜索"
+  },
+  "resources": {
+    "types": {
+      "article": "文章",
+      "video": "视频",
+      "book": "书",
+      "app": "应用",
+      "community": "社区",
+      "pdf": "PDF"
+    },
+    "visitResource": "访问资源",
+    "viewResource": "查看资源"
+  },
+  "metadata": {
+    "site": {
+      "title": "Revert Guide - 你的旅程从这里开始",
+      "description": "多伦多地区新穆斯林皈依者的离线优先教育指南。采用循序渐进的方式进行引导，提供富有同理心和实用性的指导。",
+      "keywords": ["伊斯兰教", "转换", "恢复", "穆斯林", "指南", "多伦多"],
+      "openGraphDescription": "引导你探索伊斯兰的旅程——实用、充满同情心，并且按照你自己的节奏进行。"
+    },
+    "dynamic": {
+      "topicNotFoundTitle": "未找到主题 - Revert Guide",
+      "stageNotFoundTitle": "未找到阶段 - Revert Guide",
+      "stepNotFoundTitle": "未找到步骤 - Revert Guide"
+    },
+    "home": {
+      "title": "Revert Guide - 你的旅程从这里开始",
+      "description": "一本面向新穆斯林的离线优先教育指南，提供切实、富有同情心的后续步骤。"
+    },
+    "about": {
+      "title": "关于 - Revert Guide",
+      "description": "了解 Revert Guide 项目、我们的使命以及我们对初学者友好的伊斯兰指导方法。"
+    },
+    "accessibility": {
+      "title": "无障碍声明 - Revert Guide",
+      "description": "Revert Guide 对无障碍、WCAG 2.1 AA 合规性和包容性设计的承诺。"
+    },
+    "glossary": {
+      "title": "词汇表 - Revert Guide",
+      "description": "在 Revert Guide 词汇表中搜索伊斯兰术语、音译和定义。"
+    },
+    "mentalHealth": {
+      "title": "照顾你的心灵 - Revert Guide",
+      "description": "为新穆斯林提供情感支持、认可、危机资源和实用指导。"
+    },
+    "offline": {
+      "title": "离线 - Revert Guide",
+      "description": "重新连接或打开先前缓存的页面以继续离线使用 Revert Guide。"
+    },
+    "privacy": {
+      "title": "隐私政策 - Revert Guide",
+      "description": "阅读Revert Guide隐私政策，并了解我们的离线优先数据处理方式。"
+    },
+    "ramadan": {
+      "title": "Ramadan 指南 - Revert Guide",
+      "description": "你作为穆斯林的第一次Ramadan，包括斋戒基础、准备工作和实际支持。"
+    },
+    "resources": {
+      "title": "资源 - Revert Guide",
+      "description": "精选的书籍、视频、应用程序和社区，支持您的旅程。"
+    },
+    "findMasjid": {
+      "title": "找到一个 Masjid - Revert Guide",
+      "description": "搜索多伦多地区的清真寺，即使在离线时也能搜索。"
+    },
+    "roadmap": {
+      "title": "你的路线图 - Revert Guide",
+      "description": "作为一名穆斯林，你的第一天、前几周和前几个月的逐步时间表。"
+    },
+    "sources": {
+      "title": "来源与引用 - Revert Guide",
+      "description": "浏览 Quran、圣训、文章以及在 Revert Guide 中引用的书籍。"
+    },
+    "terms": {
+      "title": "使用条款 - Revert Guide",
+      "description": "了解 Revert Guide 的条款、免责声明和使用条件。"
+    },
+    "topics": {
+      "title": "主题 - Revert Guide",
+      "description": "探索关于祈祷、禁食、信仰、社区等的独立主题指南。"
+    },
+    "notFound": {
+      "title": "页面未找到 - Revert Guide",
+      "description": "返回路线图或主页以继续您的旅程。"
+    }
+  },
+  "pages": {
+    "rootRedirect": {
+      "body": "正在重定向到您的默认语言。"
+    },
+    "home": {
+      "badge": "免费且优先离线",
+      "title": "欢迎来到",
+      "titleHighlight": "家庭",
+      "subtitle": "你的旅程从这里开始，我们很荣幸能与你并肩前行。本指南将帮助你以清晰、温暖和实用的建议迈出第一步。",
+      "logoAlt": "Revert Guide 标志",
+      "exploreTopics": "探索主题",
+      "pathsTitle": "你在你的旅程中处于什么位置？",
+      "pathsSubtitle": "每个人的起点都不同。选择那个对你来说感觉正确的道路。",
+      "paths": [
+        {
+          "title": "刚刚服用了 Shahada?",
+          "body": "恭喜！从这里开始你的第一步——从理解你刚刚声明的内容，到执行 Ghusl 并拥抱你的全新开始。"
+        },
+        {
+          "title": "做穆斯林几周了？",
+          "body": "你已经迈出了这一步，现在想要建立坚实的基础。投入到学习祷告、与社区联系以及建立日常习惯中去。"
+        },
+        {
+          "title": "在寻找特定主题吗？",
+          "body": "以自己的节奏探索诸如祈祷、禁食、信仰和社区等主题。浏览词汇表，或直接深入你现在最感兴趣的内容。"
+        }
+      ],
+      "intro": "Revert Guide 是一本免费的循序渐进的指南，适合任何最近皈依伊斯兰教的人。不管你是刚刚学会祷告，还是在为第一次 Ramadan 做准备，这本指南都会根据你的情况提供帮助——伴以实用的行动、温和的鼓励，并且绝不评判你。",
+      "trust": "没有广告，没有跟踪，不需要账户——只是支持你的旅程。",
+      "quickAccess": "快速访问",
+      "quickLinks": [
+        {
+          "title": "Ramadan 指南",
+          "body": "为你的第一次禁食做准备"
+        },
+        {
+          "title": "心理健康小贴士",
+          "body": "对内在旅程的支持"
+        },
+        {
+          "title": "找到一个Masjid",
+          "body": "多伦多附近的清真寺"
+        }
+      ]
+    },
+    "about": {
+      "title": "关于 Revert Guide",
+      "missionTitle": "我们的使命",
+      "mission": "Revert Guide 的存在是为了在新皈依穆斯林的伊斯兰第一年提供富有同情心、易于获取的指导。我们相信，每一位新皈依者都应该拥有一个支持性的、无评判的空间，以自己的节奏学习和成长。我们的目标是提供新穆斯林所需的信息、鼓励和实用工具——所有内容集中在一个地方，离线可用，并且完全免费。",
+      "approachTitle": "我们的方法",
+      "approachItems": [
+        {
+          "title": "面向教育和初学者",
+          "body": "我们从零开始解释概念，假设没有任何关于伊斯兰教的先验知识。"
+        },
+        {
+          "title": "主流逊尼派观点",
+          "body": "我们的内容遵循被广泛接受的伊斯兰学术，没有宗派偏见。"
+        },
+        {
+          "title": "非政治性且包容",
+          "body": "我们专注于信仰与实践，欢迎所有文化背景的穆斯林。"
+        },
+        {
+          "title": "基础而非高级主题",
+          "body": "我们优先关注新穆斯林最需要的基础知识，将高级法学留给学者。"
+        },
+        {
+          "title": "无广告且非商业化",
+          "body": "无广告，无追踪，无盈利。这是一个服务，不是一个商业行为。"
+        },
+        {
+          "title": "补充本地指导",
+          "body": "我们鼓励与当地清真寺和导师建立联系。本指南是补充资料，但不能取代个人关系。"
+        }
+      ],
+      "disclaimerTitle": "免责声明",
+      "disclaimer": "本指南提供关于伊斯兰教的一般教育信息，并不能替代个人宗教裁定（法特瓦）。对于关于您个人情况的具体宗教问题，请咨询有知识的当地学者或伊玛目。我们追求准确性，任何错误均为无意之失。",
+      "contactTitle": "联系",
+      "contact": "???????????????????????????????????????????????????????????"
+    },
+    "accessibility": {
+      "title": "无障碍性",
+      "commitmentTitle": "我们的承诺",
+      "commitment": "我们致力于让所有用户都能访问Revert Guide，无论其能力如何。本网站符合 WCAG 2.1 AA 级标准，并遵守《安大略省残障人士无障碍法案》（AODA）的要求。我们相信，每个人都应有权获得关于其精神旅程的指导和支持。",
+      "standardsTitle": "标准",
+      "standards": [
+        "网页内容无障碍指南（WCAG）2.1 AA 级",
+        "安大略省残障人士可及性法案 (AODA)",
+        "已使用包括 NVDA、JAWS 和 VoiceOver 在内的屏幕阅读器进行测试"
+      ],
+      "featuresTitle": "无障碍功能",
+      "features": [
+        "整个网站的完整键盘导航——所有功能都可以通过键盘访问",
+        "使用语义 HTML 和 ARIA 属性的屏幕阅读器支持",
+        "足够的颜色对比度，符合 WCAG AA 要求（普通文本 4.5:1，大型文本 3:1）",
+        "跳至内容链接以绕过导航",
+        "描述性链接文本 - 不使用“点击此处”链接",
+        "所有重要图像的替代文本",
+        "离线访问 - 内容已缓存，可在无网络时使用",
+        "适用于移动设备和桌面的响应式设计",
+        "清晰的标题结构，便于导航",
+        "所有交互元素上都有可见的焦点指示",
+        "所有页面的逻辑制表顺序"
+      ],
+      "limitationsTitle": "已知限制",
+      "limitations": "在“查找 Masjid”页面上（如果有）的嵌入式 Google 地图功能由 Google 提供，可能无法让屏幕阅读器用户完全访问。然而，所有位置信息都可以在同一页面上清真寺的可访问文本列表中找到。",
+      "feedbackTitle": "反馈",
+      "feedback": "如果您在使用 Revert Guide 时遇到任何辅助功能障碍，我们希望听取您的意见。请使用应用内的反馈选项报告任何问题。我们感谢您的反馈，并将努力迅速解决辅助功能相关的担忧。",
+      "lastUpdatedTitle": "最近更新",
+      "lastUpdated": "本无障碍声明的最后审查时间为2026年3月。"
+    },
+    "privacy": {
+      "title": "隐私政策",
+      "effectiveDate": "自2026年1月起生效",
+      "sections": [
+        {
+          "id": "collection",
+          "title": "我们收集的内容",
+          "paragraphs": [
+            "在此版本的 Revert Guide 中，我们不会收集个人数据或使用分析数据。不会收集任何用户数据、电子邮件地址、姓名或活动跟踪信息。",
+            "未来的版本可能包括收集数据的可选功能。任何此类更改都会被明确告知，并反映在本政策的更新版本中。"
+          ]
+        },
+        {
+          "id": "cookies",
+          "title": "饼干",
+          "paragraphs": [
+            "Revert Guide 使用服务工作线程进行离线缓存。这不涉及跟踪 cookie。我们不使用分析 cookie（例如 Google Analytics）或营销 cookie。",
+            "Masjid Finder 页面上的 Google 地图功能可能会根据 Google 自身的隐私政策设置 Cookies。这超出了我们的控制范围。"
+          ]
+        },
+        {
+          "id": "third-parties",
+          "title": "第三方",
+          "paragraphs": [
+            "本网站使用 Google 地图提供 Masjid 查找功能。Google 可能会按照其隐私政策收集使用数据。",
+            "没有使用其他第三方跟踪器或分析服务。外部链接是为了方便提供的；我们不对外部网站的隐私做法负责。"
+          ]
+        },
+        {
+          "id": "children",
+          "title": "儿童隐私",
+          "paragraphs": [
+            "本网站不针对13岁以下的儿童。我们不会有意收集13岁以下儿童的信息。"
+          ]
+        },
+        {
+          "id": "changes",
+          "title": "本政策的变更",
+          "paragraphs": [
+            "如果我们更新此隐私政策，我们将在此页面上发布更新后的版本，并更新顶部的生效日期。我们鼓励您定期查看此政策。"
+          ]
+        },
+        {
+          "id": "contact",
+          "title": "联系",
+          "paragraphs": [
+            "如果您对本隐私政策有任何疑问，请使用应用程序内的反馈选项。"
+          ]
+        }
+      ]
+    },
+    "terms": {
+      "title": "使用条款",
+      "effectiveDate": "自2026年1月起生效",
+      "sections": [
+        {
+          "id": "acceptance",
+          "title": "接受条款",
+          "body": "通过访问和使用 Revert Guide，您同意受到这些条款的约束。如果您不同意这些条款的任何部分，请不要使用本网站。"
+        },
+        {
+          "id": "content-disclaimer",
+          "title": "内容免责声明",
+          "body": "Revert Guide 上提供的内容旨在用于关于伊斯兰教的教育目的，并不构成正式的宗教裁决（法特瓦）或法律建议。对于个人的宗教决策，请咨询合格的本地学者或伊玛目。尽管我们力求内容准确，但不保证所有信息都无误。请自行斟酌使用这些内容。"
+        },
+        {
+          "id": "medical-disclaimer",
+          "title": "医疗与健康免责声明",
+          "body": "本网站关于心理健康或健康相关主题的内容并非专业的医疗或心理健康建议。如果您正经历心理健康问题或医疗方面的忧虑，请咨询持证专业人士。请不要将本指南用作专业医疗护理的替代品。"
+        },
+        {
+          "id": "ip",
+          "title": "知识产权",
+          "body": "所有内容，包括文本、设计、标志和网站结构，均为 Revert Guide 或其贡献者的知识产权。用户可以查看网站并分享链接，但未经许可不得重新发布、复制、修改或分发内容。允许个人非商业用途，例如为自己阅读内容或与朋友分享链接。"
+        },
+        {
+          "id": "liability",
+          "title": "责任限制",
+          "body": "Revert Guide 按“原样”提供，不作任何明示或暗示的保证。对于因您使用本网站而产生的任何间接、附带或后果性损害，我们概不负责。您使用本网站的风险由您自己承担。"
+        },
+        {
+          "id": "governing-law",
+          "title": "适用法律",
+          "body": "这些条款受加拿大安大略省法律管辖。因使用本网站而产生的任何争议均受安大略省法院的管辖。"
+        },
+        {
+          "id": "changes",
+          "title": "对这些条款的更改",
+          "body": "我们可能随时通过在此页面发布修订后的条款来更新这些条款。在更改发布后继续使用 Revert Guide 即表示接受更新后的条款。"
+        },
+        {
+          "id": "external-links",
+          "title": "外部链接",
+          "body": "本网站包含指向外部网站的链接。我们不对这些网站的内容或行为负责。提供外部链接仅为方便，并不意味着认可。"
+        }
+      ]
+    },
+    "sources": {
+      "title": "来源与引用",
+      "intro": "我们致力于准确性，并将我们的内容建立在真实来源的基础上。本指南中的每一个具体声明和引用都在下方列出参考资料。我们鼓励您亲自阅读这些来源以获得更深入的了解。",
+      "sections": [
+        {
+          "id": "quran-refs",
+          "title": "Quran学术参考文献",
+          "items": [
+            {
+              "code": "Q1",
+              "text": "Quran 2:185 - “Ramadan 是 Quran 被降示为人类引导的月份……” - 引用于",
+              "linkLabel": "Ramadan 指南"
+            },
+            {
+              "code": "Q2",
+              "text": "Quran 1:1-7 (Surah Al-Fatiha) - Quran 的开篇章节，在每次祈祷单元中朗诵。 - 提及于",
+              "linkLabel": "主题：祈祷"
+            },
+            {
+              "code": "Q3",
+              "text": "Quran 112:1-4 (Surah Al-Ikhlas) - “说，他是Allah，那位……” - 引用于",
+              "linkLabel": "主题：核心信念"
+            },
+            {
+              "code": "Q4",
+              "text": "Quran 7:156 - “我的慈悲涵盖一切。” - 引用自",
+              "linkLabel": "主题：核心信念"
+            },
+            {
+              "code": "Q5",
+              "text": "Quran 21:107 - “我们派你来，只有为了众生的慈悲。” - 引用自",
+              "linkLabel": "主题：核心信念"
+            },
+            {
+              "code": "Q6",
+              "text": "Quran 97:1-5（古兰经第阿尔-卡德尔章）——将 Laylat al-Qadr 描述为“胜过一千个月。”——引用于",
+              "linkLabel": "Ramadan 指南"
+            }
+          ]
+        },
+        {
+          "id": "hadith-refs",
+          "title": "Hadith 参考文献",
+          "items": [
+            {
+              "code": "H1",
+              "text": "布哈里圣训实录，第1卷，第2册，第Hadith 7条——“行为以意图（尼亚）为准。”——在多个步骤中被引用"
+            },
+            {
+              "code": "H2",
+              "text": "穆斯林圣训集，第35卷，Hadith 6505 - “信士的事务是多么美妙……” - 引用于",
+              "linkLabel": "主题：核心信念"
+            },
+            {
+              "code": "H3",
+              "text": "布哈里圣训集，第8卷，Hadith 604 - “你们应当像见过我祈祷那样祈祷。” - 引用于",
+              "linkLabel": "主题：祈祷"
+            },
+            {
+              "code": "H4",
+              "text": "萨希·布哈里 - “Allah 有九十九个名字；谁记住它们，谁将进入天堂。” - 引用于",
+              "linkLabel": "主题：核心信念"
+            },
+            {
+              "code": "H5",
+              "text": "贾米·提尔米济 - “先系好你的骆驼，然后再信赖Allah。” - 引用于",
+              "linkLabel": "心理健康指南"
+            }
+          ]
+        },
+        {
+          "id": "article-refs",
+          "title": "文章",
+          "items": [
+            {
+              "code": "A1",
+              "text": "新穆斯林指南 - newmuslimguide.com - 涵盖崇拜、信仰和日常生活的综合资源。 - 在步骤 1-3 中有引用"
+            },
+            {
+              "code": "A2",
+              "text": "我的祷告 (Salah) - 分步骤指南 - newmuslimguide.com - 插图祷告指南 - 引用于",
+              "linkLabel": "步骤：祈祷"
+            },
+            {
+              "code": "A3",
+              "text": "心理健康与穆斯林皈依者的经历 - Yaqeen 研究所 - 引用于",
+              "linkLabel": "心理健康指南"
+            },
+            {
+              "code": "A4",
+              "text": "Ramadan 预备指南 - Yaqeen 研究所 - 引用于",
+              "linkLabel": "Ramadan 指南"
+            }
+          ]
+        },
+        {
+          "id": "book-refs",
+          "title": "书籍",
+          "items": [
+            {
+              "code": "B1",
+              "text": "《清晰的Quran》，作者：穆斯塔法·哈塔布博士 - 现代英语Quran译本。- 引用于",
+              "linkLabel": "主题：Quran"
+            },
+            {
+              "code": "B2",
+              "text": "穆斯塔法·乌马尔《欢迎来到伊斯兰——实用新穆斯林指南》。——在步骤1和3中引用"
+            },
+            {
+              "code": "B3",
+              "text": "《成为穆斯林：阿萨德·塔尔辛实用指南》（桑达拉出版社）——新穆斯林和归信穆斯林手册。——在第3步和第8步中有引用"
+            },
+            {
+              "code": "B4",
+              "text": "穆斯林的堡垒（Hisn al-Muslim）—真实每日祈祷文合集。—参考于",
+              "linkLabel": "主题：祈祷"
+            }
+          ]
+        }
+      ],
+      "closing": "如果您对这些参考资料有任何疑问或想建议其他来源，请使用应用程序内的反馈选项。我们欢迎有助于提高本指南的准确性和深度的贡献。"
+    },
+    "roadmap": {
+      "badge": "你的前进道路",
+      "description": "从你成为穆斯林的第一天起，到前六个月及更久的时间线指南。每个阶段都建立在前一个阶段的基础上——按顺序跟随它们，或者跳到自己感觉合适的地方。",
+      "stagesLabel": "旅程阶段",
+      "explore": "探索",
+      "endingTitle": "开始没有错误的地方。",
+      "endingBody": "从你所在的地方开始，并按照自己的节奏前进。每段旅程都是独一无二的，你的也不例外。"
+    },
+    "stage": {
+      "stageLabel": "舞台",
+      "overview": "概览",
+      "mainGoal": "主要目标",
+      "successLooksLike": "成功的样子",
+      "stepsInStage": "此阶段的步骤",
+      "dontWorryYet": "别着急",
+      "whatsNext": "下一步是什么",
+      "nextStage": "下一阶段",
+      "continueTo": "继续",
+      "finalStageTitle": "你已经到了最后阶段！",
+      "finalStageBody": "从这里，继续你终身的成长旅程。探索“主题”部分，以便深入学习特定的内容。",
+      "exploreTopics": "探索主题"
+    },
+    "step": {
+      "stepLabel": "步骤",
+      "whyThisStepMatters": "为什么这一步很重要",
+      "exactActions": "确切的行动",
+      "commonObstacles": "常见障碍",
+      "tinyVersion": "迷你版",
+      "whatUnlocksNext": "下一个解锁什么",
+      "recommendedResources": "推荐资源",
+      "relatedTopics": "相关主题",
+      "keyTerms": "关键词",
+      "navigationAriaLabel": "步骤导航",
+      "previous": "上一个",
+      "next": "下一步"
+    },
+    "topics": {
+      "description": "探索关于特定主题的指南，以加深你的理解。每个主题都是独立的——从你最感兴趣的内容开始。",
+      "gridLabel": "主题指南",
+      "footerPrefix": "在寻找逐步的路径吗？",
+      "footerRoadmap": "遵循路线图",
+      "footerGlossaryPrefix": "需要快速查找术语吗？",
+      "footerGlossary": "查看词汇表"
+    },
+    "topic": {
+      "relatedSteps": "相关步骤",
+      "keyTerms": "关键词",
+      "resources": "资源"
+    },
+    "ramadan": {
+      "title": "Ramadan 指南",
+      "subtitle": "你作为穆斯林的第一个 Ramadan。",
+      "whatIsRamadan": {
+        "title": "Ramadan 是什么？",
+        "body": "Ramadan 是伊斯兰历的第九个月，也是全球穆斯林最神圣的月份。在 Ramadan 期间，穆斯林每天从黎明到日落进行斋戒——戒食、戒饮以及其他身体需求。但 Ramadan 不仅仅是禁食；它是一个进行精神反省、自我提升、增加祈祷以及加深社区联系的时期。Quran 最初是在 Ramadan 期间启示的，使这个月份具有特别的精神意义。"
+      },
+      "forNewMuslims": {
+        "title": "给新穆斯林",
+        "calloutTitle": "你并不孤单",
+        "calloutBody": "如果这是你第一次 Ramadan，感到焦虑或不确定是完全正常的。记住，你能够进行的任何禁食都是有价值的，你可以逐渐增加。不要对自己太苛刻——即使是终身的穆斯林，有时也会觉得 Ramadan 很有挑战性。",
+        "body": "寻找一个禁食伙伴、导师或社区团体来共同分享这段经历。许多清真寺在Ramadan期间为新穆斯林提供特别项目。你正在承担一件美好的事情，穆斯林社区在这里支持你。"
+      },
+      "fastingBasics": {
+        "title": "禁食基础",
+        "items": [
+          {
+            "term": "Suhoor",
+            "desc": "(黎明前的餐) - 在Fajr祷告前吃一顿有营养的餐。这对于一整天的精力很重要。富含纤维和蛋白质的食物可以帮助你更持久地保持饱腹感。"
+          },
+          {
+            "term": "Iftar",
+            "desc": "(开斋) - 在日落时分开斋，传统上用椰枣和水。这是先知穆罕默德（愿他安息）的一个Sunnah，也是迅速补充能量的方法。"
+          },
+          {
+            "term": "应避免的事项",
+            "desc": "- 从黎明到日落不吃食物、不喝饮料、不进行亲密关系。如果你不小心吃了或喝了，你的斋戒仍然有效——只需停止并继续斋戒。"
+          },
+          {
+            "term": "谁免除",
+            "desc": "- 生病、旅行中、年长、怀孕、哺乳或月经期间的人可免除。错过的日子可以以后补上。"
+          },
+          {
+            "term": "意图 (Niyyah)",
+            "desc": "- 每晚或黎明前在心中立志，你是为了Allah而禁食。"
+          }
+        ],
+        "footerPrefix": "有关详细的禁食规则，请参阅",
+        "footerLinkLabel": "禁食与Ramadan",
+        "footerSuffix": "在主题部分。"
+      },
+      "preparing": {
+        "title": "为Ramadan做准备",
+        "items": [
+          "逐渐调整你的作息时间——你将会在黎明前起床吃苏霍尔。",
+          "在禁食期间，为避免戒断性头痛，事先减少咖啡因摄入。",
+          "提前规划简单、营养的苏霍尔和开斋饭餐点。",
+          "如果可能的话，让你的雇主或学校知道——许多人对宗教活动是理解的。",
+          "学习关键的祈祷：禁食的意图和开斋的祷告。",
+          "为本月设定个人目标——多阅读Quran、做慈善、改进一个习惯或增进一段关系。"
+        ]
+      },
+      "duringRamadan": {
+        "title": "在 Ramadan 期间",
+        "spiritualPracticesTitle": "精神修行",
+        "spiritualPractices": [
+          "每天阅读Quran - Ramadan是Quran的月份，即使每天只读几节也会有差别。",
+          "增加你的祈祷，尤其是在清真寺进行的Tarawih（夜间祈祷）。",
+          "经常祈祷（祈求）——斋戒者的祈祷具有特殊的意义。",
+          "如果你能够，行善施舍（sadaqah）——在这个月份，大力提倡慷慨。"
+        ],
+        "practicalTipsTitle": "实用生存技巧",
+        "practicalTipsCalloutTitle": "保持水分！",
+        "practicalTipsCalloutBody": "在开斋和清晨餐之间多喝水。脱水是最常见的挑战，特别是在漫长的夏季斋戒期间。",
+        "practicalTips": [
+          "不要跳过清晨餐——它能给你提供一整天的能量。",
+          "如果可能的话小睡一会儿，尤其是当你的夜晚由于Tarawih和清晨餐而较短时。",
+          "预计下午会有能量下降——尽量将需要精力的任务安排在上午。",
+          "以枣和水开斋——这能迅速提供能量，并遵循Sunnah。"
+        ]
+      },
+      "tarawihAndCommunity": {
+        "title": "Tarawih 与社区",
+        "tarawihBodyBeforeIsha": "Tarawih 是在 Ramadan 期间进行的特殊晚间祷告，在...之后举行",
+        "tarawihBodyAfterIsha": "（Isha）在清真寺的祷告。祷告时间可能相当长，但如果你无法完成整个祷告，不必担心——即使部分参与也是有益的。尽量至少参加一次，以体验美丽的社区氛围。",
+        "iftarBody": "Iftar 在清真寺和社区中心的聚会是与他人一起开斋的美好方式。你会发现丰盛的餐食和热情的面孔。这些聚会是 Ramadan 中最受珍视的部分之一，也是结交新朋友的好方法。",
+        "calloutTitle": "社区提示",
+        "calloutBody": "考虑找一个禁食伙伴或导师来提供责任感和支持。与他人分享这一经历会让整个过程容易得多。"
+      },
+      "laylatAlQadr": {
+        "title": "Laylat al-Qadr（权力之夜）",
+        "body": "在Ramadan的最后十个夜晚，穆斯林寻求Laylat al-Qadr——权力之夜。Quran将这夜描述为“胜过一千个月”。虽然确切日期不明，但传统上在最后十天的奇数夜中寻求（21日、23日、25日、27日或29日）。许多穆斯林在这些夜晚通过额外祈祷、Quran阅读和祈求来增加敬拜。"
+      },
+      "eidAlFitr": {
+        "title": "Eid al-Fitr",
+        "body": "在Ramadan结束时，穆斯林庆祝Eid al-Fitr——这是一个欢庆的节日，标志着斋月的结束。节日从早晨的特别开斋节祈祷开始，通常在清真寺或开放空间的大型集会上举行。",
+        "items": [
+          "穿上你最好的衣服，并用“Eid Mubarak”（开斋节快乐）来问候他人。",
+          "与社区一起享用节日餐点——开斋节是庆祝和感恩的一天。",
+          "如果你有能力，请在开斋节祈祷前捐赠 Zakat al-Fitr（一小额慈善捐款）。详情请询问你的清真寺。"
+        ],
+        "calloutTitle": "你应得的！",
+        "calloutBody": "在开斋节时感到情绪化是可以的，尤其是当你的家人离得很远或不理解你的旅程时。记住——你有一个新的社区可以一起庆祝。去参加开斋节祈祷，享受这一天，并为你所取得的成就感到自豪。"
+      },
+      "resources": {
+        "title": "资源",
+        "footerPrefix": "欲了解更多详情，请探索",
+        "footerLinkLabel": "禁食与Ramadan",
+        "footerSuffix": "主题页面。"
+      }
+    },
+    "mentalHealth": {
+      "title": "照顾你的心灵",
+      "subtitle": "你的情绪健康很重要。本页面旨在支持你。",
+      "validation": {
+        "title": "你的感受是有效的",
+        "calloutTitle": "你并不孤单",
+        "calloutBody": "许多新穆斯林会经历孤独、怀疑、焦虑、身份疑问或家庭冲突的感觉。这些感觉并不意味着你是一个不好的穆斯林——它们只是说明你是一个普通人。",
+        "body": "接受伊斯兰教是你可以做出的最重要的决定之一。这是一个美丽的步骤，但它也是一个需要情感调整的重大的生活改变。时而感到不知所措、矛盾或不确定是完全正常的。重要的是你在这里，正在学习和成长。你之前的每一位皈依者都经历过相同的过程，你也会找到自己的立足点。"
+      },
+      "faithAndHelp": {
+        "title": "信仰与专业帮助",
+        "paragraphs": [
+          "伊斯兰教教导同情、仁慈，并且重视照顾心灵。信任Allah可以带来极大的安慰，但我们的信仰也教导我们寻求实际的帮助方法。就像我们在身体生病时去看医生，同时为康复祈祷一样，在情绪困扰时去看咨询师，同时为心情舒缓祈祷，也是完全可以的。",
+          "先知穆罕默德（愿他平安）及其同伴也经历过悲伤、悲痛和压力。成为穆斯林并不意味着每时每刻都快乐——它意味着即使在困难中也怀有希望和坚持不懈。"
+        ],
+        "calloutTitle": "绑好你的骆驼",
+        "calloutBody": "伊斯兰教中有一个众所周知的概念：\"先拴好你的骆驼，然后再信任Allah。\" 这意味着在信赖上帝的同时，也要采取实际步骤来应对你的挑战。寻求治疗或咨询就是这样一个实际步骤。"
+      },
+      "commonExperiences": {
+        "title": "共同经历",
+        "helpLabel": "可以帮助的是：",
+        "items": [
+          {
+            "title": "孤独",
+            "body": "如果你还没有穆斯林朋友，或者你的家人已经疏远你，你可能会感到孤立。这种感觉是暂时的，尽管现在可能看起来并非如此。",
+            "help": "参加你当地清真寺的新穆斯林课程或社区活动。当面对面的联系不可用时，在线社区可以提供支持。查看你的清真寺是否有皈依者支持小组——许多清真寺都有。"
+          },
+          {
+            "title": "家庭冲突",
+            "body": "你的家人可能无法理解你的皈依，有些人可能会感到困惑、担忧，甚至表现出敌意。这是许多皈依者旅程中最困难的部分之一。",
+            "help": "尽可能保持充满爱的沟通。给你的家人时间去适应——你不必对你信仰的每一个细节进行辩论。设定温和的界限以保护你的内心平静。许多皈依者在你之前经历过类似情况，他们的经验可以提供指导和希望。"
+          },
+          {
+            "title": "身份问题",
+            "body": "你可能会在以前的身份和作为穆斯林的新生活之间感到矛盾。你可能会怀疑自己是否“足够穆斯林”，或者在宗教场合感到像冒牌货。",
+            "help": "你不必放弃你的文化或个性来成为穆斯林。伊斯兰教会丰富你的自我——它不会抹去你曾经的样子。接受你成长过程中美好的部分，并将其与伊斯兰价值观融合。每个人都有自己的成长节奏，没有唯一正确的成为穆斯林的方式。"
+          },
+          {
+            "title": "信仰中的疑虑",
+            "body": "你可能会对伊斯兰教产生怀疑，或者对自己的决定产生犹豫。信仰可能会波动，提问是任何精神旅程中自然的一部分。",
+            "help": "伊斯兰鼓励追求知识。与你有学问的导师交谈，阅读可靠的书籍，或参加学习小组。不要把你的问题憋在心里——真诚地探究它们往往随着时间的推移增强信仰。为指导而祈祷（dua），并对自己保持耐心。"
+          }
+        ]
+      },
+      "selfCare": {
+        "title": "实用的自我护理策略",
+        "items": [
+          "保持基本的自我照顾：充足的睡眠、营养的食物和规律的锻炼。身体健康会强烈影响情绪健康。",
+          "保持联系——定期联系朋友或导师。即使是每周一次的电话也能带来很大不同。",
+          "参与能带给你平静和快乐的活动：自然散步、阅读、创造性的爱好。健康的娱乐并不违背伊斯兰教。",
+          "通过回忆Allah（dhikr）和祈祷来缓解焦虑。像“SubhanAllah”这样简单的短语或诵读Al-Fatiha可以在困难时刻带来平静。",
+          "用日记记录你的感受或通过祷告表达它们——将事情写下来或从心底与Allah交谈可以缓解情绪压力。",
+          "与那些在情感上消耗你的人或情况设定健康的界限。保护你的平静是一种自我关怀的方式。",
+          "练习呼吸练习。Dhikr（回忆）可以是一种冥想——缓慢、深长的呼吸中重复“SubhanAllah”，结合了精神和身体的平静。",
+          "找到一个理解转换过程的支持性社区或导师。你不必独自完成这件事。"
+        ]
+      },
+      "seekHelp": {
+        "title": "何时寻求专业帮助",
+        "intro": "如果您出现以下任何情况，请联系心理健康专业人士或危机求助热线。这并不是信仰薄弱的表现——寻求帮助是迈向康复的勇敢一步，伊斯兰教完全支持这一点。",
+        "items": [
+          "持续的悲伤、绝望或空虚感，无法改善",
+          "由于情绪状态，无法进行日常活动——吃饭、工作或自我照顾",
+          "频繁的惊恐发作或严重的焦虑，干扰日常生活",
+          "自残的想法或希望自己不存在",
+          "感到完全不知所措或无法应对日常生活",
+          "使用物质来应对你的情绪"
+        ],
+        "calloutTitle": "如果你处于直接危险中",
+        "calloutBody": "如果您有伤害自己的想法，请立即拨打911或前往最近的急诊室。您的生命是宝贵且受重视的。"
+      },
+      "disclaimer": {
+        "label": "注意：",
+        "body": "本指南旨在提供一般情感支持和教育。它不能替代专业的治疗或医疗建议。如果您正在经历心理健康危机，请联系持证专业人员或以下列出的危机资源之一。"
+      },
+      "resources": {
+        "title": "支持资源",
+        "crisisHelplinesTitle": "危机求助热线",
+        "crisisHelplines": [
+          {
+            "name": "988自杀与危机热线",
+            "desc": "为任何处于困境或危机中的人提供全天候支持。",
+            "label": "拨打或发送短信：",
+            "contact": "988"
+          },
+          {
+            "name": "危机短信热线",
+            "desc": "免费，全天候文字危机支持。",
+            "label": "发送文本 HOME 到",
+            "contact": "741741"
+          },
+          {
+            "name": "Naseeha 心理健康热线",
+            "desc": "为穆斯林提供的保密支持，全天候24小时可用。",
+            "label": "呼叫：",
+            "contact": "1-866-627-3342"
+          }
+        ],
+        "directoriesTitle": "目录与支持",
+        "directories": [
+          {
+            "name": "哈立勒中心",
+            "desc": "为穆斯林提供的信仰敏感疗法和支持小组。",
+            "linkLabel": "访问网站"
+          },
+          {
+            "name": "您当地的Imam或穆斯林牧师",
+            "desc": "许多伊玛目和牧师都接受过提供精神和情感指导的培训。不要犹豫，去联系你当地清真寺的牧师。"
+          },
+          {
+            "name": "本地转换支持小组",
+            "desc": "请向你的清真寺查询你所在地区的皈依者支持小组。许多社区有定期聚会，新穆斯林可以在聚会上分享经验并互相支持。"
+          }
+        ],
+        "furtherReadingTitle": "进一步阅读",
+        "furtherReading": [
+          {
+            "name": "心理健康与穆斯林皈依者的经历",
+            "desc": "对转换者面临的独特情感挑战进行深入探索，并提供实用的应对策略。",
+            "linkLabel": "阅读文章"
+          }
+        ]
+      },
+      "crossLink": {
+        "prompt": "在寻找社区支持吗？",
+        "linkLabel": "阅读：建设你的穆斯林社区"
+      }
+    },
+    "resourcesPage": {
+      "description": "精选的书籍、视频、应用程序和社区，支持您的旅程。",
+      "findMasjidTitle": "找到一个Masjid",
+      "findMasjidBody": "在多伦多地区搜索清真寺并与当地社区联系。",
+      "filterAriaLabel": "按类别筛选资源",
+      "categories": {
+        "all": "全部",
+        "article": "文章",
+        "video": "视频",
+        "app": "应用程序",
+        "book": "书籍",
+        "community": "社区",
+        "pdf": "PDF"
+      },
+      "liveRegion": {
+        "one": "显示的资源",
+        "other": "显示的资源"
+      },
+      "emptyTitle": "该类别下没有资源",
+      "emptyPrefix": "试着选择一个不同的类别或",
+      "emptyAction": "查看所有资源"
+    },
+    "findMasjid": {
+      "description": "在多伦多地区搜索清真寺。与当地社区联系。",
+      "offlineTitle": "您已离线",
+      "offlineBody": "清真寺列表和搜索可以离线使用。地图功能需要互联网连接。",
+      "mapTitle": "地图即将推出",
+      "mapBody": "互动地图将在未来的更新中提供。",
+      "searchPlaceholder": "按名称、城市或邮政编码搜索...",
+      "searchLabel": "搜索清真寺",
+      "liveRegion": {
+        "one": "找到清真寺",
+        "other": "发现的清真寺"
+      },
+      "emptyTitle": "未找到清真寺",
+      "emptyPrefix": "尝试不同的搜索词或",
+      "emptyAction": "清除搜索",
+      "visitWebsite": "访问网站",
+      "visitWebsiteSuffix": "为",
+      "crossLinkPrompt": "第一次参观清真寺？了解一下可以预期的情况。",
+      "crossLinkLabel": "阅读：建设你的穆斯林社区"
+    },
+    "glossary": {
+      "description": "伊斯兰术语和概念速查。按自己的节奏搜索和学习。",
+      "searchPlaceholder": "搜索词...",
+      "searchLabel": "搜索词汇表",
+      "liveRegion": {
+        "one": "找到的术语",
+        "other": "找到的条款"
+      },
+      "emptyTitle": "未找到任何条款",
+      "emptyPrefix": "尝试不同的搜索词或",
+      "emptyAction": "清除搜索",
+      "seeAlso": "???"
+    },
+    "offline": {
+      "title": "你已离线",
+      "body": "看起来您未连接到互联网。您请求的页面尚未被缓存以供离线使用。",
+      "note": "你之前访问过的页面应该仍然可用。尝试导航到你以前打开过的页面，或者重新连接互联网后再试一次。",
+      "goHome": "回家",
+      "retry": "重试连接"
+    },
+    "notFound": {
+      "title": "页面未找到",
+      "body": "此页面似乎走失了。它可能已被移动、删除，或者网址可能不正确。让我们帮你回到正轨。",
+      "returnHome": "回家",
+      "goToRoadmap": "前往路线图"
+    }
+  }
+}

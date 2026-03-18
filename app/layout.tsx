@@ -1,5 +1,6 @@
 import type { Metadata, Viewport } from "next";
 import { Outfit, Fraunces, Amiri } from "next/font/google";
+import en from "@/locales/en/ui.json";
 import "./globals.css";
 
 const outfit = Outfit({
@@ -23,11 +24,10 @@ const amiri = Amiri({
 });
 
 export const metadata: Metadata = {
-  title: "Revert Guide - Your Journey Begins Here",
-  description:
-    "An offline-first educational guide for new Muslim converts in the Toronto area. Step-by-step onboarding with empathy and practical guidance.",
-  keywords: ["Islam", "convert", "revert", "Muslim", "guide", "Toronto"],
-  manifest: "/manifest.json",
+  title: en.metadata.site.title,
+  description: en.metadata.site.description,
+  keywords: en.metadata.site.keywords,
+  manifest: "/manifest.webmanifest",
   icons: {
     icon: "/favicon.svg",
     shortcut: "/favicon.svg",
@@ -35,12 +35,11 @@ export const metadata: Metadata = {
   appleWebApp: {
     capable: true,
     statusBarStyle: "default",
-    title: "Revert Guide",
+    title: en.brand.name,
   },
   openGraph: {
-    title: "Revert Guide",
-    description:
-      "Your guided journey into Islam - practical, compassionate, and at your own pace.",
+    title: en.brand.name,
+    description: en.metadata.site.openGraphDescription,
     type: "website",
   },
 };

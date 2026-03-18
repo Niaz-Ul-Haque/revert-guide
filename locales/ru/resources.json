@@ -1,0 +1,227 @@
+[
+  {
+    "id": "clear-quran-translation",
+    "title": "The Clear Quran by Dr. Mustafa Khattab",
+    "type": "book",
+    "url": "https://www.theclearquran.org/",
+    "description": "Высококачественный современный перевод Корана на английский язык, отмеченный за ясность и доступность для новых мусульман.",
+    "relatedStepIds": ["quran"],
+    "relatedTopicIds": ["quran"]
+  },
+  {
+    "id": "welcome-to-islam-book",
+    "title": "Welcome to Islam by Mustafa Umar",
+    "type": "book",
+    "url": "https://welcometoislam.net/",
+    "description": "Практическое руководство для новых мусульман, охватывающее основы веры, поклонения и повседневной жизни в тёплом, пошаговом формате.",
+    "relatedStepIds": ["shahada", "prayer", "quran"],
+    "relatedTopicIds": ["beliefs", "prayer"]
+  },
+  {
+    "id": "quran-com",
+    "title": "Quran.com",
+    "type": "app",
+    "url": "https://quran.com/",
+    "description": "Бесплатное веб- и мобильное приложение с множеством переводов Корана, транслитерациями и аудиозаписями чтения от известных чтецов.",
+    "relatedStepIds": ["quran"],
+    "relatedTopicIds": ["quran"]
+  },
+  {
+    "id": "muslim-pro-app",
+    "title": "Muslim Pro",
+    "type": "app",
+    "url": "https://www.muslimpro.com/",
+    "description": "Популярное универсальное приложение с точным расписанием молитв, Кораном с аудио, компасом кыблы и поиском халяльных ресторанов.",
+    "relatedStepIds": ["prayer", "quran", "halal-haram"],
+    "relatedTopicIds": ["prayer", "quran"]
+  },
+  {
+    "id": "yaqeen-institute",
+    "title": "Yaqeen Institute for Islamic Research",
+    "type": "video",
+    "url": "https://yaqeeninstitute.org/",
+    "description": "Статьи, видео и инфографика на основе исследований, посвящённые вопросам веры, духовности и современным проблемам в Исламе.",
+    "relatedStepIds": ["knowledge"],
+    "relatedTopicIds": ["beliefs"]
+  },
+  {
+    "id": "bayyinah-tv",
+    "title": "Bayyinah TV",
+    "type": "video",
+    "url": "https://www.bayyinah.tv/",
+    "description": "Платформа устаза Нумана Али Хана с увлекательными курсами по Корану и арабскому языку для всех уровней, включая абсолютных начинающих.",
+    "relatedStepIds": ["quran", "knowledge"],
+    "relatedTopicIds": ["quran"]
+  },
+  {
+    "id": "new-muslim-guide-icna",
+    "title": "ICNA New Muslim Support",
+    "type": "community",
+    "url": "https://www.icna.org/",
+    "description": "ICNA предоставляет программы наставничества, связи с местными общинами и образовательные ресурсы специально для новых мусульман в Северной Америке.",
+    "relatedStepIds": ["community", "shahada"],
+    "relatedTopicIds": ["community"]
+  },
+  {
+    "id": "whyislam",
+    "title": "WhyIslam",
+    "type": "community",
+    "url": "https://www.whyislam.org/",
+    "description": "Национальный информационный проект, предлагающий бесплатную литературу, индивидуальные беседы и поддержку новообращённых через бесплатную горячую линию.",
+    "relatedStepIds": ["shahada", "community"],
+    "relatedTopicIds": ["beliefs", "community"]
+  },
+  {
+    "id": "learn-salah-guide",
+    "title": "My Prayer (Salah) - A Step-by-Step Guide",
+    "type": "article",
+    "url": "https://www.newmuslimguide.com/en/your-prayer",
+    "description": "Иллюстрированное, простое руководство, подробно описывающее каждое положение и чтение в пяти ежедневных молитвах.",
+    "relatedStepIds": ["prayer"],
+    "relatedTopicIds": ["prayer", "purification"]
+  },
+  {
+    "id": "new-muslim-guide-site",
+    "title": "New Muslim Guide",
+    "type": "article",
+    "url": "https://www.newmuslimguide.com/en",
+    "description": "Комплексный онлайн-ресурс, охватывающий поклонение, убеждения и повседневные основы для тех, кто недавно принял Ислам.",
+    "relatedStepIds": ["shahada", "ghusl", "prayer"],
+    "relatedTopicIds": ["beliefs", "purification", "prayer"]
+  },
+  {
+    "id": "quran-recitation-mishary",
+    "title": "Full Quran Recitation by Mishary Rashid Alafasy",
+    "type": "video",
+    "url": "https://www.youtube.com/playlist?list=PLSoV91w6qqCmREbRhRkR4GtKEGz1PYRhP",
+    "description": "Красивое, чёткое чтение всего Корана, полезное для изучения правильного произношения и формирования привычки слушать.",
+    "relatedStepIds": ["quran"],
+    "relatedTopicIds": ["quran"]
+  },
+  {
+    "id": "ramadan-guide-yaqeen",
+    "title": "Ramadan Prep Guide by Yaqeen Institute",
+    "type": "article",
+    "url": "https://yaqeeninstitute.org/ramadan",
+    "description": "Практические советы, духовные размышления и расписание на каждый день, помогающие новым мусульманам подготовиться к Ramadan и провести его максимально полезно.",
+    "relatedStepIds": ["fasting"],
+    "relatedTopicIds": ["fasting"]
+  },
+  {
+    "id": "khalil-center",
+    "title": "Khalil Center - Muslim Mental Health",
+    "type": "community",
+    "url": "https://khalilcenter.com/",
+    "description": "Центр психологического и духовного благополучия, предлагающий терапию с учётом веры и группы поддержки для мусульман.",
+    "relatedStepIds": ["community"],
+    "relatedTopicIds": ["community"]
+  },
+  {
+    "id": "convert-mental-health-article",
+    "title": "Mental Health and the Muslim Convert Experience",
+    "type": "article",
+    "url": "https://yaqeeninstitute.org/read/paper/new-muslims-and-mental-health",
+    "description": "Углублённый анализ уникальных эмоциональных и психологических трудностей, с которыми сталкиваются новообращённые, с практическими стратегиями преодоления.",
+    "relatedStepIds": ["community", "character"],
+    "relatedTopicIds": ["character", "community"]
+  },
+  {
+    "id": "seekers-guidance",
+    "title": "SeekersGuidance",
+    "type": "article",
+    "url": "https://seekersguidance.org/",
+    "description": "Бесплатные, надёжные онлайн-курсы и ответы на вопросы по исламским наукам от квалифицированных учёных — идеально для построения прочной базы знаний.",
+    "relatedStepIds": ["knowledge", "prayer"],
+    "relatedTopicIds": ["beliefs", "prayer"]
+  },
+  {
+    "id": "being-muslim-book",
+    "title": "Being Muslim: A Practical Guide by Asad Tarsin",
+    "type": "book",
+    "url": "https://www.sandalapress.com/being-muslim",
+    "description": "Хорошо структурированное практическое руководство по поклонению, духовности и общественной жизни, написанное с учётом потребностей новых и возвращающихся мусульман.",
+    "relatedStepIds": ["prayer", "fasting", "knowledge"],
+    "relatedTopicIds": ["beliefs", "prayer", "fasting"]
+  },
+  {
+    "id": "halal-living-guide",
+    "title": "A Simple Guide to Halal Living",
+    "type": "article",
+    "url": "https://www.newmuslimguide.com/en/foods-and-drinks",
+    "description": "Понятный обзор диетических правил халяля: как определить халяльную еду, читать этикетки и ориентироваться при покупке продуктов.",
+    "relatedStepIds": ["halal-haram"],
+    "relatedTopicIds": []
+  },
+  {
+    "id": "seerah-podcast",
+    "title": "The Seerah Podcast by Yasir Qadhi",
+    "type": "video",
+    "url": "https://www.youtube.com/playlist?list=PLAEA99D24CA2F9A8F",
+    "description": "Обширная, увлекательная серия о жизни Пророка Muhammad (мир ему), предоставляющая исторический контекст и духовные уроки.",
+    "relatedStepIds": ["knowledge"],
+    "relatedTopicIds": ["beliefs"]
+  },
+  {
+    "id": "wudu-tutorial",
+    "title": "How to Perform Wudu (Ablution)",
+    "type": "video",
+    "url": "https://www.youtube.com/watch?v=exQM0mSfC5I",
+    "description": "Короткий наглядный видеоурок, понятно и просто демонстрирующий этапы вуду (ритуального омовения перед молитвой).",
+    "relatedStepIds": ["ghusl", "prayer"],
+    "relatedTopicIds": ["purification", "prayer"]
+  },
+  {
+    "id": "zakat-calculator",
+    "title": "IslamicFinder Zakat Calculator",
+    "type": "app",
+    "url": "https://www.islamicfinder.org/zakatcalculator/",
+    "description": "Бесплатный онлайн-инструмент для расчёта вашей ежегодной обязанности по Zakat на основе текущих цен на золото/серебро и ваших финансовых данных.",
+    "relatedStepIds": ["zakat-hajj"],
+    "relatedTopicIds": []
+  },
+  {
+    "id": "convert-story-videos",
+    "title": "Inspiring Convert Stories - The Deen Show",
+    "type": "video",
+    "url": "https://www.youtube.com/c/TheDeenShowTV",
+    "description": "Видеоинтервью и истории людей, принявших Ислам, дающие вдохновение и чувство принадлежности новым мусульманам.",
+    "relatedStepIds": ["shahada", "community"],
+    "relatedTopicIds": ["community"]
+  },
+  {
+    "id": "fortress-muslim-dua-book",
+    "title": "Fortress of the Muslim (Hisn al-Muslim)",
+    "type": "pdf",
+    "url": "https://www.kalamullah.com/fortress-of-the-muslim.html",
+    "description": "Широко используемый сборник достоверных ежедневных мольб (дуа) на все случаи жизни, доступный в виде бесплатного PDF для скачивания.",
+    "relatedStepIds": ["prayer", "character"],
+    "relatedTopicIds": ["prayer"]
+  },
+  {
+    "id": "aboutislam-new-muslims",
+    "title": "AboutIslam - New Muslims Section",
+    "type": "article",
+    "url": "https://aboutislam.net/reading-islam/new-muslims/",
+    "description": "Статьи, ответы на часто задаваемые вопросы и личные истории, адресованные специально новым мусульманам, осваивающим веру, идентичность и общину.",
+    "relatedStepIds": ["shahada", "community"],
+    "relatedTopicIds": ["beliefs", "community"]
+  },
+  {
+    "id": "tarteel-ai-app",
+    "title": "Tarteel AI - Quran Recitation Helper",
+    "type": "app",
+    "url": "https://www.tarteel.ai/",
+    "description": "Приложение на основе искусственного интеллекта, которое слушает ваше чтение Корана и даёт обратную связь в реальном времени для улучшения произношения.",
+    "relatedStepIds": ["quran"],
+    "relatedTopicIds": ["quran"]
+  },
+  {
+    "id": "purification-fiqh-guide",
+    "title": "A Guide to Ghusl and Purification",
+    "type": "article",
+    "url": "https://www.newmuslimguide.com/en/purification",
+    "description": "Пошаговое объяснение гусля (полного ритуального омовения) и различных видов очищения в Исламе.",
+    "relatedStepIds": ["ghusl"],
+    "relatedTopicIds": ["purification"]
+  }
+]

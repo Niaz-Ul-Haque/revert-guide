@@ -1,0 +1,338 @@
+[
+  {
+    "id": "allah",
+    "term": "Allah",
+    "arabicText": "الله",
+    "transliteration": "Allah",
+    "definition": "阿拉伯语中表示上帝的词。穆斯林用这个名字来指代唯一的造物主和维持者。讲阿拉伯语的基督徒和犹太人也用这个词称呼上帝。",
+    "seeAlso": ["islam", "iman", "aqeedah"]
+  },
+  {
+    "id": "aqeedah",
+    "term": "信条",
+    "arabicText": "عقيدة",
+    "transliteration": "ah-KEE-dah",
+    "definition": "伊斯兰教的核心信仰和信条，包括信仰独一的真主、天使、启示的经典、先知、审判日和神的旨意。可以将其视为穆斯林信仰的基础。",
+    "seeAlso": ["iman", "shahada", "allah"]
+  },
+  {
+    "id": "asr",
+    "term": "Asr",
+    "arabicText": "العصر",
+    "transliteration": "AHS-r",
+    "definition": "傍晚祈祷，是五次日祷中的第三次。它在下午中至日落之间进行。",
+    "seeAlso": ["salah", "fajr", "dhuhr", "maghrib", "isha"]
+  },
+  {
+    "id": "ayah",
+    "term": "阿亚",
+    "arabicText": "آية",
+    "transliteration": "AH-yah",
+    "definition": "Quran的一节经文。这个词字面意思是“标记”或“奇迹”。Quran由若干章节（苏拉）组成，每个章节包含若干节（阿亚）。",
+    "seeAlso": ["quran", "surah", "tafsir"]
+  },
+  {
+    "id": "dhikr",
+    "term": "Dhikr",
+    "arabicText": "ذكر",
+    "transliteration": "THIK-r",
+    "definition": "通过简短的短语、祈祷或冥想来记住和提及Allah的做法。它可以随时进行，是在一天中感受到与上帝更亲近的一种美好方式。",
+    "seeAlso": ["dua", "salah"]
+  },
+  {
+    "id": "dhuhr",
+    "term": "Dhuhr",
+    "arabicText": "الظهر",
+    "transliteration": "THUHR",
+    "definition": "午祷，是五次每日祷告中的第二次。它在太阳经过天空的最高点后进行。",
+    "seeAlso": ["salah", "fajr", "asr", "maghrib", "isha"]
+  },
+  {
+    "id": "dua",
+    "term": "Dua",
+    "arabicText": "دعاء",
+    "transliteration": "doo-AH",
+    "definition": "向Allah的个人祈祷或恳求。与正式的五次每日祷告不同，祈愿可以在任何时间进行，使用任何语言，并用你自己的话表达。这只是用心与上帝交谈。",
+    "seeAlso": ["dhikr", "salah"]
+  },
+  {
+    "id": "eid",
+    "term": "开斋节",
+    "arabicText": "عيد",
+    "transliteration": "EED",
+    "definition": "庆祝活动或节日。穆斯林每年庆祝两个主要的开斋节：Eid al-Fitr（标志着Ramadan的结束）和宰牲节（在Hajj季节期间）。这些是充满祈祷、聚会和感恩的欢乐时光。",
+    "seeAlso": ["ramadan", "hajj", "salah"]
+  },
+  {
+    "id": "fajr",
+    "term": "Fajr",
+    "arabicText": "الفجر",
+    "transliteration": "FAJ-r",
+    "definition": "黎明祷告是五次日常祷告中的第一次。它在黎明的第一缕光线和日出之间进行。许多穆斯林认为这种早晨的祷告是开始一天的平静方式。",
+    "seeAlso": ["salah", "dhuhr", "asr", "maghrib", "isha"]
+  },
+  {
+    "id": "fitrah",
+    "term": "本性",
+    "arabicText": "فطرة",
+    "transliteration": "FIT-rah",
+    "definition": "每个人出生时的自然、纯净状态，天生倾向于认识上帝。伊斯兰教教导，接受信仰是回归这种本初的本性，而不是外来的东西。",
+    "seeAlso": ["iman", "islam", "shahada"]
+  },
+  {
+    "id": "ghusl",
+    "term": "Ghusl",
+    "arabicText": "غسل",
+    "transliteration": "GHOO-sl",
+    "definition": "在某些情况下所需的全身仪式性清洗，例如接受伊斯兰教后、夫妻生活后或月经后。它涉及用清洁的意图洗整个身体。",
+    "seeAlso": ["wudu", "salah"]
+  },
+  {
+    "id": "hadith",
+    "term": "Hadith",
+    "arabicText": "حديث",
+    "transliteration": "ha-DEETH",
+    "definition": "先知穆罕默德（愿他平安）的被记录下来的言行或认可。哈迪斯的汇编是伊斯兰指导的重要来源之一，与《古兰经》一起，帮助穆斯林理解如何在日常生活中应用《古兰经》。",
+    "seeAlso": ["sunnah", "quran"]
+  },
+  {
+    "id": "hajj",
+    "term": "Hajj",
+    "arabicText": "حج",
+    "transliteration": "HAJJ",
+    "definition": "每个在身体和经济上有能力的穆斯林一生中至少应进行一次的年度朝觐至Makkah（麦加）。它在伊斯兰历的特定时期进行，是伊斯兰教五大支柱之一。",
+    "seeAlso": ["umrah", "islam", "masjid"]
+  },
+  {
+    "id": "halal",
+    "term": "清真",
+    "arabicText": "حلال",
+    "transliteration": "ha-LAAL",
+    "definition": "在伊斯兰教中允许或合法的任何事物。它最常用来描述符合伊斯兰饮食准则的食物，但也适用于生活的各个方面。如果某样东西是清真（halal）的，你可以自由享用它。",
+    "seeAlso": ["haram"]
+  },
+  {
+    "id": "haram",
+    "term": "哈拉姆",
+    "arabicText": "حرام",
+    "transliteration": "ha-RAAM",
+    "definition": "伊斯兰教中禁止或不允许的任何事物，例如饮酒或吃猪肉。这些界限旨在保护你的健康。如果你不确定某件事是否是哈拉姆，随时询问和学习是可以的。",
+    "seeAlso": ["halal"]
+  },
+  {
+    "id": "hijab",
+    "term": "头巾",
+    "arabicText": "حجاب",
+    "transliteration": "hih-JAAB",
+    "definition": "通常指许多穆斯林女性佩戴的头巾，作为谦逊和信仰的表现。更广泛地说，‘hijab’指的是男女在穿着和行为上的谦逊概念。",
+    "seeAlso": ["islam", "iman"]
+  },
+  {
+    "id": "imam",
+    "term": "Imam",
+    "arabicText": "إمام",
+    "transliteration": "ih-MAAM",
+    "definition": "在清真寺带领会众祈祷的人。许多伊玛目也担任社区领袖、教师和顾问。如果你对伊斯兰教有疑问，不要犹豫联系当地的伊玛目。",
+    "seeAlso": ["masjid", "salah", "jumuah"]
+  },
+  {
+    "id": "iman",
+    "term": "伊曼",
+    "arabicText": "إيمان",
+    "transliteration": "ee-MAAN",
+    "definition": "信仰或信念。在伊斯兰教中，信仰（iman）包括相信Allah、祂的天使、祂的经典、祂的使者、审判日以及神的旨意。信仰的波动是正常的，培养信仰是一生的旅程。",
+    "seeAlso": ["islam", "aqeedah", "shahada"]
+  },
+  {
+    "id": "islam",
+    "term": "伊斯兰教",
+    "arabicText": "إسلام",
+    "transliteration": "is-LAAM",
+    "definition": "顺从与与上帝和平的宗教。这个词来源于阿拉伯语词根，意为“和平”和“顺从”。伊斯兰教教导只有一位上帝，穆罕默德是祂的最后一位使者。",
+    "seeAlso": ["muslim", "allah", "iman", "shahada"]
+  },
+  {
+    "id": "isha",
+    "term": "Isha",
+    "arabicText": "العشاء",
+    "transliteration": "ih-SHAA",
+    "definition": "夜间祷告，是每天的第五次也是最后一次祷告。它在暮光消失后进行，可以在午夜之前或在Fajr祷告之前进行。",
+    "seeAlso": ["salah", "fajr", "dhuhr", "asr", "maghrib"]
+  },
+  {
+    "id": "jumuah",
+    "term": "Jumu'ah",
+    "arabicText": "جمعة",
+    "transliteration": "JOO-moo-ah",
+    "definition": "星期五的团体祷告，在星期五取代了Dhuhr祷告。它包括一次讲道（khutbah），是穆斯林社区每周的重要聚会。参加Jumu'ah是与其他穆斯林联系的绝佳方式。",
+    "seeAlso": ["salah", "masjid", "imam", "dhuhr"]
+  },
+  {
+    "id": "khutbah",
+    "term": "讲道",
+    "arabicText": "خطبة",
+    "transliteration": "KHUT-bah",
+    "definition": "由伊玛目在星期五祈祷前或开斋节祈祷期间讲的讲道。它通常涵盖伊斯兰教义、提醒和社区事务。鼓励在讲道期间安静聆听。",
+    "seeAlso": ["jumuah", "imam", "masjid"]
+  },
+  {
+    "id": "maghrib",
+    "term": "Maghrib",
+    "arabicText": "المغرب",
+    "transliteration": "MAGH-rib",
+    "definition": "日落祈祷，这是五次日常祈祷中的第四次。它是在太阳刚刚落山后进行的。Maghrib 的时间窗口相对较短，直到暮光消退为止。",
+    "seeAlso": ["salah", "fajr", "dhuhr", "asr", "isha"]
+  },
+  {
+    "id": "masjid",
+    "term": "Masjid",
+    "arabicText": "مسجد",
+    "transliteration": "MAS-jid",
+    "definition": "清真寺，是穆斯林聚集进行祈祷和社区活动的地方。这个词字面意思是“下跪的地方”。清真寺是欢迎的空间，你总是可以去参观它们。",
+    "seeAlso": ["salah", "imam", "jumuah"]
+  },
+  {
+    "id": "muslim",
+    "term": "穆斯林",
+    "arabicText": "مسلم",
+    "transliteration": "MUS-lim",
+    "definition": "一个遵循伊斯兰教并顺从Allah旨意的人。这个词来源于与伊斯兰相同的词根，意思是通过顺从上帝而获得内心平静的人。欢迎加入我们的大家庭！",
+    "seeAlso": ["islam", "shahada", "iman"]
+  },
+  {
+    "id": "niyyah",
+    "term": "Niyyah",
+    "arabicText": "نية",
+    "transliteration": "NIY-yah",
+    "definition": "意图。在伊斯兰教中，你意图的真诚赋予行为精神上的价值。在祈祷或禁食等崇拜行为之前，你在心中确定你的尼雅（意图）。它不需要大声说出来。",
+    "seeAlso": ["salah", "sawm", "wudu"]
+  },
+  {
+    "id": "quran",
+    "term": "Quran",
+    "arabicText": "القرآن",
+    "transliteration": "qur-AAN",
+    "definition": "伊斯兰教的圣书，被认为是上帝直接启示给先知穆罕默德（愿他安息）长达23年的话语。它是穆斯林的主要指导来源，并且传统上用阿拉伯语诵读。",
+    "seeAlso": ["ayah", "surah", "tafsir", "tajweed", "hadith"]
+  },
+  {
+    "id": "rakah",
+    "term": "拜次",
+    "arabicText": "ركعة",
+    "transliteration": "RAK-ah",
+    "definition": "伊斯兰祷告的一个单独单位或周期，包括站立、鞠躬和下拜。每天五次祷告中的每一次都有固定的礼拜单位数。学习这些动作需要一些练习，这是完全正常的。",
+    "seeAlso": ["salah", "wudu"]
+  },
+  {
+    "id": "ramadan",
+    "term": "Ramadan",
+    "arabicText": "رمضان",
+    "transliteration": "ra-ma-DAAN",
+    "definition": "伊斯兰历的第九个月，穆斯林在此期间从黎明到日落进行斋戒。这是一个深刻的精神反思、祈祷、社区活动和感恩的时期。你的第一个Ramadan是一次特殊的体验，你可以按照自己的节奏进行。",
+    "seeAlso": ["sawm", "eid", "salah"]
+  },
+  {
+    "id": "sadaqah",
+    "term": "慈善捐赠",
+    "arabicText": "صدقة",
+    "transliteration": "SA-da-qah",
+    "definition": "自愿的慈善或出于善意和同情心所做的善行。与天课不同，施舍并非义务，可以简单到一个微笑、帮助邻居或分享食物。每一个善行都算数。",
+    "seeAlso": ["zakat"]
+  },
+  {
+    "id": "salah",
+    "term": "Salah",
+    "arabicText": "صلاة",
+    "transliteration": "sa-LAAH",
+    "definition": "每天五次进行的正式伊斯兰祷告。它是伊斯兰教五大支柱之一，是你与Allah之间的直接联系。学习祷告需要时间，可以慢慢开始并逐步进步。",
+    "seeAlso": ["wudu", "fajr", "dhuhr", "asr", "maghrib", "isha", "rakah"]
+  },
+  {
+    "id": "salam",
+    "term": "萨拉姆",
+    "arabicText": "سلام",
+    "transliteration": "sa-LAAM",
+    "definition": "和平。问候语“阿萨拉姆阿莱库姆”（As-salamu alaykum）意思是“愿平安降临你”，是穆斯林互相问候的标准方式。回答是“瓦阿莱库姆阿萨拉姆”（Wa alaykum as-salam，意思是“愿平安也降临你”）。这是一个热情而友好的传统。",
+    "seeAlso": ["islam", "muslim"]
+  },
+  {
+    "id": "sawm",
+    "term": "锯",
+    "arabicText": "صوم",
+    "transliteration": "SOWM",
+    "definition": "禁食，尤其是在Ramadan月份期间。穆斯林从黎明到日落会禁止饮食和其他身体需求。禁食是伊斯兰教五大支柱之一，是精神成长和自律的时期。",
+    "seeAlso": ["ramadan", "niyyah"]
+  },
+  {
+    "id": "shahada",
+    "term": "Shahada",
+    "arabicText": "شهادة",
+    "transliteration": "sha-HAA-dah",
+    "definition": "信仰声明和伊斯兰教的第一根支柱：“我作证，除Allah外别无神明，穆罕默德是他的使者。” 真诚地说出Shahada是一个人进入伊斯兰教的方式。这是你旅程中最重要的一步。",
+    "seeAlso": ["islam", "muslim", "iman", "allah"]
+  },
+  {
+    "id": "sunnah",
+    "term": "Sunnah",
+    "arabicText": "سنة",
+    "transliteration": "SOON-nah",
+    "definition": "先知穆罕默德（愿他平安）的教义、实践和生活方式。遵循Sunnah有助于穆斯林理解如何在日常情境中运用Quran。它涵盖了从祈祷到善行再到日常习惯的方方面面。",
+    "seeAlso": ["hadith", "quran"]
+  },
+  {
+    "id": "surah",
+    "term": "苏拉",
+    "arabicText": "سورة",
+    "transliteration": "SOO-rah",
+    "definition": "Quran 的一章。总共有 114 节，长度从几节经文到几页不等。许多新穆斯林从学习 Quran 末尾的较短章节开始，以用于他们的日常祈祷。",
+    "seeAlso": ["quran", "ayah", "tafsir"]
+  },
+  {
+    "id": "tafsir",
+    "term": "塔夫西尔",
+    "arabicText": "تفسير",
+    "transliteration": "taf-SEER",
+    "definition": "Quran 的学术解释与阐释。塔夫西尔帮助你理解每节经文的背景、含义和教训。将可靠的塔夫西尔与 Quran 一起阅读，可以使你的学习更加丰富。",
+    "seeAlso": ["quran", "ayah", "surah"]
+  },
+  {
+    "id": "tajweed",
+    "term": "塔吉维德",
+    "arabicText": "تجويد",
+    "transliteration": "taj-WEED",
+    "definition": "在背诵Quran时正确发音字母和单词的一套规则。学习塔吉维德是一个渐进的过程，许多穆斯林会随着时间学习它。起初不必担心完美。",
+    "seeAlso": ["quran", "surah"]
+  },
+  {
+    "id": "tawbah",
+    "term": "悔改",
+    "arabicText": "توبة",
+    "transliteration": "TAW-bah",
+    "definition": "悔改，或者在犯错后真诚地回归Allah。伊斯兰教教导说，Allah 总是准备原谅。进行悔改(tawbah)仅意味着承认错误，感到真诚的悔恨，并打算不再重复错误。",
+    "seeAlso": ["dua", "allah", "iman"]
+  },
+  {
+    "id": "umrah",
+    "term": "Umrah",
+    "arabicText": "عمرة",
+    "transliteration": "UM-rah",
+    "definition": "一次自愿前往 Makkah 的朝圣，可以在一年中的任何时间进行，不像 Hajj 有固定日期。它是一种较短且不那么复杂的朝圣，但却是一次深刻的精神体验。",
+    "seeAlso": ["hajj", "masjid"]
+  },
+  {
+    "id": "wudu",
+    "term": "Wudu",
+    "arabicText": "وضوء",
+    "transliteration": "woo-DOO",
+    "definition": "祷告前进行的仪式性洗净。它包括按特定顺序洗手、漱口、洗鼻、洗脸、洗臂、擦头和洗脚。Wudu是一种使人平静的准备，帮助你进入祈祷的状态。",
+    "seeAlso": ["salah", "ghusl", "niyyah"]
+  },
+  {
+    "id": "zakat",
+    "term": "Zakat",
+    "arabicText": "زكاة",
+    "transliteration": "za-KAAT",
+    "definition": "强制性的年度慈善捐赠，按穆斯林符合条件的财富的2.5%计算。它是伊斯兰教五大支柱之一，旨在净化个人财富，同时帮助有需要的人。只有当达到最低财富门槛时才适用。",
+    "seeAlso": ["sadaqah", "islam"]
+  }
+]

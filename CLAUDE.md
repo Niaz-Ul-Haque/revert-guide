@@ -77,12 +77,12 @@ This is the authoritative project context document for the **Revert Guide** appl
 - **Glossary**: Glossary.json with entries: id (unique key), term, optional arabicText and transliteration, plain language definition, seeAlso (array of related term ids). Sorted alphabetically.
 - **Resources**: resources.json with entries: id, title, type (article, video, book, app, community, pdf), url, description, relatedStepIds, relatedTopicIds. Keep descriptions concise.
 - **Masjid Data**: masjids.json with entries: id (unique slug), name, address, city, stateProvince, country, postalCode, coordinates (lat/lng), phone, website, notes. Initial dataset: 10 Toronto-area masjids.
-- **Default Locale:** English content resides under `content/en/` with potential subfolders.
+- **Default Locale:** English locale assets reside under `locales/en/` with potential subfolders.
 
 **i18n (Internationalization) Rules:**
 - **Default Language:** English (US) is the default.
-- **UI Strings:** Stored in locale JSON (e.g., `locales/en.json`). Do not hard-code English in components; use a lookup like `t('nav.home')`.
-- **Translations:** Although initially English-only, the system accommodates future languages. Duplicate content folder for new locales (e.g., `content/fr/`).
+- **UI Strings:** Stored in locale JSON (e.g., `locales/en/ui.json`). Do not hard-code English in components; use a lookup like `t('nav.home')`.
+- **Translations:** Although initially English-only, the system accommodates future languages. Duplicate the locale folder for new languages (e.g., `locales/fr/`).
 - **RTL Support:** Arabic requires right-to-left layout. Use `dir="rtl"` on Arabic text segments and RTL fonts. Use logical CSS properties (margin-inline-start vs margin-left).
 - **Proper Nouns:** Do not translate "Allah", "Ramadan", "Shahada", etc.
 - **Locale Switching:** (Future) Architecture keeps content separated by locale, enabling simple language switching.
@@ -180,7 +180,7 @@ This is the authoritative project context document for the **Revert Guide** appl
 - **Glossary:** glossary.json array. Entries: id (for anchoring), term, arabicText, transliteration, definition, seeAlso array.
 - **Resources:** resources.json array. Entries: id, title, type (article, video, book, app, community, pdf), url, description, relatedStepIds, relatedTopicIds.
 - **Masjids:** masjids.json array. Entries: id, name, address, city, province, postalCode, country, lat, lng, phone, website, notes.
-- **Default Locale:** content/en/ (with potential content/fr/ etc. for translations).
+- **Default Locale:** locales/en/ (with potential locales/fr/ etc. for translations).
 - During build: transform content into HTML and data objects for rendering. Structured approach ensures consistency (all Steps have whyMatters section). Updating content means editing files, not code.
 
 **Masjid Finder Implementation:**
@@ -201,9 +201,9 @@ This is the authoritative project context document for the **Revert Guide** appl
 
 **Internationalization (i18n):**
 - Built with future translation in mind.
-- All UI labels/static text in locale JSON (e.g., locales/en.json). Components use lookup like t('nav.home').
+- All UI labels/static text in locale JSON (e.g., `locales/en/ui.json`). Components use lookup like `t('nav.home')`.
 - Currently English-only. System accommodates future languages.
-- Content files organized by locale (content/en/, content/fr/, etc.). Default is English.
+- Content files organized by locale (`locales/en/`, `locales/fr/`, etc.). Default is English.
 - **RTL Support:** Arabic requires right-to-left layout. Use dir="rtl" on Arabic text spans. RTL fonts (Amiri for Arabic).
 - **Logical CSS:** Use logical properties (margin-inline-start vs margin-left) where possible.
 - **Proper Nouns:** Don't translate "Allah", "Ramadan", "Shahada", etc.

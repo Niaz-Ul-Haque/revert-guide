@@ -2,7 +2,7 @@
 
 import { useRouter, usePathname } from "next/navigation";
 import {
-  getLocaleLabel,
+  getLocaleDisplayName,
   LOCALE_STORAGE_KEY,
   SUPPORTED_LOCALES,
   switchLocaleInPath,
@@ -34,7 +34,7 @@ export function LanguageSwitcher() {
       >
         {SUPPORTED_LOCALES.map((targetLocale) => (
           <option key={targetLocale} value={targetLocale} lang={targetLocale}>
-            {getLocaleLabel(targetLocale)}
+            {getLocaleDisplayName(targetLocale)}
           </option>
         ))}
       </select>

@@ -1,0 +1,227 @@
+[
+  {
+    "id": "clear-quran-translation",
+    "title": "The Clear Quran by Dr. Mustafa Khattab",
+    "type": "book",
+    "url": "https://www.theclearquran.org/",
+    "description": "Una traducción al inglés moderno muy legible del Corán, elogiada por su claridad y accesibilidad para los nuevos musulmanes.",
+    "relatedStepIds": ["quran"],
+    "relatedTopicIds": ["quran"]
+  },
+  {
+    "id": "welcome-to-islam-book",
+    "title": "Welcome to Islam by Mustafa Umar",
+    "type": "book",
+    "url": "https://welcometoislam.net/",
+    "description": "Una guía práctica para nuevos musulmanes que cubre los aspectos esenciales de la fe, el culto y la vida diaria en un formato cálido y paso a paso.",
+    "relatedStepIds": ["shahada", "prayer", "quran"],
+    "relatedTopicIds": ["beliefs", "prayer"]
+  },
+  {
+    "id": "quran-com",
+    "title": "Quran.com",
+    "type": "app",
+    "url": "https://quran.com/",
+    "description": "Aplicación web y móvil gratuita que ofrece múltiples traducciones, transliteraciones y recitaciones de audio del Corán realizadas por recitadores de renombre.",
+    "relatedStepIds": ["quran"],
+    "relatedTopicIds": ["quran"]
+  },
+  {
+    "id": "muslim-pro-app",
+    "title": "Muslim Pro",
+    "type": "app",
+    "url": "https://www.muslimpro.com/",
+    "description": "Popular aplicación todo en uno con tiempos de oración precisos, Corán con audio, brújula qibla y buscador de restaurantes halal.",
+    "relatedStepIds": ["prayer", "quran", "halal-haram"],
+    "relatedTopicIds": ["prayer", "quran"]
+  },
+  {
+    "id": "yaqeen-institute",
+    "title": "Yaqeen Institute for Islamic Research",
+    "type": "video",
+    "url": "https://yaqeeninstitute.org/",
+    "description": "Artículos, videos e infografías basados en investigaciones que abordan cuestiones de fe, espiritualidad y cuestiones contemporáneas en el Islam.",
+    "relatedStepIds": ["knowledge"],
+    "relatedTopicIds": ["beliefs"]
+  },
+  {
+    "id": "bayyinah-tv",
+    "title": "Bayyinah TV",
+    "type": "video",
+    "url": "https://www.bayyinah.tv/",
+    "description": "La plataforma de Ustadh Nouman Ali Khan que ofrece interesantes cursos de árabe y Corán diseñados para todos los niveles, incluidos los principiantes.",
+    "relatedStepIds": ["quran", "knowledge"],
+    "relatedTopicIds": ["quran"]
+  },
+  {
+    "id": "new-muslim-guide-icna",
+    "title": "ICNA New Muslim Support",
+    "type": "community",
+    "url": "https://www.icna.org/",
+    "description": "ICNA ofrece programas de tutoría, conexiones con la comunidad local y recursos educativos específicamente para nuevos musulmanes en toda América del Norte.",
+    "relatedStepIds": ["community", "shahada"],
+    "relatedTopicIds": ["community"]
+  },
+  {
+    "id": "whyislam",
+    "title": "WhyIslam",
+    "type": "community",
+    "url": "https://www.whyislam.org/",
+    "description": "Un proyecto de alcance nacional que ofrece literatura gratuita, conversaciones individuales y apoyo a los conversos locales a través de una línea de ayuda gratuita.",
+    "relatedStepIds": ["shahada", "community"],
+    "relatedTopicIds": ["beliefs", "community"]
+  },
+  {
+    "id": "learn-salah-guide",
+    "title": "My Prayer (Salah) - A Step-by-Step Guide",
+    "type": "article",
+    "url": "https://www.newmuslimguide.com/en/your-prayer",
+    "description": "Guía ilustrada y fácil de seguir que recorre cada posición y recitación de las cinco oraciones diarias.",
+    "relatedStepIds": ["prayer"],
+    "relatedTopicIds": ["prayer", "purification"]
+  },
+  {
+    "id": "new-muslim-guide-site",
+    "title": "New Muslim Guide",
+    "type": "article",
+    "url": "https://www.newmuslimguide.com/en",
+    "description": "Recurso completo en línea que cubre el culto, las creencias y los elementos esenciales de la vida diaria para quienes han abrazado recientemente el Islam.",
+    "relatedStepIds": ["shahada", "ghusl", "prayer"],
+    "relatedTopicIds": ["beliefs", "purification", "prayer"]
+  },
+  {
+    "id": "quran-recitation-mishary",
+    "title": "Full Quran Recitation by Mishary Rashid Alafasy",
+    "type": "video",
+    "url": "https://www.youtube.com/playlist?list=PLSoV91w6qqCmREbRhRkR4GtKEGz1PYRhP",
+    "description": "Hermosa y clara recitación de todo el Corán, útil para aprender la pronunciación adecuada y desarrollar el hábito de escuchar.",
+    "relatedStepIds": ["quran"],
+    "relatedTopicIds": ["quran"]
+  },
+  {
+    "id": "ramadan-guide-yaqeen",
+    "title": "Ramadan Prep Guide by Yaqeen Institute",
+    "type": "article",
+    "url": "https://yaqeeninstitute.org/ramadan",
+    "description": "Consejos prácticos, reflexiones espirituales y horarios diarios para ayudar a los nuevos musulmanes a prepararse y aprovechar al máximo el Ramadán.",
+    "relatedStepIds": ["fasting"],
+    "relatedTopicIds": ["fasting"]
+  },
+  {
+    "id": "khalil-center",
+    "title": "Khalil Center - Muslim Mental Health",
+    "type": "community",
+    "url": "https://khalilcenter.com/",
+    "description": "Un centro de bienestar comunitario psicológico y espiritual que ofrece terapia sensible a la fe y grupos de apoyo para musulmanes.",
+    "relatedStepIds": ["community"],
+    "relatedTopicIds": ["community"]
+  },
+  {
+    "id": "convert-mental-health-article",
+    "title": "Mental Health and the Muslim Convert Experience",
+    "type": "article",
+    "url": "https://yaqeeninstitute.org/read/paper/new-muslims-and-mental-health",
+    "description": "Una exploración en profundidad de los desafíos emocionales y psicológicos únicos que enfrenta el converso, con estrategias prácticas para afrontarlo.",
+    "relatedStepIds": ["community", "character"],
+    "relatedTopicIds": ["character", "community"]
+  },
+  {
+    "id": "seekers-guidance",
+    "title": "SeekersGuidance",
+    "type": "article",
+    "url": "https://seekersguidance.org/",
+    "description": "Cursos en línea gratuitos y confiables y preguntas y respuestas sobre ciencias islámicas impartidos por académicos calificados, ideales para construir una base sólida de conocimientos.",
+    "relatedStepIds": ["knowledge", "prayer"],
+    "relatedTopicIds": ["beliefs", "prayer"]
+  },
+  {
+    "id": "being-muslim-book",
+    "title": "Being Muslim: A Practical Guide by Asad Tarsin",
+    "type": "book",
+    "url": "https://www.sandalapress.com/being-muslim",
+    "description": "Un manual práctico bien organizado que cubre el culto, la espiritualidad y la vida comunitaria, escrito pensando en los musulmanes nuevos y los que regresan.",
+    "relatedStepIds": ["prayer", "fasting", "knowledge"],
+    "relatedTopicIds": ["beliefs", "prayer", "fasting"]
+  },
+  {
+    "id": "halal-living-guide",
+    "title": "A Simple Guide to Halal Living",
+    "type": "article",
+    "url": "https://www.newmuslimguide.com/en/foods-and-drinks",
+    "description": "Descripción general clara de las pautas dietéticas halal, incluido cómo identificar alimentos halal, leer etiquetas y navegar en las compras de comestibles.",
+    "relatedStepIds": ["halal-haram"],
+    "relatedTopicIds": []
+  },
+  {
+    "id": "seerah-podcast",
+    "title": "The Seerah Podcast by Yasir Qadhi",
+    "type": "video",
+    "url": "https://www.youtube.com/playlist?list=PLAEA99D24CA2F9A8F",
+    "description": "Una serie extensa y atractiva sobre la vida del Profeta Muhammad (la paz sea con él), que brinda contexto histórico y lecciones espirituales.",
+    "relatedStepIds": ["knowledge"],
+    "relatedTopicIds": ["beliefs"]
+  },
+  {
+    "id": "wudu-tutorial",
+    "title": "How to Perform Wudu (Ablution)",
+    "type": "video",
+    "url": "https://www.youtube.com/watch?v=exQM0mSfC5I",
+    "description": "Tutorial visual breve que demuestra los pasos del wudu (purificación ritual antes de la oración) de forma clara y sencilla.",
+    "relatedStepIds": ["ghusl", "prayer"],
+    "relatedTopicIds": ["purification", "prayer"]
+  },
+  {
+    "id": "zakat-calculator",
+    "title": "IslamicFinder Zakat Calculator",
+    "type": "app",
+    "url": "https://www.islamicfinder.org/zakatcalculator/",
+    "description": "Herramienta gratuita en línea para calcular su obligación anual de zakat en función de los precios actuales del oro y la plata y sus detalles financieros.",
+    "relatedStepIds": ["zakat-hajj"],
+    "relatedTopicIds": []
+  },
+  {
+    "id": "convert-story-videos",
+    "title": "Inspiring Convert Stories - The Deen Show",
+    "type": "video",
+    "url": "https://www.youtube.com/c/TheDeenShowTV",
+    "description": "Entrevistas en video e historias de personas que abrazaron el Islam, ofreciendo aliento y un sentido de pertenencia a los nuevos conversos.",
+    "relatedStepIds": ["shahada", "community"],
+    "relatedTopicIds": ["community"]
+  },
+  {
+    "id": "fortress-muslim-dua-book",
+    "title": "Fortress of the Muslim (Hisn al-Muslim)",
+    "type": "pdf",
+    "url": "https://www.kalamullah.com/fortress-of-the-muslim.html",
+    "description": "Una colección ampliamente utilizada de auténticas súplicas diarias (duas) para cada ocasión, disponible como PDF descargable de forma gratuita.",
+    "relatedStepIds": ["prayer", "character"],
+    "relatedTopicIds": ["prayer"]
+  },
+  {
+    "id": "aboutislam-new-muslims",
+    "title": "AboutIslam - New Muslims Section",
+    "type": "article",
+    "url": "https://aboutislam.net/reading-islam/new-muslims/",
+    "description": "Artículos, preguntas frecuentes e historias personales diseñadas específicamente para nuevos musulmanes que navegan por la fe, la identidad y la comunidad.",
+    "relatedStepIds": ["shahada", "community"],
+    "relatedTopicIds": ["beliefs", "community"]
+  },
+  {
+    "id": "tarteel-ai-app",
+    "title": "Tarteel AI - Quran Recitation Helper",
+    "type": "app",
+    "url": "https://www.tarteel.ai/",
+    "description": "Aplicación con tecnología de inteligencia artificial que escucha la recitación del Corán y brinda comentarios en tiempo real para ayudarlo a mejorar su pronunciación.",
+    "relatedStepIds": ["quran"],
+    "relatedTopicIds": ["quran"]
+  },
+  {
+    "id": "purification-fiqh-guide",
+    "title": "A Guide to Ghusl and Purification",
+    "type": "article",
+    "url": "https://www.newmuslimguide.com/en/purification",
+    "description": "Explicación paso a paso del ghusl (baño ritual completo) y los diferentes tipos de purificación en el Islam.",
+    "relatedStepIds": ["ghusl"],
+    "relatedTopicIds": ["purification"]
+  }
+]

@@ -1,0 +1,95 @@
+[
+  {
+    "id": "day-0-1",
+    "title": "Abrace a fé e o recomeço",
+    "subtitle": "Dia 0–1",
+    "description": "Parabéns por dar esse lindo passo! Esta fase é para celebrar a sua decisão de abraçar o Islão e dar os primeiros passos da sua nova jornada. Não há pressa – simplesmente absorva o momento e comece com o que parece certo.",
+    "mainGoal": "Declare sua fé através do Shahada e realize o banho de purificação (Ghusl) para marcar o seu recomeço.",
+    "success": "Você falou o Shahada com sinceridade e executou o Ghusl. Você sente uma sensação de paz e um novo começo.",
+    "dontWorry": [
+      "Não se preocupe em memorizar orações longas agora – isso acontecerá mais tarde.",
+      "Não se preocupe em mudar seu nome – isso não é obrigatório no Islã.",
+      "Não se preocupe em saber tudo – aprender é uma jornada que dura a vida toda.",
+      "Não se preocupe com o que os outros pensam – isso é entre você e Deus."
+    ],
+    "stepIds": ["shahada", "ghusl"],
+    "duration": "1–2 dias"
+  },
+  {
+    "id": "week-1",
+    "title": "Construindo Fundações",
+    "subtitle": "Semana 1",
+    "description": "Agora que você abraçou o Islã, é hora de construir seus alicerces. Esta semana se concentra na prática diária mais essencial – a oração – e na conexão com a comunidade muçulmana local. Viva um dia de cada vez.",
+    "mainGoal": "Aprenda o básico das cinco orações diárias e visite uma mesquita local para começar a construir uma comunidade.",
+    "success": "Você está fazendo algumas orações diárias (mesmo que de forma imperfeita) e visitou uma mesquita ou se conectou com outros muçulmanos.",
+    "dontWorry": [
+      "Não se preocupe com a pronúncia perfeita do árabe na oração.",
+      "Não se preocupe se você perder uma oração – apenas tente pegar a próxima.",
+      "Não se preocupe em se adaptar à mesquita – todo mundo já foi novo.",
+      "Não se preocupe em conhecer todos os movimentos de oração ainda."
+    ],
+    "stepIds": ["prayer", "community"],
+    "duration": "~1 semana"
+  },
+  {
+    "id": "week-2-3",
+    "title": "Prática de Fortalecimento",
+    "subtitle": "Semanas 2–4",
+    "description": "Você está se adaptando à sua nova rotina. Esta etapa aprofunda sua conexão com o Quran e fortalece os hábitos que você começou a construir. A consistência é mais importante do que a perfeição.",
+    "mainGoal": "Comece a ler ou ouvir Quran regularmente e estabeleça uma rotina diária consistente.",
+    "success": "Você tem uma rotina básica de leitura Quran e suas orações diárias estão se tornando mais naturais.",
+    "dontWorry": [
+      "Não se preocupe em ler árabe fluentemente – as traduções são perfeitamente adequadas.",
+      "Não se preocupe em entender cada versículo – concentre-se no que ressoa.",
+      "Não se preocupe se você tiver dificuldade para manter a consistência – construir hábitos leva tempo."
+    ],
+    "stepIds": ["quran"],
+    "duration": "2–3 semanas"
+  },
+  {
+    "id": "month-1-2",
+    "title": "Ampliando a prática",
+    "subtitle": "Meses 2–3",
+    "description": "Agora você tem uma base em oração e Quran. Este estágio amplia sua compreensão do estilo de vida islâmico – desde orientações dietéticas até a prática espiritual do jejum. São aspectos práticos que integram a fé na vida cotidiana.",
+    "mainGoal": "Entenda os princípios básicos de halal e haram e aprenda sobre o jejum para estar preparado quando chegar a hora.",
+    "success": "Você entende as diretrizes dietéticas básicas e tem conhecimento de como funciona o jejum. Você pode ter tentado um jejum voluntário.",
+    "dontWorry": [
+      "Não se preocupe em reformar toda a sua despensa durante a noite.",
+      "Não se preocupe se o jejum parecer difícil no início – fica mais fácil.",
+      "Não se preocupe com todos os rótulos de ingredientes – comece com os itens óbvios.",
+      "Não se preocupe com situações sociais – você encontrará o seu ritmo."
+    ],
+    "stepIds": ["halal-haram", "fasting"],
+    "duration": "1–2 meses"
+  },
+  {
+    "id": "month-3-6",
+    "title": "Aprofundando a fé",
+    "subtitle": "Meses 4–6",
+    "description": "Sua prática está se tornando mais natural. Esta fase centra-se no crescimento interior – desenvolvendo nobres traços de carácter que o Islão enfatiza e aprofundando o seu conhecimento da fé. É aqui que o Islam começa a transformar não apenas o que você faz, mas quem você é.",
+    "mainGoal": "Concentre-se no desenvolvimento do caráter islâmico (akhlaq) e continue aprendendo sobre sua fé por meio do estudo e da comunidade.",
+    "success": "Você percebe mudanças positivas em seu caráter e nas interações diárias. Você se sente mais confiante em seu conhecimento do Islã.",
+    "dontWorry": [
+      "Não se preocupe em ser um muçulmano perfeito – o crescimento é gradual.",
+      "Não se preocupe com o conhecimento de nível acadêmico – concentre-se no que é prático.",
+      "Não se preocupe com momentos de dúvida – eles são naturais e podem fortalecer a fé."
+    ],
+    "stepIds": ["character", "knowledge"],
+    "duration": "2–3 meses"
+  },
+  {
+    "id": "month-6-plus",
+    "title": "Crescimento ao longo da vida",
+    "subtitle": "Além de 6 meses",
+    "description": "Você chegou tão longe! O Islã é uma jornada de aprendizagem ao longo da vida e de aproximação com Allah. Este estágio apresenta pilares nos quais você crescerá ao longo do tempo – doações de caridade (Zakat) e peregrinação (Hajj). Estes são objectivos a longo prazo e não obrigações imediatas para a maioria dos novos muçulmanos.",
+    "mainGoal": "Entenda Zakat e Hajj como marcos futuros e continue sua jornada de crescimento e aprendizado ao longo da vida.",
+    "success": "Você entende os pilares restantes do Islã e se sente equipado para continuar aprendendo de forma independente. A partir daqui, continue praticando e explore a seção Tópicos para um aprendizado mais profundo.",
+    "dontWorry": [
+      "Não se preocupe com Hajj – é uma obrigação única na vida, quando você puder.",
+      "Não se preocupe com Zakat se você não atingir o limite financeiro.",
+      "Não se preocupe em saber tudo – mesmo os muçulmanos de longa data estão sempre aprendendo."
+    ],
+    "stepIds": ["zakat-hajj"],
+    "duration": "Em andamento"
+  }
+]

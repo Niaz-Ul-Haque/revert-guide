@@ -1,15 +1,15 @@
-import en from "@/locales/en.json";
-import fr from "@/locales/fr.json";
-import es from "@/locales/es.json";
-import hi from "@/locales/hi.json";
-import ur from "@/locales/ur.json";
-import zh from "@/locales/zh.json";
-import tl from "@/locales/tl.json";
-import pa from "@/locales/pa.json";
-import pt from "@/locales/pt.json";
-import ko from "@/locales/ko.json";
-import fa from "@/locales/fa.json";
-import ru from "@/locales/ru.json";
+import en from "@/locales/en/ui.json";
+import fr from "@/locales/fr/ui.json";
+import es from "@/locales/es/ui.json";
+import hi from "@/locales/hi/ui.json";
+import ur from "@/locales/ur/ui.json";
+import zh from "@/locales/zh/ui.json";
+import tl from "@/locales/tl/ui.json";
+import pa from "@/locales/pa/ui.json";
+import pt from "@/locales/pt/ui.json";
+import ko from "@/locales/ko/ui.json";
+import fa from "@/locales/fa/ui.json";
+import ru from "@/locales/ru/ui.json";
 
 export const SUPPORTED_LOCALES = [
   "en",
@@ -27,6 +27,23 @@ export const SUPPORTED_LOCALES = [
 ] as const;
 export const DEFAULT_LOCALE = "en";
 export const LOCALE_STORAGE_KEY = "revert-guide-locale";
+export const LOCALE_DISPLAY_NAMES: Record<
+  (typeof SUPPORTED_LOCALES)[number],
+  string
+> = {
+  en: "English",
+  fr: "Français",
+  es: "Español",
+  hi: "हिन्दी",
+  ur: "اردو",
+  zh: "中文",
+  tl: "Tagalog",
+  pa: "ਪੰਜਾਬੀ",
+  pt: "Português",
+  ko: "한국어",
+  fa: "فارسی",
+  ru: "Русский",
+};
 
 export type Locale = (typeof SUPPORTED_LOCALES)[number];
 export type Messages = typeof en;
@@ -48,21 +65,6 @@ const dictionaries: Record<Locale, Messages> = {
   ru: deepMerge(en, ru) as unknown as Messages,
 };
 
-const localeLabels: Record<Locale, string> = {
-  en: "English",
-  fr: "Français",
-  es: "Español",
-  hi: "हिन्दी",
-  ur: "اردو",
-  zh: "中文",
-  tl: "Tagalog",
-  pa: "ਪੰਜਾਬੀ",
-  pt: "Português",
-  ko: "한국어",
-  fa: "فارسی",
-  ru: "Русский",
-};
-
 export function isLocale(value: string): value is Locale {
   return SUPPORTED_LOCALES.includes(value as Locale);
 }
@@ -73,6 +75,10 @@ export function resolveLocale(value?: string | null): Locale {
 
 export function getMessages(locale: Locale): Messages {
   return dictionaries[locale];
+}
+
+export function getLocaleDisplayName(locale: Locale): string {
+  return LOCALE_DISPLAY_NAMES[locale];
 }
 
 export function createTranslator(messages: Messages) {
@@ -94,10 +100,6 @@ export function createTranslator(messages: Messages) {
 
 export function getTranslator(locale: Locale) {
   return createTranslator(getMessages(locale));
-}
-
-export function getLocaleLabel(locale: Locale): string {
-  return localeLabels[locale];
 }
 
 export function localizeHref(locale: Locale, href: string): string {

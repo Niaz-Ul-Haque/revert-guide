@@ -7,7 +7,7 @@ This list is based on the current app structure: content-driven pages, roadmap s
 Priority: High
 
 Why this should be first:
-- The repo already has `locales/en.json`, but the main content loader and most pages are still hardcoded to English.
+- The repo now groups locale assets under `locales/en/`, but more translated content and UI copy still need to be filled out for non-English locales.
 - Adding French now will force the right architecture before more languages make the app harder to maintain.
 
 Scope:
@@ -17,7 +17,7 @@ Scope:
 
 Implementation notes:
 - Introduce locale-aware routing or locale context.
-- Refactor `lib/content.ts` so it loads from `content/{locale}/...` instead of always `content/en/...`.
+- Keep `lib/content.ts` loading from `locales/{locale}/...` with English fallback when translated files are missing.
 - Split all page copy and component labels out of hardcoded TSX where practical.
 - Add a language switcher in the navbar or settings area.
 - Keep English as fallback when a translation is missing.
@@ -47,7 +47,7 @@ Why:
 
 Scope:
 - Interactive map view.
-- I dont use browser geolocation, but what the suer searches/fileters with.
+- I dont use browser geolocation, but the user should be able to search adreses/fileters with.
 - Open directions in Google Maps/Apple Maps.
 - Filter by city, services, women-friendly spaces, convert support, parking, and accessibility where data exists.
 
@@ -68,21 +68,6 @@ Scope:
 - Slow-repeat mode for memorization.
 
 
-## 5. Add regional content packs beyond Toronto
-
-Priority: Medium
-
-Why:
-- The app is currently very Toronto-specific in metadata and masjid discovery.
-- The overall product can scale much further if regional data is modular.
-
-Scope:
-- Introduce location packs for masjids, community resources, helplines, and local notes.
-- Let users choose city/region.
-- Preserve offline use by downloading only the selected region's data.
-
-
-
 
 ## 6. Add printable/shareable summaries for key pages
 
@@ -96,4 +81,3 @@ Scope:
 - Print-friendly page layouts.
 - Shareable summary cards or PDFs.
 - Compact "tiny version" exports for essential actions.
-

@@ -50,10 +50,11 @@ export function generateMetadata({
   params: { locale: Locale; topicSlug: string };
 }) {
   const topic = getTopicBySlug(params.topicSlug, params.locale);
+  const t = getTranslator(params.locale);
   return {
     title: topic
-      ? `${topic.title} - Revert Guide`
-      : "Topic Not Found - Revert Guide",
+      ? `${topic.title} - ${t("brand.name")}`
+      : t("metadata.dynamic.topicNotFoundTitle"),
   };
 }
 

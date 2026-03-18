@@ -27,10 +27,11 @@ export function generateMetadata({
   params: { locale: Locale; stageSlug: string };
 }) {
   const stage = getStageById(params.stageSlug, params.locale);
+  const t = getTranslator(params.locale);
   return {
     title: stage
-      ? `${stage.title} - Revert Guide`
-      : "Stage Not Found - Revert Guide",
+      ? `${stage.title} - ${t("brand.name")}`
+      : t("metadata.dynamic.stageNotFoundTitle"),
   };
 }
 

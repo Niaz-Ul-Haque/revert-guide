@@ -20,15 +20,26 @@ You can start editing the localized routes under [`app/[locale]`](./app/%5Blocal
 
 ## Translation workflow
 
-Shared UI strings and metadata live in [`locales/en.json`](./locales/en.json) and [`locales/fr.json`](./locales/fr.json).
+Each language now lives under a single root folder such as [`locales/en`](./locales/en) or [`locales/fr`](./locales/fr).
 
-Structured content lives under [`content/en`](./content/en). The content loader now reads from `content/{locale}` and falls back to English when a translated file is missing.
+Shared UI strings and metadata live in `locales/<locale>/ui.json`.
+
+Structured content also lives in that same locale folder, for example:
+
+- `locales/en/stages.json`
+- `locales/en/resources.json`
+- `locales/en/glossary.json`
+- `locales/en/masjids.json`
+- `locales/en/topics/*.json`
+- `locales/en/steps/*.json`
+
+The content loader reads from `locales/{locale}/...` and falls back to English when a translated file is missing.
 
 To add a new language:
 
 1. Add the locale code to `SUPPORTED_LOCALES` in [`lib/i18n.ts`](./lib/i18n.ts).
-2. Create a new locale dictionary in `locales/<locale>.json`.
-3. Add translated content files under `content/<locale>` as needed. Missing files automatically fall back to English.
+2. Create `locales/<locale>/ui.json` by following the structure of [`locales/en/ui.json`](./locales/en/ui.json).
+3. Add translated content files under `locales/<locale>/` as needed. Missing files automatically fall back to English from [`locales/en`](./locales/en).
 4. Review route-level page copy in `app/[locale]` for any language-specific text that still needs translation.
 
 The language switcher stores the selected locale in local storage so the root entry page can redirect users back to their last-used language in the static export.
