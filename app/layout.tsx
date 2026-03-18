@@ -1,9 +1,6 @@
 import type { Metadata, Viewport } from "next";
 import { Outfit, Fraunces, Amiri } from "next/font/google";
 import "./globals.css";
-import { Navbar } from "@/components/Navbar";
-import { Footer } from "@/components/Footer";
-import { OfflineIndicator } from "@/components/OfflineIndicator";
 
 const outfit = Outfit({
   subsets: ["latin"],
@@ -62,17 +59,7 @@ export default function RootLayout({
       lang="en"
       className={`${outfit.variable} ${fraunces.variable} ${amiri.variable}`}
     >
-      <body className="flex min-h-screen flex-col font-sans">
-        <a href="#main-content" className="skip-link">
-          Skip to content
-        </a>
-        <Navbar />
-        <main id="main-content" className="flex-1">
-          {children}
-        </main>
-        <Footer />
-        <OfflineIndicator />
-      </body>
+      <body className="flex min-h-screen flex-col font-sans">{children}</body>
     </html>
   );
 }

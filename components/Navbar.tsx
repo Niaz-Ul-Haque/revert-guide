@@ -4,6 +4,9 @@ import { useState, useRef, useEffect, useCallback } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { usePathname } from "next/navigation";
+import { LanguageSwitcher } from "@/components/LanguageSwitcher";
+import { useLocale, useTranslations } from "@/components/LocaleProvider";
+import { localizeHref } from "@/lib/i18n";
 
 interface DropdownItem {
   href: string;
@@ -16,36 +19,6 @@ interface NavItem {
   dropdown?: DropdownItem[];
   prominent?: boolean;
 }
-
-const navItems: NavItem[] = [
-  { href: "/roadmap", label: "Roadmap" },
-  { href: "/topics", label: "Topics" },
-  { href: "/glossary", label: "Glossary" },
-  {
-    href: "/resources",
-    label: "Resources",
-    dropdown: [
-      { href: "/resources", label: "All Resources" },
-      { href: "/resources/find-masjid", label: "Find a Masjid" },
-    ],
-  },
-  {
-    href: "/about",
-    label: "About",
-    dropdown: [
-      { href: "/about", label: "About Us" },
-      { href: "/accessibility", label: "Accessibility" },
-      { href: "/privacy", label: "Privacy Policy" },
-      { href: "/terms", label: "Terms of Use" },
-      { href: "/sources", label: "Sources" },
-    ],
-  },
-  {
-    href: "/resources/find-masjid",
-    label: "Find a Masjid",
-    prominent: true,
-  },
-];
 
 function DesktopDropdown({
   item,
@@ -161,10 +134,51 @@ function DesktopDropdown({
 }
 
 export function Navbar() {
+  const locale = useLocale();
+  const t = useTranslations();
   const pathname = usePathname();
   const [menuOpen, setMenuOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
   const menuRef = useRef<HTMLDivElement>(null);
+
+  const navItems: NavItem[] = [
+    { href: localizeHref(locale, "/roadmap"), label: t("nav.roadmap") },
+    { href: localizeHref(locale, "/topics"), label: t("nav.topics") },
+    { href: localizeHref(locale, "/glossary"), label: t("nav.glossary") },
+    {
+      href: localizeHref(locale, "/resources"),
+      label: t("nav.resources"),
+      dropdown: [
+        {
+          href: localizeHref(locale, "/resources"),
+          label: t("nav.allResources"),
+        },
+        {
+          href: localizeHref(locale, "/resources/find-masjid"),
+          label: t("nav.findMasjid"),
+        },
+      ],
+    },
+    {
+      href: localizeHref(locale, "/about"),
+      label: t("nav.about"),
+      dropdown: [
+        { href: localizeHref(locale, "/about"), label: t("nav.aboutUs") },
+        {
+          href: localizeHref(locale, "/accessibility"),
+          label: t("nav.accessibility"),
+        },
+        { href: localizeHref(locale, "/privacy"), label: t("nav.privacy") },
+        { href: localizeHref(locale, "/terms"), label: t("nav.terms") },
+        { href: localizeHref(locale, "/sources"), label: t("nav.sources") },
+      ],
+    },
+    {
+      href: localizeHref(locale, "/resources/find-masjid"),
+      label: t("nav.findMasjid"),
+      prominent: true,
+    },
+  ];
 
   /* Track scroll for glass effect */
   useEffect(() => {
@@ -203,19 +217,29 @@ export function Navbar() {
 
   // All links for the mobile menu (flattened, no duplicates)
   const mobileLinks = [
-    { href: "/", label: "Home" },
-    { href: "/roadmap", label: "Roadmap" },
-    { href: "/topics", label: "Topics" },
-    { href: "/glossary", label: "Glossary" },
-    { href: "/resources", label: "Resources" },
-    { href: "/resources/find-masjid", label: "Find a Masjid", prominent: true },
-    { href: "/ramadan", label: "Ramadan Guide" },
-    { href: "/mental-health", label: "Mental Health" },
-    { href: "/about", label: "About" },
-    { href: "/accessibility", label: "Accessibility" },
-    { href: "/privacy", label: "Privacy Policy" },
-    { href: "/terms", label: "Terms of Use" },
-    { href: "/sources", label: "Sources" },
+    { href: localizeHref(locale, "/"), label: t("nav.home") },
+    { href: localizeHref(locale, "/roadmap"), label: t("nav.roadmap") },
+    { href: localizeHref(locale, "/topics"), label: t("nav.topics") },
+    { href: localizeHref(locale, "/glossary"), label: t("nav.glossary") },
+    { href: localizeHref(locale, "/resources"), label: t("nav.resources") },
+    {
+      href: localizeHref(locale, "/resources/find-masjid"),
+      label: t("nav.findMasjid"),
+      prominent: true,
+    },
+    { href: localizeHref(locale, "/ramadan"), label: t("nav.ramadan") },
+    {
+      href: localizeHref(locale, "/mental-health"),
+      label: t("nav.mentalHealth"),
+    },
+    { href: localizeHref(locale, "/about"), label: t("nav.about") },
+    {
+      href: localizeHref(locale, "/accessibility"),
+      label: t("nav.accessibility"),
+    },
+    { href: localizeHref(locale, "/privacy"), label: t("nav.privacy") },
+    { href: localizeHref(locale, "/terms"), label: t("nav.terms") },
+    { href: localizeHref(locale, "/sources"), label: t("nav.sources") },
   ];
 
   return (
@@ -227,14 +251,14 @@ export function Navbar() {
       }`}
     >
       <nav
-        aria-label="Main navigation"
+        aria-label={t("nav.mainNavigation")}
         className="mx-auto flex max-w-6xl items-center justify-between px-5 py-3"
       >
         {/* Logo / Brand */}
         <Link
-          href="/"
+          href={localizeHref(locale, "/")}
           className="group flex items-center gap-2.5 text-xl font-bold text-primary no-underline hover:text-primaryHover focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-borderStrong"
-          aria-label="Revert Guide - Home"
+          aria-label={t("brand.homeAriaLabel")}
         >
           {/* Logo mark */}
           <span className="flex h-10 w-10 shrink-0 items-center justify-center overflow-hidden rounded-xl shadow-soft transition-transform duration-300 group-hover:scale-105">
@@ -247,78 +271,81 @@ export function Navbar() {
             />
           </span>
           <span className="font-display text-lg tracking-tight">
-            Revert Guide
+            {t("brand.name")}
           </span>
         </Link>
 
         {/* Desktop navigation */}
-        <ul className="mb-0 hidden list-none items-center gap-1 pl-0 lg:flex">
-          {navItems.map((item) => {
-            const active = isActive(item.href, item.dropdown);
+        <div className="hidden items-center gap-3 lg:flex">
+          <ul className="mb-0 list-none items-center gap-1 pl-0 lg:flex">
+            {navItems.map((item) => {
+              const active = isActive(item.href, item.dropdown);
 
-            // Dropdown items
-            if (item.dropdown) {
-              return (
-                <DesktopDropdown
-                  key={item.label}
-                  item={item}
-                  isActive={active}
-                />
-              );
-            }
+              // Dropdown items
+              if (item.dropdown) {
+                return (
+                  <DesktopDropdown
+                    key={item.label}
+                    item={item}
+                    isActive={active}
+                  />
+                );
+              }
 
-            // Prominent item (Find a Masjid)
-            if (item.prominent) {
+              // Prominent item (Find a Masjid)
+              if (item.prominent) {
+                return (
+                  <li key={item.href} className="mb-0 list-none">
+                    <Link
+                      href={item.href}
+                      className="ml-2 inline-flex items-center gap-2 rounded-xl bg-primary px-4 py-2.5 text-sm font-semibold text-white no-underline shadow-[0_2px_8px_rgba(0,0,0,0.12)] transition-all duration-200 hover:bg-[#5B9168] hover:text-white hover:shadow-[0_6px_20px_rgba(0,0,0,0.15)] hover:-translate-y-0.5 active:translate-y-0 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-borderStrong"
+                      aria-current={pathname === item.href ? "page" : undefined}
+                    >
+                      <svg
+                        className="h-4 w-4"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        strokeWidth={1.5}
+                        stroke="currentColor"
+                        aria-hidden="true"
+                      >
+                        <path
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"
+                        />
+                        <path
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z"
+                        />
+                      </svg>
+                      {item.label}
+                    </Link>
+                  </li>
+                );
+              }
+
+              // Standard link
               return (
                 <li key={item.href} className="mb-0 list-none">
                   <Link
                     href={item.href}
-                    className="ml-2 inline-flex items-center gap-2 rounded-xl bg-primary px-4 py-2.5 text-sm font-semibold text-white no-underline shadow-[0_2px_8px_rgba(0,0,0,0.12)] transition-all duration-200 hover:bg-[#5B9168] hover:text-white hover:shadow-[0_6px_20px_rgba(0,0,0,0.15)] hover:-translate-y-0.5 active:translate-y-0 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-borderStrong"
+                    className={`relative rounded-lg px-3 py-2 text-sm font-medium no-underline transition-all duration-200 hover:bg-surfaceElevated hover:text-primary focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-borderStrong ${
+                      active
+                        ? "text-primary bg-surfaceElevated"
+                        : "text-textSecondary"
+                    }`}
                     aria-current={pathname === item.href ? "page" : undefined}
                   >
-                    <svg
-                      className="h-4 w-4"
-                      fill="none"
-                      viewBox="0 0 24 24"
-                      strokeWidth={1.5}
-                      stroke="currentColor"
-                      aria-hidden="true"
-                    >
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"
-                      />
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z"
-                      />
-                    </svg>
                     {item.label}
                   </Link>
                 </li>
               );
-            }
-
-            // Standard link
-            return (
-              <li key={item.href} className="mb-0 list-none">
-                <Link
-                  href={item.href}
-                  className={`relative rounded-lg px-3 py-2 text-sm font-medium no-underline transition-all duration-200 hover:bg-surfaceElevated hover:text-primary focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-borderStrong ${
-                    active
-                      ? "text-primary bg-surfaceElevated"
-                      : "text-textSecondary"
-                  }`}
-                  aria-current={pathname === item.href ? "page" : undefined}
-                >
-                  {item.label}
-                </Link>
-              </li>
-            );
-          })}
-        </ul>
+            })}
+          </ul>
+          <LanguageSwitcher />
+        </div>
 
         {/* Mobile hamburger button */}
         <button
@@ -326,7 +353,7 @@ export function Navbar() {
           onClick={() => setMenuOpen(!menuOpen)}
           aria-expanded={menuOpen}
           aria-controls="mobile-menu"
-          aria-label={menuOpen ? "Close menu" : "Open menu"}
+          aria-label={menuOpen ? t("nav.closeMenu") : t("nav.openMenu")}
         >
           <div className="relative h-5 w-5">
             <span
@@ -367,8 +394,11 @@ export function Navbar() {
             : "-translate-y-4 pointer-events-none opacity-0"
         }`}
         role="dialog"
-        aria-label="Navigation menu"
+        aria-label={t("nav.mobileMenu")}
       >
+        <div className="border-b border-border/40 px-5 py-4">
+          <LanguageSwitcher />
+        </div>
         <ul className="space-y-1 px-5 py-4">
           {mobileLinks.map((link, index) => {
             const active = pathname === link.href;

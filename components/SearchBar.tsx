@@ -1,6 +1,7 @@
 "use client";
 
 import { useRef, useId } from "react";
+import { useTranslations } from "@/components/LocaleProvider";
 
 interface SearchBarProps {
   value: string;
@@ -14,11 +15,12 @@ interface SearchBarProps {
 export function SearchBar({
   value,
   onChange,
-  placeholder = "Search...",
-  label = "Search",
+  placeholder,
+  label,
   hideLabel = false,
   className = "",
 }: SearchBarProps) {
+  const t = useTranslations();
   const inputRef = useRef<HTMLInputElement>(null);
   const id = useId();
   const inputId = `${id}-search`;
@@ -38,7 +40,7 @@ export function SearchBar({
             : "mb-2 block text-sm font-medium text-textPrimary"
         }
       >
-        {label}
+        {label ?? t("common.search")}
       </label>
       <div className="relative">
         {/* Search icon */}
@@ -63,7 +65,7 @@ export function SearchBar({
           type="search"
           value={value}
           onChange={(e) => onChange(e.target.value)}
-          placeholder={placeholder}
+          placeholder={placeholder ?? t("common.searchPlaceholder")}
           className="w-full rounded-xl border border-border/60 bg-white py-3 pl-12 pr-10 text-base text-textPrimary shadow-inner-glow placeholder:text-textMuted/60 transition-all duration-200 focus:border-primaryGreen focus:shadow-soft focus:outline-2 focus:outline-offset-0 focus:outline-borderStrong"
         />
 
@@ -73,7 +75,7 @@ export function SearchBar({
             type="button"
             onClick={handleClear}
             className="absolute right-3 top-1/2 flex h-7 w-7 -translate-y-1/2 items-center justify-center rounded-lg text-textMuted transition-all duration-200 hover:bg-surfaceElevated hover:text-textSecondary focus-visible:outline-2 focus-visible:outline-borderStrong"
-            aria-label="Clear search"
+            aria-label={t("common.clearSearch")}
           >
             <svg
               className="h-4 w-4"

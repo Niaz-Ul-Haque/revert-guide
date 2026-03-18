@@ -1,4 +1,4 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+This is a [Next.js](https://nextjs.org) project for Revert Guide, an offline-first companion for new Muslims.
 
 ## Getting Started
 
@@ -14,11 +14,24 @@ pnpm dev
 bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result. The app redirects to a locale-prefixed route such as `/en` or `/fr`.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+You can start editing the localized routes under [`app/[locale]`](./app/%5Blocale%5D). The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Translation workflow
+
+Shared UI strings and metadata live in [`locales/en.json`](./locales/en.json) and [`locales/fr.json`](./locales/fr.json).
+
+Structured content lives under [`content/en`](./content/en). The content loader now reads from `content/{locale}` and falls back to English when a translated file is missing.
+
+To add a new language:
+
+1. Add the locale code to `SUPPORTED_LOCALES` in [`lib/i18n.ts`](./lib/i18n.ts).
+2. Create a new locale dictionary in `locales/<locale>.json`.
+3. Add translated content files under `content/<locale>` as needed. Missing files automatically fall back to English.
+4. Review route-level page copy in `app/[locale]` for any language-specific text that still needs translation.
+
+The language switcher stores the selected locale in local storage so the root entry page can redirect users back to their last-used language in the static export.
 
 ## Learn More
 

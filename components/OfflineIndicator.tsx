@@ -1,8 +1,10 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import { useTranslations } from "@/components/LocaleProvider";
 
 export function OfflineIndicator() {
+  const t = useTranslations();
   const [isOffline, setIsOffline] = useState(false);
 
   useEffect(() => {
@@ -50,7 +52,7 @@ export function OfflineIndicator() {
         <path d="M8.53 16.11a6 6 0 0 1 6.95 0" />
         <line x1="12" y1="20" x2="12.01" y2="20" />
       </svg>
-      You are offline. Some features may be limited.
+      {t("common.offline")}
     </div>
   );
 }

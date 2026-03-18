@@ -270,16 +270,6 @@ This CLAUDE.md refers to and complements these resources:
 |----------|---------|----------------|
 | **CLAUDE.md/AGENTS.md** | Extended version of this file (symlink or separate copy) | Maintain single source; CLAUDE.md can symlink to AGENTS.md |
 | **Brand Guidelines** | Visual design, color system, typography, tone | brand-guidelines.md |
-| **Sitemap & Navigation** | Page structure, routes, info architecture | sitemap-navigation-structure.md |
-| **Page Specifications** | Detailed specs for each page (Home, Roadmap, Steps, Topics, etc.) | pagelist-detailed-specification.md |
-| **Implementation Notes** | Technical architecture, data modeling, PWA, i18n, testing | Included herein (Section 2) | 
-| **JIRA Tickets** | JIRA Ticekts created serially to develop the entire application modules/ticekt by ticket | tickets.md | 
-| **Content Files (not created yet)** | MDX steps, topics, JSON glossary, resources, masjids | `content/en/` directory |
-| **Locale Files (not created yet)** | UI string translations | `locales/[lang].json` |
-| **Capacitor Config (not created yet)** | Mobile build configuration | `capacitor.config.ts` |
-| **Next.js Config (not created yet)** | Build and routing configuration | `next.config.js` |
-| **Environment Variables (not created yet)** | API keys, build settings | `.env.local` (not in repo) |
-
 ---
 
 **Document Version:** 1.0 (MVP Specification)  

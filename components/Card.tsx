@@ -1,4 +1,7 @@
+"use client";
+
 import Link from "next/link";
+import { getTranslator, type Locale } from "@/lib/i18n";
 
 /* ─── Base Card ─── */
 
@@ -187,16 +190,8 @@ interface ResourceCardProps {
   description: string;
   type: ResourceType;
   url: string;
+  locale?: Locale;
 }
-
-const typeBadgeLabels: Record<ResourceType, string> = {
-  article: "Article",
-  video: "Video",
-  book: "Book",
-  app: "App",
-  community: "Community",
-  pdf: "PDF",
-};
 
 const typeBadgeColors: Record<ResourceType, string> = {
   article: "bg-primary/10 text-primary",
@@ -212,7 +207,9 @@ export function ResourceCard({
   description,
   type,
   url,
+  locale = "en",
 }: ResourceCardProps) {
+  const t = getTranslator(locale);
   const isExternal = url.startsWith("http");
 
   return (
@@ -226,7 +223,7 @@ export function ResourceCard({
             <span
               className={`inline-block rounded-full px-2.5 py-0.5 text-xs font-medium ${typeBadgeColors[type]}`}
             >
-              {typeBadgeLabels[type]}
+              {t(`resources.types.${type}`)}
             </span>
           </div>
           <p className="mb-3 text-sm leading-relaxed text-textSecondary">
@@ -239,7 +236,9 @@ export function ResourceCard({
               ? { target: "_blank", rel: "noopener noreferrer" }
               : {})}
           >
-            {isExternal ? "Visit Resource" : "View Resource"}
+            {isExternal
+              ? t("resources.visitResource")
+              : t("resources.viewResource")}
             {isExternal && (
               <svg
                 className="h-3.5 w-3.5"

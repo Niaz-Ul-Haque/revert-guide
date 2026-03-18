@@ -1,24 +1,37 @@
+"use client";
+
 import Link from "next/link";
 import Image from "next/image";
-
-const footerLinks = [
-  { href: "/about", label: "About" },
-  { href: "/accessibility", label: "Accessibility" },
-  { href: "/privacy", label: "Privacy Policy" },
-  { href: "/terms", label: "Terms of Use" },
-  { href: "/sources", label: "Sources" },
-];
-
-const quickLinks = [
-  { href: "/roadmap", label: "Roadmap" },
-  { href: "/topics", label: "Topics" },
-  { href: "/glossary", label: "Glossary" },
-  { href: "/resources", label: "Resources" },
-  { href: "/ramadan", label: "Ramadan Guide" },
-  { href: "/mental-health", label: "Mental Health" },
-];
+import { useLocale, useTranslations } from "@/components/LocaleProvider";
+import { localizeHref } from "@/lib/i18n";
 
 export function Footer() {
+  const locale = useLocale();
+  const t = useTranslations();
+
+  const footerLinks = [
+    { href: localizeHref(locale, "/about"), label: t("footer.about") },
+    {
+      href: localizeHref(locale, "/accessibility"),
+      label: t("footer.accessibility"),
+    },
+    { href: localizeHref(locale, "/privacy"), label: t("footer.privacy") },
+    { href: localizeHref(locale, "/terms"), label: t("footer.terms") },
+    { href: localizeHref(locale, "/sources"), label: t("footer.sources") },
+  ];
+
+  const quickLinks = [
+    { href: localizeHref(locale, "/roadmap"), label: t("nav.roadmap") },
+    { href: localizeHref(locale, "/topics"), label: t("nav.topics") },
+    { href: localizeHref(locale, "/glossary"), label: t("nav.glossary") },
+    { href: localizeHref(locale, "/resources"), label: t("nav.resources") },
+    { href: localizeHref(locale, "/ramadan"), label: t("nav.ramadan") },
+    {
+      href: localizeHref(locale, "/mental-health"),
+      label: t("nav.mentalHealth"),
+    },
+  ];
+
   return (
     <footer className="relative overflow-hidden border-t border-border/50 bg-surface">
       {/* Decorative background elements */}
@@ -36,7 +49,7 @@ export function Footer() {
           {/* Brand column */}
           <div className="md:col-span-5">
             <Link
-              href="/"
+              href={localizeHref(locale, "/")}
               className="mb-4 inline-flex items-center gap-2.5 text-lg font-bold text-primary no-underline hover:text-primaryHover"
             >
               <span className="flex h-8 w-8 shrink-0 items-center justify-center overflow-hidden rounded-lg">
@@ -48,11 +61,12 @@ export function Footer() {
                   aria-hidden="true"
                 />
               </span>
-              <span className="font-display tracking-tight">Revert Guide</span>
+              <span className="font-display tracking-tight">
+                {t("brand.name")}
+              </span>
             </Link>
             <p className="mb-4 max-w-sm text-sm leading-relaxed text-textSecondary">
-              A free, offline-first resource for new Muslims. No tracking, no
-              ads, just guidance on your journey.
+              {t("footer.description")}
             </p>
             {/* Logo mark in footer */}
             <div
@@ -73,9 +87,9 @@ export function Footer() {
           {/* Quick Links */}
           <div className="md:col-span-3">
             <p className="mb-4 text-xs font-semibold uppercase tracking-widest text-textMuted">
-              Explore
+              {t("footer.explore")}
             </p>
-            <nav aria-label="Quick links">
+            <nav aria-label={t("footer.quickLinksAriaLabel")}>
               <ul className="flex flex-col gap-2.5 pl-0">
                 {quickLinks.map((link) => (
                   <li key={link.href} className="mb-0">
@@ -94,9 +108,9 @@ export function Footer() {
           {/* Legal Links */}
           <div className="md:col-span-4">
             <p className="mb-4 text-xs font-semibold uppercase tracking-widest text-textMuted">
-              Information
+              {t("footer.information")}
             </p>
-            <nav aria-label="Footer navigation">
+            <nav aria-label={t("footer.navigationAriaLabel")}>
               <ul className="flex flex-col gap-2.5 pl-0">
                 {footerLinks.map((link) => (
                   <li key={link.href} className="mb-0">
@@ -116,8 +130,7 @@ export function Footer() {
         {/* Copyright */}
         <div className="mt-10 border-t border-border/50 pt-6">
           <p className="mb-0 text-center text-xs text-textMuted">
-            &copy; {new Date().getFullYear()} Revert Guide. Made with care for
-            new Muslims everywhere.
+            &copy; {new Date().getFullYear()} {t("footer.copyright")}
           </p>
         </div>
       </div>

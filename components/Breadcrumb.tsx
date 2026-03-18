@@ -1,4 +1,7 @@
+"use client";
+
 import Link from "next/link";
+import { useTranslations } from "@/components/LocaleProvider";
 
 interface BreadcrumbItem {
   label: string;
@@ -10,10 +13,12 @@ interface BreadcrumbProps {
 }
 
 export function Breadcrumb({ items }: BreadcrumbProps) {
+  const t = useTranslations();
+
   if (items.length === 0) return null;
 
   return (
-    <nav aria-label="Breadcrumb" className="mb-8">
+    <nav aria-label={t("common.breadcrumb")} className="mb-8">
       <ol className="mb-0 flex flex-wrap items-center gap-1.5 pl-0 text-sm">
         {items.map((item, index) => {
           const isLast = index === items.length - 1;
