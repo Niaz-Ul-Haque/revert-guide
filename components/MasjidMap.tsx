@@ -68,6 +68,7 @@ export function MasjidMap({
         center: TORONTO_CENTER,
         zoom: 10,
         scrollWheelZoom: false,
+        zoomControl: true,
       });
 
       L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
@@ -77,6 +78,12 @@ export function MasjidMap({
 
       mapRef.current = map;
       layerRef.current = L.layerGroup().addTo(map);
+
+      /* Fix for Leaflet rendering in dynamically-sized containers */
+      requestAnimationFrame(() => {
+        map.invalidateSize();
+      });
+
       setIsLoading(false);
     }
 
@@ -116,7 +123,7 @@ export function MasjidMap({
         const marker = L.circleMarker(
           [masjid.coordinates.lat, masjid.coordinates.lng],
           {
-            radius: isSelected ? 9 : 7,
+            radius: isSelected ? 10 : 7,
             weight: isSelected ? 3 : 2,
             color: isSelected ? "#3D6649" : "#4A7C59",
             fillColor: isSelected ? "#4A7C59" : "#FFFFFF",
@@ -128,7 +135,7 @@ export function MasjidMap({
           `<div class="masjid-map-popup">
             <p class="masjid-map-popup__title">${escapeHtml(masjid.name)}</p>
             <p class="masjid-map-popup__body">${escapeHtml(
-              `${masjid.address}, ${masjid.city}, ${masjid.stateProvince} ${masjid.postalCode}`,
+              `${masjid.address}, ${masjid.city}`,
             )}</p>
             <a class="masjid-map-popup__link" href="${getGoogleMapsDirectionsUrl(
               masjid,
@@ -148,12 +155,12 @@ export function MasjidMap({
         const marker = L.circleMarker(
           [searchLocation.lat, searchLocation.lng],
           {
-            radius: 8,
+            radius: 9,
             weight: 3,
             color: "#6B7A3D",
             fillColor: "#FFFBB1",
             fillOpacity: 0.95,
-            dashArray: "3 3",
+            dashArray: "4 4",
           },
         );
 
@@ -185,7 +192,7 @@ export function MasjidMap({
 
       if (bounds.isValid()) {
         map.fitBounds(bounds, {
-          padding: [28, 28],
+          padding: [32, 32],
           maxZoom: searchLocation && masjids.length <= 1 ? 14 : 12,
         });
         return;
@@ -209,14 +216,39 @@ export function MasjidMap({
     selectedMasjidId,
   ]);
 
+  /* Re-invalidate when container may have resized (e.g. filter panel toggled) */
+  useEffect(() => {
+    const map = mapRef.current;
+    if (!map) return;
+
+    const timer = setTimeout(() => map.invalidateSize(), 150);
+    return () => clearTimeout(timer);
+  });
+
   if (isOffline) {
     return (
-      <div className="flex h-[26rem] items-center justify-center rounded-[1.5rem] border border-dashed border-border/70 bg-surfaceElevated/60 p-6 text-center">
-        <div className="max-w-sm">
-          <p className="mb-2 font-display text-xl font-semibold text-textPrimary">
+      <div className="flex h-full min-h-[280px] items-center justify-center rounded-2xl border border-dashed border-border bg-surfaceElevated/60 p-6 text-center">
+        <div className="max-w-xs">
+          <div className="mx-auto mb-3 flex h-10 w-10 items-center justify-center rounded-xl bg-primary/10">
+            <svg
+              className="h-5 w-5 text-primary"
+              fill="none"
+              viewBox="0 0 24 24"
+              strokeWidth={1.5}
+              stroke="currentColor"
+              aria-hidden="true"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                d="M12 9v3.75m-9.303 3.376c-.866 1.5.217 3.374 1.948 3.374h14.71c1.73 0 2.813-1.874 1.948-3.374L13.949 3.378c-.866-1.5-3.032-1.5-3.898 0L2.697 16.126ZM12 15.75h.007v.008H12v-.008Z"
+              />
+            </svg>
+          </div>
+          <p className="mb-1 text-sm font-semibold text-textPrimary">
             {copy.mapOfflineTitle}
           </p>
-          <p className="mb-0 text-sm text-textSecondary">
+          <p className="mb-0 text-xs text-textSecondary">
             {copy.mapOfflineBody}
           </p>
         </div>
@@ -226,8 +258,8 @@ export function MasjidMap({
 
   if (!isLoading && masjids.length === 0 && !searchLocation) {
     return (
-      <div className="flex h-[26rem] items-center justify-center rounded-[1.5rem] border border-dashed border-border/70 bg-surfaceElevated/60 p-6 text-center">
-        <p className="mb-0 max-w-sm text-sm text-textSecondary">
+      <div className="flex h-full min-h-[280px] items-center justify-center rounded-2xl border border-dashed border-border bg-surfaceElevated/60 p-6 text-center">
+        <p className="mb-0 max-w-xs text-sm text-textSecondary">
           {copy.mapEmptyTitle}
         </p>
       </div>
@@ -235,17 +267,21 @@ export function MasjidMap({
   }
 
   return (
-    <div className="relative">
+    <div className="relative h-full min-h-[280px]">
       {isLoading && (
-        <div className="absolute inset-0 z-10 flex items-center justify-center rounded-[1.5rem] bg-surface/85 backdrop-blur-sm">
-          <p className="mb-0 text-sm font-medium text-textSecondary">
-            {copy.mapLoading}
-          </p>
+        <div className="absolute inset-0 z-10 flex items-center justify-center rounded-2xl bg-surfaceElevated/90 backdrop-blur-sm">
+          <div className="flex items-center gap-2.5">
+            <div className="h-4 w-4 animate-pulse-soft rounded-full bg-primary/40" />
+            <p className="mb-0 text-sm font-medium text-textSecondary">
+              {copy.mapLoading}
+            </p>
+          </div>
         </div>
       )}
       <div
         ref={containerRef}
-        className="h-[26rem] overflow-hidden rounded-[1.5rem] border border-border/60"
+        className="h-full w-full overflow-hidden rounded-2xl"
+        style={{ minHeight: "280px" }}
         aria-label={copy.mapTitle}
       />
     </div>

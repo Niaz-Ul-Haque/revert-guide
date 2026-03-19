@@ -123,6 +123,7 @@ export function FindMasjidPageClient({
   const [isSearchingLocation, setIsSearchingLocation] = useState(false);
   const [selectedMasjidId, setSelectedMasjidId] = useState<string | null>(null);
   const [isOffline, setIsOffline] = useState(false);
+  const [filtersOpen, setFiltersOpen] = useState(false);
 
   useEffect(() => {
     setIsOffline(!navigator.onLine);
@@ -332,6 +333,7 @@ export function FindMasjidPageClient({
       accessibility: false,
     });
     clearLocationSearch();
+    setFiltersOpen(false);
   }
 
   const hasActiveFilters =
@@ -342,6 +344,13 @@ export function FindMasjidPageClient({
     Boolean(searchLocation) ||
     locationQuery.trim().length > 0;
 
+  const activeFilterCount =
+    (query.trim().length > 0 ? 1 : 0) +
+    (cityFilter !== "all" ? 1 : 0) +
+    selectedServiceIds.length +
+    Object.values(amenityFilters).filter(Boolean).length +
+    (searchLocation ? 1 : 0);
+
   const amenityButtons: { key: AmenityFilterKey; label: string }[] = [
     { key: "womenFriendly", label: copy.womenFriendly },
     { key: "convertSupport", label: copy.convertSupport },
@@ -350,7 +359,7 @@ export function FindMasjidPageClient({
   ];
 
   return (
-    <div className="mx-auto max-w-6xl px-5 py-10">
+    <div className="mx-auto max-w-7xl px-4 py-8 sm:px-6">
       <Breadcrumb
         items={[
           { label: t("nav.home"), href: localizeHref(locale, "/") },
@@ -362,12 +371,13 @@ export function FindMasjidPageClient({
         ]}
       />
 
-      <header className="mb-8">
+      {/* ── Header ── */}
+      <header className="mb-6">
         <AnimateIn>
-          <h1 className="mb-3 font-display text-3xl font-semibold tracking-tight text-textPrimary md:text-4xl">
+          <h1 className="mb-2 font-display text-3xl font-semibold tracking-tight text-textPrimary md:text-4xl">
             {t("nav.findMasjid")}
           </h1>
-          <p className="max-w-3xl text-lg text-textSecondary">
+          <p className="max-w-2xl text-base text-textSecondary">
             {copy.description}
           </p>
         </AnimateIn>
@@ -379,47 +389,59 @@ export function FindMasjidPageClient({
         </Callout>
       )}
 
-      <AnimateIn delay={0.08}>
-        <section className="mb-8 rounded-[1.75rem] border border-primary/15 bg-gradient-to-br from-white via-surface to-surfaceElevated/80 p-6 shadow-elevated">
-          <div className="mb-5 flex flex-wrap items-start justify-between gap-4">
-            <div className="max-w-2xl">
-              <p className="mb-1 text-sm font-semibold uppercase tracking-[0.18em] text-primary/70">
-                {copy.mapTitle}
-              </p>
-              <p className="mb-0 text-sm text-textSecondary">{copy.mapBody}</p>
-            </div>
-            <div className="rounded-full bg-white px-4 py-2 text-sm font-medium text-textSecondary shadow-soft">
-              {filteredMasjids.length}{" "}
-              {filteredMasjids.length === 1
-                ? copy.liveRegion.one
-                : copy.liveRegion.other}
-            </div>
-          </div>
+      {/* ── Map + Search hero section ── */}
+      <AnimateIn delay={0.06}>
+        <section className="mb-6 overflow-hidden rounded-2xl border border-border/60 bg-white shadow-elevated">
+          {/* Search toolbar row — sits above the map */}
+          <div className="border-b border-border/40 bg-surface/80 p-4">
+            <div className="grid gap-3 lg:grid-cols-2">
+              {/* Text search */}
+              <SearchBar
+                value={query}
+                onChange={setQuery}
+                placeholder={copy.searchPlaceholder}
+                label={copy.searchLabel}
+                hideLabel
+              />
 
-          <div className="grid gap-4 lg:grid-cols-[minmax(0,1.25fr)_minmax(0,0.75fr)]">
-            <form
-              onSubmit={handleLocationSearch}
-              className="rounded-2xl border border-border/60 bg-white p-5 shadow-card"
-            >
-              <label
-                htmlFor="masjid-location-search"
-                className="mb-2 block text-sm font-medium text-textPrimary"
-              >
-                {copy.locationLabel}
-              </label>
-              <div className="flex flex-col gap-3 sm:flex-row">
-                <input
-                  id="masjid-location-search"
-                  type="search"
-                  value={locationQuery}
-                  onChange={(event) => setLocationQuery(event.target.value)}
-                  placeholder={copy.locationPlaceholder}
-                  className="w-full rounded-xl border border-border/60 bg-white px-4 py-3 text-base text-textPrimary shadow-inner-glow placeholder:text-textMuted/60 focus:border-primaryGreen focus:outline-2 focus:outline-offset-0 focus:outline-borderStrong"
-                />
+              {/* Location search */}
+              <form onSubmit={handleLocationSearch} className="flex gap-2">
+                <div className="relative flex-1">
+                  <svg
+                    className="pointer-events-none absolute left-3.5 top-1/2 h-4 w-4 -translate-y-1/2 text-textMuted"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    strokeWidth={1.5}
+                    stroke="currentColor"
+                    aria-hidden="true"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"
+                    />
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z"
+                    />
+                  </svg>
+                  <label htmlFor="masjid-location-search" className="sr-only">
+                    {copy.locationLabel}
+                  </label>
+                  <input
+                    id="masjid-location-search"
+                    type="search"
+                    value={locationQuery}
+                    onChange={(event) => setLocationQuery(event.target.value)}
+                    placeholder={copy.locationPlaceholder}
+                    className="w-full rounded-xl border border-border/60 bg-white py-3 pl-10 pr-4 text-base text-textPrimary shadow-inner-glow placeholder:text-textMuted/60 transition-all duration-200 focus:border-primaryGreen focus:shadow-soft focus:outline-2 focus:outline-offset-0 focus:outline-borderStrong"
+                  />
+                </div>
                 <button
                   type="submit"
                   disabled={isSearchingLocation}
-                  className="inline-flex items-center justify-center rounded-xl bg-primary px-5 py-3 text-sm font-semibold text-white transition-all duration-200 hover:bg-primaryHover disabled:cursor-not-allowed disabled:opacity-60"
+                  className="inline-flex items-center justify-center gap-1.5 rounded-xl bg-primary px-4 py-3 text-sm font-semibold text-white transition-all duration-200 hover:bg-primaryHover disabled:cursor-not-allowed disabled:opacity-60"
                 >
                   {isSearchingLocation
                     ? copy.locationSearching
@@ -429,154 +451,36 @@ export function FindMasjidPageClient({
                   <button
                     type="button"
                     onClick={clearLocationSearch}
-                    className="inline-flex items-center justify-center rounded-xl border border-border/60 bg-white px-5 py-3 text-sm font-semibold text-textSecondary transition-all duration-200 hover:border-primaryGreen/50 hover:text-primary"
+                    className="inline-flex items-center justify-center rounded-xl border border-border/60 bg-white px-3 py-3 text-sm text-textMuted transition-colors hover:border-primary/40 hover:text-primary"
+                    aria-label={copy.locationClear}
                   >
-                    {copy.locationClear}
+                    <Icon name="x" size="sm" />
                   </button>
                 )}
-              </div>
-              <p className="mb-0 mt-3 text-sm text-textSecondary">
-                {copy.locationHelper}
-              </p>
-              {locationError && (
-                <p
-                  className="mb-0 mt-3 text-sm font-medium text-error"
-                  role="alert"
-                >
-                  {locationError}
-                </p>
-              )}
-              {searchLocation && !locationError && (
-                <p className="mb-0 mt-3 text-sm text-textSecondary">
-                  {copy.locationResults}{" "}
-                  <span className="font-medium text-textPrimary">
-                    {searchLocation.label}
-                  </span>
-                </p>
-              )}
-            </form>
-
-            <div className="rounded-2xl border border-border/60 bg-white p-5 shadow-card">
-              <SearchBar
-                value={query}
-                onChange={setQuery}
-                placeholder={copy.searchPlaceholder}
-                label={copy.searchLabel}
-                hideLabel
-              />
+              </form>
             </div>
-          </div>
-        </section>
-      </AnimateIn>
 
-      <AnimateIn delay={0.12}>
-        <section className="mb-8 rounded-[1.5rem] border border-border/60 bg-white p-6 shadow-card">
-          <div className="mb-4 flex flex-wrap items-center justify-between gap-3">
-            <h2 className="mb-0 mt-0 text-xl font-semibold text-textPrimary">
-              {copy.filtersTitle}
-            </h2>
-            {hasActiveFilters && (
-              <button
-                type="button"
-                onClick={clearAllFilters}
-                className="rounded-lg bg-surfaceElevated px-3 py-2 text-sm font-medium text-primary transition-colors hover:bg-primary/10 hover:text-primaryHover"
+            {/* Location feedback */}
+            {locationError && (
+              <p
+                className="mb-0 mt-2 text-sm font-medium text-error"
+                role="alert"
               >
-                {copy.clearFilters}
-              </button>
+                {locationError}
+              </p>
+            )}
+            {searchLocation && !locationError && (
+              <p className="mb-0 mt-2 text-sm text-textSecondary">
+                {copy.locationResults}{" "}
+                <span className="font-medium text-textPrimary">
+                  {searchLocation.label}
+                </span>
+              </p>
             )}
           </div>
 
-          <div className="grid gap-5 lg:grid-cols-[220px_minmax(0,1fr)]">
-            <div>
-              <label
-                htmlFor="masjid-city-filter"
-                className="mb-2 block text-sm font-medium text-textPrimary"
-              >
-                {copy.cityLabel}
-              </label>
-              <select
-                id="masjid-city-filter"
-                value={cityFilter}
-                onChange={(event) => setCityFilter(event.target.value)}
-                className="w-full rounded-xl border border-border/60 bg-white px-4 py-3 text-base text-textPrimary focus:border-primaryGreen focus:outline-2 focus:outline-offset-0 focus:outline-borderStrong"
-              >
-                <option value="all">{copy.cityAll}</option>
-                {cityOptions.map((city) => (
-                  <option key={city} value={city}>
-                    {city}
-                  </option>
-                ))}
-              </select>
-            </div>
-
-            <div className="grid gap-5 md:grid-cols-2">
-              <div>
-                <p className="mb-2 text-sm font-medium text-textPrimary">
-                  {copy.servicesLabel}
-                </p>
-                <div className="flex flex-wrap gap-2">
-                  {availableServiceIds.map((serviceId) => {
-                    const isActive = selectedServiceIds.includes(serviceId);
-                    return (
-                      <button
-                        key={serviceId}
-                        type="button"
-                        aria-pressed={isActive}
-                        onClick={() => toggleService(serviceId)}
-                        className={`rounded-full px-3.5 py-2 text-sm font-medium transition-all duration-200 ${
-                          isActive
-                            ? "bg-primary text-white shadow-soft"
-                            : "border border-border/60 bg-surface text-textSecondary hover:border-primaryGreen/50 hover:text-primary"
-                        }`}
-                      >
-                        {copy.serviceLabels[serviceId]}
-                      </button>
-                    );
-                  })}
-                </div>
-              </div>
-
-              <div>
-                <p className="mb-2 text-sm font-medium text-textPrimary">
-                  {copy.amenitiesLabel}
-                </p>
-                <div className="flex flex-wrap gap-2">
-                  {amenityButtons.map(({ key, label }) => {
-                    const isActive = amenityFilters[key];
-                    return (
-                      <button
-                        key={key}
-                        type="button"
-                        aria-pressed={isActive}
-                        onClick={() => toggleAmenity(key)}
-                        className={`rounded-full px-3.5 py-2 text-sm font-medium transition-all duration-200 ${
-                          isActive
-                            ? "bg-accent text-white shadow-soft"
-                            : "border border-border/60 bg-surface text-textSecondary hover:border-primaryGreen/50 hover:text-primary"
-                        }`}
-                      >
-                        {label}
-                      </button>
-                    );
-                  })}
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-      </AnimateIn>
-
-      <div aria-live="polite" className="sr-only">
-        {`${filteredMasjids.length} ${
-          filteredMasjids.length === 1
-            ? copy.liveRegion.one
-            : copy.liveRegion.other
-        }`}
-      </div>
-
-      <section className="grid gap-8 xl:grid-cols-[minmax(0,1.08fr)_minmax(320px,0.92fr)]">
-        <AnimateIn delay={0.16} className="xl:sticky xl:top-24 xl:self-start">
-          <div className="space-y-4 rounded-[1.75rem] border border-primary/15 bg-white p-4 shadow-elevated">
+          {/* Map */}
+          <div className="h-[340px] md:h-[420px]">
             <MasjidMap
               masjids={filteredMasjids.map((result) => result.masjid)}
               selectedMasjidId={selectedMasjidId}
@@ -585,27 +489,201 @@ export function FindMasjidPageClient({
               copy={copy}
               onSelectMasjid={setSelectedMasjidId}
             />
+          </div>
 
-            <div className="flex flex-wrap gap-3 text-sm text-textSecondary">
-              <span className="inline-flex items-center gap-2 rounded-full bg-surface px-3 py-1.5">
-                <span className="h-3 w-3 rounded-full border-2 border-primary bg-white" />
+          {/* Map legend + count bar */}
+          <div className="flex flex-wrap items-center justify-between gap-3 border-t border-border/40 bg-surface/60 px-4 py-2.5">
+            <div className="flex flex-wrap gap-3 text-xs text-textMuted">
+              <span className="inline-flex items-center gap-1.5">
+                <span className="h-2.5 w-2.5 rounded-full border-2 border-primary bg-white" />
                 {copy.mapLegendMasjid}
               </span>
-              <span className="inline-flex items-center gap-2 rounded-full bg-surface px-3 py-1.5">
-                <span className="h-3 w-3 rounded-full bg-primary ring-2 ring-primaryHover/30" />
+              <span className="inline-flex items-center gap-1.5">
+                <span className="h-2.5 w-2.5 rounded-full bg-primary" />
                 {copy.mapLegendSelected}
               </span>
-              <span className="inline-flex items-center gap-2 rounded-full bg-surface px-3 py-1.5">
-                <span className="h-3 w-3 rounded-full border-2 border-accent bg-accentYellow" />
+              <span className="inline-flex items-center gap-1.5">
+                <span className="h-2.5 w-2.5 rounded-full border-2 border-accent bg-accentYellow" />
                 {copy.mapLegendSearch}
               </span>
             </div>
+            <span className="text-xs font-medium text-textSecondary">
+              {filteredMasjids.length}{" "}
+              {filteredMasjids.length === 1
+                ? copy.liveRegion.one
+                : copy.liveRegion.other}
+            </span>
           </div>
-        </AnimateIn>
+        </section>
+      </AnimateIn>
 
-        <div className="flex flex-col gap-4">
-          {filteredMasjids.length === 0 ? (
-            <div className="rounded-2xl border border-border/60 bg-surfaceElevated/50 px-6 py-14 text-center">
+      {/* ── Collapsible filters ── */}
+      <AnimateIn delay={0.1}>
+        <div className="mb-6">
+          <button
+            type="button"
+            onClick={() => setFiltersOpen((v) => !v)}
+            aria-expanded={filtersOpen}
+            className="inline-flex items-center gap-2 rounded-xl border border-border/60 bg-white px-4 py-2.5 text-sm font-medium text-textSecondary shadow-card transition-all duration-200 hover:border-primary/40 hover:text-primary"
+          >
+            <svg
+              className="h-4 w-4"
+              fill="none"
+              viewBox="0 0 24 24"
+              strokeWidth={1.5}
+              stroke="currentColor"
+              aria-hidden="true"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                d="M10.5 6h9.75M10.5 6a1.5 1.5 0 1 1-3 0m3 0a1.5 1.5 0 1 0-3 0M3.75 6H7.5m3 12h9.75m-9.75 0a1.5 1.5 0 0 1-3 0m3 0a1.5 1.5 0 0 0-3 0m-3.75 0H7.5m9-6h3.75m-3.75 0a1.5 1.5 0 0 1-3 0m3 0a1.5 1.5 0 0 0-3 0m-9.75 0h9.75"
+              />
+            </svg>
+            {copy.filtersTitle}
+            {activeFilterCount > 0 && (
+              <span className="inline-flex h-5 min-w-5 items-center justify-center rounded-full bg-primary px-1.5 text-xs font-bold text-white">
+                {activeFilterCount}
+              </span>
+            )}
+            <Icon
+              name="chevron-down"
+              size="sm"
+              className={`transition-transform duration-200 ${filtersOpen ? "rotate-180" : ""}`}
+            />
+          </button>
+
+          {hasActiveFilters && !filtersOpen && (
+            <button
+              type="button"
+              onClick={clearAllFilters}
+              className="ml-2 text-sm font-medium text-primary underline decoration-primary/30 underline-offset-2 transition-colors hover:text-primaryHover hover:decoration-primary"
+            >
+              {copy.clearFilters}
+            </button>
+          )}
+
+          {filtersOpen && (
+            <div className="mt-3 rounded-2xl border border-border/60 bg-white p-5 shadow-card animate-slide-down">
+              <div className="flex flex-wrap items-center justify-between gap-3 mb-4">
+                <h2 className="mb-0 mt-0 text-base font-semibold text-textPrimary">
+                  {copy.filtersTitle}
+                </h2>
+                {hasActiveFilters && (
+                  <button
+                    type="button"
+                    onClick={clearAllFilters}
+                    className="text-sm font-medium text-primary transition-colors hover:text-primaryHover"
+                  >
+                    {copy.clearFilters}
+                  </button>
+                )}
+              </div>
+
+              <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
+                {/* City */}
+                <div>
+                  <label
+                    htmlFor="masjid-city-filter"
+                    className="mb-1.5 block text-sm font-medium text-textPrimary"
+                  >
+                    {copy.cityLabel}
+                  </label>
+                  <select
+                    id="masjid-city-filter"
+                    value={cityFilter}
+                    onChange={(event) => setCityFilter(event.target.value)}
+                    className="w-full rounded-xl border border-border/60 bg-white px-3.5 py-2.5 text-sm text-textPrimary focus:border-primaryGreen focus:outline-2 focus:outline-offset-0 focus:outline-borderStrong"
+                  >
+                    <option value="all">{copy.cityAll}</option>
+                    {cityOptions.map((city) => (
+                      <option key={city} value={city}>
+                        {city}
+                      </option>
+                    ))}
+                  </select>
+                </div>
+
+                {/* Services */}
+                <div>
+                  <p className="mb-1.5 text-sm font-medium text-textPrimary">
+                    {copy.servicesLabel}
+                  </p>
+                  <div className="flex flex-wrap gap-1.5">
+                    {availableServiceIds.map((serviceId) => {
+                      const isActive = selectedServiceIds.includes(serviceId);
+                      return (
+                        <button
+                          key={serviceId}
+                          type="button"
+                          aria-pressed={isActive}
+                          onClick={() => toggleService(serviceId)}
+                          className={`rounded-full px-3 py-1.5 text-xs font-medium transition-all duration-200 ${
+                            isActive
+                              ? "bg-primary text-white shadow-soft"
+                              : "border border-border/60 bg-surface text-textSecondary hover:border-primaryGreen/50 hover:text-primary"
+                          }`}
+                        >
+                          {copy.serviceLabels[serviceId]}
+                        </button>
+                      );
+                    })}
+                  </div>
+                </div>
+
+                {/* Amenities */}
+                <div>
+                  <p className="mb-1.5 text-sm font-medium text-textPrimary">
+                    {copy.amenitiesLabel}
+                  </p>
+                  <div className="flex flex-wrap gap-1.5">
+                    {amenityButtons.map(({ key, label }) => {
+                      const isActive = amenityFilters[key];
+                      return (
+                        <button
+                          key={key}
+                          type="button"
+                          aria-pressed={isActive}
+                          onClick={() => toggleAmenity(key)}
+                          className={`rounded-full px-3 py-1.5 text-xs font-medium transition-all duration-200 ${
+                            isActive
+                              ? "bg-accent text-white shadow-soft"
+                              : "border border-border/60 bg-surface text-textSecondary hover:border-primaryGreen/50 hover:text-primary"
+                          }`}
+                        >
+                          {label}
+                        </button>
+                      );
+                    })}
+                  </div>
+                </div>
+              </div>
+
+              <p className="mb-0 mt-4 text-xs text-textMuted">
+                {copy.locationHelper}
+              </p>
+            </div>
+          )}
+        </div>
+      </AnimateIn>
+
+      {/* ── Live region for screen readers ── */}
+      <div aria-live="polite" className="sr-only">
+        {`${filteredMasjids.length} ${
+          filteredMasjids.length === 1
+            ? copy.liveRegion.one
+            : copy.liveRegion.other
+        }`}
+      </div>
+
+      {/* ── Results list ── */}
+      <section>
+        {filteredMasjids.length === 0 ? (
+          <AnimateIn>
+            <div className="rounded-2xl border border-dashed border-border bg-surfaceElevated/50 px-6 py-16 text-center">
+              <div className="mx-auto mb-3 flex h-12 w-12 items-center justify-center rounded-2xl bg-primary/10">
+                <Icon name="search" size="lg" className="text-primary/60" />
+              </div>
               <p className="mb-2 font-display text-lg font-semibold text-textPrimary">
                 {copy.emptyTitle}
               </p>
@@ -614,15 +692,17 @@ export function FindMasjidPageClient({
                 <button
                   type="button"
                   onClick={clearAllFilters}
-                  className="font-medium text-primary underline hover:text-primaryHover"
+                  className="font-medium text-primary underline decoration-primary/30 underline-offset-2 hover:decoration-primary hover:text-primaryHover"
                 >
                   {copy.emptyAction}
                 </button>
                 .
               </p>
             </div>
-          ) : (
-            filteredMasjids.map(({ masjid, distanceKm }, index) => {
+          </AnimateIn>
+        ) : (
+          <div className="grid gap-3 sm:grid-cols-2 xl:grid-cols-3">
+            {filteredMasjids.map(({ masjid, distanceKm }, index) => {
               const isSelected = masjid.id === selectedMasjidId;
               const supportBadges = [
                 masjid.womenFriendly ? copy.womenFriendly : null,
@@ -632,165 +712,159 @@ export function FindMasjidPageClient({
               ].filter(Boolean);
 
               return (
-                <AnimateIn key={masjid.id} delay={0.18 + index * 0.03}>
+                <AnimateIn key={masjid.id} delay={0.04 + index * 0.02}>
                   <article
-                    className={`rounded-[1.6rem] border bg-white p-6 shadow-card transition-all duration-300 ${
+                    className={`group flex h-full flex-col rounded-2xl border bg-white p-5 transition-all duration-300 ${
                       isSelected
-                        ? "border-primary/60 ring-2 ring-primary/20 shadow-elevated"
-                        : "border-border/60 hover:border-primary/25 hover:shadow-soft"
+                        ? "border-primary/50 shadow-elevated ring-1 ring-primary/15"
+                        : "border-border/60 shadow-card hover:border-primary/25 hover:shadow-soft"
                     }`}
                   >
-                    <div className="mb-4 flex flex-wrap items-start justify-between gap-3">
-                      <div className="min-w-0 flex-1">
-                        <div className="mb-2 flex flex-wrap items-center gap-2">
-                          <h2 className="mb-0 mt-0 text-xl font-bold text-textPrimary">
-                            {masjid.name}
-                          </h2>
-                          {distanceKm !== null && (
-                            <span className="rounded-full bg-primary/10 px-3 py-1 text-xs font-semibold text-primary">
-                              {formatDistance(locale, distanceKm)}{" "}
-                              {copy.distanceAway}
-                            </span>
-                          )}
-                        </div>
-                        <p className="mb-0 text-sm font-medium text-textMuted">
-                          {masjid.city}, {masjid.stateProvince}
-                        </p>
+                    {/* Name + distance */}
+                    <div className="mb-3">
+                      <div className="flex items-start justify-between gap-2">
+                        <h2 className="mb-0 mt-0 text-base font-bold leading-snug text-textPrimary">
+                          {masjid.name}
+                        </h2>
+                        {distanceKm !== null && (
+                          <span className="shrink-0 rounded-full bg-primary/10 px-2.5 py-0.5 text-xs font-semibold text-primary">
+                            {formatDistance(locale, distanceKm)}
+                          </span>
+                        )}
                       </div>
-
-                      <button
-                        type="button"
-                        onClick={() => setSelectedMasjidId(masjid.id)}
-                        className={`inline-flex items-center gap-2 rounded-full px-4 py-2 text-sm font-semibold transition-all duration-200 ${
-                          isSelected
-                            ? "bg-primary text-white"
-                            : "bg-surfaceElevated text-primary hover:bg-primary/10 hover:text-primaryHover"
-                        }`}
-                      >
-                        <Icon name="map-pin" size="sm" />
-                        {isSelected ? copy.selectedLabel : copy.showOnMap}
-                      </button>
+                      <p className="mb-0 mt-0.5 text-xs text-textMuted">
+                        {masjid.city}, {masjid.stateProvince}
+                      </p>
                     </div>
 
-                    {supportBadges.length > 0 && (
-                      <div className="mb-4 flex flex-wrap gap-2">
+                    {/* Address */}
+                    <p className="mb-0 flex items-start gap-2 text-sm text-textSecondary">
+                      <Icon
+                        name="map-pin"
+                        size="sm"
+                        className="mt-0.5 shrink-0 text-primary/50"
+                      />
+                      <span>
+                        {masjid.address}, {masjid.postalCode}
+                      </span>
+                    </p>
+
+                    {/* Phone */}
+                    {masjid.phone && (
+                      <p className="mb-0 mt-1.5 flex items-center gap-2 text-sm">
+                        <svg
+                          className="h-4 w-4 shrink-0 text-primary/50"
+                          fill="none"
+                          viewBox="0 0 24 24"
+                          strokeWidth={1.5}
+                          stroke="currentColor"
+                          aria-hidden="true"
+                        >
+                          <path
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                            d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 0 0 2.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 0 1-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 0 0-1.091-.852H4.5A2.25 2.25 0 0 0 2.25 4.5v2.25Z"
+                          />
+                        </svg>
+                        <a
+                          href={`tel:${masjid.phone.replace(/[^\d+]/g, "")}`}
+                          className="text-sm text-primary no-underline hover:underline"
+                        >
+                          {masjid.phone}
+                        </a>
+                      </p>
+                    )}
+
+                    {/* Notes */}
+                    {masjid.notes && (
+                      <p className="mb-0 mt-3 rounded-lg bg-surfaceElevated/60 px-3 py-2 text-xs text-textSecondary">
+                        {masjid.notes}
+                      </p>
+                    )}
+
+                    {/* Badges row */}
+                    {(supportBadges.length > 0 ||
+                      (masjid.serviceIds && masjid.serviceIds.length > 0)) && (
+                      <div className="mb-0 mt-3 flex flex-wrap gap-1.5">
                         {supportBadges.map((badge) => (
                           <span
                             key={badge}
-                            className="rounded-full bg-surface px-3 py-1.5 text-xs font-medium text-textSecondary"
+                            className="rounded-full bg-surfaceElevated px-2.5 py-1 text-[11px] font-medium text-textMuted"
                           >
                             {badge}
+                          </span>
+                        ))}
+                        {masjid.serviceIds?.map((serviceId) => (
+                          <span
+                            key={serviceId}
+                            className="rounded-full bg-primary/8 px-2.5 py-1 text-[11px] font-medium text-primary/80"
+                          >
+                            {copy.serviceLabels[serviceId]}
                           </span>
                         ))}
                       </div>
                     )}
 
-                    {masjid.serviceIds && masjid.serviceIds.length > 0 && (
-                      <div className="mb-4">
-                        <p className="mb-2 text-xs font-semibold uppercase tracking-[0.16em] text-textMuted">
-                          {copy.servicesLabel}
-                        </p>
-                        <div className="flex flex-wrap gap-2">
-                          {masjid.serviceIds.map((serviceId) => (
-                            <span
-                              key={serviceId}
-                              className="rounded-full bg-primary/10 px-3 py-1.5 text-xs font-medium text-primary"
-                            >
-                              {copy.serviceLabels[serviceId]}
-                            </span>
-                          ))}
-                        </div>
-                      </div>
-                    )}
-
-                    <div className="flex flex-col gap-2.5 text-sm text-textSecondary">
-                      <p className="mb-0 flex items-start gap-2.5">
-                        <Icon
-                          name="map-pin"
-                          size="sm"
-                          className="mt-0.5 shrink-0 text-primary/60"
-                        />
-                        <span>
-                          {masjid.address}, {masjid.city},{" "}
-                          {masjid.stateProvince} {masjid.postalCode}
-                        </span>
-                      </p>
-
-                      {masjid.phone && (
-                        <p className="mb-0 flex items-center gap-2.5">
-                          <svg
-                            className="h-4 w-4 shrink-0 text-primary/60"
-                            fill="none"
-                            viewBox="0 0 24 24"
-                            strokeWidth={1.5}
-                            stroke="currentColor"
-                            aria-hidden="true"
-                          >
-                            <path
-                              strokeLinecap="round"
-                              strokeLinejoin="round"
-                              d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 0 0 2.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 0 1-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 0 0-1.091-.852H4.5A2.25 2.25 0 0 0 2.25 4.5v2.25Z"
-                            />
-                          </svg>
-                          <a
-                            href={`tel:${masjid.phone.replace(/[^\d+]/g, "")}`}
-                            className="text-primary no-underline hover:underline"
-                          >
-                            {masjid.phone}
-                          </a>
-                        </p>
-                      )}
-
-                      {masjid.notes && (
-                        <p className="mb-0 rounded-xl bg-surfaceElevated/70 px-3 py-2 text-sm text-textSecondary">
-                          {masjid.notes}
-                        </p>
-                      )}
-                    </div>
-
-                    <div className="mt-5 flex flex-wrap gap-2.5">
+                    {/* Actions — pushed to bottom */}
+                    <div className="mt-auto flex flex-wrap items-center gap-2 pt-4">
+                      <button
+                        type="button"
+                        onClick={() => setSelectedMasjidId(masjid.id)}
+                        className={`inline-flex items-center gap-1.5 rounded-lg px-3 py-2 text-xs font-semibold transition-all duration-200 ${
+                          isSelected
+                            ? "bg-primary text-white"
+                            : "bg-surfaceElevated text-primary hover:bg-primary/10"
+                        }`}
+                      >
+                        <Icon name="map-pin" size="sm" />
+                        {isSelected ? copy.selectedLabel : copy.showOnMap}
+                      </button>
                       <a
                         href={getGoogleMapsDirectionsUrl(masjid)}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="inline-flex items-center gap-1.5 rounded-xl bg-primary px-4 py-2.5 text-sm font-semibold text-white no-underline transition-all duration-200 hover:bg-primaryHover hover:text-white"
+                        className="inline-flex items-center gap-1 rounded-lg border border-border/60 bg-white px-3 py-2 text-xs font-semibold text-textSecondary no-underline transition-colors hover:border-primary/40 hover:text-primary"
                       >
                         {copy.googleMaps}
+                        <Icon name="external-link" size="sm" />
                       </a>
                       <a
                         href={getAppleMapsDirectionsUrl(masjid)}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="inline-flex items-center gap-1.5 rounded-xl border border-border/60 bg-white px-4 py-2.5 text-sm font-semibold text-textPrimary no-underline transition-all duration-200 hover:border-primaryGreen/50 hover:bg-surface hover:text-primary"
+                        className="inline-flex items-center gap-1 rounded-lg border border-border/60 bg-white px-3 py-2 text-xs font-semibold text-textSecondary no-underline transition-colors hover:border-primary/40 hover:text-primary"
                       >
                         {copy.appleMaps}
+                        <Icon name="external-link" size="sm" />
                       </a>
                       {masjid.website && (
                         <a
                           href={masjid.website}
                           target="_blank"
                           rel="noopener noreferrer"
-                          className="inline-flex items-center gap-1.5 rounded-xl border border-border/60 bg-white px-4 py-2.5 text-sm font-semibold text-textPrimary no-underline transition-all duration-200 hover:border-primaryGreen/50 hover:bg-surface hover:text-primary"
+                          className="inline-flex items-center gap-1 rounded-lg border border-border/60 bg-white px-3 py-2 text-xs font-semibold text-textSecondary no-underline transition-colors hover:border-primary/40 hover:text-primary"
                         >
                           {copy.visitWebsite}
                           <span className="sr-only">
                             {copy.visitWebsiteSuffix}
                             {masjid.name}
                           </span>
+                          <Icon name="external-link" size="sm" />
                         </a>
                       )}
                     </div>
                   </article>
                 </AnimateIn>
               );
-            })
-          )}
-        </div>
+            })}
+          </div>
+        )}
       </section>
 
+      {/* ── Cross-link footer ── */}
       <AnimateIn className="mt-10">
-        <div className="rounded-2xl border border-primaryGreen/30 bg-surfaceElevated/50 p-6 text-center">
-          <p className="mb-3 text-sm text-textSecondary">
+        <div className="rounded-2xl border border-primaryGreen/30 bg-surfaceElevated/50 p-5 text-center">
+          <p className="mb-2 text-sm text-textSecondary">
             {copy.crossLinkPrompt}
           </p>
           <Link
