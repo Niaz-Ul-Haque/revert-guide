@@ -10,6 +10,7 @@ import pt from "@/locales/pt/ui.json";
 import ko from "@/locales/ko/ui.json";
 import fa from "@/locales/fa/ui.json";
 import ru from "@/locales/ru/ui.json";
+import bn from "@/locales/bn/ui.json";
 
 export const SUPPORTED_LOCALES = [
   "en",
@@ -24,6 +25,7 @@ export const SUPPORTED_LOCALES = [
   "ko",
   "fa",
   "ru",
+  "bn",
 ] as const;
 export const DEFAULT_LOCALE = "en";
 export const LOCALE_STORAGE_KEY = "revert-guide-locale";
@@ -43,6 +45,7 @@ export const LOCALE_DISPLAY_NAMES: Record<
   ko: "한국어",
   fa: "فارسی",
   ru: "Русский",
+  bn: "বাংলা",
 };
 
 export type Locale = (typeof SUPPORTED_LOCALES)[number];
@@ -63,6 +66,7 @@ const dictionaries: Record<Locale, Messages> = {
   ko: deepMerge(en, ko) as unknown as Messages,
   fa: deepMerge(en, fa) as unknown as Messages,
   ru: deepMerge(en, ru) as unknown as Messages,
+  bn: deepMerge(en, bn) as unknown as Messages,
 };
 
 export function isLocale(value: string): value is Locale {

@@ -18,7 +18,8 @@
       "pt": "Português",
       "ko": "한국어",
       "fa": "فارسی",
-      "ru": "Русский"
+      "ru": "Русский",
+      "bn": "বাংলা"
     }
   },
   "nav": {
@@ -914,6 +915,81 @@
       "body": "This page seems to have wandered off. It may have been moved, removed, or the URL might be incorrect. Let's get you back on track.",
       "returnHome": "Return Home",
       "goToRoadmap": "Go to Roadmap"
+    },
+    "prayerTimes": {
+      "title": "Prayer Times",
+      "subtitle": "View today's prayer times for your area.",
+      "locationLabel": "Your location",
+      "locationPlaceholder": "Enter a city or address (e.g. Toronto, ON)",
+      "locationButton": "Get Times",
+      "loading": "Fetching prayer times…",
+      "error": "Could not load prayer times. Please check your connection and try again.",
+      "locationError": "Could not find that location. Try a more specific address or city name.",
+      "disclaimer": "Prayer times are approximate estimates calculated using the ISNA method. Always confirm with your local mosque for exact prayer schedules.",
+      "hijriDate": "Islamic Date",
+      "gregorianDate": "Date",
+      "nextPrayer": "Next",
+      "prayers": {
+        "Fajr": "Fajr",
+        "Sunrise": "Sunrise",
+        "Dhuhr": "Dhuhr",
+        "Asr": "Asr",
+        "Maghrib": "Maghrib",
+        "Isha": "Isha"
+      },
+      "prayerDescriptions": {
+        "Fajr": "Pre-dawn prayer",
+        "Sunrise": "Sunrise — Fajr ends",
+        "Dhuhr": "Midday prayer",
+        "Asr": "Afternoon prayer",
+        "Maghrib": "Sunset prayer",
+        "Isha": "Night prayer"
+      },
+      "offlineTitle": "Prayer times require an internet connection",
+      "offlineBody": "Please connect to the internet to fetch prayer times for your area.",
+      "learnMore": "New to prayer?",
+      "learnMoreLink": "Learn about the five daily prayers"
+    },
+    "qibla": {
+      "title": "Qibla Finder",
+      "subtitle": "Find the direction of the Kaaba in Mecca for your prayers.",
+      "directionLabel": "Qibla Direction",
+      "degrees": "degrees from North",
+      "loading": "Calculating Qibla direction…",
+      "error": "Could not determine Qibla direction. Please try again.",
+      "permissionDenied": "Location access was denied. You can enter coordinates manually below.",
+      "useMyLocation": "Use My Location",
+      "manualEntry": "Or enter coordinates manually",
+      "latitudePlaceholder": "Latitude (e.g. 43.65)",
+      "longitudePlaceholder": "Longitude (e.g. -79.38)",
+      "calculate": "Find Qibla",
+      "disclaimer": "The direction shown is an approximate bearing. For best results, use a physical compass to orient yourself.",
+      "compassTip": "Face this compass bearing during prayer. From Toronto, the Qibla is roughly northeast.",
+      "offlineTitle": "Qibla Finder requires an internet connection",
+      "offlineBody": "Please connect to the internet to calculate the Qibla direction.",
+      "learnMore": "Why do Muslims face the Kaaba?",
+      "learnMoreBody": "Facing the Kaaba in Mecca during prayer unifies Muslims worldwide in a single direction of worship, symbolizing unity and devotion to Allah."
+    },
+    "asmaAlHusna": {
+      "title": "The 99 Names of Allah",
+      "subtitle": "Explore the Beautiful Names of Allah — each name reveals an attribute of the Creator.",
+      "searchPlaceholder": "Search by name, meaning, or transliteration…",
+      "searchLabel": "Search names",
+      "nameOfTheDay": "Name of the Day",
+      "meaning": "Meaning",
+      "number": "No.",
+      "loading": "Loading the 99 Names…",
+      "error": "Could not load the names. Please try again.",
+      "liveRegion": {
+        "one": "name found",
+        "other": "names found"
+      },
+      "emptyTitle": "No names match your search",
+      "emptyPrefix": "Try a different search term or",
+      "emptyAction": "clear the search",
+      "disclaimer": "English meanings are concise renderings. The full depth of each name is best understood through scholarly study.",
+      "reflection": "Reflection",
+      "reflectionBody": "The Prophet Muhammad (peace be upon him) said: \"Allah has ninety-nine names. Whoever memorizes them will enter Paradise.\" Take time to learn and reflect on these beautiful names."
     }
   }
 }
