@@ -6,6 +6,7 @@ import Image from "next/image";
 import { usePathname } from "next/navigation";
 import { LanguageSwitcher } from "@/components/LanguageSwitcher";
 import { useLocale, useTranslations } from "@/components/LocaleProvider";
+import { useGlobalSearch } from "@/components/GlobalSearchProvider";
 import { localizeHref } from "@/lib/i18n";
 
 interface DropdownItem {
@@ -17,7 +18,6 @@ interface NavItem {
   href: string;
   label: string;
   dropdown?: DropdownItem[];
-  prominent?: boolean;
 }
 
 function DesktopDropdown({
@@ -137,6 +137,7 @@ export function Navbar() {
   const locale = useLocale();
   const t = useTranslations();
   const pathname = usePathname();
+  const { openSearch } = useGlobalSearch();
   const [menuOpen, setMenuOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
   const menuRef = useRef<HTMLDivElement>(null);
@@ -160,6 +161,24 @@ export function Navbar() {
       ],
     },
     {
+      href: localizeHref(locale, "/prayer-times"),
+      label: t("nav.tools"),
+      dropdown: [
+        {
+          href: localizeHref(locale, "/prayer-times"),
+          label: t("nav.prayerTimes"),
+        },
+        {
+          href: localizeHref(locale, "/qibla"),
+          label: t("nav.qibla"),
+        },
+        {
+          href: localizeHref(locale, "/asma-al-husna"),
+          label: t("nav.asmaAlHusna"),
+        },
+      ],
+    },
+    {
       href: localizeHref(locale, "/about"),
       label: t("nav.about"),
       dropdown: [
@@ -172,11 +191,6 @@ export function Navbar() {
         { href: localizeHref(locale, "/terms"), label: t("nav.terms") },
         { href: localizeHref(locale, "/sources"), label: t("nav.sources") },
       ],
-    },
-    {
-      href: localizeHref(locale, "/resources/find-masjid"),
-      label: t("nav.findMasjid"),
-      prominent: true,
     },
   ];
 
@@ -232,6 +246,18 @@ export function Navbar() {
       href: localizeHref(locale, "/mental-health"),
       label: t("nav.mentalHealth"),
     },
+    {
+      href: localizeHref(locale, "/prayer-times"),
+      label: t("nav.prayerTimes"),
+    },
+    {
+      href: localizeHref(locale, "/qibla"),
+      label: t("nav.qibla"),
+    },
+    {
+      href: localizeHref(locale, "/asma-al-husna"),
+      label: t("nav.asmaAlHusna"),
+    },
     { href: localizeHref(locale, "/about"), label: t("nav.about") },
     {
       href: localizeHref(locale, "/accessibility"),
@@ -276,7 +302,7 @@ export function Navbar() {
         </Link>
 
         {/* Desktop navigation */}
-        <div className="hidden items-center gap-3 lg:flex">
+        <div className="hidden items-center gap-1 lg:flex">
           <ul className="mb-0 list-none items-center gap-1 pl-0 lg:flex">
             {navItems.map((item) => {
               const active = isActive(item.href, item.dropdown);
@@ -289,40 +315,6 @@ export function Navbar() {
                     item={item}
                     isActive={active}
                   />
-                );
-              }
-
-              // Prominent item (Find a Masjid)
-              if (item.prominent) {
-                return (
-                  <li key={item.href} className="mb-0 list-none">
-                    <Link
-                      href={item.href}
-                      className="ml-2 inline-flex items-center gap-2 rounded-xl bg-primary px-4 py-2.5 text-sm font-semibold text-white no-underline shadow-[0_2px_8px_rgba(0,0,0,0.12)] transition-all duration-200 hover:bg-[#5B9168] hover:text-white hover:shadow-[0_6px_20px_rgba(0,0,0,0.15)] hover:-translate-y-0.5 active:translate-y-0 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-borderStrong"
-                      aria-current={pathname === item.href ? "page" : undefined}
-                    >
-                      <svg
-                        className="h-4 w-4"
-                        fill="none"
-                        viewBox="0 0 24 24"
-                        strokeWidth={1.5}
-                        stroke="currentColor"
-                        aria-hidden="true"
-                      >
-                        <path
-                          strokeLinecap="round"
-                          strokeLinejoin="round"
-                          d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"
-                        />
-                        <path
-                          strokeLinecap="round"
-                          strokeLinejoin="round"
-                          d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z"
-                        />
-                      </svg>
-                      {item.label}
-                    </Link>
-                  </li>
                 );
               }
 
@@ -344,35 +336,82 @@ export function Navbar() {
               );
             })}
           </ul>
+          <button
+            type="button"
+            onClick={openSearch}
+            className="inline-flex h-10 w-10 items-center justify-center rounded-xl text-textMuted transition-all duration-200 hover:bg-surfaceElevated hover:text-primary focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-borderStrong"
+            aria-label={t("search.openSearch")}
+            title={`${t("common.search")} (${t("search.keyboardHint")})`}
+          >
+            <svg
+              className="h-5 w-5"
+              fill="none"
+              viewBox="0 0 24 24"
+              strokeWidth={2}
+              stroke="currentColor"
+              aria-hidden="true"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z"
+              />
+            </svg>
+          </button>
           <LanguageSwitcher />
         </div>
 
-        {/* Mobile hamburger button */}
-        <button
-          className="inline-flex h-11 w-11 items-center justify-center rounded-xl text-textSecondary transition-all duration-200 hover:bg-surfaceElevated hover:text-primary focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-borderStrong lg:hidden"
-          onClick={() => setMenuOpen(!menuOpen)}
-          aria-expanded={menuOpen}
-          aria-controls="mobile-menu"
-          aria-label={menuOpen ? t("nav.closeMenu") : t("nav.openMenu")}
-        >
-          <div className="relative h-5 w-5">
-            <span
-              className={`absolute left-0 block h-0.5 w-5 rounded-full bg-current transition-all duration-300 ease-out-expo ${
-                menuOpen ? "top-[9px] rotate-45" : "top-1"
-              }`}
-            />
-            <span
-              className={`absolute left-0 top-[9px] block h-0.5 w-5 rounded-full bg-current transition-all duration-300 ease-out-expo ${
-                menuOpen ? "opacity-0 scale-x-0" : "opacity-100"
-              }`}
-            />
-            <span
-              className={`absolute left-0 block h-0.5 w-5 rounded-full bg-current transition-all duration-300 ease-out-expo ${
-                menuOpen ? "top-[9px] -rotate-45" : "top-[17px]"
-              }`}
-            />
-          </div>
-        </button>
+        {/* Mobile search + hamburger */}
+        <div className="flex items-center gap-1 lg:hidden">
+          <button
+            type="button"
+            onClick={openSearch}
+            className="inline-flex h-11 w-11 items-center justify-center rounded-xl text-textSecondary transition-all duration-200 hover:bg-surfaceElevated hover:text-primary focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-borderStrong"
+            aria-label={t("search.openSearch")}
+          >
+            <svg
+              className="h-5 w-5"
+              fill="none"
+              viewBox="0 0 24 24"
+              strokeWidth={2}
+              stroke="currentColor"
+              aria-hidden="true"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z"
+              />
+            </svg>
+          </button>
+
+          {/* Mobile hamburger button */}
+          <button
+            className="inline-flex h-11 w-11 items-center justify-center rounded-xl text-textSecondary transition-all duration-200 hover:bg-surfaceElevated hover:text-primary focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-borderStrong"
+            onClick={() => setMenuOpen(!menuOpen)}
+            aria-expanded={menuOpen}
+            aria-controls="mobile-menu"
+            aria-label={menuOpen ? t("nav.closeMenu") : t("nav.openMenu")}
+          >
+            <div className="relative h-5 w-5">
+              <span
+                className={`absolute left-0 block h-0.5 w-5 rounded-full bg-current transition-all duration-300 ease-out-expo ${
+                  menuOpen ? "top-[9px] rotate-45" : "top-1"
+                }`}
+              />
+              <span
+                className={`absolute left-0 top-[9px] block h-0.5 w-5 rounded-full bg-current transition-all duration-300 ease-out-expo ${
+                  menuOpen ? "opacity-0 scale-x-0" : "opacity-100"
+                }`}
+              />
+              <span
+                className={`absolute left-0 block h-0.5 w-5 rounded-full bg-current transition-all duration-300 ease-out-expo ${
+                  menuOpen ? "top-[9px] -rotate-45" : "top-[17px]"
+                }`}
+              />
+            </div>
+          </button>
+        </div>
       </nav>
 
       {/* Mobile menu overlay */}

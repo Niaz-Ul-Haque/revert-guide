@@ -173,6 +173,56 @@
 }
 
 /* ── Custom scrollbar ── */
+.leaflet-container {
+  height: 100%;
+  width: 100%;
+  font-family: var(--font-outfit), "Outfit", system-ui, sans-serif;
+  background: #edf4eb;
+}
+
+.leaflet-control-attribution {
+  font-size: 11px;
+}
+
+.leaflet-popup-content-wrapper {
+  border-radius: 18px;
+  box-shadow: 0 12px 40px rgba(26, 46, 26, 0.14);
+}
+
+.leaflet-popup-content {
+  margin: 0;
+}
+
+.masjid-map-popup {
+  min-width: 220px;
+  padding: 14px;
+}
+
+.masjid-map-popup__title {
+  margin: 0 0 6px;
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: #1a2e1a;
+}
+
+.masjid-map-popup__body {
+  margin: 0 0 10px;
+  font-size: 0.85rem;
+  line-height: 1.5;
+  color: #4a5d4a;
+}
+
+.masjid-map-popup__link {
+  display: inline-flex;
+  align-items: center;
+  border-radius: 999px;
+  background: #edf4eb;
+  padding: 8px 12px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  text-decoration: none;
+}
+
 ::-webkit-scrollbar {
   width: 8px;
 }

@@ -37,6 +37,10 @@
     "sources": "Sources",
     "ramadan": "Ramadan Guide",
     "mentalHealth": "Mental Health",
+    "tools": "Tools",
+    "prayerTimes": "Prayer Times",
+    "qibla": "Qibla Finder",
+    "asmaAlHusna": "99 Names of Allah",
     "mainNavigation": "Main navigation",
     "openMenu": "Open menu",
     "closeMenu": "Close menu",
@@ -68,6 +72,34 @@
     "breadcrumb": "Breadcrumb",
     "search": "Search",
     "clearSearch": "Clear search"
+  },
+  "search": {
+    "placeholder": "Search guides, glossary, topics, resources…",
+    "label": "Search all content",
+    "noResults": "No results found",
+    "noResultsHint": "Try different keywords or browse by category",
+    "close": "Close search",
+    "openSearch": "Open search",
+    "keyboardHint": "⌘K",
+    "resultCount": {
+      "one": "1 result found",
+      "other": "{count} results found"
+    },
+    "categories": {
+      "steps": "Roadmap Steps",
+      "topics": "Topics",
+      "glossary": "Glossary",
+      "resources": "Resources"
+    },
+    "seeAll": "See all {count} results",
+    "tips": {
+      "title": "Search tips",
+      "items": [
+        "Search by topic name like \"prayer\" or \"fasting\"",
+        "Look up Islamic terms like \"Shahada\" or \"Wudu\"",
+        "Find learning resources and guides"
+      ]
+    }
   },
   "resources": {
     "types": {
@@ -152,6 +184,18 @@
     "notFound": {
       "title": "Page Not Found - Revert Guide",
       "description": "Return to the roadmap or homepage to continue your journey."
+    },
+    "prayerTimes": {
+      "title": "Prayer Times - Revert Guide",
+      "description": "Learn about the five daily Islamic prayer times and when they occur throughout the day."
+    },
+    "qibla": {
+      "title": "Qibla Finder - Revert Guide",
+      "description": "Find the direction of the Qibla (Kaaba in Mecca) for your prayers."
+    },
+    "asmaAlHusna": {
+      "title": "99 Names of Allah - Revert Guide",
+      "description": "Explore the 99 Beautiful Names of Allah with meanings and reflections."
     }
   },
   "pages": {
@@ -260,7 +304,7 @@
         "Logical tab order throughout all pages"
       ],
       "limitationsTitle": "Known Limitations",
-      "limitations": "The embedded Google Maps feature on the Find a Masjid page (when available) is provided by Google and may not be fully accessible to screen reader users. However, all location information is available in the accessible text list of masjids on the same page.",
+      "limitations": "The map and address search on the Find a Masjid page rely on third-party mapping services and may not be fully accessible in every screen reader or keyboard workflow. However, all location information, filters, and directions links are also available in the accessible text results list on the same page.",
       "feedbackTitle": "Feedback",
       "feedback": "If you encounter any accessibility barriers while using Revert Guide, we want to hear from you. Please use the feedback options within the app to report any issues. We appreciate your input and will work to address accessibility concerns promptly.",
       "lastUpdatedTitle": "Last Updated",
@@ -283,14 +327,14 @@
           "title": "Cookies",
           "paragraphs": [
             "Revert Guide uses a service worker for offline caching. This does not involve tracking cookies. We do not use analytics cookies (such as Google Analytics) or marketing cookies.",
-            "The Google Maps feature on the Masjid Finder page may set cookies per Google's own privacy policy. This is beyond our control."
+            "The map and address search on the Masjid Finder page may load data from third-party providers, which may set cookies or receive standard request data such as your IP address. This is beyond our control."
           ]
         },
         {
           "id": "third-parties",
           "title": "Third Parties",
           "paragraphs": [
-            "This site uses Google Maps for the Masjid Finder feature. Google may collect usage data as described in their privacy policy.",
+            "This site uses OpenStreetMap-based map tiles and third-party geocoding services for the Masjid Finder feature. Those providers may receive standard request data needed to load maps and search addresses.",
             "No other third-party trackers or analytics services are used. External links are provided for convenience; we are not responsible for the privacy practices of external websites."
           ]
         },
@@ -786,20 +830,60 @@
       "emptyAction": "view all resources"
     },
     "findMasjid": {
-      "description": "Search for mosques in the Toronto area. Connect with your local community.",
+      "description": "Search for mosques in the Toronto area, compare support options, and open directions in your preferred maps app.",
       "offlineTitle": "You are offline",
-      "offlineBody": "The masjid list and search are available offline. Map features require an internet connection.",
-      "mapTitle": "Map coming soon",
-      "mapBody": "An interactive map will be available in a future update.",
-      "searchPlaceholder": "Search by name, city, or postal code...",
+      "offlineBody": "The masjid list, text search, and filters are available offline. The interactive map and address search require an internet connection.",
+      "mapTitle": "Masjid map",
+      "mapBody": "Explore the current results on a live map, then use an address search to sort the list by what is closest to you.",
+      "mapLoading": "Loading map...",
+      "mapOfflineTitle": "Map unavailable offline",
+      "mapOfflineBody": "Reconnect to load map tiles and search for a nearby address. The masjid list below still works offline.",
+      "mapEmptyTitle": "No masjids match the current search and filters.",
+      "mapLegendMasjid": "Masjid",
+      "mapLegendSelected": "Selected masjid",
+      "mapLegendSearch": "Searched area",
+      "locationLabel": "Search near an address",
+      "locationPlaceholder": "Enter a Toronto-area address or neighbourhood...",
+      "locationAction": "Search area",
+      "locationSearching": "Finding nearby masjids...",
+      "locationClear": "Clear area",
+      "locationHelper": "We do not use your device location. Enter an address to sort the list by distance.",
+      "locationResults": "Showing masjids nearest to",
+      "locationError": "We could not find that address. Try a fuller street address or neighbourhood name.",
+      "locationOffline": "Address search requires an internet connection.",
+      "searchPlaceholder": "Search by name, address, city, notes, service, or postal code...",
       "searchLabel": "Search masjids",
+      "filtersTitle": "Filter this list",
+      "cityLabel": "City",
+      "cityAll": "All cities",
+      "servicesLabel": "Services",
+      "amenitiesLabel": "Support and accessibility",
+      "womenFriendly": "Women-friendly space",
+      "convertSupport": "Convert support",
+      "parking": "Parking",
+      "accessibility": "Accessibility",
+      "clearFilters": "Clear all filters",
+      "showOnMap": "Show on map",
+      "selectedLabel": "Selected on map",
+      "distanceAway": "away",
+      "googleMaps": "Google Maps",
+      "appleMaps": "Apple Maps",
+      "serviceLabels": {
+        "quran-classes": "Quran classes",
+        "community-events": "Community events",
+        "new-muslim-support": "New Muslim support",
+        "youth-programs": "Youth programs",
+        "weekend-school": "Weekend school",
+        "library": "Library",
+        "interfaith-outreach": "Interfaith outreach"
+      },
       "liveRegion": {
         "one": "masjid found",
         "other": "masjids found"
       },
       "emptyTitle": "No masjids found",
-      "emptyPrefix": "Try a different search term or",
-      "emptyAction": "clear the search",
+      "emptyPrefix": "Try a different search term, address, or filter combination, or",
+      "emptyAction": "clear everything",
       "visitWebsite": "Visit website",
       "visitWebsiteSuffix": " for ",
       "crossLinkPrompt": "New to visiting a mosque? Learn what to expect.",

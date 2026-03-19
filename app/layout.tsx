@@ -1,5 +1,6 @@
 import type { Metadata, Viewport } from "next";
 import { Outfit, Fraunces, Amiri } from "next/font/google";
+import "leaflet/dist/leaflet.css";
 import en from "@/locales/en/ui.json";
 import "./globals.css";
 

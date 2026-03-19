@@ -2,12 +2,12 @@ import * as fs from "fs";
 import * as path from "path";
 import { DEFAULT_LOCALE, type Locale } from "./i18n";
 import type {
+  GlossaryEntry,
+  Masjid,
+  Resource,
   Stage,
   Step,
   Topic,
-  GlossaryEntry,
-  Resource,
-  Masjid,
 } from "./types";
 
 const localeRoot = path.join(process.cwd(), "locales");
@@ -32,6 +32,35 @@ function resolveLocaleFile(locale: Locale, relativePath: string) {
 
 function readJsonFile<T>(locale: Locale, relativePath: string): T {
   return readJson<T>(resolveLocaleFile(locale, relativePath));
+}
+
+function mergeLocalizedCollectionById<T extends { id: string }>(
+  baseItems: T[],
+  localizedItems: Partial<T>[],
+): T[] {
+  const localizedById = new Map(
+    localizedItems.map((item) => [item.id, item] as const),
+  );
+
+  const merged = baseItems.map((baseItem) => {
+    const localizedItem = localizedById.get(baseItem.id);
+    if (!localizedItem) {
+      return baseItem;
+    }
+
+    return {
+      ...baseItem,
+      ...localizedItem,
+    };
+  });
+
+  const baseIds = new Set(baseItems.map((item) => item.id));
+  const localizedOnlyItems = localizedItems.filter((item): item is T => {
+    const id = item.id;
+    return typeof id === "string" && !baseIds.has(id);
+  });
+
+  return [...merged, ...localizedOnlyItems];
 }
 
 function readJsonDir<T>(locale: Locale, relativeDir: string): T[] {
@@ -166,7 +195,22 @@ export function getResourcesByTopicId(
 }
 
 export function getAllMasjids(locale: Locale = DEFAULT_LOCALE): Masjid[] {
-  return readJsonFile<Masjid[]>(locale, "masjids.json");
+  const fallbackMasjids = readJsonFile<Masjid[]>(
+    DEFAULT_LOCALE,
+    "masjids.json",
+  );
+
+  if (locale === DEFAULT_LOCALE) {
+    return fallbackMasjids;
+  }
+
+  const localizedPath = path.join(getLocaleDir(locale), "masjids.json");
+  if (!fs.existsSync(localizedPath)) {
+    return fallbackMasjids;
+  }
+
+  const localizedMasjids = readJson<Partial<Masjid>[]>(localizedPath);
+  return mergeLocalizedCollectionById(fallbackMasjids, localizedMasjids);
 }
 
 export function getMasjidById(

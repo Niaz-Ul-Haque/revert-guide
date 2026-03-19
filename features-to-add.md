@@ -2,26 +2,6 @@
 
 This list is based on the current app structure: content-driven pages, roadmap stages/steps, glossary, resources, Toronto masjid listings, offline support, and an early `locales/` setup that is not yet wired through the app.
 
-## 1. Implement proper i18n infrastructure
-
-Priority: High
-
-Why this should be first:
-- The repo now groups locale assets under `locales/en/`, but more translated content and UI copy still need to be filled out for non-English locales.
-- Adding French now will force the right architecture before more languages make the app harder to maintain.
-
-Scope:
-- Support `en` and `fr` first.
-- Move UI strings, metadata, and content loading to a locale-aware system.
-- Make it easy to add future languages without touching core page logic.
-
-Implementation notes:
-- Introduce locale-aware routing or locale context.
-- Keep `lib/content.ts` loading from `locales/{locale}/...` with English fallback when translated files are missing.
-- Split all page copy and component labels out of hardcoded TSX where practical.
-- Add a language switcher in the navbar or settings area.
-- Keep English as fallback when a translation is missing.
-- Document the translation workflow so new languages can be added with low effort.
 
 ## 2. Add a global search across roadmap, topics, glossary, and resources
 
@@ -47,7 +27,7 @@ Why:
 
 Scope:
 - Interactive map view.
-- I dont use browser geolocation, but the user should be able to search adreses/fileters with.
+- I dont use browser geolocation, but the user should be able to search adreses/fileters with. So will just use the googlemaps iframe and pinpoint there via the address taken from the Masjid json.
 - Open directions in Google Maps/Apple Maps.
 - Filter by city, services, women-friendly spaces, convert support, parking, and accessibility where data exists.
 

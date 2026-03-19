@@ -1,4 +1,4 @@
-/* ─── Stages ─── */
+/* Stages */
 export interface Stage {
   id: string;
   title: string;
@@ -11,7 +11,7 @@ export interface Stage {
   duration: string;
 }
 
-/* ─── Steps ─── */
+/* Steps */
 export interface StepAction {
   text: string;
   subSteps?: string[];
@@ -38,7 +38,7 @@ export interface Step {
   relatedTopicIds: string[];
 }
 
-/* ─── Topics ─── */
+/* Topics */
 export interface TopicSection {
   heading: string;
   content: string;
@@ -56,7 +56,7 @@ export interface Topic {
   relatedResourceIds?: string[];
 }
 
-/* ─── Glossary ─── */
+/* Glossary */
 export interface GlossaryEntry {
   id: string;
   term: string;
@@ -66,7 +66,7 @@ export interface GlossaryEntry {
   seeAlso: string[];
 }
 
-/* ─── Resources ─── */
+/* Resources */
 export type ResourceType =
   | "article"
   | "video"
@@ -85,7 +85,16 @@ export interface Resource {
   relatedTopicIds: string[];
 }
 
-/* ─── Masjids ─── */
+/* Masjids */
+export type MasjidServiceId =
+  | "quran-classes"
+  | "community-events"
+  | "new-muslim-support"
+  | "youth-programs"
+  | "weekend-school"
+  | "library"
+  | "interfaith-outreach";
+
 export interface Masjid {
   id: string;
   name: string;
@@ -101,4 +110,9 @@ export interface Masjid {
   phone?: string;
   website?: string;
   notes?: string;
+  serviceIds?: MasjidServiceId[];
+  womenFriendly?: boolean;
+  convertSupport?: boolean;
+  parking?: boolean;
+  accessibility?: boolean;
 }
