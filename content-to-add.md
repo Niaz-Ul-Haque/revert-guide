@@ -5,7 +5,7 @@ Each topic is a JSON file with: id, slug, title, description, sections (array of
 
 **Existing (7 topics):** beliefs, prayer, quran, community, fasting, character, purification
 
-**To add USING AUTHETIC SOURCES AND MAKING IT EASY FOR NEW REVERTS -HELPFUL and UDNERSTANDING TONE (LIKE WHAT I ALREADY HAVE THROUGHOUT):**
+**To add (LOOKUP USING AUTHETIC SOURCES AND MAKING IT EASY FOR NEW REVERTS - HELPFUL and UDNERSTANDING TONE (LIKE WHAT I ALREADY HAVE THROUGHOUT):**
 
 - **hijab-and-modesty** — Understanding Islamic dress code, when and why, men and women, cultural vs religious, practical tips for converts
 - **marriage-and-family** — Islamic perspective on marriage, finding a spouse as a convert, nikah process, rights and responsibilities, interfaith family dynamics

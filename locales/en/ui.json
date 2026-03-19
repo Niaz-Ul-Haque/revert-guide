@@ -965,8 +965,11 @@
       "calculate": "Find Qibla",
       "disclaimer": "The direction shown is an approximate bearing. For best results, use a physical compass to orient yourself.",
       "compassTip": "Face this compass bearing during prayer. From Toronto, the Qibla is roughly northeast.",
-      "offlineTitle": "Qibla Finder requires an internet connection",
-      "offlineBody": "Please connect to the internet to calculate the Qibla direction.",
+      "compassTipLive": "Hold your phone flat and rotate until the arrow points up. You are now facing the Qibla!",
+      "compassActive": "Live compass active — point your phone to find Qibla",
+      "compassUnavailable": "Compass not available on this device. Use a physical compass to face the bearing shown.",
+      "offlineTitle": "Location required",
+      "offlineBody": "Allow location access or enter coordinates manually to find the Qibla direction.",
       "learnMore": "Why do Muslims face the Kaaba?",
       "learnMoreBody": "Facing the Kaaba in Mecca during prayer unifies Muslims worldwide in a single direction of worship, symbolizing unity and devotion to Allah."
     },
