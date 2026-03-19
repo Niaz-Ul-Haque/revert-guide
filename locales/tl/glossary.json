@@ -1,11 +1,35 @@
 [
   {
+    "id": "adhan",
+    "term": "Adhan",
+    "arabicText": "أذان",
+    "transliteration": "ah-THAAN",
+    "definition": "Ang tawag sa pagdarasal ay inihayag bago ang bawat obligadong salah. Ipinaaalala nito sa mga Muslim na pumasok na ang oras ng pagdarasal at inaanyayahan silang magtipon para sa pagsamba.",
+    "seeAlso": ["salah", "muadhin", "masjid"]
+  },
+  {
+    "id": "akhlaq",
+    "term": "Akhlaq",
+    "arabicText": "أخلاق",
+    "transliteration": "akh-LAAQ",
+    "definition": "Mabuting pagkatao, pag-uugali, at etika na hinubog ng mga turo ng Islamic. Ipinapakita nito ang katapatan, pasensya, awa, pagpapakumbaba, at kung paano mo tinatrato ang mga tao.",
+    "seeAlso": ["ihsan", "sabr", "shukr"]
+  },
+  {
     "id": "allah",
     "term": "Allah",
     "arabicText": "الله",
     "transliteration": "Allah",
     "definition": "Ang salitang Arabik para sa Diyos. Ginagamit ng mga Muslim ang pangalang ito upang tumukoy sa isa at tanging Lumikha at Tagapangalaga ng lahat ng umiiral. Ginagamit din ng mga Kristiyano at Hudyo na nagsasalita ng Arabik ang salitang ito para sa Diyos.",
     "seeAlso": ["islam", "iman", "aqeedah"]
+  },
+  {
+    "id": "amanah",
+    "term": "Amanah",
+    "arabicText": "أمانة",
+    "transliteration": "ah-MAA-nah",
+    "definition": "Maging mapagkakatiwalaan at tapat na dalhin ang ipinagkatiwala sa iyo, maging ari-arian, lihim, tungkulin, o responsibilidad. Tinutukoy din nito ang moral na responsibilidad bago Allah.",
+    "seeAlso": ["akhlaq", "iman"]
   },
   {
     "id": "aqeedah",
@@ -24,12 +48,68 @@
     "seeAlso": ["salah", "fajr", "dhuhr", "maghrib", "isha"]
   },
   {
+    "id": "awrah",
+    "term": "Awrah",
+    "arabicText": "عورة",
+    "transliteration": "AW-rah",
+    "definition": "Mga bahagi ng katawan na dapat takpan sa harap ng iba ayon sa mga alituntunin ng kahinhinan ng Islamic. Ang binibilang bilang awrah ay nag-iiba ayon sa konteksto at legal na opinyon.",
+    "seeAlso": ["hijab", "taharah"]
+  },
+  {
     "id": "ayah",
     "term": "Ayah",
     "arabicText": "آية",
     "transliteration": "AH-yah",
     "definition": "Isang talata ng Quran. Ang literal na kahulugan ng salita ay 'tanda' o 'himala.' Ang Quran ay binubuo ng mga kabanata (surah), at ang bawat kabanata ay naglalaman ng ilang mga ayah.",
     "seeAlso": ["quran", "surah", "tafsir"]
+  },
+  {
+    "id": "barakah",
+    "term": "Barakah",
+    "arabicText": "بركة",
+    "transliteration": "ba-ra-kah",
+    "definition": "Pagpapala o banal na pagtaas mula sa Allah. Ito ay ang kahulugan na ang oras, kayamanan, kaalaman, o pagsisikap ay nagiging mas kapaki-pakinabang kaysa inaasahan.",
+    "seeAlso": ["allah", "shukr"]
+  },
+  {
+    "id": "bidah",
+    "term": "Bid'ah",
+    "arabicText": "بدعة",
+    "transliteration": "BID-ah",
+    "definition": "Isang relihiyosong pagbabago na ipinakilala sa pagsamba o paniniwala nang walang matibay na batayan sa Quran o Sunnah. Ginagamit ng mga Muslim ang terminong ito nang maingat dahil hindi lahat ng bagong bagay sa mundo ay bid'ah.",
+    "seeAlso": ["sunnah", "hadith"]
+  },
+  {
+    "id": "burqa-niqab",
+    "term": "Burqa / Niqab",
+    "arabicText": "برقع / نقاب",
+    "transliteration": "BUR-qah / ni-QAAB",
+    "definition": "Mga tuntunin para sa mga damit na nagtatakip sa mukha na nauugnay sa ilang mga kababaihang Muslim. Ang isang niqab ay karaniwang tumatakip sa mukha habang iniiwan ang mga mata na nakikita, habang ang isang burqa ay isang mas buong panlabas na takip; Ang mga pananaw sa mga ito ay naiiba ayon sa kultura at opinyon ng mga iskolar.",
+    "seeAlso": ["hijab", "awrah"]
+  },
+  {
+    "id": "dawah",
+    "term": "Da'wah",
+    "arabicText": "دعوة",
+    "transliteration": "DA-wah",
+    "definition": "Inaanyayahan ang iba na maunawaan Islam sa pamamagitan ng malinaw na paliwanag, mabuting asal, at matalinong paggawi. Hindi lamang ito pangangaral sa publiko; Ang iyong pagkatao ay maaari ring maging bahagi ng da'wah.",
+    "seeAlso": ["islam", "akhlaq"]
+  },
+  {
+    "id": "dajjal",
+    "term": "Dajjal",
+    "arabicText": "الدجال",
+    "transliteration": "daj-JAAL",
+    "definition": "Isang pangunahing manlilinlang na binanggit sa mga turo ng ZZTERM tungkol sa mga huling panahon, kung minsan ay tinatawag na huwad na mesiyas. Ang mga mananampalataya ay tinuturuan na humingi ng proteksyon sa Allah mula sa kanyang pagsubok.",
+    "seeAlso": ["qiyam", "aqeedah"]
+  },
+  {
+    "id": "deen",
+    "term": "Deen",
+    "arabicText": "دين",
+    "transliteration": "DEEN",
+    "definition": "Relihiyon, paraan ng pamumuhay, at ang kumpletong landas ng pamumuhay sa pagsunod sa Allah. Madalas itong ginagamit ng mga Muslim upang ipahiwatig ang Islam bilang isang buong paraan ng pamumuhay, hindi lamang isang hanay ng mga ritwal.",
+    "seeAlso": ["islam", "iman"]
   },
   {
     "id": "dhikr",
@@ -70,6 +150,30 @@
     "transliteration": "FAJ-r",
     "definition": "Ang dasal sa madaling-araw, na siyang una sa limang pang-araw-araw na pagdarasal. Isinasagawa ito sa pagitan ng unang liwanag ng bukang-liwayway at pagsikat ng araw. Maraming Muslim ang nakakatagpo ng kapayapaan sa maagang dasal na ito bilang simula ng kanilang araw.",
     "seeAlso": ["salah", "dhuhr", "asr", "maghrib", "isha"]
+  },
+  {
+    "id": "fard",
+    "term": "Fard",
+    "arabicText": "فرض",
+    "transliteration": "FARD",
+    "definition": "Isang obligadong gawain sa Islam. Ang paggawa nito ay gagantimpalaan at sadyang pagtalikod nito nang walang dahilan ay makasalanan.",
+    "seeAlso": ["salah", "wajib", "islam"]
+  },
+  {
+    "id": "fatwa",
+    "term": "Fatwa",
+    "arabicText": "فتوى",
+    "transliteration": "FAT-wah",
+    "definition": "Isang hindi nagbubuklod na Islamic legal na opinyon na ibinigay ng isang kwalipikadong iskolar bilang tugon sa isang tanong. Ipinaliliwanag ng isang fatwa kung paano maaaring mailapat ang mga turo ng Islamic sa isang partikular na isyu.",
+    "seeAlso": ["sharia", "imam", "ijma"]
+  },
+  {
+    "id": "fitnah",
+    "term": "Fitnah",
+    "arabicText": "فتنة",
+    "transliteration": "FIT-nah",
+    "definition": "Isang pagsubok, tukso, o kapighatian na sumusubok sa pananampalataya at pagkatao ng isang tao. Maaari ring ilarawan ng salitang ito ang kaguluhan o pagkalito sa lipunan.",
+    "seeAlso": ["sabr", "iman"]
   },
   {
     "id": "fitrah",
@@ -120,12 +224,84 @@
     "seeAlso": ["halal"]
   },
   {
+    "id": "haya",
+    "term": "Haya",
+    "arabicText": "حياء",
+    "transliteration": "ha-YAA",
+    "definition": "Pagkamapainubsanon, pagkamahiyain, at isang marangal na pakiramdam ng kahihiyan na nagpapalayo sa isang tao mula sa sayop. Nakakaimpluwensya ito sa pananamit, pagsasalita, pag-uugali, at panloob na saloobin.",
+    "seeAlso": ["hijab", "akhlaq"]
+  },
+  {
     "id": "hijab",
     "term": "Hijab",
     "arabicText": "حجاب",
     "transliteration": "hih-JAAB",
     "definition": "Karaniwang tumutukoy sa takip sa ulo na isinusuot ng maraming babaeng Muslim bilang pagpapahayag ng kahinhinan at pananampalataya. Sa mas malawak na kahulugan, ang hijab ay tumutukoy sa konsepto ng kahinhinan sa pananamit at pag-uugali para sa mga lalaki at babae.",
     "seeAlso": ["islam", "iman"]
+  },
+  {
+    "id": "hijrah",
+    "term": "Hijrah",
+    "arabicText": "هجرة",
+    "transliteration": "HIJ-rah",
+    "definition": "Migrasyon para sa kapakanan ng pananampalataya, lalo na ang paglipat ni Propeta Muhammad mula sa Makkah patungong Madinah. Sa mas malawak na paraan, maaari itong mangahulugan ng pag-iwan ng mga nakakapinsalang sitwasyon upang maprotektahan o palakasin ang iyong deen.",
+    "seeAlso": ["muhajir", "deen"]
+  },
+  {
+    "id": "ibadah",
+    "term": "Ibadah",
+    "arabicText": "عبادة",
+    "transliteration": "ih-BAA-dah",
+    "definition": "Pagsamba at debosyon na ginawa para sa Allah. Kabilang dito ang mga pormal na ritwal tulad ng pagdarasal at pag-aayuno pati na rin ang pang-araw-araw na mabubuting gawa na ginagawa nang may taos-pusong intensyon.",
+    "seeAlso": ["salah", "dua", "dhikr"]
+  },
+  {
+    "id": "iftar",
+    "term": "Iftar",
+    "arabicText": "إفطار",
+    "transliteration": "if-TAAR",
+    "definition": "Ang pagkain kung saan ang isang taong nag-aayuno ay nagbabasag ng pag-aayuno sa paglubog ng araw sa Ramadan o iba pang mga pag-aayuno. Ayon sa kaugalian, ito ay binuksan sa Maghrib oras, madalas na may mga petsa at tubig.",
+    "seeAlso": ["sawm", "ramadan", "suhoor"]
+  },
+  {
+    "id": "ihram",
+    "term": "Ihram",
+    "arabicText": "إحرام",
+    "transliteration": "ih-HRAAM",
+    "definition": "Ang sagradong estado na pinapasok ng isang peregrino bago Hajj o Umrah, kasama ang mga espesyal na paghihigpit at intensyon na kasama nito. Karaniwan ding ginagamit ang salitang ito para sa mga simpleng damit na isinusuot sa panahong ito.",
+    "seeAlso": ["hajj", "umrah", "kaabah"]
+  },
+  {
+    "id": "ihsan",
+    "term": "Ihsan",
+    "arabicText": "إحسان",
+    "transliteration": "ih-HSAAN",
+    "definition": "Espirituwal na kahusayan: pagsamba sa Allah nang may malalim na katapatan at kamalayan, na para bang nakikita mo Siya, at alam mo na nakikita ka Niya. Nangangahulugan din ito ng pagsisikap para sa kagandahan at kahusayan sa iyong ginagawa.",
+    "seeAlso": ["iman", "akhlaq", "ibadah"]
+  },
+  {
+    "id": "ijma",
+    "term": "Ijma'",
+    "arabicText": "إجماع",
+    "transliteration": "ij-MAA",
+    "definition": "Scholarly pinagkasunduan sa isang bagay ng Islamic batas o paniniwala. Ito ay isa sa mga mahahalagang prinsipyo na ginagamit sa Islamic legal na pangangatwiran.",
+    "seeAlso": ["ijtihad", "fatwa", "maqasid"]
+  },
+  {
+    "id": "ijtihad",
+    "term": "Ijtihad",
+    "arabicText": "اجتهاد",
+    "transliteration": "ij-ti-HAAD",
+    "definition": "Maingat na independiyenteng pangangatwiran na ginagamit ng mga kwalipikadong iskolar upang makakuha ng mga desisyon kapag ang isang bagay ay hindi malinaw na tinatalakay. Nangangailangan ito ng malalim na kaalaman sa mga mapagkukunan at legal na pamamaraan.",
+    "seeAlso": ["ijma", "fatwa", "sharia"]
+  },
+  {
+    "id": "ilm",
+    "term": "Ilm",
+    "arabicText": "علم",
+    "transliteration": "ILM",
+    "definition": "Kaalaman, lalo na ang kapaki-pakinabang na kaalaman sa pananampalataya at pagsasagawa. Ang paghahanap ng ilm ay lubos na binibigyang-diin sa Islam.",
+    "seeAlso": ["quran", "hadith", "tafsir"]
   },
   {
     "id": "imam",
@@ -144,14 +320,6 @@
     "seeAlso": ["islam", "aqeedah", "shahada"]
   },
   {
-    "id": "islam",
-    "term": "Islam",
-    "arabicText": "إسلام",
-    "transliteration": "is-LAAM",
-    "definition": "Ang relihiyon ng pagsuko at kapayapaan sa Diyos. Ang salita ay nagmula sa ugat na Arabik na nangangahulugang 'kapayapaan' at 'pagsuko.' Itinuturo ng Islam na may iisang Diyos at si Muhammad ang Kanyang huling sugo.",
-    "seeAlso": ["muslim", "allah", "iman", "shahada"]
-  },
-  {
     "id": "isha",
     "term": "Isha",
     "arabicText": "العشاء",
@@ -160,12 +328,100 @@
     "seeAlso": ["salah", "fajr", "dhuhr", "asr", "maghrib"]
   },
   {
+    "id": "islam",
+    "term": "Islam",
+    "arabicText": "إسلام",
+    "transliteration": "is-LAAM",
+    "definition": "Ang relihiyon ng pagsuko at kapayapaan sa Diyos. Ang salita ay nagmula sa ugat na Arabik na nangangahulugang 'kapayapaan' at 'pagsuko.' Itinuturo ng Islam na may iisang Diyos at si Muhammad ang Kanyang huling sugo.",
+    "seeAlso": ["muslim", "allah", "iman", "shahada"]
+  },
+  {
+    "id": "istikhara",
+    "term": "Istikhara",
+    "arabicText": "استخارة",
+    "transliteration": "is-ti-KHAA-rah",
+    "definition": "Isang panalangin at panalangin na humihingi Allah ng patnubay sa paggawa ng desisyon. Ginagawa ito kapag pumipili sa pagitan ng mga pinahihintulutang pagpipilian at pagtitiwala Allah sa kinalabasan.",
+    "seeAlso": ["dua", "niyyah"]
+  },
+  {
+    "id": "jahannam",
+    "term": "Jahannam",
+    "arabicText": "جهنم",
+    "transliteration": "ja-HAN-nam",
+    "definition": "Ang Apoy ng Impiyerno, ang lugar ng kaparusahan sa kabilang-buhay para sa mga tumatanggi sa katotohanan at nagpupumilit sa mabibigat na kamalian. Binanggit ito ng mga Muslim bilang babala at paalala ng pananagutan.",
+    "seeAlso": ["jannah", "iman"]
+  },
+  {
+    "id": "janazah",
+    "term": "Janazah",
+    "arabicText": "جنازة",
+    "transliteration": "ja-NAA-zah",
+    "definition": "Mga seremonya ng libing para sa isang namatay na Muslim, lalo na ang pagdarasal sa libing. Mas malawak din itong tumutukoy sa namatay na tao at sa proseso ng libing.",
+    "seeAlso": ["jannah", "jahannam"]
+  },
+  {
+    "id": "jannah",
+    "term": "Jannah",
+    "arabicText": "جنة",
+    "transliteration": "JAN-nah",
+    "definition": "Ang Paraiso, ang walang hanggang gantimpala Allah mga pangako sa mga matuwid. Ito ay inilarawan bilang isang lugar ng kapayapaan, kagalakan, at pagiging malapit sa Allah.",
+    "seeAlso": ["jahannam", "iman", "qadr"]
+  },
+  {
+    "id": "jihad",
+    "term": "Jihad",
+    "arabicText": "جهاد",
+    "transliteration": "ji-HAAD",
+    "definition": "Nakikipaglaban at nakikipaglaban sa landas ng Allah. Maaari itong tumukoy sa panloob na pakikibaka laban sa kasalanan at kahirapan, at sa ilang mga konteksto sa armadong pakikibaka na pinamamahalaan ng mahigpit na mga patakaran sa etika.",
+    "seeAlso": ["sabr", "deen"]
+  },
+  {
+    "id": "jinn",
+    "term": "Jinn",
+    "arabicText": "جن",
+    "transliteration": "JINN",
+    "definition": "Mga di-nakikitang nilalang na nilikha mula sa apoy na walang usok na, tulad ng mga tao, ay may malayang kalooban. Ang ilan ay naniniwala at ang ilan ay hindi.",
+    "seeAlso": ["quran", "aqeedah"]
+  },
+  {
     "id": "jumuah",
     "term": "Jumu'ah",
     "arabicText": "جمعة",
     "transliteration": "JOO-moo-ah",
     "definition": "Ang pagdarasal ng kongregasyon tuwing Biyernes, na pumapalit sa dasal na Dhuhr tuwing Biyernes. Kasama dito ang isang sermon (khutbah) at isang mahalagang lingguhang pagtitipon para sa komunidad ng mga Muslim. Ang pagdalo sa Jumu'ah ay isang magandang paraan upang makakonekta sa ibang mga Muslim.",
     "seeAlso": ["salah", "masjid", "imam", "dhuhr"]
+  },
+  {
+    "id": "kaabah",
+    "term": "Ka'bah",
+    "arabicText": "الكعبة",
+    "transliteration": "KAH-bah",
+    "definition": "Ang sagradong kubiko na istraktura sa Makkah kung saan ang mga Muslim ay nakaharap sa pagdarasal. Ito ang espirituwal na sentro ng pagsamba sa Islamic at isang focal point ng Hajj at Umrah.",
+    "seeAlso": ["qiblah", "hajj", "umrah"]
+  },
+  {
+    "id": "kafir",
+    "term": "Kafir",
+    "arabicText": "كافر",
+    "transliteration": "KAA-fir",
+    "definition": "Isang termino na literal na nangangahulugang isang taong nagtatakip o tumatanggi sa katotohanan. Sa paggamit ng Islamic maaari itong tumukoy sa kawalan ng pananampalataya o isang di-mananampalataya, ngunit dapat itong gamitin nang maingat at hindi bilang kaswal na pang-aabuso.",
+    "seeAlso": ["iman", "islam"]
+  },
+  {
+    "id": "khalifah",
+    "term": "Khalifah",
+    "arabicText": "خليفة",
+    "transliteration": "kha-LEE-fah",
+    "definition": "Katiwala, kahalili, o kinatawan. Ang terminong ito ay maaaring tumukoy sa mga tao bilang mga tagapag-alaga sa mundo o sa isang kalipa na namumuno sa pamayanang Muslim.",
+    "seeAlso": ["deen", "amanah"]
+  },
+  {
+    "id": "khushoo",
+    "term": "Khushoo'",
+    "arabicText": "خشوع",
+    "transliteration": "khu-SHOO",
+    "definition": "Mapagpakumbabang pokus, kalmado, at pagpipitagan sa panalangin. Ito ay ang panloob na kalagayan ng pagiging naroroon sa Allah sa halip na manalangin nang mekanikal.",
+    "seeAlso": ["salah", "ihsan", "dhikr"]
   },
   {
     "id": "khutbah",
@@ -184,12 +440,68 @@
     "seeAlso": ["salah", "fajr", "dhuhr", "asr", "isha"]
   },
   {
+    "id": "mahr",
+    "term": "Mahr",
+    "arabicText": "مهر",
+    "transliteration": "MAHR",
+    "definition": "Ang regalong pangkasal na ibinibigay ng nobyo sa nobya bilang bahagi ng kontrata ng kasal. Karapatan niya ito at pag-aari niya lamang.",
+    "seeAlso": ["nikah", "amanah"]
+  },
+  {
+    "id": "makruh",
+    "term": "Makruh",
+    "arabicText": "مكروه",
+    "transliteration": "mak-ROOH",
+    "definition": "Isang kilos na hindi nagustuhan sa Islam ngunit hindi mahigpit na ipinagbabawal. Ang pag-iwas dito ay maaaring gantimpalaan, samantalang ang paggawa nito ay karaniwang hindi makasalanan sa sarili nito.",
+    "seeAlso": ["halal", "haram", "mubah"]
+  },
+  {
+    "id": "maqasid",
+    "term": "Maqasid",
+    "arabicText": "مقاصد",
+    "transliteration": "ma-QAA-sid",
+    "definition": "Ang mas mataas na mga layunin at karunungan ng batas ng Islamic, tulad ng pagprotekta sa pananampalataya, buhay, talino, pamilya, at ari-arian. Ang konsepto ay tumutulong sa mga iskolar na maunawaan ang layunin sa likod ng mga desisyon.",
+    "seeAlso": ["sharia", "ijtihad"]
+  },
+  {
     "id": "masjid",
     "term": "Masjid",
     "arabicText": "مسجد",
     "transliteration": "MAS-jid",
     "definition": "Isang moske, ang lugar kung saan nagtitipon ang mga Muslim para sa pagdarasal at mga aktibidad ng komunidad. Ang literal na kahulugan ng salita ay 'lugar ng pagpapatirapa.' Ang mga masjid ay mga lugar na bukas sa lahat, at lagi kang malugod na tinatanggap na bumisita.",
     "seeAlso": ["salah", "imam", "jumuah"]
+  },
+  {
+    "id": "miswak",
+    "term": "Miswak",
+    "arabicText": "مسواك",
+    "transliteration": "MIS-waak",
+    "definition": "Isang natural na stick sa paglilinis ng ngipin na tradisyonal na ginagamit para sa kalinisan ng bibig. Ang paggamit nito ay malawak na nauugnay sa Sunnah.",
+    "seeAlso": ["sunnah", "taharah"]
+  },
+  {
+    "id": "muadhin",
+    "term": "Mu'adhin",
+    "arabicText": "مؤذن",
+    "transliteration": "mu-ADH-dhin",
+    "definition": "Ang taong tumatawag sa adhan. Sa isang moske, ipinapahayag ng mu'adhin ang oras ng pagdarasal sa komunidad.",
+    "seeAlso": ["adhan", "masjid"]
+  },
+  {
+    "id": "mubah",
+    "term": "Mubah",
+    "arabicText": "مباح",
+    "transliteration": "moo-BAAH",
+    "definition": "Isang bagay na pinahihintulutan at neutral sa relihiyon sa Islam. Ang paggawa nito o pag-alis nito ay hindi nagdudulot ng kasalanan o gantimpala sa sarili nito maliban kung binabago ng intensyon ang gawain.",
+    "seeAlso": ["halal", "makruh"]
+  },
+  {
+    "id": "muhajir",
+    "term": "Muhajir",
+    "arabicText": "مهاجر",
+    "transliteration": "mu-HAA-jir",
+    "definition": "Isang taong lumipat alang-alang sa Allah at pananampalataya. Ayon sa kasaysayan, madalas itong tumutukoy sa mga sinaunang Muslim na umalis sa Makkah patungong Madinah.",
+    "seeAlso": ["hijrah", "deen"]
   },
   {
     "id": "muslim",
@@ -200,12 +512,60 @@
     "seeAlso": ["islam", "shahada", "iman"]
   },
   {
+    "id": "mustahabb",
+    "term": "Mustahabb",
+    "arabicText": "مستحب",
+    "transliteration": "mus-ta-HABB",
+    "definition": "Isang gawain na inirerekomenda at minamahal sa Islam ngunit hindi sapilitan. Ang paggawa nito ay nagdudulot ng gantimpala, samantalang ang pag-alis nito ay hindi nagdudulot ng kasalanan.",
+    "seeAlso": ["nafl", "sunnah"]
+  },
+  {
+    "id": "nafl",
+    "term": "Nafl",
+    "arabicText": "نفل",
+    "transliteration": "NAF-l",
+    "definition": "Kusang-loob na pagsamba na lampas sa kinakailangan. Nafl panalangin, pag-aayuno, at pag-ibig sa kapwa-tao ay tumutulong sa isang tao na maging mas malapit sa Allah.",
+    "seeAlso": ["sunnah", "witr", "salah"]
+  },
+  {
+    "id": "nikah",
+    "term": "Nikah",
+    "arabicText": "نكاح",
+    "transliteration": "ni-KAAH",
+    "definition": "Ang Islamic marriage contract. Ginagawa nitong legal ang kasal at binabalangkas ang mga karapatan at responsibilidad.",
+    "seeAlso": ["mahr", "deen"]
+  },
+  {
     "id": "niyyah",
     "term": "Niyyah",
     "arabicText": "نية",
     "transliteration": "NIY-yah",
     "definition": "Intensyon. Sa Islam, ang katapatan ng iyong intensyon ang nagbibigay ng espirituwal na halaga sa mga aksyon. Bago ang mga gawain ng pagsamba tulad ng pagdarasal o pag-aayuno, itinatakda mo ang iyong niyyah sa iyong puso. Hindi ito kailangang sabihin nang malakas.",
     "seeAlso": ["salah", "sawm", "wudu"]
+  },
+  {
+    "id": "qadr",
+    "term": "Qadr",
+    "arabicText": "قدر",
+    "transliteration": "QAD-r",
+    "definition": "Banal na kautusan at perpektong kaalaman at determinasyon ng Allah sa lahat ng bagay. Ang paniniwala sa qadr ay kinabibilangan ng pagtitiwala na alam Allah kung ano ang dati, ngayon, at mangyayari.",
+    "seeAlso": ["iman", "aqeedah"]
+  },
+  {
+    "id": "qiblah",
+    "term": "Qiblah",
+    "arabicText": "قبلة",
+    "transliteration": "QIB-lah",
+    "definition": "Ang direksyon na kinakaharap ng mga Muslim sa pagdarasal, patungo sa Ka'bah sa Makkah. Ang paghahanap ng qiblah ay tumutulong sa pag-orient ng mga gawain ng pagsamba tulad ng salah at paglilibing.",
+    "seeAlso": ["kaabah", "salah"]
+  },
+  {
+    "id": "qiyam",
+    "term": "Qiyam",
+    "arabicText": "قيام",
+    "transliteration": "qi-YAAM",
+    "definition": "Tumayo sa panalangin. Maaari rin itong tumukoy sa pagdarasal sa gabi, lalo na ang mas matagal na pagtayo sa pagsamba tulad ng Qiyam al-Layl.",
+    "seeAlso": ["salah", "witr", "ramadan"]
   },
   {
     "id": "quran",
@@ -232,12 +592,52 @@
     "seeAlso": ["sawm", "eid", "salah"]
   },
   {
+    "id": "riba",
+    "term": "Riba",
+    "arabicText": "ربا",
+    "transliteration": "ri-BAA",
+    "definition": "Usury o interes-based na pakinabang na ipinagbabawal ng batas ng Islamic sa ilang mga transaksyong pinansyal. Karaniwang ginagamit ng mga Muslim ang terminong ito para sa mapagsamantala o may interes na mga pakikitungo na lumalabag sa etika ng Islamic.",
+    "seeAlso": ["halal", "haram", "zakat"]
+  },
+  {
+    "id": "ruku",
+    "term": "Ruku'",
+    "arabicText": "ركوع",
+    "transliteration": "roo-KOO",
+    "definition": "Ang posisyon ng pagyuko sa salah, kapag ang isang mananamba ay yumuyuko sa baywang na may mga kamay sa tuhod. Ito ay isa sa mga pangunahing pisikal na haligi ng bawat rak'ah.",
+    "seeAlso": ["salah", "rakah", "sajdah"]
+  },
+  {
+    "id": "sabr",
+    "term": "Sabr",
+    "arabicText": "صبر",
+    "transliteration": "SAB-r",
+    "definition": "Matiyaga, pagtitiyaga, at matatag na pagpipigil sa sarili para sa kapakanan ng Allah. Kaupod hito an pagpabilin nga marig - on ha pagsingba, paglikay ha sala, ngan pag - ilob hin maopay ha kakurian.",
+    "seeAlso": ["shukr", "iman", "akhlaq"]
+  },
+  {
     "id": "sadaqah",
     "term": "Sadaqah",
     "arabicText": "صدقة",
     "transliteration": "SA-da-qah",
     "definition": "Boluntaryong kawanggawa o mabuting gawa na ginawa dahil sa kabaitan at malasakit. Hindi tulad ng zakat, ang sadaqah ay hindi obligado at maaaring kasing-simple ng isang ngiti, pagtulong sa kapitbahay, o pagbabahagi ng pagkain. Bawat gawa ng kabutihan ay mahalaga.",
     "seeAlso": ["zakat"]
+  },
+  {
+    "id": "sajdah",
+    "term": "Sajdah",
+    "arabicText": "سجدة",
+    "transliteration": "SAJ-dah",
+    "definition": "Pagpapatirapa sa panalangin, kapag ang noo, ilong, kamay, tuhod, at daliri sa paa ay humipo sa lupa. Ito ang isa sa pinakamalapit na sandali ng isang lingkod sa Allah.",
+    "seeAlso": ["salah", "rakah", "ruku"]
+  },
+  {
+    "id": "salaf",
+    "term": "Salaf",
+    "arabicText": "سلف",
+    "transliteration": "SA-laf",
+    "definition": "Ang mga unang matuwid na henerasyon ng mga Muslim, lalo na ang mga kasamahan ng Propeta, ang kanilang mga mag-aaral, at ang henerasyon na sumunod sa kanila. Ang mga ito ay madalas na itinuturing na mahalagang halimbawa ng pag-unawa at pagsasanay.",
+    "seeAlso": ["sunnah", "hadith"]
   },
   {
     "id": "salah",
@@ -272,6 +672,46 @@
     "seeAlso": ["islam", "muslim", "iman", "allah"]
   },
   {
+    "id": "sharia",
+    "term": "Sharia",
+    "arabicText": "شريعة",
+    "transliteration": "sha-REE-ah",
+    "definition": "Ang banal na moral at legal na patnubay ng Islam ay hango sa Quran at Sunnah. Sinasaklaw nito ang pagsamba, etika, buhay ng pamilya, pananalapi, katarungan, at marami pa.",
+    "seeAlso": ["maqasid", "fatwa", "halal"]
+  },
+  {
+    "id": "shirk",
+    "term": "Shirk",
+    "arabicText": "شرك",
+    "transliteration": "SHIRK",
+    "definition": "Pagpapasama ng mga kasosyo sa Allah sa pagsamba, pagkapanginoon, o sa Kanyang natatanging mga katangian. Ito ay itinuturing na pinakamabigat na kasalanan kung ang isang tao ay namatay nang hindi nagsisisi mula rito.",
+    "seeAlso": ["tawhid", "aqeedah", "allah"]
+  },
+  {
+    "id": "shukr",
+    "term": "Shukr",
+    "arabicText": "شكر",
+    "transliteration": "SHOOK-r",
+    "definition": "Pasasalamat at pasasalamat sa mga biyaya ng Allah. An totoo nga shukr nag - uupod han pagpasalamat ha kasingkasing, pagpahayag hito, ngan paggamit hin maopay nga mga bendisyon.",
+    "seeAlso": ["sabr", "barakah", "allah"]
+  },
+  {
+    "id": "sirah",
+    "term": "Sirah",
+    "arabicText": "سيرة",
+    "transliteration": "SEE-rah",
+    "definition": "Ang talambuhay at kuwento ng buhay ni Propeta Muhammad. Ang pag-aaral ng sirah ay tumutulong sa mga Muslim na maunawaan ang Quran at ang katangian ng Propeta.",
+    "seeAlso": ["hadith", "sunnah", "quran"]
+  },
+  {
+    "id": "suhoor",
+    "term": "Suhoor",
+    "arabicText": "سحور",
+    "transliteration": "su-HOOR",
+    "definition": "Kinakain ang pagkain bago magsimula ang pag-aayuno. Ito ay inirerekumenda at tumutulong sa pagbibigay ng lakas para sa araw ng pag-aayuno.",
+    "seeAlso": ["sawm", "ramadan", "iftar"]
+  },
+  {
     "id": "sunnah",
     "term": "Sunnah",
     "arabicText": "سنة",
@@ -296,12 +736,44 @@
     "seeAlso": ["quran", "ayah", "surah"]
   },
   {
+    "id": "taharah",
+    "term": "Taharah",
+    "arabicText": "طهارة",
+    "transliteration": "ta-HAA-rah",
+    "definition": "Ritwal na kadalisayan at kalinisan na kinakailangan o hinihikayat para sa pagsamba. Kabilang dito ang paglilinis sa pamamagitan ng wudu, ghusl, at pagpapanatiling malinis ang katawan, damit, at lugar.",
+    "seeAlso": ["wudu", "ghusl", "salah"]
+  },
+  {
     "id": "tajweed",
     "term": "Tajweed",
     "arabicText": "تجويد",
     "transliteration": "taj-WEED",
     "definition": "Ang hanay ng mga patakaran para sa tamang pagbigkas ng mga titik at salita ng Quran sa pagbibigkas. Ang pag-aaral ng tajweed ay isang unti-unting proseso, at maraming Muslim ang nag-aaral nito sa paglipas ng panahon. Huwag mag-alala tungkol sa pagiging perpekto sa simula.",
     "seeAlso": ["quran", "surah"]
+  },
+  {
+    "id": "takbir",
+    "term": "Takbir",
+    "arabicText": "تكبير",
+    "transliteration": "tak-BEER",
+    "definition": "Pagsasabi ng 'Allahu Akbar' ('Allah ang Pinakadakila'). Makikita ito sa pamamagitan ng panalangin at maraming iba pang mga gawain ng pagsamba.",
+    "seeAlso": ["salah", "eid"]
+  },
+  {
+    "id": "taqwa",
+    "term": "Taqwa",
+    "arabicText": "تقوى",
+    "transliteration": "taq-WAA",
+    "definition": "Kamalayan sa Diyos, pag-iisip ng Allah, at proteksiyon na kamalayan na humahantong sa isang tao na sumunod sa Kanya at umiwas sa kasalanan. Ito ay isa sa mga pangunahing layunin ng Islamic espirituwal na buhay.",
+    "seeAlso": ["iman", "sawm", "ihsan"]
+  },
+  {
+    "id": "tashahhud",
+    "term": "Tashahhud",
+    "arabicText": "تشهد",
+    "transliteration": "ta-shah-HUD",
+    "definition": "Ang nakaupo na patotoo ay binigkas sa panahon ng salah. Kasama rito ang mga salita ng pagbati, patotoo ng pananampalataya, at mga panalangin sa Propeta.",
+    "seeAlso": ["salah", "rakah"]
   },
   {
     "id": "tawbah",
@@ -312,12 +784,44 @@
     "seeAlso": ["dua", "allah", "iman"]
   },
   {
+    "id": "tawhid",
+    "term": "Tawhid",
+    "arabicText": "توحيد",
+    "transliteration": "taw-HEED",
+    "definition": "Ang ganap na kaisahan ng Allah at nag-iisa sa Kanya para sa pagsamba. Ito ang pundasyon ng paniniwala ng Islamic.",
+    "seeAlso": ["allah", "aqeedah", "shirk"]
+  },
+  {
+    "id": "ummah",
+    "term": "Ummah",
+    "arabicText": "أمة",
+    "transliteration": "UM-mah",
+    "definition": "Ang pandaigdigang pamayanang Muslim ay nagkakaisa sa pamamagitan ng pananampalataya. Binibigyang-diin ng terminong ito ang ibinahaging responsibilidad, pag-aari, at kapatiran at kapatiran.",
+    "seeAlso": ["muslim", "masjid", "jumuah"]
+  },
+  {
     "id": "umrah",
     "term": "Umrah",
     "arabicText": "عمرة",
     "transliteration": "UM-rah",
     "definition": "Isang boluntaryong paglalakbay sa Makkah na maaaring isagawa sa anumang oras ng taon, hindi tulad ng Hajj na may takdang petsa. Ito ay isang mas maikli at mas simpleng paglalakbay ngunit isang napakalalim na espirituwal na karanasan.",
     "seeAlso": ["hajj", "masjid"]
+  },
+  {
+    "id": "wajib",
+    "term": "Wajib",
+    "arabicText": "واجب",
+    "transliteration": "WAA-jib",
+    "definition": "Isang kinakailangang gawain, lalo na sa terminolohiyang Hanafi. Ito ay katulad ng isang obligasyon, bagaman ang ilang mga iskolar ay nakikilala ito mula sa fard sa lakas ng katibayan.",
+    "seeAlso": ["fard", "salah"]
+  },
+  {
+    "id": "witr",
+    "term": "Witr",
+    "arabicText": "وتر",
+    "transliteration": "WIT-r",
+    "definition": "Isang odd-numbered na panalangin na isinasagawa pagkatapos ng Isha, madalas bilang pangwakas na panalangin ng gabi. Ito ay lalo na binibigyang diin at minamahal sa pagsasanay ng Islamic.",
+    "seeAlso": ["salah", "isha", "nafl"]
   },
   {
     "id": "wudu",
@@ -334,5 +838,13 @@
     "transliteration": "za-KAAT",
     "definition": "Obligadong taunang pagbibigay ng kawanggawa, na kinakalkula bilang 2.5% ng kwalipikadong kayamanan ng isang Muslim. Ito ay isa sa limang haligi ng Islam at nagsisilbing pandalisay ng kayamanan habang tumutulong sa mga nangangailangan. Naaangkop lamang ito kapag naabot mo na ang minimum na halaga ng kayamanan.",
     "seeAlso": ["sadaqah", "islam"]
+  },
+  {
+    "id": "zamzam",
+    "term": "Zamzam",
+    "arabicText": "زمزم",
+    "transliteration": "ZAM-zam",
+    "definition": "Ang mapalad na tubig sa balon sa Makkah malapit sa Ka'bah. Iniinom ito ng mga Muslim nang may pasasalamat at madalas na may personal na pagsusumamo.",
+    "seeAlso": ["hajj", "umrah", "kaabah"]
   }
 ]

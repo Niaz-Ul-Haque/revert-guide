@@ -1,11 +1,35 @@
 [
   {
+    "id": "adhan",
+    "term": "Adhan",
+    "arabicText": "أذان",
+    "transliteration": "ah-THAAN",
+    "definition": "ਹਰ ਲਾਜ਼ਮੀ salah ਤੋਂ ਪਹਿਲਾਂ ਪ੍ਰਾਰਥਨਾ ਦੀ ਅਕਾਲ ਦੀ ਘੋਸ਼ਣਾ ਕੀਤੀ ਜਾਂਦੀ ਹੈ. ਇਹ ਮੁਸਲਮਾਨਾਂ ਨੂੰ ਯਾਦ ਦਿਵਾਉਂਦਾ ਹੈ ਕਿ ਪ੍ਰਾਰਥਨਾ ਦਾ ਸਮਾਂ ਦਾਖਲ ਹੋ ਗਿਆ ਹੈ ਅਤੇ ਉਨ੍ਹਾਂ ਨੂੰ ਪੂਜਾ ਲਈ ਇਕੱਠੇ ਹੋਣ ਲਈ ਸੱਦਾ ਦਿੰਦਾ ਹੈ.",
+    "seeAlso": ["salah", "muadhin", "masjid"]
+  },
+  {
+    "id": "akhlaq",
+    "term": "Akhlaq",
+    "arabicText": "أخلاق",
+    "transliteration": "akh-LAAQ",
+    "definition": "Islamic ਸਿੱਖਿਆਵਾਂ ਦੁਆਰਾ ਆਕਾਰ ਦਿੱਤੇ ਗਏ ਚੰਗੇ ਚਰਿੱਤਰ, ਵਿਵਹਾਰ ਅਤੇ ਨੈਤਿਕਤਾ. ਇਹ ਇਮਾਨਦਾਰੀ, ਧੀਰਜ, ਦਇਆ, ਨਿਮਰਤਾ, ਅਤੇ ਤੁਸੀਂ ਲੋਕਾਂ ਨਾਲ ਕਿਵੇਂ ਪੇਸ਼ ਆਉਂਦੇ ਹੋ, ਵਿੱਚ ਦਰਸਾਉਂਦਾ ਹੈ.",
+    "seeAlso": ["ihsan", "sabr", "shukr"]
+  },
+  {
     "id": "allah",
     "term": "Allah",
     "arabicText": "الله",
     "transliteration": "Allah",
     "definition": "ਰੱਬ ਲਈ ਅਰਬੀ ਸ਼ਬਦ. ਮੁਸਲਮਾਨ ਇਸ ਨਾਮ ਦੀ ਵਰਤੋਂ ਹਰ ਚੀਜ਼ ਦੇ ਇੱਕੋ ਇੱਕ ਸਿਰਜਣਹਾਰ ਅਤੇ ਪਾਲਣਹਾਰ ਨੂੰ ਦਰਸਾਉਣ ਲਈ ਕਰਦੇ ਹਨ। ਅਰਬੀ ਬੋਲਣ ਵਾਲੇ ਈਸਾਈ ਅਤੇ ਯਹੂਦੀ ਵੀ ਪਰਮੇਸ਼ੁਰ ਲਈ ਇਸ ਸ਼ਬਦ ਦੀ ਵਰਤੋਂ ਕਰਦੇ ਹਨ।",
     "seeAlso": ["islam", "iman", "aqeedah"]
+  },
+  {
+    "id": "amanah",
+    "term": "Amanah",
+    "arabicText": "أمانة",
+    "transliteration": "ah-MAA-nah",
+    "definition": "ਭਰੋਸੇਯੋਗਤਾ ਅਤੇ ਵਫ਼ਾਦਾਰੀ ਨਾਲ ਉਸ ਚੀਜ਼ ਨੂੰ ਨਿਭਾਉਣਾ ਜੋ ਤੁਹਾਨੂੰ ਸੌਂਪਿਆ ਗਿਆ ਹੈ, ਭਾਵੇਂ ਉਹ ਜਾਇਦਾਦ, ਭੇਦ, ਕਰਤੱਵ ਜਾਂ ਜ਼ਿੰਮੇਵਾਰੀਆਂ ਹੋਣ। ਇਹ Allah ਤੋਂ ਪਹਿਲਾਂ ਨੈਤਿਕ ਜ਼ਿੰਮੇਵਾਰੀ ਦਾ ਵੀ ਹਵਾਲਾ ਦਿੰਦਾ ਹੈ।",
+    "seeAlso": ["akhlaq", "iman"]
   },
   {
     "id": "aqeedah",
@@ -24,12 +48,68 @@
     "seeAlso": ["salah", "fajr", "dhuhr", "maghrib", "isha"]
   },
   {
+    "id": "awrah",
+    "term": "Awrah",
+    "arabicText": "عورة",
+    "transliteration": "AW-rah",
+    "definition": "ਸਰੀਰ ਦੇ ਉਹ ਹਿੱਸੇ ਜਿਨ੍ਹਾਂ ਨੂੰ Islamic ਨਿਮਰਤਾ ਦੇ ਦਿਸ਼ਾ-ਨਿਰਦੇਸ਼ਾਂ ਅਨੁਸਾਰ ਦੂਜਿਆਂ ਦੇ ਸਾਹਮਣੇ coveredੱਕਿਆ ਜਾਣਾ ਚਾਹੀਦਾ ਹੈ. ਜੋ awrah ਦੇ ਤੌਰ ਤੇ ਗਿਣਿਆ ਜਾਂਦਾ ਹੈ ਉਹ ਪ੍ਰਸੰਗ ਅਤੇ ਕਾਨੂੰਨੀ ਰਾਏ ਦੁਆਰਾ ਵੱਖਰਾ ਹੁੰਦਾ ਹੈ.",
+    "seeAlso": ["hijab", "taharah"]
+  },
+  {
     "id": "ayah",
     "term": "Ayah",
     "arabicText": "آية",
     "transliteration": "AH-yah",
     "definition": "ਕੁਰਾਨ ਦੀ ਇੱਕ ਆਇਤ. ਸ਼ਬਦ ਦਾ ਸ਼ਾਬਦਿਕ ਅਰਥ ਹੈ 'ਚਿੰਨ੍ਹ' ਜਾਂ 'ਚਮਤਕਾਰ।' ਕੁਰਾਨ ਅਧਿਆਵਾਂ (ਸੂਰਾਂ) ਦਾ ਬਣਿਆ ਹੋਇਆ ਹੈ, ਅਤੇ ਹਰੇਕ ਅਧਿਆਇ ਵਿੱਚ ਕਈ ਆਇਤਾਂ ਹਨ।",
     "seeAlso": ["quran", "surah", "tafsir"]
+  },
+  {
+    "id": "barakah",
+    "term": "Barakah",
+    "arabicText": "بركة",
+    "transliteration": "ba-ra-kah",
+    "definition": "Allah ਤੋਂ ਅਸੀਸ ਜਾਂ ਬ੍ਰਹਮ ਵਾਧਾ. ਇਹ ਭਾਵਨਾ ਹੈ ਕਿ ਸਮਾਂ, ਦੌਲਤ, ਗਿਆਨ, ਜਾਂ ਕੋਸ਼ਿਸ਼ ਉਮੀਦ ਨਾਲੋਂ ਵਧੇਰੇ ਲਾਭਦਾਇਕ ਹੋ ਜਾਂਦੀ ਹੈ.",
+    "seeAlso": ["allah", "shukr"]
+  },
+  {
+    "id": "bidah",
+    "term": "Bid'ah",
+    "arabicText": "بدعة",
+    "transliteration": "BID-ah",
+    "definition": "Quran ਜਾਂ Sunnah ਵਿੱਚ ਠੋਸ ਅਧਾਰ ਤੋਂ ਬਿਨਾਂ ਪੂਜਾ ਜਾਂ ਵਿਸ਼ਵਾਸ ਵਿੱਚ ਪੇਸ਼ ਕੀਤੀ ਗਈ ਇੱਕ ਧਾਰਮਿਕ ਕਾਢ. ਮੁਸਲਮਾਨ ਇਸ ਸ਼ਬਦ ਨੂੰ ਧਿਆਨ ਨਾਲ ਵਰਤਦੇ ਹਨ ਕਿਉਂਕਿ ਹਰ ਨਵੀਂ ਦੁਨਿਆਵੀ ਚੀਜ਼ bid'ah ਨਹੀਂ ਹੁੰਦੀ।",
+    "seeAlso": ["sunnah", "hadith"]
+  },
+  {
+    "id": "burqa-niqab",
+    "term": "Burqa / Niqab",
+    "arabicText": "برقع / نقاب",
+    "transliteration": "BUR-qah / ni-QAAB",
+    "definition": "ਕੁਝ ਮੁਸਲਿਮ ਔਰਤਾਂ ਨਾਲ ਜੁੜੇ ਚਿਹਰੇ ਨੂੰ ਢੱਕਣ ਵਾਲੇ ਕੱਪੜਿਆਂ ਲਈ ਸ਼ਬਦ. ਇੱਕ ਨਕਾਬ ਆਮ ਤੌਰ 'ਤੇ ਅੱਖਾਂ ਨੂੰ ਦਿਖਾਈ ਦਿੰਦੇ ਹੋਏ ਚਿਹਰੇ ਨੂੰ coverੱਕਦਾ ਹੈ, ਜਦੋਂ ਕਿ ਬੁਰਕਾ ਇੱਕ ਪੂਰਾ ਬਾਹਰੀ coverੱਕਣ ਹੁੰਦਾ ਹੈ; ਉਨ੍ਹਾਂ ਬਾਰੇ ਵਿਚਾਰ ਸਭਿਆਚਾਰ ਅਤੇ ਵਿਦਵਾਨਾਂ ਦੀ ਰਾਏ ਦੁਆਰਾ ਵੱਖੋ ਵੱਖਰੇ ਹਨ।",
+    "seeAlso": ["hijab", "awrah"]
+  },
+  {
+    "id": "dawah",
+    "term": "Da'wah",
+    "arabicText": "دعوة",
+    "transliteration": "DA-wah",
+    "definition": "ਦੂਜਿਆਂ ਨੂੰ ਸਪੱਸ਼ਟ ਵਿਆਖਿਆ, ਚੰਗੇ ਵਿਵਹਾਰ ਅਤੇ ਬੁੱਧੀਮਾਨ ਵਿਵਹਾਰ ਦੁਆਰਾ Islam ਨੂੰ ਸਮਝਣ ਲਈ ਸੱਦਾ ਦੇਣਾ. ਇਹ ਸਿਰਫ ਜਨਤਕ ਪ੍ਰਚਾਰ ਨਹੀਂ ਹੈ; ਤੁਹਾਡਾ ਕਿਰਦਾਰ ਵੀ da'wah ਦਾ ਹਿੱਸਾ ਹੋ ਸਕਦਾ ਹੈ।",
+    "seeAlso": ["islam", "akhlaq"]
+  },
+  {
+    "id": "dajjal",
+    "term": "Dajjal",
+    "arabicText": "الدجال",
+    "transliteration": "daj-JAAL",
+    "definition": "ਅੰਤ ਦੇ ਸਮੇਂ ਬਾਰੇ Islamic ਸਿੱਖਿਆਵਾਂ ਵਿੱਚ ਇੱਕ ਪ੍ਰਮੁੱਖ ਧੋਖੇਬਾਜ਼ ਦੀ ਗੱਲ ਕੀਤੀ ਗਈ ਹੈ, ਜਿਸ ਨੂੰ ਕਈ ਵਾਰ ਝੂਠੇ ਮਸੀਹਾ ਕਿਹਾ ਜਾਂਦਾ ਹੈ. ਵਿਸ਼ਵਾਸੀਆਂ ਨੂੰ ਸਿਖਾਇਆ ਜਾਂਦਾ ਹੈ ਕਿ ਉਹ ਉਸ ਦੀ ਅਜ਼ਮਾਇਸ਼ ਤੋਂ Allah ਦੀ ਸੁਰੱਖਿਆ ਲੈਣ.",
+    "seeAlso": ["qiyam", "aqeedah"]
+  },
+  {
+    "id": "deen",
+    "term": "Deen",
+    "arabicText": "دين",
+    "transliteration": "DEEN",
+    "definition": "ਧਰਮ, ਜੀਵਨ ਸ਼ੈਲੀ, ਅਤੇ Allah ਦੀ ਆਗਿਆਕਾਰੀ ਵਿੱਚ ਰਹਿਣ ਦਾ ਪੂਰਾ ਰਾਹ। ਮੁਸਲਮਾਨ ਅਕਸਰ ਇਸ ਨੂੰ Islam ਨੂੰ ਜੀਵਨ ਦੇ ਇੱਕ ਪੂਰੇ ਤਰੀਕੇ ਵਜੋਂ ਵਰਤਦੇ ਹਨ, ਨਾ ਕਿ ਸਿਰਫ ਰਸਮਾਂ ਦੇ ਇੱਕ ਸਮੂਹ ਦੇ ਰੂਪ ਵਿੱਚ.",
+    "seeAlso": ["islam", "iman"]
   },
   {
     "id": "dhikr",
@@ -70,6 +150,30 @@
     "transliteration": "FAJ-r",
     "definition": "ਸਵੇਰ ਦੀ ਪ੍ਰਾਰਥਨਾ, ਜੋ ਕਿ ਪੰਜ ਰੋਜ਼ਾਨਾ ਪ੍ਰਾਰਥਨਾਵਾਂ ਵਿੱਚੋਂ ਪਹਿਲੀ ਹੈ। ਇਹ ਸਵੇਰ ਦੇ ਪਹਿਲੇ ਪ੍ਰਕਾਸ਼ ਅਤੇ ਸੂਰਜ ਚੜ੍ਹਨ ਦੇ ਵਿਚਕਾਰ ਕੀਤਾ ਜਾਂਦਾ ਹੈ। ਬਹੁਤ ਸਾਰੇ ਮੁਸਲਮਾਨਾਂ ਨੂੰ ਇਹ ਸ਼ੁਰੂਆਤੀ ਪ੍ਰਾਰਥਨਾ ਦਿਨ ਦੀ ਸ਼ੁਰੂਆਤ ਕਰਨ ਦਾ ਇੱਕ ਸ਼ਾਂਤੀਪੂਰਨ ਤਰੀਕਾ ਲੱਗਦਾ ਹੈ।",
     "seeAlso": ["salah", "dhuhr", "asr", "maghrib", "isha"]
+  },
+  {
+    "id": "fard",
+    "term": "Fard",
+    "arabicText": "فرض",
+    "transliteration": "FARD",
+    "definition": "Islam ਵਿੱਚ ਇੱਕ ਲਾਜ਼ਮੀ ਕੰਮ. ਇਸ ਨੂੰ ਕਰਨ ਦਾ ਇਨਾਮ ਮਿਲਦਾ ਹੈ ਅਤੇ ਜਾਣਬੁੱਝ ਕੇ ਇਸ ਨੂੰ ਬਿਨਾਂ ਕਿਸੇ ਬਹਾਨੇ ਦੇ ਛੱਡਣਾ ਪਾਪ ਹੈ।",
+    "seeAlso": ["salah", "wajib", "islam"]
+  },
+  {
+    "id": "fatwa",
+    "term": "Fatwa",
+    "arabicText": "فتوى",
+    "transliteration": "FAT-wah",
+    "definition": "ਇੱਕ ਪ੍ਰਸ਼ਨ ਦੇ ਜਵਾਬ ਵਿੱਚ ਇੱਕ ਯੋਗਤਾ ਪ੍ਰਾਪਤ ਵਿਦਵਾਨ ਦੁਆਰਾ ਦਿੱਤੀ ਗਈ ਇੱਕ ਗੈਰ-ਬਾਈਡਿੰਗ Islamic ਕਾਨੂੰਨੀ ਰਾਏ. ਇੱਕ fatwa ਦੱਸਦਾ ਹੈ ਕਿ Islamic ਸਿੱਖਿਆਵਾਂ ਕਿਸੇ ਖਾਸ ਮੁੱਦੇ 'ਤੇ ਕਿਵੇਂ ਲਾਗੂ ਹੋ ਸਕਦੀਆਂ ਹਨ.",
+    "seeAlso": ["sharia", "imam", "ijma"]
+  },
+  {
+    "id": "fitnah",
+    "term": "Fitnah",
+    "arabicText": "فتنة",
+    "transliteration": "FIT-nah",
+    "definition": "ਇੱਕ ਅਜ਼ਮਾਇਸ਼, ਪਰਤਾਵ, ਜਾਂ ਬਿਪਤਾ ਜੋ ਕਿਸੇ ਵਿਅਕਤੀ ਦੀ ਨਿਹਚਾ ਅਤੇ ਚਰਿੱਤਰ ਦੀ ਪਰਖ ਕਰਦੀ ਹੈ। ਇਹ ਸ਼ਬਦ ਸਮਾਜਿਕ ਉਥਲ-ਪੁਥਲ ਜਾਂ ਉਲਝਣ ਦਾ ਵਰਣਨ ਵੀ ਕਰ ਸਕਦਾ ਹੈ।",
+    "seeAlso": ["sabr", "iman"]
   },
   {
     "id": "fitrah",
@@ -120,12 +224,84 @@
     "seeAlso": ["halal"]
   },
   {
+    "id": "haya",
+    "term": "Haya",
+    "arabicText": "حياء",
+    "transliteration": "ha-YAA",
+    "definition": "ਨਿਮਰਤਾ, ਸ਼ਰਮਿੰਦਗੀ, ਅਤੇ ਸ਼ਰਮ ਦੀ ਇੱਕ ਸਨਮਾਨਜਨਕ ਭਾਵਨਾ ਜੋ ਕਿਸੇ ਵਿਅਕਤੀ ਨੂੰ ਗ਼ਲਤ ਤੋਂ ਦੂਰ ਰੱਖਦੀ ਹੈ. ਇਹ ਪਹਿਰਾਵੇ, ਬੋਲਣ, ਵਿਵਹਾਰ ਅਤੇ ਅੰਦਰੂਨੀ ਰਵੱਈਏ ਨੂੰ ਪ੍ਰਭਾਵਤ ਕਰਦਾ ਹੈ.",
+    "seeAlso": ["hijab", "akhlaq"]
+  },
+  {
     "id": "hijab",
     "term": "Hijab",
     "arabicText": "حجاب",
     "transliteration": "hih-JAAB",
     "definition": "ਆਮ ਤੌਰ 'ਤੇ ਬਹੁਤ ਸਾਰੀਆਂ ਮੁਸਲਿਮ ਔਰਤਾਂ ਦੁਆਰਾ ਪਹਿਨੇ ਜਾਣ ਵਾਲੇ ਸਿਰ ਦੇ ਸਕਾਰਫ਼ ਨੂੰ ਨਿਮਰਤਾ ਅਤੇ ਵਿਸ਼ਵਾਸ ਦੇ ਪ੍ਰਗਟਾਵੇ ਵਜੋਂ ਦਰਸਾਇਆ ਜਾਂਦਾ ਹੈ। ਵਧੇਰੇ ਵਿਆਪਕ ਤੌਰ 'ਤੇ, ਹਿਜਾਬ ਪੁਰਸ਼ਾਂ ਅਤੇ ਔਰਤਾਂ ਦੋਵਾਂ ਲਈ ਪਹਿਰਾਵੇ ਅਤੇ ਵਿਵਹਾਰ ਵਿੱਚ ਨਿਮਰਤਾ ਦੀ ਧਾਰਨਾ ਨੂੰ ਦਰਸਾਉਂਦਾ ਹੈ।",
     "seeAlso": ["islam", "iman"]
+  },
+  {
+    "id": "hijrah",
+    "term": "Hijrah",
+    "arabicText": "هجرة",
+    "transliteration": "HIJ-rah",
+    "definition": "ਵਿਸ਼ਵਾਸ ਦੀ ਖਾਤਰ ਪਰਵਾਸ, ਖ਼ਾਸਕਰ ਪੈਗੰਬਰ ਮੁਹੰਮਦ ਦਾ ਮੱਕਾ ਤੋਂ ਮਦੀਨਾ ਵੱਲ ਪਰਵਾਸ. ਵਧੇਰੇ ਮੋਟੇ ਤੌਰ 'ਤੇ, ਇਸਦਾ ਅਰਥ ਹੋ ਸਕਦਾ ਹੈ ਕਿ ਆਪਣੇ deen ਦੀ ਰੱਖਿਆ ਜਾਂ ਮਜ਼ਬੂਤ ਕਰਨ ਲਈ ਨੁਕਸਾਨਦੇਹ ਸਥਿਤੀਆਂ ਨੂੰ ਪਿੱਛੇ ਛੱਡਣਾ.",
+    "seeAlso": ["muhajir", "deen"]
+  },
+  {
+    "id": "ibadah",
+    "term": "Ibadah",
+    "arabicText": "عبادة",
+    "transliteration": "ih-BAA-dah",
+    "definition": "Allah ਲਈ ਕੀਤੀ ਗਈ ਪੂਜਾ ਅਤੇ ਭਗਤੀ ਦੇ ਕੰਮ। ਇਸ ਵਿੱਚ ਰਸਮੀ ਰਸਮਾਂ ਜਿਵੇਂ ਕਿ ਪ੍ਰਾਰਥਨਾ ਅਤੇ ਵਰਤ ਰੱਖਣ ਦੇ ਨਾਲ-ਨਾਲ ਸੁਹਿਰਦ ਇਰਾਦੇ ਨਾਲ ਕੀਤੇ ਗਏ ਰੋਜ਼ਾਨਾ ਦੇ ਚੰਗੇ ਕੰਮ ਸ਼ਾਮਲ ਹਨ।",
+    "seeAlso": ["salah", "dua", "dhikr"]
+  },
+  {
+    "id": "iftar",
+    "term": "Iftar",
+    "arabicText": "إفطار",
+    "transliteration": "if-TAAR",
+    "definition": "ਉਹ ਭੋਜਨ ਜਿਸ ਨਾਲ ਵਰਤ ਰੱਖਣ ਵਾਲਾ ਵਿਅਕਤੀ Ramadan ਜਾਂ ਹੋਰ ਵਰਤਾਂ ਵਿੱਚ ਸੂਰਜ ਡੁੱਬਣ ਵੇਲੇ ਵਰਤ ਤੋੜਦਾ ਹੈ। ਇਹ ਰਵਾਇਤੀ ਤੌਰ 'ਤੇ Maghrib ਸਮੇਂ ਖੋਲ੍ਹਿਆ ਜਾਂਦਾ ਹੈ, ਅਕਸਰ ਖਜੂਰਾਂ ਅਤੇ ਪਾਣੀ ਦੇ ਨਾਲ.",
+    "seeAlso": ["sawm", "ramadan", "suhoor"]
+  },
+  {
+    "id": "ihram",
+    "term": "Ihram",
+    "arabicText": "إحرام",
+    "transliteration": "ih-HRAAM",
+    "definition": "ਪਵਿੱਤਰ ਰਾਜ ਜਿਸ ਵਿੱਚ ਇੱਕ ਤੀਰਥ ਯਾਤਰੀ Hajj ਜਾਂ Umrah ਤੋਂ ਪਹਿਲਾਂ ਦਾਖਲ ਹੁੰਦਾ ਹੈ, ਇਸ ਦੇ ਨਾਲ ਆਉਣ ਵਾਲੀਆਂ ਵਿਸ਼ੇਸ਼ ਪਾਬੰਦੀਆਂ ਅਤੇ ਇਰਾਦਿਆਂ ਦੇ ਨਾਲ. ਇਹ ਸ਼ਬਦ ਆਮ ਤੌਰ 'ਤੇ ਇਸ ਸਥਿਤੀ ਦੌਰਾਨ ਪਹਿਨੇ ਗਏ ਸਧਾਰਣ ਕੱਪੜਿਆਂ ਲਈ ਵੀ ਵਰਤਿਆ ਜਾਂਦਾ ਹੈ।",
+    "seeAlso": ["hajj", "umrah", "kaabah"]
+  },
+  {
+    "id": "ihsan",
+    "term": "Ihsan",
+    "arabicText": "إحسان",
+    "transliteration": "ih-HSAAN",
+    "definition": "ਰੂਹਾਨੀ ਉੱਤਮਤਾ: ਡੂੰਘੀ ਇਮਾਨਦਾਰੀ ਅਤੇ ਜਾਗਰੂਕਤਾ ਨਾਲ Allah ਦੀ ਪੂਜਾ ਕਰਨਾ, ਜਿਵੇਂ ਕਿ ਤੁਸੀਂ ਉਸ ਨੂੰ ਵੇਖਦੇ ਹੋ, ਅਤੇ ਇਹ ਜਾਣਨਾ ਕਿ ਉਹ ਤੁਹਾਨੂੰ ਵੇਖਦਾ ਹੈ. ਇਸਦਾ ਅਰਥ ਇਹ ਵੀ ਹੈ ਕਿ ਤੁਸੀਂ ਜੋ ਵੀ ਕਰਦੇ ਹੋ ਉਸ ਵਿੱਚ ਸੁੰਦਰਤਾ ਅਤੇ ਉੱਤਮਤਾ ਲਈ ਕੋਸ਼ਿਸ਼ ਕਰਨਾ।",
+    "seeAlso": ["iman", "akhlaq", "ibadah"]
+  },
+  {
+    "id": "ijma",
+    "term": "Ijma'",
+    "arabicText": "إجماع",
+    "transliteration": "ij-MAA",
+    "definition": "Islamic ਕਾਨੂੰਨ ਜਾਂ ਵਿਸ਼ਵਾਸ ਦੇ ਮਾਮਲੇ 'ਤੇ ਵਿਦਵਾਨਾਂ ਦੀ ਸਹਿਮਤੀ. ਇਹ Islamic ਕਾਨੂੰਨੀ ਤਰਕ ਵਿੱਚ ਵਰਤੇ ਗਏ ਮਹੱਤਵਪੂਰਨ ਸਿਧਾਂਤਾਂ ਵਿੱਚੋਂ ਇੱਕ ਹੈ.",
+    "seeAlso": ["ijtihad", "fatwa", "maqasid"]
+  },
+  {
+    "id": "ijtihad",
+    "term": "Ijtihad",
+    "arabicText": "اجتهاد",
+    "transliteration": "ij-ti-HAAD",
+    "definition": "ਜਦੋਂ ਕਿਸੇ ਮਾਮਲੇ ਨੂੰ ਸਪੱਸ਼ਟ ਤੌਰ 'ਤੇ ਹੱਲ ਨਹੀਂ ਕੀਤਾ ਜਾਂਦਾ ਤਾਂ ਯੋਗਤਾ ਪ੍ਰਾਪਤ ਵਿਦਵਾਨਾਂ ਦੁਆਰਾ ਫੈਸਲੇ ਪ੍ਰਾਪਤ ਕਰਨ ਲਈ ਸਾਵਧਾਨੀ ਨਾਲ ਸੁਤੰਤਰ ਤਰਕ ਦੀ ਵਰਤੋਂ ਕੀਤੀ ਜਾਂਦੀ ਹੈ. ਇਸ ਲਈ ਸਰੋਤਾਂ ਅਤੇ ਕਾਨੂੰਨੀ ਵਿਧੀ ਦੇ ਡੂੰਘੇ ਗਿਆਨ ਦੀ ਲੋੜ ਹੁੰਦੀ ਹੈ।",
+    "seeAlso": ["ijma", "fatwa", "sharia"]
+  },
+  {
+    "id": "ilm",
+    "term": "Ilm",
+    "arabicText": "علم",
+    "transliteration": "ILM",
+    "definition": "ਗਿਆਨ, ਖ਼ਾਸਕਰ ਵਿਸ਼ਵਾਸ ਅਤੇ ਅਭਿਆਸ ਦਾ ਲਾਭਦਾਇਕ ਗਿਆਨ. Islam ਵਿੱਚ ilm ਦੀ ਭਾਲ ਕਰਨ 'ਤੇ ਬਹੁਤ ਜ਼ੋਰ ਦਿੱਤਾ ਜਾਂਦਾ ਹੈ।",
+    "seeAlso": ["quran", "hadith", "tafsir"]
   },
   {
     "id": "imam",
@@ -144,14 +320,6 @@
     "seeAlso": ["islam", "aqeedah", "shahada"]
   },
   {
-    "id": "islam",
-    "term": "Islam",
-    "arabicText": "إسلام",
-    "transliteration": "is-LAAM",
-    "definition": "ਅਧੀਨਗੀ ਅਤੇ ਪਰਮਾਤਮਾ ਨਾਲ ਸ਼ਾਂਤੀ ਦਾ ਧਰਮ। ਇਹ ਸ਼ਬਦ ਅਰਬੀ ਮੂਲ ਤੋਂ ਆਇਆ ਹੈ ਜਿਸਦਾ ਅਰਥ ਹੈ 'ਸ਼ਾਂਤੀ' ਅਤੇ 'ਸਮਰਪਣ'। ਇਸਲਾਮ ਸਿਖਾਉਂਦਾ ਹੈ ਕਿ ਇੱਕ ਰੱਬ ਹੈ ਅਤੇ ਮੁਹੰਮਦ ਉਸਦਾ ਅੰਤਮ ਦੂਤ ਹੈ।",
-    "seeAlso": ["muslim", "allah", "iman", "shahada"]
-  },
-  {
     "id": "isha",
     "term": "Isha",
     "arabicText": "العشاء",
@@ -160,12 +328,100 @@
     "seeAlso": ["salah", "fajr", "dhuhr", "asr", "maghrib"]
   },
   {
+    "id": "islam",
+    "term": "Islam",
+    "arabicText": "إسلام",
+    "transliteration": "is-LAAM",
+    "definition": "ਅਧੀਨਗੀ ਅਤੇ ਪਰਮਾਤਮਾ ਨਾਲ ਸ਼ਾਂਤੀ ਦਾ ਧਰਮ। ਇਹ ਸ਼ਬਦ ਅਰਬੀ ਮੂਲ ਤੋਂ ਆਇਆ ਹੈ ਜਿਸਦਾ ਅਰਥ ਹੈ 'ਸ਼ਾਂਤੀ' ਅਤੇ 'ਸਮਰਪਣ'। ਇਸਲਾਮ ਸਿਖਾਉਂਦਾ ਹੈ ਕਿ ਇੱਕ ਰੱਬ ਹੈ ਅਤੇ ਮੁਹੰਮਦ ਉਸਦਾ ਅੰਤਮ ਦੂਤ ਹੈ।",
+    "seeAlso": ["muslim", "allah", "iman", "shahada"]
+  },
+  {
+    "id": "istikhara",
+    "term": "Istikhara",
+    "arabicText": "استخارة",
+    "transliteration": "is-ti-KHAA-rah",
+    "definition": "ਇੱਕ ਪ੍ਰਾਰਥਨਾ ਅਤੇ ਪ੍ਰਾਰਥਨਾ ਜੋ Allah ਨੂੰ ਫੈਸਲਾ ਕਰਨ ਵੇਲੇ ਮਾਰਗ ਦਰਸ਼ਨ ਦੀ ਮੰਗ ਕਰਦੀ ਹੈ. ਇਹ ਉਦੋਂ ਕੀਤਾ ਜਾਂਦਾ ਹੈ ਜਦੋਂ ਇਜਾਜ਼ਤਯੋਗ ਵਿਕਲਪਾਂ ਵਿਚਕਾਰ ਚੋਣ ਕੀਤੀ ਜਾਂਦੀ ਹੈ ਅਤੇ ਨਤੀਜੇ ਨਾਲ Allah 'ਤੇ ਭਰੋਸਾ ਕੀਤਾ ਜਾਂਦਾ ਹੈ।",
+    "seeAlso": ["dua", "niyyah"]
+  },
+  {
+    "id": "jahannam",
+    "term": "Jahannam",
+    "arabicText": "جهنم",
+    "transliteration": "ja-HAN-nam",
+    "definition": "ਨਰਕ ਦੀ ਅੱਗ, ਉਨ੍ਹਾਂ ਲੋਕਾਂ ਲਈ ਮੌਤ ਤੋਂ ਬਾਅਦ ਦੀ ਜ਼ਿੰਦਗੀ ਵਿੱਚ ਸਜ਼ਾ ਦੀ ਜਗ੍ਹਾ ਜੋ ਸੱਚਾਈ ਨੂੰ ਰੱਦ ਕਰਦੇ ਹਨ ਅਤੇ ਗੰਭੀਰ ਗ਼ਲਤ ਕੰਮ ਕਰਦੇ ਹਨ. ਮੁਸਲਮਾਨ ਇਸ ਨੂੰ ਚੇਤਾਵਨੀ ਅਤੇ ਜਵਾਬਦੇਹੀ ਦੀ ਯਾਦ ਦਿਵਾਉਣ ਦੇ ਤੌਰ ਤੇ ਜ਼ਿਕਰ ਕਰਦੇ ਹਨ।",
+    "seeAlso": ["jannah", "iman"]
+  },
+  {
+    "id": "janazah",
+    "term": "Janazah",
+    "arabicText": "جنازة",
+    "transliteration": "ja-NAA-zah",
+    "definition": "ਮ੍ਰਿਤਕ ਮੁਸਲਮਾਨ ਦਾ ਅੰਤਮ ਸੰਸਕਾਰ ਕਰਨਾ, ਖ਼ਾਸਕਰ ਅੰਤਮ ਸੰਸਕਾਰ ਦੀ ਨਮਾਜ਼। ਇਹ ਵਧੇਰੇ ਵਿਆਪਕ ਤੌਰ 'ਤੇ ਮ੍ਰਿਤਕ ਵਿਅਕਤੀ ਅਤੇ ਦਫਨਾਉਣ ਦੀ ਪ੍ਰਕਿਰਿਆ ਦਾ ਹਵਾਲਾ ਦਿੰਦਾ ਹੈ।",
+    "seeAlso": ["jannah", "jahannam"]
+  },
+  {
+    "id": "jannah",
+    "term": "Jannah",
+    "arabicText": "جنة",
+    "transliteration": "JAN-nah",
+    "definition": "ਫਿਰਦੌਸ, ਸਦੀਵੀ ਇਨਾਮ Allah ਧਰਮੀ ਲੋਕਾਂ ਨਾਲ ਵਾਅਦਾ ਕਰਦਾ ਹੈ. ਇਸ ਨੂੰ ਸ਼ਾਂਤੀ, ਅਨੰਦ ਅਤੇ Allah ਦੇ ਨੇੜੇ ਦੀ ਜਗ੍ਹਾ ਵਜੋਂ ਦਰਸਾਇਆ ਗਿਆ ਹੈ.",
+    "seeAlso": ["jahannam", "iman", "qadr"]
+  },
+  {
+    "id": "jihad",
+    "term": "Jihad",
+    "arabicText": "جهاد",
+    "transliteration": "ji-HAAD",
+    "definition": "Allah ਦੇ ਰਾਹ ਵਿੱਚ ਯਤਨਸ਼ੀਲ ਅਤੇ ਸੰਘਰਸ਼ ਕਰਨਾ। ਇਹ ਪਾਪ ਅਤੇ ਮੁਸ਼ਕਲਾਂ ਦੇ ਵਿਰੁੱਧ ਅੰਦਰੂਨੀ ਸੰਘਰਸ਼ ਦਾ ਹਵਾਲਾ ਦੇ ਸਕਦਾ ਹੈ, ਅਤੇ ਕੁਝ ਪ੍ਰਸੰਗਾਂ ਵਿੱਚ ਸਖਤ ਨੈਤਿਕ ਨਿਯਮਾਂ ਦੁਆਰਾ ਨਿਯੰਤਰਿਤ ਹਥਿਆਰਬੰਦ ਸੰਘਰਸ਼ ਦਾ ਹਵਾਲਾ ਦੇ ਸਕਦਾ ਹੈ.",
+    "seeAlso": ["sabr", "deen"]
+  },
+  {
+    "id": "jinn",
+    "term": "Jinn",
+    "arabicText": "جن",
+    "transliteration": "JINN",
+    "definition": "ਧੂੰਏਂ ਰਹਿਤ ਅੱਗ ਤੋਂ ਬਣੇ ਅਦਿੱਖ ਜੀਵ ਜਿਨ੍ਹਾਂ ਕੋਲ ਮਨੁੱਖਾਂ ਵਾਂਗ, ਸੁਤੰਤਰ ਇੱਛਾ ਹੈ. ਕੁਝ ਵਿਸ਼ਵਾਸ ਕਰ ਰਹੇ ਹਨ ਅਤੇ ਕੁਝ ਨਹੀਂ ਹਨ.",
+    "seeAlso": ["quran", "aqeedah"]
+  },
+  {
     "id": "jumuah",
     "term": "Jumu'ah",
     "arabicText": "جمعة",
     "transliteration": "JOO-moo-ah",
     "definition": "ਸ਼ੁੱਕਰਵਾਰ ਦੀ ਸੰਗਤ ਦੀ ਪ੍ਰਾਰਥਨਾ, ਜੋ ਸ਼ੁੱਕਰਵਾਰ ਨੂੰ ਧੂਹਰ ਦੀ ਪ੍ਰਾਰਥਨਾ ਦੀ ਥਾਂ ਲੈਂਦੀ ਹੈ। ਇਸ ਵਿੱਚ ਇੱਕ ਉਪਦੇਸ਼ (ਖੁਤਬਾ) ਸ਼ਾਮਲ ਹੁੰਦਾ ਹੈ ਅਤੇ ਇਹ ਮੁਸਲਿਮ ਭਾਈਚਾਰੇ ਲਈ ਇੱਕ ਮਹੱਤਵਪੂਰਨ ਹਫਤਾਵਾਰੀ ਇਕੱਠ ਹੈ। ਜੁਮੁਆਹ ਵਿਚ ਸ਼ਾਮਲ ਹੋਣਾ ਦੂਜੇ ਮੁਸਲਮਾਨਾਂ ਨਾਲ ਜੁੜਨ ਦਾ ਇਕ ਸ਼ਾਨਦਾਰ ਤਰੀਕਾ ਹੈ।",
     "seeAlso": ["salah", "masjid", "imam", "dhuhr"]
+  },
+  {
+    "id": "kaabah",
+    "term": "Ka'bah",
+    "arabicText": "الكعبة",
+    "transliteration": "KAH-bah",
+    "definition": "ਮੱਕਾ ਵਿੱਚ ਪਵਿੱਤਰ ਘਣ structureਾਂਚਾ ਜਿਸ ਵੱਲ ਮੁਸਲਮਾਨ ਨਮਾਜ਼ ਵਿੱਚ ਸਾਹਮਣਾ ਕਰਦੇ ਹਨ. ਇਹ Islamic ਪੂਜਾ ਦਾ ਅਧਿਆਤਮਿਕ ਕੇਂਦਰ ਹੈ ਅਤੇ Hajj ਅਤੇ Umrah ਦਾ ਕੇਂਦਰ ਬਿੰਦੂ ਹੈ.",
+    "seeAlso": ["qiblah", "hajj", "umrah"]
+  },
+  {
+    "id": "kafir",
+    "term": "Kafir",
+    "arabicText": "كافر",
+    "transliteration": "KAA-fir",
+    "definition": "ਇੱਕ ਸ਼ਬਦ ਜਿਸਦਾ ਸ਼ਾਬਦਿਕ ਅਰਥ ਹੈ ਉਹ ਜੋ ਸੱਚਾਈ ਨੂੰ coverੱਕਦਾ ਹੈ ਜਾਂ ਰੱਦ ਕਰਦਾ ਹੈ. Islamic ਵਰਤੋਂ ਵਿੱਚ ਇਹ ਅਵਿਸ਼ਵਾਸ ਜਾਂ ਅਵਿਸ਼ਵਾਸੀ ਦਾ ਹਵਾਲਾ ਦੇ ਸਕਦਾ ਹੈ, ਪਰ ਇਸ ਨੂੰ ਧਿਆਨ ਨਾਲ ਵਰਤਿਆ ਜਾਣਾ ਚਾਹੀਦਾ ਹੈ ਨਾ ਕਿ ਆਮ ਦੁਰਵਿਵਹਾਰ ਦੇ ਤੌਰ ਤੇ.",
+    "seeAlso": ["iman", "islam"]
+  },
+  {
+    "id": "khalifah",
+    "term": "Khalifah",
+    "arabicText": "خليفة",
+    "transliteration": "kha-LEE-fah",
+    "definition": "ਸਟੀਵਰਡ, ਉੱਤਰਾਧਿਕਾਰੀ, ਜਾਂ ਪ੍ਰਤੀਨਿਧ. ਇਹ ਸ਼ਬਦ ਮਨੁੱਖਾਂ ਨੂੰ ਧਰਤੀ 'ਤੇ ਨਿਗਰਾਨ ਜਾਂ ਇੱਕ ਖਲੀਫਾ ਵਜੋਂ ਦਰਸਾਇਆ ਜਾ ਸਕਦਾ ਹੈ ਜੋ ਮੁਸਲਿਮ ਭਾਈਚਾਰੇ ਦੀ ਅਗਵਾਈ ਕਰਦਾ ਹੈ।",
+    "seeAlso": ["deen", "amanah"]
+  },
+  {
+    "id": "khushoo",
+    "term": "Khushoo'",
+    "arabicText": "خشوع",
+    "transliteration": "khu-SHOO",
+    "definition": "ਪ੍ਰਾਰਥਨਾ ਵਿੱਚ ਨਿਮਰ ਧਿਆਨ, ਸ਼ਾਂਤੀ ਅਤੇ ਸ਼ਰਧਾ. ਇਹ ਮਕੈਨੀਕਲ ਤੌਰ 'ਤੇ ਪ੍ਰਾਰਥਨਾ ਕਰਨ ਦੀ ਬਜਾਏ Allah ਦੇ ਨਾਲ ਮੌਜੂਦ ਹੋਣ ਦੀ ਅੰਦਰੂਨੀ ਸਥਿਤੀ ਹੈ.",
+    "seeAlso": ["salah", "ihsan", "dhikr"]
   },
   {
     "id": "khutbah",
@@ -184,12 +440,68 @@
     "seeAlso": ["salah", "fajr", "dhuhr", "asr", "isha"]
   },
   {
+    "id": "mahr",
+    "term": "Mahr",
+    "arabicText": "مهر",
+    "transliteration": "MAHR",
+    "definition": "ਲਾੜਾ ਵਿਆਹ ਦੇ ਇਕਰਾਰਨਾਮੇ ਦੇ ਹਿੱਸੇ ਵਜੋਂ ਲਾੜੀ ਨੂੰ ਵਿਆਹ ਦਾ ਤੋਹਫ਼ਾ ਦਿੰਦਾ ਹੈ। ਇਹ ਉਸਦਾ ਅਧਿਕਾਰ ਹੈ ਅਤੇ ਇਕੱਲੇ ਉਸ ਦਾ ਹੈ।",
+    "seeAlso": ["nikah", "amanah"]
+  },
+  {
+    "id": "makruh",
+    "term": "Makruh",
+    "arabicText": "مكروه",
+    "transliteration": "mak-ROOH",
+    "definition": "ਇੱਕ ਅਜਿਹੀ ਕਾਰਵਾਈ ਜੋ Islam ਵਿੱਚ ਨਾਪਸੰਦ ਕੀਤੀ ਜਾਂਦੀ ਹੈ ਪਰ ਸਖਤੀ ਨਾਲ ਵਰਜਿਤ ਨਹੀਂ ਹੈ। ਇਸ ਤੋਂ ਪਰਹੇਜ਼ ਕਰਨਾ ਇਨਾਮ ਦਿੱਤਾ ਜਾ ਸਕਦਾ ਹੈ, ਜਦੋਂ ਕਿ ਇਸ ਨੂੰ ਕਰਨਾ ਆਮ ਤੌਰ 'ਤੇ ਆਪਣੇ ਆਪ ਵਿੱਚ ਪਾਪ ਨਹੀਂ ਹੁੰਦਾ.",
+    "seeAlso": ["halal", "haram", "mubah"]
+  },
+  {
+    "id": "maqasid",
+    "term": "Maqasid",
+    "arabicText": "مقاصد",
+    "transliteration": "ma-QAA-sid",
+    "definition": "Islamic ਕਾਨੂੰਨ ਦੇ ਉੱਚ ਉਦੇਸ਼ ਅਤੇ ਬੁੱਧੀ, ਜਿਵੇਂ ਕਿ ਵਿਸ਼ਵਾਸ, ਜ਼ਿੰਦਗੀ, ਬੁੱਧੀ, ਪਰਿਵਾਰ ਅਤੇ ਜਾਇਦਾਦ ਦੀ ਰੱਖਿਆ ਕਰਨਾ. ਇਹ ਸੰਕਲਪ ਵਿਦਵਾਨਾਂ ਨੂੰ ਫੈਸਲਿਆਂ ਦੇ ਪਿੱਛੇ ਦੇ ਉਦੇਸ਼ ਨੂੰ ਸਮਝਣ ਵਿੱਚ ਸਹਾਇਤਾ ਕਰਦਾ ਹੈ।",
+    "seeAlso": ["sharia", "ijtihad"]
+  },
+  {
     "id": "masjid",
     "term": "Masjid",
     "arabicText": "مسجد",
     "transliteration": "MAS-jid",
     "definition": "ਇੱਕ ਮਸਜਿਦ, ਉਹ ਥਾਂ ਜਿੱਥੇ ਮੁਸਲਮਾਨ ਪ੍ਰਾਰਥਨਾ ਅਤੇ ਭਾਈਚਾਰਕ ਗਤੀਵਿਧੀਆਂ ਲਈ ਇਕੱਠੇ ਹੁੰਦੇ ਹਨ। ਸ਼ਬਦ ਦਾ ਸ਼ਾਬਦਿਕ ਅਰਥ ਹੈ 'ਸਜਦਾ ਕਰਨ ਦੀ ਥਾਂ'। ਮਸਜਿਦਾਂ ਥਾਂਵਾਂ ਦਾ ਸੁਆਗਤ ਕਰ ਰਹੀਆਂ ਹਨ, ਅਤੇ ਤੁਹਾਨੂੰ ਹਮੇਸ਼ਾ ਇੱਕ ਜਾਣ ਲਈ ਸੁਆਗਤ ਹੈ।",
     "seeAlso": ["salah", "imam", "jumuah"]
+  },
+  {
+    "id": "miswak",
+    "term": "Miswak",
+    "arabicText": "مسواك",
+    "transliteration": "MIS-waak",
+    "definition": "ਇੱਕ ਕੁਦਰਤੀ ਦੰਦਾਂ ਦੀ ਸਫਾਈ ਵਾਲੀ ਸੋਟੀ ਜੋ ਰਵਾਇਤੀ ਤੌਰ 'ਤੇ ਮੌਖਿਕ ਸਫਾਈ ਲਈ ਵਰਤੀ ਜਾਂਦੀ ਹੈ. ਇਸ ਦੀ ਵਰਤੋਂ ਵਿਆਪਕ ਤੌਰ 'ਤੇ Sunnah ਨਾਲ ਜੁੜੀ ਹੋਈ ਹੈ।",
+    "seeAlso": ["sunnah", "taharah"]
+  },
+  {
+    "id": "muadhin",
+    "term": "Mu'adhin",
+    "arabicText": "مؤذن",
+    "transliteration": "mu-ADH-dhin",
+    "definition": "ਉਹ ਵਿਅਕਤੀ ਜੋ adhan ਨੂੰ ਕਾਲ ਕਰਦਾ ਹੈ। ਇੱਕ ਮਸਜਿਦ ਵਿੱਚ, mu'adhin ਕਮਿ communityਨਿਟੀ ਨੂੰ ਪ੍ਰਾਰਥਨਾ ਦੇ ਸਮੇਂ ਦਾ ਐਲਾਨ ਕਰਦਾ ਹੈ.",
+    "seeAlso": ["adhan", "masjid"]
+  },
+  {
+    "id": "mubah",
+    "term": "Mubah",
+    "arabicText": "مباح",
+    "transliteration": "moo-BAAH",
+    "definition": "Islam ਵਿੱਚ ਕੁਝ ਆਗਿਆ ਅਤੇ ਧਾਰਮਿਕ ਤੌਰ 'ਤੇ ਨਿਰਪੱਖ ਹੈ. ਇਸ ਨੂੰ ਕਰਨ ਜਾਂ ਛੱਡਣ ਨਾਲ ਆਪਣੇ ਆਪ ਪਾਪ ਜਾਂ ਇਨਾਮ ਨਹੀਂ ਮਿਲਦਾ ਜਦੋਂ ਤੱਕ ਇਰਾਦਾ ਕੰਮ ਨੂੰ ਨਹੀਂ ਬਦਲਦਾ.",
+    "seeAlso": ["halal", "makruh"]
+  },
+  {
+    "id": "muhajir",
+    "term": "Muhajir",
+    "arabicText": "مهاجر",
+    "transliteration": "mu-HAA-jir",
+    "definition": "ਉਹ ਜੋ Allah ਅਤੇ ਵਿਸ਼ਵਾਸ ਦੀ ਖ਼ਾਤਰ ਪਰਵਾਸ ਕਰਦਾ ਹੈ। ਇਤਿਹਾਸਕ ਤੌਰ 'ਤੇ ਇਹ ਅਕਸਰ ਸ਼ੁਰੂਆਤੀ ਮੁਸਲਮਾਨਾਂ ਦਾ ਹਵਾਲਾ ਦਿੰਦਾ ਹੈ ਜੋ ਮੱਕਾ ਛੱਡ ਕੇ ਮਦੀਨਾ ਚਲੇ ਗਏ ਸਨ।",
+    "seeAlso": ["hijrah", "deen"]
   },
   {
     "id": "muslim",
@@ -200,12 +512,60 @@
     "seeAlso": ["islam", "shahada", "iman"]
   },
   {
+    "id": "mustahabb",
+    "term": "Mustahabb",
+    "arabicText": "مستحب",
+    "transliteration": "mus-ta-HABB",
+    "definition": "ਇੱਕ ਅਜਿਹਾ ਕਾਰਜ ਜਿਸ ਦੀ ਸਿਫਾਰਸ਼ ਕੀਤੀ ਜਾਂਦੀ ਹੈ ਅਤੇ Islam ਵਿੱਚ ਪਿਆਰ ਕੀਤਾ ਜਾਂਦਾ ਹੈ ਪਰ ਲਾਜ਼ਮੀ ਨਹੀਂ ਹੈ। ਇਸ ਨੂੰ ਕਰਨ ਨਾਲ ਇਨਾਮ ਮਿਲਦਾ ਹੈ, ਜਦੋਂ ਕਿ ਇਸ ਨੂੰ ਛੱਡਣ ਨਾਲ ਪਾਪ ਨਹੀਂ ਆਉਂਦਾ.",
+    "seeAlso": ["nafl", "sunnah"]
+  },
+  {
+    "id": "nafl",
+    "term": "Nafl",
+    "arabicText": "نفل",
+    "transliteration": "NAF-l",
+    "definition": "ਲੋੜ ਤੋਂ ਵੱਧ ਪੂਜਾ ਦੇ ਸਵੈਇੱਛਤ ਕੰਮ। Nafl ਪ੍ਰਾਰਥਨਾਵਾਂ, ਵਰਤ ਅਤੇ ਦਾਨ ਕਿਸੇ ਵਿਅਕਤੀ ਨੂੰ Allah ਦੇ ਨੇੜੇ ਜਾਣ ਵਿੱਚ ਸਹਾਇਤਾ ਕਰਦੇ ਹਨ।",
+    "seeAlso": ["sunnah", "witr", "salah"]
+  },
+  {
+    "id": "nikah",
+    "term": "Nikah",
+    "arabicText": "نكاح",
+    "transliteration": "ni-KAAH",
+    "definition": "Islamic ਵਿਆਹ ਦਾ ਇਕਰਾਰਨਾਮਾ. ਇਹ ਵਿਆਹ ਨੂੰ ਕਾਨੂੰਨੀ ਬਣਾਉਂਦਾ ਹੈ ਅਤੇ ਅਧਿਕਾਰਾਂ ਅਤੇ ਜ਼ਿੰਮੇਵਾਰੀਆਂ ਦੀ ਰੂਪ ਰੇਖਾ ਦਿੰਦਾ ਹੈ।",
+    "seeAlso": ["mahr", "deen"]
+  },
+  {
     "id": "niyyah",
     "term": "Niyyah",
     "arabicText": "نية",
     "transliteration": "NIY-yah",
     "definition": "ਇਰਾਦਾ। ਇਸਲਾਮ ਵਿੱਚ, ਤੁਹਾਡੇ ਇਰਾਦੇ ਦੀ ਇਮਾਨਦਾਰੀ ਉਹ ਹੈ ਜੋ ਕਿਰਿਆਵਾਂ ਨੂੰ ਉਨ੍ਹਾਂ ਦਾ ਅਧਿਆਤਮਿਕ ਮੁੱਲ ਦਿੰਦੀ ਹੈ। ਪ੍ਰਾਰਥਨਾ ਜਾਂ ਵਰਤ ਵਰਗੇ ਉਪਾਸਨਾ ਦੇ ਕੰਮਾਂ ਤੋਂ ਪਹਿਲਾਂ, ਤੁਸੀਂ ਆਪਣੇ ਹਿਰਦੇ ਵਿੱਚ ਆਪਣਾ ਨਿਯਾਹ ਸਥਾਪਤ ਕਰਦੇ ਹੋ। ਇਸ ਨੂੰ ਉੱਚੀ ਆਵਾਜ਼ ਵਿੱਚ ਬੋਲਣ ਦੀ ਲੋੜ ਨਹੀਂ ਹੈ।",
     "seeAlso": ["salah", "sawm", "wudu"]
+  },
+  {
+    "id": "qadr",
+    "term": "Qadr",
+    "arabicText": "قدر",
+    "transliteration": "QAD-r",
+    "definition": "ਬ੍ਰਹਮ ਫਰਮਾਨ ਅਤੇ Allah ਦਾ ਸੰਪੂਰਨ ਗਿਆਨ ਅਤੇ ਸਾਰੀਆਂ ਚੀਜ਼ਾਂ ਦਾ ਦ੍ਰਿੜ ਇਰਾਦਾ. qadr ਵਿੱਚ ਵਿਸ਼ਵਾਸ ਵਿੱਚ ਵਿਸ਼ਵਾਸ ਕਰਨਾ ਸ਼ਾਮਲ ਹੈ ਕਿ Allah ਜਾਣਦਾ ਹੈ ਕਿ ਕੀ ਸੀ, ਕੀ ਹੈ ਅਤੇ ਕੀ ਹੋਵੇਗਾ.",
+    "seeAlso": ["iman", "aqeedah"]
+  },
+  {
+    "id": "qiblah",
+    "term": "Qiblah",
+    "arabicText": "قبلة",
+    "transliteration": "QIB-lah",
+    "definition": "ਮੁਸਲਮਾਨਾਂ ਦੀ ਨਮਾਜ਼ ਵਿੱਚ ਮੱਕਾ ਦੇ Ka'bah ਵੱਲ ਮੁਸਲਮਾਨ ਦੀ ਦਿਸ਼ਾ ਵੱਲ ਹੈ। qiblah ਲੱਭਣਾ ਪੂਜਾ ਦੇ ਕੰਮਾਂ ਜਿਵੇਂ ਕਿ salah ਅਤੇ ਦਫਨਾਉਣ ਵਿੱਚ ਸਹਾਇਤਾ ਕਰਦਾ ਹੈ।",
+    "seeAlso": ["kaabah", "salah"]
+  },
+  {
+    "id": "qiyam",
+    "term": "Qiyam",
+    "arabicText": "قيام",
+    "transliteration": "qi-YAAM",
+    "definition": "ਪ੍ਰਾਰਥਨਾ ਵਿੱਚ ਖੜ੍ਹੇ ਹੋਣਾ. ਇਹ ਰਾਤ ਦੀ ਪ੍ਰਾਰਥਨਾ ਦਾ ਹਵਾਲਾ ਵੀ ਦੇ ਸਕਦਾ ਹੈ, ਖ਼ਾਸਕਰ Qiyam ਅਲ-ਲੇਲ ਵਰਗੀ ਪੂਜਾ ਵਿੱਚ ਲੰਬੇ ਸਮੇਂ ਤੱਕ ਖੜ੍ਹੇ ਹੋਣਾ.",
+    "seeAlso": ["salah", "witr", "ramadan"]
   },
   {
     "id": "quran",
@@ -232,12 +592,52 @@
     "seeAlso": ["sawm", "eid", "salah"]
   },
   {
+    "id": "riba",
+    "term": "Riba",
+    "arabicText": "ربا",
+    "transliteration": "ri-BAA",
+    "definition": "ਵਿਆਜ ਜਾਂ ਵਿਆਜ-ਅਧਾਰਤ ਲਾਭ ਜੋ Islamic ਕਾਨੂੰਨ ਕੁਝ ਵਿੱਤੀ ਲੈਣ-ਦੇਣ ਵਿੱਚ ਵਰਜਿਤ ਕਰਦਾ ਹੈ. ਮੁਸਲਮਾਨ ਆਮ ਤੌਰ 'ਤੇ ਸ਼ੋਸ਼ਣ ਜਾਂ ਵਿਆਜ ਦੇਣ ਵਾਲੇ ਸੌਦਿਆਂ ਲਈ ਇਸ ਸ਼ਬਦ ਦੀ ਵਰਤੋਂ ਕਰਦੇ ਹਨ ਜੋ Islamic ਨੈਤਿਕਤਾ ਦੀ ਉਲੰਘਣਾ ਕਰਦੇ ਹਨ.",
+    "seeAlso": ["halal", "haram", "zakat"]
+  },
+  {
+    "id": "ruku",
+    "term": "Ruku'",
+    "arabicText": "ركوع",
+    "transliteration": "roo-KOO",
+    "definition": "salah ਵਿੱਚ ਝੁਕਣ ਦੀ ਸਥਿਤੀ, ਜਦੋਂ ਇੱਕ ਪੂਜਾ ਕਰਨ ਵਾਲਾ ਗੋਡਿਆਂ 'ਤੇ ਹੱਥ ਰੱਖ ਕੇ ਕਮਰ ਵੱਲ ਝੁਕਦਾ ਹੈ. ਇਹ ਹਰੇਕ rak'ah ਦੇ ਮੁੱਖ ਭੌਤਿਕ ਥੰਮ੍ਹਾਂ ਵਿੱਚੋਂ ਇੱਕ ਹੈ।",
+    "seeAlso": ["salah", "rakah", "sajdah"]
+  },
+  {
+    "id": "sabr",
+    "term": "Sabr",
+    "arabicText": "صبر",
+    "transliteration": "SAB-r",
+    "definition": "ਧੀਰਜ, ਲਗਨ, ਅਤੇ Allah ਲਈ ਸਥਿਰ ਸਵੈ-ਸੰਜਮ. ਇਸ ਵਿਚ ਭਗਤੀ ਵਿਚ ਦ੍ਰਿੜਤਾ ਰੱਖਣਾ, ਪਾਪ ਤੋਂ ਬਚਣਾ ਅਤੇ ਮੁਸੀਬਤਾਂ ਨੂੰ ਚੰਗੀ ਤਰ੍ਹਾਂ ਸਹਿਣਾ ਕਰਨਾ ਸ਼ਾਮਲ ਹੈ।",
+    "seeAlso": ["shukr", "iman", "akhlaq"]
+  },
+  {
     "id": "sadaqah",
     "term": "Sadaqah",
     "arabicText": "صدقة",
     "transliteration": "SA-da-qah",
     "definition": "ਸਵੈਇੱਛਤ ਦਾਨ ਜਾਂ ਦਿਆਲਤਾ ਅਤੇ ਰਹਿਮ ਨਾਲ ਕੀਤਾ ਗਿਆ ਇੱਕ ਚੰਗਾ ਕੰਮ। ਜ਼ਕਾਤ ਦੇ ਉਲਟ, ਸਦਾਕਾਹ ਲਾਜ਼ਮੀ ਨਹੀਂ ਹੈ ਅਤੇ ਇਹ ਮੁਸਕਰਾਹਟ, ਗੁਆਂਢੀ ਦੀ ਮਦਦ ਕਰਨ, ਜਾਂ ਭੋਜਨ ਸਾਂਝਾ ਕਰਨ ਵਾਂਗ ਸਧਾਰਨ ਹੋ ਸਕਦਾ ਹੈ। ਚੰਗਿਆਈ ਦਾ ਹਰ ਕੰਮ ਗਿਣਿਆ ਜਾਂਦਾ ਹੈ।",
     "seeAlso": ["zakat"]
+  },
+  {
+    "id": "sajdah",
+    "term": "Sajdah",
+    "arabicText": "سجدة",
+    "transliteration": "SAJ-dah",
+    "definition": "ਪ੍ਰਾਰਥਨਾ ਵਿੱਚ ਪ੍ਰਣਾਮ ਕਰਨਾ, ਜਦੋਂ ਮੱਥਾ, ਨੱਕ, ਹੱਥ, ਗੋਡੇ ਅਤੇ ਪੈਰਾਂ ਦੀਆਂ ਉਂਗਲੀਆਂ ਜ਼ਮੀਨ ਨੂੰ ਛੂੰਹਦੀਆਂ ਹਨ। ਇਹ Allah ਦੇ ਨੌਕਰ ਦੇ ਸਭ ਤੋਂ ਨਜ਼ਦੀਕੀ ਪਲਾਂ ਵਿੱਚੋਂ ਇੱਕ ਹੈ.",
+    "seeAlso": ["salah", "rakah", "ruku"]
+  },
+  {
+    "id": "salaf",
+    "term": "Salaf",
+    "arabicText": "سلف",
+    "transliteration": "SA-laf",
+    "definition": "ਮੁਸਲਮਾਨਾਂ ਦੀਆਂ ਸ਼ੁਰੂਆਤੀ ਧਰਮੀ ਪੀੜ੍ਹੀਆਂ, ਖ਼ਾਸਕਰ ਪੈਗੰਬਰ ਦੇ ਸਾਥੀ, ਉਨ੍ਹਾਂ ਦੇ ਵਿਦਿਆਰਥੀ ਅਤੇ ਉਨ੍ਹਾਂ ਤੋਂ ਬਾਅਦ ਦੀ ਪੀੜ੍ਹੀ. ਉਨ੍ਹਾਂ ਨੂੰ ਅਕਸਰ ਸਮਝ ਅਤੇ ਅਭਿਆਸ ਦੀਆਂ ਮਹੱਤਵਪੂਰਣ ਉਦਾਹਰਣਾਂ ਵਜੋਂ ਵੇਖਿਆ ਜਾਂਦਾ ਹੈ.",
+    "seeAlso": ["sunnah", "hadith"]
   },
   {
     "id": "salah",
@@ -272,6 +672,46 @@
     "seeAlso": ["islam", "muslim", "iman", "allah"]
   },
   {
+    "id": "sharia",
+    "term": "Sharia",
+    "arabicText": "شريعة",
+    "transliteration": "sha-REE-ah",
+    "definition": "Islam ਦਾ ਬ੍ਰਹਮ ਨੈਤਿਕ ਅਤੇ ਕਾਨੂੰਨੀ ਮਾਰਗਦਰਸ਼ਨ Quran ਅਤੇ Sunnah ਤੋਂ ਲਿਆ ਗਿਆ ਹੈ. ਇਸ ਵਿੱਚ ਪੂਜਾ, ਨੈਤਿਕਤਾ, ਪਰਿਵਾਰਕ ਜੀਵਨ, ਵਿੱਤ, ਨਿਆਂ ਅਤੇ ਹੋਰ ਬਹੁਤ ਕੁਝ ਸ਼ਾਮਲ ਹੈ.",
+    "seeAlso": ["maqasid", "fatwa", "halal"]
+  },
+  {
+    "id": "shirk",
+    "term": "Shirk",
+    "arabicText": "شرك",
+    "transliteration": "SHIRK",
+    "definition": "ਪੂਜਾ, ਪ੍ਰਭੂਤਾ, ਜਾਂ ਉਸ ਦੇ ਵਿਲੱਖਣ ਗੁਣਾਂ ਵਿੱਚ Allah ਨਾਲ ਭਾਈਵਾਲਾਂ ਨੂੰ ਜੋੜਨਾ. ਜੇ ਕੋਈ ਵਿਅਕਤੀ ਇਸ ਤੋਂ ਪਛਤਾਵਾ ਕੀਤੇ ਬਿਨਾਂ ਮਰ ਜਾਂਦਾ ਹੈ ਤਾਂ ਇਹ ਸਭ ਤੋਂ ਵੱਡਾ ਪਾਪ ਮੰਨਿਆ ਜਾਂਦਾ ਹੈ।",
+    "seeAlso": ["tawhid", "aqeedah", "allah"]
+  },
+  {
+    "id": "shukr",
+    "term": "Shukr",
+    "arabicText": "شكر",
+    "transliteration": "SHOOK-r",
+    "definition": "Allah ਦੀਆਂ ਅਸੀਸਾਂ ਦੀ ਸ਼ੁਕਰਗੁਜ਼ਾਰੀ ਅਤੇ ਸ਼ੁਕਰਗੁਜ਼ਾਰ ਮਾਨਤਾ. ਸੱਚੇ shukr ਵਿਚ ਦਿਲ ਵਿਚ ਸ਼ੁਕਰਗੁਜ਼ਾਰ ਹੋਣਾ, ਇਸ ਨੂੰ ਬੋਲਣਾ ਅਤੇ ਬਰਕਤਾਂ ਦੀ ਚੰਗੀ ਵਰਤੋਂ ਕਰਨਾ ਸ਼ਾਮਲ ਹੈ।",
+    "seeAlso": ["sabr", "barakah", "allah"]
+  },
+  {
+    "id": "sirah",
+    "term": "Sirah",
+    "arabicText": "سيرة",
+    "transliteration": "SEE-rah",
+    "definition": "ਪੈਗੰਬਰ ਮੁਹੰਮਦ ਦੀ ਜੀਵਨੀ ਅਤੇ ਜੀਵਨ ਕਹਾਣੀ. sirah ਦਾ ਅਧਿਐਨ ਕਰਨ ਨਾਲ ਮੁਸਲਮਾਨਾਂ ਨੂੰ Quran ਅਤੇ ਪੈਗੰਬਰ ਦੇ ਚਰਿੱਤਰ ਨੂੰ ਸਮਝਣ ਵਿੱਚ ਮਦਦ ਮਿਲਦੀ ਹੈ।",
+    "seeAlso": ["hadith", "sunnah", "quran"]
+  },
+  {
+    "id": "suhoor",
+    "term": "Suhoor",
+    "arabicText": "سحور",
+    "transliteration": "su-HOOR",
+    "definition": "ਵਰਤ ਸ਼ੁਰੂ ਹੋਣ ਤੋਂ ਪਹਿਲਾਂ ਸਵੇਰ ਤੋਂ ਪਹਿਲਾਂ ਖਾਣਾ ਖਾਧਾ ਜਾਂਦਾ ਹੈ। ਇਸਦੀ ਸਿਫਾਰਸ਼ ਕੀਤੀ ਜਾਂਦੀ ਹੈ ਅਤੇ ਵਰਤ ਰੱਖਣ ਵਾਲੇ ਦਿਨ ਲਈ ਤਾਕਤ ਪ੍ਰਦਾਨ ਕਰਨ ਵਿੱਚ ਸਹਾਇਤਾ ਕਰਦੀ ਹੈ।",
+    "seeAlso": ["sawm", "ramadan", "iftar"]
+  },
+  {
     "id": "sunnah",
     "term": "Sunnah",
     "arabicText": "سنة",
@@ -296,12 +736,44 @@
     "seeAlso": ["quran", "ayah", "surah"]
   },
   {
+    "id": "taharah",
+    "term": "Taharah",
+    "arabicText": "طهارة",
+    "transliteration": "ta-HAA-rah",
+    "definition": "ਪੂਜਾ ਲਈ ਰੀਤੀ ਰਿਵਾਜਾਂ ਦੀ ਸ਼ੁੱਧਤਾ ਅਤੇ ਸਾਫ਼-ਸਫ਼ਾਈ ਦੀ ਲੋੜ ਹੁੰਦੀ ਹੈ ਜਾਂ ਉਤਸ਼ਾਹਿਤ ਕੀਤੀ ਜਾਂਦੀ ਹੈ। ਇਸ ਵਿੱਚ wudu, ghusl ਦੁਆਰਾ ਸ਼ੁੱਧਤਾ ਅਤੇ ਸਰੀਰ, ਕੱਪੜੇ ਅਤੇ ਜਗ੍ਹਾ ਨੂੰ ਸਾਫ ਰੱਖਣਾ ਸ਼ਾਮਲ ਹੈ.",
+    "seeAlso": ["wudu", "ghusl", "salah"]
+  },
+  {
     "id": "tajweed",
     "term": "Tajweed",
     "arabicText": "تجويد",
     "transliteration": "taj-WEED",
     "definition": "ਪਾਠ ਦੇ ਦੌਰਾਨ ਕੁਰਾਨ ਦੇ ਅੱਖਰਾਂ ਅਤੇ ਸ਼ਬਦਾਂ ਦਾ ਸਹੀ ਉਚਾਰਨ ਕਰਨ ਲਈ ਨਿਯਮਾਂ ਦਾ ਸੈੱਟ। ਤਾਜਵੀਦ ਸਿੱਖਣਾ ਇੱਕ ਹੌਲੀ ਪ੍ਰਕਿਰਿਆ ਹੈ, ਅਤੇ ਬਹੁਤ ਸਾਰੇ ਮੁਸਲਮਾਨ ਸਮੇਂ ਦੇ ਨਾਲ ਇਸਦਾ ਅਧਿਐਨ ਕਰਦੇ ਹਨ। ਸ਼ੁਰੂ ਵਿਚ ਸੰਪੂਰਨਤਾ ਬਾਰੇ ਚਿੰਤਾ ਨਾ ਕਰੋ.",
     "seeAlso": ["quran", "surah"]
+  },
+  {
+    "id": "takbir",
+    "term": "Takbir",
+    "arabicText": "تكبير",
+    "transliteration": "tak-BEER",
+    "definition": "'Allahu ਅਕਬਰ' ('Allah ਸਭ ਤੋਂ ਮਹਾਨ ਹੈ') ਕਹਿਣਾ. ਇਹ ਪ੍ਰਾਰਥਨਾ ਅਤੇ ਪੂਜਾ ਦੇ ਹੋਰ ਬਹੁਤ ਸਾਰੇ ਕੰਮਾਂ ਦੌਰਾਨ ਪ੍ਰਗਟ ਹੁੰਦਾ ਹੈ.",
+    "seeAlso": ["salah", "eid"]
+  },
+  {
+    "id": "taqwa",
+    "term": "Taqwa",
+    "arabicText": "تقوى",
+    "transliteration": "taq-WAA",
+    "definition": "ਰੱਬ ਚੇਤਨਾ, Allah ਦੀ ਚੇਤੰਨਤਾ, ਅਤੇ ਸੁਰੱਖਿਆ ਜਾਗਰੂਕਤਾ ਜੋ ਇੱਕ ਵਿਅਕਤੀ ਨੂੰ ਉਸ ਦੀ ਆਗਿਆ ਮੰਨਣ ਅਤੇ ਪਾਪ ਤੋਂ ਬਚਣ ਲਈ ਅਗਵਾਈ ਕਰਦੀ ਹੈ. ਇਹ Islamic ਅਧਿਆਤਮਿਕ ਜੀਵਨ ਦੇ ਕੇਂਦਰੀ ਟੀਚਿਆਂ ਵਿੱਚੋਂ ਇੱਕ ਹੈ.",
+    "seeAlso": ["iman", "sawm", "ihsan"]
+  },
+  {
+    "id": "tashahhud",
+    "term": "Tashahhud",
+    "arabicText": "تشهد",
+    "transliteration": "ta-shah-HUD",
+    "definition": "salah ਦੌਰਾਨ ਪੜ੍ਹੀ ਗਈ ਬੈਠਕ ਦੀ ਗਵਾਹੀ. ਇਸ ਵਿੱਚ ਨਮਸਕਾਰ ਦੇ ਸ਼ਬਦ, ਵਿਸ਼ਵਾਸ ਦੀ ਗਵਾਹੀ ਅਤੇ ਪੈਗੰਬਰ 'ਤੇ ਪ੍ਰਾਰਥਨਾਵਾਂ ਸ਼ਾਮਲ ਹਨ.",
+    "seeAlso": ["salah", "rakah"]
   },
   {
     "id": "tawbah",
@@ -312,12 +784,44 @@
     "seeAlso": ["dua", "allah", "iman"]
   },
   {
+    "id": "tawhid",
+    "term": "Tawhid",
+    "arabicText": "توحيد",
+    "transliteration": "taw-HEED",
+    "definition": "Allah ਦੀ ਸੰਪੂਰਨ ਏਕਤਾ ਅਤੇ ਉਸ ਨੂੰ ਇਕੱਲੇ ਪੂਜਾ ਲਈ ਇਕੱਲਾ ਕਰਨਾ. ਇਹ Islamic ਵਿਸ਼ਵਾਸ ਦੀ ਬੁਨਿਆਦ ਹੈ.",
+    "seeAlso": ["allah", "aqeedah", "shirk"]
+  },
+  {
+    "id": "ummah",
+    "term": "Ummah",
+    "arabicText": "أمة",
+    "transliteration": "UM-mah",
+    "definition": "ਵਿਸ਼ਵਵਿਆਪੀ ਮੁਸਲਿਮ ਭਾਈਚਾਰਾ ਵਿਸ਼ਵਾਸ ਦੁਆਰਾ ਇਕਜੁੱਟ ਹੋ ਗਿਆ. ਇਹ ਸ਼ਬਦ ਸਾਂਝੀ ਜ਼ਿੰਮੇਵਾਰੀ, ਸੰਬੰਧ, ਅਤੇ ਭਾਈਚਾਰਕ ਸਾਂਝ ਅਤੇ ਭੈਣ ਨੂੰ ਉਜਾਗਰ ਕਰਦਾ ਹੈ.",
+    "seeAlso": ["muslim", "masjid", "jumuah"]
+  },
+  {
     "id": "umrah",
     "term": "Umrah",
     "arabicText": "عمرة",
     "transliteration": "UM-rah",
     "definition": "ਮੱਕਾ ਦੀ ਇੱਕ ਸਵੈ-ਇੱਛਤ ਤੀਰਥ ਯਾਤਰਾ ਜੋ ਸਾਲ ਦੇ ਕਿਸੇ ਵੀ ਸਮੇਂ ਕੀਤੀ ਜਾ ਸਕਦੀ ਹੈ, ਹੱਜ ਦੇ ਉਲਟ ਜਿਸ ਦੀਆਂ ਤਾਰੀਖਾਂ ਨਿਸ਼ਚਿਤ ਹੁੰਦੀਆਂ ਹਨ। ਇਹ ਇੱਕ ਛੋਟਾ ਅਤੇ ਘੱਟ ਵਿਸਤ੍ਰਿਤ ਤੀਰਥ ਯਾਤਰਾ ਹੈ ਪਰ ਇੱਕ ਡੂੰਘਾ ਅਧਿਆਤਮਿਕ ਅਨੁਭਵ ਹੈ।",
     "seeAlso": ["hajj", "masjid"]
+  },
+  {
+    "id": "wajib",
+    "term": "Wajib",
+    "arabicText": "واجب",
+    "transliteration": "WAA-jib",
+    "definition": "ਇੱਕ ਲੋੜੀਂਦਾ ਕੰਮ, ਖ਼ਾਸਕਰ ਹਨਾਫੀ ਸ਼ਬਦਾਵਲੀ ਵਿੱਚ. ਇਹ ਇੱਕ ਜ਼ਿੰਮੇਵਾਰੀ ਦੇ ਸਮਾਨ ਹੈ, ਹਾਲਾਂਕਿ ਕੁਝ ਵਿਦਵਾਨ ਇਸ ਨੂੰ ਸਬੂਤ ਦੀ ਤਾਕਤ ਵਿੱਚ fard ਤੋਂ ਵੱਖ ਕਰਦੇ ਹਨ.",
+    "seeAlso": ["fard", "salah"]
+  },
+  {
+    "id": "witr",
+    "term": "Witr",
+    "arabicText": "وتر",
+    "transliteration": "WIT-r",
+    "definition": "Isha ਤੋਂ ਬਾਅਦ ਇੱਕ ਅਜੀਬ ਨੰਬਰ ਵਾਲੀ ਪ੍ਰਾਰਥਨਾ ਕੀਤੀ ਜਾਂਦੀ ਹੈ, ਅਕਸਰ ਰਾਤ ਦੀ ਸਮਾਪਤੀ ਪ੍ਰਾਰਥਨਾ ਦੇ ਰੂਪ ਵਿੱਚ. ਇਹ ਵਿਸ਼ੇਸ਼ ਤੌਰ 'ਤੇ Islamic ਅਭਿਆਸ ਵਿੱਚ ਜ਼ੋਰ ਦਿੱਤਾ ਜਾਂਦਾ ਹੈ ਅਤੇ ਪਿਆਰਾ ਹੁੰਦਾ ਹੈ.",
+    "seeAlso": ["salah", "isha", "nafl"]
   },
   {
     "id": "wudu",
@@ -334,5 +838,13 @@
     "transliteration": "za-KAAT",
     "definition": "ਲਾਜ਼ਮੀ ਸਲਾਨਾ ਚੈਰੀਟੇਬਲ ਦਾਨ, ਇੱਕ ਮੁਸਲਮਾਨ ਦੀ ਯੋਗ ਦੌਲਤ ਦੇ 2.5% ਵਜੋਂ ਗਿਣਿਆ ਜਾਂਦਾ ਹੈ। ਇਹ ਇਸਲਾਮ ਦੇ ਪੰਜ ਥੰਮ੍ਹਾਂ ਵਿੱਚੋਂ ਇੱਕ ਹੈ ਅਤੇ ਲੋੜਵੰਦਾਂ ਦੀ ਸਹਾਇਤਾ ਕਰਦੇ ਹੋਏ ਕਿਸੇ ਦੀ ਦੌਲਤ ਨੂੰ ਸ਼ੁੱਧ ਕਰਨ ਦਾ ਕੰਮ ਕਰਦਾ ਹੈ। ਇਹ ਸਿਰਫ਼ ਉਦੋਂ ਹੀ ਲਾਗੂ ਹੁੰਦਾ ਹੈ ਜਦੋਂ ਤੁਸੀਂ ਘੱਟੋ-ਘੱਟ ਦੌਲਤ ਦੀ ਥ੍ਰੈਸ਼ਹੋਲਡ ਨੂੰ ਪੂਰਾ ਕਰਦੇ ਹੋ।",
     "seeAlso": ["sadaqah", "islam"]
+  },
+  {
+    "id": "zamzam",
+    "term": "Zamzam",
+    "arabicText": "زمزم",
+    "transliteration": "ZAM-zam",
+    "definition": "Ka'bah ਦੇ ਨੇੜੇ ਮੱਕਾ ਵਿੱਚ ਧੰਨ ਖੂਹ ਦਾ ਪਾਣੀ। ਮੁਸਲਮਾਨ ਇਸ ਨੂੰ ਸ਼ੁਕਰਗੁਜ਼ਾਰੀ ਨਾਲ ਅਤੇ ਅਕਸਰ ਨਿੱਜੀ ਪ੍ਰਾਰਥਨਾ ਨਾਲ ਪੀਂਦੇ ਹਨ।",
+    "seeAlso": ["hajj", "umrah", "kaabah"]
   }
 ]

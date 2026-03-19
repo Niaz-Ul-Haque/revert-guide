@@ -1,81 +1,3 @@
-# Content to Add
-
-Reference for expanding the Revert Guide content library. Each section shows what already exists and what could be added. Content lives in `locales/en/` as JSON files.
-
----
-
-## Glossary Terms (`locales/en/glossary.json`)
-
-**Existing (43 terms):** allah, aqeedah, asr, ayah, dhikr, dhuhr, dua, eid, fajr, fitrah, ghusl, hadith, hajj, halal, haram, hijab, imam, iman, islam, isha, jumuah, khutbah, maghrib, masjid, muslim, niyyah, quran, rakah, ramadan, sadaqah, salah, salam, sawm, shahada, sunnah, surah, tafsir, tajweed, tawbah, umrah, wudu, zakat
-
-**To add:**
-
-- adhan — the call to prayer
-- akhlaq — character / ethics
-- amanah — trustworthiness
-- awrah — parts of the body to cover
-- barakah — blessings
-- bidah — innovation in religious matters
-- burqa / niqab — face coverings (clarify differences)
-- dajjal — the false messiah (end times)
-- dawah — invitation to Islam
-- deen — religion / way of life
-- fard — obligatory act
-- fatwa — Islamic legal ruling
-- fitnah — trial / tribulation
-- haya — modesty / shyness
-- hijrah — migration (historically, from Mecca to Medina)
-- ibadah — worship / acts of devotion
-- iftar — meal to break the fast
-- ihram — sacred state for Hajj/Umrah
-- ihsan — excellence in worship
-- ijma — scholarly consensus
-- ijtihad — independent reasoning
-- ilm — knowledge
-- istikhara — prayer for guidance
-- janazah — funeral prayer
-- jannah — paradise
-- jahannam — hellfire
-- jihad — struggle / striving (inner and outer)
-- jinn — unseen beings created from fire
-- kaaba — sacred structure in Mecca
-- kafir — disbeliever (use carefully, explain context)
-- khalifah — steward / representative
-- khushoo — humility and focus in prayer
-- makruh — disliked but not forbidden
-- maqasid — objectives of Islamic law
-- mahr — bridal gift
-- miswak — teeth cleaning stick (Sunnah)
-- muadhin — person who calls the adhan
-- mubah — permissible
-- muhajir — one who migrates for faith
-- mustahabb — recommended act
-- nafl — voluntary / extra worship
-- nikah — marriage contract
-- qadr — divine decree / predestination
-- qiblah — direction of prayer (toward Kaaba)
-- qiyam — standing in prayer / night prayer
-- riba — interest / usury
-- ruku — bowing in prayer
-- sabr — patience
-- sajdah — prostration
-- salaf — early Muslim generations
-- sharia — Islamic law / moral framework
-- shirk — associating partners with God
-- shukr — gratitude
-- sirah — biography of Prophet Muhammad
-- suhoor — pre-dawn meal before fasting
-- taharah — ritual purity
-- takbir — saying "Allahu Akbar"
-- taqwa — God-consciousness
-- tashahhud — sitting testimony in prayer
-- tawhid — oneness of God
-- ummah — the global Muslim community
-- witr — odd-numbered prayer after Isha
-- wajib — obligatory (Hanafi term)
-- zam zam — sacred water from Mecca
-
----
 
 ## Topics (`locales/en/topics/`)
 
@@ -83,7 +5,7 @@ Each topic is a JSON file with: id, slug, title, description, sections (array of
 
 **Existing (7 topics):** beliefs, prayer, quran, community, fasting, character, purification
 
-**To add:**
+**To add USING AUTHETIC SOURCES AND MAKING IT EASY FOR NEW REVERTS -HELPFUL and UDNERSTANDING TONE (LIKE WHAT I ALREADY HAVE THROUGHOUT):**
 
 - **hijab-and-modesty** — Understanding Islamic dress code, when and why, men and women, cultural vs religious, practical tips for converts
 - **marriage-and-family** — Islamic perspective on marriage, finding a spouse as a convert, nikah process, rights and responsibilities, interfaith family dynamics
@@ -144,29 +66,6 @@ Each resource has: id, title, type (article/video/book/app/community/pdf), url, 
 
 ---
 
-## Masjids (`locales/en/masjids.json`)
-
-Each masjid has: id, name, address, city, stateProvince, country, postalCode, coordinates (lat/lng), phone, website, notes.
-
-**Existing (12):** All in Toronto/Mississauga area.
-
-**To add (Greater Toronto Area):**
-
-- **darul-tawheed-mississauga** — Darul Tawheed Islamic Centre, Mississauga
-- **islamic-centre-of-markham** — Islamic Centre of Markham
-- **muslim-association-of-canada-mississauga** — MAC Mississauga
-- **pickering-islamic-centre** — Pickering Islamic Centre
-- **islamic-society-of-ajax** — Islamic Society of Ajax
-- **brampton-islamic-centre** — Brampton Islamic Centre
-- **richmond-hill-islamic-centre** — Richmond Hill Islamic Centre
-- **islamic-centre-of-scarborough** — Islamic Centre of Scarborough
-- **sayeda-khadija-centre** — Sayeda Khadija Centre, Mississauga (women-focused)
-- **masjid-bilal-toronto** — Masjid Bilal, Toronto
-- **assunnah-muslim-association** — Assunnah Muslim Association, Ottawa (for GTA visitors)
-- **hamilton-mountain-mosque** — Hamilton Mountain Mosque (nearby city)
-
----
-
 ## Steps (`locales/en/steps/`)
 
 **Existing (10 steps):** shahada, ghusl, prayer, community, quran, halal-haram, fasting, character, knowledge, zakat-hajj
@@ -186,34 +85,8 @@ Steps are tied to stages. Adding new steps means updating the corresponding stag
 
 ---
 
-## Stages (`locales/en/stages.json`)
-
-**Existing (6 stages):**
-1. day-0-1 — Embrace Faith & Fresh Start (shahada, ghusl)
-2. week-1 — Building Foundations (prayer, community)
-3. week-2-3 — Strengthening Practice (quran)
-4. month-1-2 — Broadening Practice (halal-haram, fasting)
-5. month-3-6 — Deepening Faith (character, knowledge)
-6. month-6-plus — Lifelong Growth (zakat-hajj)
-
-No new stages needed for MVP. New steps should fit into existing stages.
-
----
-
 ## How to Add Content
 
-### Adding a glossary term
-Add an object to `locales/en/glossary.json`:
-```json
-{
-  "id": "unique-id",
-  "term": "Display Term",
-  "arabicText": "Arabic script (optional)",
-  "transliteration": "how to pronounce (optional)",
-  "definition": "Plain language definition.",
-  "seeAlso": ["related-term-id"]
-}
-```
 
 ### Adding a topic
 Create `locales/en/topics/{slug}.json`:
@@ -246,23 +119,6 @@ Add an object to `locales/en/resources.json`:
 }
 ```
 
-### Adding a masjid
-Add an object to `locales/en/masjids.json`:
-```json
-{
-  "id": "unique-slug",
-  "name": "Masjid Name",
-  "address": "123 Street",
-  "city": "Toronto",
-  "stateProvince": "Ontario",
-  "country": "Canada",
-  "postalCode": "M1A 1A1",
-  "coordinates": { "lat": 43.6532, "lng": -79.3832 },
-  "phone": "+1-416-555-0000",
-  "website": "https://...",
-  "notes": "Any special info for converts."
-}
-```
 
 ### Adding a step
 1. Create `locales/en/steps/{slug}.json` following the Step schema

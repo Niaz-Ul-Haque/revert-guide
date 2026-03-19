@@ -1,11 +1,35 @@
 [
   {
+    "id": "adhan",
+    "term": "Adhan",
+    "arabicText": "أذان",
+    "transliteration": "ah-THAAN",
+    "definition": "각 의무 salah 기도 전에 알리는 기도 부름. 이는 무슬림에게 기도 시간이 되었음을 상기시키고 예배를 위해 모이도록 초대한다.",
+    "seeAlso": ["salah", "muadhin", "masjid"]
+  },
+  {
+    "id": "akhlaq",
+    "term": "Akhlaq",
+    "arabicText": "أخلاق",
+    "transliteration": "akh-LAAQ",
+    "definition": "Islam 가르침으로 형성된 좋은 성품, 예절, 윤리. 이는 정직, 인내, 자비, 겸손, 사람을 대하는 방식에서 나타난다.",
+    "seeAlso": ["ihsan", "sabr", "shukr"]
+  },
+  {
     "id": "allah",
     "term": "Allah",
     "arabicText": "الله",
     "transliteration": "Allah",
     "definition": "하나님을 뜻하는 아랍어. 무슬림은 이 이름을 사용하여 존재하는 모든 것의 유일무이한 창조주이자 유지자를 지칭합니다. 아랍어를 사용하는 기독교인과 유대인도 이 단어를 하나님에게 사용합니다.",
     "seeAlso": ["islam", "iman", "aqeedah"]
+  },
+  {
+    "id": "amanah",
+    "term": "Amanah",
+    "arabicText": "أمانة",
+    "transliteration": "ah-MAA-nah",
+    "definition": "재산, 비밀, 직무 또는 책임 등 맡겨진 것을 신뢰할 수 있고 성실히 수행하는 것. 또한 Allah 앞에서의 도덕적 책임을 의미하기도 한다.",
+    "seeAlso": ["akhlaq", "iman"]
   },
   {
     "id": "aqeedah",
@@ -24,12 +48,68 @@
     "seeAlso": ["salah", "fajr", "dhuhr", "maghrib", "isha"]
   },
   {
+    "id": "awrah",
+    "term": "Awrah",
+    "arabicText": "عورة",
+    "transliteration": "AW-rah",
+    "definition": "Islam의 겸손 기준에 따라 다른 사람 앞에서 가려야 하는 신체 부위. awrah가 무엇인지에 대한 판단은 상황과 법적 견해에 따라 다르다.",
+    "seeAlso": ["hijab", "taharah"]
+  },
+  {
     "id": "ayah",
     "term": "Ayah",
     "arabicText": "آية",
     "transliteration": "AH-yah",
     "definition": "꾸란의 한 구절. 이 단어는 문자 그대로 '표징' 또는 '기적'을 의미합니다. 꾸란은 장(수라)으로 구성되어 있으며 각 장에는 여러 개의 아야가 포함되어 있습니다.",
     "seeAlso": ["quran", "surah", "tafsir"]
+  },
+  {
+    "id": "barakah",
+    "term": "Barakah",
+    "arabicText": "بركة",
+    "transliteration": "ba-ra-kah",
+    "definition": "Allah로부터 오는 축복이나 신성한 증가. 이는 시간, 재산, 지식 또는 노력이 예상보다 더 유익하게 되는 느낌을 의미한다.",
+    "seeAlso": ["allah", "shukr"]
+  },
+  {
+    "id": "bidah",
+    "term": "Bid'ah",
+    "arabicText": "بدعة",
+    "transliteration": "BID-ah",
+    "definition": "Quran 또는 Sunnah에 근거 없이 예배나 신념에 도입된 종교적 혁신. 무슬림은 모든 새로운 세속적 것이 bid'ah인 것은 아니므로 이 용어를 신중하게 사용한다.",
+    "seeAlso": ["sunnah", "hadith"]
+  },
+  {
+    "id": "burqa-niqab",
+    "term": "Burqa / Niqab",
+    "arabicText": "برقع / نقاب",
+    "transliteration": "BUR-qah / ni-QAAB",
+    "definition": "일부 무슬림 여성들과 관련된 얼굴 가리개 의복 용어. 니캅은 보통 눈을 제외한 얼굴을 가리며, 부르카는 보다 전체적인 외부 덮개; 이에 대한 견해는 문화와 학자 의견에 따라 다르다.",
+    "seeAlso": ["hijab", "awrah"]
+  },
+  {
+    "id": "dawah",
+    "term": "Da'wah",
+    "arabicText": "دعوة",
+    "transliteration": "DA-wah",
+    "definition": "명확한 설명, 좋은 예절, 지혜로운 행동을 통해 다른 사람에게 Islam를 알리는 것. 이는 단순한 공개 설교뿐만 아니라 당신의 성품도 da'wah의 일부가 될 수 있다.",
+    "seeAlso": ["islam", "akhlaq"]
+  },
+  {
+    "id": "dajjal",
+    "term": "Dajjal",
+    "arabicText": "الدجال",
+    "transliteration": "daj-JAAL",
+    "definition": "종말에 관한 Islam 가르침에서 언급된 주요 속이는 자, 때로는 거짓 메시아라고 불리기도 함. 신도들은 그의 시련으로부터 Allah의 보호를 구하도록 배운다.",
+    "seeAlso": ["qiyam", "aqeedah"]
+  },
+  {
+    "id": "deen",
+    "term": "Deen",
+    "arabicText": "دين",
+    "transliteration": "DEEN",
+    "definition": "Allah에 순종하며 살아가는 종교, 삶의 방식, 완전한 생활 경로. 무슬림은 종종 이를 단순한 의식의 집합이 아닌 전체 생활 방식으로 의미하는 Islam로 사용한다.",
+    "seeAlso": ["islam", "iman"]
   },
   {
     "id": "dhikr",
@@ -70,6 +150,30 @@
     "transliteration": "FAJ-r",
     "definition": "매일의 다섯 가지 기도 중 첫 번째인 새벽기도입니다. 그것은 새벽의 첫 번째 빛과 일출 사이에 수행됩니다. 많은 무슬림들은 이 이른 기도가 하루를 시작하는 평화로운 방법이라고 생각합니다.",
     "seeAlso": ["salah", "dhuhr", "asr", "maghrib", "isha"]
+  },
+  {
+    "id": "fard",
+    "term": "Fard",
+    "arabicText": "فرض",
+    "transliteration": "FARD",
+    "definition": "Islam에서 의무적인 행위. 이것을 행하면 보상을 받고, 변명 없이 고의로 행하지 않으면 죄가 된다.",
+    "seeAlso": ["salah", "wajib", "islam"]
+  },
+  {
+    "id": "fatwa",
+    "term": "Fatwa",
+    "arabicText": "فتوى",
+    "transliteration": "FAT-wah",
+    "definition": "자격 있는 학자가 질문에 답하기 위해 제공하는 비구속적인 Islam 법적 의견. fatwa는 Islam 가르침이 특정 문제에 어떻게 적용될 수 있는지 설명한다.",
+    "seeAlso": ["sharia", "imam", "ijma"]
+  },
+  {
+    "id": "fitnah",
+    "term": "Fitnah",
+    "arabicText": "فتنة",
+    "transliteration": "FIT-nah",
+    "definition": "사람의 신앙과 성품을 시험하는 시련, 유혹, 또는 고난. 이 단어는 사회적 혼란이나 혼돈을 나타낼 수도 있다.",
+    "seeAlso": ["sabr", "iman"]
   },
   {
     "id": "fitrah",
@@ -120,12 +224,84 @@
     "seeAlso": ["halal"]
   },
   {
+    "id": "haya",
+    "term": "Haya",
+    "arabicText": "حياء",
+    "transliteration": "ha-YAA",
+    "definition": "부정에서 멀어지게 하는 겸손, 수줍음, 존엄한 수치심. 이는 옷차림, 언행, 행동과 내면 태도에 영향을 준다.",
+    "seeAlso": ["hijab", "akhlaq"]
+  },
+  {
     "id": "hijab",
     "term": "Hijab",
     "arabicText": "حجاب",
     "transliteration": "hih-JAAB",
     "definition": "일반적으로 많은 무슬림 여성들이 겸손과 신앙의 표현으로 착용하는 머리 스카프를 가리킵니다. 더 광범위하게 말하면, 히잡은 남성과 여성 모두의 복장과 행동에 있어서 정숙함의 개념을 의미합니다.",
     "seeAlso": ["islam", "iman"]
+  },
+  {
+    "id": "hijrah",
+    "term": "Hijrah",
+    "arabicText": "هجرة",
+    "transliteration": "HIJ-rah",
+    "definition": "신앙을 위해 이루어지는 이주, 특히 예언자 무함마드의 메카에서 마디나로의 이주. 더 넓게는 유해한 상황을 떠나 자신의 deen를 보호하거나 강화하는 것을 의미할 수 있다.",
+    "seeAlso": ["muhajir", "deen"]
+  },
+  {
+    "id": "ibadah",
+    "term": "Ibadah",
+    "arabicText": "عبادة",
+    "transliteration": "ih-BAA-dah",
+    "definition": "Allah를 위해 행해지는 숭배와 헌신 행위. 기도와 금식과 같은 공식 의식뿐만 아니라 진실한 의도로 행해지는 일상적인 선행도 포함된다.",
+    "seeAlso": ["salah", "dua", "dhikr"]
+  },
+  {
+    "id": "iftar",
+    "term": "Iftar",
+    "arabicText": "إفطار",
+    "transliteration": "if-TAAR",
+    "definition": "Ramadan나 다른 금식에서 금식자가 해질 녘에 금식을 깨는 식사. 전통적으로 Maghrib 시간에 날짜와 물과 함께 시작된다.",
+    "seeAlso": ["sawm", "ramadan", "suhoor"]
+  },
+  {
+    "id": "ihram",
+    "term": "Ihram",
+    "arabicText": "إحرام",
+    "transliteration": "ih-HRAAM",
+    "definition": "순례자가 Hajj나 Umrah 전에 들어가는 신성한 상태와 그와 함께 따르는 특별한 제한과 의도. 이 단어는 또한 이 상태에서 입는 단순한 의복을 가리키는 데 일반적으로 사용된다.",
+    "seeAlso": ["hajj", "umrah", "kaabah"]
+  },
+  {
+    "id": "ihsan",
+    "term": "Ihsan",
+    "arabicText": "إحسان",
+    "transliteration": "ih-HSAAN",
+    "definition": "영적 탁월함: Allah를 깊은 진실성과 인식으로 숭배하는 것, 마치 그분을 보는 것 같이 믿으며 그분이 나를 보는 것을 아는 것. 또한 자신이 하는 일에서 아름다움과 탁월함을 추구하는 것을 의미한다.",
+    "seeAlso": ["iman", "akhlaq", "ibadah"]
+  },
+  {
+    "id": "ijma",
+    "term": "Ijma'",
+    "arabicText": "إجماع",
+    "transliteration": "ij-MAA",
+    "definition": "Islam적 법이나 신념의 문제에 대한 학자들의 합의. 이는 Islam적 법적 추론에 사용되는 중요한 원칙 중 하나이다.",
+    "seeAlso": ["ijtihad", "fatwa", "maqasid"]
+  },
+  {
+    "id": "ijtihad",
+    "term": "Ijtihad",
+    "arabicText": "اجتهاد",
+    "transliteration": "ij-ti-HAAD",
+    "definition": "명시적으로 다루어지지 않은 문제에 대한 판결을 도출하기 위해 자격을 갖춘 학자들이 사용하는 신중한 독립적 추론. 이는 원천과 법적 방법에 대한 깊은 지식을 요구한다.",
+    "seeAlso": ["ijma", "fatwa", "sharia"]
+  },
+  {
+    "id": "ilm",
+    "term": "Ilm",
+    "arabicText": "علم",
+    "transliteration": "ILM",
+    "definition": "지식, 특히 신앙과 실천에 유익한 지식. ilm을 추구하는 것은 Islam에서 크게 강조된다.",
+    "seeAlso": ["quran", "hadith", "tafsir"]
   },
   {
     "id": "imam",
@@ -144,14 +320,6 @@
     "seeAlso": ["islam", "aqeedah", "shahada"]
   },
   {
-    "id": "islam",
-    "term": "Islam",
-    "arabicText": "إسلام",
-    "transliteration": "is-LAAM",
-    "definition": "복종과 하나님과의 평화의 종교. 이 단어는 '평화'와 '복종'을 의미하는 아랍어 뿌리에서 유래되었습니다. 이슬람은 신은 유일하며 무함마드는 그의 마지막 사자라고 가르친다.",
-    "seeAlso": ["muslim", "allah", "iman", "shahada"]
-  },
-  {
     "id": "isha",
     "term": "Isha",
     "arabicText": "العشاء",
@@ -160,12 +328,100 @@
     "seeAlso": ["salah", "fajr", "dhuhr", "asr", "maghrib"]
   },
   {
+    "id": "islam",
+    "term": "Islam",
+    "arabicText": "إسلام",
+    "transliteration": "is-LAAM",
+    "definition": "복종과 하나님과의 평화의 종교. 이 단어는 '평화'와 '복종'을 의미하는 아랍어 뿌리에서 유래되었습니다. 이슬람은 신은 유일하며 무함마드는 그의 마지막 사자라고 가르친다.",
+    "seeAlso": ["muslim", "allah", "iman", "shahada"]
+  },
+  {
+    "id": "istikhara",
+    "term": "Istikhara",
+    "arabicText": "استخارة",
+    "transliteration": "is-ti-KHAA-rah",
+    "definition": "결정을 내릴 때 Allah에게 지도를 요청하는 기도와 간청. 허용 가능한 선택지 중에서 선택할 때 행하며 결과를 Allah에게 맡기는 것이다.",
+    "seeAlso": ["dua", "niyyah"]
+  },
+  {
+    "id": "jahannam",
+    "term": "Jahannam",
+    "arabicText": "جهنم",
+    "transliteration": "ja-HAN-nam",
+    "definition": "지옥불, 진리를 거부하고 중대한 잘못을 지속하는 자들을 위한 내세의 처벌 장소. 무슬림들은 이를 경고와 책임 의식의 상기 수단으로 언급한다.",
+    "seeAlso": ["jannah", "iman"]
+  },
+  {
+    "id": "janazah",
+    "term": "Janazah",
+    "arabicText": "جنازة",
+    "transliteration": "ja-NAA-zah",
+    "definition": "고인 무슬림을 위한 장례 의식, 특히 장례 기도. 또한 더 넓게 고인과 매장 과정을 지칭하기도 한다.",
+    "seeAlso": ["jannah", "jahannam"]
+  },
+  {
+    "id": "jannah",
+    "term": "Jannah",
+    "arabicText": "جنة",
+    "transliteration": "JAN-nah",
+    "definition": "천국, Allah가 의로운 자들에게 약속한 영원한 보상. 평화와 기쁨, Allah와의 가까움의 장소로 묘사된다.",
+    "seeAlso": ["jahannam", "iman", "qadr"]
+  },
+  {
+    "id": "jihad",
+    "term": "Jihad",
+    "arabicText": "جهاد",
+    "transliteration": "ji-HAAD",
+    "definition": "Allah의 길에서의 노력과 투쟁. 죄와 고난에 대한 내적 투쟁을 가리킬 수 있으며, 일부 문맥에서는 엄격한 윤리적 규칙에 따른 무장 투쟁을 의미할 수 있다.",
+    "seeAlso": ["sabr", "deen"]
+  },
+  {
+    "id": "jinn",
+    "term": "Jinn",
+    "arabicText": "جن",
+    "transliteration": "JINN",
+    "definition": "연기 없는 불로 창조된 보이지 않는 존재로서 인간처럼 자유 의지를 가진 존재. 일부는 믿음이 있고 일부는 믿지 않는다.",
+    "seeAlso": ["quran", "aqeedah"]
+  },
+  {
     "id": "jumuah",
     "term": "Jumu'ah",
     "arabicText": "جمعة",
     "transliteration": "JOO-moo-ah",
     "definition": "금요일의 Dhuhr 기도를 대체하는 금요일 회중 기도입니다. 이 모임에는 설교(khutbah)가 포함되어 있으며 무슬림 공동체를 위한 중요한 주간 모임입니다. Jumu'ah에 참석하는 것은 다른 무슬림들과 소통할 수 있는 훌륭한 방법입니다.",
     "seeAlso": ["salah", "masjid", "imam", "dhuhr"]
+  },
+  {
+    "id": "kaabah",
+    "term": "Ka'bah",
+    "arabicText": "الكعبة",
+    "transliteration": "KAH-bah",
+    "definition": "무슬림이 기도할 때 향하는 마카에 있는 신성한 정육면체 구조. Islam 숭배의 영적 중심이자 Hajj와 Umrah의 중심 지점이다.",
+    "seeAlso": ["qiblah", "hajj", "umrah"]
+  },
+  {
+    "id": "kafir",
+    "term": "Kafir",
+    "arabicText": "كافر",
+    "transliteration": "KAA-fir",
+    "definition": "문자 그대로 진리를 가리거나 부정하는 자를 의미하는 용어. Islam적 사용에서는 불신앙이나 불신자를 가리킬 수 있지만, 신중히 사용해야 하며 일상적인 모욕으로 사용해서는 안 된다.",
+    "seeAlso": ["iman", "islam"]
+  },
+  {
+    "id": "khalifah",
+    "term": "Khalifah",
+    "arabicText": "خليفة",
+    "transliteration": "kha-LEE-fah",
+    "definition": "관리인, 후계자 또는 대표. 이 용어는 인간을 지상의 관리자로, 또는 무슬림 공동체를 이끄는 칼리프를 가리킬 수 있다.",
+    "seeAlso": ["deen", "amanah"]
+  },
+  {
+    "id": "khushoo",
+    "term": "Khushoo'",
+    "arabicText": "خشوع",
+    "transliteration": "khu-SHOO",
+    "definition": "겸손한 집중, 평온함, 그리고 기도 속의 경건함. 기계적으로 기도하는 것이 아니라 Allah와 함께 있는 내면의 상태입니다.",
+    "seeAlso": ["salah", "ihsan", "dhikr"]
   },
   {
     "id": "khutbah",
@@ -184,12 +440,68 @@
     "seeAlso": ["salah", "fajr", "dhuhr", "asr", "isha"]
   },
   {
+    "id": "mahr",
+    "term": "Mahr",
+    "arabicText": "مهر",
+    "transliteration": "MAHR",
+    "definition": "신랑이 결혼 계약의 일부로 신부에게 주는 신부 선물입니다. 그것은 그녀의 권리이며 오직 그녀만의 권리입니다.",
+    "seeAlso": ["nikah", "amanah"]
+  },
+  {
+    "id": "makruh",
+    "term": "Makruh",
+    "arabicText": "مكروه",
+    "transliteration": "mak-ROOH",
+    "definition": "Islam에서는 싫어하지만 엄격히 금지된 것은 아닙니다. 피하는 것이 보상을 받을 수 있지만, 그 자체로 죄가 되는 것은 보통 아닙니다.",
+    "seeAlso": ["halal", "haram", "mubah"]
+  },
+  {
+    "id": "maqasid",
+    "term": "Maqasid",
+    "arabicText": "مقاصد",
+    "transliteration": "ma-QAA-sid",
+    "definition": "신앙, 생명, 지성, 가족, 재산 보호와 같은 Islamic 법의 더 높은 목표와 지혜들. 이 개념은 학자들이 판결의 목적을 이해하는 데 도움을 줍니다.",
+    "seeAlso": ["sharia", "ijtihad"]
+  },
+  {
     "id": "masjid",
     "term": "Masjid",
     "arabicText": "مسجد",
     "transliteration": "MAS-jid",
     "definition": "이슬람교도들이 기도와 공동체 활동을 위해 모이는 곳인 모스크. 이 단어는 문자 그대로 '부복하는 장소'를 의미합니다. 성원은 환영받는 공간이며 언제든지 방문을 환영합니다.",
     "seeAlso": ["salah", "imam", "jumuah"]
+  },
+  {
+    "id": "miswak",
+    "term": "Miswak",
+    "arabicText": "مسواك",
+    "transliteration": "MIS-waak",
+    "definition": "구강 위생을 위해 전통적으로 사용되는 천연 치아 청소용 스틱입니다. 이 Sunnah 사용은 널리 연관되어 있습니다.",
+    "seeAlso": ["sunnah", "taharah"]
+  },
+  {
+    "id": "muadhin",
+    "term": "Mu'adhin",
+    "arabicText": "مؤذن",
+    "transliteration": "mu-ADH-dhin",
+    "definition": "adhan에 전화하는 사람. 모스크에서는 mu'adhin이 공동체에 기도 시간을 알립니다.",
+    "seeAlso": ["adhan", "masjid"]
+  },
+  {
+    "id": "mubah",
+    "term": "Mubah",
+    "arabicText": "مباح",
+    "transliteration": "moo-BAAH",
+    "definition": "Islam에서 허용되고 종교적으로 중립적인 무언가를 말하는 것. 그것을 하거나 떠나는 것만으로는 죄나 보상을 가져오지 않으며, 의도가 행위를 바꾸지 않는 한 그렇지 않습니다.",
+    "seeAlso": ["halal", "makruh"]
+  },
+  {
+    "id": "muhajir",
+    "term": "Muhajir",
+    "arabicText": "مهاجر",
+    "transliteration": "mu-HAA-jir",
+    "definition": "Allah과 신앙을 위해 이주하는 사람. 역사적으로 이 단어는 종종 메카를 떠나 마디나로 간 초기 무슬림들을 가리킵니다.",
+    "seeAlso": ["hijrah", "deen"]
   },
   {
     "id": "muslim",
@@ -200,12 +512,60 @@
     "seeAlso": ["islam", "shahada", "iman"]
   },
   {
+    "id": "mustahabb",
+    "term": "Mustahabb",
+    "arabicText": "مستحب",
+    "transliteration": "mus-ta-HABB",
+    "definition": "Islam 권장되고 사랑받는 행위이지만 의무는 아닙니다. 그것을 하는 것은 보상을 주지만, 그것을 떠난다고 죄를 가져오지 않습니다.",
+    "seeAlso": ["nafl", "sunnah"]
+  },
+  {
+    "id": "nafl",
+    "term": "Nafl",
+    "arabicText": "نفل",
+    "transliteration": "NAF-l",
+    "definition": "요구되는 범위를 넘어서는 자발적인 예배 행위들. Nafl 기도, 금식, 자선은 사람이 Allah과 더 가까워지도록 돕습니다.",
+    "seeAlso": ["sunnah", "witr", "salah"]
+  },
+  {
+    "id": "nikah",
+    "term": "Nikah",
+    "arabicText": "نكاح",
+    "transliteration": "ni-KAAH",
+    "definition": "Islamic 결혼 계약서. 이 법은 결혼을 합법적으로 만들고 권리와 책임을 명시합니다.",
+    "seeAlso": ["mahr", "deen"]
+  },
+  {
     "id": "niyyah",
     "term": "Niyyah",
     "arabicText": "نية",
     "transliteration": "NIY-yah",
     "definition": "의도. 이슬람에서는 의도의 진실성이 행동에 영적인 가치를 부여합니다. 기도나 금식과 같은 예배 행위를 하기 전에 마음속에 니야(niyyah)를 설정합니다. 큰 소리로 말할 필요는 없습니다.",
     "seeAlso": ["salah", "sawm", "wudu"]
+  },
+  {
+    "id": "qadr",
+    "term": "Qadr",
+    "arabicText": "قدر",
+    "transliteration": "QAD-r",
+    "definition": "신의 명령과 Allah의 완전한 지식과 결단력. qadr에 대한 믿음은 Allah가 과거, 현재, 그리고 앞으로 무엇이 될지 알고 있다는 신뢰를 포함한다.",
+    "seeAlso": ["iman", "aqeedah"]
+  },
+  {
+    "id": "qiblah",
+    "term": "Qiblah",
+    "arabicText": "قبلة",
+    "transliteration": "QIB-lah",
+    "definition": "무슬림들이 기도할 때 마카의 Ka'bah을 향해 향하는 방향. qiblah을 찾는 것은 salah이나 장례 같은 예배 행위를 방향 잡는 데 도움이 됩니다.",
+    "seeAlso": ["kaabah", "salah"]
+  },
+  {
+    "id": "qiyam",
+    "term": "Qiyam",
+    "arabicText": "قيام",
+    "transliteration": "qi-YAAM",
+    "definition": "기도하며 서서 기도하는 거야. 또한 야간 기도, 특히 Qiyam 알-라일처럼 오래 서 있을 때 기도를 가리킬 수 있습니다.",
+    "seeAlso": ["salah", "witr", "ramadan"]
   },
   {
     "id": "quran",
@@ -232,12 +592,52 @@
     "seeAlso": ["sawm", "eid", "salah"]
   },
   {
+    "id": "riba",
+    "term": "Riba",
+    "arabicText": "ربا",
+    "transliteration": "ri-BAA",
+    "definition": "Islamic 법이 특정 금융 거래에서 금지하는 고리대리 또는 이자 기반 이익. 무슬림들은 일반적으로 Islamic 윤리를 위반하는 착취적이거나 이자 발생 행위를 지칭하는 용어를 사용합니다.",
+    "seeAlso": ["halal", "haram", "zakat"]
+  },
+  {
+    "id": "ruku",
+    "term": "Ruku'",
+    "arabicText": "ركوع",
+    "transliteration": "roo-KOO",
+    "definition": "salah에서 예배자가 허리를 굽히고 무릎에 손을 얹는 자세입니다. 각 rak'ah의 주요 물리적 기둥 중 하나입니다.",
+    "seeAlso": ["salah", "rakah", "sajdah"]
+  },
+  {
+    "id": "sabr",
+    "term": "Sabr",
+    "arabicText": "صبر",
+    "transliteration": "SAB-r",
+    "definition": "인내, 인내, 그리고 Allah을 위한 꾸준한 자제력. 예배에 굳건히 임하고, 죄를 피하며, 고난을 잘 견뎌내는 것을 포함합니다.",
+    "seeAlso": ["shukr", "iman", "akhlaq"]
+  },
+  {
     "id": "sadaqah",
     "term": "Sadaqah",
     "arabicText": "صدقة",
     "transliteration": "SA-da-qah",
     "definition": "자발적인 자선이나 친절과 연민으로 이루어진 선행. 자카트와 달리 사다카는 의무사항이 아니며 미소 짓기, 이웃 돕기, 음식 나누기처럼 간단할 수 있습니다. 모든 선한 행위가 중요합니다.",
     "seeAlso": ["zakat"]
+  },
+  {
+    "id": "sajdah",
+    "term": "Sajdah",
+    "arabicText": "سجدة",
+    "transliteration": "SAJ-dah",
+    "definition": "이마, 코, 손, 무릎, 발가락이 땅에 닿을 때 기도 중에 절하는 모습입니다. 그것은 하인으로서 Allah에게 가장 가까운 순간 중 하나다.",
+    "seeAlso": ["salah", "rakah", "ruku"]
+  },
+  {
+    "id": "salaf",
+    "term": "Salaf",
+    "arabicText": "سلف",
+    "transliteration": "SA-laf",
+    "definition": "무슬림 초기의 의로운 세대, 특히 예언자의 동료들, 그들의 제자들, 그리고 그 다음 세대. 그들은 종종 이해와 실천의 중요한 본보기로 간주된다.",
+    "seeAlso": ["sunnah", "hadith"]
   },
   {
     "id": "salah",
@@ -272,6 +672,46 @@
     "seeAlso": ["islam", "muslim", "iman", "allah"]
   },
   {
+    "id": "sharia",
+    "term": "Sharia",
+    "arabicText": "شريعة",
+    "transliteration": "sha-REE-ah",
+    "definition": "Quran와 Sunnah에서 도출된 Islam의 신성한 도덕 및 법적 지도. 예배, 윤리, 가정 생활, 재정, 정의 등 다양한 영역을 다룬다.",
+    "seeAlso": ["maqasid", "fatwa", "halal"]
+  },
+  {
+    "id": "shirk",
+    "term": "Shirk",
+    "arabicText": "شرك",
+    "transliteration": "SHIRK",
+    "definition": "예배, 주권, 혹은 Allah의 고유 속성에 있어 Allah와 동등한 존재를 연관시키는 것. 사람이 회개하지 않고 죽으면 가장 무거운 죄로 여겨진다.",
+    "seeAlso": ["tawhid", "aqeedah", "allah"]
+  },
+  {
+    "id": "shukr",
+    "term": "Shukr",
+    "arabicText": "شكر",
+    "transliteration": "SHOOK-r",
+    "definition": "Allah의 축복에 대한 감사와 인식. 진정한 shukr는 마음속으로 감사함을 느끼고, 이를 말하며, 축복을 잘 사용하는 것을 포함한다.",
+    "seeAlso": ["sabr", "barakah", "allah"]
+  },
+  {
+    "id": "sirah",
+    "term": "Sirah",
+    "arabicText": "سيرة",
+    "transliteration": "SEE-rah",
+    "definition": "예언자 무함마드의 전기와 생애 이야기. sirah를 공부하면 무슬림이 Quran와 예언자의 성격을 이해하는 데 도움이 된다.",
+    "seeAlso": ["hadith", "sunnah", "quran"]
+  },
+  {
+    "id": "suhoor",
+    "term": "Suhoor",
+    "arabicText": "سحور",
+    "transliteration": "su-HOOR",
+    "definition": "단식이 시작되기 전에 먹는 새벽 식사. 권장되며 단식하는 날의 힘을 제공하는 데 도움을 준다.",
+    "seeAlso": ["sawm", "ramadan", "iftar"]
+  },
+  {
     "id": "sunnah",
     "term": "Sunnah",
     "arabicText": "سنة",
@@ -296,12 +736,44 @@
     "seeAlso": ["quran", "ayah", "surah"]
   },
   {
+    "id": "taharah",
+    "term": "Taharah",
+    "arabicText": "طهارة",
+    "transliteration": "ta-HAA-rah",
+    "definition": "예배를 위해 필요하거나 권장되는 의식적 정결과 청결. wudu, ghusl를 통한 정화, 몸, 의복 및 장소를 깨끗이 유지하는 것을 포함한다.",
+    "seeAlso": ["wudu", "ghusl", "salah"]
+  },
+  {
     "id": "tajweed",
     "term": "Tajweed",
     "arabicText": "تجويد",
     "transliteration": "taj-WEED",
     "definition": "낭송하는 동안 꾸란의 문자와 단어를 정확하게 발음하기 위한 일련의 규칙입니다. 타즈위드를 배우는 것은 점진적인 과정이며, 많은 이슬람교도들은 시간이 지남에 따라 그것을 공부합니다. 처음부터 완벽함을 걱정하지 마세요.",
     "seeAlso": ["quran", "surah"]
+  },
+  {
+    "id": "takbir",
+    "term": "Takbir",
+    "arabicText": "تكبير",
+    "transliteration": "tak-BEER",
+    "definition": "'Allahu Akbar'(‘Allah는 가장 위대하다’)라고 말하는 것. 기도와 많은 다른 예배 행위 전반에 나타난다.",
+    "seeAlso": ["salah", "eid"]
+  },
+  {
+    "id": "taqwa",
+    "term": "Taqwa",
+    "arabicText": "تقوى",
+    "transliteration": "taq-WAA",
+    "definition": "신을 의식하고 Allah를 마음에 두며 죄를 피하고 그분께 복종하게 하는 보호적 인식. Islam적 영적 삶의 중심 목표 중 하나이다.",
+    "seeAlso": ["iman", "sawm", "ihsan"]
+  },
+  {
+    "id": "tashahhud",
+    "term": "Tashahhud",
+    "arabicText": "تشهد",
+    "transliteration": "ta-shah-HUD",
+    "definition": "salah 동안 암송되는 앉은 자세의 증언. 인사말, 신앙의 증언, 예언자를 위한 기도를 포함한다.",
+    "seeAlso": ["salah", "rakah"]
   },
   {
     "id": "tawbah",
@@ -312,12 +784,44 @@
     "seeAlso": ["dua", "allah", "iman"]
   },
   {
+    "id": "tawhid",
+    "term": "Tawhid",
+    "arabicText": "توحيد",
+    "transliteration": "taw-HEED",
+    "definition": "Allah의 절대적 유일성과 그분만을 예배 대상으로 삼는 것. Islam적 신앙의 기초이다.",
+    "seeAlso": ["allah", "aqeedah", "shirk"]
+  },
+  {
+    "id": "ummah",
+    "term": "Ummah",
+    "arabicText": "أمة",
+    "transliteration": "UM-mah",
+    "definition": "신앙으로 단결된 전 세계 무슬림 공동체. 이 용어는 공동 책임, 소속, 형제애와 자매애를 강조한다.",
+    "seeAlso": ["muslim", "masjid", "jumuah"]
+  },
+  {
     "id": "umrah",
     "term": "Umrah",
     "arabicText": "عمرة",
     "transliteration": "UM-rah",
     "definition": "날짜가 정해져 있는 하지(Hajj)와 달리 연중 언제든지 수행할 수 있는 자발적인 메카 순례입니다. 이는 더 짧고 덜 정교한 순례지만 깊은 영적인 경험입니다.",
     "seeAlso": ["hajj", "masjid"]
+  },
+  {
+    "id": "wajib",
+    "term": "Wajib",
+    "arabicText": "واجب",
+    "transliteration": "WAA-jib",
+    "definition": "필수 행위, 특히 하나피 용어에서. 의무와 유사하지만 일부 학자들은 증거의 강도에서 fard와 구별한다.",
+    "seeAlso": ["fard", "salah"]
+  },
+  {
+    "id": "witr",
+    "term": "Witr",
+    "arabicText": "وتر",
+    "transliteration": "WIT-r",
+    "definition": "Isha 이후에 드리는 홀수 기도, 종종 밤을 마무리하는 기도로 수행됨. Islam적 실천에서 특히 강조되고 사랑받는다.",
+    "seeAlso": ["salah", "isha", "nafl"]
   },
   {
     "id": "wudu",
@@ -334,5 +838,13 @@
     "transliteration": "za-KAAT",
     "definition": "무슬림의 적격 부의 2.5%로 계산되는 의무적인 연간 자선 기부입니다. 이는 이슬람의 다섯 가지 기둥 중 하나이며, 도움이 필요한 사람들을 지원하면서 자신의 부를 정화하는 역할을 합니다. 이는 최소 자산 기준점을 충족한 경우에만 적용됩니다.",
     "seeAlso": ["sadaqah", "islam"]
+  },
+  {
+    "id": "zamzam",
+    "term": "Zamzam",
+    "arabicText": "زمزم",
+    "transliteration": "ZAM-zam",
+    "definition": "Ka'bah 근처 메카의 축복받은 우물 물. 무슬림은 감사와 종종 개인적 기도를 담아 이를 마신다.",
+    "seeAlso": ["hajj", "umrah", "kaabah"]
   }
 ]

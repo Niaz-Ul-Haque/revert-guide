@@ -1,5 +1,21 @@
 [
   {
+    "id": "adhan",
+    "term": "Adhan",
+    "arabicText": "أذان",
+    "transliteration": "ah-THAAN",
+    "definition": "祈祷召唤在每次规定的salah之前宣告。它提醒穆斯林祈祷时间已到，并邀请他们聚集进行崇拜。",
+    "seeAlso": ["salah", "muadhin", "masjid"]
+  },
+  {
+    "id": "akhlaq",
+    "term": "Akhlaq",
+    "arabicText": "أخلاق",
+    "transliteration": "akh-LAAQ",
+    "definition": "由Islam教义塑造的良好品行、礼仪和道德。它体现在诚实、耐心、仁慈、谦逊以及你如何对待他人。",
+    "seeAlso": ["ihsan", "sabr", "shukr"]
+  },
+  {
     "id": "allah",
     "term": "Allah",
     "arabicText": "الله",
@@ -8,12 +24,12 @@
     "seeAlso": ["islam", "iman", "aqeedah"]
   },
   {
-    "id": "aqeedah",
-    "term": "信条",
-    "arabicText": "عقيدة",
-    "transliteration": "ah-KEE-dah",
-    "definition": "伊斯兰教的核心信仰和信条，包括信仰独一的真主、天使、启示的经典、先知、审判日和神的旨意。可以将其视为穆斯林信仰的基础。",
-    "seeAlso": ["iman", "shahada", "allah"]
+    "id": "amanah",
+    "term": "Amanah",
+    "arabicText": "أمانة",
+    "transliteration": "ah-MAA-nah",
+    "definition": "可信赖并忠实履行被托付给你的事物，无论是财产、秘密、职责或责任。它也指在Allah面前的道德责任。",
+    "seeAlso": ["akhlaq", "iman"]
   },
   {
     "id": "asr",
@@ -24,12 +40,60 @@
     "seeAlso": ["salah", "fajr", "dhuhr", "maghrib", "isha"]
   },
   {
-    "id": "ayah",
-    "term": "阿亚",
-    "arabicText": "آية",
-    "transliteration": "AH-yah",
-    "definition": "Quran的一节经文。这个词字面意思是“标记”或“奇迹”。Quran由若干章节（苏拉）组成，每个章节包含若干节（阿亚）。",
-    "seeAlso": ["quran", "surah", "tafsir"]
+    "id": "awrah",
+    "term": "Awrah",
+    "arabicText": "عورة",
+    "transliteration": "AW-rah",
+    "definition": "根据Islam的谦逊指南需要在他人面前遮盖的身体部位。awrah的范围因情境和法律意见而异。",
+    "seeAlso": ["hijab", "taharah"]
+  },
+  {
+    "id": "barakah",
+    "term": "Barakah",
+    "arabicText": "بركة",
+    "transliteration": "ba-ra-kah",
+    "definition": "来自Allah的祝福或神圣增加。它意味着时间、财富、知识或努力变得比预期更有益。",
+    "seeAlso": ["allah", "shukr"]
+  },
+  {
+    "id": "bidah",
+    "term": "Bid'ah",
+    "arabicText": "بدعة",
+    "transliteration": "BID-ah",
+    "definition": "在崇拜或信仰中未经Quran或Sunnah根据而引入的宗教创新。穆斯林会谨慎使用该术语，因为并非所有新的世俗事物都是bid'ah。",
+    "seeAlso": ["sunnah", "hadith"]
+  },
+  {
+    "id": "burqa-niqab",
+    "term": "Burqa / Niqab",
+    "arabicText": "برقع / نقاب",
+    "transliteration": "BUR-qah / ni-QAAB",
+    "definition": "与一些穆斯林女性相关的面部遮盖服饰的术语。尼卡布通常遮盖面部但保留眼睛可见，而布尔卡是一种更全面的外部覆盖；对它们的看法因文化和学术意见而异。",
+    "seeAlso": ["hijab", "awrah"]
+  },
+  {
+    "id": "dawah",
+    "term": "Da'wah",
+    "arabicText": "دعوة",
+    "transliteration": "DA-wah",
+    "definition": "通过清晰讲解、良好礼仪和智慧行为邀请他人了解Islam。它不仅仅是公开传教；你的品格也可以成为da'wah的一部分。",
+    "seeAlso": ["islam", "akhlaq"]
+  },
+  {
+    "id": "dajjal",
+    "term": "Dajjal",
+    "arabicText": "الدجال",
+    "transliteration": "daj-JAAL",
+    "definition": "Islam教义中提到的末日大欺诈者，有时称为假弥赛亚。信徒被教育寻求Allah对他试炼的保护。",
+    "seeAlso": ["qiyam", "aqeedah"]
+  },
+  {
+    "id": "deen",
+    "term": "Deen",
+    "arabicText": "دين",
+    "transliteration": "DEEN",
+    "definition": "宗教、生活方式，以及完全遵守Allah的生活路径。穆斯林通常用它来表示Islam作为完整的生活方式，而不仅仅是一套仪式。",
+    "seeAlso": ["islam", "iman"]
   },
   {
     "id": "dhikr",
@@ -56,14 +120,6 @@
     "seeAlso": ["dhikr", "salah"]
   },
   {
-    "id": "eid",
-    "term": "开斋节",
-    "arabicText": "عيد",
-    "transliteration": "EED",
-    "definition": "庆祝活动或节日。穆斯林每年庆祝两个主要的开斋节：Eid al-Fitr（标志着Ramadan的结束）和宰牲节（在Hajj季节期间）。这些是充满祈祷、聚会和感恩的欢乐时光。",
-    "seeAlso": ["ramadan", "hajj", "salah"]
-  },
-  {
     "id": "fajr",
     "term": "Fajr",
     "arabicText": "الفجر",
@@ -72,12 +128,28 @@
     "seeAlso": ["salah", "dhuhr", "asr", "maghrib", "isha"]
   },
   {
-    "id": "fitrah",
-    "term": "本性",
-    "arabicText": "فطرة",
-    "transliteration": "FIT-rah",
-    "definition": "每个人出生时的自然、纯净状态，天生倾向于认识上帝。伊斯兰教教导，接受信仰是回归这种本初的本性，而不是外来的东西。",
-    "seeAlso": ["iman", "islam", "shahada"]
+    "id": "fard",
+    "term": "Fard",
+    "arabicText": "فرض",
+    "transliteration": "FARD",
+    "definition": "Islam中的义务行为。履行它会得到奖赏，无正当理由故意放弃则是有罪的。",
+    "seeAlso": ["salah", "wajib", "islam"]
+  },
+  {
+    "id": "fatwa",
+    "term": "Fatwa",
+    "arabicText": "فتوى",
+    "transliteration": "FAT-wah",
+    "definition": "合格学者针对问题所给出的非强制性Islam法律意见。fatwa解释了Islam教义如何适用于特定问题。",
+    "seeAlso": ["sharia", "imam", "ijma"]
+  },
+  {
+    "id": "fitnah",
+    "term": "Fitnah",
+    "arabicText": "فتنة",
+    "transliteration": "FIT-nah",
+    "definition": "考验、诱惑或磨难，用来测试一个人的信仰和品格。该词也可用来描述社会动乱或混乱。",
+    "seeAlso": ["sabr", "iman"]
   },
   {
     "id": "ghusl",
@@ -104,28 +176,76 @@
     "seeAlso": ["umrah", "islam", "masjid"]
   },
   {
-    "id": "halal",
-    "term": "清真",
-    "arabicText": "حلال",
-    "transliteration": "ha-LAAL",
-    "definition": "在伊斯兰教中允许或合法的任何事物。它最常用来描述符合伊斯兰饮食准则的食物，但也适用于生活的各个方面。如果某样东西是清真（halal）的，你可以自由享用它。",
-    "seeAlso": ["haram"]
+    "id": "haya",
+    "term": "Haya",
+    "arabicText": "حياء",
+    "transliteration": "ha-YAA",
+    "definition": "谦逊、害羞和高贵的羞耻感，使人远离错误行为。它影响穿着、言语、行为和内心态度。",
+    "seeAlso": ["hijab", "akhlaq"]
   },
   {
-    "id": "haram",
-    "term": "哈拉姆",
-    "arabicText": "حرام",
-    "transliteration": "ha-RAAM",
-    "definition": "伊斯兰教中禁止或不允许的任何事物，例如饮酒或吃猪肉。这些界限旨在保护你的健康。如果你不确定某件事是否是哈拉姆，随时询问和学习是可以的。",
-    "seeAlso": ["halal"]
+    "id": "hijrah",
+    "term": "Hijrah",
+    "arabicText": "هجرة",
+    "transliteration": "HIJ-rah",
+    "definition": "为信仰而迁移，特别是先知穆罕默德从麦加迁往麦地那。更广泛地说，它可以意味着为了保护或加强你的deen而离开有害情况。",
+    "seeAlso": ["muhajir", "deen"]
   },
   {
-    "id": "hijab",
-    "term": "头巾",
-    "arabicText": "حجاب",
-    "transliteration": "hih-JAAB",
-    "definition": "通常指许多穆斯林女性佩戴的头巾，作为谦逊和信仰的表现。更广泛地说，‘hijab’指的是男女在穿着和行为上的谦逊概念。",
-    "seeAlso": ["islam", "iman"]
+    "id": "ibadah",
+    "term": "Ibadah",
+    "arabicText": "عبادة",
+    "transliteration": "ih-BAA-dah",
+    "definition": "为Allah进行的崇拜和虔诚行为。这包括正式的仪式，如祈祷和禁食，以及日常善行，只要出自真诚的意图。",
+    "seeAlso": ["salah", "dua", "dhikr"]
+  },
+  {
+    "id": "iftar",
+    "term": "Iftar",
+    "arabicText": "إفطار",
+    "transliteration": "if-TAAR",
+    "definition": "禁食者在日落时结束禁食的餐食，无论是Ramadan的禁食还是其他禁食。它通常在Maghrib时间开始，常以椰枣和水开场。",
+    "seeAlso": ["sawm", "ramadan", "suhoor"]
+  },
+  {
+    "id": "ihram",
+    "term": "Ihram",
+    "arabicText": "إحرام",
+    "transliteration": "ih-HRAAM",
+    "definition": "朝圣者在Hajj或Umrah之前进入的神圣状态，以及伴随而来的特殊限制和意图。该词也常用于指这一状态下穿的简单服装。",
+    "seeAlso": ["hajj", "umrah", "kaabah"]
+  },
+  {
+    "id": "ihsan",
+    "term": "Ihsan",
+    "arabicText": "إحسان",
+    "transliteration": "ih-HSAAN",
+    "definition": "精神上的卓越：以深切的真诚和觉知崇拜Allah，好像你看见祂，并知道祂看见你。这也意味着在你所做的事情中追求美和卓越。",
+    "seeAlso": ["iman", "akhlaq", "ibadah"]
+  },
+  {
+    "id": "ijma",
+    "term": "Ijma'",
+    "arabicText": "إجماع",
+    "transliteration": "ij-MAA",
+    "definition": "关于Islam法律或信仰事项的学术共识。它是Islam法律推理中使用的重要原则之一。",
+    "seeAlso": ["ijtihad", "fatwa", "maqasid"]
+  },
+  {
+    "id": "ijtihad",
+    "term": "Ijtihad",
+    "arabicText": "اجتهاد",
+    "transliteration": "ij-ti-HAAD",
+    "definition": "由合格学者进行的细致独立推理，用于在某一事项未明确涉及时得出裁决。这需要对来源和法律方法有深入理解。",
+    "seeAlso": ["ijma", "fatwa", "sharia"]
+  },
+  {
+    "id": "ilm",
+    "term": "Ilm",
+    "arabicText": "علم",
+    "transliteration": "ILM",
+    "definition": "知识，特别是关于信仰和实践的有益知识。ilm的追求在Islam中被高度强调。",
+    "seeAlso": ["quran", "hadith", "tafsir"]
   },
   {
     "id": "imam",
@@ -136,28 +256,60 @@
     "seeAlso": ["masjid", "salah", "jumuah"]
   },
   {
-    "id": "iman",
-    "term": "伊曼",
-    "arabicText": "إيمان",
-    "transliteration": "ee-MAAN",
-    "definition": "信仰或信念。在伊斯兰教中，信仰（iman）包括相信Allah、祂的天使、祂的经典、祂的使者、审判日以及神的旨意。信仰的波动是正常的，培养信仰是一生的旅程。",
-    "seeAlso": ["islam", "aqeedah", "shahada"]
-  },
-  {
-    "id": "islam",
-    "term": "伊斯兰教",
-    "arabicText": "إسلام",
-    "transliteration": "is-LAAM",
-    "definition": "顺从与与上帝和平的宗教。这个词来源于阿拉伯语词根，意为“和平”和“顺从”。伊斯兰教教导只有一位上帝，穆罕默德是祂的最后一位使者。",
-    "seeAlso": ["muslim", "allah", "iman", "shahada"]
-  },
-  {
     "id": "isha",
     "term": "Isha",
     "arabicText": "العشاء",
     "transliteration": "ih-SHAA",
     "definition": "夜间祷告，是每天的第五次也是最后一次祷告。它在暮光消失后进行，可以在午夜之前或在Fajr祷告之前进行。",
     "seeAlso": ["salah", "fajr", "dhuhr", "asr", "maghrib"]
+  },
+  {
+    "id": "istikhara",
+    "term": "Istikhara",
+    "arabicText": "استخارة",
+    "transliteration": "is-ti-KHAA-rah",
+    "definition": "向Allah祈祷和恳求，在做决定时寻求指引。在选择允许的选项时进行，并信任Allah安排结果。",
+    "seeAlso": ["dua", "niyyah"]
+  },
+  {
+    "id": "jahannam",
+    "term": "Jahannam",
+    "arabicText": "جهنم",
+    "transliteration": "ja-HAN-nam",
+    "definition": "地狱，是来世中惩罚拒绝真理并持续作恶者的地方。穆斯林以此作为警示和责任提醒。",
+    "seeAlso": ["jannah", "iman"]
+  },
+  {
+    "id": "janazah",
+    "term": "Janazah",
+    "arabicText": "جنازة",
+    "transliteration": "ja-NAA-zah",
+    "definition": "为已故穆斯林举行的葬礼仪式，尤其是葬礼祈祷。它也更广泛地指亡者及埋葬过程。",
+    "seeAlso": ["jannah", "jahannam"]
+  },
+  {
+    "id": "jannah",
+    "term": "Jannah",
+    "arabicText": "جنة",
+    "transliteration": "JAN-nah",
+    "definition": "天堂，Allah应许义人的永恒奖赏。它被描述为一个和平、喜乐并接近Allah的地方。",
+    "seeAlso": ["jahannam", "iman", "qadr"]
+  },
+  {
+    "id": "jihad",
+    "term": "Jihad",
+    "arabicText": "جهاد",
+    "transliteration": "ji-HAAD",
+    "definition": "在Allah的道路上奋斗和努力。它可以指对抗罪恶与艰难的内心斗争，有时指受严格伦理规则限制的武装斗争。",
+    "seeAlso": ["sabr", "deen"]
+  },
+  {
+    "id": "jinn",
+    "term": "Jinn",
+    "arabicText": "جن",
+    "transliteration": "JINN",
+    "definition": "由无烟火创造的看不见的存在，像人类一样拥有自由意志。有些信仰，有些不信。",
+    "seeAlso": ["quran", "aqeedah"]
   },
   {
     "id": "jumuah",
@@ -168,12 +320,36 @@
     "seeAlso": ["salah", "masjid", "imam", "dhuhr"]
   },
   {
-    "id": "khutbah",
-    "term": "讲道",
-    "arabicText": "خطبة",
-    "transliteration": "KHUT-bah",
-    "definition": "由伊玛目在星期五祈祷前或开斋节祈祷期间讲的讲道。它通常涵盖伊斯兰教义、提醒和社区事务。鼓励在讲道期间安静聆听。",
-    "seeAlso": ["jumuah", "imam", "masjid"]
+    "id": "kaabah",
+    "term": "Ka'bah",
+    "arabicText": "الكعبة",
+    "transliteration": "KAH-bah",
+    "definition": "麦加的神圣立方体建筑，穆斯林祈祷时面向该方向。它是Islam崇拜的精神中心，也是Hajj和Umrah的焦点。",
+    "seeAlso": ["qiblah", "hajj", "umrah"]
+  },
+  {
+    "id": "kafir",
+    "term": "Kafir",
+    "arabicText": "كافر",
+    "transliteration": "KAA-fir",
+    "definition": "字面意思为“掩盖或拒绝真理的人”。在Islam中，它可以指不信或不信者，但应谨慎使用，不应作为随意辱骂。",
+    "seeAlso": ["iman", "islam"]
+  },
+  {
+    "id": "khalifah",
+    "term": "Khalifah",
+    "arabicText": "خليفة",
+    "transliteration": "kha-LEE-fah",
+    "definition": "管家、继承者或代表。该词可以指地球上的人类作为看护者，或指领导穆斯林社区的哈里发。",
+    "seeAlso": ["deen", "amanah"]
+  },
+  {
+    "id": "khushoo",
+    "term": "Khushoo'",
+    "arabicText": "خشوع",
+    "transliteration": "khu-SHOO",
+    "definition": "在祷告中保持谦虚的专注、平静和敬意。这是与Allah同在的内在状态，而不是机械地祈祷。",
+    "seeAlso": ["salah", "ihsan", "dhikr"]
   },
   {
     "id": "maghrib",
@@ -184,6 +360,30 @@
     "seeAlso": ["salah", "fajr", "dhuhr", "asr", "isha"]
   },
   {
+    "id": "mahr",
+    "term": "Mahr",
+    "arabicText": "مهر",
+    "transliteration": "MAHR",
+    "definition": "新郎作为婚姻合同的一部分赠送给新娘的婚礼礼物。这是她的权利，仅属于她本人。",
+    "seeAlso": ["nikah", "amanah"]
+  },
+  {
+    "id": "makruh",
+    "term": "Makruh",
+    "arabicText": "مكروه",
+    "transliteration": "mak-ROOH",
+    "definition": "在Islam中不受欢迎但并非严格禁止的行为。避免它可能获得奖赏，而单独做它通常不被视为罪。",
+    "seeAlso": ["halal", "haram", "mubah"]
+  },
+  {
+    "id": "maqasid",
+    "term": "Maqasid",
+    "arabicText": "مقاصد",
+    "transliteration": "ma-QAA-sid",
+    "definition": "Islam法律的更高目标和智慧，例如保护信仰、生命、智力、家庭和财产。这个概念帮助学者理解裁决背后的目的。",
+    "seeAlso": ["sharia", "ijtihad"]
+  },
+  {
     "id": "masjid",
     "term": "Masjid",
     "arabicText": "مسجد",
@@ -192,12 +392,60 @@
     "seeAlso": ["salah", "imam", "jumuah"]
   },
   {
-    "id": "muslim",
-    "term": "穆斯林",
-    "arabicText": "مسلم",
-    "transliteration": "MUS-lim",
-    "definition": "一个遵循伊斯兰教并顺从Allah旨意的人。这个词来源于与伊斯兰相同的词根，意思是通过顺从上帝而获得内心平静的人。欢迎加入我们的大家庭！",
-    "seeAlso": ["islam", "shahada", "iman"]
+    "id": "miswak",
+    "term": "Miswak",
+    "arabicText": "مسواك",
+    "transliteration": "MIS-waak",
+    "definition": "一种传统的天然牙齿清洁棒，用于口腔卫生。使用它通常与Sunnah相关。",
+    "seeAlso": ["sunnah", "taharah"]
+  },
+  {
+    "id": "muadhin",
+    "term": "Mu'adhin",
+    "arabicText": "مؤذن",
+    "transliteration": "mu-ADH-dhin",
+    "definition": "召唤adhan的人。在清真寺，mu'adhin向社区宣布祷告时间。",
+    "seeAlso": ["adhan", "masjid"]
+  },
+  {
+    "id": "mubah",
+    "term": "Mubah",
+    "arabicText": "مباح",
+    "transliteration": "moo-BAAH",
+    "definition": "在Islam中被允许且宗教上中立的事情。做或不做它本身不会带来罪或奖赏，除非意图改变行为。",
+    "seeAlso": ["halal", "makruh"]
+  },
+  {
+    "id": "muhajir",
+    "term": "Muhajir",
+    "arabicText": "مهاجر",
+    "transliteration": "mu-HAA-jir",
+    "definition": "为了Allah和信仰而迁徙的人。从历史上看，它通常指早期离开麦加前往麦地那的穆斯林。",
+    "seeAlso": ["hijrah", "deen"]
+  },
+  {
+    "id": "mustahabb",
+    "term": "Mustahabb",
+    "arabicText": "مستحب",
+    "transliteration": "mus-ta-HABB",
+    "definition": "在Islam中推荐且喜爱的行为，但不是义务。做它会带来奖赏，而放弃它不会带来罪。",
+    "seeAlso": ["nafl", "sunnah"]
+  },
+  {
+    "id": "nafl",
+    "term": "Nafl",
+    "arabicText": "نفل",
+    "transliteration": "NAF-l",
+    "definition": "超出规定的自愿敬拜行为。Nafl祈祷、禁食和慈善帮助个人更接近Allah。",
+    "seeAlso": ["sunnah", "witr", "salah"]
+  },
+  {
+    "id": "nikah",
+    "term": "Nikah",
+    "arabicText": "نكاح",
+    "transliteration": "ni-KAAH",
+    "definition": "Islam的婚姻合同。它使婚姻合法，并概述权利和责任。",
+    "seeAlso": ["mahr", "deen"]
   },
   {
     "id": "niyyah",
@@ -208,20 +456,36 @@
     "seeAlso": ["salah", "sawm", "wudu"]
   },
   {
+    "id": "qadr",
+    "term": "Qadr",
+    "arabicText": "قدر",
+    "transliteration": "QAD-r",
+    "definition": "神的旨意以及Allah对万事的完美知识和决定。信仰qadr包括相信Allah知道过去、现在和未来。",
+    "seeAlso": ["iman", "aqeedah"]
+  },
+  {
+    "id": "qiblah",
+    "term": "Qiblah",
+    "arabicText": "قبلة",
+    "transliteration": "QIB-lah",
+    "definition": "穆斯林祈祷时面向的方向，即麦加的Ka'bah。找到qiblah有助于确定祈祷、salah及埋葬等敬拜行为的方向。",
+    "seeAlso": ["kaabah", "salah"]
+  },
+  {
+    "id": "qiyam",
+    "term": "Qiyam",
+    "arabicText": "قيام",
+    "transliteration": "qi-YAAM",
+    "definition": "祷告时的站姿。也可指夜间祈祷，尤其是像Qiyam al-Layl这样的长时间站立敬拜。",
+    "seeAlso": ["salah", "witr", "ramadan"]
+  },
+  {
     "id": "quran",
     "term": "Quran",
     "arabicText": "القرآن",
     "transliteration": "qur-AAN",
     "definition": "伊斯兰教的圣书，被认为是上帝直接启示给先知穆罕默德（愿他安息）长达23年的话语。它是穆斯林的主要指导来源，并且传统上用阿拉伯语诵读。",
     "seeAlso": ["ayah", "surah", "tafsir", "tajweed", "hadith"]
-  },
-  {
-    "id": "rakah",
-    "term": "拜次",
-    "arabicText": "ركعة",
-    "transliteration": "RAK-ah",
-    "definition": "伊斯兰祷告的一个单独单位或周期，包括站立、鞠躬和下拜。每天五次祷告中的每一次都有固定的礼拜单位数。学习这些动作需要一些练习，这是完全正常的。",
-    "seeAlso": ["salah", "wudu"]
   },
   {
     "id": "ramadan",
@@ -232,12 +496,44 @@
     "seeAlso": ["sawm", "eid", "salah"]
   },
   {
-    "id": "sadaqah",
-    "term": "慈善捐赠",
-    "arabicText": "صدقة",
-    "transliteration": "SA-da-qah",
-    "definition": "自愿的慈善或出于善意和同情心所做的善行。与天课不同，施舍并非义务，可以简单到一个微笑、帮助邻居或分享食物。每一个善行都算数。",
-    "seeAlso": ["zakat"]
+    "id": "riba",
+    "term": "Riba",
+    "arabicText": "ربا",
+    "transliteration": "ri-BAA",
+    "definition": "高利贷或基于利息的收益，在某些金融交易中Islam法律禁止。穆斯林通常用该术语指违反Islam伦理的剥削性或带利息的交易。",
+    "seeAlso": ["halal", "haram", "zakat"]
+  },
+  {
+    "id": "ruku",
+    "term": "Ruku'",
+    "arabicText": "ركوع",
+    "transliteration": "roo-KOO",
+    "definition": "salah中的鞠躬姿势，即敬拜者腰部弯曲，双手放在膝盖上。它是每次rak'ah的主要身体支柱之一。",
+    "seeAlso": ["salah", "rakah", "sajdah"]
+  },
+  {
+    "id": "sabr",
+    "term": "Sabr",
+    "arabicText": "صبر",
+    "transliteration": "SAB-r",
+    "definition": "为了Allah而表现出的耐心、毅力和稳定的自我控制。这包括坚持敬拜、避免犯罪和良好地忍受困难。",
+    "seeAlso": ["shukr", "iman", "akhlaq"]
+  },
+  {
+    "id": "sajdah",
+    "term": "Sajdah",
+    "arabicText": "سجدة",
+    "transliteration": "SAJ-dah",
+    "definition": "祷告时的俯伏，额头、鼻子、双手、膝盖和脚趾触地。这是仆人与Allah最接近的时刻之一。",
+    "seeAlso": ["salah", "rakah", "ruku"]
+  },
+  {
+    "id": "salaf",
+    "term": "Salaf",
+    "arabicText": "سلف",
+    "transliteration": "SA-laf",
+    "definition": "早期虔诚的穆斯林世代，尤其是先知的同伴、他们的学生以及随后的一代人。他们常被视为理解和实践的重要典范。",
+    "seeAlso": ["sunnah", "hadith"]
   },
   {
     "id": "salah",
@@ -248,28 +544,52 @@
     "seeAlso": ["wudu", "fajr", "dhuhr", "asr", "maghrib", "isha", "rakah"]
   },
   {
-    "id": "salam",
-    "term": "萨拉姆",
-    "arabicText": "سلام",
-    "transliteration": "sa-LAAM",
-    "definition": "和平。问候语“阿萨拉姆阿莱库姆”（As-salamu alaykum）意思是“愿平安降临你”，是穆斯林互相问候的标准方式。回答是“瓦阿莱库姆阿萨拉姆”（Wa alaykum as-salam，意思是“愿平安也降临你”）。这是一个热情而友好的传统。",
-    "seeAlso": ["islam", "muslim"]
-  },
-  {
-    "id": "sawm",
-    "term": "锯",
-    "arabicText": "صوم",
-    "transliteration": "SOWM",
-    "definition": "禁食，尤其是在Ramadan月份期间。穆斯林从黎明到日落会禁止饮食和其他身体需求。禁食是伊斯兰教五大支柱之一，是精神成长和自律的时期。",
-    "seeAlso": ["ramadan", "niyyah"]
-  },
-  {
     "id": "shahada",
     "term": "Shahada",
     "arabicText": "شهادة",
     "transliteration": "sha-HAA-dah",
     "definition": "信仰声明和伊斯兰教的第一根支柱：“我作证，除Allah外别无神明，穆罕默德是他的使者。” 真诚地说出Shahada是一个人进入伊斯兰教的方式。这是你旅程中最重要的一步。",
     "seeAlso": ["islam", "muslim", "iman", "allah"]
+  },
+  {
+    "id": "sharia",
+    "term": "Sharia",
+    "arabicText": "شريعة",
+    "transliteration": "sha-REE-ah",
+    "definition": "来源于《古兰经》和《圣训》的Islam的神圣道德与法律指引。它涵盖崇拜、伦理、家庭生活、金融、司法等方面。",
+    "seeAlso": ["maqasid", "fatwa", "halal"]
+  },
+  {
+    "id": "shirk",
+    "term": "Shirk",
+    "arabicText": "شرك",
+    "transliteration": "SHIRK",
+    "definition": "在崇拜、主权或祂的独特属性上与Allah合伙。若一个人在未悔改的情况下去世，被认为是最严重的罪。",
+    "seeAlso": ["tawhid", "aqeedah", "allah"]
+  },
+  {
+    "id": "shukr",
+    "term": "Shukr",
+    "arabicText": "شكر",
+    "transliteration": "SHOOK-r",
+    "definition": "对Allah的恩典表示感激和感谢。真正的shukr包括内心感恩、口头表达以及善用恩典。",
+    "seeAlso": ["sabr", "barakah", "allah"]
+  },
+  {
+    "id": "sirah",
+    "term": "Sirah",
+    "arabicText": "سيرة",
+    "transliteration": "SEE-rah",
+    "definition": "先知穆罕默德的传记和生平故事。研究sirah帮助穆斯林理解《古兰经》和先知的品格。",
+    "seeAlso": ["hadith", "sunnah", "quran"]
+  },
+  {
+    "id": "suhoor",
+    "term": "Suhoor",
+    "arabicText": "سحور",
+    "transliteration": "su-HOOR",
+    "definition": "在斋戒开始前食用的黎明前餐。它是推荐的，并有助于提供斋戒日的能量。",
+    "seeAlso": ["sawm", "ramadan", "iftar"]
   },
   {
     "id": "sunnah",
@@ -280,36 +600,52 @@
     "seeAlso": ["hadith", "quran"]
   },
   {
-    "id": "surah",
-    "term": "苏拉",
-    "arabicText": "سورة",
-    "transliteration": "SOO-rah",
-    "definition": "Quran 的一章。总共有 114 节，长度从几节经文到几页不等。许多新穆斯林从学习 Quran 末尾的较短章节开始，以用于他们的日常祈祷。",
-    "seeAlso": ["quran", "ayah", "tafsir"]
+    "id": "taharah",
+    "term": "Taharah",
+    "arabicText": "طهارة",
+    "transliteration": "ta-HAA-rah",
+    "definition": "崇拜所需或被鼓励的仪式清洁。包括通过wudu、ghusl的净化，以及保持身体、衣物和场所的清洁。",
+    "seeAlso": ["wudu", "ghusl", "salah"]
   },
   {
-    "id": "tafsir",
-    "term": "塔夫西尔",
-    "arabicText": "تفسير",
-    "transliteration": "taf-SEER",
-    "definition": "Quran 的学术解释与阐释。塔夫西尔帮助你理解每节经文的背景、含义和教训。将可靠的塔夫西尔与 Quran 一起阅读，可以使你的学习更加丰富。",
-    "seeAlso": ["quran", "ayah", "surah"]
+    "id": "takbir",
+    "term": "Takbir",
+    "arabicText": "تكبير",
+    "transliteration": "tak-BEER",
+    "definition": "说“Allahu Akbar”（“Allah是至大者”）。它出现在祷告及许多其他崇拜行为中。",
+    "seeAlso": ["salah", "eid"]
   },
   {
-    "id": "tajweed",
-    "term": "塔吉维德",
-    "arabicText": "تجويد",
-    "transliteration": "taj-WEED",
-    "definition": "在背诵Quran时正确发音字母和单词的一套规则。学习塔吉维德是一个渐进的过程，许多穆斯林会随着时间学习它。起初不必担心完美。",
-    "seeAlso": ["quran", "surah"]
+    "id": "taqwa",
+    "term": "Taqwa",
+    "arabicText": "تقوى",
+    "transliteration": "taq-WAA",
+    "definition": "对Allah的敬畏心、意识和保护性警觉，引导人服从祂并避免犯罪。它是Islam精神生活的核心目标之一。",
+    "seeAlso": ["iman", "sawm", "ihsan"]
   },
   {
-    "id": "tawbah",
-    "term": "悔改",
-    "arabicText": "توبة",
-    "transliteration": "TAW-bah",
-    "definition": "悔改，或者在犯错后真诚地回归Allah。伊斯兰教教导说，Allah 总是准备原谅。进行悔改(tawbah)仅意味着承认错误，感到真诚的悔恨，并打算不再重复错误。",
-    "seeAlso": ["dua", "allah", "iman"]
+    "id": "tashahhud",
+    "term": "Tashahhud",
+    "arabicText": "تشهد",
+    "transliteration": "ta-shah-HUD",
+    "definition": "在salah中诵读的坐姿见证。包括问候语、信仰见证以及对先知的祈祷。",
+    "seeAlso": ["salah", "rakah"]
+  },
+  {
+    "id": "tawhid",
+    "term": "Tawhid",
+    "arabicText": "توحيد",
+    "transliteration": "taw-HEED",
+    "definition": "Allah的绝对独一性，并单独崇拜祂。这是Islam信仰的基础。",
+    "seeAlso": ["allah", "aqeedah", "shirk"]
+  },
+  {
+    "id": "ummah",
+    "term": "Ummah",
+    "arabicText": "أمة",
+    "transliteration": "UM-mah",
+    "definition": "因信仰而团结的全球穆斯林群体。此术语强调共同责任、归属感以及兄弟姐妹般的情谊。",
+    "seeAlso": ["muslim", "masjid", "jumuah"]
   },
   {
     "id": "umrah",
@@ -318,6 +654,22 @@
     "transliteration": "UM-rah",
     "definition": "一次自愿前往 Makkah 的朝圣，可以在一年中的任何时间进行，不像 Hajj 有固定日期。它是一种较短且不那么复杂的朝圣，但却是一次深刻的精神体验。",
     "seeAlso": ["hajj", "masjid"]
+  },
+  {
+    "id": "wajib",
+    "term": "Wajib",
+    "arabicText": "واجب",
+    "transliteration": "WAA-jib",
+    "definition": "必行的行为，尤其在哈乃斐派术语中。它类似于义务，尽管一些学者区分其与fard在证据强度上的不同。",
+    "seeAlso": ["fard", "salah"]
+  },
+  {
+    "id": "witr",
+    "term": "Witr",
+    "arabicText": "وتر",
+    "transliteration": "WIT-r",
+    "definition": "在Isha之后进行的奇数礼拜，通常作为夜间的结束礼拜。在Islam实践中特别强调并受到喜爱。",
+    "seeAlso": ["salah", "isha", "nafl"]
   },
   {
     "id": "wudu",
@@ -334,5 +686,165 @@
     "transliteration": "za-KAAT",
     "definition": "强制性的年度慈善捐赠，按穆斯林符合条件的财富的2.5%计算。它是伊斯兰教五大支柱之一，旨在净化个人财富，同时帮助有需要的人。只有当达到最低财富门槛时才适用。",
     "seeAlso": ["sadaqah", "islam"]
+  },
+  {
+    "id": "zamzam",
+    "term": "Zamzam",
+    "arabicText": "زمزم",
+    "transliteration": "ZAM-zam",
+    "definition": "麦加Ka'bah附近的祝福水井水。穆斯林带着感恩饮用，常伴随个人祈求。",
+    "seeAlso": ["hajj", "umrah", "kaabah"]
+  },
+  {
+    "id": "islam",
+    "term": "伊斯兰教",
+    "arabicText": "إسلام",
+    "transliteration": "is-LAAM",
+    "definition": "顺从与与上帝和平的宗教。这个词来源于阿拉伯语词根，意为“和平”和“顺从”。伊斯兰教教导只有一位上帝，穆罕默德是祂的最后一位使者。",
+    "seeAlso": ["muslim", "allah", "iman", "shahada"]
+  },
+  {
+    "id": "iman",
+    "term": "伊曼",
+    "arabicText": "إيمان",
+    "transliteration": "ee-MAAN",
+    "definition": "信仰或信念。在伊斯兰教中，信仰（iman）包括相信Allah、祂的天使、祂的经典、祂的使者、审判日以及神的旨意。信仰的波动是正常的，培养信仰是一生的旅程。",
+    "seeAlso": ["islam", "aqeedah", "shahada"]
+  },
+  {
+    "id": "aqeedah",
+    "term": "信条",
+    "arabicText": "عقيدة",
+    "transliteration": "ah-KEE-dah",
+    "definition": "伊斯兰教的核心信仰和信条，包括信仰独一的真主、天使、启示的经典、先知、审判日和神的旨意。可以将其视为穆斯林信仰的基础。",
+    "seeAlso": ["iman", "shahada", "allah"]
+  },
+  {
+    "id": "haram",
+    "term": "哈拉姆",
+    "arabicText": "حرام",
+    "transliteration": "ha-RAAM",
+    "definition": "伊斯兰教中禁止或不允许的任何事物，例如饮酒或吃猪肉。这些界限旨在保护你的健康。如果你不确定某件事是否是哈拉姆，随时询问和学习是可以的。",
+    "seeAlso": ["halal"]
+  },
+  {
+    "id": "tajweed",
+    "term": "塔吉维德",
+    "arabicText": "تجويد",
+    "transliteration": "taj-WEED",
+    "definition": "在背诵Quran时正确发音字母和单词的一套规则。学习塔吉维德是一个渐进的过程，许多穆斯林会随着时间学习它。起初不必担心完美。",
+    "seeAlso": ["quran", "surah"]
+  },
+  {
+    "id": "tafsir",
+    "term": "塔夫西尔",
+    "arabicText": "تفسير",
+    "transliteration": "taf-SEER",
+    "definition": "Quran 的学术解释与阐释。塔夫西尔帮助你理解每节经文的背景、含义和教训。将可靠的塔夫西尔与 Quran 一起阅读，可以使你的学习更加丰富。",
+    "seeAlso": ["quran", "ayah", "surah"]
+  },
+  {
+    "id": "hijab",
+    "term": "头巾",
+    "arabicText": "حجاب",
+    "transliteration": "hih-JAAB",
+    "definition": "通常指许多穆斯林女性佩戴的头巾，作为谦逊和信仰的表现。更广泛地说，‘hijab’指的是男女在穿着和行为上的谦逊概念。",
+    "seeAlso": ["islam", "iman"]
+  },
+  {
+    "id": "eid",
+    "term": "开斋节",
+    "arabicText": "عيد",
+    "transliteration": "EED",
+    "definition": "庆祝活动或节日。穆斯林每年庆祝两个主要的开斋节：Eid al-Fitr（标志着Ramadan的结束）和宰牲节（在Hajj季节期间）。这些是充满祈祷、聚会和感恩的欢乐时光。",
+    "seeAlso": ["ramadan", "hajj", "salah"]
+  },
+  {
+    "id": "tawbah",
+    "term": "悔改",
+    "arabicText": "توبة",
+    "transliteration": "TAW-bah",
+    "definition": "悔改，或者在犯错后真诚地回归Allah。伊斯兰教教导说，Allah 总是准备原谅。进行悔改(tawbah)仅意味着承认错误，感到真诚的悔恨，并打算不再重复错误。",
+    "seeAlso": ["dua", "allah", "iman"]
+  },
+  {
+    "id": "sadaqah",
+    "term": "慈善捐赠",
+    "arabicText": "صدقة",
+    "transliteration": "SA-da-qah",
+    "definition": "自愿的慈善或出于善意和同情心所做的善行。与天课不同，施舍并非义务，可以简单到一个微笑、帮助邻居或分享食物。每一个善行都算数。",
+    "seeAlso": ["zakat"]
+  },
+  {
+    "id": "rakah",
+    "term": "拜次",
+    "arabicText": "ركعة",
+    "transliteration": "RAK-ah",
+    "definition": "伊斯兰祷告的一个单独单位或周期，包括站立、鞠躬和下拜。每天五次祷告中的每一次都有固定的礼拜单位数。学习这些动作需要一些练习，这是完全正常的。",
+    "seeAlso": ["salah", "wudu"]
+  },
+  {
+    "id": "fitrah",
+    "term": "本性",
+    "arabicText": "فطرة",
+    "transliteration": "FIT-rah",
+    "definition": "每个人出生时的自然、纯净状态，天生倾向于认识上帝。伊斯兰教教导，接受信仰是回归这种本初的本性，而不是外来的东西。",
+    "seeAlso": ["iman", "islam", "shahada"]
+  },
+  {
+    "id": "halal",
+    "term": "清真",
+    "arabicText": "حلال",
+    "transliteration": "ha-LAAL",
+    "definition": "在伊斯兰教中允许或合法的任何事物。它最常用来描述符合伊斯兰饮食准则的食物，但也适用于生活的各个方面。如果某样东西是清真（halal）的，你可以自由享用它。",
+    "seeAlso": ["haram"]
+  },
+  {
+    "id": "muslim",
+    "term": "穆斯林",
+    "arabicText": "مسلم",
+    "transliteration": "MUS-lim",
+    "definition": "一个遵循伊斯兰教并顺从Allah旨意的人。这个词来源于与伊斯兰相同的词根，意思是通过顺从上帝而获得内心平静的人。欢迎加入我们的大家庭！",
+    "seeAlso": ["islam", "shahada", "iman"]
+  },
+  {
+    "id": "surah",
+    "term": "苏拉",
+    "arabicText": "سورة",
+    "transliteration": "SOO-rah",
+    "definition": "Quran 的一章。总共有 114 节，长度从几节经文到几页不等。许多新穆斯林从学习 Quran 末尾的较短章节开始，以用于他们的日常祈祷。",
+    "seeAlso": ["quran", "ayah", "tafsir"]
+  },
+  {
+    "id": "salam",
+    "term": "萨拉姆",
+    "arabicText": "سلام",
+    "transliteration": "sa-LAAM",
+    "definition": "和平。问候语“阿萨拉姆阿莱库姆”（As-salamu alaykum）意思是“愿平安降临你”，是穆斯林互相问候的标准方式。回答是“瓦阿莱库姆阿萨拉姆”（Wa alaykum as-salam，意思是“愿平安也降临你”）。这是一个热情而友好的传统。",
+    "seeAlso": ["islam", "muslim"]
+  },
+  {
+    "id": "khutbah",
+    "term": "讲道",
+    "arabicText": "خطبة",
+    "transliteration": "KHUT-bah",
+    "definition": "由伊玛目在星期五祈祷前或开斋节祈祷期间讲的讲道。它通常涵盖伊斯兰教义、提醒和社区事务。鼓励在讲道期间安静聆听。",
+    "seeAlso": ["jumuah", "imam", "masjid"]
+  },
+  {
+    "id": "sawm",
+    "term": "锯",
+    "arabicText": "صوم",
+    "transliteration": "SOWM",
+    "definition": "禁食，尤其是在Ramadan月份期间。穆斯林从黎明到日落会禁止饮食和其他身体需求。禁食是伊斯兰教五大支柱之一，是精神成长和自律的时期。",
+    "seeAlso": ["ramadan", "niyyah"]
+  },
+  {
+    "id": "ayah",
+    "term": "阿亚",
+    "arabicText": "آية",
+    "transliteration": "AH-yah",
+    "definition": "Quran的一节经文。这个词字面意思是“标记”或“奇迹”。Quran由若干章节（苏拉）组成，每个章节包含若干节（阿亚）。",
+    "seeAlso": ["quran", "surah", "tafsir"]
   }
 ]

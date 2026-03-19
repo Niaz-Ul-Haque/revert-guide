@@ -1,11 +1,35 @@
 [
   {
+    "id": "adhan",
+    "term": "Adhan",
+    "arabicText": "أذان",
+    "transliteration": "ah-THAAN",
+    "definition": "Призыв к молитве объявлялся перед каждым обязательным salah. Она напоминает мусульманам, что наступило время молитвы, и приглашает их собраться для поклонения.",
+    "seeAlso": ["salah", "muadhin", "masjid"]
+  },
+  {
+    "id": "akhlaq",
+    "term": "Akhlaq",
+    "arabicText": "أخلاق",
+    "transliteration": "akh-LAAQ",
+    "definition": "Хороший характер, манеры и этика, сформированные учениями Islamic. Это проявляется в честности, терпении, милосердии, скромности и в том, как ты относишься к людям.",
+    "seeAlso": ["ihsan", "sabr", "shukr"]
+  },
+  {
     "id": "allah",
     "term": "Allah",
     "arabicText": "الله",
     "transliteration": "Allah",
     "definition": "Арабское слово, означающее Бог. Мусульмане используют это имя для обозначения единственного Творца и Хранителя всего сущего. Арабоговорящие христиане и иудеи также используют это слово для обозначения Бога.",
     "seeAlso": ["islam", "iman", "aqeedah"]
+  },
+  {
+    "id": "amanah",
+    "term": "Amanah",
+    "arabicText": "أمانة",
+    "transliteration": "ah-MAA-nah",
+    "definition": "Надёжность и верное выполнение того, что вам доверено — будь то имущество, секреты, обязанности или ответственность. Он также относится к моральной ответственности до Allah.",
+    "seeAlso": ["akhlaq", "iman"]
   },
   {
     "id": "aqeedah",
@@ -24,12 +48,68 @@
     "seeAlso": ["salah", "fajr", "dhuhr", "maghrib", "isha"]
   },
   {
+    "id": "awrah",
+    "term": "Awrah",
+    "arabicText": "عورة",
+    "transliteration": "AW-rah",
+    "definition": "Части тела, которые должны быть покрыты перед другими согласно рекомендациям по скромности Islamic. То, что считается awrah, зависит от контекста и юридического мнения.",
+    "seeAlso": ["hijab", "taharah"]
+  },
+  {
     "id": "ayah",
     "term": "Ayah",
     "arabicText": "آية",
     "transliteration": "AH-yah",
     "definition": "Аят (стих) Корана. Буквально слово означает «знамение» или «чудо». Коран состоит из сур (глав), и каждая сура содержит определённое количество аятов.",
     "seeAlso": ["quran", "surah", "tafsir"]
+  },
+  {
+    "id": "barakah",
+    "term": "Barakah",
+    "arabicText": "بركة",
+    "transliteration": "ba-ra-kah",
+    "definition": "Благословение или божественное увеличение Allah. Это ощущение, что время, богатство, знания или усилия становятся более полезными, чем ожидалось.",
+    "seeAlso": ["allah", "shukr"]
+  },
+  {
+    "id": "bidah",
+    "term": "Bid'ah",
+    "arabicText": "بدعة",
+    "transliteration": "BID-ah",
+    "definition": "Религиозное новшество, введённое в богослужение или веру без прочной основы в Quran или Sunnah. Мусульмане используют этот термин осторожно, потому что не всё новое мирское явление bid'ah.",
+    "seeAlso": ["sunnah", "hadith"]
+  },
+  {
+    "id": "burqa-niqab",
+    "term": "Burqa / Niqab",
+    "arabicText": "برقع / نقاب",
+    "transliteration": "BUR-qah / ni-QAAB",
+    "definition": "Термины для одежды, закрывающей лицо, ассоциируемые с некоторыми мусульманскими женщинами. Никаб обычно закрывает лицо, оставляя глаза видимыми, а бурка — более полное внешнее покрытие; Взгляды на них различаются в зависимости от культуры и мнения учёных.",
+    "seeAlso": ["hijab", "awrah"]
+  },
+  {
+    "id": "dawah",
+    "term": "Da'wah",
+    "arabicText": "دعوة",
+    "transliteration": "DA-wah",
+    "definition": "Приглашать других понять Islam через ясные объяснения, хорошие манеры и мудрое поведение. Это не только публичная проповедь; Ваш персонаж тоже может быть частью da'wah.",
+    "seeAlso": ["islam", "akhlaq"]
+  },
+  {
+    "id": "dajjal",
+    "term": "Dajjal",
+    "arabicText": "الدجال",
+    "transliteration": "daj-JAAL",
+    "definition": "Главный обманщик, о котором говорится в учениях Islamic о конце времен, иногда называемый ложным мессией. Верующих учат искать у Allah защиты от его суда.",
+    "seeAlso": ["qiyam", "aqeedah"]
+  },
+  {
+    "id": "deen",
+    "term": "Deen",
+    "arabicText": "دين",
+    "transliteration": "DEEN",
+    "definition": "Религия, образ жизни и полный путь жизни в послушании Allah. Мусульмане часто используют его как обозначение Islam как целостный образ жизни, а не просто набор ритуалов.",
+    "seeAlso": ["islam", "iman"]
   },
   {
     "id": "dhikr",
@@ -70,6 +150,30 @@
     "transliteration": "FAJ-r",
     "definition": "Рассветная молитва — первая из пяти ежедневных молитв. Совершается между первым светом зари и восходом солнца. Многие мусульмане считают эту раннюю молитву умиротворяющим началом дня.",
     "seeAlso": ["salah", "dhuhr", "asr", "maghrib", "isha"]
+  },
+  {
+    "id": "fard",
+    "term": "Fard",
+    "arabicText": "فرض",
+    "transliteration": "FARD",
+    "definition": "Обязательный акт в Islam. Делать это вознаграждается, а сознательно отказываться без оправдания — грех.",
+    "seeAlso": ["salah", "wajib", "islam"]
+  },
+  {
+    "id": "fatwa",
+    "term": "Fatwa",
+    "arabicText": "فتوى",
+    "transliteration": "FAT-wah",
+    "definition": "Необязательное юридическое заключение Islamic, данное квалифицированным ученым в ответ на вопрос. В fatwa объясняется, как учения Islamic могут применяться к конкретной проблеме.",
+    "seeAlso": ["sharia", "imam", "ijma"]
+  },
+  {
+    "id": "fitnah",
+    "term": "Fitnah",
+    "arabicText": "فتنة",
+    "transliteration": "FIT-nah",
+    "definition": "Испытание, искушение или испытание, которое испытывает веру и характер человека. Это слово также может описывать социальные потрясения или путаницу.",
+    "seeAlso": ["sabr", "iman"]
   },
   {
     "id": "fitrah",
@@ -120,12 +224,84 @@
     "seeAlso": ["halal"]
   },
   {
+    "id": "haya",
+    "term": "Haya",
+    "arabicText": "حياء",
+    "transliteration": "ha-YAA",
+    "definition": "Скромность, застенчивость и достойное чувство стыда, которое удерживает человека от ошибок. Она влияет на одежду, речь, поведение и внутреннее отношение.",
+    "seeAlso": ["hijab", "akhlaq"]
+  },
+  {
     "id": "hijab",
     "term": "Hijab",
     "arabicText": "حجاب",
     "transliteration": "hih-JAAB",
     "definition": "Обычно обозначает головной платок, который носят многие мусульманки как выражение скромности и веры. В более широком смысле хиджаб — это концепция скромности в одежде и поведении как для мужчин, так и для женщин.",
     "seeAlso": ["islam", "iman"]
+  },
+  {
+    "id": "hijrah",
+    "term": "Hijrah",
+    "arabicText": "هجرة",
+    "transliteration": "HIJ-rah",
+    "definition": "Миграция ради веры, особенно миграция пророка Мухаммеда из Мекки в Медину. В более широком смысле это может означать оставление вредных ситуаций позади ради защиты или укрепления deen.",
+    "seeAlso": ["muhajir", "deen"]
+  },
+  {
+    "id": "ibadah",
+    "term": "Ibadah",
+    "arabicText": "عبادة",
+    "transliteration": "ih-BAA-dah",
+    "definition": "Поклонение и действия преданности, совершённые для Allah. Включает в себя формальные ритуалы, такие как молитва и пост, а также повседневные добрые дела, совершённые с искренним намерением.",
+    "seeAlso": ["salah", "dua", "dhikr"]
+  },
+  {
+    "id": "iftar",
+    "term": "Iftar",
+    "arabicText": "إفطار",
+    "transliteration": "if-TAAR",
+    "definition": "Приём пищи, которым постящийся прерывает пост на закате в Ramadan или во время других постов. Традиционно открывается в Maghrib, часто финиками и водой.",
+    "seeAlso": ["sawm", "ramadan", "suhoor"]
+  },
+  {
+    "id": "ihram",
+    "term": "Ihram",
+    "arabicText": "إحرام",
+    "transliteration": "ih-HRAAM",
+    "definition": "Священное состояние, в которое вступает паломник перед Hajj или Umrah, вместе с особыми ограничениями и намерениями, которые с ним связаны. Этот термин также обычно используется для обозначения простых одеяний, носимых в этом состоянии.",
+    "seeAlso": ["hajj", "umrah", "kaabah"]
+  },
+  {
+    "id": "ihsan",
+    "term": "Ihsan",
+    "arabicText": "إحسان",
+    "transliteration": "ih-HSAAN",
+    "definition": "Духовное совершенство: поклонение Allah с глубокой искренностью и осознанностью, как если бы вы видели Его, и зная, что Он видит вас. Также означает стремление к красоте и совершенству в том, что вы делаете.",
+    "seeAlso": ["iman", "akhlaq", "ibadah"]
+  },
+  {
+    "id": "ijma",
+    "term": "Ijma'",
+    "arabicText": "إجماع",
+    "transliteration": "ij-MAA",
+    "definition": "Учёное согласие по вопросу Islamского права или веры. Это один из важных принципов, используемых в Islamском юридическом рассуждении.",
+    "seeAlso": ["ijtihad", "fatwa", "maqasid"]
+  },
+  {
+    "id": "ijtihad",
+    "term": "Ijtihad",
+    "arabicText": "اجتهاد",
+    "transliteration": "ij-ti-HAAD",
+    "definition": "Тщательное независимое рассуждение, используемое квалифицированными учёными для вынесения решений, когда вопрос явно не рассматривается. Требует глубокого знания источников и правовой методологии.",
+    "seeAlso": ["ijma", "fatwa", "sharia"]
+  },
+  {
+    "id": "ilm",
+    "term": "Ilm",
+    "arabicText": "علم",
+    "transliteration": "ILM",
+    "definition": "Знание, особенно полезное знание о вере и практике. Стремление к ilm высоко ценится в Islam.",
+    "seeAlso": ["quran", "hadith", "tafsir"]
   },
   {
     "id": "imam",
@@ -144,14 +320,6 @@
     "seeAlso": ["islam", "aqeedah", "shahada"]
   },
   {
-    "id": "islam",
-    "term": "Islam",
-    "arabicText": "إسلام",
-    "transliteration": "is-LAAM",
-    "definition": "Религия покорности и мира с Богом. Слово происходит от арабского корня со значением «мир» и «покорность». Ислам учит, что существует один Бог и что Muhammad — Его последний посланник.",
-    "seeAlso": ["muslim", "allah", "iman", "shahada"]
-  },
-  {
     "id": "isha",
     "term": "Isha",
     "arabicText": "العشاء",
@@ -160,12 +328,100 @@
     "seeAlso": ["salah", "fajr", "dhuhr", "asr", "maghrib"]
   },
   {
+    "id": "islam",
+    "term": "Islam",
+    "arabicText": "إسلام",
+    "transliteration": "is-LAAM",
+    "definition": "Религия покорности и мира с Богом. Слово происходит от арабского корня со значением «мир» и «покорность». Ислам учит, что существует один Бог и что Muhammad — Его последний посланник.",
+    "seeAlso": ["muslim", "allah", "iman", "shahada"]
+  },
+  {
+    "id": "istikhara",
+    "term": "Istikhara",
+    "arabicText": "استخارة",
+    "transliteration": "is-ti-KHAA-rah",
+    "definition": "Молитва и прошение к Allah о руководстве при принятии решения. Выполняется при выборе между разрешёнными вариантами и доверии Allah в исход дела.",
+    "seeAlso": ["dua", "niyyah"]
+  },
+  {
+    "id": "jahannam",
+    "term": "Jahannam",
+    "arabicText": "جهنم",
+    "transliteration": "ja-HAN-nam",
+    "definition": "Огненные мучения ада, место наказания в загробной жизни для тех, кто отвергает истину и упорно совершает тяжкие грехи. Мусульмане упоминают его как предупреждение и напоминание об ответственности.",
+    "seeAlso": ["jannah", "iman"]
+  },
+  {
+    "id": "janazah",
+    "term": "Janazah",
+    "arabicText": "جنازة",
+    "transliteration": "ja-NAA-zah",
+    "definition": "Похоронные обряды для умершего мусульманина, особенно молитва за покойного. Также в более широком смысле обозначает самого умершего и процесс похорон.",
+    "seeAlso": ["jannah", "jahannam"]
+  },
+  {
+    "id": "jannah",
+    "term": "Jannah",
+    "arabicText": "جنة",
+    "transliteration": "JAN-nah",
+    "definition": "Рай, вечная награда, которую Allah обещает праведным. Описывается как место мира, радости и близости к Allah.",
+    "seeAlso": ["jahannam", "iman", "qadr"]
+  },
+  {
+    "id": "jihad",
+    "term": "Jihad",
+    "arabicText": "جهاد",
+    "transliteration": "ji-HAAD",
+    "definition": "Стремление и борьба на пути Allah. Может означать внутреннюю борьбу против греха и трудностей и, в некоторых случаях, вооружённую борьбу, подчинённую строгим этическим правилам.",
+    "seeAlso": ["sabr", "deen"]
+  },
+  {
+    "id": "jinn",
+    "term": "Jinn",
+    "arabicText": "جن",
+    "transliteration": "JINN",
+    "definition": "Невидимые существа, созданные из огня без дыма, которые, как и люди, обладают свободной волей. Некоторые верующие, некоторые — нет.",
+    "seeAlso": ["quran", "aqeedah"]
+  },
+  {
     "id": "jumuah",
     "term": "Jumu'ah",
     "arabicText": "جمعة",
     "transliteration": "JOO-moo-ah",
     "definition": "Пятничная коллективная молитва, которая заменяет молитву Dhuhr по пятницам. Включает проповедь (хутбу) и является важным еженедельным собранием мусульманской общины. Посещение Jumu'ah — прекрасный способ наладить связь с другими мусульманами.",
     "seeAlso": ["salah", "masjid", "imam", "dhuhr"]
+  },
+  {
+    "id": "kaabah",
+    "term": "Ka'bah",
+    "arabicText": "الكعبة",
+    "transliteration": "KAH-bah",
+    "definition": "Священная кубическая структура в Мекке, в сторону которой мусульмане обращены в молитве. Это духовный центр Islamского поклонения и важная точка Hajj и Umrah.",
+    "seeAlso": ["qiblah", "hajj", "umrah"]
+  },
+  {
+    "id": "kafir",
+    "term": "Kafir",
+    "arabicText": "كافر",
+    "transliteration": "KAA-fir",
+    "definition": "Термин, который буквально означает «тот, кто скрывает или отвергает истину». В Islamском использовании может означать неверие или неверующего, но его следует использовать осторожно и не как разгульное оскорбление.",
+    "seeAlso": ["iman", "islam"]
+  },
+  {
+    "id": "khalifah",
+    "term": "Khalifah",
+    "arabicText": "خليفة",
+    "transliteration": "kha-LEE-fah",
+    "definition": "Попечитель, преемник или представитель. Термин может относиться к людям как хранителям на земле или к халифу, который возглавляет мусульманскую общину.",
+    "seeAlso": ["deen", "amanah"]
+  },
+  {
+    "id": "khushoo",
+    "term": "Khushoo'",
+    "arabicText": "خشوع",
+    "transliteration": "khu-SHOO",
+    "definition": "Смиренная концентрация, спокойствие и благоговение в молитве. Это внутреннее состояние присутствия с Allah, а не механической молитвы.",
+    "seeAlso": ["salah", "ihsan", "dhikr"]
   },
   {
     "id": "khutbah",
@@ -184,12 +440,68 @@
     "seeAlso": ["salah", "fajr", "dhuhr", "asr", "isha"]
   },
   {
+    "id": "mahr",
+    "term": "Mahr",
+    "arabicText": "مهر",
+    "transliteration": "MAHR",
+    "definition": "Свадебный подарок, который жених дарит невесте в рамках брачного контракта. Это её право и принадлежит только ей.",
+    "seeAlso": ["nikah", "amanah"]
+  },
+  {
+    "id": "makruh",
+    "term": "Makruh",
+    "arabicText": "مكروه",
+    "transliteration": "mak-ROOH",
+    "definition": "Действие, которое в Islam не нравится, но не строго запрещено. Избегание может быть вознаграждено, хотя само по себе это обычно не является грехом.",
+    "seeAlso": ["halal", "haram", "mubah"]
+  },
+  {
+    "id": "maqasid",
+    "term": "Maqasid",
+    "arabicText": "مقاصد",
+    "transliteration": "ma-QAA-sid",
+    "definition": "Высшие цели и мудрости закона Islamic, такие как защита веры, жизни, ума, семьи и имущества. Эта концепция помогает учёным понять цель решений.",
+    "seeAlso": ["sharia", "ijtihad"]
+  },
+  {
     "id": "masjid",
     "term": "Masjid",
     "arabicText": "مسجد",
     "transliteration": "MAS-jid",
     "definition": "Мечеть — место, где мусульмане собираются для молитвы и общественных мероприятий. Буквально слово означает «место поклона». Мечети — это гостеприимные пространства, и вы всегда можете их посетить.",
     "seeAlso": ["salah", "imam", "jumuah"]
+  },
+  {
+    "id": "miswak",
+    "term": "Miswak",
+    "arabicText": "مسواك",
+    "transliteration": "MIS-waak",
+    "definition": "Натуральная палочка для чистки зубов, традиционно используемая для гигиены полости рта. Его использование широко ассоциируется с Sunnah.",
+    "seeAlso": ["sunnah", "taharah"]
+  },
+  {
+    "id": "muadhin",
+    "term": "Mu'adhin",
+    "arabicText": "مؤذن",
+    "transliteration": "mu-ADH-dhin",
+    "definition": "Человек, который звонит в adhan. В мечети mu'adhin объявляет время молитвы общине.",
+    "seeAlso": ["adhan", "masjid"]
+  },
+  {
+    "id": "mubah",
+    "term": "Mubah",
+    "arabicText": "مباح",
+    "transliteration": "moo-BAAH",
+    "definition": "Что-то разрешённое и религиозно нейтральное в Islam. Делать это или уйти не приносит греха или награды само по себе, если только намерение не меняет поступок.",
+    "seeAlso": ["halal", "makruh"]
+  },
+  {
+    "id": "muhajir",
+    "term": "Muhajir",
+    "arabicText": "مهاجر",
+    "transliteration": "mu-HAA-jir",
+    "definition": "Тот, кто мигрирует ради Allah и веры. Исторически оно часто относится к ранним мусульманам, которые покинули Мекку в Медину.",
+    "seeAlso": ["hijrah", "deen"]
   },
   {
     "id": "muslim",
@@ -200,12 +512,60 @@
     "seeAlso": ["islam", "shahada", "iman"]
   },
   {
+    "id": "mustahabb",
+    "term": "Mustahabb",
+    "arabicText": "مستحب",
+    "transliteration": "mus-ta-HABB",
+    "definition": "Это поступок, который рекомендуется и любим в Islam, но не является обязательным. Делать это приносит награду, а уход — не приносит греха.",
+    "seeAlso": ["nafl", "sunnah"]
+  },
+  {
+    "id": "nafl",
+    "term": "Nafl",
+    "arabicText": "نفل",
+    "transliteration": "NAF-l",
+    "definition": "Добровольные акты поклонения, выходящие за рамки необходимого. Nafl молитвы, посты и благотворительность помогают человеку стать ближе к Allah.",
+    "seeAlso": ["sunnah", "witr", "salah"]
+  },
+  {
+    "id": "nikah",
+    "term": "Nikah",
+    "arabicText": "نكاح",
+    "transliteration": "ni-KAAH",
+    "definition": "Брачный контракт Islamic. Он делает брак законным и определяет права и обязанности.",
+    "seeAlso": ["mahr", "deen"]
+  },
+  {
     "id": "niyyah",
     "term": "Niyyah",
     "arabicText": "نية",
     "transliteration": "NIY-yah",
     "definition": "Намерение. В Исламе именно искренность намерения придаёт действиям их духовную ценность. Перед актами поклонения, такими как молитва или пост, вы формируете ният в своём сердце. Его не нужно произносить вслух.",
     "seeAlso": ["salah", "sawm", "wudu"]
+  },
+  {
+    "id": "qadr",
+    "term": "Qadr",
+    "arabicText": "قدر",
+    "transliteration": "QAD-r",
+    "definition": "Божественный указ и совершенное знание и решимость Allah во всём. Вера в qadr включает доверие к тому, что Allah знает, что было, есть и будет.",
+    "seeAlso": ["iman", "aqeedah"]
+  },
+  {
+    "id": "qiblah",
+    "term": "Qiblah",
+    "arabicText": "قبلة",
+    "transliteration": "QIB-lah",
+    "definition": "Направление, в котором мусульмане обращаются в молитве, к Ka'bah в Мекке. Поиск qiblah помогает ориентироваться в таких актах поклонения, как salah и захоронение.",
+    "seeAlso": ["kaabah", "salah"]
+  },
+  {
+    "id": "qiyam",
+    "term": "Qiyam",
+    "arabicText": "قيام",
+    "transliteration": "qi-YAAM",
+    "definition": "Стоя в молитве. Он также может относиться к ночной молитве, особенно к более длительной продолжительности богослужения, например, Qiyam аль-Лейль.",
+    "seeAlso": ["salah", "witr", "ramadan"]
   },
   {
     "id": "quran",
@@ -232,12 +592,52 @@
     "seeAlso": ["sawm", "eid", "salah"]
   },
   {
+    "id": "riba",
+    "term": "Riba",
+    "arabicText": "ربا",
+    "transliteration": "ri-BAA",
+    "definition": "Ростовщическая или процентная прибыль, которую закон Islamic запрещает в определённых финансовых операциях. Мусульмане обычно используют этот термин для обозначения эксплуататорских или выгодных дел, нарушающих этику Islamic.",
+    "seeAlso": ["halal", "haram", "zakat"]
+  },
+  {
+    "id": "ruku",
+    "term": "Ruku'",
+    "arabicText": "ركوع",
+    "transliteration": "roo-KOO",
+    "definition": "Поза поклона в salah, когда поклонник наклоняется в талии, положив руки на колени. Это один из основных физических столпов каждого rak'ah.",
+    "seeAlso": ["salah", "rakah", "sajdah"]
+  },
+  {
+    "id": "sabr",
+    "term": "Sabr",
+    "arabicText": "صبر",
+    "transliteration": "SAB-r",
+    "definition": "Терпение, настойчивость и твёрдое самообладание ради Allah. Это включает твёрдость в поклонении, избегание греха и достойное перенос трудностей.",
+    "seeAlso": ["shukr", "iman", "akhlaq"]
+  },
+  {
     "id": "sadaqah",
     "term": "Sadaqah",
     "arabicText": "صدقة",
     "transliteration": "SA-da-qah",
     "definition": "Добровольная благотворительность или доброе дело, совершённое из доброты и сострадания. В отличие от Zakat, садака не является обязательной и может быть такой простой, как улыбка, помощь соседу или раздача еды. Каждый добрый поступок засчитывается.",
     "seeAlso": ["zakat"]
+  },
+  {
+    "id": "sajdah",
+    "term": "Sajdah",
+    "arabicText": "سجدة",
+    "transliteration": "SAJ-dah",
+    "definition": "Поклонение в молитве, когда лоб, нос, руки, колени и пальцы ног касаются земли. Это один из самых близких моментов слуги к Allah.",
+    "seeAlso": ["salah", "rakah", "ruku"]
+  },
+  {
+    "id": "salaf",
+    "term": "Salaf",
+    "arabicText": "سلف",
+    "transliteration": "SA-laf",
+    "definition": "Ранние праведные поколения мусульман, особенно сподвижники Пророка, их ученики и поколение после них. Их часто рассматривают как важные примеры понимания и практики.",
+    "seeAlso": ["sunnah", "hadith"]
   },
   {
     "id": "salah",
@@ -272,6 +672,46 @@
     "seeAlso": ["islam", "muslim", "iman", "allah"]
   },
   {
+    "id": "sharia",
+    "term": "Sharia",
+    "arabicText": "شريعة",
+    "transliteration": "sha-REE-ah",
+    "definition": "Божественное нравственное и правовое руководство Islam, основанное на Quran и Sunnah. Оно охватывает поклонение, этику, семейную жизнь, финансы, справедливость и многое другое.",
+    "seeAlso": ["maqasid", "fatwa", "halal"]
+  },
+  {
+    "id": "shirk",
+    "term": "Shirk",
+    "arabicText": "شرك",
+    "transliteration": "SHIRK",
+    "definition": "Сопряжение с Allah партнеров в поклонении, господстве или Его уникальных качествах. Считается самым тяжким грехом, если человек умирает, не раскаявшись в этом.",
+    "seeAlso": ["tawhid", "aqeedah", "allah"]
+  },
+  {
+    "id": "shukr",
+    "term": "Shukr",
+    "arabicText": "شكر",
+    "transliteration": "SHOOK-r",
+    "definition": "Благодарность и признание благословений Allah. Истинное shukr включает в себя чувство благодарности в сердце, выражение её словами и правильное использование благословений.",
+    "seeAlso": ["sabr", "barakah", "allah"]
+  },
+  {
+    "id": "sirah",
+    "term": "Sirah",
+    "arabicText": "سيرة",
+    "transliteration": "SEE-rah",
+    "definition": "Биография и жизненная история Пророка Мухаммада. Изучение sirah помогает мусульманам понять Quran и характер Пророка.",
+    "seeAlso": ["hadith", "sunnah", "quran"]
+  },
+  {
+    "id": "suhoor",
+    "term": "Suhoor",
+    "arabicText": "سحور",
+    "transliteration": "su-HOOR",
+    "definition": "Предрассветная трапеза, съедаемая перед началом поста. Рекомендуется и помогает обеспечить силы на день поста.",
+    "seeAlso": ["sawm", "ramadan", "iftar"]
+  },
+  {
     "id": "sunnah",
     "term": "Sunnah",
     "arabicText": "سنة",
@@ -296,12 +736,44 @@
     "seeAlso": ["quran", "ayah", "surah"]
   },
   {
+    "id": "taharah",
+    "term": "Taharah",
+    "arabicText": "طهارة",
+    "transliteration": "ta-HAA-rah",
+    "definition": "Ритуальная чистота и чистоплотность, необходимые или поощряемые для поклонения. Включает очищение через wudu, ghusl, а также поддержание чистоты тела, одежды и места.",
+    "seeAlso": ["wudu", "ghusl", "salah"]
+  },
+  {
     "id": "tajweed",
     "term": "Tajweed",
     "arabicText": "تجويد",
     "transliteration": "taj-WEED",
     "definition": "Свод правил правильного произношения букв и слов Корана при чтении. Изучение таджвида — постепенный процесс, и многие мусульмане осваивают его со временем. Не стремитесь к совершенству в самом начале.",
     "seeAlso": ["quran", "surah"]
+  },
+  {
+    "id": "takbir",
+    "term": "Takbir",
+    "arabicText": "تكبير",
+    "transliteration": "tak-BEER",
+    "definition": "Произнесение 'Allahu Akbar' ('Allah Велик'). Эта фраза встречается в молитве и многих других актах поклонения.",
+    "seeAlso": ["salah", "eid"]
+  },
+  {
+    "id": "taqwa",
+    "term": "Taqwa",
+    "arabicText": "تقوى",
+    "transliteration": "taq-WAA",
+    "definition": "Богобоязненность, осознанность Allah и защитная внимательность, которая приводит человека к повиновению Ему и избеганию греха. Это одна из центральных целей духовной жизни Islam.",
+    "seeAlso": ["iman", "sawm", "ihsan"]
+  },
+  {
+    "id": "tashahhud",
+    "term": "Tashahhud",
+    "arabicText": "تشهد",
+    "transliteration": "ta-shah-HUD",
+    "definition": "Сидящее свидетельство, которое произносится во время salah. Включает слова приветствия, свидетельства веры и молитвы на Пророка.",
+    "seeAlso": ["salah", "rakah"]
   },
   {
     "id": "tawbah",
@@ -312,12 +784,44 @@
     "seeAlso": ["dua", "allah", "iman"]
   },
   {
+    "id": "tawhid",
+    "term": "Tawhid",
+    "arabicText": "توحيد",
+    "transliteration": "taw-HEED",
+    "definition": "Абсолютная единственность Allah и поклонение только Ему одному. Это основа веры Islam.",
+    "seeAlso": ["allah", "aqeedah", "shirk"]
+  },
+  {
+    "id": "ummah",
+    "term": "Ummah",
+    "arabicText": "أمة",
+    "transliteration": "UM-mah",
+    "definition": "Всемирная мусульманская община, объединённая верой. Термин подчёркивает общую ответственность, принадлежность, братство и сестринство.",
+    "seeAlso": ["muslim", "masjid", "jumuah"]
+  },
+  {
     "id": "umrah",
     "term": "Umrah",
     "arabicText": "عمرة",
     "transliteration": "UM-rah",
     "definition": "Добровольное паломничество в Мекку, которое можно совершить в любое время года, в отличие от Hajj, имеющего фиксированные даты. Это более короткое и менее масштабное паломничество, но глубоко духовный опыт.",
     "seeAlso": ["hajj", "masjid"]
+  },
+  {
+    "id": "wajib",
+    "term": "Wajib",
+    "arabicText": "واجب",
+    "transliteration": "WAA-jib",
+    "definition": "Обязательное действие, особенно в ханафитской терминологии. Похоже на обязанность, хотя некоторые учёные различают его и fard по силе доказательств.",
+    "seeAlso": ["fard", "salah"]
+  },
+  {
+    "id": "witr",
+    "term": "Witr",
+    "arabicText": "وتر",
+    "transliteration": "WIT-r",
+    "definition": "Нечетное число молитв, совершаемых после Isha, часто как заключительная молитва ночи. Особо подчёркивается и любима в практике Islam.",
+    "seeAlso": ["salah", "isha", "nafl"]
   },
   {
     "id": "wudu",
@@ -334,5 +838,13 @@
     "transliteration": "za-KAAT",
     "definition": "Обязательная ежегодная благотворительная выплата в размере 2,5% от имущества мусульманина, соответствующего определённым критериям. Является одним из пяти столпов Ислама и служит для очищения богатства и помощи нуждающимся. Применяется только после достижения минимального порога имущества.",
     "seeAlso": ["sadaqah", "islam"]
+  },
+  {
+    "id": "zamzam",
+    "term": "Zamzam",
+    "arabicText": "زمزم",
+    "transliteration": "ZAM-zam",
+    "definition": "Благословенная колодезная вода в Мекке рядом с Ka'bah. Мусульмане пьют её с благодарностью и часто с личной молитвой.",
+    "seeAlso": ["hajj", "umrah", "kaabah"]
   }
 ]

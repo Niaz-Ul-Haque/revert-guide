@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useRef, useState, useCallback } from "react";
 
 interface AnimateInProps {
   children: React.ReactNode;
@@ -8,6 +8,30 @@ interface AnimateInProps {
   delay?: number;
   animation?: "fade-up" | "fade-in" | "scale-in" | "slide-in-right";
   threshold?: number;
+}
+
+/*
+ * Global animation queue: when multiple elements enter the viewport in rapid
+ * succession (e.g. during a scroll), we stagger them so they animate one after
+ * another instead of all at once. Each new element gets a small additive delay
+ * that resets after a short idle period.
+ */
+let queuedDelay = 0;
+let resetTimer: ReturnType<typeof setTimeout> | null = null;
+const STAGGER_INCREMENT = 0.12; // seconds between each element's animation start
+const RESET_AFTER = 600; // ms of no new triggers before resetting the queue
+
+function getStaggerDelay(): number {
+  const current = queuedDelay;
+  queuedDelay += STAGGER_INCREMENT;
+
+  // Reset the queue after a pause in new triggers
+  if (resetTimer) clearTimeout(resetTimer);
+  resetTimer = setTimeout(() => {
+    queuedDelay = 0;
+  }, RESET_AFTER);
+
+  return current;
 }
 
 export function AnimateIn({
@@ -19,6 +43,13 @@ export function AnimateIn({
 }: AnimateInProps) {
   const ref = useRef<HTMLDivElement>(null);
   const [isVisible, setIsVisible] = useState(false);
+  const [computedDelay, setComputedDelay] = useState(0);
+
+  const triggerAnimation = useCallback(() => {
+    const stagger = getStaggerDelay();
+    setComputedDelay(delay + stagger);
+    setIsVisible(true);
+  }, [delay]);
 
   useEffect(() => {
     const el = ref.current;
@@ -36,16 +67,16 @@ export function AnimateIn({
     const observer = new IntersectionObserver(
       ([entry]) => {
         if (entry.isIntersecting) {
-          setIsVisible(true);
+          triggerAnimation();
           observer.unobserve(el);
         }
       },
-      { threshold, rootMargin: "0px 0px -40px 0px" },
+      { threshold, rootMargin: "0px 0px -60px 0px" },
     );
 
     observer.observe(el);
     return () => observer.disconnect();
-  }, [threshold]);
+  }, [threshold, triggerAnimation]);
 
   const animationMap = {
     "fade-up": "animate-fade-up",
@@ -61,7 +92,13 @@ export function AnimateIn({
         isVisible ? animationMap[animation] : "opacity-0"
       }`}
       style={
-        isVisible && delay > 0 ? { animationDelay: `${delay}s` } : undefined
+        isVisible
+          ? {
+              animationDelay: `${computedDelay}s`,
+              // Keep element invisible until its animation actually starts
+              animationFillMode: "both",
+            }
+          : undefined
       }
     >
       {children}
