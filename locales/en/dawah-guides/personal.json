@@ -1,0 +1,845 @@
+{
+  "id": "personal",
+  "slug": "dawah-guide-personal",
+  "title": "Dawah Guide",
+  "subtitle": "A gentle, step-by-step companion for sharing Islam with wisdom and kindness.",
+  "audienceNote": "This is a private, direct-link guide for da'ees (those inviting to Islam). It is a field companion, not a script. Real conversations are not linear — listen first, move at the other person's pace, and leave the result to Allah.",
+  "tonePrinciples": [
+    "Invite with wisdom and good manners, never pressure.",
+    "Listen more than you speak. Ask one question at a time.",
+    "Never mock another person's beliefs or background.",
+    "Avoid debate for the sake of winning. Aim for understanding.",
+    "Keep the door open even if the conversation ends without Shahada.",
+    "Make sincere dua privately and leave the outcome to Allah."
+  ],
+  "startNodeId": "start",
+  "nodeOrder": [
+    "start",
+    "believe-in-god-initial",
+    "signs-creation-infinite-regress",
+    "believe-in-god-after-signs",
+    "tawheed-surah-ikhlas",
+    "one-god-initial",
+    "ayat-ikhtilaf",
+    "one-god-after-ikhtilaf",
+    "justice-day-judgment-test-revelation",
+    "angels",
+    "messengers-prophets",
+    "jesus-peace-be-upon-him",
+    "shahada-readiness-initial",
+    "encourage-keep-door-open",
+    "shahada-readiness-after-encouragement",
+    "connect-guidance-community",
+    "respectful-exit-best-of-luck"
+  ],
+  "nodes": {
+    "start": {
+      "id": "start",
+      "kind": "intro",
+      "title": "Start the conversation",
+      "eyebrow": "Islam / Muslim",
+      "summary": "Begin warmly and naturally. Build a genuine connection before discussing belief.",
+      "explanation": [
+        "There is no perfect opening line. A sincere smile, a kind word, and real interest in the person matter more than any technique.",
+        "Let the conversation flow. You are not delivering a lecture — you are having a human conversation that may, gently, turn toward the purpose of life and our relationship with our Creator."
+      ],
+      "conversationTips": [
+        "Make dua before you begin and ask Allah to soften both hearts.",
+        "Ask open questions and genuinely listen to the answers.",
+        "Find common ground first — most people care about truth, justice, and meaning."
+      ],
+      "referenceIds": ["quran-16-125"],
+      "nextNodeId": "believe-in-god-initial"
+    },
+    "believe-in-god-initial": {
+      "id": "believe-in-god-initial",
+      "kind": "decision",
+      "title": "Do they believe in God?",
+      "summary": "Gently understand where the person stands. There is no right or wrong answer here — just a starting point.",
+      "conversationTips": [
+        "Ask without judgment: \"Do you believe in a Creator?\" and let them explain in their own words.",
+        "If they are unsure, that is completely fine — meet them where they are."
+      ],
+      "options": [
+        {
+          "id": "yes",
+          "label": "Yes, they believe in God",
+          "helperText": "Move toward understanding the Oneness of God.",
+          "nextNodeId": "tawheed-surah-ikhlas",
+          "ariaLabel": "Yes, they believe in God — continue to Tawheed"
+        },
+        {
+          "id": "no",
+          "label": "No, or they are unsure",
+          "helperText": "Gently explore the signs of creation together.",
+          "nextNodeId": "signs-creation-infinite-regress",
+          "ariaLabel": "No or unsure — explore the signs of creation"
+        }
+      ]
+    },
+    "signs-creation-infinite-regress": {
+      "id": "signs-creation-infinite-regress",
+      "kind": "teaching",
+      "title": "The signs of creation",
+      "eyebrow": "Ayat / Design / Creation",
+      "summary": "Invite them to reflect on the order, design, and existence of the universe — without forcing a conclusion.",
+      "explanation": [
+        "Everything we see has a beginning and a cause. Reflecting on creation invites a simple question: did all of this come from nothing, or does it point to a Creator?",
+        "Share these reflections humbly, as wonder rather than as a debate to be won. The goal is to open a door to thought, not to corner anyone."
+      ],
+      "conversationTips": [
+        "Invite reflection: \"Have you ever wondered where everything ultimately came from?\"",
+        "Use everyday examples of design and order rather than complex philosophy.",
+        "Stay calm and curious. Avoid turning it into an argument."
+      ],
+      "avoid": [
+        "Overconfident philosophical claims you cannot explain.",
+        "Talking down to the person or implying they are foolish."
+      ],
+      "referenceIds": ["quran-52-35"],
+      "nextNodeId": "believe-in-god-after-signs"
+    },
+    "believe-in-god-after-signs": {
+      "id": "believe-in-god-after-signs",
+      "kind": "decision",
+      "title": "After reflecting, do they believe in God?",
+      "summary": "Check in gently. Belief is between them and Allah — your role is only to invite.",
+      "options": [
+        {
+          "id": "yes",
+          "label": "Yes, they now believe",
+          "helperText": "Move toward the Oneness of God.",
+          "nextNodeId": "tawheed-surah-ikhlas",
+          "ariaLabel": "Yes, they now believe — continue to Tawheed"
+        },
+        {
+          "id": "no",
+          "label": "No, not yet",
+          "helperText": "Close warmly and keep the door open.",
+          "nextNodeId": "respectful-exit-best-of-luck",
+          "ariaLabel": "No, not yet — close warmly"
+        }
+      ]
+    },
+    "tawheed-surah-ikhlas": {
+      "id": "tawheed-surah-ikhlas",
+      "kind": "teaching",
+      "title": "The Oneness of God (Tawheed)",
+      "eyebrow": "Tawheed / Surah Al-Ikhlas / Allah",
+      "summary": "Introduce who God is in Islam: One, Eternal, without partner or equal, as described in Surah Al-Ikhlas.",
+      "explanation": [
+        "In Islam, God (Allah) is One — He has no partner, no children, and nothing is comparable to Him. \"Allah\" is simply the Arabic word for the One God, the same God worshipped by all the prophets.",
+        "Surah Al-Ikhlas is a short chapter of the Qur'an that summarizes this pure belief beautifully in four lines."
+      ],
+      "conversationTips": [
+        "Explain that \"Allah\" is not a different God, but the One Creator of all.",
+        "Share Surah Al-Ikhlas as a gentle, clear summary of who God is."
+      ],
+      "referenceIds": ["quran-112-ikhlas"],
+      "nextNodeId": "one-god-initial"
+    },
+    "one-god-initial": {
+      "id": "one-god-initial",
+      "kind": "decision",
+      "title": "Do they accept that God is One?",
+      "summary": "See whether the idea of one, indivisible God resonates with them.",
+      "options": [
+        {
+          "id": "yes",
+          "label": "Yes, they accept One God",
+          "helperText": "Move toward revelation, justice, and the Day of Judgement.",
+          "nextNodeId": "justice-day-judgment-test-revelation",
+          "ariaLabel": "Yes, they accept One God — continue"
+        },
+        {
+          "id": "no",
+          "label": "No, or they have questions",
+          "helperText": "Gently discuss why multiple gods leads to contradiction.",
+          "nextNodeId": "ayat-ikhtilaf",
+          "ariaLabel": "No or questions — discuss the logic of One God"
+        }
+      ]
+    },
+    "ayat-ikhtilaf": {
+      "id": "ayat-ikhtilaf",
+      "kind": "teaching",
+      "title": "Why One God makes sense",
+      "eyebrow": "Ayat Ikhtilaf",
+      "summary": "Discuss, calmly, how multiple competing gods would lead to conflict and disorder — while a single Creator explains the harmony we observe.",
+      "explanation": [
+        "If there were many gods with their own wills, creation would be pulled in conflicting directions. The order and harmony of the universe instead point to a single Authority.",
+        "Present this as a reflection, not as a knockout argument. Some people need time, and that is okay."
+      ],
+      "conversationTips": [
+        "Keep the tone reflective and humble, never combative.",
+        "Allow silence and questions. You are planting a seed, not closing a sale."
+      ],
+      "avoid": [
+        "Mocking polytheistic or other beliefs.",
+        "Turning the discussion into a heated debate."
+      ],
+      "referenceIds": ["quran-21-22"],
+      "nextNodeId": "one-god-after-ikhtilaf"
+    },
+    "one-god-after-ikhtilaf": {
+      "id": "one-god-after-ikhtilaf",
+      "kind": "decision",
+      "title": "Does One God make sense to them now?",
+      "summary": "Check in again, gently and without pressure.",
+      "options": [
+        {
+          "id": "yes",
+          "label": "Yes, it makes sense now",
+          "helperText": "Move toward revelation, justice, and the Day of Judgement.",
+          "nextNodeId": "justice-day-judgment-test-revelation",
+          "ariaLabel": "Yes — continue to revelation and the Day of Judgement"
+        },
+        {
+          "id": "no",
+          "label": "No, not yet",
+          "helperText": "Close warmly and keep the door open.",
+          "nextNodeId": "respectful-exit-best-of-luck",
+          "ariaLabel": "No, not yet — close warmly"
+        }
+      ]
+    },
+    "justice-day-judgment-test-revelation": {
+      "id": "justice-day-judgment-test-revelation",
+      "kind": "teaching",
+      "title": "Justice, the test of life, and revelation",
+      "eyebrow": "Justice / Day of Judgement / Test / Revelation",
+      "summary": "Explain that this life is a test, that justice will be fulfilled on the Day of Judgement, and that God did not leave us without guidance.",
+      "explanation": [
+        "A just God would not leave wrongdoing unaddressed forever. The Day of Judgement is where perfect justice is finally established.",
+        "Because life is a meaningful test, God sent revelation — guidance through His messengers — so we are never left to figure out the purpose of life alone."
+      ],
+      "conversationTips": [
+        "Connect to their innate sense of justice and fairness.",
+        "Frame revelation as a mercy: we are not left guessing."
+      ],
+      "referenceIds": ["hadith-jibril"],
+      "nextNodeId": "angels"
+    },
+    "angels": {
+      "id": "angels",
+      "kind": "teaching",
+      "title": "Belief in the angels",
+      "eyebrow": "Angels",
+      "summary": "Introduce the angels as honored creations of God who carry out His commands, including delivering revelation.",
+      "explanation": [
+        "Angels are beings created by God from light, who never disobey Him. They have roles such as conveying revelation, recording deeds, and more.",
+        "Belief in the angels is part of the broader Islamic understanding of the unseen."
+      ],
+      "referenceIds": ["hadith-jibril"],
+      "nextNodeId": "messengers-prophets"
+    },
+    "messengers-prophets": {
+      "id": "messengers-prophets",
+      "kind": "teaching",
+      "title": "The messengers and prophets",
+      "eyebrow": "Messengers / Prophets",
+      "summary": "Explain that God sent many prophets and messengers across history, all carrying one core message: worship the One God.",
+      "explanation": [
+        "From the first human being onward, God sent guides to every people. Names like Noah, Abraham, Moses, and Jesus are deeply honored in Islam.",
+        "Though their communities and times differed, their central message was the same: there is only One God worthy of worship."
+      ],
+      "conversationTips": [
+        "Emphasize the shared thread between the prophets — this often resonates with people of other faiths."
+      ],
+      "referenceIds": ["quran-21-25"],
+      "nextNodeId": "jesus-peace-be-upon-him"
+    },
+    "jesus-peace-be-upon-him": {
+      "id": "jesus-peace-be-upon-him",
+      "kind": "teaching",
+      "title": "Jesus, peace be upon him",
+      "eyebrow": "Jesus (PBUH)",
+      "summary": "Speak about Jesus with deep love and respect, as Islam honors him as one of the greatest messengers of God.",
+      "explanation": [
+        "Muslims love and honor Jesus (peace be upon him). We believe in his miraculous birth, his miracles by God's permission, and his noble message.",
+        "Islam teaches that Jesus was a mighty messenger of God who called people to worship the One God. Approach this topic with great care and respect, especially with those of a Christian background."
+      ],
+      "conversationTips": [
+        "Lead with shared love and respect for Jesus — never with criticism.",
+        "Listen carefully; this can be an emotional subject for many."
+      ],
+      "avoid": [
+        "Disrespecting Christian beliefs or arguing aggressively about theology.",
+        "Rushing this conversation — give it warmth and time."
+      ],
+      "referenceIds": ["quran-3-45"],
+      "nextNodeId": "shahada-readiness-initial"
+    },
+    "shahada-readiness-initial": {
+      "id": "shahada-readiness-initial",
+      "kind": "decision",
+      "title": "Are they ready for the Shahada?",
+      "summary": "Sense whether the person feels ready to embrace Islam. Readiness must come from them, sincerely and freely.",
+      "conversationTips": [
+        "Never pressure. Shahada must be a free, sincere choice.",
+        "It is completely fine — and often better — for someone to take more time."
+      ],
+      "options": [
+        {
+          "id": "yes",
+          "label": "Yes, they feel ready",
+          "helperText": "Connect them with guidance and the community.",
+          "nextNodeId": "connect-guidance-community",
+          "ariaLabel": "Yes, they feel ready — connect them with community"
+        },
+        {
+          "id": "no",
+          "label": "Not yet",
+          "helperText": "Encourage gently and keep the door open.",
+          "nextNodeId": "encourage-keep-door-open",
+          "ariaLabel": "Not yet — encourage gently"
+        }
+      ]
+    },
+    "encourage-keep-door-open": {
+      "id": "encourage-keep-door-open",
+      "kind": "encouragement",
+      "title": "Encourage gently, keep the door open",
+      "eyebrow": "Encourage",
+      "summary": "Offer warmth, resources, and friendship without any pressure. Let them know the door is always open.",
+      "explanation": [
+        "Reassure them there is no rush and no pressure. Offer to answer questions any time and to share helpful resources.",
+        "A kind, patient da'ee who keeps the door open is far more effective than one who pushes. Many people accept Islam long after the first conversation."
+      ],
+      "conversationTips": [
+        "Offer your contact and a few gentle resources.",
+        "Reaffirm the friendship regardless of their decision.",
+        "Make sincere dua for them privately."
+      ],
+      "referenceIds": ["quran-51-55"],
+      "nextNodeId": "shahada-readiness-after-encouragement"
+    },
+    "shahada-readiness-after-encouragement": {
+      "id": "shahada-readiness-after-encouragement",
+      "kind": "decision",
+      "title": "After encouragement, are they ready?",
+      "summary": "Check in once more, gently. Whatever they decide, respond with kindness.",
+      "options": [
+        {
+          "id": "yes",
+          "label": "Yes, they feel ready now",
+          "helperText": "Connect them with guidance and the community.",
+          "nextNodeId": "connect-guidance-community",
+          "ariaLabel": "Yes, ready now — connect them with community"
+        },
+        {
+          "id": "no",
+          "label": "Still not yet",
+          "helperText": "Close warmly and keep the door open.",
+          "nextNodeId": "respectful-exit-best-of-luck",
+          "ariaLabel": "Still not yet — close warmly"
+        }
+      ]
+    },
+    "connect-guidance-community": {
+      "id": "connect-guidance-community",
+      "kind": "completion",
+      "title": "Connect them with guidance and community",
+      "eyebrow": "Contacts / Muslim Guide",
+      "summary": "Help them take the next steps with support. A new Muslim should never feel alone.",
+      "explanation": [
+        "Embracing Islam is a beginning, not an ending. The most important thing now is loving support and gentle, practical guidance.",
+        "Help them connect with a trustworthy local community so they can learn and grow at their own pace."
+      ],
+      "checklist": [
+        "Introduce them to a kind local imam or mentor.",
+        "Connect them with a new Muslim support group.",
+        "Help them find a welcoming local masjid.",
+        "Agree on a gentle follow-up plan (a check-in, a class, a meal together).",
+        "Share beginner-friendly resources on prayer and the basics of Islam."
+      ],
+      "referenceIds": ["quran-16-125"]
+    },
+    "respectful-exit-best-of-luck": {
+      "id": "respectful-exit-best-of-luck",
+      "kind": "exit",
+      "title": "Close warmly — keep the door open",
+      "eyebrow": "Best of luck",
+      "summary": "End every conversation with kindness, regardless of the outcome. Your job is to convey, not to convert.",
+      "explanation": [
+        "Thank them sincerely for their time and openness. Make it clear they are always welcome to continue the conversation later.",
+        "Avoid any frustration or debate. Guidance is from Allah alone — your role is only to invite with wisdom and good manners, and to make dua for them privately."
+      ],
+      "conversationTips": [
+        "Leave them with a good impression of Islam and Muslims.",
+        "Offer to stay in touch and to answer questions any time.",
+        "Make sincere dua for them after you part."
+      ],
+      "referenceIds": ["quran-51-55"]
+    }
+  },
+  "gorap": [
+    {
+      "letter": "G",
+      "title": "God",
+      "shortLabel": "Existence of Allah",
+      "explanation": "Establish belief in a Creator — the existence of God.",
+      "relatedNodeIds": [
+        "believe-in-god-initial",
+        "signs-creation-infinite-regress"
+      ]
+    },
+    {
+      "letter": "O",
+      "title": "One God",
+      "shortLabel": "Tawheed",
+      "explanation": "Establish the Oneness of God — that He is One, without partner or equal.",
+      "relatedNodeIds": [
+        "tawheed-surah-ikhlas",
+        "one-god-initial",
+        "ayat-ikhtilaf"
+      ]
+    },
+    {
+      "letter": "R",
+      "title": "Revelation",
+      "shortLabel": "Justice / Day of Judgement / Test",
+      "explanation": "Establish that life is a test, justice will be fulfilled, and God sent revelation as guidance.",
+      "relatedNodeIds": ["justice-day-judgment-test-revelation"]
+    },
+    {
+      "letter": "A",
+      "title": "Angels",
+      "shortLabel": "Angels",
+      "explanation": "Establish belief in the angels, honored creations who carry out God's commands.",
+      "relatedNodeIds": ["angels"]
+    },
+    {
+      "letter": "P",
+      "title": "Prophets & Messengers",
+      "shortLabel": "One Message",
+      "explanation": "Establish belief in the prophets and messengers, who all carried one core message.",
+      "relatedNodeIds": ["messengers-prophets", "jesus-peace-be-upon-him"]
+    }
+  ],
+  "suggestions": {
+    "outsideTheField": [
+      {
+        "id": "dua",
+        "title": "Dua",
+        "body": "Make sincere dua for the person and for yourself before, during, and after the conversation. Guidance comes from Allah.",
+        "priority": "core"
+      },
+      {
+        "id": "sincerity",
+        "title": "Sincerity",
+        "body": "Purify your intention. You are conveying the message for the sake of Allah, not to win or to be seen.",
+        "priority": "core"
+      },
+      {
+        "id": "planning",
+        "title": "Planning",
+        "body": "Learn the basics well so you can answer common questions calmly and honestly. It is fine to say \"I don't know, let me find out.\"",
+        "priority": "helpful"
+      },
+      {
+        "id": "istiqamah",
+        "title": "Istiqamah",
+        "body": "Be steadfast and consistent in your own practice. Your character is your most powerful dawah.",
+        "priority": "helpful"
+      }
+    ],
+    "onTheField": [
+      {
+        "id": "make-dua",
+        "title": "Make dua",
+        "body": "Quietly ask Allah to soften hearts as the conversation unfolds.",
+        "priority": "core"
+      },
+      {
+        "id": "smile",
+        "title": "Maintain a smile",
+        "body": "A warm, genuine smile is a form of charity and opens hearts.",
+        "priority": "helpful"
+      },
+      {
+        "id": "polite-kind",
+        "title": "Be polite & kind",
+        "body": "Good manners leave a lasting, positive impression of Islam.",
+        "priority": "core"
+      },
+      {
+        "id": "avoid-debate",
+        "title": "Avoid unnecessary debate",
+        "body": "Aim for understanding, not for winning arguments. Step back if it becomes heated.",
+        "priority": "core"
+      },
+      {
+        "id": "follow-flow",
+        "title": "Follow the flow & priorities",
+        "body": "Meet the person where they are. Don't force the order — let the conversation breathe.",
+        "priority": "helpful"
+      },
+      {
+        "id": "be-concise",
+        "title": "Be concise (time-aware)",
+        "body": "Respect their time and attention. Say less, listen more.",
+        "priority": "helpful"
+      },
+      {
+        "id": "redirect",
+        "title": "Redirect to priorities",
+        "body": "Gently steer side-tangents back to the heart of the matter when helpful.",
+        "priority": "helpful"
+      },
+      {
+        "id": "encourage-shahada",
+        "title": "Encourage Shahada (never force)",
+        "body": "Invite gently. The decision must be sincere and free. Never pressure anyone.",
+        "priority": "core"
+      }
+    ]
+  },
+  "references": [
+    {
+      "id": "quran-16-125",
+      "type": "quran",
+      "citation": "Qur'an 16:125",
+      "label": "Inviting with wisdom and good instruction",
+      "arabic": "ٱدْعُ إِلَىٰ سَبِيلِ رَبِّكَ بِٱلْحِكْمَةِ وَٱلْمَوْعِظَةِ ٱلْحَسَنَةِ ۖ وَجَٰدِلْهُم بِٱلَّتِى هِىَ أَحْسَنُ",
+      "translation": "Invite ˹all˺ to the Way of your Lord with wisdom and kind advice, and only debate with them in the best manner.",
+      "translator": "Dr. Mustafa Khattab, The Clear Quran",
+      "sourceName": "Quran.com",
+      "sourceUrl": "https://quran.com/16/125",
+      "reviewStatus": "draft",
+      "reviewNote": "Verify exact Arabic and translation wording with a qualified reviewer before publication."
+    },
+    {
+      "id": "quran-51-55",
+      "type": "quran",
+      "citation": "Qur'an 51:55",
+      "label": "Reminders benefit the believers",
+      "arabic": "وَذَكِّرْ فَإِنَّ ٱلذِّكْرَىٰ تَنفَعُ ٱلْمُؤْمِنِينَ",
+      "translation": "And keep reminding, for certainly reminders benefit the believers.",
+      "translator": "Dr. Mustafa Khattab, The Clear Quran",
+      "sourceName": "Quran.com",
+      "sourceUrl": "https://quran.com/51/55",
+      "reviewStatus": "draft",
+      "reviewNote": "Verify exact Arabic and translation wording with a qualified reviewer before publication."
+    },
+    {
+      "id": "quran-112-ikhlas",
+      "type": "quran",
+      "citation": "Qur'an 112:1-4 (Surah Al-Ikhlas)",
+      "label": "The pure declaration of God's Oneness",
+      "arabic": "قُلْ هُوَ ٱللَّهُ أَحَدٌ ٱللَّهُ ٱلصَّمَدُ لَمْ يَلِدْ وَلَمْ يُولَدْ وَلَمْ يَكُن لَّهُۥ كُفُوًا أَحَدٌۢ",
+      "translation": "Say, ˹O Prophet,˺ “He is Allah—One ˹and Indivisible˺; Allah—the Sustainer ˹needed by all˺. He has never had offspring, nor was He born. And there is none comparable to Him.”",
+      "translator": "Dr. Mustafa Khattab, The Clear Quran",
+      "sourceName": "Quran.com",
+      "sourceUrl": "https://quran.com/112",
+      "reviewStatus": "draft",
+      "reviewNote": "Verify exact Arabic and translation wording with a qualified reviewer before publication."
+    },
+    {
+      "id": "quran-52-35",
+      "type": "quran",
+      "citation": "Qur'an 52:35",
+      "label": "Reflection on creation",
+      "arabic": "أَمْ خُلِقُوا۟ مِنْ غَيْرِ شَىْءٍ أَمْ هُمُ ٱلْخَٰلِقُونَ",
+      "translation": "Or were they created by nothing, or are they ˹their own˺ creators?",
+      "translator": "Dr. Mustafa Khattab, The Clear Quran",
+      "sourceName": "Quran.com",
+      "sourceUrl": "https://quran.com/52/35",
+      "reviewStatus": "draft",
+      "reviewNote": "Verify exact Arabic and translation wording with a qualified reviewer before publication."
+    },
+    {
+      "id": "quran-21-22",
+      "type": "quran",
+      "citation": "Qur'an 21:22",
+      "label": "The logic of One God",
+      "arabic": "لَوْ كَانَ فِيهِمَآ ءَالِهَةٌ إِلَّا ٱللَّهُ لَفَسَدَتَا",
+      "translation": "Had there been other gods besides Allah in the heavens or the earth, both ˹realms˺ would have surely been corrupted.",
+      "translator": "Dr. Mustafa Khattab, The Clear Quran",
+      "sourceName": "Quran.com",
+      "sourceUrl": "https://quran.com/21/22",
+      "reviewStatus": "draft",
+      "reviewNote": "Verify exact Arabic and translation wording with a qualified reviewer before publication."
+    },
+    {
+      "id": "quran-21-25",
+      "type": "quran",
+      "citation": "Qur'an 21:25",
+      "label": "One message through all the messengers",
+      "arabic": "وَمَآ أَرْسَلْنَا مِن قَبْلِكَ مِن رَّسُولٍ إِلَّا نُوحِىٓ إِلَيْهِ أَنَّهُۥ لَآ إِلَٰهَ إِلَّآ أَنَا۠ فَٱعْبُدُونِ",
+      "translation": "We never sent a messenger before you ˹O Prophet˺ without revealing to him: “There is no god ˹worthy of worship˺ except Me, so worship Me ˹alone˺.”",
+      "translator": "Dr. Mustafa Khattab, The Clear Quran",
+      "sourceName": "Quran.com",
+      "sourceUrl": "https://quran.com/21/25",
+      "reviewStatus": "draft",
+      "reviewNote": "Verify exact Arabic and translation wording with a qualified reviewer before publication."
+    },
+    {
+      "id": "quran-3-45",
+      "type": "quran",
+      "citation": "Qur'an 3:45",
+      "label": "The honored status of Jesus, son of Mary",
+      "translation": "˹Remember˺ when the angels said, “O Mary! Allah gives you good news of a Word from Him, whose name will be the Messiah, Jesus, son of Mary; honoured in this world and the Hereafter, and he will be one of those nearest ˹to Allah˺.”",
+      "translator": "Dr. Mustafa Khattab, The Clear Quran",
+      "sourceName": "Quran.com",
+      "sourceUrl": "https://quran.com/3/45",
+      "reviewStatus": "draft",
+      "reviewNote": "Arabic intentionally omitted pending verification. Verify translation wording with a qualified reviewer before publication."
+    },
+    {
+      "id": "hadith-jibril",
+      "type": "hadith",
+      "citation": "Sahih Muslim 8a (Book 1, Hadith 1) — Hadith of Jibril",
+      "label": "The six articles of faith",
+      "translation": "That you affirm your faith in Allah, in His angels, in His Books, in His Messengers, in the Day of Judgment, and that you affirm your faith in the Divine Decree about good and evil.",
+      "sourceName": "Sahih Muslim (sunnah.com)",
+      "sourceUrl": "https://sunnah.com/muslim:8a",
+      "reviewStatus": "draft",
+      "reviewNote": "Wording from Sahih Muslim 8a via sunnah.com; confirm exact wording with a qualified reviewer before publication."
+    },
+    {
+      "id": "quran-2-256",
+      "type": "quran",
+      "citation": "Qur'an 2:256",
+      "label": "There is no compulsion in religion",
+      "arabic": "لَآ إِكْرَاهَ فِى ٱلدِّينِ ۖ قَد تَّبَيَّنَ ٱلرُّشْدُ مِنَ ٱلْغَىِّ",
+      "translation": "There is no compulsion in religion, for the truth stands out clearly from falsehood.",
+      "translator": "Dr. Mustafa Khattab, The Clear Quran",
+      "sourceName": "Quran.com",
+      "sourceUrl": "https://quran.com/2/256",
+      "reviewStatus": "draft",
+      "reviewNote": "Wording follows the Clear Quran (Dr. Mustafa Khattab) via Quran.com; confirm with a qualified reviewer before publication."
+    },
+    {
+      "id": "quran-28-56",
+      "type": "quran",
+      "citation": "Qur'an 28:56",
+      "label": "Guidance belongs to Allah alone",
+      "arabic": "إِنَّكَ لَا تَهْدِى مَنْ أَحْبَبْتَ وَلَٰكِنَّ ٱللَّهَ يَهْدِى مَن يَشَآءُ ۚ وَهُوَ أَعْلَمُ بِٱلْمُهْتَدِينَ",
+      "translation": "You surely cannot guide whoever you like ˹O Prophet˺, but it is Allah Who guides whoever He wills, and He knows best who are ˹fit to be˺ guided.",
+      "translator": "Dr. Mustafa Khattab, The Clear Quran",
+      "sourceName": "Quran.com",
+      "sourceUrl": "https://quran.com/28/56",
+      "reviewStatus": "draft",
+      "reviewNote": "Wording follows the Clear Quran (Dr. Mustafa Khattab) via Quran.com; confirm with a qualified reviewer before publication."
+    },
+    {
+      "id": "quran-20-25-26",
+      "type": "quran",
+      "citation": "Qur'an 20:25-26",
+      "label": "Prophet Moses' dua for ease and an open heart",
+      "arabic": "رَبِّ ٱشْرَحْ لِى صَدْرِى وَيَسِّرْ لِىٓ أَمْرِى",
+      "translation": "My Lord! Uplift my heart for me, and make my task easy for me.",
+      "translator": "Dr. Mustafa Khattab, The Clear Quran",
+      "sourceName": "Quran.com",
+      "sourceUrl": "https://quran.com/20/25-26",
+      "reviewStatus": "draft",
+      "reviewNote": "Wording follows the Clear Quran (Dr. Mustafa Khattab) via Quran.com; confirm with a qualified reviewer before publication."
+    }
+  ],
+  "communityConnect": {
+    "title": "Connecting a new Muslim",
+    "intro": "Whether someone takes their Shahada today or simply wants to keep learning, warm support matters most. Use this checklist to help them feel welcomed and never alone.",
+    "checklist": [
+      "Introduce them to a kind, knowledgeable local imam or mentor.",
+      "Connect them with a new Muslim support group or class.",
+      "Help them find a welcoming local masjid near them.",
+      "Agree on a gentle follow-up — a check-in, a shared meal, or a class.",
+      "Share beginner-friendly resources on prayer and the basics of Islam."
+    ],
+    "masjidFinderLabel": "Find a nearby masjid"
+  },
+  "additionalGuidance": {
+    "commonQuestions": [
+      {
+        "id": "q-god-exists",
+        "topic": "God",
+        "question": "How do you know God exists?",
+        "answer": [
+          "Invite reflection rather than argument. Everything around us — the order of the universe, the precision of nature, our own existence — points to a Creator. Ask gently: did all of this come from nothing, or does it point to a Maker?",
+          "Stay humble. You are not trying to win; you are opening a door to thought."
+        ],
+        "referenceIds": ["quran-52-35"]
+      },
+      {
+        "id": "q-one-god",
+        "topic": "Oneness",
+        "question": "Why must God be one?",
+        "answer": [
+          "If there were many gods with competing wills, creation would be pulled in conflicting directions. The harmony and order we observe instead point to a single Authority.",
+          "Present this as a reflection, and allow time and questions."
+        ],
+        "referenceIds": ["quran-21-22"]
+      },
+      {
+        "id": "q-jesus",
+        "topic": "Jesus (PBUH)",
+        "question": "What do Muslims believe about Jesus?",
+        "answer": [
+          "Muslims love and deeply honour Jesus, peace be upon him. We believe in his miraculous birth to the Virgin Mary, his miracles by God's permission, and his noble message.",
+          "Islam teaches that Jesus was one of the greatest messengers of God, who called people to worship the One God. Approach this topic with warmth and respect."
+        ],
+        "referenceIds": ["quran-3-45"]
+      },
+      {
+        "id": "q-why-prophets",
+        "topic": "Revelation",
+        "question": "Why do we need prophets and scripture?",
+        "answer": [
+          "Because life is a meaningful test, a just and merciful God did not leave us to guess our purpose. He sent guidance through messengers across history, all carrying one core message: worship the One God.",
+          "Revelation is a mercy — we are never left alone."
+        ],
+        "referenceIds": ["quran-21-25"]
+      },
+      {
+        "id": "q-shahada",
+        "topic": "Shahada",
+        "question": "What exactly is the Shahada?",
+        "answer": [
+          "The Shahada is the sincere testimony that there is no god worthy of worship except Allah, and that Muhammad is His messenger. It is the gateway into Islam.",
+          "It must be a free, sincere choice — never rushed or pressured. Taking the Shahada is a beginning, not an ending; loving support comes next."
+        ]
+      },
+      {
+        "id": "q-suffering",
+        "topic": "Purpose",
+        "question": "If God is just, why is there suffering?",
+        "answer": [
+          "This life is a test, and a just God will establish perfect justice on the Day of Judgement, where no wrong goes unaddressed.",
+          "Acknowledge the person's pain honestly and gently, rather than offering quick answers."
+        ]
+      }
+    ],
+    "misconceptions": [
+      {
+        "id": "m-sword",
+        "claim": "Islam was spread by the sword.",
+        "response": [
+          "The Qur'an is clear that faith cannot be forced — it must be sincere and freely chosen. Respond calmly and without defensiveness.",
+          "Point gently to the long history of communities embracing Islam by conviction, and keep the focus on the message rather than on debate."
+        ],
+        "referenceIds": ["quran-2-256"]
+      },
+      {
+        "id": "m-different-god",
+        "claim": "Muslims worship a different God.",
+        "response": [
+          "\"Allah\" is simply the Arabic word for the One God — the same God worshipped by Abraham, Moses, and Jesus. Arabic-speaking Christians and Jews also call God \"Allah.\"",
+          "Surah Al-Ikhlas summarizes this pure belief: God is One, eternal, with no partner and nothing comparable to Him."
+        ],
+        "referenceIds": ["quran-112-ikhlas"]
+      },
+      {
+        "id": "m-women",
+        "claim": "Islam oppresses women.",
+        "response": [
+          "Avoid a heated debate. Listen first, acknowledge that culture and religion are often confused, and separate harmful cultural practices from Islamic teaching.",
+          "Speak about the rights Islam affirmed for women and the honour given to mothers, and let your own respectful character speak."
+        ]
+      },
+      {
+        "id": "m-all-same",
+        "claim": "All religions are basically the same, so why switch?",
+        "response": [
+          "Affirm the shared values — compassion, justice, honesty. Then gently note that the religions also make distinct claims about God, and those differences matter.",
+          "Invite reflection without pressure: the goal is sincere conviction, not winning a point."
+        ]
+      }
+    ],
+    "scenarios": [
+      {
+        "id": "s-atheist",
+        "audience": "Atheist or agnostic",
+        "summary": "Someone who does not believe in God, or is unsure.",
+        "approach": [
+          "Begin with the question of God's existence and the signs of creation.",
+          "Ask open questions and listen genuinely to their reasoning.",
+          "Keep the tone curious and humble, not combative."
+        ],
+        "watchFor": [
+          "Turning reflection into an argument to be won.",
+          "Overconfident philosophical claims you cannot explain."
+        ]
+      },
+      {
+        "id": "s-christian",
+        "audience": "Christian background",
+        "summary": "Someone who already loves God and Jesus, peace be upon him.",
+        "approach": [
+          "Lead with shared love and respect for Jesus and the prophets.",
+          "Introduce the Oneness of God gently and with care.",
+          "Honour the emotional weight this topic can carry."
+        ],
+        "watchFor": [
+          "Disrespecting Christian beliefs or arguing theology aggressively.",
+          "Rushing — give the conversation warmth and time."
+        ]
+      },
+      {
+        "id": "s-cultural-muslim",
+        "audience": "Culturally Muslim, not practicing",
+        "summary": "Someone raised around Islam who feels disconnected from it.",
+        "approach": [
+          "Reconnect them with the meaning and beauty behind the practices.",
+          "Avoid judgment about the past; focus on a gentle next step.",
+          "Offer companionship and small, achievable encouragements."
+        ],
+        "watchFor": ["Shaming or guilt-tripping, which pushes people away."]
+      },
+      {
+        "id": "s-not-ready",
+        "audience": "Interested but not ready",
+        "summary": "Someone open to Islam who needs more time.",
+        "approach": [
+          "Reassure them there is no rush and no pressure.",
+          "Offer trustworthy resources and to answer questions any time.",
+          "Keep the friendship and the door open, and make dua for them."
+        ],
+        "watchFor": ["Any pressure that makes a future conversation harder."]
+      }
+    ],
+    "duas": [
+      {
+        "id": "dua-ease",
+        "occasion": "before",
+        "title": "For ease and an open heart",
+        "arabic": "رَبِّ ٱشْرَحْ لِى صَدْرِى وَيَسِّرْ لِىٓ أَمْرِى",
+        "transliteration": "Rabbi-shraḥ lī ṣadrī wa yassir lī amrī",
+        "translation": "My Lord! Uplift my heart for me, and make my task easy for me.",
+        "referenceId": "quran-20-25-26"
+      },
+      {
+        "id": "dua-sincerity",
+        "occasion": "before",
+        "title": "For a sincere intention",
+        "translation": "O Allah, make my intention purely for Your sake, and let me speak only what is true and pleasing to You.",
+        "transliteration": "(Placeholder — confirm a sourced wording with your reviewer.)"
+      },
+      {
+        "id": "dua-guidance",
+        "occasion": "after",
+        "title": "Asking Allah to guide them",
+        "translation": "O Allah, guide them, and guide others through them.",
+        "transliteration": "(Placeholder — confirm a sourced wording with your reviewer.)"
+      },
+      {
+        "id": "dua-leave-results",
+        "occasion": "general",
+        "title": "Remembering guidance belongs to Allah",
+        "arabic": "إِنَّكَ لَا تَهْدِى مَنْ أَحْبَبْتَ وَلَٰكِنَّ ٱللَّهَ يَهْدِى مَن يَشَآءُ",
+        "translation": "You surely cannot guide whoever you like, but it is Allah Who guides whoever He wills.",
+        "referenceId": "quran-28-56"
+      }
+    ],
+    "quickReference": {
+      "intro": "A compact recap of the GORAP path, the conversation flow, and the heart of good dawah. Use it as a refresher before or during a conversation.",
+      "points": [
+        "Invite with wisdom and good manners; never pressure.",
+        "Listen more than you speak, and ask one question at a time.",
+        "Meet people where they are — real conversations are not linear.",
+        "Keep the door open even if the conversation ends without Shahada.",
+        "Make sincere dua and leave the result to Allah."
+      ]
+    }
+  }
+}
