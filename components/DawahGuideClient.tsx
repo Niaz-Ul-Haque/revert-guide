@@ -28,37 +28,191 @@ type ViewMode = "flow" | "quick";
 
 const EXIT_NODE_KIND: DawahNodeKind = "exit";
 
+interface DawahGuideUiLabels {
+  breadcrumbHome: string;
+  viewModeAriaLabel: string;
+  guidedFlow: string;
+  quickReference: string;
+  printSavePdf: string;
+  stepStatus: (step: number, total: number, title: string) => string;
+  stepOf: (step: number, total: number) => string;
+  conversationPathAriaLabel: string;
+  conversationTips: string;
+  gentlyAvoid: string;
+  continue: string;
+  back: string;
+  restartGuide: string;
+  pauseGentleExit: string;
+  draftPendingReview: string;
+  translation: string;
+  sourcePrefix: string;
+  viewSource: string;
+  gorapHeading: string;
+  gorapSubheading: string;
+  suggestionsHeading: string;
+  outsideTheField: string;
+  onTheField: string;
+  toneHeading: string;
+  toneSubheading: string;
+  quickReferenceHeading: string;
+  gorapAtGlance: string;
+  conversationFlow: string;
+  keepInMind: string;
+  approach: string;
+  watchFor: string;
+  sourcePendingReview: string;
+  moreForDaees: string;
+  moreForDaeesIntro: string;
+  commonQuestionsTitle: string;
+  misconceptionsTitle: string;
+  scenariosTitle: string;
+  duaRemindersTitle: string;
+  printFieldSuggestions: string;
+  printReferences: string;
+  duaGroups: Record<DuaReminder["occasion"], string>;
+  kind: Record<DawahNodeKind, string>;
+}
+
+const dawahGuideUiLabels: Record<"en" | "bn", DawahGuideUiLabels> = {
+  en: {
+    breadcrumbHome: "Home",
+    viewModeAriaLabel: "View mode",
+    guidedFlow: "Guided flow",
+    quickReference: "Quick reference",
+    printSavePdf: "Print / Save as PDF",
+    stepStatus: (step, total, title) => `Step ${step} of ${total}: ${title}`,
+    stepOf: (step, total) => `Step ${step} of ${total}`,
+    conversationPathAriaLabel: "Conversation path so far",
+    conversationTips: "Conversation tips",
+    gentlyAvoid: "Gently avoid",
+    continue: "Continue",
+    back: "Back",
+    restartGuide: "Restart guide",
+    pauseGentleExit: "Pause — gentle exit",
+    draftPendingReview: "Draft — pending review",
+    translation: "Translation",
+    sourcePrefix: "Source:",
+    viewSource: "View source",
+    gorapHeading: "GORAP — logical progression",
+    gorapSubheading: "The path of truth and guidance.",
+    suggestionsHeading: "General suggestions",
+    outsideTheField: "Outside the field",
+    onTheField: "On the field",
+    toneHeading: "Be patient · Be sincere",
+    toneSubheading: "Leave the result to Allah.",
+    quickReferenceHeading: "Quick reference",
+    gorapAtGlance: "GORAP at a glance",
+    conversationFlow: "The conversation flow",
+    keepInMind: "Keep in mind",
+    approach: "Approach",
+    watchFor: "Watch for",
+    sourcePendingReview: "Source pending review",
+    moreForDaees: "More for da'ees",
+    moreForDaeesIntro:
+      "Optional supporting material for real conversations — open what you need.",
+    commonQuestionsTitle: "Common questions & gentle answers",
+    misconceptionsTitle: "Responding to misconceptions",
+    scenariosTitle: "Scenario-based guidance",
+    duaRemindersTitle: "Dua reminders",
+    printFieldSuggestions: "Field suggestions",
+    printReferences: "References (verify before sharing)",
+    duaGroups: {
+      before: "Before the conversation",
+      after: "During and after",
+      general: "General",
+    },
+    kind: {
+      intro: "Start",
+      teaching: "Teaching",
+      decision: "Decision",
+      encouragement: "Encourage",
+      exit: "Gentle exit",
+      completion: "Community",
+    },
+  },
+  bn: {
+    breadcrumbHome: "হোম",
+    viewModeAriaLabel: "ভিউ মোড",
+    guidedFlow: "নির্দেশিত ধারা",
+    quickReference: "দ্রুত রেফারেন্স",
+    printSavePdf: "প্রিন্ট / PDF হিসেবে সংরক্ষণ",
+    stepStatus: (step, total, title) => `ধাপ ${step} / ${total}: ${title}`,
+    stepOf: (step, total) => `ধাপ ${step} / ${total}`,
+    conversationPathAriaLabel: "এ পর্যন্ত কথোপকথনের পথ",
+    conversationTips: "কথোপকথনের পরামর্শ",
+    gentlyAvoid: "কোমলভাবে এড়িয়ে চলুন",
+    continue: "চালিয়ে যান",
+    back: "পেছনে",
+    restartGuide: "গাইড আবার শুরু করুন",
+    pauseGentleExit: "বিরতি — কোমলভাবে শেষ",
+    draftPendingReview: "খসড়া — পর্যালোচনা বাকি",
+    translation: "অর্থ",
+    sourcePrefix: "উৎস:",
+    viewSource: "উৎস দেখুন",
+    gorapHeading: "GORAP — যৌক্তিক অগ্রগতি",
+    gorapSubheading: "সত্য ও হিদায়াতের পথ।",
+    suggestionsHeading: "সাধারণ পরামর্শ",
+    outsideTheField: "মাঠের বাইরে",
+    onTheField: "মাঠে",
+    toneHeading: "ধৈর্য ধরুন · আন্তরিক থাকুন",
+    toneSubheading: "ফলাফল আল্লাহর ওপর ছেড়ে দিন।",
+    quickReferenceHeading: "দ্রুত রেফারেন্স",
+    gorapAtGlance: "এক নজরে GORAP",
+    conversationFlow: "কথোপকথনের ধারা",
+    keepInMind: "মনে রাখুন",
+    approach: "পদ্ধতি",
+    watchFor: "সতর্ক থাকুন",
+    sourcePendingReview: "উৎস পর্যালোচনার অপেক্ষায়",
+    moreForDaees: "দাঈদের জন্য আরও",
+    moreForDaeesIntro:
+      "বাস্তব কথোপকথনের জন্য ঐচ্ছিক সহায়ক উপাদান — যা দরকার খুলুন।",
+    commonQuestionsTitle: "সাধারণ প্রশ্ন ও কোমল উত্তর",
+    misconceptionsTitle: "ভুল ধারণার জবাব",
+    scenariosTitle: "পরিস্থিতিভিত্তিক দিকনির্দেশনা",
+    duaRemindersTitle: "দোয়ার স্মরণিকা",
+    printFieldSuggestions: "মাঠপর্যায়ের পরামর্শ",
+    printReferences: "রেফারেন্স (শেয়ারের আগে যাচাই করুন)",
+    duaGroups: {
+      before: "কথোপকথনের আগে",
+      after: "চলাকালীন ও পরে",
+      general: "সাধারণ",
+    },
+    kind: {
+      intro: "শুরু",
+      teaching: "শিক্ষা",
+      decision: "সিদ্ধান্ত",
+      encouragement: "উৎসাহ",
+      exit: "কোমল প্রস্থান",
+      completion: "কমিউনিটি",
+    },
+  },
+};
+
 const kindConfig: Record<
   DawahNodeKind,
-  { label: string; icon: IconName; badgeClass: string }
+  { icon: IconName; badgeClass: string }
 > = {
   intro: {
-    label: "Start",
     icon: "star",
     badgeClass: "bg-surfaceElevated text-primary",
   },
   teaching: {
-    label: "Teaching",
     icon: "book",
     badgeClass: "bg-surfaceElevated text-accent",
   },
   decision: {
-    label: "Decision",
     icon: "lightbulb",
     badgeClass: "bg-accentYellow/50 text-warning",
   },
   encouragement: {
-    label: "Encourage",
     icon: "star",
     badgeClass: "bg-successBg text-success",
   },
   exit: {
-    label: "Gentle exit",
     icon: "info",
     badgeClass: "bg-surfaceElevated text-textSecondary",
   },
   completion: {
-    label: "Community",
     icon: "users",
     badgeClass: "bg-successBg text-success",
   },
@@ -66,6 +220,8 @@ const kindConfig: Record<
 
 export function DawahGuideClient({ guide }: DawahGuideClientProps) {
   const locale = useLocale();
+  const labels =
+    locale === "bn" ? dawahGuideUiLabels.bn : dawahGuideUiLabels.en;
   const [history, setHistory] = useState<string[]>([guide.startNodeId]);
   const [mode, setMode] = useState<ViewMode>("flow");
   const headingRef = useRef<HTMLHeadingElement>(null);
@@ -122,7 +278,7 @@ export function DawahGuideClient({ guide }: DawahGuideClientProps) {
     <div className="mx-auto max-w-6xl px-5 py-10">
       <Breadcrumb
         items={[
-          { label: "Home", href: localizeHref(locale, "/") },
+          { label: labels.breadcrumbHome, href: localizeHref(locale, "/") },
           { label: guide.title },
         ]}
       />
@@ -140,7 +296,7 @@ export function DawahGuideClient({ guide }: DawahGuideClientProps) {
         <div
           className="inline-flex rounded-xl border border-border p-1"
           role="group"
-          aria-label="View mode"
+          aria-label={labels.viewModeAriaLabel}
         >
           <button
             type="button"
@@ -152,7 +308,7 @@ export function DawahGuideClient({ guide }: DawahGuideClientProps) {
                 : "text-textSecondary hover:text-primary"
             }`}
           >
-            Guided flow
+            {labels.guidedFlow}
           </button>
           <button
             type="button"
@@ -164,7 +320,7 @@ export function DawahGuideClient({ guide }: DawahGuideClientProps) {
                 : "text-textSecondary hover:text-primary"
             }`}
           >
-            Quick reference
+            {labels.quickReference}
           </button>
         </div>
         <button
@@ -173,13 +329,13 @@ export function DawahGuideClient({ guide }: DawahGuideClientProps) {
           className="inline-flex min-h-[40px] items-center gap-1.5 rounded-xl border border-border px-3 py-1.5 text-sm font-medium text-textSecondary transition-colors hover:border-primary hover:text-primary focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-borderStrong"
         >
           <Icon name="file-text" size="sm" />
-          Print / Save as PDF
+          {labels.printSavePdf}
         </button>
       </div>
 
       {/* Polite live region announcing step changes to screen readers. */}
       <div className="sr-only" role="status" aria-live="polite">
-        {`Step ${stepNumber} of ${totalSteps}: ${currentNode.title}`}
+        {labels.stepStatus(stepNumber, totalSteps, currentNode.title)}
       </div>
 
       {mode === "flow" ? (
@@ -191,6 +347,7 @@ export function DawahGuideClient({ guide }: DawahGuideClientProps) {
               totalSteps={totalSteps}
               history={history}
               nodes={guide.nodes}
+              labels={labels}
             />
 
             <div key={currentNodeId} className="mt-4 animate-fade-up">
@@ -200,7 +357,7 @@ export function DawahGuideClient({ guide }: DawahGuideClientProps) {
                     className={`inline-flex items-center gap-1.5 rounded-lg px-2.5 py-1 text-xs font-semibold ${config.badgeClass}`}
                   >
                     <Icon name={config.icon} size="sm" />
-                    {config.label}
+                    {labels.kind[currentNode.kind]}
                   </span>
                   {currentNode.eyebrow && (
                     <span className="text-sm text-textMuted">
@@ -233,7 +390,11 @@ export function DawahGuideClient({ guide }: DawahGuideClientProps) {
                       {currentNode.referenceIds.map((refId) => {
                         const reference = referenceMap.get(refId);
                         return reference ? (
-                          <ReferenceBlock key={refId} reference={reference} />
+                          <ReferenceBlock
+                            key={refId}
+                            reference={reference}
+                            labels={labels}
+                          />
                         ) : null;
                       })}
                     </div>
@@ -259,7 +420,7 @@ export function DawahGuideClient({ guide }: DawahGuideClientProps) {
 
                 {currentNode.conversationTips &&
                   currentNode.conversationTips.length > 0 && (
-                    <Callout variant="tip" title="Conversation tips">
+                    <Callout variant="tip" title={labels.conversationTips}>
                       <ul className="mb-0 ml-4 list-disc space-y-1">
                         {currentNode.conversationTips.map((tip, i) => (
                           <li key={i}>{tip}</li>
@@ -269,7 +430,7 @@ export function DawahGuideClient({ guide }: DawahGuideClientProps) {
                   )}
 
                 {currentNode.avoid && currentNode.avoid.length > 0 && (
-                  <Callout variant="warning" title="Gently avoid">
+                  <Callout variant="warning" title={labels.gentlyAvoid}>
                     <ul className="mb-0 ml-4 list-disc space-y-1">
                       {currentNode.avoid.map((item, i) => (
                         <li key={i}>{item}</li>
@@ -325,7 +486,7 @@ export function DawahGuideClient({ guide }: DawahGuideClientProps) {
                       variant="primary"
                       onClick={() => goTo(currentNode.nextNodeId as string)}
                     >
-                      Continue
+                      {labels.continue}
                       <Icon name="chevron-right" size="md" />
                     </Button>
                   ) : null}
@@ -343,7 +504,7 @@ export function DawahGuideClient({ guide }: DawahGuideClientProps) {
                           size="sm"
                           className="rotate-180"
                         />
-                        Back
+                        {labels.back}
                       </button>
                     )}
                     <button
@@ -351,7 +512,7 @@ export function DawahGuideClient({ guide }: DawahGuideClientProps) {
                       onClick={restart}
                       className="inline-flex min-h-[44px] items-center rounded-xl px-4 py-2 text-sm font-medium text-textSecondary transition-colors hover:text-primary focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-borderStrong"
                     >
-                      Restart guide
+                      {labels.restartGuide}
                     </button>
                     {!isTerminal && currentNodeId !== exitNodeId && (
                       <button
@@ -359,7 +520,7 @@ export function DawahGuideClient({ guide }: DawahGuideClientProps) {
                         onClick={() => goTo(exitNodeId)}
                         className="inline-flex min-h-[44px] items-center rounded-xl px-4 py-2 text-sm font-medium text-textMuted transition-colors hover:text-primary focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-borderStrong"
                       >
-                        Pause — gentle exit
+                        {labels.pauseGentleExit}
                       </button>
                     )}
                   </div>
@@ -370,20 +531,32 @@ export function DawahGuideClient({ guide }: DawahGuideClientProps) {
 
           {/* Sidebar: support panels. */}
           <aside className="space-y-4 lg:sticky lg:top-6 lg:self-start">
-            <GorapPanel guide={guide} currentNodeId={currentNodeId} />
-            <SuggestionsPanel guide={guide} />
-            <TonePanel principles={guide.tonePrinciples} />
+            <GorapPanel
+              guide={guide}
+              currentNodeId={currentNodeId}
+              labels={labels}
+            />
+            <SuggestionsPanel guide={guide} labels={labels} />
+            <TonePanel principles={guide.tonePrinciples} labels={labels} />
           </aside>
         </div>
       ) : (
-        <QuickReferenceView guide={guide} className="mt-6 print:hidden" />
+        <QuickReferenceView
+          guide={guide}
+          labels={labels}
+          className="mt-6 print:hidden"
+        />
       )}
 
       {/* Additional field resources (plan §6 / §20). */}
-      <AdditionalGuidancePanels guide={guide} referenceMap={referenceMap} />
+      <AdditionalGuidancePanels
+        guide={guide}
+        referenceMap={referenceMap}
+        labels={labels}
+      />
 
       {/* Print-only full summary for training handouts. */}
-      <PrintSummary guide={guide} />
+      <PrintSummary guide={guide} labels={labels} />
     </div>
   );
 }
@@ -393,20 +566,22 @@ function DawahProgress({
   totalSteps,
   history,
   nodes,
+  labels,
 }: {
   stepNumber: number;
   totalSteps: number;
   history: string[];
   nodes: Record<string, DawahNode>;
+  labels: DawahGuideUiLabels;
 }) {
   return (
     <div>
       <p className="text-sm font-medium text-textSecondary">
-        Step {Math.max(stepNumber, 1)} of {totalSteps}
+        {labels.stepOf(Math.max(stepNumber, 1), totalSteps)}
       </p>
       <ol
         className="mb-0 mt-2 flex list-none flex-wrap gap-1.5 pl-0"
-        aria-label="Conversation path so far"
+        aria-label={labels.conversationPathAriaLabel}
       >
         {history.map((nodeId, index) => {
           const isCurrent = index === history.length - 1;
@@ -430,7 +605,13 @@ function DawahProgress({
   );
 }
 
-function ReferenceBlock({ reference }: { reference: IslamicReference }) {
+function ReferenceBlock({
+  reference,
+  labels,
+}: {
+  reference: IslamicReference;
+  labels: DawahGuideUiLabels;
+}) {
   return (
     <figure className="m-0 rounded-xl border border-border bg-surfaceElevated p-4">
       <figcaption className="flex flex-wrap items-center gap-2">
@@ -443,7 +624,7 @@ function ReferenceBlock({ reference }: { reference: IslamicReference }) {
             className="rounded-lg bg-accentYellow/50 px-2 py-0.5 text-xs font-medium text-warning"
             title={reference.reviewNote}
           >
-            Draft — pending review
+            {labels.draftPendingReview}
           </span>
         )}
       </figcaption>
@@ -461,7 +642,7 @@ function ReferenceBlock({ reference }: { reference: IslamicReference }) {
       {reference.translation && (
         <blockquote className="m-0 mt-2 text-textPrimary">
           <span className="text-xs uppercase tracking-wide text-textMuted">
-            Translation
+            {labels.translation}
           </span>
           <p className="mb-0 mt-1 italic">“{reference.translation}”</p>
         </blockquote>
@@ -469,7 +650,9 @@ function ReferenceBlock({ reference }: { reference: IslamicReference }) {
 
       <div className="mt-2 flex flex-wrap items-center gap-x-3 gap-y-1 text-xs text-textMuted">
         {reference.translator && <span>{reference.translator}</span>}
-        <span>Source: {reference.sourceName}</span>
+        <span>
+          {labels.sourcePrefix} {reference.sourceName}
+        </span>
         {reference.sourceUrl && (
           <a
             href={reference.sourceUrl}
@@ -477,7 +660,7 @@ function ReferenceBlock({ reference }: { reference: IslamicReference }) {
             rel="noopener noreferrer"
             className="inline-flex items-center gap-1"
           >
-            View source
+            {labels.viewSource}
             <Icon name="external-link" size="sm" />
           </a>
         )}
@@ -489,15 +672,17 @@ function ReferenceBlock({ reference }: { reference: IslamicReference }) {
 function GorapPanel({
   guide,
   currentNodeId,
+  labels,
 }: {
   guide: DawahGuide;
   currentNodeId: string;
+  labels: DawahGuideUiLabels;
 }) {
   return (
     <Card className="p-5">
-      <h2 className="mb-1 mt-0 text-lg">GORAP — logical progression</h2>
+      <h2 className="mb-1 mt-0 text-lg">{labels.gorapHeading}</h2>
       <p className="mb-0 text-sm text-textSecondary">
-        The path of truth and guidance.
+        {labels.gorapSubheading}
       </p>
       <ul className="mb-0 mt-3 list-none space-y-3 pl-0">
         {guide.gorap.map((item) => {
@@ -531,13 +716,19 @@ function GorapPanel({
   );
 }
 
-function SuggestionsPanel({ guide }: { guide: DawahGuide }) {
+function SuggestionsPanel({
+  guide,
+  labels,
+}: {
+  guide: DawahGuide;
+  labels: DawahGuideUiLabels;
+}) {
   return (
-    <Accordion title="General suggestions">
+    <Accordion title={labels.suggestionsHeading}>
       <div className="space-y-4">
         <div>
           <h3 className="mb-2 mt-0 text-sm font-semibold text-textPrimary">
-            Outside the field
+            {labels.outsideTheField}
           </h3>
           <ul className="mb-0 list-none space-y-2 pl-0">
             {guide.suggestions.outsideTheField.map((item) => (
@@ -552,7 +743,7 @@ function SuggestionsPanel({ guide }: { guide: DawahGuide }) {
         </div>
         <div>
           <h3 className="mb-2 mt-0 text-sm font-semibold text-textPrimary">
-            On the field
+            {labels.onTheField}
           </h3>
           <ul className="mb-0 list-none space-y-2 pl-0">
             {guide.suggestions.onTheField.map((item) => (
@@ -570,13 +761,17 @@ function SuggestionsPanel({ guide }: { guide: DawahGuide }) {
   );
 }
 
-function TonePanel({ principles }: { principles: string[] }) {
+function TonePanel({
+  principles,
+  labels,
+}: {
+  principles: string[];
+  labels: DawahGuideUiLabels;
+}) {
   return (
     <Card className="bg-surfaceElevated p-5">
-      <h2 className="mb-1 mt-0 text-lg">Be patient · Be sincere</h2>
-      <p className="mb-0 text-sm text-textSecondary">
-        Leave the result to Allah.
-      </p>
+      <h2 className="mb-1 mt-0 text-lg">{labels.toneHeading}</h2>
+      <p className="mb-0 text-sm text-textSecondary">{labels.toneSubheading}</p>
       <ul className="mb-0 mt-3 list-none space-y-1.5 pl-0">
         {principles.map((principle, i) => (
           <li
@@ -598,19 +793,21 @@ function TonePanel({ principles }: { principles: string[] }) {
 
 function QuickReferenceView({
   guide,
+  labels,
   className = "",
 }: {
   guide: DawahGuide;
+  labels: DawahGuideUiLabels;
   className?: string;
 }) {
   const { quickReference } = guide.additionalGuidance;
   return (
     <div className={className}>
       <Card className="p-6 sm:p-8">
-        <h2 className="mb-2 mt-0">Quick reference</h2>
+        <h2 className="mb-2 mt-0">{labels.quickReferenceHeading}</h2>
         <p className="text-textSecondary">{quickReference.intro}</p>
 
-        <h3 className="mt-6">GORAP at a glance</h3>
+        <h3 className="mt-6">{labels.gorapAtGlance}</h3>
         <ol className="mb-0 list-none space-y-2 pl-0">
           {guide.gorap.map((item) => (
             <li key={item.letter} className="mb-0 flex gap-3">
@@ -627,7 +824,7 @@ function QuickReferenceView({
           ))}
         </ol>
 
-        <h3 className="mt-6">The conversation flow</h3>
+        <h3 className="mt-6">{labels.conversationFlow}</h3>
         <ol className="mb-0 space-y-1">
           {guide.nodeOrder.map((nodeId) => {
             const node = guide.nodes[nodeId];
@@ -643,7 +840,7 @@ function QuickReferenceView({
 
         {quickReference.points.length > 0 && (
           <>
-            <h3 className="mt-6">Keep in mind</h3>
+            <h3 className="mt-6">{labels.keepInMind}</h3>
             <ul className="mb-0 space-y-1">
               {quickReference.points.map((point, i) => (
                 <li key={i} className="text-textPrimary">
@@ -661,9 +858,11 @@ function QuickReferenceView({
 function CommonQuestionsList({
   items,
   referenceMap,
+  labels,
 }: {
   items: CommonQuestion[];
   referenceMap: Map<string, IslamicReference>;
+  labels: DawahGuideUiLabels;
 }) {
   return (
     <ul className="mb-0 list-none space-y-4 pl-0">
@@ -685,7 +884,7 @@ function CommonQuestionsList({
               {q.referenceIds.map((refId) => {
                 const ref = referenceMap.get(refId);
                 return ref ? (
-                  <ReferenceBlock key={refId} reference={ref} />
+                  <ReferenceBlock key={refId} reference={ref} labels={labels} />
                 ) : null;
               })}
             </div>
@@ -699,9 +898,11 @@ function CommonQuestionsList({
 function MisconceptionsList({
   items,
   referenceMap,
+  labels,
 }: {
   items: Misconception[];
   referenceMap: Map<string, IslamicReference>;
+  labels: DawahGuideUiLabels;
 }) {
   return (
     <ul className="mb-0 list-none space-y-4 pl-0">
@@ -722,7 +923,7 @@ function MisconceptionsList({
               {m.referenceIds.map((refId) => {
                 const ref = referenceMap.get(refId);
                 return ref ? (
-                  <ReferenceBlock key={refId} reference={ref} />
+                  <ReferenceBlock key={refId} reference={ref} labels={labels} />
                 ) : null;
               })}
             </div>
@@ -733,7 +934,13 @@ function MisconceptionsList({
   );
 }
 
-function ScenariosList({ items }: { items: Scenario[] }) {
+function ScenariosList({
+  items,
+  labels,
+}: {
+  items: Scenario[];
+  labels: DawahGuideUiLabels;
+}) {
   return (
     <ul className="mb-0 list-none space-y-4 pl-0">
       {items.map((s) => (
@@ -741,7 +948,7 @@ function ScenariosList({ items }: { items: Scenario[] }) {
           <p className="mb-0 font-semibold text-textPrimary">{s.audience}</p>
           <p className="mb-1 mt-0.5 text-sm text-textSecondary">{s.summary}</p>
           <p className="mb-1 mt-2 text-xs font-semibold uppercase tracking-wide text-primary">
-            Approach
+            {labels.approach}
           </p>
           <ul className="mb-0 ml-4 list-disc space-y-1 text-sm text-textSecondary">
             {s.approach.map((step, i) => (
@@ -751,7 +958,7 @@ function ScenariosList({ items }: { items: Scenario[] }) {
           {s.watchFor && s.watchFor.length > 0 && (
             <>
               <p className="mb-1 mt-2 text-xs font-semibold uppercase tracking-wide text-warning">
-                Watch for
+                {labels.watchFor}
               </p>
               <ul className="mb-0 ml-4 list-disc space-y-1 text-sm text-textSecondary">
                 {s.watchFor.map((item, i) => (
@@ -769,14 +976,16 @@ function ScenariosList({ items }: { items: Scenario[] }) {
 function DuasList({
   items,
   referenceMap,
+  labels,
 }: {
   items: DuaReminder[];
   referenceMap: Map<string, IslamicReference>;
+  labels: DawahGuideUiLabels;
 }) {
   const groups: { label: string; occasion: DuaReminder["occasion"] }[] = [
-    { label: "Before the conversation", occasion: "before" },
-    { label: "During and after", occasion: "after" },
-    { label: "General", occasion: "general" },
+    { label: labels.duaGroups.before, occasion: "before" },
+    { label: labels.duaGroups.after, occasion: "after" },
+    { label: labels.duaGroups.general, occasion: "general" },
   ];
   return (
     <div className="space-y-4">
@@ -819,7 +1028,7 @@ function DuasList({
                       “{dua.translation}”
                     </p>
                     <p className="mb-0 mt-1 text-xs text-textMuted">
-                      {ref ? ref.citation : "Source pending review"}
+                      {ref ? ref.citation : labels.sourcePendingReview}
                     </p>
                   </li>
                 );
@@ -835,43 +1044,48 @@ function DuasList({
 function AdditionalGuidancePanels({
   guide,
   referenceMap,
+  labels,
 }: {
   guide: DawahGuide;
   referenceMap: Map<string, IslamicReference>;
+  labels: DawahGuideUiLabels;
 }) {
   const ag = guide.additionalGuidance;
   return (
     <section className="mt-12 print:hidden" aria-labelledby="more-for-daees">
-      <h2 id="more-for-daees">More for da&apos;ees</h2>
-      <p className="text-textSecondary">
-        Optional supporting material for real conversations — open what you
-        need.
-      </p>
+      <h2 id="more-for-daees">{labels.moreForDaees}</h2>
+      <p className="text-textSecondary">{labels.moreForDaeesIntro}</p>
       <div className="mt-4 space-y-3">
         {ag.commonQuestions.length > 0 && (
-          <Accordion title="Common questions & gentle answers">
+          <Accordion title={labels.commonQuestionsTitle}>
             <CommonQuestionsList
               items={ag.commonQuestions}
               referenceMap={referenceMap}
+              labels={labels}
             />
           </Accordion>
         )}
         {ag.misconceptions.length > 0 && (
-          <Accordion title="Responding to misconceptions">
+          <Accordion title={labels.misconceptionsTitle}>
             <MisconceptionsList
               items={ag.misconceptions}
               referenceMap={referenceMap}
+              labels={labels}
             />
           </Accordion>
         )}
         {ag.scenarios.length > 0 && (
-          <Accordion title="Scenario-based guidance">
-            <ScenariosList items={ag.scenarios} />
+          <Accordion title={labels.scenariosTitle}>
+            <ScenariosList items={ag.scenarios} labels={labels} />
           </Accordion>
         )}
         {ag.duas.length > 0 && (
-          <Accordion title="Dua reminders">
-            <DuasList items={ag.duas} referenceMap={referenceMap} />
+          <Accordion title={labels.duaRemindersTitle}>
+            <DuasList
+              items={ag.duas}
+              referenceMap={referenceMap}
+              labels={labels}
+            />
           </Accordion>
         )}
       </div>
@@ -881,10 +1095,16 @@ function AdditionalGuidancePanels({
 
 // Plain, single-column layout shown only when printing — a clean training
 // handout covering the whole flow, GORAP, suggestions, and references.
-function PrintSummary({ guide }: { guide: DawahGuide }) {
+function PrintSummary({
+  guide,
+  labels,
+}: {
+  guide: DawahGuide;
+  labels: DawahGuideUiLabels;
+}) {
   return (
     <div className="hidden print:block">
-      <h2>GORAP — logical progression</h2>
+      <h2>{labels.gorapHeading}</h2>
       <ul>
         {guide.gorap.map((item) => (
           <li key={item.letter}>
@@ -896,7 +1116,7 @@ function PrintSummary({ guide }: { guide: DawahGuide }) {
         ))}
       </ul>
 
-      <h2>Conversation flow</h2>
+      <h2>{labels.conversationFlow}</h2>
       <ol>
         {guide.nodeOrder.map((nodeId) => {
           const node = guide.nodes[nodeId];
@@ -909,7 +1129,7 @@ function PrintSummary({ guide }: { guide: DawahGuide }) {
         })}
       </ol>
 
-      <h2>Field suggestions</h2>
+      <h2>{labels.printFieldSuggestions}</h2>
       <ul>
         {[
           ...guide.suggestions.outsideTheField,
@@ -921,7 +1141,7 @@ function PrintSummary({ guide }: { guide: DawahGuide }) {
         ))}
       </ul>
 
-      <h2>References (verify before sharing)</h2>
+      <h2>{labels.printReferences}</h2>
       <ul>
         {guide.references.map((ref) => (
           <li key={ref.id}>

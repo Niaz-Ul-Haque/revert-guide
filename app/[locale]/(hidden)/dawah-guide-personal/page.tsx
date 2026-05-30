@@ -4,9 +4,9 @@ import { isLocale, type Locale } from "@/lib/i18n";
 import { getDawahGuide } from "@/lib/dawah-content";
 import { DawahGuideClient } from "@/components/DawahGuideClient";
 
-// This hidden route is published for English and Bengali only. Content is
-// authored in English; the Bengali URL falls back to the English data via
-// getDawahGuide until a localized locales/bn/dawah-guides/personal.json exists.
+// This hidden route is published for English and Bengali only. Content lives in
+// locale-specific dawah guide JSON files and still falls back to English if a
+// localized file is missing.
 const DAWAH_ROUTE_LOCALES = ["en", "bn"] as const;
 
 // Hidden, direct-link page. Intentionally kept out of all navigation, the
