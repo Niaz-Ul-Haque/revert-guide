@@ -9,6 +9,14 @@ export interface Stage {
   dontWorry: string[];
   stepIds: string[];
   duration: string;
+  focusNow?: string[];
+  canWait?: string[];
+  askHelpIf?: string[];
+  goodNextQuestions?: {
+    label: string;
+    href: string;
+  }[];
+  sourceIds?: string[];
 }
 
 /* Steps */
@@ -20,6 +28,11 @@ export interface StepAction {
 export interface StepObstacle {
   problem: string;
   solution: string;
+}
+
+export interface StepNote {
+  title: string;
+  body: string;
 }
 
 export interface Step {
@@ -36,6 +49,11 @@ export interface Step {
   resourceIds: string[];
   relatedGlossaryIds: string[];
   relatedTopicIds: string[];
+  commonQuestions?: StepObstacle[];
+  contextNotes?: StepNote[];
+  gentleScripts?: StepNote[];
+  sourceIds?: string[];
+  reviewStatus?: ContentReviewStatus;
 }
 
 /* Topics */
@@ -54,6 +72,8 @@ export interface Topic {
   relatedStepIds?: string[];
   relatedGlossaryIds?: string[];
   relatedResourceIds?: string[];
+  sourceIds?: string[];
+  reviewStatus?: ContentReviewStatus;
 }
 
 /* Glossary */
@@ -83,6 +103,11 @@ export interface Resource {
   description: string;
   relatedStepIds: string[];
   relatedTopicIds: string[];
+  organization?: string;
+  bestFor?: string;
+  trustNote?: string;
+  sourceIds?: string[];
+  reviewStatus?: ContentReviewStatus;
 }
 
 /* Masjids */
@@ -108,11 +133,53 @@ export interface Masjid {
     lng: number;
   };
   phone?: string;
+  email?: string;
   website?: string;
   notes?: string;
+  visitorNotes?: string;
+  womenSpaceNote?: string;
+  newMuslimSupportNote?: string;
+  accessibilityNote?: string;
+  jumuahNote?: string;
+  classSupportNote?: string;
+  parkingNote?: string;
   serviceIds?: MasjidServiceId[];
   womenFriendly?: boolean;
   convertSupport?: boolean;
   parking?: boolean;
   accessibility?: boolean;
+  sourceIds?: string[];
+  reviewStatus?: ContentReviewStatus;
+}
+
+export type ContentReviewStatus =
+  | "draft"
+  | "source-checked"
+  | "review-needed"
+  | "approved";
+
+export type SourceCategory =
+  | "quran"
+  | "hadith"
+  | "new-muslim-education"
+  | "mental-health"
+  | "public-rights"
+  | "public-safety"
+  | "public-travel"
+  | "tools-data"
+  | "masjid-community"
+  | "zakat-financial-education"
+  | "resource-publisher";
+
+export interface SourceEntry {
+  id: string;
+  title: string;
+  organization: string;
+  category: SourceCategory;
+  url: string;
+  sourceType: string;
+  label: string;
+  accessed: string;
+  reviewStatus: ContentReviewStatus;
+  note: string;
 }

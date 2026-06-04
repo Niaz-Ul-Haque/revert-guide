@@ -2,13 +2,13 @@
   "id": "shahada",
   "slug": "shahada",
   "stageId": "day-0-1",
-  "title": "Abrace o Shahada e sua nova identidade",
-  "whyMatters": "Fazer o Shahada é a sua entrada formal no Islã. É o passo mais importante – uma declaração de que não existe deus senão Allah e que Muhammad é Seu mensageiro. Esta declaração simples, mas profunda, apaga os pecados passados ​​e marca um novo começo espiritual. Muitos muçulmanos descrevem o momento em que realizaram o seu Shahada como uma das experiências mais significativas das suas vidas.",
+  "title": "Abrace a Shahada e sua nova identidade",
+  "whyMatters": "Fazer a Shahada é a sua entrada formal no Islã. É o passo mais importante – uma declaração de que não há deus senão Alá e que Maomé é Seu mensageiro. Esta declaração simples, mas profunda, apaga os pecados passados ​​e marca um novo começo espiritual. Muitos muçulmanos descrevem o momento em que realizaram a Shahada como uma das experiências mais significativas de suas vidas.",
   "exactActions": [
     {
-      "text": "Entenda o significado do Shahada",
+      "text": "Entenda o significado da Shahada",
       "subSteps": [
-        "O Shahada significa: 'Testifico que não há divindade exceto Allah, e testemunho que Muhammad é o Mensageiro de Allah.'",
+        "A Shahada significa: 'Testifico que não há divindade exceto Allah, e testemunho que Muhammad é o Mensageiro de Allah.'",
         "Reflita sobre o que esta declaração significa para você pessoalmente."
       ]
     },
@@ -20,7 +20,7 @@
       ]
     },
     {
-      "text": "Diga o Shahada com sinceridade",
+      "text": "Diga a Shahada com sinceridade",
       "subSteps": [
         "Você pode dizê-lo em particular ou com testemunhas em uma mesquita.",
         "O que mais importa é a sinceridade do seu coração, não o ambiente.",
@@ -48,20 +48,18 @@
     },
     {
       "problem": "Eu não tenho ninguém para testemunhar isso",
-      "solution": "O Shahada é válido quando dito com sinceridade, mesmo sozinho. No entanto, ser testemunhado numa mesquita pode proporcionar apoio comunitário e um registo oficial. Você sempre pode fazer uma cerimônia testemunhada mais tarde."
+      "solution": "A Shahada é válida quando dita com sinceridade, mesmo sozinho. No entanto, ser testemunhado numa mesquita pode proporcionar apoio comunitário e um registo oficial. Você sempre pode fazer uma cerimônia testemunhada mais tarde."
     },
     {
       "problem": "O que minha família vai pensar?",
       "solution": "Muitos convertidos enfrentam esta preocupação. Você não precisa anunciar isso a todos imediatamente. Não tenha pressa e compartilhe quando se sentir confortável. Existem recursos para navegar nas reações familiares."
     }
   ],
-  "tinyVersion": "Se você estiver se sentindo sobrecarregado, simplesmente diga o Shahada com suas próprias palavras por enquanto: 'Acredito que existe apenas um Deus e Maomé é Seu mensageiro.' Você pode aprender a declaração formal em árabe mais tarde.",
+  "tinyVersion": "Se você estiver se sentindo sobrecarregado, simplesmente diga a Shahada com suas próprias palavras por enquanto: 'Acredito que existe apenas um Deus e Muhammad é Seu mensageiro.' Você pode aprender a declaração formal em árabe mais tarde.",
   "unlocksNext": "Ao declarar sua fé, você está pronto para aprender o banho de purificação (Ghusl) no Passo 2 e começar sua nova vida como muçulmano.",
-  "resourceIds": [
-    "shahada-video",
-    "shahada-meaning-article",
-    "new-muslim-guide-book"
-  ],
+  "resourceIds": ["whyislam", "welcome-to-islam-book", "new-muslim-academy"],
   "relatedGlossaryIds": ["shahada", "allah", "muhammad", "dua", "masjid"],
-  "relatedTopicIds": ["beliefs"]
+  "relatedTopicIds": ["beliefs", "new-muslim-basics"],
+  "sourceIds": ["whyislam", "new-muslim-academy", "sunnah-com"],
+  "reviewStatus": "review-needed"
 }

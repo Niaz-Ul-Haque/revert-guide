@@ -9,11 +9,11 @@
       "text": "Aprende las principales reglas dietéticas.",
       "subSteps": [
         "La carne de cerdo y sus productos (tocino, jamón, gelatina de cerdo) son haram.",
-        "El alcohol y los estupefacientes son haram; esto incluye bebidas alcohólicas, vino para cocinar y alimentos preparados con alcohol.",
+        "El alcohol y los estupefacientes son haram; esto incluye las bebidas alcohólicas, el vino para cocinar y los alimentos preparados con alcohol.",
         "La carne debe ser sacrificada halal (zabiha): el animal se sacrifica humanamente mencionando el nombre de Allah.",
         "Los mariscos son generalmente halal (pescado, camarones, etc.).",
         "Las frutas, verduras, cereales, lácteos y huevos son halal.",
-        "La mayoría de los alimentos procesados son halal, pero busque ingredientes ocultos como gelatina, manteca de cerdo o saborizantes a base de alcohol."
+        "La mayoría de los alimentos procesados ​​son halal, pero busque ingredientes ocultos como gelatina, manteca de cerdo o saborizantes a base de alcohol."
       ]
     },
     {
@@ -29,7 +29,7 @@
       "text": "Encuentre fuentes de alimentos halal en Toronto",
       "subSteps": [
         "Toronto tiene cientos de restaurantes y tiendas de comestibles halal.",
-        "Las carnicerías halal ofrecen carne debidamente sacrificada; solicite recomendaciones a su comunidad.",
+        "Las carnicerías halal ofrecen carne debidamente sacrificada; pida recomendaciones a su comunidad.",
         "Muchas cadenas de supermercados importantes ofrecen secciones de carne halal.",
         "Explore las opciones halal en aplicaciones de entrega de comida filtrando por restaurantes halal.",
         "Las tiendas de comestibles internacionales (Oriente Medio, Asia del Sur, África) suelen ofrecer una amplia selección de productos halal."
@@ -82,10 +82,9 @@
   "tinyVersion": "Comience con dos reglas claras: evite la carne de cerdo y evite el alcohol. Todo lo demás se puede aprender paso a paso. La mayor parte de lo que ya comes probablemente sea halal.",
   "unlocksNext": "Comprender lo halal y lo haram te prepara para aprender sobre el ayuno, otra hermosa práctica que conecta tu cuerpo y alma con tu fe.",
   "resourceIds": [
-    "halal-food-guide-article",
-    "halal-restaurants-toronto",
-    "reading-food-labels-guide",
-    "halal-certification-info"
+    "halal-living-guide",
+    "new-muslim-guide-site",
+    "seekers-guidance"
   ],
   "relatedGlossaryIds": [
     "halal",
@@ -95,5 +94,7 @@
     "bismillah",
     "tayyib"
   ],
-  "relatedTopicIds": ["halal-living", "daily-life"]
+  "relatedTopicIds": ["fasting", "halal-living"],
+  "sourceIds": ["new-muslim-guide", "seekersguidance"],
+  "reviewStatus": "review-needed"
 }

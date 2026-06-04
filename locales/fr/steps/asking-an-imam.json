@@ -1,0 +1,65 @@
+{
+  "id": "asking-an-imam",
+  "slug": "asking-an-imam",
+  "stageId": "month-3-6",
+  "title": "Demandez bien à un imam ou à un enseignant",
+  "whyMatters": "Les bonnes questions reçoivent souvent de meilleures réponses. Apprendre à interroger un imam ou un enseignant qualifié vous aide à éviter toute confusion, à obtenir des conseils pertinents et à savoir quand une question nécessite un examen personnel.",
+  "exactActions": [
+    {
+      "text": "Écrivez clairement la situation",
+      "subSteps": [
+        "Dites ce qui s'est passé, quelle décision vous devez prendre et où vous habitez.",
+        "Mentionnez les délais, la pression familiale, les problèmes de santé ou les détails financiers s'ils sont importants.",
+        "Oubliez les détails privés qui n’affectent pas la question."
+      ]
+    },
+    {
+      "text": "Demandez la priorité débutant",
+      "subSteps": [
+        "Dites que vous êtes un nouveau musulman et que vous avez besoin de la prochaine étape pratique.",
+        "Demandez-vous ce qui doit être fait maintenant et ce qui peut attendre.",
+        "Demandez s’il existe des divergences d’opinions dont vous devriez être informé sans détails approfondis."
+      ]
+    },
+    {
+      "text": "Vérifiez la réponse avant d’agir sur des questions sensibles",
+      "subSteps": [
+        "Le mariage, le divorce, l'héritage, la zakat, les abus, les problèmes médicaux et les préoccupations juridiques doivent être examinés attentivement.",
+        "Ne vous fiez pas aux commentaires anonymes pour prendre des décisions importantes dans votre vie.",
+        "Demandez l’aide d’un professionnel lorsque le problème est médical, juridique ou financier."
+      ]
+    }
+  ],
+  "timeEstimate": "10 à 20 minutes pour préparer une question claire",
+  "obstacles": [
+    {
+      "problem": "Je me sens gêné de poser des questions basiques",
+      "solution": "Les questions de base correspondent exactement à ce que les enseignants attendent des débutants. Une humilité claire vaut mieux qu’une confusion silencieuse."
+    },
+    {
+      "problem": "J'ai reçu différentes réponses",
+      "solution": "Demandez à l'enseignant d'expliquer ce qui s'applique à votre situation et ce qui peut attendre. Si nécessaire, demandez à un spécialiste local qualifié qui connaît votre contexte."
+    }
+  ],
+  "tinyVersion": "Écrivez : ce qui s'est passé, ce que vous devez décider et que vous êtes un nouveau musulman.",
+  "unlocksNext": "De bonnes questions vous aident à continuer à apprendre en toute confiance et à éviter de suivre des conseils peu fiables.",
+  "resourceIds": [
+    "seekers-guidance",
+    "new-muslim-academy",
+    "new-muslim-guide-icna"
+  ],
+  "relatedGlossaryIds": ["imam", "sunnah", "halal", "haram"],
+  "relatedTopicIds": [
+    "questions-and-doubts",
+    "masjid-and-community",
+    "new-muslim-basics"
+  ],
+  "gentleScripts": [
+    {
+      "title": "Demander une réponse de débutant",
+      "body": "Je suis un nouveau musulman et j'essaie de le faire correctement sans me laisser submerger. Quelle est la prochaine étape pratique pour ma situation et qu’est-ce qui peut attendre ?"
+    }
+  ],
+  "sourceIds": ["seekersguidance", "new-muslim-academy", "whyislam"],
+  "reviewStatus": "source-checked"
+}

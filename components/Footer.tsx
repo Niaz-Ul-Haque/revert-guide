@@ -23,8 +23,23 @@ export function Footer() {
   const quickLinks = [
     { href: localizeHref(locale, "/roadmap"), label: t("nav.roadmap") },
     { href: localizeHref(locale, "/topics"), label: t("nav.topics") },
+    ...(locale === "en"
+      ? [{ href: localizeHref(locale, "/guides"), label: t("nav.guides") }]
+      : []),
     { href: localizeHref(locale, "/glossary"), label: t("nav.glossary") },
     { href: localizeHref(locale, "/resources"), label: t("nav.resources") },
+    ...(locale === "en"
+      ? [
+          {
+            href: localizeHref(locale, "/tools/wudu-ghusl"),
+            label: t("nav.wuduGhusl"),
+          },
+          {
+            href: localizeHref(locale, "/quran-starter"),
+            label: t("nav.quranStarter"),
+          },
+        ]
+      : []),
     { href: localizeHref(locale, "/ramadan"), label: t("nav.ramadan") },
     {
       href: localizeHref(locale, "/mental-health"),

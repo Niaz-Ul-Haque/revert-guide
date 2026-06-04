@@ -1,0 +1,71 @@
+{
+  "id": "first-masjid-visit",
+  "slug": "first-masjid-visit",
+  "stageId": "week-1",
+  "title": "Gawin ang Iyong Unang Pagbisita sa Masjid",
+  "whyMatters": "Ang masjid ay maaaring magbigay sa iyo ng suporta sa panalangin, komunidad, mga klase, at isang lugar para humingi ng tulong sa mga totoong tao. Ang iyong unang pagbisita ay hindi kailangang maging perpekto; kailangan lang itong maging banayad at mapangasiwaan.",
+  "exactActions": [
+    {
+      "text": "Pumili ng oras na may mababang presyon",
+      "subSteps": [
+        "Ang isang mas maliit na pang-araw-araw na panalangin ay maaaring maging mas madali kaysa sa isang masikip na panalangin sa Biyernes.",
+        "Tingnan ang website ng masjid o tumawag nang maaga kung hindi ka sigurado.",
+        "Tanungin kung mayroon silang bagong suportang Muslim o tulong ng bisita."
+      ]
+    },
+    {
+      "text": "Simple at disente ang pananamit",
+      "subSteps": [
+        "Magsuot ng malinis at maluwag na damit na kumportableng nakatakip sa iyong katawan.",
+        "Maaaring magdala ng scarf ang mga babae kung balak nilang pumasok sa prayer area.",
+        "Huwag mag-panic kung hindi ka nakadamit tulad ng iba."
+      ]
+    },
+    {
+      "text": "Sundin ang pangunahing tuntunin ng magandang asal",
+      "subSteps": [
+        "Tanggalin ang iyong mga sapatos kung saan tinanggal ng iba ang mga ito.",
+        "Panatilihing tahimik ang iyong telepono.",
+        "Kung hindi ka sigurado kung saan pupunta, magtanong sa isang taong malapit sa pasukan."
+      ]
+    },
+    {
+      "text": "Ipakilala ang iyong sarili sa isang tao",
+      "subSteps": [
+        "Masasabi mo lang na ikaw ay isang bagong Muslim at ito ang iyong unang pagbisita.",
+        "Tanungin kung sino ang humahawak ng suporta sa pag-convert o mga baguhan na klase.",
+        "Umalis kung sa tingin mo ay nalulula ka; maaari kang bumalik sa ibang araw."
+      ]
+    }
+  ],
+  "timeEstimate": "30-60 minuto",
+  "obstacles": [
+    {
+      "problem": "Natatakot akong titigan ng mga tao",
+      "solution": "Karamihan sa mga tao ay nakatuon sa panalangin. Kung may makapansin na bago ka, marami ang matutuwa na tumulong. Maaari ka ring tumawag nang maaga at hilingin sa isang tao na makipagkita sa iyo."
+    },
+    {
+      "problem": "Hindi ko alam kung aling pasukan ang gagamitin",
+      "solution": "Maghanap ng mga palatandaan, sundin ang daloy ng mga tao, o magtanong sa pintuan. Ang ilang mga masjid ay may magkakahiwalay na lugar ng pagdarasal; normal lang ang pagtatanong."
+    }
+  ],
+  "tinyVersion": "Tumawag o magmessage sa isang masjid at magtanong kung kailan maaaring bumisita ang isang baguhan.",
+  "unlocksNext": "Ang iyong unang pagbisita ay ginagawang mas madaling lapitan ang Jumuah, mga klase, at mentorship.",
+  "resourceIds": ["new-muslim-guide-icna", "whyislam", "new-muslim-guide-site"],
+  "relatedGlossaryIds": ["masjid", "imam", "salah", "ummah"],
+  "relatedTopicIds": ["masjid-and-community", "community", "new-muslim-basics"],
+  "commonQuestions": [
+    {
+      "problem": "Maaari ba akong bumisita kung hindi pa ako makapagdasal ng maayos?",
+      "solution": "Oo. Maaari mong obserbahan, sundin kung ano ang magagawa mo, at humingi ng tulong. Ang masjid ay dapat na isang lugar upang matuto, hindi lamang isang lugar para sa mga taong alam na ang lahat."
+    }
+  ],
+  "gentleScripts": [
+    {
+      "title": "Sa pasukan",
+      "body": "Assalamu alaykum. Ako ay isang bagong Muslim at ito ang aking unang pagkakataon dito. Maaari mo bang ipakita sa akin kung saan pupunta?"
+    }
+  ],
+  "sourceIds": ["whyislam", "icna", "new-muslim-guide"],
+  "reviewStatus": "source-checked"
+}

@@ -1,5 +1,5 @@
 import { ResourcesPageClient } from "@/components/ResourcesPageClient";
-import { getAllResources } from "@/lib/content";
+import { getAllResources, getAllSources } from "@/lib/content";
 import { type Locale } from "@/lib/i18n";
 import { getPageMetadata } from "@/lib/metadata";
 
@@ -16,6 +16,7 @@ export default function ResourcesPage({
     <ResourcesPageClient
       locale={params.locale}
       resources={getAllResources(params.locale)}
+      sources={params.locale === "en" ? getAllSources(params.locale) : []}
     />
   );
 }

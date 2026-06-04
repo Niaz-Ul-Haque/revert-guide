@@ -79,10 +79,10 @@
   "tinyVersion": "If visiting a masjid feels like too much right now, start by connecting with one Muslim — online or in person. Even a single supportive friend makes a world of difference.",
   "unlocksNext": "With a community supporting you, you are ready to deepen your relationship with Allah's words by beginning to read the Quran.",
   "resourceIds": [
-    "masjid-finder-tool",
-    "new-muslim-support-article",
-    "convert-community-online",
-    "visiting-masjid-guide"
+    "new-muslim-guide-icna",
+    "whyislam",
+    "aboutislam-new-muslims",
+    "khalil-center"
   ],
   "relatedGlossaryIds": [
     "masjid",
@@ -92,5 +92,11 @@
     "halaqa",
     "salaam"
   ],
-  "relatedTopicIds": ["community", "mental-health"]
+  "relatedTopicIds": [
+    "community",
+    "masjid-and-community",
+    "family-and-identity"
+  ],
+  "sourceIds": ["whyislam", "icna", "yaqeen-mental-health"],
+  "reviewStatus": "source-checked"
 }

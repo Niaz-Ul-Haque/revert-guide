@@ -1,7 +1,9 @@
 "use client";
 
 import Link from "next/link";
+import { SourceTags } from "@/components/SourceTags";
 import { getTranslator, type Locale } from "@/lib/i18n";
+import type { SourceEntry } from "@/lib/types";
 
 /* ─── Base Card ─── */
 
@@ -191,6 +193,13 @@ interface ResourceCardProps {
   type: ResourceType;
   url: string;
   locale?: Locale;
+  organization?: string;
+  bestFor?: string;
+  trustNote?: string;
+  sources?: Pick<
+    SourceEntry,
+    "id" | "title" | "organization" | "url" | "sourceType" | "label" | "note"
+  >[];
 }
 
 const typeBadgeColors: Record<ResourceType, string> = {
@@ -208,6 +217,10 @@ export function ResourceCard({
   type,
   url,
   locale = "en",
+  organization,
+  bestFor,
+  trustNote,
+  sources = [],
 }: ResourceCardProps) {
   const t = getTranslator(locale);
   const isExternal = url.startsWith("http");
@@ -229,8 +242,35 @@ export function ResourceCard({
           <p className="mb-3 text-sm leading-relaxed text-textSecondary">
             {description}
           </p>
+          {(organization || bestFor || trustNote || sources.length > 0) && (
+            <div className="mb-3 space-y-2 rounded-xl bg-surfaceElevated/50 p-3 text-xs text-textSecondary">
+              {organization ? (
+                <p className="mb-0">
+                  <span className="font-semibold text-textPrimary">
+                    Source:
+                  </span>{" "}
+                  {organization}
+                </p>
+              ) : null}
+              {bestFor ? (
+                <p className="mb-0">
+                  <span className="font-semibold text-textPrimary">
+                    Best for:
+                  </span>{" "}
+                  {bestFor}
+                </p>
+              ) : null}
+              {trustNote ? <p className="mb-0">{trustNote}</p> : null}
+              <SourceTags sources={sources} compact />
+            </div>
+          )}
           <a
             href={url}
+            aria-label={
+              isExternal
+                ? `${t("resources.visitResource")}: ${title} (opens in a new tab)`
+                : `${t("resources.viewResource")}: ${title}`
+            }
             className="inline-flex items-center gap-1.5 rounded-lg bg-surfaceElevated px-3 py-1.5 text-sm font-medium text-primary no-underline transition-all duration-200 hover:bg-primary/15 hover:text-primaryHover"
             {...(isExternal
               ? { target: "_blank", rel: "noopener noreferrer" }

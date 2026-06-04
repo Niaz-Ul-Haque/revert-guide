@@ -7,6 +7,7 @@ import { ResourceCard } from "@/components/Card";
 import { Button } from "@/components/Button";
 import { Icon } from "@/components/Icon";
 import { AnimateIn } from "@/components/AnimateIn";
+import { SourcesPanel } from "@/components/SourceTags";
 import {
   getAllStages,
   getStageById,
@@ -15,6 +16,7 @@ import {
   getResourceById,
   getGlossaryEntryById,
   getTopicById,
+  getSourcesByIds,
 } from "@/lib/content";
 import {
   getTranslator,
@@ -95,6 +97,7 @@ export default function StepPage({
   const glossaryTerms = step.relatedGlossaryIds
     .map((id) => getGlossaryEntryById(id, locale))
     .filter((entry): entry is NonNullable<typeof entry> => entry !== undefined);
+  const stepSources = getSourcesByIds(step.sourceIds ?? [], locale);
 
   return (
     <div className="mx-auto max-w-4xl px-5 py-10">
@@ -217,6 +220,81 @@ export default function StepPage({
         </section>
       )}
 
+      {step.commonQuestions && step.commonQuestions.length > 0 && (
+        <section className="mb-12" aria-labelledby="common-questions-heading">
+          <AnimateIn>
+            <h2
+              id="common-questions-heading"
+              className="mb-5 font-display text-2xl font-semibold tracking-tight text-textPrimary"
+            >
+              Common Questions
+            </h2>
+          </AnimateIn>
+          <div className="flex flex-col gap-3">
+            {step.commonQuestions.map((question, index) => (
+              <AnimateIn
+                key={`${question.problem}-${index}`}
+                delay={index * 0.05}
+              >
+                <Accordion title={question.problem}>
+                  <p className="mb-0 text-sm leading-relaxed text-textSecondary">
+                    {question.solution}
+                  </p>
+                </Accordion>
+              </AnimateIn>
+            ))}
+          </div>
+        </section>
+      )}
+
+      {step.contextNotes && step.contextNotes.length > 0 && (
+        <AnimateIn>
+          <section className="mb-12" aria-labelledby="context-notes-heading">
+            <h2
+              id="context-notes-heading"
+              className="mb-5 font-display text-2xl font-semibold tracking-tight text-textPrimary"
+            >
+              For Work, School, or Family
+            </h2>
+            <div className="grid gap-4 sm:grid-cols-2">
+              {step.contextNotes.map((note) => (
+                <div
+                  key={note.title}
+                  className="rounded-2xl border border-border/60 bg-surfaceElevated/50 p-5"
+                >
+                  <h3 className="mb-2 mt-0 text-base font-semibold text-textPrimary">
+                    {note.title}
+                  </h3>
+                  <p className="mb-0 text-sm leading-relaxed text-textSecondary">
+                    {note.body}
+                  </p>
+                </div>
+              ))}
+            </div>
+          </section>
+        </AnimateIn>
+      )}
+
+      {step.gentleScripts && step.gentleScripts.length > 0 && (
+        <AnimateIn>
+          <section className="mb-12" aria-labelledby="scripts-heading">
+            <h2
+              id="scripts-heading"
+              className="mb-5 font-display text-2xl font-semibold tracking-tight text-textPrimary"
+            >
+              Gentle Scripts
+            </h2>
+            <div className="flex flex-col gap-3">
+              {step.gentleScripts.map((script) => (
+                <Callout key={script.title} variant="info" title={script.title}>
+                  <p>{script.body}</p>
+                </Callout>
+              ))}
+            </div>
+          </section>
+        </AnimateIn>
+      )}
+
       <AnimateIn>
         <Callout variant="tip" title={copy.tinyVersion}>
           <p>{step.tinyVersion}</p>
@@ -256,6 +334,10 @@ export default function StepPage({
                   type={resource.type}
                   url={resource.url}
                   locale={locale}
+                  organization={resource.organization}
+                  bestFor={resource.bestFor}
+                  trustNote={resource.trustNote}
+                  sources={getSourcesByIds(resource.sourceIds ?? [], locale)}
                 />
               </AnimateIn>
             ))}
@@ -309,6 +391,17 @@ export default function StepPage({
               ))}
             </div>
           </section>
+        </AnimateIn>
+      )}
+
+      {stepSources.length > 0 && (
+        <AnimateIn>
+          <div className="mb-12">
+            <SourcesPanel
+              sources={stepSources}
+              note="These sources support the general educational framing on this step. Specific personal religious questions should be taken to a qualified local imam or scholar."
+            />
+          </div>
         </AnimateIn>
       )}
 

@@ -1,6 +1,8 @@
 import { Breadcrumb } from "@/components/Breadcrumb";
 import { AnimateIn } from "@/components/AnimateIn";
 import { AsmaAlHusnaClient } from "@/components/AsmaAlHusnaClient";
+import { SourcesPanel } from "@/components/SourceTags";
+import { getSourcesByIds } from "@/lib/content";
 import { getTranslator, localizeHref, type Locale } from "@/lib/i18n";
 import { getPageMetadata } from "@/lib/metadata";
 
@@ -16,6 +18,10 @@ export default function AsmaAlHusnaPage({
   const locale = params.locale;
   const t = getTranslator(locale);
   const copy = t<Record<string, string>>("pages.asmaAlHusna");
+  const sources =
+    locale === "en"
+      ? getSourcesByIds(["aladhan-api", "sunnah-com"], locale)
+      : [];
 
   return (
     <div className="mx-auto max-w-4xl px-5 py-10">
@@ -41,6 +47,17 @@ export default function AsmaAlHusnaPage({
       <AnimateIn>
         <AsmaAlHusnaClient />
       </AnimateIn>
+
+      {sources.length > 0 && (
+        <AnimateIn>
+          <div className="mt-10">
+            <SourcesPanel
+              sources={sources}
+              note="The displayed names and concise English meanings are fetched from AlAdhan. The hadith reference is included for the general virtue of learning the names; deeper study should use qualified teaching."
+            />
+          </div>
+        </AnimateIn>
+      )}
     </div>
   );
 }

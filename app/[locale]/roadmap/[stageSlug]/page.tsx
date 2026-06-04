@@ -5,7 +5,13 @@ import { Accordion } from "@/components/Accordion";
 import { Button } from "@/components/Button";
 import { Icon } from "@/components/Icon";
 import { AnimateIn } from "@/components/AnimateIn";
-import { getAllStages, getStageById, getStepsByStageId } from "@/lib/content";
+import { SourcesPanel } from "@/components/SourceTags";
+import {
+  getAllStages,
+  getStageById,
+  getStepsByStageId,
+  getSourcesByIds,
+} from "@/lib/content";
 import {
   getTranslator,
   localizeHref,
@@ -48,6 +54,7 @@ export default function StagePage({
   const copy = t<Messages["pages"]["stage"]>("pages.stage");
 
   const steps = getStepsByStageId(stage.id, locale);
+  const stageSources = getSourcesByIds(stage.sourceIds ?? [], locale);
   const stageIndex = stages.findIndex((item) => item.id === stage.id);
   const nextStage =
     stageIndex < stages.length - 1 ? stages[stageIndex + 1] : null;
@@ -122,6 +129,115 @@ export default function StagePage({
         </section>
       </AnimateIn>
 
+      {(stage.focusNow?.length ||
+        stage.canWait?.length ||
+        stage.askHelpIf?.length) && (
+        <AnimateIn>
+          <section className="mb-12" aria-labelledby="stage-guidance-heading">
+            <h2
+              id="stage-guidance-heading"
+              className="mb-5 font-display text-2xl font-semibold tracking-tight text-textPrimary"
+            >
+              What to Focus On Now
+            </h2>
+            <div className="grid gap-4 md:grid-cols-3">
+              {stage.focusNow && stage.focusNow.length > 0 ? (
+                <div className="rounded-2xl border border-primaryGreen/30 bg-surfaceElevated/50 p-5">
+                  <h3 className="mb-3 mt-0 text-base font-semibold text-textPrimary">
+                    Focus on now
+                  </h3>
+                  <ul className="mb-0 flex flex-col gap-2.5 pl-0">
+                    {stage.focusNow.map((item) => (
+                      <li
+                        key={item}
+                        className="flex items-start gap-2.5 text-sm text-textSecondary"
+                      >
+                        <Icon
+                          name="check"
+                          size="sm"
+                          className="mt-0.5 shrink-0 text-primary"
+                        />
+                        <span>{item}</span>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              ) : null}
+
+              {stage.canWait && stage.canWait.length > 0 ? (
+                <div className="rounded-2xl border border-border/60 bg-white p-5">
+                  <h3 className="mb-3 mt-0 text-base font-semibold text-textPrimary">
+                    What can wait
+                  </h3>
+                  <ul className="mb-0 flex flex-col gap-2.5 pl-0">
+                    {stage.canWait.map((item) => (
+                      <li
+                        key={item}
+                        className="flex items-start gap-2.5 text-sm text-textSecondary"
+                      >
+                        <span
+                          className="mt-2 block h-1.5 w-1.5 shrink-0 rounded-full bg-primaryGreen"
+                          aria-hidden="true"
+                        />
+                        <span>{item}</span>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              ) : null}
+
+              {stage.askHelpIf && stage.askHelpIf.length > 0 ? (
+                <div className="rounded-2xl border border-warning/20 bg-accentYellow/20 p-5">
+                  <h3 className="mb-3 mt-0 text-base font-semibold text-textPrimary">
+                    Ask someone for help if
+                  </h3>
+                  <ul className="mb-0 flex flex-col gap-2.5 pl-0">
+                    {stage.askHelpIf.map((item) => (
+                      <li
+                        key={item}
+                        className="flex items-start gap-2.5 text-sm text-textSecondary"
+                      >
+                        <Icon
+                          name="info"
+                          size="sm"
+                          className="mt-0.5 shrink-0 text-warning"
+                        />
+                        <span>{item}</span>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              ) : null}
+            </div>
+          </section>
+        </AnimateIn>
+      )}
+
+      {stage.goodNextQuestions && stage.goodNextQuestions.length > 0 && (
+        <AnimateIn>
+          <section className="mb-12" aria-labelledby="good-questions-heading">
+            <h2
+              id="good-questions-heading"
+              className="mb-4 font-display text-2xl font-semibold tracking-tight text-textPrimary"
+            >
+              Good Next Questions
+            </h2>
+            <div className="flex flex-wrap gap-2">
+              {stage.goodNextQuestions.map((question) => (
+                <Button
+                  key={question.href}
+                  href={localizeHref(locale, question.href)}
+                  variant="outline"
+                >
+                  {question.label}
+                  <Icon name="chevron-right" size="sm" />
+                </Button>
+              ))}
+            </div>
+          </section>
+        </AnimateIn>
+      )}
+
       <section className="mb-12" aria-labelledby="steps-heading">
         <AnimateIn>
           <h2
@@ -176,6 +292,17 @@ export default function StagePage({
               </ul>
             </Accordion>
           </section>
+        </AnimateIn>
+      )}
+
+      {stageSources.length > 0 && (
+        <AnimateIn>
+          <div className="mb-12">
+            <SourcesPanel
+              sources={stageSources}
+              note="Stage guidance is general education for new Muslims. Local mentors and qualified teachers can help you apply it to your situation."
+            />
+          </div>
         </AnimateIn>
       )}
 

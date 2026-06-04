@@ -1,0 +1,65 @@
+{
+  "id": "first-jumuah",
+  "slug": "first-jumuah",
+  "stageId": "week-1",
+  "title": "Assistez à votre première prière du vendredi",
+  "whyMatters": "Jumuah est la prière hebdomadaire de la congrégation du vendredi. Cela peut être beau, mais cela peut aussi sembler bondé la première fois. Savoir à quoi s’attendre vous aide à arriver sereinement.",
+  "exactActions": [
+    {
+      "text": "Vérifiez l'heure avant de partir",
+      "subSteps": [
+        "Les heures de prière du vendredi peuvent différer des heures de Dhuhr quotidiennes.",
+        "De nombreuses mosquées proposent plusieurs services.",
+        "Confirmez le stationnement, l'entrée et l'espace réservé aux femmes, le cas échéant."
+      ]
+    },
+    {
+      "text": "Arrivez tôt",
+      "subSteps": [
+        "Donnez-vous le temps de trouver l’entrée et le coin chaussures.",
+        "Asseyez-vous tranquillement et écoutez la khutbah.",
+        "Si vous arrivez en retard, suivez la congrégation calmement."
+      ]
+    },
+    {
+      "text": "Suivez la congrégation",
+      "subSteps": [
+        "L'imam prononce un sermon, puis dirige deux unités de prière.",
+        "Vous pouvez suivre les mouvements des personnes autour de vous.",
+        "Demandez ensuite à quelqu'un si vous vous sentez perdu."
+      ]
+    },
+    {
+      "text": "Établissez une connexion avant de partir",
+      "subSteps": [
+        "Renseignez-vous sur les nouveaux cours musulmans ou sur un mentor.",
+        "S'il est trop occupé, envoyez un e-mail plus tard.",
+        "Vous n'avez pas besoin de rester pour une longue visite sociale."
+      ]
+    }
+  ],
+  "timeEstimate": "45 à 90 minutes, selon la mosquée",
+  "obstacles": [
+    {
+      "problem": "La foule se sent écrasante",
+      "solution": "Essayez une mosquée plus petite, arrivez plus tôt ou assistez d'abord à une prière quotidienne plus calme. Votre premier Jumuah ne doit pas nécessairement être votre première visite à la mosquée."
+    },
+    {
+      "problem": "Je ne comprends pas le sermon",
+      "solution": "Certaines khutbahs sont partiellement ou entièrement dans une autre langue. Recherchez des mosquées avec des khutbahs anglaises ou demandez ensuite un bref résumé."
+    }
+  ],
+  "tinyVersion": "Trouvez l'heure de prière du vendredi d'une mosquée et prévoyez d'arriver 15 minutes plus tôt.",
+  "unlocksNext": "Jumuah vous offre un rythme hebdomadaire et un lieu naturel pour trouver des cours, des mentors et une communauté.",
+  "resourceIds": ["learn-salah-guide", "new-muslim-guide-icna", "whyislam"],
+  "relatedGlossaryIds": ["jumuah", "masjid", "imam", "salah"],
+  "relatedTopicIds": ["masjid-and-community", "prayer", "community"],
+  "contextNotes": [
+    {
+      "title": "Travail ou école",
+      "body": "Si la prière du vendredi entre en conflit avec un horaire, demandez à un imam local comment gérer votre situation et quelle langue d'hébergement peut être appropriée."
+    }
+  ],
+  "sourceIds": ["new-muslim-guide", "seekersguidance", "whyislam"],
+  "reviewStatus": "review-needed"
+}

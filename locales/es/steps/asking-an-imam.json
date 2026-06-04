@@ -1,0 +1,65 @@
+{
+  "id": "asking-an-imam",
+  "slug": "asking-an-imam",
+  "stageId": "month-3-6",
+  "title": "Pregúntale bien a un imán o maestro",
+  "whyMatters": "Las buenas preguntas suelen recibir mejores respuestas. Aprender a preguntarle a un imán o a un maestro calificado le ayudará a evitar confusiones, obtener orientación relevante y saber cuándo un asunto necesita una revisión personal.",
+  "exactActions": [
+    {
+      "text": "Escribe la situación claramente.",
+      "subSteps": [
+        "Indique qué sucedió, qué decisión debe tomar y dónde vive.",
+        "Mencione fechas límite, presión familiar, problemas de salud o detalles financieros si son importantes.",
+        "Omita detalles privados que no afecten la pregunta."
+      ]
+    },
+    {
+      "text": "Pregunta por la prioridad principiante.",
+      "subSteps": [
+        "Di que eres un nuevo musulmán y necesitas el siguiente paso práctico.",
+        "Pregunte qué se debe hacer ahora y qué puede esperar.",
+        "Pregunte si existen diferencias de opinión que deba conocer sin detalles profundos."
+      ]
+    },
+    {
+      "text": "Verifique la respuesta antes de actuar sobre asuntos delicados",
+      "subSteps": [
+        "El matrimonio, el divorcio, la herencia, el zakat, los abusos, las cuestiones médicas y las cuestiones legales necesitan una revisión cuidadosa.",
+        "No confíe en comentarios anónimos para tomar decisiones importantes en la vida.",
+        "Busque ayuda profesional cuando el problema sea médico, legal o financiero."
+      ]
+    }
+  ],
+  "timeEstimate": "10-20 minutos para preparar una pregunta clara",
+  "obstacles": [
+    {
+      "problem": "Me da vergüenza hacer preguntas básicas.",
+      "solution": "Las preguntas básicas son exactamente lo que los profesores esperan de los principiantes. La humildad clara es mejor que la confusión silenciosa."
+    },
+    {
+      "problem": "Recibí diferentes respuestas",
+      "solution": "Pídele al profesor que te explique qué se aplica a tu situación y qué puede esperar. Si es necesario, pregúntele a un académico local calificado que conozca su contexto."
+    }
+  ],
+  "tinyVersion": "Escribe: qué pasó, qué debes decidir y que eres un nuevo musulmán.",
+  "unlocksNext": "Las buenas preguntas le ayudan a seguir aprendiendo con confianza y a evitar seguir consejos poco fiables.",
+  "resourceIds": [
+    "seekers-guidance",
+    "new-muslim-academy",
+    "new-muslim-guide-icna"
+  ],
+  "relatedGlossaryIds": ["imam", "sunnah", "halal", "haram"],
+  "relatedTopicIds": [
+    "questions-and-doubts",
+    "masjid-and-community",
+    "new-muslim-basics"
+  ],
+  "gentleScripts": [
+    {
+      "title": "Pidiendo una respuesta para principiantes",
+      "body": "Soy un musulmán nuevo y estoy tratando de hacer esto correctamente sin sentirme abrumado. ¿Cuál es el siguiente paso práctico para mi situación y qué puede esperar?"
+    }
+  ],
+  "sourceIds": ["seekersguidance", "new-muslim-academy", "whyislam"],
+  "reviewStatus": "source-checked"
+}

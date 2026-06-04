@@ -57,7 +57,13 @@
   ],
   "tinyVersion": "이슬람에서의 새로운 시작을 위해 자신을 정화하려는 진지한 의도로 샤워를 하십시오. 그것이 Ghusl의 본질입니다.",
   "unlocksNext": "정화가 완료되면 1주차로 이동하여 다섯 가지 매일 기도에 대해 배우기 시작할 준비가 된 것입니다.",
-  "resourceIds": ["ghusl-guide-article", "wudu-video"],
+  "resourceIds": [
+    "purification-fiqh-guide",
+    "wudu-tutorial",
+    "new-muslim-guide-site"
+  ],
   "relatedGlossaryIds": ["ghusl", "wudu", "niyyah", "taharah", "tayammum"],
-  "relatedTopicIds": ["purification"]
+  "relatedTopicIds": ["purification", "prayer", "new-muslim-basics"],
+  "sourceIds": ["new-muslim-guide", "seekersguidance"],
+  "reviewStatus": "review-needed"
 }

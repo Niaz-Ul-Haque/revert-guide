@@ -39,11 +39,11 @@
     {
       "text": "인터넷뿐만 아니라 학자들로부터 배우세요",
       "subSteps": [
-        "교사와의 개인적인 연결은 학습을 가속화하고 오해를 예방합니다.",
+        "교사와의 개인적인 연결은 학습을 가속화하고 오해를 방지합니다.",
         "다양한 성원에서 열리는 강의나 금요일 쿠트바에 참석하여 다양한 관점을 들어보세요.",
         "가능하다면 무작위 기사에서 배우기보다는 체계적인 과정, 심지어 무료 온라인 과정에도 등록하세요.",
         "훌륭한 교사는 정보를 상황에 맞게 설명하고 구체적인 질문에 답합니다.",
-        "하디스를 기억하십시오. '지식을 추구하는 길을 여행하는 사람이라면 누구나 천국으로 가는 길을 쉽게 만들어 주실 것입니다.'"
+        "하디스를 기억하십시오. '지식을 추구하는 길을 여행하는 사람이라면 알라께서 그들에게 천국으로 가는 길을 쉽게 만들어 주실 것입니다.'"
       ]
     },
     {
@@ -83,11 +83,10 @@
   "tinyVersion": "책, 강좌, 주간 수업 등 신뢰할 수 있는 소스 하나를 선택하고 이에 전념하세요. 아무리 작고 지속적인 학습이라도 시간이 지나면서 깊은 이해가 쌓이게 됩니다.",
   "unlocksNext": "지식과 실천의 탄탄한 기초를 바탕으로 이슬람의 나머지 기둥인 자카트(Zakat)와 하지(Hajj)에 대해 배우고 무슬림으로서 장기적인 목표에 대해 생각해 볼 준비가 되었습니다.",
   "resourceIds": [
-    "seekersguidance-courses",
-    "yaqeen-institute-articles",
-    "bayyinah-tv-subscription",
-    "new-muslim-reading-list",
-    "islamic-podcasts-list"
+    "seekers-guidance",
+    "yaqeen-institute",
+    "bayyinah-tv",
+    "new-muslim-academy"
   ],
   "relatedGlossaryIds": [
     "ilm",
@@ -99,5 +98,12 @@
     "seerah",
     "hadith"
   ],
-  "relatedTopicIds": ["beliefs", "community"]
+  "relatedTopicIds": [
+    "beliefs",
+    "community",
+    "questions-and-doubts",
+    "prophet-muhammad"
+  ],
+  "sourceIds": ["seekersguidance", "yaqeen-institute", "new-muslim-academy"],
+  "reviewStatus": "source-checked"
 }

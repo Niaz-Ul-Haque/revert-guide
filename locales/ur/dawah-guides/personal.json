@@ -1,0 +1,1428 @@
+{
+  "id": "personal",
+  "slug": "dawah-guide-personal",
+  "title": "دعوت گائیڈ",
+  "subtitle": "اسلام کو حکمت اور مہربانی کے ساتھ بانٹنے کے لیے ایک نرم، قدم بہ قدم ساتھی۔",
+  "audienceNote": "یہ داعیوں (اسلام کی طرف دعوت دینے والوں) کے لیے ایک پرائیویٹ، ڈائریکٹ لنک گائیڈ ہے۔ یہ فیلڈ کا ساتھی ہے، اسکرپٹ نہیں۔ حقیقی گفتگو لکیری نہیں ہوتی - پہلے سنیں، دوسرے شخص کی رفتار سے آگے بڑھیں، اور نتیجہ اللہ پر چھوڑ دیں۔",
+  "reviewStatus": "source-checked",
+  "reviewNote": "2026-06-03 کو آن لائن سورس لنکس کے خلاف قرآن اور حدیث کے حوالہ جات کی جانچ پڑتال کی گئی۔ اس کو تصدیق شدہ نشان زد نہیں کیا گیا ہے کیونکہ اہل اسکالر/دستی منظوری ابھی باقی ہے۔",
+  "lastSourceChecked": "2026-06-03",
+  "tonePrinciples": [
+    "حکمت اور اچھے اخلاق کے ساتھ دعوت دیں، کبھی دباؤ نہ ڈالیں۔",
+    "آپ بولنے سے زیادہ سنیں۔ ایک وقت میں ایک سوال پوچھیں۔",
+    "کبھی بھی دوسرے شخص کے عقائد یا پس منظر کا مذاق نہ اڑائیں۔",
+    "جیتنے کی خاطر بحث سے گریز کریں۔ سمجھنے کا مقصد۔",
+    "دروازہ کھلا رکھیں خواہ بات شھادہ کے بغیر ختم ہو۔",
+    "خلوص نیت سے دعا کریں اور نتیجہ اللہ پر چھوڑ دیں۔"
+  ],
+  "startNodeId": "start",
+  "nodeOrder": [
+    "start",
+    "believe-in-god-initial",
+    "signs-creation-infinite-regress",
+    "believe-in-god-after-signs",
+    "tawheed-surah-ikhlas",
+    "one-god-initial",
+    "ayat-ikhtilaf",
+    "one-god-after-ikhtilaf",
+    "justice-day-judgment-test-revelation",
+    "angels",
+    "messengers-prophets",
+    "jesus-peace-be-upon-him",
+    "shahada-readiness-initial",
+    "encourage-keep-door-open",
+    "shahada-readiness-after-encouragement",
+    "connect-guidance-community",
+    "respectful-exit-best-of-luck"
+  ],
+  "nodes": {
+    "start": {
+      "id": "start",
+      "kind": "intro",
+      "title": "گفتگو شروع کریں۔",
+      "eyebrow": "اسلام/مسلم",
+      "summary": "گرمجوشی اور قدرتی طور پر شروع کریں۔ عقیدے پر بحث کرنے سے پہلے ایک حقیقی تعلق قائم کریں۔",
+      "explanation": [
+        "کوئی کامل افتتاحی لائن نہیں ہے۔ ایک مخلص مسکراہٹ، ایک مہربان لفظ، اور شخص میں حقیقی دلچسپی کسی بھی تکنیک سے زیادہ اہمیت رکھتی ہے۔",
+        "گفتگو کو آگے بڑھنے دیں۔ آپ کوئی لیکچر نہیں دے رہے ہیں - آپ ایک انسانی گفتگو کر رہے ہیں جو آہستہ سے زندگی کے مقصد اور ہمارے خالق کے ساتھ ہمارے تعلق کی طرف مڑ سکتی ہے۔"
+      ],
+      "conversationTips": [
+        "شروع کرنے سے پہلے دعا کریں اور اللہ سے دعا کریں کہ وہ دونوں دلوں کو نرم کرے۔",
+        "کھلے سوالات پوچھیں اور حقیقی طور پر جوابات سنیں۔",
+        "کسی گہرے موضوع میں جانے سے پہلے اجازت طلب کریں: \"کیا یہ ٹھیک ہو گا اگر میں یہ بتاؤں کہ اسلام اس کو کس طرح دیکھتا ہے؟\"",
+        "پہلے مشترکہ بنیاد تلاش کریں — زیادہ تر لوگ سچائی، انصاف اور معنی کی پرواہ کرتے ہیں۔"
+      ],
+      "referenceIds": ["quran-16-125"],
+      "nextNodeId": "believe-in-god-initial"
+    },
+    "believe-in-god-initial": {
+      "id": "believe-in-god-initial",
+      "kind": "decision",
+      "title": "کیا وہ خدا پر یقین رکھتے ہیں؟",
+      "summary": "آہستہ سے سمجھیں کہ وہ شخص کہاں کھڑا ہے۔ یہاں کوئی صحیح یا غلط جواب نہیں ہے - صرف ایک نقطہ آغاز۔",
+      "conversationTips": [
+        "بغیر کسی فیصلے کے پوچھیں: \"کیا آپ خالق پر یقین رکھتے ہیں؟\" اور انہیں اپنے الفاظ میں سمجھانے دیں۔",
+        "اگر انہیں یقین نہیں ہے تو یہ بالکل ٹھیک ہے - جہاں وہ ہیں ان سے ملیں۔"
+      ],
+      "options": [
+        {
+          "id": "yes",
+          "label": "ہاں وہ خدا پر یقین رکھتے ہیں۔",
+          "helperText": "خدا کی وحدانیت کو سمجھنے کی طرف بڑھیں۔",
+          "nextNodeId": "tawheed-surah-ikhlas",
+          "ariaLabel": "ہاں، وہ خدا پر یقین رکھتے ہیں - توحید کو جاری رکھیں"
+        },
+        {
+          "id": "no",
+          "label": "نہیں، یا انہیں یقین نہیں ہے۔",
+          "helperText": "آہستہ سے تخلیق کی علامات کو ایک ساتھ دریافت کریں۔",
+          "nextNodeId": "signs-creation-infinite-regress",
+          "ariaLabel": "نہیں یا غیر یقینی — تخلیق کے آثار دریافت کریں۔"
+        }
+      ]
+    },
+    "signs-creation-infinite-regress": {
+      "id": "signs-creation-infinite-regress",
+      "kind": "teaching",
+      "title": "تخلیق کی نشانیاں",
+      "eyebrow": "آیت / ڈیزائن / تخلیق",
+      "summary": "انہیں کائنات کی ترتیب، ڈیزائن اور وجود پر غور کرنے کے لیے مدعو کریں — بغیر کسی نتیجے پر مجبور کیے جائیں۔",
+      "explanation": [
+        "ہر چیز جو ہم دیکھتے ہیں اس کی ایک ابتدا اور ایک وجہ ہوتی ہے۔ تخلیق پر غور کرنا ایک سادہ سا سوال کی دعوت دیتا ہے: کیا یہ سب کچھ کسی چیز سے نہیں آیا، یا یہ کسی خالق کی طرف اشارہ کرتا ہے؟",
+        "ان مظاہر کو عاجزی کے ساتھ شیئر کریں، جیتنے کے لیے بحث کے بجائے حیرت کے طور پر۔ مقصد سوچ کا دروازہ کھولنا ہے، کسی کو گھیرنا نہیں۔"
+      ],
+      "conversationTips": [
+        "عکاسی کو مدعو کریں: \"کیا آپ نے کبھی سوچا ہے کہ سب کچھ آخر کہاں سے آیا؟\"",
+        "پیچیدہ فلسفہ کے بجائے ڈیزائن اور ترتیب کی روزمرہ کی مثالیں استعمال کریں۔",
+        "پرسکون اور متجسس رہیں۔ اسے دلیل میں بدلنے سے گریز کریں۔"
+      ],
+      "avoid": [
+        "زیادہ پراعتماد فلسفیانہ دعوے جن کی آپ وضاحت نہیں کر سکتے۔",
+        "اس شخص سے بات کرنا یا یہ بتانا کہ وہ بے وقوف ہیں۔"
+      ],
+      "referenceIds": ["quran-52-35"],
+      "nextNodeId": "believe-in-god-after-signs"
+    },
+    "believe-in-god-after-signs": {
+      "id": "believe-in-god-after-signs",
+      "kind": "decision",
+      "title": "غور کرنے کے بعد، کیا وہ خدا پر یقین رکھتے ہیں؟",
+      "summary": "آہستہ سے چیک ان کریں۔ ایمان ان کے اور اللہ کے درمیان ہے، آپ کا کردار صرف دعوت دینا ہے۔",
+      "options": [
+        {
+          "id": "yes",
+          "label": "ہاں، اب وہ مان گئے ہیں۔",
+          "helperText": "خدا کی وحدانیت کی طرف بڑھو۔",
+          "nextNodeId": "tawheed-surah-ikhlas",
+          "ariaLabel": "ہاں، اب وہ مانتے ہیں - توحید کو جاری رکھیں"
+        },
+        {
+          "id": "no",
+          "label": "نہیں ابھی تک نہیں۔",
+          "helperText": "گرمجوشی سے بند کریں اور دروازہ کھلا رکھیں۔",
+          "nextNodeId": "respectful-exit-best-of-luck",
+          "ariaLabel": "نہیں، ابھی تک نہیں - گرمجوشی سے بند کرو"
+        }
+      ]
+    },
+    "tawheed-surah-ikhlas": {
+      "id": "tawheed-surah-ikhlas",
+      "kind": "teaching",
+      "title": "خدا کی وحدانیت (توحید)",
+      "eyebrow": "توحید/سورہ اخلاص/اللہ",
+      "summary": "متعارف کروائیں کہ اسلام میں خدا کون ہے: ایک، ابدی، بغیر شریک یا برابر، جیسا کہ سورہ اخلاص میں بیان کیا گیا ہے۔",
+      "explanation": [
+        "اسلام میں، خدا (اللہ) ایک ہے - اس کا کوئی شریک نہیں، کوئی اولاد نہیں، اور اس کے مقابلے میں کوئی چیز نہیں ہے۔ \"اللہ\" صرف ایک خدا کے لئے عربی لفظ ہے، ایک ہی خدا جس کی پرستش تمام انبیاء کرتے ہیں۔",
+        "سورہ اخلاص قرآن کا ایک مختصر باب ہے جس میں اس خالص عقیدے کو چار سطروں میں خوبصورتی سے بیان کیا گیا ہے۔"
+      ],
+      "conversationTips": [
+        "وضاحت کریں کہ \"اللہ\" کوئی مختلف خدا نہیں ہے بلکہ سب کا ایک ہی خالق ہے۔",
+        "سورہ اخلاص کو ایک نرم اور واضح خلاصہ کے طور پر شیئر کریں کہ خدا کون ہے۔"
+      ],
+      "referenceIds": ["quran-112-ikhlas"],
+      "nextNodeId": "one-god-initial"
+    },
+    "one-god-initial": {
+      "id": "one-god-initial",
+      "kind": "decision",
+      "title": "کیا وہ تسلیم کرتے ہیں کہ خدا ایک ہے؟",
+      "summary": "دیکھیں کہ کیا ایک، ناقابل تقسیم خدا کا تصور ان کے ساتھ گونجتا ہے۔",
+      "options": [
+        {
+          "id": "yes",
+          "label": "ہاں وہ ایک خدا کو مانتے ہیں۔",
+          "helperText": "وحی، انصاف اور روز جزا کی طرف بڑھو۔",
+          "nextNodeId": "justice-day-judgment-test-revelation",
+          "ariaLabel": "ہاں، وہ ایک خدا کو قبول کرتے ہیں — جاری رکھیں"
+        },
+        {
+          "id": "no",
+          "label": "نہیں، یا ان کے پاس سوالات ہیں۔",
+          "helperText": "آہستہ سے بحث کریں کہ ایک سے زیادہ دیوتا کیوں تضاد کا باعث بنتے ہیں۔",
+          "nextNodeId": "ayat-ikhtilaf",
+          "ariaLabel": "نہیں یا سوالات - ایک خدا کی منطق پر بحث کریں۔"
+        }
+      ]
+    },
+    "ayat-ikhtilaf": {
+      "id": "ayat-ikhtilaf",
+      "kind": "teaching",
+      "title": "ایک خدا کیوں سمجھ میں آتا ہے۔",
+      "eyebrow": "آیت اختلف",
+      "summary": "پرسکون طریقے سے بحث کریں کہ متعدد مسابقتی دیوتا کس طرح تصادم اور انتشار کا باعث بنیں گے - جبکہ ایک تخلیق کار ہم آہنگی کی وضاحت کرتا ہے جس کا ہم مشاہدہ کرتے ہیں۔",
+      "explanation": [
+        "اگر ان کی اپنی مرضی کے ساتھ بہت سے خدا ہوتے تو تخلیق کو متضاد سمتوں میں کھینچا جاتا۔ کائنات کی ترتیب اور ہم آہنگی اس کے بجائے ایک ہی اتھارٹی کی طرف اشارہ کرتی ہے۔",
+        "اسے ایک عکاسی کے طور پر پیش کریں، ناک آؤٹ دلیل کے طور پر نہیں۔ کچھ لوگوں کو وقت کی ضرورت ہوتی ہے، اور یہ ٹھیک ہے۔"
+      ],
+      "conversationTips": [
+        "لہجے کو عکاس اور شائستہ رکھیں، کبھی بھی لڑائی نہ کریں۔",
+        "خاموشی اور سوالات کی اجازت دیں۔ آپ بیج لگا رہے ہیں، فروخت بند نہیں کر رہے ہیں۔"
+      ],
+      "avoid": [
+        "شرک یا دوسرے عقائد کا مذاق اڑانا۔",
+        "بحث کو گرما گرم بحث میں بدلنا۔"
+      ],
+      "referenceIds": ["quran-21-22"],
+      "nextNodeId": "one-god-after-ikhtilaf"
+    },
+    "one-god-after-ikhtilaf": {
+      "id": "one-god-after-ikhtilaf",
+      "kind": "decision",
+      "title": "کیا ایک خدا اب ان کے لیے کوئی معنی رکھتا ہے؟",
+      "summary": "آہستہ سے اور دباؤ کے بغیر دوبارہ چیک ان کریں۔",
+      "options": [
+        {
+          "id": "yes",
+          "label": "ہاں، اب یہ سمجھ میں آتا ہے۔",
+          "helperText": "وحی، انصاف اور روز جزا کی طرف بڑھو۔",
+          "nextNodeId": "justice-day-judgment-test-revelation",
+          "ariaLabel": "ہاں - وحی اور قیامت تک جاری رکھیں"
+        },
+        {
+          "id": "no",
+          "label": "نہیں ابھی تک نہیں۔",
+          "helperText": "گرمجوشی سے بند کریں اور دروازہ کھلا رکھیں۔",
+          "nextNodeId": "respectful-exit-best-of-luck",
+          "ariaLabel": "نہیں، ابھی تک نہیں - گرمجوشی سے بند کرو"
+        }
+      ]
+    },
+    "justice-day-judgment-test-revelation": {
+      "id": "justice-day-judgment-test-revelation",
+      "kind": "teaching",
+      "title": "انصاف، زندگی کا امتحان، اور وحی",
+      "eyebrow": "انصاف / فیصلے کا دن / امتحان / انکشاف",
+      "summary": "یہ بتائیے کہ یہ زندگی ایک امتحان ہے، یہ انصاف قیامت کے دن پورا ہو گا، اور یہ کہ اللہ نے ہمیں ہدایت کے بغیر نہیں چھوڑا۔",
+      "explanation": [
+        "ایک عادل خُدا غلط کام کو ہمیشہ کے لیے بے توجہ نہیں چھوڑے گا۔ یومِ جزا وہ ہے جہاں کامل انصاف بالآخر قائم ہو جاتا ہے۔",
+        "چونکہ زندگی ایک بامعنی امتحان ہے، خُدا نے وحی بھیجی — اپنے رسولوں کے ذریعے رہنمائی — اس لیے ہمیں زندگی کے مقصد کو جاننے کے لیے کبھی نہیں چھوڑا جاتا۔"
+      ],
+      "conversationTips": [
+        "انصاف اور انصاف کے ان کے فطری احساس سے جڑیں۔",
+        "وحی کو رحمت کے طور پر ڈھالیں: ہم اندازہ لگانے کے لیے نہیں رہ گئے ہیں۔"
+      ],
+      "referenceIds": ["hadith-jibril"],
+      "nextNodeId": "angels"
+    },
+    "angels": {
+      "id": "angels",
+      "kind": "teaching",
+      "title": "فرشتوں پر ایمان",
+      "eyebrow": "فرشتے",
+      "summary": "فرشتوں کو خدا کی معزز مخلوق کے طور پر متعارف کروائیں جو اس کے احکام کو بجا لاتے ہیں، بشمول وحی پہنچانا۔",
+      "explanation": [
+        "فرشتے خدا کی طرف سے نور سے بنائے گئے مخلوق ہیں جو کبھی اس کی نافرمانی نہیں کرتے۔ ان کے کردار ہیں جیسے وحی پہنچانا، اعمال ریکارڈ کرنا، اور بہت کچھ۔",
+        "فرشتوں پر یقین غیب کی وسیع تر اسلامی فہم کا حصہ ہے۔"
+      ],
+      "referenceIds": ["hadith-jibril"],
+      "nextNodeId": "messengers-prophets"
+    },
+    "messengers-prophets": {
+      "id": "messengers-prophets",
+      "kind": "teaching",
+      "title": "رسول اور انبیاء",
+      "eyebrow": "رسول/پیغمبر",
+      "summary": "وضاحت کریں کہ خدا نے پوری تاریخ میں بہت سے انبیاء اور رسول بھیجے، سب ایک بنیادی پیغام لے کر گئے: ایک خدا کی عبادت کریں۔",
+      "explanation": [
+        "پہلے انسان سے لے کر، خدا نے ہر قوم کے لیے رہنما بھیجے۔ نوح، ابراہیم، موسیٰ اور عیسیٰ جیسے ناموں کو اسلام میں بہت زیادہ عزت دی جاتی ہے۔",
+        "اگرچہ ان کی برادریاں اور اوقات مختلف تھے، لیکن ان کا مرکزی پیغام ایک ہی تھا: عبادت کے لائق صرف ایک ہی خدا ہے۔"
+      ],
+      "conversationTips": [
+        "انبیاء کے درمیان مشترکہ دھاگے پر زور دیں - یہ اکثر دوسرے عقائد کے لوگوں کے ساتھ گونجتا ہے۔"
+      ],
+      "referenceIds": ["quran-21-25"],
+      "nextNodeId": "jesus-peace-be-upon-him"
+    },
+    "jesus-peace-be-upon-him": {
+      "id": "jesus-peace-be-upon-him",
+      "kind": "teaching",
+      "title": "حضرت عیسیٰ علیہ السلام",
+      "eyebrow": "حضرت عیسیٰ علیہ السلام",
+      "summary": "یسوع کے بارے میں گہری محبت اور احترام کے ساتھ بات کریں، جیسا کہ اسلام انہیں خدا کے عظیم ترین پیغمبروں میں سے ایک کے طور پر عزت دیتا ہے۔",
+      "explanation": [
+        "مسلمان حضرت عیسیٰ علیہ السلام سے محبت اور تعظیم کرتے ہیں۔ ہم اس کی معجزانہ پیدائش، خدا کی اجازت سے اس کے معجزات، اور اس کے عظیم پیغام پر یقین رکھتے ہیں۔",
+        "اسلام سکھاتا ہے کہ حضرت عیسیٰ علیہ السلام خدا کے ایک زبردست رسول تھے جنہوں نے لوگوں کو ایک خدا کی عبادت کرنے کی دعوت دی۔ اس موضوع کو بڑی احتیاط اور احترام کے ساتھ دیکھیں، خاص کر مسیحی پس منظر والوں کے ساتھ۔"
+      ],
+      "conversationTips": [
+        "یسوع کے لیے مشترکہ محبت اور احترام کے ساتھ رہنمائی کریں — کبھی بھی تنقید کے ساتھ نہیں۔",
+        "غور سے سنو؛ یہ بہت سے لوگوں کے لیے ایک جذباتی موضوع ہو سکتا ہے۔"
+      ],
+      "avoid": [
+        "عیسائی عقائد کی بے عزتی کرنا یا الہیات کے بارے میں جارحانہ بحث کرنا۔",
+        "اس گفتگو میں جلدی کرنا - اسے گرمجوشی اور وقت دیں۔"
+      ],
+      "referenceIds": ["quran-3-45"],
+      "nextNodeId": "shahada-readiness-initial"
+    },
+    "shahada-readiness-initial": {
+      "id": "shahada-readiness-initial",
+      "kind": "decision",
+      "title": "کیا وہ شہادت کے لیے تیار ہیں؟",
+      "summary": "محسوس کریں کہ آیا وہ شخص اسلام قبول کرنے کے لیے تیار ہے۔ تیاری ان کی طرف سے، خلوص اور آزادی سے آنی چاہیے۔",
+      "conversationTips": [
+        "کبھی دباؤ نہ ڈالیں۔ شہدا ایک آزاد، مخلص انتخاب ہونا چاہیے۔",
+        "ایک بار نرمی سے پوچھیں، پھر انہیں سوچنے کی جگہ دیں۔",
+        "یہ بالکل ٹھیک ہے — اور اکثر بہتر — کسی کے لیے زیادہ وقت لگے۔"
+      ],
+      "options": [
+        {
+          "id": "yes",
+          "label": "جی ہاں، وہ تیار محسوس کرتے ہیں",
+          "helperText": "انہیں رہنمائی اور برادری سے جوڑیں۔",
+          "nextNodeId": "connect-guidance-community",
+          "ariaLabel": "ہاں، وہ تیار محسوس کرتے ہیں — انہیں کمیونٹی سے جوڑیں۔"
+        },
+        {
+          "id": "no",
+          "label": "ابھی تک نہیں۔",
+          "helperText": "نرمی سے حوصلہ افزائی کریں اور دروازہ کھلا رکھیں۔",
+          "nextNodeId": "encourage-keep-door-open",
+          "ariaLabel": "ابھی تک نہیں - آہستہ سے حوصلہ افزائی کریں۔"
+        }
+      ]
+    },
+    "encourage-keep-door-open": {
+      "id": "encourage-keep-door-open",
+      "kind": "encouragement",
+      "title": "نرمی سے حوصلہ دیں، دروازہ کھلا رکھیں",
+      "eyebrow": "حوصلہ افزائی کریں۔",
+      "summary": "بغیر کسی دباؤ کے گرمجوشی، وسائل اور دوستی پیش کریں۔ انہیں بتائیں کہ دروازہ ہمیشہ کھلا ہے۔",
+      "explanation": [
+        "انہیں یقین دلائیں کہ کوئی جلدی اور کوئی دباؤ نہیں ہے۔ کسی بھی وقت سوالات کے جواب دینے کی پیشکش کریں، بہت کم تعداد میں قابل اعتماد وسائل کا اشتراک کریں، اور انہیں فیصلہ کرنے دیں کہ وہ ابھی جاری رکھنا چاہتے ہیں یا بعد میں۔",
+        "ایک مہربان، صابر داعی جو دروازہ کھلا رکھتا ہے، دھکا دینے والے سے کہیں زیادہ موثر ہے۔ ہدایت اللہ کی طرف سے ہے اور بہت سے لوگ پہلی گفتگو کے بعد اسلام قبول کر لیتے ہیں۔"
+      ],
+      "conversationTips": [
+        "اپنا رابطہ اور چند نرم وسائل پیش کریں۔",
+        "اگر وہ تھکے ہوئے، تناؤ یا مغلوب نظر آتے ہیں، تو مزید پوائنٹس شامل کرنے کے بجائے توقف کریں۔",
+        "ان کے فیصلے سے قطع نظر دوستی کی تصدیق کریں۔",
+        "ان کے لیے خلوت میں دعا کریں۔"
+      ],
+      "referenceIds": ["quran-51-55", "quran-28-56", "quran-2-256"],
+      "nextNodeId": "shahada-readiness-after-encouragement"
+    },
+    "shahada-readiness-after-encouragement": {
+      "id": "shahada-readiness-after-encouragement",
+      "kind": "decision",
+      "title": "حوصلہ افزائی کے بعد، کیا وہ تیار ہیں؟",
+      "summary": "صرف دوبارہ چیک ان کریں اگر لمحہ اب بھی خوش آئند محسوس ہوتا ہے۔ وہ جو بھی فیصلہ کریں، مہربانی سے جواب دیں۔",
+      "options": [
+        {
+          "id": "yes",
+          "label": "ہاں، وہ جاری رکھنے کو کہتے ہیں۔",
+          "helperText": "انہیں رہنمائی اور برادری سے جوڑیں۔",
+          "nextNodeId": "connect-guidance-community",
+          "ariaLabel": "ہاں، وہ جاری رکھنے کو کہتے ہیں — انہیں کمیونٹی سے جوڑیں۔"
+        },
+        {
+          "id": "no",
+          "label": "ابھی تک نہیں",
+          "helperText": "گرمجوشی سے بند کریں اور دروازہ کھلا رکھیں۔",
+          "nextNodeId": "respectful-exit-best-of-luck",
+          "ariaLabel": "ابھی تک نہیں - گرمجوشی سے بند کریں۔"
+        }
+      ]
+    },
+    "connect-guidance-community": {
+      "id": "connect-guidance-community",
+      "kind": "completion",
+      "title": "انہیں رہنمائی اور برادری سے جوڑیں۔",
+      "eyebrow": "رابطے / مسلم گائیڈ",
+      "summary": "سپورٹ کے ساتھ اگلے اقدامات کرنے میں ان کی مدد کریں۔ ایک نئے مسلمان کو کبھی تنہا محسوس نہیں کرنا چاہیے۔",
+      "explanation": [
+        "اسلام قبول کرنا ایک آغاز ہے، انتہا نہیں۔ اب سب سے اہم چیز محبت بھری حمایت اور نرم، عملی رہنمائی ہے۔",
+        "ایک قابل اعتماد مقامی کمیونٹی کے ساتھ جڑنے میں ان کی مدد کریں تاکہ وہ اپنی رفتار سے سیکھ سکیں اور ترقی کر سکیں۔"
+      ],
+      "checklist": [
+        "ان کا تعارف مقامی امام یا سرپرست سے کروائیں۔",
+        "انہیں ایک نئے مسلم سپورٹ گروپ سے جوڑیں۔",
+        "ایک خوش آئند مقامی مسجد تلاش کرنے میں ان کی مدد کریں۔",
+        "ایک نرم فالو اپ پلان پر اتفاق کریں (ایک چیک ان، ایک کلاس، ایک ساتھ کھانا)۔",
+        "نماز اور اسلام کی بنیادی باتوں کے بارے میں ابتدائی دوستانہ وسائل کا اشتراک کریں۔"
+      ],
+      "referenceIds": ["quran-16-125"]
+    },
+    "respectful-exit-best-of-luck": {
+      "id": "respectful-exit-best-of-luck",
+      "kind": "exit",
+      "title": "گرمجوشی سے بند کریں - دروازہ کھلا رکھیں",
+      "eyebrow": "بیسٹ آف لک",
+      "summary": "نتیجہ کی پرواہ کیے بغیر ہر گفتگو کو مہربانی کے ساتھ ختم کریں۔ آپ کا کام پیغام دینا ہے، تبدیل کرنا نہیں۔",
+      "explanation": [
+        "ان کے وقت اور کھلے دل سے ان کا شکریہ۔ یہ واضح کریں کہ بعد میں بات چیت جاری رکھنے کے لیے ان کا ہمیشہ خیرمقدم ہے۔",
+        "کسی مایوسی یا بحث سے گریز کریں۔ ہدایت صرف اللہ کی طرف سے ہے - آپ کا کردار صرف حکمت اور اچھے اخلاق کے ساتھ دعوت دینا اور ان کے لیے خلوت میں دعا کرنا ہے۔"
+      ],
+      "conversationTips": [
+        "ان پر اسلام اور مسلمانوں کا اچھا تاثر چھوڑیں۔",
+        "کسی بھی وقت رابطے میں رہنے اور سوالات کے جوابات دینے کی پیشکش کریں۔",
+        "واضح طور پر توقف یا انکار کرنے کے بعد فیصلہ نہ مانگیں۔",
+        "علیحدگی کے بعد ان کے لیے مخلصانہ دعا کریں۔"
+      ],
+      "referenceIds": ["quran-51-55", "quran-28-56", "quran-2-256"]
+    }
+  },
+  "gorap": [
+    {
+      "letter": "G",
+      "title": "خدا",
+      "shortLabel": "اللہ کا وجود",
+      "explanation": "ایک خالق پر یقین قائم کریں - خدا کے وجود پر۔",
+      "relatedNodeIds": [
+        "believe-in-god-initial",
+        "signs-creation-infinite-regress"
+      ]
+    },
+    {
+      "letter": "O",
+      "title": "ایک خدا",
+      "shortLabel": "توحید",
+      "explanation": "خدا کی وحدانیت کو قائم کرو - کہ وہ ایک ہے، بغیر شریک اور برابر کے۔",
+      "relatedNodeIds": [
+        "tawheed-surah-ikhlas",
+        "one-god-initial",
+        "ayat-ikhtilaf"
+      ]
+    },
+    {
+      "letter": "R",
+      "title": "وحی",
+      "shortLabel": "انصاف / فیصلے کا دن / امتحان",
+      "explanation": "قائم کریں کہ زندگی ایک امتحان ہے، انصاف پورا ہو گا، اور خدا نے ہدایت کے طور پر وحی بھیجی ہے۔",
+      "relatedNodeIds": ["justice-day-judgment-test-revelation"]
+    },
+    {
+      "letter": "A",
+      "title": "فرشتے",
+      "shortLabel": "فرشتے",
+      "explanation": "فرشتوں، معزز مخلوقات پر یقین قائم کریں جو خدا کے احکامات پر عمل کرتے ہیں۔",
+      "relatedNodeIds": ["angels"]
+    },
+    {
+      "letter": "P",
+      "title": "انبیاء و مرسلین",
+      "shortLabel": "ایک پیغام",
+      "explanation": "انبیاء اور رسولوں پر ایمان قائم کریں، جو سب ایک ہی بنیادی پیغام لے کر آئے تھے۔",
+      "relatedNodeIds": ["messengers-prophets", "jesus-peace-be-upon-him"]
+    }
+  ],
+  "suggestions": {
+    "outsideTheField": [
+      {
+        "id": "dua",
+        "title": "دعا",
+        "body": "گفتگو سے پہلے، دوران اور بعد میں شخص اور اپنے لیے مخلصانہ دعا کریں۔ ہدایت اللہ کی طرف سے آتی ہے۔",
+        "priority": "core"
+      },
+      {
+        "id": "sincerity",
+        "title": "اخلاص",
+        "body": "اپنی نیت کو صاف کریں۔ آپ اللہ کے لیے پیغام دے رہے ہیں نہ کہ جیتنے کے لیے اور نہ ہی دیکھے جانے کے لیے۔",
+        "priority": "core"
+      },
+      {
+        "id": "planning",
+        "title": "منصوبہ بندی",
+        "body": "بنیادی باتیں اچھی طرح جانیں تاکہ آپ عام سوالات کے جواب سکون اور ایمانداری سے دے سکیں۔ \"مجھے نہیں معلوم، مجھے معلوم کرنے دو\" کہنا ٹھیک ہے۔",
+        "priority": "helpful"
+      },
+      {
+        "id": "istiqamah",
+        "title": "استقامت",
+        "body": "اپنے عمل میں ثابت قدم اور مستقل مزاج رہیں۔ آپ کا کردار آپ کی سب سے طاقتور دعوت ہے۔",
+        "priority": "helpful"
+      }
+    ],
+    "onTheField": [
+      {
+        "id": "make-dua",
+        "title": "دعا کرو",
+        "body": "خاموشی سے اللہ سے دعا کریں کہ وہ دلوں کو نرم کر دے جیسا کہ گفتگو کا آغاز ہوتا ہے۔",
+        "priority": "core"
+      },
+      {
+        "id": "smile",
+        "title": "مسکراہٹ برقرار رکھیں",
+        "body": "ایک گرم، حقیقی مسکراہٹ صدقہ کی ایک شکل ہے اور دلوں کو کھولتی ہے۔",
+        "priority": "helpful"
+      },
+      {
+        "id": "polite-kind",
+        "title": "شائستہ اور مہربان بنیں۔",
+        "body": "اچھے اخلاق اسلام کا دیرپا، مثبت تاثر چھوڑتے ہیں۔",
+        "priority": "core"
+      },
+      {
+        "id": "avoid-debate",
+        "title": "غیر ضروری بحث سے گریز کریں۔",
+        "body": "سمجھنا مقصد ہے، دلائل جیتنے کے لیے نہیں۔ اگر یہ گرم ہو جائے تو پیچھے ہٹیں۔",
+        "priority": "core"
+      },
+      {
+        "id": "follow-flow",
+        "title": "بہاؤ اور ترجیحات پر عمل کریں۔",
+        "body": "اس شخص سے ملیں جہاں وہ ہیں۔ آرڈر پر مجبور نہ کریں - گفتگو کو سانس لینے دیں۔",
+        "priority": "helpful"
+      },
+      {
+        "id": "be-concise",
+        "title": "مختصر ہو (وقت سے آگاہ)",
+        "body": "ان کے وقت اور توجہ کا احترام کریں۔ کم بولو، زیادہ سنو۔",
+        "priority": "helpful"
+      },
+      {
+        "id": "redirect",
+        "title": "ترجیحات کی طرف ری ڈائریکٹ کریں۔",
+        "body": "جب مددگار ہو تو آہستہ سے ضمنی ٹینجنٹ کو معاملے کے دل کی طرف لے جائیں۔",
+        "priority": "helpful"
+      },
+      {
+        "id": "encourage-shahada",
+        "title": "شہدا کی حوصلہ افزائی کریں (کبھی زبردستی نہ کریں)",
+        "body": "آہستہ سے مدعو کریں۔ فیصلہ مخلصانہ اور آزادانہ ہونا چاہیے۔ کبھی کسی پر دباؤ نہ ڈالیں۔",
+        "priority": "core"
+      }
+    ]
+  },
+  "references": [
+    {
+      "id": "quran-16-125",
+      "type": "quran",
+      "citation": "Qur'an 16:125 (excerpt)",
+      "label": "حکمت اور اچھی ہدایت کے ساتھ دعوت دینا",
+      "arabic": "ٱدْعُ إِلَىٰ سَبِيلِ رَبِّكَ بِٱلْحِكْمَةِ وَٱلْمَوْعِظَةِ ٱلْحَسَنَةِ ۖ وَجَـٰدِلْهُم بِٱلَّتِى هِىَ أَحْسَنُ",
+      "translation": "سب کو اپنے رب کے راستے کی طرف حکمت اور عمدہ نصیحت کے ساتھ بلاؤ اور ان سے بہترین انداز میں بحث کرو۔",
+      "translator": "Dr. Mustafa Khattab, The Clear Quran",
+      "sourceName": "Quran.com",
+      "sourceUrl": "https://quran.com/16/125",
+      "reviewStatus": "source-checked",
+      "reviewNote": "2026-06-03 کو Quran.com کے خلاف اقتباس چیک کیا گیا؛ اہل اسکالر/ دستی منظوری زیر التواء ہے۔"
+    },
+    {
+      "id": "quran-51-55",
+      "type": "quran",
+      "citation": "Qur'an 51:55",
+      "label": "نصیحت مومنین کو فائدہ پہنچاتی ہے۔",
+      "arabic": "وَذَكِّرْ فَإِنَّ ٱلذِّكْرَىٰ تَنفَعُ ٱلْمُؤْمِنِينَ",
+      "translation": "لیکن یاد دلانا جاری رکھیں۔ کیونکہ نصیحتیں مومنوں کو نفع دیتی ہیں۔",
+      "translator": "Dr. Mustafa Khattab, The Clear Quran",
+      "sourceName": "Quran.com",
+      "sourceUrl": "https://quran.com/51/55",
+      "reviewStatus": "source-checked",
+      "reviewNote": "2026-06-03 کو Quran.com کے خلاف جانچ پڑتال کی گئی؛ اہل اسکالر/ دستی منظوری زیر التواء ہے۔"
+    },
+    {
+      "id": "quran-112-ikhlas",
+      "type": "quran",
+      "citation": "Qur'an 112:1-4 (Surah Al-Ikhlas)",
+      "label": "خدا کی وحدانیت کا خالص اعلان",
+      "arabic": "قُلْ هُوَ ٱللَّهُ أَحَدٌ ٱللَّهُ ٱلصَّمَدُ لَمْ يَلِدْ وَلَمْ يُولَدْ وَلَمْ يَكُن لَّهُۥ كُفُوًا أَحَدٌۢ",
+      "translation": "اے نبی کہہ دیجئے کہ وہ اللہ ایک ہے اور ناقابل تقسیم ہے، اللہ ہے جو سب کا محتاج ہے، اس کی نہ کبھی اولاد ہوئی اور نہ وہ پیدا ہوا اور اس کا کوئی ہمسر نہیں ہے۔",
+      "translator": "Dr. Mustafa Khattab, The Clear Quran",
+      "sourceName": "Quran.com",
+      "sourceUrl": "https://quran.com/112",
+      "reviewStatus": "source-checked",
+      "reviewNote": "2026-06-03 کو Quran.com کے خلاف جانچ پڑتال کی گئی؛ اہل اسکالر/ دستی منظوری زیر التواء ہے۔"
+    },
+    {
+      "id": "quran-52-35",
+      "type": "quran",
+      "citation": "Qur'an 52:35",
+      "label": "تخلیق پر عکس",
+      "arabic": "أَمْ خُلِقُوا۟ مِنْ غَيْرِ شَىْءٍ أَمْ هُمُ ٱلْخَٰلِقُونَ",
+      "translation": "یا وہ کسی چیز سے پیدا نہیں ہوئے، یا وہ اپنے خالق ہیں؟",
+      "translator": "Dr. Mustafa Khattab, The Clear Quran",
+      "sourceName": "Quran.com",
+      "sourceUrl": "https://quran.com/52/35",
+      "reviewStatus": "source-checked",
+      "reviewNote": "2026-06-03 کو Quran.com کے خلاف جانچ پڑتال کی گئی؛ اہل اسکالر/ دستی منظوری زیر التواء ہے۔"
+    },
+    {
+      "id": "quran-21-22",
+      "type": "quran",
+      "citation": "Qur'an 21:22 (excerpt)",
+      "label": "ایک خدا کی منطق",
+      "arabic": "لَوْ كَانَ فِيهِمَآ ءَالِهَةٌ إِلَّا ٱللَّهُ لَفَسَدَتَا",
+      "translation": "اگر آسمانوں یا زمین میں اللہ کے سوا اور معبود ہوتے تو دونوں عالم ضرور بگڑ جاتے۔",
+      "translator": "Dr. Mustafa Khattab, The Clear Quran",
+      "sourceName": "Quran.com",
+      "sourceUrl": "https://quran.com/21/22",
+      "reviewStatus": "source-checked",
+      "reviewNote": "2026-06-03 کو Quran.com کے خلاف اقتباس چیک کیا گیا؛ اہل اسکالر/ دستی منظوری زیر التواء ہے۔"
+    },
+    {
+      "id": "quran-21-25",
+      "type": "quran",
+      "citation": "Qur'an 21:25",
+      "label": "تمام رسولوں کے ذریعے ایک پیغام",
+      "arabic": "وَمَآ أَرْسَلْنَا مِن قَبْلِكَ مِن رَّسُولٍ إِلَّا نُوحِىٓ إِلَيْهِ أَنَّهُۥ لَآ إِلَٰهَ إِلَّآ أَنَا۠ فَٱعْبُدُونِ",
+      "translation": "اے نبیؐ، ہم نے آپ سے پہلے کبھی کوئی رسول نہیں بھیجا جس پر یہ وحی نہ کی ہو کہ ’’میرے سوا کوئی عبادت کے لائق نہیں، لہٰذا میری ہی عبادت کرو‘‘۔",
+      "translator": "Dr. Mustafa Khattab, The Clear Quran",
+      "sourceName": "Quran.com",
+      "sourceUrl": "https://quran.com/21/25",
+      "reviewStatus": "source-checked",
+      "reviewNote": "2026-06-03 کو Quran.com کے خلاف جانچ پڑتال کی گئی؛ اہل اسکالر/ دستی منظوری زیر التواء ہے۔"
+    },
+    {
+      "id": "quran-3-45",
+      "type": "quran",
+      "citation": "Qur'an 3:45",
+      "label": "حضرت عیسیٰ ابن مریم علیہ السلام کا مقام و مرتبہ",
+      "arabic": "إِذْ قَالَتِ ٱلْمَلَـٰٓئِكَةُ يَـٰمَرْيَمُ إِنَّ ٱللَّهَ يُبَشِّرُكِ بِكَلِمَةٍۢ مِّنْهُ ٱسْمُهُ ٱلْمَسِيحُ عِيسَى ٱبْنُ مَرْيَمَ وَجِيهًۭا فِى ٱلدُّنْيَا وَٱلْـَٔاخِرَةِ وَمِنَ ٱلْمُقَرَّبِينَ",
+      "translation": "’’یاد کرو جب فرشتوں نے کہا اے مریم اللہ تمہیں اپنے ایک کلمہ کی بشارت دیتا ہے، اس کا نام مسیح عیسیٰ ابن مریم ہوگا، دنیا اور آخرت میں عزت والا ہوگا اور وہ اللہ کے مقربوں میں سے ہوگا۔‘‘",
+      "translator": "Dr. Mustafa Khattab, The Clear Quran",
+      "sourceName": "Quran.com",
+      "sourceUrl": "https://quran.com/3/45",
+      "reviewStatus": "source-checked",
+      "reviewNote": "2026-06-03 کو Quran.com کے خلاف جانچ پڑتال کی گئی؛ اہل اسکالر/ دستی منظوری زیر التواء ہے۔"
+    },
+    {
+      "id": "hadith-jibril",
+      "type": "hadith",
+      "citation": "Sahih Muslim 8a (Book 1, Hadith 1) — Hadith of Jibril",
+      "label": "ایمان کے چھ مضامین",
+      "translation": "کہ آپ اللہ پر، اس کے فرشتوں پر، اس کی کتابوں پر، اس کے رسولوں پر، قیامت کے دن پر، اور نیکی اور بدی کے بارے میں خدائی حکم پر اپنے ایمان کی تصدیق کریں۔",
+      "sourceName": "Sahih Muslim (sunnah.com)",
+      "sourceUrl": "https://sunnah.com/muslim:8a",
+      "reviewStatus": "source-checked",
+      "reviewNote": "2026-06-03 کو Sunnah.com کے خلاف اقتباس چیک کیا گیا؛ اہل اسکالر/ دستی منظوری زیر التواء ہے۔"
+    },
+    {
+      "id": "quran-2-256",
+      "type": "quran",
+      "citation": "Qur'an 2:256 (excerpt)",
+      "label": "دین میں کوئی جبر نہیں۔",
+      "arabic": "لَآ إِكْرَاهَ فِى ٱلدِّينِ ۖ قَد تَّبَيَّنَ ٱلرُّشْدُ مِنَ ٱلْغَىِّ",
+      "translation": "دین میں کوئی جبر نہ ہو کیونکہ حق باطل سے واضح ہوتا ہے۔",
+      "translator": "Dr. Mustafa Khattab, The Clear Quran",
+      "sourceName": "Quran.com",
+      "sourceUrl": "https://quran.com/2/256",
+      "reviewStatus": "source-checked",
+      "reviewNote": "2026-06-03 کو Quran.com کے خلاف اقتباس چیک کیا گیا؛ اہل اسکالر/ دستی منظوری زیر التواء ہے۔"
+    },
+    {
+      "id": "quran-28-56",
+      "type": "quran",
+      "citation": "Qur'an 28:56",
+      "label": "ہدایت صرف اللہ کی ہے۔",
+      "arabic": "إِنَّكَ لَا تَهْدِى مَنْ أَحْبَبْتَ وَلَـٰكِنَّ ٱللَّهَ يَهْدِى مَن يَشَآءُ ۚ وَهُوَ أَعْلَمُ بِٱلْمُهْتَدِينَ",
+      "translation": "یقیناً آپ جسے چاہیں ہدایت نہیں دے سکتے، لیکن اللہ ہی ہے جو جسے چاہتا ہے ہدایت دیتا ہے، اور وہ خوب جانتا ہے کہ کون ہدایت پانے کے لائق ہے۔",
+      "translator": "Dr. Mustafa Khattab, The Clear Quran",
+      "sourceName": "Quran.com",
+      "sourceUrl": "https://quran.com/28/56",
+      "reviewStatus": "source-checked",
+      "reviewNote": "2026-06-03 کو Quran.com کے خلاف جانچ پڑتال کی گئی؛ اہل اسکالر/ دستی منظوری زیر التواء ہے۔"
+    },
+    {
+      "id": "quran-20-25-26",
+      "type": "quran",
+      "citation": "Qur'an 20:25-26",
+      "label": "حضرت موسیٰ کی آسانی اور کھلے دل کی دعا",
+      "arabic": "رَبِّ ٱشْرَحْ لِى صَدْرِى وَيَسِّرْ لِىٓ أَمْرِى",
+      "translation": "میرے رب! میرا دل میرے لیے بلند کر دے اور میرا کام آسان کر دے،",
+      "translator": "Dr. Mustafa Khattab, The Clear Quran",
+      "sourceName": "Quran.com",
+      "sourceUrl": "https://quran.com/20/25-26",
+      "reviewStatus": "source-checked",
+      "reviewNote": "03-06-2026 کو Quran.com 20:25 اور 20:26 کے خلاف جانچ پڑتال کی گئی۔ اہل اسکالر/ دستی منظوری زیر التواء ہے۔"
+    },
+    {
+      "id": "new-muslim-academy",
+      "type": "scholarly-note",
+      "citation": "New Muslim Academy",
+      "label": "ابتدائی تعلیم اور کنورٹ سپورٹ فریمنگ",
+      "sourceName": "New Muslim Academy",
+      "sourceUrl": "https://www.newmuslimacademy.org/",
+      "reviewStatus": "source-checked",
+      "reviewNote": "سرکاری تعلیمی ذریعہ 2026-06-03 کو آن لائن چیک کیا گیا؛ ابتدائی دوستانہ سپورٹ فریمنگ کے لیے استعمال کیا جاتا ہے، ذاتی احکام کے لیے نہیں۔"
+    },
+    {
+      "id": "whyislam-jesus",
+      "type": "scholarly-note",
+      "citation": "WhyIslam: Jesus in Islam",
+      "label": "اسلام میں حضرت عیسیٰ علیہ السلام کی تعارفی تعلیم",
+      "sourceName": "WhyIslam",
+      "sourceUrl": "https://www.whyislam.org/jesus-pbuh/",
+      "reviewStatus": "source-checked",
+      "reviewNote": "سرکاری تعلیمی ذریعہ 2026-06-03 کو آن لائن چیک کیا گیا؛ قابل احترام تعارفی فریمنگ کے لیے استعمال کیا جاتا ہے۔"
+    },
+    {
+      "id": "quran-67-2",
+      "type": "quran",
+      "citation": "Qur'an 67:2",
+      "label": "زندگی ایک امتحان کے طور پر",
+      "translation": "وہی ہے جس نے موت اور زندگی کو پیدا کیا تاکہ آزمائے کہ تم میں سے کون اچھے عمل کرتا ہے۔",
+      "translator": "Dr. Mustafa Khattab, The Clear Quran",
+      "sourceName": "Quran.com",
+      "sourceUrl": "https://quran.com/67/2",
+      "reviewStatus": "source-checked",
+      "reviewNote": "2026-06-03 کو Quran.com کے خلاف جانچ پڑتال کی گئی؛ اہل اسکالر/ دستی منظوری زیر التواء ہے۔"
+    },
+    {
+      "id": "quran-2-155",
+      "type": "quran",
+      "citation": "Qur'an 2:155",
+      "label": "آزمائش اور صبر",
+      "translation": "ہم یقیناً آپ کو خوف اور قحط اور املاک، جانوں اور فصلوں کے نقصان سے آزمائیں گے۔ صبر کرنے والوں کو خوشخبری سنا دو۔",
+      "translator": "Dr. Mustafa Khattab, The Clear Quran",
+      "sourceName": "Quran.com",
+      "sourceUrl": "https://quran.com/2/155",
+      "reviewStatus": "source-checked",
+      "reviewNote": "2026-06-03 کو Quran.com کے خلاف جانچ پڑتال کی گئی؛ اہل اسکالر/ دستی منظوری زیر التواء ہے۔"
+    },
+    {
+      "id": "quran-33-35",
+      "type": "quran",
+      "citation": "Qur'an 33:35",
+      "label": "مرد و زن ایمان کے ساتھ مخاطب ہوئے۔",
+      "translation": "یقیناً مسلمان مردوں اور عورتوں، مومن مردوں اور عورتوں، متقی مردوں اور عورتوں کے لیے... اللہ نے بخشش اور اجر عظیم تیار کر رکھا ہے۔",
+      "translator": "Dr. Mustafa Khattab, The Clear Quran",
+      "sourceName": "Quran.com",
+      "sourceUrl": "https://quran.com/33/35",
+      "reviewStatus": "source-checked",
+      "reviewNote": "2026-06-03 کو Quran.com کے خلاف اقتباس چیک کیا گیا؛ اہل اسکالر/ دستی منظوری زیر التواء ہے۔"
+    },
+    {
+      "id": "quran-5-32",
+      "type": "quran",
+      "citation": "Qur'an 5:32 (excerpt)",
+      "label": "زندگی کا تقدس",
+      "translation": "جو کوئی جان لے گا، گویا اس نے پوری انسانیت کو مار ڈالا ہے۔",
+      "translator": "Dr. Mustafa Khattab, The Clear Quran",
+      "sourceName": "Quran.com",
+      "sourceUrl": "https://quran.com/5/32",
+      "reviewStatus": "source-checked",
+      "reviewNote": "2026-06-03 کو Quran.com کے خلاف اقتباس چیک کیا گیا؛ اہل اسکالر/ دستی منظوری زیر التواء ہے۔"
+    },
+    {
+      "id": "whyislam-mosque-visit",
+      "type": "scholarly-note",
+      "citation": "WhyIslam: First Mosque Visit",
+      "label": "نئی کنورٹ مسجد سپورٹ",
+      "sourceName": "WhyIslam",
+      "sourceUrl": "https://www.whyislam.org/mosquevisit/",
+      "reviewStatus": "source-checked",
+      "reviewNote": "سرکاری تعلیمی ذریعہ 2026-06-03 کو آن لائن چیک کیا گیا؛ پہلی مسجد کے دورے اور عوامی شہدا کی حد بندی کے لیے استعمال کیا جاتا ہے۔"
+    },
+    {
+      "id": "whyislam-becoming-muslim",
+      "type": "scholarly-note",
+      "citation": "WhyIslam: Becoming Muslim",
+      "label": "شہدا کا تعارف",
+      "sourceName": "WhyIslam",
+      "sourceUrl": "https://www.whyislam.org/muslimhow/",
+      "reviewStatus": "source-checked",
+      "reviewNote": "سرکاری تعلیمی ذریعہ 2026-06-03 کو آن لائن چیک کیا گیا؛ بنیادی شہدا واقفیت کے لیے استعمال کیا جاتا ہے۔"
+    },
+    {
+      "id": "seekersguidance-shahada-witnesses",
+      "type": "scholarly-note",
+      "citation": "SeekersGuidance: Does Taking Shahada Require Witnesses?",
+      "label": "مستند شہدا رہنمائی",
+      "sourceName": "SeekersGuidance",
+      "sourceUrl": "https://seekersguidance.org/answers/calling-to-islam/does-taking-shahada-require-witnesses/",
+      "reviewStatus": "source-checked",
+      "reviewNote": "تعلیم کا اہل ذریعہ 2026-06-03 کو آن لائن چیک کیا گیا؛ شاہدہ کے ارد گرد پرائیویسی اور عوامی گواہی کے لیے استعمال کیا جاتا ہے۔"
+    },
+    {
+      "id": "new-muslim-academy-family",
+      "type": "scholarly-note",
+      "citation": "New Muslim Academy: Family",
+      "label": "فیملی سپورٹ فریمنگ",
+      "sourceName": "New Muslim Academy",
+      "sourceUrl": "https://www.newmuslimacademy.org/family/",
+      "reviewStatus": "source-checked",
+      "reviewNote": "سرکاری تعلیمی ذریعہ 2026-06-03 کو آن لائن چیک کیا گیا؛ خاندان، تعلق، اور بعد از شہادت سپورٹ فریمنگ کے لیے استعمال کیا جاتا ہے۔"
+    },
+    {
+      "id": "seekersguidance",
+      "type": "scholarly-note",
+      "citation": "SeekersGuidance",
+      "label": "تعلیم یافتہ اسلامی تعلیم",
+      "sourceName": "SeekersGuidance",
+      "sourceUrl": "https://seekersguidance.org/",
+      "reviewStatus": "source-checked",
+      "reviewNote": "تعلیم کا اہل ذریعہ 2026-06-03 کو آن لائن چیک کیا گیا؛ فقہ اور دینیات کے تفصیلی سوالات کو اہل اساتذہ سے رجوع کرنے کے لیے استعمال کیا جاتا ہے۔"
+    },
+    {
+      "id": "yaqeen-women",
+      "type": "scholarly-note",
+      "citation": "Yaqeen Institute: Islam and Women",
+      "label": "اسلام میں خواتین کی تعلیم",
+      "sourceName": "Yaqeen Institute",
+      "sourceUrl": "https://yaqeeninstitute.org/what-islam-says-about/islam-and-women",
+      "reviewStatus": "source-checked",
+      "reviewNote": "2026-06-03 کو آن لائن چیک کیے گئے تعلیمی موضوع کے صفحہ کا جائزہ لیا گیا۔ محتاط، غیر سیاسی خواتین میں اسلام کے منظر نامے کی تشکیل کے لیے استعمال کیا جاتا ہے۔"
+    },
+    {
+      "id": "yaqeen-violence",
+      "type": "scholarly-note",
+      "citation": "Yaqeen Institute: Islam and Violence",
+      "label": "تشدد اور میڈیا بیانیہ",
+      "sourceName": "Yaqeen Institute",
+      "sourceUrl": "https://yaqeeninstitute.org/what-islam-says-about/islam-and-violence",
+      "reviewStatus": "source-checked",
+      "reviewNote": "2026-06-03 کو آن لائن چیک کیے گئے تعلیمی موضوع کے صفحہ کا جائزہ لیا گیا۔ تشدد، جہاد، دہشت گردی، اور میڈیا کے بیانیے کے بارے میں محتاط حوالہ کے لیے استعمال کیا جاتا ہے۔"
+    },
+    {
+      "id": "988-lifeline",
+      "type": "public-health",
+      "citation": "988 Suicide & Crisis Lifeline",
+      "label": "بحران کی حمایت",
+      "sourceName": "988 Lifeline",
+      "sourceUrl": "https://988lifeline.org/",
+      "reviewStatus": "source-checked",
+      "reviewNote": "آفیشل کرائسس سپورٹ سورس نے آن لائن 2026-06-03 کو چیک کیا؛ ذہنی صحت کے بحران کے حوالے سے استعمال ہونے والی زبان۔"
+    },
+    {
+      "id": "canada-safety-planning",
+      "type": "public-safety",
+      "citation": "Government of Canada: Safety Planning",
+      "label": "سیفٹی پلاننگ",
+      "sourceName": "Government of Canada",
+      "sourceUrl": "https://www.canada.ca/en/public-health/services/health-promotion/stop-family-violence/plan-your-safety.html",
+      "reviewStatus": "source-checked",
+      "reviewNote": "2026-06-03 کو آفیشل پبلک سیفٹی سورس آن لائن چیک کیا گیا۔ خاندانی رد، بدسلوکی، اور حفاظتی حوالہ جاتی حدود کے لیے استعمال کیا جاتا ہے۔"
+    },
+    {
+      "id": "ohrc-religious-rights",
+      "type": "public-rights",
+      "citation": "Ontario Human Rights Commission: Religious Rights Fact Sheet",
+      "label": "عوامی حقوق کی معلومات",
+      "sourceName": "Ontario Human Rights Commission",
+      "sourceUrl": "https://www.ohrc.on.ca/en/religious-rights-fact-sheet",
+      "reviewStatus": "source-checked",
+      "reviewNote": "عوامی حقوق کے سرکاری ذریعہ نے 03-06-2026 کو آن لائن چیک کیا؛ صرف قانونی سے ملحقہ سوالات کو اہل مقامی مشورے تک پہنچانے کے لیے استعمال کیا جاتا ہے۔"
+    }
+  ],
+  "communityConnect": {
+    "title": "ایک نئے مسلمان کو جوڑنا",
+    "intro": "چاہے کوئی آج اپنی شہادت لے یا محض سیکھنا چاہتا ہے، گرمجوشی سے تعاون سب سے زیادہ اہمیت رکھتا ہے۔ اس چیک لسٹ کا استعمال کریں تاکہ ان کو خوش آمدید محسوس کرنے میں مدد ملے اور وہ کبھی تنہا نہ ہوں۔",
+    "checklist": [
+      "انہیں ایک مہربان، جاننے والے مقامی امام یا سرپرست سے ملوائیں۔",
+      "انہیں ایک نئے مسلم سپورٹ گروپ یا کلاس سے جوڑیں۔",
+      "اپنے قریب ایک خوش آئند مقامی مسجد تلاش کرنے میں ان کی مدد کریں۔",
+      "نرم پیروی پر متفق ہوں — ایک چیک ان، مشترکہ کھانا، یا کلاس۔",
+      "نماز اور اسلام کی بنیادی باتوں کے بارے میں ابتدائی دوستانہ وسائل کا اشتراک کریں۔"
+    ],
+    "masjidFinderLabel": "قریبی مسجد تلاش کریں۔"
+  },
+  "additionalGuidance": {
+    "trainingCards": [
+      {
+        "id": "listen-first",
+        "title": "پہلے سننا",
+        "summary": "اچھی دعوتی گفتگو انسان کو سمجھنے سے شروع ہوتی ہے نہ کہ اسے درست کرنے سے۔",
+        "practice": [
+          "ایک کھلا سوال پوچھیں اور جواب دینے سے پہلے انہیں مکمل جواب دینے دیں۔",
+          "جو کچھ آپ نے سنا ہے اس کی عکاسی کریں: \"تو ایسا لگتا ہے کہ آپ کی بنیادی تشویش ہے...\"",
+          "اس سوال کا جواب دیں جو انہوں نے درحقیقت پوچھا، ہر وہ موضوع نہیں جس کا آپ احاطہ کرنا چاہتے ہیں۔"
+        ],
+        "avoid": [
+          "ایک پوائنٹ جیتنے کے لیے مداخلت کرنا۔",
+          "اس کی وضاحت کرنے سے پہلے ان کے پس منظر یا اعتراض کا اندازہ لگانا۔"
+        ],
+        "referenceIds": ["quran-16-125", "new-muslim-academy"]
+      },
+      {
+        "id": "ask-permission",
+        "title": "جاری رکھنے سے پہلے اجازت طلب کریں۔",
+        "summary": "اجازت گفتگو کا احترام کرتی ہے اور دوسرے شخص کو اپنی رفتار پر قابو رکھنے میں مدد دیتی ہے۔",
+        "practice": [
+          "آسان جملے استعمال کریں جیسے: \"اگر میں اسلامی نقطہ نظر کا اشتراک کروں تو کیا یہ ٹھیک ہوگا؟\"",
+          "اگر وہ نہیں کہتے یا ہچکچاتے ہیں تو ان کا شکریہ ادا کریں اور توقف کریں۔",
+          "انہیں مجرم محسوس کیے بغیر ایک اور بار جاری رکھنے کی پیشکش کریں۔"
+        ],
+        "avoid": [
+          "ہچکچاہٹ کو ایک چیلنج سمجھنا۔",
+          "واضح طور پر انکار کرنے کے بعد اسی دعوت کو دہرانا۔"
+        ],
+        "referenceIds": ["quran-2-256", "quran-28-56"]
+      },
+      {
+        "id": "one-point-at-a-time",
+        "title": "ایک وقت میں ایک پوائنٹ",
+        "summary": "زیادہ تر لوگوں کو سوچنے کے لیے ایک واضح خیال کی ضرورت ہوتی ہے، مکمل لیکچر کی نہیں۔",
+        "practice": [
+          "گفتگو میں اگلا سب سے زیادہ متعلقہ نقطہ منتخب کریں۔",
+          "مختصر وضاحتیں استعمال کریں اور سوالات کے لیے وقفہ کریں۔",
+          "اگر کئی عنوانات سامنے آتے ہیں، تو انہیں لکھیں اور ایک وقت میں ایک پر واپس جائیں۔"
+        ],
+        "avoid": [
+          "ان کو ہر ثبوت، حکم، یا کہانی کے ساتھ اوورلوڈ کرنا جو آپ جانتے ہیں۔",
+          "اس سے پہلے کہ اس شخص نے بنیادی باتوں پر کارروائی کی ہو شہادہ کی طرف جانا۔"
+        ],
+        "referenceIds": ["quran-16-125"]
+      },
+      {
+        "id": "handle-hostility",
+        "title": "دشمنی کو سکون سے نمٹانا",
+        "summary": "اگر کوئی ناراض ہو جائے یا بدتمیزی کرے تو گفتگو کے وقار کی حفاظت کریں اور پیچھے ہٹ جائیں۔",
+        "practice": [
+          "اپنی آواز کو کم کریں اور رفتار کو کم کریں۔",
+          "حد کو نرمی سے بتائیں: \"میں نہیں چاہتا کہ ہم ایک دوسرے سے بحث کریں یا ان کی توہین کریں۔\"",
+          "گفتگو ختم کریں اگر یہ اب مخلص یا محفوظ نہیں ہے۔"
+        ],
+        "avoid": [
+          "غصے کو غصے سے ملانا۔",
+          "طنز، طنز، یا عوامی شرمندگی کا استعمال۔"
+        ],
+        "referenceIds": ["quran-16-125"]
+      },
+      {
+        "id": "when-to-stop",
+        "title": "بات چیت کو کب روکنا ہے۔",
+        "summary": "اچھی طرح سے روکنا ایک اور نکتہ پر مجبور کرنے سے بہتر دعوت ہو سکتا ہے۔",
+        "practice": [
+          "جب شخص تھکا ہوا ہو، پریشان ہو، مذاق اڑا رہا ہو، غیر محفوظ ہو، یا واضح طور پر کر رہا ہو تو روکیں۔",
+          "شکریہ اور گرمجوشی کے ساتھ بند کریں۔",
+          "نجی طور پر دعا کریں اور بہتر وقت کے لیے دروازہ کھلا چھوڑ دیں۔"
+        ],
+        "avoid": [
+          "فیصلے کا پیچھا کرنا۔",
+          "گفتگو کو ناکامی کے طور پر سمجھنا کیونکہ یہ شہادت کے بغیر ختم ہو گئی۔"
+        ],
+        "referenceIds": ["quran-51-55", "quran-28-56", "quran-2-256"]
+      },
+      {
+        "id": "refer-to-imam",
+        "title": "کسی امام یا سرپرست سے رجوع کریں۔",
+        "summary": "ایک داعی کو ہر چیز کا جواب دینے کی ضرورت نہیں ہے۔ حساس، تفصیلی، یا ذاتی سوالات کے لیے اہل مدد کی ضرورت ہے۔",
+        "practice": [
+          "واضح طور پر کہو: \"میں اس کے بارے میں اندازہ نہیں لگانا چاہتا۔\"",
+          "انہیں کسی قابل اعتماد مقامی امام، استاد، یا نئے مسلم سرپرست سے جوڑنے کی پیشکش کریں۔",
+          "جذباتی حفاظت، قانونی، طبی، یا خاندانی خطرے کے خدشات کے لیے، انہیں اہل مقامی پیشہ ور افراد کی طرف بھی اشارہ کریں۔"
+        ],
+        "avoid": [
+          "موقع پر احکام ایجاد کرنا۔",
+          "شہادت کے بعد فرد کا واحد سہارا بننا۔"
+        ],
+        "referenceIds": ["new-muslim-academy"]
+      }
+    ],
+    "postShahadaHandoff": [
+      {
+        "id": "first-hour",
+        "title": "پہلا گھنٹہ",
+        "summary": "گرم جوشی، رازداری اور پرسکون تعاون کے ساتھ جواب دیں۔ شہادت ایک آغاز ہے، عوامی کارکردگی نہیں۔",
+        "actions": [
+          "انہیں مغلوب کیے بغیر نرمی سے مبارکباد دیں۔",
+          "پوچھیں کہ کیا وہ رازداری، خاموش گواہ، یا عوامی کمیونٹی کا تعارف چاہتے ہیں۔",
+          "ایک قابل اعتماد رابطہ لکھیں: امام، سرپرست، نئی مسلم کلاس، یا معاون مسلمان دوست۔",
+          "چیک کریں کہ آیا خاندان، رہائش، کام، یا حفاظتی خدشات عوامی افشاء کو خطرناک بناتے ہیں۔"
+        ],
+        "avoid": [
+          "ان پر عوامی سطح پر اعلان کرنے کے لیے دباؤ ڈالنا۔",
+          "انہیں فوری طور پر قواعد کی ایک لمبی فہرست سونپ دیں۔",
+          "واضح اجازت کے بغیر تصاویر، ویڈیوز یا شہادت کے لمحے کو پوسٹ کرنا۔"
+        ],
+        "referenceIds": [
+          "quran-2-256",
+          "whyislam-becoming-muslim",
+          "whyislam-mosque-visit",
+          "seekersguidance-shahada-witnesses"
+        ]
+      },
+      {
+        "id": "first-day",
+        "title": "پہلا دن",
+        "summary": "ایک واضح اگلے مرحلے اور ایک قابل اعتماد معاون شخص کے ساتھ بات چیت چھوڑنے میں ان کی مدد کریں۔",
+        "actions": [
+          "لنکس کے ڈھیر کے بجائے ایک ابتدائی وسائل کا اشتراک کریں۔",
+          "انہیں مقامی مسجد یا نئی مسلم کلاس تلاش کرنے میں مدد کرنے کی پیشکش کریں۔",
+          "پوچھیں کہ کیا وہ وضو اور نماز کی شکل سیکھنے میں مدد چاہتے ہیں۔",
+          "انہیں یاد دلائیں کہ سیکھنے میں وقت لگتا ہے اور اللہ ان کی کوشش کو جانتا ہے۔"
+        ],
+        "avoid": [
+          "ہر عادت کو ایک ساتھ درست کرنا۔",
+          "ان کے پوچھنے سے پہلے خاندان، شادی، لباس، یا کھانے کی تفصیلات پر بحث کرنا۔"
+        ],
+        "referenceIds": ["new-muslim-academy", "whyislam-mosque-visit"]
+      },
+      {
+        "id": "first-week",
+        "title": "پہلا ہفتہ",
+        "summary": "اعلی درجے کے احکام سے پہلے مستقل مزاجی، تعلق، اور محفوظ سیکھنے کی حمایت کریں۔",
+        "actions": [
+          "نماز سیکھنے کا ایک نرم منصوبہ منتخب کرنے میں ان کی مدد کریں۔",
+          "انہیں کسی ایسے سرپرست سے جوڑیں جو صبر سے سوالات کا جواب دے سکے۔",
+          "انہیں کمیونٹی کے ایک لمحے میں مدعو کریں: کلاس، نماز، کھانا، یا کافی۔",
+          "ان کی حوصلہ افزائی کریں کہ وہ نجی طور پر اور ابتدائی طور پر حساس سوالات پوچھیں۔"
+        ],
+        "avoid": [
+          "اپنے آپ کو ان کا واحد سہارا بنانا۔",
+          "اپنے سیکھنے کو تیز کرنے کے لیے شرم کا استعمال کرنا۔"
+        ],
+        "referenceIds": ["new-muslim-academy", "new-muslim-academy-family"]
+      },
+      {
+        "id": "connect-community",
+        "title": "مقامی کمیونٹی سے جڑیں۔",
+        "summary": "ایک نئے مسلمان کو صرف آن لائن مواد ہی نہیں بلکہ اپنے ارد گرد قابل اعتماد لوگوں کی ضرورت ہوتی ہے۔",
+        "actions": [
+          "ان کا تعارف کسی قابل اعتماد امام، استاد، یا کنورٹ سپورٹ لیڈ سے کروائیں۔",
+          "کلاس کے اوقات کی توثیق کرنے میں ان کی مدد کریں اور آیا جگہ ابتدائی طور پر دوستانہ ہے۔",
+          "ایک فالو اپ پلان پیش کریں جو ان کے شیڈول اور رازداری کا احترام کرے۔",
+          "اگر ان کے خاندانی حالات کشیدہ ہیں، حفاظت اور قابل اعتماد پیشہ ورانہ مدد کو ترجیح دیں۔"
+        ],
+        "avoid": [
+          "فرض کریں کہ ہر مسجد کا کلچر یا سپورٹ لیول ایک جیسا ہے۔",
+          "بغیر اجازت ان کی کہانی شیئر کرنا۔"
+        ],
+        "referenceIds": [
+          "quran-16-125",
+          "whyislam-mosque-visit",
+          "canada-safety-planning"
+        ]
+      },
+      {
+        "id": "avoid-overwhelm",
+        "title": "ان پر حاوی ہونے سے گریز کریں۔",
+        "summary": "شہادہ کے بعد پہلے سیزن کو سہارا محسوس کرنا چاہیے، مطالبات کے نیچے دفن نہیں ہونا چاہیے۔",
+        "actions": [
+          "یقین، ریمپ پر نماز، قابل اعتماد کمیونٹی، اور جذباتی استحکام کو ترجیح دیں۔",
+          "مختصر چیک ان استعمال کریں: ایک سوال، ایک وسیلہ، ایک اگلا مرحلہ۔",
+          "انہیں واضح طور پر بتائیں کہ استاد ان کے ساتھ اس کا جائزہ لینے تک کیا انتظار کر سکتا ہے۔",
+          "کمال کو تعلق کی شرط بنائے بغیر کوشش کا جشن منائیں۔"
+        ],
+        "avoid": [
+          "پہلے ہفتے کو فقہ کے مکمل نصاب میں تبدیل کرنا۔",
+          "ثقافتی تبدیلیاں کرنا فوری مذہبی ذمہ داریوں کی طرح لگتا ہے۔"
+        ],
+        "referenceIds": ["new-muslim-academy", "quran-16-125"]
+      }
+    ],
+    "referralBoundaries": [
+      {
+        "id": "marriage-divorce",
+        "title": "شادی، طلاق، اور خاندانی قانون",
+        "summary": "شادی کی درستگی، طلاق، تحویل، وراثت، تبدیلی کے سرٹیفکیٹ، یا خاندانی قانون کے نتائج کے بارے میں جوابات تیار نہ کریں۔",
+        "examples": [
+          "وہ پوچھتے ہیں کہ کیا شہادت کے بعد ان کی موجودہ شادی بدل جاتی ہے؟",
+          "وہ طلاق کے الفاظ، تحویل، یا وراثت کے بارے میں پوچھتے ہیں۔",
+          "انہیں شادی، حج/عمرہ، اسکول، کام یا سرکاری ریکارڈ کے لیے دستاویزات درکار ہیں۔"
+        ],
+        "referTo": "ایک اہل مقامی اسکالر اور، جہاں قانونی حقوق یا دستاویزات شامل ہوں، ایک لائسنس یافتہ قانونی پیشہ ور یا سرکاری ایجنسی۔",
+        "referenceIds": ["seekersguidance", "ohrc-religious-rights"]
+      },
+      {
+        "id": "trauma-safety",
+        "title": "صدمہ، بدسلوکی، یا حفاظتی خطرہ",
+        "summary": "اگر انکشاف نقصان کا باعث بن سکتا ہے، تو حفاظت پر غور کرنے سے پہلے عوامی کارروائی کی حوصلہ افزائی نہ کریں۔",
+        "examples": [
+          "وہ تشدد، بے گھری، تعاقب، یا خاندانی انتقام سے ڈرتے ہیں۔",
+          "ان کا مذہب یا اتھارٹی کی شخصیات سے جڑا صدمہ ہے۔",
+          "وہ پوچھتے ہیں کہ کیا انہیں فوری طور پر غیر محفوظ رشتہ داروں کو بتانا چاہیے۔"
+        ],
+        "referTo": "قابل اعتماد مقامی حفاظتی پیشہ ور افراد، بحران یا گھریلو تشدد کی حمایت، اور ایک شریف امام یا سرپرست جو رازداری کا احترام کرتے ہیں۔",
+        "referenceIds": ["canada-safety-planning", "new-muslim-academy-family"]
+      },
+      {
+        "id": "mental-health-crisis",
+        "title": "دماغی صحت کا بحران",
+        "summary": "ایک داعی کو تنہا بحران کا مشورہ دینے کی کوشش نہیں کرنی چاہیے۔",
+        "examples": [
+          "وہ خودکشی، خود کو نقصان پہنچانے، محفوظ رہنے کے قابل نہ ہونے، یا حقیقت سے لاتعلقی کا ذکر کرتے ہیں۔",
+          "وہ گھبرا رہے ہیں، کام کرنے سے قاصر ہیں، یا فوری غیر محفوظ منصوبے بنا رہے ہیں۔",
+          "انہیں مذہبی وضاحت سے زیادہ ہنگامی مدد کی ضرورت ہے۔"
+        ],
+        "referTo": "ہنگامی خدمات یا کرائسس سپورٹ جیسے کہ ریاستہائے متحدہ اور کینیڈا میں 988 کے علاوہ اہل طبی دیکھ بھال۔",
+        "referenceIds": ["988-lifeline"]
+      },
+      {
+        "id": "detailed-fiqh",
+        "title": "مفصل فقہ",
+        "summary": "عبادت اور روزمرہ کی زندگی کے احکام اسکول، حالات، صحت اور مقامی سیاق و سباق پر منحصر ہو سکتے ہیں۔",
+        "examples": [
+          "وہ نماز کی درستگی، قضا نمازوں، روزہ کی چھوٹ، زکوٰۃ کے حساب، پاکیزگی کی تفصیلات، یا معذوری کی رہائش کے بارے میں پوچھتے ہیں۔",
+          "وہ کھانے، کام، لباس، خاندانی ذمہ داریوں، یا پیسے کے بارے میں حکم مانگتے ہیں۔",
+          "آپ قابل اعتماد ذریعہ کے بجائے میموری پر انحصار کر رہے ہیں۔"
+        ],
+        "referTo": "ایک مستند عالم، امام، استاد، یا قابل اعتماد فتویٰ سروس جو فالو اپ سوالات پوچھ سکتی ہے۔",
+        "referenceIds": ["seekersguidance", "new-muslim-academy"]
+      },
+      {
+        "id": "complex-theology",
+        "title": "پیچیدہ الہیات اور پریشان کن دعوے۔",
+        "summary": "کچھ سوالات کے فوری جواب کے بجائے وقت، سیاق و سباق اور استاد کی ضرورت ہوتی ہے۔",
+        "examples": [
+          "وہ مصیبت، قدر، جہنم، حدیث کے شکوک، یا مشکل آن لائن دعووں کے بارے میں پوچھتے ہیں۔",
+          "انہیں پچھلی مذہبی برادریوں سے صدمہ پہنچا ہے۔",
+          "وہ مباحثے کے کلپس یا مخالف میڈیا کے ذریعے پھیل رہے ہیں۔"
+        ],
+        "referTo": "ایک قابل اعتماد استاد، منظم کلاس، یا قابل اسکالر جو بتدریج اور ذمہ داری سے جواب دے سکتا ہے۔",
+        "referenceIds": ["quran-67-2", "quran-2-155", "seekersguidance"]
+      },
+      {
+        "id": "legal-immigration",
+        "title": "قانونی، امیگریشن، کام کی جگہ، یا اسکول کے مسائل",
+        "summary": "مذہبی حوصلہ افزائی قانونی یا سرکاری مشورے کی جگہ نہیں لے سکتی۔",
+        "examples": [
+          "وہ امیگریشن، پناہ، تحویل، کام کی جگہ کے حقوق، اسکول کی رہائش، یا شناختی دستاویزات کے بارے میں پوچھتے ہیں۔",
+          "انہیں ایک سرٹیفکیٹ، خط، یا سرکاری ثبوت کی ضرورت ہے۔",
+          "انہیں امتیازی سلوک یا انتقامی کارروائی کا سامنا کرنا پڑ سکتا ہے۔"
+        ],
+        "referTo": "ایک لائسنس یافتہ قانونی پیشہ ور، سرکاری عوامی حقوق کی ایجنسی، اسکول/کام کا دفتر، یا مقامی سیٹلمنٹ سروس جیسا کہ مناسب ہو۔",
+        "referenceIds": ["ohrc-religious-rights"]
+      }
+    ],
+    "commonQuestions": [
+      {
+        "id": "q-god-exists",
+        "topic": "خدا",
+        "question": "آپ کیسے جانتے ہیں کہ خدا موجود ہے؟",
+        "answer": [
+          "دلیل کی بجائے غور و فکر کی دعوت دیں۔ ہمارے آس پاس کی ہر چیز — کائنات کی ترتیب، فطرت کی درستگی، ہمارا اپنا وجود — ایک خالق کی طرف اشارہ کرتا ہے۔ نرمی سے پوچھیں: کیا یہ سب کچھ نہیں سے آیا ہے، یا یہ کسی بنانے والے کی طرف اشارہ کرتا ہے؟",
+          "عاجزی سے رہیں۔ آپ جیتنے کی کوشش نہیں کر رہے ہیں۔ آپ سوچنے کا دروازہ کھول رہے ہیں۔"
+        ],
+        "referenceIds": ["quran-52-35"]
+      },
+      {
+        "id": "q-one-god",
+        "topic": "وحدت",
+        "question": "خدا کو ایک کیوں ہونا چاہیے؟",
+        "answer": [
+          "اگر مسابقتی مرضی کے ساتھ بہت سے خدا ہوتے تو تخلیق کو متضاد سمتوں میں کھینچا جاتا۔ ہم جس ہم آہنگی اور ترتیب کا مشاہدہ کرتے ہیں اس کی بجائے ایک ہی اتھارٹی کی طرف اشارہ کرتے ہیں۔",
+          "اسے عکاسی کے طور پر پیش کریں، اور وقت اور سوالات کی اجازت دیں۔"
+        ],
+        "referenceIds": ["quran-21-22"]
+      },
+      {
+        "id": "q-jesus",
+        "topic": "حضرت عیسیٰ علیہ السلام",
+        "question": "مسلمان حضرت عیسیٰ علیہ السلام کے بارے میں کیا عقیدہ رکھتے ہیں؟",
+        "answer": [
+          "مسلمان حضرت عیسیٰ علیہ السلام سے محبت کرتے ہیں اور ان کی تعظیم کرتے ہیں۔ ہم کنواری مریم سے اس کی معجزانہ پیدائش، خدا کی اجازت سے اس کے معجزات، اور اس کے عظیم پیغام پر یقین رکھتے ہیں۔",
+          "اسلام سکھاتا ہے کہ یسوع خدا کے عظیم ترین پیغمبروں میں سے ایک تھے، جنہوں نے لوگوں کو ایک خدا کی عبادت کرنے کی دعوت دی۔ گرمجوشی اور احترام کے ساتھ اس موضوع کو دیکھیں۔"
+        ],
+        "referenceIds": ["quran-3-45"]
+      },
+      {
+        "id": "q-why-prophets",
+        "topic": "وحی",
+        "question": "ہمیں نبیوں اور صحیفوں کی ضرورت کیوں ہے؟",
+        "answer": [
+          "کیونکہ زندگی ایک بامعنی امتحان ہے، ایک عادل اور مہربان خُدا نے ہمیں اپنے مقصد کا اندازہ لگانے کے لیے نہیں چھوڑا۔ اس نے پوری تاریخ میں رسولوں کے ذریعے رہنمائی بھیجی، سب ایک بنیادی پیغام لے کر گئے: ایک خدا کی عبادت کریں۔",
+          "مکاشفہ ایک رحمت ہے — ہمیں کبھی تنہا نہیں چھوڑا جاتا۔"
+        ],
+        "referenceIds": ["quran-21-25"]
+      },
+      {
+        "id": "q-shahada",
+        "topic": "شہدا",
+        "question": "شہادہ اصل میں کیا ہے؟",
+        "answer": [
+          "شہادت اس سچی گواہی ہے کہ اللہ کے سوا کوئی عبادت کے لائق نہیں اور محمد صلی اللہ علیہ وسلم اس کے رسول ہیں۔ یہ اسلام میں داخل ہونے کا دروازہ ہے۔",
+          "یہ ایک آزاد، مخلص انتخاب ہونا چاہیے - کبھی بھی جلدی یا دباؤ میں نہیں آیا۔ شہدا لینا ایک آغاز ہے، اختتام نہیں۔ محبت کی حمایت اگلے آتا ہے."
+        ],
+        "referenceIds": ["whyislam-becoming-muslim", "quran-2-256"]
+      },
+      {
+        "id": "q-suffering",
+        "topic": "مقصد",
+        "question": "اگر خدا عادل ہے تو مصیبت کیوں؟",
+        "answer": [
+          "یہ زندگی ایک امتحان ہے، اور انصاف کرنے والا خدا قیامت کے دن کامل عدل قائم کرے گا، جہاں کوئی غلط کام نہیں ہوگا۔",
+          "فوری جوابات دینے کے بجائے اس شخص کے درد کو ایمانداری اور نرمی سے تسلیم کریں۔"
+        ],
+        "referenceIds": ["quran-67-2", "quran-2-155"]
+      }
+    ],
+    "misconceptions": [
+      {
+        "id": "m-sword",
+        "claim": "اسلام تلوار کے زور سے پھیلا۔",
+        "response": [
+          "قرآن واضح ہے کہ ایمان کو زبردستی نہیں بنایا جا سکتا - اسے مخلص اور آزادانہ طور پر منتخب کیا جانا چاہیے۔ خاموشی سے اور دفاع کے بغیر جواب دیں۔",
+          "یقین کے ساتھ اسلام قبول کرنے والی کمیونٹیز کی طویل تاریخ کی طرف نرمی سے اشارہ کریں، اور بحث کی بجائے پیغام پر توجہ مرکوز رکھیں۔"
+        ],
+        "referenceIds": ["quran-2-256", "yaqeen-violence"]
+      },
+      {
+        "id": "m-different-god",
+        "claim": "مسلمان ایک الگ خدا کی عبادت کرتے ہیں۔",
+        "response": [
+          "\"اللہ\" صرف ایک خدا کے لئے عربی لفظ ہے - وہی خدا جس کی عبادت ابراہیم، موسیٰ اور عیسیٰ نے کی تھی۔ عربی بولنے والے عیسائی اور یہودی بھی خدا کو \"اللہ\" کہتے ہیں۔",
+          "سورہ اخلاص اس خالص عقیدے کا خلاصہ کرتی ہے: خدا ایک ہے، ابدی ہے، اس کا کوئی شریک نہیں اور اس کا کوئی موازنہ نہیں۔"
+        ],
+        "referenceIds": ["quran-112-ikhlas"]
+      },
+      {
+        "id": "m-women",
+        "claim": "اسلام خواتین پر ظلم کرتا ہے۔",
+        "response": [
+          "گرما گرم بحث سے گریز کریں۔ پہلے سنیں، تسلیم کریں کہ ثقافت اور مذہب اکثر الجھ جاتے ہیں، اور نقصان دہ ثقافتی طریقوں کو اسلامی تعلیم سے الگ کریں۔",
+          "اسلام نے عورتوں کے حقوق اور ماؤں کی عزت کے بارے میں بات کیجیے اور اپنے باوقار کردار کو بولنے دیں۔"
+        ],
+        "referenceIds": ["quran-33-35", "yaqeen-women"]
+      },
+      {
+        "id": "m-all-same",
+        "claim": "تمام مذاہب بنیادی طور پر ایک جیسے ہیں، تو کیوں سوئچ کریں؟",
+        "response": [
+          "مشترکہ اقدار کی تصدیق کریں - ہمدردی، انصاف، ایمانداری۔ پھر آہستہ سے نوٹ کریں کہ مذاہب بھی خدا کے بارے میں الگ الگ دعوے کرتے ہیں، اور یہ اختلافات اہم ہیں۔",
+          "دباؤ کے بغیر عکاسی کی دعوت دیں: مقصد مخلص یقین ہے، ایک نقطہ جیتنا نہیں."
+        ]
+      }
+    ],
+    "scenarios": [
+      {
+        "id": "s-atheist",
+        "audience": "ملحد یا اجناسٹک",
+        "summary": "کوئی ایسا شخص جو خدا پر یقین نہیں رکھتا، یا غیر یقینی ہے۔",
+        "approach": [
+          "خدا کے وجود اور تخلیق کی نشانیوں کے سوال سے شروع کریں۔",
+          "کھلے سوالات پوچھیں اور ان کے استدلال کو حقیقی طور پر سنیں۔",
+          "لہجے کو متجسس اور شائستہ رکھیں نہ کہ لڑاکا۔"
+        ],
+        "watchFor": [
+          "عکاسی کو جیتنے کے لیے دلیل میں بدلنا۔",
+          "زیادہ پراعتماد فلسفیانہ دعوے جن کی آپ وضاحت نہیں کر سکتے۔"
+        ],
+        "referenceIds": ["quran-52-35", "quran-16-125"]
+      },
+      {
+        "id": "s-christian",
+        "audience": "عیسائی پس منظر",
+        "summary": "کوئی ایسا شخص جو پہلے ہی خدا اور حضرت عیسیٰ علیہ السلام سے محبت کرتا ہے۔",
+        "approach": [
+          "یسوع اور انبیاء کے لیے مشترکہ محبت اور احترام کے ساتھ رہنمائی کریں۔",
+          "خدا کی وحدانیت کو نرمی اور احتیاط کے ساتھ متعارف کروائیں۔",
+          "اس موضوع پر جذباتی وزن کا احترام کریں۔"
+        ],
+        "watchFor": [
+          "عیسائی عقائد کی بے عزتی کرنا یا الہیات پر جارحانہ بحث کرنا۔",
+          "جلدی کرنا - گفتگو کو گرم جوشی اور وقت دیں۔"
+        ],
+        "referenceIds": ["quran-3-45", "whyislam-jesus"]
+      },
+      {
+        "id": "s-spiritual-not-religious",
+        "audience": "روحانی لیکن مذہبی نہیں۔",
+        "summary": "کوئی ایسا شخص جو یقین رکھتا ہے کہ زندگی میں اور بھی بہت کچھ ہو سکتا ہے لیکن منظم مذہب پر اعتماد نہیں کرتا۔",
+        "approach": [
+          "معنی، شفا یابی، یا کنکشن کے لئے ان کی خواہش کے ساتھ شروع کریں.",
+          "اسلام کو ایک خالق کی براہ راست عبادت کے طور پر بیان کریں، نہ کہ کسی انسانی ادارے کے سامنے ہتھیار ڈالنے کے طور پر۔",
+          "دکھائیں کہ کیسے وحی اخلاص کو ہٹائے بغیر روحانیت کو شکل دیتی ہے۔"
+        ],
+        "watchFor": [
+          "مذہب کے حوالے سے ان کے ماضی کے تجربات کو مسترد کرنا۔",
+          "اعتماد بننے سے پہلے بہت زیادہ اندرونی زبان استعمال کرنا۔"
+        ],
+        "referenceIds": ["quran-112-ikhlas", "quran-21-25"]
+      },
+      {
+        "id": "s-cultural-muslim",
+        "audience": "ثقافتی طور پر مسلمان، عملاً نہیں۔",
+        "summary": "اسلام کے گرد کوئی ایسا شخص کھڑا ہوا جو اس سے منقطع محسوس کرتا ہو۔",
+        "approach": [
+          "انہیں طریقوں کے پیچھے معنی اور خوبصورتی کے ساتھ دوبارہ جوڑیں۔",
+          "ماضی کے بارے میں فیصلے سے بچیں؛ ایک نرم اگلے قدم پر توجہ مرکوز کریں.",
+          "صحبت اور چھوٹی، قابل حصول حوصلہ افزائی پیش کریں۔"
+        ],
+        "watchFor": [
+          "شرمندگی یا جرم سے دوچار ہونا، جو لوگوں کو دور دھکیلتا ہے۔"
+        ],
+        "referenceIds": ["new-muslim-academy"]
+      },
+      {
+        "id": "s-family-difficult-questions",
+        "audience": "خاندانی ممبر مشکل سوالات پوچھ رہا ہے۔",
+        "summary": "ایک رشتہ دار یا قریبی دوست جذبات، خوف، یا چیلنجنگ مفروضوں کے ساتھ اسلام کے بارے میں پوچھتا ہے۔",
+        "approach": [
+          "ہر اعتراض کا جواب دینے کی کوشش کرنے سے پہلے رشتے کی حفاظت کریں۔",
+          "تشویش کو تسلیم کریں اور سکون سے ایک پوائنٹ کا جواب دیں۔",
+          "اگر سوال حساس ہے یا آپ کے علم سے باہر ہے تو کسی امام یا سرپرست سے مل کر پوچھنے کی پیشکش کریں۔"
+        ],
+        "watchFor": [
+          "خاندانی دباؤ آپ کو اندازہ لگانے میں دھکیل دیتا ہے۔",
+          "ایک لیکچر کے ساتھ جذباتی درد کا جواب دینا۔"
+        ],
+        "referenceIds": ["quran-16-125", "new-muslim-academy"]
+      },
+      {
+        "id": "s-not-ready",
+        "audience": "دلچسپی ہے لیکن تیار نہیں۔",
+        "summary": "اسلام کے لیے کھلا کوئی ہے جسے مزید وقت درکار ہے۔",
+        "approach": [
+          "انہیں یقین دلائیں کہ کوئی جلدی اور کوئی دباؤ نہیں ہے۔",
+          "قابل اعتماد وسائل پیش کریں اور کسی بھی وقت سوالات کے جوابات دیں۔",
+          "دوستی اور دروازہ کھلا رکھیں اور ان کے لیے دعا کریں۔"
+        ],
+        "watchFor": ["کوئی بھی دباؤ جو مستقبل کی گفتگو کو مشکل بناتا ہے۔"],
+        "referenceIds": ["quran-2-256", "quran-28-56"]
+      },
+      {
+        "id": "s-trauma-from-religion",
+        "audience": "مذہب سے صدمے کا شکار شخص",
+        "summary": "کسی کو اسلام میں دلچسپی ہے لیکن ماضی کا مذہبی نقصان اعتماد کو مشکل بنا دیتا ہے۔",
+        "approach": [
+          "اس بات کا دفاع نہ کریں کہ انہیں کس چیز نے نقصان پہنچایا یا وضاحت میں جلدی نہ کریں۔",
+          "کسی بھی مذہبی چیز کا اشتراک کرنے سے پہلے اجازت طلب کریں، اور انہیں رفتار قائم کرنے دیں۔",
+          "اگر صدمے، گھبراہٹ، بدسلوکی، یا بحران موجود ہو تو ایک محفوظ، اہل امدادی راستہ پیش کریں۔"
+        ],
+        "watchFor": [
+          "صدمے کے فوری حل کے طور پر آیات یا حدیث کا استعمال۔",
+          "اعتماد اور حفاظت پر غور کرنے سے پہلے انہیں اتھارٹی کے اعداد و شمار کی طرف دھکیلنا۔",
+          "اپنے مشورے سے طبی یا حفاظتی معاونت کو تبدیل کرنے کی کوشش کرنا۔"
+        ],
+        "referenceIds": [
+          "quran-16-125",
+          "988-lifeline",
+          "canada-safety-planning"
+        ]
+      },
+      {
+        "id": "s-family-rejection",
+        "audience": "خاندان کے مسترد ہونے سے پریشان شخص",
+        "summary": "اگر کوئی مسلمان ہو جاتا ہے تو کسی کو خاندان، رہائش، کام کی حمایت، یا جذباتی تحفظ سے محروم ہونے کا خوف ہوتا ہے۔",
+        "approach": [
+          "خوف کی توثیق کریں اور ان کے محفوظ ہونے سے پہلے ان کو ظاہر کرنے کو کہنے سے گریز کریں۔",
+          "ان کی یہ سوچنے میں مدد کریں کہ کون بتانا محفوظ ہے اور کس کو انتظار کرنا چاہیے۔",
+          "اگر انکشاف سے نقصان ہو سکتا ہے تو انہیں مقامی سرپرست، امام، یا حفاظتی پیشہ ور سے جوڑیں۔"
+        ],
+        "watchFor": [
+          "جب حقیقی خطرہ ہو سکتا ہے تو رازداری کو کمزوری سمجھنا۔",
+          "عوامی شہادت، سوشل میڈیا پوسٹ، یا فوری خاندانی اعلان پر دباؤ ڈالنا۔"
+        ],
+        "referenceIds": [
+          "quran-2-256",
+          "new-muslim-academy-family",
+          "canada-safety-planning"
+        ]
+      },
+      {
+        "id": "s-private-shahada",
+        "audience": "دلچسپی رکھنے والا لیکن عوامی طور پر شہدا کہنے سے ڈرتا ہے۔",
+        "summary": "کوئی سچے دل سے یقین رکھتا ہے لیکن عوام کی توجہ، خاندانی ردعمل، یا ریکارڈ کیے جانے سے ڈرتا ہے۔",
+        "approach": [
+          "انہیں یقین دلائیں کہ دباؤ اور عوامی کارکردگی مقصد نہیں ہے۔",
+          "انہیں کسی قابل اعتماد امام یا قابل سرپرست سے نجی طور پر جوڑنے کی پیشکش کریں۔",
+          "پوچھیں کہ کیا وہ خاموش گواہ، نجی گفتگو، یا مزید جاننے کے لیے وقت چاہتے ہیں۔"
+        ],
+        "watchFor": [
+          "واضح اجازت کے بغیر ان کی شہادت کو ریکارڈ کرنا یا شیئر کرنا۔",
+          "اعلانِ عام کرنا گویا مسلمان ہونے کی شرط ہے۔",
+          "خاندان یا کمیونٹی کے ردعمل کے ارد گرد حفاظتی خدشات کو نظر انداز کرنا."
+        ],
+        "referenceIds": [
+          "quran-2-256",
+          "whyislam-mosque-visit",
+          "seekersguidance-shahada-witnesses"
+        ]
+      },
+      {
+        "id": "s-women-in-islam",
+        "audience": "ایک شخص اسلام میں عورت کے بارے میں پوچھتا ہے۔",
+        "summary": "کوئی عزت، حقوق، شائستگی، شادی، طلاق، ثقافت یا عورتوں کو پہنچنے والے نقصان کے بارے میں پوچھتا ہے۔",
+        "approach": [
+          "پہلے سنو؛ سوال ذاتی درد سے آ سکتا ہے، نہ صرف تجسس سے۔",
+          "اسلامی تعلیمات کو نقصان دہ ثقافتی طریقوں اور حقیقی غلط استعمال سے الگ کریں۔",
+          "قابل اعتماد ذرائع استعمال کریں اور اہل مدد کے لیے تفصیلی شادی، طلاق، وراثت، یا حفاظتی سوالات کا حوالہ دیں۔"
+        ],
+        "watchFor": [
+          "زندہ تجربات کو مسترد کرنا یا نعروں سے جواب دینا۔",
+          "ذاتی قانونی، شادی، طلاق، یا بدسلوکی کے حالات کے بارے میں اندازہ لگانا۔",
+          "گفتگو کو صنفی جنگ کی بحث میں تبدیل کرنا۔"
+        ],
+        "referenceIds": [
+          "quran-33-35",
+          "yaqeen-women",
+          "canada-safety-planning"
+        ]
+      },
+      {
+        "id": "s-suffering",
+        "audience": "انسان تکلیف کے بارے میں پوچھتا ہے۔",
+        "summary": "کوئی پوچھتا ہے کہ ایک عادل اور مہربان خدا درد، غم، جبر، یا ذاتی نقصان کی اجازت کیوں دیتا ہے۔",
+        "approach": [
+          "جواب دینے سے پہلے درد کو تسلیم کریں۔",
+          "نرمی سے سمجھائیں کہ اسلام زندگی کو ایک امتحان کا درس دیتا ہے اور یہ کہ حتمی انصاف اللہ کے ہاتھ میں ہے۔",
+          "اگر درد فوری یا تکلیف دہ ہے تو، اہل جذباتی یا بحرانی امداد سے رجوع کریں۔"
+        ],
+        "watchFor": [
+          "جب وہ شخص غمگین ہو تو صاف جواب دینا۔",
+          "سننے کے بجائے بحث کرنا۔",
+          "بحران، خود کو نقصان پہنچانے، یا غیر محفوظ تنہائی کی علامات غائب ہیں۔"
+        ],
+        "referenceIds": ["quran-67-2", "quran-2-155", "988-lifeline"]
+      },
+      {
+        "id": "s-violence-media-narratives",
+        "audience": "شخص تشدد یا میڈیا کے بیانیے کے بارے میں پوچھتا ہے۔",
+        "summary": "کوئی پوچھے کہ کیا اسلام تشدد، دہشت گردی، جبری تبدیلی مذہب یا دوسروں کے ساتھ دشمنی کو فروغ دیتا ہے۔",
+        "approach": [
+          "پرسکون رہیں اور دفاعی نہ بنیں۔",
+          "واضح کریں کہ ایمان کو زبردستی نہیں بنایا جا سکتا اور اسلام زندگی کے تقدس کو برقرار رکھتا ہے۔",
+          "جہاد، جنگ، اور سیاسی تشدد جیسی پیچیدہ اصطلاحات کے لیے قابل اعتماد، نظرثانی شدہ وسائل استعمال کریں۔"
+        ],
+        "watchFor": [
+          "ہر جیو پولیٹیکل ایشو کا بیک وقت جواب دینے کی کوشش کر رہے ہیں۔",
+          "کمزور معذرت خواہانہ دعووں کا اشتراک کرنا جن کی آپ حمایت نہیں کر سکتے۔",
+          "کسی ایسے شخص سے بحث کرنا جو صرف عوامی لڑائی چاہتا ہے۔"
+        ],
+        "referenceIds": ["quran-2-256", "quran-5-32", "yaqeen-violence"]
+      }
+    ],
+    "duas": [
+      {
+        "id": "dua-ease",
+        "occasion": "before",
+        "title": "آسانی اور کھلے دل کے لیے",
+        "arabic": "رَبِّ ٱشْرَحْ لِى صَدْرِى وَيَسِّرْ لِىٓ أَمْرِى",
+        "transliteration": "Rabbi-shraḥ lī ṣadrī wa yassir lī amrī",
+        "translation": "میرے رب! میرا دل میرے لیے بلند کر دے اور میرا کام آسان کر دے،",
+        "referenceId": "quran-20-25-26"
+      },
+      {
+        "id": "dua-sincerity",
+        "occasion": "before",
+        "title": "خلوص کے لیے غیر منبع ذاتی الفاظ",
+        "translation": "غیر منبع ذاتی الفاظ، کوئی منتقلی دعا نہیں: اے اللہ، میری نیت کو سچا کر اور مجھے سچائی اور مہربانی سے کہنے میں مدد فرما۔"
+      },
+      {
+        "id": "dua-guidance",
+        "occasion": "after",
+        "title": "گفتگو کے بعد غیر منبع ذاتی الفاظ",
+        "translation": "غیر منبع ذاتی الفاظ، نہ کہ منتقل شدہ دعا: اے اللہ، ان کو سچی اور اچھی بات کی رہنمائی فرما، اور مجھے عاجزی کی طرف رہنمائی فرما۔"
+      },
+      {
+        "id": "dua-leave-results",
+        "occasion": "general",
+        "title": "ہدایت کا ذکر اللہ ہی کا ہے۔",
+        "arabic": "إِنَّكَ لَا تَهْدِى مَنْ أَحْبَبْتَ وَلَٰكِنَّ ٱللَّهَ يَهْدِى مَن يَشَآءُ",
+        "translation": "بے شک تم جسے چاہو ہدایت نہیں دے سکتے لیکن اللہ ہی ہے جسے چاہتا ہے۔",
+        "referenceId": "quran-28-56"
+      }
+    ],
+    "quickReference": {
+      "intro": "GORAP کے راستے، گفتگو کے بہاؤ، اور اچھی دعوت کا دل کا ایک مختصر خلاصہ۔ بات چیت سے پہلے یا اس کے دوران اسے ریفریشر کے طور پر استعمال کریں۔",
+      "points": [
+        "حکمت اور اچھے اخلاق کے ساتھ دعوت دو۔ کبھی دباؤ نہیں.",
+        "اپنی بات سے زیادہ سنیں، اور ایک وقت میں ایک سوال پوچھیں۔",
+        "گہرائی میں جانے سے پہلے اجازت طلب کریں، اور جب اس شخص کو جگہ کی ضرورت ہو تو رک جائیں۔",
+        "لوگوں سے ملیں جہاں وہ ہیں — حقیقی گفتگو خطی نہیں ہوتی۔",
+        "دروازہ کھلا رکھیں خواہ بات شھادہ کے بغیر ختم ہو۔",
+        "صدق دل سے دعا کریں اور نتیجہ اللہ پر چھوڑ دیں۔"
+      ]
+    }
+  }
+}

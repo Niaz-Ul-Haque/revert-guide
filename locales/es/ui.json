@@ -1,31 +1,32 @@
-﻿{
+{
   "brand": {
-    "name": "Revert Guide",
+    "name": "Revertir guía",
     "homeAriaLabel": "Guía de reversión - Inicio"
   },
   "languageSwitcher": {
     "ariaLabel": "Cambiador de idiomas",
     "label": "Idioma",
     "locales": {
-      "en": "Ingles",
-      "fr": "Frances",
-      "es": "Espanol",
-      "hi": "Hindi",
-      "ur": "Urdu",
-      "zh": "Chino",
-      "tl": "Tagalo",
-      "pa": "Punjabi",
-      "pt": "Portugues",
-      "ko": "Coreano",
-      "fa": "Persa",
-      "ru": "Ruso",
+      "en": "English",
+      "fr": "Français",
+      "es": "Español",
+      "hi": "हिन्दी",
+      "ur": "اردو",
+      "zh": "中文",
+      "tl": "Tagalog",
+      "pa": "ਪੰਜਾਬੀ",
+      "pt": "Português",
+      "ko": "한국어",
+      "fa": "فارسی",
+      "ru": "Русский",
       "bn": "বাংলা"
     }
   },
   "nav": {
-    "home": "Inicio",
+    "home": "Hogar",
     "roadmap": "Hoja de ruta",
     "topics": "Temas",
+    "guides": "Guías",
     "glossary": "Glosario",
     "resources": "Recursos",
     "allResources": "Todos los recursos",
@@ -33,11 +34,19 @@
     "about": "Acerca de",
     "aboutUs": "Sobre nosotros",
     "accessibility": "Accesibilidad",
-    "privacy": "Política de privacidad",
-    "terms": "Términos de uso",
+    "privacy": "política de privacidad",
+    "terms": "Condiciones de uso",
     "sources": "Fuentes",
     "ramadan": "Guía de Ramadán",
     "mentalHealth": "Salud mental",
+    "tools": "Herramientas",
+    "prayerTimes": "Horarios de oración",
+    "qibla": "Buscador de Qibla",
+    "wuduGhusl": "Wudu y Ghusl",
+    "salahCompanion": "Compañero de salat",
+    "quranStarter": "Arrancador del Corán",
+    "duaDhikr": "Dua y Dhikr",
+    "asmaAlHusna": "99 nombres de Allah",
     "mainNavigation": "Navegación principal",
     "openMenu": "abrir menú",
     "closeMenu": "Cerrar menú",
@@ -46,8 +55,8 @@
   "footer": {
     "about": "Acerca de",
     "accessibility": "Accesibilidad",
-    "privacy": "Política de privacidad",
-    "terms": "Términos de uso",
+    "privacy": "política de privacidad",
+    "terms": "Condiciones de uso",
     "sources": "Fuentes",
     "description": "Un recurso gratuito y sin conexión para nuevos musulmanes. Sin seguimiento ni anuncios, solo orientación en su viaje.",
     "explore": "Explorar",
@@ -66,15 +75,43 @@
     "offline": "Estás desconectado. Algunas funciones pueden ser limitadas.",
     "backToRoadmap": "Volver a la hoja de ruta",
     "skipToContent": "Saltar al contenido",
-    "breadcrumb": "Miga de pan",
+    "breadcrumb": "Migaja de pan",
     "search": "Buscar",
     "clearSearch": "Borrar búsqueda"
+  },
+  "search": {
+    "placeholder": "Guías de búsqueda, glosario, temas, recursos…",
+    "label": "Buscar todo el contenido",
+    "noResults": "No se encontraron resultados",
+    "noResultsHint": "Pruebe diferentes palabras clave o busque por categoría",
+    "close": "Cerrar búsqueda",
+    "openSearch": "abrir búsqueda",
+    "keyboardHint": "⌘K",
+    "resultCount": {
+      "one": "1 resultado encontrado",
+      "other": "{count} resultados encontrados"
+    },
+    "categories": {
+      "steps": "Pasos de la hoja de ruta",
+      "topics": "Temas",
+      "glossary": "Glosario",
+      "resources": "Recursos"
+    },
+    "seeAll": "Ver todos los resultados de {count}",
+    "tips": {
+      "title": "Consejos de búsqueda",
+      "items": [
+        "Busque por nombre de tema como \"oración\" o \"ayuno\"",
+        "Busque términos islámicos como \"Shahada\" o \"Wudu\"",
+        "Encuentre recursos y guías de aprendizaje"
+      ]
+    }
   },
   "resources": {
     "types": {
       "article": "Artículo",
-      "video": "Vídeo",
-      "book": "Reservar",
+      "video": "Video",
+      "book": "Libro",
       "app": "Aplicación",
       "community": "Comunidad",
       "pdf": "PDF"
@@ -86,14 +123,7 @@
     "site": {
       "title": "Guía revertida: su viaje comienza aquí",
       "description": "Una guía educativa sin conexión para nuevos musulmanes conversos en el área de Toronto. Incorporación paso a paso con empatía y orientación práctica.",
-      "keywords": [
-        "Islam",
-        "convertir",
-        "revertir",
-        "musulmán",
-        "guía",
-        "toronto"
-      ],
+      "keywords": ["Islam", "convert", "revert", "Muslim", "guide", "Toronto"],
       "openGraphDescription": "Tu viaje guiado al Islam: práctico, compasivo y a tu propio ritmo."
     },
     "dynamic": {
@@ -160,6 +190,18 @@
     "notFound": {
       "title": "Página no encontrada - Guía de reversión",
       "description": "Regrese a la hoja de ruta o a la página de inicio para continuar su viaje."
+    },
+    "prayerTimes": {
+      "title": "Horarios de oración - Guía revertida",
+      "description": "Conozca los cinco tiempos diarios de oración islámica y cuándo ocurren a lo largo del día."
+    },
+    "qibla": {
+      "title": "Buscador de Qibla - Guía de reversión",
+      "description": "Encuentra la dirección de la Qibla (Kaaba en La Meca) para tus oraciones."
+    },
+    "asmaAlHusna": {
+      "title": "99 nombres de Alá - Guía revertida",
+      "description": "Explora los 99 Hermosos Nombres de Allah con significados y reflexiones."
     }
   },
   "pages": {
@@ -178,7 +220,7 @@
       "paths": [
         {
           "title": "¿Acabas de tomar Shahada?",
-          "body": "¡Felicitaciones! Comience aquí para dar sus primeros pasos: desde comprender lo que acaba de declarar hasta realizar Ghusl y aceptar su nuevo comienzo."
+          "body": "¡Felicidades! Comience aquí para dar sus primeros pasos: desde comprender lo que acaba de declarar hasta realizar Ghusl y aceptar su nuevo comienzo."
         },
         {
           "title": "¿Ha sido musulmán durante algunas semanas?",
@@ -241,7 +283,7 @@
       "disclaimerTitle": "Descargo de responsabilidad",
       "disclaimer": "Esta guía proporciona información educativa general sobre el Islam y no sustituye las normas religiosas personales (fatawa). Si tiene preguntas religiosas específicas sobre su situación, consulte a un imán o erudito local con conocimientos. Nuestro objetivo es la precisión y cualquier error es involuntario.",
       "contactTitle": "Contacto",
-      "contact": "Si tiene preguntas sobre el Islam, le recomendamos que se acerque a una mezquita local o a un mentor para obtener orientación personalizada. Para obtener comentarios sobre la guía en sí, utilice las opciones de comentarios dentro de la aplicación."
+      "contact": "If you have questions about Islam, we encourage you to approach a local mosque or mentor for personalised guidance. For feedback on the guide itself, please use the feedback options within the app."
     },
     "accessibility": {
       "title": "Accesibilidad",
@@ -268,14 +310,14 @@
         "Orden de tabulación lógico en todas las páginas."
       ],
       "limitationsTitle": "Limitaciones conocidas",
-      "limitations": "La función integrada de Google Maps en la página Buscar una mezquita (cuando esté disponible) es proporcionada por Google y es posible que no sea completamente accesible para los usuarios de lectores de pantalla. Sin embargo, toda la información de ubicación está disponible en la lista de texto accesible de mezquitas en la misma página.",
-      "feedbackTitle": "Comentarios",
+      "limitations": "La búsqueda de mapas y direcciones en la página Buscar una mezquita depende de servicios de mapas de terceros y es posible que no sea completamente accesible en todos los flujos de trabajo de lectores de pantalla o teclados. Sin embargo, toda la información de ubicación, los filtros y los enlaces de direcciones también están disponibles en la lista de resultados de texto accesible en la misma página.",
+      "feedbackTitle": "Comentario",
       "feedback": "Si encuentra alguna barrera de accesibilidad mientras utiliza Revert Guide, queremos saber de usted. Utilice las opciones de comentarios dentro de la aplicación para informar cualquier problema. Agradecemos sus comentarios y trabajaremos para abordar los problemas de accesibilidad con prontitud.",
       "lastUpdatedTitle": "Última actualización",
       "lastUpdated": "Esta declaración de accesibilidad se revisó por última vez en marzo de 2026."
     },
     "privacy": {
-      "title": "Política de privacidad",
+      "title": "política de privacidad",
       "effectiveDate": "En vigor a partir de enero de 2026",
       "sections": [
         {
@@ -288,17 +330,17 @@
         },
         {
           "id": "cookies",
-          "title": "galletas",
+          "title": "Galletas",
           "paragraphs": [
             "Revert Guide utiliza un trabajador de servicio para el almacenamiento en caché sin conexión. Esto no implica cookies de seguimiento. No utilizamos cookies analíticas (como Google Analytics) ni cookies de marketing.",
-            "La función Google Maps en la página Masjid Finder puede establecer cookies según la política de privacidad de Google. Esto está fuera de nuestro control."
+            "La búsqueda de mapas y direcciones en la página Masjid Finder puede cargar datos de proveedores externos, que pueden configurar cookies o recibir datos de solicitud estándar, como su dirección IP. Esto está fuera de nuestro control."
           ]
         },
         {
           "id": "third-parties",
           "title": "Terceros",
           "paragraphs": [
-            "Este sitio utiliza Google Maps para la función Masjid Finder. Google puede recopilar datos de uso como se describe en su política de privacidad.",
+            "Este sitio utiliza mosaicos de mapas basados ​​en OpenStreetMap y servicios de codificación geográfica de terceros para la función Masjid Finder. Esos proveedores pueden recibir datos de solicitud estándar necesarios para cargar mapas y buscar direcciones.",
             "No se utilizan otros rastreadores ni servicios de análisis de terceros. Los enlaces externos se proporcionan para su comodidad; No somos responsables de las prácticas de privacidad de sitios web externos."
           ]
         },
@@ -326,7 +368,7 @@
       ]
     },
     "terms": {
-      "title": "Términos de uso",
+      "title": "Condiciones de uso",
       "effectiveDate": "En vigor a partir de enero de 2026",
       "sections": [
         {
@@ -362,7 +404,7 @@
         {
           "id": "changes",
           "title": "Cambios a estos términos",
-          "body": "Podemos actualizar estos términos en cualquier momento publicando términos revisados en esta página. El uso continuo de Revert Guide después de la publicación de los cambios constituye la aceptación de los términos actualizados."
+          "body": "Podemos actualizar estos términos en cualquier momento publicando términos revisados ​​en esta página. El uso continuo de Revert Guide después de la publicación de los cambios constituye la aceptación de los términos actualizados."
         },
         {
           "id": "external-links",
@@ -381,32 +423,32 @@
           "items": [
             {
               "code": "Q1",
-              "text": "Corán 2:185 - \"Ramadán es el mes en el que el Corán fue enviado como guía para la humanidad...\" - Referenciado en ",
+              "text": "Corán 2:185 - \"Ramadán es el mes en el que el Corán fue enviado como guía para la humanidad...\" - Referenciado en",
               "linkLabel": "Guía de Ramadán"
             },
             {
               "code": "Q2",
-              "text": "Corán 1:1-7 (Surah Al-Fatiha) - El capítulo inicial del Corán, recitado en cada unidad de oración. - Referenciado en ",
+              "text": "Corán 1:1-7 (Surah Al-Fatiha) - El capítulo inicial del Corán, recitado en cada unidad de oración. - Referenciado en",
               "linkLabel": "Temas: Oración"
             },
             {
               "code": "Q3",
-              "text": "Corán 112:1-4 (Surah Al-Ikhlas) - \"Di: Él es Allah, el Único...\" - Referenciado en ",
+              "text": "Corán 112:1-4 (Surah Al-Ikhlas) - \"Di: Él es Allah, el Único...\" - Referenciado en",
               "linkLabel": "Temas: Creencias fundamentales"
             },
             {
               "code": "Q4",
-              "text": "Corán 7:156 - \"Mi misericordia abarca todas las cosas\". - Referenciado en ",
+              "text": "Corán 7:156 - \"Mi misericordia abarca todas las cosas\". - Referenciado en",
               "linkLabel": "Temas: Creencias fundamentales"
             },
             {
               "code": "Q5",
-              "text": "Corán 21:107 - \"No te hemos enviado excepto como misericordia para los mundos\". - Referenciado en ",
+              "text": "Corán 21:107 - \"No te hemos enviado excepto como misericordia para los mundos\". - Referenciado en",
               "linkLabel": "Temas: Creencias fundamentales"
             },
             {
               "code": "Q6",
-              "text": "Corán 97:1-5 (Sura Al-Qadr) - Describe Laylat al-Qadr como \"mejor que mil meses\". - Referenciado en ",
+              "text": "Corán 97:1-5 (Sura Al-Qadr) - Describe Laylat al-Qadr como \"mejor que mil meses\". - Referenciado en",
               "linkLabel": "Guía de Ramadán"
             }
           ]
@@ -421,7 +463,7 @@
             },
             {
               "code": "H2",
-              "text": "Sahih Muslim, Libro 35, Hadith 6505 - \"Cuán maravilloso es el asunto del creyente...\" - Referenciado en ",
+              "text": "Sahih Muslim, Libro 35, Hadith 6505 - \"Cuán maravilloso es el asunto del creyente...\" - Referenciado en",
               "linkLabel": "Temas: Creencias fundamentales"
             },
             {
@@ -431,12 +473,12 @@
             },
             {
               "code": "H4",
-              "text": "Sahih Bukhari - \"Alá tiene noventa y nueve nombres; quien los memorice entrará al Paraíso\". - Referenciado en ",
+              "text": "Sahih Bukhari - \"Alá tiene noventa y nueve nombres; quien los memorice entrará al Paraíso\". - Referenciado en",
               "linkLabel": "Temas: Creencias fundamentales"
             },
             {
               "code": "H5",
-              "text": "Jami at-Tirmidhi - \"Ata tu camello y luego confía en Allah\". - Referenciado en ",
+              "text": "Jami at-Tirmidhi - \"Ata tu camello y luego confía en Allah\". - Referenciado en",
               "linkLabel": "Guía de salud mental"
             }
           ]
@@ -451,17 +493,17 @@
             },
             {
               "code": "A2",
-              "text": "Mi oración (Salah) - Una guía paso a paso - newmuslimguide.com - Guía de oración ilustrada. - Referenciado en ",
+              "text": "Mi oración (Salah) - Una guía paso a paso - newmuslimguide.com - Guía de oración ilustrada. - Referenciado en",
               "linkLabel": "Paso: Oración"
             },
             {
               "code": "A3",
-              "text": "La salud mental y la experiencia de los musulmanes convertidos - Instituto Yaqeen - Referenciado en ",
+              "text": "La salud mental y la experiencia de los musulmanes convertidos - Instituto Yaqeen - Referenciado en",
               "linkLabel": "Guía de salud mental"
             },
             {
               "code": "A4",
-              "text": "Guía de preparación para el Ramadán - Instituto Yaqeen - Referenciado en ",
+              "text": "Guía de preparación para el Ramadán - Instituto Yaqeen - Referenciado en",
               "linkLabel": "Guía de Ramadán"
             }
           ]
@@ -472,7 +514,7 @@
           "items": [
             {
               "code": "B1",
-              "text": "El Corán claro del Dr. Mustafa Khattab - Traducción del Corán al inglés moderno. - Referenciado en ",
+              "text": "El Corán claro del Dr. Mustafa Khattab - Traducción del Corán al inglés moderno. - Referenciado en",
               "linkLabel": "Temas: Corán"
             },
             {
@@ -485,7 +527,7 @@
             },
             {
               "code": "B4",
-              "text": "Fortaleza de los musulmanes (Hisn al-Muslim) - Colección de auténticas súplicas diarias. - Referenciado en ",
+              "text": "Fortaleza de los musulmanes (Hisn al-Muslim) - Colección de auténticas súplicas diarias. - Referenciado en",
               "linkLabel": "Temas: Oración"
             }
           ]
@@ -502,7 +544,7 @@
       "endingBody": "Comienza donde estás y progresa a tu propio ritmo. Cada viaje es único y el tuyo no es una excepción."
     },
     "stage": {
-      "stageLabel": "etapa",
+      "stageLabel": "Escenario",
       "overview": "Descripción general",
       "mainGoal": "Objetivo principal",
       "successLooksLike": "El éxito parece",
@@ -516,7 +558,7 @@
       "exploreTopics": "Explorar temas"
     },
     "step": {
-      "stepLabel": "paso",
+      "stepLabel": "Paso",
       "whyThisStepMatters": "Por qué es importante este paso",
       "exactActions": "Acciones exactas",
       "commonObstacles": "Obstáculos comunes",
@@ -527,7 +569,7 @@
       "keyTerms": "Términos clave",
       "navigationAriaLabel": "Navegación por pasos",
       "previous": "Anterior",
-      "next": "Siguiente"
+      "next": "Próximo"
     },
     "topics": {
       "description": "Explore guías sobre temas específicos para profundizar su comprensión. Cada tema es independiente: comience con el que más le interese.",
@@ -551,7 +593,7 @@
       },
       "forNewMuslims": {
         "title": "Para los nuevos musulmanes",
-        "calloutTitle": "no estas solo",
+        "calloutTitle": "Usted no está solo",
         "calloutBody": "Si este es tu primer Ramadán, es completamente normal sentirte ansioso o inseguro. Recuerde que cualquier ayuno que pueda realizar es valioso y puede aumentarlo gradualmente. No seas duro contigo mismo: incluso los musulmanes de toda la vida consideran que el Ramadán es a veces un desafío.",
         "body": "Busque un compañero de ayuno, un mentor o un grupo comunitario con quien compartir la experiencia. Muchas mezquitas tienen programas especiales para los nuevos musulmanes durante el Ramadán. Estás asumiendo algo hermoso y la comunidad musulmana está aquí para apoyarte."
       },
@@ -579,9 +621,9 @@
             "desc": "- Haz una intención en tu corazón cada noche o antes del amanecer de ayunar por la causa de Allah."
           }
         ],
-        "footerPrefix": "Para conocer las reglas de ayuno detalladas, consulte ",
+        "footerPrefix": "Para conocer las reglas de ayuno detalladas, consulte",
         "footerLinkLabel": "Ayuno y Ramadán",
-        "footerSuffix": " en la sección Temas."
+        "footerSuffix": "en la sección Temas."
       },
       "preparing": {
         "title": "Preparándose para el Ramadán",
@@ -615,8 +657,8 @@
       },
       "tarawihAndCommunity": {
         "title": "Tarawih y la comunidad",
-        "tarawihBodyBeforeIsha": "Tarawih son oraciones vespertinas especiales que se realizan durante el Ramadán y se llevan a cabo después ",
-        "tarawihBodyAfterIsha": " (Isha) oración en la mezquita. Pueden ser bastante largas, pero no te preocupes si no puedes orar durante toda la sesión; incluso la participación parcial es gratificante. Intente asistir al menos una vez para experimentar el hermoso ambiente comunitario.",
+        "tarawihBodyBeforeIsha": "Tarawih son oraciones vespertinas especiales que se realizan durante el Ramadán y se llevan a cabo después",
+        "tarawihBodyAfterIsha": "(Isha) oración en la mezquita. Pueden ser bastante largas, pero no te preocupes si no puedes orar durante toda la sesión; incluso la participación parcial es gratificante. Intente asistir al menos una vez para experimentar el hermoso ambiente comunitario.",
         "iftarBody": "Las reuniones de iftar en mezquitas y centros comunitarios son una manera maravillosa de romper el ayuno junto con otras personas. Encontrará comidas generosas y caras acogedoras. Estas reuniones son una de las partes más preciadas del Ramadán y una excelente manera de hacer nuevos amigos.",
         "calloutTitle": "Consejo de la comunidad",
         "calloutBody": "Considere buscar un compañero de ayuno o un mentor que le brinde responsabilidad y apoyo. Compartir la experiencia con otra persona hace que el viaje sea mucho más fácil."
@@ -638,9 +680,9 @@
       },
       "resources": {
         "title": "Recursos",
-        "footerPrefix": "Para obtener más detalles, explore el ",
+        "footerPrefix": "Para obtener más detalles, explore el",
         "footerLinkLabel": "Ayuno y Ramadán",
-        "footerSuffix": " página del tema."
+        "footerSuffix": "página del tema."
       }
     },
     "mentalHealth": {
@@ -648,7 +690,7 @@
       "subtitle": "Tu bienestar emocional importa. Esta página está aquí para apoyarte.",
       "validation": {
         "title": "Tus sentimientos son válidos",
-        "calloutTitle": "no estas solo",
+        "calloutTitle": "Usted no está solo",
         "calloutBody": "Muchos nuevos musulmanes experimentan sentimientos de soledad, dudas, ansiedad, cuestiones de identidad o conflictos familiares. Estos sentimientos no te convierten en un mal musulmán: te hacen humano.",
         "body": "Abrazar el Islam es una de las decisiones más importantes que puedes tomar. Es un paso hermoso, pero también es un cambio importante en la vida que requiere un ajuste emocional. Es completamente normal sentirse abrumado, en conflicto o inseguro en ocasiones. Lo que importa es que estás aquí, aprendiendo y creciendo. Todos los conversos anteriores a ti han navegado por estas mismas aguas, y tú también encontrarás tu equilibrio."
       },
@@ -777,7 +819,7 @@
       "findMasjidBody": "Busque mezquitas en el área de Toronto y conéctese con su comunidad local.",
       "filterAriaLabel": "Filtrar recursos por categoría",
       "categories": {
-        "all": "Todos",
+        "all": "Todo",
         "article": "Artículos",
         "video": "Vídeos",
         "app": "Aplicaciones",
@@ -794,22 +836,62 @@
       "emptyAction": "ver todos los recursos"
     },
     "findMasjid": {
-      "description": "Busque mezquitas en el área de Toronto. Conéctese con su comunidad local.",
+      "description": "Busque mezquitas en el área de Toronto, compare opciones de soporte y abra direcciones en su aplicación de mapas preferida.",
       "offlineTitle": "Estás desconectado",
-      "offlineBody": "La lista de mezquitas y la búsqueda están disponibles sin conexión. Las funciones del mapa requieren una conexión a Internet.",
-      "mapTitle": "Mapa próximamente",
-      "mapBody": "Un mapa interactivo estará disponible en una actualización futura.",
-      "searchPlaceholder": "Buscar por nombre, ciudad o código postal...",
+      "offlineBody": "La lista de mezquitas, la búsqueda de texto y los filtros están disponibles sin conexión. El mapa interactivo y la búsqueda de direcciones requieren una conexión a Internet.",
+      "mapTitle": "Mapa de mezquita",
+      "mapBody": "Explore los resultados actuales en un mapa en vivo, luego utilice una búsqueda de direcciones para ordenar la lista según lo que esté más cerca de usted.",
+      "mapLoading": "Cargando mapa...",
+      "mapOfflineTitle": "Mapa no disponible sin conexión",
+      "mapOfflineBody": "Vuelva a conectarse para cargar mosaicos de mapas y buscar una dirección cercana. La lista de mezquitas a continuación todavía funciona sin conexión.",
+      "mapEmptyTitle": "Ninguna mezquita coincide con la búsqueda y los filtros actuales.",
+      "mapLegendMasjid": "Mezquita",
+      "mapLegendSelected": "Mezquita seleccionada",
+      "mapLegendSearch": "Área buscada",
+      "locationLabel": "Buscar cerca de una dirección",
+      "locationPlaceholder": "Ingrese una dirección o vecindario del área de Toronto...",
+      "locationAction": "Área de búsqueda",
+      "locationSearching": "Encontrar mezquitas cercanas...",
+      "locationClear": "Área limpia",
+      "locationHelper": "No utilizamos la ubicación de su dispositivo. Ingrese una dirección para ordenar la lista por distancia.",
+      "locationResults": "Mostrando mezquitas más cercanas a",
+      "locationError": "No pudimos encontrar esa dirección. Pruebe con una dirección postal o un nombre de vecindario más completo.",
+      "locationOffline": "La búsqueda de direcciones requiere una conexión a Internet.",
+      "searchPlaceholder": "Busque por nombre, dirección, ciudad, notas, servicio o código postal...",
       "searchLabel": "Buscar mezquitas",
+      "filtersTitle": "Filtrar esta lista",
+      "cityLabel": "Ciudad",
+      "cityAll": "Todas las ciudades",
+      "servicesLabel": "Servicios",
+      "amenitiesLabel": "Soporte y accesibilidad",
+      "womenFriendly": "Espacio amigable para las mujeres",
+      "convertSupport": "Convertir soporte",
+      "parking": "Aparcamiento",
+      "accessibility": "Accesibilidad",
+      "clearFilters": "Limpiar todos los filtros",
+      "showOnMap": "Mostrar en el mapa",
+      "selectedLabel": "Seleccionado en el mapa",
+      "distanceAway": "lejos",
+      "googleMaps": "mapas de google",
+      "appleMaps": "Mapas de Apple",
+      "serviceLabels": {
+        "quran-classes": "clases de coran",
+        "community-events": "Eventos comunitarios",
+        "new-muslim-support": "Nuevo apoyo musulmán",
+        "youth-programs": "Programas juveniles",
+        "weekend-school": "escuela de fin de semana",
+        "library": "Biblioteca",
+        "interfaith-outreach": "Alcance interreligioso"
+      },
       "liveRegion": {
         "one": "mezquita encontrada",
         "other": "mezquitas encontradas"
       },
       "emptyTitle": "No se encontraron mezquitas",
-      "emptyPrefix": "Pruebe con un término de búsqueda diferente o",
-      "emptyAction": "borrar la búsqueda",
+      "emptyPrefix": "Pruebe con otro término de búsqueda, dirección o combinación de filtros, o",
+      "emptyAction": "borrar todo",
       "visitWebsite": "Visitar sitio web",
-      "visitWebsiteSuffix": " para ",
+      "visitWebsiteSuffix": "para",
       "crossLinkPrompt": "¿Nuevo en visitar una mezquita? Aprenda qué esperar.",
       "crossLinkLabel": "Leer: Construyendo su comunidad musulmana"
     },
@@ -824,7 +906,7 @@
       "emptyTitle": "No se encontraron términos",
       "emptyPrefix": "Pruebe con un término de búsqueda diferente o",
       "emptyAction": "borrar la búsqueda",
-      "seeAlso": "Ver también:"
+      "seeAlso": "See also:"
     },
     "offline": {
       "title": "Estás desconectado",
@@ -838,6 +920,84 @@
       "body": "Esta página parece haberse extraviado. Es posible que se haya movido, eliminado o que la URL sea incorrecta. Volvamos a encaminarte.",
       "returnHome": "Regresar a casa",
       "goToRoadmap": "Ir a la hoja de ruta"
+    },
+    "prayerTimes": {
+      "title": "Horarios de oración",
+      "subtitle": "Vea los tiempos de oración de hoy para su área.",
+      "locationLabel": "Tu ubicación",
+      "locationPlaceholder": "Ingrese una ciudad o dirección (por ejemplo, Toronto, ON)",
+      "locationButton": "Obtener tiempos",
+      "loading": "Recuperando tiempos de oración...",
+      "error": "No se pudieron cargar los tiempos de oración. Por favor verifique su conexión e inténtelo nuevamente.",
+      "locationError": "No se pudo encontrar esa ubicación. Pruebe con una dirección o un nombre de ciudad más específicos.",
+      "disclaimer": "Los tiempos de oración son estimaciones aproximadas calculadas utilizando el método ISNA. Confirme siempre con su mezquita local los horarios exactos de oración.",
+      "hijriDate": "Fecha islámica",
+      "gregorianDate": "Fecha",
+      "nextPrayer": "Próximo",
+      "prayers": {
+        "Fajr": "Fayr",
+        "Sunrise": "Amanecer",
+        "Dhuhr": "Dhuhr",
+        "Asr": "asr",
+        "Maghrib": "Magreb",
+        "Isha": "Isha"
+      },
+      "prayerDescriptions": {
+        "Fajr": "Oración antes del amanecer",
+        "Sunrise": "Amanecer: finaliza el Fajr",
+        "Dhuhr": "Oración del mediodía",
+        "Asr": "Oración de la tarde",
+        "Maghrib": "Oración al atardecer",
+        "Isha": "Oración nocturna"
+      },
+      "offlineTitle": "Los tiempos de oración requieren una conexión a Internet.",
+      "offlineBody": "Conéctese a Internet para obtener los horarios de oración de su área.",
+      "learnMore": "¿Nuevo en la oración?",
+      "learnMoreLink": "Conoce las cinco oraciones diarias"
+    },
+    "qibla": {
+      "title": "Buscador de Qibla",
+      "subtitle": "Encuentre la dirección de la Kaaba en La Meca para sus oraciones.",
+      "directionLabel": "Dirección qibla",
+      "degrees": "grados del norte",
+      "loading": "Calculando la dirección Qibla…",
+      "error": "No se pudo determinar la dirección de Qibla. Por favor inténtalo de nuevo.",
+      "permissionDenied": "Se denegó el acceso a la ubicación. Puede ingresar las coordenadas manualmente a continuación.",
+      "useMyLocation": "Usar mi ubicación",
+      "manualEntry": "O ingrese las coordenadas manualmente",
+      "latitudePlaceholder": "Latitud (por ejemplo, 43,65)",
+      "longitudePlaceholder": "Longitud (por ejemplo, -79,38)",
+      "calculate": "encontrar qibla",
+      "disclaimer": "La dirección que se muestra es un rumbo aproximado. Para obtener mejores resultados, utilice una brújula física para orientarse.",
+      "compassTip": "Enfréntate a esta orientación de la brújula durante la oración. Desde Toronto, la Qibla está aproximadamente al noreste.",
+      "compassTipLive": "Sostenga su teléfono plano y gírelo hasta que la flecha apunte hacia arriba. ¡Ahora estás frente a la Qibla!",
+      "compassActive": "Brújula en vivo activa: apunta tu teléfono para encontrar Qibla",
+      "compassUnavailable": "Brújula no disponible en este dispositivo. Utilice una brújula física para orientarse hacia el rumbo que se muestra.",
+      "offlineTitle": "Ubicación requerida",
+      "offlineBody": "Permita el acceso a la ubicación o ingrese las coordenadas manualmente para encontrar la dirección Qibla.",
+      "learnMore": "¿Por qué los musulmanes miran hacia la Kaaba?",
+      "learnMoreBody": "Estar frente a la Kaaba en La Meca durante la oración unifica a los musulmanes de todo el mundo en una única dirección de adoración, que simboliza la unidad y la devoción a Alá."
+    },
+    "asmaAlHusna": {
+      "title": "Los 99 nombres de Allah",
+      "subtitle": "Explore los hermosos nombres de Allah: cada nombre revela un atributo del Creador.",
+      "searchPlaceholder": "Busque por nombre, significado o transliteración...",
+      "searchLabel": "Buscar nombres",
+      "nameOfTheDay": "Nombre del día",
+      "meaning": "Significado",
+      "number": "No.",
+      "loading": "Cargando los 99 nombres…",
+      "error": "No se pudieron cargar los nombres. Por favor inténtalo de nuevo.",
+      "liveRegion": {
+        "one": "nombre encontrado",
+        "other": "nombres encontrados"
+      },
+      "emptyTitle": "Ningún nombre coincide con tu búsqueda",
+      "emptyPrefix": "Pruebe con un término de búsqueda diferente o",
+      "emptyAction": "borrar la búsqueda",
+      "disclaimer": "Los significados en inglés son representaciones concisas. La profundidad total de cada nombre se comprende mejor a través del estudio académico.",
+      "reflection": "Reflexión",
+      "reflectionBody": "El Profeta Muhammad (la paz sea con él) dijo: \"Alá tiene noventa y nueve nombres. Quien los memorice entrará al Paraíso\". Tómate el tiempo para aprender y reflexionar sobre estos hermosos nombres."
     }
   }
 }

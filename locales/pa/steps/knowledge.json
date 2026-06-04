@@ -83,11 +83,10 @@
   "tinyVersion": "ਇੱਕ ਭਰੋਸੇਯੋਗ ਸਰੋਤ ਚੁਣੋ - ਇੱਕ ਕਿਤਾਬ, ਇੱਕ ਕੋਰਸ, ਜਾਂ ਇੱਕ ਹਫਤਾਵਾਰੀ ਕਲਾਸ - ਅਤੇ ਇਸ ਲਈ ਵਚਨਬੱਧ ਹੋਵੋ। ਇੱਥੋਂ ਤੱਕ ਕਿ ਛੋਟੀ, ਇਕਸਾਰ ਸਿਖਲਾਈ ਸਮੇਂ ਦੇ ਨਾਲ ਡੂੰਘੀ ਸਮਝ ਵਿੱਚ ਵਾਧਾ ਕਰਦੀ ਹੈ।",
   "unlocksNext": "ਗਿਆਨ ਅਤੇ ਅਭਿਆਸ ਦੀ ਮਜ਼ਬੂਤ ​​ਬੁਨਿਆਦ ਦੇ ਨਾਲ, ਤੁਸੀਂ ਇਸਲਾਮ ਦੇ ਬਾਕੀ ਥੰਮ੍ਹਾਂ — ਜ਼ਕਾਤ ਅਤੇ ਹੱਜ — ਬਾਰੇ ਜਾਣਨ ਲਈ ਤਿਆਰ ਹੋ ਅਤੇ ਇੱਕ ਮੁਸਲਮਾਨ ਵਜੋਂ ਆਪਣੇ ਲੰਬੇ ਸਮੇਂ ਦੇ ਟੀਚਿਆਂ ਬਾਰੇ ਸੋਚਣਾ ਸ਼ੁਰੂ ਕਰੋ।",
   "resourceIds": [
-    "seekersguidance-courses",
-    "yaqeen-institute-articles",
-    "bayyinah-tv-subscription",
-    "new-muslim-reading-list",
-    "islamic-podcasts-list"
+    "seekers-guidance",
+    "yaqeen-institute",
+    "bayyinah-tv",
+    "new-muslim-academy"
   ],
   "relatedGlossaryIds": [
     "ilm",
@@ -99,5 +98,12 @@
     "seerah",
     "hadith"
   ],
-  "relatedTopicIds": ["beliefs", "community"]
+  "relatedTopicIds": [
+    "beliefs",
+    "community",
+    "questions-and-doubts",
+    "prophet-muhammad"
+  ],
+  "sourceIds": ["seekersguidance", "yaqeen-institute", "new-muslim-academy"],
+  "reviewStatus": "source-checked"
 }

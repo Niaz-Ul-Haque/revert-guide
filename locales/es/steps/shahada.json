@@ -36,7 +36,7 @@
       ]
     }
   ],
-  "timeEstimate": "5 - 15 minutos",
+  "timeEstimate": "5 a 15 minutos",
   "obstacles": [
     {
       "problem": "Estoy nervioso por la pronunciación.",
@@ -44,7 +44,7 @@
     },
     {
       "problem": "No estoy seguro de estar listo",
-      "solution": "Si crees en tu corazón que hay un Dios y que Mahoma es Su mensajero, estás listo. Sentirse nervioso es completamente normal. No es necesario que primero sepas todo sobre el Islam; ese aprendizaje viene después."
+      "solution": "Si crees en tu corazón que hay un Dios y que Mahoma es Su mensajero, estás listo. Sentirse nervioso es completamente normal. No es necesario saber todo sobre el Islam primero: ese aprendizaje viene después."
     },
     {
       "problem": "no tengo a nadie para presenciarlo",
@@ -57,11 +57,9 @@
   ],
   "tinyVersion": "Si se siente abrumado, simplemente diga la Shahada con sus propias palabras por ahora: \"Creo que hay un solo Dios y Mahoma es Su mensajero\". Podrás aprender la declaración árabe formal más adelante.",
   "unlocksNext": "Al declarar tu fe, estás listo para aprender el baño de purificación (Ghusl) en el Paso 2 y comenzar tu nueva vida como musulmán.",
-  "resourceIds": [
-    "shahada-video",
-    "shahada-meaning-article",
-    "new-muslim-guide-book"
-  ],
+  "resourceIds": ["whyislam", "welcome-to-islam-book", "new-muslim-academy"],
   "relatedGlossaryIds": ["shahada", "allah", "muhammad", "dua", "masjid"],
-  "relatedTopicIds": ["beliefs"]
+  "relatedTopicIds": ["beliefs", "new-muslim-basics"],
+  "sourceIds": ["whyislam", "new-muslim-academy", "sunnah-com"],
+  "reviewStatus": "review-needed"
 }

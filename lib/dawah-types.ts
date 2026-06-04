@@ -37,7 +37,13 @@ export interface DawahNode {
 
 export interface IslamicReference {
   id: string;
-  type: "quran" | "hadith" | "scholarly-note";
+  type:
+    | "quran"
+    | "hadith"
+    | "scholarly-note"
+    | "public-health"
+    | "public-safety"
+    | "public-rights";
   citation: string;
   label: string;
   arabic?: string;
@@ -45,7 +51,7 @@ export interface IslamicReference {
   translator?: string;
   sourceName: string;
   sourceUrl?: string;
-  reviewStatus: "draft" | "verified";
+  reviewStatus: "draft" | "source-checked" | "verified";
   reviewNote?: string;
 }
 
@@ -94,6 +100,34 @@ export interface Scenario {
   summary: string;
   approach: string[];
   watchFor?: string[];
+  referenceIds?: string[];
+}
+
+export interface TrainingCard {
+  id: string;
+  title: string;
+  summary: string;
+  practice: string[];
+  avoid?: string[];
+  referenceIds?: string[];
+}
+
+export interface HandoffSection {
+  id: string;
+  title: string;
+  summary: string;
+  actions: string[];
+  avoid?: string[];
+  referenceIds?: string[];
+}
+
+export interface ReferralBoundary {
+  id: string;
+  title: string;
+  summary: string;
+  examples: string[];
+  referTo: string;
+  referenceIds?: string[];
 }
 
 export interface DuaReminder {
@@ -112,6 +146,9 @@ export interface QuickReferenceContent {
 }
 
 export interface AdditionalGuidance {
+  trainingCards?: TrainingCard[];
+  postShahadaHandoff?: HandoffSection[];
+  referralBoundaries?: ReferralBoundary[];
   commonQuestions: CommonQuestion[];
   misconceptions: Misconception[];
   scenarios: Scenario[];
@@ -125,6 +162,9 @@ export interface DawahGuide {
   title: string;
   subtitle: string;
   audienceNote: string;
+  reviewStatus?: "draft" | "source-checked" | "verified";
+  reviewNote?: string;
+  lastSourceChecked?: string;
   tonePrinciples: string[];
   startNodeId: string;
   nodeOrder: string[];

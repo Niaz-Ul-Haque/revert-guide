@@ -8,7 +8,7 @@
     {
       "text": "Encontre uma mesquita perto de você",
       "subSteps": [
-        "Use o Masjid Finder neste aplicativo para localizar mesquitas na área Toronto.",
+        "Use o Masjid Finder neste aplicativo para localizar mesquitas na área de Toronto.",
         "Procure masjids que tenham programas específicos para novos muçulmanos ou convertidos.",
         "Algumas mesquitas têm grupos dedicados de apoio a convertidos ou aulas semanais.",
         "Se houver várias mesquitas próximas, tente visitar algumas para ver qual comunidade é mais acolhedora."
@@ -28,7 +28,7 @@
       "text": "Apresente-se ao imã ou líder comunitário",
       "subSteps": [
         "O imã é o líder da oração e muitas vezes uma fonte de orientação. A maioria dos imãs fica feliz em conhecer novos muçulmanos.",
-        "Deixe-os saber que você pegou recentemente seu Shahada.",
+        "Deixe-os saber que você fez recentemente sua Shahada.",
         "Pergunte sobre quaisquer novos programas, aulas ou círculos de estudo muçulmanos.",
         "Não tenha medo de fazer perguntas – os imãs as esperam e acolhem bem."
       ]
@@ -61,7 +61,7 @@
     },
     {
       "problem": "Eu sinto que não me encaixo",
-      "solution": "O Islã é uma das religiões mais diversas do mundo. A comunidade muçulmana Toronto inclui pessoas de dezenas de países e origens. Você pertence aqui tanto quanto qualquer um. Pode levar algumas visitas para começar a se sentir confortável. Dê a si mesmo graça e continue aparecendo – a conexão aumenta com o tempo."
+      "solution": "O Islã é uma das religiões mais diversas do mundo. A comunidade muçulmana de Toronto inclui pessoas de dezenas de países e origens. Você pertence aqui tanto quanto qualquer um. Pode levar algumas visitas para começar a se sentir confortável. Dê a si mesmo graça e continue aparecendo – a conexão aumenta com o tempo."
     },
     {
       "problem": "Eu não sei o que vestir",
@@ -69,7 +69,7 @@
     },
     {
       "problem": "Eu não tenho nenhum amigo muçulmano",
-      "solution": "É exatamente por isso que esta etapa existe. Cada amigo muçulmano que você já conheceu como um estranho. Eventos Masjid, novas aulas muçulmanas e comunidades online são pontos de partida. Seja aberto e paciente. Mesmo uma conexão significativa pode transformar sua experiência. Considere ingressar em um grupo local de WhatsApp ou Telegram para muçulmanos em sua região."
+      "solution": "É exatamente por isso que esta etapa existe. Cada amigo muçulmano que você já conheceu como um estranho. Eventos Masjid, novas aulas muçulmanas e comunidades online são pontos de partida. Seja aberto e paciente. Mesmo uma conexão significativa pode transformar sua experiência. Considere ingressar em um grupo local de WhatsApp ou Telegram para muçulmanos em sua área."
     },
     {
       "problem": "As diferenças culturais parecem esmagadoras",
@@ -77,12 +77,12 @@
     }
   ],
   "tinyVersion": "Se visitar uma mesquita parece demais agora, comece conectando-se com um muçulmano – online ou pessoalmente. Mesmo um único amigo que o apoia faz uma grande diferença.",
-  "unlocksNext": "Com uma comunidade apoiando você, você está pronto para aprofundar seu relacionamento com as palavras de Allah começando a ler o Quran.",
+  "unlocksNext": "Com uma comunidade apoiando você, você está pronto para aprofundar seu relacionamento com as palavras de Allah começando a ler o Alcorão.",
   "resourceIds": [
-    "masjid-finder-tool",
-    "new-muslim-support-article",
-    "convert-community-online",
-    "visiting-masjid-guide"
+    "new-muslim-guide-icna",
+    "whyislam",
+    "aboutislam-new-muslims",
+    "khalil-center"
   ],
   "relatedGlossaryIds": [
     "masjid",
@@ -92,5 +92,11 @@
     "halaqa",
     "salaam"
   ],
-  "relatedTopicIds": ["community", "mental-health"]
+  "relatedTopicIds": [
+    "community",
+    "masjid-and-community",
+    "family-and-identity"
+  ],
+  "sourceIds": ["whyislam", "icna", "yaqeen-mental-health"],
+  "reviewStatus": "source-checked"
 }

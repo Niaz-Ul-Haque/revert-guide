@@ -10,7 +10,7 @@
       "subSteps": [
         "ਅਜਿਹਾ ਅਨੁਵਾਦ ਲੱਭੋ ਜੋ ਪਹੁੰਚਯੋਗ ਮਹਿਸੂਸ ਕਰਦਾ ਹੋਵੇ। ਪ੍ਰਸਿੱਧ ਵਿਕਲਪਾਂ ਵਿੱਚ ਡਾ. ਮੁਸਤਫਾ ਖੱਤਾਬ ਦੁਆਰਾ 'ਦਿ ਕਲੀਅਰ ਕੁਰਾਨ' ਅਤੇ ਅਹਿਮਦ ਜ਼ਕੀ ਹਮਾਦ ਦੁਆਰਾ 'ਦਿ ਗਰੇਸ਼ਸ ਕੁਰਾਨ' ਸ਼ਾਮਲ ਹਨ।",
         "ਬਹੁਤ ਸਾਰੀਆਂ ਮਸਜਿਦਾਂ ਨਵੇਂ ਮੁਸਲਮਾਨਾਂ ਨੂੰ ਮੁਫਤ ਕਾਪੀਆਂ ਦਿੰਦੀਆਂ ਹਨ - ਪੁੱਛਣ ਤੋਂ ਝਿਜਕੋ ਨਾ।",
-        "ਤੁਸੀਂ ਕੁਰਾਨ ਐਪ ਜਿਵੇਂ Quran.com ਜਾਂ ਅਲ-ਕੁਰਾਨ ਐਪ ਦੀ ਵਰਤੋਂ ਵੀ ਕਰ ਸਕਦੇ ਹੋ, ਜੋ ਅਰਬੀ ਟੈਕਸਟ, ਲਿਪੀਅੰਤਰਨ, ਅਤੇ ਕਈ ਅਨੁਵਾਦਾਂ ਦੀ ਪੇਸ਼ਕਸ਼ ਕਰਦਾ ਹੈ।",
+        "ਤੁਸੀਂ ਕੁਰਾਨ ਐਪ ਜਿਵੇਂ ਕਿ Quran.com ਜਾਂ ਅਲ-ਕੁਰਾਨ ਐਪ ਦੀ ਵਰਤੋਂ ਵੀ ਕਰ ਸਕਦੇ ਹੋ, ਜੋ ਅਰਬੀ ਟੈਕਸਟ, ਲਿਪੀਅੰਤਰਨ, ਅਤੇ ਕਈ ਅਨੁਵਾਦਾਂ ਦੀ ਪੇਸ਼ਕਸ਼ ਕਰਦਾ ਹੈ।",
         "ਇੱਕ ਭੌਤਿਕ ਕਾਪੀ ਅਤੇ ਇੱਕ ਡਿਜੀਟਲ ਦੋਨਾਂ ਦਾ ਹੋਣਾ ਆਦਰਸ਼ ਹੈ — ਫੋਕਸਡ ਰੀਡਿੰਗ ਲਈ ਕਿਤਾਬ, ਚੱਲਦੇ-ਫਿਰਦੇ ਲਈ ਐਪ।"
       ]
     },
@@ -81,10 +81,10 @@
   "unlocksNext": "ਜਿਵੇਂ ਕਿ ਤੁਸੀਂ ਕੁਰਾਨ ਦੀ ਆਪਣੀ ਸਮਝ ਵਿੱਚ ਵਾਧਾ ਕਰਦੇ ਹੋ, ਤੁਸੀਂ ਰੋਜ਼ਾਨਾ ਜੀਵਨ ਬਾਰੇ ਪੇਸ਼ ਕੀਤੇ ਵਿਹਾਰਕ ਮਾਰਗਦਰਸ਼ਨ ਦੀ ਪੜਚੋਲ ਕਰਨ ਲਈ ਤਿਆਰ ਹੋ - ਹਲਾਲ ਅਤੇ ਹਰਾਮ ਨੂੰ ਸਮਝਣ ਤੋਂ ਸ਼ੁਰੂ ਕਰਦੇ ਹੋਏ।",
   "resourceIds": [
     "clear-quran-translation",
-    "quran-app-recommendation",
-    "quran-recitation-playlist",
-    "tafsir-beginners-article",
-    "arabic-for-beginners-course"
+    "quran-com",
+    "quran-recitation-mishary",
+    "tarteel-ai-app",
+    "bayyinah-tv"
   ],
   "relatedGlossaryIds": [
     "quran",
@@ -96,5 +96,7 @@
     "bismillah",
     "hafiz"
   ],
-  "relatedTopicIds": ["quran-study", "beliefs"]
+  "relatedTopicIds": ["quran", "beliefs", "prophet-muhammad"],
+  "sourceIds": ["quran-com", "clear-quran", "tanzil"],
+  "reviewStatus": "source-checked"
 }

@@ -1,0 +1,1426 @@
+{
+  "id": "personal",
+  "slug": "dawah-guide-personal",
+  "title": "다와 가이드",
+  "subtitle": "지혜와 친절함으로 이슬람을 나누는 온화하고 단계별 동반자입니다.",
+  "audienceNote": "이것은 da'ees(이슬람에 초대하는 사람들)을 위한 비공개 직접 링크 가이드입니다. 대본이 아닌 현장 동반자입니다. 실제 대화는 선형적이지 않습니다. 먼저 듣고, 다른 사람의 속도에 맞춰 움직이고, 결과는 알라에게 맡기십시오.",
+  "reviewStatus": "source-checked",
+  "reviewNote": "꾸란과 하디스 참조는 2026년 6월 3일 온라인 소스 링크와 비교하여 확인되었습니다. 자격을 갖춘 학자/직접 승인이 아직 보류 중이므로 확인된 것으로 표시되지 않습니다.",
+  "lastSourceChecked": "2026-06-03",
+  "tonePrinciples": [
+    "지혜와 예의로 초대하되 결코 압력을 가하지 마십시오.",
+    "말하는 것보다 더 많이 들어보세요. 한 번에 하나씩 질문하십시오.",
+    "절대로 다른 사람의 신념이나 배경을 조롱하지 마십시오.",
+    "승리를 위해 논쟁을 피하십시오. 이해를 목표로 하세요.",
+    "샤하다 없이 대화가 끝나더라도 문은 열어두세요.",
+    "개인적으로 진실한 듀아를 만들고 그 결과를 알라에게 맡기십시오."
+  ],
+  "startNodeId": "start",
+  "nodeOrder": [
+    "start",
+    "believe-in-god-initial",
+    "signs-creation-infinite-regress",
+    "believe-in-god-after-signs",
+    "tawheed-surah-ikhlas",
+    "one-god-initial",
+    "ayat-ikhtilaf",
+    "one-god-after-ikhtilaf",
+    "justice-day-judgment-test-revelation",
+    "angels",
+    "messengers-prophets",
+    "jesus-peace-be-upon-him",
+    "shahada-readiness-initial",
+    "encourage-keep-door-open",
+    "shahada-readiness-after-encouragement",
+    "connect-guidance-community",
+    "respectful-exit-best-of-luck"
+  ],
+  "nodes": {
+    "start": {
+      "id": "start",
+      "kind": "intro",
+      "title": "대화를 시작하세요",
+      "eyebrow": "이슬람교 / 무슬림",
+      "summary": "따뜻하고 자연스럽게 시작해보세요. 믿음을 논의하기 전에 진정한 관계를 구축하십시오.",
+      "explanation": [
+        "완벽한 오프닝 라인은 없습니다. 진실한 미소, 친절한 말, 그리고 상대방에 대한 진정한 관심이 어떤 기술보다 중요합니다.",
+        "대화가 흐르도록 하세요. 당신은 강의를 하는 것이 아닙니다. 당신은 삶의 목적과 우리 창조주와의 관계를 향해 부드럽게 나아갈 수 있는 인간적인 대화를 나누고 있습니다."
+      ],
+      "conversationTips": [
+        "시작하기 전에 두아를 만들고 알라에게 두 마음을 부드럽게 해달라고 요청하십시오.",
+        "열린 질문을 하고 진심으로 답변을 들어보세요.",
+        "더 깊은 주제로 넘어가기 전에 허락을 구하세요. \"이슬람이 그것을 어떻게 보는지 공유해도 괜찮을까요?\"",
+        "공통점을 먼저 찾으세요. 대부분의 사람들은 진실, 정의, 의미에 관심을 갖습니다."
+      ],
+      "referenceIds": ["quran-16-125"],
+      "nextNodeId": "believe-in-god-initial"
+    },
+    "believe-in-god-initial": {
+      "id": "believe-in-god-initial",
+      "kind": "decision",
+      "title": "그들은 하나님을 믿습니까?",
+      "summary": "그 사람이 어디에 서 있는지 부드럽게 이해하십시오. 여기에는 옳고 그른 답이 없습니다. 단지 시작점일 뿐입니다.",
+      "conversationTips": [
+        "판단하지 말고 물어보십시오. \"당신은 창조주를 믿습니까?\" 그리고 그들 자신의 말로 설명하게 하세요.",
+        "확실하지 않더라도 괜찮습니다. 그들이 있는 곳에서 만나보세요."
+      ],
+      "options": [
+        {
+          "id": "yes",
+          "label": "응, 그들은 신을 믿어",
+          "helperText": "하나님의 하나됨을 이해하는 방향으로 나아가십시오.",
+          "nextNodeId": "tawheed-surah-ikhlas",
+          "ariaLabel": "예, 그들은 신을 믿습니다. 계속해서 Tawheed를 따르세요."
+        },
+        {
+          "id": "no",
+          "label": "아니요, 아니면 확실하지 않습니다.",
+          "helperText": "창조의 흔적을 함께 천천히 탐색해 보세요.",
+          "nextNodeId": "signs-creation-infinite-regress",
+          "ariaLabel": "아니요 또는 확실하지 않음 - 창조의 징후를 탐색하세요"
+        }
+      ]
+    },
+    "signs-creation-infinite-regress": {
+      "id": "signs-creation-infinite-regress",
+      "kind": "teaching",
+      "title": "창조의 징후",
+      "eyebrow": "아야트 / 디자인 / 창작",
+      "summary": "결론을 강요하지 않고 우주의 질서, 설계, 존재에 대해 생각해 보도록 권유하세요.",
+      "explanation": [
+        "우리가 보는 모든 것에는 시작과 원인이 있습니다. 창조에 대해 생각해 보면 간단한 질문이 생깁니다. 이 모든 것이 무에서 나온 것입니까, 아니면 창조주를 가리키는 것입니까?",
+        "이러한 성찰을 승리할 논쟁이라기보다는 경이로움으로 겸손하게 공유하십시오. 목표는 누구도 궁지에 몰아넣는 것이 아니라 생각의 문을 여는 것입니다."
+      ],
+      "conversationTips": [
+        "묵상을 권유합니다. \"모든 것이 궁극적으로 어디서 왔는지 궁금한 적이 있습니까?\"",
+        "복잡한 철학보다는 디자인과 질서의 일상적인 예를 사용하십시오.",
+        "침착하고 호기심을 가지세요. 그것을 논쟁으로 바꾸지 마십시오."
+      ],
+      "avoid": [
+        "설명할 수 없는 과신한 철학적 주장.",
+        "그 사람을 얕보거나 그 사람이 어리석다고 암시하는 것입니다."
+      ],
+      "referenceIds": ["quran-52-35"],
+      "nextNodeId": "believe-in-god-after-signs"
+    },
+    "believe-in-god-after-signs": {
+      "id": "believe-in-god-after-signs",
+      "kind": "decision",
+      "title": "곰곰이 생각해 보니 그들은 하나님을 믿습니까?",
+      "summary": "부드럽게 체크인하세요. 믿음은 그들과 알라 사이에 있습니다. 당신의 역할은 초대하는 것뿐입니다.",
+      "options": [
+        {
+          "id": "yes",
+          "label": "예, 그들은 이제 믿습니다",
+          "helperText": "하나님의 하나됨을 향해 나아가십시오.",
+          "nextNodeId": "tawheed-surah-ikhlas",
+          "ariaLabel": "예, 그들은 이제 믿습니다. 계속해서 Tawheed를 따르세요."
+        },
+        {
+          "id": "no",
+          "label": "아니요, 아직은 아닙니다.",
+          "helperText": "따뜻하게 닫고 문을 열어두세요.",
+          "nextNodeId": "respectful-exit-best-of-luck",
+          "ariaLabel": "아니요, 아직은 — 따뜻하게 닫아주세요"
+        }
+      ]
+    },
+    "tawheed-surah-ikhlas": {
+      "id": "tawheed-surah-ikhlas",
+      "kind": "teaching",
+      "title": "하나님의 유일성(타우히드)",
+      "eyebrow": "타우히드 / 수라 알 이클라스 / 알라",
+      "summary": "이슬람의 신이 누구인지 소개하십시오. 알 이클라스 장(Surah Al-Ikhlas)에 설명된 대로 파트너나 동등자가 없는 하나이고 영원합니다.",
+      "explanation": [
+        "이슬람에서 신(알라)은 한 분이십니다. 그분에게는 파트너도 없고 자녀도 없으며 그분과 비교할 수 있는 것은 아무것도 없습니다. \"알라\"는 아랍어로 유일신, 즉 모든 선지자가 숭배했던 동일한 신을 뜻합니다.",
+        "알 이클라스 장(Surah Al-Ikhlas)은 이 순수한 믿음을 네 줄로 아름답게 요약한 꾸란의 짧은 장입니다."
+      ],
+      "conversationTips": [
+        "\"알라\"는 다른 신이 아니라 모든 것의 유일한 창조주라는 것을 설명하십시오.",
+        "하나님이 누구신지에 대한 부드럽고 명확한 요약인 Surah Al-Ikhlas를 공유하십시오."
+      ],
+      "referenceIds": ["quran-112-ikhlas"],
+      "nextNodeId": "one-god-initial"
+    },
+    "one-god-initial": {
+      "id": "one-god-initial",
+      "kind": "decision",
+      "title": "그들은 하나님이 한 분이라는 것을 받아들입니까?",
+      "summary": "하나이시고 분할할 수 없는 하나님이라는 개념이 그들에게 공감되는지 살펴보십시오.",
+      "options": [
+        {
+          "id": "yes",
+          "label": "예, 그들은 유일신을 받아들입니다",
+          "helperText": "계시와 정의, 심판의 날을 향해 나아가십시오.",
+          "nextNodeId": "justice-day-judgment-test-revelation",
+          "ariaLabel": "예, 그들은 유일신을 받아들입니다 — 계속"
+        },
+        {
+          "id": "no",
+          "label": "아니요, 질문이 있는 경우",
+          "helperText": "여러 신이 왜 모순으로 이어지는지 부드럽게 토론해 보세요.",
+          "nextNodeId": "ayat-ikhtilaf",
+          "ariaLabel": "아니요 또는 질문 - 유일신의 논리에 대해 토론하십시오."
+        }
+      ]
+    },
+    "ayat-ikhtilaf": {
+      "id": "ayat-ikhtilaf",
+      "kind": "teaching",
+      "title": "유일신이 의미가 있는 이유",
+      "eyebrow": "아야트 익틸라프",
+      "summary": "여러 경쟁 신이 어떻게 갈등과 무질서를 초래하는지 침착하게 토론하세요. 반면에 창조주 한 분은 우리가 관찰하는 조화를 설명합니다.",
+      "explanation": [
+        "자신의 의지를 가진 신들이 많다면 창조는 서로 반대되는 방향으로 이끌려 갈 것입니다. 대신에 우주의 질서와 조화는 하나의 권위를 가리킨다.",
+        "이것을 녹아웃 논쟁이 아닌 반성으로 제시하십시오. 어떤 사람들에게는 시간이 필요하지만 괜찮습니다."
+      ],
+      "conversationTips": [
+        "사려 깊고 겸손한 어조를 유지하고 결코 전투적이지 않게 하십시오.",
+        "침묵과 질문을 허용하십시오. 당신은 판매를 종료하는 것이 아니라 씨앗을 심는 것입니다."
+      ],
+      "avoid": [
+        "다신교나 기타 신앙을 조롱합니다.",
+        "토론을 열띤 토론으로 전환합니다."
+      ],
+      "referenceIds": ["quran-21-22"],
+      "nextNodeId": "one-god-after-ikhtilaf"
+    },
+    "one-god-after-ikhtilaf": {
+      "id": "one-god-after-ikhtilaf",
+      "kind": "decision",
+      "title": "이제 그들에게는 유일신이 이해가 됩니까?",
+      "summary": "압력을 가하지 않고 부드럽게 다시 확인하십시오.",
+      "options": [
+        {
+          "id": "yes",
+          "label": "네, 이제 이해가 되네요",
+          "helperText": "계시와 정의, 심판의 날을 향해 나아가십시오.",
+          "nextNodeId": "justice-day-judgment-test-revelation",
+          "ariaLabel": "그렇습니다. 계시와 심판의 날을 계속하십시오"
+        },
+        {
+          "id": "no",
+          "label": "아니요, 아직은 아닙니다.",
+          "helperText": "따뜻하게 닫고 문을 열어두세요.",
+          "nextNodeId": "respectful-exit-best-of-luck",
+          "ariaLabel": "아니요, 아직은 — 따뜻하게 닫아주세요"
+        }
+      ]
+    },
+    "justice-day-judgment-test-revelation": {
+      "id": "justice-day-judgment-test-revelation",
+      "kind": "teaching",
+      "title": "정의, 삶의 시험, 그리고 계시",
+      "eyebrow": "정의 / 심판의 날 / 시험 / 계시",
+      "summary": "이 삶은 시험이며, 심판의 날에 공의가 성취될 것이며, 하나님께서는 우리를 인도 없이 내버려 두지 않으셨다고 설명합니다.",
+      "explanation": [
+        "공의로운 하나님께서는 범죄를 영원히 해결하지 않고 방치하지 않으실 것입니다. 심판의 날은 완전한 정의가 마침내 확립되는 날입니다.",
+        "인생은 의미 있는 시험이기 때문에 하나님께서는 그분의 사자를 통해 계시, 즉 인도를 보내셨습니다. 따라서 우리는 결코 인생의 목적을 홀로 파악하도록 내버려두지 않습니다."
+      ],
+      "conversationTips": [
+        "타고난 정의감과 공정성을 연결하세요.",
+        "계시를 자비로 삼으십시오. 우리는 추측에 얽매이지 않습니다."
+      ],
+      "referenceIds": ["hadith-jibril"],
+      "nextNodeId": "angels"
+    },
+    "angels": {
+      "id": "angels",
+      "kind": "teaching",
+      "title": "천사에 대한 믿음",
+      "eyebrow": "천사",
+      "summary": "계시를 전달하는 것을 포함하여 그분의 명령을 수행하는 하나님의 영예로운 창조물인 천사들을 소개하십시오.",
+      "explanation": [
+        "천사는 결코 하나님에게 불순종하지 않는 빛으로 하나님이 창조하신 존재입니다. 그들은 계시를 전달하고, 행위를 기록하는 등의 역할을 합니다.",
+        "천사에 대한 믿음은 보이지 않는 것에 대한 이슬람의 폭넓은 이해의 일부입니다."
+      ],
+      "referenceIds": ["hadith-jibril"],
+      "nextNodeId": "messengers-prophets"
+    },
+    "messengers-prophets": {
+      "id": "messengers-prophets",
+      "kind": "teaching",
+      "title": "사자와 선지자들",
+      "eyebrow": "메신저 / 선지자",
+      "summary": "하나님께서는 역사 전반에 걸쳐 많은 선지자와 메신저를 보내셨고, 모두 하나의 핵심 메시지, 즉 유일하신 하나님을 예배하라는 메시지를 전달했다고 설명합니다.",
+      "explanation": [
+        "첫 인간 때부터 하나님은 모든 민족에게 인도자를 보내셨습니다. 노아, 아브라함, 모세, 예수와 같은 이름은 이슬람에서 깊은 존경을 받습니다.",
+        "그들의 공동체와 시대는 달랐지만 그들의 중심 메시지는 동일했습니다. 즉, 숭배받을 가치가 있는 유일한 하나님은 오직 한 분뿐이라는 것이었습니다."
+      ],
+      "conversationTips": [
+        "선지자들 사이에 공유된 내용을 강조하십시오. 이는 종종 다른 신앙을 가진 사람들에게도 공감을 불러일으킵니다."
+      ],
+      "referenceIds": ["quran-21-25"],
+      "nextNodeId": "jesus-peace-be-upon-him"
+    },
+    "jesus-peace-be-upon-him": {
+      "id": "jesus-peace-be-upon-him",
+      "kind": "teaching",
+      "title": "예수 그에게 평화가 있기를",
+      "eyebrow": "예수 (PBUH)",
+      "summary": "이슬람은 예수님을 하나님의 가장 위대한 사자 중 한 사람으로 존경하므로 깊은 사랑과 존경심을 가지고 예수님에 대해 이야기하십시오.",
+      "explanation": [
+        "무슬림은 예수님을 사랑하고 존경합니다(그분께 평화가 깃들기를). 우리는 그의 기적적인 탄생과 하나님의 허락에 따른 그의 기적, 그리고 그의 고귀한 메시지를 믿습니다.",
+        "이슬람은 예수가 유일하신 하나님을 예배하도록 사람들을 부르신 강력한 하나님의 사자였다고 가르칩니다. 특히 기독교 배경을 가진 사람들에게는 세심한 주의와 존중심을 가지고 이 주제에 접근하십시오."
+      ],
+      "conversationTips": [
+        "결코 비판하지 말고 예수님에 대한 사랑과 존중을 나누십시오.",
+        "잘 들어보세요. 이것은 많은 사람들에게 감정적인 주제가 될 수 있습니다."
+      ],
+      "avoid": [
+        "기독교 신앙을 무시하거나 신학에 관해 공격적으로 논쟁하는 것.",
+        "이 대화를 서두르고 따뜻함과 시간을 주세요."
+      ],
+      "referenceIds": ["quran-3-45"],
+      "nextNodeId": "shahada-readiness-initial"
+    },
+    "shahada-readiness-initial": {
+      "id": "shahada-readiness-initial",
+      "kind": "decision",
+      "title": "샤하다를 할 준비가 됐나요?",
+      "summary": "그 사람이 이슬람을 받아들일 준비가 되었는지 살펴보세요. 준비는 진심으로 그리고 자유롭게 이루어져야 합니다.",
+      "conversationTips": [
+        "절대 압력을 가하지 마세요. 샤하다(Shahada)는 자유롭고 성실한 선택이어야 합니다.",
+        "한 번 부드럽게 물어보고, 생각할 시간을 주십시오.",
+        "누군가가 더 많은 시간을 갖는 것은 완전히 괜찮고 종종 더 좋습니다."
+      ],
+      "options": [
+        {
+          "id": "yes",
+          "label": "예, 준비가 된 것 같습니다",
+          "helperText": "지도 및 커뮤니티와 연결해 보세요.",
+          "nextNodeId": "connect-guidance-community",
+          "ariaLabel": "예, 준비가 되었다고 생각합니다. 커뮤니티와 연결하세요."
+        },
+        {
+          "id": "no",
+          "label": "아직 아님",
+          "helperText": "부드럽게 격려하고 문을 열어 두십시오.",
+          "nextNodeId": "encourage-keep-door-open",
+          "ariaLabel": "아직은 아닙니다. 부드럽게 격려해 주세요."
+        }
+      ]
+    },
+    "encourage-keep-door-open": {
+      "id": "encourage-keep-door-open",
+      "kind": "encouragement",
+      "title": "부드럽게 격려하고 문을 열어 두세요",
+      "eyebrow": "장려하다",
+      "summary": "부담 없이 따뜻함, 자원, 우정을 제공하세요. 문은 항상 열려 있다는 사실을 알려주세요.",
+      "explanation": [
+        "서두르거나 압박감을 느끼지 않도록 안심시키십시오. 언제든지 질문에 답하겠다고 제안하고, 신뢰할 수 있는 소수의 리소스를 공유하고, 지금 계속할지 나중에 결정할 수 있도록 하세요.",
+        "문을 열어 두는 친절하고 참을성 있는 다이는 밀어붙이는 것보다 훨씬 더 효과적입니다. 지침은 알라로부터 나오며 많은 사람들은 첫 번째 대화가 있은 지 오랜 후에 이슬람을 받아들입니다."
+      ],
+      "conversationTips": [
+        "귀하의 연락처와 몇 가지 부드러운 리소스를 제공하십시오.",
+        "피곤하거나 긴장하거나 압도된 것처럼 보인다면 점수를 더 추가하는 대신 잠시 멈추세요.",
+        "그들의 결정에 관계없이 우정을 재확인하십시오.",
+        "그들을 위해 개인적으로 진심 어린 듀오를 만들어 보세요."
+      ],
+      "referenceIds": ["quran-51-55", "quran-28-56", "quran-2-256"],
+      "nextNodeId": "shahada-readiness-after-encouragement"
+    },
+    "shahada-readiness-after-encouragement": {
+      "id": "shahada-readiness-after-encouragement",
+      "kind": "decision",
+      "title": "격려를 해주신 후, 준비가 되셨나요?",
+      "summary": "그 순간이 여전히 환영받는다고 느끼는 경우에만 다시 체크인하세요. 그들이 어떤 결정을 내리든 친절하게 반응하십시오.",
+      "options": [
+        {
+          "id": "yes",
+          "label": "예, 계속해 달라고 요청합니다.",
+          "helperText": "지도 및 커뮤니티와 연결해 보세요.",
+          "nextNodeId": "connect-guidance-community",
+          "ariaLabel": "예, 계속 진행을 요청합니다. 커뮤니티와 연결해 주세요."
+        },
+        {
+          "id": "no",
+          "label": "아직은 아니야",
+          "helperText": "따뜻하게 닫고 문을 열어두세요.",
+          "nextNodeId": "respectful-exit-best-of-luck",
+          "ariaLabel": "아직은 - 따뜻하게 닫아주세요"
+        }
+      ]
+    },
+    "connect-guidance-community": {
+      "id": "connect-guidance-community",
+      "kind": "completion",
+      "title": "지침과 커뮤니티로 연결",
+      "eyebrow": "연락처 / 무슬림 가이드",
+      "summary": "지원을 통해 그들이 다음 단계를 밟을 수 있도록 도와주세요. 새로운 무슬림은 결코 외로움을 느껴서는 안 됩니다.",
+      "explanation": [
+        "이슬람을 받아들이는 것은 끝이 아니라 시작이다. 지금 가장 중요한 것은 사랑에 찬 지원과 부드럽고 실제적인 지도입니다.",
+        "그들이 자신의 속도에 맞춰 배우고 성장할 수 있도록 신뢰할 수 있는 지역 사회와 연결되도록 도와주세요."
+      ],
+      "checklist": [
+        "친절한 지역 이맘이나 멘토를 소개해주세요.",
+        "그들을 새로운 무슬림 지원 그룹과 연결시켜 주십시오.",
+        "그들이 환영받는 지역 성원을 찾을 수 있도록 도와주세요.",
+        "부드러운 후속 계획(체크인, 수업, 함께 식사)에 동의합니다.",
+        "기도와 이슬람의 기초에 관한 초보자 친화적인 자료를 공유하세요."
+      ],
+      "referenceIds": ["quran-16-125"]
+    },
+    "respectful-exit-best-of-luck": {
+      "id": "respectful-exit-best-of-luck",
+      "kind": "exit",
+      "title": "따뜻하게 닫으세요 - 문을 열어두세요",
+      "eyebrow": "행운을 빕니다",
+      "summary": "결과에 관계없이 모든 대화를 친절하게 마무리하십시오. 당신의 임무는 전환하는 것이 아니라 전달하는 것입니다.",
+      "explanation": [
+        "시간을 내어 개방적으로 응해주셔서 진심으로 감사드립니다. 나중에 대화를 계속해도 괜찮다는 점을 분명히 하세요.",
+        "좌절이나 논쟁을 피하십시오. 지침은 알라에게서만 나옵니다. 귀하의 역할은 지혜와 예의로 초대하고 그들을 위해 개인적으로 이중을 만들어 주는 것입니다."
+      ],
+      "conversationTips": [
+        "이슬람교와 무슬림에 대한 좋은 인상을 남겨주세요.",
+        "언제든지 연락하고 질문에 답해 주겠다고 제안하십시오.",
+        "그들이 분명히 일시 중지하거나 거절한 후에는 결정을 요청하지 마십시오.",
+        "헤어진 후에는 진심으로 듀아를 만들어주세요."
+      ],
+      "referenceIds": ["quran-51-55", "quran-28-56", "quran-2-256"]
+    }
+  },
+  "gorap": [
+    {
+      "letter": "G",
+      "title": "하나님",
+      "shortLabel": "알라의 존재",
+      "explanation": "창조주, 즉 하나님의 존재에 대한 믿음을 확립하십시오.",
+      "relatedNodeIds": [
+        "believe-in-god-initial",
+        "signs-creation-infinite-regress"
+      ]
+    },
+    {
+      "letter": "O",
+      "title": "한 신",
+      "shortLabel": "타우히드",
+      "explanation": "하나님의 하나됨, 즉 그분은 파트너나 동등자가 없이 하나라는 사실을 확립하십시오.",
+      "relatedNodeIds": [
+        "tawheed-surah-ikhlas",
+        "one-god-initial",
+        "ayat-ikhtilaf"
+      ]
+    },
+    {
+      "letter": "R",
+      "title": "시현",
+      "shortLabel": "정의 / 심판의 날 / 시험",
+      "explanation": "삶은 시험이고, 정의가 실현될 것이며, 하나님께서 지침으로 계시를 보내셨다는 사실을 확증하십시오.",
+      "relatedNodeIds": ["justice-day-judgment-test-revelation"]
+    },
+    {
+      "letter": "A",
+      "title": "천사",
+      "shortLabel": "천사",
+      "explanation": "하나님의 명령을 수행하는 영예로운 창조물인 천사들에 대한 믿음을 확립하십시오.",
+      "relatedNodeIds": ["angels"]
+    },
+    {
+      "letter": "P",
+      "title": "선지자와 메신저",
+      "shortLabel": "하나의 메시지",
+      "explanation": "하나의 핵심 메시지를 전달한 선지자와 사자에 대한 믿음을 확립하십시오.",
+      "relatedNodeIds": ["messengers-prophets", "jesus-peace-be-upon-him"]
+    }
+  ],
+  "suggestions": {
+    "outsideTheField": [
+      {
+        "id": "dua",
+        "title": "두아",
+        "body": "대화 전, 대화 중, 대화 후에 그 사람과 자신을 위해 진심 어린 듀아를 만드십시오. 지침은 알라로부터 나옵니다.",
+        "priority": "core"
+      },
+      {
+        "id": "sincerity",
+        "title": "성실",
+        "body": "당신의 의도를 정화하십시오. 당신은 승리하거나 눈에 띄기 위해 메시지를 전하는 것이 아니라 알라를 위해 메시지를 전하고 있습니다.",
+        "priority": "core"
+      },
+      {
+        "id": "planning",
+        "title": "계획",
+        "body": "기본을 잘 배워서 자주 묻는 질문에 차분하고 솔직하게 대답할 수 있습니다. \"모르겠어요. 알아볼게요\"라고 말하는 것이 좋습니다.",
+        "priority": "helpful"
+      },
+      {
+        "id": "istiqamah",
+        "title": "이스티카마",
+        "body": "자신의 수행에 확고하고 일관되게 행동하십시오. 당신의 캐릭터는 당신의 가장 강력한 다와입니다.",
+        "priority": "helpful"
+      }
+    ],
+    "onTheField": [
+      {
+        "id": "make-dua",
+        "title": "듀아를 만들어라",
+        "body": "대화가 진행되는 동안 알라께 마음을 부드럽게 해달라고 조용히 요청하십시오.",
+        "priority": "core"
+      },
+      {
+        "id": "smile",
+        "title": "미소를 유지하세요",
+        "body": "따뜻하고 진실한 미소는 자선의 한 형태이며 마음을 열어줍니다.",
+        "priority": "helpful"
+      },
+      {
+        "id": "polite-kind",
+        "title": "예의바르고 친절하세요",
+        "body": "좋은 매너는 이슬람에 대해 지속적이고 긍정적인 인상을 남깁니다.",
+        "priority": "core"
+      },
+      {
+        "id": "avoid-debate",
+        "title": "불필요한 논쟁을 피하라",
+        "body": "논쟁에서 승리하는 것이 아니라 이해를 목표로 하십시오. 뜨거워지면 뒤로 물러서세요.",
+        "priority": "core"
+      },
+      {
+        "id": "follow-flow",
+        "title": "흐름과 우선순위를 따르세요",
+        "body": "그 사람이 있는 곳에서 만나보세요. 명령을 강요하지 말고 대화에 숨을 불어넣으세요.",
+        "priority": "helpful"
+      },
+      {
+        "id": "be-concise",
+        "title": "간결하게 작성하세요(시간 인식).",
+        "body": "그들의 시간과 관심을 존중하십시오. 덜 말하고 더 많이 들어보세요.",
+        "priority": "helpful"
+      },
+      {
+        "id": "redirect",
+        "title": "우선순위로 리디렉션",
+        "body": "도움이 될 때 측면 접선을 문제의 핵심으로 부드럽게 조정하십시오.",
+        "priority": "helpful"
+      },
+      {
+        "id": "encourage-shahada",
+        "title": "샤하다를 격려하세요(절대로 강요하지 마세요)",
+        "body": "부드럽게 초대하세요. 결정은 진실되고 자유로워야 합니다. 누구에게도 압력을 가하지 마십시오.",
+        "priority": "core"
+      }
+    ]
+  },
+  "references": [
+    {
+      "id": "quran-16-125",
+      "type": "quran",
+      "citation": "Qur'an 16:125 (excerpt)",
+      "label": "지혜와 좋은 교훈으로 권면하라",
+      "arabic": "ٱدْعُ إِلَىٰ سَبِيلِ رَبِّكَ بِٱلْحِكْمَةِ وَٱلْمَوْعِظَةِ ٱلْحَسَنَةِ ۖ وَجَـٰدِلْهُم بِٱلَّتِى هِىَ أَحْسَنُ",
+      "translation": "지혜와 친절한 조언으로 ``모든 사람'을 주님의 길로 초대하고 최선의 방법으로 그들과 토론하십시오.",
+      "translator": "Dr. Mustafa Khattab, The Clear Quran",
+      "sourceName": "Quran.com",
+      "sourceUrl": "https://quran.com/16/125",
+      "reviewStatus": "source-checked",
+      "reviewNote": "2026년 6월 3일에 Quran.com에 대해 발췌 확인됨; 자격을 갖춘 학자/직접 승인이 보류 중입니다."
+    },
+    {
+      "id": "quran-51-55",
+      "type": "quran",
+      "citation": "Qur'an 51:55",
+      "label": "생각나게 하는 것은 신자들에게 유익이 됩니다",
+      "arabic": "وَذَكِّرْ فَإِنَّ ٱلذِّكْرَىٰ تَنفَعُ ٱلْمُؤْمِنِينَ",
+      "translation": "하지만 ``계속해서' 상기시켜주세요. 생각나게 하는 것은 확실히 신자들에게 유익이 되기 때문입니다.",
+      "translator": "Dr. Mustafa Khattab, The Clear Quran",
+      "sourceName": "Quran.com",
+      "sourceUrl": "https://quran.com/51/55",
+      "reviewStatus": "source-checked",
+      "reviewNote": "2026년 6월 3일에 Quran.com에 대해 확인되었습니다. 자격을 갖춘 학자/직접 승인이 보류 중입니다."
+    },
+    {
+      "id": "quran-112-ikhlas",
+      "type": "quran",
+      "citation": "Qur'an 112:1-4 (Surah Al-Ikhlas)",
+      "label": "하나님의 유일성에 대한 순수한 선언",
+      "arabic": "قُلْ هُوَ ٱللَّهُ أَحَدٌ ٱللَّهُ ٱلصَّمَدُ لَمْ يَلِدْ وَلَمْ يُولَدْ وَلَمْ يَكُن لَّهُۥ كُفُوًا أَحَدٌۢ",
+      "translation": "일러가로되 선지자여, \"그분은 하나이시며 나누어질 수 없는 알라이시니 알라는 모든 사람에게 필요한 부양자이시니라. 그는 후손이 없었고 태어나지도 아니하였느니라. 그와 비교할 만한 자가 없느니라.\"",
+      "translator": "Dr. Mustafa Khattab, The Clear Quran",
+      "sourceName": "Quran.com",
+      "sourceUrl": "https://quran.com/112",
+      "reviewStatus": "source-checked",
+      "reviewNote": "2026년 6월 3일에 Quran.com에 대해 확인되었습니다. 자격을 갖춘 학자/직접 승인이 보류 중입니다."
+    },
+    {
+      "id": "quran-52-35",
+      "type": "quran",
+      "citation": "Qur'an 52:35",
+      "label": "창조에 대한 성찰",
+      "arabic": "أَمْ خُلِقُوا۟ مِنْ غَيْرِ شَىْءٍ أَمْ هُمُ ٱلْخَٰلِقُونَ",
+      "translation": "아니면 아무것도 없이 창조된 것인가, 아니면 '자신의 창조자'인가?",
+      "translator": "Dr. Mustafa Khattab, The Clear Quran",
+      "sourceName": "Quran.com",
+      "sourceUrl": "https://quran.com/52/35",
+      "reviewStatus": "source-checked",
+      "reviewNote": "2026년 6월 3일에 Quran.com에 대해 확인되었습니다. 자격을 갖춘 학자/직접 승인이 보류 중입니다."
+    },
+    {
+      "id": "quran-21-22",
+      "type": "quran",
+      "citation": "Qur'an 21:22 (excerpt)",
+      "label": "유일신의 논리",
+      "arabic": "لَوْ كَانَ فِيهِمَآ ءَالِهَةٌ إِلَّا ٱللَّهُ لَفَسَدَتَا",
+      "translation": "하늘이나 땅에 알라 외에 다른 신들이 있었다면 두 영역 모두 분명히 타락했을 것입니다.",
+      "translator": "Dr. Mustafa Khattab, The Clear Quran",
+      "sourceName": "Quran.com",
+      "sourceUrl": "https://quran.com/21/22",
+      "reviewStatus": "source-checked",
+      "reviewNote": "2026년 6월 3일에 Quran.com에 대해 발췌 확인됨; 자격을 갖춘 학자/직접 승인이 보류 중입니다."
+    },
+    {
+      "id": "quran-21-25",
+      "type": "quran",
+      "citation": "Qur'an 21:25",
+      "label": "모든 메신저를 통한 하나의 메시지",
+      "arabic": "وَمَآ أَرْسَلْنَا مِن قَبْلِكَ مِن رَّسُولٍ إِلَّا نُوحِىٓ إِلَيْهِ أَنَّهُۥ لَآ إِلَٰهَ إِلَّآ أَنَا۠ فَٱعْبُدُونِ",
+      "translation": "우리는 선지자여, 당신 앞에 사자를 보내지 않고 그에게 다음과 같이 밝히지 않은 적이 없습니다. “나 외에는 숭배받을 만한 신이 없으니, 나 하나만 숭배하라.”",
+      "translator": "Dr. Mustafa Khattab, The Clear Quran",
+      "sourceName": "Quran.com",
+      "sourceUrl": "https://quran.com/21/25",
+      "reviewStatus": "source-checked",
+      "reviewNote": "2026년 6월 3일에 Quran.com에 대해 확인되었습니다. 자격을 갖춘 학자/직접 승인이 보류 중입니다."
+    },
+    {
+      "id": "quran-3-45",
+      "type": "quran",
+      "citation": "Qur'an 3:45",
+      "label": "마리아의 아들 예수의 영예로운 지위",
+      "arabic": "إِذْ قَالَتِ ٱلْمَلَـٰٓئِكَةُ يَـٰمَرْيَمُ إِنَّ ٱللَّهَ يُبَشِّرُكِ بِكَلِمَةٍۢ مِّنْهُ ٱسْمُهُ ٱلْمَسِيحُ عِيسَى ٱبْنُ مَرْيَمَ وَجِيهًۭا فِى ٱلدُّنْيَا وَٱلْـَٔاخِرَةِ وَمِنَ ٱلْمُقَرَّبِينَ",
+      "translation": "천사들이 다음과 같이 선포했을 때를 기억하십시오: \"오 마리아여! 알라께서 당신에게 그분의 말씀에 대한 좋은 소식을 주십니다. 그의 이름은 메시야, 마리아의 아들 예수가 될 것입니다. 현세와 내세에서 영광을 받으시며, 그는 알라에게 가장 가까운 사람 중 하나가 될 것입니다.\"",
+      "translator": "Dr. Mustafa Khattab, The Clear Quran",
+      "sourceName": "Quran.com",
+      "sourceUrl": "https://quran.com/3/45",
+      "reviewStatus": "source-checked",
+      "reviewNote": "2026년 6월 3일에 Quran.com에 대해 확인되었습니다. 자격을 갖춘 학자/직접 승인이 보류 중입니다."
+    },
+    {
+      "id": "hadith-jibril",
+      "type": "hadith",
+      "citation": "Sahih Muslim 8a (Book 1, Hadith 1) — Hadith of Jibril",
+      "label": "여섯 가지 신앙개조",
+      "translation": "당신은 알라와 그의 천사들과 그의 책들과 그의 사도들과 심판의 날에 대한 당신의 믿음을 확증하고 선과 악에 관한 신성한 법령에 대한 당신의 믿음을 확증합니다.",
+      "sourceName": "Sahih Muslim (sunnah.com)",
+      "sourceUrl": "https://sunnah.com/muslim:8a",
+      "reviewStatus": "source-checked",
+      "reviewNote": "2026년 6월 3일에 Sunnah.com에 대해 발췌 확인됨; 자격을 갖춘 학자/직접 승인이 보류 중입니다."
+    },
+    {
+      "id": "quran-2-256",
+      "type": "quran",
+      "citation": "Qur'an 2:256 (excerpt)",
+      "label": "종교에는 강요가 없다",
+      "arabic": "لَآ إِكْرَاهَ فِى ٱلدِّينِ ۖ قَد تَّبَيَّنَ ٱلرُّشْدُ مِنَ ٱلْغَىِّ",
+      "translation": "종교에 강요가 있어서는 안 됩니다. 왜냐하면 진리가 거짓보다 뚜렷이 드러나기 때문입니다.",
+      "translator": "Dr. Mustafa Khattab, The Clear Quran",
+      "sourceName": "Quran.com",
+      "sourceUrl": "https://quran.com/2/256",
+      "reviewStatus": "source-checked",
+      "reviewNote": "2026년 6월 3일에 Quran.com에 대해 발췌 확인됨; 자격을 갖춘 학자/직접 승인이 보류 중입니다."
+    },
+    {
+      "id": "quran-28-56",
+      "type": "quran",
+      "citation": "Qur'an 28:56",
+      "label": "인도는 알라에게만 속한다",
+      "arabic": "إِنَّكَ لَا تَهْدِى مَنْ أَحْبَبْتَ وَلَـٰكِنَّ ٱللَّهَ يَهْدِى مَن يَشَآءُ ۚ وَهُوَ أَعْلَمُ بِٱلْمُهْتَدِينَ",
+      "translation": "당신은 확실히 \"오 선지자\"를 좋아하는 사람을 인도할 수 없습니다. 그러나 그분이 원하는 사람을 인도하는 분은 알라이시며, 그분은 인도하기에 적합한 사람이 누구인지 가장 잘 아십니다.",
+      "translator": "Dr. Mustafa Khattab, The Clear Quran",
+      "sourceName": "Quran.com",
+      "sourceUrl": "https://quran.com/28/56",
+      "reviewStatus": "source-checked",
+      "reviewNote": "2026년 6월 3일에 Quran.com에 대해 확인되었습니다. 자격을 갖춘 학자/직접 승인이 보류 중입니다."
+    },
+    {
+      "id": "quran-20-25-26",
+      "type": "quran",
+      "citation": "Qur'an 20:25-26",
+      "label": "편안함과 열린 마음을 위한 선지자 모세의 두아",
+      "arabic": "رَبِّ ٱشْرَحْ لِى صَدْرِى وَيَسِّرْ لِىٓ أَمْرِى",
+      "translation": "나의 주님! 내 마음을 높여 주시고 내 일을 쉽게 하여 주소서",
+      "translator": "Dr. Mustafa Khattab, The Clear Quran",
+      "sourceName": "Quran.com",
+      "sourceUrl": "https://quran.com/20/25-26",
+      "reviewStatus": "source-checked",
+      "reviewNote": "2026년 6월 3일 Quran.com 20:25 및 20:26에 대해 확인되었습니다. 자격을 갖춘 학자/직접 승인이 보류 중입니다."
+    },
+    {
+      "id": "new-muslim-academy",
+      "type": "scholarly-note",
+      "citation": "New Muslim Academy",
+      "label": "초급 교육 및 개종 지원 프레임",
+      "sourceName": "New Muslim Academy",
+      "sourceUrl": "https://www.newmuslimacademy.org/",
+      "reviewStatus": "source-checked",
+      "reviewNote": "공식 교육 소스는 2026-06-03에 온라인으로 확인되었습니다. 개인 판결이 아닌 초보자 친화적 지원 프레임에 사용됩니다."
+    },
+    {
+      "id": "whyislam-jesus",
+      "type": "scholarly-note",
+      "citation": "WhyIslam: Jesus in Islam",
+      "label": "이슬람에서의 예수 입문 교육",
+      "sourceName": "WhyIslam",
+      "sourceUrl": "https://www.whyislam.org/jesus-pbuh/",
+      "reviewStatus": "source-checked",
+      "reviewNote": "공식 공교육 출처는 2026-06-03에 온라인으로 확인되었습니다. 정중한 소개 프레임에 사용됩니다."
+    },
+    {
+      "id": "quran-67-2",
+      "type": "quran",
+      "citation": "Qur'an 67:2",
+      "label": "시험으로서의 삶",
+      "translation": "그분은 너희 중 누가 행위에 있어서 가장 좋은지 시험하기 위해 죽음과 생명을 창조하신 분이시다.",
+      "translator": "Dr. Mustafa Khattab, The Clear Quran",
+      "sourceName": "Quran.com",
+      "sourceUrl": "https://quran.com/67/2",
+      "reviewStatus": "source-checked",
+      "reviewNote": "2026년 6월 3일에 Quran.com에 대해 확인되었습니다. 자격을 갖춘 학자/직접 승인이 보류 중입니다."
+    },
+    {
+      "id": "quran-2-155",
+      "type": "quran",
+      "citation": "Qur'an 2:155",
+      "label": "시련과 인내",
+      "translation": "우리는 분명히 두려움과 기근, 재산과 생명과 농작물의 손실을 통해 여러분을 시험할 것입니다. 참고 견디는 사람들에게 좋은 소식을 전하십시오.",
+      "translator": "Dr. Mustafa Khattab, The Clear Quran",
+      "sourceName": "Quran.com",
+      "sourceUrl": "https://quran.com/2/155",
+      "reviewStatus": "source-checked",
+      "reviewNote": "2026년 6월 3일에 Quran.com에 대해 확인되었습니다. 자격을 갖춘 학자/직접 승인이 보류 중입니다."
+    },
+    {
+      "id": "quran-33-35",
+      "type": "quran",
+      "citation": "Qur'an 33:35",
+      "label": "믿음으로 이야기를 듣는 남성과 여성",
+      "translation": "분명히 무슬림 남성과 여성, 믿는 남성과 여성, 독실한 남성과 여성을 위해... 알라께서는 용서와 큰 보상을 준비하셨습니다.",
+      "translator": "Dr. Mustafa Khattab, The Clear Quran",
+      "sourceName": "Quran.com",
+      "sourceUrl": "https://quran.com/33/35",
+      "reviewStatus": "source-checked",
+      "reviewNote": "2026년 6월 3일에 Quran.com에 대해 발췌 확인됨; 자격을 갖춘 학자/직접 승인이 보류 중입니다."
+    },
+    {
+      "id": "quran-5-32",
+      "type": "quran",
+      "citation": "Qur'an 5:32 (excerpt)",
+      "label": "생명의 신성함",
+      "translation": "생명을 빼앗는 자는... 인류 전체를 죽인 것과 같을 것입니다.",
+      "translator": "Dr. Mustafa Khattab, The Clear Quran",
+      "sourceName": "Quran.com",
+      "sourceUrl": "https://quran.com/5/32",
+      "reviewStatus": "source-checked",
+      "reviewNote": "2026년 6월 3일에 Quran.com에 대해 발췌 확인됨; 자격을 갖춘 학자/직접 승인이 보류 중입니다."
+    },
+    {
+      "id": "whyislam-mosque-visit",
+      "type": "scholarly-note",
+      "citation": "WhyIslam: First Mosque Visit",
+      "label": "새로운 개종 모스크 지원",
+      "sourceName": "WhyIslam",
+      "sourceUrl": "https://www.whyislam.org/mosquevisit/",
+      "reviewStatus": "source-checked",
+      "reviewNote": "공식 공교육 출처는 2026-06-03에 온라인으로 확인되었습니다. 첫 번째 성원 방문 및 공개 Shahada 경계 프레임에 사용됩니다."
+    },
+    {
+      "id": "whyislam-becoming-muslim",
+      "type": "scholarly-note",
+      "citation": "WhyIslam: Becoming Muslim",
+      "label": "샤하다 소개",
+      "sourceName": "WhyIslam",
+      "sourceUrl": "https://www.whyislam.org/muslimhow/",
+      "reviewStatus": "source-checked",
+      "reviewNote": "공식 공교육 출처는 2026-06-03에 온라인으로 확인되었습니다. 기본 Shahada 오리엔테이션에 사용됩니다."
+    },
+    {
+      "id": "seekersguidance-shahada-witnesses",
+      "type": "scholarly-note",
+      "citation": "SeekersGuidance: Does Taking Shahada Require Witnesses?",
+      "label": "자격을 갖춘 샤하다(Shahada) 지도",
+      "sourceName": "SeekersGuidance",
+      "sourceUrl": "https://seekersguidance.org/answers/calling-to-islam/does-taking-shahada-require-witnesses/",
+      "reviewStatus": "source-checked",
+      "reviewNote": "자격을 갖춘 교육 소스는 2026-06-03에 온라인으로 확인되었습니다. Shahada 주변의 개인 정보 보호 및 공개 증인 경계에 사용됩니다."
+    },
+    {
+      "id": "new-muslim-academy-family",
+      "type": "scholarly-note",
+      "citation": "New Muslim Academy: Family",
+      "label": "가족 지원 프레임",
+      "sourceName": "New Muslim Academy",
+      "sourceUrl": "https://www.newmuslimacademy.org/family/",
+      "reviewStatus": "source-checked",
+      "reviewNote": "공식 교육 소스는 2026-06-03에 온라인으로 확인되었습니다. 가족, 소속, 샤하다 이후 지원 프레임에 사용됩니다."
+    },
+    {
+      "id": "seekersguidance",
+      "type": "scholarly-note",
+      "citation": "SeekersGuidance",
+      "label": "자격을 갖춘 이슬람 교육",
+      "sourceName": "SeekersGuidance",
+      "sourceUrl": "https://seekersguidance.org/",
+      "reviewStatus": "source-checked",
+      "reviewNote": "자격을 갖춘 교육 소스는 2026-06-03에 온라인으로 확인되었습니다. 자격을 갖춘 교사에게 세부적인 신앙 및 신학 문제를 문의하는 데 사용됩니다."
+    },
+    {
+      "id": "yaqeen-women",
+      "type": "scholarly-note",
+      "citation": "Yaqeen Institute: Islam and Women",
+      "label": "이슬람 교육에 종사하는 여성들",
+      "sourceName": "Yaqeen Institute",
+      "sourceUrl": "https://yaqeeninstitute.org/what-islam-says-about/islam-and-women",
+      "reviewStatus": "source-checked",
+      "reviewNote": "검토된 교육 주제 페이지는 2026년 6월 3일에 온라인으로 확인되었습니다. 신중하고 논쟁적이지 않은 이슬람 여성 시나리오 구성에 사용됩니다."
+    },
+    {
+      "id": "yaqeen-violence",
+      "type": "scholarly-note",
+      "citation": "Yaqeen Institute: Islam and Violence",
+      "label": "폭력과 미디어 내러티브",
+      "sourceName": "Yaqeen Institute",
+      "sourceUrl": "https://yaqeeninstitute.org/what-islam-says-about/islam-and-violence",
+      "reviewStatus": "source-checked",
+      "reviewNote": "검토된 교육 주제 페이지는 2026년 6월 3일에 온라인으로 확인되었습니다. 폭력, 지하드, 테러, 미디어 서술에 대한 주의 깊은 소개에 사용됩니다."
+    },
+    {
+      "id": "988-lifeline",
+      "type": "public-health",
+      "citation": "988 Suicide & Crisis Lifeline",
+      "label": "위기지원",
+      "sourceName": "988 Lifeline",
+      "sourceUrl": "https://988lifeline.org/",
+      "reviewStatus": "source-checked",
+      "reviewNote": "공식 위기 지원 출처는 2026년 6월 3일 온라인으로 확인되었습니다. 정신 건강 위기 추천 언어에 사용됩니다."
+    },
+    {
+      "id": "canada-safety-planning",
+      "type": "public-safety",
+      "citation": "Government of Canada: Safety Planning",
+      "label": "안전 계획",
+      "sourceName": "Government of Canada",
+      "sourceUrl": "https://www.canada.ca/en/public-health/services/health-promotion/stop-family-violence/plan-your-safety.html",
+      "reviewStatus": "source-checked",
+      "reviewNote": "공식 공공 안전 출처는 2026년 6월 3일에 온라인으로 확인되었습니다. 가족 거부, 학대 및 안전 추천 경계에 사용됩니다."
+    },
+    {
+      "id": "ohrc-religious-rights",
+      "type": "public-rights",
+      "citation": "Ontario Human Rights Commission: Religious Rights Fact Sheet",
+      "label": "공공 권리 정보",
+      "sourceName": "Ontario Human Rights Commission",
+      "sourceUrl": "https://www.ohrc.on.ca/en/religious-rights-fact-sheet",
+      "reviewStatus": "source-checked",
+      "reviewNote": "2026년 6월 3일에 온라인으로 확인된 공식 공개 권리 출처; 법적으로 관련된 질문을 자격을 갖춘 현지 조언으로 연결하는 데에만 사용됩니다."
+    }
+  ],
+  "communityConnect": {
+    "title": "새로운 무슬림을 연결하다",
+    "intro": "누군가가 오늘 샤하다(Shahada)를 수강하든 단순히 계속 배우고 싶어하든 따뜻한 지원이 가장 중요합니다. 이 체크리스트를 사용하여 그들이 환영받고 있다는 느낌을 받고 결코 혼자가 아니라는 느낌을 갖도록 도와주세요.",
+    "checklist": [
+      "친절하고 지식이 풍부한 지역 이맘이나 멘토를 소개하십시오.",
+      "그들을 새로운 무슬림 지원 그룹이나 학급에 연결하십시오.",
+      "근처에서 환영받는 지역 성원을 찾을 수 있도록 도와주세요.",
+      "체크인, 공동 식사, 수업 등 온화한 후속 조치에 동의하세요.",
+      "기도와 이슬람의 기초에 관한 초보자 친화적인 자료를 공유하세요."
+    ],
+    "masjidFinderLabel": "근처 성원 찾기"
+  },
+  "additionalGuidance": {
+    "trainingCards": [
+      {
+        "id": "listen-first",
+        "title": "먼저 듣기",
+        "summary": "좋은 다와 대화는 그 사람을 바로잡는 것이 아니라 그 사람을 이해하는 것에서부터 시작됩니다.",
+        "practice": [
+          "하나의 열린 질문을 하고 응답하기 전에 그들이 충분히 대답하도록 하십시오.",
+          "당신이 들은 내용을 다시 생각해 보십시오. \"그렇다면 당신의 주요 관심사는...\"인 것 같습니다.",
+          "다루고자 하는 모든 주제가 아니라 그들이 실제로 질문한 질문에 답하십시오."
+        ],
+        "avoid": [
+          "포인트를 얻기 위해 방해합니다.",
+          "설명하기 전에 자신의 배경이나 반대 의견을 가정합니다."
+        ],
+        "referenceIds": ["quran-16-125", "new-muslim-academy"]
+      },
+      {
+        "id": "ask-permission",
+        "title": "계속하기 전에 허가를 요청하세요",
+        "summary": "허락은 대화를 정중하게 유지하고 상대방이 자신의 속도를 제어할 수 있도록 돕습니다.",
+        "practice": [
+          "다음과 같은 간단한 문구를 사용하세요. \"내가 이슬람 관점을 공유해도 괜찮을까요?\"",
+          "그들이 거절하거나 주저한다면, 감사 인사를 하고 잠시 멈추십시오.",
+          "죄책감을 느끼지 않고 다음 번에 계속하겠다고 제안하십시오."
+        ],
+        "avoid": [
+          "주저함을 도전으로 여기십시오.",
+          "분명히 거절한 후에도 같은 초대를 반복합니다."
+        ],
+        "referenceIds": ["quran-2-256", "quran-28-56"]
+      },
+      {
+        "id": "one-point-at-a-time",
+        "title": "한 번에 한 점씩",
+        "summary": "대부분의 사람들은 완전한 강의가 아닌 하나의 명확한 아이디어를 생각해야 합니다.",
+        "practice": [
+          "대화에서 다음으로 가장 관련성이 높은 지점을 선택하세요.",
+          "짧은 설명을 사용하고 질문이 있으면 잠시 멈추세요.",
+          "여러 가지 주제가 나오면 적어두고 한 번에 하나씩 다시 다루세요."
+        ],
+        "avoid": [
+          "당신이 아는 모든 증거, 판결, 이야기를 너무 많이 담아서요.",
+          "그 사람이 기본 사항을 처리하기 전에 Shahada로 이동합니다."
+        ],
+        "referenceIds": ["quran-16-125"]
+      },
+      {
+        "id": "handle-hostility",
+        "title": "적대감을 침착하게 다루기",
+        "summary": "누군가 화를 내거나 모욕적인 말을 하면 대화의 품위를 지키고 물러서십시오.",
+        "practice": [
+          "목소리를 낮추고 속도를 늦추세요.",
+          "한계를 정중하게 지정하십시오. \"나는 우리가 서로 논쟁하거나 무례하게 대하는 것을 원하지 않습니다.\"",
+          "더 이상 진실되지 않거나 안전하지 않다면 대화를 종료하세요."
+        ],
+        "avoid": [
+          "분노와 분노를 일치시킵니다.",
+          "빈정거림, 조롱 또는 공개적인 당혹감을 사용합니다."
+        ],
+        "referenceIds": ["quran-16-125"]
+      },
+      {
+        "id": "when-to-stop",
+        "title": "대화를 중단해야 할 때",
+        "summary": "한 점 더 강요하는 것보다 잘 멈추는 것이 더 나을 수 있습니다.",
+        "practice": [
+          "그 사람이 피곤하거나, 괴로워하거나, 조롱하거나, 안전하지 않거나, 확실히 끝났다면 멈추십시오.",
+          "감사와 따뜻함으로 마무리하세요.",
+          "비공개로 두아를 만들고 더 나은 시간을 위해 문을 열어 두세요."
+        ],
+        "avoid": [
+          "결정을 쫓는 중입니다.",
+          "샤하다 없이 대화가 끝났기 때문에 대화를 실패로 간주합니다."
+        ],
+        "referenceIds": ["quran-51-55", "quran-28-56", "quran-2-256"]
+      },
+      {
+        "id": "refer-to-imam",
+        "title": "이맘이나 멘토에게 문의하세요",
+        "summary": "A da'ee가 모든 것에 답할 필요는 없습니다. 민감하고 세부적이거나 개인적인 질문에는 자격을 갖춘 도움이 필요합니다.",
+        "practice": [
+          "명확하게 말하세요: \"나는 그것에 대해 추측하고 싶지 않습니다.\"",
+          "신뢰할 수 있는 지역 이맘, 교사 또는 새로운 무슬림 멘토와 연결해 주겠다고 제안하십시오.",
+          "정서적 안전, 법적, 의료적 또는 가족 관련 위험 문제에 대해서는 자격을 갖춘 현지 전문가에게 문의하세요."
+        ],
+        "avoid": [
+          "그 자리에서 판결을 만들어냅니다.",
+          "샤하다 이후 그 사람의 유일한 지지자가 됨."
+        ],
+        "referenceIds": ["new-muslim-academy"]
+      }
+    ],
+    "postShahadaHandoff": [
+      {
+        "id": "first-hour",
+        "title": "첫 시간",
+        "summary": "따뜻함, 프라이버시, 차분한 지원으로 응답하십시오. 샤하다(Shahada)는 공개 공연이 아니라 시작이다.",
+        "actions": [
+          "부담스럽지 않게 부드럽게 축하해주세요.",
+          "프라이버시를 원하는지, 조용한 증인을 원하는지, 공개 커뮤니티 소개를 원하는지 물어보세요.",
+          "믿을 수 있는 연락처 한 명을 적어 보십시오: 이맘, 멘토, 새로운 무슬림 수업, 지지하는 무슬림 친구.",
+          "가족, 주택, 직장 또는 안전 문제로 인해 공개가 위험해지는지 확인하세요."
+        ],
+        "avoid": [
+          "공개적으로 발표하도록 압력을 가합니다.",
+          "긴 규칙 목록을 즉시 전달합니다.",
+          "명시적인 허가 없이 사진, 동영상 또는 샤하다 순간을 게시하는 행위."
+        ],
+        "referenceIds": [
+          "quran-2-256",
+          "whyislam-becoming-muslim",
+          "whyislam-mosque-visit",
+          "seekersguidance-shahada-witnesses"
+        ]
+      },
+      {
+        "id": "first-day",
+        "title": "초일",
+        "summary": "명확한 다음 단계와 신뢰할 수 있는 지원 담당자 한 명과 함께 대화를 종료할 수 있도록 도와주세요.",
+        "actions": [
+          "링크 더미 대신 하나의 초보자용 리소스를 공유하세요.",
+          "지역 성원이나 새로운 무슬림 수업을 찾는 데 도움을 주겠다고 제안하세요.",
+          "우두와 기도의 형태를 배우는 데 도움이 필요한지 물어보십시오.",
+          "학습에는 시간이 걸리며 알라께서는 그들의 노력을 알고 계시다는 점을 상기시켜 주십시오."
+        ],
+        "avoid": [
+          "모든 습관을 한 번에 교정합니다.",
+          "질문하기 전에 가족, 결혼, 의복 또는 음식 세부 사항에 대해 토론합니다."
+        ],
+        "referenceIds": ["new-muslim-academy", "whyislam-mosque-visit"]
+      },
+      {
+        "id": "first-week",
+        "title": "첫 주",
+        "summary": "고급 판결 이전에 일관성, 소속감, 안전한 학습을 ​​지원합니다.",
+        "actions": [
+          "그들이 온화한 기도 학습 계획을 선택하도록 도와주십시오.",
+          "질문에 참을성 있게 대답할 수 있는 멘토와 연결해 주세요.",
+          "수업, 기도, 식사, 커피 등 공동체의 순간에 그들을 초대하십시오.",
+          "민감한 질문을 개인적으로, 조기에 질문하도록 격려하십시오."
+        ],
+        "avoid": [
+          "자신을 유일한 지원으로 삼으십시오.",
+          "수치심을 이용하여 학습 속도를 높입니다."
+        ],
+        "referenceIds": ["new-muslim-academy", "new-muslim-academy-family"]
+      },
+      {
+        "id": "connect-community",
+        "title": "지역 커뮤니티에 연결",
+        "summary": "새로운 무슬림에게는 온라인 콘텐츠뿐만 아니라 주변에 신뢰할 수 있는 사람들이 필요합니다.",
+        "actions": [
+          "신뢰할 수 있는 이맘, 교사 또는 개종 지원 담당자를 소개하십시오.",
+          "수업 시간과 공간이 초보자에게 적합한지 확인하도록 도와주세요.",
+          "일정과 개인 정보 보호를 존중하는 후속 계획을 제공합니다.",
+          "가족 상황이 긴장된 경우 안전과 신뢰할 수 있는 전문 지원을 우선시하십시오."
+        ],
+        "avoid": [
+          "모든 성원이 동일한 문화나 지원 수준을 가지고 있다고 가정합니다.",
+          "허락 없이 그들의 이야기를 공유합니다."
+        ],
+        "referenceIds": [
+          "quran-16-125",
+          "whyislam-mosque-visit",
+          "canada-safety-planning"
+        ]
+      },
+      {
+        "id": "avoid-overwhelm",
+        "title": "그들을 압도하지 마십시오",
+        "summary": "Shahada 이후의 첫 번째 시즌은 요구에 묻혀서는 안 되며 지지를 받아야 합니다.",
+        "actions": [
+          "믿음, 진입로에서의 기도, 신뢰할 수 있는 공동체, 정서적 안정을 우선시하십시오.",
+          "짧은 체크인을 사용하세요. 하나의 질문, 하나의 리소스, 하나의 다음 단계입니다.",
+          "교사가 함께 검토할 때까지 기다려야 할 사항을 명확하게 알려주십시오.",
+          "완벽함을 소속감을 조건으로 삼지 않고 노력을 축하하십시오."
+        ],
+        "avoid": [
+          "첫 주를 완전한 fiqh 커리큘럼으로 전환합니다.",
+          "문화적 변화를 만드는 것은 즉각적인 종교적 의무처럼 들립니다."
+        ],
+        "referenceIds": ["new-muslim-academy", "quran-16-125"]
+      }
+    ],
+    "referralBoundaries": [
+      {
+        "id": "marriage-divorce",
+        "title": "결혼, 이혼 및 가족법",
+        "summary": "결혼 유효성, 이혼, 양육권, 상속, 전환 증명서 또는 가족법 결과에 대해 즉흥적으로 답변하지 마십시오.",
+        "examples": [
+          "그들은 샤하다 이후 현재 결혼 생활에 변화가 있는지 묻습니다.",
+          "그들은 이혼 문구, 양육권 또는 상속에 대해 묻습니다.",
+          "결혼, 하지/움라, 학교, 직장 또는 정부 기록에 대한 문서가 필요합니다."
+        ],
+        "referTo": "자격을 갖춘 현지 학자 및 법적 권리나 문서가 관련된 경우에는 허가를 받은 법률 전문가 또는 공식 기관입니다.",
+        "referenceIds": ["seekersguidance", "ohrc-religious-rights"]
+      },
+      {
+        "id": "trauma-safety",
+        "title": "외상, 학대 또는 안전 위험",
+        "summary": "공개로 인해 피해가 발생할 수 있는 경우 안전을 고려하기 전에 공개 조치를 장려하지 마십시오.",
+        "examples": [
+          "그들은 폭력, 노숙자, 스토킹, 가족 보복을 두려워합니다.",
+          "그들은 종교나 권위자들과 관련된 트라우마를 가지고 있습니다.",
+          "그들은 안전하지 않은 친척들에게 즉시 알려야 하는지 묻습니다."
+        ],
+        "referTo": "신뢰할 수 있는 지역 안전 전문가, 위기 또는 가정 폭력 지원, 사생활을 존중하는 친절한 이맘 또는 멘토.",
+        "referenceIds": ["canada-safety-planning", "new-muslim-academy-family"]
+      },
+      {
+        "id": "mental-health-crisis",
+        "title": "정신 건강 위기",
+        "summary": "대이는 위기 상황에 대해 혼자 상담하려고 해서는 안 됩니다.",
+        "examples": [
+          "그들은 자살, 자해, 안전을 유지할 수 없거나 현실로부터 분리된 느낌을 언급합니다.",
+          "그들은 당황하거나, 제 기능을 할 수 없거나, 긴급하고 안전하지 않은 계획을 세우고 있습니다.",
+          "종교적 설명보다 긴급한 도움이 필요합니다."
+        ],
+        "referTo": "미국 및 캐나다의 988과 같은 응급 서비스 또는 위기 지원과 자격을 갖춘 임상 치료.",
+        "referenceIds": ["988-lifeline"]
+      },
+      {
+        "id": "detailed-fiqh",
+        "title": "자세한 정보",
+        "summary": "예배와 일상생활의 통치는 학교, 상황, 건강, 지역 상황에 따라 달라질 수 있습니다.",
+        "examples": [
+          "그들은 기도의 타당성, 놓친 기도, 금식 면제, 자카트 계산, 순결 세부 사항 또는 장애 편의 사항에 관해 질문합니다.",
+          "그들은 음식, 일, 의복, 가족의 의무, 돈에 대한 판결을 요구합니다.",
+          "신뢰할 수 있는 소스보다는 메모리에 의존하고 있습니다."
+        ],
+        "referTo": "후속 질문을 할 수 있는 자격을 갖춘 학자, 이맘, 교사 또는 신뢰할 수 있는 파트와 서비스.",
+        "referenceIds": ["seekersguidance", "new-muslim-academy"]
+      },
+      {
+        "id": "complex-theology",
+        "title": "복잡한 신학과 충격적인 주장",
+        "summary": "일부 질문에는 빠른 답변보다는 시간, 맥락, 교사가 필요합니다.",
+        "examples": [
+          "그들은 고통, 카다르, 지옥불, 하디스 의심 또는 어려운 온라인 주장에 대해 묻습니다.",
+          "그들은 이전 종교계의 트라우마를 갖고 있습니다.",
+          "그들은 토론 클립이나 적대적인 미디어를 통해 나선형으로 퍼지고 있습니다."
+        ],
+        "referTo": "점진적이고 책임감 있게 대답할 수 있는 믿을 수 있는 선생님, 체계화된 수업, 자격을 갖춘 학자.",
+        "referenceIds": ["quran-67-2", "quran-2-155", "seekersguidance"]
+      },
+      {
+        "id": "legal-immigration",
+        "title": "법률, 이민, 직장, 학교 문제",
+        "summary": "종교적 격려는 법적 또는 공식적인 조언을 대체할 수 없습니다.",
+        "examples": [
+          "그들은 이민, 망명, 양육권, 직장 권리, 학교 숙소 또는 신분증에 관해 질문합니다.",
+          "인증서, 편지 또는 공식 증거가 필요합니다.",
+          "차별이나 보복을 당할 수도 있습니다."
+        ],
+        "referTo": "면허가 있는 법률 전문가, 공식 공익 기관, 학교/직장 사무소 또는 지역 정착 서비스(해당하는 경우).",
+        "referenceIds": ["ohrc-religious-rights"]
+      }
+    ],
+    "commonQuestions": [
+      {
+        "id": "q-god-exists",
+        "topic": "하나님",
+        "question": "신이 존재한다는 것을 어떻게 알 수 있나요?",
+        "answer": [
+          "논쟁보다는 반성을 요청하십시오. 우주의 질서, 자연의 정확성, 우리 자신의 존재 등 우리 주변의 모든 것들은 창조주를 가리킵니다. 부드럽게 물어보십시오. 이 모든 것이 무에서 나온 것입니까, 아니면 창조주를 가리키는 것입니까?",
+          "겸손함을 유지하세요. 당신은 이기려고 노력하는 것이 아닙니다. 당신은 생각의 문을 열고 있습니다."
+        ],
+        "referenceIds": ["quran-52-35"]
+      },
+      {
+        "id": "q-one-god",
+        "topic": "단일성",
+        "question": "왜 하나님은 하나이셔야 합니까?",
+        "answer": [
+          "서로 경쟁하는 의지를 가진 신들이 많다면 창조는 서로 반대되는 방향으로 이끌릴 것입니다. 대신 우리가 관찰하는 조화와 질서는 하나의 권위를 가리킵니다.",
+          "이것을 반영하여 제시하고 시간과 질문을 허용하십시오."
+        ],
+        "referenceIds": ["quran-21-22"]
+      },
+      {
+        "id": "q-jesus",
+        "topic": "예수 (PBUH)",
+        "question": "무슬림은 예수에 대해 무엇을 믿습니까?",
+        "answer": [
+          "무슬림은 예수님을 사랑하고 깊이 존경합니다. 그분께 평화가 있기를 빕니다. 우리는 그분의 기적적인 동정녀 마리아 탄생과 하느님의 허락에 따른 그분의 기적, 그리고 그분의 고귀한 메시지를 믿습니다.",
+          "이슬람은 예수가 유일신을 숭배하도록 사람들을 부르신 하나님의 가장 위대한 사자 중 한 사람이라고 가르칩니다. 따뜻하고 존중하는 마음으로 이 주제에 접근하십시오."
+        ],
+        "referenceIds": ["quran-3-45"]
+      },
+      {
+        "id": "q-why-prophets",
+        "topic": "시현",
+        "question": "왜 우리에게 선지자와 경전이 필요한가?",
+        "answer": [
+          "인생은 의미 있는 시험이기 때문에, 공의롭고 자비로우신 하나님께서는 우리가 우리의 목적을 추측하도록 내버려 두지 않으셨습니다. 그는 역사 ​​전반에 걸쳐 메신저를 통해 지침을 보냈으며 모두 하나의 핵심 메시지를 전달했습니다. 바로 유일신을 숭배하라는 것입니다.",
+          "계시는 자비입니다. 우리는 결코 혼자 남겨지지 않습니다."
+        ],
+        "referenceIds": ["quran-21-25"]
+      },
+      {
+        "id": "q-shahada",
+        "topic": "샤하다",
+        "question": "샤하다(Shahada)란 정확히 무엇입니까?",
+        "answer": [
+          "샤하다(Shahada)는 알라 외에는 숭배받을 만한 신이 없으며 무함마드는 그의 사자라는 진실한 증언이다. 이슬람으로 들어가는 관문이다.",
+          "그것은 자유롭고 진지한 선택이어야 하며, 결코 서두르거나 압력을 가하지 않아야 합니다. 샤하다를 취하는 것은 끝이 아니라 시작입니다. 사랑의 지원이 그 다음입니다."
+        ],
+        "referenceIds": ["whyislam-becoming-muslim", "quran-2-256"]
+      },
+      {
+        "id": "q-suffering",
+        "topic": "목적",
+        "question": "하나님이 공의로우시면 왜 고난이 있습니까?",
+        "answer": [
+          "이 삶은 시험이며, 공의로우신 하나님께서는 모든 잘못이 해결되지 않는 심판 날에 완전한 공의를 세우실 것입니다.",
+          "성급하게 대답하기보다는 솔직하고 부드럽게 상대방의 고통을 인정하라."
+        ],
+        "referenceIds": ["quran-67-2", "quran-2-155"]
+      }
+    ],
+    "misconceptions": [
+      {
+        "id": "m-sword",
+        "claim": "이슬람은 칼로 퍼졌다.",
+        "response": [
+          "꾸란은 믿음은 강요될 수 없으며 진실하고 자유롭게 선택되어야 함을 분명히 하고 있습니다. 방어하지 않고 침착하게 대응하십시오.",
+          "이슬람을 신념으로 포용한 공동체의 오랜 역사를 부드럽게 지적하고 토론보다는 메시지에 초점을 맞추십시오."
+        ],
+        "referenceIds": ["quran-2-256", "yaqeen-violence"]
+      },
+      {
+        "id": "m-different-god",
+        "claim": "무슬림은 다른 신을 숭배합니다.",
+        "response": [
+          "\"알라\"는 단순히 유일신, 즉 아브라함, 모세, 예수가 숭배했던 동일한 신을 가리키는 아랍어 단어입니다. 아랍어를 사용하는 기독교인과 유대인도 신을 \"알라\"라고 부릅니다.",
+          "장 알 이클라스(Surah Al-Ikhlas)는 이 순수한 믿음을 요약합니다. 하나님은 한 분이고, 영원하시며, 그 어떤 파트너도 그 분과 비교할 수 없는 분이십니다."
+        ],
+        "referenceIds": ["quran-112-ikhlas"]
+      },
+      {
+        "id": "m-women",
+        "claim": "이슬람은 여성을 억압한다.",
+        "response": [
+          "열띤 논쟁을 피하세요. 먼저 듣고, 문화와 종교가 종종 혼동된다는 점을 인정하고, 해로운 문화적 관습을 이슬람 가르침과 분리하십시오.",
+          "이슬람이 여성에게 보장한 권리와 어머니에게 주어지는 명예에 대해 이야기하고, 당신 자신의 존경하는 성품을 말하십시오."
+        ],
+        "referenceIds": ["quran-33-35", "yaqeen-women"]
+      },
+      {
+        "id": "m-all-same",
+        "claim": "모든 종교는 기본적으로 동일합니다. 그런데 왜 바꿔야 할까요?",
+        "response": [
+          "연민, 정의, 정직 등 공유 가치를 확인하세요. 그런 다음 종교들 역시 신에 대해 뚜렷한 주장을 하고 있으며 그러한 차이점이 중요하다는 점을 주의 깊게 살펴보십시오.",
+          "압박감 없이 성찰하도록 유도하십시오. 목표는 점수를 얻는 것이 아니라 진지한 확신입니다."
+        ]
+      }
+    ],
+    "scenarios": [
+      {
+        "id": "s-atheist",
+        "audience": "무신론자 또는 불가지론자",
+        "summary": "하나님을 믿지 않거나 확신이 없는 사람.",
+        "approach": [
+          "하나님의 존재와 창조의 징표에 대한 질문으로 시작하십시오.",
+          "열린 질문을 하고 그들의 추론을 진심으로 들어보세요.",
+          "호전적이지 않고 호기심 많고 겸손한 어조를 유지하세요."
+        ],
+        "watchFor": [
+          "반성을 승리를 위한 논쟁으로 바꾸는 것.",
+          "설명할 수 없는 과신한 철학적 주장."
+        ],
+        "referenceIds": ["quran-52-35", "quran-16-125"]
+      },
+      {
+        "id": "s-christian",
+        "audience": "기독교 배경",
+        "summary": "이미 하나님과 예수님을 사랑하는 사람에게 평화가 있기를 바랍니다.",
+        "approach": [
+          "예수님과 선지자들에 대한 사랑과 존경을 나누는 마음으로 인도하십시오.",
+          "하나님의 하나됨을 부드럽고 조심스럽게 소개하십시오.",
+          "이 주제가 전달할 수 있는 감정적 무게를 존중하십시오."
+        ],
+        "watchFor": [
+          "기독교 신앙을 무시하거나 신학을 공격적으로 주장하는 행위.",
+          "돌진 — 대화에 따뜻함과 시간을 주세요."
+        ],
+        "referenceIds": ["quran-3-45", "whyislam-jesus"]
+      },
+      {
+        "id": "s-spiritual-not-religious",
+        "audience": "영적이지만 종교적이지 않음",
+        "summary": "삶에 더 많은 것이 있을 수 있다고 믿지만 조직화된 종교를 불신하는 사람.",
+        "approach": [
+          "의미, 치유 또는 연결에 대한 열망으로 시작하십시오.",
+          "이슬람은 인간 제도에 굴복하는 것이 아니라 유일하신 창조주를 직접 숭배하는 것이라고 설명하십시오.",
+          "계시가 어떻게 진실성을 제거하지 않고 영성을 형성하는지 보여주십시오."
+        ],
+        "watchFor": [
+          "과거의 종교 경험을 일축합니다.",
+          "신뢰가 구축되기 전에 너무 많은 내부 언어를 사용합니다."
+        ],
+        "referenceIds": ["quran-112-ikhlas", "quran-21-25"]
+      },
+      {
+        "id": "s-cultural-muslim",
+        "audience": "문화적으로 이슬람교를 실천하지 않음",
+        "summary": "이슬람과 단절감을 느끼는 사람이 이슬람 주변에서 자랐습니다.",
+        "approach": [
+          "실천 뒤에 숨은 의미와 아름다움을 다시 연결해보세요.",
+          "과거에 대한 판단을 피하십시오. 부드러운 다음 단계에 집중하세요.",
+          "동료애와 작고 달성 가능한 격려를 제공하십시오."
+        ],
+        "watchFor": ["사람들을 밀어내는 수치심이나 죄책감."],
+        "referenceIds": ["new-muslim-academy"]
+      },
+      {
+        "id": "s-family-difficult-questions",
+        "audience": "어려운 질문을 하는 가족",
+        "summary": "친척이나 가까운 친구가 감정, 두려움, 도전적인 가정을 가지고 이슬람에 관해 질문합니다.",
+        "approach": [
+          "모든 반대 의견에 답변하기 전에 관계를 보호하십시오.",
+          "우려사항을 인정하고 침착하게 한 가지씩 답변해 보세요.",
+          "질문이 민감하거나 여러분이 아는 범위를 넘어서는 경우에는 이맘이나 멘토에게 함께 물어보자고 제안하세요."
+        ],
+        "watchFor": [
+          "가족의 압력으로 인해 추측을 하게 됩니다.",
+          "정서적 고통에 강의로 답하다."
+        ],
+        "referenceIds": ["quran-16-125", "new-muslim-academy"]
+      },
+      {
+        "id": "s-not-ready",
+        "audience": "관심은 있지만 준비가 안 됐어요",
+        "summary": "더 많은 시간이 필요한 이슬람교에 열려 있는 사람.",
+        "approach": [
+          "서두르거나 압박감을 느끼지 않도록 안심시키십시오.",
+          "신뢰할 수 있는 리소스를 제공하고 언제든지 질문에 답변해 드립니다.",
+          "우정과 문을 열어두고 그들을 위해 두아를 만들어 보세요."
+        ],
+        "watchFor": ["앞으로의 대화를 더 어렵게 만드는 모든 압력."],
+        "referenceIds": ["quran-2-256", "quran-28-56"]
+      },
+      {
+        "id": "s-trauma-from-religion",
+        "audience": "종교로 인한 트라우마가 있는 사람",
+        "summary": "어떤 사람은 이슬람에 관심이 있지만 과거의 종교적 피해로 인해 신뢰가 어려워집니다.",
+        "approach": [
+          "무엇이 그들에게 해를 끼쳤는지를 변호하거나 성급하게 설명하지 마십시오.",
+          "종교적 내용을 공유하기 전에 허락을 구하고 속도를 정하도록 하십시오.",
+          "트라우마, 공황, 학대 또는 위기가 있는 경우 안전하고 자격을 갖춘 지원 경로를 제공하십시오."
+        ],
+        "watchFor": [
+          "트라우마에 대한 빠른 해결 방법으로 구절이나 하디스를 사용합니다.",
+          "신뢰와 안전을 고려하기 전에 그들을 권위 있는 인물 쪽으로 밀어붙입니다.",
+          "임상 또는 안전 지원을 자신의 조언으로 대체하려고 합니다."
+        ],
+        "referenceIds": [
+          "quran-16-125",
+          "988-lifeline",
+          "canada-safety-planning"
+        ]
+      },
+      {
+        "id": "s-family-rejection",
+        "audience": "가족의 거절이 걱정되는 사람",
+        "summary": "어떤 사람은 무슬림이 되면 가족, 주택, 직장 지원 또는 정서적 안전을 잃을까 봐 두려워합니다.",
+        "approach": [
+          "두려움을 확인하고 안전하기 전에 공개하라고 말하지 마십시오.",
+          "누가 말해도 안전한지, 누가 기다려야 하는지 생각하도록 도와주세요.",
+          "공개로 인해 피해가 발생할 수 있는 경우 현지 멘토, 이맘 또는 안전 전문가에게 연결하세요."
+        ],
+        "watchFor": [
+          "실제 위험이 있을 수 있는 경우 비밀을 약점으로 취급합니다.",
+          "공개 샤하다, 소셜 미디어 게시물 또는 직계 가족 발표에 압력을 가하는 행위."
+        ],
+        "referenceIds": [
+          "quran-2-256",
+          "new-muslim-academy-family",
+          "canada-safety-planning"
+        ]
+      },
+      {
+        "id": "s-private-shahada",
+        "audience": "관심은 있지만 샤하다를 공개적으로 말하는 것을 두려워하는 사람",
+        "summary": "어떤 사람은 진심으로 믿고 있지만 대중의 관심이나 가족의 반응, 기록되는 것을 두려워합니다.",
+        "approach": [
+          "압력과 공공 성과가 목표가 아니라는 점을 안심시키십시오.",
+          "신뢰할 수 있는 이맘이나 자격을 갖춘 멘토와 개인적으로 연결해 주겠다고 제안하십시오.",
+          "조용한 증인을 원하는지, 사적인 대화를 원하는지, 더 많은 것을 배울 시간을 원하는지 물어보십시오."
+        ],
+        "watchFor": [
+          "명시적인 허가 없이 샤하다를 녹음하거나 공유하는 행위.",
+          "공개적으로 발표하는 것은 무슬림이 되는 조건처럼 들립니다.",
+          "가족이나 지역 사회의 반응에 대한 안전 문제를 무시합니다."
+        ],
+        "referenceIds": [
+          "quran-2-256",
+          "whyislam-mosque-visit",
+          "seekersguidance-shahada-witnesses"
+        ]
+      },
+      {
+        "id": "s-women-in-islam",
+        "audience": "이슬람 여성에 대해 묻는 사람",
+        "summary": "어떤 사람은 존엄성, 권리, 겸손, 결혼, 이혼, 문화, 여성에게 가해지는 해악에 대해 묻습니다.",
+        "approach": [
+          "먼저 들어보세요. 그 질문은 단순히 호기심이 아닌 개인적인 고통에서 비롯될 수도 있다.",
+          "이슬람 가르침을 해로운 문화적 관습과 실제 학대로부터 분리하십시오.",
+          "신뢰할 수 있는 출처를 이용하고 자세한 결혼, 이혼, 상속 또는 안전 관련 질문을 적격한 도움을 받을 수 있는 사람에게 문의하세요."
+        ],
+        "watchFor": [
+          "생생한 경험을 무시하거나 슬로건으로 대답합니다.",
+          "개인의 법적, 결혼, 이혼 또는 학대 상황에 대해 추측합니다.",
+          "대화를 젠더 전쟁 논쟁으로 전환합니다."
+        ],
+        "referenceIds": [
+          "quran-33-35",
+          "yaqeen-women",
+          "canada-safety-planning"
+        ]
+      },
+      {
+        "id": "s-suffering",
+        "audience": "고통에 대해 묻는 사람",
+        "summary": "어떤 사람은 공의롭고 자비로우신 하나님께서 왜 고통, 슬픔, 억압, 개인적 손실을 허용하시는지 묻습니다.",
+        "approach": [
+          "답변을 제공하기 전에 고통을 인정하십시오.",
+          "이슬람은 인생이 시험이며 궁극적인 정의는 알라에게 속한다고 가르친다고 부드럽게 설명하십시오.",
+          "통증이 즉각적이거나 충격적인 경우 자격을 갖춘 정서적 또는 위기 지원을 받으십시오."
+        ],
+        "watchFor": [
+          "상대방이 슬퍼하는 동안 깔끔한 답변을 제공합니다.",
+          "듣는 대신 토론하십시오.",
+          "위기, 자해 또는 안전하지 않은 고립의 징후가 없습니다."
+        ],
+        "referenceIds": ["quran-67-2", "quran-2-155", "988-lifeline"]
+      },
+      {
+        "id": "s-violence-media-narratives",
+        "audience": "폭력이나 미디어 서술에 대해 질문하는 사람",
+        "summary": "어떤 사람은 이슬람이 폭력, 테러, 강제 개종, 타인에 대한 적대감을 조장하는지 묻습니다.",
+        "approach": [
+          "침착함을 유지하고 방어적인 자세를 취하지 마십시오.",
+          "신앙은 강요될 수 없으며 이슬람은 생명의 신성함을 옹호한다는 점을 분명히 합니다.",
+          "지하드, 전쟁, 정치적 폭력과 같은 복잡한 용어에 대해 신뢰할 수 있고 검토된 리소스를 사용하세요."
+        ],
+        "watchFor": [
+          "모든 지정학적 문제를 한 번에 답변하려고 노력하고 있습니다.",
+          "당신이 지지할 수 없는 약한 사과 주장을 공유합니다.",
+          "공개적인 싸움만을 원하는 사람과 말다툼을 합니다."
+        ],
+        "referenceIds": ["quran-2-256", "quran-5-32", "yaqeen-violence"]
+      }
+    ],
+    "duas": [
+      {
+        "id": "dua-ease",
+        "occasion": "before",
+        "title": "편안함과 열린 마음을 위해",
+        "arabic": "رَبِّ ٱشْرَحْ لِى صَدْرِى وَيَسِّرْ لِىٓ أَمْرِى",
+        "transliteration": "Rabbi-shraḥ lī ṣadrī wa yassir lī amrī",
+        "translation": "나의 주님! 내 마음을 높여 주시고 내 일을 쉽게 하여 주소서",
+        "referenceId": "quran-20-25-26"
+      },
+      {
+        "id": "dua-sincerity",
+        "occasion": "before",
+        "title": "진심을 담은 출처가 없는 개인적인 표현",
+        "translation": "전송된 이중어가 아닌 출처가 아닌 개인 표현: 오 알라, 내 의도를 진실하게 하시고 진실하고 친절하게 말할 수 있도록 도와주세요."
+      },
+      {
+        "id": "dua-guidance",
+        "occasion": "after",
+        "title": "대화 후 출처가 없는 개인적인 표현",
+        "translation": "전송된 이중어가 아닌 출처가 아닌 개인 표현: 오 알라, 그들을 진실하고 선한 것으로 인도하시고 나를 겸손으로 인도하소서."
+      },
+      {
+        "id": "dua-leave-results",
+        "occasion": "general",
+        "title": "인도를 기억하는 것은 알라의 것입니다",
+        "arabic": "إِنَّكَ لَا تَهْدِى مَنْ أَحْبَبْتَ وَلَٰكِنَّ ٱللَّهَ يَهْدِى مَن يَشَآءُ",
+        "translation": "당신은 당신이 좋아하는 사람을 인도할 수 없지만 그분이 원하는 사람을 인도하시는 분은 알라이십니다.",
+        "referenceId": "quran-28-56"
+      }
+    ],
+    "quickReference": {
+      "intro": "GOAP 경로, 대화 흐름, Good dawah의 마음을 간략하게 요약합니다. 대화 전이나 도중에 다시 상기시켜 보세요.",
+      "points": [
+        "지혜와 예의로 초대하십시오. 절대 압박하지 마세요.",
+        "말하는 것보다 더 많이 듣고, 한 번에 하나의 질문만 하십시오.",
+        "더 깊이 들어가기 전에 허락을 구하고, 공간이 필요할 때 잠시 멈추십시오.",
+        "사람들이 있는 곳에서 만나십시오. 실제 대화는 선형적이지 않습니다.",
+        "샤하다 없이 대화가 끝나더라도 문은 열어두세요.",
+        "성실하게 듀아를 만들고 그 결과를 알라에게 맡기십시오."
+      ]
+    }
+  }
+}

@@ -40,7 +40,7 @@
       "subSteps": [
         "스탠딩(qiyam) — 알 파티하(Al-Fatiha)와 짧은 수라를 낭송합니다.",
         "절(루쿠) — 허리를 구부리고 손을 무릎에 대고 'Subhana Rabbiyal Adheem'(가장 위대하신 주님께 영광을)이라고 말합니다.",
-        "부복(수주드) - 이마, 코, 손바닥, 무릎, 발가락을 땅에 대고 '수바나 랍비얄 알라'(가장 높으신 나의 주님께 영광을)이라고 말합니다.",
+        "부복(수주드) — 이마, 코, 손바닥, 무릎, 발가락을 땅에 대고 '수바나 랍비얄 알라'(가장 높으신 나의 주님께 영광을)이라고 말합니다.",
         "앉기(juloos) — 두 부복 사이에 앉습니다.",
         "이러한 움직임이 반복되어 하나의 단위(rak'ah)를 형성합니다. 기도마다 라카트의 수가 다릅니다."
       ]
@@ -50,8 +50,8 @@
       "subSteps": [
         "Fajr — 2 라카트.",
         "Dhuhr — 4 라카트.",
-        "Asr — 4개의 라카.",
-        "마그리브(Maghrib) - 3 라카트.",
+        "Asr — 4 라카트.",
+        "마그리브(Maghrib) — 3 라카트.",
         "Isha — 4 라카트.",
         "필수(파드) 기도부터 시작하세요. 나중에 자원봉사(순나) 기도를 추가할 수 있습니다."
       ]
@@ -93,11 +93,10 @@
   "tinyVersion": "부담스럽다면 하루에 한 번만 기도해 보세요. 서서, 절하고, 엎드려 마음으로부터 알라께 말하는 단순하고 진지한 기도도 중요합니다. 배우면서 세부 사항을 다듬을 수 있습니다.",
   "unlocksNext": "당신의 삶에 기도가 확립되면, 당신은 이 여정을 당신과 함께 걸어갈 지역 무슬림 공동체와 연결될 준비가 된 것입니다.",
   "resourceIds": [
-    "prayer-for-beginners-video",
-    "prayer-step-by-step-article",
-    "al-fatiha-audio",
-    "prayer-times-app",
-    "wudu-video"
+    "learn-salah-guide",
+    "muslim-pro-app",
+    "wudu-tutorial",
+    "being-muslim-book"
   ],
   "relatedGlossaryIds": [
     "salah",
@@ -113,5 +112,7 @@
     "sujud",
     "ruku"
   ],
-  "relatedTopicIds": ["prayer", "purification"]
+  "relatedTopicIds": ["prayer", "purification", "dua-and-dhikr"],
+  "sourceIds": ["new-muslim-guide", "sunnah-com", "seekersguidance"],
+  "reviewStatus": "review-needed"
 }

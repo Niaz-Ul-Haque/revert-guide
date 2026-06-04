@@ -1,0 +1,65 @@
+{
+  "id": "first-jumuah",
+  "slug": "first-jumuah",
+  "stageId": "week-1",
+  "title": "첫 번째 금요일 기도에 참석하세요",
+  "whyMatters": "Jumuah는 매주 금요일 회중기도입니다. 아름다울 수도 있지만 처음에는 혼잡함을 느낄 수도 있습니다. 무엇을 기대해야 할지 알면 침착하게 도착하는 데 도움이 됩니다.",
+  "exactActions": [
+    {
+      "text": "가기 전에 시간을 확인하세요",
+      "subSteps": [
+        "금요일 기도 시간은 일일 두르 시간과 다를 수 있습니다.",
+        "많은 성원에는 여러 가지 서비스가 있습니다.",
+        "해당되는 경우 주차장, 출입구, 여성 전용 공간을 확인하세요."
+      ]
+    },
+    {
+      "text": "일찍 도착하세요",
+      "subSteps": [
+        "입구와 신발장을 찾는 데 시간을 투자하세요.",
+        "조용히 앉아서 쿠트바(khutbah)를 들어보세요.",
+        "늦게 도착하면 침착하게 회중을 따르십시오."
+      ]
+    },
+    {
+      "text": "회중을 따르라",
+      "subSteps": [
+        "이맘은 설교를 한 다음 두 단위의 기도를 인도합니다.",
+        "주변 사람들의 움직임을 따라갈 수 있습니다.",
+        "길을 잃었다고 느꼈는지 나중에 누군가에게 물어보세요."
+      ]
+    },
+    {
+      "text": "떠나기 전에 한 번 연결해 보세요",
+      "subSteps": [
+        "새로운 무슬림 수업이나 멘토에 대해 물어보세요.",
+        "너무 바빠지면 나중에 이메일을 보내세요.",
+        "오랫동안 사회적 방문을 위해 머물 필요가 없습니다."
+      ]
+    }
+  ],
+  "timeEstimate": "성원에 따라 45~90분",
+  "obstacles": [
+    {
+      "problem": "군중이 압도적인 느낌",
+      "solution": "더 작은 성원을 시도하거나, 더 일찍 도착하거나, 먼저 조용한 일일 기도에 참석하십시오. 첫 번째 Jumuah가 첫 번째 성원 방문일 필요는 없습니다."
+    },
+    {
+      "problem": "설교가 이해가 안가네요",
+      "solution": "일부 쿠트바는 부분적으로 또는 완전히 다른 언어로 되어 있습니다. 영어 khutbahs가 포함된 성원을 찾거나 나중에 간단한 요약을 요청하세요."
+    }
+  ],
+  "tinyVersion": "한 성원의 금요일 기도 시간을 찾아 15분 일찍 도착하도록 계획하세요.",
+  "unlocksNext": "Jumuah는 주간 리듬과 수업, 멘토 및 커뮤니티를 찾을 수 있는 자연스러운 장소를 제공합니다.",
+  "resourceIds": ["learn-salah-guide", "new-muslim-guide-icna", "whyislam"],
+  "relatedGlossaryIds": ["jumuah", "masjid", "imam", "salah"],
+  "relatedTopicIds": ["masjid-and-community", "prayer", "community"],
+  "contextNotes": [
+    {
+      "title": "직장이나 학교",
+      "body": "금요일 기도가 일정과 겹치는 경우 현지 이맘에게 상황을 처리하는 방법과 어떤 숙박 언어가 적합한지 문의하세요."
+    }
+  ],
+  "sourceIds": ["new-muslim-guide", "seekersguidance", "whyislam"],
+  "reviewStatus": "review-needed"
+}

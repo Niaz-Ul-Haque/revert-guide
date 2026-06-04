@@ -20,7 +20,7 @@
         "Jumu'ah (oración del viernes) es un buen momento para visitar porque la comunidad se reúne, pero también puede haber mucha actividad. Una oración más tranquila entre semana puede resultar menos abrumadora.",
         "Llegue unos minutos antes. Quítate los zapatos en la entrada.",
         "Los hombres y las mujeres suelen orar en áreas separadas.",
-        "Sigue lo que hacen los demás: ponte de pie cuando ellos se levantan, inclínate cuando se inclinan. Nadie espera que lo sepas todo.",
+        "Sigue lo que hacen los demás: ponte de pie cuando ellos se levantan, inclínate cuando ellos se inclinan. Nadie espera que lo sepas todo.",
         "Después de la oración, preséntate a alguien cercano. Un simple 'As-salamu alaykum, soy nuevo en el Islam' abre muchas puertas."
       ]
     },
@@ -53,11 +53,11 @@
       ]
     }
   ],
-  "timeEstimate": "1 - 2 horas para una primera visita, construcción de relaciones continuas",
+  "timeEstimate": "1 a 2 horas para una primera visita, construcción continua de relaciones",
   "obstacles": [
     {
       "problem": "Me siento nervioso por visitar una mezquita.",
-      "solution": "Este es uno de los sentimientos más comunes entre los nuevos musulmanes y es completamente válido. Recuerde que la mayoría de las comunidades musulmanas respetan profundamente a los conversos y consideran una bendición darle la bienvenida. Muchas personas en la mezquita también fueron recién llegadas. Puedes llamar con anticipación o enviar un correo electrónico a la mezquita para informarles que vas a venir; es posible que incluso organicen a alguien para que te reciba."
+      "solution": "Este es uno de los sentimientos más comunes entre los nuevos musulmanes y es completamente válido. Recuerde que la mayoría de las comunidades musulmanas respetan profundamente a los conversos y consideran una bendición darle la bienvenida. Muchas personas en la mezquita también fueron recién llegadas. Puedes llamar con anticipación o enviar un correo electrónico a la mezquita para informarles que vas a venir; es posible que incluso programen que alguien te reciba."
     },
     {
       "problem": "Siento que no encajo",
@@ -79,10 +79,10 @@
   "tinyVersion": "Si visitar una mezquita le parece demasiado en este momento, comience por conectarse con un musulmán, en línea o en persona. Incluso un solo amigo que te apoye hace una gran diferencia.",
   "unlocksNext": "Con el apoyo de una comunidad, estará listo para profundizar su relación con las palabras de Alá comenzando a leer el Corán.",
   "resourceIds": [
-    "masjid-finder-tool",
-    "new-muslim-support-article",
-    "convert-community-online",
-    "visiting-masjid-guide"
+    "new-muslim-guide-icna",
+    "whyislam",
+    "aboutislam-new-muslims",
+    "khalil-center"
   ],
   "relatedGlossaryIds": [
     "masjid",
@@ -92,5 +92,11 @@
     "halaqa",
     "salaam"
   ],
-  "relatedTopicIds": ["community", "mental-health"]
+  "relatedTopicIds": [
+    "community",
+    "masjid-and-community",
+    "family-and-identity"
+  ],
+  "sourceIds": ["whyislam", "icna", "yaqeen-mental-health"],
+  "reviewStatus": "source-checked"
 }

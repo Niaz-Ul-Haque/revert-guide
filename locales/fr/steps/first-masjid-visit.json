@@ -1,0 +1,71 @@
+{
+  "id": "first-masjid-visit",
+  "slug": "first-masjid-visit",
+  "stageId": "week-1",
+  "title": "Faites votre première visite à la mosquée",
+  "whyMatters": "Une mosquée peut vous apporter un soutien à la prière, une communauté, des cours et un endroit où demander de l'aide à de vraies personnes. Votre première visite n’a pas besoin d’être parfaite ; il doit juste être doux et gérable.",
+  "exactActions": [
+    {
+      "text": "Choisissez un moment de basse pression",
+      "subSteps": [
+        "Une petite prière quotidienne peut sembler plus facile qu’une prière bondée du vendredi.",
+        "Consultez le site Web de la mosquée ou appelez à l'avance si vous n'êtes pas sûr.",
+        "Demandez-leur s'ils ont un nouveau soutien musulman ou une aide de visiteur."
+      ]
+    },
+    {
+      "text": "Habillez-vous simplement et modestement",
+      "subSteps": [
+        "Portez des vêtements propres et amples qui couvrent confortablement votre corps.",
+        "Les femmes peuvent apporter un foulard si elles envisagent d’entrer dans la zone de prière.",
+        "Ne paniquez pas si vous n’êtes pas habillé comme tout le monde."
+      ]
+    },
+    {
+      "text": "Suivez l’étiquette de base",
+      "subSteps": [
+        "Retirez vos chaussures là où d'autres enlèvent les leurs.",
+        "Gardez votre téléphone silencieux.",
+        "Si vous ne savez pas où aller, demandez à quelqu'un près de l'entrée."
+      ]
+    },
+    {
+      "text": "Présentez-vous à une personne",
+      "subSteps": [
+        "Vous pouvez simplement dire que vous êtes un nouveau musulman et que c'est votre première visite.",
+        "Demandez qui gère le support de conversion ou les cours pour débutants.",
+        "Partez si vous vous sentez dépassé ; vous pouvez revenir un autre jour."
+      ]
+    }
+  ],
+  "timeEstimate": "30 à 60 minutes",
+  "obstacles": [
+    {
+      "problem": "J'ai peur que les gens me regardent",
+      "solution": "La plupart des gens se concentrent sur la prière. Si quelqu’un remarque que vous êtes nouveau, nombreux seront ceux qui se feront un plaisir de vous aider. Vous pouvez également appeler à l'avance et demander à quelqu'un de vous rencontrer."
+    },
+    {
+      "problem": "Je ne sais pas quelle entrée utiliser",
+      "solution": "Recherchez les panneaux, suivez le flux des personnes ou demandez à la porte. Certaines mosquées ont des zones de prière séparées ; demander est normal."
+    }
+  ],
+  "tinyVersion": "Appelez ou envoyez un message à une mosquée et demandez quand un débutant peut la visiter.",
+  "unlocksNext": "Votre première visite facilite l'approche de Jumuah, des cours et du mentorat.",
+  "resourceIds": ["new-muslim-guide-icna", "whyislam", "new-muslim-guide-site"],
+  "relatedGlossaryIds": ["masjid", "imam", "salah", "ummah"],
+  "relatedTopicIds": ["masjid-and-community", "community", "new-muslim-basics"],
+  "commonQuestions": [
+    {
+      "problem": "Puis-je visiter si je ne peux pas encore prier correctement ?",
+      "solution": "Oui. Vous pouvez observer, suivre ce que vous pouvez et demander de l'aide. Une mosquée doit être un lieu d'apprentissage, pas seulement un lieu pour ceux qui savent déjà tout."
+    }
+  ],
+  "gentleScripts": [
+    {
+      "title": "A l'entrée",
+      "body": "Assalamu alaykoum. Je suis un nouveau musulman et c'est ma première fois ici. Pourriez-vous me montrer où aller ?"
+    }
+  ],
+  "sourceIds": ["whyislam", "icna", "new-muslim-guide"],
+  "reviewStatus": "source-checked"
+}

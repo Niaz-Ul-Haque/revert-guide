@@ -3,7 +3,7 @@
   "slug": "ghusl",
   "stageId": "day-0-1",
   "title": "Realizar el Baño de Purificación (Ghusl)",
-  "whyMatters": "Ghusl es un ritual de purificación de todo el cuerpo que simboliza lavar su antigua vida y comenzar de nuevo. Se recomienda para los nuevos musulmanes después de realizar la Shahada. Piensa en ello como una lluvia espiritual, un acto físico que representa el borrón y cuenta nueva que ahora tienes con Allah.",
+  "whyMatters": "Ghusl es un ritual de purificación de todo el cuerpo que simboliza lavar su antigua vida y comenzar de nuevo. Se recomienda para los nuevos musulmanes después de realizar la Shahada. Piense en ello como una lluvia espiritual, un acto físico que representa la borrón y cuenta nueva que ahora tiene con Allah.",
   "exactActions": [
     {
       "text": "Establece tu intención (niyyah)",
@@ -40,7 +40,7 @@
       ]
     }
   ],
-  "timeEstimate": "15 - 30 minutos",
+  "timeEstimate": "15 a 30 minutos",
   "obstacles": [
     {
       "problem": "No estoy seguro de los pasos exactos",
@@ -57,7 +57,13 @@
   ],
   "tinyVersion": "Date una ducha con la sincera intención de purificarte para tu nuevo comienzo en el Islam. Ésa es la esencia del Ghusl.",
   "unlocksNext": "Una vez completada su purificación, está listo para pasar a la Semana 1 y comenzar a aprender sobre las cinco oraciones diarias.",
-  "resourceIds": ["ghusl-guide-article", "wudu-video"],
+  "resourceIds": [
+    "purification-fiqh-guide",
+    "wudu-tutorial",
+    "new-muslim-guide-site"
+  ],
   "relatedGlossaryIds": ["ghusl", "wudu", "niyyah", "taharah", "tayammum"],
-  "relatedTopicIds": ["purification"]
+  "relatedTopicIds": ["purification", "prayer", "new-muslim-basics"],
+  "sourceIds": ["new-muslim-guide", "seekersguidance"],
+  "reviewStatus": "review-needed"
 }

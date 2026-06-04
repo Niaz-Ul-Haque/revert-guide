@@ -4,6 +4,9 @@
   "title": "Dawah Guide",
   "subtitle": "A gentle, step-by-step companion for sharing Islam with wisdom and kindness.",
   "audienceNote": "This is a private, direct-link guide for da'ees (those inviting to Islam). It is a field companion, not a script. Real conversations are not linear — listen first, move at the other person's pace, and leave the result to Allah.",
+  "reviewStatus": "source-checked",
+  "reviewNote": "Quran and hadith references were checked against online source links on 2026-06-03. This is not marked verified because qualified scholar/manual approval is still pending.",
+  "lastSourceChecked": "2026-06-03",
   "tonePrinciples": [
     "Invite with wisdom and good manners, never pressure.",
     "Listen more than you speak. Ask one question at a time.",
@@ -46,6 +49,7 @@
       "conversationTips": [
         "Make dua before you begin and ask Allah to soften both hearts.",
         "Ask open questions and genuinely listen to the answers.",
+        "Ask permission before moving into a deeper topic: \"Would it be okay if I shared how Islam looks at that?\"",
         "Find common ground first — most people care about truth, justice, and meaning."
       ],
       "referenceIds": ["quran-16-125"],
@@ -277,6 +281,7 @@
       "summary": "Sense whether the person feels ready to embrace Islam. Readiness must come from them, sincerely and freely.",
       "conversationTips": [
         "Never pressure. Shahada must be a free, sincere choice.",
+        "Ask once with gentleness, then give them space to think.",
         "It is completely fine — and often better — for someone to take more time."
       ],
       "options": [
@@ -303,29 +308,30 @@
       "eyebrow": "Encourage",
       "summary": "Offer warmth, resources, and friendship without any pressure. Let them know the door is always open.",
       "explanation": [
-        "Reassure them there is no rush and no pressure. Offer to answer questions any time and to share helpful resources.",
-        "A kind, patient da'ee who keeps the door open is far more effective than one who pushes. Many people accept Islam long after the first conversation."
+        "Reassure them there is no rush and no pressure. Offer to answer questions any time, share a small number of trustworthy resources, and let them decide whether they want to continue now or later.",
+        "A kind, patient da'ee who keeps the door open is far more effective than one who pushes. Guidance is from Allah, and many people accept Islam long after the first conversation."
       ],
       "conversationTips": [
         "Offer your contact and a few gentle resources.",
+        "If they look tired, tense, or overwhelmed, pause instead of adding more points.",
         "Reaffirm the friendship regardless of their decision.",
         "Make sincere dua for them privately."
       ],
-      "referenceIds": ["quran-51-55"],
+      "referenceIds": ["quran-51-55", "quran-28-56", "quran-2-256"],
       "nextNodeId": "shahada-readiness-after-encouragement"
     },
     "shahada-readiness-after-encouragement": {
       "id": "shahada-readiness-after-encouragement",
       "kind": "decision",
       "title": "After encouragement, are they ready?",
-      "summary": "Check in once more, gently. Whatever they decide, respond with kindness.",
+      "summary": "Only check in again if the moment still feels welcome. Whatever they decide, respond with kindness.",
       "options": [
         {
           "id": "yes",
-          "label": "Yes, they feel ready now",
+          "label": "Yes, they ask to continue",
           "helperText": "Connect them with guidance and the community.",
           "nextNodeId": "connect-guidance-community",
-          "ariaLabel": "Yes, ready now — connect them with community"
+          "ariaLabel": "Yes, they ask to continue — connect them with community"
         },
         {
           "id": "no",
@@ -368,9 +374,10 @@
       "conversationTips": [
         "Leave them with a good impression of Islam and Muslims.",
         "Offer to stay in touch and to answer questions any time.",
+        "Do not ask for a decision after they have clearly paused or declined.",
         "Make sincere dua for them after you part."
       ],
-      "referenceIds": ["quran-51-55"]
+      "referenceIds": ["quran-51-55", "quran-28-56", "quran-2-256"]
     }
   },
   "gorap": [
@@ -499,28 +506,28 @@
     {
       "id": "quran-16-125",
       "type": "quran",
-      "citation": "Qur'an 16:125",
+      "citation": "Qur'an 16:125 (excerpt)",
       "label": "Inviting with wisdom and good instruction",
-      "arabic": "ٱدْعُ إِلَىٰ سَبِيلِ رَبِّكَ بِٱلْحِكْمَةِ وَٱلْمَوْعِظَةِ ٱلْحَسَنَةِ ۖ وَجَٰدِلْهُم بِٱلَّتِى هِىَ أَحْسَنُ",
+      "arabic": "ٱدْعُ إِلَىٰ سَبِيلِ رَبِّكَ بِٱلْحِكْمَةِ وَٱلْمَوْعِظَةِ ٱلْحَسَنَةِ ۖ وَجَـٰدِلْهُم بِٱلَّتِى هِىَ أَحْسَنُ",
       "translation": "Invite ˹all˺ to the Way of your Lord with wisdom and kind advice, and only debate with them in the best manner.",
       "translator": "Dr. Mustafa Khattab, The Clear Quran",
       "sourceName": "Quran.com",
       "sourceUrl": "https://quran.com/16/125",
-      "reviewStatus": "draft",
-      "reviewNote": "Verify exact Arabic and translation wording with a qualified reviewer before publication."
+      "reviewStatus": "source-checked",
+      "reviewNote": "Excerpt checked against Quran.com on 2026-06-03; qualified scholar/manual approval pending."
     },
     {
       "id": "quran-51-55",
       "type": "quran",
       "citation": "Qur'an 51:55",
       "label": "Reminders benefit the believers",
-      "arabic": "وَذَكِّرْ فَإِنَّ ٱلذِّكْرَىٰ تَنفَعُ ٱلْمُؤْمِنِينَ",
-      "translation": "And keep reminding, for certainly reminders benefit the believers.",
+      "arabic": "وَذَكِّرْ فَإِنَّ ٱلذِّكْرَىٰ تَنفَعُ ٱلْمُؤْمِنِينَ",
+      "translation": "But ˹continue to˺ remind. For certainly reminders benefit the believers.",
       "translator": "Dr. Mustafa Khattab, The Clear Quran",
       "sourceName": "Quran.com",
       "sourceUrl": "https://quran.com/51/55",
-      "reviewStatus": "draft",
-      "reviewNote": "Verify exact Arabic and translation wording with a qualified reviewer before publication."
+      "reviewStatus": "source-checked",
+      "reviewNote": "Checked against Quran.com on 2026-06-03; qualified scholar/manual approval pending."
     },
     {
       "id": "quran-112-ikhlas",
@@ -532,8 +539,8 @@
       "translator": "Dr. Mustafa Khattab, The Clear Quran",
       "sourceName": "Quran.com",
       "sourceUrl": "https://quran.com/112",
-      "reviewStatus": "draft",
-      "reviewNote": "Verify exact Arabic and translation wording with a qualified reviewer before publication."
+      "reviewStatus": "source-checked",
+      "reviewNote": "Checked against Quran.com on 2026-06-03; qualified scholar/manual approval pending."
     },
     {
       "id": "quran-52-35",
@@ -545,21 +552,21 @@
       "translator": "Dr. Mustafa Khattab, The Clear Quran",
       "sourceName": "Quran.com",
       "sourceUrl": "https://quran.com/52/35",
-      "reviewStatus": "draft",
-      "reviewNote": "Verify exact Arabic and translation wording with a qualified reviewer before publication."
+      "reviewStatus": "source-checked",
+      "reviewNote": "Checked against Quran.com on 2026-06-03; qualified scholar/manual approval pending."
     },
     {
       "id": "quran-21-22",
       "type": "quran",
-      "citation": "Qur'an 21:22",
+      "citation": "Qur'an 21:22 (excerpt)",
       "label": "The logic of One God",
-      "arabic": "لَوْ كَانَ فِيهِمَآ ءَالِهَةٌ إِلَّا ٱللَّهُ لَفَسَدَتَا",
+      "arabic": "لَوْ كَانَ فِيهِمَآ ءَالِهَةٌ إِلَّا ٱللَّهُ لَفَسَدَتَا",
       "translation": "Had there been other gods besides Allah in the heavens or the earth, both ˹realms˺ would have surely been corrupted.",
       "translator": "Dr. Mustafa Khattab, The Clear Quran",
       "sourceName": "Quran.com",
       "sourceUrl": "https://quran.com/21/22",
-      "reviewStatus": "draft",
-      "reviewNote": "Verify exact Arabic and translation wording with a qualified reviewer before publication."
+      "reviewStatus": "source-checked",
+      "reviewNote": "Excerpt checked against Quran.com on 2026-06-03; qualified scholar/manual approval pending."
     },
     {
       "id": "quran-21-25",
@@ -571,70 +578,239 @@
       "translator": "Dr. Mustafa Khattab, The Clear Quran",
       "sourceName": "Quran.com",
       "sourceUrl": "https://quran.com/21/25",
-      "reviewStatus": "draft",
-      "reviewNote": "Verify exact Arabic and translation wording with a qualified reviewer before publication."
+      "reviewStatus": "source-checked",
+      "reviewNote": "Checked against Quran.com on 2026-06-03; qualified scholar/manual approval pending."
     },
     {
       "id": "quran-3-45",
       "type": "quran",
       "citation": "Qur'an 3:45",
       "label": "The honored status of Jesus, son of Mary",
-      "translation": "˹Remember˺ when the angels said, “O Mary! Allah gives you good news of a Word from Him, whose name will be the Messiah, Jesus, son of Mary; honoured in this world and the Hereafter, and he will be one of those nearest ˹to Allah˺.”",
+      "arabic": "إِذْ قَالَتِ ٱلْمَلَـٰٓئِكَةُ يَـٰمَرْيَمُ إِنَّ ٱللَّهَ يُبَشِّرُكِ بِكَلِمَةٍۢ مِّنْهُ ٱسْمُهُ ٱلْمَسِيحُ عِيسَى ٱبْنُ مَرْيَمَ وَجِيهًۭا فِى ٱلدُّنْيَا وَٱلْـَٔاخِرَةِ وَمِنَ ٱلْمُقَرَّبِينَ",
+      "translation": "˹Remember˺ when the angels proclaimed, “O Mary! Allah gives you good news of a Word from Him, his name will be the Messiah, Jesus, son of Mary; honoured in this world and the Hereafter, and he will be one of those nearest ˹to Allah˺.”",
       "translator": "Dr. Mustafa Khattab, The Clear Quran",
       "sourceName": "Quran.com",
       "sourceUrl": "https://quran.com/3/45",
-      "reviewStatus": "draft",
-      "reviewNote": "Arabic intentionally omitted pending verification. Verify translation wording with a qualified reviewer before publication."
+      "reviewStatus": "source-checked",
+      "reviewNote": "Checked against Quran.com on 2026-06-03; qualified scholar/manual approval pending."
     },
     {
       "id": "hadith-jibril",
       "type": "hadith",
       "citation": "Sahih Muslim 8a (Book 1, Hadith 1) — Hadith of Jibril",
       "label": "The six articles of faith",
-      "translation": "That you affirm your faith in Allah, in His angels, in His Books, in His Messengers, in the Day of Judgment, and that you affirm your faith in the Divine Decree about good and evil.",
+      "translation": "That you affirm your faith in Allah, in His angels, in His Books, in His Apostles, in the Day of Judgment, and you affirm your faith in the Divine Decree about good and evil.",
       "sourceName": "Sahih Muslim (sunnah.com)",
       "sourceUrl": "https://sunnah.com/muslim:8a",
-      "reviewStatus": "draft",
-      "reviewNote": "Wording from Sahih Muslim 8a via sunnah.com; confirm exact wording with a qualified reviewer before publication."
+      "reviewStatus": "source-checked",
+      "reviewNote": "Excerpt checked against Sunnah.com on 2026-06-03; qualified scholar/manual approval pending."
     },
     {
       "id": "quran-2-256",
       "type": "quran",
-      "citation": "Qur'an 2:256",
+      "citation": "Qur'an 2:256 (excerpt)",
       "label": "There is no compulsion in religion",
-      "arabic": "لَآ إِكْرَاهَ فِى ٱلدِّينِ ۖ قَد تَّبَيَّنَ ٱلرُّشْدُ مِنَ ٱلْغَىِّ",
-      "translation": "There is no compulsion in religion, for the truth stands out clearly from falsehood.",
+      "arabic": "لَآ إِكْرَاهَ فِى ٱلدِّينِ ۖ قَد تَّبَيَّنَ ٱلرُّشْدُ مِنَ ٱلْغَىِّ",
+      "translation": "Let there be no compulsion in religion, for the truth stands out clearly from falsehood.",
       "translator": "Dr. Mustafa Khattab, The Clear Quran",
       "sourceName": "Quran.com",
       "sourceUrl": "https://quran.com/2/256",
-      "reviewStatus": "draft",
-      "reviewNote": "Wording follows the Clear Quran (Dr. Mustafa Khattab) via Quran.com; confirm with a qualified reviewer before publication."
+      "reviewStatus": "source-checked",
+      "reviewNote": "Excerpt checked against Quran.com on 2026-06-03; qualified scholar/manual approval pending."
     },
     {
       "id": "quran-28-56",
       "type": "quran",
       "citation": "Qur'an 28:56",
       "label": "Guidance belongs to Allah alone",
-      "arabic": "إِنَّكَ لَا تَهْدِى مَنْ أَحْبَبْتَ وَلَٰكِنَّ ٱللَّهَ يَهْدِى مَن يَشَآءُ ۚ وَهُوَ أَعْلَمُ بِٱلْمُهْتَدِينَ",
+      "arabic": "إِنَّكَ لَا تَهْدِى مَنْ أَحْبَبْتَ وَلَـٰكِنَّ ٱللَّهَ يَهْدِى مَن يَشَآءُ ۚ وَهُوَ أَعْلَمُ بِٱلْمُهْتَدِينَ",
       "translation": "You surely cannot guide whoever you like ˹O Prophet˺, but it is Allah Who guides whoever He wills, and He knows best who are ˹fit to be˺ guided.",
       "translator": "Dr. Mustafa Khattab, The Clear Quran",
       "sourceName": "Quran.com",
       "sourceUrl": "https://quran.com/28/56",
-      "reviewStatus": "draft",
-      "reviewNote": "Wording follows the Clear Quran (Dr. Mustafa Khattab) via Quran.com; confirm with a qualified reviewer before publication."
+      "reviewStatus": "source-checked",
+      "reviewNote": "Checked against Quran.com on 2026-06-03; qualified scholar/manual approval pending."
     },
     {
       "id": "quran-20-25-26",
       "type": "quran",
       "citation": "Qur'an 20:25-26",
       "label": "Prophet Moses' dua for ease and an open heart",
-      "arabic": "رَبِّ ٱشْرَحْ لِى صَدْرِى وَيَسِّرْ لِىٓ أَمْرِى",
-      "translation": "My Lord! Uplift my heart for me, and make my task easy for me.",
+      "arabic": "رَبِّ ٱشْرَحْ لِى صَدْرِى وَيَسِّرْ لِىٓ أَمْرِى",
+      "translation": "My Lord! Uplift my heart for me, and make my task easy,",
       "translator": "Dr. Mustafa Khattab, The Clear Quran",
       "sourceName": "Quran.com",
       "sourceUrl": "https://quran.com/20/25-26",
-      "reviewStatus": "draft",
-      "reviewNote": "Wording follows the Clear Quran (Dr. Mustafa Khattab) via Quran.com; confirm with a qualified reviewer before publication."
+      "reviewStatus": "source-checked",
+      "reviewNote": "Checked against Quran.com 20:25 and 20:26 on 2026-06-03; qualified scholar/manual approval pending."
+    },
+    {
+      "id": "new-muslim-academy",
+      "type": "scholarly-note",
+      "citation": "New Muslim Academy",
+      "label": "Beginner education and convert-support framing",
+      "sourceName": "New Muslim Academy",
+      "sourceUrl": "https://www.newmuslimacademy.org/",
+      "reviewStatus": "source-checked",
+      "reviewNote": "Official education source checked online on 2026-06-03; used for beginner-friendly support framing, not personal rulings."
+    },
+    {
+      "id": "whyislam-jesus",
+      "type": "scholarly-note",
+      "citation": "WhyIslam: Jesus in Islam",
+      "label": "Introductory education on Jesus in Islam",
+      "sourceName": "WhyIslam",
+      "sourceUrl": "https://www.whyislam.org/jesus-pbuh/",
+      "reviewStatus": "source-checked",
+      "reviewNote": "Official public education source checked online on 2026-06-03; used for respectful introductory framing."
+    },
+    {
+      "id": "quran-67-2",
+      "type": "quran",
+      "citation": "Qur'an 67:2",
+      "label": "Life as a test",
+      "translation": "He is the One Who created death and life in order to test which of you is best in deeds.",
+      "translator": "Dr. Mustafa Khattab, The Clear Quran",
+      "sourceName": "Quran.com",
+      "sourceUrl": "https://quran.com/67/2",
+      "reviewStatus": "source-checked",
+      "reviewNote": "Checked against Quran.com on 2026-06-03; qualified scholar/manual approval pending."
+    },
+    {
+      "id": "quran-2-155",
+      "type": "quran",
+      "citation": "Qur'an 2:155",
+      "label": "Trials and patience",
+      "translation": "We will certainly test you with a touch of fear and famine and loss of property, life, and crops. Give good news to those who patiently endure.",
+      "translator": "Dr. Mustafa Khattab, The Clear Quran",
+      "sourceName": "Quran.com",
+      "sourceUrl": "https://quran.com/2/155",
+      "reviewStatus": "source-checked",
+      "reviewNote": "Checked against Quran.com on 2026-06-03; qualified scholar/manual approval pending."
+    },
+    {
+      "id": "quran-33-35",
+      "type": "quran",
+      "citation": "Qur'an 33:35",
+      "label": "Men and women addressed in faith",
+      "translation": "Surely for Muslim men and women, believing men and women, devout men and women... Allah has prepared forgiveness and a great reward.",
+      "translator": "Dr. Mustafa Khattab, The Clear Quran",
+      "sourceName": "Quran.com",
+      "sourceUrl": "https://quran.com/33/35",
+      "reviewStatus": "source-checked",
+      "reviewNote": "Excerpt checked against Quran.com on 2026-06-03; qualified scholar/manual approval pending."
+    },
+    {
+      "id": "quran-5-32",
+      "type": "quran",
+      "citation": "Qur'an 5:32 (excerpt)",
+      "label": "Sanctity of life",
+      "translation": "Whoever takes a life... it will be as if they killed all of humanity.",
+      "translator": "Dr. Mustafa Khattab, The Clear Quran",
+      "sourceName": "Quran.com",
+      "sourceUrl": "https://quran.com/5/32",
+      "reviewStatus": "source-checked",
+      "reviewNote": "Excerpt checked against Quran.com on 2026-06-03; qualified scholar/manual approval pending."
+    },
+    {
+      "id": "whyislam-mosque-visit",
+      "type": "scholarly-note",
+      "citation": "WhyIslam: First Mosque Visit",
+      "label": "New convert mosque support",
+      "sourceName": "WhyIslam",
+      "sourceUrl": "https://www.whyislam.org/mosquevisit/",
+      "reviewStatus": "source-checked",
+      "reviewNote": "Official public education source checked online on 2026-06-03; used for first-masjid-visit and public Shahada boundary framing."
+    },
+    {
+      "id": "whyislam-becoming-muslim",
+      "type": "scholarly-note",
+      "citation": "WhyIslam: Becoming Muslim",
+      "label": "Shahada introduction",
+      "sourceName": "WhyIslam",
+      "sourceUrl": "https://www.whyislam.org/muslimhow/",
+      "reviewStatus": "source-checked",
+      "reviewNote": "Official public education source checked online on 2026-06-03; used for basic Shahada orientation."
+    },
+    {
+      "id": "seekersguidance-shahada-witnesses",
+      "type": "scholarly-note",
+      "citation": "SeekersGuidance: Does Taking Shahada Require Witnesses?",
+      "label": "Qualified Shahada guidance",
+      "sourceName": "SeekersGuidance",
+      "sourceUrl": "https://seekersguidance.org/answers/calling-to-islam/does-taking-shahada-require-witnesses/",
+      "reviewStatus": "source-checked",
+      "reviewNote": "Qualified education source checked online on 2026-06-03; used for the privacy and public-witness boundary around Shahada."
+    },
+    {
+      "id": "new-muslim-academy-family",
+      "type": "scholarly-note",
+      "citation": "New Muslim Academy: Family",
+      "label": "Family support framing",
+      "sourceName": "New Muslim Academy",
+      "sourceUrl": "https://www.newmuslimacademy.org/family/",
+      "reviewStatus": "source-checked",
+      "reviewNote": "Official education source checked online on 2026-06-03; used for family, belonging, and post-Shahada support framing."
+    },
+    {
+      "id": "seekersguidance",
+      "type": "scholarly-note",
+      "citation": "SeekersGuidance",
+      "label": "Qualified Islamic education",
+      "sourceName": "SeekersGuidance",
+      "sourceUrl": "https://seekersguidance.org/",
+      "reviewStatus": "source-checked",
+      "reviewNote": "Qualified education source checked online on 2026-06-03; used to refer detailed fiqh and theology questions to qualified teachers."
+    },
+    {
+      "id": "yaqeen-women",
+      "type": "scholarly-note",
+      "citation": "Yaqeen Institute: Islam and Women",
+      "label": "Women in Islam education",
+      "sourceName": "Yaqeen Institute",
+      "sourceUrl": "https://yaqeeninstitute.org/what-islam-says-about/islam-and-women",
+      "reviewStatus": "source-checked",
+      "reviewNote": "Reviewed educational topic page checked online on 2026-06-03; used for careful, non-polemical women-in-Islam scenario framing."
+    },
+    {
+      "id": "yaqeen-violence",
+      "type": "scholarly-note",
+      "citation": "Yaqeen Institute: Islam and Violence",
+      "label": "Violence and media narratives",
+      "sourceName": "Yaqeen Institute",
+      "sourceUrl": "https://yaqeeninstitute.org/what-islam-says-about/islam-and-violence",
+      "reviewStatus": "source-checked",
+      "reviewNote": "Reviewed educational topic page checked online on 2026-06-03; used for careful referral around violence, jihad, terrorism, and media narratives."
+    },
+    {
+      "id": "988-lifeline",
+      "type": "public-health",
+      "citation": "988 Suicide & Crisis Lifeline",
+      "label": "Crisis support",
+      "sourceName": "988 Lifeline",
+      "sourceUrl": "https://988lifeline.org/",
+      "reviewStatus": "source-checked",
+      "reviewNote": "Official crisis support source checked online on 2026-06-03; used for mental-health crisis referral language."
+    },
+    {
+      "id": "canada-safety-planning",
+      "type": "public-safety",
+      "citation": "Government of Canada: Safety Planning",
+      "label": "Safety planning",
+      "sourceName": "Government of Canada",
+      "sourceUrl": "https://www.canada.ca/en/public-health/services/health-promotion/stop-family-violence/plan-your-safety.html",
+      "reviewStatus": "source-checked",
+      "reviewNote": "Official public safety source checked online on 2026-06-03; used for family rejection, abuse, and safety referral boundaries."
+    },
+    {
+      "id": "ohrc-religious-rights",
+      "type": "public-rights",
+      "citation": "Ontario Human Rights Commission: Religious Rights Fact Sheet",
+      "label": "Public rights information",
+      "sourceName": "Ontario Human Rights Commission",
+      "sourceUrl": "https://www.ohrc.on.ca/en/religious-rights-fact-sheet",
+      "reviewStatus": "source-checked",
+      "reviewNote": "Official public rights source checked online on 2026-06-03; used only to route legal-adjacent questions to qualified local advice."
     }
   ],
   "communityConnect": {
@@ -650,6 +826,264 @@
     "masjidFinderLabel": "Find a nearby masjid"
   },
   "additionalGuidance": {
+    "trainingCards": [
+      {
+        "id": "listen-first",
+        "title": "Listening first",
+        "summary": "A good dawah conversation begins with understanding the person, not with correcting them.",
+        "practice": [
+          "Ask one open question and let them answer fully before responding.",
+          "Reflect back what you heard: \"So it sounds like your main concern is...\"",
+          "Answer the question they actually asked, not every topic you wish to cover."
+        ],
+        "avoid": [
+          "Interrupting to win a point.",
+          "Assuming their background or objection before they explain it."
+        ],
+        "referenceIds": ["quran-16-125", "new-muslim-academy"]
+      },
+      {
+        "id": "ask-permission",
+        "title": "Ask permission before continuing",
+        "summary": "Permission keeps the conversation respectful and helps the other person stay in control of their pace.",
+        "practice": [
+          "Use simple phrases like: \"Would it be okay if I shared the Islamic view?\"",
+          "If they say no or hesitate, thank them and pause.",
+          "Offer to continue another time without making them feel guilty."
+        ],
+        "avoid": [
+          "Treating hesitation as a challenge.",
+          "Repeating the same invitation after they clearly declined."
+        ],
+        "referenceIds": ["quran-2-256", "quran-28-56"]
+      },
+      {
+        "id": "one-point-at-a-time",
+        "title": "One point at a time",
+        "summary": "Most people need one clear idea to think about, not a full lecture.",
+        "practice": [
+          "Choose the next most relevant point in the conversation.",
+          "Use short explanations and pause for questions.",
+          "If several topics come up, write them down and return to one at a time."
+        ],
+        "avoid": [
+          "Overloading them with every proof, ruling, or story you know.",
+          "Moving to Shahada before the person has processed the basics."
+        ],
+        "referenceIds": ["quran-16-125"]
+      },
+      {
+        "id": "handle-hostility",
+        "title": "Handling hostility calmly",
+        "summary": "If someone becomes angry or insulting, protect the dignity of the conversation and step back.",
+        "practice": [
+          "Lower your voice and slow the pace.",
+          "Name the limit gently: \"I do not want us to argue or disrespect each other.\"",
+          "End the conversation if it is no longer sincere or safe."
+        ],
+        "avoid": [
+          "Matching anger with anger.",
+          "Using sarcasm, mockery, or public embarrassment."
+        ],
+        "referenceIds": ["quran-16-125"]
+      },
+      {
+        "id": "when-to-stop",
+        "title": "When to stop the conversation",
+        "summary": "Stopping well can be better dawah than forcing one more point.",
+        "practice": [
+          "Stop when the person is tired, distressed, mocking, unsafe, or clearly done.",
+          "Close with thanks and warmth.",
+          "Make dua privately and leave the door open for a better time."
+        ],
+        "avoid": [
+          "Chasing a decision.",
+          "Treating the conversation as a failure because it ended without Shahada."
+        ],
+        "referenceIds": ["quran-51-55", "quran-28-56", "quran-2-256"]
+      },
+      {
+        "id": "refer-to-imam",
+        "title": "Refer to an imam or mentor",
+        "summary": "A da'ee does not need to answer everything. Sensitive, detailed, or personal questions need qualified help.",
+        "practice": [
+          "Say clearly: \"I do not want to guess about that.\"",
+          "Offer to connect them with a trusted local imam, teacher, or new Muslim mentor.",
+          "For emotional safety, legal, medical, or family-risk concerns, point them to qualified local professionals too."
+        ],
+        "avoid": [
+          "Inventing rulings on the spot.",
+          "Becoming the person's only support after Shahada."
+        ],
+        "referenceIds": ["new-muslim-academy"]
+      }
+    ],
+    "postShahadaHandoff": [
+      {
+        "id": "first-hour",
+        "title": "First hour",
+        "summary": "Respond with warmth, privacy, and calm support. Shahada is a beginning, not a public performance.",
+        "actions": [
+          "Congratulate them gently without overwhelming them.",
+          "Ask whether they want privacy, a quiet witness, or a public community introduction.",
+          "Write down one trusted contact: imam, mentor, new Muslim class, or supportive Muslim friend.",
+          "Check whether family, housing, work, or safety concerns make public disclosure risky."
+        ],
+        "avoid": [
+          "Pressuring them to announce publicly.",
+          "Handing them a long list of rules immediately.",
+          "Posting photos, videos, or the Shahada moment without explicit permission."
+        ],
+        "referenceIds": [
+          "quran-2-256",
+          "whyislam-becoming-muslim",
+          "whyislam-mosque-visit",
+          "seekersguidance-shahada-witnesses"
+        ]
+      },
+      {
+        "id": "first-day",
+        "title": "First day",
+        "summary": "Help them leave the conversation with one clear next step and one reliable support person.",
+        "actions": [
+          "Share one beginner resource instead of a pile of links.",
+          "Offer to help them find a local masjid or new Muslim class.",
+          "Ask whether they want help learning wudu and the shape of prayer.",
+          "Remind them that learning takes time and Allah knows their effort."
+        ],
+        "avoid": [
+          "Correcting every habit at once.",
+          "Debating family, marriage, clothing, or food details before they ask."
+        ],
+        "referenceIds": ["new-muslim-academy", "whyislam-mosque-visit"]
+      },
+      {
+        "id": "first-week",
+        "title": "First week",
+        "summary": "Support consistency, belonging, and safe learning before advanced rulings.",
+        "actions": [
+          "Help them choose a gentle prayer-learning plan.",
+          "Connect them with a mentor who can answer questions patiently.",
+          "Invite them to one community moment: class, prayer, meal, or coffee.",
+          "Encourage them to ask sensitive questions privately and early."
+        ],
+        "avoid": [
+          "Making yourself their only support.",
+          "Using shame to speed up their learning."
+        ],
+        "referenceIds": ["new-muslim-academy", "new-muslim-academy-family"]
+      },
+      {
+        "id": "connect-community",
+        "title": "Connect to local community",
+        "summary": "A new Muslim needs reliable people around them, not only online content.",
+        "actions": [
+          "Introduce them to a trustworthy imam, teacher, or convert-support lead.",
+          "Help them verify class times and whether the space is beginner-friendly.",
+          "Offer a follow-up plan that respects their schedule and privacy.",
+          "If their family situation is tense, prioritize safety and trusted professional support."
+        ],
+        "avoid": [
+          "Assuming every masjid has the same culture or support level.",
+          "Sharing their story without permission."
+        ],
+        "referenceIds": [
+          "quran-16-125",
+          "whyislam-mosque-visit",
+          "canada-safety-planning"
+        ]
+      },
+      {
+        "id": "avoid-overwhelm",
+        "title": "Avoid overwhelming them",
+        "summary": "The first season after Shahada should feel supported, not buried under demands.",
+        "actions": [
+          "Prioritize belief, prayer on-ramp, trustworthy community, and emotional steadiness.",
+          "Use short check-ins: one question, one resource, one next step.",
+          "Tell them clearly what can wait until a teacher reviews it with them.",
+          "Celebrate effort without making perfection the condition of belonging."
+        ],
+        "avoid": [
+          "Turning the first week into a complete fiqh curriculum.",
+          "Making cultural changes sound like immediate religious obligations."
+        ],
+        "referenceIds": ["new-muslim-academy", "quran-16-125"]
+      }
+    ],
+    "referralBoundaries": [
+      {
+        "id": "marriage-divorce",
+        "title": "Marriage, divorce, and family law",
+        "summary": "Do not improvise answers about marriage validity, divorce, custody, inheritance, conversion certificates, or family-law consequences.",
+        "examples": [
+          "They ask whether their current marriage changes after Shahada.",
+          "They ask about divorce wording, custody, or inheritance.",
+          "They need documents for marriage, Hajj/Umrah, school, work, or government records."
+        ],
+        "referTo": "A qualified local scholar and, where legal rights or documents are involved, a licensed legal professional or official agency.",
+        "referenceIds": ["seekersguidance", "ohrc-religious-rights"]
+      },
+      {
+        "id": "trauma-safety",
+        "title": "Trauma, abuse, or safety risk",
+        "summary": "If disclosure could lead to harm, do not encourage public action before safety has been considered.",
+        "examples": [
+          "They fear violence, homelessness, stalking, or family retaliation.",
+          "They have trauma connected to religion or authority figures.",
+          "They ask whether they should tell unsafe relatives immediately."
+        ],
+        "referTo": "Trusted local safety professionals, crisis or domestic-violence support, and a gentle imam or mentor who respects privacy.",
+        "referenceIds": ["canada-safety-planning", "new-muslim-academy-family"]
+      },
+      {
+        "id": "mental-health-crisis",
+        "title": "Mental health crisis",
+        "summary": "A da'ee should not try to counsel a crisis alone.",
+        "examples": [
+          "They mention suicide, self-harm, being unable to stay safe, or feeling detached from reality.",
+          "They are panicking, unable to function, or making urgent unsafe plans.",
+          "They need emergency help more than a religious explanation."
+        ],
+        "referTo": "Emergency services or crisis support such as 988 in the United States and Canada, plus qualified clinical care.",
+        "referenceIds": ["988-lifeline"]
+      },
+      {
+        "id": "detailed-fiqh",
+        "title": "Detailed fiqh",
+        "summary": "Worship and daily-life rulings can depend on school, circumstances, health, and local context.",
+        "examples": [
+          "They ask about prayer validity, missed prayers, fasting exemptions, zakat calculations, purity details, or disability accommodations.",
+          "They ask for a ruling on food, work, clothing, family obligations, or money.",
+          "You are relying on memory rather than a reliable source."
+        ],
+        "referTo": "A qualified scholar, imam, teacher, or trusted fatwa service that can ask follow-up questions.",
+        "referenceIds": ["seekersguidance", "new-muslim-academy"]
+      },
+      {
+        "id": "complex-theology",
+        "title": "Complex theology and disturbing claims",
+        "summary": "Some questions need time, context, and a teacher rather than a quick answer.",
+        "examples": [
+          "They ask about suffering, qadar, hellfire, hadith doubts, or difficult online claims.",
+          "They have trauma from previous religious communities.",
+          "They are spiraling through debate clips or hostile media."
+        ],
+        "referTo": "A reliable teacher, structured class, or qualified scholar who can answer gradually and responsibly.",
+        "referenceIds": ["quran-67-2", "quran-2-155", "seekersguidance"]
+      },
+      {
+        "id": "legal-immigration",
+        "title": "Legal, immigration, workplace, or school issues",
+        "summary": "Religious encouragement cannot replace legal or official advice.",
+        "examples": [
+          "They ask about immigration, asylum, custody, workplace rights, school accommodation, or ID documents.",
+          "They need a certificate, letter, or official proof.",
+          "They may face discrimination or retaliation."
+        ],
+        "referTo": "A licensed legal professional, official public-rights agency, school/work office, or local settlement service as appropriate.",
+        "referenceIds": ["ohrc-religious-rights"]
+      }
+    ],
     "commonQuestions": [
       {
         "id": "q-god-exists",
@@ -698,7 +1132,8 @@
         "answer": [
           "The Shahada is the sincere testimony that there is no god worthy of worship except Allah, and that Muhammad is His messenger. It is the gateway into Islam.",
           "It must be a free, sincere choice — never rushed or pressured. Taking the Shahada is a beginning, not an ending; loving support comes next."
-        ]
+        ],
+        "referenceIds": ["whyislam-becoming-muslim", "quran-2-256"]
       },
       {
         "id": "q-suffering",
@@ -707,7 +1142,8 @@
         "answer": [
           "This life is a test, and a just God will establish perfect justice on the Day of Judgement, where no wrong goes unaddressed.",
           "Acknowledge the person's pain honestly and gently, rather than offering quick answers."
-        ]
+        ],
+        "referenceIds": ["quran-67-2", "quran-2-155"]
       }
     ],
     "misconceptions": [
@@ -718,7 +1154,7 @@
           "The Qur'an is clear that faith cannot be forced — it must be sincere and freely chosen. Respond calmly and without defensiveness.",
           "Point gently to the long history of communities embracing Islam by conviction, and keep the focus on the message rather than on debate."
         ],
-        "referenceIds": ["quran-2-256"]
+        "referenceIds": ["quran-2-256", "yaqeen-violence"]
       },
       {
         "id": "m-different-god",
@@ -735,7 +1171,8 @@
         "response": [
           "Avoid a heated debate. Listen first, acknowledge that culture and religion are often confused, and separate harmful cultural practices from Islamic teaching.",
           "Speak about the rights Islam affirmed for women and the honour given to mothers, and let your own respectful character speak."
-        ]
+        ],
+        "referenceIds": ["quran-33-35", "yaqeen-women"]
       },
       {
         "id": "m-all-same",
@@ -759,7 +1196,8 @@
         "watchFor": [
           "Turning reflection into an argument to be won.",
           "Overconfident philosophical claims you cannot explain."
-        ]
+        ],
+        "referenceIds": ["quran-52-35", "quran-16-125"]
       },
       {
         "id": "s-christian",
@@ -773,7 +1211,23 @@
         "watchFor": [
           "Disrespecting Christian beliefs or arguing theology aggressively.",
           "Rushing — give the conversation warmth and time."
-        ]
+        ],
+        "referenceIds": ["quran-3-45", "whyislam-jesus"]
+      },
+      {
+        "id": "s-spiritual-not-religious",
+        "audience": "Spiritual but not religious",
+        "summary": "Someone who believes there may be more to life but distrusts organized religion.",
+        "approach": [
+          "Begin with their desire for meaning, healing, or connection.",
+          "Explain Islam as direct worship of the One Creator, not as surrender to a human institution.",
+          "Show how revelation gives shape to spirituality without removing sincerity."
+        ],
+        "watchFor": [
+          "Dismissing their past experiences with religion.",
+          "Using too much insider language before trust is built."
+        ],
+        "referenceIds": ["quran-112-ikhlas", "quran-21-25"]
       },
       {
         "id": "s-cultural-muslim",
@@ -784,7 +1238,23 @@
           "Avoid judgment about the past; focus on a gentle next step.",
           "Offer companionship and small, achievable encouragements."
         ],
-        "watchFor": ["Shaming or guilt-tripping, which pushes people away."]
+        "watchFor": ["Shaming or guilt-tripping, which pushes people away."],
+        "referenceIds": ["new-muslim-academy"]
+      },
+      {
+        "id": "s-family-difficult-questions",
+        "audience": "Family member asking difficult questions",
+        "summary": "A relative or close friend asks about Islam with emotion, fear, or challenging assumptions.",
+        "approach": [
+          "Protect the relationship before trying to answer every objection.",
+          "Acknowledge the concern and answer one point calmly.",
+          "If the question is sensitive or beyond your knowledge, offer to ask an imam or mentor together."
+        ],
+        "watchFor": [
+          "Letting family pressure push you into guessing.",
+          "Replying to emotional pain with a lecture."
+        ],
+        "referenceIds": ["quran-16-125", "new-muslim-academy"]
       },
       {
         "id": "s-not-ready",
@@ -795,7 +1265,119 @@
           "Offer trustworthy resources and to answer questions any time.",
           "Keep the friendship and the door open, and make dua for them."
         ],
-        "watchFor": ["Any pressure that makes a future conversation harder."]
+        "watchFor": ["Any pressure that makes a future conversation harder."],
+        "referenceIds": ["quran-2-256", "quran-28-56"]
+      },
+      {
+        "id": "s-trauma-from-religion",
+        "audience": "Person with trauma from religion",
+        "summary": "Someone is interested in Islam but past religious harm makes trust difficult.",
+        "approach": [
+          "Do not defend what harmed them or rush into explanations.",
+          "Ask permission before sharing anything religious, and let them set the pace.",
+          "Offer a safe, qualified support route if trauma, panic, abuse, or crisis is present."
+        ],
+        "watchFor": [
+          "Using verses or hadith as a quick fix for trauma.",
+          "Pushing them toward authority figures before trust and safety are considered.",
+          "Trying to replace clinical or safety support with your own advice."
+        ],
+        "referenceIds": [
+          "quran-16-125",
+          "988-lifeline",
+          "canada-safety-planning"
+        ]
+      },
+      {
+        "id": "s-family-rejection",
+        "audience": "Person worried about family rejection",
+        "summary": "Someone fears losing family, housing, work support, or emotional safety if they become Muslim.",
+        "approach": [
+          "Validate the fear and avoid telling them to disclose before they are safe.",
+          "Help them think through who is safe to tell and who should wait.",
+          "Connect them with a local mentor, imam, or safety professional if disclosure may cause harm."
+        ],
+        "watchFor": [
+          "Treating secrecy as weakness when there may be real risk.",
+          "Pressuring a public Shahada, social media post, or immediate family announcement."
+        ],
+        "referenceIds": [
+          "quran-2-256",
+          "new-muslim-academy-family",
+          "canada-safety-planning"
+        ]
+      },
+      {
+        "id": "s-private-shahada",
+        "audience": "Person interested but afraid to say Shahada publicly",
+        "summary": "Someone sincerely believes but is afraid of public attention, family reaction, or being recorded.",
+        "approach": [
+          "Reassure them that pressure and public performance are not the goal.",
+          "Offer to connect them privately with a trusted imam or qualified mentor.",
+          "Ask whether they want a quiet witness, a private conversation, or time to learn more."
+        ],
+        "watchFor": [
+          "Recording or sharing their Shahada without explicit permission.",
+          "Making a public announcement sound like the condition of becoming Muslim.",
+          "Ignoring safety concerns around family or community reaction."
+        ],
+        "referenceIds": [
+          "quran-2-256",
+          "whyislam-mosque-visit",
+          "seekersguidance-shahada-witnesses"
+        ]
+      },
+      {
+        "id": "s-women-in-islam",
+        "audience": "Person asks about women in Islam",
+        "summary": "Someone asks about dignity, rights, modesty, marriage, divorce, culture, or harm done to women.",
+        "approach": [
+          "Listen first; the question may come from personal pain, not only curiosity.",
+          "Separate Islamic teaching from harmful cultural practices and real abuse.",
+          "Use reliable sources and refer detailed marriage, divorce, inheritance, or safety questions to qualified help."
+        ],
+        "watchFor": [
+          "Dismissing lived experiences or answering with slogans.",
+          "Guessing about personal legal, marriage, divorce, or abuse situations.",
+          "Turning the conversation into gender-war debate."
+        ],
+        "referenceIds": [
+          "quran-33-35",
+          "yaqeen-women",
+          "canada-safety-planning"
+        ]
+      },
+      {
+        "id": "s-suffering",
+        "audience": "Person asks about suffering",
+        "summary": "Someone asks why a just and merciful God allows pain, grief, oppression, or personal loss.",
+        "approach": [
+          "Acknowledge the pain before offering an answer.",
+          "Explain gently that Islam teaches life is a test and that ultimate justice belongs to Allah.",
+          "If the pain is immediate or traumatic, refer to qualified emotional or crisis support."
+        ],
+        "watchFor": [
+          "Giving a neat answer while the person is grieving.",
+          "Debating instead of listening.",
+          "Missing signs of crisis, self-harm, or unsafe isolation."
+        ],
+        "referenceIds": ["quran-67-2", "quran-2-155", "988-lifeline"]
+      },
+      {
+        "id": "s-violence-media-narratives",
+        "audience": "Person asks about violence or media narratives",
+        "summary": "Someone asks whether Islam promotes violence, terrorism, forced conversion, or hostility toward others.",
+        "approach": [
+          "Stay calm and do not become defensive.",
+          "Clarify that faith cannot be forced and that Islam upholds the sanctity of life.",
+          "Use reliable, reviewed resources for complex terms like jihad, war, and political violence."
+        ],
+        "watchFor": [
+          "Trying to answer every geopolitical issue at once.",
+          "Sharing weak apologetic claims you cannot support.",
+          "Arguing with someone who only wants a public fight."
+        ],
+        "referenceIds": ["quran-2-256", "quran-5-32", "yaqeen-violence"]
       }
     ],
     "duas": [
@@ -803,24 +1385,22 @@
         "id": "dua-ease",
         "occasion": "before",
         "title": "For ease and an open heart",
-        "arabic": "رَبِّ ٱشْرَحْ لِى صَدْرِى وَيَسِّرْ لِىٓ أَمْرِى",
+        "arabic": "رَبِّ ٱشْرَحْ لِى صَدْرِى وَيَسِّرْ لِىٓ أَمْرِى",
         "transliteration": "Rabbi-shraḥ lī ṣadrī wa yassir lī amrī",
-        "translation": "My Lord! Uplift my heart for me, and make my task easy for me.",
+        "translation": "My Lord! Uplift my heart for me, and make my task easy,",
         "referenceId": "quran-20-25-26"
       },
       {
         "id": "dua-sincerity",
         "occasion": "before",
-        "title": "For a sincere intention",
-        "translation": "O Allah, make my intention purely for Your sake, and let me speak only what is true and pleasing to You.",
-        "transliteration": "(Placeholder — confirm a sourced wording with your reviewer.)"
+        "title": "Unsourced personal wording for sincerity",
+        "translation": "Unsourced personal wording, not a transmitted dua: O Allah, make my intention sincere and help me speak truthfully and kindly."
       },
       {
         "id": "dua-guidance",
         "occasion": "after",
-        "title": "Asking Allah to guide them",
-        "translation": "O Allah, guide them, and guide others through them.",
-        "transliteration": "(Placeholder — confirm a sourced wording with your reviewer.)"
+        "title": "Unsourced personal wording after the conversation",
+        "translation": "Unsourced personal wording, not a transmitted dua: O Allah, guide them to what is true and good, and guide me to humility."
       },
       {
         "id": "dua-leave-results",
@@ -836,6 +1416,7 @@
       "points": [
         "Invite with wisdom and good manners; never pressure.",
         "Listen more than you speak, and ask one question at a time.",
+        "Ask permission before moving deeper, and pause when the person needs space.",
         "Meet people where they are — real conversations are not linear.",
         "Keep the door open even if the conversation ends without Shahada.",
         "Make sincere dua and leave the result to Allah."

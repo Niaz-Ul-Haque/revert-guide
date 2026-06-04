@@ -1,42 +1,69 @@
 [
   {
     "id": "islamic-society-of-toronto-dundas",
-    "name": "Islamic Society of Toronto (Dundas)",
-    "address": "4 Thorncliffe Park Drive",
+    "name": "Islamic Society of Toronto - Masjid Darus Salaam",
+    "address": "20 Overlea Boulevard",
     "city": "Toronto",
     "stateProvince": "Ontario",
     "country": "Canada",
-    "postalCode": "M4H 1H1",
-    "coordinates": { "lat": 43.7035, "lng": -79.3468 },
-    "phone": "(416) 467-6132",
-    "website": "https://www.isttoronto.com",
-    "notes": "Isa sa mga pinakamalaking kongregasyon sa Toronto. Nag-aalok ng mga programang pang-edukasyon at serbisyo sa komunidad."
+    "postalCode": "M4H 1A4",
+    "coordinates": {
+      "lat": 43.7046555,
+      "lng": -79.3514705
+    },
+    "phone": "(416) 467-0786",
+    "email": "info@islamicsocietyoftoronto.com",
+    "website": "https://www.islamicsocietyoftoronto.com/",
+    "notes": "Kilala rin bilang Masjid Darus Salaam. Ang opisyal na site ay naglilista ng mga pang-araw-araw na panalangin at mga programa sa edukasyong Islam.",
+    "visitorNotes": "Gamitin ang opisyal na site o makipag-ugnayan sa opisina bago bumisita dahil maaaring magbago ang mga oras ng panalangin, mga tala sa paradahan, at mga programa.",
+    "jumuahNote": "Ang opisyal na site ay nagpo-post ng mga hilera ng Jumu'ah at mga update sa oras ng panalangin; kumpirmahin ang kasalukuyang iskedyul bago dumalo.",
+    "classSupportNote": "Kasama sa mga opisyal na nakalistang programa ang panggabing klase ng Quran, Sunday madrasah, Hifz, Alim/Alima, at mahahalagang pag-aaral ng Islam.",
+    "parkingNote": "Kasama sa opisyal na site ang isang tiyak na babala sa paradahan para sa malapit na pribadong paradahan; suriin ang kasalukuyang mga tagubilin bago pumunta.",
+    "serviceIds": ["quran-classes", "weekend-school", "community-events"],
+    "sourceIds": ["masjid-ist-darus-salaam"],
+    "reviewStatus": "source-checked"
   },
   {
     "id": "taric-islamic-centre",
-    "name": "Toronto and Region Islamic Congregation (TARIC)",
-    "address": "7 Rondell Avenue",
+    "name": "TARIC Islamic Centre",
+    "address": "99 Beverly Hills Drive",
     "city": "North York",
     "stateProvince": "Ontario",
     "country": "Canada",
-    "postalCode": "M1K 2V4",
-    "coordinates": { "lat": 43.7615, "lng": -79.3412 },
-    "phone": "(416) 312-0608",
-    "website": "https://www.taric.ca",
-    "notes": "Aktibong komunidad na may mga programa ng suporta para sa mga convert, grupo ng kabataan, at paaralang Islamiko tuwing katapusan ng linggo."
+    "postalCode": "M3L 1A2",
+    "coordinates": {
+      "lat": 43.7179655,
+      "lng": -79.5159803
+    },
+    "phone": "(416) 245-5675",
+    "email": "admin@taric.org",
+    "website": "https://taric.org/",
+    "notes": "Isang matagal nang Islamic center na may mga iskedyul ng pampublikong kaganapan at programming sa komunidad.",
+    "visitorNotes": "Gamitin ang opisyal na site o makipag-ugnayan sa center para sa kasalukuyang mga oras ng Jumu'ah, mga kaganapan, at suporta sa bisita.",
+    "classSupportNote": "Ang opisyal na materyal ng kaganapan ay naglilista ng mga seminar ng pamilya, mga aktibidad sa Ramadan, mga kaganapan sa Eid, outreach sa komunidad, at programa ng kabataan/pamilya.",
+    "serviceIds": ["community-events", "youth-programs"],
+    "sourceIds": ["masjid-taric"],
+    "reviewStatus": "source-checked"
   },
   {
     "id": "masjid-toronto-adelaide",
-    "name": "Masjid Toronto (at Adelaide)",
+    "name": "Masjid Toronto (Dundas)",
     "address": "168 Dundas Street West",
     "city": "Toronto",
     "stateProvince": "Ontario",
     "country": "Canada",
-    "postalCode": "M5G 1C2",
-    "coordinates": { "lat": 43.6536, "lng": -79.3849 },
-    "phone": "(416) 644-0808",
-    "website": "https://www.masjidtoronto.com",
-    "notes": "Lokasyon sa downtown, malugod na tinatanggap ang mga bagong Muslim. Nag-aalok ng mga klase para sa bagong Muslim at mga khutbah tuwing Biyernes sa Ingles."
+    "postalCode": "M5G 1C6",
+    "coordinates": {
+      "lat": 43.6536,
+      "lng": -79.3849
+    },
+    "phone": "(416) 596-0507",
+    "website": "https://centres.macnet.ca/masjidtoronto/venue/toronto-dundas/",
+    "notes": "Lokasyon ng downtown masjid na pinamamahalaan ng MAC Masjid Toronto. Ang record na ito ay tumutugma na ngayon sa Dundas venue address.",
+    "visitorNotes": "Maaaring maging abala ang mga lokasyon sa downtown sa paligid ng Jumu'ah. Kumpirmahin ang mga kasalukuyang timing at mga detalye ng pasukan bago bumisita.",
+    "jumuahNote": "Gamitin ang opisyal na site ng Masjid Toronto para sa kasalukuyang mga detalye ng panalangin at Jumu'ah.",
+    "sourceIds": ["masjid-toronto-dundas"],
+    "reviewStatus": "source-checked"
   },
   {
     "id": "islamic-foundation-of-toronto",
@@ -46,49 +73,93 @@
     "stateProvince": "Ontario",
     "country": "Canada",
     "postalCode": "M1S 5E1",
-    "coordinates": { "lat": 43.7874, "lng": -79.2636 },
+    "coordinates": {
+      "lat": 43.7874,
+      "lng": -79.2636
+    },
     "phone": "(416) 321-0909",
-    "website": "https://www.islamicfoundation.ca",
-    "notes": "Malaking pasilidad na may full-time na paaralan, mga programa sa katapusan ng linggo, at magiliw na kapaligiran para sa mga convert."
+    "email": "info@islamicfoundation.ca",
+    "website": "https://www.islamicfoundation.ca/",
+    "notes": "Malaking pasilidad ng komunidad na may pagsamba, edukasyon, at pampublikong programa.",
+    "visitorNotes": "Direktang kumpirmahin ang mga kasalukuyang programa, pagpaparehistro ng klase, at suporta sa bisita bago dumalo.",
+    "classSupportNote": "Ang mga opisyal at naka-link na listahan ng pinagmulan ay nagpapakita ng mga programa sa edukasyon gaya ng Hifz, Sunday school, at mga serbisyo sa komunidad.",
+    "serviceIds": ["quran-classes", "weekend-school", "community-events"],
+    "sourceIds": ["masjid-islamic-foundation-toronto"],
+    "reviewStatus": "source-checked"
   },
   {
     "id": "khalid-bin-al-walid-mosque",
     "name": "Khalid Bin Al-Walid Mosque",
-    "address": "7 St. Dennis Drive",
+    "address": "16 Bethridge Road",
     "city": "Etobicoke",
     "stateProvince": "Ontario",
     "country": "Canada",
-    "postalCode": "M9A 1B5",
-    "coordinates": { "lat": 43.6568, "lng": -79.5281 },
-    "phone": "(416) 652-3131",
-    "website": "https://www.kbwmosque.com",
-    "notes": "Nagsisilbi sa komunidad ng Etobicoke. Kilala sa community outreach at interfaith na diyalogo."
+    "postalCode": "M9W 1N1",
+    "coordinates": {
+      "lat": 43.7087605,
+      "lng": -79.5687599
+    },
+    "phone": "(416) 745-2888",
+    "email": "info@khalidmosque.com",
+    "website": "https://www.khalidmosque.com/",
+    "notes": "Etobicoke mosque na may opisyal na impormasyon sa pakikipag-ugnayan at mga update sa programming ng komunidad.",
+    "visitorNotes": "Makipag-ugnayan sa opisina o tingnan ang opisyal na site bago bumisita; maaaring luma na ang mga lumang listahan ng address.",
+    "jumuahNote": "Kumpirmahin ang kasalukuyang Jumu'ah at mga oras ng pagdarasal nang direkta sa masjid.",
+    "sourceIds": ["masjid-khalid-bin-al-walid"],
+    "reviewStatus": "source-checked"
   },
   {
     "id": "imdadul-islamic-centre",
     "name": "Imdadul Islamic Centre",
-    "address": "73 Chevington Road",
-    "city": "Scarborough",
+    "address": "26 Le Page Court",
+    "city": "North York",
     "stateProvince": "Ontario",
     "country": "Canada",
-    "postalCode": "M1K 2H5",
-    "coordinates": { "lat": 43.7254, "lng": -79.2597 },
-    "phone": "(416) 265-7833",
-    "website": "https://www.imdadul.ca",
-    "notes": "Sentro na nakatuon sa komunidad na nag-aalok ng regular na mga klase, programa para sa kabataan, at suporta para sa mga convert."
+    "postalCode": "M3J 1Z9",
+    "coordinates": {
+      "lat": 43.759028,
+      "lng": -79.4869955
+    },
+    "phone": "(416) 636-0044",
+    "email": "imdaduljamat@gmail.com",
+    "website": "https://www.imdadulcentre.ca/",
+    "notes": "Community mosque na may pagsamba, pamilya, kabataan, volunteer, at outreach programming.",
+    "visitorNotes": "Hinihiling ng opisyal na site ang mga bisita na makipag-ugnayan sa masjid para sa mga tanong, suporta, o pakikilahok.",
+    "jumuahNote": "Ang opisyal na site ay naglilista ng dalawang panalangin sa Jumu'ah; kumpirmahin ang kasalukuyang mga oras bago dumalo.",
+    "classSupportNote": "Binabanggit ng mga opisyal na paglalarawan ang mga serbisyo sa panalangin, pag-abot sa komunidad, mga pagkakataong magboluntaryo, at programa ng pamilya.",
+    "parkingNote": "Dumating nang maaga para sa Jumu'ah at direktang kumpirmahin ang mga tagubilin sa paradahan.",
+    "serviceIds": ["community-events", "youth-programs"],
+    "sourceIds": ["masjid-imdadul-islamic-centre"],
+    "reviewStatus": "source-checked"
   },
   {
     "id": "masjid-el-noor",
     "name": "Masjid El Noor",
-    "address": "123 Wynford Drive",
+    "address": "277 Scott Road",
     "city": "Toronto",
     "stateProvince": "Ontario",
     "country": "Canada",
-    "postalCode": "M3C 1K1",
-    "coordinates": { "lat": 43.7224, "lng": -79.3381 },
-    "phone": "(416) 382-0006",
-    "website": "https://www.masjidelnoor.com",
-    "notes": "Nag-aalok ng pang-araw-araw na pagdarasal, mga klase sa Quran, at mga aktibidad sa komunidad. Magiliw na kapaligiran para sa mga bagong dating sa Islam."
+    "postalCode": "M6M 3V3",
+    "coordinates": {
+      "lat": 43.689655,
+      "lng": -79.4719435
+    },
+    "phone": "(416) 658-6667",
+    "email": "info@masjidelnoor.ca",
+    "website": "https://masjidelnoor.ca/",
+    "notes": "Itinatag ang Toronto masjid na may panalangin, mga klase, at mga serbisyo sa komunidad.",
+    "visitorNotes": "Ang opisyal na site ay nagpo-post ng Jumu'ah, paradahan, at mga update sa programa; kumpirmahin ang mga kasalukuyang detalye bago bumisita.",
+    "womenSpaceNote": "Ang opisyal tungkol sa pahina ay naglalarawan ng mga bulwagan ng panalangin para sa mga kapatid.",
+    "accessibilityNote": "Ang opisyal tungkol sa page ay nagbanggit ng mga rampa at mga itinalagang parking space.",
+    "jumuahNote": "Ang opisyal na site ay naglilista ng isang Jumu'ah na panalangin na may lektura sa Ingles bago ang Arabic khutbah; kumpirmahin ang kasalukuyang mga oras.",
+    "classSupportNote": "Kasama sa mga opisyal na nakalistang programa ang Evening Maktaab at edukasyon na nauugnay sa Quran.",
+    "parkingNote": "Ang opisyal na site ay nagpo-post ng Jumu'ah-only parking guidance at humihiling sa mga bisita na huwag harangan ang mga hydrant, crosswalk, o driveways.",
+    "serviceIds": ["quran-classes", "community-events"],
+    "womenFriendly": true,
+    "parking": true,
+    "accessibility": true,
+    "sourceIds": ["masjid-el-noor"],
+    "reviewStatus": "source-checked"
   },
   {
     "id": "islamic-institute-of-toronto",
@@ -98,35 +169,68 @@
     "stateProvince": "Ontario",
     "country": "Canada",
     "postalCode": "M1X 1S3",
-    "coordinates": { "lat": 43.7903, "lng": -79.2141 },
+    "coordinates": {
+      "lat": 43.7903,
+      "lng": -79.2141
+    },
     "phone": "(416) 335-9173",
-    "website": "https://www.iit.ca",
-    "notes": "Komprehensibong sentro ng edukasyong Islamiko na may paaralan, aklatan, at regular na programa para sa komunidad."
+    "email": "iit@islam.ca",
+    "website": "https://islam.ca/contact-us/",
+    "notes": "Institusyong pang-edukasyon at sentro ng komunidad na may opisyal na pakikipag-ugnayan at mga direksyon.",
+    "visitorNotes": "Gamitin ang opisyal na pahina ng contact para sa kasalukuyang mga direksyon, impormasyon ng klase, at mga tanong ng bisita.",
+    "classSupportNote": "Inilalarawan ng opisyal na site ang IIT bilang isang non-profit na institusyong pang-edukasyon at naglilista ng mga update sa programa/newsletter.",
+    "serviceIds": ["quran-classes", "community-events"],
+    "sourceIds": ["masjid-islamic-institute-toronto"],
+    "reviewStatus": "source-checked"
   },
   {
     "id": "jami-mosque",
-    "name": "Jami Mosque",
+    "name": "Jami Mosque Toronto | ISNA Canada",
     "address": "56 Boustead Avenue",
     "city": "Toronto",
     "stateProvince": "Ontario",
     "country": "Canada",
-    "postalCode": "M6R 1Z1",
-    "coordinates": { "lat": 43.6474, "lng": -79.4446 },
+    "postalCode": "M6R 1Y9",
+    "coordinates": {
+      "lat": 43.6474,
+      "lng": -79.4446
+    },
     "phone": "(416) 769-1192",
-    "notes": "Pinakamatandang moske sa Toronto, itinatag noong 1968. Isang makasaysayan at malapit na espasyo ng komunidad."
+    "website": "https://www.isnacanada.com/locations/jami-mosque-toronto",
+    "notes": "Ang makasaysayang moske sa Toronto ay nakalista na ngayon sa pamamagitan ng ISNA Canada.",
+    "visitorNotes": "Kumpirmahin ang mga kasalukuyang oras, oras ng Jumu'ah, at access sa kaganapan sa pamamagitan ng ISNA Canada bago bumisita.",
+    "sourceIds": ["masjid-jami-mosque-isna"],
+    "reviewStatus": "source-checked"
   },
   {
     "id": "abu-huraira-center",
     "name": "Abu Huraira Center",
-    "address": "100 McLevin Avenue",
-    "city": "Scarborough",
+    "address": "270 Yorkland Boulevard",
+    "city": "North York",
     "stateProvince": "Ontario",
     "country": "Canada",
-    "postalCode": "M1B 2V5",
-    "coordinates": { "lat": 43.8053, "lng": -79.2003 },
-    "phone": "(416) 335-8894",
-    "website": "https://www.abuhurairacenter.com",
-    "notes": "Aktibong sentro ng komunidad ng Somali-Canadian. Magiliw sa mga convert na may mentorship at mga programang pang-edukasyon."
+    "postalCode": "M2J 5C9",
+    "coordinates": {
+      "lat": 43.77282,
+      "lng": -79.33454
+    },
+    "phone": "(416) 752-1200",
+    "email": "info@abuhuraira.org",
+    "website": "https://www.abuhuraira.org/",
+    "notes": "Malaking sentro ng komunidad ng GTA na may panalangin, pag-aaral, pagpapayo, kabataan, at mga bagong serbisyong suporta sa Muslim.",
+    "visitorNotes": "Ang opisyal na site ay naglilista ng mga programa at impormasyon sa pakikipag-ugnayan; kumpirmahin ang kasalukuyang suporta sa bisita at pagpaparehistro ng klase bago pumasok.",
+    "newMuslimSupportNote": "Inililista ng opisyal na site ang suporta ng Bagong Muslim sa mga serbisyo nito.",
+    "classSupportNote": "Kasama sa mga opisyal na nakalistang programa ang edukasyong nauugnay sa Quran, paaralan sa katapusan ng linggo, Hifdh, kabataan, at regular na halaqas.",
+    "serviceIds": [
+      "quran-classes",
+      "community-events",
+      "new-muslim-support",
+      "youth-programs",
+      "weekend-school"
+    ],
+    "convertSupport": true,
+    "sourceIds": ["masjid-abu-huraira-center"],
+    "reviewStatus": "source-checked"
   },
   {
     "id": "baitul-mukarram-masjid",
@@ -136,9 +240,14 @@
     "stateProvince": "Ontario",
     "country": "Canada",
     "postalCode": "M9M 2M8",
-    "coordinates": { "lat": 43.7412, "lng": -79.5143 },
+    "coordinates": {
+      "lat": 43.7412,
+      "lng": -79.5143
+    },
     "phone": "(416) 744-1400",
-    "notes": "Moske ng komunidad na Bangladeshi na may regular na programang pang-edukasyon at pangkomunidad."
+    "notes": "Napanatili ang lokal na listahan, ngunit walang nakitang awtoritatibong online na pinagmulan sa panahon ng pass na ito.",
+    "visitorNotes": "Direktang kumpirmahin ang address, oras ng panalangin, at suporta sa bisita bago bumisita.",
+    "reviewStatus": "review-needed"
   },
   {
     "id": "isna-islamic-centre-of-canada",
@@ -148,9 +257,17 @@
     "stateProvince": "Ontario",
     "country": "Canada",
     "postalCode": "L5J 2M4",
-    "coordinates": { "lat": 43.5063, "lng": -79.6505 },
+    "coordinates": {
+      "lat": 43.5063,
+      "lng": -79.6505
+    },
     "phone": "(905) 403-8406",
-    "website": "https://www.isnacanada.com",
-    "notes": "Isa sa mga pinakamalaking sentro ng Islam sa Canada. Nagho-host ng mga pangunahing kaganapan, programa para sa mga convert, paaralang pang-weekend, at interfaith na outreach. Lubos na inirerekomenda para sa mga bagong Muslim."
+    "website": "https://www.isnacanada.com/our-spaces/islamic-centre-of-canada/",
+    "notes": "ISNA Canada punong-tanggapan at lokal na sentro ng komunidad na may musallah, kabataan, edukasyon, at mga lugar ng kaganapan.",
+    "visitorNotes": "Kumpirmahin ang kasalukuyang mga oras ng panalangin, mga klase, access sa kaganapan, at suporta sa bisita sa pamamagitan ng ISNA Canada bago pumunta.",
+    "classSupportNote": "Ang opisyal na pahina ay naglalarawan ng isang sentro ng edukasyon, hub ng kabataan, musallah, at mga puwang ng komunidad na maaaring i-book.",
+    "serviceIds": ["quran-classes", "community-events", "youth-programs"],
+    "sourceIds": ["masjid-isna-islamic-centre-canada"],
+    "reviewStatus": "source-checked"
   }
 ]

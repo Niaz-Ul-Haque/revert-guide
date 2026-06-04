@@ -1,0 +1,71 @@
+{
+  "id": "first-masjid-visit",
+  "slug": "first-masjid-visit",
+  "stageId": "week-1",
+  "title": "Haga su primera visita a la mezquita",
+  "whyMatters": "Una mezquita puede brindarle apoyo en oración, comunidad, clases y un lugar para pedir ayuda a personas reales. No es necesario que su primera visita sea perfecta; sólo necesita ser suave y manejable.",
+  "exactActions": [
+    {
+      "text": "Elige un momento de baja presión",
+      "subSteps": [
+        "Una oración diaria más pequeña puede parecer más fácil que una oración del viernes llena de gente.",
+        "Consulte el sitio web de la mezquita o llame con anticipación si no está seguro.",
+        "Pregunte si tienen apoyo para nuevos musulmanes o ayuda para visitantes."
+      ]
+    },
+    {
+      "text": "Vístase sencilla y modestamente",
+      "subSteps": [
+        "Use ropa limpia y holgada que cubra su cuerpo cómodamente.",
+        "Las mujeres pueden traer un pañuelo si planean ingresar al área de oración.",
+        "No entres en pánico si no estás vestido como todos los demás."
+      ]
+    },
+    {
+      "text": "Sigue la etiqueta básica",
+      "subSteps": [
+        "Quítate los zapatos donde otros se quitan los suyos.",
+        "Mantenga su teléfono en silencio.",
+        "Si no estás seguro de dónde ir, pregúntale a alguien cerca de la entrada."
+      ]
+    },
+    {
+      "text": "Preséntate a una persona",
+      "subSteps": [
+        "Simplemente puedes decir que eres un nuevo musulmán y que esta es tu primera visita.",
+        "Pregunte quién se encarga del soporte para conversiones o de las clases para principiantes.",
+        "Vete si te sientes abrumado; Puedes volver otro día."
+      ]
+    }
+  ],
+  "timeEstimate": "30-60 minutos",
+  "obstacles": [
+    {
+      "problem": "Tengo miedo de que la gente se quede mirando",
+      "solution": "La mayoría de la gente se concentra en la oración. Si alguien nota que eres nuevo, muchos estarán encantados de ayudarte. También puede llamar con anticipación y pedirle a alguien que se reúna con usted."
+    },
+    {
+      "problem": "No se que entrada usar",
+      "solution": "Busque señales, siga el flujo de personas o pregunte en la puerta. Algunas mezquitas tienen áreas de oración separadas; preguntar es normal."
+    }
+  ],
+  "tinyVersion": "Llame o envíe un mensaje a una mezquita y pregunte cuándo puede visitarla un principiante.",
+  "unlocksNext": "Su primera visita hace que sea más fácil abordar Jumuah, las clases y la tutoría.",
+  "resourceIds": ["new-muslim-guide-icna", "whyislam", "new-muslim-guide-site"],
+  "relatedGlossaryIds": ["masjid", "imam", "salah", "ummah"],
+  "relatedTopicIds": ["masjid-and-community", "community", "new-muslim-basics"],
+  "commonQuestions": [
+    {
+      "problem": "¿Puedo visitarlo si todavía no puedo orar adecuadamente?",
+      "solution": "Sí. Puedes observar, seguir lo que puedas y pedir ayuda. Una mezquita debería ser un lugar para aprender, no sólo un lugar para personas que ya lo saben todo."
+    }
+  ],
+  "gentleScripts": [
+    {
+      "title": "en la entrada",
+      "body": "Assalamu alaykum. Soy un nuevo musulmán y esta es mi primera vez aquí. ¿Podrías mostrarme adónde ir?"
+    }
+  ],
+  "sourceIds": ["whyislam", "icna", "new-muslim-guide"],
+  "reviewStatus": "source-checked"
+}

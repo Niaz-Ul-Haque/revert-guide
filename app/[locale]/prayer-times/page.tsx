@@ -1,6 +1,8 @@
 import { Breadcrumb } from "@/components/Breadcrumb";
 import { AnimateIn } from "@/components/AnimateIn";
 import { PrayerTimesClient } from "@/components/PrayerTimesClient";
+import { SourcesPanel } from "@/components/SourceTags";
+import { getSourcesByIds } from "@/lib/content";
 import { getTranslator, localizeHref, type Locale } from "@/lib/i18n";
 import { getPageMetadata } from "@/lib/metadata";
 
@@ -16,6 +18,8 @@ export default function PrayerTimesPage({
   const locale = params.locale;
   const t = getTranslator(locale);
   const copy = t<Record<string, string>>("pages.prayerTimes");
+  const sources =
+    locale === "en" ? getSourcesByIds(["aladhan-api"], locale) : [];
 
   return (
     <div className="mx-auto max-w-2xl px-5 py-10">
@@ -41,6 +45,17 @@ export default function PrayerTimesPage({
       <AnimateIn>
         <PrayerTimesClient />
       </AnimateIn>
+
+      {sources.length > 0 && (
+        <AnimateIn>
+          <div className="mt-10">
+            <SourcesPanel
+              sources={sources}
+              note="Prayer times on this page come from AlAdhan. Calculation methods can differ, so confirm exact schedules with your local masjid when timing matters."
+            />
+          </div>
+        </AnimateIn>
+      )}
     </div>
   );
 }

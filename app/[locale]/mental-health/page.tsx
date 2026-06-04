@@ -4,6 +4,8 @@ import { Breadcrumb } from "@/components/Breadcrumb";
 import { Callout } from "@/components/Callout";
 import { Icon } from "@/components/Icon";
 import { AnimateIn } from "@/components/AnimateIn";
+import { SourcesPanel } from "@/components/SourceTags";
+import { getSourcesByIds } from "@/lib/content";
 import {
   getTranslator,
   localizeHref,
@@ -27,6 +29,11 @@ export default function MentalHealthPage({
   const helplines = copy.resources.crisisHelplines.map((item, index) => ({
     ...item,
     href: ["tel:988", "sms:741741", "tel:1-866-627-3342"][index],
+    officialHref: [
+      "https://988lifeline.org/",
+      "https://www.crisistextline.org/",
+      "https://www.naseeha.org/",
+    ][index],
   }));
   const directories = copy.resources.directories.map((item, index) => ({
     ...item,
@@ -39,6 +46,21 @@ export default function MentalHealthPage({
         ? "https://yaqeeninstitute.org/read/paper/new-muslims-and-mental-health"
         : null,
   }));
+  const sources =
+    locale === "en"
+      ? getSourcesByIds(
+          [
+            "988-lifeline",
+            "samhsa-988",
+            "cdc-suicide-prevention",
+            "crisis-text-line",
+            "khalil-center",
+            "naseeha",
+            "yaqeen-mental-health",
+          ],
+          locale,
+        )
+      : [];
 
   return (
     <div className="mx-auto max-w-4xl px-5 py-10">
@@ -255,6 +277,15 @@ export default function MentalHealthPage({
                     {item.contact}
                   </a>
                 </p>
+                <a
+                  href={item.officialHref}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="mt-3 inline-flex items-center gap-1 text-sm font-medium text-primary no-underline transition-colors duration-200 hover:text-primaryHover hover:underline"
+                >
+                  Official website
+                  <Icon name="external-link" size="sm" />
+                </a>
               </div>
             ))}
           </div>
@@ -342,6 +373,17 @@ export default function MentalHealthPage({
           </Link>
         </div>
       </AnimateIn>
+
+      {sources.length > 0 && (
+        <AnimateIn>
+          <div className="mt-10">
+            <SourcesPanel
+              sources={sources}
+              note="This page is general emotional support and crisis routing. It is not therapy, diagnosis, or medical advice. If you are in immediate danger in the United States or Canada, call emergency services now."
+            />
+          </div>
+        </AnimateIn>
+      )}
     </div>
   );
 }

@@ -3,12 +3,12 @@
   "slug": "zakat-hajj",
   "stageId": "month-6-plus",
   "title": "Comprender el Zakat y el Hajj",
-  "whyMatters": "El zakat (donaciones caritativas) y el Hajj (peregrinación a La Meca) son dos de los cinco pilares del Islam, y comprenderlos completa tu conocimiento fundamental de lo que significa ser musulmán. Zakat purifica tu riqueza y garantiza que la comunidad se preocupe por los necesitados. El Hajj es un viaje único en la vida a la Casa de Alá en La Meca: una experiencia profundamente transformadora que une a millones de musulmanes de todos los rincones del mundo. Se trata de compromisos a más largo plazo y no hay prisa. Aprender sobre ellos ahora planta semillas para el futuro.",
+  "whyMatters": "El zakat (donaciones caritativas) y el Hajj (peregrinación a La Meca) son dos de los cinco pilares del Islam, y comprenderlos completa tu conocimiento fundamental de lo que significa ser musulmán. Zakat purifica tu riqueza y garantiza que la comunidad se preocupe por los necesitados. El Hajj es un viaje único en la vida a la Casa de Alá en La Meca, una experiencia profundamente transformadora que une a millones de musulmanes de todos los rincones del mundo. Se trata de compromisos a más largo plazo y no hay prisa. Aprender sobre ellos ahora planta semillas para el futuro.",
   "exactActions": [
     {
       "text": "Aprende los conceptos básicos del Zakat",
       "subSteps": [
-        "Zakat es una organización benéfica anual obligatoria: el 2,5 % de sus ahorros y su riqueza calificada.",
+        "El zakat es una organización benéfica anual obligatoria: el 2,5 % de sus ahorros y su riqueza calificada.",
         "Se debe pagar una vez que sus ahorros superen un umbral mínimo llamado nisab (aproximadamente equivalente al valor de 85 gramos de oro, actualizado anualmente).",
         "La riqueza debe haber sido retenida durante un año lunar completo (hal) antes de que venza el pago del zakat.",
         "El zakat se calcula sobre los ahorros, las inversiones, el oro, la plata y los activos comerciales, no sobre su vivienda principal, su automóvil personal o sus pertenencias cotidianas.",
@@ -41,7 +41,7 @@
       "subSteps": [
         "El Hajj es una peregrinación a La Meca, Arabia Saudita, que todo musulmán debe realizar una vez en su vida si es física y financieramente capaz.",
         "Tiene lugar durante el mes islámico de Dhul Hijjah y dura de cinco a seis días.",
-        "Los peregrinos visten sencillas prendas blancas (ihram), que simbolizan la igualdad ante Alá, sin distinción de riqueza o estatus.",
+        "Los peregrinos visten prendas blancas sencillas (ihram), que simbolizan la igualdad ante Alá, sin distinción de riqueza o estatus.",
         "Los rituales incluyen rodear la Ka'bah (tawaf), caminar entre las colinas de Safa y Marwa, pararse en la llanura de Arafat y la lapidación simbólica del diablo.",
         "El Hajj concluye con Eid al-Adha, el Festival del Sacrificio, celebrado por los musulmanes de todo el mundo.",
         "Muchos musulmanes describen el Hajj como la experiencia espiritual más profunda de sus vidas."
@@ -54,7 +54,7 @@
         "El Hajj sólo es obligatorio cuando estás física y financieramente capacitado, lo que significa que puedes permitirte el viaje sin descuidar tus necesidades esenciales y a tus dependientes.",
         "Mientras tanto, la Umrah (la peregrinación menor) se puede realizar en cualquier época del año y es una experiencia espiritual maravillosa.",
         "Inicie un fondo de ahorro para el Hajj, incluso si es una pequeña cantidad cada mes. Se suma.",
-        "Aprenda sobre el Hajj a través de libros, documentales y las historias de quienes han asistido; esto aumentará su entusiasmo y preparará su corazón."
+        "Aprenda sobre el Hajj a través de libros, documentales y las historias de quienes lo han realizado; esto aumentará su entusiasmo y preparará su corazón."
       ]
     }
   ],
@@ -82,15 +82,8 @@
     }
   ],
   "tinyVersion": "Zakat es el 2,5% de tus ahorros y se entrega anualmente a quienes lo necesitan. El Hajj es una peregrinación única a la Meca cuando se puede. Ambos son objetivos futuros: infórmese sobre ellos ahora y planifique cuando esté listo.",
-  "unlocksNext": "Con una comprensión de los cinco pilares del Islam (Shahad, Salah, Sawm, Zakat y Hajj), tendrá una base completa. A partir de aquí, tu viaje consiste en profundizar, hacer crecer y vivir tu fe todos los días.",
-  "resourceIds": [
-    "zakat-calculator-tool",
-    "zakat-guide-article",
-    "hajj-documentary-video",
-    "hajj-guide-for-beginners",
-    "sadaqah-ideas-article",
-    "islamic-relief-canada"
-  ],
+  "unlocksNext": "Con una comprensión de los cinco pilares del Islam (Shahad, Salah, Sawm, Zakat y Hajj), tienes una base completa. A partir de aquí, tu viaje consiste en profundizar, hacer crecer y vivir tu fe todos los días.",
+  "resourceIds": ["zakat-calculator", "being-muslim-book", "seekers-guidance"],
   "relatedGlossaryIds": [
     "zakat",
     "hajj",
@@ -103,5 +96,7 @@
     "eid-al-adha",
     "dhul-hijjah"
   ],
-  "relatedTopicIds": ["pillars-of-islam", "charity"]
+  "relatedTopicIds": ["beliefs", "fasting", "halal-living"],
+  "sourceIds": ["irusa-zakat", "launchgood-zakat", "seekersguidance"],
+  "reviewStatus": "review-needed"
 }

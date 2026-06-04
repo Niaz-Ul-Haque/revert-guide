@@ -1,0 +1,65 @@
+{
+  "id": "halal-eating-practical",
+  "slug": "halal-eating-practical",
+  "stageId": "month-1-2",
+  "title": "日常生活中吃清真食品",
+  "whyMatters": "清真饮食是许多新穆斯林首先面临的生活方式改变之一。我们的目标不是恐慌，而是恐慌。它正在学习清晰的基础知识，做出更好的选择，并在细节确实不清楚时提出询问。",
+  "exactActions": [
+    {
+      "text": "从清晰的基础知识开始",
+      "subSteps": [
+        "避免猪肉和酒精。",
+        "如果有的话，选择经过清真认证的肉类。",
+        "海鲜、素食、鸡蛋和奶制品可以简化早期选择，同时仍然检查明显的问题。"
+      ]
+    },
+    {
+      "text": "让杂货购物变得更容易",
+      "subSteps": [
+        "创建一个简短的安全主食清单。",
+        "寻找来自当地知名认证机构的清真标签。",
+        "不要一开始就花几个小时检查每一种次要成分。"
+      ]
+    },
+    {
+      "text": "计划社交膳食",
+      "subSteps": [
+        "餐前告诉主人一个简单的饮食习惯。",
+        "主动提出带一些你可以吃的东西。",
+        "在餐馆，选择明确的选项，并在需要时礼貌地询问。"
+      ]
+    },
+    {
+      "text": "不清楚的细节可以在当地询问",
+      "subSteps": [
+        "明胶、酶、交叉污染和认证标准可能会有所不同。",
+        "当答案经常影响您时，请询问当地的伊玛目或可靠的清真权威。",
+        "避免沉迷于罕见的边缘情况。"
+      ]
+    }
+  ],
+  "timeEstimate": "1 次去杂货店建立基础知识",
+  "obstacles": [
+    {
+      "problem": "我的家人用猪肉或酒精做饭",
+      "solution": "从尊重的请求和实用的替代方案开始。如果食物与冲突有关，请询问当地导师如何温和地处理您的家庭情况。"
+    },
+    {
+      "problem": "餐厅感觉不可能",
+      "solution": "在了解当地清真餐厅的同时，选择更简单的菜肴或素食/海鲜选项。使用简短的可信列表会变得更容易。"
+    }
+  ],
+  "tinyVersion": "下一顿饭时，避免猪肉和酒精，并选择最清晰的清真食品。",
+  "unlocksNext": "实用的食品信心可以帮助您了解更广泛的清真和哈拉姆基础知识，而不会不知所措。",
+  "resourceIds": ["halal-living-guide", "new-muslim-guide-site"],
+  "relatedGlossaryIds": ["halal", "haram"],
+  "relatedTopicIds": ["halal-living", "new-muslim-basics"],
+  "gentleScripts": [
+    {
+      "title": "对于主机",
+      "body": "谢谢你邀请我。我现在吃清真食品，所以我避免猪肉和酒精。我很乐意带一道菜，这样就更容易了。"
+    }
+  ],
+  "sourceIds": ["new-muslim-guide", "seekersguidance"],
+  "reviewStatus": "review-needed"
+}

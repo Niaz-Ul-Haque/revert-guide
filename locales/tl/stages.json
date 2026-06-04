@@ -2,94 +2,264 @@
   {
     "id": "day-0-1",
     "title": "Yakapin ang Pananampalataya at Bagong Simula",
-    "subtitle": "Araw 0–1",
-    "description": "Binabati kita sa magandang hakbang na ito! Ang yugtong ito ay tungkol sa pagdiriwang ng iyong desisyon na yakapin ang Islam at pagsisimula ng iyong bagong paglalakbay. Walang pagmamadali — manahimik ka lang at magsimula sa kung ano ang nararamdaman mong tama.",
-    "mainGoal": "Ipahayag ang iyong pananampalataya sa pamamagitan ng Shahada at isagawa ang paligong pandalisay (Ghusl) bilang tanda ng iyong bagong simula.",
-    "success": "Nasambit mo na ang Shahada nang taos-puso at naisagawa mo na ang Ghusl. Nakakaramdam ka ng kapayapaan at bagong panimula.",
+    "subtitle": "Araw 0-1",
+    "description": "Ang yugtong ito ay tungkol sa pagprotekta sa mga unang sandali pagkatapos ng Shahada: pananampalataya, kalmado, paglilinis, at isa o dalawang pinagkakatiwalaang susunod na hakbang. Hindi mo kailangang buuin muli ang iyong buong buhay sa isang araw.",
+    "mainGoal": "Unawain ang iyong Shahada, alagaan ang unang 24 na oras, at magsagawa ng Ghusl kapag handa ka na.",
+    "success": "Alam mo na ikaw ay Muslim, mayroon kang isang simpleng susunod na hakbang, at hindi mo pinipilit ang iyong sarili na matutunan ang lahat nang sabay-sabay.",
     "dontWorry": [
-      "Huwag kang mag-alala tungkol sa pagmemorya ng mahahabang panalangin ngayon — darating din iyan sa tamang panahon.",
-      "Huwag kang mag-alala tungkol sa pagpapalit ng pangalan — hindi ito kinakailangan sa Islam.",
-      "Huwag kang mag-alala tungkol sa pag-alam ng lahat — ang pagkatuto ay panghabambuhay na paglalakbay.",
-      "Huwag kang mag-alala sa iisipin ng iba — ito ay sa pagitan mo at ng Diyos."
+      "Huwag mag-alala tungkol sa pagsasaulo ng mahabang panalangin ngayon.",
+      "Huwag mag-alala tungkol sa pagpapalit ng iyong pangalan; hindi ito kinakailangan.",
+      "Huwag mag-alala tungkol sa pag-anunsyo kaagad ng lahat.",
+      "Huwag mag-alala tungkol sa pag-alam sa bawat tuntunin; unti-unti ang pag-aaral."
     ],
-    "stepIds": ["shahada", "ghusl"],
-    "duration": "1–2 araw"
+    "stepIds": ["shahada", "first-24-hours", "ghusl"],
+    "duration": "1-2 araw",
+    "focusNow": [
+      "Panghawakan ang kahulugan ng Shahada.",
+      "Mag-Ghusl kapag kaya mo nang mahinahon.",
+      "Pumili ng isang pinagkakatiwalaang tao o masjid na kokontakin."
+    ],
+    "canWait": [
+      "Mga advanced na desisyon at debate.",
+      "Pagpapalit ng iyong pangalan, wardrobe, o buong gawain sa magdamag.",
+      "Pagpapaliwanag ng Islam sa lahat ng tao sa iyong buhay."
+    ],
+    "askHelpIf": [
+      "Pakiramdam mo ay hindi ligtas na sabihin sa pamilya.",
+      "Hindi ka sigurado kung paano gawin ang Ghusl.",
+      "Kailangan mo ng saksi, sertipiko, o lokal na koneksyon sa komunidad."
+    ],
+    "goodNextQuestions": [
+      {
+        "label": "Ano ang una kong gagawin?",
+        "href": "/topics/new-muslim-basics"
+      },
+      {
+        "label": "Paano ko kakausapin ang pamilya?",
+        "href": "/topics/family-and-identity"
+      }
+    ],
+    "sourceIds": ["new-muslim-academy", "whyislam", "new-muslim-guide"]
   },
   {
     "id": "week-1",
-    "title": "Pagtatayo ng Pundasyon",
-    "subtitle": "Unang Linggo",
-    "description": "Ngayong nayakap mo na ang Islam, oras na para itayo ang iyong pundasyon. Ang linggong ito ay nakatuon sa pinakamahalagang pang-araw-araw na gawain — ang pagdarasal — at pakikipag-ugnayan sa iyong lokal na komunidad ng mga Muslim. Isa-isang araw lang.",
-    "mainGoal": "Matutunan ang mga pangunahing kaalaman sa limang beses na pagdarasal araw-araw at bumisita sa isang lokal na masjid upang magsimulang bumuo ng komunidad.",
-    "success": "Sinusubukan mo nang magdasal araw-araw (kahit hindi pa perpekto) at nakabisita ka na sa isang masjid o nakakonekta na sa ibang mga Muslim.",
+    "title": "Mga Pundasyon sa Pagbuo",
+    "subtitle": "Linggo 1",
+    "description": "Ang linggong ito ay nakatuon sa banayad na pagsasanay: pag-aaral ng hugis ng panalangin, pagbisita o pakikipag-ugnayan sa isang masjid, at pagdaragdag ng simpleng pag-alaala nang walang kahihiyan o panic.",
+    "mainGoal": "Magsimula ng makatotohanang panalangin sa ramp at gumawa ng unang koneksyon sa komunidad ng Muslim.",
+    "success": "Sinusubukan mo ang panalangin sa ilang paraan at alam mo kung saan hihingi ng tulong sa lokal.",
     "dontWorry": [
-      "Huwag kang mag-alala tungkol sa perpektong pagbigkas ng Arabik sa pagdarasal.",
-      "Huwag kang mag-alala kung may napalampas kang pagdarasal — subukan mo lang ang susunod.",
-      "Huwag kang mag-alala tungkol sa pakikisama sa masjid — lahat ay naging bago noon.",
-      "Huwag kang mag-alala tungkol sa pag-alam ng lahat ng galaw sa pagdarasal."
+      "Huwag mag-alala tungkol sa perpektong pagbigkas ng Arabic.",
+      "Huwag mag-alala kung nakaligtaan mo ang mga panalangin habang nag-aaral.",
+      "Huwag mag-alala tungkol sa pagpasok kaagad sa masjid.",
+      "Huwag mag-alala tungkol sa paggawa ng bawat opsyonal na pagsasanay."
     ],
-    "stepIds": ["prayer", "community"],
-    "duration": "~1 linggo"
+    "stepIds": [
+      "prayer-on-ramp",
+      "prayer",
+      "first-masjid-visit",
+      "first-jumuah",
+      "community",
+      "daily-dua-dhikr"
+    ],
+    "duration": "Mga 1 week",
+    "focusNow": [
+      "Alamin ang mga oras ng pagdarasal at mga pangunahing paggalaw.",
+      "Maghanap ng isang masjid o mentor na maaari mong itanong.",
+      "Gumamit ng maikling dua at dhikr upang panatilihing konektado ang iyong puso."
+    ],
+    "canWait": [
+      "Opsyonal na mga panalangin at detalyadong pagkakaiba ng opinyon.",
+      "Alam ang bawat kaugalian ng mosque.",
+      "Mahabang layunin sa pagsasaulo ng Arabe."
+    ],
+    "askHelpIf": [
+      "Ikaw ay nalilito tungkol sa mga pangunahing kaalaman sa panalangin.",
+      "Nakakaramdam ka ng kaba sa pagpasok sa isang masjid.",
+      "Ginagawang mahirap sa trabaho o paaralan ang oras ng pagdarasal."
+    ],
+    "goodNextQuestions": [
+      {
+        "label": "Paano ako bibisita sa isang masjid?",
+        "href": "/topics/masjid-and-community"
+      },
+      {
+        "label": "Paano ko dahan-dahang bubuo ang panalangin?",
+        "href": "/topics/prayer"
+      }
+    ],
+    "sourceIds": ["new-muslim-guide", "seekersguidance", "whyislam"]
   },
   {
     "id": "week-2-3",
-    "title": "Pagpapalakas ng Pagsasanay",
-    "subtitle": "Linggo 2–4",
-    "description": "Nagsisimula ka nang masanay sa iyong bagong gawain. Pinapalalim ng yugtong ito ang iyong koneksyon sa Quran at pinapalakas ang mga ugaling nasimulan mo nang buuin. Mas mahalaga ang pagiging konsistent kaysa sa pagiging perpekto.",
-    "mainGoal": "Magsimulang magbasa o makinig ng Quran nang regular at magtatag ng isang konsistent na pang-araw-araw na gawain.",
-    "success": "Mayroon ka nang pangunahing gawain sa pagbabasa ng Quran at nagiging mas natural na ang iyong pang-araw-araw na pagdarasal.",
+    "title": "Pagsasanay sa Pagpapalakas",
+    "subtitle": "Linggo 2-4",
+    "description": "Nagsisimula na kayong magkaayos. Ang yugtong ito ay nagdaragdag ng Quran, mga pag-uusap ng pamilya, at malusog na paraan upang mahawakan ang mga pagdududa o mga tanong nang walang labis na karga.",
+    "mainGoal": "Magsimula ng isang ugali sa Quran, maghanda para sa mga pag-uusap ng pamilya at kaibigan, at alamin kung paano magtanong ng magagandang tanong.",
+    "success": "Mayroon kang isang maliit na gawain sa Quran, isa o dalawang magiliw na script para sa mga taong malapit sa iyo, at isang mas malusog na paraan upang mahawakan ang mga pagdududa.",
     "dontWorry": [
-      "Huwag kang mag-alala tungkol sa matatas na pagbabasa ng Arabik — ganap na ayos lang ang mga salin.",
-      "Huwag kang mag-alala tungkol sa pag-unawa ng bawat talata — ituon mo ang pansin sa kung ano ang tumutugon sa iyo.",
-      "Huwag kang mag-alala kung nahihirapan ka sa pagiging konsistent — nangangailangan ng oras ang pagbuo ng mga ugali."
+      "Huwag mag-alala tungkol sa pagbasa ng Arabic nang matatas.",
+      "Huwag mag-alala tungkol sa pag-unawa sa bawat talata.",
+      "Huwag mag-alala kung ang pananampalataya ay nararamdaman pataas at pababa.",
+      "Huwag mag-alala tungkol sa panalo ng mga argumento."
     ],
-    "stepIds": ["quran"],
-    "duration": "2–3 linggo"
+    "stepIds": ["quran", "family-and-friends", "questions-and-doubts"],
+    "duration": "2-3 linggo",
+    "focusNow": [
+      "Makinig o magbasa ng kaunting Quran nang regular.",
+      "Piliin kung sino ang kailangang malaman tungkol sa iyong Islam at kung kailan.",
+      "Magdala ng mahihirap na tanong sa mga taong mapagkakatiwalaan."
+    ],
+    "canWait": [
+      "Mga pampublikong debate at argumento sa internet.",
+      "Mastering tafsir o Arabic grammar.",
+      "Agad na sinasagot ang bawat pagtutol ng pamilya."
+    ],
+    "askHelpIf": [
+      "Ang panggigipit ng pamilya ay nagiging hindi ligtas o kontrolado.",
+      "Ang mga pag-aalinlangan ay ginagawa kang hindi gumana.",
+      "Hindi mo masasabi kung aling mga mapagkukunan ang maaasahan."
+    ],
+    "goodNextQuestions": [
+      {
+        "label": "Paano kung may pagdududa ako?",
+        "href": "/topics/questions-and-doubts"
+      },
+      {
+        "label": "Paano ko poprotektahan ang ugnayan ng pamilya?",
+        "href": "/topics/family-and-identity"
+      }
+    ],
+    "sourceIds": ["quran-com", "yaqeen-institute", "seekersguidance"]
   },
   {
     "id": "month-1-2",
-    "title": "Pagpapalawak ng Pagsasanay",
-    "subtitle": "Buwan 2–3",
-    "description": "Sa ngayon, mayroon ka nang pundasyon sa pagdarasal at Quran. Pinapalawak ng yugtong ito ang iyong pag-unawa sa pamumuhay ayon sa Islam — mula sa mga alituntunin sa pagkain hanggang sa espirituwal na gawain ng pag-aayuno. Ito ay mga praktikal na aspeto na nag-uugnay ng pananampalataya sa pang-araw-araw na buhay.",
-    "mainGoal": "Unawain ang mga pangunahing kaalaman tungkol sa halal at haram at matuto tungkol sa pag-aayuno upang maging handa ka pagdating ng tamang panahon.",
-    "success": "Nauunawaan mo na ang mga pangunahing alituntunin sa pagkain at mayroon kang kaalaman tungkol sa kung paano gumagana ang pag-aayuno. Maaaring nasubukan mo na ang boluntaryong pag-aayuno.",
+    "title": "Pagsasanay sa Pagpapalawak",
+    "subtitle": "Buwan 2-3",
+    "description": "Ang yugtong ito ay tumutulong sa Islam na pumasok sa pang-araw-araw na buhay sa pamamagitan ng mga pagpipilian sa pagkain, paghahanda sa pag-aayuno, kahinhinan, at praktikal na mga hangganan sa bilis na maaari mong aktwal na mapanatili.",
+    "mainGoal": "Unawain ang mga pangunahing kaalaman sa halal, maghanda para sa pag-aayuno, at lapitan ang kahinhinan bilang unti-unting paglaki sa halip na panic.",
+    "success": "Maaari kang gumawa ng mga pangunahing pagpipilian sa pagkain, naiintindihan mo ang pag-aayuno sa isang baguhan na antas, at alam mo kung aling mga tanong sa pamumuhay ang nangangailangan ng lokal na patnubay.",
     "dontWorry": [
-      "Huwag kang mag-alala tungkol sa pagbabago ng buong lamesa mo nang biglaan.",
-      "Huwag kang mag-alala kung mahirap ang pag-aayuno sa simula — magiging mas madali ito.",
-      "Huwag kang mag-alala tungkol sa bawat sangkap na nakasulat sa label — magsimula sa mga halatang bagay.",
-      "Huwag kang mag-alala tungkol sa mga sosyal na sitwasyon — mahahanap mo rin ang iyong ritmo."
+      "Huwag i-overhaul ang iyong buong pantry sa magdamag.",
+      "Huwag ituring ang bawat tanong sa sangkap bilang isang emergency.",
+      "Huwag ikumpara ang iyong paglalakbay sa pananamit sa ibang tao.",
+      "Huwag kumuha ng mga tanong sa paghihirap sa pag-aayuno mula sa mga random na komento sa online."
     ],
-    "stepIds": ["halal-haram", "fasting"],
-    "duration": "1–2 buwan"
+    "stepIds": [
+      "halal-eating-practical",
+      "halal-haram",
+      "fasting",
+      "modesty-and-clothing"
+    ],
+    "duration": "1-2 buwan",
+    "focusNow": [
+      "Iwasan ang malinaw na mga pagkaing haram at bumuo ng kumpiyansa sa mga simpleng pagpipiliang halal.",
+      "Alamin ang mga pangunahing kaalaman sa pag-aayuno bago ang Ramadan o ang iyong unang boluntaryong pag-aayuno.",
+      "Maging mahinhin ay nagbabago ng isang napapanatiling hakbang sa bawat pagkakataon."
+    ],
+    "canWait": [
+      "Mga kumplikadong hindi pagkakaunawaan sa sertipikasyon.",
+      "Mga advanced na pasya ng zakat at pananalapi.",
+      "Mga detalyadong debate sa pananamit sa mga kultura."
+    ],
+    "askHelpIf": [
+      "Ang presyon ng pagkain o pananamit ay nakakapinsala sa kaligtasan ng iyong pamilya.",
+      "Maaaring makaapekto sa pag-aayuno ang isang kondisyong medikal.",
+      "Kailangan mo ng mga desisyon tungkol sa trabaho, paaralan, o mga detalye sa pananalapi."
+    ],
+    "goodNextQuestions": [
+      {
+        "label": "Paano ako makakain ng halal?",
+        "href": "/topics/halal-living"
+      },
+      {
+        "label": "Paano ko lalapitan ang kahinhinan?",
+        "href": "/topics/modesty"
+      }
+    ],
+    "sourceIds": ["new-muslim-guide", "seekersguidance"]
   },
   {
     "id": "month-3-6",
     "title": "Pagpapalalim ng Pananampalataya",
-    "subtitle": "Buwan 4–6",
-    "description": "Nagiging mas natural na ang iyong pagsasanay. Ang yugtong ito ay nakatuon sa panloob na paglago — pagpapaunlad ng mga marangal na katangian na itinatampok ng Islam at pagpapalalim ng iyong kaalaman sa pananampalataya. Dito nagsisimulang baguhin ng Islam hindi lang ang iyong ginagawa, kundi kung sino ka.",
-    "mainGoal": "Ituon ang pansin sa pagpapaunlad ng Islamikong karakter (akhlaq) at magpatuloy sa pag-aaral tungkol sa iyong pananampalataya sa pamamagitan ng pag-aaral at komunidad.",
-    "success": "Napapansin mo ang mga positibong pagbabago sa iyong karakter at pang-araw-araw na pakikitungo. Mas kumpiyansa ka na sa iyong kaalaman sa Islam.",
+    "subtitle": "Buwan 4-6",
+    "description": "Ang pagsasanay ay nagiging mas pamilyar. Nakatuon ang yugtong ito sa karakter, mapagkakatiwalaang pag-aaral, at pagtatanong ng mas mahuhusay na tanong para manatiling saligan at kalmado ang iyong paglaki.",
+    "mainGoal": "Bumuo ng katangiang Islamiko, matutunan kung paano magtanong sa mga kwalipikadong tao, at bumuo ng isang matatag na landas ng kaalaman.",
+    "success": "Napansin mo ang mas magandang karakter sa pang-araw-araw na buhay at mayroon kang mas malinaw na landas para sa pag-aaral nang walang labis na karga.",
     "dontWorry": [
-      "Huwag kang mag-alala tungkol sa pagiging perpektong Muslim — ang paglago ay unti-unti.",
-      "Huwag kang mag-alala tungkol sa antas ng kaalaman ng mga iskolar — ituon mo ang pansin sa kung ano ang praktikal.",
-      "Huwag kang mag-alala tungkol sa mga sandali ng pag-aalinlangan — natural ang mga ito at maaaring magpalakas pa ng pananampalataya."
+      "Huwag mag-alala tungkol sa pagiging isang iskolar.",
+      "Huwag mag-alala tungkol sa pag-alam sa bawat opinyon.",
+      "Huwag mag-alala kung may mga katanungan pa rin.",
+      "Huwag gawin ang Islam na parang patuloy na pagpuna sa sarili."
     ],
-    "stepIds": ["character", "knowledge"],
-    "duration": "2–3 buwan"
+    "stepIds": ["character", "asking-an-imam", "knowledge"],
+    "duration": "2-3 buwan",
+    "focusNow": [
+      "Magsanay ng katapatan, pasensya, panalangin, at mabuting asal.",
+      "Matutunan kung paano malinaw na bigkasin ang mga personal na tanong.",
+      "Pumili ng isang hindi nagbabagong klase, guro, o aklat."
+    ],
+    "canWait": [
+      "Advanced na teolohiya at legal na debate.",
+      "Sinusubukang sundan ang bawat tagapagsalita online.",
+      "Sumasagot sa bawat kontrobersyal na paksa."
+    ],
+    "askHelpIf": [
+      "Makakatanggap ka ng magkasalungat na sagot at pakiramdam mo ay natigil ka.",
+      "Ang isang desisyon ay nakakaapekto sa pamilya, kasal, trabaho, o pera.",
+      "Ang iyong karanasan sa komunidad ay nakakaramdam ng pressure o hindi malusog."
+    ],
+    "goodNextQuestions": [
+      {
+        "label": "Paano ako magtatanong ng magagandang tanong?",
+        "href": "/topics/questions-and-doubts"
+      },
+      {
+        "label": "Sino ang Propeta?",
+        "href": "/topics/prophet-muhammad"
+      }
+    ],
+    "sourceIds": ["seekersguidance", "yaqeen-institute", "sunnah-com"]
   },
   {
     "id": "month-6-plus",
     "title": "Panghabambuhay na Paglago",
-    "subtitle": "Lagpas 6 na Buwan",
-    "description": "Napakalayo na ng iyong narating! Ang Islam ay isang panghabambuhay na paglalakbay ng pagkatuto at paglapit sa Allah. Ipinapakilala ng yugtong ito ang mga haligi na iyong palalawakin sa paglipas ng panahon — ang pagbibigay ng kawanggawa (Zakat) at ang paglalakbay sa banal na lugar (Hajj). Ito ay mga pangmatagalang layunin, hindi agarang obligasyon para sa karamihan ng mga bagong Muslim.",
-    "mainGoal": "Unawain ang Zakat at Hajj bilang mga hinaharap na mahahalagang hakbang at ipagpatuloy ang iyong panghabambuhay na paglalakbay ng paglago at pagkatuto.",
-    "success": "Nauunawaan mo na ang natitirang mga haligi ng Islam at nakahandang ka nang magpatuloy sa pag-aaral nang mag-isa. Mula rito, patuloy na magsanay at tuklasin ang seksyon ng Mga Paksa para sa mas malalim na pagkatuto.",
+    "subtitle": "Lampas 6 na Buwan",
+    "description": "Ang Islam ay isang panghabambuhay na landas. Ang yugtong ito ay nagpapakilala ng mas malalaking responsibilidad sa hinaharap, tulad ng zakat at Hajj, habang pinapanatili ang iyong pag-aaral na sustainable.",
+    "mainGoal": "Unawain ang mga haligi sa hinaharap at magpatuloy sa pag-aaral na may kwalipikadong patnubay.",
+    "success": "Alam mo na ang zakat at Hajj ay mga seryosong responsibilidad kapag may mga kundisyon, at alam mong humingi ng kwalipikadong pagsusuri para sa mga personal na kaso.",
     "dontWorry": [
-      "Huwag kang mag-alala tungkol sa Hajj — ito ay isang beses sa buhay na obligasyon kapag kaya mo na.",
-      "Huwag kang mag-alala tungkol sa Zakat kung hindi mo pa naabot ang pinansyal na threshold.",
-      "Huwag kang mag-alala tungkol sa pag-alam ng lahat — kahit ang mga Muslim na matagal na ay patuloy pa ring natututo."
+      "Huwag mag-alala tungkol sa Hajj bago mo magawa.",
+      "Huwag mag-alala tungkol sa zakat kung hindi mo naabot ang threshold.",
+      "Huwag mag-alala tungkol sa pagtatapos ng buong relihiyon; patuloy ang paglago habang buhay."
     ],
     "stepIds": ["zakat-hajj"],
-    "duration": "Patuloy"
+    "duration": "Patuloy",
+    "focusNow": [
+      "Panatilihing matatag ang panalangin at pagkatao.",
+      "Alamin ang malaking larawan ng zakat at Hajj.",
+      "Manatiling konektado sa mga mapagkakatiwalaang guro at komunidad."
+    ],
+    "canWait": [
+      "Detalyadong personal na mga kalkulasyon ng zakat nang walang pagsusuri sa pananalapi.",
+      "Pagpaplano ng Hajj bago ka kaya sa pananalapi at pisikal.",
+      "Advanced na espesyalisasyon maliban kung handa ka na."
+    ],
+    "askHelpIf": [
+      "Sa palagay mo ay maaari na ngayong ilapat sa iyo ang zakat.",
+      "Nagpaplano ka ng Hajj o Umrah.",
+      "Kailangan mo ng pinansiyal o legal na kalapit na patnubay."
+    ],
+    "goodNextQuestions": [
+      {
+        "label": "Paano ako mabubuhay ng halal sa mahabang panahon?",
+        "href": "/topics/halal-living"
+      },
+      {
+        "label": "Paano ako patuloy na natututo?",
+        "href": "/topics/questions-and-doubts"
+      }
+    ],
+    "sourceIds": ["irusa-zakat", "launchgood-zakat", "seekersguidance"]
   }
 ]

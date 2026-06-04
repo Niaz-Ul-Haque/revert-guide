@@ -3,14 +3,14 @@
   "slug": "halal-haram",
   "stageId": "month-1-2",
   "title": "Entenda os princípios básicos de Halal e Haram",
-  "whyMatters": "No Islã, halal significa permitido e haram significa proibido. Esses conceitos abrangem muitas áreas da vida, mas o ponto de partida mais prático é a alimentação. Compreender o que você pode e o que não pode comer é uma realidade diária para os muçulmanos, e ficar confortável com isso desde cedo torna tudo mais fácil. A boa notícia é que a grande maioria dos alimentos é halal. As regras são diretas e Toronto tem uma abundância de opções halal. Pense nessas diretrizes não como restrições, mas como um modo de vida consciente que o mantém conectado à sua fé em todas as refeições.",
+  "whyMatters": "No Islã, halal significa permitido e haram significa proibido. Esses conceitos abrangem muitas áreas da vida, mas o ponto de partida mais prático é a alimentação. Compreender o que você pode e o que não pode comer é uma realidade diária para os muçulmanos, e ficar confortável com isso desde cedo torna tudo mais fácil. A boa notícia é que a grande maioria dos alimentos é halal. As regras são simples e Toronto tem muitas opções halal. Pense nessas diretrizes não como restrições, mas como um modo de vida consciente que o mantém conectado à sua fé em todas as refeições.",
   "exactActions": [
     {
       "text": "Aprenda as principais regras alimentares",
       "subSteps": [
         "Carne de porco e produtos suínos (bacon, presunto, gelatina de porco) são haram.",
         "Álcool e intoxicantes são haram – isto inclui bebidas alcoólicas, vinho de cozinha e alimentos preparados com álcool.",
-        "A carne deve ser abatida halal (zabiha) — o animal é abatido de forma humana com o nome de Allah mencionado.",
+        "A carne deve ser abatida halal (zabiha) – o animal é abatido humanamente com o nome de Alá mencionado.",
         "Os frutos do mar são geralmente halal (peixe, camarão, etc.).",
         "Frutas, vegetais, grãos, laticínios e ovos são halal.",
         "A maioria dos alimentos processados ​​é halal, mas verifique se há ingredientes ocultos, como gelatina, banha ou aromatizantes à base de álcool."
@@ -19,7 +19,7 @@
     {
       "text": "Aprenda a ler os rótulos dos alimentos",
       "subSteps": [
-        "Procure símbolos de certificação halal nas embalagens – os mais comuns em Canada incluem IFANCC, ISNA e HMA.",
+        "Procure símbolos de certificação halal nas embalagens – os mais comuns no Canadá incluem IFANCC, ISNA e HMA.",
         "Verifique as listas de ingredientes para: gelatina (geralmente derivada de carne de porco), banha, gordura animal, álcool e extrato de baunilha (pode conter álcool).",
         "Em caso de dúvida, procure o produto online ou escolha uma alternativa halal certificada.",
         "Muitas marcas convencionais são compatíveis com halal – você aprenderá quais delas rapidamente."
@@ -28,7 +28,7 @@
     {
       "text": "Encontre fontes de alimentos halal em Toronto",
       "subSteps": [
-        "Toronto tem centenas de restaurantes e mercearias halal.",
+        "Toronto tem centenas de restaurantes e supermercados halal.",
         "Açougues Halal fornecem carne devidamente abatida – peça recomendações à sua comunidade.",
         "Muitas grandes redes de supermercados oferecem seções de carne halal.",
         "Explore opções halal em aplicativos de entrega de comida filtrando por restaurantes halal.",
@@ -68,11 +68,11 @@
     },
     {
       "problem": "Eu me sinto sobrecarregado por todas as regras",
-      "solution": "Comece simples. As regras básicas são: nada de carne de porco, nada de álcool e coma carne halal. Todo o resto você pode aprender gradualmente. Não tente se tornar um especialista em aditivos alimentares da noite para o dia. Se você acidentalmente comer algo haram sem saber, não há pecado em você - Allah julga pela sua intenção e esforço, não por acidentes."
+      "solution": "Comece simples. As regras básicas são: nada de carne de porco, nada de álcool e coma carne halal. Todo o resto você pode aprender gradualmente. Não tente se tornar um especialista em aditivos alimentares da noite para o dia. Se você acidentalmente comer algo haram sem saber, não há pecado em você – Allah julga pela sua intenção e esforço, não por acidentes."
     },
     {
       "problem": "Sinto falta de certos alimentos que costumava comer",
-      "solution": "É natural sentir falta de alimentos familiares. A boa notícia é que existem versões halal de quase tudo - calabresa halal, bacon de peru, bebidas não alcoólicas, marshmallows halal e muito mais. A Toronto possui lojas especializadas e lojas online que atendem a essas necessidades. Com o tempo, seus gostos se adaptarão e você descobrirá novos favoritos."
+      "solution": "É natural sentir falta de alimentos familiares. A boa notícia é que existem versões halal de quase tudo - calabresa halal, bacon de peru, bebidas não alcoólicas, marshmallows halal e muito mais. Toronto possui lojas especializadas e lojas online que atendem a essas necessidades. Com o tempo, seus gostos se adaptarão e você descobrirá novos favoritos."
     },
     {
       "problem": "Situações sociais são estranhas",
@@ -82,10 +82,9 @@
   "tinyVersion": "Comece com duas regras claras: evite carne de porco e evite álcool. Todo o resto pode ser aprendido passo a passo. A maior parte do que você já come é provavelmente halal.",
   "unlocksNext": "Compreender o halal e o haram prepara você para aprender sobre o jejum – outra bela prática que conecta seu corpo e alma à sua fé.",
   "resourceIds": [
-    "halal-food-guide-article",
-    "halal-restaurants-toronto",
-    "reading-food-labels-guide",
-    "halal-certification-info"
+    "halal-living-guide",
+    "new-muslim-guide-site",
+    "seekers-guidance"
   ],
   "relatedGlossaryIds": [
     "halal",
@@ -95,5 +94,7 @@
     "bismillah",
     "tayyib"
   ],
-  "relatedTopicIds": ["halal-living", "daily-life"]
+  "relatedTopicIds": ["fasting", "halal-living"],
+  "sourceIds": ["new-muslim-guide", "seekersguidance"],
+  "reviewStatus": "review-needed"
 }

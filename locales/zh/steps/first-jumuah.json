@@ -1,0 +1,65 @@
+{
+  "id": "first-jumuah",
+  "slug": "first-jumuah",
+  "stageId": "week-1",
+  "title": "参加你的第一个星期五祈祷",
+  "whyMatters": "Jumuah 是每周星期五的集体祈祷。它可能很漂亮，但第一次也可能会感到拥挤。知道会发生什么可以帮助您平静地到达目的地。",
+  "exactActions": [
+    {
+      "text": "出发前检查一下时间",
+      "subSteps": [
+        "周五的祈祷时间可能与每日的杜尔时间不同。",
+        "许多清真寺提供多种服务。",
+        "确认停车场、入口和女性空间（如果相关）。"
+      ]
+    },
+    {
+      "text": "提前到达",
+      "subSteps": [
+        "给自己一些时间找到入口和换鞋区。",
+        "静静地坐着，聆听呼图白。",
+        "如果您迟到，请冷静地跟随会众。"
+      ]
+    },
+    {
+      "text": "跟随会众",
+      "subSteps": [
+        "伊玛目布道，然后主持两个单元的祈祷。",
+        "您可以跟踪周围人的动向。",
+        "如果您感到失落，请事后询问某人。"
+      ]
+    },
+    {
+      "text": "离开前建立联系",
+      "subSteps": [
+        "询问新的穆斯林课程或导师。",
+        "如果太忙，请稍后再发送电子邮件。",
+        "您不需要进行长时间的社交访问。"
+      ]
+    }
+  ],
+  "timeEstimate": "45-90 分钟，取决于清真寺",
+  "obstacles": [
+    {
+      "problem": "人潮拥挤的感觉",
+      "solution": "尝试较小的清真寺，早点到达，或者先参加安静的每日祈祷。您的第一个 Jumuah 不一定是您第一次参观清真寺。"
+    },
+    {
+      "problem": "我听不懂讲道",
+      "solution": "有些 khutbah 部分或全部使用另一种语言。寻找带有英文 khutbahs 的清真寺，或者事后询问简短的摘要。"
+    }
+  ],
+  "tinyVersion": "找到一个清真寺的周五祈祷时间并计划提前 15 分钟到达。",
+  "unlocksNext": "Jumuah 为您提供每周的节奏以及寻找课程、导师和社区的自然场所。",
+  "resourceIds": ["learn-salah-guide", "new-muslim-guide-icna", "whyislam"],
+  "relatedGlossaryIds": ["jumuah", "masjid", "imam", "salah"],
+  "relatedTopicIds": ["masjid-and-community", "prayer", "community"],
+  "contextNotes": [
+    {
+      "title": "工作或学校",
+      "body": "如果周五的祈祷与日程安排冲突，请询问当地的阿訇如何处理您的情况以及哪种适应语言可能合适。"
+    }
+  ],
+  "sourceIds": ["new-muslim-guide", "seekersguidance", "whyislam"],
+  "reviewStatus": "review-needed"
+}

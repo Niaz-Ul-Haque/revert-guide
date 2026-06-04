@@ -5,6 +5,7 @@ import type {
   GlossaryEntry,
   Masjid,
   Resource,
+  SourceEntry,
   Stage,
   Step,
   Topic,
@@ -174,6 +175,30 @@ export function getResourceById(
   locale: Locale = DEFAULT_LOCALE,
 ): Resource | undefined {
   return getAllResources(locale).find((resource) => resource.id === id);
+}
+
+export function getAllSources(locale: Locale = DEFAULT_LOCALE): SourceEntry[] {
+  return readJsonFile<SourceEntry[]>(locale, "sources.json");
+}
+
+export function getSourceById(
+  id: string,
+  locale: Locale = DEFAULT_LOCALE,
+): SourceEntry | undefined {
+  return getAllSources(locale).find((source) => source.id === id);
+}
+
+export function getSourcesByIds(
+  ids: string[] = [],
+  locale: Locale = DEFAULT_LOCALE,
+): SourceEntry[] {
+  const sourcesById = new Map(
+    getAllSources(locale).map((source) => [source.id, source] as const),
+  );
+
+  return ids
+    .map((id) => sourcesById.get(id))
+    .filter((source): source is SourceEntry => source !== undefined);
 }
 
 export function getResourcesByStepId(

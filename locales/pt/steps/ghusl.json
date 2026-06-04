@@ -3,7 +3,7 @@
   "slug": "ghusl",
   "stageId": "day-0-1",
   "title": "Realize o Banho de Purificação (Ghusl)",
-  "whyMatters": "Ghusl é um ritual de purificação de corpo inteiro que simboliza lavar sua antiga vida e começar do zero. É recomendado para novos muçulmanos após tomarem o Shahada. Pense nisso como uma chuva espiritual – um ato físico que representa a lousa em branco que você tem agora com Allah.",
+  "whyMatters": "Ghusl é um ritual de purificação de corpo inteiro que simboliza lavar sua antiga vida e começar do zero. É recomendado para novos muçulmanos após fazerem a Shahada. Pense nisso como uma chuva espiritual – um ato físico que representa a ficha limpa que você tem agora com Allah.",
   "exactActions": [
     {
       "text": "Defina sua intenção (niyyah)",
@@ -36,7 +36,7 @@
       "text": "Você está agora em um estado de pureza",
       "subSteps": [
         "Agora você pode realizar sua primeira oração quando estiver pronto.",
-        "Não há necessidade de oração especial imediatamente após Ghusl."
+        "Não há nenhuma oração especial necessária imediatamente após o Ghusl."
       ]
     }
   ],
@@ -52,12 +52,18 @@
     },
     {
       "problem": "Preciso fazer isso em uma mesquita?",
-      "solution": "Não, você pode realizar o Ghusl no seu próprio banheiro. É um ato privado de purificação. Use seu chuveiro ou banheira normal."
+      "solution": "Não, você pode realizar Ghusl em seu próprio banheiro. É um ato privado de purificação. Use seu chuveiro ou banheira normal."
     }
   ],
   "tinyVersion": "Tome um banho com a intenção sincera de se purificar para o seu novo começo no Islã. Essa é a essência do Ghusl.",
   "unlocksNext": "Com a sua purificação concluída, você está pronto para passar para a Semana 1 e começar a aprender sobre as cinco orações diárias.",
-  "resourceIds": ["ghusl-guide-article", "wudu-video"],
+  "resourceIds": [
+    "purification-fiqh-guide",
+    "wudu-tutorial",
+    "new-muslim-guide-site"
+  ],
   "relatedGlossaryIds": ["ghusl", "wudu", "niyyah", "taharah", "tayammum"],
-  "relatedTopicIds": ["purification"]
+  "relatedTopicIds": ["purification", "prayer", "new-muslim-basics"],
+  "sourceIds": ["new-muslim-guide", "seekersguidance"],
+  "reviewStatus": "review-needed"
 }

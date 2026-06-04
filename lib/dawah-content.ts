@@ -71,8 +71,21 @@ export function validateDawahGuide(guide: DawahGuide): DawahGuide {
       id: string;
       referenceIds?: string[];
     }> = [
+      ...(ag.trainingCards ?? []).map((card) => ({
+        kind: "trainingCard",
+        ...card,
+      })),
+      ...(ag.postShahadaHandoff ?? []).map((section) => ({
+        kind: "postShahadaHandoff",
+        ...section,
+      })),
+      ...(ag.referralBoundaries ?? []).map((boundary) => ({
+        kind: "referralBoundary",
+        ...boundary,
+      })),
       ...ag.commonQuestions.map((q) => ({ kind: "commonQuestion", ...q })),
       ...ag.misconceptions.map((m) => ({ kind: "misconception", ...m })),
+      ...ag.scenarios.map((s) => ({ kind: "scenario", ...s })),
     ];
     for (const item of withRefs) {
       for (const refId of item.referenceIds ?? []) {

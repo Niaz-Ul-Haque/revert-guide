@@ -2,94 +2,264 @@
   {
     "id": "day-0-1",
     "title": "Abrace la fe y comience de nuevo",
-    "subtitle": "Día 0 - 1",
-    "description": "¡Felicitaciones por dar este hermoso paso! Esta etapa se trata de celebrar tu decisión de abrazar el Islam y dar los primeros pasos de tu nuevo viaje. No hay prisa: simplemente absorba el momento y comience con lo que le parezca correcto.",
-    "mainGoal": "Declare su fe a través de la Shahada y realice el baño de purificación (Ghusl) para marcar su nuevo comienzo.",
-    "success": "Has hablado la Shahada con sinceridad y realizado el Ghusl. Sientes una sensación de paz y un nuevo comienzo.",
+    "subtitle": "Día 0-1",
+    "description": "Esta etapa trata de proteger los primeros momentos después de Shahada: fe, calma, purificación y uno o dos siguientes pasos confiables. No necesitas reconstruir toda tu vida en un día.",
+    "mainGoal": "Comprenda su Shahada, ocúpese de las primeras 24 horas y realice Ghusl cuando esté listo.",
+    "success": "Sabes que eres musulmán, tienes un siguiente paso simple y no te presionas para aprender todo de una vez.",
     "dontWorry": [
-      "No te preocupes por memorizar oraciones largas ahora mismo, eso vendrá después.",
-      "No se preocupe por cambiar su nombre: no es un requisito en el Islam.",
-      "No se preocupe por saberlo todo: el aprendizaje es un viaje que dura toda la vida.",
-      "No te preocupes por lo que piensen los demás: esto es entre tú y Dios."
+      "No te preocupes por memorizar largas oraciones ahora mismo.",
+      "No te preocupes por cambiar tu nombre; no es necesario.",
+      "No te preocupes por anunciarlo todo de inmediato.",
+      "No te preocupes por conocer todas las reglas; El aprendizaje es gradual."
     ],
-    "stepIds": ["shahada", "ghusl"],
-    "duration": "1 - 2 días"
+    "stepIds": ["shahada", "first-24-hours", "ghusl"],
+    "duration": "1-2 días",
+    "focusNow": [
+      "Aférrate al significado de la Shahada.",
+      "Haz Ghusl cuando puedas hacerlo con calma.",
+      "Elija una persona o mezquita de confianza para contactar."
+    ],
+    "canWait": [
+      "Sentencias avanzadas y debates.",
+      "Cambiar de nombre, de guardarropa o de toda tu rutina de la noche a la mañana.",
+      "Explicar el Islam a todos en tu vida."
+    ],
+    "askHelpIf": [
+      "Te sientes inseguro al contárselo a tu familia.",
+      "No estás seguro de cómo hacer Ghusl.",
+      "Necesita un testigo, un certificado o una conexión con la comunidad local."
+    ],
+    "goodNextQuestions": [
+      {
+        "label": "¿Qué debo hacer primero?",
+        "href": "/topics/new-muslim-basics"
+      },
+      {
+        "label": "¿Cómo hablo con la familia?",
+        "href": "/topics/family-and-identity"
+      }
+    ],
+    "sourceIds": ["new-muslim-academy", "whyislam", "new-muslim-guide"]
   },
   {
     "id": "week-1",
     "title": "Cimientos de construcción",
     "subtitle": "Semana 1",
-    "description": "Ahora que has abrazado el Islam, es hora de construir tus cimientos. Esta semana se centra en la práctica diaria más esencial: la oración y la conexión con la comunidad musulmana local. Tómalo un día a la vez.",
-    "mainGoal": "Aprenda los conceptos básicos de las cinco oraciones diarias y visite una mezquita local para comenzar a construir una comunidad.",
-    "success": "Estás intentando realizar algunas oraciones diarias (aunque sea de forma imperfecta) y has visitado una mezquita o te has conectado con otros musulmanes.",
+    "description": "Esta semana se centra en la práctica suave: aprender la forma de la oración, visitar o contactar una mezquita y agregar recuerdos simples sin vergüenza ni pánico.",
+    "mainGoal": "Comience una oración realista y establezca una primera conexión con la comunidad musulmana.",
+    "success": "Estás intentando orar de alguna forma y sabes dónde pedir ayuda local.",
     "dontWorry": [
-      "No te preocupes por la perfecta pronunciación árabe en la oración.",
-      "No te preocupes si te pierdes una oración, solo intenta captar la siguiente.",
-      "No te preocupes por encajar en la mezquita: todos fueron nuevos alguna vez.",
-      "No te preocupes por conocer todavía todos los movimientos de oración."
+      "No te preocupes por la perfecta pronunciación árabe.",
+      "No te preocupes si te pierdes las oraciones mientras aprendes.",
+      "No te preocupes por encajar en la mezquita de inmediato.",
+      "No te preocupes por realizar todas las prácticas opcionales."
     ],
-    "stepIds": ["prayer", "community"],
-    "duration": "~1 semana"
+    "stepIds": [
+      "prayer-on-ramp",
+      "prayer",
+      "first-masjid-visit",
+      "first-jumuah",
+      "community",
+      "daily-dua-dhikr"
+    ],
+    "duration": "Aproximadamente 1 semana",
+    "focusNow": [
+      "Aprende los tiempos de oración y movimientos básicos.",
+      "Encuentre una mezquita o mentor al que pueda hacer preguntas.",
+      "Utilice dua y dhikr cortos para mantener su corazón conectado."
+    ],
+    "canWait": [
+      "Oraciones opcionales y diferencias de opinión detalladas.",
+      "Conociendo cada costumbre de la mezquita.",
+      "Metas largas de memorización árabe."
+    ],
+    "askHelpIf": [
+      "Estás confundido acerca de los conceptos básicos de la oración.",
+      "Te sientes nervioso al entrar a una mezquita.",
+      "El trabajo o la escuela dificultan el momento de la oración."
+    ],
+    "goodNextQuestions": [
+      {
+        "label": "¿Cómo visito una mezquita?",
+        "href": "/topics/masjid-and-community"
+      },
+      {
+        "label": "¿Cómo construyo la oración poco a poco?",
+        "href": "/topics/prayer"
+      }
+    ],
+    "sourceIds": ["new-muslim-guide", "seekersguidance", "whyislam"]
   },
   {
     "id": "week-2-3",
     "title": "Práctica de fortalecimiento",
-    "subtitle": "Semanas 2 - 4",
-    "description": "Te estás adaptando a tu nueva rutina. Esta etapa profundiza tu conexión con el Corán y fortalece los hábitos que has comenzado a desarrollar. La coherencia importa más que la perfección.",
-    "mainGoal": "Empiece a leer o escuchar el Corán con regularidad y establezca una rutina diaria constante.",
-    "success": "Tienes una rutina básica de lectura del Corán y tus oraciones diarias se están volviendo más naturales.",
+    "subtitle": "Semanas 2-4",
+    "description": "Estás empezando a calmarte. Esta etapa agrega el Corán, conversaciones familiares y formas saludables de manejar dudas o preguntas sin sobrecargar.",
+    "mainGoal": "Inicie un hábito coránico, prepárese para conversaciones con familiares y amigos y aprenda a hacer buenas preguntas.",
+    "success": "Tienes una pequeña rutina del Corán, uno o dos guiones suaves para personas cercanas a ti y una forma más saludable de manejar las dudas.",
     "dontWorry": [
-      "No te preocupes por leer árabe con fluidez: las traducciones están perfectamente bien.",
-      "No te preocupes por entender cada verso: concéntrate en lo que resuena.",
-      "No se preocupe si tiene problemas con la coherencia: desarrollar hábitos lleva tiempo."
+      "No te preocupes por leer árabe con fluidez.",
+      "No te preocupes por entender cada versículo.",
+      "No te preocupes si la fe siente altibajos.",
+      "No te preocupes por ganar argumentos."
     ],
-    "stepIds": ["quran"],
-    "duration": "2 - 3 semanas"
+    "stepIds": ["quran", "family-and-friends", "questions-and-doubts"],
+    "duration": "2-3 semanas",
+    "focusNow": [
+      "Escuche o lea un poco del Corán con regularidad.",
+      "Elige quién necesita saber sobre tu Islam y cuándo.",
+      "Lleve preguntas difíciles a personas confiables."
+    ],
+    "canWait": [
+      "Debates públicos y discusiones en Internet.",
+      "Dominar el tafsir o la gramática árabe.",
+      "Respondiendo a cada objeción familiar de inmediato."
+    ],
+    "askHelpIf": [
+      "La presión familiar se vuelve insegura o controladora.",
+      "Las dudas te impiden funcionar.",
+      "No se puede saber qué fuentes son confiables."
+    ],
+    "goodNextQuestions": [
+      {
+        "label": "¿Y si tengo dudas?",
+        "href": "/topics/questions-and-doubts"
+      },
+      {
+        "label": "¿Cómo protejo los lazos familiares?",
+        "href": "/topics/family-and-identity"
+      }
+    ],
+    "sourceIds": ["quran-com", "yaqeen-institute", "seekersguidance"]
   },
   {
     "id": "month-1-2",
     "title": "Ampliación de la práctica",
-    "subtitle": "Meses 2 - 3",
-    "description": "Ahora tienes una base en la oración y el Corán. Esta etapa amplía su comprensión del estilo de vida islámico, desde las pautas dietéticas hasta la práctica espiritual del ayuno. Se trata de aspectos prácticos que integran la fe en la vida diaria.",
-    "mainGoal": "Comprenda los conceptos básicos de halal y haram y aprenda sobre el ayuno para estar preparado cuando llegue el momento.",
-    "success": "Entiendes las pautas dietéticas básicas y tienes conocimiento de cómo funciona el ayuno. Es posible que haya probado un ayuno voluntario.",
+    "subtitle": "Meses 2-3",
+    "description": "Esta etapa ayuda al Islam a entrar en la vida diaria a través de la elección de alimentos, la preparación del ayuno, la modestia y los límites prácticos a un ritmo que realmente puedas mantener.",
+    "mainGoal": "Comprenda los conceptos básicos de halal, prepárese para el ayuno y aborde la modestia como un crecimiento gradual en lugar de pánico.",
+    "success": "Puede elegir alimentos básicos, comprende el ayuno a un nivel principiante y sabe qué preguntas sobre el estilo de vida necesitan orientación local.",
     "dontWorry": [
-      "No se preocupe por reformar toda su despensa de la noche a la mañana.",
-      "No se preocupe si al principio le resulta difícil ayunar: cada vez será más fácil.",
-      "No se preocupe por cada etiqueta de ingredientes: comience con los elementos obvios.",
-      "No te preocupes por las situaciones sociales: encontrarás tu ritmo."
+      "No revises toda tu despensa de la noche a la mañana.",
+      "No trate cada pregunta sobre ingredientes como una emergencia.",
+      "No compares tu viaje de ropa con el de otra persona.",
+      "No acepte preguntas sobre las dificultades del ayuno de comentarios aleatorios en línea."
     ],
-    "stepIds": ["halal-haram", "fasting"],
-    "duration": "1 - 2 meses"
+    "stepIds": [
+      "halal-eating-practical",
+      "halal-haram",
+      "fasting",
+      "modesty-and-clothing"
+    ],
+    "duration": "1-2 meses",
+    "focusNow": [
+      "Evite los alimentos claramente haram y genere confianza con opciones simples halal.",
+      "Aprenda los conceptos básicos del ayuno antes del Ramadán o de su primer ayuno voluntario.",
+      "Tome los cambios de modestia un paso sostenible a la vez."
+    ],
+    "canWait": [
+      "Disputas complejas de certificación.",
+      "Zakat avanzado y resoluciones financieras.",
+      "Debates detallados sobre vestimenta entre culturas."
+    ],
+    "askHelpIf": [
+      "La presión alimentaria o de la ropa está perjudicando la seguridad de su familia.",
+      "Una condición médica puede afectar el ayuno.",
+      "Necesita decisiones sobre el trabajo, la escuela o detalles financieros."
+    ],
+    "goodNextQuestions": [
+      {
+        "label": "¿Cómo como halal de forma práctica?",
+        "href": "/topics/halal-living"
+      },
+      {
+        "label": "¿Cómo me acerco a la modestia?",
+        "href": "/topics/modesty"
+      }
+    ],
+    "sourceIds": ["new-muslim-guide", "seekersguidance"]
   },
   {
     "id": "month-3-6",
     "title": "Profundizando la fe",
-    "subtitle": "Meses 4 - 6",
-    "description": "Tu práctica es cada vez más natural. Esta etapa se centra en el crecimiento interior: desarrollar rasgos de carácter nobles que el Islam enfatiza y profundizar el conocimiento de la fe. Aquí es donde el Islam comienza a transformar no sólo lo que haces, sino también quién eres.",
-    "mainGoal": "Concéntrese en desarrollar el carácter islámico (akhlaq) y continúe aprendiendo sobre su fe a través del estudio y la comunidad.",
-    "success": "Notas cambios positivos en tu carácter y en tus interacciones diarias. Te sientes más seguro de tu conocimiento del Islam.",
+    "subtitle": "Meses 4-6",
+    "description": "La práctica es cada vez más familiar. Esta etapa se centra en el carácter, el aprendizaje confiable y en hacer mejores preguntas para que su crecimiento se mantenga firme y tranquilo.",
+    "mainGoal": "Desarrolle el carácter islámico, aprenda a preguntar a personas calificadas y construya un camino de conocimiento estable.",
+    "success": "Notas mejor carácter en la vida diaria y tienes un camino más claro para aprender sin sobrecarga.",
     "dontWorry": [
-      "No te preocupes por ser un musulmán perfecto: el crecimiento es gradual.",
-      "No se preocupe por el conocimiento de nivel académico: concéntrese en lo que es práctico.",
-      "No te preocupes por los momentos de duda: son naturales y pueden fortalecer la fe."
+      "No te preocupes por convertirte en un erudito.",
+      "No te preocupes por conocer todas las opiniones.",
+      "No se preocupe si aún surgen preguntas.",
+      "No hagas que el Islam parezca una autocrítica constante."
     ],
-    "stepIds": ["character", "knowledge"],
-    "duration": "2 - 3 meses"
+    "stepIds": ["character", "asking-an-imam", "knowledge"],
+    "duration": "2-3 meses",
+    "focusNow": [
+      "Practique la honestidad, la paciencia, la oración y los buenos modales.",
+      "Aprenda a formular preguntas personales con claridad.",
+      "Elija una clase, profesor o libro estable."
+    ],
+    "canWait": [
+      "Teología avanzada y debates jurídicos.",
+      "Intentando seguir a todos los oradores en línea.",
+      "Respondiendo a todos los temas controvertidos."
+    ],
+    "askHelpIf": [
+      "Recibe respuestas contradictorias y se siente estancado.",
+      "Una sentencia afecta a la familia, el matrimonio, el trabajo o el dinero.",
+      "Su experiencia comunitaria se siente presionante o insalubre."
+    ],
+    "goodNextQuestions": [
+      {
+        "label": "¿Cómo hago buenas preguntas?",
+        "href": "/topics/questions-and-doubts"
+      },
+      {
+        "label": "¿Quién fue el Profeta?",
+        "href": "/topics/prophet-muhammad"
+      }
+    ],
+    "sourceIds": ["seekersguidance", "yaqeen-institute", "sunnah-com"]
   },
   {
     "id": "month-6-plus",
     "title": "Crecimiento permanente",
     "subtitle": "Más allá de 6 meses",
-    "description": "¡Has llegado tan lejos! El Islam es un viaje de aprendizaje y acercamiento a Alá que dura toda la vida. Esta etapa introduce pilares en los que crecerás con el tiempo: las donaciones caritativas (Zakat) y la peregrinación (Hajj). Éstos son objetivos a largo plazo, no obligaciones inmediatas para la mayoría de los nuevos musulmanes.",
-    "mainGoal": "Comprenda el Zakat y el Hajj como hitos futuros y continúe su viaje de crecimiento y aprendizaje a lo largo de su vida.",
-    "success": "Entiendes los pilares restantes del Islam y te sientes equipado para continuar aprendiendo de forma independiente. Desde aquí, sigue practicando y explora la sección Temas para un aprendizaje más profundo.",
+    "description": "El Islam es un camino para toda la vida. Esta etapa introduce mayores responsabilidades futuras, como el zakat y el Hajj, mientras mantiene su aprendizaje sostenible.",
+    "mainGoal": "Comprenda los pilares futuros y continúe aprendiendo con orientación calificada.",
+    "success": "Sabes que el zakat y el Hajj son responsabilidades serias cuando se dan las condiciones, y sabes que debes buscar una revisión calificada para casos personales.",
     "dontWorry": [
-      "No te preocupes por el Hajj: es una obligación que se realiza una vez en la vida cuando puedas.",
-      "No se preocupe por el Zakat si no alcanza el umbral financiero.",
-      "No te preocupes por saberlo todo: incluso los musulmanes de toda la vida siempre están aprendiendo."
+      "No te preocupes por el Hajj antes de que puedas.",
+      "No te preocupes por el zakat si no alcanzas el umbral.",
+      "No os preocupéis por terminar toda la religión; el crecimiento continúa de por vida."
     ],
     "stepIds": ["zakat-hajj"],
-    "duration": "en curso"
+    "duration": "En curso",
+    "focusNow": [
+      "Mantenga firme la oración y el carácter.",
+      "Conozca el panorama general del zakat y el Hajj.",
+      "Manténgase conectado con maestros y comunidad confiables."
+    ],
+    "canWait": [
+      "Cálculos detallados del zakat personal sin revisión financiera.",
+      "Planificar el Hajj antes de que estés físicamente y financieramente capacitado.",
+      "Especialización avanzada a menos que estés preparado."
+    ],
+    "askHelpIf": [
+      "Cree que el zakat ahora puede aplicarse a usted.",
+      "Estás planeando el Hajj o la Umrah.",
+      "Necesita orientación financiera o jurídica."
+    ],
+    "goodNextQuestions": [
+      {
+        "label": "¿Cómo vivo halal a largo plazo?",
+        "href": "/topics/halal-living"
+      },
+      {
+        "label": "¿Cómo sigo aprendiendo?",
+        "href": "/topics/questions-and-doubts"
+      }
+    ],
+    "sourceIds": ["irusa-zakat", "launchgood-zakat", "seekersguidance"]
   }
 ]

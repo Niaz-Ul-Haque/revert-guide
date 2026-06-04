@@ -1,0 +1,71 @@
+{
+  "id": "first-masjid-visit",
+  "slug": "first-masjid-visit",
+  "stageId": "week-1",
+  "title": "第一次参观清真寺",
+  "whyMatters": "清真寺可以为您提供祈祷支持、社区、课程以及向真人寻求帮助的地方。您的第一次访问不必是完美的；它只需要温和且易于管理。",
+  "exactActions": [
+    {
+      "text": "选择低压时间",
+      "subSteps": [
+        "较小的每日祈祷比拥挤的周五祈祷更容易。",
+        "如果您不确定，请查看清真寺网站或提前致电。",
+        "询问他们是否有新的穆斯林支持或访客帮助。"
+      ]
+    },
+    {
+      "text": "着装简单、端庄",
+      "subSteps": [
+        "穿着干净、宽松、能舒适地遮盖身体的衣服。",
+        "女性如果打算进入祈祷区，可以带上围巾。",
+        "如果您的穿着与其他人不同，请不要惊慌。"
+      ]
+    },
+    {
+      "text": "遵守基本礼仪",
+      "subSteps": [
+        "在别人脱鞋的地方脱掉你的鞋子。",
+        "保持手机安静。",
+        "如果您不确定去哪里，请询问入口附近的人。"
+      ]
+    },
+    {
+      "text": "向一个人介绍自己",
+      "subSteps": [
+        "您可以简单地说您是新穆斯林，这是您第一次来访。",
+        "询问谁负责转换支持或初学者课程。",
+        "如果您感到不知所措，请离开；你可以改天再来。"
+      ]
+    }
+  ],
+  "timeEstimate": "30-60分钟",
+  "obstacles": [
+    {
+      "problem": "我怕别人会盯着看",
+      "solution": "大多数人都专注于祈祷。如果有人注意到您是新人，很多人都会很乐意提供帮助。您也可以提前打电话要求有人来接您。"
+    },
+    {
+      "problem": "我不知道该使用哪个入口",
+      "solution": "寻找标志，跟随人流，或者在门口询问。一些清真寺有单独的祈祷区；问是正常的。"
+    }
+  ],
+  "tinyVersion": "给某个清真寺打电话或发消息，询问初学者何时可以参观。",
+  "unlocksNext": "您的第一次访问使 Jumuah、课程和指导变得更容易接触。",
+  "resourceIds": ["new-muslim-guide-icna", "whyislam", "new-muslim-guide-site"],
+  "relatedGlossaryIds": ["masjid", "imam", "salah", "ummah"],
+  "relatedTopicIds": ["masjid-and-community", "community", "new-muslim-basics"],
+  "commonQuestions": [
+    {
+      "problem": "如果我还不能正常祈祷，我可以拜访吗？",
+      "solution": "是的。您可以观察、尽力遵循并寻求帮助。清真寺应该是一个学习的地方，而不仅仅是一个已经知道一切的人的地方。"
+    }
+  ],
+  "gentleScripts": [
+    {
+      "title": "在入口处",
+      "body": "Assalamu alaykum。我是一名新穆斯林，这是我第一次来这里。你能告诉我该去哪里吗？"
+    }
+  ],
+  "sourceIds": ["whyislam", "icna", "new-muslim-guide"],
+  "reviewStatus": "source-checked"
+}

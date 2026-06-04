@@ -4,6 +4,7 @@ import { Breadcrumb } from "@/components/Breadcrumb";
 import { ResourceCard } from "@/components/Card";
 import { Icon } from "@/components/Icon";
 import { AnimateIn } from "@/components/AnimateIn";
+import { SourcesPanel } from "@/components/SourceTags";
 import {
   getAllTopics,
   getTopicBySlug,
@@ -11,8 +12,10 @@ import {
   getStageById,
   getGlossaryEntryById,
   getResourcesByTopicId,
+  getSourcesByIds,
 } from "@/lib/content";
 import {
+  DEFAULT_LOCALE,
   getTranslator,
   localizeHref,
   type Locale,
@@ -33,6 +36,33 @@ function renderContent(content: string) {
     return part;
   });
 }
+
+const topicActions: Record<
+  string,
+  { href: string; label: string; body: string }[]
+> = {
+  quran: [
+    {
+      href: "/quran-starter",
+      label: "Open the Quran Starter Path",
+      body: "Choose a translation, begin with short passages, listen calmly, and print a first-week reading rhythm.",
+    },
+  ],
+  prayer: [
+    {
+      href: "/tools/salah-companion",
+      label: "Open the Salah Companion",
+      body: "Learn the shape of a two-rak'ah prayer, beginner recitations, and when to ask an imam.",
+    },
+  ],
+  "dua-and-dhikr": [
+    {
+      href: "/dua-dhikr",
+      label: "Open the Dua and Dhikr Reference",
+      body: "Use a compact, source-tagged set of beginner duas, dhikr phrases, and personal dua boundaries.",
+    },
+  ],
+};
 
 export function generateStaticParams({
   params,
@@ -83,6 +113,9 @@ export default function TopicPage({
     .filter((entry): entry is NonNullable<typeof entry> => entry !== undefined);
 
   const resources = getResourcesByTopicId(topic.id, locale);
+  const topicSources = getSourcesByIds(topic.sourceIds ?? [], locale);
+  const actions =
+    locale === DEFAULT_LOCALE ? (topicActions[topic.id] ?? []) : [];
 
   return (
     <div className="mx-auto max-w-4xl px-5 py-10">
@@ -102,6 +135,35 @@ export default function TopicPage({
           <p className="text-lg text-textSecondary">{topic.description}</p>
         </header>
       </AnimateIn>
+
+      {actions.length > 0 && (
+        <AnimateIn>
+          <section
+            className="mb-12 grid gap-4 sm:grid-cols-2"
+            aria-label="Related beginner tools"
+          >
+            {actions.map((action) => (
+              <Link
+                key={action.href}
+                href={localizeHref(locale, action.href)}
+                className="group rounded-2xl border border-primaryGreen/40 bg-surfaceElevated/50 p-5 no-underline shadow-card transition-all duration-300 hover:-translate-y-0.5 hover:border-primaryGreen/70 hover:shadow-card-hover"
+              >
+                <div className="mb-3 flex items-center gap-3">
+                  <span className="flex h-9 w-9 shrink-0 items-center justify-center rounded-xl bg-primary/10 text-primary transition-colors group-hover:bg-primary group-hover:text-white">
+                    <Icon name="chevron-right" size="sm" />
+                  </span>
+                  <h2 className="mb-0 mt-0 text-base font-semibold text-textPrimary">
+                    {action.label}
+                  </h2>
+                </div>
+                <p className="mb-0 text-sm leading-relaxed text-textSecondary">
+                  {action.body}
+                </p>
+              </Link>
+            ))}
+          </section>
+        </AnimateIn>
+      )}
 
       {topic.sections.map((section, index) => (
         <AnimateIn key={section.heading} delay={index * 0.05}>
@@ -275,11 +337,26 @@ export default function TopicPage({
                   type={resource.type}
                   url={resource.url}
                   locale={locale}
+                  organization={resource.organization}
+                  bestFor={resource.bestFor}
+                  trustNote={resource.trustNote}
+                  sources={getSourcesByIds(resource.sourceIds ?? [], locale)}
                 />
               </AnimateIn>
             ))}
           </div>
         </section>
+      )}
+
+      {topicSources.length > 0 && (
+        <AnimateIn>
+          <div className="mb-12">
+            <SourcesPanel
+              sources={topicSources}
+              note="These sources support the general topic guidance. For personal rulings or sensitive situations, ask a qualified local imam, scholar, clinician, or professional as appropriate."
+            />
+          </div>
+        </AnimateIn>
       )}
     </div>
   );

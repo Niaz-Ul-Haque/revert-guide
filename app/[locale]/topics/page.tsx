@@ -22,6 +22,14 @@ const topicIcons: Record<string, IconName> = {
   fasting: "clock",
   character: "users",
   community: "globe",
+  "new-muslim-basics": "lightbulb",
+  "family-and-identity": "users",
+  "masjid-and-community": "globe",
+  "dua-and-dhikr": "star",
+  "questions-and-doubts": "search",
+  "halal-living": "check",
+  modesty: "check",
+  "prophet-muhammad": "book",
 };
 
 export function generateMetadata({ params }: { params: { locale: Locale } }) {

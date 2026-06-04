@@ -83,14 +83,7 @@
   ],
   "tinyVersion": "ਜ਼ਕਾਤ ਤੁਹਾਡੀ ਬੱਚਤ ਦਾ 2.5% ਹੈ ਜੋ ਲੋੜਵੰਦਾਂ ਨੂੰ ਸਾਲਾਨਾ ਦਿੱਤੀ ਜਾਂਦੀ ਹੈ। ਜਦੋਂ ਤੁਸੀਂ ਯੋਗ ਹੁੰਦੇ ਹੋ ਤਾਂ ਹੱਜ ਜੀਵਨ ਵਿੱਚ ਇੱਕ ਵਾਰ ਮੱਕਾ ਦੀ ਯਾਤਰਾ ਹੈ। ਦੋਵੇਂ ਭਵਿੱਖ ਦੇ ਟੀਚੇ ਹਨ — ਉਹਨਾਂ ਬਾਰੇ ਹੁਣੇ ਜਾਣੋ ਅਤੇ ਜਦੋਂ ਤੁਸੀਂ ਤਿਆਰ ਹੋਵੋ ਤਾਂ ਯੋਜਨਾ ਬਣਾਓ।",
   "unlocksNext": "ਇਸਲਾਮ ਦੇ ਸਾਰੇ ਪੰਜ ਥੰਮ੍ਹਾਂ - ਸ਼ਹਾਦਾ, ਸਾਲਾਹ, ਸਵਾਮ, ਜ਼ਕਾਤ ਅਤੇ ਹੱਜ - ਦੀ ਸਮਝ ਦੇ ਨਾਲ ਤੁਹਾਡੇ ਕੋਲ ਇੱਕ ਪੂਰੀ ਨੀਂਹ ਹੈ। ਇੱਥੋਂ, ਤੁਹਾਡੀ ਯਾਤਰਾ ਹਰ ਰੋਜ਼ ਤੁਹਾਡੇ ਵਿਸ਼ਵਾਸ ਨੂੰ ਡੂੰਘਾ ਕਰਨ, ਵਧਣ ਅਤੇ ਜੀਉਣ ਬਾਰੇ ਹੈ।",
-  "resourceIds": [
-    "zakat-calculator-tool",
-    "zakat-guide-article",
-    "hajj-documentary-video",
-    "hajj-guide-for-beginners",
-    "sadaqah-ideas-article",
-    "islamic-relief-canada"
-  ],
+  "resourceIds": ["zakat-calculator", "being-muslim-book", "seekers-guidance"],
   "relatedGlossaryIds": [
     "zakat",
     "hajj",
@@ -103,5 +96,7 @@
     "eid-al-adha",
     "dhul-hijjah"
   ],
-  "relatedTopicIds": ["pillars-of-islam", "charity"]
+  "relatedTopicIds": ["beliefs", "fasting", "halal-living"],
+  "sourceIds": ["irusa-zakat", "launchgood-zakat", "seekersguidance"],
+  "reviewStatus": "review-needed"
 }

@@ -15,9 +15,12 @@ import type {
   DawahNode,
   DawahNodeKind,
   DuaReminder,
+  HandoffSection,
   IslamicReference,
   Misconception,
+  ReferralBoundary,
   Scenario,
+  TrainingCard,
 } from "@/lib/dawah-types";
 
 interface DawahGuideClientProps {
@@ -44,6 +47,9 @@ interface DawahGuideUiLabels {
   restartGuide: string;
   pauseGentleExit: string;
   draftPendingReview: string;
+  sourceChecked: string;
+  verified: string;
+  guideSourceChecked: string;
   translation: string;
   sourcePrefix: string;
   viewSource: string;
@@ -66,8 +72,17 @@ interface DawahGuideUiLabels {
   commonQuestionsTitle: string;
   misconceptionsTitle: string;
   scenariosTitle: string;
+  trainingCardsTitle: string;
+  postShahadaHandoffTitle: string;
+  referralBoundariesTitle: string;
+  practice: string;
+  handoffActions: string;
+  referTo: string;
   duaRemindersTitle: string;
   printFieldSuggestions: string;
+  printPostShahadaHandoff: string;
+  printReferralBoundaries: string;
+  printScenarioReminders: string;
   printReferences: string;
   duaGroups: Record<DuaReminder["occasion"], string>;
   kind: Record<DawahNodeKind, string>;
@@ -90,6 +105,9 @@ const dawahGuideUiLabels: Record<"en" | "bn", DawahGuideUiLabels> = {
     restartGuide: "Restart guide",
     pauseGentleExit: "Pause — gentle exit",
     draftPendingReview: "Draft — pending review",
+    sourceChecked: "Source checked",
+    verified: "Verified",
+    guideSourceChecked: "Source checked - qualified review pending",
     translation: "Translation",
     sourcePrefix: "Source:",
     viewSource: "View source",
@@ -113,8 +131,17 @@ const dawahGuideUiLabels: Record<"en" | "bn", DawahGuideUiLabels> = {
     commonQuestionsTitle: "Common questions & gentle answers",
     misconceptionsTitle: "Responding to misconceptions",
     scenariosTitle: "Scenario-based guidance",
+    trainingCardsTitle: "Da'ee training cards",
+    postShahadaHandoffTitle: "Post-Shahada handoff",
+    referralBoundariesTitle: "Questions not to answer alone",
+    practice: "Practice",
+    handoffActions: "Actions",
+    referTo: "Refer to",
     duaRemindersTitle: "Dua reminders",
     printFieldSuggestions: "Field suggestions",
+    printPostShahadaHandoff: "Post-Shahada handoff",
+    printReferralBoundaries: "Questions not to answer alone",
+    printScenarioReminders: "Scenario reminders",
     printReferences: "References (verify before sharing)",
     duaGroups: {
       before: "Before the conversation",
@@ -146,6 +173,9 @@ const dawahGuideUiLabels: Record<"en" | "bn", DawahGuideUiLabels> = {
     restartGuide: "গাইড আবার শুরু করুন",
     pauseGentleExit: "বিরতি — কোমলভাবে শেষ",
     draftPendingReview: "খসড়া — পর্যালোচনা বাকি",
+    sourceChecked: "Source checked",
+    verified: "Verified",
+    guideSourceChecked: "Source checked - qualified review pending",
     translation: "অর্থ",
     sourcePrefix: "উৎস:",
     viewSource: "উৎস দেখুন",
@@ -169,8 +199,17 @@ const dawahGuideUiLabels: Record<"en" | "bn", DawahGuideUiLabels> = {
     commonQuestionsTitle: "সাধারণ প্রশ্ন ও কোমল উত্তর",
     misconceptionsTitle: "ভুল ধারণার জবাব",
     scenariosTitle: "পরিস্থিতিভিত্তিক দিকনির্দেশনা",
+    trainingCardsTitle: "Da'ee training cards",
+    postShahadaHandoffTitle: "Post-Shahada handoff",
+    referralBoundariesTitle: "Questions not to answer alone",
+    practice: "Practice",
+    handoffActions: "Actions",
+    referTo: "Refer to",
     duaRemindersTitle: "দোয়ার স্মরণিকা",
     printFieldSuggestions: "মাঠপর্যায়ের পরামর্শ",
+    printPostShahadaHandoff: "Post-Shahada handoff",
+    printReferralBoundaries: "Questions not to answer alone",
+    printScenarioReminders: "Scenario reminders",
     printReferences: "রেফারেন্স (শেয়ারের আগে যাচাই করুন)",
     duaGroups: {
       before: "কথোপকথনের আগে",
@@ -289,6 +328,18 @@ export function DawahGuideClient({ guide }: DawahGuideClientProps) {
         </p>
         <h1 className="mb-3 mt-1">{guide.subtitle}</h1>
         <p className="max-w-3xl text-textSecondary">{guide.audienceNote}</p>
+        {guide.reviewStatus && (
+          <div className="mt-4 max-w-3xl rounded-xl border border-border bg-surface p-4 text-sm text-textSecondary">
+            <p className="mb-1 font-semibold text-textPrimary">
+              {guide.reviewStatus === "verified"
+                ? labels.verified
+                : guide.reviewStatus === "source-checked"
+                  ? labels.guideSourceChecked
+                  : labels.draftPendingReview}
+            </p>
+            {guide.reviewNote && <p className="mb-0">{guide.reviewNote}</p>}
+          </div>
+        )}
       </header>
 
       {/* Toolbar: view mode + print. Hidden when printing. */}
@@ -627,6 +678,22 @@ function ReferenceBlock({
             {labels.draftPendingReview}
           </span>
         )}
+        {reference.reviewStatus === "source-checked" && (
+          <span
+            className="rounded-lg bg-successBg px-2 py-0.5 text-xs font-medium text-success"
+            title={reference.reviewNote}
+          >
+            {labels.sourceChecked}
+          </span>
+        )}
+        {reference.reviewStatus === "verified" && (
+          <span
+            className="rounded-lg bg-successBg px-2 py-0.5 text-xs font-medium text-success"
+            title={reference.reviewNote}
+          >
+            {labels.verified}
+          </span>
+        )}
       </figcaption>
 
       {reference.arabic && (
@@ -855,6 +922,159 @@ function QuickReferenceView({
   );
 }
 
+function TrainingCardsList({
+  items,
+  referenceMap,
+  labels,
+}: {
+  items: TrainingCard[];
+  referenceMap: Map<string, IslamicReference>;
+  labels: DawahGuideUiLabels;
+}) {
+  return (
+    <ul className="mb-0 grid list-none gap-4 pl-0 md:grid-cols-2">
+      {items.map((card) => (
+        <li
+          key={card.id}
+          className="mb-0 rounded-xl border border-border bg-surface p-4"
+        >
+          <p className="mb-1 font-semibold text-textPrimary">{card.title}</p>
+          <p className="mb-3 text-sm text-textSecondary">{card.summary}</p>
+          <p className="mb-1 text-xs font-semibold uppercase tracking-wide text-primary">
+            {labels.practice}
+          </p>
+          <ul className="mb-0 ml-4 list-disc space-y-1 text-sm text-textSecondary">
+            {card.practice.map((step, i) => (
+              <li key={i}>{step}</li>
+            ))}
+          </ul>
+          {card.avoid && card.avoid.length > 0 && (
+            <>
+              <p className="mb-1 mt-3 text-xs font-semibold uppercase tracking-wide text-warning">
+                {labels.watchFor}
+              </p>
+              <ul className="mb-0 ml-4 list-disc space-y-1 text-sm text-textSecondary">
+                {card.avoid.map((item, i) => (
+                  <li key={i}>{item}</li>
+                ))}
+              </ul>
+            </>
+          )}
+          {card.referenceIds && card.referenceIds.length > 0 && (
+            <div className="mt-3 space-y-2">
+              {card.referenceIds.map((refId) => {
+                const ref = referenceMap.get(refId);
+                return ref ? (
+                  <ReferenceBlock key={refId} reference={ref} labels={labels} />
+                ) : null;
+              })}
+            </div>
+          )}
+        </li>
+      ))}
+    </ul>
+  );
+}
+
+function HandoffList({
+  items,
+  referenceMap,
+  labels,
+}: {
+  items: HandoffSection[];
+  referenceMap: Map<string, IslamicReference>;
+  labels: DawahGuideUiLabels;
+}) {
+  return (
+    <ul className="mb-0 grid list-none gap-4 pl-0 md:grid-cols-2">
+      {items.map((section) => (
+        <li
+          key={section.id}
+          className="mb-0 rounded-xl border border-border bg-surface p-4"
+        >
+          <p className="mb-1 font-semibold text-textPrimary">{section.title}</p>
+          <p className="mb-3 text-sm text-textSecondary">{section.summary}</p>
+          <p className="mb-1 text-xs font-semibold uppercase tracking-wide text-primary">
+            {labels.handoffActions}
+          </p>
+          <ul className="mb-0 ml-4 list-disc space-y-1 text-sm text-textSecondary">
+            {section.actions.map((action, i) => (
+              <li key={i}>{action}</li>
+            ))}
+          </ul>
+          {section.avoid && section.avoid.length > 0 && (
+            <>
+              <p className="mb-1 mt-3 text-xs font-semibold uppercase tracking-wide text-warning">
+                {labels.watchFor}
+              </p>
+              <ul className="mb-0 ml-4 list-disc space-y-1 text-sm text-textSecondary">
+                {section.avoid.map((item, i) => (
+                  <li key={i}>{item}</li>
+                ))}
+              </ul>
+            </>
+          )}
+          {section.referenceIds && section.referenceIds.length > 0 && (
+            <div className="mt-3 space-y-2">
+              {section.referenceIds.map((refId) => {
+                const ref = referenceMap.get(refId);
+                return ref ? (
+                  <ReferenceBlock key={refId} reference={ref} labels={labels} />
+                ) : null;
+              })}
+            </div>
+          )}
+        </li>
+      ))}
+    </ul>
+  );
+}
+
+function ReferralBoundariesList({
+  items,
+  referenceMap,
+  labels,
+}: {
+  items: ReferralBoundary[];
+  referenceMap: Map<string, IslamicReference>;
+  labels: DawahGuideUiLabels;
+}) {
+  return (
+    <ul className="mb-0 list-none space-y-4 pl-0">
+      {items.map((boundary) => (
+        <li
+          key={boundary.id}
+          className="mb-0 rounded-xl border border-border bg-surface p-4"
+        >
+          <p className="mb-1 font-semibold text-textPrimary">
+            {boundary.title}
+          </p>
+          <p className="mb-3 text-sm text-textSecondary">{boundary.summary}</p>
+          <ul className="mb-3 ml-4 list-disc space-y-1 text-sm text-textSecondary">
+            {boundary.examples.map((example, i) => (
+              <li key={i}>{example}</li>
+            ))}
+          </ul>
+          <p className="mb-0 rounded-lg border border-warning/20 bg-accentYellow/30 p-3 text-sm text-textPrimary">
+            <span className="font-semibold">{labels.referTo}:</span>{" "}
+            {boundary.referTo}
+          </p>
+          {boundary.referenceIds && boundary.referenceIds.length > 0 && (
+            <div className="mt-3 space-y-2">
+              {boundary.referenceIds.map((refId) => {
+                const ref = referenceMap.get(refId);
+                return ref ? (
+                  <ReferenceBlock key={refId} reference={ref} labels={labels} />
+                ) : null;
+              })}
+            </div>
+          )}
+        </li>
+      ))}
+    </ul>
+  );
+}
+
 function CommonQuestionsList({
   items,
   referenceMap,
@@ -936,9 +1156,11 @@ function MisconceptionsList({
 
 function ScenariosList({
   items,
+  referenceMap,
   labels,
 }: {
   items: Scenario[];
+  referenceMap: Map<string, IslamicReference>;
   labels: DawahGuideUiLabels;
 }) {
   return (
@@ -966,6 +1188,16 @@ function ScenariosList({
                 ))}
               </ul>
             </>
+          )}
+          {s.referenceIds && s.referenceIds.length > 0 && (
+            <div className="mt-3 space-y-2">
+              {s.referenceIds.map((refId) => {
+                const ref = referenceMap.get(refId);
+                return ref ? (
+                  <ReferenceBlock key={refId} reference={ref} labels={labels} />
+                ) : null;
+              })}
+            </div>
           )}
         </li>
       ))}
@@ -1051,11 +1283,41 @@ function AdditionalGuidancePanels({
   labels: DawahGuideUiLabels;
 }) {
   const ag = guide.additionalGuidance;
+  const trainingCards = ag.trainingCards ?? [];
+  const postShahadaHandoff = ag.postShahadaHandoff ?? [];
+  const referralBoundaries = ag.referralBoundaries ?? [];
   return (
     <section className="mt-12 print:hidden" aria-labelledby="more-for-daees">
       <h2 id="more-for-daees">{labels.moreForDaees}</h2>
       <p className="text-textSecondary">{labels.moreForDaeesIntro}</p>
       <div className="mt-4 space-y-3">
+        {trainingCards.length > 0 && (
+          <Accordion title={labels.trainingCardsTitle}>
+            <TrainingCardsList
+              items={trainingCards}
+              referenceMap={referenceMap}
+              labels={labels}
+            />
+          </Accordion>
+        )}
+        {postShahadaHandoff.length > 0 && (
+          <Accordion title={labels.postShahadaHandoffTitle}>
+            <HandoffList
+              items={postShahadaHandoff}
+              referenceMap={referenceMap}
+              labels={labels}
+            />
+          </Accordion>
+        )}
+        {referralBoundaries.length > 0 && (
+          <Accordion title={labels.referralBoundariesTitle}>
+            <ReferralBoundariesList
+              items={referralBoundaries}
+              referenceMap={referenceMap}
+              labels={labels}
+            />
+          </Accordion>
+        )}
         {ag.commonQuestions.length > 0 && (
           <Accordion title={labels.commonQuestionsTitle}>
             <CommonQuestionsList
@@ -1076,7 +1338,11 @@ function AdditionalGuidancePanels({
         )}
         {ag.scenarios.length > 0 && (
           <Accordion title={labels.scenariosTitle}>
-            <ScenariosList items={ag.scenarios} labels={labels} />
+            <ScenariosList
+              items={ag.scenarios}
+              referenceMap={referenceMap}
+              labels={labels}
+            />
           </Accordion>
         )}
         {ag.duas.length > 0 && (
@@ -1140,6 +1406,55 @@ function PrintSummary({
           </li>
         ))}
       </ul>
+
+      {guide.additionalGuidance.postShahadaHandoff &&
+        guide.additionalGuidance.postShahadaHandoff.length > 0 && (
+          <>
+            <h2>{labels.printPostShahadaHandoff}</h2>
+            <ul>
+              {guide.additionalGuidance.postShahadaHandoff.map((section) => (
+                <li key={section.id}>
+                  <strong>{section.title}:</strong> {section.summary}
+                  <ul>
+                    {section.actions.map((action, i) => (
+                      <li key={i}>{action}</li>
+                    ))}
+                  </ul>
+                </li>
+              ))}
+            </ul>
+          </>
+        )}
+
+      {guide.additionalGuidance.referralBoundaries &&
+        guide.additionalGuidance.referralBoundaries.length > 0 && (
+          <>
+            <h2>{labels.printReferralBoundaries}</h2>
+            <ul>
+              {guide.additionalGuidance.referralBoundaries.map((boundary) => (
+                <li key={boundary.id}>
+                  <strong>{boundary.title}:</strong> {boundary.summary}{" "}
+                  <em>
+                    {labels.referTo}: {boundary.referTo}
+                  </em>
+                </li>
+              ))}
+            </ul>
+          </>
+        )}
+
+      {guide.additionalGuidance.scenarios.length > 0 && (
+        <>
+          <h2>{labels.printScenarioReminders}</h2>
+          <ul>
+            {guide.additionalGuidance.scenarios.map((scenario) => (
+              <li key={scenario.id}>
+                <strong>{scenario.audience}:</strong> {scenario.summary}
+              </li>
+            ))}
+          </ul>
+        </>
+      )}
 
       <h2>{labels.printReferences}</h2>
       <ul>

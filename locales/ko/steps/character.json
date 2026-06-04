@@ -52,7 +52,7 @@
         "모든 사람은 이슬람 이전 생활에서 이슬람 가치와 일치하지 않는 습관을 가져옵니다.",
         "변화는 하루아침에 일어나지 않습니다. 한 번에 하나의 습관에 집중하세요.",
         "부정적인 습관을 긍정적인 습관으로 바꾸십시오. 예를 들어, 험담을 dhikr(알라를 기억함)로 바꾸십시오.",
-        "실수를 했다면 istighfar(알라에게 용서를 구하세요)를 하고 다시 시도하세요. 알라는 회개하는 자를 사랑하십니다.",
+        "실수를 했다면 istighfar(알라에게 용서를 구하세요)를 하고 다시 시도하세요. 알라는 회개하는 사람들을 사랑하십니다.",
         "좋은 성격을 고취시키는 사람들과 함께 지내십시오. 당신도 함께 시간을 보내는 사람들처럼 됩니다."
       ]
     }
@@ -82,12 +82,7 @@
   ],
   "tinyVersion": "이번 주에는 한 가지 미덕에 집중하세요. 더 인내심을 갖고, 더 정직하고, 더 감사하는 마음을 가지세요. 좋은 성격은 행동하는 이슬람입니다.",
   "unlocksNext": "캐릭터가 성장할수록 더 많은 것을 배우고 싶은 욕구도 커집니다. 다음 단계는 평생 지식을 추구하는 습관을 기르고 이슬람에 대한 이해를 높이는 것입니다.",
-  "resourceIds": [
-    "prophets-character-book",
-    "akhlaq-in-daily-life-article",
-    "hadith-on-character-collection",
-    "seerah-beginners-book"
-  ],
+  "resourceIds": ["being-muslim-book", "yaqeen-institute", "seerah-podcast"],
   "relatedGlossaryIds": [
     "akhlaq",
     "sabr",
@@ -100,5 +95,7 @@
     "ikhlas",
     "dawah"
   ],
-  "relatedTopicIds": ["character-development", "mental-health"]
+  "relatedTopicIds": ["character", "beliefs", "prophet-muhammad"],
+  "sourceIds": ["sunnah-com", "yaqeen-institute"],
+  "reviewStatus": "review-needed"
 }

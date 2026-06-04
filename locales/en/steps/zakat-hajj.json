@@ -83,14 +83,7 @@
   ],
   "tinyVersion": "Zakat is 2.5% of your savings given annually to those in need. Hajj is a once-in-a-lifetime pilgrimage to Mecca when you are able. Both are future goals — learn about them now and plan when you are ready.",
   "unlocksNext": "With an understanding of all five pillars of Islam — Shahada, Salah, Sawm, Zakat, and Hajj — you have a complete foundation. From here, your journey is about deepening, growing, and living your faith every day.",
-  "resourceIds": [
-    "zakat-calculator-tool",
-    "zakat-guide-article",
-    "hajj-documentary-video",
-    "hajj-guide-for-beginners",
-    "sadaqah-ideas-article",
-    "islamic-relief-canada"
-  ],
+  "resourceIds": ["zakat-calculator", "being-muslim-book", "seekers-guidance"],
   "relatedGlossaryIds": [
     "zakat",
     "hajj",
@@ -103,5 +96,7 @@
     "eid-al-adha",
     "dhul-hijjah"
   ],
-  "relatedTopicIds": ["pillars-of-islam", "charity"]
+  "relatedTopicIds": ["beliefs", "fasting", "halal-living"],
+  "sourceIds": ["irusa-zakat", "launchgood-zakat", "seekersguidance"],
+  "reviewStatus": "review-needed"
 }

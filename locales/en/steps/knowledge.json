@@ -83,11 +83,10 @@
   "tinyVersion": "Pick one reliable source — a book, a course, or a weekly class — and commit to it. Even small, consistent learning adds up to deep understanding over time.",
   "unlocksNext": "With a strong foundation of knowledge and practice, you are ready to learn about the remaining pillars of Islam — Zakat and Hajj — and begin thinking about your long-term goals as a Muslim.",
   "resourceIds": [
-    "seekersguidance-courses",
-    "yaqeen-institute-articles",
-    "bayyinah-tv-subscription",
-    "new-muslim-reading-list",
-    "islamic-podcasts-list"
+    "seekers-guidance",
+    "yaqeen-institute",
+    "bayyinah-tv",
+    "new-muslim-academy"
   ],
   "relatedGlossaryIds": [
     "ilm",
@@ -99,5 +98,12 @@
     "seerah",
     "hadith"
   ],
-  "relatedTopicIds": ["beliefs", "community"]
+  "relatedTopicIds": [
+    "beliefs",
+    "community",
+    "questions-and-doubts",
+    "prophet-muhammad"
+  ],
+  "sourceIds": ["seekersguidance", "yaqeen-institute", "new-muslim-academy"],
+  "reviewStatus": "source-checked"
 }

@@ -17,7 +17,7 @@
     {
       "text": "짧고 강력한 장으로 시작하세요",
       "subSteps": [
-        "알 파티하 수라(1장) — 모든 살라에서 낭송하는 시작 기도입니다. 그 의미를 깊이 읽어 보십시오.",
+        "알 파티하 수라(1장) — 모든 살라에서 낭송하는 시작 기도입니다. 그 의미를 깊이 읽어 보세요.",
         "알 이클라스 장 (112장) — 알라의 유일성에 대한 간결한 선언입니다. 네 구절만요.",
         "Surah Al-Falaq(113장) 및 Surah An-Nas(114장) — 알라의 보호를 구하는 방법에 대한 짧은 장입니다.",
         "Surah Al-Kawthar (108장) — 가장 짧은 장, 단 3절로 구성됩니다.",
@@ -81,10 +81,10 @@
   "unlocksNext": "꾸란에 대한 이해가 커짐에 따라 할랄과 하람에 대한 이해부터 시작하여 일상 생활에 대해 꾸란이 제공하는 실질적인 지침을 탐색할 준비가 됩니다.",
   "resourceIds": [
     "clear-quran-translation",
-    "quran-app-recommendation",
-    "quran-recitation-playlist",
-    "tafsir-beginners-article",
-    "arabic-for-beginners-course"
+    "quran-com",
+    "quran-recitation-mishary",
+    "tarteel-ai-app",
+    "bayyinah-tv"
   ],
   "relatedGlossaryIds": [
     "quran",
@@ -96,5 +96,7 @@
     "bismillah",
     "hafiz"
   ],
-  "relatedTopicIds": ["quran-study", "beliefs"]
+  "relatedTopicIds": ["quran", "beliefs", "prophet-muhammad"],
+  "sourceIds": ["quran-com", "clear-quran", "tanzil"],
+  "reviewStatus": "source-checked"
 }

@@ -10,8 +10,8 @@
       "subSteps": [
         "Busque una traducción que le resulte accesible. Las opciones populares incluyen 'The Clear Quran' del Dr. Mustafa Khattab y 'The Gracious Quran' de Ahmad Zaki Hammad.",
         "Muchas mezquitas regalan copias a los nuevos musulmanes; no dudes en preguntar.",
-        "También puedes utilizar una aplicación del Corán como Quran.com o la aplicación Al-Quran, que ofrecen texto en árabe, transliteración y múltiples traducciones.",
-        "Lo ideal es tener una copia física y una digital: el libro para una lectura concentrada, la aplicación para estar en movimiento."
+        "También puedes usar una aplicación del Corán como Quran.com o la aplicación Al-Quran, que ofrece texto árabe, transliteración y múltiples traducciones.",
+        "Tener tanto una copia física como una digital es ideal: el libro para una lectura concentrada, la aplicación para estar en movimiento."
       ]
     },
     {
@@ -54,7 +54,7 @@
       ]
     }
   ],
-  "timeEstimate": "5 - 15 minutos diarios, práctica continua",
+  "timeEstimate": "5 a 15 minutos diarios de práctica continua",
   "obstacles": [
     {
       "problem": "no puedo leer árabe",
@@ -81,10 +81,10 @@
   "unlocksNext": "A medida que crezca en su comprensión del Corán, estará listo para explorar la guía práctica que ofrece sobre la vida diaria, comenzando por comprender lo halal y lo haram.",
   "resourceIds": [
     "clear-quran-translation",
-    "quran-app-recommendation",
-    "quran-recitation-playlist",
-    "tafsir-beginners-article",
-    "arabic-for-beginners-course"
+    "quran-com",
+    "quran-recitation-mishary",
+    "tarteel-ai-app",
+    "bayyinah-tv"
   ],
   "relatedGlossaryIds": [
     "quran",
@@ -96,5 +96,7 @@
     "bismillah",
     "hafiz"
   ],
-  "relatedTopicIds": ["quran-study", "beliefs"]
+  "relatedTopicIds": ["quran", "beliefs", "prophet-muhammad"],
+  "sourceIds": ["quran-com", "clear-quran", "tanzil"],
+  "reviewStatus": "source-checked"
 }

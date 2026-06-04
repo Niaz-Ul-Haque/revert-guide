@@ -1,0 +1,1430 @@
+{
+  "id": "personal",
+  "slug": "dawah-guide-personal",
+  "title": "Gabay sa Dawah",
+  "subtitle": "Isang magiliw, hakbang-hakbang na kasama sa pagbabahagi ng Islam nang may karunungan at kabaitan.",
+  "audienceNote": "Ito ay isang pribado, direktang link na gabay para sa mga da'ees (mga nag-aanyaya sa Islam). Isa itong field companion, hindi script. Ang mga tunay na pag-uusap ay hindi linear — makinig muna, kumilos sa bilis ng kausap, at ipaubaya ang resulta kay Allah.",
+  "reviewStatus": "source-checked",
+  "reviewNote": "Ang mga sanggunian sa Quran at hadith ay sinuri laban sa mga link sa online na mapagkukunan noong 2026-06-03. Hindi ito minarkahang na-verify dahil nakabinbin pa rin ang kwalipikadong scholar/manual na pag-apruba.",
+  "lastSourceChecked": "2026-06-03",
+  "tonePrinciples": [
+    "Mag-imbita nang may karunungan at mabuting asal, huwag ipilit.",
+    "Makinig nang higit pa kaysa magsalita. Magtanong ng isang tanong sa isang pagkakataon.",
+    "Huwag kailanman kutyain ang paniniwala o background ng ibang tao.",
+    "Iwasan ang debate para manalo. Layunin ng pag-unawa.",
+    "Panatilihing bukas ang pinto kahit na natapos ang pag-uusap nang walang Shahada.",
+    "Gumawa ng taos-pusong dua nang pribado at ipaubaya sa Allah ang resulta."
+  ],
+  "startNodeId": "start",
+  "nodeOrder": [
+    "start",
+    "believe-in-god-initial",
+    "signs-creation-infinite-regress",
+    "believe-in-god-after-signs",
+    "tawheed-surah-ikhlas",
+    "one-god-initial",
+    "ayat-ikhtilaf",
+    "one-god-after-ikhtilaf",
+    "justice-day-judgment-test-revelation",
+    "angels",
+    "messengers-prophets",
+    "jesus-peace-be-upon-him",
+    "shahada-readiness-initial",
+    "encourage-keep-door-open",
+    "shahada-readiness-after-encouragement",
+    "connect-guidance-community",
+    "respectful-exit-best-of-luck"
+  ],
+  "nodes": {
+    "start": {
+      "id": "start",
+      "kind": "intro",
+      "title": "Simulan ang usapan",
+      "eyebrow": "Islam / Muslim",
+      "summary": "Magsimula nang mainit at natural. Bumuo ng isang tunay na koneksyon bago talakayin ang paniniwala.",
+      "explanation": [
+        "Walang perpektong linya ng pambungad. Ang isang taimtim na ngiti, isang mabait na salita, at tunay na interes sa tao ay higit na mahalaga kaysa sa anumang pamamaraan.",
+        "Hayaang dumaloy ang usapan. Hindi ka naghahatid ng lektura — nakikipag-usap ka sa tao na maaaring, malumanay, ay bumaling sa layunin ng buhay at sa ating kaugnayan sa ating Lumikha."
+      ],
+      "conversationTips": [
+        "Magdala ng dalawang bago ka magsimula at hilingin sa Allah na palambutin ang dalawang puso.",
+        "Magtanong ng mga bukas na tanong at tunay na makinig sa mga sagot.",
+        "Humingi ng pahintulot bago lumipat sa isang mas malalim na paksa: \"Okay lang ba kung ibahagi ko kung ano ang tingin ng Islam diyan?\"",
+        "Humanap muna ng common ground — karamihan sa mga tao ay nagmamalasakit sa katotohanan, katarungan, at kahulugan."
+      ],
+      "referenceIds": ["quran-16-125"],
+      "nextNodeId": "believe-in-god-initial"
+    },
+    "believe-in-god-initial": {
+      "id": "believe-in-god-initial",
+      "kind": "decision",
+      "title": "Naniniwala ba sila sa Diyos?",
+      "summary": "Dahan-dahang maunawaan kung saan nakatayo ang tao. Walang tama o maling sagot dito — panimulang punto lamang.",
+      "conversationTips": [
+        "Magtanong nang walang paghatol: \"Naniniwala ka ba sa isang Lumikha?\" at hayaan silang magpaliwanag sa sarili nilang mga salita.",
+        "Kung hindi sila sigurado, ayos lang iyon — makipagkita sa kanila kung nasaan sila."
+      ],
+      "options": [
+        {
+          "id": "yes",
+          "label": "Oo, naniniwala sila sa Diyos",
+          "helperText": "Lumipat tungo sa pag-unawa sa Kaisahan ng Diyos.",
+          "nextNodeId": "tawheed-surah-ikhlas",
+          "ariaLabel": "Oo, naniniwala sila sa Diyos - magpatuloy sa Tawheed"
+        },
+        {
+          "id": "no",
+          "label": "Hindi, o hindi sila sigurado",
+          "helperText": "Malumanay na galugarin ang mga palatandaan ng paglikha nang magkasama.",
+          "nextNodeId": "signs-creation-infinite-regress",
+          "ariaLabel": "Hindi o hindi sigurado — tuklasin ang mga palatandaan ng paglikha"
+        }
+      ]
+    },
+    "signs-creation-infinite-regress": {
+      "id": "signs-creation-infinite-regress",
+      "kind": "teaching",
+      "title": "Ang mga palatandaan ng paglikha",
+      "eyebrow": "Ayat / Disenyo / Paglikha",
+      "summary": "Anyayahan silang pag-isipan ang kaayusan, disenyo, at pag-iral ng uniberso — nang hindi pinipilit ang isang konklusyon.",
+      "explanation": [
+        "Lahat ng nakikita natin ay may simula at dahilan. Ang pagninilay-nilay sa paglikha ay nag-aanyaya ng isang simpleng tanong: lahat ba ng ito ay nagmula sa wala, o ito ba ay tumutukoy sa isang Maylalang?",
+        "Ibahagi ang mga pagmumuni-muni na ito nang mapagpakumbaba, bilang kababalaghan sa halip na bilang isang debate na mapapanalo. Ang layunin ay upang buksan ang isang pinto sa pag-iisip, hindi sa sulok sinuman."
+      ],
+      "conversationTips": [
+        "Mag-imbita ng pagmumuni-muni: \"Naisip mo na ba kung saan nanggaling ang lahat?\"",
+        "Gumamit ng mga pang-araw-araw na halimbawa ng disenyo at kaayusan sa halip na kumplikadong pilosopiya.",
+        "Manatiling kalmado at mausisa. Iwasang gawing argumento."
+      ],
+      "avoid": [
+        "Masyadong kumpiyansa sa mga pilosopikal na claim na hindi mo maipaliwanag.",
+        "Ang pakikipag-usap sa isang tao o ipahiwatig na sila ay hangal."
+      ],
+      "referenceIds": ["quran-52-35"],
+      "nextNodeId": "believe-in-god-after-signs"
+    },
+    "believe-in-god-after-signs": {
+      "id": "believe-in-god-after-signs",
+      "kind": "decision",
+      "title": "Pagkatapos magmuni-muni, naniniwala ba sila sa Diyos?",
+      "summary": "Mag-check in nang malumanay. Ang paniniwala ay nasa pagitan nila at ni Allah — ang iyong tungkulin ay mag-imbita lamang.",
+      "options": [
+        {
+          "id": "yes",
+          "label": "Oo, naniniwala na sila ngayon",
+          "helperText": "Lumipat tungo sa Kaisahan ng Diyos.",
+          "nextNodeId": "tawheed-surah-ikhlas",
+          "ariaLabel": "Oo, naniniwala na sila ngayon - magpatuloy sa Tawheed"
+        },
+        {
+          "id": "no",
+          "label": "Hindi, hindi pa",
+          "helperText": "Isara nang mainit at panatilihing bukas ang pinto.",
+          "nextNodeId": "respectful-exit-best-of-luck",
+          "ariaLabel": "Hindi, hindi pa - malapit nang mainit"
+        }
+      ]
+    },
+    "tawheed-surah-ikhlas": {
+      "id": "tawheed-surah-ikhlas",
+      "kind": "teaching",
+      "title": "Ang Kaisahan ng Diyos (Tawheed)",
+      "eyebrow": "Tawheed / Surah Al-Ikhlas / Allah",
+      "summary": "Ipakilala kung sino ang Diyos sa Islam: Isa, Walang Hanggan, walang katambal o kapantay, gaya ng inilarawan sa Surah Al-Ikhlas.",
+      "explanation": [
+        "Sa Islam, ang Diyos (Allah) ay Iisa — Siya ay walang katambal, walang anak, at walang maihahambing sa Kanya. Ang \"Allah\" ay simpleng salitang Arabe para sa Nag-iisang Diyos, ang parehong Diyos na sinasamba ng lahat ng mga propeta.",
+        "Ang Surah Al-Ikhlas ay isang maikling kabanata ng Qur'an na nagbubuod sa dalisay na paniniwalang ito nang maganda sa apat na linya."
+      ],
+      "conversationTips": [
+        "Ipaliwanag na ang \"Allah\" ay hindi ibang Diyos, ngunit ang Nag-iisang Lumikha ng lahat.",
+        "Ibahagi ang Surah Al-Ikhlas bilang isang banayad, malinaw na buod ng kung sino ang Diyos."
+      ],
+      "referenceIds": ["quran-112-ikhlas"],
+      "nextNodeId": "one-god-initial"
+    },
+    "one-god-initial": {
+      "id": "one-god-initial",
+      "kind": "decision",
+      "title": "Tinatanggap ba nila na ang Diyos ay Isa?",
+      "summary": "Tingnan kung ang ideya ng isa, hindi mahahati na Diyos ay sumasalamin sa kanila.",
+      "options": [
+        {
+          "id": "yes",
+          "label": "Oo, tinatanggap nila ang Isang Diyos",
+          "helperText": "Lumipat tungo sa paghahayag, katarungan, at sa Araw ng Paghuhukom.",
+          "nextNodeId": "justice-day-judgment-test-revelation",
+          "ariaLabel": "Oo, tinatanggap nila ang Isang Diyos — magpatuloy"
+        },
+        {
+          "id": "no",
+          "label": "Hindi, o may mga tanong sila",
+          "helperText": "Dahan-dahang talakayin kung bakit humahantong sa kontradiksyon ang maraming diyos.",
+          "nextNodeId": "ayat-ikhtilaf",
+          "ariaLabel": "Hindi o mga tanong — talakayin ang lohika ng Isang Diyos"
+        }
+      ]
+    },
+    "ayat-ikhtilaf": {
+      "id": "ayat-ikhtilaf",
+      "kind": "teaching",
+      "title": "Bakit may katuturan ang Isang Diyos",
+      "eyebrow": "Ayat Ikhtilaf",
+      "summary": "Talakayin, nang mahinahon, kung paano hahantong sa tunggalian at kaguluhan ang maraming nakikipagkumpitensyang diyos — habang ipinapaliwanag ng nag-iisang Lumikha ang pagkakasundo na nakikita natin.",
+      "explanation": [
+        "Kung mayroong maraming mga diyos na may sariling mga kalooban, ang paglikha ay hihilahin sa magkasalungat na direksyon. Ang kaayusan at pagkakaisa ng sansinukob sa halip ay tumuturo sa isang Awtoridad.",
+        "Ipakita ito bilang isang pagmuni-muni, hindi bilang isang knockout argument. Ang ilang mga tao ay nangangailangan ng oras, at iyon ay okay."
+      ],
+      "conversationTips": [
+        "Panatilihing mapanimdim at mapagpakumbaba ang tono, hindi kailanman palaban.",
+        "Payagan ang katahimikan at mga tanong. Nagtatanim ka ng binhi, hindi nagsasara ng benta."
+      ],
+      "avoid": [
+        "Panlilibak sa polytheistic o iba pang paniniwala.",
+        "Ginagawang mainit na debate ang talakayan."
+      ],
+      "referenceIds": ["quran-21-22"],
+      "nextNodeId": "one-god-after-ikhtilaf"
+    },
+    "one-god-after-ikhtilaf": {
+      "id": "one-god-after-ikhtilaf",
+      "kind": "decision",
+      "title": "May kahulugan ba ang Isang Diyos sa kanila ngayon?",
+      "summary": "Mag-check in muli, malumanay at walang pressure.",
+      "options": [
+        {
+          "id": "yes",
+          "label": "Oo, ito ay may katuturan ngayon",
+          "helperText": "Lumipat tungo sa paghahayag, katarungan, at sa Araw ng Paghuhukom.",
+          "nextNodeId": "justice-day-judgment-test-revelation",
+          "ariaLabel": "Oo — magpatuloy sa paghahayag at sa Araw ng Paghuhukom"
+        },
+        {
+          "id": "no",
+          "label": "Hindi, hindi pa",
+          "helperText": "Isara nang mainit at panatilihing bukas ang pinto.",
+          "nextNodeId": "respectful-exit-best-of-luck",
+          "ariaLabel": "Hindi, hindi pa - malapit nang mainit"
+        }
+      ]
+    },
+    "justice-day-judgment-test-revelation": {
+      "id": "justice-day-judgment-test-revelation",
+      "kind": "teaching",
+      "title": "Katarungan, pagsubok sa buhay, at paghahayag",
+      "eyebrow": "Katarungan / Araw ng Paghuhukom / Pagsubok / Pahayag",
+      "summary": "Ipaliwanag na ang buhay na ito ay isang pagsubok, na ang katarungan ay matutupad sa Araw ng Paghuhukom, at na hindi tayo iniwan ng Diyos na walang patnubay.",
+      "explanation": [
+        "Ang isang makatarungang Diyos ay hindi pababayaan ang maling gawain na hindi natugunan magpakailanman. Ang Araw ng Paghuhukom ay kung saan ang perpektong hustisya ay sa wakas ay naitatag.",
+        "Dahil ang buhay ay isang makabuluhang pagsubok, nagpadala ang Diyos ng paghahayag — patnubay sa pamamagitan ng Kanyang mga mensahero — kaya hinding-hindi tayo pinababayaan na alamin ang layunin ng buhay nang mag-isa."
+      ],
+      "conversationTips": [
+        "Kumonekta sa kanilang likas na kahulugan ng katarungan at pagiging patas.",
+        "Frame revelation bilang awa: hindi tayo pinabayaang manghula."
+      ],
+      "referenceIds": ["hadith-jibril"],
+      "nextNodeId": "angels"
+    },
+    "angels": {
+      "id": "angels",
+      "kind": "teaching",
+      "title": "Paniniwala sa mga anghel",
+      "eyebrow": "Mga anghel",
+      "summary": "Ipakilala ang mga anghel bilang pinarangalan na mga nilikha ng Diyos na nagsasagawa ng Kanyang mga utos, kabilang ang paghahatid ng paghahayag.",
+      "explanation": [
+        "Ang mga anghel ay mga nilalang na nilikha ng Diyos mula sa liwanag, na hindi kailanman sumuway sa Kanya. Mayroon silang mga tungkulin tulad ng paghahatid ng paghahayag, pagtatala ng mga gawa, at iba pa.",
+        "Ang paniniwala sa mga anghel ay bahagi ng mas malawak na pang-unawa ng Islam sa hindi nakikita."
+      ],
+      "referenceIds": ["hadith-jibril"],
+      "nextNodeId": "messengers-prophets"
+    },
+    "messengers-prophets": {
+      "id": "messengers-prophets",
+      "kind": "teaching",
+      "title": "Ang mga mensahero at mga propeta",
+      "eyebrow": "Mga Mensahero / Propeta",
+      "summary": "Ipaliwanag na nagpadala ang Diyos ng maraming propeta at mensahero sa buong kasaysayan, lahat ay may dalang isang pangunahing mensahe: sambahin ang Nag-iisang Diyos.",
+      "explanation": [
+        "Mula sa unang tao, nagpadala ang Diyos ng mga gabay sa bawat tao. Ang mga pangalan tulad ni Noah, Abraham, Moses, at Jesus ay lubos na pinarangalan sa Islam.",
+        "Kahit na ang kanilang mga komunidad at panahon ay magkaiba, ang kanilang pangunahing mensahe ay iisa: mayroon lamang Isang Diyos na karapat-dapat sambahin."
+      ],
+      "conversationTips": [
+        "Bigyang-diin ang ibinahaging thread sa pagitan ng mga propeta — madalas itong tumutugon sa mga tao ng ibang relihiyon."
+      ],
+      "referenceIds": ["quran-21-25"],
+      "nextNodeId": "jesus-peace-be-upon-him"
+    },
+    "jesus-peace-be-upon-him": {
+      "id": "jesus-peace-be-upon-him",
+      "kind": "teaching",
+      "title": "Hesus, sumakaniya nawa ang kapayapaan",
+      "eyebrow": "Hesus (PBUH)",
+      "summary": "Magsalita tungkol kay Jesus nang may malalim na pagmamahal at paggalang, dahil pinarangalan siya ng Islam bilang isa sa mga pinakadakilang mensahero ng Diyos.",
+      "explanation": [
+        "Mahal at iginagalang ng mga Muslim si Hesus (sumakanya nawa ang kapayapaan). Naniniwala kami sa kanyang mahimalang pagsilang, sa kanyang mga himala sa pahintulot ng Diyos, at sa kanyang marangal na mensahe.",
+        "Itinuturo ng Islam na si Hesus ay isang makapangyarihang sugo ng Diyos na tumawag sa mga tao upang sambahin ang Nag-iisang Diyos. Lalapitan ang paksang ito nang may matinding pag-iingat at paggalang, lalo na sa mga may Kristiyanong background."
+      ],
+      "conversationTips": [
+        "Mamuno nang may ibinahaging pagmamahal at paggalang kay Jesus — hindi kailanman nang may pamumuna.",
+        "Makinig nang mabuti; ito ay maaaring maging emosyonal na paksa para sa marami."
+      ],
+      "avoid": [
+        "Hindi paggalang sa mga paniniwala ng Kristiyano o agresibong pagtatalo tungkol sa teolohiya.",
+        "Nagmamadali sa pag-uusap na ito — bigyan ito ng init at oras."
+      ],
+      "referenceIds": ["quran-3-45"],
+      "nextNodeId": "shahada-readiness-initial"
+    },
+    "shahada-readiness-initial": {
+      "id": "shahada-readiness-initial",
+      "kind": "decision",
+      "title": "Handa na ba sila para sa Shahada?",
+      "summary": "Pakiramdam kung ang tao ay nakakaramdam na handa nang yakapin ang Islam. Ang pagiging handa ay dapat magmula sa kanila, taos-puso at malaya.",
+      "conversationTips": [
+        "Huwag kailanman i-pressure. Ang Shahada ay dapat na isang libre, taos-pusong pagpili.",
+        "Magtanong minsan nang may kahinahunan, pagkatapos ay bigyan sila ng puwang para makapag-isip.",
+        "Ito ay ganap na maayos - at madalas na mas mahusay - para sa isang tao na maglaan ng mas maraming oras."
+      ],
+      "options": [
+        {
+          "id": "yes",
+          "label": "Oo, handa na sila",
+          "helperText": "Ikonekta sila sa gabay at sa komunidad.",
+          "nextNodeId": "connect-guidance-community",
+          "ariaLabel": "Oo, handa na sila — ikonekta sila sa komunidad"
+        },
+        {
+          "id": "no",
+          "label": "hindi pa",
+          "helperText": "Maghikayat ng malumanay at panatilihing bukas ang pinto.",
+          "nextNodeId": "encourage-keep-door-open",
+          "ariaLabel": "Hindi pa — humihikayat nang malumanay"
+        }
+      ]
+    },
+    "encourage-keep-door-open": {
+      "id": "encourage-keep-door-open",
+      "kind": "encouragement",
+      "title": "Maghikayat nang malumanay, panatilihing bukas ang pinto",
+      "eyebrow": "Hikayatin",
+      "summary": "Mag-alok ng init, mapagkukunan, at pagkakaibigan nang walang anumang panggigipit. Ipaalam sa kanila na laging bukas ang pinto.",
+      "explanation": [
+        "Tiyakin silang walang pagmamadali at walang pressure. Mag-alok na sagutin ang mga tanong anumang oras, magbahagi ng kaunting bilang ng mga mapagkakatiwalaang mapagkukunan, at hayaan silang magpasya kung gusto nilang magpatuloy ngayon o mamaya.",
+        "Ang isang mabait, matiyagang da'ee na nagpanatiling bukas ng pinto ay higit na epektibo kaysa sa isang nagtutulak. Ang patnubay ay mula kay Allah, at maraming tao ang tumatanggap ng Islam pagkatapos ng unang pag-uusap."
+      ],
+      "conversationTips": [
+        "Mag-alok ng iyong contact at ilang malumanay na mapagkukunan.",
+        "Kung sila ay mukhang pagod, tensyonado, o nalulula, i-pause sa halip na magdagdag ng higit pang mga puntos.",
+        "Muling pagtibayin ang pagkakaibigan anuman ang kanilang desisyon.",
+        "Gumawa ng taos-pusong dua para sa kanila nang pribado."
+      ],
+      "referenceIds": ["quran-51-55", "quran-28-56", "quran-2-256"],
+      "nextNodeId": "shahada-readiness-after-encouragement"
+    },
+    "shahada-readiness-after-encouragement": {
+      "id": "shahada-readiness-after-encouragement",
+      "kind": "decision",
+      "title": "Pagkatapos ng paghihikayat, handa na ba sila?",
+      "summary": "Mag-check in lamang muli kung ang sandali ay malugod pa rin. Anuman ang kanilang desisyon, tumugon nang may kabaitan.",
+      "options": [
+        {
+          "id": "yes",
+          "label": "Oo, hinihiling nilang magpatuloy",
+          "helperText": "Ikonekta sila sa gabay at sa komunidad.",
+          "nextNodeId": "connect-guidance-community",
+          "ariaLabel": "Oo, hinihiling nilang magpatuloy — ikonekta sila sa komunidad"
+        },
+        {
+          "id": "no",
+          "label": "Hindi pa rin",
+          "helperText": "Isara nang mainit at panatilihing bukas ang pinto.",
+          "nextNodeId": "respectful-exit-best-of-luck",
+          "ariaLabel": "Hindi pa rin - malapit nang mainit"
+        }
+      ]
+    },
+    "connect-guidance-community": {
+      "id": "connect-guidance-community",
+      "kind": "completion",
+      "title": "Ikonekta sila sa gabay at komunidad",
+      "eyebrow": "Mga Contact / Gabay sa Muslim",
+      "summary": "Tulungan silang gawin ang mga susunod na hakbang nang may suporta. Ang isang bagong Muslim ay hindi dapat makaramdam ng pag-iisa.",
+      "explanation": [
+        "Ang pagyakap sa Islam ay isang simula, hindi isang wakas. Ang pinakamahalagang bagay ngayon ay mapagmahal na suporta at banayad, praktikal na patnubay.",
+        "Tulungan silang kumonekta sa isang mapagkakatiwalaang lokal na komunidad upang matuto at umunlad sila sa sarili nilang bilis."
+      ],
+      "checklist": [
+        "Ipakilala sila sa isang mabait na lokal na imam o tagapagturo.",
+        "Ikonekta sila sa isang bagong grupo ng suportang Muslim.",
+        "Tulungan silang makahanap ng malugod na lokal na masjid.",
+        "Sumang-ayon sa isang malumanay na follow-up na plano (isang check-in, isang klase, isang pagkain nang magkasama).",
+        "Magbahagi ng mga mapagkukunan para sa mga nagsisimula sa panalangin at mga pangunahing kaalaman sa Islam."
+      ],
+      "referenceIds": ["quran-16-125"]
+    },
+    "respectful-exit-best-of-luck": {
+      "id": "respectful-exit-best-of-luck",
+      "kind": "exit",
+      "title": "Isara nang mainit — panatilihing bukas ang pinto",
+      "eyebrow": "Best of luck",
+      "summary": "Tapusin ang bawat pag-uusap nang may kabaitan, anuman ang kahihinatnan. Ang iyong trabaho ay upang ihatid, hindi upang magbalik-loob.",
+      "explanation": [
+        "Taos-puso silang pasalamatan sa kanilang oras at pagiging bukas. Gawing malinaw na palagi silang malugod na ipagpatuloy ang pag-uusap sa ibang pagkakataon.",
+        "Iwasan ang anumang pagkabigo o debate. Ang patnubay ay mula sa Allah lamang - ang iyong tungkulin ay mag-imbita lamang nang may karunungan at mabuting asal, at magdasal para sa kanila nang pribado."
+      ],
+      "conversationTips": [
+        "Iwanan sila ng magandang impresyon sa Islam at Muslim.",
+        "Mag-alok na manatiling nakikipag-ugnayan at sagutin ang mga tanong anumang oras.",
+        "Huwag humingi ng desisyon pagkatapos nilang malinaw na naka-pause o tinanggihan.",
+        "Gumawa ng taos-pusong panalangin para sa kanila pagkatapos mong maghiwalay."
+      ],
+      "referenceIds": ["quran-51-55", "quran-28-56", "quran-2-256"]
+    }
+  },
+  "gorap": [
+    {
+      "letter": "G",
+      "title": "Diyos",
+      "shortLabel": "Pag-iral ng Allah",
+      "explanation": "Magtatag ng paniniwala sa isang Lumikha — ang pagkakaroon ng Diyos.",
+      "relatedNodeIds": [
+        "believe-in-god-initial",
+        "signs-creation-infinite-regress"
+      ]
+    },
+    {
+      "letter": "O",
+      "title": "Isang Diyos",
+      "shortLabel": "Tawheed",
+      "explanation": "Itatag ang Kaisahan ng Diyos - na Siya ay Isa, walang katambal o kapantay.",
+      "relatedNodeIds": [
+        "tawheed-surah-ikhlas",
+        "one-god-initial",
+        "ayat-ikhtilaf"
+      ]
+    },
+    {
+      "letter": "R",
+      "title": "Pahayag",
+      "shortLabel": "Katarungan / Araw ng Paghuhukom / Pagsubok",
+      "explanation": "Itatag na ang buhay ay isang pagsubok, ang katarungan ay matutupad, at ang Diyos ay nagpadala ng paghahayag bilang patnubay.",
+      "relatedNodeIds": ["justice-day-judgment-test-revelation"]
+    },
+    {
+      "letter": "A",
+      "title": "Mga anghel",
+      "shortLabel": "Mga anghel",
+      "explanation": "Magtatag ng paniniwala sa mga anghel, pinarangalan na mga nilikha na nagsasagawa ng mga utos ng Diyos.",
+      "relatedNodeIds": ["angels"]
+    },
+    {
+      "letter": "P",
+      "title": "Mga Propeta at Mensahero",
+      "shortLabel": "Isang Mensahe",
+      "explanation": "Magtatag ng paniniwala sa mga propeta at mensahero, na lahat ay nagdadala ng isang pangunahing mensahe.",
+      "relatedNodeIds": ["messengers-prophets", "jesus-peace-be-upon-him"]
+    }
+  ],
+  "suggestions": {
+    "outsideTheField": [
+      {
+        "id": "dua",
+        "title": "Dua",
+        "body": "Gumawa ng taos-pusong dua para sa tao at para sa iyong sarili bago, habang, at pagkatapos ng pag-uusap. Ang patnubay ay nagmumula sa Allah.",
+        "priority": "core"
+      },
+      {
+        "id": "sincerity",
+        "title": "Katapatan",
+        "body": "Linisin ang iyong intensyon. Inihahatid mo ang mensahe para sa kapakanan ng Allah, hindi para manalo o para makita.",
+        "priority": "core"
+      },
+      {
+        "id": "planning",
+        "title": "Pagpaplano",
+        "body": "Alamin nang mabuti ang mga pangunahing kaalaman upang masagot mo ang mga karaniwang tanong nang mahinahon at tapat. Masarap sabihing \"Hindi ko alam, hayaan mo akong malaman.\"",
+        "priority": "helpful"
+      },
+      {
+        "id": "istiqamah",
+        "title": "Istiqamah",
+        "body": "Maging matatag at pare-pareho sa iyong sariling pagsasanay. Ang iyong karakter ang iyong pinakamakapangyarihang dawah.",
+        "priority": "helpful"
+      }
+    ],
+    "onTheField": [
+      {
+        "id": "make-dua",
+        "title": "Gumawa ng dalawa",
+        "body": "Tahimik na hilingin sa Allah na palambutin ang mga puso habang nagbubukas ang pag-uusap.",
+        "priority": "core"
+      },
+      {
+        "id": "smile",
+        "title": "Panatilihin ang isang ngiti",
+        "body": "Ang isang mainit, tunay na ngiti ay isang anyo ng pagkakawanggawa at nagbubukas ng mga puso.",
+        "priority": "helpful"
+      },
+      {
+        "id": "polite-kind",
+        "title": "Maging magalang at mabait",
+        "body": "Ang mabuting asal ay nag-iiwan ng pangmatagalang, positibong impresyon sa Islam.",
+        "priority": "core"
+      },
+      {
+        "id": "avoid-debate",
+        "title": "Iwasan ang hindi kinakailangang debate",
+        "body": "Layunin ang pag-unawa, hindi ang pagwawagi ng mga argumento. Umatras kung uminit ito.",
+        "priority": "core"
+      },
+      {
+        "id": "follow-flow",
+        "title": "Sundin ang daloy at priyoridad",
+        "body": "Kilalanin ang tao kung nasaan sila. Huwag pilitin ang utos — hayaang huminga ang usapan.",
+        "priority": "helpful"
+      },
+      {
+        "id": "be-concise",
+        "title": "Maging maigsi (may kamalayan sa oras)",
+        "body": "Igalang ang kanilang oras at atensyon. Magsabi ng kaunti, makinig pa.",
+        "priority": "helpful"
+      },
+      {
+        "id": "redirect",
+        "title": "I-redirect sa mga priyoridad",
+        "body": "Dahan-dahang idirekta ang mga side-tangent pabalik sa puso ng bagay kapag nakakatulong.",
+        "priority": "helpful"
+      },
+      {
+        "id": "encourage-shahada",
+        "title": "Hikayatin ang Shahada (huwag pilitin)",
+        "body": "Mag-imbita ng malumanay. Ang desisyon ay dapat na taos-puso at libre. Huwag kailanman i-pressure ang sinuman.",
+        "priority": "core"
+      }
+    ]
+  },
+  "references": [
+    {
+      "id": "quran-16-125",
+      "type": "quran",
+      "citation": "Qur'an 16:125 (excerpt)",
+      "label": "Nag-aanyaya nang may karunungan at mabuting pagtuturo",
+      "arabic": "ٱدْعُ إِلَىٰ سَبِيلِ رَبِّكَ بِٱلْحِكْمَةِ وَٱلْمَوْعِظَةِ ٱلْحَسَنَةِ ۖ وَجَـٰدِلْهُم بِٱلَّتِى هِىَ أَحْسَنُ",
+      "translation": "Anyayahan ang ˹lahat˺ sa Daan ng iyong Panginoon nang may karunungan at mabait na payo, at makipagtalo lamang sa kanila sa pinakamabuting paraan.",
+      "translator": "Dr. Mustafa Khattab, The Clear Quran",
+      "sourceName": "Quran.com",
+      "sourceUrl": "https://quran.com/16/125",
+      "reviewStatus": "source-checked",
+      "reviewNote": "Sinuri ang sipi laban sa Quran.com noong 2026-06-03; nakabinbin ang qualified scholar/manual approval."
+    },
+    {
+      "id": "quran-51-55",
+      "type": "quran",
+      "citation": "Qur'an 51:55",
+      "label": "Ang mga paalala ay nakikinabang sa mga mananampalataya",
+      "arabic": "وَذَكِّرْ فَإِنَّ ٱلذِّكْرَىٰ تَنفَعُ ٱلْمُؤْمِنِينَ",
+      "translation": "Ngunit ˹patuloy na˺ paalalahanan. Sapagkat tiyak na ang mga paalala ay nakikinabang sa mga mananampalataya.",
+      "translator": "Dr. Mustafa Khattab, The Clear Quran",
+      "sourceName": "Quran.com",
+      "sourceUrl": "https://quran.com/51/55",
+      "reviewStatus": "source-checked",
+      "reviewNote": "Sinuri laban sa Quran.com noong 2026-06-03; nakabinbin ang qualified scholar/manual approval."
+    },
+    {
+      "id": "quran-112-ikhlas",
+      "type": "quran",
+      "citation": "Qur'an 112:1-4 (Surah Al-Ikhlas)",
+      "label": "Ang dalisay na pagpapahayag ng Kaisahan ng Diyos",
+      "arabic": "قُلْ هُوَ ٱللَّهُ أَحَدٌ ٱللَّهُ ٱلصَّمَدُ لَمْ يَلِدْ وَلَمْ يُولَدْ وَلَمْ يَكُن لَّهُۥ كُفُوًا أَحَدٌۢ",
+      "translation": "Sabihin, ˹O Propeta,˺ \"Siya ang Allah—Isa ˹at Hindi Nakikita; Allah—ang Tagapangalaga na kailangan ng lahat˺. Siya ay hindi kailanman nagkaroon ng supling, ni Siya ay isinilang. At walang sinumang maihahambing sa Kanya.\"",
+      "translator": "Dr. Mustafa Khattab, The Clear Quran",
+      "sourceName": "Quran.com",
+      "sourceUrl": "https://quran.com/112",
+      "reviewStatus": "source-checked",
+      "reviewNote": "Sinuri laban sa Quran.com noong 2026-06-03; nakabinbin ang qualified scholar/manual approval."
+    },
+    {
+      "id": "quran-52-35",
+      "type": "quran",
+      "citation": "Qur'an 52:35",
+      "label": "Pagninilay sa paglikha",
+      "arabic": "أَمْ خُلِقُوا۟ مِنْ غَيْرِ شَىْءٍ أَمْ هُمُ ٱلْخَٰلِقُونَ",
+      "translation": "O sila ba ay nilikha ng wala, o sila ba ay ˹kanilang sarili˺ na mga tagalikha?",
+      "translator": "Dr. Mustafa Khattab, The Clear Quran",
+      "sourceName": "Quran.com",
+      "sourceUrl": "https://quran.com/52/35",
+      "reviewStatus": "source-checked",
+      "reviewNote": "Sinuri laban sa Quran.com noong 2026-06-03; nakabinbin ang qualified scholar/manual approval."
+    },
+    {
+      "id": "quran-21-22",
+      "type": "quran",
+      "citation": "Qur'an 21:22 (excerpt)",
+      "label": "Ang lohika ng Isang Diyos",
+      "arabic": "لَوْ كَانَ فِيهِمَآ ءَالِهَةٌ إِلَّا ٱللَّهُ لَفَسَدَتَا",
+      "translation": "Kung mayroon pang ibang mga diyos maliban kay Allah sa mga langit o sa lupa, ang parehong ˹mga kaharian˺ ay tiyak na nasira.",
+      "translator": "Dr. Mustafa Khattab, The Clear Quran",
+      "sourceName": "Quran.com",
+      "sourceUrl": "https://quran.com/21/22",
+      "reviewStatus": "source-checked",
+      "reviewNote": "Sinuri ang sipi laban sa Quran.com noong 2026-06-03; nakabinbin ang qualified scholar/manual approval."
+    },
+    {
+      "id": "quran-21-25",
+      "type": "quran",
+      "citation": "Qur'an 21:25",
+      "label": "Isang mensahe sa lahat ng mga messenger",
+      "arabic": "وَمَآ أَرْسَلْنَا مِن قَبْلِكَ مِن رَّسُولٍ إِلَّا نُوحِىٓ إِلَيْهِ أَنَّهُۥ لَآ إِلَٰهَ إِلَّآ أَنَا۠ فَٱعْبُدُونِ",
+      "translation": "Kami ay hindi kailanman nagpadala ng isang mensahero bago ka ˹O Propeta˺ nang hindi ipinahayag sa kanya: “Walang diyos na ˹karapat-dapat sambahin˺ maliban sa Akin, kaya sambahin Ako ˹nag-iisa˺.”",
+      "translator": "Dr. Mustafa Khattab, The Clear Quran",
+      "sourceName": "Quran.com",
+      "sourceUrl": "https://quran.com/21/25",
+      "reviewStatus": "source-checked",
+      "reviewNote": "Sinuri laban sa Quran.com noong 2026-06-03; nakabinbin ang qualified scholar/manual approval."
+    },
+    {
+      "id": "quran-3-45",
+      "type": "quran",
+      "citation": "Qur'an 3:45",
+      "label": "Ang pinarangalan na katayuan ni Hesus, anak ni Maria",
+      "arabic": "إِذْ قَالَتِ ٱلْمَلَـٰٓئِكَةُ يَـٰمَرْيَمُ إِنَّ ٱللَّهَ يُبَشِّرُكِ بِكَلِمَةٍۢ مِّنْهُ ٱسْمُهُ ٱلْمَسِيحُ عِيسَى ٱبْنُ مَرْيَمَ وَجِيهًۭا فِى ٱلدُّنْيَا وَٱلْـَٔاخِرَةِ وَمِنَ ٱلْمُقَرَّبِينَ",
+      "translation": "˹Alalahanin˺ nang ipahayag ng mga anghel, \"O Maria! Si Allah ay nagbigay sa iyo ng magandang balita ng isang Salita mula sa Kanya, ang kanyang pangalan ay ang Mesiyas, Jesus, anak ni Maria; pinarangalan sa mundong ito at sa Kabilang Buhay, at siya ay magiging isa sa mga pinakamalapit na ˹kay Allah˺.\"",
+      "translator": "Dr. Mustafa Khattab, The Clear Quran",
+      "sourceName": "Quran.com",
+      "sourceUrl": "https://quran.com/3/45",
+      "reviewStatus": "source-checked",
+      "reviewNote": "Sinuri laban sa Quran.com noong 2026-06-03; nakabinbin ang qualified scholar/manual approval."
+    },
+    {
+      "id": "hadith-jibril",
+      "type": "hadith",
+      "citation": "Sahih Muslim 8a (Book 1, Hadith 1) — Hadith of Jibril",
+      "label": "Ang anim na saligan ng pananampalataya",
+      "translation": "Na iyong pagtibayin ang iyong pananalig kay Allah, sa Kanyang mga anghel, sa Kanyang mga Aklat, sa Kanyang mga Apostol, sa Araw ng Paghuhukom, at pinagtitibay mo ang iyong pananampalataya sa Banal na Kautusan tungkol sa mabuti at masama.",
+      "sourceName": "Sahih Muslim (sunnah.com)",
+      "sourceUrl": "https://sunnah.com/muslim:8a",
+      "reviewStatus": "source-checked",
+      "reviewNote": "Sinuri ang sipi laban sa Sunnah.com noong 2026-06-03; nakabinbin ang qualified scholar/manual approval."
+    },
+    {
+      "id": "quran-2-256",
+      "type": "quran",
+      "citation": "Qur'an 2:256 (excerpt)",
+      "label": "Walang pagpilit sa relihiyon",
+      "arabic": "لَآ إِكْرَاهَ فِى ٱلدِّينِ ۖ قَد تَّبَيَّنَ ٱلرُّشْدُ مِنَ ٱلْغَىِّ",
+      "translation": "Huwag magkaroon ng pamimilit sa relihiyon, sapagkat ang katotohanan ay namumukod-tangi sa kasinungalingan.",
+      "translator": "Dr. Mustafa Khattab, The Clear Quran",
+      "sourceName": "Quran.com",
+      "sourceUrl": "https://quran.com/2/256",
+      "reviewStatus": "source-checked",
+      "reviewNote": "Sinuri ang sipi laban sa Quran.com noong 2026-06-03; nakabinbin ang qualified scholar/manual approval."
+    },
+    {
+      "id": "quran-28-56",
+      "type": "quran",
+      "citation": "Qur'an 28:56",
+      "label": "Ang patnubay ay kay Allah lamang",
+      "arabic": "إِنَّكَ لَا تَهْدِى مَنْ أَحْبَبْتَ وَلَـٰكِنَّ ٱللَّهَ يَهْدِى مَن يَشَآءُ ۚ وَهُوَ أَعْلَمُ بِٱلْمُهْتَدِينَ",
+      "translation": "Katiyakang hindi mo magagabayan ang sinumang gusto mo ˹O Propeta˺, ngunit si Allah ang gumagabay sa sinumang Kanyang naisin, at Siya ang higit na nakakaalam kung sino ang ˹karapat-dapat na patnubayan.",
+      "translator": "Dr. Mustafa Khattab, The Clear Quran",
+      "sourceName": "Quran.com",
+      "sourceUrl": "https://quran.com/28/56",
+      "reviewStatus": "source-checked",
+      "reviewNote": "Sinuri laban sa Quran.com noong 2026-06-03; nakabinbin ang qualified scholar/manual approval."
+    },
+    {
+      "id": "quran-20-25-26",
+      "type": "quran",
+      "citation": "Qur'an 20:25-26",
+      "label": "Ang dasal ni Propeta Moses para sa kadalian at bukas na puso",
+      "arabic": "رَبِّ ٱشْرَحْ لِى صَدْرِى وَيَسِّرْ لِىٓ أَمْرِى",
+      "translation": "Panginoon ko! Itaas ang aking puso para sa akin, at gawing madali ang aking gawain,",
+      "translator": "Dr. Mustafa Khattab, The Clear Quran",
+      "sourceName": "Quran.com",
+      "sourceUrl": "https://quran.com/20/25-26",
+      "reviewStatus": "source-checked",
+      "reviewNote": "Sinuri laban sa Quran.com 20:25 at 20:26 noong 2026-06-03; nakabinbin ang qualified scholar/manual approval."
+    },
+    {
+      "id": "new-muslim-academy",
+      "type": "scholarly-note",
+      "citation": "New Muslim Academy",
+      "label": "Beginner education at convert-support framing",
+      "sourceName": "New Muslim Academy",
+      "sourceUrl": "https://www.newmuslimacademy.org/",
+      "reviewStatus": "source-checked",
+      "reviewNote": "Ang opisyal na mapagkukunan ng edukasyon ay nasuri online noong 2026-06-03; ginagamit para sa pag-frame ng suporta para sa mga nagsisimula, hindi mga personal na desisyon."
+    },
+    {
+      "id": "whyislam-jesus",
+      "type": "scholarly-note",
+      "citation": "WhyIslam: Jesus in Islam",
+      "label": "Panimulang edukasyon tungkol kay Hesus sa Islam",
+      "sourceName": "WhyIslam",
+      "sourceUrl": "https://www.whyislam.org/jesus-pbuh/",
+      "reviewStatus": "source-checked",
+      "reviewNote": "Ang opisyal na mapagkukunan ng pampublikong edukasyon ay nasuri online noong 2026-06-03; ginagamit para sa magalang na panimulang pag-frame."
+    },
+    {
+      "id": "quran-67-2",
+      "type": "quran",
+      "citation": "Qur'an 67:2",
+      "label": "Buhay bilang pagsubok",
+      "translation": "Siya ang Isa na lumikha ng kamatayan at buhay upang subukin kung sino sa inyo ang pinakamahusay sa mga gawa.",
+      "translator": "Dr. Mustafa Khattab, The Clear Quran",
+      "sourceName": "Quran.com",
+      "sourceUrl": "https://quran.com/67/2",
+      "reviewStatus": "source-checked",
+      "reviewNote": "Sinuri laban sa Quran.com noong 2026-06-03; nakabinbin ang qualified scholar/manual approval."
+    },
+    {
+      "id": "quran-2-155",
+      "type": "quran",
+      "citation": "Qur'an 2:155",
+      "label": "Mga pagsubok at pasensya",
+      "translation": "Tiyak na susubukin namin kayo ng isang dampi ng takot at taggutom at pagkawala ng ari-arian, buhay, at mga pananim. Magbigay ng mabuting balita sa mga matiyagang nagtitiis.",
+      "translator": "Dr. Mustafa Khattab, The Clear Quran",
+      "sourceName": "Quran.com",
+      "sourceUrl": "https://quran.com/2/155",
+      "reviewStatus": "source-checked",
+      "reviewNote": "Sinuri laban sa Quran.com noong 2026-06-03; nakabinbin ang qualified scholar/manual approval."
+    },
+    {
+      "id": "quran-33-35",
+      "type": "quran",
+      "citation": "Qur'an 33:35",
+      "label": "Mga kalalakihan at kababaihan na hinarap sa pananampalataya",
+      "translation": "Katiyakan para sa mga Muslim na lalaki at babae, mananampalataya na lalaki at babae, madasalin na lalaki at babae... Si Allah ay naghanda ng kapatawaran at isang malaking gantimpala.",
+      "translator": "Dr. Mustafa Khattab, The Clear Quran",
+      "sourceName": "Quran.com",
+      "sourceUrl": "https://quran.com/33/35",
+      "reviewStatus": "source-checked",
+      "reviewNote": "Sinuri ang sipi laban sa Quran.com noong 2026-06-03; nakabinbin ang qualified scholar/manual approval."
+    },
+    {
+      "id": "quran-5-32",
+      "type": "quran",
+      "citation": "Qur'an 5:32 (excerpt)",
+      "label": "Kabanalan ng buhay",
+      "translation": "Ang sinumang kumitil ng buhay... para bang pinatay nila ang lahat ng sangkatauhan.",
+      "translator": "Dr. Mustafa Khattab, The Clear Quran",
+      "sourceName": "Quran.com",
+      "sourceUrl": "https://quran.com/5/32",
+      "reviewStatus": "source-checked",
+      "reviewNote": "Sinuri ang sipi laban sa Quran.com noong 2026-06-03; nakabinbin ang qualified scholar/manual approval."
+    },
+    {
+      "id": "whyislam-mosque-visit",
+      "type": "scholarly-note",
+      "citation": "WhyIslam: First Mosque Visit",
+      "label": "Bagong convert na suporta sa mosque",
+      "sourceName": "WhyIslam",
+      "sourceUrl": "https://www.whyislam.org/mosquevisit/",
+      "reviewStatus": "source-checked",
+      "reviewNote": "Ang opisyal na mapagkukunan ng pampublikong edukasyon ay nasuri online noong 2026-06-03; ginagamit para sa unang pagbisita sa masjid at pampublikong pag-frame ng hangganan ng Shahada."
+    },
+    {
+      "id": "whyislam-becoming-muslim",
+      "type": "scholarly-note",
+      "citation": "WhyIslam: Becoming Muslim",
+      "label": "Shahada panimula",
+      "sourceName": "WhyIslam",
+      "sourceUrl": "https://www.whyislam.org/muslimhow/",
+      "reviewStatus": "source-checked",
+      "reviewNote": "Ang opisyal na mapagkukunan ng pampublikong edukasyon ay nasuri online noong 2026-06-03; ginagamit para sa pangunahing oryentasyon ng Shahada."
+    },
+    {
+      "id": "seekersguidance-shahada-witnesses",
+      "type": "scholarly-note",
+      "citation": "SeekersGuidance: Does Taking Shahada Require Witnesses?",
+      "label": "Kwalipikadong gabay ng Shahada",
+      "sourceName": "SeekersGuidance",
+      "sourceUrl": "https://seekersguidance.org/answers/calling-to-islam/does-taking-shahada-require-witnesses/",
+      "reviewStatus": "source-checked",
+      "reviewNote": "Ang kuwalipikadong mapagkukunan ng edukasyon ay nasuri online noong 2026-06-03; ginagamit para sa privacy at hangganan ng pampublikong saksi sa paligid ng Shahada."
+    },
+    {
+      "id": "new-muslim-academy-family",
+      "type": "scholarly-note",
+      "citation": "New Muslim Academy: Family",
+      "label": "Pag-frame ng suporta sa pamilya",
+      "sourceName": "New Muslim Academy",
+      "sourceUrl": "https://www.newmuslimacademy.org/family/",
+      "reviewStatus": "source-checked",
+      "reviewNote": "Ang opisyal na mapagkukunan ng edukasyon ay nasuri online noong 2026-06-03; ginagamit para sa pag-frame ng suporta sa pamilya, pag-aari, at post-Shahada."
+    },
+    {
+      "id": "seekersguidance",
+      "type": "scholarly-note",
+      "citation": "SeekersGuidance",
+      "label": "Kwalipikadong edukasyong Islamiko",
+      "sourceName": "SeekersGuidance",
+      "sourceUrl": "https://seekersguidance.org/",
+      "reviewStatus": "source-checked",
+      "reviewNote": "Ang kuwalipikadong mapagkukunan ng edukasyon ay nasuri online noong 2026-06-03; ginamit upang sumangguni sa mga detalyadong tanong sa fiqh at teolohiya sa mga kwalipikadong guro."
+    },
+    {
+      "id": "yaqeen-women",
+      "type": "scholarly-note",
+      "citation": "Yaqeen Institute: Islam and Women",
+      "label": "Babae sa edukasyon sa Islam",
+      "sourceName": "Yaqeen Institute",
+      "sourceUrl": "https://yaqeeninstitute.org/what-islam-says-about/islam-and-women",
+      "reviewStatus": "source-checked",
+      "reviewNote": "Sinuri ang pahina ng paksang pang-edukasyon na nasuri online noong 2026-06-03; ginagamit para sa maingat, hindi polemikal na pag-frame ng senaryo ng kababaihan-sa-Islam."
+    },
+    {
+      "id": "yaqeen-violence",
+      "type": "scholarly-note",
+      "citation": "Yaqeen Institute: Islam and Violence",
+      "label": "Karahasan at mga salaysay ng media",
+      "sourceName": "Yaqeen Institute",
+      "sourceUrl": "https://yaqeeninstitute.org/what-islam-says-about/islam-and-violence",
+      "reviewStatus": "source-checked",
+      "reviewNote": "Sinuri ang pahina ng paksang pang-edukasyon na nasuri online noong 2026-06-03; ginagamit para sa maingat na pagsangguni sa paligid ng karahasan, jihad, terorismo, at mga salaysay ng media."
+    },
+    {
+      "id": "988-lifeline",
+      "type": "public-health",
+      "citation": "988 Suicide & Crisis Lifeline",
+      "label": "Suporta sa krisis",
+      "sourceName": "988 Lifeline",
+      "sourceUrl": "https://988lifeline.org/",
+      "reviewStatus": "source-checked",
+      "reviewNote": "Ang opisyal na mapagkukunan ng suporta sa krisis ay nasuri online noong 2026-06-03; ginagamit para sa wikang referral ng krisis sa kalusugan ng isip."
+    },
+    {
+      "id": "canada-safety-planning",
+      "type": "public-safety",
+      "citation": "Government of Canada: Safety Planning",
+      "label": "Pagpaplano ng kaligtasan",
+      "sourceName": "Government of Canada",
+      "sourceUrl": "https://www.canada.ca/en/public-health/services/health-promotion/stop-family-violence/plan-your-safety.html",
+      "reviewStatus": "source-checked",
+      "reviewNote": "Ang opisyal na mapagkukunan ng pampublikong kaligtasan ay sinuri online noong 2026-06-03; ginagamit para sa pagtanggi ng pamilya, pang-aabuso, at mga hangganan ng pagsangguni sa kaligtasan."
+    },
+    {
+      "id": "ohrc-religious-rights",
+      "type": "public-rights",
+      "citation": "Ontario Human Rights Commission: Religious Rights Fact Sheet",
+      "label": "Impormasyon sa mga karapatang pampubliko",
+      "sourceName": "Ontario Human Rights Commission",
+      "sourceUrl": "https://www.ohrc.on.ca/en/religious-rights-fact-sheet",
+      "reviewStatus": "source-checked",
+      "reviewNote": "Ang opisyal na pinagmumulan ng mga karapatang pampubliko ay nasuri online noong 2026-06-03; ginagamit lamang upang iruta ang mga legal na kalapit na tanong sa kwalipikadong lokal na payo."
+    }
+  ],
+  "communityConnect": {
+    "title": "Pag-uugnay sa isang bagong Muslim",
+    "intro": "Kung ang isang tao ay kukuha ng kanilang Shahada ngayon o nais lamang na magpatuloy sa pag-aaral, ang mainit na suporta ang pinakamahalaga. Gamitin ang checklist na ito upang matulungan silang madama na malugod silang tinatanggap at hindi kailanman nag-iisa.",
+    "checklist": [
+      "Ipakilala sila sa isang mabait, maalam na lokal na imam o tagapagturo.",
+      "Ikonekta sila sa isang bagong grupo ng suportang Muslim o klase.",
+      "Tulungan silang makahanap ng malugod na lokal na masjid malapit sa kanila.",
+      "Sumang-ayon sa isang banayad na follow-up — isang check-in, isang shared na pagkain, o isang klase.",
+      "Magbahagi ng mga mapagkukunan para sa mga nagsisimula sa panalangin at mga pangunahing kaalaman sa Islam."
+    ],
+    "masjidFinderLabel": "Maghanap ng malapit na masjid"
+  },
+  "additionalGuidance": {
+    "trainingCards": [
+      {
+        "id": "listen-first",
+        "title": "Nakikinig muna",
+        "summary": "Ang isang mabuting pag-uusap sa dawah ay nagsisimula sa pag-unawa sa tao, hindi sa pagwawasto sa kanila.",
+        "practice": [
+          "Magtanong ng isang bukas na tanong at hayaan silang sumagot nang buo bago sumagot.",
+          "Balikan ang iyong narinig: \"Kaya parang ang iyong pangunahing alalahanin ay...\"",
+          "Sagutin ang tanong na talagang itinanong nila, hindi lahat ng paksang nais mong saklawin."
+        ],
+        "avoid": [
+          "Nakakaabala upang manalo ng isang punto.",
+          "Ipagpalagay ang kanilang background o pagtutol bago nila ito ipaliwanag."
+        ],
+        "referenceIds": ["quran-16-125", "new-muslim-academy"]
+      },
+      {
+        "id": "ask-permission",
+        "title": "Humingi ng pahintulot bago magpatuloy",
+        "summary": "Ang pahintulot ay nagpapanatili sa pag-uusap na magalang at tumutulong sa ibang tao na manatiling kontrol sa kanilang bilis.",
+        "practice": [
+          "Gumamit ng mga simpleng parirala tulad ng: \"Okay lang ba kung ibabahagi ko ang pananaw ng Islam?\"",
+          "Kung sasabihin nilang hindi o mag-atubiling, pasalamatan sila at huminto.",
+          "Mag-alok na magpatuloy sa isa pang pagkakataon nang hindi pinapadama sa kanila na nagkasala."
+        ],
+        "avoid": [
+          "Pagtuturing ng pag-aatubili bilang isang hamon.",
+          "Inuulit ang parehong imbitasyon pagkatapos nilang malinaw na tumanggi."
+        ],
+        "referenceIds": ["quran-2-256", "quran-28-56"]
+      },
+      {
+        "id": "one-point-at-a-time",
+        "title": "Isang punto sa isang pagkakataon",
+        "summary": "Karamihan sa mga tao ay nangangailangan ng isang malinaw na ideya na pag-isipan, hindi isang buong lecture.",
+        "practice": [
+          "Piliin ang susunod na pinakanauugnay na punto sa pag-uusap.",
+          "Gumamit ng maikling paliwanag at huminto para sa mga tanong.",
+          "Kung maraming paksa ang lumabas, isulat ang mga ito at bumalik sa isa-isa."
+        ],
+        "avoid": [
+          "Overloading ang mga ito sa bawat patunay, desisyon, o kuwento na alam mo.",
+          "Ang paglipat sa Shahada bago maproseso ng tao ang mga pangunahing kaalaman."
+        ],
+        "referenceIds": ["quran-16-125"]
+      },
+      {
+        "id": "handle-hostility",
+        "title": "Paghawak ng poot nang mahinahon",
+        "summary": "Kung may nagagalit o nang-iinsulto, protektahan ang dignidad ng usapan at umatras.",
+        "practice": [
+          "Hinaan ang iyong boses at pabagalin ang takbo.",
+          "Pangalanan ang limitasyon nang malumanay: \"Ayokong magtalo tayo o walang galang sa isa't isa.\"",
+          "Tapusin ang pag-uusap kung ito ay hindi na taos-puso o ligtas."
+        ],
+        "avoid": [
+          "Itinutugma ang galit sa galit.",
+          "Gumagamit ng panunuya, pangungutya, o kahihiyan sa publiko."
+        ],
+        "referenceIds": ["quran-16-125"]
+      },
+      {
+        "id": "when-to-stop",
+        "title": "Kung kailan ititigil ang usapan",
+        "summary": "Ang pagtigil ng maayos ay maaaring maging mas mabuting dawah kaysa sa pagpilit ng isa pang punto.",
+        "practice": [
+          "Huminto kapag ang tao ay pagod, nababalisa, nanunuya, hindi ligtas, o malinaw na tapos na.",
+          "Isara nang may pasasalamat at init.",
+          "Gumawa ng dalawa nang pribado at hayaang bukas ang pinto para sa mas magandang panahon."
+        ],
+        "avoid": [
+          "Hinahabol ang isang desisyon.",
+          "Itinuring ang pag-uusap bilang isang pagkabigo dahil natapos ito nang walang Shahada."
+        ],
+        "referenceIds": ["quran-51-55", "quran-28-56", "quran-2-256"]
+      },
+      {
+        "id": "refer-to-imam",
+        "title": "Sumangguni sa isang imam o tagapagturo",
+        "summary": "Hindi kailangang sagutin ng isang da'ee ang lahat. Ang mga sensitibo, detalyado, o personal na mga tanong ay nangangailangan ng kwalipikadong tulong.",
+        "practice": [
+          "Sabihin nang malinaw: \"Ayokong hulaan iyon.\"",
+          "Mag-alok na ikonekta sila sa isang pinagkakatiwalaang lokal na imam, guro, o bagong Muslim na tagapagturo.",
+          "Para sa emosyonal na kaligtasan, legal, medikal, o panganib sa pamilya, ituro rin sila sa mga kwalipikadong lokal na propesyonal."
+        ],
+        "avoid": [
+          "Pag-imbento ng mga desisyon sa lugar.",
+          "Ang pagiging tanging suporta ng tao pagkatapos ng Shahada."
+        ],
+        "referenceIds": ["new-muslim-academy"]
+      }
+    ],
+    "postShahadaHandoff": [
+      {
+        "id": "first-hour",
+        "title": "Unang oras",
+        "summary": "Tumugon nang may init, privacy, at mahinahong suporta. Ang Shahada ay isang simula, hindi isang pampublikong pagganap.",
+        "actions": [
+          "Malumanay na batiin sila nang hindi nalulula.",
+          "Tanungin kung gusto nila ng privacy, isang tahimik na saksi, o isang pampublikong pagpapakilala sa komunidad.",
+          "Isulat ang isang pinagkakatiwalaang contact: imam, mentor, bagong klase ng Muslim, o supportive na kaibigang Muslim.",
+          "Suriin kung ang mga alalahanin sa pamilya, pabahay, trabaho, o kaligtasan ay ginagawang mapanganib ang pagsisiwalat sa publiko."
+        ],
+        "avoid": [
+          "Pinipilit silang ipahayag sa publiko.",
+          "Pagbibigay agad sa kanila ng mahabang listahan ng mga panuntunan.",
+          "Pag-post ng mga larawan, video, o sandali ng Shahada nang walang tahasang pahintulot."
+        ],
+        "referenceIds": [
+          "quran-2-256",
+          "whyislam-becoming-muslim",
+          "whyislam-mosque-visit",
+          "seekersguidance-shahada-witnesses"
+        ]
+      },
+      {
+        "id": "first-day",
+        "title": "Unang araw",
+        "summary": "Tulungan silang umalis sa pag-uusap nang may isang malinaw na susunod na hakbang at isang maaasahang taong sumusuporta.",
+        "actions": [
+          "Magbahagi ng isang mapagkukunan ng baguhan sa halip na isang tumpok ng mga link.",
+          "Mag-alok na tulungan silang makahanap ng lokal na masjid o bagong klase ng Muslim.",
+          "Itanong kung gusto nila ng tulong sa pag-aaral ng wudu at ang hugis ng panalangin.",
+          "Paalalahanan sila na ang pag-aaral ay nangangailangan ng oras at alam ng Allah ang kanilang pagsisikap."
+        ],
+        "avoid": [
+          "Pagwawasto ng bawat ugali nang sabay-sabay.",
+          "Pagdedebate ng mga detalye ng pamilya, kasal, pananamit, o pagkain bago sila magtanong."
+        ],
+        "referenceIds": ["new-muslim-academy", "whyislam-mosque-visit"]
+      },
+      {
+        "id": "first-week",
+        "title": "Unang linggo",
+        "summary": "Suportahan ang pagkakapare-pareho, pag-aari, at ligtas na pag-aaral bago ang mga advanced na pasya.",
+        "actions": [
+          "Tulungan silang pumili ng magiliw na plano sa pag-aaral ng panalangin.",
+          "Ikonekta sila sa isang mentor na matiyagang makakasagot sa mga tanong.",
+          "Anyayahan sila sa isang sandali ng komunidad: klase, panalangin, pagkain, o kape.",
+          "Himukin silang magtanong ng mga sensitibong tanong nang pribado at maaga."
+        ],
+        "avoid": [
+          "Gawin ang iyong sarili ang kanilang tanging suporta.",
+          "Gamit ang kahihiyan para mapabilis ang kanilang pag-aaral."
+        ],
+        "referenceIds": ["new-muslim-academy", "new-muslim-academy-family"]
+      },
+      {
+        "id": "connect-community",
+        "title": "Kumonekta sa lokal na komunidad",
+        "summary": "Ang isang bagong Muslim ay nangangailangan ng maaasahang mga tao sa kanilang paligid, hindi lamang online na nilalaman.",
+        "actions": [
+          "Ipakilala sila sa isang mapagkakatiwalaang imam, guro, o convert-support lead.",
+          "Tulungan silang i-verify ang mga oras ng klase at kung ang espasyo ay madaling gamitin para sa mga nagsisimula.",
+          "Mag-alok ng follow-up na plano na iginagalang ang kanilang iskedyul at privacy.",
+          "Kung tensiyonado ang sitwasyon ng kanilang pamilya, unahin ang kaligtasan at pinagkakatiwalaang propesyonal na suporta."
+        ],
+        "avoid": [
+          "Ipagpalagay na ang bawat masjid ay may parehong kultura o antas ng suporta.",
+          "Pagbabahagi ng kanilang kwento nang walang pahintulot."
+        ],
+        "referenceIds": [
+          "quran-16-125",
+          "whyislam-mosque-visit",
+          "canada-safety-planning"
+        ]
+      },
+      {
+        "id": "avoid-overwhelm",
+        "title": "Iwasang ma-overwhelm sila",
+        "summary": "Ang unang season pagkatapos ng Shahada ay dapat makaramdam ng suporta, hindi inilibing sa ilalim ng mga hinihingi.",
+        "actions": [
+          "Unahin ang paniniwala, panalangin sa ramp, mapagkakatiwalaang komunidad, at emosyonal na katatagan.",
+          "Gumamit ng maikling check-in: isang tanong, isang mapagkukunan, isang susunod na hakbang.",
+          "Sabihin sa kanila nang malinaw kung ano ang maaaring maghintay hanggang sa suriin ito ng guro kasama nila.",
+          "Ipagdiwang ang pagsisikap nang hindi ginagawang perpekto ang kondisyon ng pag-aari."
+        ],
+        "avoid": [
+          "Ginagawa ang unang linggo sa isang kumpletong kurikulum ng fiqh.",
+          "Ang paggawa ng mga pagbabago sa kultura ay parang mga agarang obligasyon sa relihiyon."
+        ],
+        "referenceIds": ["new-muslim-academy", "quran-16-125"]
+      }
+    ],
+    "referralBoundaries": [
+      {
+        "id": "marriage-divorce",
+        "title": "Pag-aasawa, diborsyo, at batas ng pamilya",
+        "summary": "Huwag mag-improvise ng mga sagot tungkol sa bisa ng kasal, diborsiyo, kustodiya, mana, mga sertipiko ng conversion, o mga kahihinatnan ng batas sa pamilya.",
+        "examples": [
+          "Tinatanong nila kung ang kasal nila ngayon ay nagbabago pagkatapos ng Shahada.",
+          "Nagtatanong sila tungkol sa mga salita sa diborsiyo, pag-iingat, o mana.",
+          "Kailangan nila ng mga dokumento para sa kasal, Hajj/Umrah, paaralan, trabaho, o mga talaan ng gobyerno."
+        ],
+        "referTo": "Isang kwalipikadong lokal na iskolar at, kung saan kasangkot ang mga legal na karapatan o dokumento, isang lisensyadong legal na propesyonal o opisyal na ahensya.",
+        "referenceIds": ["seekersguidance", "ohrc-religious-rights"]
+      },
+      {
+        "id": "trauma-safety",
+        "title": "Trauma, pang-aabuso, o panganib sa kaligtasan",
+        "summary": "Kung ang pagsisiwalat ay maaaring humantong sa pinsala, huwag hikayatin ang pampublikong aksyon bago isaalang-alang ang kaligtasan.",
+        "examples": [
+          "Natatakot sila sa karahasan, kawalan ng tirahan, paniniktik, o paghihiganti ng pamilya.",
+          "Mayroon silang trauma na konektado sa relihiyon o awtoridad.",
+          "Nagtatanong sila kung dapat nilang sabihin kaagad sa mga hindi ligtas na kamag-anak."
+        ],
+        "referTo": "Mga pinagkakatiwalaang lokal na propesyonal sa kaligtasan, suporta sa krisis o domestic-violence, at isang magiliw na imam o mentor na gumagalang sa privacy.",
+        "referenceIds": ["canada-safety-planning", "new-muslim-academy-family"]
+      },
+      {
+        "id": "mental-health-crisis",
+        "title": "Krisis sa kalusugan ng isip",
+        "summary": "Hindi dapat subukan ng isang da'ee na magpayo ng krisis nang mag-isa.",
+        "examples": [
+          "Binabanggit nila ang pagpapakamatay, pananakit sa sarili, hindi manatiling ligtas, o pakiramdam na hiwalay sa katotohanan.",
+          "Sila ay nagpapanic, hindi na gumana, o gumagawa ng mga kagyat na hindi ligtas na mga plano.",
+          "Kailangan nila ng pang-emerhensiyang tulong kaysa sa paliwanag sa relihiyon."
+        ],
+        "referTo": "Mga serbisyong pang-emergency o suporta sa krisis gaya ng 988 sa United States at Canada, kasama ang kwalipikadong klinikal na pangangalaga.",
+        "referenceIds": ["988-lifeline"]
+      },
+      {
+        "id": "detailed-fiqh",
+        "title": "Detalyadong fiqh",
+        "summary": "Maaaring depende sa paaralan, kalagayan, kalusugan, at lokal na konteksto ang mga pagsamba at pang-araw-araw na buhay na mga pagpapasya.",
+        "examples": [
+          "Nagtatanong sila tungkol sa validity ng pagdarasal, hindi nasagot na mga panalangin, pagbubukod sa pag-aayuno, pagkalkula ng zakat, mga detalye ng kadalisayan, o mga kaluwagan sa kapansanan.",
+          "Humihingi sila ng desisyon sa pagkain, trabaho, pananamit, obligasyon sa pamilya, o pera.",
+          "Umaasa ka sa memorya sa halip na isang mapagkakatiwalaang pinagmulan."
+        ],
+        "referTo": "Isang kwalipikadong scholar, imam, guro, o pinagkakatiwalaang serbisyo ng fatwa na maaaring magtanong ng mga follow-up na tanong.",
+        "referenceIds": ["seekersguidance", "new-muslim-academy"]
+      },
+      {
+        "id": "complex-theology",
+        "title": "Masalimuot na teolohiya at nakakagambalang mga pag-aangkin",
+        "summary": "Ang ilang mga tanong ay nangangailangan ng oras, konteksto, at isang guro sa halip na isang mabilis na sagot.",
+        "examples": [
+          "Nagtatanong sila tungkol sa pagdurusa, qadar, apoy ng impiyerno, mga pagdududa sa hadith, o mahirap na pag-aangkin online.",
+          "Mayroon silang trauma mula sa mga nakaraang komunidad ng relihiyon.",
+          "Sila ay umiikot sa pamamagitan ng mga clip ng debate o pagalit na media."
+        ],
+        "referTo": "Isang maaasahang guro, structured na klase, o kwalipikadong iskolar na makakasagot nang unti-unti at responsable.",
+        "referenceIds": ["quran-67-2", "quran-2-155", "seekersguidance"]
+      },
+      {
+        "id": "legal-immigration",
+        "title": "Mga isyu sa legal, imigrasyon, lugar ng trabaho, o paaralan",
+        "summary": "Hindi maaaring palitan ng relihiyosong panghihikayat ang legal o opisyal na payo.",
+        "examples": [
+          "Nagtatanong sila tungkol sa imigrasyon, asylum, kustodiya, mga karapatan sa lugar ng trabaho, tirahan sa paaralan, o mga dokumento ng ID.",
+          "Kailangan nila ng sertipiko, sulat, o opisyal na patunay.",
+          "Maaari silang maharap sa diskriminasyon o paghihiganti."
+        ],
+        "referTo": "Isang lisensyadong legal na propesyonal, opisyal na ahensyang may karapatan sa publiko, opisina ng paaralan/trabaho, o lokal na serbisyo sa pag-areglo kung naaangkop.",
+        "referenceIds": ["ohrc-religious-rights"]
+      }
+    ],
+    "commonQuestions": [
+      {
+        "id": "q-god-exists",
+        "topic": "Diyos",
+        "question": "Paano mo malalaman na may Diyos?",
+        "answer": [
+          "Mag-imbita ng pagmumuni-muni sa halip na argumento. Lahat ng bagay sa paligid natin — ang kaayusan ng sansinukob, ang katumpakan ng kalikasan, ang ating sariling pag-iral — ay tumuturo sa isang Lumikha. Malumanay na itanong: lahat ba ng ito ay nagmula sa wala, o ito ba ay tumuturo sa isang Gumawa?",
+          "Manatiling mapagkumbaba. Hindi mo sinusubukang manalo; nagbubukas ka ng pinto sa pag-iisip."
+        ],
+        "referenceIds": ["quran-52-35"]
+      },
+      {
+        "id": "q-one-god",
+        "topic": "Pagkakaisa",
+        "question": "Bakit kailangang iisa ang Diyos?",
+        "answer": [
+          "Kung mayroong maraming mga diyos na may nakikipagkumpitensyang mga kalooban, ang paglikha ay hihilahin sa magkasalungat na direksyon. Ang pagkakasundo at kaayusan na sinusunod natin sa halip ay tumuturo sa iisang Awtoridad.",
+          "Ipakita ito bilang isang pagmuni-muni, at bigyan ng oras at mga tanong."
+        ],
+        "referenceIds": ["quran-21-22"]
+      },
+      {
+        "id": "q-jesus",
+        "topic": "Hesus (PBUH)",
+        "question": "Ano ang paniniwala ng mga Muslim tungkol kay Hesus?",
+        "answer": [
+          "Mahal at lubos na pinararangalan ng mga Muslim si Hesus, sumakaniya nawa ang kapayapaan. Naniniwala kami sa kanyang mahimalang pagsilang kay Birheng Maria, sa kanyang mga himala sa pahintulot ng Diyos, at sa kanyang marangal na mensahe.",
+          "Itinuro ng Islam na si Hesus ay isa sa mga pinakadakilang mensahero ng Diyos, na tumawag sa mga tao na sumamba sa Nag-iisang Diyos. Lalapitan ang paksang ito nang may init at paggalang."
+        ],
+        "referenceIds": ["quran-3-45"]
+      },
+      {
+        "id": "q-why-prophets",
+        "topic": "Pahayag",
+        "question": "Bakit kailangan natin ng mga propeta at banal na kasulatan?",
+        "answer": [
+          "Dahil ang buhay ay isang makabuluhang pagsubok, hindi tayo pinabayaan ng isang makatarungan at maawaing Diyos na hulaan ang ating layunin. Nagpadala siya ng patnubay sa pamamagitan ng mga mensahero sa buong kasaysayan, lahat ay may dalang isang pangunahing mensahe: sambahin ang Isang Diyos.",
+          "Ang paghahayag ay isang awa — hindi tayo pinabayaang mag-isa."
+        ],
+        "referenceIds": ["quran-21-25"]
+      },
+      {
+        "id": "q-shahada",
+        "topic": "Shahada",
+        "question": "Ano nga ba ang Shahada?",
+        "answer": [
+          "Ang Shahada ay ang tapat na patotoo na walang diyos na karapat-dapat sambahin maliban sa Allah, at na si Muhammad ay Kanyang sugo. Ito ang pintuan sa Islam.",
+          "Ito ay dapat na isang libre, taos-pusong pagpili — hindi kailanman minamadali o pinipilit. Ang pagkuha ng Shahada ay isang simula, hindi isang pagtatapos; kasunod ang pagmamahal na suporta."
+        ],
+        "referenceIds": ["whyislam-becoming-muslim", "quran-2-256"]
+      },
+      {
+        "id": "q-suffering",
+        "topic": "Layunin",
+        "question": "Kung ang Diyos ay makatarungan, bakit may pagdurusa?",
+        "answer": [
+          "Ang buhay na ito ay isang pagsubok, at ang isang makatarungang Diyos ay magtatatag ng perpektong katarungan sa Araw ng Paghuhukom, kung saan walang kamalian ang hindi natutugunan.",
+          "Kilalanin ang sakit ng tao nang matapat at malumanay, sa halip na magbigay ng mabilis na mga sagot."
+        ],
+        "referenceIds": ["quran-67-2", "quran-2-155"]
+      }
+    ],
+    "misconceptions": [
+      {
+        "id": "m-sword",
+        "claim": "Ang Islam ay ipinalaganap sa pamamagitan ng espada.",
+        "response": [
+          "Ang Qur'an ay malinaw na ang pananampalataya ay hindi maaaring pilitin - dapat itong tapat at malayang pumili. Tumugon nang mahinahon at walang pagtatanggol.",
+          "Ituro nang malumanay ang mahabang kasaysayan ng mga komunidad na yumakap sa Islam sa pamamagitan ng paniniwala, at panatilihin ang pagtuon sa mensahe sa halip na sa debate."
+        ],
+        "referenceIds": ["quran-2-256", "yaqeen-violence"]
+      },
+      {
+        "id": "m-different-god",
+        "claim": "Ang mga Muslim ay sumasamba sa ibang Diyos.",
+        "response": [
+          "Ang \"Allah\" ay simpleng salitang Arabe para sa Nag-iisang Diyos — ang parehong Diyos na sinasamba nina Abraham, Moses, at Jesus. Tinatawag din ng mga Kristiyano at Hudyo na nagsasalita ng Arabic ang Diyos na \"Allah.\"",
+          "Binubuod ng Surah Al-Ikhlas ang dalisay na paniniwalang ito: Ang Diyos ay Isa, walang hanggan, walang katambal at walang maihahambing sa Kanya."
+        ],
+        "referenceIds": ["quran-112-ikhlas"]
+      },
+      {
+        "id": "m-women",
+        "claim": "Inaapi ng Islam ang kababaihan.",
+        "response": [
+          "Iwasan ang mainit na debate. Makinig muna, kilalanin na ang kultura at relihiyon ay kadalasang nalilito, at ihiwalay ang mga mapaminsalang kultural na kasanayan sa pagtuturo ng Islam.",
+          "Magsalita tungkol sa mga karapatan na pinagtibay ng Islam para sa mga kababaihan at ang karangalang ibinibigay sa mga ina, at hayaang magsalita ang iyong sariling magalang na pagkatao."
+        ],
+        "referenceIds": ["quran-33-35", "yaqeen-women"]
+      },
+      {
+        "id": "m-all-same",
+        "claim": "Ang lahat ng mga relihiyon ay karaniwang pareho, kaya bakit lumipat?",
+        "response": [
+          "Pagtibayin ang ibinahaging pagpapahalaga — pakikiramay, katarungan, katapatan. Pagkatapos ay malumanay na tandaan na ang mga relihiyon ay gumagawa din ng mga natatanging pag-aangkin tungkol sa Diyos, at ang mga pagkakaibang iyon ay mahalaga.",
+          "Mag-imbita ng pagmuni-muni nang walang presyon: ang layunin ay taos-pusong paniniwala, hindi nanalo ng isang punto."
+        ]
+      }
+    ],
+    "scenarios": [
+      {
+        "id": "s-atheist",
+        "audience": "Atheist o agnostic",
+        "summary": "Isang taong hindi naniniwala sa Diyos, o hindi sigurado.",
+        "approach": [
+          "Magsimula sa tanong ng pag-iral ng Diyos at ang mga palatandaan ng paglikha.",
+          "Magtanong ng bukas na mga tanong at makinig nang totoo sa kanilang pangangatwiran.",
+          "Panatilihing curious at mapagpakumbaba ang tono, hindi palaban."
+        ],
+        "watchFor": [
+          "Ginagawa ang pagmuni-muni sa isang argumento upang mapanalunan.",
+          "Masyadong kumpiyansa sa mga pilosopikal na claim na hindi mo maipaliwanag."
+        ],
+        "referenceIds": ["quran-52-35", "quran-16-125"]
+      },
+      {
+        "id": "s-christian",
+        "audience": "Kristiyanong background",
+        "summary": "Isang taong nagmamahal na sa Diyos at kay Hesus, sumakaniya nawa ang kapayapaan.",
+        "approach": [
+          "Mamuno nang may ibinahaging pagmamahal at paggalang kay Jesus at sa mga propeta.",
+          "Ipakilala ang Kaisahan ng Diyos nang malumanay at may pag-iingat.",
+          "Igalang ang emosyonal na bigat na maaaring dalhin ng paksang ito."
+        ],
+        "watchFor": [
+          "Hindi paggalang sa mga paniniwalang Kristiyano o agresibong pakikipagtalo sa teolohiya.",
+          "Nagmamadali — bigyan ang usapan ng init at oras."
+        ],
+        "referenceIds": ["quran-3-45", "whyislam-jesus"]
+      },
+      {
+        "id": "s-spiritual-not-religious",
+        "audience": "Espirituwal ngunit hindi relihiyoso",
+        "summary": "Ang isang taong naniniwala na maaaring may higit pa sa buhay ngunit hindi nagtitiwala sa organisadong relihiyon.",
+        "approach": [
+          "Magsimula sa kanilang pagnanais para sa kahulugan, pagpapagaling, o koneksyon.",
+          "Ipaliwanag ang Islam bilang direktang pagsamba sa Nag-iisang Lumikha, hindi bilang pagsuko sa isang institusyon ng tao.",
+          "Ipakita kung paano binibigyang hugis ng paghahayag ang espirituwalidad nang hindi inaalis ang katapatan."
+        ],
+        "watchFor": [
+          "Tinatanggal ang kanilang mga nakaraang karanasan sa relihiyon.",
+          "Paggamit ng masyadong maraming insider language bago mabuo ang tiwala."
+        ],
+        "referenceIds": ["quran-112-ikhlas", "quran-21-25"]
+      },
+      {
+        "id": "s-cultural-muslim",
+        "audience": "Kultura Muslim, hindi nagsasanay",
+        "summary": "May isang taong lumaki sa paligid ng Islam na nakadarama ng pagkahiwalay mula rito.",
+        "approach": [
+          "Ikonekta muli ang mga ito sa kahulugan at kagandahan sa likod ng mga kasanayan.",
+          "Iwasan ang paghatol tungkol sa nakaraan; tumuon sa isang banayad na susunod na hakbang.",
+          "Mag-alok ng pagsasama at maliliit, maaabot na mga panghihikayat."
+        ],
+        "watchFor": [
+          "Pahiya o guilt-tripping, na nagtutulak sa mga tao palayo."
+        ],
+        "referenceIds": ["new-muslim-academy"]
+      },
+      {
+        "id": "s-family-difficult-questions",
+        "audience": "Miyembro ng pamilya na nagtatanong ng mahihirap na katanungan",
+        "summary": "Ang isang kamag-anak o malapit na kaibigan ay nagtatanong tungkol sa Islam na may damdamin, takot, o mapaghamong mga pagpapalagay.",
+        "approach": [
+          "Protektahan ang relasyon bago subukang sagutin ang bawat pagtutol.",
+          "Kilalanin ang alalahanin at sagutin ang isang punto nang mahinahon.",
+          "Kung ang tanong ay sensitibo o lampas sa iyong kaalaman, mag-alok na magtanong sa isang imam o tagapagturo nang magkasama."
+        ],
+        "watchFor": [
+          "Hinahayaan kang magtulak sa panghuhula ng pamilya.",
+          "Sumasagot sa emosyonal na sakit sa pamamagitan ng lecture."
+        ],
+        "referenceIds": ["quran-16-125", "new-muslim-academy"]
+      },
+      {
+        "id": "s-not-ready",
+        "audience": "Interesado ngunit hindi handa",
+        "summary": "Isang taong bukas sa Islam na nangangailangan ng mas maraming oras.",
+        "approach": [
+          "Tiyakin silang walang pagmamadali at walang pressure.",
+          "Mag-alok ng mga mapagkakatiwalaang mapagkukunan at sagutin ang mga tanong anumang oras.",
+          "Panatilihing bukas ang pagkakaibigan at ang pinto, at magdasal para sa kanila."
+        ],
+        "watchFor": [
+          "Anumang pressure na nagpapahirap sa pag-uusap sa hinaharap."
+        ],
+        "referenceIds": ["quran-2-256", "quran-28-56"]
+      },
+      {
+        "id": "s-trauma-from-religion",
+        "audience": "Taong may trauma mula sa relihiyon",
+        "summary": "Ang isang tao ay interesado sa Islam ngunit ang nakalipas na pinsala sa relihiyon ay nagpapahirap sa pagtitiwala.",
+        "approach": [
+          "Huwag ipagtanggol kung ano ang nakapipinsala sa kanila o padalus-dalos sa mga paliwanag.",
+          "Humingi ng pahintulot bago magbahagi ng anumang bagay na relihiyoso, at hayaan silang magtakda ng bilis.",
+          "Mag-alok ng ligtas, kwalipikadong ruta ng suporta kung mayroong trauma, panic, pang-aabuso, o krisis."
+        ],
+        "watchFor": [
+          "Paggamit ng mga talata o hadith bilang mabilis na pag-aayos para sa trauma.",
+          "Itulak sila patungo sa mga awtoridad bago isaalang-alang ang tiwala at kaligtasan.",
+          "Sinusubukang palitan ang klinikal o pangkaligtasang suporta ng sarili mong payo."
+        ],
+        "referenceIds": [
+          "quran-16-125",
+          "988-lifeline",
+          "canada-safety-planning"
+        ]
+      },
+      {
+        "id": "s-family-rejection",
+        "audience": "Ang taong nag-aalala tungkol sa pagtanggi ng pamilya",
+        "summary": "Ang isang tao ay natatakot na mawalan ng pamilya, tirahan, suporta sa trabaho, o emosyonal na kaligtasan kung sila ay magiging Muslim.",
+        "approach": [
+          "Patunayan ang takot at iwasang sabihin sa kanila na ibunyag bago sila maging ligtas.",
+          "Tulungan silang mag-isip kung sino ang ligtas na sabihin at kung sino ang dapat maghintay.",
+          "Ikonekta sila sa isang lokal na tagapagturo, imam, o propesyonal sa kaligtasan kung ang pagsisiwalat ay maaaring magdulot ng pinsala."
+        ],
+        "watchFor": [
+          "Pagtuturing ng pagiging lihim bilang kahinaan kapag may tunay na panganib.",
+          "Pagdiin sa isang pampublikong Shahada, post sa social media, o agarang anunsyo ng pamilya."
+        ],
+        "referenceIds": [
+          "quran-2-256",
+          "new-muslim-academy-family",
+          "canada-safety-planning"
+        ]
+      },
+      {
+        "id": "s-private-shahada",
+        "audience": "Taong interesado ngunit natatakot na magsabi ng Shahada sa publiko",
+        "summary": "May taos-pusong naniniwala ngunit natatakot sa atensyon ng publiko, reaksyon ng pamilya, o ma-record.",
+        "approach": [
+          "Tiyakin sa kanila na ang presyon at pampublikong pagganap ay hindi ang layunin.",
+          "Mag-alok na ikonekta sila nang pribado sa isang pinagkakatiwalaang imam o kwalipikadong tagapagturo.",
+          "Itanong kung gusto nila ng tahimik na saksi, pribadong pag-uusap, o oras para matuto pa."
+        ],
+        "watchFor": [
+          "Pagre-record o pagbabahagi ng kanilang Shahada nang walang tahasang pahintulot.",
+          "Ang paggawa ng isang pampublikong anunsyo ay parang kondisyon ng pagiging Muslim.",
+          "Hindi pinapansin ang mga alalahanin sa kaligtasan sa paligid ng reaksyon ng pamilya o komunidad."
+        ],
+        "referenceIds": [
+          "quran-2-256",
+          "whyislam-mosque-visit",
+          "seekersguidance-shahada-witnesses"
+        ]
+      },
+      {
+        "id": "s-women-in-islam",
+        "audience": "Nagtatanong ang tao tungkol sa kababaihan sa Islam",
+        "summary": "May nagtatanong tungkol sa dignidad, karapatan, kahinhinan, kasal, diborsyo, kultura, o pinsalang ginawa sa kababaihan.",
+        "approach": [
+          "Makinig muna; ang tanong ay maaaring nagmumula sa personal na sakit, hindi lamang kuryusidad.",
+          "Ihiwalay ang pagtuturo ng Islam mula sa mga nakapipinsalang kaugalian sa kultura at tunay na pang-aabuso.",
+          "Gumamit ng mga mapagkakatiwalaang mapagkukunan at sumangguni sa detalyadong pag-aasawa, diborsiyo, mana, o mga tanong sa kaligtasan sa kwalipikadong tulong."
+        ],
+        "watchFor": [
+          "Pagwawaksi sa mga karanasan o pagsagot gamit ang mga slogan.",
+          "Paghula tungkol sa personal na legal, kasal, diborsyo, o mga sitwasyong pang-aabuso.",
+          "Ginagawa ang pag-uusap sa debate sa digmaang pangkasarian."
+        ],
+        "referenceIds": [
+          "quran-33-35",
+          "yaqeen-women",
+          "canada-safety-planning"
+        ]
+      },
+      {
+        "id": "s-suffering",
+        "audience": "Nagtatanong ang tao tungkol sa pagdurusa",
+        "summary": "May nagtatanong kung bakit pinahihintulutan ng isang makatarungan at maawaing Diyos ang sakit, kalungkutan, pang-aapi, o personal na pagkawala.",
+        "approach": [
+          "Kilalanin ang sakit bago magbigay ng sagot.",
+          "Ipaliwanag nang malumanay na ang Islam ay nagtuturo sa buhay ay isang pagsubok at ang tunay na hustisya ay kay Allah.",
+          "Kung ang sakit ay agaran o traumatiko, sumangguni sa kwalipikadong emosyonal o krisis na suporta."
+        ],
+        "watchFor": [
+          "Pagbibigay ng maayos na sagot habang ang tao ay nagdadalamhati.",
+          "Nagdedebate sa halip na makinig.",
+          "Mga nawawalang palatandaan ng krisis, pananakit sa sarili, o hindi ligtas na paghihiwalay."
+        ],
+        "referenceIds": ["quran-67-2", "quran-2-155", "988-lifeline"]
+      },
+      {
+        "id": "s-violence-media-narratives",
+        "audience": "Nagtatanong ang tao tungkol sa karahasan o mga salaysay sa media",
+        "summary": "May nagtatanong kung ang Islam ay nagtataguyod ng karahasan, terorismo, sapilitang pagbabago, o poot sa iba.",
+        "approach": [
+          "Manatiling kalmado at huwag maging defensive.",
+          "Linawin na ang pananampalataya ay hindi maaaring pilitin at ang Islam ay nagtataguyod ng kabanalan ng buhay.",
+          "Gumamit ng maaasahan at nasuri na mga mapagkukunan para sa mga kumplikadong termino tulad ng jihad, digmaan, at pampulitikang karahasan."
+        ],
+        "watchFor": [
+          "Sinusubukang sagutin ang bawat geopolitical na isyu nang sabay-sabay.",
+          "Pagbabahagi ng mga mahihinang paghingi ng tawad na hindi mo maaaring suportahan.",
+          "Nakikipagtalo sa isang taong gusto lang ng away publiko."
+        ],
+        "referenceIds": ["quran-2-256", "quran-5-32", "yaqeen-violence"]
+      }
+    ],
+    "duas": [
+      {
+        "id": "dua-ease",
+        "occasion": "before",
+        "title": "Para sa kadalian at bukas na puso",
+        "arabic": "رَبِّ ٱشْرَحْ لِى صَدْرِى وَيَسِّرْ لِىٓ أَمْرِى",
+        "transliteration": "Rabbi-shraḥ lī ṣadrī wa yassir lī amrī",
+        "translation": "Panginoon ko! Itaas ang aking puso para sa akin, at gawing madali ang aking gawain,",
+        "referenceId": "quran-20-25-26"
+      },
+      {
+        "id": "dua-sincerity",
+        "occasion": "before",
+        "title": "Unsourced personal na salita para sa katapatan",
+        "translation": "Walang pinagkunan na personal na mga salita, hindi isang ipinadalang dua: O Allah, gawing taos-puso ang aking hangarin at tulungan akong magsalita nang totoo at mabait."
+      },
+      {
+        "id": "dua-guidance",
+        "occasion": "after",
+        "title": "Unsourced personal na salita pagkatapos ng pag-uusap",
+        "translation": "Walang pinagkunan na personal na mga salita, hindi isang ipinadalang dua: O Allah, patnubayan mo sila sa kung ano ang totoo at mabuti, at patnubayan mo ako sa pagpapakumbaba."
+      },
+      {
+        "id": "dua-leave-results",
+        "occasion": "general",
+        "title": "Ang pag-alala sa patnubay ay kay Allah",
+        "arabic": "إِنَّكَ لَا تَهْدِى مَنْ أَحْبَبْتَ وَلَٰكِنَّ ٱللَّهَ يَهْدِى مَن يَشَآءُ",
+        "translation": "Tiyak na hindi mo magagabayan ang sinumang gusto mo, ngunit si Allah ang gumagabay sa sinumang Kanyang naisin.",
+        "referenceId": "quran-28-56"
+      }
+    ],
+    "quickReference": {
+      "intro": "Isang compact recap ng GORAP path, ang daloy ng pag-uusap, at ang puso ng mabuting dawah. Gamitin ito bilang refresher bago o habang nag-uusap.",
+      "points": [
+        "Mag-anyaya nang may karunungan at mabuting asal; never pressure.",
+        "Makinig nang higit pa kaysa sa pagsasalita mo, at magtanong nang paisa-isa.",
+        "Humingi ng pahintulot bago lumalim, at huminto kapag ang tao ay nangangailangan ng espasyo.",
+        "Kilalanin ang mga tao kung nasaan sila — ang mga tunay na pag-uusap ay hindi linear.",
+        "Panatilihing bukas ang pinto kahit na natapos ang pag-uusap nang walang Shahada.",
+        "Gumawa ng taos-pusong dua at ipaubaya ang resulta sa Allah."
+      ]
+    }
+  }
+}

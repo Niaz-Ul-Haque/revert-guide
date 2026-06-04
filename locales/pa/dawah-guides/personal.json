@@ -1,0 +1,1426 @@
+{
+  "id": "personal",
+  "slug": "dawah-guide-personal",
+  "title": "ਦਾਵਾ ਗਾਈਡ",
+  "subtitle": "ਇਸਲਾਮ ਨੂੰ ਬੁੱਧੀ ਅਤੇ ਦਿਆਲਤਾ ਨਾਲ ਸਾਂਝਾ ਕਰਨ ਲਈ ਇੱਕ ਕੋਮਲ, ਕਦਮ-ਦਰ-ਕਦਮ ਸਾਥੀ।",
+  "audienceNote": "ਇਹ ਦਾਈਆਂ (ਇਸਲਾਮ ਨੂੰ ਸੱਦਾ ਦੇਣ ਵਾਲੇ) ਲਈ ਇੱਕ ਨਿੱਜੀ, ਸਿੱਧੀ-ਲਿੰਕ ਗਾਈਡ ਹੈ। ਇਹ ਫੀਲਡ ਸਾਥੀ ਹੈ, ਸਕ੍ਰਿਪਟ ਨਹੀਂ। ਅਸਲ ਗੱਲਬਾਤ ਰੇਖਿਕ ਨਹੀਂ ਹੁੰਦੀ - ਪਹਿਲਾਂ ਸੁਣੋ, ਦੂਜੇ ਵਿਅਕਤੀ ਦੀ ਰਫਤਾਰ ਨਾਲ ਅੱਗੇ ਵਧੋ, ਅਤੇ ਨਤੀਜਾ ਅੱਲ੍ਹਾ 'ਤੇ ਛੱਡੋ।",
+  "reviewStatus": "source-checked",
+  "reviewNote": "2026-06-03 ਨੂੰ ਔਨਲਾਈਨ ਸਰੋਤ ਲਿੰਕਾਂ ਦੇ ਵਿਰੁੱਧ ਕੁਰਾਨ ਅਤੇ ਹਦੀਸ ਦੇ ਹਵਾਲਿਆਂ ਦੀ ਜਾਂਚ ਕੀਤੀ ਗਈ ਸੀ। ਇਹ ਪ੍ਰਮਾਣਿਤ ਵਜੋਂ ਮਾਰਕ ਨਹੀਂ ਕੀਤਾ ਗਿਆ ਹੈ ਕਿਉਂਕਿ ਯੋਗਤਾ ਪ੍ਰਾਪਤ ਵਿਦਵਾਨ/ਮੈਨੂਅਲ ਮਨਜ਼ੂਰੀ ਅਜੇ ਬਾਕੀ ਹੈ।",
+  "lastSourceChecked": "2026-06-03",
+  "tonePrinciples": [
+    "ਸਿਆਣਪ ਅਤੇ ਚੰਗੇ ਵਿਵਹਾਰ ਨਾਲ ਸੱਦਾ ਦਿਓ, ਕਦੇ ਦਬਾਅ ਨਾ ਪਾਓ।",
+    "ਬੋਲਣ ਨਾਲੋਂ ਵੱਧ ਸੁਣੋ। ਇੱਕ ਵਾਰ ਵਿੱਚ ਇੱਕ ਸਵਾਲ ਪੁੱਛੋ।",
+    "ਕਿਸੇ ਹੋਰ ਵਿਅਕਤੀ ਦੇ ਵਿਸ਼ਵਾਸਾਂ ਜਾਂ ਪਿਛੋਕੜ ਦਾ ਕਦੇ ਵੀ ਮਜ਼ਾਕ ਨਾ ਉਡਾਓ।",
+    "ਜਿੱਤਣ ਦੀ ਖ਼ਾਤਰ ਬਹਿਸ ਤੋਂ ਬਚੋ। ਸਮਝਣ ਲਈ ਉਦੇਸ਼.",
+    "ਦਰਵਾਜ਼ਾ ਖੁੱਲ੍ਹਾ ਰੱਖੋ ਭਾਵੇਂ ਗੱਲ ਸ਼ਾਹਦਾ ਤੋਂ ਬਿਨਾਂ ਮੁੱਕ ਜਾਵੇ।",
+    "ਨਿਜੀ ਤੌਰ 'ਤੇ ਦਿਲੋਂ ਦੁਆ ਕਰੋ ਅਤੇ ਨਤੀਜਾ ਅੱਲ੍ਹਾ 'ਤੇ ਛੱਡ ਦਿਓ।"
+  ],
+  "startNodeId": "start",
+  "nodeOrder": [
+    "start",
+    "believe-in-god-initial",
+    "signs-creation-infinite-regress",
+    "believe-in-god-after-signs",
+    "tawheed-surah-ikhlas",
+    "one-god-initial",
+    "ayat-ikhtilaf",
+    "one-god-after-ikhtilaf",
+    "justice-day-judgment-test-revelation",
+    "angels",
+    "messengers-prophets",
+    "jesus-peace-be-upon-him",
+    "shahada-readiness-initial",
+    "encourage-keep-door-open",
+    "shahada-readiness-after-encouragement",
+    "connect-guidance-community",
+    "respectful-exit-best-of-luck"
+  ],
+  "nodes": {
+    "start": {
+      "id": "start",
+      "kind": "intro",
+      "title": "ਗੱਲਬਾਤ ਸ਼ੁਰੂ ਕਰੋ",
+      "eyebrow": "ਇਸਲਾਮ / ਮੁਸਲਮਾਨ",
+      "summary": "ਨਿੱਘੇ ਅਤੇ ਕੁਦਰਤੀ ਤੌਰ 'ਤੇ ਸ਼ੁਰੂ ਕਰੋ. ਵਿਸ਼ਵਾਸ ਦੀ ਚਰਚਾ ਕਰਨ ਤੋਂ ਪਹਿਲਾਂ ਇੱਕ ਸੱਚਾ ਸਬੰਧ ਬਣਾਓ।",
+      "explanation": [
+        "ਕੋਈ ਸੰਪੂਰਨ ਓਪਨਿੰਗ ਲਾਈਨ ਨਹੀਂ ਹੈ। ਇੱਕ ਇਮਾਨਦਾਰ ਮੁਸਕਰਾਹਟ, ਇੱਕ ਦਿਆਲੂ ਸ਼ਬਦ, ਅਤੇ ਵਿਅਕਤੀ ਵਿੱਚ ਅਸਲ ਦਿਲਚਸਪੀ ਕਿਸੇ ਵੀ ਤਕਨੀਕ ਨਾਲੋਂ ਜ਼ਿਆਦਾ ਮਾਇਨੇ ਰੱਖਦੀ ਹੈ।",
+        "ਗੱਲਬਾਤ ਨੂੰ ਵਹਿਣ ਦਿਓ। ਤੁਸੀਂ ਕੋਈ ਭਾਸ਼ਣ ਨਹੀਂ ਦੇ ਰਹੇ ਹੋ - ਤੁਸੀਂ ਇੱਕ ਮਨੁੱਖੀ ਗੱਲਬਾਤ ਕਰ ਰਹੇ ਹੋ ਜੋ ਹੌਲੀ-ਹੌਲੀ, ਜੀਵਨ ਦੇ ਉਦੇਸ਼ ਅਤੇ ਸਾਡੇ ਸਿਰਜਣਹਾਰ ਨਾਲ ਸਾਡੇ ਰਿਸ਼ਤੇ ਵੱਲ ਮੁੜ ਸਕਦੀ ਹੈ।"
+      ],
+      "conversationTips": [
+        "ਸ਼ੁਰੂ ਕਰਨ ਤੋਂ ਪਹਿਲਾਂ ਦੁਆ ਕਰੋ ਅਤੇ ਅੱਲ੍ਹਾ ਨੂੰ ਦੋਨਾਂ ਦਿਲਾਂ ਨੂੰ ਨਰਮ ਕਰਨ ਲਈ ਕਹੋ।",
+        "ਖੁੱਲ੍ਹੇ ਸਵਾਲ ਪੁੱਛੋ ਅਤੇ ਜਵਾਬਾਂ ਨੂੰ ਸੱਚੇ ਦਿਲੋਂ ਸੁਣੋ।",
+        "ਕਿਸੇ ਡੂੰਘੇ ਵਿਸ਼ੇ ਵਿੱਚ ਜਾਣ ਤੋਂ ਪਹਿਲਾਂ ਇਜਾਜ਼ਤ ਮੰਗੋ: \"ਕੀ ਇਹ ਠੀਕ ਹੋਵੇਗਾ ਜੇਕਰ ਮੈਂ ਸਾਂਝਾ ਕਰਾਂ ਕਿ ਇਸਲਾਮ ਇਸ ਨੂੰ ਕਿਵੇਂ ਦੇਖਦਾ ਹੈ?\"",
+        "ਪਹਿਲਾਂ ਸਾਂਝਾ ਆਧਾਰ ਲੱਭੋ — ਜ਼ਿਆਦਾਤਰ ਲੋਕ ਸੱਚਾਈ, ਨਿਆਂ, ਅਤੇ ਅਰਥ ਦੀ ਪਰਵਾਹ ਕਰਦੇ ਹਨ।"
+      ],
+      "referenceIds": ["quran-16-125"],
+      "nextNodeId": "believe-in-god-initial"
+    },
+    "believe-in-god-initial": {
+      "id": "believe-in-god-initial",
+      "kind": "decision",
+      "title": "ਕੀ ਉਹ ਰੱਬ ਨੂੰ ਮੰਨਦੇ ਹਨ?",
+      "summary": "ਹੌਲੀ-ਹੌਲੀ ਸਮਝੋ ਕਿ ਵਿਅਕਤੀ ਕਿੱਥੇ ਖੜ੍ਹਾ ਹੈ। ਇੱਥੇ ਕੋਈ ਸਹੀ ਜਾਂ ਗਲਤ ਜਵਾਬ ਨਹੀਂ ਹੈ - ਸਿਰਫ਼ ਇੱਕ ਸ਼ੁਰੂਆਤੀ ਬਿੰਦੂ।",
+      "conversationTips": [
+        "ਨਿਰਣੇ ਤੋਂ ਬਿਨਾਂ ਪੁੱਛੋ: \"ਕੀ ਤੁਸੀਂ ਇੱਕ ਸਿਰਜਣਹਾਰ ਵਿੱਚ ਵਿਸ਼ਵਾਸ ਕਰਦੇ ਹੋ?\" ਅਤੇ ਉਹਨਾਂ ਨੂੰ ਉਹਨਾਂ ਦੇ ਆਪਣੇ ਸ਼ਬਦਾਂ ਵਿੱਚ ਵਿਆਖਿਆ ਕਰਨ ਦਿਓ।",
+        "ਜੇ ਉਹ ਅਨਿਸ਼ਚਿਤ ਹਨ, ਤਾਂ ਇਹ ਪੂਰੀ ਤਰ੍ਹਾਂ ਠੀਕ ਹੈ - ਉਹਨਾਂ ਨੂੰ ਮਿਲੋ ਜਿੱਥੇ ਉਹ ਹਨ।"
+      ],
+      "options": [
+        {
+          "id": "yes",
+          "label": "ਹਾਂ, ਉਹ ਰੱਬ ਨੂੰ ਮੰਨਦੇ ਹਨ",
+          "helperText": "ਪਰਮਾਤਮਾ ਦੀ ਏਕਤਾ ਨੂੰ ਸਮਝਣ ਵੱਲ ਵਧੋ।",
+          "nextNodeId": "tawheed-surah-ikhlas",
+          "ariaLabel": "ਹਾਂ, ਉਹ ਰੱਬ ਵਿੱਚ ਵਿਸ਼ਵਾਸ ਕਰਦੇ ਹਨ - ਤੌਹੀਦ ਨੂੰ ਜਾਰੀ ਰੱਖੋ"
+        },
+        {
+          "id": "no",
+          "label": "ਨਹੀਂ, ਜਾਂ ਉਹ ਅਨਿਸ਼ਚਿਤ ਹਨ",
+          "helperText": "ਹੌਲੀ-ਹੌਲੀ ਇਕੱਠੇ ਰਚਨਾ ਦੇ ਚਿੰਨ੍ਹ ਦੀ ਪੜਚੋਲ ਕਰੋ।",
+          "nextNodeId": "signs-creation-infinite-regress",
+          "ariaLabel": "ਨਹੀਂ ਜਾਂ ਅਨਿਸ਼ਚਿਤ — ਰਚਨਾ ਦੇ ਚਿੰਨ੍ਹਾਂ ਦੀ ਪੜਚੋਲ ਕਰੋ"
+        }
+      ]
+    },
+    "signs-creation-infinite-regress": {
+      "id": "signs-creation-infinite-regress",
+      "kind": "teaching",
+      "title": "ਰਚਨਾ ਦੇ ਚਿੰਨ੍ਹ",
+      "eyebrow": "ਆਇਤ / ਡਿਜ਼ਾਈਨ / ਸਿਰਜਣਾ",
+      "summary": "ਉਨ੍ਹਾਂ ਨੂੰ ਬ੍ਰਹਿਮੰਡ ਦੇ ਕ੍ਰਮ, ਡਿਜ਼ਾਈਨ ਅਤੇ ਮੌਜੂਦਗੀ 'ਤੇ ਪ੍ਰਤੀਬਿੰਬਤ ਕਰਨ ਲਈ ਸੱਦਾ ਦਿਓ - ਬਿਨਾਂ ਕਿਸੇ ਸਿੱਟੇ 'ਤੇ ਮਜਬੂਰ ਕੀਤੇ।",
+      "explanation": [
+        "ਹਰ ਚੀਜ਼ ਦੀ ਇੱਕ ਸ਼ੁਰੂਆਤ ਅਤੇ ਇੱਕ ਕਾਰਨ ਹੈ. ਸ੍ਰਿਸ਼ਟੀ ਬਾਰੇ ਸੋਚਣਾ ਇੱਕ ਸਧਾਰਨ ਸਵਾਲ ਦਾ ਸੱਦਾ ਦਿੰਦਾ ਹੈ: ਕੀ ਇਹ ਸਭ ਕੁਝ ਕਿਸੇ ਚੀਜ਼ ਤੋਂ ਨਹੀਂ ਆਇਆ, ਜਾਂ ਇਹ ਇੱਕ ਸਿਰਜਣਹਾਰ ਵੱਲ ਇਸ਼ਾਰਾ ਕਰਦਾ ਹੈ?",
+        "ਇਹਨਾਂ ਪ੍ਰਤੀਬਿੰਬਾਂ ਨੂੰ ਨਿਮਰਤਾ ਨਾਲ ਸਾਂਝਾ ਕਰੋ, ਜਿੱਤਣ ਲਈ ਬਹਿਸ ਦੀ ਬਜਾਏ ਹੈਰਾਨੀ ਵਜੋਂ। ਟੀਚਾ ਸੋਚਣ ਲਈ ਦਰਵਾਜ਼ਾ ਖੋਲ੍ਹਣਾ ਹੈ, ਕਿਸੇ ਨੂੰ ਘੇਰਨਾ ਨਹੀਂ."
+      ],
+      "conversationTips": [
+        "ਪ੍ਰਤੀਬਿੰਬ ਨੂੰ ਸੱਦਾ ਦਿਓ: \"ਕੀ ਤੁਸੀਂ ਕਦੇ ਸੋਚਿਆ ਹੈ ਕਿ ਆਖਰਕਾਰ ਸਭ ਕੁਝ ਕਿੱਥੋਂ ਆਇਆ?\"",
+        "ਗੁੰਝਲਦਾਰ ਦਰਸ਼ਨ ਦੀ ਬਜਾਏ ਡਿਜ਼ਾਈਨ ਅਤੇ ਆਰਡਰ ਦੀਆਂ ਰੋਜ਼ਾਨਾ ਉਦਾਹਰਣਾਂ ਦੀ ਵਰਤੋਂ ਕਰੋ।",
+        "ਸ਼ਾਂਤ ਅਤੇ ਉਤਸੁਕ ਰਹੋ. ਇਸ ਨੂੰ ਬਹਿਸ ਵਿੱਚ ਬਦਲਣ ਤੋਂ ਬਚੋ।"
+      ],
+      "avoid": [
+        "ਬਹੁਤ ਜ਼ਿਆਦਾ ਆਤਮਵਿਸ਼ਵਾਸ ਵਾਲੇ ਦਾਰਸ਼ਨਿਕ ਦਾਅਵਿਆਂ ਦੀ ਤੁਸੀਂ ਵਿਆਖਿਆ ਨਹੀਂ ਕਰ ਸਕਦੇ।",
+        "ਵਿਅਕਤੀ ਨਾਲ ਗੱਲ ਕਰਨਾ ਜਾਂ ਇਹ ਦਰਸਾਉਣਾ ਕਿ ਉਹ ਮੂਰਖ ਹਨ।"
+      ],
+      "referenceIds": ["quran-52-35"],
+      "nextNodeId": "believe-in-god-after-signs"
+    },
+    "believe-in-god-after-signs": {
+      "id": "believe-in-god-after-signs",
+      "kind": "decision",
+      "title": "ਸੋਚਣ ਤੋਂ ਬਾਅਦ, ਕੀ ਉਹ ਰੱਬ ਨੂੰ ਮੰਨਦੇ ਹਨ?",
+      "summary": "ਹੌਲੀ-ਹੌਲੀ ਚੈੱਕ ਇਨ ਕਰੋ। ਵਿਸ਼ਵਾਸ ਉਹਨਾਂ ਅਤੇ ਅੱਲ੍ਹਾ ਵਿਚਕਾਰ ਹੈ - ਤੁਹਾਡੀ ਭੂਮਿਕਾ ਸਿਰਫ ਸੱਦਾ ਦੇਣ ਲਈ ਹੈ।",
+      "options": [
+        {
+          "id": "yes",
+          "label": "ਹਾਂ, ਉਹ ਹੁਣ ਵਿਸ਼ਵਾਸ ਕਰਦੇ ਹਨ",
+          "helperText": "ਪਰਮਾਤਮਾ ਦੀ ਏਕਤਾ ਵੱਲ ਵਧੋ।",
+          "nextNodeId": "tawheed-surah-ikhlas",
+          "ariaLabel": "ਹਾਂ, ਉਹ ਹੁਣ ਵਿਸ਼ਵਾਸ ਕਰਦੇ ਹਨ - ਤੌਹੀਦ ਨੂੰ ਜਾਰੀ ਰੱਖੋ"
+        },
+        {
+          "id": "no",
+          "label": "ਨਹੀਂ, ਅਜੇ ਨਹੀਂ",
+          "helperText": "ਗਰਮਜੋਸ਼ੀ ਨਾਲ ਬੰਦ ਕਰੋ ਅਤੇ ਦਰਵਾਜ਼ਾ ਖੁੱਲ੍ਹਾ ਰੱਖੋ।",
+          "nextNodeId": "respectful-exit-best-of-luck",
+          "ariaLabel": "ਨਹੀਂ, ਅਜੇ ਨਹੀਂ - ਗਰਮਜੋਸ਼ੀ ਨਾਲ ਬੰਦ ਕਰੋ"
+        }
+      ]
+    },
+    "tawheed-surah-ikhlas": {
+      "id": "tawheed-surah-ikhlas",
+      "kind": "teaching",
+      "title": "ਰੱਬ ਦੀ ਏਕਤਾ (ਤੌਹੀਦ)",
+      "eyebrow": "ਤੌਹੀਦ / ਸੂਰਾ ਅਲ-ਇਖਲਾਸ / ਅੱਲ੍ਹਾ",
+      "summary": "ਪੇਸ਼ ਕਰੋ ਕਿ ਇਸਲਾਮ ਵਿੱਚ ਰੱਬ ਕੌਣ ਹੈ: ਇੱਕ, ਸਦੀਵੀ, ਬਿਨਾਂ ਸਾਥੀ ਜਾਂ ਬਰਾਬਰ, ਜਿਵੇਂ ਕਿ ਸੂਰਾ ਅਲ-ਇਖਲਾਸ ਵਿੱਚ ਦੱਸਿਆ ਗਿਆ ਹੈ।",
+      "explanation": [
+        "ਇਸਲਾਮ ਵਿੱਚ, ਰੱਬ (ਅੱਲ੍ਹਾ) ਇੱਕ ਹੈ - ਉਸਦਾ ਕੋਈ ਸਾਥੀ ਨਹੀਂ, ਕੋਈ ਬੱਚੇ ਨਹੀਂ ਹਨ, ਅਤੇ ਕੁਝ ਵੀ ਉਸਦੇ ਮੁਕਾਬਲੇ ਨਹੀਂ ਹੈ। \"ਅੱਲ੍ਹਾ\" ਸਿਰਫ਼ ਇੱਕ ਰੱਬ ਲਈ ਅਰਬੀ ਸ਼ਬਦ ਹੈ, ਸਾਰੇ ਪੈਗੰਬਰਾਂ ਦੁਆਰਾ ਉਸੇ ਰੱਬ ਦੀ ਪੂਜਾ ਕੀਤੀ ਜਾਂਦੀ ਹੈ।",
+        "ਸੂਰਾ ਅਲ-ਇਖਲਾਸ ਕੁਰਾਨ ਦਾ ਇੱਕ ਛੋਟਾ ਅਧਿਆਇ ਹੈ ਜੋ ਇਸ ਸ਼ੁੱਧ ਵਿਸ਼ਵਾਸ ਨੂੰ ਚਾਰ ਲਾਈਨਾਂ ਵਿੱਚ ਸੁੰਦਰਤਾ ਨਾਲ ਸੰਖੇਪ ਕਰਦਾ ਹੈ।"
+      ],
+      "conversationTips": [
+        "ਸਮਝਾਓ ਕਿ \"ਅੱਲ੍ਹਾ\" ਕੋਈ ਵੱਖਰਾ ਰੱਬ ਨਹੀਂ ਹੈ, ਪਰ ਸਭ ਦਾ ਇੱਕ ਸਿਰਜਣਹਾਰ ਹੈ।",
+        "ਸੂਰਾ ਅਲ-ਇਖਲਾਸ ਨੂੰ ਇੱਕ ਕੋਮਲ, ਸਪਸ਼ਟ ਸੰਖੇਪ ਵਜੋਂ ਸਾਂਝਾ ਕਰੋ ਕਿ ਰੱਬ ਕੌਣ ਹੈ।"
+      ],
+      "referenceIds": ["quran-112-ikhlas"],
+      "nextNodeId": "one-god-initial"
+    },
+    "one-god-initial": {
+      "id": "one-god-initial",
+      "kind": "decision",
+      "title": "ਕੀ ਉਹ ਮੰਨਦੇ ਹਨ ਕਿ ਰੱਬ ਇੱਕ ਹੈ?",
+      "summary": "ਦੇਖੋ ਕਿ ਕੀ ਇੱਕ, ਅਵਿਭਾਗੀ ਪਰਮਾਤਮਾ ਦਾ ਵਿਚਾਰ ਉਹਨਾਂ ਨਾਲ ਗੂੰਜਦਾ ਹੈ.",
+      "options": [
+        {
+          "id": "yes",
+          "label": "ਹਾਂ, ਉਹ ਇਕ ਪਰਮਾਤਮਾ ਨੂੰ ਮੰਨਦੇ ਹਨ",
+          "helperText": "ਪ੍ਰਕਾਸ਼, ਨਿਆਂ ਅਤੇ ਨਿਆਂ ਦੇ ਦਿਨ ਵੱਲ ਵਧੋ।",
+          "nextNodeId": "justice-day-judgment-test-revelation",
+          "ariaLabel": "ਹਾਂ, ਉਹ ਇੱਕ ਰੱਬ ਨੂੰ ਸਵੀਕਾਰ ਕਰਦੇ ਹਨ - ਜਾਰੀ ਰੱਖੋ"
+        },
+        {
+          "id": "no",
+          "label": "ਨਹੀਂ, ਜਾਂ ਉਹਨਾਂ ਦੇ ਕੋਈ ਸਵਾਲ ਹਨ",
+          "helperText": "ਹੌਲੀ-ਹੌਲੀ ਚਰਚਾ ਕਰੋ ਕਿ ਕਈ ਦੇਵਤੇ ਵਿਰੋਧਾਭਾਸ ਵੱਲ ਕਿਉਂ ਅਗਵਾਈ ਕਰਦੇ ਹਨ।",
+          "nextNodeId": "ayat-ikhtilaf",
+          "ariaLabel": "ਕੋਈ ਜਾਂ ਸਵਾਲ - ਇੱਕ ਪਰਮਾਤਮਾ ਦੇ ਤਰਕ ਦੀ ਚਰਚਾ ਕਰੋ"
+        }
+      ]
+    },
+    "ayat-ikhtilaf": {
+      "id": "ayat-ikhtilaf",
+      "kind": "teaching",
+      "title": "ਕਿਉਂ ਇੱਕ ਰੱਬ ਸਮਝਦਾ ਹੈ",
+      "eyebrow": "ਆਇਤ ਇਖਤਿਲਾਫ਼",
+      "summary": "ਸ਼ਾਂਤੀ ਨਾਲ ਚਰਚਾ ਕਰੋ, ਕਿ ਕਿਵੇਂ ਕਈ ਪ੍ਰਤੀਯੋਗੀ ਦੇਵਤੇ ਟਕਰਾਅ ਅਤੇ ਵਿਗਾੜ ਵੱਲ ਅਗਵਾਈ ਕਰਨਗੇ - ਜਦੋਂ ਕਿ ਇੱਕ ਸਿੰਗਲ ਸਿਰਜਣਹਾਰ ਸਾਡੇ ਦੁਆਰਾ ਵੇਖੀ ਗਈ ਇਕਸੁਰਤਾ ਦੀ ਵਿਆਖਿਆ ਕਰਦਾ ਹੈ।",
+      "explanation": [
+        "ਜੇ ਆਪਣੀ ਮਰਜ਼ੀ ਨਾਲ ਬਹੁਤ ਸਾਰੇ ਦੇਵਤੇ ਹੁੰਦੇ, ਤਾਂ ਸ੍ਰਿਸ਼ਟੀ ਵਿਰੋਧੀ ਦਿਸ਼ਾਵਾਂ ਵਿੱਚ ਖਿੱਚੀ ਜਾਂਦੀ। ਬ੍ਰਹਿਮੰਡ ਦਾ ਕ੍ਰਮ ਅਤੇ ਇਕਸੁਰਤਾ ਇਸ ਦੀ ਬਜਾਏ ਇੱਕ ਅਥਾਰਟੀ ਵੱਲ ਇਸ਼ਾਰਾ ਕਰਦਾ ਹੈ।",
+        "ਇਸ ਨੂੰ ਪ੍ਰਤੀਬਿੰਬ ਵਜੋਂ ਪੇਸ਼ ਕਰੋ, ਨਾਕਆਊਟ ਦਲੀਲ ਵਜੋਂ ਨਹੀਂ। ਕੁਝ ਲੋਕਾਂ ਨੂੰ ਸਮਾਂ ਚਾਹੀਦਾ ਹੈ, ਅਤੇ ਇਹ ਠੀਕ ਹੈ।"
+      ],
+      "conversationTips": [
+        "ਧੁਨ ਨੂੰ ਪ੍ਰਤੀਬਿੰਬਤ ਅਤੇ ਨਿਮਰ ਰੱਖੋ, ਕਦੇ ਵੀ ਲੜਾਕੂ।",
+        "ਚੁੱਪ ਅਤੇ ਸਵਾਲਾਂ ਦੀ ਇਜਾਜ਼ਤ ਦਿਓ। ਤੁਸੀਂ ਇੱਕ ਬੀਜ ਬੀਜ ਰਹੇ ਹੋ, ਇੱਕ ਵਿਕਰੀ ਬੰਦ ਨਹੀਂ ਕਰ ਰਹੇ."
+      ],
+      "avoid": [
+        "ਬਹੁਦੇਵਵਾਦੀ ਜਾਂ ਹੋਰ ਵਿਸ਼ਵਾਸਾਂ ਦਾ ਮਜ਼ਾਕ ਉਡਾਉਣ।",
+        "ਚਰਚਾ ਨੂੰ ਗਰਮ ਬਹਿਸ ਵਿੱਚ ਬਦਲਣਾ।"
+      ],
+      "referenceIds": ["quran-21-22"],
+      "nextNodeId": "one-god-after-ikhtilaf"
+    },
+    "one-god-after-ikhtilaf": {
+      "id": "one-god-after-ikhtilaf",
+      "kind": "decision",
+      "title": "ਕੀ ਇੱਕ ਰੱਬ ਹੁਣ ਉਹਨਾਂ ਨੂੰ ਸਮਝਦਾ ਹੈ?",
+      "summary": "ਹੌਲੀ-ਹੌਲੀ ਅਤੇ ਦਬਾਅ ਤੋਂ ਬਿਨਾਂ ਦੁਬਾਰਾ ਚੈੱਕ-ਇਨ ਕਰੋ।",
+      "options": [
+        {
+          "id": "yes",
+          "label": "ਹਾਂ, ਇਹ ਹੁਣ ਅਰਥ ਰੱਖਦਾ ਹੈ",
+          "helperText": "ਪ੍ਰਕਾਸ਼, ਨਿਆਂ ਅਤੇ ਨਿਆਂ ਦੇ ਦਿਨ ਵੱਲ ਵਧੋ।",
+          "nextNodeId": "justice-day-judgment-test-revelation",
+          "ariaLabel": "ਹਾਂ — ਪ੍ਰਕਾਸ਼ ਅਤੇ ਨਿਆਂ ਦੇ ਦਿਨ ਨੂੰ ਜਾਰੀ ਰੱਖੋ"
+        },
+        {
+          "id": "no",
+          "label": "ਨਹੀਂ, ਅਜੇ ਨਹੀਂ",
+          "helperText": "ਗਰਮਜੋਸ਼ੀ ਨਾਲ ਬੰਦ ਕਰੋ ਅਤੇ ਦਰਵਾਜ਼ਾ ਖੁੱਲ੍ਹਾ ਰੱਖੋ।",
+          "nextNodeId": "respectful-exit-best-of-luck",
+          "ariaLabel": "ਨਹੀਂ, ਅਜੇ ਨਹੀਂ - ਗਰਮਜੋਸ਼ੀ ਨਾਲ ਬੰਦ ਕਰੋ"
+        }
+      ]
+    },
+    "justice-day-judgment-test-revelation": {
+      "id": "justice-day-judgment-test-revelation",
+      "kind": "teaching",
+      "title": "ਨਿਆਂ, ਜੀਵਨ ਦੀ ਪ੍ਰੀਖਿਆ, ਅਤੇ ਪਰਕਾਸ਼ ਦੀ ਪੋਥੀ",
+      "eyebrow": "ਨਿਆਂ / ਨਿਰਣੇ ਦਾ ਦਿਨ / ਟੈਸਟ / ਪਰਕਾਸ਼ ਦੀ ਪੋਥੀ",
+      "summary": "ਸਮਝਾਓ ਕਿ ਇਹ ਜੀਵਨ ਇੱਕ ਇਮਤਿਹਾਨ ਹੈ, ਕਿ ਨਿਆਂ ਦੇ ਦਿਨ ਨਿਆਂ ਪੂਰਾ ਹੋਵੇਗਾ, ਅਤੇ ਇਹ ਕਿ ਰੱਬ ਨੇ ਸਾਨੂੰ ਮਾਰਗਦਰਸ਼ਨ ਤੋਂ ਬਿਨਾਂ ਨਹੀਂ ਛੱਡਿਆ।",
+      "explanation": [
+        "ਇੱਕ ਧਰਮੀ ਪਰਮੇਸ਼ੁਰ ਹਮੇਸ਼ਾ ਲਈ ਗ਼ਲਤ ਕੰਮਾਂ ਨੂੰ ਬੇਲੋੜਾ ਨਹੀਂ ਛੱਡੇਗਾ। ਨਿਆਂ ਦਾ ਦਿਨ ਉਹ ਹੈ ਜਿੱਥੇ ਅੰਤ ਵਿੱਚ ਸੰਪੂਰਨ ਨਿਆਂ ਸਥਾਪਤ ਹੁੰਦਾ ਹੈ।",
+        "ਕਿਉਂਕਿ ਜੀਵਨ ਇੱਕ ਸਾਰਥਕ ਇਮਤਿਹਾਨ ਹੈ, ਪਰਮੇਸ਼ਰ ਨੇ ਪ੍ਰਕਾਸ਼ ਭੇਜਿਆ - ਉਸਦੇ ਦੂਤਾਂ ਦੁਆਰਾ ਮਾਰਗਦਰਸ਼ਨ - ਇਸ ਲਈ ਸਾਨੂੰ ਕਦੇ ਵੀ ਜੀਵਨ ਦੇ ਉਦੇਸ਼ ਦਾ ਪਤਾ ਲਗਾਉਣ ਲਈ ਨਹੀਂ ਛੱਡਿਆ ਜਾਂਦਾ ਹੈ।"
+      ],
+      "conversationTips": [
+        "ਨਿਆਂ ਅਤੇ ਨਿਰਪੱਖਤਾ ਦੀ ਉਹਨਾਂ ਦੀ ਪੈਦਾਇਸ਼ੀ ਭਾਵਨਾ ਨਾਲ ਜੁੜੋ।",
+        "ਫਰੇਮ ਪਰਕਾਸ਼ ਦੀ ਪੋਥੀ ਨੂੰ ਇੱਕ ਰਹਿਮ ਦੇ ਤੌਰ ਤੇ: ਸਾਨੂੰ guess ਕਰਨ ਨੂੰ ਛੱਡ ਨਹੀ ਕਰ ਰਹੇ ਹਨ."
+      ],
+      "referenceIds": ["hadith-jibril"],
+      "nextNodeId": "angels"
+    },
+    "angels": {
+      "id": "angels",
+      "kind": "teaching",
+      "title": "ਦੂਤਾਂ ਵਿੱਚ ਵਿਸ਼ਵਾਸ",
+      "eyebrow": "ਦੂਤ",
+      "summary": "ਦੂਤਾਂ ਨੂੰ ਪ੍ਰਮਾਤਮਾ ਦੀਆਂ ਸਨਮਾਨਿਤ ਰਚਨਾਵਾਂ ਵਜੋਂ ਪੇਸ਼ ਕਰੋ ਜੋ ਪ੍ਰਕਾਸ਼ ਪ੍ਰਦਾਨ ਕਰਨ ਸਮੇਤ ਉਸਦੇ ਹੁਕਮਾਂ ਨੂੰ ਪੂਰਾ ਕਰਦੇ ਹਨ।",
+      "explanation": [
+        "ਦੂਤ ਪ੍ਰਕਾਸ਼ ਤੋਂ ਪਰਮਾਤਮਾ ਦੁਆਰਾ ਬਣਾਏ ਜੀਵ ਹਨ, ਜੋ ਕਦੇ ਵੀ ਉਸਦੀ ਅਣਆਗਿਆਕਾਰੀ ਨਹੀਂ ਕਰਦੇ. ਉਹਨਾਂ ਦੀਆਂ ਭੂਮਿਕਾਵਾਂ ਹਨ ਜਿਵੇਂ ਕਿ ਖੁਲਾਸਾ ਕਰਨਾ, ਰਿਕਾਰਡ ਕਰਨਾ, ਅਤੇ ਹੋਰ ਬਹੁਤ ਕੁਝ।",
+        "ਦੂਤਾਂ ਵਿੱਚ ਵਿਸ਼ਵਾਸ ਅਦ੍ਰਿਸ਼ਟ ਦੀ ਵਿਆਪਕ ਇਸਲਾਮੀ ਸਮਝ ਦਾ ਹਿੱਸਾ ਹੈ।"
+      ],
+      "referenceIds": ["hadith-jibril"],
+      "nextNodeId": "messengers-prophets"
+    },
+    "messengers-prophets": {
+      "id": "messengers-prophets",
+      "kind": "teaching",
+      "title": "ਦੂਤ ਅਤੇ ਨਬੀ",
+      "eyebrow": "ਦੂਤ / ਨਬੀ",
+      "summary": "ਸਮਝਾਓ ਕਿ ਪ੍ਰਮਾਤਮਾ ਨੇ ਇਤਿਹਾਸ ਵਿੱਚ ਬਹੁਤ ਸਾਰੇ ਨਬੀ ਅਤੇ ਦੂਤ ਭੇਜੇ, ਸਾਰੇ ਇੱਕ ਮੁੱਖ ਸੰਦੇਸ਼ ਲੈ ਕੇ ਗਏ: ਇੱਕ ਪਰਮਾਤਮਾ ਦੀ ਉਪਾਸਨਾ।",
+      "explanation": [
+        "ਪਹਿਲੇ ਮਨੁੱਖ ਤੋਂ ਲੈ ਕੇ, ਪ੍ਰਮਾਤਮਾ ਨੇ ਹਰ ਮਨੁੱਖ ਲਈ ਮਾਰਗ ਦਰਸ਼ਕ ਭੇਜੇ। ਨੂਹ, ਅਬਰਾਹਮ, ਮੂਸਾ ਅਤੇ ਯਿਸੂ ਵਰਗੇ ਨਾਵਾਂ ਦਾ ਇਸਲਾਮ ਵਿੱਚ ਬਹੁਤ ਸਨਮਾਨ ਕੀਤਾ ਜਾਂਦਾ ਹੈ।",
+        "ਭਾਵੇਂ ਉਹਨਾਂ ਦੇ ਸਮਾਜ ਅਤੇ ਸਮੇਂ ਵੱਖੋ-ਵੱਖਰੇ ਸਨ, ਉਹਨਾਂ ਦਾ ਕੇਂਦਰੀ ਸੰਦੇਸ਼ ਇੱਕੋ ਸੀ: ਪੂਜਾ ਦੇ ਯੋਗ ਕੇਵਲ ਇੱਕ ਪਰਮਾਤਮਾ ਹੈ।"
+      ],
+      "conversationTips": [
+        "ਨਬੀਆਂ ਵਿਚਕਾਰ ਸਾਂਝੇ ਧਾਗੇ 'ਤੇ ਜ਼ੋਰ ਦਿਓ - ਇਹ ਅਕਸਰ ਦੂਜੇ ਧਰਮਾਂ ਦੇ ਲੋਕਾਂ ਨਾਲ ਗੂੰਜਦਾ ਹੈ।"
+      ],
+      "referenceIds": ["quran-21-25"],
+      "nextNodeId": "jesus-peace-be-upon-him"
+    },
+    "jesus-peace-be-upon-him": {
+      "id": "jesus-peace-be-upon-him",
+      "kind": "teaching",
+      "title": "ਯਿਸੂ, ਉਸ ਉੱਤੇ ਸ਼ਾਂਤੀ ਹੋਵੇ",
+      "eyebrow": "ਯਿਸੂ (ਪੀ.ਬੀ.ਯੂ.)",
+      "summary": "ਯਿਸੂ ਬਾਰੇ ਡੂੰਘੇ ਪਿਆਰ ਅਤੇ ਸਤਿਕਾਰ ਨਾਲ ਗੱਲ ਕਰੋ, ਕਿਉਂਕਿ ਇਸਲਾਮ ਉਸਨੂੰ ਪਰਮਾਤਮਾ ਦੇ ਮਹਾਨ ਦੂਤਾਂ ਵਿੱਚੋਂ ਇੱਕ ਵਜੋਂ ਸਨਮਾਨਿਤ ਕਰਦਾ ਹੈ।",
+      "explanation": [
+        "ਮੁਸਲਮਾਨ ਪਿਆਰ ਕਰਦੇ ਹਨ ਅਤੇ ਯਿਸੂ (ਸ਼ਾਂਤੀ) ਦਾ ਸਨਮਾਨ ਕਰਦੇ ਹਨ। ਅਸੀਂ ਉਸਦੇ ਚਮਤਕਾਰੀ ਜਨਮ, ਪ੍ਰਮਾਤਮਾ ਦੀ ਆਗਿਆ ਦੁਆਰਾ ਉਸਦੇ ਚਮਤਕਾਰਾਂ, ਅਤੇ ਉਸਦੇ ਮਹਾਨ ਸੰਦੇਸ਼ ਵਿੱਚ ਵਿਸ਼ਵਾਸ ਕਰਦੇ ਹਾਂ।",
+        "ਇਸਲਾਮ ਸਿਖਾਉਂਦਾ ਹੈ ਕਿ ਯਿਸੂ ਰੱਬ ਦਾ ਇੱਕ ਸ਼ਕਤੀਸ਼ਾਲੀ ਦੂਤ ਸੀ ਜਿਸਨੇ ਲੋਕਾਂ ਨੂੰ ਇੱਕ ਰੱਬ ਦੀ ਪੂਜਾ ਕਰਨ ਲਈ ਬੁਲਾਇਆ ਸੀ। ਇਸ ਵਿਸ਼ੇ 'ਤੇ ਬਹੁਤ ਧਿਆਨ ਅਤੇ ਆਦਰ ਨਾਲ ਪਹੁੰਚੋ, ਖ਼ਾਸਕਰ ਮਸੀਹੀ ਪਿਛੋਕੜ ਵਾਲੇ ਲੋਕਾਂ ਨਾਲ।"
+      ],
+      "conversationTips": [
+        "ਯਿਸੂ ਲਈ ਸਾਂਝੇ ਪਿਆਰ ਅਤੇ ਸਤਿਕਾਰ ਨਾਲ ਅਗਵਾਈ ਕਰੋ - ਕਦੇ ਵੀ ਆਲੋਚਨਾ ਦੇ ਨਾਲ।",
+        "ਧਿਆਨ ਨਾਲ ਸੁਣੋ; ਇਹ ਕਈਆਂ ਲਈ ਭਾਵਨਾਤਮਕ ਵਿਸ਼ਾ ਹੋ ਸਕਦਾ ਹੈ।"
+      ],
+      "avoid": [
+        "ਈਸਾਈ ਵਿਸ਼ਵਾਸਾਂ ਦਾ ਨਿਰਾਦਰ ਕਰਨਾ ਜਾਂ ਧਰਮ ਸ਼ਾਸਤਰ ਬਾਰੇ ਹਮਲਾਵਰ ਢੰਗ ਨਾਲ ਬਹਿਸ ਕਰਨਾ।",
+        "ਇਸ ਗੱਲਬਾਤ ਨੂੰ ਜਲਦੀ ਕਰਨਾ - ਇਸਨੂੰ ਨਿੱਘ ਅਤੇ ਸਮਾਂ ਦਿਓ।"
+      ],
+      "referenceIds": ["quran-3-45"],
+      "nextNodeId": "shahada-readiness-initial"
+    },
+    "shahada-readiness-initial": {
+      "id": "shahada-readiness-initial",
+      "kind": "decision",
+      "title": "ਕੀ ਉਹ ਸ਼ਹਾਦਤ ਲਈ ਤਿਆਰ ਹਨ?",
+      "summary": "ਸਮਝੋ ਕਿ ਕੀ ਵਿਅਕਤੀ ਇਸਲਾਮ ਨੂੰ ਅਪਣਾਉਣ ਲਈ ਤਿਆਰ ਮਹਿਸੂਸ ਕਰਦਾ ਹੈ। ਤਤਪਰਤਾ ਉਹਨਾਂ ਤੋਂ, ਇਮਾਨਦਾਰੀ ਅਤੇ ਸੁਤੰਤਰਤਾ ਨਾਲ ਆਉਣੀ ਚਾਹੀਦੀ ਹੈ।",
+      "conversationTips": [
+        "ਕਦੇ ਦਬਾਅ ਨਾ ਕਰੋ. ਸ਼ਹਾਦਾ ਇੱਕ ਆਜ਼ਾਦ, ਸੁਹਿਰਦ ਚੋਣ ਹੋਣੀ ਚਾਹੀਦੀ ਹੈ।",
+        "ਇੱਕ ਵਾਰ ਨਿਮਰਤਾ ਨਾਲ ਪੁੱਛੋ, ਫਿਰ ਉਨ੍ਹਾਂ ਨੂੰ ਸੋਚਣ ਲਈ ਜਗ੍ਹਾ ਦਿਓ।",
+        "ਇਹ ਪੂਰੀ ਤਰ੍ਹਾਂ ਠੀਕ ਹੈ — ਅਤੇ ਅਕਸਰ ਬਿਹਤਰ — ਕਿਸੇ ਲਈ ਹੋਰ ਸਮਾਂ ਲੈਣਾ।"
+      ],
+      "options": [
+        {
+          "id": "yes",
+          "label": "ਹਾਂ, ਉਹ ਤਿਆਰ ਮਹਿਸੂਸ ਕਰਦੇ ਹਨ",
+          "helperText": "ਉਹਨਾਂ ਨੂੰ ਮਾਰਗਦਰਸ਼ਨ ਅਤੇ ਭਾਈਚਾਰੇ ਨਾਲ ਜੋੜੋ।",
+          "nextNodeId": "connect-guidance-community",
+          "ariaLabel": "ਹਾਂ, ਉਹ ਤਿਆਰ ਮਹਿਸੂਸ ਕਰਦੇ ਹਨ — ਉਹਨਾਂ ਨੂੰ ਭਾਈਚਾਰੇ ਨਾਲ ਜੋੜੋ"
+        },
+        {
+          "id": "no",
+          "label": "ਹਾਲੇ ਨਹੀ",
+          "helperText": "ਨਰਮੀ ਨਾਲ ਉਤਸ਼ਾਹਿਤ ਕਰੋ ਅਤੇ ਦਰਵਾਜ਼ਾ ਖੁੱਲ੍ਹਾ ਰੱਖੋ।",
+          "nextNodeId": "encourage-keep-door-open",
+          "ariaLabel": "ਅਜੇ ਨਹੀਂ - ਨਰਮੀ ਨਾਲ ਉਤਸ਼ਾਹਿਤ ਕਰੋ"
+        }
+      ]
+    },
+    "encourage-keep-door-open": {
+      "id": "encourage-keep-door-open",
+      "kind": "encouragement",
+      "title": "ਨਰਮੀ ਨਾਲ ਹੌਸਲਾ ਦਿਓ, ਦਰਵਾਜ਼ਾ ਖੁੱਲ੍ਹਾ ਰੱਖੋ",
+      "eyebrow": "ਉਤਸ਼ਾਹਿਤ ਕਰੋ",
+      "summary": "ਬਿਨਾਂ ਕਿਸੇ ਦਬਾਅ ਦੇ ਨਿੱਘ, ਸਰੋਤ ਅਤੇ ਦੋਸਤੀ ਦੀ ਪੇਸ਼ਕਸ਼ ਕਰੋ। ਉਨ੍ਹਾਂ ਨੂੰ ਦੱਸੋ ਕਿ ਦਰਵਾਜ਼ਾ ਹਮੇਸ਼ਾ ਖੁੱਲ੍ਹਾ ਹੈ.",
+      "explanation": [
+        "ਉਨ੍ਹਾਂ ਨੂੰ ਭਰੋਸਾ ਦਿਵਾਓ ਕਿ ਕੋਈ ਕਾਹਲੀ ਨਹੀਂ ਹੈ ਅਤੇ ਕੋਈ ਦਬਾਅ ਨਹੀਂ ਹੈ। ਕਿਸੇ ਵੀ ਸਮੇਂ ਸਵਾਲਾਂ ਦੇ ਜਵਾਬ ਦੇਣ ਦੀ ਪੇਸ਼ਕਸ਼ ਕਰੋ, ਥੋੜ੍ਹੇ ਜਿਹੇ ਭਰੋਸੇਮੰਦ ਸਰੋਤ ਸਾਂਝੇ ਕਰੋ, ਅਤੇ ਉਹਨਾਂ ਨੂੰ ਇਹ ਫੈਸਲਾ ਕਰਨ ਦਿਓ ਕਿ ਉਹ ਹੁਣੇ ਜਾਂ ਬਾਅਦ ਵਿੱਚ ਜਾਰੀ ਰੱਖਣਾ ਚਾਹੁੰਦੇ ਹਨ।",
+        "ਇੱਕ ਦਿਆਲੂ, ਮਰੀਜ਼ ਦਾਈ ਜੋ ਦਰਵਾਜ਼ਾ ਖੁੱਲ੍ਹਾ ਰੱਖਦਾ ਹੈ, ਧੱਕਾ ਕਰਨ ਵਾਲੇ ਨਾਲੋਂ ਕਿਤੇ ਜ਼ਿਆਦਾ ਪ੍ਰਭਾਵਸ਼ਾਲੀ ਹੁੰਦਾ ਹੈ। ਮਾਰਗਦਰਸ਼ਨ ਅੱਲ੍ਹਾ ਤੋਂ ਹੈ, ਅਤੇ ਬਹੁਤ ਸਾਰੇ ਲੋਕ ਪਹਿਲੀ ਵਾਰਤਾਲਾਪ ਤੋਂ ਬਾਅਦ ਇਸਲਾਮ ਕਬੂਲ ਕਰਦੇ ਹਨ।"
+      ],
+      "conversationTips": [
+        "ਆਪਣੇ ਸੰਪਰਕ ਅਤੇ ਕੁਝ ਕੋਮਲ ਸਰੋਤਾਂ ਦੀ ਪੇਸ਼ਕਸ਼ ਕਰੋ।",
+        "ਜੇ ਉਹ ਥੱਕੇ ਹੋਏ, ਤਣਾਅ ਵਿਚ ਜਾਂ ਹਾਵੀ ਨਜ਼ਰ ਆਉਂਦੇ ਹਨ, ਤਾਂ ਹੋਰ ਬਿੰਦੂ ਜੋੜਨ ਦੀ ਬਜਾਏ ਰੁਕੋ।",
+        "ਉਨ੍ਹਾਂ ਦੇ ਫੈਸਲੇ ਦੀ ਪਰਵਾਹ ਕੀਤੇ ਬਿਨਾਂ ਦੋਸਤੀ ਦੀ ਪੁਸ਼ਟੀ ਕਰੋ.",
+        "ਉਨ੍ਹਾਂ ਲਈ ਨਿਜੀ ਤੌਰ 'ਤੇ ਦਿਲੋਂ ਦੁਆ ਕਰੋ।"
+      ],
+      "referenceIds": ["quran-51-55", "quran-28-56", "quran-2-256"],
+      "nextNodeId": "shahada-readiness-after-encouragement"
+    },
+    "shahada-readiness-after-encouragement": {
+      "id": "shahada-readiness-after-encouragement",
+      "kind": "decision",
+      "title": "ਹੌਸਲਾ ਦੇਣ ਤੋਂ ਬਾਅਦ, ਕੀ ਉਹ ਤਿਆਰ ਹਨ?",
+      "summary": "ਜੇਕਰ ਪਲ ਅਜੇ ਵੀ ਸੁਆਗਤ ਮਹਿਸੂਸ ਕਰਦਾ ਹੈ ਤਾਂ ਹੀ ਦੁਬਾਰਾ ਚੈੱਕ ਇਨ ਕਰੋ। ਉਹ ਜੋ ਵੀ ਫੈਸਲਾ ਕਰਦੇ ਹਨ, ਦਿਆਲਤਾ ਨਾਲ ਜਵਾਬ ਦਿੰਦੇ ਹਨ.",
+      "options": [
+        {
+          "id": "yes",
+          "label": "ਹਾਂ, ਉਹ ਜਾਰੀ ਰੱਖਣ ਲਈ ਕਹਿੰਦੇ ਹਨ",
+          "helperText": "ਉਹਨਾਂ ਨੂੰ ਮਾਰਗਦਰਸ਼ਨ ਅਤੇ ਭਾਈਚਾਰੇ ਨਾਲ ਜੋੜੋ।",
+          "nextNodeId": "connect-guidance-community",
+          "ariaLabel": "ਹਾਂ, ਉਹ ਜਾਰੀ ਰੱਖਣ ਲਈ ਕਹਿੰਦੇ ਹਨ — ਉਹਨਾਂ ਨੂੰ ਭਾਈਚਾਰੇ ਨਾਲ ਜੋੜਦੇ ਹਨ"
+        },
+        {
+          "id": "no",
+          "label": "ਅਜੇ ਵੀ ਨਹੀਂ",
+          "helperText": "ਗਰਮਜੋਸ਼ੀ ਨਾਲ ਬੰਦ ਕਰੋ ਅਤੇ ਦਰਵਾਜ਼ਾ ਖੁੱਲ੍ਹਾ ਰੱਖੋ।",
+          "nextNodeId": "respectful-exit-best-of-luck",
+          "ariaLabel": "ਅਜੇ ਵੀ ਨਹੀਂ - ਗਰਮਜੋਸ਼ੀ ਨਾਲ ਬੰਦ ਕਰੋ"
+        }
+      ]
+    },
+    "connect-guidance-community": {
+      "id": "connect-guidance-community",
+      "kind": "completion",
+      "title": "ਉਹਨਾਂ ਨੂੰ ਮਾਰਗਦਰਸ਼ਨ ਅਤੇ ਭਾਈਚਾਰੇ ਨਾਲ ਜੋੜੋ",
+      "eyebrow": "ਸੰਪਰਕ / ਮੁਸਲਿਮ ਗਾਈਡ",
+      "summary": "ਸਹਾਇਤਾ ਨਾਲ ਅਗਲੇ ਕਦਮ ਚੁੱਕਣ ਵਿੱਚ ਉਹਨਾਂ ਦੀ ਮਦਦ ਕਰੋ। ਇੱਕ ਨਵੇਂ ਮੁਸਲਮਾਨ ਨੂੰ ਕਦੇ ਵੀ ਇਕੱਲਾ ਮਹਿਸੂਸ ਨਹੀਂ ਕਰਨਾ ਚਾਹੀਦਾ।",
+      "explanation": [
+        "ਇਸਲਾਮ ਧਾਰਨ ਕਰਨਾ ਇੱਕ ਸ਼ੁਰੂਆਤ ਹੈ, ਅੰਤ ਨਹੀਂ। ਹੁਣ ਸਭ ਤੋਂ ਮਹੱਤਵਪੂਰਨ ਚੀਜ਼ ਪਿਆਰ ਭਰਿਆ ਸਮਰਥਨ ਅਤੇ ਕੋਮਲ, ਵਿਹਾਰਕ ਮਾਰਗਦਰਸ਼ਨ ਹੈ।",
+        "ਇੱਕ ਭਰੋਸੇਯੋਗ ਸਥਾਨਕ ਭਾਈਚਾਰੇ ਨਾਲ ਜੁੜਨ ਵਿੱਚ ਉਹਨਾਂ ਦੀ ਮਦਦ ਕਰੋ ਤਾਂ ਜੋ ਉਹ ਆਪਣੀ ਰਫ਼ਤਾਰ ਨਾਲ ਸਿੱਖ ਸਕਣ ਅਤੇ ਵਿਕਾਸ ਕਰ ਸਕਣ।"
+      ],
+      "checklist": [
+        "ਉਹਨਾਂ ਨੂੰ ਇੱਕ ਦਿਆਲੂ ਸਥਾਨਕ ਇਮਾਮ ਜਾਂ ਸਲਾਹਕਾਰ ਨਾਲ ਜਾਣੂ ਕਰਵਾਓ।",
+        "ਉਹਨਾਂ ਨੂੰ ਇੱਕ ਨਵੇਂ ਮੁਸਲਿਮ ਸਹਾਇਤਾ ਸਮੂਹ ਨਾਲ ਜੋੜੋ।",
+        "ਉਹਨਾਂ ਦੀ ਇੱਕ ਸੁਆਗਤ ਕਰਨ ਵਾਲੀ ਸਥਾਨਕ ਮਸਜਿਦ ਲੱਭਣ ਵਿੱਚ ਮਦਦ ਕਰੋ।",
+        "ਇੱਕ ਕੋਮਲ ਫਾਲੋ-ਅੱਪ ਯੋਜਨਾ (ਇੱਕ ਚੈਕ-ਇਨ, ਇੱਕ ਕਲਾਸ, ਇੱਕਠੇ ਭੋਜਨ) 'ਤੇ ਸਹਿਮਤ ਹੋਵੋ।",
+        "ਪ੍ਰਾਰਥਨਾ ਅਤੇ ਇਸਲਾਮ ਦੀਆਂ ਮੂਲ ਗੱਲਾਂ 'ਤੇ ਸ਼ੁਰੂਆਤੀ-ਦੋਸਤਾਨਾ ਸਰੋਤ ਸਾਂਝੇ ਕਰੋ।"
+      ],
+      "referenceIds": ["quran-16-125"]
+    },
+    "respectful-exit-best-of-luck": {
+      "id": "respectful-exit-best-of-luck",
+      "kind": "exit",
+      "title": "ਗਰਮਜੋਸ਼ੀ ਨਾਲ ਬੰਦ ਕਰੋ - ਦਰਵਾਜ਼ਾ ਖੁੱਲ੍ਹਾ ਰੱਖੋ",
+      "eyebrow": "ਸ਼ੁਭਕਾਮਨਾਵਾਂ",
+      "summary": "ਹਰ ਗੱਲਬਾਤ ਨੂੰ ਦਿਆਲਤਾ ਨਾਲ ਖਤਮ ਕਰੋ, ਨਤੀਜੇ ਦੀ ਪਰਵਾਹ ਕੀਤੇ ਬਿਨਾਂ। ਤੁਹਾਡਾ ਕੰਮ ਵਿਅਕਤ ਕਰਨਾ ਹੈ, ਪਰਿਵਰਤਿਤ ਕਰਨਾ ਨਹੀਂ।",
+      "explanation": [
+        "ਉਹਨਾਂ ਦੇ ਸਮੇਂ ਅਤੇ ਖੁੱਲੇਪਨ ਲਈ ਉਹਨਾਂ ਦਾ ਦਿਲੋਂ ਧੰਨਵਾਦ। ਇਹ ਸਪੱਸ਼ਟ ਕਰੋ ਕਿ ਬਾਅਦ ਵਿੱਚ ਗੱਲਬਾਤ ਜਾਰੀ ਰੱਖਣ ਲਈ ਉਹਨਾਂ ਦਾ ਹਮੇਸ਼ਾ ਸਵਾਗਤ ਹੈ।",
+        "ਕਿਸੇ ਵੀ ਨਿਰਾਸ਼ਾ ਜਾਂ ਬਹਿਸ ਤੋਂ ਬਚੋ। ਮਾਰਗਦਰਸ਼ਨ ਕੇਵਲ ਅੱਲ੍ਹਾ ਤੋਂ ਹੈ - ਤੁਹਾਡੀ ਭੂਮਿਕਾ ਕੇਵਲ ਬੁੱਧੀ ਅਤੇ ਚੰਗੇ ਵਿਵਹਾਰ ਨਾਲ ਸੱਦਾ ਦੇਣਾ ਹੈ, ਅਤੇ ਉਨ੍ਹਾਂ ਲਈ ਨਿਜੀ ਤੌਰ 'ਤੇ ਦੁਆ ਕਰਨਾ ਹੈ।"
+      ],
+      "conversationTips": [
+        "ਉਨ੍ਹਾਂ ਨੂੰ ਇਸਲਾਮ ਅਤੇ ਮੁਸਲਮਾਨਾਂ ਦੀ ਚੰਗੀ ਛਾਪ ਛੱਡੋ।",
+        "ਕਿਸੇ ਵੀ ਸਮੇਂ ਸੰਪਰਕ ਵਿੱਚ ਰਹਿਣ ਅਤੇ ਸਵਾਲਾਂ ਦੇ ਜਵਾਬ ਦੇਣ ਦੀ ਪੇਸ਼ਕਸ਼ ਕਰੋ।",
+        "ਉਹਨਾਂ ਦੇ ਸਪੱਸ਼ਟ ਤੌਰ 'ਤੇ ਰੁਕਣ ਜਾਂ ਅਸਵੀਕਾਰ ਕਰਨ ਤੋਂ ਬਾਅਦ ਫੈਸਲਾ ਲੈਣ ਲਈ ਨਾ ਪੁੱਛੋ।",
+        "ਆਪਣੇ ਵੱਖ ਹੋਣ ਤੋਂ ਬਾਅਦ ਉਨ੍ਹਾਂ ਲਈ ਦਿਲੋਂ ਦੁਆ ਕਰੋ।"
+      ],
+      "referenceIds": ["quran-51-55", "quran-28-56", "quran-2-256"]
+    }
+  },
+  "gorap": [
+    {
+      "letter": "G",
+      "title": "ਰੱਬ",
+      "shortLabel": "ਅੱਲ੍ਹਾ ਦੀ ਹੋਂਦ",
+      "explanation": "ਇੱਕ ਸਿਰਜਣਹਾਰ ਵਿੱਚ ਵਿਸ਼ਵਾਸ ਸਥਾਪਿਤ ਕਰੋ - ਰੱਬ ਦੀ ਹੋਂਦ।",
+      "relatedNodeIds": [
+        "believe-in-god-initial",
+        "signs-creation-infinite-regress"
+      ]
+    },
+    {
+      "letter": "O",
+      "title": "ਇਕ ਪਰਮਾਤਮਾ",
+      "shortLabel": "ਤੌਹੀਦ",
+      "explanation": "ਪ੍ਰਮਾਤਮਾ ਦੀ ਏਕਤਾ ਨੂੰ ਸਥਾਪਿਤ ਕਰੋ - ਕਿ ਉਹ ਇੱਕ ਹੈ, ਬਿਨਾਂ ਸਾਥੀ ਜਾਂ ਬਰਾਬਰ ਦੇ।",
+      "relatedNodeIds": [
+        "tawheed-surah-ikhlas",
+        "one-god-initial",
+        "ayat-ikhtilaf"
+      ]
+    },
+    {
+      "letter": "R",
+      "title": "ਪਰਕਾਸ਼ ਦੀ ਪੋਥੀ",
+      "shortLabel": "ਨਿਆਂ / ਨਿਰਣੇ ਦਾ ਦਿਨ / ਟੈਸਟ",
+      "explanation": "ਸਥਾਪਿਤ ਕਰੋ ਕਿ ਜੀਵਨ ਇੱਕ ਇਮਤਿਹਾਨ ਹੈ, ਨਿਆਂ ਪੂਰਾ ਹੋਵੇਗਾ, ਅਤੇ ਪ੍ਰਮਾਤਮਾ ਨੇ ਮਾਰਗਦਰਸ਼ਨ ਦੇ ਰੂਪ ਵਿੱਚ ਪ੍ਰਗਟ ਕੀਤਾ ਹੈ.",
+      "relatedNodeIds": ["justice-day-judgment-test-revelation"]
+    },
+    {
+      "letter": "A",
+      "title": "ਦੂਤ",
+      "shortLabel": "ਦੂਤ",
+      "explanation": "ਦੂਤਾਂ ਵਿੱਚ ਵਿਸ਼ਵਾਸ ਸਥਾਪਿਤ ਕਰੋ, ਸਤਿਕਾਰਤ ਰਚਨਾਵਾਂ ਜੋ ਰੱਬ ਦੇ ਹੁਕਮਾਂ ਨੂੰ ਪੂਰਾ ਕਰਦੀਆਂ ਹਨ.",
+      "relatedNodeIds": ["angels"]
+    },
+    {
+      "letter": "P",
+      "title": "ਨਬੀ ਅਤੇ ਦੂਤ",
+      "shortLabel": "ਇੱਕ ਸੁਨੇਹਾ",
+      "explanation": "ਪੈਗੰਬਰਾਂ ਅਤੇ ਸੰਦੇਸ਼ਵਾਹਕਾਂ ਵਿੱਚ ਵਿਸ਼ਵਾਸ ਸਥਾਪਿਤ ਕਰੋ, ਜੋ ਸਾਰੇ ਇੱਕ ਮੁੱਖ ਸੰਦੇਸ਼ ਨੂੰ ਲੈ ਕੇ ਗਏ ਸਨ।",
+      "relatedNodeIds": ["messengers-prophets", "jesus-peace-be-upon-him"]
+    }
+  ],
+  "suggestions": {
+    "outsideTheField": [
+      {
+        "id": "dua",
+        "title": "ਦੁਆ",
+        "body": "ਗੱਲਬਾਤ ਤੋਂ ਪਹਿਲਾਂ, ਦੌਰਾਨ ਅਤੇ ਬਾਅਦ ਵਿੱਚ ਵਿਅਕਤੀ ਲਈ ਅਤੇ ਆਪਣੇ ਲਈ ਦਿਲੋਂ ਦੁਆ ਕਰੋ। ਸੇਧ ਅੱਲ੍ਹਾ ਤੋਂ ਮਿਲਦੀ ਹੈ।",
+        "priority": "core"
+      },
+      {
+        "id": "sincerity",
+        "title": "ਇਮਾਨਦਾਰੀ",
+        "body": "ਆਪਣੇ ਇਰਾਦੇ ਨੂੰ ਸ਼ੁੱਧ ਕਰੋ. ਤੁਸੀਂ ਅੱਲ੍ਹਾ ਦੀ ਖ਼ਾਤਰ ਸੰਦੇਸ਼ ਦੇ ਰਹੇ ਹੋ, ਨਾ ਕਿ ਜਿੱਤਣ ਲਈ, ਨਾ ਦਿਸਣ ਲਈ।",
+        "priority": "core"
+      },
+      {
+        "id": "planning",
+        "title": "ਯੋਜਨਾਬੰਦੀ",
+        "body": "ਬੁਨਿਆਦੀ ਗੱਲਾਂ ਚੰਗੀ ਤਰ੍ਹਾਂ ਸਿੱਖੋ ਤਾਂ ਜੋ ਤੁਸੀਂ ਆਮ ਸਵਾਲਾਂ ਦੇ ਜਵਾਬ ਸ਼ਾਂਤੀ ਨਾਲ ਅਤੇ ਇਮਾਨਦਾਰੀ ਨਾਲ ਦੇ ਸਕੋ। \"ਮੈਨੂੰ ਨਹੀਂ ਪਤਾ, ਮੈਨੂੰ ਪਤਾ ਕਰਨ ਦਿਓ\" ਕਹਿਣਾ ਠੀਕ ਹੈ।",
+        "priority": "helpful"
+      },
+      {
+        "id": "istiqamah",
+        "title": "ਇਸਤਿਕਾਮਾਹ",
+        "body": "ਆਪਣੇ ਅਭਿਆਸ ਵਿੱਚ ਦ੍ਰਿੜ ਅਤੇ ਨਿਰੰਤਰ ਰਹੋ। ਤੁਹਾਡਾ ਕਿਰਦਾਰ ਤੁਹਾਡਾ ਸਭ ਤੋਂ ਸ਼ਕਤੀਸ਼ਾਲੀ ਦਾਵਾ ਹੈ।",
+        "priority": "helpful"
+      }
+    ],
+    "onTheField": [
+      {
+        "id": "make-dua",
+        "title": "ਦੁਆ ਕਰੋ",
+        "body": "ਚੁੱਪਚਾਪ ਅੱਲ੍ਹਾ ਨੂੰ ਦਿਲਾਂ ਨੂੰ ਨਰਮ ਕਰਨ ਲਈ ਕਹੋ ਜਿਵੇਂ ਕਿ ਗੱਲਬਾਤ ਸਾਹਮਣੇ ਆਉਂਦੀ ਹੈ.",
+        "priority": "core"
+      },
+      {
+        "id": "smile",
+        "title": "ਮੁਸਕਰਾਹਟ ਬਣਾਈ ਰੱਖੋ",
+        "body": "ਇੱਕ ਨਿੱਘੀ, ਸੱਚੀ ਮੁਸਕਰਾਹਟ ਦਾਨ ਦਾ ਇੱਕ ਰੂਪ ਹੈ ਅਤੇ ਦਿਲਾਂ ਨੂੰ ਖੋਲ੍ਹਦੀ ਹੈ।",
+        "priority": "helpful"
+      },
+      {
+        "id": "polite-kind",
+        "title": "ਨਿਮਰ ਅਤੇ ਦਿਆਲੂ ਬਣੋ",
+        "body": "ਚੰਗੇ ਵਿਵਹਾਰ ਇਸਲਾਮ ਦੀ ਇੱਕ ਸਥਾਈ, ਸਕਾਰਾਤਮਕ ਪ੍ਰਭਾਵ ਛੱਡਦੇ ਹਨ।",
+        "priority": "core"
+      },
+      {
+        "id": "avoid-debate",
+        "title": "ਬੇਲੋੜੀ ਬਹਿਸ ਤੋਂ ਬਚੋ",
+        "body": "ਦਲੀਲਾਂ ਜਿੱਤਣ ਲਈ ਨਹੀਂ, ਸਮਝਣ ਲਈ ਟੀਚਾ ਰੱਖੋ। ਜੇਕਰ ਇਹ ਗਰਮ ਹੋ ਜਾਵੇ ਤਾਂ ਪਿੱਛੇ ਹਟ ਜਾਓ।",
+        "priority": "core"
+      },
+      {
+        "id": "follow-flow",
+        "title": "ਪ੍ਰਵਾਹ ਅਤੇ ਤਰਜੀਹਾਂ ਦਾ ਪਾਲਣ ਕਰੋ",
+        "body": "ਉਸ ਵਿਅਕਤੀ ਨੂੰ ਮਿਲੋ ਜਿੱਥੇ ਉਹ ਹਨ. ਆਰਡਰ ਨੂੰ ਮਜਬੂਰ ਨਾ ਕਰੋ - ਗੱਲਬਾਤ ਨੂੰ ਸਾਹ ਲੈਣ ਦਿਓ।",
+        "priority": "helpful"
+      },
+      {
+        "id": "be-concise",
+        "title": "ਸੰਖੇਪ ਰਹੋ (ਸਮੇਂ-ਜਾਗਰੂਕ)",
+        "body": "ਉਨ੍ਹਾਂ ਦੇ ਸਮੇਂ ਅਤੇ ਧਿਆਨ ਦਾ ਆਦਰ ਕਰੋ। ਘੱਟ ਬੋਲੋ, ਜ਼ਿਆਦਾ ਸੁਣੋ।",
+        "priority": "helpful"
+      },
+      {
+        "id": "redirect",
+        "title": "ਤਰਜੀਹਾਂ 'ਤੇ ਰੀਡਾਇਰੈਕਟ ਕਰੋ",
+        "body": "ਮਦਦਗਾਰ ਹੋਣ 'ਤੇ ਹੌਲੀ-ਹੌਲੀ ਸਾਈਡ-ਟੈਂਜੈਂਟਸ ਨੂੰ ਮਾਮਲੇ ਦੇ ਦਿਲ ਵੱਲ ਵਾਪਸ ਚਲਾਓ।",
+        "priority": "helpful"
+      },
+      {
+        "id": "encourage-shahada",
+        "title": "ਸ਼ਹਾਦਾ ਨੂੰ ਉਤਸ਼ਾਹਿਤ ਕਰੋ (ਕਦੇ ਜ਼ਬਰਦਸਤੀ ਨਾ ਕਰੋ)",
+        "body": "ਨਰਮੀ ਨਾਲ ਸੱਦਾ ਦਿਓ। ਫੈਸਲਾ ਸੁਹਿਰਦ ਅਤੇ ਸੁਤੰਤਰ ਹੋਣਾ ਚਾਹੀਦਾ ਹੈ। ਕਦੇ ਵੀ ਕਿਸੇ 'ਤੇ ਦਬਾਅ ਨਾ ਪਾਓ।",
+        "priority": "core"
+      }
+    ]
+  },
+  "references": [
+    {
+      "id": "quran-16-125",
+      "type": "quran",
+      "citation": "Qur'an 16:125 (excerpt)",
+      "label": "ਸਿਆਣਪ ਅਤੇ ਚੰਗੀ ਹਿਦਾਇਤ ਨਾਲ ਸੱਦਾ ਦੇਣਾ",
+      "arabic": "ٱدْعُ إِلَىٰ سَبِيلِ رَبِّكَ بِٱلْحِكْمَةِ وَٱلْمَوْعِظَةِ ٱلْحَسَنَةِ ۖ وَجَـٰدِلْهُم بِٱلَّتِى هِىَ أَحْسَنُ",
+      "translation": "ਸਿਆਣਪ ਅਤੇ ਦਿਆਲੂ ਸਲਾਹ ਨਾਲ ਆਪਣੇ ਪ੍ਰਭੂ ਦੇ ਮਾਰਗ ਵੱਲ ਸਭ ਨੂੰ ਬੁਲਾਓ, ਅਤੇ ਉਨ੍ਹਾਂ ਨਾਲ ਸਿਰਫ ਵਧੀਆ ਤਰੀਕੇ ਨਾਲ ਬਹਿਸ ਕਰੋ।",
+      "translator": "Dr. Mustafa Khattab, The Clear Quran",
+      "sourceName": "Quran.com",
+      "sourceUrl": "https://quran.com/16/125",
+      "reviewStatus": "source-checked",
+      "reviewNote": "2026-06-03 ਨੂੰ Quran.com ਦੇ ਵਿਰੁੱਧ ਜਾਂਚ ਕੀਤੀ ਗਈ; ਯੋਗ ਵਿਦਵਾਨ/ਦਸਤਾਹੀ ਪ੍ਰਵਾਨਗੀ ਬਕਾਇਆ।"
+    },
+    {
+      "id": "quran-51-55",
+      "type": "quran",
+      "citation": "Qur'an 51:55",
+      "label": "ਯਾਦ-ਦਹਾਨੀਆਂ ਵਿਸ਼ਵਾਸੀਆਂ ਨੂੰ ਲਾਭ ਪਹੁੰਚਾਉਂਦੀਆਂ ਹਨ",
+      "arabic": "وَذَكِّرْ فَإِنَّ ٱلذِّكْرَىٰ تَنفَعُ ٱلْمُؤْمِنِينَ",
+      "translation": "ਪਰ ਯਾਦ ਦਿਵਾਉਣਾ ਜਾਰੀ ਰੱਖੋ। ਯਕੀਨਨ ਯਾਦ-ਦਹਾਨੀਆਂ ਵਿਸ਼ਵਾਸੀਆਂ ਨੂੰ ਲਾਭ ਪਹੁੰਚਾਉਂਦੀਆਂ ਹਨ।",
+      "translator": "Dr. Mustafa Khattab, The Clear Quran",
+      "sourceName": "Quran.com",
+      "sourceUrl": "https://quran.com/51/55",
+      "reviewStatus": "source-checked",
+      "reviewNote": "2026-06-03 ਨੂੰ Quran.com ਦੇ ਖਿਲਾਫ ਜਾਂਚ ਕੀਤੀ ਗਈ; ਯੋਗ ਵਿਦਵਾਨ/ਦਸਤਾਹੀ ਪ੍ਰਵਾਨਗੀ ਬਕਾਇਆ।"
+    },
+    {
+      "id": "quran-112-ikhlas",
+      "type": "quran",
+      "citation": "Qur'an 112:1-4 (Surah Al-Ikhlas)",
+      "label": "ਪਰਮਾਤਮਾ ਦੀ ਏਕਤਾ ਦੀ ਸ਼ੁੱਧ ਘੋਸ਼ਣਾ",
+      "arabic": "قُلْ هُوَ ٱللَّهُ أَحَدٌ ٱللَّهُ ٱلصَّمَدُ لَمْ يَلِدْ وَلَمْ يُولَدْ وَلَمْ يَكُن لَّهُۥ كُفُوًا أَحَدٌۢ",
+      "translation": "ਕਹੋ, ਹੇ ਨਬੀ, \"ਉਹ ਅੱਲ੍ਹਾ ਹੈ - ਇੱਕ ਅਤੇ ਅਵਿਭਾਗੀ\"; ਅੱਲ੍ਹਾ - ਸਭ ਨੂੰ ਲੋੜੀਂਦਾ ਪਾਲਣਹਾਰ ਹੈ। ਉਸ ਦੀ ਕਦੇ ਔਲਾਦ ਨਹੀਂ ਹੈ, ਨਾ ਉਹ ਪੈਦਾ ਹੋਇਆ ਹੈ। ਅਤੇ ਉਸ ਦੇ ਬਰਾਬਰ ਕੋਈ ਨਹੀਂ ਹੈ।",
+      "translator": "Dr. Mustafa Khattab, The Clear Quran",
+      "sourceName": "Quran.com",
+      "sourceUrl": "https://quran.com/112",
+      "reviewStatus": "source-checked",
+      "reviewNote": "2026-06-03 ਨੂੰ Quran.com ਦੇ ਖਿਲਾਫ ਜਾਂਚ ਕੀਤੀ ਗਈ; ਯੋਗ ਵਿਦਵਾਨ/ਦਸਤਾਹੀ ਪ੍ਰਵਾਨਗੀ ਬਕਾਇਆ।"
+    },
+    {
+      "id": "quran-52-35",
+      "type": "quran",
+      "citation": "Qur'an 52:35",
+      "label": "ਰਚਨਾ 'ਤੇ ਪ੍ਰਤੀਬਿੰਬ",
+      "arabic": "أَمْ خُلِقُوا۟ مِنْ غَيْرِ شَىْءٍ أَمْ هُمُ ٱلْخَٰلِقُونَ",
+      "translation": "ਜਾਂ ਕੀ ਉਹ ਕਿਸੇ ਵੀ ਚੀਜ਼ ਦੁਆਰਾ ਨਹੀਂ ਬਣਾਏ ਗਏ ਸਨ, ਜਾਂ ਕੀ ਉਹ ਆਪਣੇ ਸਿਰਜਣਹਾਰ ਹਨ?",
+      "translator": "Dr. Mustafa Khattab, The Clear Quran",
+      "sourceName": "Quran.com",
+      "sourceUrl": "https://quran.com/52/35",
+      "reviewStatus": "source-checked",
+      "reviewNote": "2026-06-03 ਨੂੰ Quran.com ਦੇ ਖਿਲਾਫ ਜਾਂਚ ਕੀਤੀ ਗਈ; ਯੋਗ ਵਿਦਵਾਨ/ਦਸਤਾਹੀ ਪ੍ਰਵਾਨਗੀ ਬਕਾਇਆ।"
+    },
+    {
+      "id": "quran-21-22",
+      "type": "quran",
+      "citation": "Qur'an 21:22 (excerpt)",
+      "label": "ਇਕ ਪਰਮਾਤਮਾ ਦਾ ਤਰਕ",
+      "arabic": "لَوْ كَانَ فِيهِمَآ ءَالِهَةٌ إِلَّا ٱللَّهُ لَفَسَدَتَا",
+      "translation": "ਜੇਕਰ ਅਕਾਸ਼ ਜਾਂ ਧਰਤੀ ਵਿੱਚ ਅੱਲ੍ਹਾ ਤੋਂ ਇਲਾਵਾ ਕੋਈ ਹੋਰ ਦੇਵਤਾ ਹੁੰਦਾ, ਤਾਂ ਦੋਵੇਂ ਖੇਤਰ ਜ਼ਰੂਰ ਖਰਾਬ ਹੋ ਜਾਣੇ ਸਨ।",
+      "translator": "Dr. Mustafa Khattab, The Clear Quran",
+      "sourceName": "Quran.com",
+      "sourceUrl": "https://quran.com/21/22",
+      "reviewStatus": "source-checked",
+      "reviewNote": "2026-06-03 ਨੂੰ Quran.com ਦੇ ਵਿਰੁੱਧ ਜਾਂਚ ਕੀਤੀ ਗਈ; ਯੋਗ ਵਿਦਵਾਨ/ਦਸਤਾਹੀ ਪ੍ਰਵਾਨਗੀ ਬਕਾਇਆ।"
+    },
+    {
+      "id": "quran-21-25",
+      "type": "quran",
+      "citation": "Qur'an 21:25",
+      "label": "ਸਾਰੇ ਦੂਤ ਦੁਆਰਾ ਇੱਕ ਸੁਨੇਹਾ",
+      "arabic": "وَمَآ أَرْسَلْنَا مِن قَبْلِكَ مِن رَّسُولٍ إِلَّا نُوحِىٓ إِلَيْهِ أَنَّهُۥ لَآ إِلَٰهَ إِلَّآ أَنَا۠ فَٱعْبُدُونِ",
+      "translation": "ਅਸੀਂ ਤੁਹਾਡੇ ਤੋਂ ਪਹਿਲਾਂ ਕਦੇ ਵੀ ਕੋਈ ਦੂਤ ਨਹੀਂ ਭੇਜਿਆ, \"ਹੇ ਨਬੀ\" ਉਸ ਨੂੰ ਇਹ ਪ੍ਰਗਟ ਕੀਤੇ ਬਿਨਾਂ: \"ਮੇਰੇ ਤੋਂ ਇਲਾਵਾ ਕੋਈ ਵੀ ਉਪਾਸਨਾ ਦੇ ਯੋਗ ਨਹੀਂ ਹੈ, ਇਸ ਲਈ ਮੇਰੀ ਹੀ ਪੂਜਾ ਕਰੋ।\"",
+      "translator": "Dr. Mustafa Khattab, The Clear Quran",
+      "sourceName": "Quran.com",
+      "sourceUrl": "https://quran.com/21/25",
+      "reviewStatus": "source-checked",
+      "reviewNote": "2026-06-03 ਨੂੰ Quran.com ਦੇ ਖਿਲਾਫ ਜਾਂਚ ਕੀਤੀ ਗਈ; ਯੋਗ ਵਿਦਵਾਨ/ਦਸਤਾਹੀ ਪ੍ਰਵਾਨਗੀ ਬਕਾਇਆ।"
+    },
+    {
+      "id": "quran-3-45",
+      "type": "quran",
+      "citation": "Qur'an 3:45",
+      "label": "ਮਰਿਯਮ ਦੇ ਪੁੱਤਰ ਯਿਸੂ ਦਾ ਸਨਮਾਨਯੋਗ ਰੁਤਬਾ",
+      "arabic": "إِذْ قَالَتِ ٱلْمَلَـٰٓئِكَةُ يَـٰمَرْيَمُ إِنَّ ٱللَّهَ يُبَشِّرُكِ بِكَلِمَةٍۢ مِّنْهُ ٱسْمُهُ ٱلْمَسِيحُ عِيسَى ٱبْنُ مَرْيَمَ وَجِيهًۭا فِى ٱلدُّنْيَا وَٱلْـَٔاخِرَةِ وَمِنَ ٱلْمُقَرَّبِينَ",
+      "translation": "\"ਯਾਦ ਕਰੋ\" ਜਦੋਂ ਫ਼ਰਿਸ਼ਤਿਆਂ ਨੇ ਐਲਾਨ ਕੀਤਾ, \"ਹੇ ਮਰੀਅਮ! ਅੱਲ੍ਹਾ ਤੁਹਾਨੂੰ ਆਪਣੇ ਵੱਲੋਂ ਇੱਕ ਬਚਨ ਦੀ ਖੁਸ਼ਖਬਰੀ ਦਿੰਦਾ ਹੈ, ਉਸਦਾ ਨਾਮ ਮਸੀਹਾ, ਈਸਾ, ਮਰਿਯਮ ਦਾ ਪੁੱਤਰ ਹੋਵੇਗਾ, ਇਸ ਸੰਸਾਰ ਅਤੇ ਪਰਲੋਕ ਵਿੱਚ ਸਨਮਾਨਿਤ ਹੋਵੇਗਾ, ਅਤੇ ਉਹ ਅੱਲ੍ਹਾ ਦੇ ਨਜ਼ਦੀਕੀਆਂ ਵਿੱਚੋਂ ਇੱਕ ਹੋਵੇਗਾ।\"",
+      "translator": "Dr. Mustafa Khattab, The Clear Quran",
+      "sourceName": "Quran.com",
+      "sourceUrl": "https://quran.com/3/45",
+      "reviewStatus": "source-checked",
+      "reviewNote": "2026-06-03 ਨੂੰ Quran.com ਦੇ ਖਿਲਾਫ ਜਾਂਚ ਕੀਤੀ ਗਈ; ਯੋਗ ਵਿਦਵਾਨ/ਦਸਤਾਹੀ ਪ੍ਰਵਾਨਗੀ ਬਕਾਇਆ।"
+    },
+    {
+      "id": "hadith-jibril",
+      "type": "hadith",
+      "citation": "Sahih Muslim 8a (Book 1, Hadith 1) — Hadith of Jibril",
+      "label": "ਵਿਸ਼ਵਾਸ ਦੇ ਛੇ ਲੇਖ",
+      "translation": "ਕਿ ਤੁਸੀਂ ਅੱਲ੍ਹਾ ਵਿੱਚ, ਉਸਦੇ ਦੂਤਾਂ ਵਿੱਚ, ਉਸਦੀ ਕਿਤਾਬਾਂ ਵਿੱਚ, ਉਸਦੇ ਰਸੂਲਾਂ ਵਿੱਚ, ਨਿਆਂ ਦੇ ਦਿਨ ਵਿੱਚ ਆਪਣੇ ਵਿਸ਼ਵਾਸ ਦੀ ਪੁਸ਼ਟੀ ਕਰਦੇ ਹੋ, ਅਤੇ ਤੁਸੀਂ ਚੰਗੇ ਅਤੇ ਬੁਰੇ ਬਾਰੇ ਬ੍ਰਹਮ ਫਰਮਾਨ ਵਿੱਚ ਆਪਣੇ ਵਿਸ਼ਵਾਸ ਦੀ ਪੁਸ਼ਟੀ ਕਰਦੇ ਹੋ।",
+      "sourceName": "Sahih Muslim (sunnah.com)",
+      "sourceUrl": "https://sunnah.com/muslim:8a",
+      "reviewStatus": "source-checked",
+      "reviewNote": "2026-06-03 ਨੂੰ Sunnah.com ਦੇ ਵਿਰੁੱਧ ਜਾਂਚ ਕੀਤੀ ਗਈ; ਯੋਗ ਵਿਦਵਾਨ/ਦਸਤਾਹੀ ਪ੍ਰਵਾਨਗੀ ਬਕਾਇਆ।"
+    },
+    {
+      "id": "quran-2-256",
+      "type": "quran",
+      "citation": "Qur'an 2:256 (excerpt)",
+      "label": "ਧਰਮ ਵਿੱਚ ਕੋਈ ਜਬਰਦਸਤੀ ਨਹੀਂ ਹੈ",
+      "arabic": "لَآ إِكْرَاهَ فِى ٱلدِّينِ ۖ قَد تَّبَيَّنَ ٱلرُّشْدُ مِنَ ٱلْغَىِّ",
+      "translation": "ਧਰਮ ਵਿੱਚ ਕੋਈ ਜਬਰਦਸਤੀ ਨਹੀਂ ਹੋਣੀ ਚਾਹੀਦੀ, ਕਿਉਂਕਿ ਸੱਚ ਝੂਠ ਤੋਂ ਸਪਸ਼ਟ ਰੂਪ ਵਿੱਚ ਖੜ੍ਹਾ ਹੁੰਦਾ ਹੈ।",
+      "translator": "Dr. Mustafa Khattab, The Clear Quran",
+      "sourceName": "Quran.com",
+      "sourceUrl": "https://quran.com/2/256",
+      "reviewStatus": "source-checked",
+      "reviewNote": "2026-06-03 ਨੂੰ Quran.com ਦੇ ਵਿਰੁੱਧ ਜਾਂਚ ਕੀਤੀ ਗਈ; ਯੋਗ ਵਿਦਵਾਨ/ਦਸਤਾਹੀ ਪ੍ਰਵਾਨਗੀ ਬਕਾਇਆ।"
+    },
+    {
+      "id": "quran-28-56",
+      "type": "quran",
+      "citation": "Qur'an 28:56",
+      "label": "ਸੇਧ ਕੇਵਲ ਅੱਲ੍ਹਾ ਦੀ ਹੀ ਹੈ",
+      "arabic": "إِنَّكَ لَا تَهْدِى مَنْ أَحْبَبْتَ وَلَـٰكِنَّ ٱللَّهَ يَهْدِى مَن يَشَآءُ ۚ وَهُوَ أَعْلَمُ بِٱلْمُهْتَدِينَ",
+      "translation": "ਤੁਸੀਂ ਨਿਸ਼ਚਤ ਤੌਰ 'ਤੇ ਜਿਸ ਨੂੰ ਤੁਸੀਂ ਚਾਹੋ ਉਸ ਦੀ ਅਗਵਾਈ ਨਹੀਂ ਕਰ ਸਕਦੇ, ਪਰ ਇਹ ਅੱਲ੍ਹਾ ਹੈ ਜੋ ਜਿਸ ਨੂੰ ਚਾਹੁੰਦਾ ਹੈ ਮਾਰਗ ਦਰਸ਼ਨ ਕਰਦਾ ਹੈ, ਅਤੇ ਉਹ ਚੰਗੀ ਤਰ੍ਹਾਂ ਜਾਣਦਾ ਹੈ ਕਿ ਕੌਣ ਮਾਰਗਦਰਸ਼ਨ ਦੇ ਯੋਗ ਹਨ।",
+      "translator": "Dr. Mustafa Khattab, The Clear Quran",
+      "sourceName": "Quran.com",
+      "sourceUrl": "https://quran.com/28/56",
+      "reviewStatus": "source-checked",
+      "reviewNote": "2026-06-03 ਨੂੰ Quran.com ਦੇ ਖਿਲਾਫ ਜਾਂਚ ਕੀਤੀ ਗਈ; ਯੋਗ ਵਿਦਵਾਨ/ਦਸਤਾਹੀ ਪ੍ਰਵਾਨਗੀ ਬਕਾਇਆ।"
+    },
+    {
+      "id": "quran-20-25-26",
+      "type": "quran",
+      "citation": "Qur'an 20:25-26",
+      "label": "ਸੌਖ ਅਤੇ ਖੁੱਲ੍ਹੇ ਦਿਲ ਲਈ ਪੈਗੰਬਰ ਮੂਸਾ ਦੀ ਦੁਆ",
+      "arabic": "رَبِّ ٱشْرَحْ لِى صَدْرِى وَيَسِّرْ لِىٓ أَمْرِى",
+      "translation": "ਮੇਰੇ ਪ੍ਰਭੂ! ਮੇਰੇ ਲਈ ਮੇਰੇ ਦਿਲ ਨੂੰ ਉੱਚਾ ਕਰੋ, ਅਤੇ ਮੇਰੇ ਕੰਮ ਨੂੰ ਆਸਾਨ ਕਰੋ,",
+      "translator": "Dr. Mustafa Khattab, The Clear Quran",
+      "sourceName": "Quran.com",
+      "sourceUrl": "https://quran.com/20/25-26",
+      "reviewStatus": "source-checked",
+      "reviewNote": "2026-06-03 ਨੂੰ Quran.com 20:25 ਅਤੇ 20:26 ਦੇ ਵਿਰੁੱਧ ਜਾਂਚ ਕੀਤੀ ਗਈ; ਯੋਗ ਵਿਦਵਾਨ/ਦਸਤਾਹੀ ਪ੍ਰਵਾਨਗੀ ਬਕਾਇਆ।"
+    },
+    {
+      "id": "new-muslim-academy",
+      "type": "scholarly-note",
+      "citation": "New Muslim Academy",
+      "label": "ਸ਼ੁਰੂਆਤੀ ਸਿੱਖਿਆ ਅਤੇ ਕਨਵਰਟ-ਸਪੋਰਟ ਫਰੇਮਿੰਗ",
+      "sourceName": "New Muslim Academy",
+      "sourceUrl": "https://www.newmuslimacademy.org/",
+      "reviewStatus": "source-checked",
+      "reviewNote": "ਅਧਿਕਾਰਤ ਸਿੱਖਿਆ ਸਰੋਤ 2026-06-03 ਨੂੰ ਔਨਲਾਈਨ ਚੈੱਕ ਕੀਤਾ ਗਿਆ; ਸ਼ੁਰੂਆਤੀ-ਅਨੁਕੂਲ ਸਮਰਥਨ ਫਰੇਮਿੰਗ ਲਈ ਵਰਤਿਆ ਜਾਂਦਾ ਹੈ, ਨਿੱਜੀ ਨਿਯਮਾਂ ਲਈ ਨਹੀਂ।"
+    },
+    {
+      "id": "whyislam-jesus",
+      "type": "scholarly-note",
+      "citation": "WhyIslam: Jesus in Islam",
+      "label": "ਇਸਲਾਮ ਵਿੱਚ ਯਿਸੂ 'ਤੇ ਸ਼ੁਰੂਆਤੀ ਸਿੱਖਿਆ",
+      "sourceName": "WhyIslam",
+      "sourceUrl": "https://www.whyislam.org/jesus-pbuh/",
+      "reviewStatus": "source-checked",
+      "reviewNote": "ਸਰਕਾਰੀ ਜਨਤਕ ਸਿੱਖਿਆ ਸਰੋਤ 2026-06-03 ਨੂੰ ਔਨਲਾਈਨ ਚੈੱਕ ਕੀਤਾ ਗਿਆ; ਆਦਰਪੂਰਣ ਸ਼ੁਰੂਆਤੀ ਫਰੇਮਿੰਗ ਲਈ ਵਰਤਿਆ ਜਾਂਦਾ ਹੈ।"
+    },
+    {
+      "id": "quran-67-2",
+      "type": "quran",
+      "citation": "Qur'an 67:2",
+      "label": "ਇੱਕ ਪ੍ਰੀਖਿਆ ਦੇ ਰੂਪ ਵਿੱਚ ਜੀਵਨ",
+      "translation": "ਉਹ ਉਹ ਹੈ ਜਿਸ ਨੇ ਮੌਤ ਅਤੇ ਜੀਵਨ ਨੂੰ ਇਹ ਪਰਖਣ ਲਈ ਬਣਾਇਆ ਹੈ ਕਿ ਤੁਹਾਡੇ ਵਿੱਚੋਂ ਕੌਣ ਕਰਮ ਵਿੱਚ ਸਭ ਤੋਂ ਵਧੀਆ ਹੈ।",
+      "translator": "Dr. Mustafa Khattab, The Clear Quran",
+      "sourceName": "Quran.com",
+      "sourceUrl": "https://quran.com/67/2",
+      "reviewStatus": "source-checked",
+      "reviewNote": "2026-06-03 ਨੂੰ Quran.com ਦੇ ਖਿਲਾਫ ਜਾਂਚ ਕੀਤੀ ਗਈ; ਯੋਗ ਵਿਦਵਾਨ/ਦਸਤਾਹੀ ਪ੍ਰਵਾਨਗੀ ਬਕਾਇਆ।"
+    },
+    {
+      "id": "quran-2-155",
+      "type": "quran",
+      "citation": "Qur'an 2:155",
+      "label": "ਅਜ਼ਮਾਇਸ਼ਾਂ ਅਤੇ ਧੀਰਜ",
+      "translation": "ਅਸੀਂ ਨਿਸ਼ਚਤ ਤੌਰ 'ਤੇ ਤੁਹਾਨੂੰ ਡਰ ਅਤੇ ਕਾਲ ਅਤੇ ਜਾਇਦਾਦ, ਜੀਵਨ ਅਤੇ ਫਸਲਾਂ ਦੇ ਨੁਕਸਾਨ ਨਾਲ ਪਰਖਾਂਗੇ। ਧੀਰਜ ਰੱਖਣ ਵਾਲਿਆਂ ਨੂੰ ਖੁਸ਼ਖਬਰੀ ਦਿਓ।",
+      "translator": "Dr. Mustafa Khattab, The Clear Quran",
+      "sourceName": "Quran.com",
+      "sourceUrl": "https://quran.com/2/155",
+      "reviewStatus": "source-checked",
+      "reviewNote": "2026-06-03 ਨੂੰ Quran.com ਦੇ ਖਿਲਾਫ ਜਾਂਚ ਕੀਤੀ ਗਈ; ਯੋਗ ਵਿਦਵਾਨ/ਦਸਤਾਹੀ ਪ੍ਰਵਾਨਗੀ ਬਕਾਇਆ।"
+    },
+    {
+      "id": "quran-33-35",
+      "type": "quran",
+      "citation": "Qur'an 33:35",
+      "label": "ਮਰਦ ਅਤੇ ਔਰਤਾਂ ਵਿਸ਼ਵਾਸ ਨਾਲ ਸੰਬੋਧਨ ਕਰਦੇ ਹਨ",
+      "translation": "ਯਕੀਨਨ ਮੁਸਲਿਮ ਮਰਦਾਂ ਅਤੇ ਔਰਤਾਂ, ਵਿਸ਼ਵਾਸੀ ਮਰਦਾਂ ਅਤੇ ਔਰਤਾਂ, ਸ਼ਰਧਾਵਾਨ ਪੁਰਸ਼ਾਂ ਅਤੇ ਔਰਤਾਂ ਲਈ ... ਅੱਲ੍ਹਾ ਨੇ ਮਾਫ਼ੀ ਅਤੇ ਇੱਕ ਮਹਾਨ ਇਨਾਮ ਤਿਆਰ ਕੀਤਾ ਹੈ.",
+      "translator": "Dr. Mustafa Khattab, The Clear Quran",
+      "sourceName": "Quran.com",
+      "sourceUrl": "https://quran.com/33/35",
+      "reviewStatus": "source-checked",
+      "reviewNote": "2026-06-03 ਨੂੰ Quran.com ਦੇ ਵਿਰੁੱਧ ਜਾਂਚ ਕੀਤੀ ਗਈ; ਯੋਗ ਵਿਦਵਾਨ/ਦਸਤਾਹੀ ਪ੍ਰਵਾਨਗੀ ਬਕਾਇਆ।"
+    },
+    {
+      "id": "quran-5-32",
+      "type": "quran",
+      "citation": "Qur'an 5:32 (excerpt)",
+      "label": "ਜੀਵਨ ਦੀ ਪਵਿੱਤਰਤਾ",
+      "translation": "ਜੋ ਵੀ ਕਿਸੇ ਦੀ ਜਾਨ ਲੈ ਲਵੇਗਾ ... ਇਹ ਇਸ ਤਰ੍ਹਾਂ ਹੋਵੇਗਾ ਜਿਵੇਂ ਉਨ੍ਹਾਂ ਨੇ ਸਾਰੀ ਮਨੁੱਖਤਾ ਨੂੰ ਮਾਰ ਦਿੱਤਾ ਹੈ.",
+      "translator": "Dr. Mustafa Khattab, The Clear Quran",
+      "sourceName": "Quran.com",
+      "sourceUrl": "https://quran.com/5/32",
+      "reviewStatus": "source-checked",
+      "reviewNote": "2026-06-03 ਨੂੰ Quran.com ਦੇ ਵਿਰੁੱਧ ਜਾਂਚ ਕੀਤੀ ਗਈ; ਯੋਗ ਵਿਦਵਾਨ/ਦਸਤਾਹੀ ਪ੍ਰਵਾਨਗੀ ਬਕਾਇਆ।"
+    },
+    {
+      "id": "whyislam-mosque-visit",
+      "type": "scholarly-note",
+      "citation": "WhyIslam: First Mosque Visit",
+      "label": "ਨਵਾਂ ਪਰਿਵਰਤਿਤ ਮਸਜਿਦ ਸਮਰਥਨ",
+      "sourceName": "WhyIslam",
+      "sourceUrl": "https://www.whyislam.org/mosquevisit/",
+      "reviewStatus": "source-checked",
+      "reviewNote": "ਸਰਕਾਰੀ ਜਨਤਕ ਸਿੱਖਿਆ ਸਰੋਤ 2026-06-03 ਨੂੰ ਔਨਲਾਈਨ ਚੈੱਕ ਕੀਤਾ ਗਿਆ; ਪਹਿਲੀ-ਮਸਜਿਦ-ਵਿਜ਼ਿਟ ਅਤੇ ਜਨਤਕ ਸ਼ਾਹਦਾ ਸੀਮਾ ਫਰੇਮਿੰਗ ਲਈ ਵਰਤਿਆ ਜਾਂਦਾ ਹੈ।"
+    },
+    {
+      "id": "whyislam-becoming-muslim",
+      "type": "scholarly-note",
+      "citation": "WhyIslam: Becoming Muslim",
+      "label": "ਸ਼ਾਹਦਾ ਜਾਣ-ਪਛਾਣ",
+      "sourceName": "WhyIslam",
+      "sourceUrl": "https://www.whyislam.org/muslimhow/",
+      "reviewStatus": "source-checked",
+      "reviewNote": "ਸਰਕਾਰੀ ਜਨਤਕ ਸਿੱਖਿਆ ਸਰੋਤ 2026-06-03 ਨੂੰ ਔਨਲਾਈਨ ਚੈੱਕ ਕੀਤਾ ਗਿਆ; ਬੁਨਿਆਦੀ ਸ਼ਾਹਦਾ ਸਥਿਤੀ ਲਈ ਵਰਤਿਆ ਜਾਂਦਾ ਹੈ।"
+    },
+    {
+      "id": "seekersguidance-shahada-witnesses",
+      "type": "scholarly-note",
+      "citation": "SeekersGuidance: Does Taking Shahada Require Witnesses?",
+      "label": "ਯੋਗ ਸ਼ਾਹਦਾ ਮਾਰਗਦਰਸ਼ਨ",
+      "sourceName": "SeekersGuidance",
+      "sourceUrl": "https://seekersguidance.org/answers/calling-to-islam/does-taking-shahada-require-witnesses/",
+      "reviewStatus": "source-checked",
+      "reviewNote": "ਯੋਗਤਾ ਪ੍ਰਾਪਤ ਸਿੱਖਿਆ ਸਰੋਤ 2026-06-03 ਨੂੰ ਔਨਲਾਈਨ ਚੈੱਕ ਕੀਤਾ ਗਿਆ; ਸ਼ਹਾਦਾ ਦੇ ਆਲੇ-ਦੁਆਲੇ ਗੋਪਨੀਯਤਾ ਅਤੇ ਜਨਤਕ-ਗਵਾਹ ਸੀਮਾ ਲਈ ਵਰਤਿਆ ਜਾਂਦਾ ਹੈ।"
+    },
+    {
+      "id": "new-muslim-academy-family",
+      "type": "scholarly-note",
+      "citation": "New Muslim Academy: Family",
+      "label": "ਪਰਿਵਾਰਕ ਸਹਾਇਤਾ ਫਰੇਮਿੰਗ",
+      "sourceName": "New Muslim Academy",
+      "sourceUrl": "https://www.newmuslimacademy.org/family/",
+      "reviewStatus": "source-checked",
+      "reviewNote": "ਅਧਿਕਾਰਤ ਸਿੱਖਿਆ ਸਰੋਤ 2026-06-03 ਨੂੰ ਔਨਲਾਈਨ ਚੈੱਕ ਕੀਤਾ ਗਿਆ; ਪਰਿਵਾਰ, ਸਬੰਧਤ, ਅਤੇ ਪੋਸਟ-ਸ਼ਹਾਦਾ ਸਹਾਇਤਾ ਫਰੇਮਿੰਗ ਲਈ ਵਰਤਿਆ ਜਾਂਦਾ ਹੈ।"
+    },
+    {
+      "id": "seekersguidance",
+      "type": "scholarly-note",
+      "citation": "SeekersGuidance",
+      "label": "ਯੋਗ ਇਸਲਾਮੀ ਸਿੱਖਿਆ",
+      "sourceName": "SeekersGuidance",
+      "sourceUrl": "https://seekersguidance.org/",
+      "reviewStatus": "source-checked",
+      "reviewNote": "ਯੋਗਤਾ ਪ੍ਰਾਪਤ ਸਿੱਖਿਆ ਸਰੋਤ 2026-06-03 ਨੂੰ ਔਨਲਾਈਨ ਚੈੱਕ ਕੀਤਾ ਗਿਆ; ਯੋਗਤਾ ਪ੍ਰਾਪਤ ਅਧਿਆਪਕਾਂ ਨੂੰ ਵਿਸਤ੍ਰਿਤ ਫਿਕਹ ਅਤੇ ਧਰਮ ਸ਼ਾਸਤਰ ਦੇ ਪ੍ਰਸ਼ਨਾਂ ਦਾ ਹਵਾਲਾ ਦੇਣ ਲਈ ਵਰਤਿਆ ਜਾਂਦਾ ਹੈ।"
+    },
+    {
+      "id": "yaqeen-women",
+      "type": "scholarly-note",
+      "citation": "Yaqeen Institute: Islam and Women",
+      "label": "ਇਸਲਾਮ ਸਿੱਖਿਆ ਵਿੱਚ ਔਰਤਾਂ",
+      "sourceName": "Yaqeen Institute",
+      "sourceUrl": "https://yaqeeninstitute.org/what-islam-says-about/islam-and-women",
+      "reviewStatus": "source-checked",
+      "reviewNote": "2026-06-03 ਨੂੰ ਔਨਲਾਈਨ ਚੈੱਕ ਕੀਤੇ ਗਏ ਵਿਦਿਅਕ ਵਿਸ਼ੇ ਪੰਨੇ ਦੀ ਸਮੀਖਿਆ ਕੀਤੀ ਗਈ; ਸਾਵਧਾਨ, ਗੈਰ-ਵਿਰੋਧੀ ਔਰਤਾਂ-ਇਨ-ਇਸਲਾਮ ਦ੍ਰਿਸ਼ ਫ੍ਰੇਮਿੰਗ ਲਈ ਵਰਤਿਆ ਜਾਂਦਾ ਹੈ।"
+    },
+    {
+      "id": "yaqeen-violence",
+      "type": "scholarly-note",
+      "citation": "Yaqeen Institute: Islam and Violence",
+      "label": "ਹਿੰਸਾ ਅਤੇ ਮੀਡੀਆ ਦੇ ਬਿਰਤਾਂਤ",
+      "sourceName": "Yaqeen Institute",
+      "sourceUrl": "https://yaqeeninstitute.org/what-islam-says-about/islam-and-violence",
+      "reviewStatus": "source-checked",
+      "reviewNote": "2026-06-03 ਨੂੰ ਔਨਲਾਈਨ ਚੈੱਕ ਕੀਤੇ ਗਏ ਵਿਦਿਅਕ ਵਿਸ਼ੇ ਪੰਨੇ ਦੀ ਸਮੀਖਿਆ ਕੀਤੀ ਗਈ; ਹਿੰਸਾ, ਜੇਹਾਦ, ਅੱਤਵਾਦ, ਅਤੇ ਮੀਡੀਆ ਦੇ ਬਿਰਤਾਂਤ ਦੇ ਆਲੇ ਦੁਆਲੇ ਧਿਆਨ ਨਾਲ ਹਵਾਲੇ ਲਈ ਵਰਤਿਆ ਜਾਂਦਾ ਹੈ।"
+    },
+    {
+      "id": "988-lifeline",
+      "type": "public-health",
+      "citation": "988 Suicide & Crisis Lifeline",
+      "label": "ਸੰਕਟ ਸਹਾਇਤਾ",
+      "sourceName": "988 Lifeline",
+      "sourceUrl": "https://988lifeline.org/",
+      "reviewStatus": "source-checked",
+      "reviewNote": "ਅਧਿਕਾਰਤ ਸੰਕਟ ਸਹਾਇਤਾ ਸਰੋਤ ਦੀ 2026-06-03 ਨੂੰ ਔਨਲਾਈਨ ਜਾਂਚ ਕੀਤੀ ਗਈ; ਮਾਨਸਿਕ-ਸਿਹਤ ਸੰਕਟ ਰੈਫਰਲ ਭਾਸ਼ਾ ਲਈ ਵਰਤੀ ਜਾਂਦੀ ਹੈ।"
+    },
+    {
+      "id": "canada-safety-planning",
+      "type": "public-safety",
+      "citation": "Government of Canada: Safety Planning",
+      "label": "ਸੁਰੱਖਿਆ ਯੋਜਨਾ",
+      "sourceName": "Government of Canada",
+      "sourceUrl": "https://www.canada.ca/en/public-health/services/health-promotion/stop-family-violence/plan-your-safety.html",
+      "reviewStatus": "source-checked",
+      "reviewNote": "ਅਧਿਕਾਰਤ ਜਨਤਕ ਸੁਰੱਖਿਆ ਸਰੋਤ 2026-06-03 ਨੂੰ ਔਨਲਾਈਨ ਜਾਂਚਿਆ ਗਿਆ; ਪਰਿਵਾਰਕ ਅਸਵੀਕਾਰ, ਦੁਰਵਿਵਹਾਰ, ਅਤੇ ਸੁਰੱਖਿਆ ਰੈਫਰਲ ਸੀਮਾਵਾਂ ਲਈ ਵਰਤਿਆ ਜਾਂਦਾ ਹੈ।"
+    },
+    {
+      "id": "ohrc-religious-rights",
+      "type": "public-rights",
+      "citation": "Ontario Human Rights Commission: Religious Rights Fact Sheet",
+      "label": "ਜਨਤਕ ਅਧਿਕਾਰਾਂ ਦੀ ਜਾਣਕਾਰੀ",
+      "sourceName": "Ontario Human Rights Commission",
+      "sourceUrl": "https://www.ohrc.on.ca/en/religious-rights-fact-sheet",
+      "reviewStatus": "source-checked",
+      "reviewNote": "ਅਧਿਕਾਰਤ ਜਨਤਕ ਅਧਿਕਾਰ ਸਰੋਤ 2026-06-03 ਨੂੰ ਔਨਲਾਈਨ ਜਾਂਚਿਆ ਗਿਆ; ਸਿਰਫ਼ ਕਾਨੂੰਨੀ-ਨਾਲ ਲੱਗਦੇ ਸਵਾਲਾਂ ਨੂੰ ਯੋਗ ਸਥਾਨਕ ਸਲਾਹ ਲਈ ਰੂਟ ਕਰਨ ਲਈ ਵਰਤਿਆ ਜਾਂਦਾ ਹੈ।"
+    }
+  ],
+  "communityConnect": {
+    "title": "ਇੱਕ ਨਵੇਂ ਮੁਸਲਮਾਨ ਨੂੰ ਜੋੜਨਾ",
+    "intro": "ਭਾਵੇਂ ਕੋਈ ਅੱਜ ਆਪਣੀ ਸ਼ਹਾਦਤ ਲੈਂਦਾ ਹੈ ਜਾਂ ਸਿਰਫ਼ ਸਿੱਖਣਾ ਜਾਰੀ ਰੱਖਣਾ ਚਾਹੁੰਦਾ ਹੈ, ਨਿੱਘਾ ਸਹਿਯੋਗ ਸਭ ਤੋਂ ਵੱਧ ਮਾਇਨੇ ਰੱਖਦਾ ਹੈ। ਉਹਨਾਂ ਦਾ ਸੁਆਗਤ ਮਹਿਸੂਸ ਕਰਨ ਵਿੱਚ ਮਦਦ ਕਰਨ ਲਈ ਇਸ ਚੈਕਲਿਸਟ ਦੀ ਵਰਤੋਂ ਕਰੋ ਅਤੇ ਕਦੇ ਵੀ ਇਕੱਲੇ ਨਹੀਂ।",
+    "checklist": [
+      "ਉਹਨਾਂ ਨੂੰ ਇੱਕ ਕਿਸਮ ਦੇ, ਜਾਣਕਾਰ ਸਥਾਨਕ ਇਮਾਮ ਜਾਂ ਸਲਾਹਕਾਰ ਨਾਲ ਜਾਣੂ ਕਰਵਾਓ।",
+      "ਉਹਨਾਂ ਨੂੰ ਇੱਕ ਨਵੇਂ ਮੁਸਲਿਮ ਸਹਾਇਤਾ ਸਮੂਹ ਜਾਂ ਕਲਾਸ ਨਾਲ ਜੋੜੋ।",
+      "ਉਹਨਾਂ ਦੇ ਨੇੜੇ ਇੱਕ ਸੁਆਗਤ ਕਰਨ ਵਾਲੀ ਸਥਾਨਕ ਮਸਜਿਦ ਲੱਭਣ ਵਿੱਚ ਉਹਨਾਂ ਦੀ ਮਦਦ ਕਰੋ।",
+      "ਇੱਕ ਕੋਮਲ ਫਾਲੋ-ਅੱਪ ਲਈ ਸਹਿਮਤ ਹੋਵੋ - ਇੱਕ ਚੈੱਕ-ਇਨ, ਇੱਕ ਸਾਂਝਾ ਭੋਜਨ, ਜਾਂ ਇੱਕ ਕਲਾਸ।",
+      "ਪ੍ਰਾਰਥਨਾ ਅਤੇ ਇਸਲਾਮ ਦੀਆਂ ਮੂਲ ਗੱਲਾਂ 'ਤੇ ਸ਼ੁਰੂਆਤੀ-ਦੋਸਤਾਨਾ ਸਰੋਤ ਸਾਂਝੇ ਕਰੋ।"
+    ],
+    "masjidFinderLabel": "ਨੇੜੇ ਦੀ ਮਸਜਿਦ ਲੱਭੋ"
+  },
+  "additionalGuidance": {
+    "trainingCards": [
+      {
+        "id": "listen-first",
+        "title": "ਪਹਿਲਾਂ ਸੁਣ ਰਿਹਾ ਹੈ",
+        "summary": "ਇੱਕ ਚੰਗੀ ਦਾਵਾ ਗੱਲਬਾਤ ਵਿਅਕਤੀ ਨੂੰ ਸਮਝਣ ਨਾਲ ਸ਼ੁਰੂ ਹੁੰਦੀ ਹੈ, ਨਾ ਕਿ ਉਹਨਾਂ ਨੂੰ ਸੁਧਾਰਨ ਨਾਲ।",
+        "practice": [
+          "ਇੱਕ ਖੁੱਲ੍ਹਾ ਸਵਾਲ ਪੁੱਛੋ ਅਤੇ ਜਵਾਬ ਦੇਣ ਤੋਂ ਪਹਿਲਾਂ ਉਹਨਾਂ ਨੂੰ ਪੂਰਾ ਜਵਾਬ ਦੇਣ ਦਿਓ।",
+          "ਜੋ ਤੁਸੀਂ ਸੁਣਿਆ ਹੈ ਉਸਨੂੰ ਵਾਪਸ ਪ੍ਰਤੀਬਿੰਬਤ ਕਰੋ: \"ਇਸ ਲਈ ਅਜਿਹਾ ਲਗਦਾ ਹੈ ਕਿ ਤੁਹਾਡੀ ਮੁੱਖ ਚਿੰਤਾ ਹੈ...\"",
+          "ਉਹਨਾਂ ਵੱਲੋਂ ਅਸਲ ਵਿੱਚ ਪੁੱਛੇ ਗਏ ਸਵਾਲ ਦਾ ਜਵਾਬ ਦਿਓ, ਹਰ ਵਿਸ਼ੇ ਨੂੰ ਨਹੀਂ ਜਿਸਨੂੰ ਤੁਸੀਂ ਕਵਰ ਕਰਨਾ ਚਾਹੁੰਦੇ ਹੋ।"
+        ],
+        "avoid": [
+          "ਇੱਕ ਬਿੰਦੂ ਜਿੱਤਣ ਲਈ ਰੁਕਾਵਟ.",
+          "ਉਹਨਾਂ ਦੀ ਵਿਆਖਿਆ ਕਰਨ ਤੋਂ ਪਹਿਲਾਂ ਉਹਨਾਂ ਦੇ ਪਿਛੋਕੜ ਜਾਂ ਇਤਰਾਜ਼ ਨੂੰ ਮੰਨ ਲੈਣਾ।"
+        ],
+        "referenceIds": ["quran-16-125", "new-muslim-academy"]
+      },
+      {
+        "id": "ask-permission",
+        "title": "ਜਾਰੀ ਰੱਖਣ ਤੋਂ ਪਹਿਲਾਂ ਇਜਾਜ਼ਤ ਮੰਗੋ",
+        "summary": "ਇਜਾਜ਼ਤ ਗੱਲਬਾਤ ਦਾ ਆਦਰ ਕਰਦੀ ਹੈ ਅਤੇ ਦੂਜੇ ਵਿਅਕਤੀ ਨੂੰ ਆਪਣੀ ਗਤੀ 'ਤੇ ਕਾਬੂ ਰੱਖਣ ਵਿੱਚ ਮਦਦ ਕਰਦੀ ਹੈ।",
+        "practice": [
+          "ਸਧਾਰਨ ਵਾਕਾਂਸ਼ਾਂ ਦੀ ਵਰਤੋਂ ਕਰੋ ਜਿਵੇਂ ਕਿ: \"ਕੀ ਇਹ ਠੀਕ ਹੋਵੇਗਾ ਜੇਕਰ ਮੈਂ ਇਸਲਾਮੀ ਦ੍ਰਿਸ਼ਟੀਕੋਣ ਨੂੰ ਸਾਂਝਾ ਕਰਾਂ?\"",
+          "ਜੇ ਉਹ ਨਾਂਹ ਜਾਂ ਝਿਜਕਦੇ ਹਨ, ਤਾਂ ਉਹਨਾਂ ਦਾ ਧੰਨਵਾਦ ਕਰੋ ਅਤੇ ਰੁਕੋ।",
+          "ਉਹਨਾਂ ਨੂੰ ਦੋਸ਼ੀ ਮਹਿਸੂਸ ਕੀਤੇ ਬਿਨਾਂ ਇੱਕ ਹੋਰ ਵਾਰ ਜਾਰੀ ਰੱਖਣ ਦੀ ਪੇਸ਼ਕਸ਼ ਕਰੋ।"
+        ],
+        "avoid": [
+          "ਝਿਜਕ ਨੂੰ ਇੱਕ ਚੁਣੌਤੀ ਦੇ ਰੂਪ ਵਿੱਚ ਇਲਾਜ ਕਰਨਾ।",
+          "ਉਨ੍ਹਾਂ ਵੱਲੋਂ ਸਪਸ਼ਟ ਤੌਰ 'ਤੇ ਅਸਵੀਕਾਰ ਕਰਨ ਤੋਂ ਬਾਅਦ ਉਹੀ ਸੱਦਾ ਦੁਹਰਾਇਆ ਜਾ ਰਿਹਾ ਹੈ।"
+        ],
+        "referenceIds": ["quran-2-256", "quran-28-56"]
+      },
+      {
+        "id": "one-point-at-a-time",
+        "title": "ਇੱਕ ਸਮੇਂ ਵਿੱਚ ਇੱਕ ਬਿੰਦੂ",
+        "summary": "ਬਹੁਤੇ ਲੋਕਾਂ ਨੂੰ ਇਸ ਬਾਰੇ ਸੋਚਣ ਲਈ ਇੱਕ ਸਪਸ਼ਟ ਵਿਚਾਰ ਦੀ ਲੋੜ ਹੁੰਦੀ ਹੈ, ਨਾ ਕਿ ਇੱਕ ਪੂਰੇ ਲੈਕਚਰ ਦੀ।",
+        "practice": [
+          "ਗੱਲਬਾਤ ਵਿੱਚ ਅਗਲਾ ਸਭ ਤੋਂ ਢੁਕਵਾਂ ਬਿੰਦੂ ਚੁਣੋ।",
+          "ਸਵਾਲਾਂ ਲਈ ਛੋਟੀਆਂ ਵਿਆਖਿਆਵਾਂ ਅਤੇ ਵਿਰਾਮ ਦੀ ਵਰਤੋਂ ਕਰੋ।",
+          "ਜੇ ਕਈ ਵਿਸ਼ੇ ਆਉਂਦੇ ਹਨ, ਤਾਂ ਉਹਨਾਂ ਨੂੰ ਲਿਖੋ ਅਤੇ ਇੱਕ ਵਾਰ ਵਿੱਚ ਇੱਕ 'ਤੇ ਵਾਪਸ ਜਾਓ।"
+        ],
+        "avoid": [
+          "ਉਹਨਾਂ ਨੂੰ ਹਰ ਸਬੂਤ, ਹੁਕਮ ਜਾਂ ਕਹਾਣੀ ਨਾਲ ਓਵਰਲੋਡ ਕਰਨਾ ਜੋ ਤੁਸੀਂ ਜਾਣਦੇ ਹੋ।",
+          "ਸ਼ਹਾਦਾ ਨੂੰ ਮੂਵ ਕਰਨਾ ਇਸ ਤੋਂ ਪਹਿਲਾਂ ਕਿ ਵਿਅਕਤੀ ਨੇ ਮੁਢਲੀਆਂ ਕਾਰਵਾਈਆਂ ਕੀਤੀਆਂ ਹਨ."
+        ],
+        "referenceIds": ["quran-16-125"]
+      },
+      {
+        "id": "handle-hostility",
+        "title": "ਦੁਸ਼ਮਣੀ ਨੂੰ ਸ਼ਾਂਤੀ ਨਾਲ ਨਜਿੱਠੋ",
+        "summary": "ਜੇ ਕੋਈ ਗੁੱਸੇ ਜਾਂ ਅਪਮਾਨਜਨਕ ਹੋ ਜਾਂਦਾ ਹੈ, ਤਾਂ ਗੱਲਬਾਤ ਦੀ ਇੱਜ਼ਤ ਦੀ ਰੱਖਿਆ ਕਰੋ ਅਤੇ ਪਿੱਛੇ ਹਟ ਜਾਓ।",
+        "practice": [
+          "ਆਪਣੀ ਆਵਾਜ਼ ਨੂੰ ਘਟਾਓ ਅਤੇ ਰਫ਼ਤਾਰ ਨੂੰ ਹੌਲੀ ਕਰੋ।",
+          "ਸੀਮਾ ਨੂੰ ਨਰਮੀ ਨਾਲ ਨਾਮ ਦਿਓ: \"ਮੈਂ ਨਹੀਂ ਚਾਹੁੰਦਾ ਕਿ ਅਸੀਂ ਬਹਿਸ ਕਰੀਏ ਜਾਂ ਇੱਕ ਦੂਜੇ ਦਾ ਨਿਰਾਦਰ ਕਰੀਏ।\"",
+          "ਗੱਲਬਾਤ ਨੂੰ ਖਤਮ ਕਰੋ ਜੇਕਰ ਇਹ ਹੁਣ ਸੁਹਿਰਦ ਜਾਂ ਸੁਰੱਖਿਅਤ ਨਹੀਂ ਹੈ।"
+        ],
+        "avoid": [
+          "ਗੁੱਸੇ ਨਾਲ ਗੁੱਸੇ ਦਾ ਮੇਲ.",
+          "ਵਿਅੰਗ, ਮਜ਼ਾਕ, ਜਾਂ ਜਨਤਕ ਸ਼ਰਮ ਦੀ ਵਰਤੋਂ ਕਰਨਾ।"
+        ],
+        "referenceIds": ["quran-16-125"]
+      },
+      {
+        "id": "when-to-stop",
+        "title": "ਗੱਲਬਾਤ ਕਦੋਂ ਬੰਦ ਕਰਨੀ ਹੈ",
+        "summary": "ਇੱਕ ਹੋਰ ਬਿੰਦੂ ਨੂੰ ਮਜਬੂਰ ਕਰਨ ਨਾਲੋਂ ਚੰਗੀ ਤਰ੍ਹਾਂ ਰੋਕਣਾ ਬਿਹਤਰ ਦਾਵਾ ਹੋ ਸਕਦਾ ਹੈ।",
+        "practice": [
+          "ਜਦੋਂ ਵਿਅਕਤੀ ਥੱਕਿਆ, ਦੁਖੀ, ਮਜ਼ਾਕ ਉਡਾਉਣ, ਅਸੁਰੱਖਿਅਤ, ਜਾਂ ਸਪਸ਼ਟ ਤੌਰ 'ਤੇ ਕੀਤਾ ਗਿਆ ਹੋਵੇ ਤਾਂ ਰੁਕੋ।",
+          "ਧੰਨਵਾਦ ਅਤੇ ਨਿੱਘ ਨਾਲ ਬੰਦ ਕਰੋ.",
+          "ਨਿਜੀ ਤੌਰ 'ਤੇ ਦੁਆ ਕਰੋ ਅਤੇ ਬਿਹਤਰ ਸਮੇਂ ਲਈ ਦਰਵਾਜ਼ਾ ਖੁੱਲ੍ਹਾ ਛੱਡ ਦਿਓ।"
+        ],
+        "avoid": [
+          "ਇੱਕ ਫੈਸਲੇ ਦਾ ਪਿੱਛਾ.",
+          "ਗੱਲਬਾਤ ਨੂੰ ਇੱਕ ਅਸਫਲਤਾ ਦੇ ਰੂਪ ਵਿੱਚ ਇਲਾਜ ਕਰਨਾ ਕਿਉਂਕਿ ਇਹ ਸ਼ਾਹਦਾ ਦੇ ਬਿਨਾਂ ਖਤਮ ਹੋ ਗਿਆ ਸੀ."
+        ],
+        "referenceIds": ["quran-51-55", "quran-28-56", "quran-2-256"]
+      },
+      {
+        "id": "refer-to-imam",
+        "title": "ਕਿਸੇ ਇਮਾਮ ਜਾਂ ਸਲਾਹਕਾਰ ਨੂੰ ਵੇਖੋ",
+        "summary": "ਇੱਕ ਦਾਈ ਨੂੰ ਹਰ ਗੱਲ ਦਾ ਜਵਾਬ ਦੇਣ ਦੀ ਲੋੜ ਨਹੀਂ ਹੁੰਦੀ। ਸੰਵੇਦਨਸ਼ੀਲ, ਵਿਸਤ੍ਰਿਤ, ਜਾਂ ਨਿੱਜੀ ਸਵਾਲਾਂ ਲਈ ਯੋਗ ਮਦਦ ਦੀ ਲੋੜ ਹੁੰਦੀ ਹੈ।",
+        "practice": [
+          "ਸਪੱਸ਼ਟ ਤੌਰ 'ਤੇ ਕਹੋ: \"ਮੈਂ ਇਸ ਬਾਰੇ ਅੰਦਾਜ਼ਾ ਨਹੀਂ ਲਗਾਉਣਾ ਚਾਹੁੰਦਾ.\"",
+          "ਉਹਨਾਂ ਨੂੰ ਇੱਕ ਭਰੋਸੇਯੋਗ ਸਥਾਨਕ ਇਮਾਮ, ਅਧਿਆਪਕ, ਜਾਂ ਨਵੇਂ ਮੁਸਲਮਾਨ ਸਲਾਹਕਾਰ ਨਾਲ ਜੋੜਨ ਦੀ ਪੇਸ਼ਕਸ਼ ਕਰੋ।",
+          "ਭਾਵਨਾਤਮਕ ਸੁਰੱਖਿਆ, ਕਨੂੰਨੀ, ਡਾਕਟਰੀ, ਜਾਂ ਪਰਿਵਾਰਕ-ਜੋਖਮ ਸੰਬੰਧੀ ਚਿੰਤਾਵਾਂ ਲਈ, ਉਹਨਾਂ ਨੂੰ ਯੋਗ ਸਥਾਨਕ ਪੇਸ਼ੇਵਰਾਂ ਨੂੰ ਵੀ ਦੱਸੋ।"
+        ],
+        "avoid": [
+          "ਮੌਕੇ 'ਤੇ ਹੁਕਮਾਂ ਦੀ ਕਾਢ ਕੱਢੀ।",
+          "ਸ਼ਹਾਦਤ ਤੋਂ ਬਾਅਦ ਬੰਦੇ ਦਾ ਇੱਕੋ ਇੱਕ ਸਹਾਰਾ ਬਣਨਾ।"
+        ],
+        "referenceIds": ["new-muslim-academy"]
+      }
+    ],
+    "postShahadaHandoff": [
+      {
+        "id": "first-hour",
+        "title": "ਪਹਿਲਾ ਘੰਟਾ",
+        "summary": "ਨਿੱਘ, ਗੋਪਨੀਯਤਾ ਅਤੇ ਸ਼ਾਂਤ ਸਮਰਥਨ ਨਾਲ ਜਵਾਬ ਦਿਓ। ਸ਼ਹਾਦਾ ਇੱਕ ਸ਼ੁਰੂਆਤ ਹੈ, ਜਨਤਕ ਪ੍ਰਦਰਸ਼ਨ ਨਹੀਂ।",
+        "actions": [
+          "ਉਨ੍ਹਾਂ ਨੂੰ ਹਾਵੀ ਹੋਏ ਬਿਨਾਂ ਹੌਲੀ ਹੌਲੀ ਵਧਾਈ ਦਿਓ।",
+          "ਪੁੱਛੋ ਕਿ ਕੀ ਉਹ ਗੋਪਨੀਯਤਾ ਚਾਹੁੰਦੇ ਹਨ, ਇੱਕ ਸ਼ਾਂਤ ਗਵਾਹ, ਜਾਂ ਜਨਤਕ ਭਾਈਚਾਰੇ ਦੀ ਜਾਣ-ਪਛਾਣ ਚਾਹੁੰਦੇ ਹਨ।",
+          "ਇੱਕ ਭਰੋਸੇਯੋਗ ਸੰਪਰਕ ਲਿਖੋ: ਇਮਾਮ, ਸਲਾਹਕਾਰ, ਨਵੀਂ ਮੁਸਲਿਮ ਜਮਾਤ, ਜਾਂ ਸਹਾਇਕ ਮੁਸਲਿਮ ਦੋਸਤ।",
+          "ਜਾਂਚ ਕਰੋ ਕਿ ਕੀ ਪਰਿਵਾਰ, ਰਿਹਾਇਸ਼, ਕੰਮ, ਜਾਂ ਸੁਰੱਖਿਆ ਸੰਬੰਧੀ ਚਿੰਤਾਵਾਂ ਜਨਤਕ ਖੁਲਾਸੇ ਨੂੰ ਜੋਖਮ ਭਰਪੂਰ ਬਣਾਉਂਦੀਆਂ ਹਨ।"
+        ],
+        "avoid": [
+          "ਉਨ੍ਹਾਂ 'ਤੇ ਜਨਤਕ ਤੌਰ 'ਤੇ ਐਲਾਨ ਕਰਨ ਲਈ ਦਬਾਅ ਪਾਇਆ ਜਾ ਰਿਹਾ ਹੈ।",
+          "ਉਨ੍ਹਾਂ ਨੂੰ ਤੁਰੰਤ ਨਿਯਮਾਂ ਦੀ ਲੰਮੀ ਸੂਚੀ ਸੌਂਪੀ ਜਾਵੇ।",
+          "ਫੋਟੋਆਂ, ਵੀਡੀਓਜ਼ ਜਾਂ ਸ਼ਹਾਦ ਦੇ ਪਲਾਂ ਨੂੰ ਬਿਨਾਂ ਸਪੱਸ਼ਟ ਇਜਾਜ਼ਤ ਦੇ ਪੋਸਟ ਕਰਨਾ।"
+        ],
+        "referenceIds": [
+          "quran-2-256",
+          "whyislam-becoming-muslim",
+          "whyislam-mosque-visit",
+          "seekersguidance-shahada-witnesses"
+        ]
+      },
+      {
+        "id": "first-day",
+        "title": "ਪਹਿਲਾ ਦਿਨ",
+        "summary": "ਇੱਕ ਸਪਸ਼ਟ ਅਗਲੇ ਪੜਾਅ ਅਤੇ ਇੱਕ ਭਰੋਸੇਯੋਗ ਸਹਾਇਤਾ ਵਿਅਕਤੀ ਨਾਲ ਗੱਲਬਾਤ ਛੱਡਣ ਵਿੱਚ ਉਹਨਾਂ ਦੀ ਮਦਦ ਕਰੋ।",
+        "actions": [
+          "ਲਿੰਕਾਂ ਦੇ ਢੇਰ ਦੀ ਬਜਾਏ ਇੱਕ ਸ਼ੁਰੂਆਤੀ ਸਰੋਤ ਸਾਂਝਾ ਕਰੋ।",
+          "ਉਹਨਾਂ ਨੂੰ ਇੱਕ ਸਥਾਨਕ ਮਸਜਿਦ ਜਾਂ ਨਵੀਂ ਮੁਸਲਿਮ ਸ਼੍ਰੇਣੀ ਲੱਭਣ ਵਿੱਚ ਮਦਦ ਕਰਨ ਦੀ ਪੇਸ਼ਕਸ਼ ਕਰੋ।",
+          "ਪੁੱਛੋ ਕਿ ਕੀ ਉਹ ਵੁਡੂ ਅਤੇ ਪ੍ਰਾਰਥਨਾ ਦੀ ਸ਼ਕਲ ਸਿੱਖਣ ਵਿੱਚ ਮਦਦ ਚਾਹੁੰਦੇ ਹਨ।",
+          "ਉਨ੍ਹਾਂ ਨੂੰ ਯਾਦ ਦਿਵਾਓ ਕਿ ਸਿੱਖਣ ਵਿੱਚ ਸਮਾਂ ਲੱਗਦਾ ਹੈ ਅਤੇ ਅੱਲ੍ਹਾ ਉਨ੍ਹਾਂ ਦੀ ਕੋਸ਼ਿਸ਼ ਨੂੰ ਜਾਣਦਾ ਹੈ।"
+        ],
+        "avoid": [
+          "ਹਰ ਆਦਤ ਨੂੰ ਇੱਕ ਵਾਰ ਵਿੱਚ ਠੀਕ ਕਰਨਾ।",
+          "ਉਨ੍ਹਾਂ ਦੇ ਪੁੱਛਣ ਤੋਂ ਪਹਿਲਾਂ ਪਰਿਵਾਰ, ਵਿਆਹ, ਕੱਪੜੇ, ਜਾਂ ਭੋਜਨ ਦੇ ਵੇਰਵਿਆਂ 'ਤੇ ਬਹਿਸ ਕਰਨਾ।"
+        ],
+        "referenceIds": ["new-muslim-academy", "whyislam-mosque-visit"]
+      },
+      {
+        "id": "first-week",
+        "title": "ਪਹਿਲਾ ਹਫ਼ਤਾ",
+        "summary": "ਉੱਨਤ ਨਿਯਮਾਂ ਤੋਂ ਪਹਿਲਾਂ ਇਕਸਾਰਤਾ, ਸਬੰਧਤ, ਅਤੇ ਸੁਰੱਖਿਅਤ ਸਿਖਲਾਈ ਦਾ ਸਮਰਥਨ ਕਰੋ।",
+        "actions": [
+          "ਇੱਕ ਕੋਮਲ ਪ੍ਰਾਰਥਨਾ-ਸਿਖਲਾਈ ਯੋਜਨਾ ਚੁਣਨ ਵਿੱਚ ਉਹਨਾਂ ਦੀ ਮਦਦ ਕਰੋ।",
+          "ਉਹਨਾਂ ਨੂੰ ਇੱਕ ਸਲਾਹਕਾਰ ਨਾਲ ਜੋੜੋ ਜੋ ਧੀਰਜ ਨਾਲ ਸਵਾਲਾਂ ਦੇ ਜਵਾਬ ਦੇ ਸਕਦਾ ਹੈ।",
+          "ਉਹਨਾਂ ਨੂੰ ਇੱਕ ਕਮਿਊਨਿਟੀ ਪਲ ਲਈ ਸੱਦਾ ਦਿਓ: ਕਲਾਸ, ਪ੍ਰਾਰਥਨਾ, ਭੋਜਨ, ਜਾਂ ਕੌਫੀ।",
+          "ਉਹਨਾਂ ਨੂੰ ਨਿੱਜੀ ਤੌਰ 'ਤੇ ਅਤੇ ਜਲਦੀ ਸੰਵੇਦਨਸ਼ੀਲ ਸਵਾਲ ਪੁੱਛਣ ਲਈ ਉਤਸ਼ਾਹਿਤ ਕਰੋ।"
+        ],
+        "avoid": [
+          "ਆਪਣੇ ਆਪ ਨੂੰ ਉਹਨਾਂ ਦਾ ਇੱਕੋ ਇੱਕ ਸਹਾਰਾ ਬਣਾਉਣਾ।",
+          "ਉਹਨਾਂ ਦੇ ਸਿੱਖਣ ਨੂੰ ਤੇਜ਼ ਕਰਨ ਲਈ ਸ਼ਰਮ ਦੀ ਵਰਤੋਂ ਕਰਨਾ।"
+        ],
+        "referenceIds": ["new-muslim-academy", "new-muslim-academy-family"]
+      },
+      {
+        "id": "connect-community",
+        "title": "ਸਥਾਨਕ ਭਾਈਚਾਰੇ ਨਾਲ ਜੁੜੋ",
+        "summary": "ਇੱਕ ਨਵੇਂ ਮੁਸਲਮਾਨ ਨੂੰ ਸਿਰਫ਼ ਔਨਲਾਈਨ ਸਮੱਗਰੀ ਦੀ ਹੀ ਨਹੀਂ, ਆਪਣੇ ਆਲੇ-ਦੁਆਲੇ ਭਰੋਸੇਯੋਗ ਲੋਕਾਂ ਦੀ ਲੋੜ ਹੁੰਦੀ ਹੈ।",
+        "actions": [
+          "ਉਹਨਾਂ ਨੂੰ ਇੱਕ ਭਰੋਸੇਮੰਦ ਇਮਾਮ, ਅਧਿਆਪਕ, ਜਾਂ ਕਨਵਰਟ-ਸਪੋਰਟ ਲੀਡ ਨਾਲ ਜਾਣੂ ਕਰਵਾਓ।",
+          "ਉਹਨਾਂ ਦੀ ਕਲਾਸ ਦੇ ਸਮੇਂ ਦੀ ਪੁਸ਼ਟੀ ਕਰਨ ਵਿੱਚ ਮਦਦ ਕਰੋ ਅਤੇ ਕੀ ਸਪੇਸ ਸ਼ੁਰੂਆਤੀ-ਅਨੁਕੂਲ ਹੈ।",
+          "ਇੱਕ ਫਾਲੋ-ਅੱਪ ਯੋਜਨਾ ਦੀ ਪੇਸ਼ਕਸ਼ ਕਰੋ ਜੋ ਉਹਨਾਂ ਦੇ ਕਾਰਜਕ੍ਰਮ ਅਤੇ ਗੋਪਨੀਯਤਾ ਦਾ ਆਦਰ ਕਰਦੀ ਹੈ।",
+          "ਜੇਕਰ ਉਨ੍ਹਾਂ ਦੀ ਪਰਿਵਾਰਕ ਸਥਿਤੀ ਤਣਾਅਪੂਰਨ ਹੈ, ਤਾਂ ਸੁਰੱਖਿਆ ਅਤੇ ਭਰੋਸੇਯੋਗ ਪੇਸ਼ੇਵਰ ਸਹਾਇਤਾ ਨੂੰ ਤਰਜੀਹ ਦਿਓ।"
+        ],
+        "avoid": [
+          "ਮੰਨ ਲਓ ਕਿ ਹਰ ਮਸਜਿਦ ਦਾ ਇੱਕੋ ਜਿਹਾ ਸੱਭਿਆਚਾਰ ਜਾਂ ਸਮਰਥਨ ਪੱਧਰ ਹੈ।",
+          "ਬਿਨਾਂ ਇਜਾਜ਼ਤ ਉਨ੍ਹਾਂ ਦੀ ਕਹਾਣੀ ਸਾਂਝੀ ਕਰ ਰਿਹਾ ਹੈ।"
+        ],
+        "referenceIds": [
+          "quran-16-125",
+          "whyislam-mosque-visit",
+          "canada-safety-planning"
+        ]
+      },
+      {
+        "id": "avoid-overwhelm",
+        "title": "ਉਨ੍ਹਾਂ 'ਤੇ ਭਾਰੂ ਹੋਣ ਤੋਂ ਬਚੋ",
+        "summary": "ਸ਼ਾਹਦਾ ਤੋਂ ਬਾਅਦ ਪਹਿਲੇ ਸੀਜ਼ਨ ਨੂੰ ਸਮਰਥਨ ਮਹਿਸੂਸ ਕਰਨਾ ਚਾਹੀਦਾ ਹੈ, ਮੰਗਾਂ ਦੇ ਹੇਠਾਂ ਦੱਬਿਆ ਨਹੀਂ ਜਾਣਾ ਚਾਹੀਦਾ।",
+        "actions": [
+          "ਵਿਸ਼ਵਾਸ, ਰੈਂਪ 'ਤੇ ਪ੍ਰਾਰਥਨਾ, ਭਰੋਸੇਮੰਦ ਭਾਈਚਾਰੇ, ਅਤੇ ਭਾਵਨਾਤਮਕ ਸਥਿਰਤਾ ਨੂੰ ਤਰਜੀਹ ਦਿਓ।",
+          "ਛੋਟੇ ਚੈੱਕ-ਇਨ ਦੀ ਵਰਤੋਂ ਕਰੋ: ਇੱਕ ਸਵਾਲ, ਇੱਕ ਸਰੋਤ, ਇੱਕ ਅਗਲਾ ਕਦਮ।",
+          "ਉਹਨਾਂ ਨੂੰ ਸਪੱਸ਼ਟ ਤੌਰ 'ਤੇ ਦੱਸੋ ਕਿ ਜਦੋਂ ਤੱਕ ਕੋਈ ਅਧਿਆਪਕ ਉਹਨਾਂ ਨਾਲ ਇਸਦੀ ਸਮੀਖਿਆ ਨਹੀਂ ਕਰਦਾ, ਉਦੋਂ ਤੱਕ ਕੀ ਉਡੀਕ ਕੀਤੀ ਜਾ ਸਕਦੀ ਹੈ।",
+          "ਸੰਪੂਰਨਤਾ ਨੂੰ ਸਬੰਧਤ ਹੋਣ ਦੀ ਸ਼ਰਤ ਬਣਾਏ ਬਿਨਾਂ ਕੋਸ਼ਿਸ਼ ਦਾ ਜਸ਼ਨ ਮਨਾਓ।"
+        ],
+        "avoid": [
+          "ਪਹਿਲੇ ਹਫ਼ਤੇ ਨੂੰ ਪੂਰੇ ਫਿਕਹ ਪਾਠਕ੍ਰਮ ਵਿੱਚ ਬਦਲਣਾ।",
+          "ਸੱਭਿਆਚਾਰਕ ਤਬਦੀਲੀਆਂ ਕਰਨਾ ਤੁਰੰਤ ਧਾਰਮਿਕ ਫ਼ਰਜ਼ਾਂ ਵਾਂਗ ਆਵਾਜ਼ ਕਰਦਾ ਹੈ।"
+        ],
+        "referenceIds": ["new-muslim-academy", "quran-16-125"]
+      }
+    ],
+    "referralBoundaries": [
+      {
+        "id": "marriage-divorce",
+        "title": "ਵਿਆਹ, ਤਲਾਕ ਅਤੇ ਪਰਿਵਾਰਕ ਕਾਨੂੰਨ",
+        "summary": "ਵਿਆਹ ਦੀ ਵੈਧਤਾ, ਤਲਾਕ, ਹਿਰਾਸਤ, ਵਿਰਾਸਤ, ਪਰਿਵਰਤਨ ਸਰਟੀਫਿਕੇਟ, ਜਾਂ ਪਰਿਵਾਰਕ-ਕਾਨੂੰਨ ਦੇ ਨਤੀਜਿਆਂ ਬਾਰੇ ਜਵਾਬ ਨਾ ਦਿਓ।",
+        "examples": [
+          "ਉਹ ਪੁੱਛਦੇ ਹਨ ਕਿ ਕੀ ਉਨ੍ਹਾਂ ਦਾ ਮੌਜੂਦਾ ਵਿਆਹ ਸ਼ਹਾਦਾ ਤੋਂ ਬਾਅਦ ਬਦਲਦਾ ਹੈ?",
+          "ਉਹ ਤਲਾਕ ਸ਼ਬਦ, ਹਿਰਾਸਤ, ਜਾਂ ਵਿਰਾਸਤ ਬਾਰੇ ਪੁੱਛਦੇ ਹਨ।",
+          "ਉਹਨਾਂ ਨੂੰ ਵਿਆਹ, ਹੱਜ/ਉਮਰਾਹ, ਸਕੂਲ, ਕੰਮ ਜਾਂ ਸਰਕਾਰੀ ਰਿਕਾਰਡ ਲਈ ਦਸਤਾਵੇਜ਼ਾਂ ਦੀ ਲੋੜ ਹੁੰਦੀ ਹੈ।"
+        ],
+        "referTo": "ਇੱਕ ਯੋਗ ਸਥਾਨਕ ਵਿਦਵਾਨ ਅਤੇ, ਜਿੱਥੇ ਕਾਨੂੰਨੀ ਅਧਿਕਾਰ ਜਾਂ ਦਸਤਾਵੇਜ਼ ਸ਼ਾਮਲ ਹਨ, ਇੱਕ ਲਾਇਸੰਸਸ਼ੁਦਾ ਕਾਨੂੰਨੀ ਪੇਸ਼ੇਵਰ ਜਾਂ ਅਧਿਕਾਰਤ ਏਜੰਸੀ।",
+        "referenceIds": ["seekersguidance", "ohrc-religious-rights"]
+      },
+      {
+        "id": "trauma-safety",
+        "title": "ਸਦਮਾ, ਦੁਰਵਿਵਹਾਰ, ਜਾਂ ਸੁਰੱਖਿਆ ਜੋਖਮ",
+        "summary": "ਜੇਕਰ ਖੁਲਾਸਾ ਨੁਕਸਾਨ ਪਹੁੰਚਾ ਸਕਦਾ ਹੈ, ਤਾਂ ਸੁਰੱਖਿਆ 'ਤੇ ਵਿਚਾਰ ਕੀਤੇ ਜਾਣ ਤੋਂ ਪਹਿਲਾਂ ਜਨਤਕ ਕਾਰਵਾਈ ਨੂੰ ਉਤਸ਼ਾਹਿਤ ਨਾ ਕਰੋ।",
+        "examples": [
+          "ਉਹ ਹਿੰਸਾ, ਬੇਘਰ ਹੋਣ, ਪਿੱਛਾ ਕਰਨ, ਜਾਂ ਪਰਿਵਾਰਕ ਬਦਲਾ ਲੈਣ ਤੋਂ ਡਰਦੇ ਹਨ।",
+          "ਉਨ੍ਹਾਂ ਨੂੰ ਧਰਮ ਜਾਂ ਅਧਿਕਾਰ ਦੇ ਅੰਕੜਿਆਂ ਨਾਲ ਜੁੜਿਆ ਸਦਮਾ ਹੈ।",
+          "ਉਹ ਪੁੱਛਦੇ ਹਨ ਕਿ ਕੀ ਉਨ੍ਹਾਂ ਨੂੰ ਅਸੁਰੱਖਿਅਤ ਰਿਸ਼ਤੇਦਾਰਾਂ ਨੂੰ ਤੁਰੰਤ ਦੱਸਣਾ ਚਾਹੀਦਾ ਹੈ।"
+        ],
+        "referTo": "ਭਰੋਸੇਯੋਗ ਸਥਾਨਕ ਸੁਰੱਖਿਆ ਪੇਸ਼ੇਵਰ, ਸੰਕਟ ਜਾਂ ਘਰੇਲੂ-ਹਿੰਸਾ ਸਹਾਇਤਾ, ਅਤੇ ਇੱਕ ਕੋਮਲ ਇਮਾਮ ਜਾਂ ਸਲਾਹਕਾਰ ਜੋ ਗੋਪਨੀਯਤਾ ਦਾ ਆਦਰ ਕਰਦੇ ਹਨ।",
+        "referenceIds": ["canada-safety-planning", "new-muslim-academy-family"]
+      },
+      {
+        "id": "mental-health-crisis",
+        "title": "ਮਾਨਸਿਕ ਸਿਹਤ ਸੰਕਟ",
+        "summary": "ਇੱਕ ਦਾਈ ਨੂੰ ਇੱਕਲੇ ਸੰਕਟ ਦੀ ਸਲਾਹ ਦੇਣ ਦੀ ਕੋਸ਼ਿਸ਼ ਨਹੀਂ ਕਰਨੀ ਚਾਹੀਦੀ।",
+        "examples": [
+          "ਉਹ ਖੁਦਕੁਸ਼ੀ, ਸਵੈ-ਨੁਕਸਾਨ, ਸੁਰੱਖਿਅਤ ਰਹਿਣ ਵਿੱਚ ਅਸਮਰੱਥ, ਜਾਂ ਅਸਲੀਅਤ ਤੋਂ ਨਿਰਲੇਪ ਮਹਿਸੂਸ ਕਰਨ ਦਾ ਜ਼ਿਕਰ ਕਰਦੇ ਹਨ।",
+          "ਉਹ ਘਬਰਾ ਰਹੇ ਹਨ, ਕੰਮ ਕਰਨ ਵਿੱਚ ਅਸਮਰੱਥ ਹਨ, ਜਾਂ ਜ਼ਰੂਰੀ ਅਸੁਰੱਖਿਅਤ ਯੋਜਨਾਵਾਂ ਬਣਾ ਰਹੇ ਹਨ।",
+          "ਉਹਨਾਂ ਨੂੰ ਧਾਰਮਿਕ ਵਿਆਖਿਆ ਤੋਂ ਵੱਧ ਐਮਰਜੈਂਸੀ ਮਦਦ ਦੀ ਲੋੜ ਹੁੰਦੀ ਹੈ।"
+        ],
+        "referTo": "ਐਮਰਜੈਂਸੀ ਸੇਵਾਵਾਂ ਜਾਂ ਸੰਕਟ ਸਹਾਇਤਾ ਜਿਵੇਂ ਕਿ ਸੰਯੁਕਤ ਰਾਜ ਅਤੇ ਕੈਨੇਡਾ ਵਿੱਚ 988, ਨਾਲ ਹੀ ਯੋਗ ਕਲੀਨਿਕਲ ਦੇਖਭਾਲ।",
+        "referenceIds": ["988-lifeline"]
+      },
+      {
+        "id": "detailed-fiqh",
+        "title": "ਵਿਸਤ੍ਰਿਤ ਫਿਕਹ",
+        "summary": "ਪੂਜਾ ਅਤੇ ਰੋਜ਼ਾਨਾ ਜੀਵਨ ਦੇ ਨਿਯਮ ਸਕੂਲ, ਹਾਲਾਤ, ਸਿਹਤ ਅਤੇ ਸਥਾਨਕ ਸੰਦਰਭ 'ਤੇ ਨਿਰਭਰ ਕਰ ਸਕਦੇ ਹਨ।",
+        "examples": [
+          "ਉਹ ਪ੍ਰਾਰਥਨਾ ਦੀ ਵੈਧਤਾ, ਖੁੰਝੀਆਂ ਪ੍ਰਾਰਥਨਾਵਾਂ, ਵਰਤ ਤੋਂ ਛੋਟਾਂ, ਜ਼ਕਾਤ ਗਣਨਾ, ਸ਼ੁੱਧਤਾ ਦੇ ਵੇਰਵੇ, ਜਾਂ ਅਪਾਹਜਤਾ ਦੀ ਰਿਹਾਇਸ਼ ਬਾਰੇ ਪੁੱਛਦੇ ਹਨ।",
+          "ਉਹ ਭੋਜਨ, ਕੰਮ, ਕੱਪੜੇ, ਪਰਿਵਾਰਕ ਜ਼ਿੰਮੇਵਾਰੀਆਂ, ਜਾਂ ਪੈਸੇ ਬਾਰੇ ਹੁਕਮ ਮੰਗਦੇ ਹਨ।",
+          "ਤੁਸੀਂ ਭਰੋਸੇਯੋਗ ਸਰੋਤ ਦੀ ਬਜਾਏ ਮੈਮੋਰੀ 'ਤੇ ਭਰੋਸਾ ਕਰ ਰਹੇ ਹੋ।"
+        ],
+        "referTo": "ਇੱਕ ਯੋਗ ਵਿਦਵਾਨ, ਇਮਾਮ, ਅਧਿਆਪਕ, ਜਾਂ ਭਰੋਸੇਯੋਗ ਫਤਵਾ ਸੇਵਾ ਜੋ ਫਾਲੋ-ਅੱਪ ਸਵਾਲ ਪੁੱਛ ਸਕਦੀ ਹੈ।",
+        "referenceIds": ["seekersguidance", "new-muslim-academy"]
+      },
+      {
+        "id": "complex-theology",
+        "title": "ਗੁੰਝਲਦਾਰ ਧਰਮ ਸ਼ਾਸਤਰ ਅਤੇ ਪਰੇਸ਼ਾਨ ਕਰਨ ਵਾਲੇ ਦਾਅਵੇ",
+        "summary": "ਕੁਝ ਸਵਾਲਾਂ ਲਈ ਤੁਰੰਤ ਜਵਾਬ ਦੇਣ ਦੀ ਬਜਾਏ ਸਮਾਂ, ਸੰਦਰਭ ਅਤੇ ਅਧਿਆਪਕ ਦੀ ਲੋੜ ਹੁੰਦੀ ਹੈ।",
+        "examples": [
+          "ਉਹ ਦੁੱਖ, ਕਾਦਰ, ਨਰਕ ਦੀ ਅੱਗ, ਹਦੀਸ ਦੇ ਸ਼ੱਕ, ਜਾਂ ਔਖੇ ਔਨਲਾਈਨ ਦਾਅਵਿਆਂ ਬਾਰੇ ਪੁੱਛਦੇ ਹਨ।",
+          "ਉਨ੍ਹਾਂ ਨੂੰ ਪਿਛਲੇ ਧਾਰਮਿਕ ਭਾਈਚਾਰਿਆਂ ਤੋਂ ਸਦਮਾ ਹੈ।",
+          "ਉਹ ਬਹਿਸ ਕਲਿੱਪਾਂ ਜਾਂ ਵਿਰੋਧੀ ਮੀਡੀਆ ਰਾਹੀਂ ਫੈਲ ਰਹੇ ਹਨ।"
+        ],
+        "referTo": "ਇੱਕ ਭਰੋਸੇਯੋਗ ਅਧਿਆਪਕ, ਢਾਂਚਾਗਤ ਕਲਾਸ, ਜਾਂ ਯੋਗ ਵਿਦਵਾਨ ਜੋ ਹੌਲੀ-ਹੌਲੀ ਅਤੇ ਜ਼ਿੰਮੇਵਾਰੀ ਨਾਲ ਜਵਾਬ ਦੇ ਸਕਦਾ ਹੈ।",
+        "referenceIds": ["quran-67-2", "quran-2-155", "seekersguidance"]
+      },
+      {
+        "id": "legal-immigration",
+        "title": "ਕਾਨੂੰਨੀ, ਇਮੀਗ੍ਰੇਸ਼ਨ, ਕੰਮ ਵਾਲੀ ਥਾਂ, ਜਾਂ ਸਕੂਲ ਦੇ ਮੁੱਦੇ",
+        "summary": "ਧਾਰਮਿਕ ਉਤਸ਼ਾਹ ਕਾਨੂੰਨੀ ਜਾਂ ਅਧਿਕਾਰਤ ਸਲਾਹ ਦੀ ਥਾਂ ਨਹੀਂ ਲੈ ਸਕਦਾ।",
+        "examples": [
+          "ਉਹ ਇਮੀਗ੍ਰੇਸ਼ਨ, ਸ਼ਰਣ, ਹਿਰਾਸਤ, ਕੰਮ ਵਾਲੀ ਥਾਂ ਦੇ ਅਧਿਕਾਰਾਂ, ਸਕੂਲ ਦੀ ਰਿਹਾਇਸ਼, ਜਾਂ ID ਦਸਤਾਵੇਜ਼ਾਂ ਬਾਰੇ ਪੁੱਛਦੇ ਹਨ।",
+          "ਉਹਨਾਂ ਨੂੰ ਇੱਕ ਸਰਟੀਫਿਕੇਟ, ਪੱਤਰ ਜਾਂ ਅਧਿਕਾਰਤ ਸਬੂਤ ਦੀ ਲੋੜ ਹੁੰਦੀ ਹੈ।",
+          "ਉਹਨਾਂ ਨੂੰ ਵਿਤਕਰੇ ਜਾਂ ਬਦਲੇ ਦੀ ਕਾਰਵਾਈ ਦਾ ਸਾਹਮਣਾ ਕਰਨਾ ਪੈ ਸਕਦਾ ਹੈ।"
+        ],
+        "referTo": "ਇੱਕ ਲਾਇਸੰਸਸ਼ੁਦਾ ਕਾਨੂੰਨੀ ਪੇਸ਼ੇਵਰ, ਅਧਿਕਾਰਤ ਜਨਤਕ-ਅਧਿਕਾਰ ਏਜੰਸੀ, ਸਕੂਲ/ਕੰਮ ਦਫ਼ਤਰ, ਜਾਂ ਉਚਿਤ ਤੌਰ 'ਤੇ ਸਥਾਨਕ ਬੰਦੋਬਸਤ ਸੇਵਾ।",
+        "referenceIds": ["ohrc-religious-rights"]
+      }
+    ],
+    "commonQuestions": [
+      {
+        "id": "q-god-exists",
+        "topic": "ਰੱਬ",
+        "question": "ਤੁਸੀਂ ਕਿਵੇਂ ਜਾਣਦੇ ਹੋ ਕਿ ਰੱਬ ਮੌਜੂਦ ਹੈ?",
+        "answer": [
+          "ਦਲੀਲ ਦੀ ਬਜਾਏ ਪ੍ਰਤੀਬਿੰਬ ਨੂੰ ਸੱਦਾ ਦਿਓ। ਸਾਡੇ ਆਲੇ ਦੁਆਲੇ ਦੀ ਹਰ ਚੀਜ਼ - ਬ੍ਰਹਿਮੰਡ ਦਾ ਕ੍ਰਮ, ਕੁਦਰਤ ਦੀ ਸ਼ੁੱਧਤਾ, ਸਾਡੀ ਆਪਣੀ ਹੋਂਦ - ਇੱਕ ਸਿਰਜਣਹਾਰ ਵੱਲ ਇਸ਼ਾਰਾ ਕਰਦੀ ਹੈ। ਹੌਲੀ-ਹੌਲੀ ਪੁੱਛੋ: ਕੀ ਇਹ ਸਭ ਕੁਝ ਕਿਸੇ ਚੀਜ਼ ਤੋਂ ਨਹੀਂ ਆਇਆ, ਜਾਂ ਇਹ ਕਿਸੇ ਨਿਰਮਾਤਾ ਵੱਲ ਇਸ਼ਾਰਾ ਕਰਦਾ ਹੈ?",
+          "ਨਿਮਰ ਰਹੋ. ਤੁਸੀਂ ਜਿੱਤਣ ਦੀ ਕੋਸ਼ਿਸ਼ ਨਹੀਂ ਕਰ ਰਹੇ ਹੋ; ਤੁਸੀਂ ਸੋਚਣ ਦਾ ਦਰਵਾਜ਼ਾ ਖੋਲ੍ਹ ਰਹੇ ਹੋ।"
+        ],
+        "referenceIds": ["quran-52-35"]
+      },
+      {
+        "id": "q-one-god",
+        "topic": "ਏਕਤਾ",
+        "question": "ਰੱਬ ਇੱਕ ਕਿਉਂ ਹੋਣਾ ਚਾਹੀਦਾ ਹੈ?",
+        "answer": [
+          "ਜੇਕਰ ਮੁਕਾਬਲੇ ਵਾਲੀਆਂ ਇੱਛਾਵਾਂ ਵਾਲੇ ਬਹੁਤ ਸਾਰੇ ਦੇਵਤੇ ਹੁੰਦੇ, ਤਾਂ ਸ੍ਰਿਸ਼ਟੀ ਨੂੰ ਵਿਰੋਧੀ ਦਿਸ਼ਾਵਾਂ ਵਿੱਚ ਖਿੱਚਿਆ ਜਾਵੇਗਾ। ਅਸੀਂ ਜੋ ਇਕਸੁਰਤਾ ਅਤੇ ਆਦੇਸ਼ ਦੇਖਦੇ ਹਾਂ ਇਸ ਦੀ ਬਜਾਏ ਇੱਕ ਇੱਕਲੇ ਅਥਾਰਟੀ ਵੱਲ ਇਸ਼ਾਰਾ ਕਰਦੇ ਹਾਂ।",
+          "ਇਸ ਨੂੰ ਪ੍ਰਤੀਬਿੰਬ ਵਜੋਂ ਪੇਸ਼ ਕਰੋ, ਅਤੇ ਸਮਾਂ ਅਤੇ ਸਵਾਲਾਂ ਦੀ ਇਜਾਜ਼ਤ ਦਿਓ।"
+        ],
+        "referenceIds": ["quran-21-22"]
+      },
+      {
+        "id": "q-jesus",
+        "topic": "ਯਿਸੂ (ਪੀ.ਬੀ.ਯੂ.)",
+        "question": "ਮੁਸਲਮਾਨ ਯਿਸੂ ਬਾਰੇ ਕੀ ਵਿਸ਼ਵਾਸ ਕਰਦੇ ਹਨ?",
+        "answer": [
+          "ਮੁਸਲਮਾਨ ਪਿਆਰ ਕਰਦੇ ਹਨ ਅਤੇ ਯਿਸੂ ਦਾ ਡੂੰਘਾ ਸਨਮਾਨ ਕਰਦੇ ਹਨ, ਉਸ ਉੱਤੇ ਸ਼ਾਂਤੀ ਹੋਵੇ। ਅਸੀਂ ਵਰਜਿਨ ਮੈਰੀ ਲਈ ਉਸਦੇ ਚਮਤਕਾਰੀ ਜਨਮ, ਪ੍ਰਮਾਤਮਾ ਦੀ ਆਗਿਆ ਦੁਆਰਾ ਉਸਦੇ ਚਮਤਕਾਰ, ਅਤੇ ਉਸਦੇ ਨੇਕ ਸੰਦੇਸ਼ ਵਿੱਚ ਵਿਸ਼ਵਾਸ ਕਰਦੇ ਹਾਂ।",
+          "ਇਸਲਾਮ ਸਿਖਾਉਂਦਾ ਹੈ ਕਿ ਯਿਸੂ ਪ੍ਰਮਾਤਮਾ ਦੇ ਮਹਾਨ ਦੂਤਾਂ ਵਿੱਚੋਂ ਇੱਕ ਸੀ, ਜਿਸ ਨੇ ਲੋਕਾਂ ਨੂੰ ਇੱਕ ਰੱਬ ਦੀ ਪੂਜਾ ਕਰਨ ਲਈ ਬੁਲਾਇਆ ਸੀ। ਇਸ ਵਿਸ਼ੇ ਨੂੰ ਨਿੱਘ ਅਤੇ ਸਤਿਕਾਰ ਨਾਲ ਪਹੁੰਚੋ।"
+        ],
+        "referenceIds": ["quran-3-45"]
+      },
+      {
+        "id": "q-why-prophets",
+        "topic": "ਪਰਕਾਸ਼ ਦੀ ਪੋਥੀ",
+        "question": "ਸਾਨੂੰ ਨਬੀਆਂ ਅਤੇ ਗ੍ਰੰਥਾਂ ਦੀ ਕਿਉਂ ਲੋੜ ਹੈ?",
+        "answer": [
+          "ਕਿਉਂਕਿ ਜੀਵਨ ਇੱਕ ਅਰਥਪੂਰਨ ਪ੍ਰੀਖਿਆ ਹੈ, ਇੱਕ ਨਿਆਂਪੂਰਨ ਅਤੇ ਦਿਆਲੂ ਪ੍ਰਮਾਤਮਾ ਨੇ ਸਾਨੂੰ ਆਪਣੇ ਉਦੇਸ਼ ਦਾ ਅਨੁਮਾਨ ਲਗਾਉਣ ਲਈ ਨਹੀਂ ਛੱਡਿਆ। ਉਸਨੇ ਇਤਿਹਾਸ ਵਿੱਚ ਸੰਦੇਸ਼ਵਾਹਕਾਂ ਦੁਆਰਾ ਮਾਰਗਦਰਸ਼ਨ ਭੇਜਿਆ, ਸਾਰੇ ਇੱਕ ਮੁੱਖ ਸੰਦੇਸ਼ ਲੈ ਕੇ ਗਏ: ਇੱਕ ਪਰਮਾਤਮਾ ਦੀ ਉਪਾਸਨਾ ਕਰੋ।",
+          "ਪਰਕਾਸ਼ ਦੀ ਪੋਥੀ ਇੱਕ ਰਹਿਮ ਹੈ - ਸਾਨੂੰ ਕਦੇ ਵੀ ਇਕੱਲੇ ਨਹੀਂ ਛੱਡਿਆ ਜਾਂਦਾ।"
+        ],
+        "referenceIds": ["quran-21-25"]
+      },
+      {
+        "id": "q-shahada",
+        "topic": "ਸ਼ਾਹਦਾ",
+        "question": "ਸ਼ਾਹਦਾ ਅਸਲ ਵਿੱਚ ਕੀ ਹੈ?",
+        "answer": [
+          "ਸ਼ਹਾਦਾ ਇਹ ਸੱਚੀ ਗਵਾਹੀ ਹੈ ਕਿ ਅੱਲ੍ਹਾ ਤੋਂ ਇਲਾਵਾ ਕੋਈ ਵੀ ਪੂਜਾ ਦੇ ਯੋਗ ਨਹੀਂ ਹੈ, ਅਤੇ ਮੁਹੰਮਦ ਉਸ ਦਾ ਦੂਤ ਹੈ। ਇਹ ਇਸਲਾਮ ਵਿੱਚ ਪ੍ਰਵੇਸ਼ ਦੁਆਰ ਹੈ।",
+          "ਇਹ ਇੱਕ ਸੁਤੰਤਰ, ਸੁਹਿਰਦ ਚੋਣ ਹੋਣੀ ਚਾਹੀਦੀ ਹੈ — ਕਦੇ ਵੀ ਜਲਦਬਾਜ਼ੀ ਜਾਂ ਦਬਾਅ ਨਹੀਂ। ਸ਼ਹਾਦਤ ਲੈਣਾ ਇੱਕ ਸ਼ੁਰੂਆਤ ਹੈ, ਅੰਤ ਨਹੀਂ; ਪਿਆਰ ਭਰਿਆ ਸਮਰਥਨ ਅੱਗੇ ਆਉਂਦਾ ਹੈ।"
+        ],
+        "referenceIds": ["whyislam-becoming-muslim", "quran-2-256"]
+      },
+      {
+        "id": "q-suffering",
+        "topic": "ਮਕਸਦ",
+        "question": "ਜੇ ਰੱਬ ਧਰਮੀ ਹੈ, ਤਾਂ ਦੁੱਖ ਕਿਉਂ ਹੈ?",
+        "answer": [
+          "ਇਹ ਜੀਵਨ ਇੱਕ ਇਮਤਿਹਾਨ ਹੈ, ਅਤੇ ਇੱਕ ਨਿਆਂਕਾਰ ਪ੍ਰਮਾਤਮਾ ਨਿਆਂ ਦੇ ਦਿਨ ਪੂਰਨ ਨਿਆਂ ਦੀ ਸਥਾਪਨਾ ਕਰੇਗਾ, ਜਿੱਥੇ ਕੋਈ ਵੀ ਗਲਤ ਨਹੀਂ ਹੋਵੇਗਾ.",
+          "ਤੁਰੰਤ ਜਵਾਬ ਦੇਣ ਦੀ ਬਜਾਏ ਵਿਅਕਤੀ ਦੇ ਦਰਦ ਨੂੰ ਇਮਾਨਦਾਰੀ ਅਤੇ ਨਰਮੀ ਨਾਲ ਸਵੀਕਾਰ ਕਰੋ।"
+        ],
+        "referenceIds": ["quran-67-2", "quran-2-155"]
+      }
+    ],
+    "misconceptions": [
+      {
+        "id": "m-sword",
+        "claim": "ਇਸਲਾਮ ਤਲਵਾਰ ਨਾਲ ਫੈਲਿਆ ਸੀ।",
+        "response": [
+          "ਕੁਰਾਨ ਸਪੱਸ਼ਟ ਹੈ ਕਿ ਵਿਸ਼ਵਾਸ ਨੂੰ ਮਜਬੂਰ ਨਹੀਂ ਕੀਤਾ ਜਾ ਸਕਦਾ - ਇਹ ਸੁਹਿਰਦ ਅਤੇ ਸੁਤੰਤਰ ਤੌਰ 'ਤੇ ਚੁਣਿਆ ਜਾਣਾ ਚਾਹੀਦਾ ਹੈ। ਸ਼ਾਂਤਮਈ ਅਤੇ ਬਚਾਅ ਪੱਖ ਤੋਂ ਬਿਨਾਂ ਜਵਾਬ ਦਿਓ।",
+          "ਵਿਸ਼ਵਾਸ ਨਾਲ ਇਸਲਾਮ ਧਾਰਨ ਕਰਨ ਵਾਲੇ ਭਾਈਚਾਰਿਆਂ ਦੇ ਲੰਬੇ ਇਤਿਹਾਸ ਵੱਲ ਨਰਮੀ ਨਾਲ ਇਸ਼ਾਰਾ ਕਰੋ, ਅਤੇ ਬਹਿਸ ਦੀ ਬਜਾਏ ਸੰਦੇਸ਼ 'ਤੇ ਧਿਆਨ ਕੇਂਦਰਿਤ ਕਰੋ।"
+        ],
+        "referenceIds": ["quran-2-256", "yaqeen-violence"]
+      },
+      {
+        "id": "m-different-god",
+        "claim": "ਮੁਸਲਮਾਨ ਇੱਕ ਵੱਖਰੇ ਰੱਬ ਦੀ ਪੂਜਾ ਕਰਦੇ ਹਨ।",
+        "response": [
+          "\"ਅੱਲ੍ਹਾ\" ਸਿਰਫ਼ ਇੱਕ ਰੱਬ ਲਈ ਅਰਬੀ ਸ਼ਬਦ ਹੈ - ਉਹੀ ਪਰਮੇਸ਼ੁਰ ਜਿਸਦੀ ਅਬਰਾਹਾਮ, ਮੂਸਾ ਅਤੇ ਯਿਸੂ ਦੁਆਰਾ ਪੂਜਾ ਕੀਤੀ ਜਾਂਦੀ ਹੈ। ਅਰਬੀ ਬੋਲਣ ਵਾਲੇ ਈਸਾਈ ਅਤੇ ਯਹੂਦੀ ਵੀ ਰੱਬ ਨੂੰ \"ਅੱਲ੍ਹਾ\" ਕਹਿੰਦੇ ਹਨ।",
+          "ਸੂਰਾ ਅਲ-ਇਖਲਾਸ ਇਸ ਸ਼ੁੱਧ ਵਿਸ਼ਵਾਸ ਦਾ ਸਾਰ ਦਿੰਦਾ ਹੈ: ਪ੍ਰਮਾਤਮਾ ਇੱਕ ਹੈ, ਸਦੀਵੀ ਹੈ, ਜਿਸਦਾ ਕੋਈ ਸਾਥੀ ਨਹੀਂ ਹੈ ਅਤੇ ਉਸ ਦੇ ਮੁਕਾਬਲੇ ਕੁਝ ਵੀ ਨਹੀਂ ਹੈ।"
+        ],
+        "referenceIds": ["quran-112-ikhlas"]
+      },
+      {
+        "id": "m-women",
+        "claim": "ਇਸਲਾਮ ਔਰਤਾਂ 'ਤੇ ਜ਼ੁਲਮ ਕਰਦਾ ਹੈ।",
+        "response": [
+          "ਗਰਮ ਬਹਿਸ ਤੋਂ ਬਚੋ। ਪਹਿਲਾਂ ਸੁਣੋ, ਸਵੀਕਾਰ ਕਰੋ ਕਿ ਸੱਭਿਆਚਾਰ ਅਤੇ ਧਰਮ ਅਕਸਰ ਉਲਝਣ ਵਿੱਚ ਹੁੰਦੇ ਹਨ, ਅਤੇ ਨੁਕਸਾਨਦੇਹ ਸੱਭਿਆਚਾਰਕ ਅਭਿਆਸਾਂ ਨੂੰ ਇਸਲਾਮੀ ਸਿੱਖਿਆ ਤੋਂ ਵੱਖ ਕਰਦੇ ਹਨ।",
+          "ਇਸਲਾਮ ਨੇ ਔਰਤਾਂ ਲਈ ਦਿੱਤੇ ਅਧਿਕਾਰਾਂ ਅਤੇ ਮਾਵਾਂ ਨੂੰ ਦਿੱਤੇ ਗਏ ਸਨਮਾਨ ਬਾਰੇ ਬੋਲੋ, ਅਤੇ ਆਪਣੇ ਖੁਦ ਦੇ ਸਤਿਕਾਰਯੋਗ ਚਰਿੱਤਰ ਨੂੰ ਬੋਲਣ ਦਿਓ।"
+        ],
+        "referenceIds": ["quran-33-35", "yaqeen-women"]
+      },
+      {
+        "id": "m-all-same",
+        "claim": "ਸਾਰੇ ਧਰਮ ਮੂਲ ਰੂਪ ਵਿੱਚ ਇੱਕੋ ਜਿਹੇ ਹਨ, ਤਾਂ ਫਿਰ ਕਿਉਂ ਬਦਲਿਆ ਜਾਵੇ?",
+        "response": [
+          "ਸਾਂਝੀਆਂ ਕਦਰਾਂ-ਕੀਮਤਾਂ ਦੀ ਪੁਸ਼ਟੀ ਕਰੋ - ਹਮਦਰਦੀ, ਨਿਆਂ, ਇਮਾਨਦਾਰੀ। ਫਿਰ ਹੌਲੀ-ਹੌਲੀ ਧਿਆਨ ਦਿਓ ਕਿ ਧਰਮ ਵੀ ਪਰਮੇਸ਼ੁਰ ਬਾਰੇ ਵੱਖਰੇ-ਵੱਖਰੇ ਦਾਅਵੇ ਕਰਦੇ ਹਨ, ਅਤੇ ਇਹ ਮਤਭੇਦ ਮਾਇਨੇ ਰੱਖਦੇ ਹਨ।",
+          "ਬਿਨਾਂ ਦਬਾਅ ਦੇ ਪ੍ਰਤੀਬਿੰਬ ਨੂੰ ਸੱਦਾ ਦਿਓ: ਟੀਚਾ ਇਮਾਨਦਾਰ ਵਿਸ਼ਵਾਸ ਹੈ, ਇੱਕ ਬਿੰਦੂ ਜਿੱਤਣਾ ਨਹੀਂ।"
+        ]
+      }
+    ],
+    "scenarios": [
+      {
+        "id": "s-atheist",
+        "audience": "ਨਾਸਤਿਕ ਜਾਂ ਅਗਿਆਨੀ",
+        "summary": "ਕੋਈ ਵਿਅਕਤੀ ਜੋ ਰੱਬ ਵਿੱਚ ਵਿਸ਼ਵਾਸ ਨਹੀਂ ਕਰਦਾ, ਜਾਂ ਅਨਿਸ਼ਚਿਤ ਹੈ।",
+        "approach": [
+          "ਰੱਬ ਦੀ ਹੋਂਦ ਅਤੇ ਸ੍ਰਿਸ਼ਟੀ ਦੀਆਂ ਨਿਸ਼ਾਨੀਆਂ ਦੇ ਸਵਾਲ ਨਾਲ ਸ਼ੁਰੂ ਕਰੋ।",
+          "ਖੁੱਲ੍ਹੇ ਸਵਾਲ ਪੁੱਛੋ ਅਤੇ ਉਨ੍ਹਾਂ ਦੇ ਤਰਕ ਨੂੰ ਸੱਚੇ ਦਿਲੋਂ ਸੁਣੋ।",
+          "ਟੋਨ ਨੂੰ ਉਤਸੁਕ ਅਤੇ ਨਿਮਰ ਰੱਖੋ, ਜੁਝਾਰੂ ਨਹੀਂ।"
+        ],
+        "watchFor": [
+          "ਪ੍ਰਤੀਬਿੰਬ ਨੂੰ ਜਿੱਤਣ ਲਈ ਇੱਕ ਦਲੀਲ ਵਿੱਚ ਬਦਲਣਾ।",
+          "ਬਹੁਤ ਜ਼ਿਆਦਾ ਆਤਮਵਿਸ਼ਵਾਸ ਵਾਲੇ ਦਾਰਸ਼ਨਿਕ ਦਾਅਵਿਆਂ ਦੀ ਤੁਸੀਂ ਵਿਆਖਿਆ ਨਹੀਂ ਕਰ ਸਕਦੇ।"
+        ],
+        "referenceIds": ["quran-52-35", "quran-16-125"]
+      },
+      {
+        "id": "s-christian",
+        "audience": "ਮਸੀਹੀ ਪਿਛੋਕੜ",
+        "summary": "ਕੋਈ ਵਿਅਕਤੀ ਜੋ ਪਹਿਲਾਂ ਹੀ ਪਰਮੇਸ਼ੁਰ ਅਤੇ ਯਿਸੂ ਨੂੰ ਪਿਆਰ ਕਰਦਾ ਹੈ, ਉਸ ਉੱਤੇ ਸ਼ਾਂਤੀ ਹੋਵੇ.",
+        "approach": [
+          "ਯਿਸੂ ਅਤੇ ਨਬੀਆਂ ਲਈ ਸਾਂਝੇ ਪਿਆਰ ਅਤੇ ਸਤਿਕਾਰ ਨਾਲ ਅਗਵਾਈ ਕਰੋ।",
+          "ਪਰਮੇਸ਼ੁਰ ਦੀ ਏਕਤਾ ਨੂੰ ਨਰਮੀ ਅਤੇ ਧਿਆਨ ਨਾਲ ਪੇਸ਼ ਕਰੋ।",
+          "ਭਾਵਨਾਤਮਕ ਭਾਰ ਦਾ ਸਨਮਾਨ ਕਰੋ ਜੋ ਇਹ ਵਿਸ਼ਾ ਲੈ ਸਕਦਾ ਹੈ."
+        ],
+        "watchFor": [
+          "ਈਸਾਈ ਵਿਸ਼ਵਾਸਾਂ ਦਾ ਨਿਰਾਦਰ ਕਰਨਾ ਜਾਂ ਧਰਮ ਸ਼ਾਸਤਰ ਨੂੰ ਹਮਲਾਵਰ ਢੰਗ ਨਾਲ ਬਹਿਸ ਕਰਨਾ।",
+          "ਕਾਹਲੀ - ਗੱਲਬਾਤ ਨੂੰ ਨਿੱਘ ਅਤੇ ਸਮਾਂ ਦਿਓ।"
+        ],
+        "referenceIds": ["quran-3-45", "whyislam-jesus"]
+      },
+      {
+        "id": "s-spiritual-not-religious",
+        "audience": "ਅਧਿਆਤਮਿਕ ਪਰ ਧਾਰਮਿਕ ਨਹੀਂ",
+        "summary": "ਕੋਈ ਵਿਅਕਤੀ ਜੋ ਵਿਸ਼ਵਾਸ ਕਰਦਾ ਹੈ ਕਿ ਜੀਵਨ ਲਈ ਹੋਰ ਵੀ ਬਹੁਤ ਕੁਝ ਹੋ ਸਕਦਾ ਹੈ ਪਰ ਸੰਗਠਿਤ ਧਰਮ 'ਤੇ ਵਿਸ਼ਵਾਸ ਕਰਦਾ ਹੈ।",
+        "approach": [
+          "ਅਰਥ, ਇਲਾਜ ਜਾਂ ਕੁਨੈਕਸ਼ਨ ਲਈ ਉਹਨਾਂ ਦੀ ਇੱਛਾ ਨਾਲ ਸ਼ੁਰੂ ਕਰੋ।",
+          "ਇਸਲਾਮ ਨੂੰ ਇਕ ਸਿਰਜਣਹਾਰ ਦੀ ਸਿੱਧੀ ਪੂਜਾ ਵਜੋਂ ਸਮਝਾਓ, ਨਾ ਕਿ ਕਿਸੇ ਮਨੁੱਖੀ ਸੰਸਥਾ ਦੇ ਸਮਰਪਣ ਵਜੋਂ।",
+          "ਦਿਖਾਓ ਕਿ ਇਮਾਨਦਾਰੀ ਨੂੰ ਹਟਾਏ ਬਿਨਾਂ ਪ੍ਰਕਾਸ਼ ਕਿਵੇਂ ਅਧਿਆਤਮਿਕਤਾ ਨੂੰ ਰੂਪ ਦਿੰਦਾ ਹੈ।"
+        ],
+        "watchFor": [
+          "ਧਰਮ ਨਾਲ ਆਪਣੇ ਪੁਰਾਣੇ ਤਜ਼ਰਬਿਆਂ ਨੂੰ ਖਾਰਜ ਕਰਨਾ।",
+          "ਵਿਸ਼ਵਾਸ ਬਣਨ ਤੋਂ ਪਹਿਲਾਂ ਬਹੁਤ ਜ਼ਿਆਦਾ ਅੰਦਰੂਨੀ ਭਾਸ਼ਾ ਦੀ ਵਰਤੋਂ ਕਰਨਾ।"
+        ],
+        "referenceIds": ["quran-112-ikhlas", "quran-21-25"]
+      },
+      {
+        "id": "s-cultural-muslim",
+        "audience": "ਸੱਭਿਆਚਾਰਕ ਤੌਰ 'ਤੇ ਮੁਸਲਮਾਨ, ਅਮਲੀ ਨਹੀਂ",
+        "summary": "ਇਸਲਾਮ ਦੇ ਆਲੇ-ਦੁਆਲੇ ਕੋਈ ਅਜਿਹਾ ਵਿਅਕਤੀ ਖੜ੍ਹਾ ਹੋਇਆ ਜੋ ਇਸ ਤੋਂ ਵੱਖ ਮਹਿਸੂਸ ਕਰਦਾ ਹੈ।",
+        "approach": [
+          "ਉਹਨਾਂ ਨੂੰ ਅਭਿਆਸਾਂ ਦੇ ਪਿੱਛੇ ਅਰਥ ਅਤੇ ਸੁੰਦਰਤਾ ਨਾਲ ਦੁਬਾਰਾ ਜੁੜੋ।",
+          "ਅਤੀਤ ਬਾਰੇ ਨਿਰਣੇ ਤੋਂ ਬਚੋ; ਇੱਕ ਕੋਮਲ ਅਗਲੇ ਕਦਮ 'ਤੇ ਧਿਆਨ.",
+          "ਸਾਥੀ ਅਤੇ ਛੋਟੇ, ਪ੍ਰਾਪਤੀ ਯੋਗ ਉਤਸ਼ਾਹ ਦੀ ਪੇਸ਼ਕਸ਼ ਕਰੋ।"
+        ],
+        "watchFor": ["ਸ਼ਰਮਨਾਕ ਜਾਂ ਦੋਸ਼-ਟ੍ਰਿਪਿੰਗ, ਜੋ ਲੋਕਾਂ ਨੂੰ ਦੂਰ ਧੱਕਦਾ ਹੈ।"],
+        "referenceIds": ["new-muslim-academy"]
+      },
+      {
+        "id": "s-family-difficult-questions",
+        "audience": "ਪਰਿਵਾਰਕ ਮੈਂਬਰ ਔਖੇ ਸਵਾਲ ਪੁੱਛਦੇ ਹੋਏ",
+        "summary": "ਕੋਈ ਰਿਸ਼ਤੇਦਾਰ ਜਾਂ ਨਜ਼ਦੀਕੀ ਦੋਸਤ ਭਾਵਨਾ, ਡਰ, ਜਾਂ ਚੁਣੌਤੀਪੂਰਨ ਧਾਰਨਾਵਾਂ ਨਾਲ ਇਸਲਾਮ ਬਾਰੇ ਪੁੱਛਦਾ ਹੈ।",
+        "approach": [
+          "ਹਰ ਇਤਰਾਜ਼ ਦਾ ਜਵਾਬ ਦੇਣ ਦੀ ਕੋਸ਼ਿਸ਼ ਕਰਨ ਤੋਂ ਪਹਿਲਾਂ ਰਿਸ਼ਤੇ ਦੀ ਰੱਖਿਆ ਕਰੋ.",
+          "ਚਿੰਤਾ ਨੂੰ ਸਵੀਕਾਰ ਕਰੋ ਅਤੇ ਸ਼ਾਂਤੀ ਨਾਲ ਇੱਕ ਬਿੰਦੂ ਦਾ ਜਵਾਬ ਦਿਓ।",
+          "ਜੇ ਸਵਾਲ ਸੰਵੇਦਨਸ਼ੀਲ ਹੈ ਜਾਂ ਤੁਹਾਡੀ ਜਾਣਕਾਰੀ ਤੋਂ ਬਾਹਰ ਹੈ, ਤਾਂ ਕਿਸੇ ਇਮਾਮ ਜਾਂ ਸਲਾਹਕਾਰ ਨੂੰ ਇਕੱਠੇ ਪੁੱਛਣ ਦੀ ਪੇਸ਼ਕਸ਼ ਕਰੋ।"
+        ],
+        "watchFor": [
+          "ਪਰਿਵਾਰਕ ਦਬਾਅ ਤੁਹਾਨੂੰ ਅਨੁਮਾਨ ਲਗਾਉਣ ਵਿੱਚ ਧੱਕਦਾ ਹੈ।",
+          "ਲੈਕਚਰ ਨਾਲ ਭਾਵਨਾਤਮਕ ਦਰਦ ਦਾ ਜਵਾਬ ਦੇਣਾ।"
+        ],
+        "referenceIds": ["quran-16-125", "new-muslim-academy"]
+      },
+      {
+        "id": "s-not-ready",
+        "audience": "ਦਿਲਚਸਪੀ ਹੈ ਪਰ ਤਿਆਰ ਨਹੀਂ",
+        "summary": "ਕੋਈ ਵਿਅਕਤੀ ਇਸਲਾਮ ਲਈ ਖੁੱਲ੍ਹਾ ਹੈ ਜਿਸ ਨੂੰ ਹੋਰ ਸਮੇਂ ਦੀ ਲੋੜ ਹੈ।",
+        "approach": [
+          "ਉਨ੍ਹਾਂ ਨੂੰ ਭਰੋਸਾ ਦਿਵਾਓ ਕਿ ਕੋਈ ਕਾਹਲੀ ਨਹੀਂ ਹੈ ਅਤੇ ਕੋਈ ਦਬਾਅ ਨਹੀਂ ਹੈ।",
+          "ਭਰੋਸੇਮੰਦ ਸਰੋਤਾਂ ਦੀ ਪੇਸ਼ਕਸ਼ ਕਰੋ ਅਤੇ ਕਿਸੇ ਵੀ ਸਮੇਂ ਸਵਾਲਾਂ ਦੇ ਜਵਾਬ ਦਿਓ।",
+          "ਦੋਸਤੀ ਅਤੇ ਦਰਵਾਜ਼ੇ ਖੁੱਲੇ ਰੱਖੋ, ਅਤੇ ਉਨ੍ਹਾਂ ਲਈ ਦੁਆ ਕਰੋ."
+        ],
+        "watchFor": ["ਕੋਈ ਵੀ ਦਬਾਅ ਜੋ ਭਵਿੱਖ ਦੀ ਗੱਲਬਾਤ ਨੂੰ ਔਖਾ ਬਣਾਉਂਦਾ ਹੈ।"],
+        "referenceIds": ["quran-2-256", "quran-28-56"]
+      },
+      {
+        "id": "s-trauma-from-religion",
+        "audience": "ਧਰਮ ਤੋਂ ਸਦਮੇ ਵਾਲਾ ਵਿਅਕਤੀ",
+        "summary": "ਕਿਸੇ ਨੂੰ ਇਸਲਾਮ ਵਿੱਚ ਦਿਲਚਸਪੀ ਹੈ ਪਰ ਪਿਛਲੇ ਧਾਰਮਿਕ ਨੁਕਸਾਨ ਵਿਸ਼ਵਾਸ ਨੂੰ ਮੁਸ਼ਕਲ ਬਣਾ ਦਿੰਦਾ ਹੈ.",
+        "approach": [
+          "ਉਹਨਾਂ ਦਾ ਬਚਾਅ ਨਾ ਕਰੋ ਕਿ ਉਹਨਾਂ ਨੂੰ ਕਿਸ ਚੀਜ਼ ਨੇ ਨੁਕਸਾਨ ਪਹੁੰਚਾਇਆ ਹੈ ਜਾਂ ਸਪੱਸ਼ਟੀਕਰਨ ਵਿੱਚ ਕਾਹਲੀ ਨਾ ਕਰੋ।",
+          "ਕਿਸੇ ਵੀ ਧਾਰਮਿਕ ਨੂੰ ਸਾਂਝਾ ਕਰਨ ਤੋਂ ਪਹਿਲਾਂ ਇਜਾਜ਼ਤ ਮੰਗੋ, ਅਤੇ ਉਹਨਾਂ ਨੂੰ ਗਤੀ ਨਿਰਧਾਰਤ ਕਰਨ ਦਿਓ।",
+          "ਜੇਕਰ ਸਦਮਾ, ਘਬਰਾਹਟ, ਦੁਰਵਿਵਹਾਰ, ਜਾਂ ਸੰਕਟ ਮੌਜੂਦ ਹੈ ਤਾਂ ਇੱਕ ਸੁਰੱਖਿਅਤ, ਯੋਗ ਸਹਾਇਤਾ ਰੂਟ ਦੀ ਪੇਸ਼ਕਸ਼ ਕਰੋ।"
+        ],
+        "watchFor": [
+          "ਸਦਮੇ ਲਈ ਤੁਰੰਤ ਹੱਲ ਵਜੋਂ ਆਇਤਾਂ ਜਾਂ ਹਦੀਸ ਦੀ ਵਰਤੋਂ ਕਰਨਾ।",
+          "ਵਿਸ਼ਵਾਸ ਅਤੇ ਸੁਰੱਖਿਆ 'ਤੇ ਵਿਚਾਰ ਕੀਤੇ ਜਾਣ ਤੋਂ ਪਹਿਲਾਂ ਉਹਨਾਂ ਨੂੰ ਅਥਾਰਟੀ ਦੇ ਅੰਕੜਿਆਂ ਵੱਲ ਧੱਕਣਾ।",
+          "ਤੁਹਾਡੀ ਆਪਣੀ ਸਲਾਹ ਨਾਲ ਕਲੀਨਿਕਲ ਜਾਂ ਸੁਰੱਖਿਆ ਸਹਾਇਤਾ ਨੂੰ ਬਦਲਣ ਦੀ ਕੋਸ਼ਿਸ਼ ਕਰਨਾ।"
+        ],
+        "referenceIds": [
+          "quran-16-125",
+          "988-lifeline",
+          "canada-safety-planning"
+        ]
+      },
+      {
+        "id": "s-family-rejection",
+        "audience": "ਪਰਿਵਾਰਕ ਅਸਵੀਕਾਰਨ ਬਾਰੇ ਚਿੰਤਤ ਵਿਅਕਤੀ",
+        "summary": "ਕੋਈ ਵਿਅਕਤੀ ਪਰਿਵਾਰ, ਰਿਹਾਇਸ਼, ਕੰਮ ਦੀ ਸਹਾਇਤਾ, ਜਾਂ ਭਾਵਨਾਤਮਕ ਸੁਰੱਖਿਆ ਗੁਆਉਣ ਤੋਂ ਡਰਦਾ ਹੈ ਜੇਕਰ ਉਹ ਮੁਸਲਮਾਨ ਬਣ ਜਾਂਦਾ ਹੈ।",
+        "approach": [
+          "ਡਰ ਨੂੰ ਪ੍ਰਮਾਣਿਤ ਕਰੋ ਅਤੇ ਉਹਨਾਂ ਦੇ ਸੁਰੱਖਿਅਤ ਹੋਣ ਤੋਂ ਪਹਿਲਾਂ ਉਹਨਾਂ ਨੂੰ ਦੱਸਣ ਤੋਂ ਬਚੋ।",
+          "ਉਹਨਾਂ ਦੀ ਇਹ ਸੋਚਣ ਵਿੱਚ ਮਦਦ ਕਰੋ ਕਿ ਕੌਣ ਦੱਸਣਾ ਸੁਰੱਖਿਅਤ ਹੈ ਅਤੇ ਕਿਸ ਨੂੰ ਉਡੀਕ ਕਰਨੀ ਚਾਹੀਦੀ ਹੈ।",
+          "ਉਹਨਾਂ ਨੂੰ ਕਿਸੇ ਸਥਾਨਕ ਸਲਾਹਕਾਰ, ਇਮਾਮ, ਜਾਂ ਸੁਰੱਖਿਆ ਪੇਸ਼ੇਵਰ ਨਾਲ ਜੋੜੋ ਜੇਕਰ ਖੁਲਾਸਾ ਨੁਕਸਾਨ ਦਾ ਕਾਰਨ ਬਣ ਸਕਦਾ ਹੈ।"
+        ],
+        "watchFor": [
+          "ਗੁਪਤਤਾ ਨੂੰ ਕਮਜ਼ੋਰੀ ਸਮਝਣਾ ਜਦੋਂ ਅਸਲ ਜੋਖਮ ਹੋ ਸਕਦਾ ਹੈ।",
+          "ਜਨਤਕ ਸ਼ਹਾਦਾ, ਸੋਸ਼ਲ ਮੀਡੀਆ ਪੋਸਟ, ਜਾਂ ਤੁਰੰਤ ਪਰਿਵਾਰਕ ਘੋਸ਼ਣਾ 'ਤੇ ਦਬਾਅ ਪਾਉਣਾ।"
+        ],
+        "referenceIds": [
+          "quran-2-256",
+          "new-muslim-academy-family",
+          "canada-safety-planning"
+        ]
+      },
+      {
+        "id": "s-private-shahada",
+        "audience": "ਦਿਲਚਸਪੀ ਰੱਖਣ ਵਾਲਾ ਵਿਅਕਤੀ ਪਰ ਸ਼ਹਾਦਾ ਨੂੰ ਜਨਤਕ ਤੌਰ 'ਤੇ ਕਹਿਣ ਤੋਂ ਡਰਦਾ ਹੈ",
+        "summary": "ਕੋਈ ਵਿਅਕਤੀ ਦਿਲੋਂ ਵਿਸ਼ਵਾਸ ਕਰਦਾ ਹੈ ਪਰ ਲੋਕਾਂ ਦੇ ਧਿਆਨ, ਪਰਿਵਾਰਕ ਪ੍ਰਤੀਕਰਮ, ਜਾਂ ਰਿਕਾਰਡ ਕੀਤੇ ਜਾਣ ਤੋਂ ਡਰਦਾ ਹੈ।",
+        "approach": [
+          "ਉਨ੍ਹਾਂ ਨੂੰ ਭਰੋਸਾ ਦਿਵਾਓ ਕਿ ਦਬਾਅ ਅਤੇ ਜਨਤਕ ਪ੍ਰਦਰਸ਼ਨ ਟੀਚਾ ਨਹੀਂ ਹੈ।",
+          "ਉਹਨਾਂ ਨੂੰ ਕਿਸੇ ਭਰੋਸੇਮੰਦ ਇਮਾਮ ਜਾਂ ਯੋਗ ਸਲਾਹਕਾਰ ਨਾਲ ਨਿੱਜੀ ਤੌਰ 'ਤੇ ਜੋੜਨ ਦੀ ਪੇਸ਼ਕਸ਼ ਕਰੋ।",
+          "ਪੁੱਛੋ ਕਿ ਕੀ ਉਹ ਇੱਕ ਸ਼ਾਂਤ ਗਵਾਹ, ਇੱਕ ਨਿੱਜੀ ਗੱਲਬਾਤ, ਜਾਂ ਹੋਰ ਜਾਣਨ ਲਈ ਸਮਾਂ ਚਾਹੁੰਦੇ ਹਨ।"
+        ],
+        "watchFor": [
+          "ਬਿਨਾਂ ਸਪੱਸ਼ਟ ਆਗਿਆ ਦੇ ਉਹਨਾਂ ਦੇ ਸ਼ਾਹਦਾ ਨੂੰ ਰਿਕਾਰਡ ਕਰਨਾ ਜਾਂ ਸਾਂਝਾ ਕਰਨਾ।",
+          "ਜਨਤਕ ਘੋਸ਼ਣਾ ਕਰਨਾ ਮੁਸਲਮਾਨ ਬਣਨ ਦੀ ਸ਼ਰਤ ਵਾਂਗ ਹੈ।",
+          "ਪਰਿਵਾਰ ਜਾਂ ਭਾਈਚਾਰਕ ਪ੍ਰਤੀਕਰਮ ਦੇ ਆਲੇ ਦੁਆਲੇ ਸੁਰੱਖਿਆ ਚਿੰਤਾਵਾਂ ਨੂੰ ਨਜ਼ਰਅੰਦਾਜ਼ ਕਰਨਾ।"
+        ],
+        "referenceIds": [
+          "quran-2-256",
+          "whyislam-mosque-visit",
+          "seekersguidance-shahada-witnesses"
+        ]
+      },
+      {
+        "id": "s-women-in-islam",
+        "audience": "ਵਿਅਕਤੀ ਇਸਲਾਮ ਵਿੱਚ ਔਰਤਾਂ ਬਾਰੇ ਪੁੱਛਦਾ ਹੈ",
+        "summary": "ਕੋਈ ਇੱਜ਼ਤ, ਅਧਿਕਾਰ, ਨਿਮਰਤਾ, ਵਿਆਹ, ਤਲਾਕ, ਸੰਸਕ੍ਰਿਤੀ ਜਾਂ ਔਰਤਾਂ ਦੇ ਨੁਕਸਾਨ ਬਾਰੇ ਪੁੱਛਦਾ ਹੈ।",
+        "approach": [
+          "ਪਹਿਲਾਂ ਸੁਣੋ; ਸਵਾਲ ਨਿੱਜੀ ਦਰਦ ਤੋਂ ਆ ਸਕਦਾ ਹੈ, ਨਾ ਸਿਰਫ਼ ਉਤਸੁਕਤਾ ਤੋਂ।",
+          "ਇਸਲਾਮੀ ਸਿੱਖਿਆ ਨੂੰ ਨੁਕਸਾਨਦੇਹ ਸੱਭਿਆਚਾਰਕ ਅਭਿਆਸਾਂ ਅਤੇ ਅਸਲ ਦੁਰਵਿਵਹਾਰ ਤੋਂ ਵੱਖ ਕਰੋ।",
+          "ਭਰੋਸੇਯੋਗ ਸਰੋਤਾਂ ਦੀ ਵਰਤੋਂ ਕਰੋ ਅਤੇ ਯੋਗ ਮਦਦ ਲਈ ਵਿਸਤ੍ਰਿਤ ਵਿਆਹ, ਤਲਾਕ, ਵਿਰਾਸਤ, ਜਾਂ ਸੁਰੱਖਿਆ ਸਵਾਲਾਂ ਦਾ ਹਵਾਲਾ ਦਿਓ।"
+        ],
+        "watchFor": [
+          "ਜਿਉਂਦੇ ਤਜ਼ਰਬਿਆਂ ਨੂੰ ਖਾਰਜ ਕਰਨਾ ਜਾਂ ਨਾਅਰਿਆਂ ਨਾਲ ਜਵਾਬ ਦੇਣਾ।",
+          "ਨਿੱਜੀ ਕਾਨੂੰਨੀ, ਵਿਆਹ, ਤਲਾਕ, ਜਾਂ ਦੁਰਵਿਵਹਾਰ ਦੀਆਂ ਸਥਿਤੀਆਂ ਬਾਰੇ ਅਨੁਮਾਨ ਲਗਾਉਣਾ।",
+          "ਗੱਲਬਾਤ ਨੂੰ ਲਿੰਗ-ਯੁੱਧ ਬਹਿਸ ਵਿੱਚ ਬਦਲਣਾ."
+        ],
+        "referenceIds": [
+          "quran-33-35",
+          "yaqeen-women",
+          "canada-safety-planning"
+        ]
+      },
+      {
+        "id": "s-suffering",
+        "audience": "ਬੰਦਾ ਦੁੱਖਾਂ ਬਾਰੇ ਪੁੱਛਦਾ ਹੈ",
+        "summary": "ਕੋਈ ਪੁੱਛਦਾ ਹੈ ਕਿ ਧਰਮੀ ਅਤੇ ਦਿਆਲੂ ਪਰਮੇਸ਼ੁਰ ਦੁੱਖ, ਸੋਗ, ਜ਼ੁਲਮ, ਜਾਂ ਨਿੱਜੀ ਨੁਕਸਾਨ ਦੀ ਇਜਾਜ਼ਤ ਕਿਉਂ ਦਿੰਦਾ ਹੈ।",
+        "approach": [
+          "ਜਵਾਬ ਦੇਣ ਤੋਂ ਪਹਿਲਾਂ ਦਰਦ ਨੂੰ ਸਵੀਕਾਰ ਕਰੋ।",
+          "ਨਰਮੀ ਨਾਲ ਸਮਝਾਓ ਕਿ ਇਸਲਾਮ ਸਿਖਾਉਂਦਾ ਹੈ ਕਿ ਜੀਵਨ ਇੱਕ ਪ੍ਰੀਖਿਆ ਹੈ ਅਤੇ ਅੰਤਮ ਨਿਆਂ ਅੱਲ੍ਹਾ ਦਾ ਹੈ।",
+          "ਜੇ ਦਰਦ ਤੁਰੰਤ ਜਾਂ ਦੁਖਦਾਈ ਹੈ, ਤਾਂ ਯੋਗ ਭਾਵਨਾਤਮਕ ਜਾਂ ਸੰਕਟ ਸਹਾਇਤਾ ਦਾ ਹਵਾਲਾ ਦਿਓ।"
+        ],
+        "watchFor": [
+          "ਜਦੋਂ ਵਿਅਕਤੀ ਸੋਗ ਕਰ ਰਿਹਾ ਹੋਵੇ ਤਾਂ ਸਾਫ਼-ਸੁਥਰਾ ਜਵਾਬ ਦੇਣਾ।",
+          "ਸੁਣਨ ਦੀ ਬਜਾਏ ਬਹਿਸ ਕਰਨੀ।",
+          "ਸੰਕਟ, ਸਵੈ-ਨੁਕਸਾਨ, ਜਾਂ ਅਸੁਰੱਖਿਅਤ ਅਲੱਗ-ਥਲੱਗ ਹੋਣ ਦੇ ਲੱਛਣਾਂ ਦੀ ਘਾਟ।"
+        ],
+        "referenceIds": ["quran-67-2", "quran-2-155", "988-lifeline"]
+      },
+      {
+        "id": "s-violence-media-narratives",
+        "audience": "ਵਿਅਕਤੀ ਹਿੰਸਾ ਜਾਂ ਮੀਡੀਆ ਦੇ ਬਿਰਤਾਂਤ ਬਾਰੇ ਪੁੱਛਦਾ ਹੈ",
+        "summary": "ਕੋਈ ਪੁੱਛਦਾ ਹੈ ਕਿ ਕੀ ਇਸਲਾਮ ਹਿੰਸਾ, ਅੱਤਵਾਦ, ਜਬਰੀ ਧਰਮ ਪਰਿਵਰਤਨ, ਜਾਂ ਦੂਜਿਆਂ ਪ੍ਰਤੀ ਦੁਸ਼ਮਣੀ ਨੂੰ ਉਤਸ਼ਾਹਿਤ ਕਰਦਾ ਹੈ।",
+        "approach": [
+          "ਸ਼ਾਂਤ ਰਹੋ ਅਤੇ ਰੱਖਿਆਤਮਕ ਨਾ ਬਣੋ।",
+          "ਸਪੱਸ਼ਟ ਕਰੋ ਕਿ ਵਿਸ਼ਵਾਸ ਨੂੰ ਜ਼ਬਰਦਸਤੀ ਨਹੀਂ ਕੀਤਾ ਜਾ ਸਕਦਾ ਅਤੇ ਇਸਲਾਮ ਜੀਵਨ ਦੀ ਪਵਿੱਤਰਤਾ ਨੂੰ ਬਰਕਰਾਰ ਰੱਖਦਾ ਹੈ।",
+          "ਜਹਾਦ, ਯੁੱਧ ਅਤੇ ਰਾਜਨੀਤਿਕ ਹਿੰਸਾ ਵਰਗੇ ਗੁੰਝਲਦਾਰ ਸ਼ਬਦਾਂ ਲਈ ਭਰੋਸੇਯੋਗ, ਸਮੀਖਿਆ ਕੀਤੇ ਸਰੋਤਾਂ ਦੀ ਵਰਤੋਂ ਕਰੋ।"
+        ],
+        "watchFor": [
+          "ਹਰ ਭੂ-ਰਾਜਨੀਤਿਕ ਮੁੱਦੇ ਦਾ ਇੱਕੋ ਵਾਰ ਜਵਾਬ ਦੇਣ ਦੀ ਕੋਸ਼ਿਸ਼ ਕੀਤੀ ਜਾ ਰਹੀ ਹੈ।",
+          "ਕਮਜ਼ੋਰ ਮੁਆਫ਼ੀ ਮੰਗਣ ਵਾਲੇ ਦਾਅਵਿਆਂ ਨੂੰ ਸਾਂਝਾ ਕਰਨਾ ਜਿਨ੍ਹਾਂ ਦਾ ਤੁਸੀਂ ਸਮਰਥਨ ਨਹੀਂ ਕਰ ਸਕਦੇ।",
+          "ਕਿਸੇ ਅਜਿਹੇ ਵਿਅਕਤੀ ਨਾਲ ਬਹਿਸ ਕਰਨਾ ਜੋ ਸਿਰਫ ਜਨਤਕ ਲੜਾਈ ਚਾਹੁੰਦਾ ਹੈ।"
+        ],
+        "referenceIds": ["quran-2-256", "quran-5-32", "yaqeen-violence"]
+      }
+    ],
+    "duas": [
+      {
+        "id": "dua-ease",
+        "occasion": "before",
+        "title": "ਆਸਾਨੀ ਅਤੇ ਖੁੱਲ੍ਹੇ ਦਿਲ ਲਈ",
+        "arabic": "رَبِّ ٱشْرَحْ لِى صَدْرِى وَيَسِّرْ لِىٓ أَمْرِى",
+        "transliteration": "Rabbi-shraḥ lī ṣadrī wa yassir lī amrī",
+        "translation": "ਮੇਰੇ ਪ੍ਰਭੂ! ਮੇਰੇ ਲਈ ਮੇਰੇ ਦਿਲ ਨੂੰ ਉੱਚਾ ਕਰੋ, ਅਤੇ ਮੇਰੇ ਕੰਮ ਨੂੰ ਆਸਾਨ ਕਰੋ,",
+        "referenceId": "quran-20-25-26"
+      },
+      {
+        "id": "dua-sincerity",
+        "occasion": "before",
+        "title": "ਇਮਾਨਦਾਰੀ ਲਈ ਅਨਸੋਰਸਡ ਨਿੱਜੀ ਸ਼ਬਦ",
+        "translation": "ਗੈਰ-ਸਰੋਤ ਨਿੱਜੀ ਸ਼ਬਦ, ਇੱਕ ਪ੍ਰਸਾਰਿਤ ਦੁਆ ਨਹੀਂ: ਹੇ ਅੱਲ੍ਹਾ, ਮੇਰਾ ਇਰਾਦਾ ਸੱਚਾ ਬਣਾਉ ਅਤੇ ਸੱਚਾਈ ਅਤੇ ਪਿਆਰ ਨਾਲ ਬੋਲਣ ਵਿੱਚ ਮੇਰੀ ਮਦਦ ਕਰੋ।"
+      },
+      {
+        "id": "dua-guidance",
+        "occasion": "after",
+        "title": "ਗੱਲਬਾਤ ਤੋਂ ਬਾਅਦ ਅਨਸੋਰਸਡ ਨਿੱਜੀ ਸ਼ਬਦ",
+        "translation": "ਗੈਰ-ਸਰੋਤ ਨਿੱਜੀ ਸ਼ਬਦ, ਇੱਕ ਪ੍ਰਸਾਰਿਤ ਦੁਆ ਨਹੀਂ: ਹੇ ਅੱਲ੍ਹਾ, ਉਹਨਾਂ ਨੂੰ ਸੱਚੇ ਅਤੇ ਚੰਗੇ ਦੀ ਅਗਵਾਈ ਕਰੋ, ਅਤੇ ਮੈਨੂੰ ਨਿਮਰਤਾ ਵੱਲ ਸੇਧ ਦਿਓ."
+      },
+      {
+        "id": "dua-leave-results",
+        "occasion": "general",
+        "title": "ਮਾਰਗਦਰਸ਼ਨ ਨੂੰ ਯਾਦ ਕਰਨਾ ਅੱਲ੍ਹਾ ਦਾ ਹੈ",
+        "arabic": "إِنَّكَ لَا تَهْدِى مَنْ أَحْبَبْتَ وَلَٰكِنَّ ٱللَّهَ يَهْدِى مَن يَشَآءُ",
+        "translation": "ਤੁਸੀਂ ਨਿਸ਼ਚਤ ਤੌਰ 'ਤੇ ਜਿਸ ਨੂੰ ਚਾਹੋ ਮਾਰਗਦਰਸ਼ਨ ਨਹੀਂ ਕਰ ਸਕਦੇ, ਪਰ ਇਹ ਅੱਲ੍ਹਾ ਹੈ ਜੋ ਜਿਸ ਨੂੰ ਚਾਹੁੰਦਾ ਹੈ ਮਾਰਗ ਦਰਸ਼ਨ ਕਰਦਾ ਹੈ।",
+        "referenceId": "quran-28-56"
+      }
+    ],
+    "quickReference": {
+      "intro": "ਗੋਰਾਪ ਮਾਰਗ, ਗੱਲਬਾਤ ਦਾ ਪ੍ਰਵਾਹ, ਅਤੇ ਚੰਗੇ ਦਾਵਾ ਦੇ ਦਿਲ ਦੀ ਇੱਕ ਸੰਖੇਪ ਰੀਕੈਪ। ਗੱਲਬਾਤ ਤੋਂ ਪਹਿਲਾਂ ਜਾਂ ਗੱਲਬਾਤ ਦੌਰਾਨ ਇਸਨੂੰ ਰਿਫਰੈਸ਼ਰ ਵਜੋਂ ਵਰਤੋ।",
+      "points": [
+        "ਸਿਆਣਪ ਅਤੇ ਚੰਗੇ ਵਿਹਾਰ ਨਾਲ ਸੱਦਾ ਦਿਓ; ਕਦੇ ਦਬਾਅ ਨਹੀਂ.",
+        "ਆਪਣੇ ਬੋਲਣ ਨਾਲੋਂ ਵੱਧ ਸੁਣੋ, ਅਤੇ ਇੱਕ ਵਾਰ ਵਿੱਚ ਇੱਕ ਸਵਾਲ ਪੁੱਛੋ।",
+        "ਡੂੰਘੇ ਜਾਣ ਤੋਂ ਪਹਿਲਾਂ ਇਜਾਜ਼ਤ ਮੰਗੋ, ਅਤੇ ਜਦੋਂ ਵਿਅਕਤੀ ਨੂੰ ਥਾਂ ਦੀ ਲੋੜ ਹੋਵੇ ਤਾਂ ਰੁਕੋ।",
+        "ਲੋਕਾਂ ਨੂੰ ਮਿਲੋ ਜਿੱਥੇ ਉਹ ਹਨ — ਅਸਲ ਗੱਲਬਾਤ ਰੇਖਿਕ ਨਹੀਂ ਹਨ।",
+        "ਦਰਵਾਜ਼ਾ ਖੁੱਲ੍ਹਾ ਰੱਖੋ ਭਾਵੇਂ ਗੱਲ ਸ਼ਾਹਦਾ ਤੋਂ ਬਿਨਾਂ ਮੁੱਕ ਜਾਵੇ।",
+        "ਦਿਲੋਂ ਦੁਆ ਕਰੋ ਅਤੇ ਨਤੀਜਾ ਅੱਲ੍ਹਾ 'ਤੇ ਛੱਡ ਦਿਓ।"
+      ]
+    }
+  }
+}

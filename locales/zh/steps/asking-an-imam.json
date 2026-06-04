@@ -1,0 +1,65 @@
+{
+  "id": "asking-an-imam",
+  "slug": "asking-an-imam",
+  "stageId": "month-3-6",
+  "title": "好好问问伊玛目或老师",
+  "whyMatters": "好的问题往往会得到更好的答案。学习如何询问伊玛目或合格的老师可以帮助您避免困惑，获得相关指导，并知道何时需要对事情进行个人审查。",
+  "exactActions": [
+    {
+      "text": "把情况写清楚",
+      "subSteps": [
+        "说明发生了什么、您需要做出什么决定以及您住在哪里。",
+        "如果重要的话，请提及最后期限、家庭压力、健康问题或财务细节。",
+        "忽略不影响问题的私人细节。"
+      ]
+    },
+    {
+      "text": "要求初学者优先",
+      "subSteps": [
+        "假设您是一名新穆斯林，需要采取实际的下一步行动。",
+        "询问什么是现在必须做的，什么可以等待。",
+        "询问是否存在您应该了解但没有深入细节的意见分歧。"
+      ]
+    },
+    {
+      "text": "在处理敏感问题之前先检查答案",
+      "subSteps": [
+        "婚姻、离婚、继承、天课、虐待、医疗问题和法律问题需要仔细审查。",
+        "不要依赖匿名评论来做出重大的人生决定。",
+        "如果出现医疗、法律或财务问题，请寻求专业帮助。"
+      ]
+    }
+  ],
+  "timeEstimate": "10-20 分钟准备一个清晰的问题",
+  "obstacles": [
+    {
+      "problem": "我觉得问基本问题很尴尬",
+      "solution": "基本问题正是老师对初学者的期望。明显的谦卑胜过沉默的困惑。"
+    },
+    {
+      "problem": "我收到了不同的答案",
+      "solution": "请老师解释什么适用于您的情况以及什么可以等待。如果需要，请询问了解您背景的合格的当地学者。"
+    }
+  ],
+  "tinyVersion": "写下：发生了什么，你需要决定什么，以及你是一个新穆斯林。",
+  "unlocksNext": "好的问题可以帮助您充满信心地学习，并避免按照不可靠的建议行事。",
+  "resourceIds": [
+    "seekers-guidance",
+    "new-muslim-academy",
+    "new-muslim-guide-icna"
+  ],
+  "relatedGlossaryIds": ["imam", "sunnah", "halal", "haram"],
+  "relatedTopicIds": [
+    "questions-and-doubts",
+    "masjid-and-community",
+    "new-muslim-basics"
+  ],
+  "gentleScripts": [
+    {
+      "title": "求新手解答",
+      "body": "我是一名新穆斯林，我正在努力正确地做到这一点，但又不会不知所措。针对我的情况，下一步的实际步骤是什么？可以等待什么？"
+    }
+  ],
+  "sourceIds": ["seekersguidance", "new-muslim-academy", "whyislam"],
+  "reviewStatus": "source-checked"
+}

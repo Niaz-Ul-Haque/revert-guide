@@ -1,0 +1,71 @@
+{
+  "id": "first-masjid-visit",
+  "slug": "first-masjid-visit",
+  "stageId": "week-1",
+  "title": "Make Your First Masjid Visit",
+  "whyMatters": "A masjid can give you prayer support, community, classes, and a place to ask real people for help. Your first visit does not need to be perfect; it just needs to be gentle and manageable.",
+  "exactActions": [
+    {
+      "text": "Choose a low-pressure time",
+      "subSteps": [
+        "A smaller daily prayer can feel easier than a crowded Friday prayer.",
+        "Check the masjid website or call ahead if you are unsure.",
+        "Ask whether they have new Muslim support or visitor help."
+      ]
+    },
+    {
+      "text": "Dress simply and modestly",
+      "subSteps": [
+        "Wear clean, loose clothing that covers your body comfortably.",
+        "Women can bring a scarf if they plan to enter the prayer area.",
+        "Do not panic if you are not dressed like everyone else."
+      ]
+    },
+    {
+      "text": "Follow basic etiquette",
+      "subSteps": [
+        "Remove your shoes where others remove theirs.",
+        "Keep your phone quiet.",
+        "If you are unsure where to go, ask someone near the entrance."
+      ]
+    },
+    {
+      "text": "Introduce yourself to one person",
+      "subSteps": [
+        "You can simply say you are a new Muslim and this is your first visit.",
+        "Ask who handles convert support or beginner classes.",
+        "Leave if you feel overwhelmed; you can return another day."
+      ]
+    }
+  ],
+  "timeEstimate": "30-60 minutes",
+  "obstacles": [
+    {
+      "problem": "I am afraid people will stare",
+      "solution": "Most people are focused on prayer. If someone notices you are new, many will be happy to help. You can also call ahead and ask someone to meet you."
+    },
+    {
+      "problem": "I do not know which entrance to use",
+      "solution": "Look for signs, follow the flow of people, or ask at the door. Some masjids have separate prayer areas; asking is normal."
+    }
+  ],
+  "tinyVersion": "Call or message one masjid and ask when a beginner can visit.",
+  "unlocksNext": "Your first visit makes Jumuah, classes, and mentorship easier to approach.",
+  "resourceIds": ["new-muslim-guide-icna", "whyislam", "new-muslim-guide-site"],
+  "relatedGlossaryIds": ["masjid", "imam", "salah", "ummah"],
+  "relatedTopicIds": ["masjid-and-community", "community", "new-muslim-basics"],
+  "commonQuestions": [
+    {
+      "problem": "Can I visit if I cannot pray properly yet?",
+      "solution": "Yes. You can observe, follow what you can, and ask for help. A masjid should be a place to learn, not only a place for people who already know everything."
+    }
+  ],
+  "gentleScripts": [
+    {
+      "title": "At the entrance",
+      "body": "Assalamu alaykum. I am a new Muslim and this is my first time here. Could you show me where to go?"
+    }
+  ],
+  "sourceIds": ["whyislam", "icna", "new-muslim-guide"],
+  "reviewStatus": "source-checked"
+}

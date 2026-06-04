@@ -1,51 +1,69 @@
 [
   {
     "id": "islamic-society-of-toronto-dundas",
-    "name": "Islamic Society of Toronto (Dundas)",
-    "address": "4 Thorncliffe Park Drive",
+    "name": "Islamic Society of Toronto - Masjid Darus Salaam",
+    "address": "20 Overlea Boulevard",
     "city": "Toronto",
     "stateProvince": "Ontario",
     "country": "Canada",
-    "postalCode": "M4H 1H1",
+    "postalCode": "M4H 1A4",
     "coordinates": {
-      "lat": 43.7035,
-      "lng": -79.3468
+      "lat": 43.7046555,
+      "lng": -79.3514705
     },
-    "phone": "(416) 467-6132",
-    "website": "https://www.isttoronto.com",
-    "notes": "Одна из крупнейших общин в Toronto. Предлагает образовательные программы и общественные услуги."
+    "phone": "(416) 467-0786",
+    "email": "info@islamicsocietyoftoronto.com",
+    "website": "https://www.islamicsocietyoftoronto.com/",
+    "notes": "Также известна как Масджид Дарус Салам. На официальном сайте перечислены ежедневные молитвы и программы исламского образования.",
+    "visitorNotes": "Воспользуйтесь официальным сайтом или свяжитесь с офисом перед посещением, поскольку время молитв, правила парковки и программы могут измениться.",
+    "jumuahNote": "На официальном сайте публикуются строки Джума и обновления времени молитвы; перед посещением подтвердите текущее расписание.",
+    "classSupportNote": "Официально перечисленные программы включают вечерние занятия по Корану, воскресное медресе, Хифз, Алим/Алима и основные изучения ислама.",
+    "parkingNote": "На официальном сайте есть специальное предупреждение о близлежащей частной парковке; перед поездкой проверьте текущие инструкции.",
+    "serviceIds": ["quran-classes", "weekend-school", "community-events"],
+    "sourceIds": ["masjid-ist-darus-salaam"],
+    "reviewStatus": "source-checked"
   },
   {
     "id": "taric-islamic-centre",
-    "name": "Toronto and Region Islamic Congregation (TARIC)",
-    "address": "7 Rondell Avenue",
+    "name": "TARIC Islamic Centre",
+    "address": "99 Beverly Hills Drive",
     "city": "North York",
     "stateProvince": "Ontario",
     "country": "Canada",
-    "postalCode": "M1K 2V4",
+    "postalCode": "M3L 1A2",
     "coordinates": {
-      "lat": 43.7615,
-      "lng": -79.3412
+      "lat": 43.7179655,
+      "lng": -79.5159803
     },
-    "phone": "(416) 312-0608",
-    "website": "https://www.taric.ca",
-    "notes": "Активная община с программами поддержки новообращённых, молодёжными группами и воскресной исламской школой."
+    "phone": "(416) 245-5675",
+    "email": "admin@taric.org",
+    "website": "https://taric.org/",
+    "notes": "Давно действующий исламский центр с расписанием общественных мероприятий и общественными программами.",
+    "visitorNotes": "Используйте официальный сайт или свяжитесь с центром, чтобы узнать текущее время Джума, мероприятия и поддержку посетителей.",
+    "classSupportNote": "В официальных материалах мероприятия перечислены семейные семинары, мероприятия Рамадана, праздник Ид, работа с населением и молодежные/семейные программы.",
+    "serviceIds": ["community-events", "youth-programs"],
+    "sourceIds": ["masjid-taric"],
+    "reviewStatus": "source-checked"
   },
   {
     "id": "masjid-toronto-adelaide",
-    "name": "Masjid Toronto (at Adelaide)",
+    "name": "Masjid Toronto (Dundas)",
     "address": "168 Dundas Street West",
     "city": "Toronto",
     "stateProvince": "Ontario",
     "country": "Canada",
-    "postalCode": "M5G 1C2",
+    "postalCode": "M5G 1C6",
     "coordinates": {
       "lat": 43.6536,
       "lng": -79.3849
     },
-    "phone": "(416) 644-0808",
-    "website": "https://www.masjidtoronto.com",
-    "notes": "Расположена в центре города, приветлива к новым мусульманам. Проводит занятия для новообращённых и пятничные хутбы на английском языке."
+    "phone": "(416) 596-0507",
+    "website": "https://centres.macnet.ca/masjidtoronto/venue/toronto-dundas/",
+    "notes": "Мечеть в центре города, которой управляет MAC Masjid Toronto. Эта запись теперь соответствует адресу места проведения Дандаса.",
+    "visitorNotes": "В центре города вокруг Джумуа может быть многолюдно. Перед посещением подтвердите текущее время и информацию о входе.",
+    "jumuahNote": "Используйте официальный сайт Масджид Торонто для получения информации о текущей молитве и Джумуа.",
+    "sourceIds": ["masjid-toronto-dundas"],
+    "reviewStatus": "source-checked"
   },
   {
     "id": "islamic-foundation-of-toronto",
@@ -60,56 +78,88 @@
       "lng": -79.2636
     },
     "phone": "(416) 321-0909",
-    "website": "https://www.islamicfoundation.ca",
-    "notes": "Большой комплекс с дневной школой, программами выходного дня и приветливой атмосферой для новообращённых."
+    "email": "info@islamicfoundation.ca",
+    "website": "https://www.islamicfoundation.ca/",
+    "notes": "Большой общественный комплекс с богослужениями, образованием и общественными программами.",
+    "visitorNotes": "Подтвердите текущие программы, регистрацию на занятия и поддержку посетителей непосредственно перед посещением.",
+    "classSupportNote": "В официальных списках и списках, связанных с источниками, показаны образовательные программы, такие как Hifz, воскресная школа и общественные работы.",
+    "serviceIds": ["quran-classes", "weekend-school", "community-events"],
+    "sourceIds": ["masjid-islamic-foundation-toronto"],
+    "reviewStatus": "source-checked"
   },
   {
     "id": "khalid-bin-al-walid-mosque",
     "name": "Khalid Bin Al-Walid Mosque",
-    "address": "7 St. Dennis Drive",
+    "address": "16 Bethridge Road",
     "city": "Etobicoke",
     "stateProvince": "Ontario",
     "country": "Canada",
-    "postalCode": "M9A 1B5",
+    "postalCode": "M9W 1N1",
     "coordinates": {
-      "lat": 43.6568,
-      "lng": -79.5281
+      "lat": 43.7087605,
+      "lng": -79.5687599
     },
-    "phone": "(416) 652-3131",
-    "website": "https://www.kbwmosque.com",
-    "notes": "Обслуживает общину Etobicoke. Известна общественной деятельностью и межрелигиозным диалогом."
+    "phone": "(416) 745-2888",
+    "email": "info@khalidmosque.com",
+    "website": "https://www.khalidmosque.com/",
+    "notes": "Мечеть Этобико с официальной контактной информацией и обновлениями программ сообщества.",
+    "visitorNotes": "Перед посещением свяжитесь с офисом или проверьте официальный сайт; старые списки адресов могут быть устаревшими.",
+    "jumuahNote": "Уточняйте текущее время Джумуа и молитв непосредственно в мечети.",
+    "sourceIds": ["masjid-khalid-bin-al-walid"],
+    "reviewStatus": "source-checked"
   },
   {
     "id": "imdadul-islamic-centre",
     "name": "Imdadul Islamic Centre",
-    "address": "73 Chevington Road",
-    "city": "Scarborough",
+    "address": "26 Le Page Court",
+    "city": "North York",
     "stateProvince": "Ontario",
     "country": "Canada",
-    "postalCode": "M1K 2H5",
+    "postalCode": "M3J 1Z9",
     "coordinates": {
-      "lat": 43.7254,
-      "lng": -79.2597
+      "lat": 43.759028,
+      "lng": -79.4869955
     },
-    "phone": "(416) 265-7833",
-    "website": "https://www.imdadul.ca",
-    "notes": "Центр, ориентированный на общину, с регулярными занятиями, молодёжными программами и поддержкой новообращённых."
+    "phone": "(416) 636-0044",
+    "email": "imdaduljamat@gmail.com",
+    "website": "https://www.imdadulcentre.ca/",
+    "notes": "Общественная мечеть с программами поклонения, семьи, молодежи, волонтеров и информационно-пропагандистской деятельности.",
+    "visitorNotes": "Официальный сайт просит посетителей обращаться в мечеть с вопросами, поддержкой или участием.",
+    "jumuahNote": "На официальном сайте перечислены две молитвы Джума; перед посещением подтвердите текущее время.",
+    "classSupportNote": "В официальных описаниях упоминаются молитвенные службы, работа с населением, возможности волонтерства и семейные программы.",
+    "parkingNote": "Прибудьте пораньше в Джуму и сразу подтвердите инструкции по парковке.",
+    "serviceIds": ["community-events", "youth-programs"],
+    "sourceIds": ["masjid-imdadul-islamic-centre"],
+    "reviewStatus": "source-checked"
   },
   {
     "id": "masjid-el-noor",
     "name": "Masjid El Noor",
-    "address": "123 Wynford Drive",
+    "address": "277 Scott Road",
     "city": "Toronto",
     "stateProvince": "Ontario",
     "country": "Canada",
-    "postalCode": "M3C 1K1",
+    "postalCode": "M6M 3V3",
     "coordinates": {
-      "lat": 43.7224,
-      "lng": -79.3381
+      "lat": 43.689655,
+      "lng": -79.4719435
     },
-    "phone": "(416) 382-0006",
-    "website": "https://www.masjidelnoor.com",
-    "notes": "Проводит ежедневные молитвы, уроки Корана и общественные мероприятия. Приветливая атмосфера для новичков в Исламе."
+    "phone": "(416) 658-6667",
+    "email": "info@masjidelnoor.ca",
+    "website": "https://masjidelnoor.ca/",
+    "notes": "Основана мечеть в Торонто с молитвами, занятиями и общественными службами.",
+    "visitorNotes": "На официальном сайте публикуются обновления Джумуа, парковки и программ; перед посещением подтвердите текущие детали.",
+    "womenSpaceNote": "На официальной странице описаны молитвенные залы для братьев и сестер.",
+    "accessibilityNote": "На официальной странице упоминаются пандусы и выделенные парковочные места.",
+    "jumuahNote": "На официальном сайте указана одна джума-молитва с лекцией на английском языке перед арабской хутбой; подтвердите текущее время.",
+    "classSupportNote": "Официально перечисленные программы включают «Вечерний мактааб» и обучение, связанное с Кораном.",
+    "parkingNote": "На официальном сайте публикуются инструкции по парковке только для Джумуа и просят посетителей не блокировать гидранты, пешеходные переходы или подъездные пути.",
+    "serviceIds": ["quran-classes", "community-events"],
+    "womenFriendly": true,
+    "parking": true,
+    "accessibility": true,
+    "sourceIds": ["masjid-el-noor"],
+    "reviewStatus": "source-checked"
   },
   {
     "id": "islamic-institute-of-toronto",
@@ -124,39 +174,63 @@
       "lng": -79.2141
     },
     "phone": "(416) 335-9173",
-    "website": "https://www.iit.ca",
-    "notes": "Комплексный центр исламского образования со школой, библиотекой и регулярными общественными программами."
+    "email": "iit@islam.ca",
+    "website": "https://islam.ca/contact-us/",
+    "notes": "Образовательный институт и общественный центр с официальными контактами и направлениями.",
+    "visitorNotes": "Используйте официальную страницу контактов, чтобы узнать текущие направления, информацию о классах и задать вопросы посетителям.",
+    "classSupportNote": "На официальном сайте ИИТ описан как некоммерческое образовательное учреждение и перечислены обновления программы и информационного бюллетеня.",
+    "serviceIds": ["quran-classes", "community-events"],
+    "sourceIds": ["masjid-islamic-institute-toronto"],
+    "reviewStatus": "source-checked"
   },
   {
     "id": "jami-mosque",
-    "name": "Jami Mosque",
+    "name": "Jami Mosque Toronto | ISNA Canada",
     "address": "56 Boustead Avenue",
     "city": "Toronto",
     "stateProvince": "Ontario",
     "country": "Canada",
-    "postalCode": "M6R 1Z1",
+    "postalCode": "M6R 1Y9",
     "coordinates": {
       "lat": 43.6474,
       "lng": -79.4446
     },
     "phone": "(416) 769-1192",
-    "notes": "Старейшая мечеть в Toronto, основана в 1968 году. Историческое и уютное общинное пространство."
+    "website": "https://www.isnacanada.com/locations/jami-mosque-toronto",
+    "notes": "Историческая мечеть Торонто теперь внесена в список ISNA Canada.",
+    "visitorNotes": "Перед посещением подтвердите текущие часы, время Джума и доступ к мероприятиям через ISNA Canada.",
+    "sourceIds": ["masjid-jami-mosque-isna"],
+    "reviewStatus": "source-checked"
   },
   {
     "id": "abu-huraira-center",
     "name": "Abu Huraira Center",
-    "address": "100 McLevin Avenue",
-    "city": "Scarborough",
+    "address": "270 Yorkland Boulevard",
+    "city": "North York",
     "stateProvince": "Ontario",
     "country": "Canada",
-    "postalCode": "M1B 2V5",
+    "postalCode": "M2J 5C9",
     "coordinates": {
-      "lat": 43.8053,
-      "lng": -79.2003
+      "lat": 43.77282,
+      "lng": -79.33454
     },
-    "phone": "(416) 335-8894",
-    "website": "https://www.abuhurairacenter.com",
-    "notes": "Активный центр сомалийско-канадской общины. Дружелюбен к новообращённым, с программами наставничества и обучения."
+    "phone": "(416) 752-1200",
+    "email": "info@abuhuraira.org",
+    "website": "https://www.abuhuraira.org/",
+    "notes": "Крупный общественный центр GTA с молитвенными, учебными, консультационными службами, молодежью и службами поддержки новых мусульман.",
+    "visitorNotes": "На официальном сайте перечислены программы и контактная информация; перед посещением подтвердите текущую поддержку посетителей и регистрацию на занятия.",
+    "newMuslimSupportNote": "На официальном сайте среди своих услуг указана поддержка «Новых мусульман».",
+    "classSupportNote": "Официально перечисленные программы включают образование, связанное с Кораном, школы выходного дня, Хифд, молодежь и регулярные халаки.",
+    "serviceIds": [
+      "quran-classes",
+      "community-events",
+      "new-muslim-support",
+      "youth-programs",
+      "weekend-school"
+    ],
+    "convertSupport": true,
+    "sourceIds": ["masjid-abu-huraira-center"],
+    "reviewStatus": "source-checked"
   },
   {
     "id": "baitul-mukarram-masjid",
@@ -171,7 +245,9 @@
       "lng": -79.5143
     },
     "phone": "(416) 744-1400",
-    "notes": "Мечеть бангладешской общины с регулярными образовательными и общественными программами."
+    "notes": "Местный список сохранен, но авторитетный онлайн-источник во время этого прохода найден не был.",
+    "visitorNotes": "Подтвердите адрес, время молитв и поддержку посетителей непосредственно перед посещением.",
+    "reviewStatus": "review-needed"
   },
   {
     "id": "isna-islamic-centre-of-canada",
@@ -186,7 +262,12 @@
       "lng": -79.6505
     },
     "phone": "(905) 403-8406",
-    "website": "https://www.isnacanada.com",
-    "notes": "Один из крупнейших исламских центров в Канаде. Проводит крупные мероприятия, программы для новообращённых, воскресную школу и межрелигиозную работу. Настоятельно рекомендуется для новых мусульман."
+    "website": "https://www.isnacanada.com/our-spaces/islamic-centre-of-canada/",
+    "notes": "Штаб-квартира ISNA Canada и местный общественный центр с помещениями для мусульман, молодежи, образования и проведения мероприятий.",
+    "visitorNotes": "Перед поездкой подтвердите текущее время молитв, занятия, доступ к мероприятиям и поддержку посетителей через ISNA Canada.",
+    "classSupportNote": "На официальной странице описан образовательный центр, молодежный центр, Мусалла и общественные места, которые можно забронировать.",
+    "serviceIds": ["quran-classes", "community-events", "youth-programs"],
+    "sourceIds": ["masjid-isna-islamic-centre-canada"],
+    "reviewStatus": "source-checked"
   }
 ]

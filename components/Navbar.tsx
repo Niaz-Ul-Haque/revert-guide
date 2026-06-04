@@ -145,6 +145,9 @@ export function Navbar() {
   const navItems: NavItem[] = [
     { href: localizeHref(locale, "/roadmap"), label: t("nav.roadmap") },
     { href: localizeHref(locale, "/topics"), label: t("nav.topics") },
+    ...(locale === "en"
+      ? [{ href: localizeHref(locale, "/guides"), label: t("nav.guides") }]
+      : []),
     { href: localizeHref(locale, "/glossary"), label: t("nav.glossary") },
     {
       href: localizeHref(locale, "/resources"),
@@ -172,6 +175,26 @@ export function Navbar() {
           href: localizeHref(locale, "/qibla"),
           label: t("nav.qibla"),
         },
+        ...(locale === "en"
+          ? [
+              {
+                href: localizeHref(locale, "/tools/wudu-ghusl"),
+                label: t("nav.wuduGhusl"),
+              },
+              {
+                href: localizeHref(locale, "/tools/salah-companion"),
+                label: t("nav.salahCompanion"),
+              },
+              {
+                href: localizeHref(locale, "/quran-starter"),
+                label: t("nav.quranStarter"),
+              },
+              {
+                href: localizeHref(locale, "/dua-dhikr"),
+                label: t("nav.duaDhikr"),
+              },
+            ]
+          : []),
         {
           href: localizeHref(locale, "/asma-al-husna"),
           label: t("nav.asmaAlHusna"),
@@ -234,6 +257,9 @@ export function Navbar() {
     { href: localizeHref(locale, "/"), label: t("nav.home") },
     { href: localizeHref(locale, "/roadmap"), label: t("nav.roadmap") },
     { href: localizeHref(locale, "/topics"), label: t("nav.topics") },
+    ...(locale === "en"
+      ? [{ href: localizeHref(locale, "/guides"), label: t("nav.guides") }]
+      : []),
     { href: localizeHref(locale, "/glossary"), label: t("nav.glossary") },
     { href: localizeHref(locale, "/resources"), label: t("nav.resources") },
     {
@@ -254,6 +280,26 @@ export function Navbar() {
       href: localizeHref(locale, "/qibla"),
       label: t("nav.qibla"),
     },
+    ...(locale === "en"
+      ? [
+          {
+            href: localizeHref(locale, "/tools/wudu-ghusl"),
+            label: t("nav.wuduGhusl"),
+          },
+          {
+            href: localizeHref(locale, "/tools/salah-companion"),
+            label: t("nav.salahCompanion"),
+          },
+          {
+            href: localizeHref(locale, "/quran-starter"),
+            label: t("nav.quranStarter"),
+          },
+          {
+            href: localizeHref(locale, "/dua-dhikr"),
+            label: t("nav.duaDhikr"),
+          },
+        ]
+      : []),
     {
       href: localizeHref(locale, "/asma-al-husna"),
       label: t("nav.asmaAlHusna"),

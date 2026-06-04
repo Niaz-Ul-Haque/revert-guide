@@ -1,0 +1,65 @@
+{
+  "id": "first-jumuah",
+  "slug": "first-jumuah",
+  "stageId": "week-1",
+  "title": "Asiste a tu oración del primer viernes",
+  "whyMatters": "Jumuah es la oración congregacional semanal de los viernes. Puede ser hermoso, pero también puede parecer abarrotado la primera vez. Saber qué esperar te ayuda a llegar con calma.",
+  "exactActions": [
+    {
+      "text": "Consulta la hora antes de ir",
+      "subSteps": [
+        "Los horarios de oración del viernes pueden diferir de los horarios diarios del Dhuhr.",
+        "Muchas mezquitas tienen múltiples servicios.",
+        "Confirmar estacionamiento, entrada y espacio para mujeres si corresponde."
+      ]
+    },
+    {
+      "text": "Llega temprano",
+      "subSteps": [
+        "Date tiempo para encontrar la entrada y la zona de zapatos.",
+        "Siéntate en silencio y escucha la khutbah.",
+        "Si llegas tarde, sigue a la congregación con calma."
+      ]
+    },
+    {
+      "text": "Sigue a la congregación",
+      "subSteps": [
+        "El imán da un sermón y luego dirige dos unidades de oración.",
+        "Puedes seguir los movimientos de las personas que te rodean.",
+        "Pregúntale a alguien después si te sentiste perdido."
+      ]
+    },
+    {
+      "text": "Haz una conexión antes de partir",
+      "subSteps": [
+        "Pregunta sobre nuevas clases de musulmán o un mentor.",
+        "Si está demasiado ocupado, envíe un correo electrónico más tarde.",
+        "No es necesario que se quede para una larga visita social."
+      ]
+    }
+  ],
+  "timeEstimate": "45-90 minutos, dependiendo de la mezquita",
+  "obstacles": [
+    {
+      "problem": "La multitud se siente abrumadora",
+      "solution": "Pruebe con una mezquita más pequeña, llegue más temprano o asista primero a una oración diaria más tranquila. No es necesario que su primer Jumuah sea su primera visita a una mezquita."
+    },
+    {
+      "problem": "no entiendo el sermón",
+      "solution": "Algunas khutbahs están total o parcialmente en otro idioma. Busque mezquitas con khutbahs en inglés o solicite un breve resumen después."
+    }
+  ],
+  "tinyVersion": "Encuentre el horario de oración del viernes en una mezquita y planee llegar 15 minutos antes.",
+  "unlocksNext": "Jumuah te brinda un ritmo semanal y un lugar natural para encontrar clases, mentores y comunidad.",
+  "resourceIds": ["learn-salah-guide", "new-muslim-guide-icna", "whyislam"],
+  "relatedGlossaryIds": ["jumuah", "masjid", "imam", "salah"],
+  "relatedTopicIds": ["masjid-and-community", "prayer", "community"],
+  "contextNotes": [
+    {
+      "title": "Trabajo o escuela",
+      "body": "Si la oración del viernes entra en conflicto con un horario, pregúntele a un imán local cómo manejar su situación y qué idioma de adaptación puede ser apropiado."
+    }
+  ],
+  "sourceIds": ["new-muslim-guide", "seekersguidance", "whyislam"],
+  "reviewStatus": "review-needed"
+}

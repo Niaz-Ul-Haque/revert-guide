@@ -50,6 +50,9 @@ export default function LocaleLayout({
           {t("common.skipToContent")}
         </a>
         <Navbar />
+        <div className="border-b border-amber-200 bg-amber-50 px-5 py-2 text-center text-sm text-amber-900">
+          {t("common.translationNotice")}
+        </div>
         <main id="main-content" className="flex-1">
           {children}
         </main>

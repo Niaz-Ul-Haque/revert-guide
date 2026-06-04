@@ -19,9 +19,9 @@
       "text": "Identificar fuentes confiables de conocimiento.",
       "subSteps": [
         "No todo el contenido islámico en línea es preciso o apropiado para su nivel. Busque fuentes verificadas.",
-        "Instituciones recomendadas: Instituto Yaqeen (artículos y videos basados en investigaciones), SeekersGuidance (cursos estructurados gratuitos), Bayyinah (centrado en el Corán y el árabe).",
+        "Instituciones recomendadas: Instituto Yaqeen (artículos y videos basados ​​en investigaciones), SeekersGuidance (cursos estructurados gratuitos), Bayyinah (centrado en el Corán y el árabe).",
         "Busque académicos y maestros calificados, equilibrados y compasivos.",
-        "Tenga cuidado con las cuentas de redes sociales que se centran en controversias o posiciones extremas; rara vez representan al Islam dominante.",
+        "Tenga cuidado con las cuentas de redes sociales que se centran en controversias o posiciones extremas: rara vez representan al Islam dominante.",
         "En caso de duda sobre una fuente, pídale su opinión a su imán o mentor."
       ]
     },
@@ -61,7 +61,7 @@
   "obstacles": [
     {
       "problem": "Encuentro información contradictoria y no sé en qué confiar",
-      "solution": "Ésta es una de las frustraciones más comunes para los nuevos musulmanes. El Islam tiene diversas escuelas de pensamiento (madhabs) y los eruditos pueden diferir en cuestiones secundarias. Centrarse primero en lo que se acordó: los pilares de la fe, los pilares del Islam, la ética fundamental. Para áreas de desacuerdo, siga un maestro o escuela de pensamiento de confianza en lugar de mezclar opiniones. Con el tiempo, desarrollará la capacidad de evaluar diferentes posiciones. Cuando esté confundido, pregúntele a su imán."
+      "solution": "Ésta es una de las frustraciones más comunes para los nuevos musulmanes. El Islam tiene diversas escuelas de pensamiento (madhabs) y los eruditos pueden diferir en cuestiones secundarias. Concéntrese primero en lo que se acordó: los pilares de la fe, los pilares del Islam, la ética fundamental. Para áreas de desacuerdo, siga un maestro o escuela de pensamiento de confianza en lugar de mezclar opiniones. Con el tiempo, desarrollará la capacidad de evaluar diferentes posiciones. Cuando esté confundido, pregúntele a su imán."
     },
     {
       "problem": "Me siento abrumado por lo mucho que hay que aprender.",
@@ -73,7 +73,7 @@
     },
     {
       "problem": "Me siento demasiado tímido para hacer preguntas.",
-      "solution": "El Profeta (la paz sea con él) dijo: \"La cura para la ignorancia es preguntar\". Tus preguntas no son tontas: son signos de un corazón sincero. Si preguntar en un grupo te resulta demasiado intimidante, acércate al profesor en privado después de la sesión. Escriba sus preguntas de antemano. Muchas plataformas en línea permiten preguntas anónimas. Recuerde que todo musulmán informado alguna vez estuvo exactamente donde usted está ahora."
+      "solution": "El Profeta (la paz sea con él) dijo: \"La cura para la ignorancia es preguntar\". Tus preguntas no son tontas: son señales de un corazón sincero. Si preguntar en un grupo te resulta demasiado intimidante, acércate al profesor en privado después de la sesión. Escriba sus preguntas de antemano. Muchas plataformas en línea permiten preguntas anónimas. Recuerde que todo musulmán informado alguna vez estuvo exactamente donde usted está ahora."
     },
     {
       "problem": "Me aburro o pierdo la motivación para estudiar",
@@ -83,11 +83,10 @@
   "tinyVersion": "Elija una fuente confiable (un libro, un curso o una clase semanal) y comprométase con ella. Incluso el aprendizaje pequeño y constante contribuye a una comprensión profunda con el tiempo.",
   "unlocksNext": "Con una base sólida de conocimiento y práctica, estará listo para aprender sobre los pilares restantes del Islam (el Zakat y el Hajj) y comenzar a pensar en sus objetivos a largo plazo como musulmán.",
   "resourceIds": [
-    "seekersguidance-courses",
-    "yaqeen-institute-articles",
-    "bayyinah-tv-subscription",
-    "new-muslim-reading-list",
-    "islamic-podcasts-list"
+    "seekers-guidance",
+    "yaqeen-institute",
+    "bayyinah-tv",
+    "new-muslim-academy"
   ],
   "relatedGlossaryIds": [
     "ilm",
@@ -99,5 +98,12 @@
     "seerah",
     "hadith"
   ],
-  "relatedTopicIds": ["beliefs", "community"]
+  "relatedTopicIds": [
+    "beliefs",
+    "community",
+    "questions-and-doubts",
+    "prophet-muhammad"
+  ],
+  "sourceIds": ["seekersguidance", "yaqeen-institute", "new-muslim-academy"],
+  "reviewStatus": "source-checked"
 }
