@@ -7,13 +7,8 @@ import { Icon } from "@/components/Icon";
 import { AnimateIn } from "@/components/AnimateIn";
 import { SourcesPanel } from "@/components/SourceTags";
 import { getSourcesByIds } from "@/lib/content";
-import { getLifeGuideBySlug, lifeGuides } from "@/lib/life-guides";
-import {
-  DEFAULT_LOCALE,
-  getTranslator,
-  localizeHref,
-  type Locale,
-} from "@/lib/i18n";
+import { getLifeGuideBySlug, getLifeGuides } from "@/lib/life-guides";
+import { getTranslator, localizeHref, type Locale } from "@/lib/i18n";
 
 function Paragraphs({ text }: { text: string }) {
   return (
@@ -32,8 +27,9 @@ export function generateStaticParams({
 }: {
   params: { locale: Locale };
 }) {
-  if (params.locale !== DEFAULT_LOCALE) return [];
-  return lifeGuides.map((guide) => ({ guideSlug: guide.slug }));
+  return getLifeGuides(params.locale).map((guide) => ({
+    guideSlug: guide.slug,
+  }));
 }
 
 export function generateMetadata({
@@ -42,11 +38,12 @@ export function generateMetadata({
   params: { locale: Locale; guideSlug: string };
 }) {
   const t = getTranslator(params.locale);
-  const guide = getLifeGuideBySlug(params.guideSlug);
+  const guide = getLifeGuideBySlug(params.guideSlug, params.locale);
+  const copy = t<{ notFoundTitle: string }>("pages.guides.detail");
   return {
     title: guide
       ? `${guide.title} - ${t("brand.name")}`
-      : `Guide Not Found - ${t("brand.name")}`,
+      : `${copy.notFoundTitle} - ${t("brand.name")}`,
     description: guide?.description,
   };
 }
@@ -57,12 +54,22 @@ export default function GuideDetailPage({
   params: { locale: Locale; guideSlug: string };
 }) {
   const locale = params.locale;
-  if (locale !== DEFAULT_LOCALE) notFound();
-
-  const guide = getLifeGuideBySlug(params.guideSlug);
+  const guide = getLifeGuideBySlug(params.guideSlug, locale);
   if (!guide) notFound();
 
   const t = getTranslator(locale);
+  const copy = t<{
+    indexTitle: string;
+    eyebrow: string;
+    startHere: string;
+    scriptsTitle: string;
+    situationsTitle: string;
+    relatedTitle: string;
+    qualifiedTitle: string;
+    qualifiedBody: string;
+    sourcesNote: string;
+    backLink: string;
+  }>("pages.guides.detail");
   const sources = getSourcesByIds(guide.sourceIds, locale);
 
   return (
@@ -71,7 +78,7 @@ export default function GuideDetailPage({
         items={[
           { label: t("nav.home"), href: localizeHref(locale, "/") },
           {
-            label: "Practical Life Guides",
+            label: copy.indexTitle,
             href: localizeHref(locale, "/guides"),
           },
           { label: guide.title },
@@ -82,7 +89,7 @@ export default function GuideDetailPage({
         <header className="mb-10">
           <p className="mb-3 inline-flex items-center gap-2 rounded-full bg-primary/10 px-3 py-1 text-xs font-semibold uppercase tracking-wider text-primary">
             <Icon name="file-text" size="sm" />
-            Practical guide
+            {copy.eyebrow}
           </p>
           <h1 className="mb-3 font-display text-3xl font-semibold tracking-tight text-textPrimary md:text-4xl">
             {guide.title}
@@ -102,7 +109,7 @@ export default function GuideDetailPage({
             id="start-here-heading"
             className="mb-4 mt-0 font-display text-2xl font-semibold tracking-tight text-textPrimary"
           >
-            Start Here
+            {copy.startHere}
           </h2>
           <ul className="mb-0 grid gap-3 pl-0 md:grid-cols-2">
             {guide.summary.map((item) => (
@@ -158,7 +165,7 @@ export default function GuideDetailPage({
             id="scripts-heading"
             className="mb-5 font-display text-2xl font-semibold tracking-tight text-textPrimary"
           >
-            Gentle Scripts
+            {copy.scriptsTitle}
           </h2>
           <div className="grid gap-4 md:grid-cols-3">
             {guide.scripts.map((script) => (
@@ -184,7 +191,7 @@ export default function GuideDetailPage({
             id="scenarios-heading"
             className="mb-5 font-display text-2xl font-semibold tracking-tight text-textPrimary"
           >
-            Common Situations
+            {copy.situationsTitle}
           </h2>
           <div className="flex flex-col gap-3">
             {guide.scenarios.map((scenario) => (
@@ -204,7 +211,7 @@ export default function GuideDetailPage({
             id="related-heading"
             className="mb-5 font-display text-2xl font-semibold tracking-tight text-textPrimary"
           >
-            Related Next Steps
+            {copy.relatedTitle}
           </h2>
           <div className="flex flex-wrap gap-2">
             {guide.relatedLinks.map((link) => (
@@ -230,14 +237,10 @@ export default function GuideDetailPage({
             id="disclaimer-heading"
             className="mb-2 mt-0 text-lg font-semibold text-textPrimary"
           >
-            When To Ask Someone Qualified
+            {copy.qualifiedTitle}
           </h2>
           <p className="mb-0 text-sm leading-relaxed text-textSecondary">
-            This guide is general education. If the issue affects safety,
-            marriage, family pressure, work or school rights, mental health,
-            finances, or a personal religious ruling, speak with a qualified
-            local imam, scholar, clinician, legal professional, or safety
-            service as appropriate.
+            {copy.qualifiedBody}
           </p>
         </section>
       </AnimateIn>
@@ -245,10 +248,7 @@ export default function GuideDetailPage({
       {sources.length > 0 && (
         <AnimateIn>
           <div className="mb-10">
-            <SourcesPanel
-              sources={sources}
-              note="These sources support the general guide framing. They do not replace personal advice from a qualified local professional or scholar."
-            />
+            <SourcesPanel sources={sources} note={copy.sourcesNote} />
           </div>
         </AnimateIn>
       )}
@@ -259,7 +259,7 @@ export default function GuideDetailPage({
           className="inline-flex items-center gap-2 text-sm font-semibold text-primary no-underline hover:text-primaryHover hover:underline"
         >
           <Icon name="chevron-right" size="sm" className="rotate-180" />
-          Back to all practical guides
+          {copy.backLink}
         </Link>
       </AnimateIn>
     </div>

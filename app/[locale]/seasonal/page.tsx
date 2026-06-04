@@ -1,23 +1,20 @@
-import { notFound } from "next/navigation";
 import Link from "next/link";
 import { Breadcrumb } from "@/components/Breadcrumb";
 import { Button } from "@/components/Button";
 import { Icon } from "@/components/Icon";
 import { AnimateIn } from "@/components/AnimateIn";
-import { seasonalGuides } from "@/lib/seasonal-guides";
-import {
-  DEFAULT_LOCALE,
-  getTranslator,
-  localizeHref,
-  type Locale,
-} from "@/lib/i18n";
+import { getSeasonalGuides } from "@/lib/seasonal-guides";
+import { getTranslator, localizeHref, type Locale } from "@/lib/i18n";
 
 export function generateMetadata({ params }: { params: { locale: Locale } }) {
   const t = getTranslator(params.locale);
+  const copy = t<{
+    metadataTitle: string;
+    metadataDescription: string;
+  }>("pages.seasonal.index");
   return {
-    title: `Seasonal Guides - ${t("brand.name")}`,
-    description:
-      "Beginner-friendly English guides for Islamic calendar basics, Ramadan, Eid, Muharram, Ashura, Dhul Hijjah, Hajj, Umrah, zakat, and charity.",
+    title: `${copy.metadataTitle} - ${t("brand.name")}`,
+    description: copy.metadataDescription,
   };
 }
 
@@ -27,20 +24,32 @@ export default function SeasonalGuidesPage({
   params: { locale: Locale };
 }) {
   const locale = params.locale;
-  if (locale !== DEFAULT_LOCALE) notFound();
-
   const t = getTranslator(locale);
+  const copy = t<{
+    title: string;
+    eyebrow: string;
+    subtitle: string;
+    startTitle: string;
+    openGuide: string;
+    disclaimerTitle: string;
+    disclaimerBody: string;
+    resourcesButton: string;
+    roadmapButton: string;
+    ramadanTitle: string;
+    ramadanDescription: string;
+    ramadanBadge: string;
+  }>("pages.seasonal.index");
   const href = (path: string) => localizeHref(locale, path);
+  const guides = getSeasonalGuides(locale);
 
   const guideCards = [
     {
-      title: "Ramadan Guide",
-      description:
-        "Fasting basics, first-fast help, Taraweeh, Laylat al-Qadr, and Eid preparation.",
+      title: copy.ramadanTitle,
+      description: copy.ramadanDescription,
       href: "/ramadan",
-      badge: "Expanded guide",
+      badge: copy.ramadanBadge,
     },
-    ...seasonalGuides.map((guide) => ({
+    ...guides.map((guide) => ({
       title: guide.title,
       description: guide.description,
       href: `/seasonal/${guide.slug}`,
@@ -53,7 +62,7 @@ export default function SeasonalGuidesPage({
       <Breadcrumb
         items={[
           { label: t("nav.home"), href: href("/") },
-          { label: "Seasonal Guides" },
+          { label: copy.title },
         ]}
       />
 
@@ -61,14 +70,13 @@ export default function SeasonalGuidesPage({
         <header className="mb-10 max-w-3xl">
           <p className="mb-3 inline-flex items-center gap-2 rounded-full bg-primary/10 px-3 py-1 text-xs font-semibold uppercase tracking-wider text-primary">
             <Icon name="star" size="sm" />
-            Seasonal worship and giving
+            {copy.eyebrow}
           </p>
           <h1 className="mb-4 font-display text-3xl font-semibold tracking-tight text-textPrimary md:text-4xl">
-            Seasonal Guides
+            {copy.title}
           </h1>
           <p className="mb-0 text-lg leading-relaxed text-textSecondary">
-            Simple, source-backed guides for the Islamic seasons that often
-            raise practical questions for new Muslims.
+            {copy.subtitle}
           </p>
         </header>
       </AnimateIn>
@@ -79,7 +87,7 @@ export default function SeasonalGuidesPage({
             id="seasonal-start-heading"
             className="mb-5 font-display text-2xl font-semibold tracking-tight text-textPrimary"
           >
-            Start With What Is Current
+            {copy.startTitle}
           </h2>
           <div className="grid gap-4 md:grid-cols-2">
             {guideCards.map((guide) => (
@@ -100,7 +108,7 @@ export default function SeasonalGuidesPage({
                   {guide.description}
                 </p>
                 <span className="inline-flex items-center gap-1.5 text-sm font-semibold text-primary">
-                  Open guide
+                  {copy.openGuide}
                   <Icon
                     name="chevron-right"
                     size="sm"
@@ -122,15 +130,10 @@ export default function SeasonalGuidesPage({
             id="seasonal-disclaimer-heading"
             className="mb-2 mt-0 text-lg font-semibold text-textPrimary"
           >
-            Personal Cases Need Qualified Review
+            {copy.disclaimerTitle}
           </h2>
           <p className="mb-0 text-sm leading-relaxed text-textSecondary">
-            Local calendar announcements, voluntary fasts, fasting exemptions,
-            fidyah, missed fasts, qurbani, Hajj travel, Umrah visas, zakat
-            calculations, and sensitive family or health situations can depend
-            on your exact context. Use these guides for orientation, then ask a
-            qualified local scholar, imam, trusted organization, clinician, or
-            official travel source as appropriate.
+            {copy.disclaimerBody}
           </p>
         </section>
       </AnimateIn>
@@ -138,13 +141,13 @@ export default function SeasonalGuidesPage({
       <AnimateIn>
         <div className="flex flex-wrap gap-3">
           <Button href={href("/resources")} variant="primary">
-            Browse resources
+            {copy.resourcesButton}
           </Button>
           <Button
             href={href("/roadmap/month-6-plus/zakat-hajj")}
             variant="outline"
           >
-            Zakat and Hajj roadmap step
+            {copy.roadmapButton}
             <Icon name="chevron-right" size="sm" />
           </Button>
         </div>

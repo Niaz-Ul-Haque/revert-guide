@@ -1,38 +1,43 @@
-import { notFound } from "next/navigation";
 import Link from "next/link";
 import { Breadcrumb } from "@/components/Breadcrumb";
 import { Button } from "@/components/Button";
 import { Icon } from "@/components/Icon";
 import { AnimateIn } from "@/components/AnimateIn";
-import { lifeGuides } from "@/lib/life-guides";
-import {
-  DEFAULT_LOCALE,
-  getTranslator,
-  localizeHref,
-  type Locale,
-} from "@/lib/i18n";
+import { getLifeGuides } from "@/lib/life-guides";
+import { getTranslator, localizeHref, type Locale } from "@/lib/i18n";
 
 export function generateMetadata({ params }: { params: { locale: Locale } }) {
   const t = getTranslator(params.locale);
+  const copy = t<{
+    metadataTitle: string;
+    metadataDescription: string;
+  }>("pages.guides.index");
   return {
-    title: `Practical Life Guides - ${t("brand.name")}`,
-    description:
-      "Practical English guides for family, masjid visits, work, school, relationships, belonging, halal living, modesty, and mentor support after Shahada.",
+    title: `${copy.metadataTitle} - ${t("brand.name")}`,
+    description: copy.metadataDescription,
   };
 }
 
 export default function GuidesPage({ params }: { params: { locale: Locale } }) {
   const locale = params.locale;
-  if (locale !== DEFAULT_LOCALE) notFound();
-
   const t = getTranslator(locale);
+  const copy = t<{
+    title: string;
+    eyebrow: string;
+    subtitle: string;
+    openGuide: string;
+    noteTitle: string;
+    noteBody: string;
+    roadmapButton: string;
+  }>("pages.guides.index");
+  const guides = getLifeGuides(locale);
 
   return (
     <div className="mx-auto max-w-5xl px-5 py-10">
       <Breadcrumb
         items={[
           { label: t("nav.home"), href: localizeHref(locale, "/") },
-          { label: "Practical Life Guides" },
+          { label: copy.title },
         ]}
       />
 
@@ -40,22 +45,19 @@ export default function GuidesPage({ params }: { params: { locale: Locale } }) {
         <header className="mb-10 max-w-3xl">
           <p className="mb-3 inline-flex items-center gap-2 rounded-full bg-primary/10 px-3 py-1 text-xs font-semibold uppercase tracking-wider text-primary">
             <Icon name="users" size="sm" />
-            Community, family, and daily life
+            {copy.eyebrow}
           </p>
           <h1 className="mb-4 font-display text-3xl font-semibold tracking-tight text-textPrimary md:text-4xl">
-            Practical Life Guides
+            {copy.title}
           </h1>
           <p className="mb-0 text-lg leading-relaxed text-textSecondary">
-            Short, practical guides for situations that happen outside worship
-            mechanics: family conversations, first masjid visits, work or
-            school, relationships, loneliness, halal living, modesty, mentor
-            support, identity, names, culture, and boundaries.
+            {copy.subtitle}
           </p>
         </header>
       </AnimateIn>
 
       <div className="grid gap-5 md:grid-cols-2" role="list">
-        {lifeGuides.map((guide, index) => (
+        {guides.map((guide, index) => (
           <AnimateIn key={guide.id} delay={index * 0.06}>
             <Link
               href={localizeHref(locale, `/guides/${guide.slug}`)}
@@ -81,7 +83,7 @@ export default function GuidesPage({ params }: { params: { locale: Locale } }) {
                 </div>
               </div>
               <span className="mt-auto inline-flex items-center gap-1.5 text-sm font-semibold text-primary">
-                Open guide
+                {copy.openGuide}
                 <Icon
                   name="chevron-right"
                   size="sm"
@@ -96,16 +98,13 @@ export default function GuidesPage({ params }: { params: { locale: Locale } }) {
       <AnimateIn>
         <section className="mt-10 rounded-2xl border border-primaryGreen/30 bg-surfaceElevated/50 p-6">
           <h2 className="mb-2 mt-0 text-lg font-semibold text-textPrimary">
-            Use These As Starting Points
+            {copy.noteTitle}
           </h2>
           <p className="mb-4 text-sm leading-relaxed text-textSecondary">
-            These guides are general education. For personal rulings, safety,
-            legal-adjacent issues, marriage, family pressure, or mental health
-            concerns, ask a qualified local imam, scholar, clinician, or
-            professional as appropriate.
+            {copy.noteBody}
           </p>
           <Button href={localizeHref(locale, "/roadmap")} variant="outline">
-            Return to the roadmap
+            {copy.roadmapButton}
           </Button>
         </section>
       </AnimateIn>

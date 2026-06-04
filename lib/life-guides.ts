@@ -1,3 +1,7 @@
+import fs from "fs";
+import path from "path";
+import { DEFAULT_LOCALE, type Locale } from "@/lib/i18n";
+
 export interface GuideSection {
   heading: string;
   body?: string;
@@ -1077,6 +1081,67 @@ export const lifeGuides: LifeGuide[] = [
   },
 ];
 
-export function getLifeGuideBySlug(slug: string) {
-  return lifeGuides.find((guide) => guide.slug === slug);
+type LifeGuideTranslation = Partial<Omit<LifeGuide, "id" | "slug">> &
+  Pick<LifeGuide, "id">;
+
+const localizedGuideCache = new Map<Locale, LifeGuide[]>();
+
+export function getLifeGuides(locale: Locale = DEFAULT_LOCALE): LifeGuide[] {
+  if (locale === DEFAULT_LOCALE) return lifeGuides;
+
+  const cached = localizedGuideCache.get(locale);
+  if (cached) return cached;
+
+  const translations = readLifeGuideTranslations(locale);
+  const localized = lifeGuides.map((guide) => {
+    const translated = translations.find((item) => item.id === guide.id);
+    return translated ? mergeLifeGuide(guide, translated) : guide;
+  });
+
+  localizedGuideCache.set(locale, localized);
+  return localized;
+}
+
+export function getLifeGuideBySlug(
+  slug: string,
+  locale: Locale = DEFAULT_LOCALE,
+) {
+  return getLifeGuides(locale).find((guide) => guide.slug === slug);
+}
+
+function readLifeGuideTranslations(locale: Locale): LifeGuideTranslation[] {
+  const filePath = path.join(
+    process.cwd(),
+    "locales",
+    locale,
+    "life-guides.json",
+  );
+
+  if (!fs.existsSync(filePath)) return [];
+
+  try {
+    const parsed = JSON.parse(fs.readFileSync(filePath, "utf8"));
+    return Array.isArray(parsed) ? parsed : [];
+  } catch {
+    return [];
+  }
+}
+
+function mergeLifeGuide(
+  guide: LifeGuide,
+  translation: LifeGuideTranslation,
+): LifeGuide {
+  return {
+    ...guide,
+    ...translation,
+    id: guide.id,
+    slug: guide.slug,
+    sourceIds: guide.sourceIds,
+    reviewStatus: guide.reviewStatus,
+    sections: translation.sections ?? guide.sections,
+    scripts: translation.scripts ?? guide.scripts,
+    scenarios: translation.scenarios ?? guide.scenarios,
+    relatedLinks: translation.relatedLinks ?? guide.relatedLinks,
+    summary: translation.summary ?? guide.summary,
+  };
 }

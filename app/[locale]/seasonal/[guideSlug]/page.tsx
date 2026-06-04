@@ -7,21 +7,20 @@ import { AnimateIn } from "@/components/AnimateIn";
 import { PrintButton } from "@/components/PrintButton";
 import { SourcesPanel } from "@/components/SourceTags";
 import { getSourcesByIds } from "@/lib/content";
-import { getSeasonalGuideBySlug, seasonalGuides } from "@/lib/seasonal-guides";
 import {
-  DEFAULT_LOCALE,
-  getTranslator,
-  localizeHref,
-  type Locale,
-} from "@/lib/i18n";
+  getSeasonalGuideBySlug,
+  getSeasonalGuides,
+} from "@/lib/seasonal-guides";
+import { getTranslator, localizeHref, type Locale } from "@/lib/i18n";
 
 export function generateStaticParams({
   params,
 }: {
   params: { locale: Locale };
 }) {
-  if (params.locale !== DEFAULT_LOCALE) return [];
-  return seasonalGuides.map((guide) => ({ guideSlug: guide.slug }));
+  return getSeasonalGuides(params.locale).map((guide) => ({
+    guideSlug: guide.slug,
+  }));
 }
 
 export function generateMetadata({
@@ -30,12 +29,13 @@ export function generateMetadata({
   params: { locale: Locale; guideSlug: string };
 }) {
   const t = getTranslator(params.locale);
-  const guide = getSeasonalGuideBySlug(params.guideSlug);
+  const guide = getSeasonalGuideBySlug(params.guideSlug, params.locale);
+  const copy = t<{ notFoundTitle: string }>("pages.seasonal.detail");
 
   return {
     title: guide
       ? `${guide.title} - ${t("brand.name")}`
-      : `Seasonal Guide Not Found - ${t("brand.name")}`,
+      : `${copy.notFoundTitle} - ${t("brand.name")}`,
     description: guide?.description,
   };
 }
@@ -66,12 +66,23 @@ export default function SeasonalGuideDetailPage({
   params: { locale: Locale; guideSlug: string };
 }) {
   const locale = params.locale;
-  if (locale !== DEFAULT_LOCALE) notFound();
-
-  const guide = getSeasonalGuideBySlug(params.guideSlug);
+  const guide = getSeasonalGuideBySlug(params.guideSlug, locale);
   if (!guide) notFound();
 
   const t = getTranslator(locale);
+  const copy = t<{
+    indexTitle: string;
+    allButton: string;
+    startHere: string;
+    focusNow: string;
+    canWait: string;
+    scriptsTitle: string;
+    qualifiedTitle: string;
+    qualifiedBody: string;
+    sourcesNote: string;
+    relatedTitle: string;
+    backLink: string;
+  }>("pages.seasonal.detail");
   const href = (path: string) => localizeHref(locale, path);
   const sources = getSourcesByIds(guide.sourceIds, locale);
 
@@ -80,7 +91,7 @@ export default function SeasonalGuideDetailPage({
       <Breadcrumb
         items={[
           { label: t("nav.home"), href: href("/") },
-          { label: "Seasonal Guides", href: href("/seasonal") },
+          { label: copy.indexTitle, href: href("/seasonal") },
           { label: guide.title },
         ]}
       />
@@ -100,7 +111,7 @@ export default function SeasonalGuideDetailPage({
           <div className="flex flex-wrap gap-3">
             <PrintButton />
             <Button href={href("/seasonal")} variant="outline">
-              All seasonal guides
+              {copy.allButton}
               <Icon name="chevron-right" size="sm" />
             </Button>
           </div>
@@ -113,7 +124,7 @@ export default function SeasonalGuideDetailPage({
             id="start-here-heading"
             className="mb-5 font-display text-2xl font-semibold tracking-tight text-textPrimary"
           >
-            Start Here
+            {copy.startHere}
           </h2>
           <div className="grid gap-4 md:grid-cols-2">
             {guide.summary.map((item) => (
@@ -141,7 +152,7 @@ export default function SeasonalGuideDetailPage({
               id="focus-now-heading"
               className="mb-4 mt-0 text-lg font-semibold text-textPrimary"
             >
-              What To Focus On Now
+              {copy.focusNow}
             </h2>
             <SimpleList items={guide.focusNow} />
           </section>
@@ -156,7 +167,7 @@ export default function SeasonalGuideDetailPage({
               id="can-wait-heading"
               className="mb-4 mt-0 text-lg font-semibold text-textPrimary"
             >
-              What Can Wait
+              {copy.canWait}
             </h2>
             <SimpleList items={guide.canWait} />
           </section>
@@ -188,7 +199,7 @@ export default function SeasonalGuideDetailPage({
             id="scripts-heading"
             className="mb-5 font-display text-2xl font-semibold tracking-tight text-textPrimary"
           >
-            Useful Scripts
+            {copy.scriptsTitle}
           </h2>
           <div className="grid gap-4 md:grid-cols-3">
             {guide.scripts.map((script) => (
@@ -217,13 +228,10 @@ export default function SeasonalGuideDetailPage({
             id="qualified-help-heading"
             className="mb-2 mt-0 text-lg font-semibold text-textPrimary"
           >
-            Ask Someone Qualified If
+            {copy.qualifiedTitle}
           </h2>
           <p className="mb-0 text-sm leading-relaxed text-textSecondary">
-            Your question involves illness, medication, pregnancy, menstruation,
-            hardship, travel, visas, qurbani, missed fasts, fidyah, zakat
-            calculations, debt, business assets, or family pressure. This guide
-            is general education, not a personalized ruling.
+            {copy.qualifiedBody}
           </p>
         </section>
       </AnimateIn>
@@ -231,10 +239,7 @@ export default function SeasonalGuideDetailPage({
       {sources.length > 0 && (
         <AnimateIn>
           <div className="mb-10">
-            <SourcesPanel
-              sources={sources}
-              note="These sources support the beginner framing on this page. Quran links are translations of meaning where English is shown, hadith links preserve collection references, and personal rulings still need qualified review."
-            />
+            <SourcesPanel sources={sources} note={copy.sourcesNote} />
           </div>
         </AnimateIn>
       )}
@@ -245,7 +250,7 @@ export default function SeasonalGuideDetailPage({
             id="related-heading"
             className="mb-5 font-display text-2xl font-semibold tracking-tight text-textPrimary"
           >
-            Related Next Steps
+            {copy.relatedTitle}
           </h2>
           <div className="flex flex-wrap gap-2">
             {guide.relatedLinks.map((link) => (
@@ -264,7 +269,7 @@ export default function SeasonalGuideDetailPage({
           className="inline-flex items-center gap-2 text-sm font-semibold text-primary no-underline hover:text-primaryHover hover:underline"
         >
           <Icon name="chevron-right" size="sm" className="rotate-180" />
-          Back to all seasonal guides
+          {copy.backLink}
         </Link>
       </AnimateIn>
     </div>
