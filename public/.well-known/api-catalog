@@ -1,0 +1,52 @@
+{
+  "linkset": [
+    {
+      "anchor": "https://www.revertguide.com/data/glossary.json",
+      "describedby": [
+        {
+          "href": "https://www.revertguide.com/.well-known/agent-skills/revert-guide-content/SKILL.md",
+          "type": "text/markdown"
+        }
+      ],
+      "service-doc": [
+        {
+          "href": "https://www.revertguide.com/en/glossary",
+          "type": "text/html",
+          "title": "Glossary of Islamic terms"
+        }
+      ]
+    },
+    {
+      "anchor": "https://www.revertguide.com/data/masjids.json",
+      "describedby": [
+        {
+          "href": "https://www.revertguide.com/.well-known/agent-skills/revert-guide-content/SKILL.md",
+          "type": "text/markdown"
+        }
+      ],
+      "service-doc": [
+        {
+          "href": "https://www.revertguide.com/en/resources/find-masjid",
+          "type": "text/html",
+          "title": "Toronto-area masjid finder"
+        }
+      ]
+    },
+    {
+      "anchor": "https://www.revertguide.com/data/resources.json",
+      "describedby": [
+        {
+          "href": "https://www.revertguide.com/.well-known/agent-skills/revert-guide-content/SKILL.md",
+          "type": "text/markdown"
+        }
+      ],
+      "service-doc": [
+        {
+          "href": "https://www.revertguide.com/en/resources",
+          "type": "text/html",
+          "title": "Curated resources for new Muslims"
+        }
+      ]
+    }
+  ]
+}

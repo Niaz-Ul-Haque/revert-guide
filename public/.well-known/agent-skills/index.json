@@ -1,0 +1,12 @@
+{
+  "$schema": "https://schemas.agentskills.io/discovery/0.2.0/schema.json",
+  "skills": [
+    {
+      "name": "revert-guide-content",
+      "type": "skill-md",
+      "description": "Access Revert Guide's structured content — the Islamic glossary, Toronto-area masjid directory, and curated resources — as static JSON, and navigate its localized guide pages.",
+      "url": "/.well-known/agent-skills/revert-guide-content/SKILL.md",
+      "digest": "sha256:47013da25705ee7ef8e85d13211a2f3404440507eefad58d8a39882d3ddccbc2"
+    }
+  ]
+}

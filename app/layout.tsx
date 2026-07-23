@@ -2,6 +2,7 @@ import type { Metadata, Viewport } from "next";
 import { Outfit, Fraunces, Amiri } from "next/font/google";
 import "leaflet/dist/leaflet.css";
 import en from "@/locales/en/ui.json";
+import { AgentTools } from "@/components/AgentTools";
 import { JsonLd } from "@/components/JsonLd";
 import { DEFAULT_OG_IMAGE, SITE_URL, languageAlternates } from "@/lib/site";
 import { SUPPORTED_LOCALES } from "@/lib/i18n";
@@ -122,6 +123,7 @@ export default function RootLayout({
     >
       <body className="flex min-h-screen flex-col font-sans">
         <JsonLd data={websiteJsonLd} />
+        <AgentTools />
         {children}
       </body>
     </html>
