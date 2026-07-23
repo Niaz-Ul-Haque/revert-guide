@@ -9,6 +9,9 @@ import { SourcesPanel } from "@/components/SourceTags";
 import { getSourcesByIds } from "@/lib/content";
 import { getLifeGuideBySlug, getLifeGuides } from "@/lib/life-guides";
 import { getTranslator, localizeHref, type Locale } from "@/lib/i18n";
+import { buildPageMetadata } from "@/lib/metadata";
+import { JsonLd, breadcrumbJsonLd } from "@/components/JsonLd";
+import { localeUrl } from "@/lib/site";
 
 function Paragraphs({ text }: { text: string }) {
   return (
@@ -40,12 +43,17 @@ export function generateMetadata({
   const t = getTranslator(params.locale);
   const guide = getLifeGuideBySlug(params.guideSlug, params.locale);
   const copy = t<{ notFoundTitle: string }>("pages.guides.detail");
-  return {
-    title: guide
-      ? `${guide.title} - ${t("brand.name")}`
-      : `${copy.notFoundTitle} - ${t("brand.name")}`,
-    description: guide?.description,
-  };
+  if (!guide) {
+    return { title: `${copy.notFoundTitle} - ${t("brand.name")}` };
+  }
+
+  return buildPageMetadata({
+    locale: params.locale,
+    title: `${guide.title} - ${t("brand.name")}`,
+    description: guide.description,
+    path: `/guides/${guide.slug}`,
+    ogType: "article",
+  });
 }
 
 export default function GuideDetailPage({
@@ -74,6 +82,16 @@ export default function GuideDetailPage({
 
   return (
     <div className="mx-auto max-w-4xl px-5 py-10">
+      <JsonLd
+        data={breadcrumbJsonLd([
+          { name: t("nav.home"), url: localeUrl(locale, "/") },
+          { name: copy.indexTitle, url: localeUrl(locale, "/guides") },
+          {
+            name: guide.title,
+            url: localeUrl(locale, `/guides/${guide.slug}`),
+          },
+        ])}
+      />
       <Breadcrumb
         items={[
           { label: t("nav.home"), href: localizeHref(locale, "/") },

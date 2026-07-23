@@ -4,7 +4,7 @@ import { type Locale } from "@/lib/i18n";
 import { getPageMetadata } from "@/lib/metadata";
 
 export function generateMetadata({ params }: { params: { locale: Locale } }) {
-  return getPageMetadata(params.locale, "glossary");
+  return getPageMetadata(params.locale, "glossary", "/glossary");
 }
 
 export default function GlossaryPage({

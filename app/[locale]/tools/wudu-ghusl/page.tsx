@@ -12,6 +12,7 @@ import {
   localizeHref,
   type Locale,
 } from "@/lib/i18n";
+import { buildPageMetadata } from "@/lib/metadata";
 
 interface PracticeStep {
   title: string;
@@ -130,11 +131,13 @@ const commonCorrections = [
 
 export function generateMetadata({ params }: { params: { locale: Locale } }) {
   const t = getTranslator(params.locale);
-  return {
+  return buildPageMetadata({
+    locale: params.locale,
     title: `Wudu and Ghusl Guide - ${t("brand.name")}`,
     description:
       "A beginner-friendly, print-friendly English guide to wudu, ghusl, common mistakes, and when to ask a qualified person.",
-  };
+    path: "/tools/wudu-ghusl",
+  });
 }
 
 function StepGrid({ steps }: { steps: PracticeStep[] }) {

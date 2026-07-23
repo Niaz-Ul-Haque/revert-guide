@@ -9,7 +9,7 @@ import {
 import { getPageMetadata } from "@/lib/metadata";
 
 export function generateMetadata({ params }: { params: { locale: Locale } }) {
-  return getPageMetadata(params.locale, "privacy");
+  return getPageMetadata(params.locale, "privacy", "/privacy");
 }
 
 export default function PrivacyPage({

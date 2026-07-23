@@ -109,7 +109,7 @@ const sourceGroups: {
 ];
 
 export function generateMetadata({ params }: { params: { locale: Locale } }) {
-  return getPageMetadata(params.locale, "sources");
+  return getPageMetadata(params.locale, "sources", "/sources");
 }
 
 export default function SourcesPage({

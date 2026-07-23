@@ -12,6 +12,7 @@ import {
   localizeHref,
   type Locale,
 } from "@/lib/i18n";
+import { buildPageMetadata } from "@/lib/metadata";
 
 interface ReadingPath {
   title: string;
@@ -222,11 +223,13 @@ const resourceLinks: ResourceLink[] = [
 
 export function generateMetadata({ params }: { params: { locale: Locale } }) {
   const t = getTranslator(params.locale);
-  return {
+  return buildPageMetadata({
+    locale: params.locale,
     title: `Quran Starter Path - ${t("brand.name")}`,
     description:
       "A beginner-friendly Quran starter path for reading, listening, translation boundaries, respectful handling, and a printable first-week plan.",
-  };
+    path: "/quran-starter",
+  });
 }
 
 function SimpleList({ items }: { items: string[] }) {

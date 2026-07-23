@@ -21,6 +21,9 @@ import {
   type Locale,
   type Messages,
 } from "@/lib/i18n";
+import { buildPageMetadata } from "@/lib/metadata";
+import { JsonLd, breadcrumbJsonLd } from "@/components/JsonLd";
+import { localeUrl } from "@/lib/site";
 
 function renderContent(content: string) {
   const parts = content.split(/(\*\*[^*]+\*\*)/g);
@@ -81,11 +84,17 @@ export function generateMetadata({
 }) {
   const topic = getTopicBySlug(params.topicSlug, params.locale);
   const t = getTranslator(params.locale);
-  return {
-    title: topic
-      ? `${topic.title} - ${t("brand.name")}`
-      : t("metadata.dynamic.topicNotFoundTitle"),
-  };
+  if (!topic) {
+    return { title: t("metadata.dynamic.topicNotFoundTitle") };
+  }
+
+  return buildPageMetadata({
+    locale: params.locale,
+    title: `${topic.title} - ${t("brand.name")}`,
+    description: topic.description,
+    path: `/topics/${topic.slug ?? topic.id}`,
+    ogType: "article",
+  });
 }
 
 export default function TopicPage({
@@ -119,6 +128,16 @@ export default function TopicPage({
 
   return (
     <div className="mx-auto max-w-4xl px-5 py-10">
+      <JsonLd
+        data={breadcrumbJsonLd([
+          { name: t("nav.home"), url: localeUrl(locale, "/") },
+          { name: t("nav.topics"), url: localeUrl(locale, "/topics") },
+          {
+            name: topic.title,
+            url: localeUrl(locale, `/topics/${topic.slug ?? topic.id}`),
+          },
+        ])}
+      />
       <Breadcrumb
         items={[
           { label: t("nav.home"), href: localizeHref(locale, "/") },

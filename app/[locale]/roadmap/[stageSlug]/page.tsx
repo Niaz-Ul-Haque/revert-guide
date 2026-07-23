@@ -18,6 +18,9 @@ import {
   type Locale,
   type Messages,
 } from "@/lib/i18n";
+import { buildPageMetadata } from "@/lib/metadata";
+import { JsonLd, breadcrumbJsonLd } from "@/components/JsonLd";
+import { localeUrl } from "@/lib/site";
 
 export function generateStaticParams({
   params,
@@ -34,11 +37,17 @@ export function generateMetadata({
 }) {
   const stage = getStageById(params.stageSlug, params.locale);
   const t = getTranslator(params.locale);
-  return {
-    title: stage
-      ? `${stage.title} - ${t("brand.name")}`
-      : t("metadata.dynamic.stageNotFoundTitle"),
-  };
+  if (!stage) {
+    return { title: t("metadata.dynamic.stageNotFoundTitle") };
+  }
+
+  return buildPageMetadata({
+    locale: params.locale,
+    title: `${stage.title} - ${t("brand.name")}`,
+    description: stage.description,
+    path: `/roadmap/${stage.id}`,
+    ogType: "article",
+  });
 }
 
 export default function StagePage({
@@ -71,6 +80,13 @@ export default function StagePage({
         aria-hidden="true"
       />
 
+      <JsonLd
+        data={breadcrumbJsonLd([
+          { name: t("nav.home"), url: localeUrl(locale, "/") },
+          { name: t("nav.roadmap"), url: localeUrl(locale, "/roadmap") },
+          { name: stage.title, url: localeUrl(locale, `/roadmap/${stage.id}`) },
+        ])}
+      />
       <Breadcrumb
         items={[
           { label: t("nav.home"), href: localizeHref(locale, "/") },

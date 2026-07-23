@@ -4,7 +4,7 @@ import { type Locale } from "@/lib/i18n";
 import { getPageMetadata } from "@/lib/metadata";
 
 export function generateMetadata({ params }: { params: { locale: Locale } }) {
-  return getPageMetadata(params.locale, "resources");
+  return getPageMetadata(params.locale, "resources", "/resources");
 }
 
 export default function ResourcesPage({

@@ -3,6 +3,7 @@ import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
 import { OfflineIndicator } from "@/components/OfflineIndicator";
 import { LocaleProvider } from "@/components/LocaleProvider";
+import { HtmlLocaleAttributes } from "@/components/HtmlLocaleAttributes";
 import { GlobalSearchProvider } from "@/components/GlobalSearchProvider";
 import { GlobalSearch } from "@/components/GlobalSearch";
 import {
@@ -45,6 +46,7 @@ export default function LocaleLayout({
 
   return (
     <LocaleProvider locale={params.locale} messages={messages}>
+      <HtmlLocaleAttributes locale={params.locale} />
       <GlobalSearchProvider>
         <a href="#main-content" className="skip-link">
           {t("common.skipToContent")}

@@ -10,7 +10,7 @@ import {
 import { getPageMetadata } from "@/lib/metadata";
 
 export function generateMetadata({ params }: { params: { locale: Locale } }) {
-  return getPageMetadata(params.locale, "about");
+  return getPageMetadata(params.locale, "about", "/about");
 }
 
 export default function AboutPage({ params }: { params: { locale: Locale } }) {

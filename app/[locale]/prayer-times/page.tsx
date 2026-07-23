@@ -7,7 +7,7 @@ import { getTranslator, localizeHref, type Locale } from "@/lib/i18n";
 import { getPageMetadata } from "@/lib/metadata";
 
 export function generateMetadata({ params }: { params: { locale: Locale } }) {
-  return getPageMetadata(params.locale, "prayerTimes");
+  return getPageMetadata(params.locale, "prayerTimes", "/prayer-times");
 }
 
 export default function PrayerTimesPage({

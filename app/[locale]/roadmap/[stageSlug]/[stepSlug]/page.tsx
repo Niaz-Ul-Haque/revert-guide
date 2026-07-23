@@ -24,6 +24,9 @@ import {
   type Locale,
   type Messages,
 } from "@/lib/i18n";
+import { buildPageMetadata } from "@/lib/metadata";
+import { JsonLd, breadcrumbJsonLd } from "@/components/JsonLd";
+import { localeUrl } from "@/lib/site";
 
 export function generateStaticParams({
   params,
@@ -44,15 +47,21 @@ export function generateStaticParams({
 export function generateMetadata({
   params,
 }: {
-  params: { locale: Locale; stepSlug: string };
+  params: { locale: Locale; stageSlug: string; stepSlug: string };
 }) {
   const step = getStepBySlug(params.stepSlug, params.locale);
   const t = getTranslator(params.locale);
-  return {
-    title: step
-      ? `${step.title} - ${t("brand.name")}`
-      : t("metadata.dynamic.stepNotFoundTitle"),
-  };
+  if (!step) {
+    return { title: t("metadata.dynamic.stepNotFoundTitle") };
+  }
+
+  return buildPageMetadata({
+    locale: params.locale,
+    title: `${step.title} - ${t("brand.name")}`,
+    description: step.whyMatters,
+    path: `/roadmap/${step.stageId}/${step.slug}`,
+    ogType: "article",
+  });
 }
 
 export default function StepPage({
@@ -101,6 +110,17 @@ export default function StepPage({
 
   return (
     <div className="mx-auto max-w-4xl px-5 py-10">
+      <JsonLd
+        data={breadcrumbJsonLd([
+          { name: t("nav.home"), url: localeUrl(locale, "/") },
+          { name: t("nav.roadmap"), url: localeUrl(locale, "/roadmap") },
+          { name: stage.title, url: localeUrl(locale, `/roadmap/${stage.id}`) },
+          {
+            name: step.title,
+            url: localeUrl(locale, `/roadmap/${stage.id}/${step.slug}`),
+          },
+        ])}
+      />
       <Breadcrumb
         items={[
           { label: t("nav.home"), href: localizeHref(locale, "/") },

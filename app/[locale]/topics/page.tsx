@@ -33,7 +33,7 @@ const topicIcons: Record<string, IconName> = {
 };
 
 export function generateMetadata({ params }: { params: { locale: Locale } }) {
-  return getPageMetadata(params.locale, "topics");
+  return getPageMetadata(params.locale, "topics", "/topics");
 }
 
 export default function TopicsPage({ params }: { params: { locale: Locale } }) {

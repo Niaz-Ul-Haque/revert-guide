@@ -12,6 +12,7 @@ import {
   localizeHref,
   type Locale,
 } from "@/lib/i18n";
+import { buildPageMetadata } from "@/lib/metadata";
 
 interface SequenceStep {
   title: string;
@@ -232,11 +233,13 @@ const commonCorrections = [
 
 export function generateMetadata({ params }: { params: { locale: Locale } }) {
   const t = getTranslator(params.locale);
-  return {
+  return buildPageMetadata({
+    locale: params.locale,
     title: `Salah Companion - ${t("brand.name")}`,
     description:
       "A beginner-friendly English salah companion for prayer shape, recitation support, common mistakes, and source-backed next steps.",
-  };
+    path: "/tools/salah-companion",
+  });
 }
 
 function SimpleList({ items }: { items: string[] }) {

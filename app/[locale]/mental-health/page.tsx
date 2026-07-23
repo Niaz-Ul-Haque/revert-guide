@@ -15,7 +15,7 @@ import {
 import { getPageMetadata } from "@/lib/metadata";
 
 export function generateMetadata({ params }: { params: { locale: Locale } }) {
-  return getPageMetadata(params.locale, "mentalHealth");
+  return getPageMetadata(params.locale, "mentalHealth", "/mental-health");
 }
 
 export default function MentalHealthPage({

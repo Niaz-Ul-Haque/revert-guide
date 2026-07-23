@@ -12,6 +12,7 @@ import {
   localizeHref,
   type Locale,
 } from "@/lib/i18n";
+import { buildPageMetadata } from "@/lib/metadata";
 
 type EntryKind = "Quranic dua" | "Hadith dua" | "Dhikr" | "Personal dua";
 
@@ -280,11 +281,13 @@ const sections: DuaSection[] = [
 
 export function generateMetadata({ params }: { params: { locale: Locale } }) {
   const t = getTranslator(params.locale);
-  return {
+  return buildPageMetadata({
+    locale: params.locale,
     title: `Dua and Dhikr Reference - ${t("brand.name")}`,
     description:
       "A beginner-friendly English reference for Quranic duas, hadith duas, dhikr phrases, and personal supplication boundaries.",
-  };
+    path: "/dua-dhikr",
+  });
 }
 
 function ArabicText({ text }: { text: string }) {

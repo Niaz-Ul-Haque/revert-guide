@@ -9,7 +9,7 @@ import {
 import { getPageMetadata } from "@/lib/metadata";
 
 export function generateMetadata({ params }: { params: { locale: Locale } }) {
-  return getPageMetadata(params.locale, "accessibility");
+  return getPageMetadata(params.locale, "accessibility", "/accessibility");
 }
 
 export default function AccessibilityPage({

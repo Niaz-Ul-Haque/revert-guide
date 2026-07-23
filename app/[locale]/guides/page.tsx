@@ -5,6 +5,7 @@ import { Icon } from "@/components/Icon";
 import { AnimateIn } from "@/components/AnimateIn";
 import { getLifeGuides } from "@/lib/life-guides";
 import { getTranslator, localizeHref, type Locale } from "@/lib/i18n";
+import { buildPageMetadata } from "@/lib/metadata";
 
 export function generateMetadata({ params }: { params: { locale: Locale } }) {
   const t = getTranslator(params.locale);
@@ -12,10 +13,12 @@ export function generateMetadata({ params }: { params: { locale: Locale } }) {
     metadataTitle: string;
     metadataDescription: string;
   }>("pages.guides.index");
-  return {
+  return buildPageMetadata({
+    locale: params.locale,
     title: `${copy.metadataTitle} - ${t("brand.name")}`,
     description: copy.metadataDescription,
-  };
+    path: "/guides",
+  });
 }
 
 export default function GuidesPage({ params }: { params: { locale: Locale } }) {

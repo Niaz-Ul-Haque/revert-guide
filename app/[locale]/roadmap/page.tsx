@@ -13,7 +13,7 @@ import {
 import { getPageMetadata } from "@/lib/metadata";
 
 export function generateMetadata({ params }: { params: { locale: Locale } }) {
-  return getPageMetadata(params.locale, "roadmap");
+  return getPageMetadata(params.locale, "roadmap", "/roadmap");
 }
 
 export default function RoadmapPage({

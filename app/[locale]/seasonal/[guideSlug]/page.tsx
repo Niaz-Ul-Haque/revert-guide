@@ -12,6 +12,9 @@ import {
   getSeasonalGuides,
 } from "@/lib/seasonal-guides";
 import { getTranslator, localizeHref, type Locale } from "@/lib/i18n";
+import { buildPageMetadata } from "@/lib/metadata";
+import { JsonLd, breadcrumbJsonLd } from "@/components/JsonLd";
+import { localeUrl } from "@/lib/site";
 
 export function generateStaticParams({
   params,
@@ -31,13 +34,17 @@ export function generateMetadata({
   const t = getTranslator(params.locale);
   const guide = getSeasonalGuideBySlug(params.guideSlug, params.locale);
   const copy = t<{ notFoundTitle: string }>("pages.seasonal.detail");
+  if (!guide) {
+    return { title: `${copy.notFoundTitle} - ${t("brand.name")}` };
+  }
 
-  return {
-    title: guide
-      ? `${guide.title} - ${t("brand.name")}`
-      : `${copy.notFoundTitle} - ${t("brand.name")}`,
-    description: guide?.description,
-  };
+  return buildPageMetadata({
+    locale: params.locale,
+    title: `${guide.title} - ${t("brand.name")}`,
+    description: guide.description,
+    path: `/seasonal/${guide.slug}`,
+    ogType: "article",
+  });
 }
 
 function SimpleList({ items }: { items: string[] }) {
@@ -88,6 +95,16 @@ export default function SeasonalGuideDetailPage({
 
   return (
     <div className="mx-auto max-w-5xl px-5 py-10">
+      <JsonLd
+        data={breadcrumbJsonLd([
+          { name: t("nav.home"), url: localeUrl(locale, "/") },
+          { name: copy.indexTitle, url: localeUrl(locale, "/seasonal") },
+          {
+            name: guide.title,
+            url: localeUrl(locale, `/seasonal/${guide.slug}`),
+          },
+        ])}
+      />
       <Breadcrumb
         items={[
           { label: t("nav.home"), href: href("/") },

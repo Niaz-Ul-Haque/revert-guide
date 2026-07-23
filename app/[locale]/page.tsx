@@ -12,7 +12,7 @@ import {
 import { getPageMetadata } from "@/lib/metadata";
 
 export function generateMetadata({ params }: { params: { locale: Locale } }) {
-  return getPageMetadata(params.locale, "home");
+  return getPageMetadata(params.locale, "home", "/");
 }
 
 export default function HomePage({ params }: { params: { locale: Locale } }) {

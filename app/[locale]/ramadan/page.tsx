@@ -108,7 +108,7 @@ const ramadanCareSections = [
 ];
 
 export function generateMetadata({ params }: { params: { locale: Locale } }) {
-  return getPageMetadata(params.locale, "ramadan");
+  return getPageMetadata(params.locale, "ramadan", "/ramadan");
 }
 
 export default function RamadanPage({
