@@ -1,40 +1,49 @@
-import { notFound } from "next/navigation";
 import { Breadcrumb } from "@/components/Breadcrumb";
 import { Button } from "@/components/Button";
-import { Icon, type IconName } from "@/components/Icon";
+import { Icon } from "@/components/Icon";
 import { AnimateIn } from "@/components/AnimateIn";
 import { PrintButton } from "@/components/PrintButton";
 import { SourceTags, SourcesPanel } from "@/components/SourceTags";
 import { getSourcesByIds } from "@/lib/content";
 import {
-  DEFAULT_LOCALE,
-  getTranslator,
-  localizeHref,
-  type Locale,
-} from "@/lib/i18n";
+  getQuranStarterContent,
+  type ReadingPath,
+  type ResourceLink,
+  type WeekDay,
+} from "@/lib/tool-content";
+import { getTranslator, localizeHref, type Locale } from "@/lib/i18n";
 import { buildPageMetadata } from "@/lib/metadata";
 
-interface ReadingPath {
+interface QuranStarterCopy {
+  metadataTitle: string;
+  metadataDescription: string;
+  eyebrow: string;
   title: string;
-  time: string;
-  body: string;
-  readings: string[];
-  sourceIds: string[];
-}
-
-interface WeekDay {
-  day: string;
-  title: string;
-  body: string;
-  sourceIds: string[];
-}
-
-interface ResourceLink {
-  title: string;
-  body: string;
-  href: string;
-  sourceIds: string[];
-  icon: IconName;
+  subtitle: string;
+  quranBreadcrumb: string;
+  quranTopicButton: string;
+  salahCompanionButton: string;
+  mattersMostTitle: string;
+  mattersMost: string[];
+  translationTitle: string;
+  translationBody: string;
+  vocabularyTitle: string;
+  readingPathsTitle: string;
+  readingPathsBody: string;
+  weekTitle: string;
+  weekBody: string;
+  listeningTitle: string;
+  listening: string[];
+  respectTitle: string;
+  respect: string[];
+  confusingTitle: string;
+  confusingVerse: { title: string; body: string }[];
+  resourcesTitle: string;
+  resourcesBody: string;
+  openResource: string;
+  sourcesNote: string;
+  roadmapButton: string;
+  duaDhikrButton: string;
 }
 
 const pageSourceIds = [
@@ -59,175 +68,13 @@ const pageSourceIds = [
   "yaqeen-institute",
 ];
 
-const vocabulary = [
-  {
-    term: "Arabic Quran",
-    body: "The revealed Arabic text. When this page links Quran verses, treat the Arabic as the Quran itself.",
-  },
-  {
-    term: "Translation of meaning",
-    body: "An English rendering that helps you understand, but is not the Arabic Quran itself.",
-  },
-  {
-    term: "Transliteration",
-    body: "Arabic sounds written with English letters. It can help practice, but a teacher or reliable reciter is better for pronunciation.",
-  },
-  {
-    term: "Tafsir",
-    body: "Scholarly explanation of Quran meanings, context, and lessons. Use it when a verse feels difficult or layered.",
-  },
-];
-
-const translationTips = [
-  "Choose a translation whose translator, publisher, and method are clear.",
-  "Prefer readable English with notes over anonymous PDFs, screenshots, or quote images.",
-  "Use more than one translation when studying, but do not let comparison become a source of anxiety.",
-  "Ask a qualified teacher when a verse affects belief, worship, family, safety, or a personal decision.",
-];
-
-const readingPaths: ReadingPath[] = [
-  {
-    title: "First sitting",
-    time: "10 to 20 minutes",
-    body: "Begin with short chapters that also support prayer learning. Read the meaning slowly, then listen once without trying to master pronunciation.",
-    readings: [
-      "Al-Fatiha, chapter 1",
-      "Al-Ikhlas, chapter 112",
-      "Al-Falaq, chapter 113",
-      "An-Nas, chapter 114",
-    ],
-    sourceIds: [
-      "quran-al-fatihah-1",
-      "quran-al-ikhlas-112",
-      "quran-al-falaq-113",
-      "quran-an-nas-114",
-    ],
-  },
-  {
-    title: "Mercy and hope",
-    time: "One quiet sitting",
-    body: "Use this path when shame or fear feels louder than hope. Notice Allah's nearness, forgiveness, and mercy before adding more material.",
-    readings: ["Quran 39:53", "Quran 2:186", "Quran 23:109"],
-    sourceIds: [
-      "quran-39-53-mercy",
-      "quran-2-186-dua-nearness",
-      "quran-23-109-forgiveness",
-    ],
-  },
-  {
-    title: "Prophets and purpose",
-    time: "Several short sittings",
-    body: "Read Surah Yusuf in pieces. It gives a full prophetic story with family pain, patience, temptation, forgiveness, and trust in Allah.",
-    readings: ["Surah Yusuf, chapter 12"],
-    sourceIds: ["quran-yusuf-12"],
-  },
-  {
-    title: "Prayer and worship",
-    time: "15 minutes",
-    body: "Connect Quran reading to salah. These passages help frame prayer as remembrance, guidance, patience, and return to Allah.",
-    readings: ["Al-Fatiha, chapter 1", "Quran 20:14", "Quran 2:153"],
-    sourceIds: [
-      "quran-al-fatihah-1",
-      "quran-20-14-prayer-remembrance",
-      "quran-2-153-patience-prayer",
-    ],
-  },
-  {
-    title: "Character and patience",
-    time: "10 minutes",
-    body: "Keep this path practical. Ask: what would this reading change in my speech, patience, honesty, or treatment of people today?",
-    readings: ["Al-'Asr, chapter 103", "Quran 2:153"],
-    sourceIds: ["quran-al-asr-103", "quran-2-153-patience-prayer"],
-  },
-];
-
-const weekPlan: WeekDay[] = [
-  {
-    day: "Day 1",
-    title: "Open with Al-Fatiha",
-    body: "Read the meaning of Al-Fatiha and listen once. Let the request for guidance be the theme of the day.",
-    sourceIds: ["quran-al-fatihah-1"],
-  },
-  {
-    day: "Day 2",
-    title: "Learn the three short protectors",
-    body: "Read Al-Ikhlas, Al-Falaq, and An-Nas. Notice tawhid and seeking protection without trying to memorize everything at once.",
-    sourceIds: [
-      "quran-al-ikhlas-112",
-      "quran-al-falaq-113",
-      "quran-an-nas-114",
-    ],
-  },
-  {
-    day: "Day 3",
-    title: "Read for hope",
-    body: "Read Quran 39:53 slowly. Write one sentence in your own words about what hope in Allah's mercy means for you.",
-    sourceIds: ["quran-39-53-mercy"],
-  },
-  {
-    day: "Day 4",
-    title: "Make dua from nearness",
-    body: "Read Quran 2:186 and 23:109. Make a simple personal dua in English after reading.",
-    sourceIds: ["quran-2-186-dua-nearness", "quran-23-109-forgiveness"],
-  },
-  {
-    day: "Day 5",
-    title: "Connect Quran to prayer",
-    body: "Read Quran 20:14 and listen to Al-Fatiha again. Keep the focus on remembrance, not perfect performance.",
-    sourceIds: ["quran-20-14-prayer-remembrance", "quran-al-fatihah-1"],
-  },
-  {
-    day: "Day 6",
-    title: "Practice patience",
-    body: "Read Quran 2:153 and Al-'Asr. Choose one small act of patience or truthfulness for the day.",
-    sourceIds: ["quran-2-153-patience-prayer", "quran-al-asr-103"],
-  },
-  {
-    day: "Day 7",
-    title: "Review and ask one question",
-    body: "Reread the passage that stayed with you. If something confused you, write the exact verse and ask a reliable teacher.",
-    sourceIds: ["quran-com", "seekersguidance"],
-  },
-];
-
-const resourceLinks: ResourceLink[] = [
-  {
-    title: "Quran.com",
-    body: "Read, listen, compare translations, and open official reciter pages without needing a new app.",
-    href: "https://quran.com/",
-    sourceIds: ["quran-com"],
-    icon: "book",
-  },
-  {
-    title: "The Clear Quran",
-    body: "A readable English translation of meaning. Use it as meaning support, not as a replacement for Arabic Quran.",
-    href: "https://theclearquran.org/",
-    sourceIds: ["clear-quran"],
-    icon: "file-text",
-  },
-  {
-    title: "New Muslim Academy",
-    body: "Beginner education and Quran learning support built for people who are new to Islam.",
-    href: "https://www.newmuslimacademy.org/",
-    sourceIds: ["new-muslim-academy"],
-    icon: "users",
-  },
-  {
-    title: "Mishari Rashid al-Afasy on Quran.com",
-    body: "A clear reciter page for listening practice. Listen first, then repeat only a small amount.",
-    href: "https://quran.com/reciters/7",
-    sourceIds: ["quran-reciter-mishary"],
-    icon: "play",
-  },
-];
-
 export function generateMetadata({ params }: { params: { locale: Locale } }) {
   const t = getTranslator(params.locale);
+  const copy = t<QuranStarterCopy>("pages.quranStarter");
   return buildPageMetadata({
     locale: params.locale,
-    title: `Quran Starter Path - ${t("brand.name")}`,
-    description:
-      "A beginner-friendly Quran starter path for reading, listening, translation boundaries, respectful handling, and a printable first-week plan.",
+    title: `${copy.metadataTitle} - ${t("brand.name")}`,
+    description: copy.metadataDescription,
     path: "/quran-starter",
   });
 }
@@ -303,9 +150,11 @@ function WeekCard({ item, locale }: { item: WeekDay; locale: Locale }) {
 function ResourceCard({
   item,
   locale,
+  openLabel,
 }: {
   item: ResourceLink;
   locale: Locale;
+  openLabel: string;
 }) {
   return (
     <article className="page-break-avoid rounded-2xl border border-border/60 bg-white p-5 shadow-card">
@@ -327,7 +176,7 @@ function ResourceCard({
               rel="noopener noreferrer"
               className="inline-flex items-center gap-1.5 rounded-lg bg-surfaceElevated px-3 py-1.5 text-sm font-medium text-primary no-underline transition-all duration-200 hover:bg-primary/15 hover:text-primaryHover"
             >
-              Open resource
+              {openLabel}
               <Icon name="external-link" size="sm" />
             </a>
             <SourceTags
@@ -347,9 +196,10 @@ export default function QuranStarterPage({
   params: { locale: Locale };
 }) {
   const locale = params.locale;
-  if (locale !== DEFAULT_LOCALE) notFound();
-
   const t = getTranslator(locale);
+  const copy = t<QuranStarterCopy>("pages.quranStarter");
+  const { vocabulary, translationTips, readingPaths, weekPlan, resourceLinks } =
+    getQuranStarterContent(locale);
   const pageSources = getSourcesByIds(pageSourceIds, locale);
 
   return (
@@ -359,7 +209,7 @@ export default function QuranStarterPage({
           { label: t("nav.home"), href: localizeHref(locale, "/") },
           { label: t("nav.topics"), href: localizeHref(locale, "/topics") },
           {
-            label: "Quran",
+            label: copy.quranBreadcrumb,
             href: localizeHref(locale, "/topics/quran"),
           },
           { label: t("nav.quranStarter") },
@@ -370,15 +220,13 @@ export default function QuranStarterPage({
         <header className="mb-10 max-w-3xl">
           <p className="mb-3 inline-flex items-center gap-2 rounded-full bg-primary/10 px-3 py-1 text-xs font-semibold uppercase tracking-wider text-primary">
             <Icon name="book" size="sm" />
-            Beginner starter path
+            {copy.eyebrow}
           </p>
           <h1 className="mb-4 font-display text-3xl font-semibold tracking-tight text-textPrimary md:text-4xl">
-            Quran Starter Path
+            {copy.title}
           </h1>
           <p className="mb-6 text-lg leading-relaxed text-textSecondary">
-            Start reading and listening to the Quran without turning it into a
-            pressure project. Use short passages, clear translation boundaries,
-            and one steady question at a time.
+            {copy.subtitle}
           </p>
           <div className="flex flex-wrap gap-3">
             <PrintButton />
@@ -386,14 +234,14 @@ export default function QuranStarterPage({
               href={localizeHref(locale, "/topics/quran")}
               variant="outline"
             >
-              Quran topic
+              {copy.quranTopicButton}
               <Icon name="chevron-right" size="sm" />
             </Button>
             <Button
               href={localizeHref(locale, "/tools/salah-companion")}
               variant="outline"
             >
-              Salah companion
+              {copy.salahCompanionButton}
               <Icon name="chevron-right" size="sm" />
             </Button>
           </div>
@@ -409,14 +257,10 @@ export default function QuranStarterPage({
             id="matters-most-heading"
             className="mb-4 mt-0 font-display text-2xl font-semibold tracking-tight text-textPrimary"
           >
-            What Matters Most Right Now
+            {copy.mattersMostTitle}
           </h2>
           <div className="grid gap-4 md:grid-cols-3">
-            {[
-              "Read a small portion with attention, not a huge amount with pressure.",
-              "Treat English as translation of meaning, not the Arabic Quran itself.",
-              "Ask a reliable teacher when a verse confuses or worries you.",
-            ].map((item) => (
+            {copy.mattersMost.map((item) => (
               <div
                 key={item}
                 className="page-break-avoid rounded-xl border border-border/50 bg-white p-4"
@@ -441,12 +285,10 @@ export default function QuranStarterPage({
               id="translation-policy-heading"
               className="mb-4 mt-0 font-display text-2xl font-semibold tracking-tight text-textPrimary"
             >
-              Translation Boundaries
+              {copy.translationTitle}
             </h2>
             <p className="mb-4 text-sm leading-relaxed text-textSecondary">
-              The Arabic Quran is the revealed text. English helps you
-              understand the meaning, but it is still a translation and may not
-              carry every layer of the Arabic.
+              {copy.translationBody}
             </p>
             <SourceTags
               sources={getSourcesByIds(
@@ -469,7 +311,7 @@ export default function QuranStarterPage({
               id="vocabulary-heading"
               className="mb-4 mt-0 font-display text-2xl font-semibold tracking-tight text-textPrimary"
             >
-              Helpful Words
+              {copy.vocabularyTitle}
             </h2>
             <div className="grid gap-3 sm:grid-cols-2">
               {vocabulary.map((item) => (
@@ -497,11 +339,10 @@ export default function QuranStarterPage({
               id="reading-paths-heading"
               className="mb-2 font-display text-2xl font-semibold tracking-tight text-textPrimary"
             >
-              Suggested Beginner Reading Paths
+              {copy.readingPathsTitle}
             </h2>
             <p className="mb-0 text-sm leading-relaxed text-textSecondary">
-              These are not saved plans and there is no completion tracking.
-              Pick one path, read slowly, and stop before you feel overloaded.
+              {copy.readingPathsBody}
             </p>
           </div>
           <div className="grid gap-5 md:grid-cols-2">
@@ -523,11 +364,10 @@ export default function QuranStarterPage({
                 id="week-plan-heading"
                 className="mb-2 mt-0 font-display text-2xl font-semibold tracking-tight text-textPrimary"
               >
-                Printable First Quran Week
+                {copy.weekTitle}
               </h2>
               <p className="mb-0 text-sm leading-relaxed text-textSecondary">
-                Use this as a printed rhythm. It does not save progress, set
-                reminders, or ask you to track completion.
+                {copy.weekBody}
               </p>
             </div>
             <PrintButton />
@@ -550,16 +390,9 @@ export default function QuranStarterPage({
               id="listening-heading"
               className="mb-4 mt-0 font-display text-2xl font-semibold tracking-tight text-textPrimary"
             >
-              Listening Without Overwhelm
+              {copy.listeningTitle}
             </h2>
-            <SimpleList
-              items={[
-                "Start with one short surah and one reciter.",
-                "Listen once just to receive it, then listen again while following the translation of meaning.",
-                "Repeat only a small phrase if you are practicing pronunciation.",
-                "Use a Quran teacher, imam, or class when you are ready to correct recitation.",
-              ]}
-            />
+            <SimpleList items={copy.listening} />
             <SourceTags
               sources={getSourcesByIds(["quran-reciter-mishary"], locale)}
               compact
@@ -577,16 +410,9 @@ export default function QuranStarterPage({
               id="respect-heading"
               className="mb-4 mt-0 font-display text-2xl font-semibold tracking-tight text-textPrimary"
             >
-              Respectful Handling
+              {copy.respectTitle}
             </h2>
-            <SimpleList
-              items={[
-                "Keep a physical mushaf in a clean, respectful place.",
-                "Ask a qualified local teacher about wudu and purity details for touching Arabic Quran text.",
-                "Translations and phone apps do not carry every same handling detail, but treating them respectfully is still good adab.",
-                "Do not let fear of doing something imperfectly stop you from reading, listening, and learning.",
-              ]}
-            />
+            <SimpleList items={copy.respect} />
             <SourceTags
               sources={getSourcesByIds(
                 ["new-muslim-academy-quran-etiquette"],
@@ -608,27 +434,10 @@ export default function QuranStarterPage({
             id="confusing-verse-heading"
             className="mb-4 mt-0 font-display text-2xl font-semibold tracking-tight text-textPrimary"
           >
-            When A Verse Confuses You
+            {copy.confusingTitle}
           </h2>
           <div className="grid gap-4 md:grid-cols-4">
-            {[
-              {
-                title: "Pause",
-                body: "Do not build a conclusion from a screenshot, short clip, or hostile thread.",
-              },
-              {
-                title: "Read around it",
-                body: "Look at the verses before and after, then read a trusted explanation.",
-              },
-              {
-                title: "Write the exact question",
-                body: "Name the verse, what bothered you, and what you need clarified.",
-              },
-              {
-                title: "Ask someone reliable",
-                body: "Bring the question to a teacher, imam, or source-checked learning program.",
-              },
-            ].map((item) => (
+            {copy.confusingVerse.map((item) => (
               <article
                 key={item.title}
                 className="page-break-avoid rounded-xl border border-border/50 bg-white p-4"
@@ -652,17 +461,20 @@ export default function QuranStarterPage({
               id="resources-heading"
               className="mb-2 font-display text-2xl font-semibold tracking-tight text-textPrimary"
             >
-              Reliable Starter Resources
+              {copy.resourcesTitle}
             </h2>
             <p className="mb-0 text-sm leading-relaxed text-textSecondary">
-              Use identifiable sources with clear publishers and teachers. Avoid
-              anonymous quote images or debate channels as your main Quran
-              learning path.
+              {copy.resourcesBody}
             </p>
           </div>
           <div className="grid gap-5 md:grid-cols-2">
             {resourceLinks.map((item) => (
-              <ResourceCard key={item.title} item={item} locale={locale} />
+              <ResourceCard
+                key={item.title}
+                item={item}
+                locale={locale}
+                openLabel={copy.openResource}
+              />
             ))}
           </div>
         </section>
@@ -671,10 +483,7 @@ export default function QuranStarterPage({
       {pageSources.length > 0 && (
         <AnimateIn>
           <div className="mb-10">
-            <SourcesPanel
-              sources={pageSources}
-              note="This page is source-checked for Quran references, translation boundaries, beginner listening guidance, and respectful handling orientation. Personal recitation, purity, and tafsir questions should be reviewed with qualified teachers."
-            />
+            <SourcesPanel sources={pageSources} note={copy.sourcesNote} />
           </div>
         </AnimateIn>
       )}
@@ -685,17 +494,17 @@ export default function QuranStarterPage({
             href={localizeHref(locale, "/topics/quran")}
             variant="primary"
           >
-            Quran topic
+            {copy.quranTopicButton}
           </Button>
           <Button
             href={localizeHref(locale, "/roadmap/week-2-3/quran")}
             variant="outline"
           >
-            Roadmap step
+            {copy.roadmapButton}
             <Icon name="chevron-right" size="sm" />
           </Button>
           <Button href={localizeHref(locale, "/dua-dhikr")} variant="outline">
-            Dua and dhikr
+            {copy.duaDhikrButton}
             <Icon name="chevron-right" size="sm" />
           </Button>
         </div>

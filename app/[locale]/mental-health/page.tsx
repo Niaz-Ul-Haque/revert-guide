@@ -46,21 +46,18 @@ export default function MentalHealthPage({
         ? "https://yaqeeninstitute.org/read/paper/new-muslims-and-mental-health"
         : null,
   }));
-  const sources =
-    locale === "en"
-      ? getSourcesByIds(
-          [
-            "988-lifeline",
-            "samhsa-988",
-            "cdc-suicide-prevention",
-            "crisis-text-line",
-            "khalil-center",
-            "naseeha",
-            "yaqeen-mental-health",
-          ],
-          locale,
-        )
-      : [];
+  const sources = getSourcesByIds(
+    [
+      "988-lifeline",
+      "samhsa-988",
+      "cdc-suicide-prevention",
+      "crisis-text-line",
+      "khalil-center",
+      "naseeha",
+      "yaqeen-mental-health",
+    ],
+    locale,
+  );
 
   return (
     <div className="mx-auto max-w-4xl px-5 py-10">
@@ -379,7 +376,7 @@ export default function MentalHealthPage({
           <div className="mt-10">
             <SourcesPanel
               sources={sources}
-              note="This page is general emotional support and crisis routing. It is not therapy, diagnosis, or medical advice. If you are in immediate danger in the United States or Canada, call emergency services now."
+              note={t("pages.sourceNotes.mentalHealth")}
             />
           </div>
         </AnimateIn>

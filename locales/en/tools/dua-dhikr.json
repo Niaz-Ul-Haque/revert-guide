@@ -1,0 +1,201 @@
+{
+  "sections": [
+    {
+      "id": "daily-basics",
+      "title": "Daily remembrance basics",
+      "intro": "Start with a few short phrases you can understand and repeat easily. Dhikr is not a race, and nobody is counting.",
+      "entries": [
+        {
+          "title": "SubhanAllah",
+          "kind": "Dhikr",
+          "occasion": "Any time, and often after prayer",
+          "arabic": "سُبْحَانَ اللَّهِ",
+          "transliteration": "SubhanAllah",
+          "meaning": "Glory be to Allah.",
+          "note": "A short remembrance that turns your heart back toward Allah. Useful when your mind has wandered off.",
+          "sourceIds": ["sunnah-muslim-after-prayer-dhikr"]
+        },
+        {
+          "title": "Alhamdulillah",
+          "kind": "Dhikr",
+          "occasion": "Gratitude, ordinary moments, and after prayer",
+          "arabic": "الْحَمْدُ لِلَّهِ",
+          "transliteration": "Alhamdulillah",
+          "meaning": "All praise belongs to Allah.",
+          "note": "Use it when you notice a blessing, large or small.",
+          "sourceIds": ["sunnah-muslim-after-prayer-dhikr"]
+        },
+        {
+          "title": "Allahu Akbar",
+          "kind": "Dhikr",
+          "occasion": "Prayer, awe, and after prayer",
+          "arabic": "اللَّهُ أَكْبَرُ",
+          "transliteration": "Allahu akbar",
+          "meaning": "Allah is the Greatest.",
+          "note": "Saying it puts your worries, and whoever you are worried about, back in proportion.",
+          "sourceIds": ["sunnah-muslim-after-prayer-dhikr"]
+        },
+        {
+          "title": "La ilaha illa Allah",
+          "kind": "Dhikr",
+          "occasion": "Remembering tawhid",
+          "arabic": "لَا إِلَٰهَ إِلَّا اللَّهُ",
+          "transliteration": "La ilaha illa Allah",
+          "meaning": "There is no god worthy of worship except Allah.",
+          "note": "This is the heart of Islamic belief. Say it with attention, not as background noise.",
+          "sourceIds": ["sunnah-muslim-after-prayer-dhikr"]
+        }
+      ]
+    },
+    {
+      "id": "before-after-prayer",
+      "title": "Before and after prayer",
+      "intro": "Prayer already holds the duas a beginner most needs. When you finish, sit for a moment with a short dhikr before you get up.",
+      "entries": [
+        {
+          "title": "Guidance from Al-Fatiha",
+          "kind": "Quranic dua",
+          "occasion": "Inside every prayer",
+          "arabic": "اهْدِنَا الصِّرَاطَ الْمُسْتَقِيمَ",
+          "transliteration": "Ihdinas-siratal-mustaqim",
+          "meaning": "Guide us to the straight path.",
+          "note": "You say this in every rak'ah. If you learn the meaning of one line of prayer first, make it this one.",
+          "sourceIds": ["quran-al-fatihah-1"]
+        },
+        {
+          "title": "After-prayer dhikr pattern",
+          "kind": "Dhikr",
+          "occasion": "After the obligatory prayer",
+          "arabic": "سُبْحَانَ اللَّهِ\nالْحَمْدُ لِلَّهِ\nاللَّهُ أَكْبَرُ",
+          "transliteration": "SubhanAllah. Alhamdulillah. Allahu akbar.",
+          "meaning": "Glorify Allah, praise Allah, and declare Allah's greatness.",
+          "note": "Many Muslims repeat these after every prayer. Start with a few of each and learn the full count later.",
+          "sourceIds": ["sunnah-muslim-after-prayer-dhikr"]
+        }
+      ]
+    },
+    {
+      "id": "guidance",
+      "title": "Asking for guidance",
+      "intro": "Use these when you feel unsure, pulled in two directions, or worried that your faith will not hold.",
+      "entries": [
+        {
+          "title": "Keep my heart steady",
+          "kind": "Quranic dua",
+          "occasion": "When faith feels fragile",
+          "arabic": "رَبَّنَا لَا تُزِغْ قُلُوبَنَا بَعْدَ إِذْ هَدَيْتَنَا وَهَبْ لَنَا مِن لَّدُنكَ رَحْمَةً",
+          "transliteration": "Rabbana la tuzigh qulubana ba'da idh hadaytana wa hab lana min ladunka rahmah",
+          "meaning": "Our Lord, do not let our hearts turn away after You have guided us, and grant us mercy from You.",
+          "note": "A Quranic dua for the days when you are afraid of slipping or losing the thread.",
+          "sourceIds": ["quran-3-8-steadfastness"]
+        },
+        {
+          "title": "Good in this life and the next",
+          "kind": "Quranic dua",
+          "occasion": "A balanced everyday dua",
+          "arabic": "رَبَّنَا آتِنَا فِي الدُّنْيَا حَسَنَةً وَفِي الْآخِرَةِ حَسَنَةً وَقِنَا عَذَابَ النَّارِ",
+          "transliteration": "Rabbana atina fid-dunya hasanah wa fil-akhirati hasanah wa qina 'adhaban-nar",
+          "meaning": "Our Lord, give us good in this world and the Hereafter, and protect us from the Fire.",
+          "note": "A short Quranic dua that asks for good in the life you are living now and good in the one after it.",
+          "sourceIds": ["quran-2-201-rabbana-atina"]
+        }
+      ]
+    },
+    {
+      "id": "anxious-overwhelmed",
+      "title": "When you feel anxious or overwhelmed",
+      "intro": "Dua and dhikr bring real comfort. They are not a substitute for help when you are in crisis, thinking of hurting yourself, being abused, or unable to get through the day.",
+      "entries": [
+        {
+          "title": "For anxiety and grief",
+          "kind": "Hadith dua",
+          "occasion": "When worry, sadness, debt, or pressure feels heavy",
+          "arabic": "اللَّهُمَّ إِنِّي أَعُوذُ بِكَ مِنَ الْهَمِّ وَالْحُزْنِ، وَالْعَجْزِ وَالْكَسَلِ، وَالْبُخْلِ وَالْجُبْنِ، وَضَلَعِ الدَّيْنِ وَغَلَبَةِ الرِّجَالِ",
+          "transliteration": "Allahumma inni a'udhu bika minal-hammi wal-huzn, wal-'ajzi wal-kasal, wal-bukhli wal-jubn, wa dala'id-dayn wa ghalabatir-rijal",
+          "meaning": "O Allah, I seek refuge in You from worry, grief, helplessness, laziness, miserliness, cowardice, heavy debt, and being overpowered.",
+          "note": "Say this, and also take the practical step in front of you: make the call, see the doctor, tell someone.",
+          "sourceIds": ["sunnah-bukhari-anxiety-grief", "988-lifeline"]
+        },
+        {
+          "title": "Patience and firm steps",
+          "kind": "Quranic dua",
+          "occasion": "Before a hard conversation or test",
+          "arabic": "رَبَّنَا أَفْرِغْ عَلَيْنَا صَبْرًا وَثَبِّتْ أَقْدَامَنَا",
+          "transliteration": "Rabbana afrigh 'alayna sabran wa thabbit aqdamana",
+          "meaning": "Our Lord, pour patience upon us and make our steps firm.",
+          "note": "A Quranic dua for the moment right before something hard, when you need patience and nerve at once.",
+          "sourceIds": ["quran-2-250-patience"]
+        }
+      ]
+    },
+    {
+      "id": "gratitude-repentance",
+      "title": "Gratitude and repentance",
+      "intro": "Repentance is not reserved for the big failures. It is an ordinary, regular return to Allah, done honestly and with hope.",
+      "entries": [
+        {
+          "title": "Sayyid al-istighfar",
+          "kind": "Hadith dua",
+          "occasion": "Morning, evening, or after you have slipped",
+          "arabic": "اللَّهُمَّ أَنْتَ رَبِّي لَا إِلَٰهَ إِلَّا أَنْتَ، خَلَقْتَنِي وَأَنَا عَبْدُكَ، وَأَنَا عَلَى عَهْدِكَ وَوَعْدِكَ مَا اسْتَطَعْتُ، أَعُوذُ بِكَ مِنْ شَرِّ مَا صَنَعْتُ، أَبُوءُ لَكَ بِنِعْمَتِكَ عَلَيَّ، وَأَبُوءُ بِذَنْبِي، فَاغْفِرْ لِي فَإِنَّهُ لَا يَغْفِرُ الذُّنُوبَ إِلَّا أَنْتَ",
+          "transliteration": "Allahumma anta Rabbi la ilaha illa ant, khalaqtani wa ana 'abduk, wa ana 'ala 'ahdika wa wa'dika mastata't...",
+          "meaning": "O Allah, You are my Lord. I admit Your blessings and my sins, so forgive me, for none forgives sins except You.",
+          "note": "This one is longer than a starter phrase. Learn it a line at a time and keep the meaning in front of you while you do.",
+          "sourceIds": ["sunnah-bukhari-sayyid-istighfar"]
+        },
+        {
+          "title": "Forgiveness and mercy",
+          "kind": "Quranic dua",
+          "occasion": "When returning to Allah",
+          "arabic": "رَبَّنَا آمَنَّا فَاغْفِرْ لَنَا وَارْحَمْنَا وَأَنْتَ خَيْرُ الرَّاحِمِينَ",
+          "transliteration": "Rabbana amanna faghfir lana warhamna wa anta khayrur-rahimin",
+          "meaning": "Our Lord, we have believed, so forgive us and have mercy on us; You are the best of those who show mercy.",
+          "note": "A short Quranic dua that puts faith, forgiveness, and mercy into one sentence.",
+          "sourceIds": ["quran-23-109-forgiveness"]
+        }
+      ]
+    },
+    {
+      "id": "learning-conversations",
+      "title": "Before learning or a hard conversation",
+      "intro": "Before you open a book, ask a question, or sit down with your family, ask Allah for clear understanding and gentle speech.",
+      "entries": [
+        {
+          "title": "Ease and an open heart",
+          "kind": "Quranic dua",
+          "occasion": "Before learning, speaking, or asking for help",
+          "arabic": "رَبِّ اشْرَحْ لِي صَدْرِي\nوَيَسِّرْ لِي أَمْرِي\nوَاحْلُلْ عُقْدَةً مِّن لِّسَانِي\nيَفْقَهُوا قَوْلِي",
+          "transliteration": "Rabbi ishrah li sadri. Wa yassir li amri. Wahlul 'uqdatan min lisani. Yafqahu qawli.",
+          "meaning": "My Lord, open my heart, make my task easy, loosen the knot from my tongue, and let my words be understood.",
+          "note": "This is the dua of Prophet Musa, peace be upon him. Many new Muslims say it before a conversation they have been dreading.",
+          "sourceIds": ["quran-20-25-28-musa-ease"]
+        },
+        {
+          "title": "Beneficial knowledge",
+          "kind": "Hadith dua",
+          "occasion": "Before study or a class",
+          "arabic": "اللَّهُمَّ إِنِّي أَسْأَلُكَ عِلْمًا نَافِعًا، وَرِزْقًا طَيِّبًا، وَعَمَلًا مُتَقَبَّلًا",
+          "transliteration": "Allahumma inni as'aluka 'ilman nafi'a, wa rizqan tayyiba, wa 'amalan mutaqabbala",
+          "meaning": "O Allah, I ask You for beneficial knowledge, good provision, and accepted deeds.",
+          "note": "Useful before a class on Islam, and just as useful before work, school, or learning a skill.",
+          "sourceIds": ["sunnah-ibnmajah-beneficial-knowledge"]
+        }
+      ]
+    },
+    {
+      "id": "own-words",
+      "title": "Personal dua in your own words",
+      "intro": "You can call on Allah in the language you actually think in. Just keep your own wording separate in your mind from Quranic and Prophetic wording.",
+      "entries": [
+        {
+          "title": "Personal wording",
+          "kind": "Personal dua",
+          "occasion": "Any time outside fixed prayer recitation",
+          "meaning": "Example: O Allah, guide me, forgive me, make prayer easy for me, and place good people in my life.",
+          "note": "This is personal wording, not a transmitted dua. Ask Allah for what you need, in your own language, in your own words.",
+          "sourceIds": ["quran-2-186-dua-nearness"]
+        }
+      ]
+    }
+  ]
+}

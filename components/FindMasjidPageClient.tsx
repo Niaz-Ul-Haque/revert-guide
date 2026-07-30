@@ -412,115 +412,96 @@ export function FindMasjidPageClient({
           <div className="mb-6">
             <SourcesPanel
               sources={mapSources}
-              note="Map tiles and address lookup use OpenStreetMap and Nominatim. Masjid details can change; confirm prayer times, classes, accessibility, and visitor support directly with the masjid before visiting."
+              note={t("pages.sourceNotes.findMasjidMap")}
             />
           </div>
         </AnimateIn>
       )}
 
-      {locale === "en" && (
-        <AnimateIn delay={0.05}>
-          <section className="mb-6" aria-labelledby="first-visit-help-heading">
-            <div className="mb-4 flex items-center gap-2">
-              <span className="flex h-9 w-9 items-center justify-center rounded-xl bg-primary/10 text-primary">
-                <Icon name="lightbulb" size="sm" />
-              </span>
-              <div>
-                <h2
-                  id="first-visit-help-heading"
-                  className="mb-0 mt-0 text-lg font-semibold text-textPrimary"
-                >
-                  First-Visit Support
-                </h2>
-                <p className="mb-0 text-sm text-textSecondary">
-                  A short check before you go can make the visit calmer.
-                </p>
-              </div>
+      <AnimateIn delay={0.05}>
+        <section className="mb-6" aria-labelledby="first-visit-help-heading">
+          <div className="mb-4 flex items-center gap-2">
+            <span className="flex h-9 w-9 items-center justify-center rounded-xl bg-primary/10 text-primary">
+              <Icon name="lightbulb" size="sm" />
+            </span>
+            <div>
+              <h2
+                id="first-visit-help-heading"
+                className="mb-0 mt-0 text-lg font-semibold text-textPrimary"
+              >
+                {copy.firstVisit.title}
+              </h2>
+              <p className="mb-0 text-sm text-textSecondary">
+                {copy.firstVisit.subtitle}
+              </p>
+            </div>
+          </div>
+
+          <div className="grid gap-4 lg:grid-cols-4">
+            <div className="rounded-xl border border-border/50 bg-white p-4">
+              <h3 className="mb-2 mt-0 text-sm font-semibold text-textPrimary">
+                {copy.firstVisit.askTitle}
+              </h3>
+              <ul className="mb-0 flex flex-col gap-2 pl-0 text-sm text-textSecondary">
+                {copy.firstVisit.askItems.map((item) => (
+                  <li key={item} className="flex items-start gap-2">
+                    <Icon
+                      name="check"
+                      size="sm"
+                      className="mt-0.5 shrink-0 text-primary"
+                    />
+                    <span>{item}</span>
+                  </li>
+                ))}
+              </ul>
             </div>
 
-            <div className="grid gap-4 lg:grid-cols-4">
-              <div className="rounded-xl border border-border/50 bg-white p-4">
-                <h3 className="mb-2 mt-0 text-sm font-semibold text-textPrimary">
-                  What to ask before you go
-                </h3>
-                <ul className="mb-0 flex flex-col gap-2 pl-0 text-sm text-textSecondary">
-                  {[
-                    "What time should I arrive for this prayer or Jumu'ah?",
-                    "Which entrance should a first-time visitor use?",
-                    "Is the women's prayer area open for this prayer?",
-                    "Is there a new Muslim contact, class, or mentor?",
-                    "Is parking or an accessible entrance available?",
-                  ].map((item) => (
-                    <li key={item} className="flex items-start gap-2">
-                      <Icon
-                        name="check"
-                        size="sm"
-                        className="mt-0.5 shrink-0 text-primary"
-                      />
-                      <span>{item}</span>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-
-              <div className="rounded-xl border border-border/50 bg-white p-4">
-                <h3 className="mb-2 mt-0 text-sm font-semibold text-textPrimary">
-                  Call or email script
-                </h3>
-                <p className="mb-0 text-sm leading-relaxed text-textSecondary">
-                  Assalamu alaykum. I am a new Muslim and I would like to visit
-                  for the first time. Could someone tell me where to enter,
-                  whether there is a new Muslim contact, and what I should know
-                  before coming?
-                </p>
-              </div>
-
-              <div className="rounded-xl border border-border/50 bg-white p-4">
-                <h3 className="mb-2 mt-0 text-sm font-semibold text-textPrimary">
-                  How to verify details
-                </h3>
-                <ul className="mb-0 flex flex-col gap-2 pl-0 text-sm text-textSecondary">
-                  {[
-                    "Use the official website first when a source tag is shown.",
-                    "Call or email before relying on class, Jumu'ah, parking, or accessibility notes.",
-                    "Treat unsourced profiles as local verification needed.",
-                    "Ask whether details changed for Ramadan, Eid, construction, or special events.",
-                  ].map((item) => (
-                    <li key={item} className="flex items-start gap-2">
-                      <Icon
-                        name="info"
-                        size="sm"
-                        className="mt-0.5 shrink-0 text-primary"
-                      />
-                      <span>{item}</span>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-
-              <div className="rounded-xl border border-border/50 bg-white p-4">
-                <h3 className="mb-2 mt-0 text-sm font-semibold text-textPrimary">
-                  What to bring
-                </h3>
-                <p className="mb-3 text-sm leading-relaxed text-textSecondary">
-                  Wear clean, modest clothes you can bow and prostrate in. A
-                  prayer mat is optional. Socks can help if you feel nervous
-                  about removing shoes.
-                </p>
-                <p className="mb-0 text-sm leading-relaxed text-textSecondary">
-                  If the masjid cannot help, ask whether they know a nearby
-                  class, chaplain, convert group, or another masjid contact.
-                </p>
-              </div>
+            <div className="rounded-xl border border-border/50 bg-white p-4">
+              <h3 className="mb-2 mt-0 text-sm font-semibold text-textPrimary">
+                {copy.firstVisit.scriptTitle}
+              </h3>
+              <p className="mb-0 text-sm leading-relaxed text-textSecondary">
+                {copy.firstVisit.scriptBody}
+              </p>
             </div>
-          </section>
-        </AnimateIn>
-      )}
+
+            <div className="rounded-xl border border-border/50 bg-white p-4">
+              <h3 className="mb-2 mt-0 text-sm font-semibold text-textPrimary">
+                {copy.firstVisit.verifyTitle}
+              </h3>
+              <ul className="mb-0 flex flex-col gap-2 pl-0 text-sm text-textSecondary">
+                {copy.firstVisit.verifyItems.map((item) => (
+                  <li key={item} className="flex items-start gap-2">
+                    <Icon
+                      name="info"
+                      size="sm"
+                      className="mt-0.5 shrink-0 text-primary"
+                    />
+                    <span>{item}</span>
+                  </li>
+                ))}
+              </ul>
+            </div>
+
+            <div className="rounded-xl border border-border/50 bg-white p-4">
+              <h3 className="mb-2 mt-0 text-sm font-semibold text-textPrimary">
+                {copy.firstVisit.bringTitle}
+              </h3>
+              <p className="mb-3 text-sm leading-relaxed text-textSecondary">
+                {copy.firstVisit.bringBody}
+              </p>
+              <p className="mb-0 text-sm leading-relaxed text-textSecondary">
+                {copy.firstVisit.bringFallback}
+              </p>
+            </div>
+          </div>
+        </section>
+      </AnimateIn>
 
       {/* ── Map + Search hero section ── */}
       <AnimateIn delay={0.06}>
         <section className="mb-6 overflow-hidden rounded-2xl border border-border/60 bg-white shadow-elevated">
-          {/* Search toolbar row — sits above the map */}
+          {/* Search toolbar row, sits above the map */}
           <div className="border-b border-border/40 bg-surface/80 p-4">
             <div className="grid gap-3 lg:grid-cols-2">
               {/* Text search */}
@@ -839,16 +820,28 @@ export function FindMasjidPageClient({
                 masjid.accessibility ? copy.accessibility : null,
               ].filter(Boolean);
               const profileNotes = [
-                { label: "Visitor note", body: masjid.visitorNotes },
-                { label: "Women's space", body: masjid.womenSpaceNote },
                 {
-                  label: "New Muslim support",
+                  label: copy.noteLabels.visitor,
+                  body: masjid.visitorNotes,
+                },
+                {
+                  label: copy.noteLabels.womenSpace,
+                  body: masjid.womenSpaceNote,
+                },
+                {
+                  label: copy.noteLabels.newMuslimSupport,
                   body: masjid.newMuslimSupportNote,
                 },
-                { label: "Accessibility", body: masjid.accessibilityNote },
-                { label: "Jumu'ah", body: masjid.jumuahNote },
-                { label: "Classes", body: masjid.classSupportNote },
-                { label: "Parking", body: masjid.parkingNote },
+                {
+                  label: copy.noteLabels.accessibility,
+                  body: masjid.accessibilityNote,
+                },
+                { label: copy.noteLabels.jumuah, body: masjid.jumuahNote },
+                {
+                  label: copy.noteLabels.classes,
+                  body: masjid.classSupportNote,
+                },
+                { label: copy.noteLabels.parking, body: masjid.parkingNote },
               ].filter((note): note is { label: string; body: string } =>
                 Boolean(note.body),
               );
@@ -991,7 +984,7 @@ export function FindMasjidPageClient({
                       </div>
                     )}
 
-                    {/* Actions — pushed to bottom */}
+                    {/* Actions, pushed to the bottom of the card */}
                     <div className="mt-auto flex flex-wrap items-center gap-2 pt-4">
                       <button
                         type="button"
@@ -1053,18 +1046,14 @@ export function FindMasjidPageClient({
           <p className="mb-2 text-sm text-textSecondary">
             {copy.crossLinkPrompt}
           </p>
+          {/* The guides route builds for every locale and falls back to the
+              English guide, so all locales get the masjid-visit guide rather
+              than being diverted to the community topic. */}
           <Link
-            href={localizeHref(
-              locale,
-              locale === "en"
-                ? "/guides/first-masjid-visit"
-                : "/topics/community",
-            )}
+            href={localizeHref(locale, "/guides/first-masjid-visit")}
             className="inline-flex items-center gap-1.5 rounded-xl bg-primary/10 px-4 py-2 text-sm font-medium text-primary no-underline transition-all duration-200 hover:bg-primary/20 hover:text-primaryHover"
           >
-            {locale === "en"
-              ? "Read: First Masjid Visit Guide"
-              : copy.crossLinkLabel}
+            {copy.firstVisitGuideLabel}
             <Icon name="chevron-right" size="sm" />
           </Link>
         </div>

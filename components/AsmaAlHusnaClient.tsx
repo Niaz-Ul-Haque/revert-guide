@@ -52,7 +52,7 @@ export function AsmaAlHusnaClient() {
     );
   }, [names, search]);
 
-  // Name of the day — rotate based on day of year
+  // Name of the day rotates based on the day of the year
   const nameOfTheDay = useMemo(() => {
     if (names.length === 0) return null;
     const now = new Date();

@@ -165,7 +165,7 @@ export function QiblaClient() {
     requestPermission,
   } = useCompassHeading();
 
-  // Calculate Qibla bearing locally — no API needed
+  // Calculate the Qibla bearing locally, without an API call
   function findQibla(lat: number, lng: number) {
     setLoading(true);
     setError(null);
@@ -337,7 +337,7 @@ export function QiblaClient() {
           {/* Compass display */}
           <div className="mx-auto flex max-w-sm flex-col items-center">
             <div className="relative flex h-64 w-64 items-center justify-center rounded-full border-2 border-border/40 bg-surface">
-              {/* Cardinal directions — rotate with compass so they stay oriented */}
+              {/* Cardinal directions rotate with the compass so they stay oriented */}
               <div
                 className="absolute inset-0 transition-transform duration-200 ease-out"
                 style={{ transform: `rotate(${cardinalRotation}deg)` }}
@@ -398,14 +398,12 @@ export function QiblaClient() {
             {isCompassActive && (
               <p className="mt-2 flex items-center gap-1.5 text-xs text-primary">
                 <span className="inline-block h-2 w-2 animate-pulse rounded-full bg-primary" />
-                {(copy.compassActive as string) ||
-                  "Live compass active — point your phone to find Qibla"}
+                {copy.compassActive as string}
               </p>
             )}
             {compassSupported === false && data && (
               <p className="mt-2 text-xs text-textMuted">
-                {(copy.compassUnavailable as string) ||
-                  "Compass not available on this device. Use a physical compass to face the bearing shown."}
+                {copy.compassUnavailable as string}
               </p>
             )}
           </div>
@@ -414,8 +412,7 @@ export function QiblaClient() {
           <Callout variant="tip">
             <p>
               {isCompassActive
-                ? (copy.compassTipLive as string) ||
-                  "Hold your phone flat and rotate until the arrow points up. You are now facing the Qibla!"
+                ? (copy.compassTipLive as string)
                 : (copy.compassTip as string)}
             </p>
           </Callout>

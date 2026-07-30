@@ -11,15 +11,15 @@ const DAWAH_ROUTE_LOCALES = ["en", "bn"] as const;
 
 // Hidden, direct-link page. Intentionally kept out of all navigation, the
 // footer, the homepage, GlobalSearch, and any sitemap. Note: on a static
-// public site "hidden" is not private — anyone with the URL can reach it.
+// public site "hidden" is not private. Anyone with the URL can reach it.
 
 export function generateStaticParams() {
   return DAWAH_ROUTE_LOCALES.map((locale) => ({ locale }));
 }
 
 export const metadata: Metadata = {
-  title: "Dawah Guide | Revert Guide",
-  description: "A private direct-link guide for dawah conversations.",
+  title: "Dawah guide | Revert Guide",
+  description: "A private, direct-link guide for dawah conversations.",
   robots: {
     index: false,
     follow: false,

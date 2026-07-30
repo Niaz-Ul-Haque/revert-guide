@@ -1,6 +1,6 @@
 This is a [Next.js](https://nextjs.org) project for Revert Guide, an offline-first companion for new Muslims.
 
-## Getting Started
+## Getting started
 
 First, run the development server:
 
@@ -30,8 +30,13 @@ Structured content also lives in that same locale folder, for example:
 - `locales/en/resources.json`
 - `locales/en/glossary.json`
 - `locales/en/masjids.json`
+- `locales/en/sources.json`
 - `locales/en/topics/*.json`
 - `locales/en/steps/*.json`
+- `locales/en/life-guides.json` and `locales/en/seasonal-guides.json`
+- `locales/en/source-categories.json` and `locales/en/resource-collections.json`
+- `locales/en/tools/*.json` and `locales/en/pages/*.json`
+- `locales/en/dawah-guides/*.json`
 
 The content loader reads from `locales/{locale}/...` and falls back to English when a translated file is missing.
 
@@ -44,14 +49,13 @@ To add a new language:
 
 The language switcher stores the selected locale in local storage so the root entry page can redirect users back to their last-used language in the static export.
 
-## Learn More
+## Learn more
 
-To learn more about Next.js, take a look at the following resources:
+Useful Next.js references:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- [Next.js documentation](https://nextjs.org/docs) covers the framework features and API.
+- [Learn Next.js](https://nextjs.org/learn) is an interactive tutorial.
+- [The Next.js GitHub repository](https://github.com/vercel/next.js) takes issues and pull requests.
 
 ## Deploy on Vercel
 

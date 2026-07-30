@@ -247,7 +247,7 @@ export function ResourceCard({
               {organization ? (
                 <p className="mb-0">
                   <span className="font-semibold text-textPrimary">
-                    Source:
+                    {t("common.sourceLabel")}
                   </span>{" "}
                   {organization}
                 </p>
@@ -255,7 +255,7 @@ export function ResourceCard({
               {bestFor ? (
                 <p className="mb-0">
                   <span className="font-semibold text-textPrimary">
-                    Best for:
+                    {t("common.bestForLabel")}
                   </span>{" "}
                   {bestFor}
                 </p>

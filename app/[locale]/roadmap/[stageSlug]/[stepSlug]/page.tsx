@@ -419,7 +419,7 @@ export default function StepPage({
           <div className="mb-12">
             <SourcesPanel
               sources={stepSources}
-              note="These sources support the general educational framing on this step. Specific personal religious questions should be taken to a qualified local imam or scholar."
+              note={t("pages.sourceNotes.step")}
             />
           </div>
         </AnimateIn>

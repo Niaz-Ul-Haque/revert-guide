@@ -5,8 +5,8 @@ import { HiddenLocaleRedirect } from "@/components/HiddenLocaleRedirect";
 // Kept out of navigation, search, and sitemaps; noindex like the canonical route.
 
 export const metadata: Metadata = {
-  title: "Dawah Guide | Revert Guide",
-  description: "A private direct-link guide for dawah conversations.",
+  title: "Dawah guide | Revert Guide",
+  description: "A private, direct-link guide for dawah conversations.",
   robots: {
     index: false,
     follow: false,

@@ -1,0 +1,165 @@
+{
+  "prayerSequence": [
+    {
+      "title": "Prepare calmly",
+      "posture": "Before the prayer",
+      "body": "Make wudu, find a clean spot, face the qibla, and settle in your heart which prayer this is. You do not have to say the intention out loud.",
+      "icon": "check",
+      "sourceIds": ["new-muslim-guide-prayer"]
+    },
+    {
+      "title": "Begin standing",
+      "posture": "Opening takbir",
+      "body": "Raise your hands and say Allahu akbar. That opens the prayer, and from that point you have stepped out of ordinary talk and into worship.",
+      "icon": "star",
+      "sourceIds": ["new-muslim-guide-prayer"]
+    },
+    {
+      "title": "Recite in the first rak'ah",
+      "posture": "Standing",
+      "body": "Recite Al-Fatiha, then a short surah or the few verses you are working on. If you are not there yet, keep learning phrase by phrase and ask an imam what to recite in the meantime.",
+      "icon": "book",
+      "sourceIds": ["quran-al-fatihah-1", "quran-al-ikhlas-112"]
+    },
+    {
+      "title": "Bow and rise",
+      "posture": "Ruku",
+      "body": "Bow with your back flat and steady, say the ruku phrase, then stand up straight and pause before you go down. Do not rush this to get it over with.",
+      "icon": "check",
+      "sourceIds": ["hisn-ruku-dhikr"]
+    },
+    {
+      "title": "Prostrate twice",
+      "posture": "Sujud",
+      "body": "Go down into prostration, sit up briefly, then prostrate again. Sujud is the closest you come to Allah in the prayer. Learn the short phrase first, and ask a teacher before you start adding your own dua here.",
+      "icon": "check",
+      "sourceIds": ["hisn-sujud-dhikr"]
+    },
+    {
+      "title": "Repeat for the second rak'ah",
+      "posture": "Second unit",
+      "body": "Stand again and repeat the same shape: Al-Fatiha, a short recitation, ruku, standing back up, then two prostrations.",
+      "icon": "chevron-right",
+      "sourceIds": ["new-muslim-guide-prayer"]
+    },
+    {
+      "title": "Sit for the final words",
+      "posture": "Tashahhud",
+      "body": "After the second rak'ah, sit and recite the tashahhud. Learn it slowly from a teacher or a reliable recording. Small differences in wording between narrations and schools are normal, so do not worry when you hear two versions.",
+      "icon": "info",
+      "sourceIds": ["sunnah-bukhari-tashahhud"]
+    },
+    {
+      "title": "End with salam",
+      "posture": "Taslim",
+      "body": "Turn your head to the right, then the left, giving the greeting of peace each time. That ends the prayer. Sit for a moment before you get up and rejoin your day.",
+      "icon": "star",
+      "sourceIds": ["sunnah-abudawud-taslim"]
+    }
+  ],
+  "recitations": [
+    {
+      "title": "Opening takbir",
+      "occasion": "Start of prayer",
+      "arabic": "اللَّهُ أَكْبَرُ",
+      "transliteration": "Allahu akbar",
+      "meaning": "Allah is the Greatest.",
+      "beginnerNote": "This is the first phrase to learn. Say it clearly and without hurrying. Your accent will come along on its own.",
+      "sourceIds": ["new-muslim-guide-prayer"]
+    },
+    {
+      "title": "Al-Fatiha",
+      "occasion": "Every rak'ah",
+      "arabic": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ\nالْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينَ\nالرَّحْمَٰنِ الرَّحِيمِ\nمَالِكِ يَوْمِ الدِّينِ\nإِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ\nاهْدِنَا الصِّرَاطَ الْمُسْتَقِيمَ\nصِرَاطَ الَّذِينَ أَنْعَمْتَ عَلَيْهِمْ غَيْرِ الْمَغْضُوبِ عَلَيْهِمْ وَلَا الضَّالِّينَ",
+      "transliteration": "Bismillahir-Rahmanir-Rahim. Alhamdu lillahi Rabbil-'alamin. Ar-Rahmanir-Rahim. Maliki yawmid-din. Iyyaka na'budu wa iyyaka nasta'in. Ihdinas-siratal-mustaqim. Siratal-ladhina an'amta 'alayhim ghayril-maghdubi 'alayhim wa lad-dallin.",
+      "meaning": "Translation of meaning: praise, worship, and help belong to Allah, and we ask Him to guide us to the straight path.",
+      "beginnerNote": "Al-Fatiha is the first real memorization goal. Take one phrase at a time, and ask a teacher what to recite while you are still learning it.",
+      "sourceIds": ["quran-al-fatihah-1"]
+    },
+    {
+      "title": "Short surah example: Al-Ikhlas",
+      "occasion": "After Al-Fatiha in the first two rak'ahs",
+      "arabic": "قُلْ هُوَ اللَّهُ أَحَدٌ\nاللَّهُ الصَّمَدُ\nلَمْ يَلِدْ وَلَمْ يُولَدْ\nوَلَمْ يَكُن لَّهُ كُفُوًا أَحَدٌ",
+      "transliteration": "Qul huwa Allahu ahad. Allahus-samad. Lam yalid wa lam yulad. Wa lam yakun lahu kufuwan ahad.",
+      "meaning": "Translation of meaning: Allah is One, self-sufficient, unlike creation, and nothing is comparable to Him.",
+      "beginnerNote": "Most beginners start here. It is short, and it states the oneness of Allah in four lines.",
+      "sourceIds": ["quran-al-ikhlas-112"]
+    },
+    {
+      "title": "Short surah example: Al-'Asr",
+      "occasion": "After Al-Fatiha in the first two rak'ahs",
+      "arabic": "وَالْعَصْرِ\nإِنَّ الْإِنسَانَ لَفِي خُسْرٍ\nإِلَّا الَّذِينَ آمَنُوا وَعَمِلُوا الصَّالِحَاتِ وَتَوَاصَوْا بِالْحَقِّ وَتَوَاصَوْا بِالصَّبْرِ",
+      "transliteration": "Wal-'asr. Innal-insana lafi khusr. Illal-ladhina amanu wa 'amilus-salihat, wa tawasaw bil-haqqi wa tawasaw bis-sabr.",
+      "meaning": "Translation of meaning: people are in loss except those who believe, do good, and encourage truth and patience.",
+      "beginnerNote": "Work on one short surah at a time. Listening to a reliable reciter first does more for you than racing through several chapters.",
+      "sourceIds": ["quran-al-asr-103"]
+    },
+    {
+      "title": "Ruku phrase",
+      "occasion": "While bowing",
+      "arabic": "سُبْحَانَ رَبِّيَ الْعَظِيمِ",
+      "transliteration": "Subhana Rabbiyal-'Azim",
+      "meaning": "Glory be to my Lord, the Most Great.",
+      "beginnerNote": "Most guides teach saying this three times. While you are learning, one clear repetition is a fine place to start. Ask a teacher about the details.",
+      "sourceIds": ["hisn-ruku-dhikr"]
+    },
+    {
+      "title": "Sujud phrase",
+      "occasion": "While prostrating",
+      "arabic": "سُبْحَانَ رَبِّيَ الْأَعْلَى",
+      "transliteration": "Subhana Rabbiyal-A'la",
+      "meaning": "Glory be to my Lord, the Most High.",
+      "beginnerNote": "Sujud feels strange the first few times. Move at a speed your body is happy with, pause once you are down, and learn the phrase. Slow is not a failing.",
+      "sourceIds": ["hisn-sujud-dhikr"]
+    },
+    {
+      "title": "Tashahhud overview",
+      "occasion": "Final sitting",
+      "arabic": "التَّحِيَّاتُ لِلَّهِ وَالصَّلَوَاتُ وَالطَّيِّبَاتُ ...",
+      "transliteration": "At-tahiyyatu lillahi was-salawatu wat-tayyibat...",
+      "meaning": "Translation of meaning: greetings, prayers, and good words are for Allah, followed by testimony of faith.",
+      "beginnerNote": "This card shows the opening only, not the full text to learn from. Get the complete wording from a teacher or a reliable recording.",
+      "sourceIds": ["sunnah-bukhari-tashahhud"]
+    },
+    {
+      "title": "Salam",
+      "occasion": "End of prayer",
+      "arabic": "السَّلَامُ عَلَيْكُمْ وَرَحْمَةُ اللَّهِ",
+      "transliteration": "As-salamu 'alaykum wa rahmatullah",
+      "meaning": "Peace and Allah's mercy be upon you.",
+      "beginnerNote": "This closes the prayer. Turn your head gently each way. There is no need to make a large movement of it.",
+      "sourceIds": ["sunnah-abudawud-taslim"]
+    }
+  ],
+  "cannotReciteYet": [
+    "Keep praying while you learn. Waiting until your Arabic is good enough means waiting forever.",
+    "Memorize Al-Fatiha phrase by phrase. A printed card or a transliteration helps you practice, and a local imam can tell you what to recite in your prayer while you get there.",
+    "Pick one short surah and stay with it until it comes out steadily.",
+    "If pain, disability, trauma, or anxiety changes what your body can do in prayer, ask a qualified teacher about the concessions before you force anything."
+  ],
+  "invalidatesPrayer": [
+    "Losing wudu, such as by using the restroom or passing wind.",
+    "Eating, drinking, or speaking unrelated words on purpose during the prayer.",
+    "Leaving out a required posture, condition, or recitation once you know it is required.",
+    "Ending the prayer or turning away from it deliberately, with no reason to.",
+    "Mistakes, forgetfulness, illness, menstruation, travel, and disability all carry details worth going over with a qualified teacher."
+  ],
+  "commonCorrections": [
+    {
+      "title": "I keep restarting after every small mistake.",
+      "body": "Finish the prayer calmly, then ask about that specific mistake afterwards. The panic usually costs you more than the mistake did."
+    },
+    {
+      "title": "I am embarrassed by my pronunciation.",
+      "body": "Pronunciation comes with repetition and nothing else. Allah knows the difference between someone who is not trying and someone who is still learning."
+    },
+    {
+      "title": "Different videos show different hand positions.",
+      "body": "Those differences are usually all valid, and none of them are a reason to stop praying. Learn one reliable beginner method, and ask a teacher before you switch again."
+    },
+    {
+      "title": "I rush because I feel awkward.",
+      "body": "Slow down until each posture is clearly its own. A short calm prayer teaches you more than a fast anxious one."
+    }
+  ]
+}

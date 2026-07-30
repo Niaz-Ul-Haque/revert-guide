@@ -5,6 +5,7 @@ import type {
   GlossaryEntry,
   Masjid,
   Resource,
+  SourceCategory,
   SourceEntry,
   Stage,
   Step,
@@ -243,4 +244,26 @@ export function getMasjidById(
   locale: Locale = DEFAULT_LOCALE,
 ): Masjid | undefined {
   return getAllMasjids(locale).find((masjid) => masjid.id === id);
+}
+
+export interface SourceCategoryGroup {
+  id: SourceCategory;
+  title: string;
+  description: string;
+}
+
+export interface SourcePolicyNote {
+  title: string;
+  body: string;
+}
+
+export interface SourceCategoryContent {
+  groups: SourceCategoryGroup[];
+  policyNotes: SourcePolicyNote[];
+}
+
+export function getSourceCategoryContent(
+  locale: Locale = DEFAULT_LOCALE,
+): SourceCategoryContent {
+  return readJsonFile<SourceCategoryContent>(locale, "source-categories.json");
 }

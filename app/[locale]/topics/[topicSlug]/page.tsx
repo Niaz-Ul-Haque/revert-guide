@@ -40,31 +40,12 @@ function renderContent(content: string) {
   });
 }
 
-const topicActions: Record<
-  string,
-  { href: string; label: string; body: string }[]
-> = {
-  quran: [
-    {
-      href: "/quran-starter",
-      label: "Open the Quran Starter Path",
-      body: "Choose a translation, begin with short passages, listen calmly, and print a first-week reading rhythm.",
-    },
-  ],
-  prayer: [
-    {
-      href: "/tools/salah-companion",
-      label: "Open the Salah Companion",
-      body: "Learn the shape of a two-rak'ah prayer, beginner recitations, and when to ask an imam.",
-    },
-  ],
-  "dua-and-dhikr": [
-    {
-      href: "/dua-dhikr",
-      label: "Open the Dua and Dhikr Reference",
-      body: "Use a compact, source-tagged set of beginner duas, dhikr phrases, and personal dua boundaries.",
-    },
-  ],
+// Topic id to the tool pages worth surfacing on it. The wording lives under
+// pages.topic.actions in the locale files.
+const topicActions: Record<string, { href: string; actionKey: string }[]> = {
+  quran: [{ href: "/quran-starter", actionKey: "quranStarter" }],
+  prayer: [{ href: "/tools/salah-companion", actionKey: "salahCompanion" }],
+  "dua-and-dhikr": [{ href: "/dua-dhikr", actionKey: "duaDhikr" }],
 };
 
 export function generateStaticParams({
@@ -123,8 +104,14 @@ export default function TopicPage({
 
   const resources = getResourcesByTopicId(topic.id, locale);
   const topicSources = getSourcesByIds(topic.sourceIds ?? [], locale);
-  const actions =
-    locale === DEFAULT_LOCALE ? (topicActions[topic.id] ?? []) : [];
+  // The tool pages build for every locale now, falling back to English
+  // content, so these links are no longer English-only.
+  const actions = (topicActions[topic.id] ?? []).map(({ href, actionKey }) => {
+    const action = t<{ label: string; body: string }>(
+      `pages.topic.actions.${actionKey}`,
+    );
+    return { href, label: action.label, body: action.body };
+  });
 
   return (
     <div className="mx-auto max-w-4xl px-5 py-10">

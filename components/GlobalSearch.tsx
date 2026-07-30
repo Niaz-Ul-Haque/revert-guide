@@ -600,7 +600,7 @@ export function GlobalSearch({
           role="listbox"
           className="flex-1 overflow-y-auto overscroll-contain"
         >
-          {/* Empty state — no query */}
+          {/* Empty state, before the user has typed anything */}
           {!hasQuery && (
             <div className="px-5 py-8 text-center">
               {/* Decorative leaf pattern */}

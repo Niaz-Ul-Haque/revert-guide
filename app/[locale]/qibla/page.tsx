@@ -14,8 +14,7 @@ export default function QiblaPage({ params }: { params: { locale: Locale } }) {
   const locale = params.locale;
   const t = getTranslator(locale);
   const copy = t<Record<string, string>>("pages.qibla");
-  const sources =
-    locale === "en" ? getSourcesByIds(["qibla-local-calculation"], locale) : [];
+  const sources = getSourcesByIds(["qibla-local-calculation"], locale);
 
   return (
     <div className="mx-auto max-w-4xl px-5 py-10">
@@ -47,7 +46,7 @@ export default function QiblaPage({ params }: { params: { locale: Locale } }) {
           <div className="mt-10">
             <SourcesPanel
               sources={sources}
-              note="This page calculates a local bearing from your coordinates to the Kaaba. Device compass readings can be affected by sensors, cases, magnets, and indoor conditions."
+              note={t("pages.sourceNotes.qibla")}
             />
           </div>
         </AnimateIn>

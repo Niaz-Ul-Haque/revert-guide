@@ -94,7 +94,7 @@ const dawahGuideUiLabels: Record<"en" | "bn", DawahGuideUiLabels> = {
     viewModeAriaLabel: "View mode",
     guidedFlow: "Guided flow",
     quickReference: "Quick reference",
-    printSavePdf: "Print / Save as PDF",
+    printSavePdf: "Print or save as PDF",
     stepStatus: (step, total, title) => `Step ${step} of ${total}: ${title}`,
     stepOf: (step, total) => `Step ${step} of ${total}`,
     conversationPathAriaLabel: "Conversation path so far",
@@ -103,20 +103,20 @@ const dawahGuideUiLabels: Record<"en" | "bn", DawahGuideUiLabels> = {
     continue: "Continue",
     back: "Back",
     restartGuide: "Restart guide",
-    pauseGentleExit: "Pause — gentle exit",
-    draftPendingReview: "Draft — pending review",
+    pauseGentleExit: "Pause, gentle exit",
+    draftPendingReview: "Draft, pending review",
     sourceChecked: "Source checked",
     verified: "Verified",
-    guideSourceChecked: "Source checked - qualified review pending",
+    guideSourceChecked: "Source checked, qualified review pending",
     translation: "Translation",
     sourcePrefix: "Source:",
     viewSource: "View source",
-    gorapHeading: "GORAP — logical progression",
+    gorapHeading: "GORAP, a logical progression",
     gorapSubheading: "The path of truth and guidance.",
     suggestionsHeading: "General suggestions",
     outsideTheField: "Outside the field",
     onTheField: "On the field",
-    toneHeading: "Be patient · Be sincere",
+    toneHeading: "Be patient, be sincere",
     toneSubheading: "Leave the result to Allah.",
     quickReferenceHeading: "Quick reference",
     gorapAtGlance: "GORAP at a glance",
@@ -127,8 +127,8 @@ const dawahGuideUiLabels: Record<"en" | "bn", DawahGuideUiLabels> = {
     sourcePendingReview: "Source pending review",
     moreForDaees: "More for da'ees",
     moreForDaeesIntro:
-      "Optional supporting material for real conversations — open what you need.",
-    commonQuestionsTitle: "Common questions & gentle answers",
+      "Optional material for real conversations. Open whichever part you need.",
+    commonQuestionsTitle: "Common questions and gentle answers",
     misconceptionsTitle: "Responding to misconceptions",
     scenariosTitle: "Scenario-based guidance",
     trainingCardsTitle: "Da'ee training cards",
@@ -175,7 +175,7 @@ const dawahGuideUiLabels: Record<"en" | "bn", DawahGuideUiLabels> = {
     draftPendingReview: "খসড়া — পর্যালোচনা বাকি",
     sourceChecked: "Source checked",
     verified: "Verified",
-    guideSourceChecked: "Source checked - qualified review pending",
+    guideSourceChecked: "Source checked, qualified review pending",
     translation: "অর্থ",
     sourcePrefix: "উৎস:",
     viewSource: "উৎস দেখুন",
@@ -711,7 +711,10 @@ function ReferenceBlock({
           <span className="text-xs uppercase tracking-wide text-textMuted">
             {labels.translation}
           </span>
-          <p className="mb-0 mt-1 italic">“{reference.translation}”</p>
+          {/* No quote marks added here: the blockquote and the Translation
+              label already mark it as a quotation, and several Clear Quran
+              translations carry their own opening and closing quotes. */}
+          <p className="mb-0 mt-1 italic">{reference.translation}</p>
         </blockquote>
       )}
 
@@ -885,7 +888,7 @@ function QuickReferenceView({
                 {item.letter}
               </span>
               <span className="text-textPrimary">
-                <strong>{item.title}</strong> — {item.explanation}
+                <strong>{item.title}:</strong> {item.explanation}
               </span>
             </li>
           ))}
@@ -899,7 +902,7 @@ function QuickReferenceView({
             return (
               <li key={nodeId} className="text-textPrimary">
                 <span className="font-medium">{node.title}</span>
-                <span className="text-textSecondary"> — {node.summary}</span>
+                <span className="text-textSecondary">: {node.summary}</span>
               </li>
             );
           })}
@@ -1359,7 +1362,7 @@ function AdditionalGuidancePanels({
   );
 }
 
-// Plain, single-column layout shown only when printing — a clean training
+// Plain, single-column layout shown only when printing. A clean training
 // handout covering the whole flow, GORAP, suggestions, and references.
 function PrintSummary({
   guide,
@@ -1375,7 +1378,7 @@ function PrintSummary({
         {guide.gorap.map((item) => (
           <li key={item.letter}>
             <strong>
-              {item.letter} — {item.title}:
+              {item.letter}. {item.title}:
             </strong>{" "}
             {item.explanation}
           </li>
@@ -1461,8 +1464,7 @@ function PrintSummary({
         {guide.references.map((ref) => (
           <li key={ref.id}>
             <strong>{ref.citation}</strong>
-            {ref.translation ? ` — “${ref.translation}”` : ""} (
-            {ref.reviewStatus})
+            {ref.translation ? `. ${ref.translation}` : ""} ({ref.reviewStatus})
           </li>
         ))}
       </ul>

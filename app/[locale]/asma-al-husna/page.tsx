@@ -18,10 +18,7 @@ export default function AsmaAlHusnaPage({
   const locale = params.locale;
   const t = getTranslator(locale);
   const copy = t<Record<string, string>>("pages.asmaAlHusna");
-  const sources =
-    locale === "en"
-      ? getSourcesByIds(["aladhan-api", "sunnah-com"], locale)
-      : [];
+  const sources = getSourcesByIds(["aladhan-api", "sunnah-com"], locale);
 
   return (
     <div className="mx-auto max-w-4xl px-5 py-10">
@@ -53,7 +50,7 @@ export default function AsmaAlHusnaPage({
           <div className="mt-10">
             <SourcesPanel
               sources={sources}
-              note="The displayed names and concise English meanings are fetched from AlAdhan. The hadith reference is included for the general virtue of learning the names; deeper study should use qualified teaching."
+              note={t("pages.sourceNotes.asmaAlHusna")}
             />
           </div>
         </AnimateIn>

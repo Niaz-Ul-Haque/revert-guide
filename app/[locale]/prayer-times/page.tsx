@@ -18,8 +18,7 @@ export default function PrayerTimesPage({
   const locale = params.locale;
   const t = getTranslator(locale);
   const copy = t<Record<string, string>>("pages.prayerTimes");
-  const sources =
-    locale === "en" ? getSourcesByIds(["aladhan-api"], locale) : [];
+  const sources = getSourcesByIds(["aladhan-api"], locale);
 
   return (
     <div className="mx-auto max-w-2xl px-5 py-10">
@@ -51,7 +50,7 @@ export default function PrayerTimesPage({
           <div className="mt-10">
             <SourcesPanel
               sources={sources}
-              note="Prayer times on this page come from AlAdhan. Calculation methods can differ, so confirm exact schedules with your local masjid when timing matters."
+              note={t("pages.sourceNotes.prayerTimes")}
             />
           </div>
         </AnimateIn>

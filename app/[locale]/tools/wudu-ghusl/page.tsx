@@ -1,23 +1,36 @@
-import { notFound } from "next/navigation";
 import { Breadcrumb } from "@/components/Breadcrumb";
 import { Button } from "@/components/Button";
-import { Icon, type IconName } from "@/components/Icon";
+import { Icon } from "@/components/Icon";
 import { AnimateIn } from "@/components/AnimateIn";
 import { PrintButton } from "@/components/PrintButton";
 import { SourcesPanel } from "@/components/SourceTags";
 import { getSourcesByIds } from "@/lib/content";
-import {
-  DEFAULT_LOCALE,
-  getTranslator,
-  localizeHref,
-  type Locale,
-} from "@/lib/i18n";
+import { getWuduGhuslContent, type PracticeStep } from "@/lib/tool-content";
+import { getTranslator, localizeHref, type Locale } from "@/lib/i18n";
 import { buildPageMetadata } from "@/lib/metadata";
 
-interface PracticeStep {
+interface WuduGhuslCopy {
+  metadataTitle: string;
+  metadataDescription: string;
+  eyebrow: string;
   title: string;
-  body: string;
-  icon: IconName;
+  subtitle: string;
+  purificationTopicButton: string;
+  mattersMostTitle: string;
+  mattersMost: string[];
+  wuduTitle: string;
+  wuduBody: string;
+  ghuslTitle: string;
+  ghuslBody: string;
+  stepLabel: string;
+  wuduBreaksTitle: string;
+  ghuslNeededTitle: string;
+  correctionsTitle: string;
+  askQualifiedTitle: string;
+  askQualified: string[];
+  sourcesNote: string;
+  ghuslRoadmapButton: string;
+  prayerTopicButton: string;
 }
 
 const sourceIds = [
@@ -27,120 +40,24 @@ const sourceIds = [
   "seekersguidance",
 ];
 
-const wuduSteps: PracticeStep[] = [
-  {
-    title: "Set your intention",
-    body: "In your heart, intend to make wudu so you can pray. You do not need to say a special formula out loud.",
-    icon: "lightbulb",
-  },
-  {
-    title: "Begin with Allah's name",
-    body: "Say Bismillah if you remember. If you forget, continue calmly and do not restart out of panic.",
-    icon: "star",
-  },
-  {
-    title: "Wash hands",
-    body: "Wash both hands up to the wrists, making sure water reaches between the fingers.",
-    icon: "check",
-  },
-  {
-    title: "Rinse mouth and nose",
-    body: "Rinse the mouth and gently clean the nose. Use a level of water that is comfortable and safe.",
-    icon: "check",
-  },
-  {
-    title: "Wash face",
-    body: "Wash the face from the hairline to the chin and from ear to ear.",
-    icon: "check",
-  },
-  {
-    title: "Wash arms",
-    body: "Wash the right arm through the elbow, then the left arm through the elbow.",
-    icon: "check",
-  },
-  {
-    title: "Wipe head and ears",
-    body: "With wet hands, wipe the head. Many beginner guides also include wiping the ears once.",
-    icon: "check",
-  },
-  {
-    title: "Wash feet",
-    body: "Wash the right foot through the ankle, then the left foot through the ankle.",
-    icon: "check",
-  },
-];
-
-const ghuslSteps: PracticeStep[] = [
-  {
-    title: "Set your intention",
-    body: "In your heart, intend a full purification bath for Allah. A normal shower can be used when the intention and full washing are present.",
-    icon: "lightbulb",
-  },
-  {
-    title: "Wash private areas if needed",
-    body: "Clean any area that needs cleaning in a modest, private way before continuing.",
-    icon: "check",
-  },
-  {
-    title: "Make wudu",
-    body: "Perform wudu as part of the ghusl. If your wudu breaks after the ghusl, make wudu again before prayer.",
-    icon: "check",
-  },
-  {
-    title: "Wash head and hair roots",
-    body: "Let water reach the scalp and hair roots as best you can. Ask a qualified person about braids, medical needs, or special hair situations.",
-    icon: "info",
-  },
-  {
-    title: "Wash the whole body",
-    body: "Wash the whole body so water reaches the skin, often starting with the right side and then the left.",
-    icon: "check",
-  },
-];
-
-const wuduBreaks = [
-  "Using the restroom or passing wind.",
-  "Deep sleep or loss of consciousness.",
-  "Some details, such as bleeding or touching private areas, can differ by school of law. Ask a qualified local teacher if this affects you often.",
-];
-
-const ghuslNeeded = [
-  "After marital intimacy or sexual discharge.",
-  "After menstruation or postpartum bleeding ends.",
-  "When entering Islam, many scholars recommend or require ghusl. If you already took Shahada and have not done it yet, do it calmly when you can.",
-];
-
-const commonCorrections = [
-  {
-    title: "I keep restarting because I feel unsure.",
-    body: "Do the steps once with attention, then move on. Repeating because of anxiety can turn purification into a burden.",
-  },
-  {
-    title: "I forgot one recommended detail.",
-    body: "Do not panic. Learn the essentials first and ask a teacher about what is required in your school of law.",
-  },
-  {
-    title: "Water is hard to use because of illness or injury.",
-    body: "Ask a qualified person about concessions such as wiping over a bandage or tayammum. Medical harm should be taken seriously.",
-  },
-  {
-    title: "I am confused by different videos.",
-    body: "Choose one reliable beginner method and learn it well. Differences in small details do not mean your worship is hopeless.",
-  },
-];
-
 export function generateMetadata({ params }: { params: { locale: Locale } }) {
   const t = getTranslator(params.locale);
+  const copy = t<WuduGhuslCopy>("pages.wuduGhusl");
   return buildPageMetadata({
     locale: params.locale,
-    title: `Wudu and Ghusl Guide - ${t("brand.name")}`,
-    description:
-      "A beginner-friendly, print-friendly English guide to wudu, ghusl, common mistakes, and when to ask a qualified person.",
+    title: `${copy.metadataTitle} - ${t("brand.name")}`,
+    description: copy.metadataDescription,
     path: "/tools/wudu-ghusl",
   });
 }
 
-function StepGrid({ steps }: { steps: PracticeStep[] }) {
+function StepGrid({
+  steps,
+  stepLabel,
+}: {
+  steps: PracticeStep[];
+  stepLabel: string;
+}) {
   return (
     <div className="grid gap-4 md:grid-cols-2">
       {steps.map((step, index) => (
@@ -154,7 +71,7 @@ function StepGrid({ steps }: { steps: PracticeStep[] }) {
             </span>
             <div>
               <p className="mb-0 text-xs font-semibold uppercase tracking-wider text-textMuted">
-                Step {index + 1}
+                {stepLabel.replace("{number}", String(index + 1))}
               </p>
               <h3 className="mb-0 mt-0 text-base font-semibold text-textPrimary">
                 {step.title}
@@ -195,9 +112,10 @@ export default function WuduGhuslPage({
   params: { locale: Locale };
 }) {
   const locale = params.locale;
-  if (locale !== DEFAULT_LOCALE) notFound();
-
   const t = getTranslator(locale);
+  const copy = t<WuduGhuslCopy>("pages.wuduGhusl");
+  const { wuduSteps, ghuslSteps, wuduBreaks, ghuslNeeded, commonCorrections } =
+    getWuduGhuslContent(locale);
   const sources = getSourcesByIds(sourceIds, locale);
 
   return (
@@ -214,15 +132,13 @@ export default function WuduGhuslPage({
         <header className="mb-10 max-w-3xl">
           <p className="mb-3 inline-flex items-center gap-2 rounded-full bg-primary/10 px-3 py-1 text-xs font-semibold uppercase tracking-wider text-primary">
             <Icon name="check" size="sm" />
-            Worship learning tool
+            {copy.eyebrow}
           </p>
           <h1 className="mb-4 font-display text-3xl font-semibold tracking-tight text-textPrimary md:text-4xl">
-            Wudu and Ghusl Guide
+            {copy.title}
           </h1>
           <p className="mb-6 text-lg leading-relaxed text-textSecondary">
-            A simple, print-friendly guide to purification before prayer. Start
-            with the essentials, learn calmly, and ask a qualified teacher about
-            details that affect your personal situation.
+            {copy.subtitle}
           </p>
           <div className="flex flex-wrap gap-3">
             <PrintButton />
@@ -230,7 +146,7 @@ export default function WuduGhuslPage({
               href={localizeHref(locale, "/topics/purification")}
               variant="outline"
             >
-              Purification topic
+              {copy.purificationTopicButton}
               <Icon name="chevron-right" size="sm" />
             </Button>
           </div>
@@ -246,14 +162,10 @@ export default function WuduGhuslPage({
             id="what-matters-heading"
             className="mb-4 mt-0 font-display text-2xl font-semibold tracking-tight text-textPrimary"
           >
-            What Matters Most
+            {copy.mattersMostTitle}
           </h2>
           <div className="grid gap-4 md:grid-cols-3">
-            {[
-              "Water reaches the required areas.",
-              "You make purification for Allah, not from panic.",
-              "You ask about unusual medical, work, or family situations.",
-            ].map((item) => (
+            {copy.mattersMost.map((item) => (
               <div
                 key={item}
                 className="rounded-xl border border-border/50 bg-white p-4"
@@ -275,15 +187,13 @@ export default function WuduGhuslPage({
               id="wudu-heading"
               className="mb-2 font-display text-2xl font-semibold tracking-tight text-textPrimary"
             >
-              Wudu Step By Step
+              {copy.wuduTitle}
             </h2>
             <p className="mb-0 text-sm leading-relaxed text-textSecondary">
-              Wudu is the partial purification normally made before prayer.
-              Quran 5:6 is a core reference for the required washed and wiped
-              areas, and beginner guides explain the practical sequence.
+              {copy.wuduBody}
             </p>
           </div>
-          <StepGrid steps={wuduSteps} />
+          <StepGrid steps={wuduSteps} stepLabel={copy.stepLabel} />
         </section>
       </AnimateIn>
 
@@ -294,15 +204,13 @@ export default function WuduGhuslPage({
               id="ghusl-heading"
               className="mb-2 font-display text-2xl font-semibold tracking-tight text-textPrimary"
             >
-              Ghusl Step By Step
+              {copy.ghuslTitle}
             </h2>
             <p className="mb-0 text-sm leading-relaxed text-textSecondary">
-              Ghusl is the full-body purification bath. Keep it modest and
-              simple: intend purification, clean what needs cleaning, and make
-              sure water reaches the whole body.
+              {copy.ghuslBody}
             </p>
           </div>
-          <StepGrid steps={ghuslSteps} />
+          <StepGrid steps={ghuslSteps} stepLabel={copy.stepLabel} />
         </section>
       </AnimateIn>
 
@@ -316,7 +224,7 @@ export default function WuduGhuslPage({
               id="wudu-breaks-heading"
               className="mb-4 mt-0 font-display text-2xl font-semibold tracking-tight text-textPrimary"
             >
-              When Wudu Breaks
+              {copy.wuduBreaksTitle}
             </h2>
             <SimpleList items={wuduBreaks} />
           </section>
@@ -331,7 +239,7 @@ export default function WuduGhuslPage({
               id="ghusl-needed-heading"
               className="mb-4 mt-0 font-display text-2xl font-semibold tracking-tight text-textPrimary"
             >
-              When Ghusl Is Needed
+              {copy.ghuslNeededTitle}
             </h2>
             <SimpleList items={ghuslNeeded} />
           </section>
@@ -344,7 +252,7 @@ export default function WuduGhuslPage({
             id="corrections-heading"
             className="mb-5 font-display text-2xl font-semibold tracking-tight text-textPrimary"
           >
-            Common Mistakes And Gentle Corrections
+            {copy.correctionsTitle}
           </h2>
           <div className="grid gap-4 md:grid-cols-2">
             {commonCorrections.map((item) => (
@@ -373,26 +281,16 @@ export default function WuduGhuslPage({
             id="qualified-help-heading"
             className="mb-2 mt-0 text-lg font-semibold text-textPrimary"
           >
-            Ask A Qualified Person If
+            {copy.askQualifiedTitle}
           </h2>
-          <SimpleList
-            items={[
-              "You have a medical condition, wound, disability, or severe dryness that makes water difficult.",
-              "You are unsure about menstruation, postpartum bleeding, discharge, or intimacy-related rulings.",
-              "Your job, school, travel, or family situation makes purification hard to manage.",
-              "You feel trapped in repeating wudu or ghusl because of anxiety.",
-            ]}
-          />
+          <SimpleList items={copy.askQualified} />
         </section>
       </AnimateIn>
 
       {sources.length > 0 && (
         <AnimateIn>
           <div className="mb-10">
-            <SourcesPanel
-              sources={sources}
-              note="This page is a beginner worship tool. Some purification details differ by school of law, and personal situations should be reviewed with a qualified local imam or scholar."
-            />
+            <SourcesPanel sources={sources} note={copy.sourcesNote} />
           </div>
         </AnimateIn>
       )}
@@ -403,13 +301,13 @@ export default function WuduGhuslPage({
             href={localizeHref(locale, "/roadmap/day-0-1/ghusl")}
             variant="primary"
           >
-            Go to the Ghusl roadmap step
+            {copy.ghuslRoadmapButton}
           </Button>
           <Button
             href={localizeHref(locale, "/topics/prayer")}
             variant="outline"
           >
-            Prayer topic
+            {copy.prayerTopicButton}
             <Icon name="chevron-right" size="sm" />
           </Button>
         </div>

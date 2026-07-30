@@ -106,5 +106,15 @@ locales/fr/seasonal-guides.json
 ## Notes
 
 - The guide content still falls back to English until translated guide JSON files are added.
-- Existing routes such as `dua-dhikr`, `quran-starter`, `tools/wudu-ghusl`, and `tools/salah-companion` still contain large English content arrays in their page files. They were not converted in this pass because they require a larger content-file migration, but the build currently generates them for every locale.
 - `npm run build` passed after this update.
+
+## Follow-up, since completed
+
+A later pass finished the migration this update left open. `dua-dhikr`,
+`quran-starter`, `tools/wudu-ghusl`, `tools/salah-companion`, and the Ramadan
+planning sections now read their content from `locales/en/tools/*.json` and
+`locales/en/pages/ramadan-planning.json` through `lib/tool-content.ts`. The
+English guide arrays in `lib/life-guides.ts` and `lib/seasonal-guides.ts` moved
+to `locales/en/life-guides.json` and `locales/en/seasonal-guides.json`. The
+`locale !== DEFAULT_LOCALE` guards on those routes are gone, so every locale
+renders them with the English fallback.

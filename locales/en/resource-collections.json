@@ -1,0 +1,104 @@
+{
+  "collections": [
+    {
+      "title": "First week essentials",
+      "body": "One or two calm places to start in the week after your Shahada.",
+      "icon": "star",
+      "resourceIds": [
+        "welcome-to-islam-book",
+        "new-muslim-academy",
+        "being-muslim-book"
+      ]
+    },
+    {
+      "title": "Learn prayer",
+      "body": "Get the movements, the washing, and the daily timing down without rushing any of it.",
+      "icon": "check",
+      "resourceIds": ["learn-salah-guide", "wudu-tutorial", "muslim-pro-app"]
+    },
+    {
+      "title": "Quran beginner tools",
+      "body": "Read the meaning, listen to recitation, and build a habit you can keep.",
+      "icon": "book",
+      "resourceIds": ["quran-com", "clear-quran-translation", "tarteel-ai-app"]
+    },
+    {
+      "title": "Mentor resources",
+      "body": "If you are helping someone new, this is where to point them and what to teach first.",
+      "icon": "users",
+      "resourceIds": ["new-muslim-guide-icna", "new-muslim-academy", "whyislam"]
+    },
+    {
+      "title": "Mental health and support",
+      "body": "Counselors and crisis lines that understand faith, for the harder stretches.",
+      "icon": "alert-circle",
+      "resourceIds": [
+        "khalil-center",
+        "naseeha-mental-health",
+        "convert-mental-health-article"
+      ]
+    },
+    {
+      "title": "Family and identity",
+      "body": "For the conversations with family, and for the days you wonder where you fit.",
+      "icon": "globe",
+      "resourceIds": [
+        "whyislam",
+        "aboutislam-new-muslims",
+        "convert-story-videos"
+      ]
+    },
+    {
+      "title": "Ramadan and Eid",
+      "body": "Getting ready for fasting, daily worship, the long nights at the masjid, and Eid.",
+      "icon": "clock",
+      "resourceIds": [
+        "ramadan-guide-yaqeen",
+        "new-muslim-guide-site",
+        "fortress-muslim-dua-book"
+      ]
+    },
+    {
+      "title": "Zakat and giving",
+      "body": "Enough to understand how Zakat works. Anything to do with your own calculation needs a qualified second pair of eyes.",
+      "icon": "file-text",
+      "resourceIds": [
+        "islamic-relief-usa-zakat-faq",
+        "launchgood-zakat-policy",
+        "zakat-calculator"
+      ]
+    }
+  ],
+  "featureCards": [
+    {
+      "title": "Wudu and Ghusl guide",
+      "body": "How to do both washings, step by step, with the mistakes people usually make and notes on where the details come from.",
+      "href": "/tools/wudu-ghusl",
+      "icon": "check"
+    },
+    {
+      "title": "Practical life guides",
+      "body": "Family, community, relationships, halal choices day to day, and advice for anyone mentoring a new Muslim.",
+      "href": "/guides",
+      "icon": "users"
+    },
+    {
+      "title": "Seasonal guides",
+      "body": "Eid, Dhul Hijjah, Hajj, Umrah, and the basics of Zakat.",
+      "href": "/seasonal",
+      "icon": "star"
+    }
+  ],
+  "chooseChecklist": [
+    "Who made it? Look for a named author, teacher, publisher, masjid, school, or organization.",
+    "Is it beginner friendly? Good material explains its terms and never makes you feel stupid for asking.",
+    "Does it separate source, opinion, and local custom? Be careful with anything that presents all three as equally required.",
+    "Does it pressure you or cut you off from people? Good teaching makes it easier to go and ask someone qualified.",
+    "Is the question personal or sensitive? Take details of worship, family, money, health, safety, and anything legal to someone qualified."
+  ],
+  "warnings": [
+    "Skip anonymous fatwa screenshots, quote images, and copied PDFs with no clear source.",
+    "Do not make debate channels your main way of learning, especially in your first few months.",
+    "Walk away from anything that shames beginners, rushes you into big life decisions, or discourages a second opinion from someone qualified."
+  ]
+}

@@ -1,0 +1,159 @@
+{
+  "vocabulary": [
+    {
+      "term": "Arabic Quran",
+      "body": "The revealed Arabic text. When this page links to a verse, the Arabic is the Quran, and everything else is help understanding it."
+    },
+    {
+      "term": "Translation of meaning",
+      "body": "An English rendering that carries the sense across. It helps you understand, and it is not itself the Quran."
+    },
+    {
+      "term": "Transliteration",
+      "body": "Arabic sounds written out in English letters. Handy for practice, though your ear will learn more from a teacher or a reliable reciter."
+    },
+    {
+      "term": "Tafsir",
+      "body": "Scholarly explanation of what a verse means, when it came, and what it asks of you. Reach for it when a verse feels difficult."
+    }
+  ],
+  "translationTips": [
+    "Pick a translation where you can find out who translated it, who published it, and how they worked.",
+    "Readable English with footnotes beats an anonymous PDF or a screenshot someone posted.",
+    "Compare two translations when you are studying. If comparing them starts making you anxious, go back to one.",
+    "When a verse touches belief, worship, your family, your safety, or a decision you are about to make, ask a qualified teacher."
+  ],
+  "readingPaths": [
+    {
+      "title": "First sitting",
+      "time": "10 to 20 minutes",
+      "body": "Start with short chapters that double as prayer practice. Read the meaning slowly, then listen once. Leave your pronunciation alone for now.",
+      "readings": [
+        "Al-Fatiha, chapter 1",
+        "Al-Ikhlas, chapter 112",
+        "Al-Falaq, chapter 113",
+        "An-Nas, chapter 114"
+      ],
+      "sourceIds": [
+        "quran-al-fatihah-1",
+        "quran-al-ikhlas-112",
+        "quran-al-falaq-113",
+        "quran-an-nas-114"
+      ]
+    },
+    {
+      "title": "Mercy and hope",
+      "time": "One quiet sitting",
+      "body": "Read this when shame or fear is louder than hope. Sit with what these verses say about how near Allah is and how ready to forgive, before you add anything else.",
+      "readings": ["Quran 39:53", "Quran 2:186", "Quran 23:109"],
+      "sourceIds": [
+        "quran-39-53-mercy",
+        "quran-2-186-dua-nearness",
+        "quran-23-109-forgiveness"
+      ]
+    },
+    {
+      "title": "Prophets and purpose",
+      "time": "Several short sittings",
+      "body": "Read Surah Yusuf a few pages at a time. It runs as one continuous story: a family that turns on him, long patience, temptation, prison, and forgiveness at the end.",
+      "readings": ["Surah Yusuf, chapter 12"],
+      "sourceIds": ["quran-yusuf-12"]
+    },
+    {
+      "title": "Prayer and worship",
+      "time": "15 minutes",
+      "body": "Tie your reading to your prayer. These passages put prayer in its place: remembrance, a request for guidance, and somewhere to go when you need patience.",
+      "readings": ["Al-Fatiha, chapter 1", "Quran 20:14", "Quran 2:153"],
+      "sourceIds": [
+        "quran-al-fatihah-1",
+        "quran-20-14-prayer-remembrance",
+        "quran-2-153-patience-prayer"
+      ]
+    },
+    {
+      "title": "Character and patience",
+      "time": "10 minutes",
+      "body": "Keep this one practical. After you read, ask what it would change about how you speak, how patient you are, and how you treat people today.",
+      "readings": ["Al-'Asr, chapter 103", "Quran 2:153"],
+      "sourceIds": ["quran-al-asr-103", "quran-2-153-patience-prayer"]
+    }
+  ],
+  "weekPlan": [
+    {
+      "day": "Day 1",
+      "title": "Open with Al-Fatiha",
+      "body": "Read the meaning of Al-Fatiha, then listen to it once. Carry the line about guidance with you through the day.",
+      "sourceIds": ["quran-al-fatihah-1"]
+    },
+    {
+      "day": "Day 2",
+      "title": "Learn the three short protectors",
+      "body": "Read Al-Ikhlas, Al-Falaq, and An-Nas. Notice what they say about Allah being one, and about asking for protection. Do not try to memorize them today.",
+      "sourceIds": [
+        "quran-al-ikhlas-112",
+        "quran-al-falaq-113",
+        "quran-an-nas-114"
+      ]
+    },
+    {
+      "day": "Day 3",
+      "title": "Read for hope",
+      "body": "Read Quran 39:53 slowly. Then write one sentence, in your own words, about what Allah's mercy means for your situation.",
+      "sourceIds": ["quran-39-53-mercy"]
+    },
+    {
+      "day": "Day 4",
+      "title": "Make your own dua",
+      "body": "Read Quran 2:186 and 23:109. Then make a short dua in English, in your own words.",
+      "sourceIds": ["quran-2-186-dua-nearness", "quran-23-109-forgiveness"]
+    },
+    {
+      "day": "Day 5",
+      "title": "Connect Quran to prayer",
+      "body": "Read Quran 20:14 and listen to Al-Fatiha again. Prayer is remembrance first. Getting it perfect comes later.",
+      "sourceIds": ["quran-20-14-prayer-remembrance", "quran-al-fatihah-1"]
+    },
+    {
+      "day": "Day 6",
+      "title": "Practice patience",
+      "body": "Read Quran 2:153 and Al-'Asr. Pick one small thing today where you will be patient, or tell the truth when it would be easier not to.",
+      "sourceIds": ["quran-2-153-patience-prayer", "quran-al-asr-103"]
+    },
+    {
+      "day": "Day 7",
+      "title": "Review and ask one question",
+      "body": "Go back to whichever passage stayed with you. If something confused you, write down the exact verse and take it to a teacher you trust.",
+      "sourceIds": ["quran-com", "seekersguidance"]
+    }
+  ],
+  "resourceLinks": [
+    {
+      "title": "Quran.com",
+      "body": "Read, listen, compare translations, and open reciter pages from a browser, so there is nothing to install.",
+      "href": "https://quran.com/",
+      "sourceIds": ["quran-com"],
+      "icon": "book"
+    },
+    {
+      "title": "The Clear Quran",
+      "body": "A readable English translation of the meaning. Use it to understand, and keep the Arabic as the Quran itself.",
+      "href": "https://theclearquran.org/",
+      "sourceIds": ["clear-quran"],
+      "icon": "file-text"
+    },
+    {
+      "title": "New Muslim Academy",
+      "body": "Beginner classes and Quran help, written for people who are new to Islam.",
+      "href": "https://www.newmuslimacademy.org/",
+      "sourceIds": ["new-muslim-academy"],
+      "icon": "users"
+    },
+    {
+      "title": "Mishari Rashid al-Afasy on Quran.com",
+      "body": "A clear reciter to listen along with. Listen through first, then repeat one short piece.",
+      "href": "https://quran.com/reciters/7",
+      "sourceIds": ["quran-reciter-mishary"],
+      "icon": "play"
+    }
+  ]
+}

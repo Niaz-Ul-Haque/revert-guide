@@ -316,7 +316,7 @@ export default function StagePage({
           <div className="mb-12">
             <SourcesPanel
               sources={stageSources}
-              note="Stage guidance is general education for new Muslims. Local mentors and qualified teachers can help you apply it to your situation."
+              note={t("pages.sourceNotes.stage")}
             />
           </div>
         </AnimateIn>

@@ -4,7 +4,7 @@ import Link from "next/link";
 import { Breadcrumb } from "@/components/Breadcrumb";
 import { AnimateIn } from "@/components/AnimateIn";
 import { Icon } from "@/components/Icon";
-import { getAllSources } from "@/lib/content";
+import { getAllSources, getSourceCategoryContent } from "@/lib/content";
 import {
   DEFAULT_LOCALE,
   getTranslator,
@@ -13,7 +13,6 @@ import {
   type Messages,
 } from "@/lib/i18n";
 import { getPageMetadata } from "@/lib/metadata";
-import type { SourceCategory } from "@/lib/types";
 
 const sourceLinkHrefs: Record<string, string[]> = {
   "quran-refs": [
@@ -35,79 +34,6 @@ const sourceLinkHrefs: Record<string, string[]> = {
   "book-refs": ["/topics/quran", "", "", "/topics/prayer"],
 };
 
-const sourceGroups: {
-  id: SourceCategory;
-  title: string;
-  description: string;
-}[] = [
-  {
-    id: "quran",
-    title: "Quran Text and Translation",
-    description:
-      "Quran Arabic text and English translations of meaning must be clearly distinguished.",
-  },
-  {
-    id: "hadith",
-    title: "Hadith References",
-    description:
-      "Hadith citations should preserve collection names, numbering, and grading where available.",
-  },
-  {
-    id: "new-muslim-education",
-    title: "New Muslim Education",
-    description:
-      "Beginner education sources are used for practical framing, not personalized rulings.",
-  },
-  {
-    id: "mental-health",
-    title: "Mental Health and Crisis Support",
-    description:
-      "Health and crisis content links to official public health or qualified clinical sources.",
-  },
-  {
-    id: "public-rights",
-    title: "Public Rights and Accommodation",
-    description:
-      "Legal-adjacent content stays general and links to official public information without replacing legal advice.",
-  },
-  {
-    id: "public-safety",
-    title: "Public Safety and Abuse Support",
-    description:
-      "Safety content points users toward professional local support and avoids personalized safety planning.",
-  },
-  {
-    id: "public-travel",
-    title: "Public Travel and Pilgrimage Rules",
-    description:
-      "Travel-adjacent pilgrimage content links to official public information and warns that rules can change.",
-  },
-  {
-    id: "tools-data",
-    title: "Tools and Data",
-    description:
-      "Tool pages identify their data providers, calculation notes, and accuracy limits.",
-  },
-  {
-    id: "masjid-community",
-    title: "Masjid and Community",
-    description:
-      "Local information can change, so users should verify times and programs directly.",
-  },
-  {
-    id: "zakat-financial-education",
-    title: "Zakat and Financial Education",
-    description:
-      "Financial content stays educational and points users to qualified review for personal cases.",
-  },
-  {
-    id: "resource-publisher",
-    title: "Resource Publishers and Organizations",
-    description:
-      "Resource cards identify the organization, author, or publisher behind the recommendation.",
-  },
-];
-
 export function generateMetadata({ params }: { params: { locale: Locale } }) {
   return getPageMetadata(params.locale, "sources", "/sources");
 }
@@ -125,6 +51,9 @@ export default function SourcesPage({
     locale === DEFAULT_LOCALE ? getAllSources(locale) : [];
 
   if (locale === DEFAULT_LOCALE) {
+    const { groups: sourceGroups, policyNotes } =
+      getSourceCategoryContent(locale);
+
     return (
       <div className="mx-auto max-w-5xl px-5 py-10">
         <Breadcrumb
@@ -139,10 +68,11 @@ export default function SourcesPage({
             {copy.title}
           </h1>
           <p className="mb-8 max-w-3xl text-base leading-relaxed text-textSecondary">
-            Revert Guide uses sources to help new Muslims see where religious,
-            practical, health, and tool guidance comes from. Sources do not
-            replace a qualified local imam, scholar, clinician, or professional
-            for personal situations.
+            This page shows you where the guidance on Revert Guide comes from,
+            whether it is religious, practical, health related, or built into
+            one of the tools. None of it replaces a qualified local imam,
+            scholar, clinician, or other professional once the question is about
+            your own situation.
           </p>
         </AnimateIn>
 
@@ -155,27 +85,10 @@ export default function SourcesPage({
               id="source-policy-heading"
               className="mb-4 font-display text-2xl font-semibold tracking-tight text-textPrimary"
             >
-              How Revert Guide Uses Sources
+              How Revert Guide uses sources
             </h2>
             <div className="grid gap-4 md:grid-cols-2">
-              {[
-                {
-                  title: "What counts as a Quran translation?",
-                  body: "English Quran text on this site is a translation of meaning, not the Arabic Quran itself. Arabic text should come from a verified Quran text source.",
-                },
-                {
-                  title: "How hadith citations are shown",
-                  body: "Hadith-based guidance should keep the collection name, numbering, URL, and grading when that information is available.",
-                },
-                {
-                  title: "When to ask a local imam",
-                  body: "For personal fiqh questions, family complications, marriage, finance, or sensitive details, use this site as a starting point and ask a qualified local imam or scholar.",
-                },
-                {
-                  title: "When to seek professional help",
-                  body: "Mental health content is educational and supportive. Crisis, medical, legal, and financial concerns need qualified professional support.",
-                },
-              ].map((item) => (
+              {policyNotes.map((item) => (
                 <div
                   key={item.title}
                   className="rounded-xl border border-border/60 bg-white p-4"
@@ -201,14 +114,14 @@ export default function SourcesPage({
               id="how-to-use-sources-heading"
               className="mb-3 font-display text-2xl font-semibold tracking-tight text-textPrimary"
             >
-              How to Use Sources Without Feeling Overwhelmed
+              How to use sources without feeling overwhelmed
             </h2>
             <p className="mb-0 text-base leading-relaxed text-textSecondary">
-              You do not need to master source criticism immediately. Start with
-              the basics, learn from reliable teachers, and ask qualified people
-              when a matter affects your worship, family, health, or finances.
-              Source tags are here to build trust and transparency, not to add
-              pressure.
+              You do not need to become an expert in checking sources. Start
+              with the basics, learn from teachers you trust, and ask someone
+              qualified when a question touches your worship, your family, your
+              health, or your money. The tags are here so you can check our
+              work. They are not one more thing you have to master.
             </p>
           </section>
         </AnimateIn>
@@ -260,7 +173,7 @@ export default function SourcesPage({
                         {source.note}
                       </p>
                       <p className="mb-0 text-xs text-textMuted">
-                        Access reviewed: {source.accessed}.
+                        Link last checked: {source.accessed}.
                       </p>
                     </article>
                   ))}
@@ -273,9 +186,9 @@ export default function SourcesPage({
         <AnimateIn>
           <section aria-labelledby="closing">
             <p className="text-sm text-textMuted">
-              Source tags do not imply endorsement by the external organization.
-              They show where Revert Guide looked for supporting information and
-              where you can continue reading.
+              A source tag does not mean that organisation endorses Revert
+              Guide. It shows where we looked for supporting information and
+              where you can keep reading.
             </p>
           </section>
         </AnimateIn>

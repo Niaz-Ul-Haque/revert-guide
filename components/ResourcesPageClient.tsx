@@ -9,12 +9,33 @@ import { Icon, type IconName } from "@/components/Icon";
 import { AnimateIn } from "@/components/AnimateIn";
 import type { Resource, ResourceType, SourceEntry } from "@/lib/types";
 import { localizeHref, type Locale, type Messages } from "@/lib/i18n";
+import resourceCollectionsContent from "@/locales/en/resource-collections.json";
 
 interface ResourcesPageClientProps {
   locale: Locale;
   resources: Resource[];
   sources: SourceEntry[];
 }
+
+interface CollectionDefinition {
+  title: string;
+  body: string;
+  icon: IconName;
+  resourceIds: string[];
+}
+
+interface FeatureCard {
+  title: string;
+  body: string;
+  href: string;
+  icon: IconName;
+}
+
+const collectionDefinitions =
+  resourceCollectionsContent.collections as CollectionDefinition[];
+const featureCards = resourceCollectionsContent.featureCards as FeatureCard[];
+const chooseChecklist = resourceCollectionsContent.chooseChecklist;
+const resourceWarnings = resourceCollectionsContent.warnings;
 
 export function ResourcesPageClient({
   locale,
@@ -53,87 +74,7 @@ export function ResourcesPageClient({
   const curatedCollections = useMemo(() => {
     if (locale !== "en") return [];
 
-    const definitions: {
-      title: string;
-      body: string;
-      icon: IconName;
-      resourceIds: string[];
-    }[] = [
-      {
-        title: "First week essentials",
-        body: "One or two calm first resources for the first week after Shahada.",
-        icon: "star",
-        resourceIds: [
-          "welcome-to-islam-book",
-          "new-muslim-academy",
-          "being-muslim-book",
-        ],
-      },
-      {
-        title: "Learn prayer",
-        body: "Learn prayer, purification, and daily rhythm without rushing.",
-        icon: "check",
-        resourceIds: ["learn-salah-guide", "wudu-tutorial", "muslim-pro-app"],
-      },
-      {
-        title: "Quran beginner tools",
-        body: "Read meanings, listen to recitation, and build steady practice.",
-        icon: "book",
-        resourceIds: ["quran-com", "clear-quran-translation", "tarteel-ai-app"],
-      },
-      {
-        title: "Mentor resources",
-        body: "Support routes and beginner teaching material for mentors and helpers.",
-        icon: "users",
-        resourceIds: [
-          "new-muslim-guide-icna",
-          "new-muslim-academy",
-          "whyislam",
-        ],
-      },
-      {
-        title: "Mental health and support",
-        body: "Faith-sensitive and crisis-aware support for difficult seasons.",
-        icon: "alert-circle",
-        resourceIds: [
-          "khalil-center",
-          "naseeha-mental-health",
-          "convert-mental-health-article",
-        ],
-      },
-      {
-        title: "Family and identity",
-        body: "Gentle resources for family conversations, identity, and belonging.",
-        icon: "globe",
-        resourceIds: [
-          "whyislam",
-          "aboutislam-new-muslims",
-          "convert-story-videos",
-        ],
-      },
-      {
-        title: "Ramadan and Eid",
-        body: "Prepare for fasting, worship, community nights, and Eid.",
-        icon: "clock",
-        resourceIds: [
-          "ramadan-guide-yaqeen",
-          "new-muslim-guide-site",
-          "fortress-muslim-dua-book",
-        ],
-      },
-      {
-        title: "Zakat and giving",
-        body: "Beginner education only; personal calculations need qualified review.",
-        icon: "file-text",
-        resourceIds: [
-          "islamic-relief-usa-zakat-faq",
-          "launchgood-zakat-policy",
-          "zakat-calculator",
-        ],
-      },
-    ];
-
-    return definitions.map((collection) => ({
+    return collectionDefinitions.map((collection) => ({
       ...collection,
       resources: collection.resourceIds
         .map((id) => resourceMap.get(id))
@@ -186,26 +127,7 @@ export function ResourcesPageClient({
       {locale === "en" && (
         <AnimateIn delay={0.12}>
           <div className="mb-10 grid gap-4 md:grid-cols-2">
-            {[
-              {
-                title: "Wudu and Ghusl Guide",
-                body: "Step-by-step purification help with common mistakes and source notes.",
-                href: "/tools/wudu-ghusl",
-                icon: "check" as const,
-              },
-              {
-                title: "Practical Life Guides",
-                body: "Family, community, relationships, daily halal choices, and mentor guidance.",
-                href: "/guides",
-                icon: "users" as const,
-              },
-              {
-                title: "Seasonal Guides",
-                body: "Eid, Dhul Hijjah, Hajj, Umrah, and zakat basics.",
-                href: "/seasonal",
-                icon: "star" as const,
-              },
-            ].map((item) => (
+            {featureCards.map((item) => (
               <Link
                 key={item.href}
                 href={localizeHref(locale, item.href)}
@@ -241,11 +163,11 @@ export function ResourcesPageClient({
                 id="curated-collections"
                 className="mb-2 font-display text-2xl font-semibold tracking-tight text-textPrimary"
               >
-                Curated Collections
+                Curated collections
               </h2>
               <p className="mb-0 max-w-2xl text-sm leading-relaxed text-textSecondary">
-                Pick one collection that matches your current need. You do not
-                need to use everything at once.
+                Pick the one collection that matches where you are right now.
+                You do not have to work through all of them.
               </p>
             </div>
             <div className="grid gap-4 md:grid-cols-2">
@@ -301,16 +223,10 @@ export function ResourcesPageClient({
               id="choose-resource-heading"
               className="mb-4 mt-0 font-display text-2xl font-semibold tracking-tight text-textPrimary"
             >
-              How to Choose a Resource
+              How to choose a resource
             </h2>
             <div className="grid gap-3 md:grid-cols-2">
-              {[
-                "Who made it? Prefer identifiable authors, teachers, publishers, masjids, schools, or organizations.",
-                "Is it beginner-friendly? Choose resources that explain terms and avoid shaming new Muslims.",
-                "Does it distinguish source, opinion, and local custom? Be careful when everything is presented as equally required.",
-                "Does it pressure or isolate you? Reliable learning should make it easier to ask qualified help.",
-                "Is the question personal or sensitive? Ask qualified people for worship details, family, finances, health, safety, or legal-adjacent issues.",
-              ].map((item) => (
+              {chooseChecklist.map((item) => (
                 <p
                   key={item}
                   className="mb-0 flex items-start gap-2 rounded-xl bg-white p-3 text-sm leading-relaxed text-textSecondary"
@@ -343,15 +259,11 @@ export function ResourcesPageClient({
                   id="resource-warnings-heading"
                   className="mb-0 mt-0 text-lg font-semibold text-textPrimary"
                 >
-                  Resource Warnings
+                  Resource warnings
                 </h2>
               </div>
               <div className="grid gap-3 md:grid-cols-3">
-                {[
-                  "Avoid anonymous fatwa screenshots, quote images, and copied PDFs without a clear source.",
-                  "Avoid debate channels as your primary learning path, especially in the first months.",
-                  "Avoid resources that shame beginners, rush major life decisions, or discourage qualified second opinions.",
-                ].map((item) => (
+                {resourceWarnings.map((item) => (
                   <p
                     key={item}
                     className="mb-0 rounded-xl bg-white/80 p-3 text-sm leading-relaxed text-textSecondary"
