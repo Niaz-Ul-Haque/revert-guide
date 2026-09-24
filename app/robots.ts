@@ -6,12 +6,9 @@ export default function robots(): MetadataRoute.Robots {
     rules: [
       {
         userAgent: "*",
+        // The hidden guide and the offline page carry a noindex tag, and a
+        // crawler only sees that tag if it is allowed to fetch the page.
         allow: "/",
-        disallow: [
-          "/dawah-guide-personal",
-          "/*/dawah-guide-personal",
-          "/*/offline",
-        ],
       },
     ],
     sitemap: `${SITE_URL}/sitemap.xml`,
