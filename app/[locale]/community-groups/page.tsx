@@ -34,9 +34,7 @@ export default function CommunityGroupsPage({
 }) {
   const locale = params.locale;
   const t = getTranslator(locale);
-  const copy = t<Messages["pages"]["communityGroups"]>(
-    "pages.communityGroups",
-  );
+  const copy = t<Messages["pages"]["communityGroups"]>("pages.communityGroups");
   const sources = getSourcesByIds(
     [
       "whatsapp-help-channels",
