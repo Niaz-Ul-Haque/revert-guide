@@ -1,10 +1,12 @@
 import { notFound } from "next/navigation";
+import Image from "next/image";
 import Link from "next/link";
 import { Breadcrumb } from "@/components/Breadcrumb";
 import { ResourceCard } from "@/components/Card";
 import { Icon } from "@/components/Icon";
 import { AnimateIn } from "@/components/AnimateIn";
-import { SourcesPanel } from "@/components/SourceTags";
+import { SourceTags, SourcesPanel } from "@/components/SourceTags";
+import { VideoEmbed } from "@/components/VideoEmbed";
 import {
   getAllTopics,
   getTopicBySlug,
@@ -142,11 +144,35 @@ export default function TopicPage({
         </header>
       </AnimateIn>
 
+      {topic.image && (
+        <AnimateIn>
+          <figure className="mb-12 overflow-hidden rounded-2xl border border-border/60 bg-white p-4 shadow-card">
+            <Image
+              src={topic.image.src}
+              alt={topic.image.alt}
+              width={1200}
+              height={800}
+              className="h-auto w-full"
+            />
+            {(topic.image.caption || topic.image.credit) && (
+              <figcaption className="mt-3 text-sm leading-relaxed text-textSecondary">
+                {topic.image.caption}
+                {topic.image.credit && (
+                  <span className="block text-xs text-textMuted">
+                    {topic.image.credit}
+                  </span>
+                )}
+              </figcaption>
+            )}
+          </figure>
+        </AnimateIn>
+      )}
+
       {actions.length > 0 && (
         <AnimateIn>
           <section
             className="mb-12 grid gap-4 sm:grid-cols-2"
-            aria-label="Related beginner tools"
+            aria-label={copy.toolsLabel}
           >
             {actions.map((action) => (
               <Link
@@ -242,6 +268,69 @@ export default function TopicPage({
           </section>
         </AnimateIn>
       ))}
+
+      {topic.linkCards && topic.linkCards.length > 0 && (
+        <AnimateIn>
+          <section className="mb-12" aria-labelledby="link-cards-heading">
+            <h2
+              id="link-cards-heading"
+              className="mb-5 font-display text-2xl font-semibold tracking-tight text-textPrimary"
+            >
+              {copy.linkCardsTitle}
+            </h2>
+            <ul className="mb-0 grid gap-3 pl-0 sm:grid-cols-2">
+              {topic.linkCards.map((card) => (
+                <li key={card.href}>
+                  <Link
+                    href={localizeHref(locale, card.href)}
+                    className="group flex h-full items-start gap-3 rounded-2xl border border-border/60 bg-white p-5 no-underline shadow-card transition-colors duration-200 hover:border-primaryGreen/60 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-borderStrong"
+                  >
+                    <span className="mt-0.5 flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-primary/10 text-primary">
+                      <Icon name="chevron-right" size="sm" />
+                    </span>
+                    <span>
+                      <span className="block text-base font-semibold text-textPrimary group-hover:text-primary">
+                        {card.label}
+                      </span>
+                      {card.body && (
+                        <span className="mt-1 block text-sm leading-relaxed text-textSecondary">
+                          {card.body}
+                        </span>
+                      )}
+                    </span>
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </section>
+        </AnimateIn>
+      )}
+
+      {topic.videos && topic.videos.length > 0 && (
+        <AnimateIn>
+          <section className="mb-12" aria-labelledby="topic-videos-heading">
+            <h2
+              id="topic-videos-heading"
+              className="mb-5 font-display text-2xl font-semibold tracking-tight text-textPrimary"
+            >
+              {copy.videosTitle}
+            </h2>
+            <div className="grid max-w-3xl gap-6">
+              {topic.videos.map((video) => (
+                <div key={`${video.videoId}-${video.start ?? 0}`}>
+                  <VideoEmbed {...video} />
+                  <div className="mt-2">
+                    <SourceTags
+                      sources={getSourcesByIds(video.sourceIds, locale)}
+                      compact
+                    />
+                  </div>
+                </div>
+              ))}
+            </div>
+          </section>
+        </AnimateIn>
+      )}
 
       {relatedSteps.length > 0 && (
         <AnimateIn>
@@ -357,10 +446,7 @@ export default function TopicPage({
       {topicSources.length > 0 && (
         <AnimateIn>
           <div className="mb-12">
-            <SourcesPanel
-              sources={topicSources}
-              note="These sources support the general topic guidance. For personal rulings or sensitive situations, ask a qualified local imam, scholar, clinician, or professional as appropriate."
-            />
+            <SourcesPanel sources={topicSources} note={copy.sourcesNote} />
           </div>
         </AnimateIn>
       )}
