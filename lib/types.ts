@@ -17,6 +17,9 @@ export interface Stage {
     href: string;
   }[];
   sourceIds?: string[];
+  /** One main resource and one optional one for this stage, plus what to
+   *  leave for later (CP-PATH-001 to 011). */
+  learningPath?: StageLearningPath;
 }
 
 /* Steps */
@@ -298,5 +301,19 @@ export interface EventsContent {
 }
 
 /* Slice E additions (masjid directory and Canada scope) */
+export interface StageLearningItem {
+  title: string;
+  body: string;
+  /** Internal route (localised on render) or an external https URL. */
+  href: string;
+  /** The matching entry in resources.json, when there is one. */
+  resourceId?: string;
+}
+
+export interface StageLearningPath {
+  main: StageLearningItem;
+  optional?: StageLearningItem;
+  guardrails?: string[];
+}
 
 /* Slice F additions (visuals and housekeeping) */

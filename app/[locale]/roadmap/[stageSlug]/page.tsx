@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { notFound } from "next/navigation";
 import { Breadcrumb } from "@/components/Breadcrumb";
 import { StepCard } from "@/components/Card";
@@ -21,6 +22,70 @@ import {
 import { buildPageMetadata } from "@/lib/metadata";
 import { JsonLd, breadcrumbJsonLd } from "@/components/JsonLd";
 import { localeUrl } from "@/lib/site";
+import type { StageLearningItem } from "@/lib/types";
+
+function LearningCard({
+  item,
+  label,
+  locale,
+  openLabel,
+  newTabLabel,
+  highlight,
+}: {
+  item: StageLearningItem;
+  label: string;
+  locale: Locale;
+  openLabel: string;
+  newTabLabel: string;
+  highlight?: boolean;
+}) {
+  const external = item.href.startsWith("http");
+  return (
+    <div
+      className={`flex h-full flex-col rounded-2xl border p-5 ${
+        highlight
+          ? "border-primaryGreen/30 border-l-4 border-l-primary bg-surfaceElevated/50"
+          : "border-border/60 bg-white"
+      }`}
+    >
+      <p className="mb-1.5 text-xs font-semibold uppercase tracking-widest text-textMuted">
+        {label}
+      </p>
+      <h3 className="mb-2 mt-0 text-base font-semibold text-textPrimary">
+        {item.title}
+      </h3>
+      <p className="mb-4 text-sm leading-relaxed text-textSecondary">
+        {item.body}
+      </p>
+      <div className="mt-auto">
+        {external ? (
+          <a
+            href={item.href}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex min-h-[44px] items-center gap-1.5 text-sm font-semibold text-primary hover:text-primaryHover"
+          >
+            {openLabel}
+            <span className="sr-only">
+              {" "}
+              {item.title} {newTabLabel}
+            </span>
+            <Icon name="external-link" size="sm" />
+          </a>
+        ) : (
+          <Link
+            href={localizeHref(locale, item.href)}
+            className="inline-flex min-h-[44px] items-center gap-1.5 text-sm font-semibold text-primary hover:text-primaryHover"
+          >
+            {openLabel}
+            <span className="sr-only"> {item.title}</span>
+            <Icon name="chevron-right" size="sm" />
+          </Link>
+        )}
+      </div>
+    </div>
+  );
+}
 
 export function generateStaticParams({
   params,
@@ -250,6 +315,64 @@ export default function StagePage({
                 </Button>
               ))}
             </div>
+          </section>
+        </AnimateIn>
+      )}
+
+      {stage.learningPath && (
+        <AnimateIn>
+          <section className="mb-12" aria-labelledby="learning-path-heading">
+            <h2
+              id="learning-path-heading"
+              className="mb-2 font-display text-2xl font-semibold tracking-tight text-textPrimary"
+            >
+              {copy.learningPathTitle}
+            </h2>
+            <p className="mb-5 text-base text-textSecondary">
+              {copy.learningPathIntro}
+            </p>
+            <div className="grid gap-4 md:grid-cols-2">
+              <LearningCard
+                item={stage.learningPath.main}
+                label={copy.learningPathMain}
+                locale={locale}
+                openLabel={copy.learningPathOpen}
+                newTabLabel={copy.opensInNewTab}
+                highlight
+              />
+              {stage.learningPath.optional && (
+                <LearningCard
+                  item={stage.learningPath.optional}
+                  label={copy.learningPathOptional}
+                  locale={locale}
+                  openLabel={copy.learningPathOpen}
+                  newTabLabel={copy.opensInNewTab}
+                />
+              )}
+            </div>
+            {stage.learningPath.guardrails &&
+              stage.learningPath.guardrails.length > 0 && (
+                <div className="mt-4 rounded-2xl border border-border/60 bg-white p-5">
+                  <h3 className="mb-3 mt-0 text-base font-semibold text-textPrimary">
+                    {copy.learningPathGuardrails}
+                  </h3>
+                  <ul className="mb-0 flex flex-col gap-2.5 pl-0">
+                    {stage.learningPath.guardrails.map((item) => (
+                      <li
+                        key={item}
+                        className="flex items-start gap-2.5 text-sm text-textSecondary"
+                      >
+                        <Icon
+                          name="info"
+                          size="sm"
+                          className="mt-0.5 shrink-0 text-primary"
+                        />
+                        <span>{item}</span>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              )}
           </section>
         </AnimateIn>
       )}

@@ -39,7 +39,24 @@
         "href": "/topics/family-and-identity"
       }
     ],
-    "sourceIds": ["new-muslim-academy", "whyislam", "new-muslim-guide"]
+    "sourceIds": ["new-muslim-academy", "whyislam", "new-muslim-guide"],
+    "learningPath": {
+      "main": {
+        "title": "Welcome to Islam: A Step-by-Step Guide for New Muslims",
+        "body": "A 32-page guide by Mustafa Umar, a scholar and imam, written for your first month. You can read the whole thing free on his website.",
+        "href": "https://mustafaumar.com/downloads/welcome-to-islam/",
+        "resourceId": "welcome-to-islam-book"
+      },
+      "optional": {
+        "title": "Your first 24 hours",
+        "body": "If you would rather read something shorter, this step covers what matters today and what can wait.",
+        "href": "/roadmap/day-0-1/first-24-hours"
+      },
+      "guardrails": [
+        "No course, no app and no Arabic study is needed today.",
+        "Rest is part of this stage. You do not have to learn everything this week."
+      ]
+    }
   },
   {
     "id": "week-1",
@@ -88,7 +105,25 @@
         "href": "/topics/prayer"
       }
     ],
-    "sourceIds": ["new-muslim-guide", "seekersguidance", "whyislam"]
+    "sourceIds": ["new-muslim-guide", "seekersguidance", "whyislam"],
+    "learningPath": {
+      "main": {
+        "title": "Seven Days, Seven Verses (Al-Fatihah)",
+        "body": "A free Quran.com plan that takes one verse of Al-Fatihah a day, word by word with its meaning, in under ten minutes. You can read it without an account. Listen to a clear reciter and repeat after them.",
+        "href": "https://quran.com/learning-plans/seven-days-seven-verses-living-the-message-of-al-fatihah",
+        "resourceId": "quran-com-al-fatihah-plan"
+      },
+      "optional": {
+        "title": "New Muslim Academy prayer course",
+        "body": "A free course that starts with wudu and prayer videos and short quizzes. You need an account, and the site uses analytics and an advertising pixel.",
+        "href": "https://www.newmuslimacademy.org/",
+        "resourceId": "new-muslim-academy"
+      },
+      "guardrails": [
+        "Learn the shape of the prayer first. Memorising takes weeks, and that is normal.",
+        "One course at a time is plenty."
+      ]
+    }
   },
   {
     "id": "week-2-3",
@@ -130,7 +165,24 @@
         "href": "/topics/family-and-identity"
       }
     ],
-    "sourceIds": ["quran-com", "yaqeen-institute", "seekersguidance"]
+    "sourceIds": ["quran-com", "yaqeen-institute", "seekersguidance"],
+    "learningPath": {
+      "main": {
+        "title": "A beginners' Quran reading class at a masjid",
+        "body": "Ask your local masjid whether it runs a class for learning to read Arabic. Most start with the letters, then the vowel marks, then joining letters, then short surahs. Alongside it, pick one translation, such as The Clear Quran or Abdel Haleem's, and read a little each day.",
+        "href": "/resources/find-masjid"
+      },
+      "optional": {
+        "title": "New Muslim Academy live Quran classes",
+        "body": "Free small-group classes online in the evening, Eastern time, with brothers and sisters taught separately. They cover Al-Fatihah and short surahs. You fill in a sign-up form first.",
+        "href": "https://www.newmuslimacademy.org/sisters-quran-classes/",
+        "resourceId": "new-muslim-academy-quran-classes"
+      },
+      "guardrails": [
+        "Free before paid. You do not need a paid online tutor to start.",
+        "Be careful with one-to-one tutoring from academies you cannot check."
+      ]
+    }
   },
   {
     "id": "month-1-2",
@@ -177,7 +229,25 @@
         "href": "/topics/modesty"
       }
     ],
-    "sourceIds": ["new-muslim-guide", "seekersguidance"]
+    "sourceIds": ["new-muslim-guide", "seekersguidance"],
+    "learningPath": {
+      "main": {
+        "title": "One structured course",
+        "body": "Finish the New Muslim Academy core courses, or join SeekersGuidance's free live course Essentials of Faith, Worship, and Spirituality, taught on Saturdays at 10:00 Eastern time. Pick one, not both.",
+        "href": "https://seekersguidance.org/live",
+        "resourceId": "seekersguidance-essentials-course"
+      },
+      "optional": {
+        "title": "Quran.com learning plans for short surahs",
+        "body": "Free plans on the short surahs many people recite in prayer, such as Al-Ikhlas, Al-Falaq and An-Nas, so you know what you are saying.",
+        "href": "https://quran.com/learning-plans",
+        "resourceId": "quran-com"
+      },
+      "guardrails": [
+        "Only one course at a time.",
+        "If you want a prayer times app, choose one that keeps your location on your phone and has no ads."
+      ]
+    }
   },
   {
     "id": "month-3-6",
@@ -219,7 +289,24 @@
         "href": "/topics/prophet-muhammad"
       }
     ],
-    "sourceIds": ["seekersguidance", "yaqeen-institute", "sunnah-com"]
+    "sourceIds": ["seekersguidance", "yaqeen-institute", "sunnah-com"],
+    "learningPath": {
+      "main": {
+        "title": "A local halaqa or masjid class",
+        "body": "A regular study circle with a teacher you can meet and ask questions. Ask at your masjid what runs each week and whether it suits beginners.",
+        "href": "/resources/find-masjid"
+      },
+      "optional": {
+        "title": "Qur'an 30 for 30: Thematic Tafsir",
+        "body": "A free ebook from Yaqeen Institute by Dr. Omar Suleiman and Sh. Ismail Kamdar. It gives an overview of each of the 30 parts of the Quran.",
+        "href": "https://yaqeeninstitute.ca/read/books/quran-30-for-30-thematic-tafsir",
+        "resourceId": "yaqeen-quran-30-for-30"
+      },
+      "guardrails": [
+        "Learn from a teacher you can meet or check before a stranger online.",
+        "Skip debate channels in these first months."
+      ]
+    }
   },
   {
     "id": "month-6-plus",
@@ -260,6 +347,24 @@
         "href": "/topics/questions-and-doubts"
       }
     ],
-    "sourceIds": ["irusa-zakat", "launchgood-zakat", "seekersguidance"]
+    "sourceIds": ["irusa-zakat", "launchgood-zakat", "seekersguidance"],
+    "learningPath": {
+      "main": {
+        "title": "MAC eLearning",
+        "body": "Free online courses from the Muslim Association of Canada on the Quran, Islamic sciences, family and history. Go at your own pace.",
+        "href": "https://elearning.macnet.ca/",
+        "resourceId": "mac-elearning"
+      },
+      "optional": {
+        "title": "Tafsir Ibn Kathir, abridged: the 30th part",
+        "body": "A classical explanation of the short surahs in the last part of the Quran, the ones you probably already recite. It is a paid print book from Darussalam.",
+        "href": "https://darussalam.com/tafsir-ibn-kathir-abridged-30th-part/",
+        "resourceId": "tafsir-ibn-kathir-juz-amma"
+      },
+      "guardrails": [
+        "It is fine to take weeks off and come back.",
+        "Go deeper in one subject at a time, with a teacher when you can."
+      ]
+    }
   }
 ]
