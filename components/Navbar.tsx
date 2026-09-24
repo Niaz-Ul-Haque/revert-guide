@@ -109,7 +109,7 @@ function DesktopDropdown({
 
       {open && (
         <ul
-          className="absolute left-0 top-full z-50 mt-2 mb-0 min-w-[200px] list-none animate-slide-down rounded-xl border border-border/50 bg-white/95 p-2 pl-0 shadow-elevated backdrop-blur-lg"
+          className="absolute left-0 top-full z-50 mt-2 mb-0 min-w-[240px] list-none animate-slide-down rounded-xl border border-border/50 bg-white/95 p-2 pl-0 shadow-elevated backdrop-blur-lg"
           onMouseEnter={openDropdown}
           onMouseLeave={closeDropdown}
         >
@@ -142,79 +142,50 @@ export function Navbar() {
   const [scrolled, setScrolled] = useState(false);
   const menuRef = useRef<HTMLDivElement>(null);
 
+  const navLink = (path: string, key: string): DropdownItem => ({
+    href: localizeHref(locale, path),
+    label: t(key),
+  });
+
+  const resourcesItems = [
+    navLink("/resources", "nav.allResources"),
+    navLink("/resources/find-masjid", "nav.findMasjid"),
+    navLink("/events", "nav.events"),
+    navLink("/community-groups", "nav.communityGroups"),
+  ];
+  const toolsItems = [
+    navLink("/prayer-times", "nav.prayerTimes"),
+    navLink("/qibla", "nav.qibla"),
+    navLink("/tools/wudu-ghusl", "nav.wuduGhusl"),
+    navLink("/tools/salah-companion", "nav.salahCompanion"),
+    navLink("/quran-starter", "nav.quranStarter"),
+    navLink("/dua-dhikr", "nav.duaDhikr"),
+    navLink("/asma-al-husna", "nav.asmaAlHusna"),
+  ];
+  const helpItems = [
+    navLink("/topics/five-pillars", "nav.fivePillars"),
+    navLink("/get-help", "nav.getHelp"),
+    navLink("/faq", "nav.faq"),
+    navLink("/mental-health", "nav.mentalHealth"),
+    navLink("/ramadan", "nav.ramadan"),
+  ];
+  const aboutItems = [
+    navLink("/about", "nav.aboutUs"),
+    navLink("/accessibility", "nav.accessibility"),
+    navLink("/privacy", "nav.privacy"),
+    navLink("/terms", "nav.terms"),
+    navLink("/sources", "nav.sources"),
+  ];
+
   const navItems: NavItem[] = [
-    { href: localizeHref(locale, "/roadmap"), label: t("nav.roadmap") },
-    { href: localizeHref(locale, "/topics"), label: t("nav.topics") },
-    ...(locale === "en"
-      ? [{ href: localizeHref(locale, "/guides"), label: t("nav.guides") }]
-      : []),
-    { href: localizeHref(locale, "/glossary"), label: t("nav.glossary") },
-    {
-      href: localizeHref(locale, "/resources"),
-      label: t("nav.resources"),
-      dropdown: [
-        {
-          href: localizeHref(locale, "/resources"),
-          label: t("nav.allResources"),
-        },
-        {
-          href: localizeHref(locale, "/resources/find-masjid"),
-          label: t("nav.findMasjid"),
-        },
-      ],
-    },
-    {
-      href: localizeHref(locale, "/prayer-times"),
-      label: t("nav.tools"),
-      dropdown: [
-        {
-          href: localizeHref(locale, "/prayer-times"),
-          label: t("nav.prayerTimes"),
-        },
-        {
-          href: localizeHref(locale, "/qibla"),
-          label: t("nav.qibla"),
-        },
-        ...(locale === "en"
-          ? [
-              {
-                href: localizeHref(locale, "/tools/wudu-ghusl"),
-                label: t("nav.wuduGhusl"),
-              },
-              {
-                href: localizeHref(locale, "/tools/salah-companion"),
-                label: t("nav.salahCompanion"),
-              },
-              {
-                href: localizeHref(locale, "/quran-starter"),
-                label: t("nav.quranStarter"),
-              },
-              {
-                href: localizeHref(locale, "/dua-dhikr"),
-                label: t("nav.duaDhikr"),
-              },
-            ]
-          : []),
-        {
-          href: localizeHref(locale, "/asma-al-husna"),
-          label: t("nav.asmaAlHusna"),
-        },
-      ],
-    },
-    {
-      href: localizeHref(locale, "/about"),
-      label: t("nav.about"),
-      dropdown: [
-        { href: localizeHref(locale, "/about"), label: t("nav.aboutUs") },
-        {
-          href: localizeHref(locale, "/accessibility"),
-          label: t("nav.accessibility"),
-        },
-        { href: localizeHref(locale, "/privacy"), label: t("nav.privacy") },
-        { href: localizeHref(locale, "/terms"), label: t("nav.terms") },
-        { href: localizeHref(locale, "/sources"), label: t("nav.sources") },
-      ],
-    },
+    navLink("/roadmap", "nav.roadmap"),
+    navLink("/topics", "nav.topics"),
+    navLink("/guides", "nav.guides"),
+    navLink("/glossary", "nav.glossary"),
+    { ...navLink("/resources", "nav.resources"), dropdown: resourcesItems },
+    { ...navLink("/prayer-times", "nav.tools"), dropdown: toolsItems },
+    { ...navLink("/get-help", "nav.help"), dropdown: helpItems },
+    { ...navLink("/about", "nav.about"), dropdown: aboutItems },
   ];
 
   /* Track scroll for glass effect */
@@ -252,66 +223,22 @@ export function Navbar() {
     return false;
   }
 
-  // All links for the mobile menu (flattened, no duplicates)
-  const mobileLinks = [
-    { href: localizeHref(locale, "/"), label: t("nav.home") },
-    { href: localizeHref(locale, "/roadmap"), label: t("nav.roadmap") },
-    { href: localizeHref(locale, "/topics"), label: t("nav.topics") },
-    ...(locale === "en"
-      ? [{ href: localizeHref(locale, "/guides"), label: t("nav.guides") }]
-      : []),
-    { href: localizeHref(locale, "/glossary"), label: t("nav.glossary") },
-    { href: localizeHref(locale, "/resources"), label: t("nav.resources") },
-    {
-      href: localizeHref(locale, "/resources/find-masjid"),
-      label: t("nav.findMasjid"),
-      prominent: true,
-    },
-    { href: localizeHref(locale, "/ramadan"), label: t("nav.ramadan") },
-    {
-      href: localizeHref(locale, "/mental-health"),
-      label: t("nav.mentalHealth"),
-    },
-    {
-      href: localizeHref(locale, "/prayer-times"),
-      label: t("nav.prayerTimes"),
-    },
-    {
-      href: localizeHref(locale, "/qibla"),
-      label: t("nav.qibla"),
-    },
-    ...(locale === "en"
-      ? [
-          {
-            href: localizeHref(locale, "/tools/wudu-ghusl"),
-            label: t("nav.wuduGhusl"),
-          },
-          {
-            href: localizeHref(locale, "/tools/salah-companion"),
-            label: t("nav.salahCompanion"),
-          },
-          {
-            href: localizeHref(locale, "/quran-starter"),
-            label: t("nav.quranStarter"),
-          },
-          {
-            href: localizeHref(locale, "/dua-dhikr"),
-            label: t("nav.duaDhikr"),
-          },
-        ]
-      : []),
-    {
-      href: localizeHref(locale, "/asma-al-husna"),
-      label: t("nav.asmaAlHusna"),
-    },
-    { href: localizeHref(locale, "/about"), label: t("nav.about") },
-    {
-      href: localizeHref(locale, "/accessibility"),
-      label: t("nav.accessibility"),
-    },
-    { href: localizeHref(locale, "/privacy"), label: t("nav.privacy") },
-    { href: localizeHref(locale, "/terms"), label: t("nav.terms") },
-    { href: localizeHref(locale, "/sources"), label: t("nav.sources") },
+  // All links for the mobile menu (flattened, no duplicates).
+  // Get help and Find a masjid are the two prominent entries.
+  const getHelp = navLink("/get-help", "nav.getHelp");
+  const findMasjid = navLink("/resources/find-masjid", "nav.findMasjid");
+  const mobileLinks: (DropdownItem & { prominent?: "help" | "masjid" })[] = [
+    navLink("/", "nav.home"),
+    { ...getHelp, prominent: "help" },
+    { ...findMasjid, prominent: "masjid" },
+    navLink("/roadmap", "nav.roadmap"),
+    navLink("/topics", "nav.topics"),
+    navLink("/guides", "nav.guides"),
+    navLink("/glossary", "nav.glossary"),
+    ...resourcesItems.filter((item) => item.href !== findMasjid.href),
+    ...toolsItems,
+    ...helpItems.filter((item) => item.href !== getHelp.href),
+    ...aboutItems,
   ];
 
   return (
@@ -507,7 +434,23 @@ export function Navbar() {
                   aria-current={active ? "page" : undefined}
                   onClick={() => setMenuOpen(false)}
                 >
-                  {link.prominent && (
+                  {link.prominent === "help" && (
+                    <svg
+                      className="h-4 w-4"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      strokeWidth={1.5}
+                      stroke="currentColor"
+                      aria-hidden="true"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z"
+                      />
+                    </svg>
+                  )}
+                  {link.prominent === "masjid" && (
                     <svg
                       className="h-4 w-4"
                       fill="none"
