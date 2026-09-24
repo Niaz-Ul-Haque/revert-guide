@@ -138,6 +138,12 @@ export function FindMasjidPageClient({
     useState<MasjidSearchLocation | null>(null);
   const [locationError, setLocationError] = useState("");
   const [isSearchingLocation, setIsSearchingLocation] = useState(false);
+  /* "device" positions only sort the list; they are never drawn on the map,
+     so no map tiles are requested for them. */
+  const [locationSource, setLocationSource] = useState<"address" | "device">(
+    "address",
+  );
+  const [isLocating, setIsLocating] = useState(false);
   const [selectedMasjidId, setSelectedMasjidId] = useState<string | null>(null);
   const [isOffline, setIsOffline] = useState(false);
   const [filtersOpen, setFiltersOpen] = useState(false);
@@ -370,6 +376,7 @@ export function FindMasjidPageClient({
         lat: Number(firstResult.lat),
         lng: Number(firstResult.lon),
       });
+      setLocationSource("address");
       setSelectedMasjidId(null);
     } catch {
       setLocationError(copy.locationError);
@@ -377,6 +384,37 @@ export function FindMasjidPageClient({
     } finally {
       setIsSearchingLocation(false);
     }
+  }
+
+  /* Asks for the device position only when the button is pressed. The
+     position stays in memory on this device: no reverse geocoding, no
+     request carries it anywhere. */
+  function handleUseMyLocation() {
+    if (!navigator.geolocation) {
+      setLocationError(copy.deviceLocationUnsupported);
+      return;
+    }
+
+    setIsLocating(true);
+    setLocationError("");
+    navigator.geolocation.getCurrentPosition(
+      (position) => {
+        setSearchLocation({
+          label: copy.deviceLocationLabel,
+          lat: position.coords.latitude,
+          lng: position.coords.longitude,
+        });
+        setLocationSource("device");
+        setLocationQuery("");
+        setSelectedMasjidId(null);
+        setIsLocating(false);
+      },
+      () => {
+        setIsLocating(false);
+        setLocationError(copy.deviceLocationDenied);
+      },
+      { enableHighAccuracy: false, timeout: 10000, maximumAge: 300000 },
+    );
   }
 
   function toggleService(serviceId: MasjidServiceId) {
@@ -656,6 +694,23 @@ export function FindMasjidPageClient({
               </form>
             </div>
 
+            <div className="mt-3 flex flex-wrap items-center gap-x-3 gap-y-2">
+              <button
+                type="button"
+                onClick={handleUseMyLocation}
+                disabled={isLocating}
+                className="inline-flex min-h-[44px] items-center justify-center gap-1.5 rounded-xl border border-primary/40 bg-white px-4 py-2.5 text-sm font-semibold text-primary transition-colors duration-200 hover:bg-primary/10 disabled:cursor-not-allowed disabled:opacity-60"
+              >
+                <Icon name="map-pin" size="sm" />
+                {isLocating
+                  ? copy.deviceLocationLocating
+                  : copy.deviceLocationAction}
+              </button>
+              <p className="mb-0 max-w-2xl flex-1 text-xs text-textMuted">
+                {copy.locationHelper}
+              </p>
+            </div>
+
             {/* Location feedback */}
             {locationError && (
               <p
@@ -680,7 +735,9 @@ export function FindMasjidPageClient({
             <MasjidMap
               masjids={filteredMasjids.map((result) => result.masjid)}
               selectedMasjidId={selectedMasjidId}
-              searchLocation={searchLocation}
+              searchLocation={
+                locationSource === "address" ? searchLocation : null
+              }
               isOffline={isOffline}
               copy={copy}
               onSelectMasjid={setSelectedMasjidId}
@@ -884,10 +941,6 @@ export function FindMasjidPageClient({
                   </div>
                 </div>
               </div>
-
-              <p className="mb-0 mt-4 text-xs text-textMuted">
-                {copy.locationHelper}
-              </p>
             </div>
           )}
         </div>
