@@ -217,7 +217,7 @@
     },
     "communityGroups": {
       "title": "Community groups - Revert Guide",
-      "description": "Slice fills this block."
+      "description": "Follow our WhatsApp Channel or join a local group. What each option shows about you, the group rules, and how to report a problem."
     },
     "events": {
       "title": "Events - Revert Guide",
@@ -1697,7 +1697,69 @@
     },
     "communityGroups": {
       "title": "Community groups",
-      "note": "Slice D fills this block."
+      "subtitle": "Reminders, local news and the company of other new Muslims, set up so you choose how much of yourself to share.",
+      "placeholderNotice": {
+        "title": "These links are still being set up",
+        "body": "The channel link and the group list on this page are not live yet. We will add them once the admins are in place."
+      },
+      "channel": {
+        "title": "Our WhatsApp Channel",
+        "body": "A one-way channel for reminders, new pages on the site and events. Only admins post, and other followers cannot see your phone number.",
+        "buttonLabel": "Follow the channel on WhatsApp"
+      },
+      "groups": {
+        "title": "Local groups",
+        "body": "Small groups by city or region where you can ask questions and meet people. Admins approve every new member.",
+        "emptyState": "Groups will be listed here once admins are in place.",
+        "joinNote": "Joining a group shows your phone number to the group admins, and other members may see it too."
+      },
+      "reveals": {
+        "title": "What each option shows about you",
+        "items": [
+          {
+            "name": "Channel",
+            "body": "Your phone number stays private. An admin can see it only if they already have you saved as a contact. Only you can see which channels you follow, and followers cannot message each other there."
+          },
+          {
+            "name": "Group",
+            "body": "Admins see your number, and other members may see it too. Anyone in the group can message you."
+          },
+          {
+            "name": "Community",
+            "body": "A community is a set of linked groups. Your number is visible to its admins and to people who already have it, rather than to every member."
+          }
+        ],
+        "usernameNote": "WhatsApp is slowly rolling out usernames, which hide your number from people who do not already have it. You may not have them yet."
+      },
+      "safety": {
+        "title": "If you are keeping your conversion private",
+        "body": "Follow the channel rather than joining a group, because the channel keeps your number hidden. Group names and messages can show up in your notifications, so think about who can see your phone before you join anything."
+      },
+      "rules": {
+        "title": "Group rules",
+        "intro": "Everyone who joins agrees to these. Admins remove anyone who breaks them.",
+        "items": [
+          "No asking for money, selling or fundraising.",
+          "No marriage proposals or matchmaking.",
+          "No private messages to members who have not asked for them.",
+          "No forwarding members' names, numbers, photos or messages outside the group.",
+          "Nobody is added without choosing to join. We share the link and you decide."
+        ],
+        "adminsTitle": "Who the admins are",
+        "admins": "Admins are volunteers in a set role, not named individuals. They approve new members, remove and report scam accounts, and pass any safety concern to the coordinators."
+      },
+      "report": {
+        "title": "Reporting a problem",
+        "body": "If someone in a group or the channel asks you for money, proposes marriage, messages you privately without being asked, or shares your details, tell us. Reports go to the coordinators. You can also report and block the account inside WhatsApp.",
+        "emailLabel": "Email",
+        "linkLabel": "Go to the Get help page"
+      },
+      "redFlags": {
+        "prompt": "Know the warning signs of scams and pressure in community spaces.",
+        "label": "Red flags and staying safe"
+      },
+      "sourcesTitle": "Sources used",
+      "sourcesNote": "What each option shows comes from WhatsApp's own help pages. WhatsApp can change how these features work, so check its help centre if you are unsure."
     },
     "events": {
       "title": "Events",
