@@ -1,10 +1,10 @@
 {
   "brand": {
-    "name": "Ibalik ang Gabay",
-    "homeAriaLabel": "Gabay sa Pagbabalik - Tahanan"
+    "name": "Revert Guide",
+    "homeAriaLabel": "Revert Guide, pangunahing pahina"
   },
   "languageSwitcher": {
-    "ariaLabel": "Tagapagpalit ng wika",
+    "ariaLabel": "Pagpili ng wika",
     "label": "Wika",
     "locales": {
       "en": "English",
@@ -23,801 +23,1151 @@
     }
   },
   "nav": {
-    "home": "Bahay",
+    "home": "Pangunahing pahina",
     "roadmap": "Roadmap",
     "topics": "Mga paksa",
     "guides": "Mga gabay",
-    "glossary": "Talasalitaan",
+    "glossary": "Talahuluganan",
     "resources": "Mga mapagkukunan",
-    "allResources": "Lahat ng Mapagkukunan",
-    "findMasjid": "Maghanap ng Masjid",
-    "about": "Tungkol sa",
-    "aboutUs": "Tungkol sa Amin",
+    "allResources": "Lahat ng mapagkukunan",
+    "findMasjid": "Maghanap ng masjid",
+    "about": "Tungkol sa amin",
+    "aboutUs": "Tungkol sa amin",
     "accessibility": "Accessibility",
-    "privacy": "Patakaran sa Privacy",
-    "terms": "Mga Tuntunin sa Paggamit",
-    "sources": "Mga pinagmumulan",
+    "privacy": "Patakaran sa privacy",
+    "terms": "Mga tuntunin sa paggamit",
+    "sources": "Mga sanggunian",
     "ramadan": "Gabay sa Ramadan",
-    "mentalHealth": "Kalusugan ng Kaisipan",
-    "tools": "Mga gamit",
-    "prayerTimes": "Oras ng Panalangin",
-    "qibla": "Tagahanap ng Qibla",
-    "wuduGhusl": "Wudu at Ghusl",
-    "salahCompanion": "Kasamang Salah",
-    "quranStarter": "Quran Starter",
-    "duaDhikr": "Dua at Dhikr",
-    "asmaAlHusna": "99 Pangalan ng Allah",
+    "mentalHealth": "Kalusugan ng isip",
+    "tools": "Mga tool",
+    "prayerTimes": "Oras ng pagdarasal",
+    "qibla": "Paghahanap ng direksyon ng Qibla",
+    "wuduGhusl": "Paghuhugas bago magdasal (wudu at ghusl)",
+    "salahCompanion": "Matutong magdasal (salah)",
+    "quranStarter": "Panimula sa Quran",
+    "duaDhikr": "Dua at dhikr",
+    "asmaAlHusna": "99 na pangalan ng Allah",
+    "help": "Tulong",
+    "getHelp": "Humingi ng tulong",
+    "faq": "Mga tanong at sagot",
+    "events": "Mga kaganapan",
+    "communityGroups": "Mga grupo ng komunidad",
+    "fivePillars": "Limang haligi ng Islam",
     "mainNavigation": "Pangunahing nabigasyon",
     "openMenu": "Buksan ang menu",
     "closeMenu": "Isara ang menu",
     "mobileMenu": "Menu ng nabigasyon"
   },
   "footer": {
-    "about": "Tungkol sa",
+    "about": "Tungkol sa amin",
     "accessibility": "Accessibility",
-    "privacy": "Patakaran sa Privacy",
-    "terms": "Mga Tuntunin sa Paggamit",
-    "sources": "Mga pinagmumulan",
-    "description": "Isang libre, offline-unang mapagkukunan para sa mga bagong Muslim. Walang pagsubaybay, walang mga ad, gabay lamang sa iyong paglalakbay.",
-    "explore": "Galugarin",
+    "privacy": "Patakaran sa privacy",
+    "terms": "Mga tuntunin sa paggamit",
+    "sources": "Mga sanggunian",
+    "description": "Isang libreng gabay para sa mga bagong Muslim sa Canada. Walang pagsubaybay, walang patalastas at walang kailangang pag-sign up.",
+    "explore": "Tumuklas",
     "information": "Impormasyon",
-    "quickLinksAriaLabel": "Mabilis na mga link",
-    "navigationAriaLabel": "Pag-navigate sa footer",
-    "copyright": "Ibalik ang Gabay. Ginawa nang may pag-iingat para sa mga bagong Muslim sa lahat ng dako."
+    "quickLinksAriaLabel": "Mabilisang link",
+    "navigationAriaLabel": "Nabigasyon sa footer",
+    "copyright": "Revert Guide. Ginawa para sa mga bagong Muslim, nasaan ka man.",
+    "startHere": "Magsimula rito",
+    "help": "Tulong",
+    "crisisDanger": "Nasa panganib ka ba?",
+    "crisisCall911": "Tumawag sa 911.",
+    "crisisMentalHealth": "May krisis sa kalusugan ng isip?",
+    "crisisCall988": "Tumawag o mag-text sa 9-8-8.",
+    "orientation": "Sinusunod namin ang pangunahing Sunni na kaalaman at sinasabi namin kung saan nagkakaiba ang mga iskolar."
   },
   "common": {
-    "beginJourney": "Simulan ang Iyong Paglalakbay",
-    "nextStep": "Susunod na Hakbang",
-    "previousStep": "Nakaraang Hakbang",
+    "beginJourney": "Magsimula rito",
+    "nextStep": "Susunod na hakbang",
+    "previousStep": "Nakaraang hakbang",
     "readMore": "Magbasa pa",
-    "searchPlaceholder": "Hanapin...",
-    "loading": "Inihahanda ang iyong susunod na hakbang...",
+    "searchPlaceholder": "Maghanap...",
+    "loading": "Inihahanda ang susunod mong hakbang...",
     "offline": "Offline ka. Maaaring limitado ang ilang feature.",
-    "backToRoadmap": "Bumalik sa Roadmap",
+    "translationNotice": "May ilang pahina na hindi pa naisasalin mula sa Ingles. Patuloy pa rin naming inaayos ang mga ito.",
+    "backToRoadmap": "Bumalik sa roadmap",
     "skipToContent": "Lumaktaw sa nilalaman",
-    "breadcrumb": "Breadcrumb",
+    "breadcrumb": "Kinaroroonan sa site",
     "search": "Maghanap",
-    "clearSearch": "I-clear ang paghahanap"
+    "clearSearch": "Burahin ang hinahanap",
+    "print": "I-print o i-save bilang PDF",
+    "sourceLabel": "Sanggunian:",
+    "bestForLabel": "Pinakaangkop para sa:",
+    "loadingPage": "Naglo-load…",
+    "sourcesUsed": "Mga sangguniang ginamit"
   },
   "search": {
-    "placeholder": "Mga gabay sa paghahanap, glossary, paksa, mapagkukunan...",
+    "placeholder": "Maghanap sa mga gabay, talahuluganan, paksa, mapagkukunan...",
     "label": "Maghanap sa lahat ng nilalaman",
     "noResults": "Walang nakitang resulta",
-    "noResultsHint": "Subukan ang iba't ibang mga keyword o mag-browse ayon sa kategorya",
+    "noResultsHint": "Subukan ang ibang salita, o tumingin ayon sa kategorya",
     "close": "Isara ang paghahanap",
     "openSearch": "Buksan ang paghahanap",
     "keyboardHint": "⌘K",
     "resultCount": {
-      "one": "1 resulta ang natagpuan",
-      "other": "{count} resulta ang natagpuan"
+      "one": "1 resulta ang nakita",
+      "other": "{count} resulta ang nakita"
     },
     "categories": {
-      "steps": "Mga Hakbang sa Roadmap",
+      "steps": "Mga hakbang sa roadmap",
       "topics": "Mga paksa",
-      "glossary": "Talasalitaan",
-      "resources": "Mga mapagkukunan"
+      "glossary": "Talahuluganan",
+      "resources": "Mga mapagkukunan",
+      "faq": "Mga tanong"
     },
-    "seeAll": "Tingnan ang lahat ng {count} na resulta",
+    "seeAll": "Tingnan ang lahat ng {count} resulta",
     "tips": {
       "title": "Mga tip sa paghahanap",
       "items": [
-        "Maghanap ayon sa pangalan ng paksa tulad ng \"panalangin\" o \"pag-aayuno\"",
-        "Maghanap ng mga Islamic na termino tulad ng \"Shahada\" o \"Wudu\"",
-        "Maghanap ng mga mapagkukunan at gabay sa pag-aaral"
+        "Maghanap ayon sa paksa, gaya ng \"pagdarasal\" o \"pag-aayuno\"",
+        "Hanapin ang isang salitang Arabic, gaya ng \"Shahada\" o \"Wudu\"",
+        "Maghanap ng mga libro, video at klase"
       ]
-    }
+    },
+    "keyboardNavigate": "lumipat",
+    "keyboardOpen": "buksan"
   },
   "resources": {
     "types": {
       "article": "Artikulo",
       "video": "Video",
-      "book": "Aklat",
+      "book": "Libro",
       "app": "App",
       "community": "Komunidad",
       "pdf": "PDF"
     },
-    "visitResource": "Bisitahin ang Resource",
-    "viewResource": "Tingnan ang Resource"
+    "visitResource": "Bisitahin ang mapagkukunan",
+    "viewResource": "Tingnan ang mapagkukunan"
   },
   "metadata": {
     "site": {
-      "title": "Gabay sa Pagbabalik - Dito Nagsisimula ang Iyong Paglalakbay",
-      "description": "Isang offline-unang gabay na pang-edukasyon para sa mga bagong Muslim convert sa lugar ng Toronto. Hakbang-hakbang na onboarding na may empatiya at praktikal na patnubay.",
-      "keywords": ["Islam", "convert", "revert", "Muslim", "guide", "Toronto"],
-      "openGraphDescription": "Ang iyong ginabayang paglalakbay sa Islam - praktikal, mahabagin, at sa iyong sariling bilis."
+      "title": "Revert Guide - praktikal na tulong para sa bagong Muslim",
+      "description": "Libreng gabay para sa bagong Muslim sa Canada. Unang araw, unang mga linggo at unang mga buwan, isang hakbang sa bawat pagkakataon, kahit offline.",
+      "keywords": [
+        "Islam",
+        "bagong Muslim",
+        "balik-Islam",
+        "revert",
+        "Muslim",
+        "gabay",
+        "Canada"
+      ],
+      "openGraphDescription": "Simple at praktikal na tulong para sa unang taon mo bilang Muslim sa Canada, sa bilis na angkop sa iyo."
     },
     "dynamic": {
-      "topicNotFoundTitle": "Hindi Nahanap ang Paksa - Gabay sa Pagbabalik",
-      "stageNotFoundTitle": "Stage Not found - Revert Guide",
-      "stepNotFoundTitle": "Hindi Natagpuan ang Hakbang - Gabay sa Pagbabalik"
+      "topicNotFoundTitle": "Hindi makita ang paksa - Revert Guide",
+      "stageNotFoundTitle": "Hindi makita ang yugto - Revert Guide",
+      "stepNotFoundTitle": "Hindi makita ang hakbang - Revert Guide"
     },
     "home": {
-      "title": "Gabay sa Pagbabalik - Dito Nagsisimula ang Iyong Paglalakbay",
-      "description": "Isang offline-unang gabay na pang-edukasyon para sa mga bagong Muslim na may praktikal, mahabagin na susunod na mga hakbang."
+      "title": "Revert Guide - praktikal na tulong para sa bagong Muslim",
+      "description": "Gabay para sa bagong Muslim sa Canada na gumagana offline: matutong magdasal, maghugas bago magdasal, alamin ang oras ng pagdarasal at humingi ng tulong."
     },
     "about": {
-      "title": "Tungkol sa - Gabay sa Pagbabalik",
-      "description": "Alamin ang tungkol sa proyektong Revert Guide, ang aming misyon, at ang aming diskarte sa gabay sa Islam na madaling gamitin para sa nagsisimula."
+      "title": "Tungkol sa amin - Revert Guide",
+      "description": "Sino ang nagpapatakbo ng Revert Guide, paano sinusuri ang nilalaman laban sa mga sanggunian, at paano makakausap ang team. Libre at gumagana offline."
     },
     "accessibility": {
-      "title": "Pahayag ng Accessibility - Gabay sa Pagbabalik",
-      "description": "Revert Guide's commitment to accessibility, WCAG 2.1 AA compliance, at inclusive na disenyo."
+      "title": "Pahayag sa accessibility - Revert Guide",
+      "description": "Paano tinutugunan ng Revert Guide ang accessibility: ang WCAG 2.1 AA at AODA na pamantayan, ang mga feature nito, at ang mga kakulangang alam namin."
     },
     "glossary": {
-      "title": "Glossary - Gabay sa Pagbabalik",
-      "description": "Maghanap ng mga Islamic na termino, transliterasyon, at kahulugan sa glossary ng Revert Guide."
+      "title": "Talahuluganan - Revert Guide",
+      "description": "Mga terminong Islamiko sa simpleng paliwanag, may Arabic, transliterasyon at kaugnay na termino. Hanapin sa listahan kapag bago sa iyo ang isang salita."
     },
     "mentalHealth": {
-      "title": "Pangangalaga sa Iyong Isip - Gabay sa Pagbabalik",
-      "description": "Emosyonal na suporta, pagpapatunay, mga mapagkukunan ng krisis, at praktikal na patnubay para sa mga bagong Muslim."
+      "title": "Pag-aalaga sa isip mo - Revert Guide",
+      "description": "Suporta sa bagong Muslim na dumaranas ng pag-iisa, pag-aalinlangan, alitan sa pamilya o pagkabalisa, may crisis line sa Canada at pananaw ng Islam dito."
     },
     "offline": {
-      "title": "Offline - Gabay sa Pagbabalik",
-      "description": "Muling kumonekta o magbukas ng dating naka-cache na page para magpatuloy sa paggamit ng Revert Guide offline."
+      "title": "Walang koneksyon - Revert Guide",
+      "description": "Offline ka. Kumonekta ulit sa internet, o buksan ang pahinang nabisita mo na, dahil gumagana pa rin nang walang koneksyon ang mga iyon."
     },
     "privacy": {
-      "title": "Patakaran sa Privacy - Gabay sa Pagbabalik",
-      "description": "Basahin ang patakaran sa privacy ng Revert Guide at unawain ang aming offline-first data practices."
+      "title": "Patakaran sa privacy - Revert Guide",
+      "description": "Ano ang umaalis sa device mo kapag ginagamit ang Revert Guide, aling serbisyo sa labas ang gamit ng bawat tool, at ano ang nangyayari sa kahilingan mo."
     },
     "ramadan": {
-      "title": "Gabay sa Ramadan - Gabay sa Pagbabalik",
-      "description": "Ang iyong unang Ramadan bilang isang Muslim, kabilang ang mga pangunahing kaalaman sa pag-aayuno, paghahanda, at praktikal na suporta."
+      "title": "Gabay sa Ramadan - Revert Guide",
+      "description": "Ang una mong Ramadan bilang Muslim: ang buwang ito, mga batayan ng pag-aayuno, paghahanda, tarawih, Laylat al-Qadr, Eid al-Fitr at saan hihingi ng tulong."
     },
     "resources": {
-      "title": "Mga Mapagkukunan - Gabay sa Pagbabalik",
-      "description": "Mga na-curate na aklat, video, app, at komunidad para suportahan ang iyong paglalakbay."
+      "title": "Mga mapagkukunan - Revert Guide",
+      "description": "Mga libro, video, app, artikulo at komunidad na pinili para sa bagong Muslim, ayon sa uri at may maikling tala, at link para maghanap ng masjid."
     },
     "findMasjid": {
-      "title": "Maghanap ng Masjid - Gabay sa Pagbabalik",
-      "description": "Maghanap sa mga masjid at mosque sa lugar ng Toronto, kahit offline."
+      "title": "Maghanap ng masjid - Revert Guide",
+      "description": "Maghanap ng masjid at Islamic centre sa buong Canada, ikumpara ang iniaalok ng bawat isa, at buksan ang direksyon. Gumagana offline ang listahan."
     },
     "roadmap": {
-      "title": "Iyong Roadmap - Gabay sa Pagbabalik",
-      "description": "Isang sunud-sunod na timeline para sa iyong unang araw, unang linggo, at unang buwan bilang isang Muslim."
+      "title": "Ang roadmap mo - Revert Guide",
+      "description": "Hakbang-hakbang na timeline para sa unang araw, linggo at buwan mo bilang Muslim: Shahada, pagdarasal, pag-aayuno, pamilya at komunidad."
     },
     "sources": {
-      "title": "Mga Pinagmulan at Sipi - Gabay sa Pagbabalik",
-      "description": "I-browse ang Quran, hadith, mga artikulo, at mga aklat na binanggit sa buong Revert Guide."
+      "title": "Mga sanggunian at sipi - Revert Guide",
+      "description": "Tingnan ang mga bahagi ng Quran, hadith, artikulo at librong binanggit sa Revert Guide, ayon sa paksa, may link para mabasa mo mismo ang bawat sanggunian."
     },
     "terms": {
-      "title": "Mga Tuntunin ng Paggamit - Gabay sa Pagbabalik",
-      "description": "Unawain ang mga tuntunin, disclaimer, at kundisyon sa paggamit para sa Revert Guide."
+      "title": "Mga tuntunin sa paggamit - Revert Guide",
+      "description": "Ang mga tuntunin sa paggamit ng Revert Guide: paalala sa nilalaman at kalusugan, mga link sa labas, ang batas na masusunod at mga pagbabago."
     },
     "topics": {
-      "title": "Mga Paksa - Gabay sa Pagbabalik",
-      "description": "Galugarin ang mga self-contained na gabay sa paksa tungkol sa panalangin, pag-aayuno, paniniwala, komunidad, at higit pa."
+      "title": "Mga paksa - Revert Guide",
+      "description": "Mga gabay para sa bagong Muslim na tig-iisang paksa, kabilang ang pagdarasal, pag-aayuno, paniniwala, halal na pamumuhay, kahinhinan, pamilya at komunidad."
     },
     "notFound": {
-      "title": "Hindi Natagpuan ang Pahina - Gabay sa Pagbabalik",
-      "description": "Bumalik sa roadmap o homepage upang ipagpatuloy ang iyong paglalakbay."
+      "title": "Hindi makita ang pahina - Revert Guide",
+      "description": "Wala rito ang pahinang hinahanap mo. Baka nailipat na ito o may mali sa link. Bumalik sa roadmap o sa homepage para mahanap ang daan mo."
     },
     "prayerTimes": {
-      "title": "Mga Oras ng Panalangin - Gabay sa Pagbabalik",
-      "description": "Alamin ang tungkol sa limang araw-araw na oras ng pagdarasal ng Islam at kung kailan ito nagaganap sa buong araw."
+      "title": "Oras ng pagdarasal - Revert Guide",
+      "description": "Ang limang oras ng pagdarasal ngayong araw para sa anumang lungsod o address sa Canada, gamit ang paraan ng ISNA, sa lokal na oras. Kumpirmahin sa masjid."
     },
     "qibla": {
-      "title": "Qibla Finder - Gabay sa Pagbabalik",
-      "description": "Hanapin ang direksyon ng Qibla (Kaaba sa Mecca) para sa iyong mga panalangin."
+      "title": "Paghahanap ng Qibla - Revert Guide",
+      "description": "Hanapin ang direksyon ng Kaaba sa Makkah para sa pagdarasal gamit ang lokasyon mo o ang coordinates na ita-type mo. Gamitin ang compass ng telepono mo."
     },
     "asmaAlHusna": {
-      "title": "99 Pangalan ng Allah - Gabay sa Pagbabalik",
-      "description": "Galugarin ang 99 Magagandang Pangalan ng Allah na may mga kahulugan at repleksyon."
+      "title": "99 na pangalan ng Allah - Revert Guide",
+      "description": "Ang 99 na pangalan ng Allah sa Arabic, may transliterasyon, kahulugan at maikling pagninilay. Maghanap ayon sa pangalan o kahulugan."
+    },
+    "faq": {
+      "title": "Mga madalas itanong - Revert Guide",
+      "description": "Simpleng sagot sa mga madalas itanong ng bagong Muslim, mula Shahada at pagdarasal hanggang regla, pagkain at trabaho, may sanggunian bawat isa."
+    },
+    "getHelp": {
+      "title": "Humingi ng tulong - Revert Guide",
+      "description": "Magtanong, humingi ng mentor, maghanap ng kaganapan o mag-ulat ng alalahanin. Sino ang nagbabasa at paano namin iniingatan ang detalye mo."
+    },
+    "communityGroups": {
+      "title": "Mga grupo ng komunidad - Revert Guide",
+      "description": "Sundan ang aming WhatsApp Channel o sumali sa lokal na grupo. Ano ang makikita ng iba tungkol sa iyo, ang mga patakaran at paano mag-ulat."
+    },
+    "events": {
+      "title": "Mga kaganapan - Revert Guide",
+      "description": "Mga pagtitipon ng bagong Muslim, klase at bukas na araw sa masjid sa buong Canada. Salain ayon sa lungsod at probinsya, saka magpalista."
     }
   },
   "pages": {
+    "guides": {
+      "index": {
+        "metadataTitle": "Mga praktikal na gabay sa buhay",
+        "metadataDescription": "Mga praktikal na gabay sa pakikipag-usap sa pamilya, pagbisita sa masjid, trabaho at paaralan, relasyon, halal na pamumuhay, kahinhinan at suporta ng mentor.",
+        "title": "Mga praktikal na gabay sa buhay",
+        "eyebrow": "Komunidad, pamilya at pang-araw-araw na buhay",
+        "subtitle": "Maiikling gabay para sa mga sitwasyong lumilitaw sa labas ng pagsamba: pagsasabi sa pamilya, unang pagpasok sa masjid, trabaho at paaralan, pag-iisa, halal na pagkain, pananamit, pangalan, at kung saan ka dapat maglagay ng hangganan.",
+        "openGuide": "Buksan ang gabay",
+        "noteTitle": "Gamitin ang mga ito bilang panimula",
+        "noteBody": "Pangkalahatang edukasyon ang mga gabay na ito. Para sa personal na hatol, alalahanin sa kaligtasan, anumang legal, kasal, presyon ng pamilya o kalusugan ng isip, magtanong sa isang kwalipikadong imam, iskolar, clinician o propesyonal sa inyong lugar.",
+        "roadmapButton": "Bumalik sa roadmap"
+      },
+      "detail": {
+        "notFoundTitle": "Hindi makita ang gabay",
+        "indexTitle": "Mga praktikal na gabay sa buhay",
+        "eyebrow": "Praktikal na gabay",
+        "startHere": "Magsimula rito",
+        "scriptsTitle": "Mga masasabi mo",
+        "situationsTitle": "Mga karaniwang sitwasyon",
+        "relatedTitle": "Saan susunod na pupunta",
+        "qualifiedTitle": "Kailan dapat magtanong sa isang kwalipikado",
+        "qualifiedBody": "Pangkalahatang edukasyon ang gabay na ito. Kung ang tanong mo ay tungkol sa kaligtasan, kasal, presyon ng pamilya, karapatan mo sa trabaho o paaralan, kalusugan ng isip, pera o personal na hatol sa relihiyon, kausapin ang isang kwalipikadong imam, iskolar, clinician, abogado o serbisyong pangkaligtasan sa inyong lugar.",
+        "sourcesNote": "Sinusuportahan ng mga sangguniang ito ang pangkalahatang balangkas ng gabay. Hindi nito napapalitan ang personal na payo mula sa isang kwalipikadong tao na malapit sa iyo.",
+        "backLink": "Bumalik sa lahat ng praktikal na gabay"
+      }
+    },
+    "seasonal": {
+      "index": {
+        "metadataTitle": "Mga gabay sa mga panahon",
+        "metadataDescription": "Mga gabay para sa baguhan tungkol sa kalendaryong Islamiko, Ramadan, Eid, Muharram, Ashura, Dhul Hijjah, Hajj, Umrah, zakat at kawanggawa.",
+        "title": "Mga gabay sa mga panahon",
+        "eyebrow": "Pagsamba at pagbibigay ayon sa panahon",
+        "subtitle": "Maiikling gabay na may sanggunian tungkol sa mga panahong Islamiko na kadalasang nagdudulot ng praktikal na tanong kapag bago ka pa.",
+        "startTitle": "Magsimula sa kasalukuyang panahon",
+        "openGuide": "Buksan ang gabay",
+        "disclaimerTitle": "Kailangang suriin ng kwalipikado ang personal na kaso",
+        "disclaimerBody": "Nakadepende sa eksaktong kalagayan mo ang mga lokal na anunsyo sa kalendaryo, kusang pag-aayuno, mga eksemsiyon, mga nalampasang ayuno, fidyah, qurbani, paglalakbay para sa Hajj, visa para sa Umrah, pagkuwenta ng zakat, at mga maselang usapin sa pamilya o kalusugan. Gamitin ang mga gabay na ito para magkaroon ng direksyon, saka magtanong sa isang kwalipikadong iskolar, imam, mapagkakatiwalaang organisasyon, clinician o opisyal na sanggunian sa paglalakbay sa inyong lugar.",
+        "resourcesButton": "Tingnan ang mga mapagkukunan",
+        "roadmapButton": "Hakbang sa roadmap tungkol sa zakat at Hajj",
+        "ramadanTitle": "Gabay sa Ramadan",
+        "ramadanDescription": "Mga batayan ng pag-aayuno, tulong sa una mong ayuno, Taraweeh, Laylat al-Qadr at paghahanda para sa Eid.",
+        "ramadanBadge": "Pinalawak na gabay"
+      },
+      "detail": {
+        "notFoundTitle": "Hindi makita ang gabay sa panahon",
+        "indexTitle": "Mga gabay sa mga panahon",
+        "allButton": "Lahat ng gabay sa mga panahon",
+        "startHere": "Magsimula rito",
+        "focusNow": "Ano ang pagtutuunan mo ngayon",
+        "canWait": "Ano ang puwedeng maghintay",
+        "scriptsTitle": "Mga kapaki-pakinabang na masasabi",
+        "qualifiedTitle": "Magtanong sa isang kwalipikado kung",
+        "qualifiedBody": "Ang tanong mo ay may kinalaman sa sakit, gamot, pagbubuntis, regla, hirap, paglalakbay, visa, qurbani, mga nalampasang ayuno, fidyah, pagkuwenta ng zakat, utang, ari-arian ng negosyo o presyon ng pamilya. Pangkalahatang edukasyon ang gabay na ito, hindi hatol para sa sitwasyon mo.",
+        "sourcesNote": "Sinusuportahan ng mga sangguniang ito ang panimulang paliwanag sa pahinang ito. Kapag may Ingles, ang mga link sa Quran ay salin ng kahulugan, ang mga link sa hadith ay may sanggunian ng koleksyon, at kailangan pa rin ng kwalipikadong pagsusuri ang mga personal na hatol.",
+        "relatedTitle": "Saan susunod na pupunta",
+        "backLink": "Bumalik sa lahat ng gabay sa mga panahon"
+      }
+    },
     "rootRedirect": {
-      "body": "Nagre-redirect sa iyong default na wika."
+      "body": "Inililipat ka sa default mong wika."
     },
     "home": {
-      "badge": "Libre at Offline-Una",
+      "badge": "Libre at gumagana offline",
       "title": "Maligayang pagdating sa",
-      "titleHighlight": "ang Pamilya",
-      "subtitle": "Dito magsisimula ang iyong paglalakbay, at ikinararangal naming lumakad kasama mo. Tutulungan ka ng gabay na ito na gawin ang iyong mga unang hakbang nang may kalinawan, init, at praktikal na payo.",
-      "logoAlt": "Ibalik ang logo ng Gabay",
-      "exploreTopics": "Galugarin ang mga Paksa",
-      "pathsTitle": "Nasaan Ka sa Iyong Paglalakbay?",
-      "pathsSubtitle": "Ang bawat tao'y nagsisimula sa isang lugar na naiiba. Piliin ang landas na sa tingin mo ay tama para sa iyo.",
+      "titleHighlight": "pamilya",
+      "subtitle": "Nasa tamang lugar ka. Sasamahan ka ng gabay na ito sa mga unang hakbang, sa bilis na ikaw ang magtatakda, may simpleng mga sagot at walang nagmamadali sa iyo.",
+      "logoAlt": "Logo ng Revert Guide",
+      "exploreTopics": "Tingnan ang mga paksa",
+      "firstStepsLabel": "Mga unang hakbang",
+      "firstSteps": [
+        "Matutong magdasal (salah)",
+        "Paghuhugas bago magdasal (wudu at ghusl)",
+        "Oras ng pagdarasal",
+        "Humingi ng tulong"
+      ],
+      "pathsTitle": "Nasaan ka ngayon?",
+      "pathsSubtitle": "Magkakaiba ang simula ng bawat isa. Piliin ang landas na angkop sa iyo.",
       "paths": [
         {
-          "title": "Kumuha lang ng Shahada?",
-          "body": "Binabati kita! Magsimula dito para sa iyong mga unang hakbang - mula sa pag-unawa sa kung ano ang ipinahayag mo hanggang sa pagsasagawa ng Ghusl at pagtanggap sa iyong bagong simula."
+          "title": "Kakasabi mo lang ng Shahada?",
+          "body": "Magsimula rito. Ang kahulugan ng sinabi mo, ang gagawin sa unang araw, at kung paano gawin ang paghuhugas ng buong katawan (ghusl) kapag handa ka na."
         },
         {
-          "title": "Naging Muslim ng Ilang Linggo?",
-          "body": "Nagawa mo na ang paglukso at ngayon ay gusto mong bumuo ng matibay na pundasyon. Tumalon sa pag-aaral ng panalangin, pagkonekta sa komunidad, at pagbuo ng pang-araw-araw na gawi."
+          "title": "Ilang linggo ka na?",
+          "body": "Alamin ang hugis ng pagdarasal, maghanap ng masjid kung saan ka puwedeng magtanong, at bumuo ng pang-araw-araw na gawi na kaya mong panatilihin."
         },
         {
-          "title": "Naghahanap ng Mga Tukoy na Paksa?",
-          "body": "Galugarin ang mga paksa tulad ng panalangin, pag-aayuno, paniniwala, at komunidad sa sarili mong bilis. I-browse ang glossary o sumisid sa kung ano ang pinaka-interesado mo ngayon."
+          "title": "May partikular kang hinahanap?",
+          "body": "Basahin nang hiwalay ang tungkol sa pagdarasal, pag-aayuno, paniniwala o komunidad. Nariyan ang talahuluganan tuwing may bagong salita."
         }
       ],
-      "intro": "Ang Revert Guide ay isang libre, hakbang-hakbang na kasama para sa sinumang yumakap kamakailan sa Islam. Kung natututo ka lang magdasal o naghahanda para sa iyong unang Ramadan, ang gabay na ito ay nakakatugon sa iyo kung nasaan ka - na may mga praktikal na aksyon, banayad na panghihikayat, at walang paghuhusga.",
-      "trust": "Walang mga ad, walang pagsubaybay, walang kinakailangang mga account - suporta lamang para sa iyong paglalakbay.",
-      "quickAccess": "Mabilis na Access",
+      "intro": "Libreng kasama ang Revert Guide, hakbang-hakbang, para sa sinumang kayayakap lang sa Islam. Nag-aaral ka pa man magdasal o naghahanda para sa una mong Ramadan, nagsisimula ito kung nasaan ka talaga. Praktikal na hakbang ang laman nito, walang sermon at walang panghuhusga.",
+      "trust": "Walang patalastas, walang pagsubaybay at walang account na kailangang gawin.",
+      "quickAccess": "Mabilisang access",
       "quickLinks": [
         {
           "title": "Gabay sa Ramadan",
-          "body": "Maghanda para sa iyong unang pag-aayuno"
+          "body": "Maghanda para sa una mong pag-aayuno"
         },
         {
-          "title": "Mga Tip sa Kalusugan ng Pag-iisip",
-          "body": "Suporta para sa panloob na paglalakbay"
+          "title": "Kalusugan ng isip",
+          "body": "Suporta para sa mabibigat na araw"
         },
         {
-          "title": "Maghanap ng Masjid",
-          "body": "Mga moske malapit sa Toronto"
+          "title": "Maghanap ng masjid",
+          "body": "Mga masjid sa buong Canada"
         }
-      ]
+      ],
+      "quickLinkPillars": {
+        "title": "Limang haligi ng Islam",
+        "body": "Ang kabuuang larawan ng ginagawa ng isang Muslim"
+      },
+      "quickLinkFaq": {
+        "title": "Mga tanong at sagot",
+        "body": "Maiikling sagot sa mga tanong ng bagong Muslim"
+      }
     },
     "about": {
       "title": "Tungkol sa Revert Guide",
-      "missionTitle": "Ang Aming Misyon",
-      "mission": "Ang Revert Guide ay umiiral upang suportahan ang mga bagong convert na Muslim na may mahabagin, naa-access na gabay sa kanilang unang taon ng Islam. Naniniwala kami na ang bawat pagbabalik ay karapat-dapat sa isang suportado, hindi mapanghusga na espasyo upang matuto at umunlad sa sarili nilang bilis. Ang aming layunin ay magbigay ng impormasyon, panghihikayat, at praktikal na mga tool na kailangan ng mga bagong Muslim - lahat sa isang lugar, available offline, at ganap na libre.",
-      "approachTitle": "Ang Ating Diskarte",
+      "missionTitle": "Ang aming misyon",
+      "mission": "Tinutulungan ng Revert Guide ang mga tao sa unang taon nila bilang Muslim. Maraming tanong sa unang taong iyon, at karamihan ay karaniwang tanong na ayaw ng sinumang mapahiya sa pagtatanong. Kaya narito ang mga sagot sa iisang lugar, gumagana offline, at libre.",
+      "approachTitle": "Ang aming paraan",
       "approachItems": [
         {
-          "title": "Pang-edukasyon at nakatuon sa baguhan",
-          "body": "Ipinapaliwanag namin ang mga konsepto mula sa simula, sa pag-aakalang walang paunang kaalaman sa Islam."
+          "title": "Pang-edukasyon at para sa baguhan",
+          "body": "Ipinapaliwanag namin ang mga konsepto mula sa simula, nang hindi inaasahang may alam ka na tungkol sa Islam."
         },
         {
-          "title": "Pangunahing pananaw ng Sunni",
-          "body": "Ang aming nilalaman ay sumusunod sa malawakang tinatanggap na iskolar ng Islam na walang pagkiling sa sekta."
+          "title": "Pananaw ng pangunahing Sunni",
+          "body": "Sinusunod ng nilalaman at ng direktoryo ng masjid ang pangunahing Sunni na kaalaman, nang walang pagtatalo ng mga sekta. Kapag nagkakaiba ang apat na Sunni na paaralan ng batas, sinasabi namin ito at hindi kami pumipili para sa iyo."
         },
         {
-          "title": "Non-political at inclusive",
-          "body": "Nakatuon kami sa pananampalataya at kasanayan, tinatanggap ang mga Muslim sa lahat ng kultura."
+          "title": "Hindi pampulitika at bukas sa lahat",
+          "body": "Nananatili kami sa pananampalataya at pagsasabuhay nito, at tinatanggap namin ang mga Muslim mula sa bawat kultura."
         },
         {
-          "title": "Mahahalaga sa mga advanced na paksa",
-          "body": "Inuuna namin ang mga pangunahing kaalaman na higit na kailangan ng mga bagong Muslim, na nag-iiwan ng advanced jurisprudence sa mga iskolar."
+          "title": "Mahahalaga muna bago ang malalalim na paksa",
+          "body": "Tinatalakay namin ang mga batayang pinakakailangan ng bagong Muslim, at iniiwan namin sa mga iskolar ang malalim na jurisprudence."
         },
         {
-          "title": "Walang ad at hindi komersyal",
-          "body": "Walang mga ad, walang tracker, walang monetization. Ito ay isang serbisyo, hindi isang negosyo."
+          "title": "Walang patalastas at hindi pangkomersyo",
+          "body": "Walang patalastas, walang tracker, walang pinagkakakitaan. Serbisyo ito, hindi negosyo."
         },
         {
-          "title": "Komplementaryo sa lokal na patnubay",
-          "body": "Hinihikayat namin ang pagkonekta sa isang lokal na mosque at tagapagturo. Ang gabay na ito ay nagdaragdag, ngunit hindi pinapalitan, ang mga personal na relasyon."
+          "title": "Katuwang ng lokal na patnubay",
+          "body": "Maghanap ng masjid at mentor sa inyong lugar. Dagdag ang gabay na ito sa mga ugnayang iyon, hindi kapalit."
         }
       ],
-      "disclaimerTitle": "Disclaimer",
-      "disclaimer": "Ang patnubay na ito ay nagbibigay ng pangkalahatang impormasyong pang-edukasyon tungkol sa Islam at hindi isang kahalili para sa mga personal na pasya sa relihiyon (fatawa). Para sa mga partikular na tanong sa relihiyon tungkol sa iyong sitwasyon, mangyaring kumonsulta sa isang lokal na iskolar o imam na may kaalaman. Nilalayon namin ang katumpakan, at ang anumang mga pagkakamali ay hindi sinasadya.",
-      "contactTitle": "Makipag-ugnayan",
-      "contact": "If you have questions about Islam, we encourage you to approach a local mosque or mentor for personalised guidance. For feedback on the guide itself, please use the feedback options within the app."
+      "whoRunsTitle": "Sino ang nagpapatakbo ng site na ito",
+      "whoRunsBody": "Proyekto ng mga boluntaryo ang Revert Guide. Hindi ito negosyo, walang patalastas, at wala itong ibinebenta.",
+      "organisationLabel": "Pinapatakbo ng",
+      "locationLabel": "Nakabase sa",
+      "toBeConfirmed": "Kukumpirmahin pa",
+      "reviewTitle": "Paano sinusuri ang nilalaman",
+      "reviewIntro": "Dumaraan ang bawat pahina sa apat na yugto.",
+      "reviewStates": [
+        {
+          "name": "Burador",
+          "body": "Naisulat na ang pahina, pero wala pang sumusuri sa mga sanggunian nito."
+        },
+        {
+          "name": "Nasuri ang sanggunian",
+          "body": "May isa sa team na nagbukas ng bawat sangguniang binanggit ng pahina at nakumpirmang iyon nga ang sinasabi nito."
+        },
+        {
+          "name": "Kailangan ng pagsusuri",
+          "body": "Nasuri na ang mga sanggunian, pero may kinalaman ang pahina sa mga hatol, kalusugan, kaligtasan, batas o usaping pampamilya, kaya naghihintay pa ito ng kwalipikadong tagasuri."
+        },
+        {
+          "name": "Aprubado",
+          "body": "Nabasa at inaprubahan na ng isang kwalipikadong tagasuri ang pahina."
+        }
+      ],
+      "badgeTitle": "Kung nakasulat sa pahina na kailangan ng pagsusuri",
+      "badgeBody": "Puwede mo pa rin itong gamitin. May sanggunian ang impormasyon, pero hindi pa ito naaaprubahan ng kwalipikadong tagasuri. Para sa anumang tungkol sa sarili mong sitwasyon, magtanong sa imam, iskolar o angkop na propesyonal sa inyong lugar.",
+      "reviewerTitle": "Sino ang gumagawa ng pagsusuring pang-iskolar",
+      "reviewerBody": "Sinusuri ang nilalamang panrelihiyon ng isang kwalipikadong tagasuri na inaprubahan ng team. Ilalathala namin ang listahan ng mga tagasuri kapag nakumpirma na ito.",
+      "lastReviewedLabel": "Huling nasuri:",
+      "lastReviewedDate": "2026-09-24",
+      "lastReviewed": "24 Setyembre 2026",
+      "disclaimerTitle": "Paalala",
+      "disclaimer": "Nagbibigay ang gabay na ito ng pangkalahatang impormasyong pang-edukasyon tungkol sa Islam. Hindi ito kapalit ng personal na hatol panrelihiyon (fatwa). Para sa mga tanong tungkol sa sarili mong sitwasyon, magtanong sa isang maalam na iskolar o imam sa inyong lugar. Sinisikap naming maging tama, at hindi sinasadya ang anumang pagkakamali rito.",
+      "contactTitle": "Paano kami makakausap",
+      "contact": "Para sa mga tanong tungkol mismo sa Islam, masasagot ka nang personal ng masjid o mentor sa inyong lugar, at mas mabuti iyon kaysa anumang kayang gawin ng isang website. Para makausap ang team namin, humingi ng mentor, mag-ulat ng pagkakamali o sabihin sa amin ang problema sa accessibility, gamitin ang pahinang Humingi ng tulong o mag-email sa amin.",
+      "contactLinkLabel": "Pumunta sa pahinang Humingi ng tulong",
+      "contactEmailLabel": "Email"
     },
     "accessibility": {
       "title": "Accessibility",
-      "commitmentTitle": "Ang Aming Pangako",
-      "commitment": "Nakatuon kami na gawing naa-access ng lahat ng user ang Revert Guide, anuman ang kakayahan. Ang site na ito ay nakakatugon sa pamantayan ng WCAG 2.1 Level AA at sumusunod sa mga kinakailangan sa Accessibility for Ontarians with Disabilities Act (AODA). Naniniwala kami na karapat-dapat ang lahat ng access sa gabay at suporta sa kanilang espirituwal na paglalakbay.",
+      "commitmentTitle": "Ang aming pangako",
+      "commitment": "Ginawa ang Revert Guide para gumana sa mga tao ng bawat kakayahan. Tumutugon ang site sa pamantayan ng WCAG 2.1 Level AA at sa mga kinakailangan ng Accessibility for Ontarians with Disabilities Act (AODA). Walang dapat mapagsarhan ng nilalamang ito dahil lang sa paraan ng pagkaka-code nito.",
       "standardsTitle": "Mga pamantayan",
       "standards": [
-        "Web Content Accessibility Guidelines (WCAG) 2.1 Level AA",
-        "Accessibility para sa Ontarians with Disabilities Act (AODA)",
-        "Sinubok sa mga screen reader kabilang ang NVDA, JAWS, at VoiceOver"
+        "Web Content Accessibility Guidelines (WCAG) 2.1, antas AA",
+        "Ang batas ng Ontario na Accessibility for Ontarians with Disabilities Act (AODA)",
+        "Sinubok gamit ang mga screen reader gaya ng NVDA, JAWS at VoiceOver"
       ],
-      "featuresTitle": "Mga Tampok ng Accessibility",
+      "featuresTitle": "Mga feature sa accessibility",
       "features": [
-        "Buong keyboard navigation sa buong site - lahat ng functionality ay maaabot sa pamamagitan ng keyboard",
-        "Suporta sa screen reader na may mga katangian ng semantic na HTML at ARIA",
-        "Sapat na contrast ng kulay na nakakatugon sa mga kinakailangan ng WCAG AA (4.5:1 para sa normal na text, 3:1 para sa malaking text)",
-        "Skip-to-content link para i-bypass ang navigation",
-        "Teksto ng naglalarawang link - walang mga link na \"i-click dito\".",
-        "Alternatibong teksto sa lahat ng makabuluhang larawan",
-        "Offline na accessibility - naka-cache ang content at available nang walang internet",
-        "Tumutugon na disenyo na gumagana sa mga mobile device at desktop",
-        "I-clear ang istraktura ng heading para sa madaling pag-navigate",
-        "Nakikitang mga indicator ng focus sa lahat ng interactive na elemento",
-        "Lohikal na pagkakasunud-sunod ng tab sa lahat ng mga pahina"
+        "Buong nabigasyon gamit ang keyboard, kaya naaabot ang bawat feature nang walang mouse",
+        "Suporta sa screen reader sa pamamagitan ng semantic HTML at mga ARIA attribute",
+        "Contrast ng kulay na tumutugon sa WCAG AA (4.5:1 para sa karaniwang teksto, 3:1 para sa malaking teksto)",
+        "Link na lumalaktaw diretso sa nilalaman, lampas sa nabigasyon",
+        "Malinaw na teksto ng link, walang link na \"i-click dito\"",
+        "Alternatibong teksto sa bawat makabuluhang larawan",
+        "Nilalamang naka-save para sa offline na pagbabasa, kaya nababasa pa rin kahit walang koneksyon",
+        "Layout na umaangkop at gumagana sa telepono at desktop",
+        "Malinaw na ayos ng mga heading na puwede mong gamitin sa paglipat",
+        "Nakikitang palatandaan ng focus sa lahat ng interactive na elemento",
+        "Lohikal na pagkakasunod-sunod ng tab sa bawat pahina"
       ],
-      "limitationsTitle": "Mga Kilalang Limitasyon",
-      "limitations": "Ang paghahanap sa mapa at address sa pahina ng Maghanap ng Masjid ay umaasa sa mga serbisyo ng pagmamapa ng third-party at maaaring hindi ganap na ma-access sa bawat screen reader o daloy ng trabaho sa keyboard. Gayunpaman, ang lahat ng impormasyon ng lokasyon, mga filter, at mga link ng mga direksyon ay magagamit din sa listahan ng mga resulta ng text na naa-access sa parehong pahina.",
-      "feedbackTitle": "Feedback",
-      "feedback": "Kung makatagpo ka ng anumang mga hadlang sa accessibility habang ginagamit ang Revert Guide, gusto naming makarinig mula sa iyo. Mangyaring gamitin ang mga pagpipilian sa feedback sa loob ng app upang mag-ulat ng anumang mga isyu. Pinahahalagahan namin ang iyong input at gagana upang matugunan kaagad ang mga alalahanin sa accessibility.",
-      "lastUpdatedTitle": "Huling Na-update",
-      "lastUpdated": "Huling nasuri ang statement ng pagiging naa-access na ito noong Marso 2026."
+      "limitationsTitle": "Mga kilalang limitasyon",
+      "limitations": "Nakasalalay sa mga serbisyo ng mapa mula sa ibang kumpanya ang mapa at paghahanap ng address sa pahinang Maghanap ng masjid, at maaaring hindi ito ganap na gumana sa bawat screen reader o paggamit ng keyboard. Makikita rin ang lahat ng detalye ng lokasyon, mga filter at link ng direksyon sa listahan ng resulta sa parehong pahina, na ganap na naa-access.",
+      "feedbackTitle": "Puna",
+      "feedbackBody": "Kung may hadlang sa accessibility na naranasan mo sa paggamit ng Revert Guide, sabihin mo sa amin sa pahinang Humingi ng tulong o sa email, at aayusin namin ito.",
+      "contactLinks": {
+        "getHelpLabel": "Pumunta sa pahinang Humingi ng tulong",
+        "emailLabel": "O mag-email sa amin:"
+      },
+      "lastUpdatedTitle": "Huling na-update",
+      "lastUpdated": "Huling nasuri ang pahayag na ito sa accessibility noong Marso 2026."
     },
     "privacy": {
-      "title": "Patakaran sa Privacy",
-      "effectiveDate": "Epektibo simula Enero 2026",
-      "sections": [
+      "title": "Patakaran sa privacy",
+      "effective": "May bisa simula 24 Setyembre 2026",
+      "policySections": [
         {
-          "id": "collection",
-          "title": "Ang Kinokolekta Namin",
+          "id": "summary",
+          "title": "Ang maikling bersyon",
           "paragraphs": [
-            "Hindi kami nangongolekta ng personal na data o analytics ng paggamit sa bersyong ito ng Revert Guide. Walang data ng user, email address, pangalan, o pagsubaybay sa aktibidad ang natipon.",
-            "Maaaring kasama sa mga hinaharap na bersyon ang mga opsyonal na feature na nangongolekta ng data. Ang anumang naturang mga pagbabago ay malinaw na ipapabatid at ipapakita sa isang na-update na bersyon ng patakarang ito."
+            "Mababasa mo ang lahat sa Revert Guide nang walang account. Hindi kami gumagamit ng analytics, patalastas o tracking cookies, at wala kaming kinokolekta tungkol sa iyo habang nagba-browse ka.",
+            "Ang tanging pagkakataon na nakakatanggap ang team namin ng personal na impormasyon ay kapag pinili mong magpadala sa amin ng kahilingan para sa tulong. Hiwalay na tinatalakay ng patakarang ito ang dalawang sitwasyong iyon."
           ]
         },
         {
-          "id": "cookies",
-          "title": "Mga cookies",
+          "id": "browsing",
+          "title": "Kapag nagba-browse ka",
           "paragraphs": [
-            "Gumagamit ang Revert Guide ng isang service worker para sa offline na pag-cache. Hindi ito nagsasangkot ng pagsubaybay sa cookies. Hindi kami gumagamit ng analytics cookies (gaya ng Google Analytics) o marketing cookies.",
-            "Ang paghahanap sa mapa at address sa pahina ng Masjid Finder ay maaaring mag-load ng data mula sa mga third-party na provider, na maaaring magtakda ng cookies o makatanggap ng karaniwang data ng kahilingan gaya ng iyong IP address. Ito ay lampas sa aming kontrol."
+            "Walang anumang tungkol sa iyo na ipinapadala sa team namin kapag binabasa mo ang site. Walang account, walang analytics at walang patalastas.",
+            "Para gumana ang site kahit offline, sine-save ng browser mo ang mga pahina sa sarili mong device. Hindi namin ito nakikita. Maaaring makita ng ibang gumagamit ng device mo kung aling mga pahina ang binisita mo, at nabubura ang mga ito kapag binura mo ang browsing data mo.",
+            "May ilang tool na kailangang kumonekta sa ibang serbisyo para gumana. Tumatanggap ang bawat serbisyong iyon ng karaniwang request data, gaya ng IP address at uri ng browser mo, pati ang anumang ipinapadala ng tool. Nakalista sila sa susunod na seksyon."
           ]
         },
         {
           "id": "third-parties",
-          "title": "Mga Third Party",
+          "title": "Ibang serbisyo, bawat tool",
           "paragraphs": [
-            "Ang site na ito ay gumagamit ng OpenStreetMap-based na mga tile ng mapa at mga third-party na geocoding na serbisyo para sa tampok na Masjid Finder. Ang mga provider na iyon ay maaaring makatanggap ng karaniwang data ng kahilingan na kailangan para mag-load ng mga mapa at maghanap ng mga address.",
-            "Walang ibang mga third-party na tagasubaybay o serbisyo ng analytics ang ginagamit. Ang mga panlabas na link ay ibinigay para sa kaginhawahan; hindi kami mananagot para sa mga kasanayan sa privacy ng mga panlabas na website."
+            "Ito ang lahat ng serbisyo sa labas na maaaring kontakin ng site, at kung kailan."
+          ],
+          "items": [
+            {
+              "label": "Maghanap ng masjid, mapa:",
+              "text": "Galing sa OpenStreetMap ang mga larawan ng mapa. Itinatala ng OpenStreetMap Foundation ang request data gaya ng IP address mo, browser at ang pahinang humingi ng mapa, at itinatago nito ang detalyadong impormasyon sa paggamit nang 180 araw."
+            },
+            {
+              "label": "Maghanap ng masjid, paghahanap ng address:",
+              "text": "Ipinapadala ang tina-type mo sa Nominatim, ang serbisyo sa paghahanap ng OpenStreetMap, kasama ang IP address mo. Kasinghusay ng buong address ang postal code o pangalan ng lugar, kaya hindi mo kailangang i-type ang address ng bahay mo."
+            },
+            {
+              "label": "Maghanap ng masjid, gamitin ang lokasyon ko:",
+              "text": "Opsyonal ang button na ito. Hihingi muna ng pahintulot ang browser mo. Ginagamit ang lokasyon mo sa sarili mong device para ayusin ang listahan, at hindi ito kailanman ipinapadala ng site na ito sa team namin o sa anumang server."
+            },
+            {
+              "label": "Direksyon ng Qibla:",
+              "text": "Hinihingi ng pahina ng Qibla sa browser mo ang lokasyon mo at kinukuwenta nito ang direksyon sa device mo. Wala kahit saan ipinapadala ng site ang lokasyon mo. Para malaman kung nasaan ka, maaaring gamitin ng browser o telepono mo ang sarili nitong serbisyo sa lokasyon. Halimbawa, madalas na Google ang nagbibigay ng Wi-Fi positioning."
+            },
+            {
+              "label": "Oras ng pagdarasal:",
+              "text": "Ipinapadala ang address o lungsod na tina-type mo sa AlAdhan, isang libreng serbisyo para sa oras ng pagdarasal na pinapatakbo ng Islamic Network, kasama ang IP address mo. Wala kaming nakitang nakalathalang patakaran sa privacy ng AlAdhan. Mas pribado kung lungsod ang ita-type mo sa halip na buong address."
+            },
+            {
+              "label": "Ang 99 na pangalan ng Allah:",
+              "text": "Kinukuha ng pahinang ito ang mga pangalan mula sa AlAdhan. Wala itong ipinapadalang address, karaniwang request data lamang gaya ng IP address mo."
+            },
+            {
+              "label": "Mga video:",
+              "text": "Ginagamit ng mga video ang privacy-enhanced player ng YouTube. Walang naglo-load mula sa YouTube hangga't hindi mo pinipindot ang play. Kapag pinindot mo ang play, tatanggap ang YouTube ng karaniwang request data gaya ng IP address mo, at maaari itong maglagay ng cookies o mag-imbak ng katulad na data sa device mo. Sinasabi ng YouTube na hindi ginagamit ang mga panonood sa mode na ito para i-personalize ang karanasan mo sa YouTube o ang mga patalastas na nakikita mo sa ibang lugar. Kung mag-click ka papunta mismo sa YouTube, ang sariling patakaran sa privacy ng YouTube ang masusunod."
+            },
+            {
+              "label": "WhatsApp:",
+              "text": "Kung sinusundan mo ang aming WhatsApp Channel, hindi makikita ng ibang tagasunod ang numero ng telepono mo, at ang mga admin lamang na nag-save sa iyo bilang contact ang makakakita nito. Iba ang WhatsApp group. Kapag sumali ka sa isa, makikita ng mga admin ng grupo ang numero mo, at maaari rin itong makita ng ibang miyembro. Ang sariling mga tuntunin ng WhatsApp ang masusunod sa dalawa."
+            },
+            {
+              "label": "Mga link sa ibang website:",
+              "text": "May sariling paraan sa privacy ang mga website na nili-link namin, at hindi namin kontrolado ang mga iyon."
+            }
+          ]
+        },
+        {
+          "id": "help-requests",
+          "title": "Kapag humingi ka sa amin ng tulong",
+          "paragraphs": [
+            "Ang help form sa pahinang Humingi ng tulong ang tanging lugar kung saan kami kumukolekta ng personal na impormasyon. Hinihingi lamang nito ang kailangan namin para sumagot sa iyo o para makahanap ng suporta para sa iyo: ang uri ng tulong na gusto mo, ang wika mo, paano mo gustong kontakin ka namin, at ang lungsod o probinsya mo. Puwede kang gumamit ng palayaw.",
+            "Google Form ang form. Nili-link namin ito sa halip na ilagay sa aming mga pahina, kaya walang naglo-load mula sa Google hangga't hindi mo ito binubuksan. Inayos namin ito para hindi mo na kailangang mag-sign in sa Google account. Nakaimbak ang mga sagot mo sa Google account ng team namin, at tumatanggap ang Google ng karaniwang request data gaya ng IP address mo. Maaaring maglagay ang Google ng cookies sa pahina ng form, at maaari itong mag-imbak ng data sa labas ng Canada.",
+            "Huwag sanang isama ang anumang ayaw mong maimbak online.",
+            "Kung mag-email ka sa halip, itatago ang mensahe mo sa aming email inbox."
+          ]
+        },
+        {
+          "id": "who-reads",
+          "title": "Sino ang makakabasa ng kahilingan mo",
+          "paragraphs": [
+            "Isa o dalawang coordinator ang nagbabasa ng mga kahilingan sa iisang shared inbox. Kung humingi ka ng mentor, ipapasa lamang namin ang mga detalyeng kailangan ng mentor, at kapag pumayag ka lamang. Hindi namin ibinebenta ang mga kahilingan o ibinabahagi sa iba."
+          ]
+        },
+        {
+          "id": "retention",
+          "title": "Gaano katagal namin ito itinatago",
+          "paragraphs": [
+            "Sinisikap naming sumagot sa loob ng 48 hanggang 72 oras. Pagkatapos noon, bukas lamang ang kahilingan habang tinutulungan ka namin.",
+            "Ang layunin namin ay burahin ang kahilingan 6 na buwan matapos itong isara. Kukumpirmahin ng team ang eksaktong panahon at ia-update ang pahinang ito. Puwede mo kaming hilinging burahin ang kahilingan mo anumang oras, at gagawin namin iyon."
+          ]
+        },
+        {
+          "id": "consent",
+          "title": "Ang pahintulot mo",
+          "paragraphs": [
+            "Sinasabi sa amin ng kahilingan para sa tulong na Muslim ka, bago sa Islam, o pinag-iisipan mo ito. Itinuturing ng Office of the Privacy Commissioner of Canada na sensitibong impormasyon ang paniniwalang panrelihiyon at sinasabi nitong karaniwang dapat kumuha ang mga organisasyon ng tahasang pahintulot bago ito kolektahin.",
+            "Sinasabi sa iyo ng form kung ano ang kinokolekta namin, sino ang makakakita nito, bakit namin ito kailangan at ang mga panganib, at hinihingi nito ang pagsang-ayon mo bago mo ito ipadala. Ang pagpapadala ng form ang pahintulot mo na gamitin namin ang mga sagot mo para sumagot sa iyo at ayusin ang tulong na hiningi mo. Puwede mong bawiin ang pahintulot na iyon sa paghiling na burahin namin ang kahilingan mo."
+          ]
+        },
+        {
+          "id": "private-conversion",
+          "title": "Kung pinananatili mong pribado ang pagyakap mo sa Islam",
+          "paragraphs": [
+            "Walang anumang tungkol sa iyo na ipinapadala sa team namin kapag nagba-browse ka sa Revert Guide. Ang maaaring makita ng iba ay nasa sarili mong device: ang browsing history mo at ang mga pahinang na-save para sa offline na pagbabasa. Hindi napupunta sa history mo ang mga pahina kapag gumamit ka ng private o incognito window.",
+            "Napupunta sa mga serbisyong nakalista sa itaas ang tina-type mo sa tool para sa oras ng pagdarasal o sa paghahanap ng masjid.",
+            "Ang kahilingan para sa tulong ay umaalis sa device mo at napupunta sa Google at sa team namin gaya ng inilarawan sa itaas. Puwede mong ipadala ang form mula sa ibang device, gaya ng computer sa library o telepono ng mapagkakatiwalaang kaibigan, at magbigay ng paraan ng pakikipag-ugnayan na ikaw lamang ang tumitingin."
           ]
         },
         {
           "id": "children",
-          "title": "Privacy ng mga Bata",
+          "title": "Privacy ng mga bata",
           "paragraphs": [
-            "Ang site na ito ay hindi nakadirekta sa mga batang wala pang 13 taong gulang. Hindi namin sinasadyang nangongolekta ng impormasyon mula sa mga batang wala pang 13 taong gulang."
+            "Hindi para sa mga batang wala pang 13 taong gulang ang site na ito, at hindi namin sinasadyang kumolekta ng impormasyon mula sa kanila."
           ]
         },
         {
           "id": "changes",
-          "title": "Mga Pagbabago sa Patakarang Ito",
+          "title": "Mga pagbabago sa patakarang ito",
           "paragraphs": [
-            "Kung ia-update namin ang patakaran sa privacy na ito, ipo-post namin ang na-update na bersyon sa pahinang ito at i-update ang petsa ng bisa sa itaas. Hinihikayat ka naming suriin ang patakarang ito sa pana-panahon."
+            "Kapag in-update namin ang patakarang ito, ilalagay ang bagong bersyon sa pahinang ito at magbabago rin ang petsa ng bisa sa itaas. Balikan mo ito paminsan-minsan."
           ]
         },
         {
           "id": "contact",
           "title": "Makipag-ugnayan",
           "paragraphs": [
-            "Kung mayroon kang mga tanong tungkol sa patakaran sa privacy na ito, mangyaring gamitin ang mga opsyon sa feedback sa loob ng app."
+            "Para sa mga tanong tungkol sa patakarang ito, o para hilinging burahin namin ang isang kahilingan para sa tulong, makipag-ugnayan sa amin sa pahinang Humingi ng tulong o sa email."
           ]
         }
-      ]
+      ],
+      "contactLinks": {
+        "getHelpLabel": "Pumunta sa pahinang Humingi ng tulong",
+        "emailLabel": "O mag-email sa amin:"
+      }
     },
     "terms": {
-      "title": "Mga Tuntunin sa Paggamit",
-      "effectiveDate": "Epektibo simula Enero 2026",
+      "title": "Mga tuntunin sa paggamit",
+      "effectiveDate": "May bisa simula Enero 2026",
       "sections": [
         {
           "id": "acceptance",
-          "title": "Pagtanggap sa Mga Tuntunin",
-          "body": "Sa pamamagitan ng pag-access at paggamit ng Revert Guide, sumasang-ayon kang sumailalim sa mga tuntuning ito. Kung hindi ka sumasang-ayon sa anumang bahagi ng mga tuntuning ito, mangyaring huwag gamitin ang site."
+          "title": "Pagtanggap sa mga tuntunin",
+          "body": "Sa paggamit ng Revert Guide, pumapayag ka sa mga tuntuning ito. Kung hindi ka sang-ayon sa anumang bahagi nito, huwag sanang gamitin ang site."
         },
         {
           "id": "content-disclaimer",
-          "title": "Disclaimer ng Nilalaman",
-          "body": "Ang nilalamang ibinigay sa Revert Guide ay para sa mga layuning pang-edukasyon tungkol sa Islam at hindi bumubuo ng mga pormal na pasya sa relihiyon (fatawa) o legal na payo. Para sa mga personal na desisyon sa relihiyon, mangyaring kumonsulta sa isang kwalipikadong lokal na iskolar o imam. Habang nilalayon namin ang katumpakan, hindi namin ginagarantiya na ang lahat ng impormasyon ay walang error. Gamitin ang nilalaman sa iyong sariling paghuhusga."
+          "title": "Paalala tungkol sa nilalaman",
+          "body": "Materyal pang-edukasyon tungkol sa Islam ang nilalaman ng Revert Guide. Hindi ito pormal na hatol panrelihiyon (fatwa) at hindi ito payong legal. Para sa mga personal na pasya sa relihiyon, kumonsulta sa isang kwalipikadong iskolar o imam sa inyong lugar. Sinisikap naming maging tama pero hindi namin magagarantiya na walang mali sa bawat detalye, kaya gamitin ang nilalaman ayon sa sarili mong pagpapasya."
         },
         {
           "id": "medical-disclaimer",
-          "title": "Disclaimer sa Medikal at Kalusugan",
-          "body": "Ang nilalaman tungkol sa kalusugan ng isip o mga paksang nauugnay sa kalusugan sa site na ito ay hindi propesyonal na payo sa medikal o mental na kalusugan. Kung nakakaranas ka ng mga isyu sa kalusugan ng isip o medikal na alalahanin, mangyaring kumunsulta sa isang lisensyadong propesyonal. Huwag gamitin ang gabay na ito bilang kapalit ng propesyonal na pangangalagang medikal."
+          "title": "Paalala tungkol sa medikal at kalusugan",
+          "body": "Hindi propesyonal na payong medikal ang anumang nasa site na ito tungkol sa kalusugan ng isip o ng katawan. Kung may problema ka sa kalusugan ng isip o may alalahaning medikal, kumonsulta sa isang lisensyadong propesyonal. Huwag ituring ang gabay na ito na kapalit ng pangangalagang medikal."
         },
         {
           "id": "ip",
-          "title": "Intelektwal na Ari-arian",
-          "body": "Ang lahat ng nilalaman, kabilang ang teksto, disenyo, mga logo, at istraktura ng site, ay intelektwal na pag-aari ng Revert Guide o ng mga nag-ambag nito. Maaaring tingnan at ibahagi ng mga user ang mga link sa site ngunit hindi maaaring muling i-publish, kopyahin, baguhin, o ipamahagi ang nilalaman nang walang pahintulot. Ang personal, hindi pangkomersyal na paggamit ay pinahihintulutan - halimbawa, pagbabasa ng nilalaman para sa iyong sarili o pagbabahagi ng link sa isang kaibigan."
+          "title": "Intelektwal na ari-arian",
+          "body": "Pag-aari ng Revert Guide o ng mga nag-ambag dito ang teksto, disenyo, logo at istruktura ng site. Puwede mong basahin ang site at ibahagi ang mga link nito, pero hindi mo puwedeng ilathalang muli, kopyahin, baguhin o ipamahagi ang nilalaman nang walang pahintulot. Ayos lang ang personal at hindi pangkomersyong paggamit, gaya ng pagbabasa mo mismo o pagpapadala ng link sa isang kaibigan."
         },
         {
           "id": "liability",
-          "title": "Limitasyon ng Pananagutan",
-          "body": "Ibinigay ang Gabay sa Pagbabalik \"as is\" nang walang mga warranty, hayag o ipinahiwatig. Hindi kami mananagot para sa anumang hindi direkta, hindi sinasadya, o kinahinatnang mga pinsala na nagmumula sa iyong paggamit ng site. Ang iyong paggamit ng site na ito ay nasa iyong sariling peligro."
+          "title": "Limitasyon ng pananagutan",
+          "body": "Ibinibigay ang Revert Guide \"kung ano ito\", nang walang anumang garantiya, tahasan man o ipinahiwatig. Hindi kami mananagot sa hindi direkta, di-sinasadya o kinahinatnang pinsala mula sa paggamit mo ng site. Ginagamit mo ito sa sarili mong panganib."
         },
         {
           "id": "governing-law",
-          "title": "Batas na Namamahala",
-          "body": "Ang mga tuntuning ito ay pinamamahalaan ng mga batas ng Lalawigan ng Ontario, Canada. Ang anumang mga hindi pagkakaunawaan na nagmumula sa paggamit ng site na ito ay napapailalim sa hurisdiksyon ng mga korte ng Ontario."
+          "title": "Batas na masusunod",
+          "body": "Saklaw ng mga batas ng Province of Ontario, Canada ang mga tuntuning ito. Nasa hurisdiksyon ng mga korte ng Ontario ang mga alitang magmumula sa paggamit ng site na ito."
         },
         {
           "id": "changes",
-          "title": "Mga Pagbabago sa Mga Tuntuning Ito",
-          "body": "Maaari naming i-update ang mga tuntuning ito anumang oras sa pamamagitan ng pag-post ng mga binagong tuntunin sa pahinang ito. Ang patuloy na paggamit ng Revert Guide pagkatapos mai-post ang mga pagbabago ay bumubuo ng pagtanggap sa mga na-update na tuntunin."
+          "title": "Mga pagbabago sa mga tuntuning ito",
+          "body": "Maaari naming i-update ang mga tuntuning ito anumang oras sa pamamagitan ng paglalagay ng binagong bersyon sa pahinang ito. Kapag nagpatuloy ka sa paggamit ng Revert Guide pagkatapos noon, itinuturing na tinanggap mo ang update."
         },
         {
           "id": "external-links",
-          "title": "Mga Panlabas na Link",
-          "body": "Ang site na ito ay naglalaman ng mga link sa mga panlabas na website. Hindi kami mananagot para sa nilalaman o mga kasanayan ng mga site na iyon. Ang mga panlabas na link ay ibinigay para sa kaginhawahan at hindi nagpapahiwatig ng pag-endorso."
+          "title": "Mga link sa labas",
+          "body": "May mga link ang site na ito sa ibang website. Hindi kami responsable sa kanilang nilalaman o gawi. Ginhawa lamang ang link, hindi pag-endorso."
         }
       ]
     },
     "sources": {
-      "title": "Mga Pinagmulan at Sipi",
-      "intro": "Kami ay nakatuon sa katumpakan at saligan ang aming nilalaman sa mga tunay na mapagkukunan. Ang bawat partikular na claim at quote sa gabay na ito ay isinangguni sa ibaba. Hinihikayat ka naming basahin ang mga mapagkukunang ito para sa mas malalim na kaalaman.",
-      "sections": [
-        {
-          "id": "quran-refs",
-          "title": "Quranikong Sanggunian",
-          "items": [
-            {
-              "code": "Q1",
-              "text": "Quran 2:185 - \"Ang Ramadan ay ang buwan kung saan ibinaba ang Quran bilang gabay sa sangkatauhan...\" - Tinukoy sa",
-              "linkLabel": "Gabay sa Ramadan"
-            },
-            {
-              "code": "Q2",
-              "text": "Quran 1:1-7 (Surah Al-Fatiha) - Ang pambungad na kabanata ng Quran, binibigkas sa bawat yunit ng panalangin. - Tinukoy sa",
-              "linkLabel": "Mga Paksa: Panalangin"
-            },
-            {
-              "code": "Q3",
-              "text": "Quran 112:1-4 (Surah Al-Ikhlas) - \"Sabihin, Siya ay si Allah, ang Nag-iisa...\" - Tinukoy sa",
-              "linkLabel": "Mga Paksa: Mga Pangunahing Paniniwala"
-            },
-            {
-              "code": "Q4",
-              "text": "Quran 7:156 - \"Ang aking awa ay sumasaklaw sa lahat ng bagay.\" - Tinukoy sa",
-              "linkLabel": "Mga Paksa: Mga Pangunahing Paniniwala"
-            },
-            {
-              "code": "Q5",
-              "text": "Quran 21:107 - \"Hindi ka namin ipinadala maliban bilang isang awa sa mga daigdig.\" - Tinukoy sa",
-              "linkLabel": "Mga Paksa: Mga Pangunahing Paniniwala"
-            },
-            {
-              "code": "Q6",
-              "text": "Quran 97:1-5 (Surah Al-Qadr) - Inilalarawan ang Laylat al-Qadr bilang \"mas mabuti kaysa sa isang libong buwan.\" - Tinukoy sa",
-              "linkLabel": "Gabay sa Ramadan"
-            }
-          ]
-        },
-        {
-          "id": "hadith-refs",
-          "title": "Mga Sanggunian sa Hadith",
-          "items": [
-            {
-              "code": "H1",
-              "text": "Sahih Bukhari, Vol. 1, Book 2, Hadith 7 - \"Ang mga kilos ay hinuhusgahan ng mga intensyon (niyyah).\" - Na-refer sa maraming hakbang"
-            },
-            {
-              "code": "H2",
-              "text": "Sahih Muslim, Book 35, Hadith 6505 - \"Gaano kahanga-hanga ang kapakanan ng mananampalataya...\" - Tinukoy sa",
-              "linkLabel": "Mga Paksa: Mga Pangunahing Paniniwala"
-            },
-            {
-              "code": "H3",
-              "text": "Sahih Bukhari, Aklat 8, Hadith 604 - \"Magdasal gaya ng nakita mong nagdarasal ako.\" - Tinukoy sa",
-              "linkLabel": "Mga Paksa: Panalangin"
-            },
-            {
-              "code": "H4",
-              "text": "Sahih Bukhari - \"Ang Allah ay may siyamnapu't siyam na mga pangalan; sinumang kabisaduhin ang mga ito ay papasok sa Paraiso.\" - Tinukoy sa",
-              "linkLabel": "Mga Paksa: Mga Pangunahing Paniniwala"
-            },
-            {
-              "code": "H5",
-              "text": "Jami at-Tirmidhi - \"Itali ang iyong kamelyo, pagkatapos ay magtiwala sa Allah.\" - Tinukoy sa",
-              "linkLabel": "Gabay sa Kalusugan ng Pag-iisip"
-            }
-          ]
-        },
-        {
-          "id": "article-refs",
-          "title": "Mga artikulo",
-          "items": [
-            {
-              "code": "A1",
-              "text": "Bagong Gabay sa Muslim - newmuslimguide.com - Komprehensibong mapagkukunan na sumasaklaw sa pagsamba, paniniwala, at pang-araw-araw na buhay. - Tinukoy sa Hakbang 1-3"
-            },
-            {
-              "code": "A2",
-              "text": "Aking Panalangin (Salah) - Isang Sunud-sunod na Gabay - newmuslimguide.com - Illustrated na gabay sa panalangin. - Tinukoy sa",
-              "linkLabel": "Hakbang: Panalangin"
-            },
-            {
-              "code": "A3",
-              "text": "Mental Health and the Muslim Convert Experience - Yaqeen Institute - Referenced in",
-              "linkLabel": "Gabay sa Kalusugan ng Pag-iisip"
-            },
-            {
-              "code": "A4",
-              "text": "Gabay sa Paghahanda ng Ramadan - Yaqeen Institute - Tinukoy sa",
-              "linkLabel": "Gabay sa Ramadan"
-            }
-          ]
-        },
-        {
-          "id": "book-refs",
-          "title": "Mga libro",
-          "items": [
-            {
-              "code": "B1",
-              "text": "The Clear Quran ni Dr. Mustafa Khattab - Modern English Quran translation. - Tinukoy sa",
-              "linkLabel": "Mga Paksa: Quran"
-            },
-            {
-              "code": "B2",
-              "text": "Maligayang pagdating sa Islam ni Mustafa Umar - Praktikal na bagong gabay sa Muslim. - Tinukoy sa Hakbang 1 at 3"
-            },
-            {
-              "code": "B3",
-              "text": "Being Muslim: A Practical Guide by Asad Tarsin (Sandala Press) - Handbook para sa mga bago at bumalik na Muslim. - Tinukoy sa Hakbang 3, 8"
-            },
-            {
-              "code": "B4",
-              "text": "Fortress of the Muslim (Hisn al-Muslim) - Koleksyon ng mga tunay na pang-araw-araw na pagsusumamo. - Tinukoy sa",
-              "linkLabel": "Mga Paksa: Panalangin"
-            }
-          ]
-        }
-      ],
-      "closing": "Kung mayroon kang mga tanong tungkol sa alinman sa mga sangguniang ito o gustong magmungkahi ng mga karagdagang mapagkukunan, mangyaring gamitin ang mga opsyon sa feedback sa loob ng app. Tinatanggap namin ang mga kontribusyon na tumutulong na palakasin ang katumpakan at lalim ng gabay na ito."
+      "title": "Mga sanggunian at sipi",
+      "closingContact": "Kung may tanong ka tungkol sa alinman sa mga sangguniang ito, o may gusto kang imungkahi na hindi namin naisama, makipag-ugnayan sa amin sa pahinang Humingi ng tulong o sa email.",
+      "contactLinks": {
+        "getHelpLabel": "Pumunta sa pahinang Humingi ng tulong",
+        "emailLabel": "O mag-email sa amin:"
+      },
+      "registryIntro": "Ipinapakita ng pahinang ito kung saan nanggagaling ang gabay sa Revert Guide, panrelihiyon man, praktikal, pangkalusugan, o nakapaloob sa isa sa mga tool. Wala rito ang pumapalit sa isang kwalipikadong imam, iskolar, clinician o ibang propesyonal sa inyong lugar kapag tungkol na sa sarili mong sitwasyon ang tanong.",
+      "policyTitle": "Paano ginagamit ng Revert Guide ang mga sanggunian",
+      "howToUseTitle": "Paano gamitin ang mga sanggunian nang hindi nabibigatan",
+      "howToUseBody": "Hindi mo kailangang maging eksperto sa pagsusuri ng mga sanggunian. Magsimula sa mga batayan, matuto sa mga gurong pinagkakatiwalaan mo, at magtanong sa isang kwalipikado kapag ang tanong ay tungkol sa pagsamba, pamilya, kalusugan o pera mo. Narito ang mga tag para masuri mo ang aming gawa. Hindi ito isa pang bagay na kailangan mong pag-aralan nang husto.",
+      "linkLastChecked": "Huling nasuri ang link: {date}.",
+      "endorsementNote": "Hindi ibig sabihin ng tag ng sanggunian na inendorso ng organisasyong iyon ang Revert Guide. Ipinapakita lamang nito kung saan kami naghanap ng sumusuportang impormasyon at kung saan ka puwedeng magpatuloy sa pagbabasa."
     },
     "roadmap": {
-      "badge": "Iyong Pasulong na Landas",
-      "description": "Isang gabay na batay sa timeline mula sa iyong unang araw bilang isang Muslim hanggang sa unang anim na buwan at higit pa. Ang bawat yugto ay bubuo sa huli - sundin ang mga ito sa pagkakasunud-sunod o tumalon sa kung saan man tama ang pakiramdam.",
-      "stagesLabel": "Mga yugto ng paglalakbay",
-      "explore": "Galugarin",
+      "badge": "Ang daan mo pasulong",
+      "description": "Isang timeline mula sa unang araw mo bilang Muslim hanggang sa unang anim na buwan at lampas pa. Nakabatay ang bawat yugto sa nauna, kaya puwede mo silang sundan nang sunod-sunod o tumalon sa yugtong tugma sa kinalalagyan mo.",
+      "stagesLabel": "Mga yugto ng roadmap",
+      "explore": "Tingnan",
       "endingTitle": "Walang maling lugar para magsimula.",
-      "endingBody": "Magsimula kung nasaan ka at umunlad sa sarili mong bilis. Ang bawat paglalakbay ay natatangi, at ang sa iyo ay walang pagbubukod."
+      "endingBody": "Magsimula kung nasaan ka at gumalaw sa sarili mong bilis. Walang dalawang taong pareho ang timeline.",
+      "pillarsTitle": "Magsimula sa kabuuang larawan: ang limang haligi ng Islam",
+      "pillarsBody": "Ano ang ginagawa ng isang Muslim, saan ito nanggagaling, at aling bahagi ang para sa iyo ngayon."
     },
     "stage": {
-      "stageLabel": "entablado",
+      "stageLabel": "Yugto",
       "overview": "Pangkalahatang-ideya",
-      "mainGoal": "Pangunahing Layunin",
-      "successLooksLike": "Mukhang Tagumpay",
-      "stepsInStage": "Mga Hakbang sa Yugto na Ito",
-      "dontWorryYet": "Huwag Mag-alala Pa",
-      "whatsNext": "Ano ang Susunod",
-      "nextStage": "Susunod na Yugto",
+      "mainGoal": "Pangunahing layunin",
+      "successLooksLike": "Ganito ang tagumpay",
+      "stepsInStage": "Mga hakbang sa yugtong ito",
+      "dontWorryYet": "Huwag munang alalahanin",
+      "whatsNext": "Ano ang susunod",
+      "nextStage": "Susunod na yugto",
       "continueTo": "Magpatuloy sa",
-      "finalStageTitle": "Naabot mo na ang huling yugto!",
-      "finalStageBody": "Mula dito, ipagpatuloy ang iyong panghabambuhay na paglalakbay ng paglago. Galugarin ang seksyong Mga Paksa para sa mas malalim na pag-aaral sa mga partikular na paksa.",
-      "exploreTopics": "Galugarin ang mga Paksa"
+      "finalStageTitle": "Narating mo na ang huling yugto.",
+      "finalStageBody": "Walang finish line pagkatapos nito. Mas lumalalim ang seksyon ng mga paksa sa bawat paksa kung kailan mo gusto.",
+      "exploreTopics": "Tingnan ang mga paksa",
+      "learningPathTitle": "Ano ang pag-aaralan sa yugtong ito",
+      "learningPathIntro": "Isang pangunahing bagay na sisimulan, at isang dagdag kung gusto mo pa. Makakapaghintay ang lahat ng iba.",
+      "learningPathMain": "Magsimula rito",
+      "learningPathOptional": "Kung gusto mo pa",
+      "learningPathGuardrails": "Dahan-dahan lang",
+      "learningPathOpen": "Buksan",
+      "opensInNewTab": "(magbubukas sa bagong tab)",
+      "guidanceTitle": "Ano ang pagtutuunan mo ngayon",
+      "focusNow": "Pagtuunan ngayon",
+      "canWait": "Ano ang puwedeng maghintay",
+      "askHelpIf": "Humingi ng tulong kung",
+      "goodNextQuestions": "Magagandang susunod na tanong"
     },
     "step": {
       "stepLabel": "Hakbang",
-      "whyThisStepMatters": "Bakit Mahalaga ang Hakbang na Ito",
-      "exactActions": "Mga Eksaktong Aksyon",
-      "commonObstacles": "Mga Karaniwang Obstacle",
-      "tinyVersion": "Maliit na Bersyon",
-      "whatUnlocksNext": "Ano ang Susunod na Magbubukas",
-      "recommendedResources": "Mga Inirerekomendang Mapagkukunan",
-      "relatedTopics": "Mga Kaugnay na Paksa",
-      "keyTerms": "Mga Pangunahing Tuntunin",
-      "navigationAriaLabel": "Hakbang nabigasyon",
-      "previous": "Nakaraang",
-      "next": "Susunod"
+      "whyThisStepMatters": "Bakit mahalaga ang hakbang na ito",
+      "exactActions": "Mga eksaktong gagawin",
+      "commonObstacles": "Mga karaniwang hadlang",
+      "tinyVersion": "Pinakamaliit na bersyon",
+      "whatUnlocksNext": "Ano ang mabubuksan nito",
+      "recommendedResources": "Mga inirerekomendang mapagkukunan",
+      "relatedTopics": "Mga kaugnay na paksa",
+      "keyTerms": "Mga terminong dapat malaman",
+      "navigationAriaLabel": "Nabigasyon ng hakbang",
+      "previous": "Nakaraan",
+      "next": "Susunod",
+      "watchTitle": "Manood at matuto",
+      "commonQuestions": "Mga karaniwang tanong",
+      "workSchoolFamily": "Para sa trabaho, paaralan o pamilya",
+      "gentleScripts": "Mga mahinahong masasabi"
     },
     "topics": {
-      "description": "Galugarin ang mga gabay sa mga partikular na paksa upang mapalalim ang iyong pang-unawa. Ang bawat paksa ay self-contained - magsimula sa anumang pinaka-interesado mo.",
+      "description": "Mga gabay na tig-iisang paksa, buo ang bawat isa. Magsimula sa kung alin ang kailangan mo.",
       "gridLabel": "Mga gabay sa paksa",
-      "footerPrefix": "Naghahanap ng step-by-step na landas?",
-      "footerRoadmap": "Sundin ang Roadmap",
-      "footerGlossaryPrefix": "Kailangan mo ng mabilis na term lookup?",
-      "footerGlossary": "Suriin ang Glossary"
+      "footerPrefix": "Naghahanap ng hakbang-hakbang na landas?",
+      "footerRoadmap": "Sundan ang roadmap",
+      "footerGlossaryPrefix": "Kailangan ng mabilisang paghahanap ng termino?",
+      "footerGlossary": "Tingnan ang talahuluganan"
     },
     "topic": {
-      "relatedSteps": "Mga Kaugnay na Hakbang",
-      "keyTerms": "Mga Pangunahing Tuntunin",
-      "resources": "Mga mapagkukunan"
+      "relatedSteps": "Mga kaugnay na hakbang",
+      "keyTerms": "Mga terminong dapat malaman",
+      "resources": "Mga mapagkukunan",
+      "actions": {
+        "quranStarter": {
+          "label": "Buksan ang panimulang landas sa Quran",
+          "body": "Pumili ng salin, magsimula sa maiikling bahagi, makinig nang walang presyon, at mag-print ng iskedyul ng pagbabasa para sa unang linggo."
+        },
+        "salahCompanion": {
+          "label": "Buksan ang Matutong magdasal (salah)",
+          "body": "Sundan ang hugis ng pagdarasal na may dalawang rak'ah, kung ano ang bibigkasin at ano ang gagawin kapag nawala ka sa binibigkas mo."
+        },
+        "duaDhikr": {
+          "label": "Buksan ang sanggunian sa dua at dhikr",
+          "body": "Maikling koleksyon ng mga dua para sa baguhan at mga pariralang dhikr na may tag ng sanggunian, at kung saan may hangganan ang personal na dua."
+        }
+      },
+      "toolsLabel": "Mga kaugnay na tool para sa baguhan",
+      "linkCardsTitle": "Saan susunod na pupunta",
+      "videosTitle": "Manood",
+      "sourcesNote": "Sinusuportahan ng mga sangguniang ito ang pangkalahatang gabay sa paksa. Para sa mga personal na hatol o maselang sitwasyon, magtanong sa isang kwalipikadong imam, iskolar, clinician o propesyonal sa inyong lugar, alinman ang angkop."
+    },
+    "sourceNotes": {
+      "findMasjidMap": "Galing sa OpenStreetMap at Nominatim ang mga tile ng mapa at ang paghahanap ng address. Nagbabago ang mga detalye ng masjid, kaya kumpirmahin muna sa masjid ang oras ng pagdarasal, mga klase, accessibility at suporta sa bisita bago ka pumunta.",
+      "mentalHealth": "Nagbibigay ang pahinang ito ng pangkalahatang suportang emosyonal at itinuturo ka nito sa tulong sa krisis. Hindi ito therapy, diagnosis o payong medikal. Kung nasa agarang panganib ka, tumawag sa 9-1-1 ngayon.",
+      "prayerTimes": "Galing sa AlAdhan ang oras ng pagdarasal dito. Magkakaiba ang paraan ng pagkuwenta ng bawat sanggunian, kaya kumpirmahin ang eksaktong iskedyul sa masjid sa inyong lugar kapag mahalaga ang oras.",
+      "qibla": "Kinukuwenta ng pahinang ito ang direksyon mula sa iyong coordinates papunta sa Kaaba. Lumilihis ang compass ng telepono dahil sa kalidad ng sensor, case ng telepono, magnet at pagiging nasa loob ng gusali.",
+      "asmaAlHusna": "Galing sa AlAdhan ang mga pangalan at ang maiikling kahulugan nito sa Ingles. Kasama ang hadith para sa pangkalahatang kabutihan ng pag-aaral ng mga pangalan. Kailangan ng kwalipikadong guro para mas lumalim pa.",
+      "stage": "Pangkalahatang edukasyon para sa bagong Muslim ang gabay sa bawat yugto. Matutulungan ka ng isang mentor o kwalipikadong guro sa inyong lugar na ilapat ito sa sarili mong sitwasyon.",
+      "step": "Sinusuportahan ng mga sangguniang ito ang pangkalahatang paliwanag sa hakbang na ito. Dalhin ang mga personal na tanong sa relihiyon sa isang kwalipikadong imam o iskolar sa inyong lugar."
     },
     "ramadan": {
       "title": "Gabay sa Ramadan",
-      "subtitle": "Ang iyong unang Ramadan bilang isang Muslim.",
+      "subtitle": "Ang una mong Ramadan bilang Muslim.",
       "whatIsRamadan": {
         "title": "Ano ang Ramadan?",
-        "body": "Ang Ramadan ay ang ikasiyam na buwan ng Islamic calendar at ang pinakabanal na buwan para sa mga Muslim sa buong mundo. Sa panahon ng Ramadan, ang mga Muslim ay nag-aayuno mula madaling araw hanggang sa paglubog ng araw bawat araw - umiwas sa pagkain, inumin, at iba pang pisikal na pangangailangan. Ngunit ang Ramadan ay higit pa sa hindi pagkain; ito ay panahon ng espirituwal na pagmumuni-muni, pagpapabuti ng sarili, pagtaas ng panalangin, at pagpapalalim ng buklod sa komunidad. Ang Quran ay unang ipinahayag noong Ramadan, na ginagawa itong isang buwan ng espesyal na espirituwal na kahalagahan."
+        "body": "Ang Ramadan ang ikasiyam na buwan ng kalendaryong Islamiko at ang buwan ng pag-aayuno ng mga Muslim. Mula madaling-araw hanggang paglubog ng araw, walang pagkain, walang inumin at walang pagtatalik. Ang pag-aayuno ang nakikitang bahagi, pero tungkol din ang buwan sa pagdarasal, pagbabasa ng Quran, pagbibigay, at mas maingat na pagtingin sa pakikitungo mo sa kapwa. Sa Ramadan dumating ang unang pahayag ng Quran, at bahagi iyon ng dahilan kung bakit napakahalaga ng buwang ito."
       },
       "forNewMuslims": {
-        "title": "Para sa mga Bagong Muslim",
+        "title": "Para sa mga bagong Muslim",
         "calloutTitle": "Hindi ka nag-iisa",
-        "calloutBody": "Kung ito ang iyong unang Ramadan, ganap na normal na makaramdam ng pagkabalisa o hindi sigurado. Tandaan na ang anumang pag-aayuno na maaari mong gawin ay mahalaga, at maaari kang mabuo nang paunti-unti. Huwag maging mahirap sa iyong sarili - kahit na ang mga panghabambuhay na Muslim ay nakakaranas ng Ramadan na mahirap minsan.",
-        "body": "Humanap ng fasting buddy, mentor, o community group na pagbabahaginan ng karanasan. Maraming mga mosque ang may mga espesyal na programa para sa mga bagong Muslim sa panahon ng Ramadan. Ikaw ay kumuha ng isang bagay na maganda, at ang komunidad ng Muslim ay narito upang suportahan ka."
+        "calloutBody": "Kung ito ang una mong Ramadan, normal lang na kabahan o hindi sigurado. May halaga ang anumang pag-aayunong kaya mo, at puwede kang magsimula roon. Maging mabait sa sarili mo. Kahit ang mga Muslim na nag-ayuno buong buhay nila ay nahihirapan pa rin sa ilang araw.",
+        "body": "Maghanap ng kasama sa pag-aayuno, mentor o grupo sa komunidad para hindi mo pagdaanan nang mag-isa ang buwan. Maraming masjid ang may programa para sa bagong Muslim tuwing Ramadan, at karamihan ng tao ay natutuwang matanong."
       },
       "fastingBasics": {
-        "title": "Mga Pangunahing Kaalaman sa Pag-aayuno",
+        "title": "Mga batayan ng pag-aayuno",
         "items": [
           {
             "term": "Suhoor",
-            "desc": "(pagkain bago ang bukang-liwayway) - Kumain ng nakapagpapalusog na pagkain bago ang pagdarasal ng Fajr. Ito ay mahalaga para sa enerhiya sa buong araw. Ang mga pagkaing mataas sa fiber at protina ay nakakatulong sa iyo na manatiling busog nang mas matagal."
+            "desc": "ang pagkain bago mag-madaling-araw. Kumain ng nakabubusog bago ang pagdarasal sa Fajr, dahil ito ang magdadala sa iyo buong araw. Mas matagal kang busog sa fiber at protina kaysa sa asukal."
           },
           {
             "term": "Iftar",
-            "desc": "(breaking the fast) - Hatiin ang iyong pag-aayuno sa paglubog ng araw, ayon sa kaugalian na may mga petsa at tubig. Ito ay isang Sunnah ng Propeta Muhammad (sumakanya nawa ang kapayapaan) at isang mabilis na paraan upang mapunan muli ang enerhiya."
+            "desc": "ang pagkaing nagbubukas ng ayuno paglubog ng araw, karaniwang datiles at tubig muna. Iyon ang gawi ni Propeta Muhammad (sumakanya nawa ang kapayapaan), at mabilis nitong ibinabalik ang lakas mo."
           },
           {
-            "term": "Ano ang dapat iwasan",
-            "desc": "- Walang pagkain, inumin, o matalik na relasyon mula madaling araw hanggang sa paglubog ng araw. Kung hindi mo sinasadyang kumain o uminom, ang iyong pag-aayuno ay may bisa pa rin - huminto lamang at magpatuloy sa pag-aayuno."
+            "term": "Ano ang iiwasan",
+            "desc": "ang pagkain, inumin at pagtatalik mula madaling-araw hanggang paglubog ng araw. Kung nakakain o nakainom ka nang hindi sinasadya, buo pa rin ang ayuno mo. Huminto lang at magpatuloy."
           },
           {
-            "term": "Sino ang exempt",
-            "desc": "- Ang mga may sakit, naglalakbay, matatanda, buntis, nagpapasuso, o may regla ay hindi kasama. Ang mga napalampas na araw ay maaaring mabuo sa ibang pagkakataon."
+            "term": "Sino ang hindi obligado",
+            "desc": "ang sinumang may sakit, naglalakbay, matanda na, buntis, nagpapasuso o may regla. Puwedeng bayaran sa ibang araw ang mga nalampasang araw."
           },
           {
-            "term": "Intensiyon (Niyyah)",
-            "desc": "- Gumawa ng isang intensyon sa iyong puso tuwing gabi o bago ang bukang-liwayway na ikaw ay nag-aayuno para sa kapakanan ng Allah."
+            "term": "Intensyon (niyyah)",
+            "desc": "ang ginagawa sa puso, sa gabi bago o bago mag-madaling-araw, na nag-aayuno ka para sa Allah."
           }
         ],
-        "footerPrefix": "Para sa detalyadong mga panuntunan sa pag-aayuno, tingnan",
+        "footerPrefix": "Para sa mga detalyadong tuntunin, tingnan ang ",
         "footerLinkLabel": "Pag-aayuno at Ramadan",
-        "footerSuffix": "sa seksyong Mga Paksa."
+        "footerSuffix": " sa seksyon ng mga paksa."
       },
       "preparing": {
         "title": "Paghahanda para sa Ramadan",
         "items": [
-          "Unti-unting ayusin ang iyong iskedyul ng pagtulog - magigising ka bago madaling araw para sa suhoor.",
-          "Bawasan muna ang pag-inom ng caffeine upang maiwasan ang withdrawal headache sa mga oras ng pag-aayuno.",
-          "Magplano ng simple, masustansyang suhoor at iftar na pagkain nang maaga.",
-          "Kung maaari, ipaalam sa iyong tagapag-empleyo o paaralan - maraming tao ang nakakaunawa tungkol sa mga pagdiriwang ng relihiyon.",
-          "Alamin ang mga pangunahing pagsusumamo: ang intensyon para sa pag-aayuno at ang dua para sa pagsira ng pag-aayuno.",
-          "Magtakda ng mga personal na layunin para sa buwan - magbasa pa ng Quran, magbigay ng kawanggawa, pagbutihin ang ugali, o palakasin ang isang relasyon."
+          "Unti-unting paagahin ang tulog mo sa loob ng ilang araw, dahil gigising ka bago mag-madaling-araw para sa suhoor.",
+          "Bawasan muna ang kape bago mag-Ramadan para hindi ka mag-ayuno habang masakit ang ulo dahil sa kakulangan ng caffeine.",
+          "Magpasya nang maaga sa simpleng suhoor at iftar, bago ka pa mapagod at magutom.",
+          "Sabihin sa employer o paaralan mo kung makakatulong ito. Makatwiran ang karamihan ng tao pagdating sa pagsasagawa ng relihiyon.",
+          "Matutuhan ang dalawang maikling dua: ang intensyon sa pag-aayuno, at ang dua sa pagbubukas nito.",
+          "Pumili ng isa o dalawang layunin para sa buwan, gaya ng mas maraming pagbabasa ng Quran, regular na pagbibigay, o pag-aayos ng isang relasyon."
         ]
       },
       "duringRamadan": {
-        "title": "Sa panahon ng Ramadan",
-        "spiritualPracticesTitle": "Mga Espirituwal na Kasanayan",
+        "title": "Habang Ramadan",
+        "spiritualPracticesTitle": "Mga gawaing espirituwal",
         "spiritualPractices": [
-          "Basahin ang Quran araw-araw - Ang Ramadan ay ang buwan ng Quran, at kahit ilang talata araw-araw ay nagdudulot ng pagbabago.",
-          "Dagdagan ang iyong mga panalangin, lalo na ang Tarawih (pagdarasal sa gabi) sa mosque.",
-          "Gumawa ng madalas na dua (pagsusumamo) - ang mga panalangin ng isang taong nag-aayuno ay may espesyal na kahalagahan.",
-          "Magbigay ng kawanggawa (sadaqah) kung kaya mo - ang pagkabukas-palad ay lubos na hinihikayat sa buwang ito."
+          "Magbasa ng kaunting Quran araw-araw. Buwan ng Quran ang Ramadan, at may halaga pa rin ang ilang talata bawat araw.",
+          "Magdasal nang mas madalas, lalo na ang Tarawih sa masjid sa gabi.",
+          "Madalas na mag-dua. May espesyal na halaga ang panalangin ng taong nag-aayuno.",
+          "Magbigay ng sadaqah kung kaya mo. Lubos na hinihikayat ang pagiging mapagbigay sa buwang ito."
         ],
-        "practicalTipsTitle": "Mga Praktikal na Tip sa Survival",
-        "practicalTipsCalloutTitle": "Manatiling hydrated!",
-        "practicalTipsCalloutBody": "Uminom ng maraming tubig sa pagitan ng iftar at suhoor. Ang pag-aalis ng tubig ay ang pinakakaraniwang hamon, lalo na sa mahabang pag-aayuno sa tag-init.",
+        "practicalTipsTitle": "Mga praktikal na tip para makaraos",
+        "practicalTipsCalloutTitle": "Uminom ng sapat na tubig",
+        "practicalTipsCalloutBody": "Uminom ng maraming tubig mula iftar hanggang suhoor. Mas malaking problema ang dehydration kaysa gutom, lalo na sa mahahabang ayuno tuwing tag-init.",
         "practicalTips": [
-          "Huwag laktawan ang suhoor - nagbibigay ito sa iyo ng enerhiya upang malampasan ang araw.",
-          "Umidlip saglit kung maaari, lalo na kung mas maikli ang iyong mga gabi dahil sa Tarawih at suhoor.",
-          "Asahan ang pagbaba ng enerhiya sa hapon - mag-iskedyul ng mga mahihingi na gawain para sa umaga kung posible.",
-          "Hatiin ang iyong pag-aayuno gamit ang mga petsa at tubig - nagbibigay ito ng mabilis na enerhiya at sumusunod sa Sunnah."
+          "Huwag laktawan ang suhoor. Ito ang pagkakaiba ng araw na kaya mo at araw na napakahirap.",
+          "Umidlip kung kaya mo, lalo na kapag nababawasan ng Tarawih at suhoor ang tulog mo.",
+          "Asahan mong manghihina ka sa hapon, kaya ilagay sa umaga ang mabibigat na gawain kung puwede.",
+          "Buksan ang ayuno sa datiles at tubig. Sunnah ito at mabilis nitong ibinabalik ang lakas mo."
         ]
       },
       "tarawihAndCommunity": {
-        "title": "Tarawih at Komunidad",
-        "tarawihBodyBeforeIsha": "Ang Tarawih ay mga espesyal na pagdarasal sa gabi na ginagawa sa panahon ng Ramadan, na gaganapin pagkatapos",
-        "tarawihBodyAfterIsha": "(Isha) panalangin sa mosque. Maaaring mahaba ang mga ito, ngunit huwag mag-alala kung hindi mo madasal ang buong sesyon - kahit na ang bahagyang pakikilahok ay kapaki-pakinabang. Subukang dumalo kahit isang beses para maranasan ang magandang kapaligiran ng komunidad.",
-        "iftarBody": "Ang mga pagtitipon ng iftar sa mga mosque at community center ay isang magandang paraan upang masira ang iyong pag-aayuno kasama ng iba. Makakahanap ka ng masaganang pagkain at nakakaengganyang mukha. Ang mga pagtitipon na ito ay isa sa mga pinakamahal na bahagi ng Ramadan at isang mahusay na paraan upang magkaroon ng mga bagong kaibigan.",
-        "calloutTitle": "Tip sa komunidad",
-        "calloutBody": "Pag-isipang maghanap ng buddy o mentor sa pag-aayuno para sa pananagutan at suporta. Ang pagbabahagi ng karanasan sa ibang tao ay nagpapadali sa paglalakbay."
+        "title": "Tarawih at komunidad",
+        "tarawihBodyBeforeIsha": "Ang Tarawih ay mga dagdag na pagdarasal sa gabi tuwing Ramadan, pagkatapos ng ",
+        "tarawihBodyAfterIsha": " (Isha) sa masjid. Matagal ito, at ayos lang umalis sa kalagitnaan. Subukang dumalo kahit minsan, dahil kailangan mong maranasan mismo ang pakiramdam sa loob ng masjid tuwing Tarawih para maunawaan ito.",
+        "iftarBody": "Madaling paraan ang mga salu-salong iftar sa masjid at community centre para magbukas ng ayuno kasama ang ibang tao. Kadalasan, mas marami ang pagkain kaysa inaasahan ng sinuman, at may taong lalapit para magpakilala. Para sa maraming balik-Islam, sa mga gabing ito nagsisimula ang mga unang tunay na pagkakaibigan.",
+        "calloutTitle": "Tip para sa komunidad",
+        "calloutBody": "Maghanap ng kasama sa pag-aayuno o mentor para sa buwan. Mas gumagaan ang lahat kapag may isang taong nakakaalam kung kumusta ang linggo mo."
       },
       "laylatAlQadr": {
-        "title": "Laylat al-Qadr (Gabi ng Kapangyarihan)",
-        "body": "Sa huling sampung gabi ng Ramadan, hinahanap ng mga Muslim ang Laylat al-Qadr - ang Gabi ng Kapangyarihan. Inilalarawan ng Quran ang gabing ito bilang \"mas mahusay kaysa sa isang libong buwan.\" Bagama't hindi alam ang eksaktong petsa nito, tradisyonal itong hinahangad sa mga gabing may kakaibang bilang ng huling sampung araw (ika-21, ika-23, ika-25, ika-27, o ika-29). Maraming Muslim ang nagdaragdag ng kanilang pagsamba sa mga gabing ito sa pamamagitan ng dagdag na mga panalangin, pagbabasa ng Quran, at pagsusumamo."
+        "title": "Laylat al-Qadr (ang Gabi ng Kapangyarihan)",
+        "body": "Sa huling sampung gabi ng Ramadan, hinahanap ng mga Muslim ang Laylat al-Qadr, ang Gabi ng Kapangyarihan. Sinasabi ng Quran na mas mabuti ito kaysa isang libong buwan. Walang nakakaalam ng eksaktong petsa, kaya ayon sa tradisyon ay hinahanap ito sa mga gabing gansal sa sampung iyon: ika-21, ika-23, ika-25, ika-27 o ika-29. Marami ang mas nagdarasal, mas nagbabasa ng Quran at mas napupuyat sa panahong ito."
       },
       "eidAlFitr": {
         "title": "Eid al-Fitr",
-        "body": "Sa pagtatapos ng Ramadan, ipinagdiriwang ng mga Muslim ang Eid al-Fitr - isang masayang pagdiriwang na minarkahan ang pagkumpleto ng buwan ng pag-aayuno. Nagsisimula ito sa isang espesyal na panalangin ng Eid sa umaga, na kadalasang ginagawa sa malalaking pagtitipon sa mga mosque o mga bukas na lugar.",
+        "body": "Ang Eid al-Fitr ang pagdiriwang sa pagtatapos ng Ramadan. Nagsisimula ito sa pagdarasal ng Eid sa umaga, karaniwang sa malaking pagtitipon sa masjid o sa bukas na lugar.",
         "items": [
-          "Isuot ang iyong pinakamahusay na damit at batiin ang iba ng \"Eid Mubarak\" (Blessed Eid).",
-          "Tangkilikin ang mga maligaya na pagkain kasama ang iyong komunidad - Ang Eid ay isang araw ng pagdiriwang at pasasalamat.",
-          "Kung kaya mo, mag-ambag ng Zakat al-Fitr (isang maliit na donasyong kawanggawa) bago ang Eid prayer. Tanungin ang iyong mosque para sa mga detalye."
+          "Isuot ang pinakamaganda mong damit at batiin ang mga tao ng \"Eid Mubarak\", na ang ibig sabihin ay pinagpalang Eid.",
+          "Kumain kasama ang komunidad mo. Araw ng pagdiriwang at pasasalamat ang Eid.",
+          "Kung kaya mo, magbigay ng Zakat al-Fitr, isang maliit na kawanggawa, bago ang pagdarasal ng Eid. Masasabi sa iyo ng masjid mo ang halaga."
         ],
-        "calloutTitle": "Nakuha mo ito!",
-        "calloutBody": "Okay lang na maging emosyonal sa Eid, lalo na kung malayo ang iyong pamilya o hindi naiintindihan ang iyong paglalakbay. Tandaan - mayroon kang bagong komunidad na kasama sa pagdiriwang. Pumunta sa panalangin ng Eid, tamasahin ang araw, at ipagmalaki ang iyong nagawa."
+        "calloutTitle": "Pinaghirapan mo ito",
+        "calloutBody": "Karaniwan ang pagiging emosyonal sa Eid, lalo na kapag malayo ang pamilya mo o hindi nila naiintindihan ang ipinagdiriwang mo. May komunidad ka na ngayon. Pumunta sa pagdarasal, kumain nang marami, at ipagmalaki ang buwang natapos mo."
       },
       "resources": {
         "title": "Mga mapagkukunan",
-        "footerPrefix": "Para sa higit pang detalye, galugarin ang",
+        "footerPrefix": "Para sa higit pang detalye, basahin ang pahina ng paksang ",
         "footerLinkLabel": "Pag-aayuno at Ramadan",
-        "footerSuffix": "pahina ng paksa."
-      }
+        "footerSuffix": "."
+      },
+      "seasonalButton": "Mga gabay sa mga panahon",
+      "planningTitle": "Pagpaplano ng una mong Ramadan",
+      "planningBody": "Gamitin ang maiikling checklist na ito bilang panimula. Isang buong buwan ang Ramadan, kaya hindi mo kailangang gawin ang lahat sa unang linggo.",
+      "careTitle": "Ang mas mahihirap na tanong",
+      "careBody": "Narito ang mga talang ito para bigyan ka ng direksyon. Kailangan ng kwalipikadong pagsusuring panrelihiyon ang sarili mong kaso sa pag-aayuno, at kailangan din ng payong medikal ang anumang may kinalaman sa kalusugan mo.",
+      "firstEidButton": "Gabay sa unang Eid",
+      "zakatButton": "Gabay sa zakat para sa baguhan",
+      "sourcesNote": "Nakasandig sa mga sanggunian sa Quran at hadith ang mga materyal tungkol sa pagsamba rito, at galing sa mga sanggunian sa edukasyon para sa baguhan ang praktikal na paliwanag. Magtanong sa isang kwalipikadong imam sa inyong lugar tungkol sa sakit, paglalakbay, regla, gamot, fidyah o mga nalampasang ayuno.",
+      "checklistAlt": "Ang una kong Ramadan, isang checklist na may mga kahong walang tsek. Bago mag-Ramadan: itanong sa masjid mo kung paano nila inaanunsyo ang simula; alamin ang mga batayan, walang pagkain, inumin o pagtatalik mula madaling-araw hanggang paglubog ng araw; alamin kung sino ang pinapahintulutang hindi mag-ayuno at magtanong tungkol sa sarili mong kaso. Araw-araw: kumain ng kahit kaunti sa suhoor bago mag-madaling-araw; buksan ang ayuno pagkalubog ng araw gamit ang tubig o datiles; pumili ng isang maliit na gawain ng pagsamba na kaya mong ipagpatuloy. Habang tumatagal: subukan ang taraweeh kahit minsan kung gusto mo, opsyonal ito; sabihin sa isang tao kung kumusta ka. Hindi nabubura ang Ramadan mo kapag may araw na nalampasan mo o nahirapan ka. Kaginhawahan ang nais ng Allah para sa iyo.",
+      "checklistCaption": "Isang checklist na puwedeng i-print para sa una mong Ramadan. Tsekan ang nakakatulong at iwan ang iba.",
+      "sistersLinkLabel": "Para sa kababaihan: ano ang nagbabago kapag may regla ka"
     },
     "mentalHealth": {
-      "title": "Pangangalaga sa Iyong Isip",
-      "subtitle": "Ang iyong emosyonal na kagalingan ay mahalaga. Nandito ang page na ito para suportahan ka.",
+      "title": "Pag-aalaga sa isip mo",
+      "subtitle": "Mahalaga kung kumusta ka sa damdamin. Narito ang pahinang ito para roon.",
       "validation": {
-        "title": "Ang Iyong Damdamin ay Wasto",
+        "title": "May saysay ang nararamdaman mo",
         "calloutTitle": "Hindi ka nag-iisa",
-        "calloutBody": "Maraming mga bagong Muslim ang nakakaranas ng mga damdamin ng kalungkutan, pagdududa, pagkabalisa, mga katanungan sa pagkakakilanlan, o salungatan sa pamilya. Ang mga damdaming ito ay hindi gumagawa sa iyo na isang masamang Muslim - ginagawa ka nilang tao.",
-        "body": "Ang pagyakap sa Islam ay isa sa pinakamahalagang desisyon na maaari mong gawin. Ito ay isang magandang hakbang, ngunit ito rin ay isang malaking pagbabago sa buhay na nangangailangan ng emosyonal na pagsasaayos. Ito ay ganap na normal na makaramdam ng labis na pagkabalisa, pagkakasalungatan, o kawalan ng katiyakan kung minsan. Ang mahalaga ay narito ka, natututo at lumalago. Bawat nagbalik-loob bago mo nalakbay ang parehong mga tubig na ito, at makikita mo rin ang iyong katayuan."
+        "calloutBody": "Maraming bagong Muslim ang nakakaranas ng pag-iisa, pag-aalinlangan, pagkabalisa, mga tanong tungkol sa kung sino na sila ngayon, o alitan sa bahay. Hindi ka nagiging masamang Muslim dahil dito. Tao ka lang.",
+        "body": "Isa sa pinakamalalaking desisyong magagawa ng tao ang pagyakap sa Islam. Mabuting desisyon ito, pero malaking pagbabago pa rin sa buhay na may bigat sa damdamin habang nag-aadjust ka. Karaniwan lang na may mga linggong nabibigatan ka o nalilito. Ang mahalaga ay narito ka at patuloy na natututo. Dumaan na sa ganitong yugto ang mga balik-Islam bago ka, at nalampasan nila ito."
       },
       "faithAndHelp": {
-        "title": "Pananampalataya at Tulong sa Propesyonal",
+        "title": "Pananampalataya at propesyonal na tulong",
         "paragraphs": [
-          "Ang Islam ay nagtuturo ng pakikiramay, awa, at ang pangangalaga sa iyong isip ay mahalaga. Ang pagtitiwala sa Allah ay maaaring magdulot ng malaking kaaliwan, ngunit ang ating pananampalataya ay nagtuturo din sa atin na humanap ng praktikal na paraan ng tulong. Kung paanong nakikita natin ang isang doktor para sa pisikal na karamdaman habang nananalangin para sa kagalingan, ganap na katanggap-tanggap na magpatingin sa isang tagapayo para sa emosyonal na pagkabalisa habang nananalangin para sa kaginhawahan.",
-          "Si Propeta Muhammad (sumakanya nawa ang kapayapaan) at ang kanyang mga kasamahan ay nakaranas ng kalungkutan, dalamhati, at stress. Ang pagiging Muslim ay hindi nangangahulugan ng pagiging masaya sa bawat sandali - ito ay nangangahulugan ng pagkakaroon ng pag-asa at tiyaga kahit na sa kahirapan."
+          "Itinuturo ng Islam ang awa, at itinuturing nitong bahagi ng pag-aalaga sa sarili ang pag-aalaga sa isip. Tunay na ginhawa ang pagtitiwala sa Allah, at ang parehong pananampalataya ang nagsasabi sa atin na gumawa rin ng praktikal na paraan. Nagpapatingin tayo sa doktor kapag may sakit sa katawan at sabay na nananalangin para gumaling. Ganoon din mismo ang pagpapatingin sa counsellor kapag may pinagdaraanang bigat ng damdamin.",
+          "Nakaramdam din ng dalamhati, lungkot at stress si Propeta Muhammad (sumakanya nawa ang kapayapaan) at ang kanyang mga kasamahan. Hindi ibig sabihin ng pagiging Muslim na masaya ka bawat sandali. Ang ibig sabihin nito ay kumakapit ka sa pag-asa at nagpapatuloy sa mahihirap na bahagi."
         ],
-        "calloutTitle": "Itali mo ang iyong kamelyo",
-        "calloutBody": "Mayroong isang kilalang konsepto sa Islam: \"Itali ang iyong kamelyo, pagkatapos ay magtiwala sa Allah.\" Nangangahulugan ito ng paggawa ng mga praktikal na hakbang upang matugunan ang iyong mga hamon habang naglalagay din ng iyong tiwala sa Diyos. Ang paghahanap ng therapy o pagpapayo ay isang praktikal na hakbang."
+        "calloutTitle": "Itali muna ang kamelyo mo",
+        "calloutBody": "May kilalang kasabihan: itali ang kamelyo mo, saka magtiwala sa Allah. Gawin ang praktikal na bagay tungkol sa problema mo, at kasabay nito ay magtiwala sa Diyos. Isa sa mga praktikal na bagay na iyon ang therapy."
       },
       "commonExperiences": {
-        "title": "Mga Karaniwang Karanasan",
+        "title": "Mga karaniwang karanasan",
         "helpLabel": "Ano ang makakatulong:",
         "items": [
           {
-            "title": "Kalungkutan",
-            "body": "Maaari kang makaramdam ng paghihiwalay kung wala ka pang mga kaibigang Muslim, o kung ang iyong pamilya ay dumistansya. Ang pakiramdam na ito ay pansamantala, kahit na maaaring hindi ito ganoon sa ngayon.",
-            "help": "Sumali sa mga bagong klase ng Muslim o mga kaganapan sa komunidad sa iyong lokal na mosque. Ang mga online na komunidad ay maaaring magbigay ng suporta kapag hindi available ang mga in-person na koneksyon. Suriin kung ang iyong mosque ay may isang convert na grupo ng suporta - marami ang mayroon."
+            "title": "Pag-iisa",
+            "body": "Maaaring pakiramdam mo ay nakahiwalay ka kung wala ka pang kaibigang Muslim, o kung lumayo ang pamilya mo. Lumilipas din ang bahaging ito, kahit hindi ganoon ang pakiramdam habang nasa gitna ka nito.",
+            "help": "Sumali sa klase para sa bagong Muslim o sa kaganapan ng komunidad sa masjid sa inyong lugar. Nakakatulong ang mga online na grupo kapag walang harapang mapupuntahan. Itanong kung may support group para sa balik-Islam ang masjid mo, dahil marami ang mayroon."
           },
           {
-            "title": "Salungatan sa Pamilya",
-            "body": "Maaaring hindi maintindihan ng iyong pamilya ang iyong pagbabalik-loob, at ang ilan ay maaaring mag-react nang may kalituhan, pag-aalala, o kahit na poot. Ito ang isa sa pinakamahirap na bahagi ng paglalakbay para sa maraming mga convert.",
-            "help": "Panatilihin ang mapagmahal na komunikasyon kung maaari. Bigyan ang iyong pamilya ng oras upang mag-adjust - hindi mo kailangang pagdebatehan ang bawat detalye ng iyong pananampalataya. Magtakda ng banayad na mga hangganan upang protektahan ang iyong kapayapaan. Maraming mga convert ang naka-navigate dito bago ka, at ang kanilang mga karanasan ay maaaring mag-alok ng patnubay at pag-asa."
+            "title": "Alitan sa pamilya",
+            "body": "Maaaring hindi maintindihan ng pamilya mo kung bakit ka yumakap sa Islam, at may ilang tutugon nang may pagkalito, pag-aalala o galit. Para sa maraming balik-Islam, ito ang pinakamahirap na bahagi ng lahat.",
+            "help": "Patuloy na kausapin sila nang may init kung kaya mo. Bigyan sila ng panahon para mag-adjust, at iwasan ang pakikipagtalo sa bawat detalye ng pananampalataya. Magtakda ng mahinahong hangganan para protektahan ang sarili mong kapayapaan. Dumaan na rito ang ibang balik-Islam at masasabi nila sa iyo kung ano ang gumana."
           },
           {
-            "title": "Mga Tanong sa Pagkakakilanlan",
-            "body": "Maaari mong maramdaman ang pagitan ng iyong dating pagkakakilanlan at ng iyong bagong buhay bilang isang Muslim. Maaari kang magtaka kung ikaw ay \"sapat na Muslim\" o parang isang impostor sa mga setting ng relihiyon.",
-            "help": "Hindi mo kailangang talikuran ang iyong kultura o personalidad para maging Muslim. Ang Islam ay nagdaragdag sa kung sino ka - hindi nito binubura kung sino ka noon. Yakapin ang kabutihan mula sa iyong paglaki at ihalo ito sa mga pagpapahalagang Islamiko. Ang bawat tao'y lumalaki sa kanilang sariling bilis, at walang iisang \"tamang paraan\" upang maging Muslim."
+            "title": "Mga tanong tungkol sa pagkakakilanlan",
+            "body": "Maaaring pakiramdam mo ay naiipit ka sa pagitan ng dati mong pagkatao at ng kung sino ka ngayon. Karaniwang-karaniwan ang magtanong kung \"sapat na ba ang pagka-Muslim\" mo, o ang pakiramdam na nagkukunwari ka sa isang panrelihiyong lugar.",
+            "help": "Hindi mo kailangang itapon ang kultura o personalidad mo para maging Muslim. Nagdaragdag ang Islam sa kung sino ka. Hindi nito binubura ang dati mong pagkatao. Panatilihin ang kabutihan mula sa pagpapalaki sa iyo at hayaan itong sumabay sa pananampalataya mo. Walang iisang tamang paraan ng pagiging Muslim, at walang sinumang may takdang iskedyul."
           },
           {
-            "title": "Mga Pagdududa sa Pananampalataya",
-            "body": "Maaari kang makaranas ng mga pagdududa tungkol sa Islam o hulaan ang iyong desisyon. Ang pananampalataya ay maaaring magbago, at ang mga tanong ay natural na bahagi ng anumang espirituwal na paglalakbay.",
-            "help": "Hinihikayat ng Islam ang paghahanap ng kaalaman. Makipag-usap sa isang matalinong tagapayo, magbasa ng mga mapagkakatiwalaang libro, o dumalo sa isang study circle. Huwag ilagay ang iyong mga tanong - ang paggalugad sa mga ito nang may katapatan ay kadalasang nagpapalakas ng pananampalataya sa paglipas ng panahon. Gumawa ng dua (pagsusumamo) para sa patnubay, at maging matiyaga sa iyong sarili."
+            "title": "Mga pag-aalinlangan sa pananampalataya",
+            "body": "Maaaring may pag-aalinlangan ka tungkol sa Islam, o pinagdududahan mo ang buong desisyon. Tumataas at bumababa ang pananampalataya, at kasama ng anumang seryosong pangako ang mga tanong.",
+            "help": "Sinasabi ng Islam na hanapin mo ang kaalaman. Kausapin ang isang mentor na may alam, magbasa ng mapagkakatiwalaang libro, o umupo sa isang study circle. Huwag kimkimin ang mga tanong. Kadalasan, mas tumitibay ang pananampalataya kapag tapat mong hinarap ang mga ito. Mag-dua para sa patnubay, at bigyan ang sarili mo ng panahon."
           }
         ]
       },
       "selfCare": {
-        "title": "Mga Praktikal na Istratehiya sa Pangangalaga sa Sarili",
+        "title": "Praktikal na pag-aalaga sa sarili",
         "items": [
-          "Panatilihin ang pangunahing pangangalaga sa sarili: sapat na tulog, masustansyang pagkain, at regular na ehersisyo. Ang pisikal na kagalingan ay malakas na nakakaapekto sa emosyonal na kagalingan.",
-          "Manatiling konektado - makipag-ugnayan sa isang kaibigan o tagapayo nang regular. Kahit na ang isang lingguhang tawag sa telepono ay maaaring gumawa ng malaking pagkakaiba.",
-          "Makisali sa mga aktibidad na nagdudulot sa iyo ng kapayapaan at kagalakan: mga paglalakad sa kalikasan, pagbabasa, mga malikhaing libangan. Ang malusog na libangan ay hindi di-Islamiko.",
-          "Gumamit ng pag-alaala sa Allah (dhikr) at panalangin upang mabawasan ang pagkabalisa. Ang mga simpleng parirala tulad ng \"SubhanAllah\" o pagbigkas ng Al-Fatiha ay maaaring magdala ng katahimikan sa mahihirap na sandali.",
-          "Itala ang iyong mga damdamin o ipahayag ang mga ito sa dalawang - ang pagsusulat ng mga bagay o pakikipag-usap kay Allah mula sa iyong puso ay maaaring mapawi ang emosyonal na presyon.",
-          "Magtakda ng malusog na mga hangganan sa mga tao o mga sitwasyong nakakapagpapagod sa iyo. Ang pagprotekta sa iyong kapayapaan ay isang paraan ng pangangalaga sa sarili.",
-          "Magsanay ng mga pagsasanay sa paghinga. Ang Dhikr (pag-alaala) ay maaaring maging meditative - ang pag-uulit ng \"SubhanAllah\" na may mabagal, malalim na paghinga ay pinagsasama ang espirituwal at pisikal na kalmado.",
-          "Maghanap ng isang sumusuportang komunidad o tagapayo na nakakaunawa sa paglalakbay sa conversion. Hindi mo kailangang gawin ito nang mag-isa."
+          "Asikasuhin ang mga batayan: sapat na tulog, maayos na pagkain, kaunting ehersisyo. Mas malaki ang epekto ng kalagayan ng katawan sa damdamin kaysa inaasahan ng karamihan.",
+          "Manatiling nakikipag-ugnayan sa isang kaibigan o mentor. Kahit isang tawag bawat linggo ay may nababago.",
+          "Gawin ang mga bagay na nagpapakalma sa iyo, paglalakad man sa labas, pagbabasa o paggawa ng isang bagay. Hindi labag sa Islam ang pag-e-enjoy.",
+          "Gumamit ng dhikr at pagdarasal kapag tumitindi ang pagkabalisa. Nakakatulong ang pag-uulit ng \"SubhanAllah\" o pagbigkas ng Al-Fatiha para mapanatag ang isang mabigat na sandali.",
+          "Isulat ang nararamdaman mo, o sabihin ito sa dua. Gumagaan ang bigat kapag nailabas mo ito sa isip mo.",
+          "Magtakda ng hangganan sa mga tao at sitwasyong umuubos sa lakas mo. Hindi pagkamakasarili ang pagprotekta sa kapayapaan mo.",
+          "Bagalan ang paghinga. Mabisa rito ang dhikr, dahil ang pag-uulit ng \"SubhanAllah\" sa mahahabang hininga ay sabay na nagpapakalma sa katawan at sa puso.",
+          "Maghanap ng komunidad o mentor na nakakaunawa sa karanasan ng pagyakap sa Islam. Hindi mo ito dapat pagdaanan nang mag-isa."
         ]
       },
       "seekHelp": {
-        "title": "Kailan Humingi ng Propesyonal na Tulong",
-        "intro": "Kung naranasan mo ang alinman sa mga sumusunod, mangyaring makipag-ugnayan sa isang propesyonal sa kalusugang pangkaisipan o helpline sa krisis. Hindi ito tanda ng mahinang pananampalataya - ang paghingi ng tulong ay isang matapang na hakbang tungo sa pagpapagaling na ganap na sinusuportahan ng Islam.",
+        "title": "Kailan dapat humingi ng propesyonal na tulong",
+        "intro": "Kung may alinman sa mga sumusunod na naglalarawan sa iyo, makipag-ugnayan sa isang propesyonal sa kalusugan ng isip o sa isang crisis line. Hindi kahinaan ng pananampalataya ang pangangailangan ng tulong. Sinusuportahan ng Islam ang pagpapagamot, at mas malaking tapang ang kailangan para humingi nito kaysa magtiis nang wala.",
         "items": [
-          "Ang patuloy na kalungkutan, kawalan ng pag-asa, o kawalan ng laman na hindi bumubuti",
-          "Kawalan ng kakayahang magsagawa ng pang-araw-araw na gawain - pagkain, pagtatrabaho, o pag-aalaga sa sarili - dahil sa iyong emosyonal na estado",
-          "Madalas na panic attack o matinding pagkabalisa na nakakasagabal sa pang-araw-araw na buhay",
-          "Mga saloobin ng pananakit sa sarili o pagnanais na hindi ka na buhay",
-          "Pakiramdam ay lubos na nalulula o hindi makayanan ang pang-araw-araw na buhay",
-          "Paggamit ng mga sangkap upang makayanan ang iyong mga damdamin"
+          "Lungkot, kawalan ng pag-asa o kahungkagan na nagtatagal at hindi nawawala",
+          "Hindi mo na magawa ang pang-araw-araw na bagay gaya ng pagkain, pagtatrabaho o paglilinis ng sarili dahil sa nararamdaman mo",
+          "Panic attack, o pagkabalisang sobrang tindi na nakakasagabal na sa araw-araw na buhay",
+          "Mga isipin na saktan ang sarili mo, o hinihiling mong sana ay hindi ka na buhay",
+          "Pakiramdam na hindi mo na talaga kaya",
+          "Paggamit ng alak o droga para makaraos sa araw"
         ],
-        "calloutTitle": "Kung ikaw ay nasa panganib kaagad",
-        "calloutBody": "Kung naiisip mong saktan ang iyong sarili, mangyaring tumawag sa 911 o pumunta kaagad sa iyong pinakamalapit na emergency room. Ang iyong buhay ay mahalaga at pinahahalagahan."
+        "calloutTitle": "Kung nasa agarang panganib ka",
+        "calloutBody": "Kung iniisip mong saktan ang sarili mo, tumawag o mag-text sa 9-8-8 anumang oras. Kung nasa agarang panganib ka, tumawag sa 9-1-1 o pumunta ngayon din sa pinakamalapit na emergency department. Mahalaga ang buhay mo."
       },
       "disclaimer": {
-        "label": "Tandaan:",
-        "body": "Ang gabay na ito ay para sa pangkalahatang emosyonal na suporta at edukasyon. Hindi ito kapalit ng propesyonal na therapy o medikal na payo. Kung nakakaranas ka ng krisis sa kalusugan ng isip, mangyaring makipag-ugnayan sa isang lisensyadong propesyonal o isa sa mga mapagkukunan ng krisis na nakalista sa ibaba."
+        "label": "Paalala:",
+        "body": "Nagbibigay ang gabay na ito ng pangkalahatang suportang emosyonal at edukasyon. Hindi ito kapalit ng therapy o payong medikal. Kung nasa krisis ka sa kalusugan ng isip, makipag-ugnayan sa isang lisensyadong propesyonal o sa isa sa mga mapagkukunan para sa krisis sa ibaba."
       },
       "resources": {
-        "title": "Mga Mapagkukunan ng Suporta",
-        "crisisHelplinesTitle": "Mga Helpline sa Krisis",
-        "crisisHelplines": [
+        "title": "Mga mapagkukunan ng suporta",
+        "confidentialityNote": "Kumpidensyal ang anumang sasabihin mo sa mga helpline. Sinasabi ng ilan, kasama ang Kids Help Phone, na maaari silang tumawag sa emergency services kung nasa panganib ang buhay ng isang tao.",
+        "officialLabel": "Opisyal na website",
+        "supportGroups": [
           {
-            "name": "988 Suicide at Crisis Lifeline",
-            "desc": "24/7 na suporta para sa sinumang nasa pagkabalisa o krisis.",
-            "label": "Tumawag o mag-text:",
-            "contact": "988"
+            "id": "urgent",
+            "title": "Kung nasa panganib ka o iniisip mong magpakamatay",
+            "items": [
+              {
+                "name": "Serbisyong pang-emergency (9-1-1)",
+                "desc": "Kung ikaw o ibang tao ay nasa agarang panganib o nangangailangan ng agarang tulong medikal, tumawag sa 9-1-1 o pumunta sa pinakamalapit na emergency department.",
+                "contacts": [
+                  {
+                    "label": "Tumawag:",
+                    "value": "9-1-1",
+                    "href": "tel:911"
+                  }
+                ],
+                "officialHref": "https://www.canada.ca/en/public-health/services/mental-health-services/mental-health-get-help.html",
+                "checked": "Nasuri noong 23 Setyembre 2026"
+              },
+              {
+                "name": "9-8-8: Suicide Crisis Helpline",
+                "desc": "Para sa sinuman sa Canada na nag-iisip magpakamatay, o nag-aalala para sa ibang tao. Libre, 24 oras bawat araw.",
+                "contacts": [
+                  {
+                    "label": "Tumawag:",
+                    "value": "9-8-8",
+                    "href": "tel:988"
+                  },
+                  {
+                    "label": "Mag-text:",
+                    "value": "9-8-8",
+                    "href": "sms:988"
+                  }
+                ],
+                "officialHref": "https://988.ca/",
+                "checked": "Nasuri noong 23 Setyembre 2026"
+              },
+              {
+                "name": "Kids Help Phone",
+                "desc": "Libreng suporta 24/7 para sa kabataan sa buong Canada. Kumpidensyal ang mga text pero hindi anonymous.",
+                "contacts": [
+                  {
+                    "label": "Tumawag:",
+                    "value": "1-800-668-6868",
+                    "href": "tel:18006686868"
+                  },
+                  {
+                    "label": "I-text ang CONNECT sa",
+                    "value": "686868",
+                    "href": "sms:686868"
+                  }
+                ],
+                "officialHref": "https://kidshelpphone.ca/",
+                "checked": "Nasuri noong 23 Setyembre 2026"
+              },
+              {
+                "name": "Hope for Wellness Help Line",
+                "desc": "Counselling at suporta sa krisis 24/7 para sa First Nations, Inuit at Métis saanman sa Canada.",
+                "contacts": [
+                  {
+                    "label": "Tumawag:",
+                    "value": "1-855-242-3310",
+                    "href": "tel:18552423310"
+                  }
+                ],
+                "officialHref": "https://www.hopeforwellness.ca/",
+                "checked": "Nasuri noong 23 Setyembre 2026"
+              }
+            ]
           },
           {
-            "name": "Linya ng Teksto ng Krisis",
-            "desc": "Libre, 24/7 text-based na suporta sa krisis.",
-            "label": "I-text ang HOME sa",
-            "contact": "741741"
+            "id": "faith",
+            "title": "Suportang may pag-unawa sa pananampalataya (hindi emergency service)",
+            "items": [
+              {
+                "name": "Helpline ng Naseeha",
+                "desc": "Helpline 24/7 para sa kabataang Muslim, pinapatakbo ng isang Canadian Muslim charity. Hindi ito emergency service. Kung nasa panganib ang buhay mo, tumawag muna sa 9-1-1 o 9-8-8.",
+                "contacts": [
+                  {
+                    "label": "Tumawag:",
+                    "value": "1 (866) 627-3342",
+                    "href": "tel:18666273342"
+                  }
+                ],
+                "officialHref": "https://www.naseeha.org/",
+                "checked": "Nasuri noong 23 Setyembre 2026"
+              }
+            ]
           },
           {
-            "name": "Naseeha Mental Health Helpline",
-            "desc": "Kumpidensyal na suporta para sa mga Muslim, magagamit 24/7.",
-            "label": "Tumawag:",
-            "contact": "1-866-627-3342"
+            "id": "women",
+            "title": "Mga serbisyo para sa kababaihan",
+            "intro": "Mga serbisyong pinapatakbo ng mga Muslim charity para sa kababaihan at batang babae. Kung nasa agarang panganib ka, tumawag sa 9-1-1.",
+            "items": [
+              {
+                "name": "Emergency hotline ng Sakeenah Canada",
+                "desc": "Hotline 24/7 para sa kababaihan at mga batang tumatakas sa karahasan sa tahanan, pinapatakbo ng isang Canadian Muslim charity. May mga pansamantalang tahanan din ang Sakeenah sa ilang lungsod sa Canada.",
+                "contacts": [
+                  {
+                    "label": "Tumawag:",
+                    "value": "1-888-671-3446",
+                    "href": "tel:18886713446"
+                  }
+                ],
+                "officialHref": "https://sakeenahcanada.com/",
+                "checked": "Nasuri noong 23 Setyembre 2026"
+              },
+              {
+                "name": "Nisa Helpline",
+                "desc": "Libre at kumpidensyal na peer support para sa mga babaeng Muslim na 14 taong gulang pataas, 7 araw bawat linggo mula 8 AM hanggang hatinggabi, oras sa Eastern. Peer support ito, hindi crisis line.",
+                "contacts": [
+                  {
+                    "label": "Tumawag:",
+                    "value": "+1 888 711 6472",
+                    "href": "tel:+18887116472"
+                  }
+                ],
+                "officialHref": "https://www.nisafoundation.ca/programs/nisa-helpline",
+                "checked": "Nasuri noong 23 Setyembre 2026"
+              },
+              {
+                "name": "Nisa Homes",
+                "desc": "Ligtas na matutuluyan para sa kababaihan at mga bata, may mga lokasyon sa buong Canada. Pinapatakbo ito ng Nisa Foundation. Mag-apply sa website ng Nisa Foundation, o tumawag sa Nisa Helpline.",
+                "contacts": [
+                  {
+                    "label": "Tumawag:",
+                    "value": "+1 888 711 6472",
+                    "href": "tel:+18887116472"
+                  }
+                ],
+                "officialHref": "https://www.nisafoundation.ca/",
+                "checked": "Nasuri noong 23 Setyembre 2026"
+              }
+            ],
+            "warningTitle": "Kung may tumitingin sa telepono o computer mo",
+            "warningBody": "Nagbababala ang Government of Canada na kayang bantayan ng nang-aabuso ang online na aktibidad at history mo, at walang tiyak na paraan para mabura ang lahat ng ito. Kung nag-aalala ka, maghanap ng tulong gamit ang device sa ibang lugar, gaya ng library o bahay ng mapagkakatiwalaang kaibigan.",
+            "warningLinkLabel": "Government of Canada: magplano para sa kaligtasan mo",
+            "warningLinkHref": "https://www.canada.ca/en/public-health/services/health-promotion/stop-family-violence/plan-your-safety.html"
+          },
+          {
+            "id": "ontario",
+            "title": "Paghahanap ng serbisyo sa Ontario",
+            "intro": "Tinutulungan ka ng mga linyang ito na makahanap ng lokal na serbisyong hindi pang-emergency. Sa labas ng Ontario, may listahan ang Government of Canada ng mga serbisyo sa bawat probinsya at teritoryo.",
+            "linkLabel": "Tingnan ang mga serbisyo ayon sa probinsya at teritoryo",
+            "linkHref": "https://www.canada.ca/en/public-health/services/mental-health-services/mental-health-get-help.html",
+            "items": [
+              {
+                "name": "211 Ontario",
+                "desc": "Tulong sa paghahanap ng mga serbisyong pangkomunidad, panlipunan at pangkalusugan na malapit sa iyo. Tao ang sumasagot 24/7, sa mahigit 150 wika.",
+                "contacts": [
+                  {
+                    "label": "Tumawag o mag-text:",
+                    "value": "2-1-1",
+                    "href": "tel:211"
+                  }
+                ],
+                "officialHref": "https://211ontario.ca/contact/",
+                "checked": "Nasuri noong 23 Setyembre 2026"
+              },
+              {
+                "name": "ConnexOntario",
+                "desc": "Libreng tulong 24/7 sa paghahanap ng serbisyo para sa kalusugan ng isip, adiksyon at problema sa pagsusugal sa Ontario.",
+                "contacts": [
+                  {
+                    "label": "Tumawag:",
+                    "value": "1-866-531-2600",
+                    "href": "tel:18665312600"
+                  },
+                  {
+                    "label": "I-text ang CONNEX sa",
+                    "value": "247247",
+                    "href": "sms:247247"
+                  }
+                ],
+                "officialHref": "https://www.connexontario.ca/",
+                "checked": "Nasuri noong 23 Setyembre 2026"
+              }
+            ]
           }
         ],
-        "directoriesTitle": "Mga Direktoryo at Suporta",
+        "directoriesTitle": "Mga direktoryo at suporta",
         "directories": [
           {
             "name": "Khalil Center",
-            "desc": "Pananampalataya-sensitive therapy at mga grupo ng suporta para sa mga Muslim.",
+            "desc": "Therapy at mga support group para sa mga Muslim, mula sa mga clinician na isinasama ang pananampalataya sa halip na iniiwasan ito.",
             "linkLabel": "Bisitahin ang website"
           },
           {
-            "name": "Ang iyong Lokal na Imam o Muslim Chaplain",
-            "desc": "Maraming mga imam at chaplain ang sinanay upang magbigay ng espirituwal at emosyonal na patnubay. Huwag mag-atubiling makipag-ugnayan sa isa sa iyong lokal na mosque."
+            "name": "Ang imam o Muslim chaplain sa inyong lugar",
+            "desc": "Maraming imam at chaplain ang sinanay sa espirituwal at emosyonal na pag-aalaga. Magtanong sa masjid sa inyong lugar."
           },
           {
-            "name": "Lokal na Pag-convert ng Mga Grupo ng Suporta",
-            "desc": "Tingnan sa iyong mosque para sa mga grupo ng suportang nagko-convert sa iyong lugar. Maraming komunidad ang may regular na pagtitipon kung saan ang mga bagong Muslim ay nagbabahagi ng mga karanasan at sumusuporta sa isa't isa."
+            "name": "Mga lokal na support group para sa balik-Islam",
+            "desc": "Itanong sa masjid mo kung may grupo ng balik-Islam na malapit. Maraming komunidad ang may regular na pagkikita kung saan sama-samang pinag-uusapan ng mga bagong Muslim ang parehong mga problema."
           }
         ],
-        "furtherReadingTitle": "Karagdagang Pagbasa",
-        "furtherReading": [
+        "furtherReadingTitle": "Karagdagang babasahin",
+        "reading": [
           {
-            "name": "Kalusugan ng Pag-iisip at Karanasan ng Pag-convert ng Muslim",
-            "desc": "Isang malalim na paggalugad sa mga natatanging emosyonal na hamon na kinakaharap ng mga convert, na may mga praktikal na diskarte sa pagharap.",
-            "linkLabel": "Basahin ang artikulo"
+            "name": "Becoming Muslim: The Lives of American Converts to Islam (ulat ng Yaqeen Institute)",
+            "desc": "Ulat ng Yaqeen Institute noong 2025 tungkol sa 618 balik-Islam sa Estados Unidos. Tinatalakay nito ang nakatulong sa kanila matapos yumakap sa Islam, gaya ng mga masjid, imam at kaibigang Muslim. Pananaliksik ito, hindi gabay sa pagtulong sa sarili.",
+            "linkLabel": "Basahin ang ulat",
+            "href": "https://yaqeeninstitute.org/read/data/reports/becoming-muslim-lives-of-american-converts-to-islam"
           }
         ]
       },
       "crossLink": {
-        "prompt": "Naghahanap ng suporta sa komunidad?",
-        "linkLabel": "Basahin: Pagbuo ng Iyong Pamayanang Muslim"
+        "prompt": "Naghahanap ng suporta mula sa komunidad?",
+        "linkLabel": "Basahin: pagbuo ng iyong Muslim na komunidad"
       }
     },
     "resourcesPage": {
-      "description": "Mga na-curate na aklat, video, app, at komunidad para suportahan ang iyong paglalakbay.",
-      "findMasjidTitle": "Maghanap ng Masjid",
-      "findMasjidBody": "Maghanap ng mga mosque sa lugar ng Toronto at kumonekta sa iyong lokal na komunidad.",
-      "filterAriaLabel": "I-filter ang mga mapagkukunan ayon sa kategorya",
+      "description": "Mga libro, video, app at komunidad na magandang simulan.",
+      "findMasjidTitle": "Maghanap ng masjid",
+      "findMasjidBody": "Maghanap ng masjid sa buong Canada at humanap ng isang mapapasukan mo.",
+      "filterAriaLabel": "Salain ang mga mapagkukunan ayon sa kategorya",
       "categories": {
         "all": "Lahat",
         "article": "Mga artikulo",
@@ -828,176 +1178,742 @@
         "pdf": "PDF"
       },
       "liveRegion": {
-        "one": "ipinakitang mapagkukunan",
-        "other": "ipinapakitang mga mapagkukunan"
+        "one": "mapagkukunan ang ipinapakita",
+        "other": "mapagkukunan ang ipinapakita"
       },
       "emptyTitle": "Walang mapagkukunan sa kategoryang ito",
-      "emptyPrefix": "Subukang pumili ng ibang kategorya o",
-      "emptyAction": "tingnan ang lahat ng mapagkukunan"
+      "emptyPrefix": "Subukan ang ibang kategorya, o",
+      "emptyAction": "tingnan ang lahat ng mapagkukunan",
+      "collectionsTitle": "Mga piniling koleksyon",
+      "collectionsIntro": "Piliin ang isang koleksyon na tugma sa kinalalagyan mo ngayon. Hindi mo kailangang tapusin ang lahat.",
+      "chooseTitle": "Paano pumili ng mapagkukunan",
+      "warningsTitle": "Mga babala tungkol sa mapagkukunan"
     },
     "findMasjid": {
-      "description": "Maghanap ng mga mosque sa lugar ng Toronto, ihambing ang mga opsyon sa suporta, at buksan ang mga direksyon sa iyong gustong maps app.",
+      "description": "Maghanap ng masjid at Islamic centre sa buong Canada, ikumpara ang iniaalok ng bawat isa, at buksan ang direksyon sa karaniwan mong maps app.",
+      "coverage": {
+        "title": "Ano ang saklaw ng direktoryong ito",
+        "summary": "{count} na masjid at Islamic centre sa {regions} probinsya at teritoryo: {list}.",
+        "scope": "Nakalista sa direktoryo ang mga pangunahing Sunni na masjid at Islamic centre na may opisyal na website o pahina. Hindi ito kumpleto, at nadaragdagan pa habang sinusuri ang ibang lugar.",
+        "programNote": "Kung walang tala tungkol sa programa para sa bagong Muslim ang isang listahan, hindi ibig sabihin na wala silang programa. Itanong ito kapag tumawag ka."
+      },
       "offlineTitle": "Offline ka",
-      "offlineBody": "Ang listahan ng masjid, paghahanap ng teksto, at mga filter ay available offline. Ang interactive na paghahanap sa mapa at address ay nangangailangan ng koneksyon sa internet.",
-      "mapTitle": "Mapa ng masjid",
-      "mapBody": "Galugarin ang mga kasalukuyang resulta sa isang live na mapa, pagkatapos ay gumamit ng paghahanap ng address upang pag-uri-uriin ang listahan ayon sa kung ano ang pinakamalapit sa iyo.",
+      "offlineBody": "Gumagana offline ang listahan ng masjid, ang paghahanap sa teksto at ang mga filter. Kailangan ng koneksyon ang interactive na mapa at ang paghahanap ng address.",
+      "mapTitle": "Mapa ng mga masjid",
+      "mapBody": "Tingnan ang kasalukuyang resulta sa live na mapa, saka maghanap ng address para ayusin ang listahan ayon sa pinakamalapit.",
       "mapLoading": "Nilo-load ang mapa...",
-      "mapOfflineTitle": "Hindi available ang mapa offline",
-      "mapOfflineBody": "Muling kumonekta upang i-load ang mga tile ng mapa at maghanap ng malapit na address. Ang listahan ng masjid sa ibaba ay gumagana pa rin offline.",
-      "mapEmptyTitle": "Walang masjid na tumutugma sa kasalukuyang paghahanap at mga filter.",
+      "mapOfflineTitle": "Hindi available ang mapa kapag offline",
+      "mapOfflineBody": "Kumonekta ulit para ma-load ang mapa at makapaghanap ng kalapit na address. Gumagana pa rin ang listahan sa ibaba kahit ano pa man.",
+      "mapEmptyTitle": "Walang masjid na tugma sa kasalukuyang paghahanap at mga filter.",
       "mapLegendMasjid": "Masjid",
       "mapLegendSelected": "Napiling masjid",
       "mapLegendSearch": "Hinanap na lugar",
+      "mapLegendApproximate": "Tinatayang lokasyon (sentro lamang ng lungsod)",
+      "approximateLocation": "Tinatayang lokasyon. Sentro ng lungsod ang ipinapakita ng mapa, hindi ang gusali, kaya gamitin ang address para mahanap ito.",
+      "noMapLocation": "Wala sa mapa. Hindi namin natugma ang address na ito, kaya tingnan ang website o tumawag bago ka pumunta.",
+      "distanceApprox": "mga",
+      "localVerificationNeeded": "Kailangang kumpirmahin sa lugar",
       "locationLabel": "Maghanap malapit sa isang address",
-      "locationPlaceholder": "Maglagay ng address o kapitbahayan sa lugar ng Toronto...",
-      "locationAction": "Lugar ng paghahanap",
-      "locationSearching": "Paghahanap ng mga kalapit na masjid...",
-      "locationClear": "Maaliwalas na lugar",
-      "locationHelper": "Hindi namin ginagamit ang lokasyon ng iyong device. Maglagay ng address upang pagbukud-bukurin ang listahan ayon sa distansya.",
+      "locationPlaceholder": "Maglagay ng address, lungsod o postal code...",
+      "locationAction": "Hanapin ang lugar",
+      "locationSearching": "Hinahanap ang mga kalapit na masjid...",
+      "locationClear": "Burahin ang lugar",
+      "locationHelper": "Opsyonal ang Gamitin ang lokasyon ko at gumagana lamang kapag pinindot mo ito. Magtatanong muna ang browser mo. Nananatili sa device na ito ang posisyon at ginagamit lamang para ayusin ang listahan. Hindi ito kailanman ipinapadala sa anumang server. Ang address na ita-type mo ay ipinapadala sa OpenStreetMap para mahanap ito.",
+      "deviceLocationAction": "Gamitin ang lokasyon ko",
+      "deviceLocationLocating": "Hinahanap ang lokasyon mo...",
+      "deviceLocationLabel": "ang kasalukuyang lokasyon mo (nananatili sa device na ito)",
+      "deviceLocationDenied": "Hindi namin makuha ang lokasyon mo. Maaaring naka-off ang access sa lokasyon para sa site na ito. Puwede ka pa ring maghanap gamit ang address.",
+      "deviceLocationUnsupported": "Hindi kayang ibahagi ng browser na ito ang lokasyon mo. Puwede kang maghanap gamit ang address.",
       "locationResults": "Ipinapakita ang mga masjid na pinakamalapit sa",
-      "locationError": "Hindi namin mahanap ang address na iyon. Subukan ang isang mas kumpletong address ng kalye o pangalan ng kapitbahayan.",
-      "locationOffline": "Ang paghahanap ng address ay nangangailangan ng koneksyon sa internet.",
-      "searchPlaceholder": "Maghanap ayon sa pangalan, address, lungsod, tala, serbisyo, o postal code...",
-      "searchLabel": "Maghanap ng mga masjid",
-      "filtersTitle": "I-filter ang listahang ito",
-      "cityLabel": "lungsod",
-      "cityAll": "Lahat ng mga lungsod",
+      "locationError": "Hindi namin mahanap ang address na iyon. Subukan ang mas kumpletong address, o ang pangalan ng lugar.",
+      "locationOffline": "Kailangan ng koneksyon sa internet ang paghahanap ng address.",
+      "searchPlaceholder": "Maghanap ayon sa pangalan, address, lungsod, tala, serbisyo o postal code...",
+      "searchLabel": "Maghanap ng masjid",
+      "filtersTitle": "Salain ang listahang ito",
+      "provinceLabel": "Probinsya o teritoryo",
+      "provinceAll": "Lahat ng probinsya at teritoryo",
+      "cityLabel": "Lungsod",
+      "cityAll": "Lahat ng lungsod",
       "servicesLabel": "Mga serbisyo",
       "amenitiesLabel": "Suporta at accessibility",
-      "womenFriendly": "Pambabae-friendly na espasyo",
-      "convertSupport": "I-convert ang suporta",
+      "womenFriendly": "Lugar na angkop sa kababaihan",
+      "convertSupport": "Suporta sa balik-Islam",
       "parking": "Paradahan",
       "accessibility": "Accessibility",
-      "clearFilters": "I-clear ang lahat ng mga filter",
+      "clearFilters": "Burahin ang lahat ng filter",
       "showOnMap": "Ipakita sa mapa",
       "selectedLabel": "Napili sa mapa",
-      "distanceAway": "malayo",
+      "distanceAway": "ang layo",
       "googleMaps": "Google Maps",
       "appleMaps": "Apple Maps",
       "serviceLabels": {
         "quran-classes": "Mga klase sa Quran",
-        "community-events": "Mga kaganapan sa komunidad",
-        "new-muslim-support": "Bagong suporta ng Muslim",
-        "youth-programs": "Mga programa sa kabataan",
-        "weekend-school": "Weekend school",
+        "community-events": "Mga kaganapan ng komunidad",
+        "new-muslim-support": "Suporta sa bagong Muslim",
+        "youth-programs": "Mga programa para sa kabataan",
+        "weekend-school": "Paaralan tuwing Sabado at Linggo",
         "library": "Aklatan",
-        "interfaith-outreach": "Interfaith outreach"
+        "interfaith-outreach": "Pakikipag-ugnayan sa ibang pananampalataya"
       },
       "liveRegion": {
-        "one": "natagpuan ang masjid",
-        "other": "natagpuan ang mga masjid"
+        "one": "masjid ang nakita",
+        "other": "masjid ang nakita"
       },
-      "emptyTitle": "Walang nakitang mga masjid",
-      "emptyPrefix": "Subukan ang ibang termino para sa paghahanap, address, o kumbinasyon ng filter, o",
-      "emptyAction": "linawin ang lahat",
+      "emptyTitle": "Walang nakitang masjid",
+      "emptyPrefix": "Subukan ang ibang salita, address o kombinasyon ng filter, o",
+      "emptyAction": "burahin ang lahat",
       "visitWebsite": "Bisitahin ang website",
-      "visitWebsiteSuffix": "para sa",
-      "crossLinkPrompt": "Bago sa pagbisita sa isang mosque? Alamin kung ano ang aasahan.",
-      "crossLinkLabel": "Basahin: Pagbuo ng Iyong Pamayanang Muslim"
+      "visitWebsiteSuffix": " ng ",
+      "crossLinkPrompt": "Hindi ka pa nakakapasok sa masjid? Ito ang maaasahan mo.",
+      "crossLinkLabel": "Basahin: pagbuo ng iyong Muslim na komunidad",
+      "firstVisitGuideLabel": "Basahin: gabay sa unang pagbisita sa masjid",
+      "noteLabels": {
+        "visitor": "Tala para sa bisita",
+        "womenSpace": "Lugar para sa kababaihan",
+        "newMuslimSupport": "Suporta sa bagong Muslim",
+        "accessibility": "Accessibility",
+        "jumuah": "Pagdarasal tuwing Biyernes (Jumu'ah)",
+        "classes": "Mga klase",
+        "parking": "Paradahan"
+      },
+      "firstVisit": {
+        "title": "Bago ang una mong pagbisita",
+        "subtitle": "Mas panatag ang pagbisita kapag naglaan ka ng ilang minuto para magtanong muna.",
+        "askTitle": "Ano ang itatanong bago ka pumunta",
+        "askItems": [
+          "Anong oras ako dapat dumating para sa pagdarasal na ito o sa Jumu'ah?",
+          "Aling pasukan ang dapat gamitin ng unang beses na bisita?",
+          "Bukas ba ang lugar-dasalan ng kababaihan para sa pagdarasal na ito?",
+          "May contact person ba para sa bagong Muslim, klase o mentor?",
+          "May paradahan ba, at may pasukang madaling marating ng may kapansanan?"
+        ],
+        "scriptTitle": "Masasabi sa tawag o email",
+        "scriptBody": "Assalamu alaykum. Bagong Muslim ako at gusto kong bumisita sa unang pagkakataon. Puwede po bang sabihin ninyo kung saan ako papasok, kung may contact person para sa bagong Muslim, at anumang dapat kong malaman bago pumunta?",
+        "verifyTitle": "Paano suriin ang mga detalye",
+        "verifyItems": [
+          "Magsimula sa opisyal na website kapag may nakitang tag ng sanggunian.",
+          "Tumawag o mag-email bago umasa sa mga tala tungkol sa klase, Jumu'ah, paradahan o accessibility.",
+          "Ituring na kailangan mo pang kumpirmahin sa lugar ang profile na walang sanggunian.",
+          "Itanong kung may nagbago dahil sa Ramadan, Eid, konstruksyon o espesyal na kaganapan."
+        ],
+        "bringTitle": "Ano ang dadalhin",
+        "bringBody": "Magsuot ng malinis at disenteng damit na komportable kang yumuko at magpatirapa. Opsyonal ang prayer mat. Makakatulong ang medyas kung naiilang kang magtanggal ng sapatos.",
+        "bringFallback": "Kung hindi makakatulong ang masjid na iyon, itanong kung may alam silang malapit na klase, chaplain, grupo ng balik-Islam, o tao sa ibang masjid."
+      }
     },
     "glossary": {
-      "description": "Mabilis na sanggunian para sa mga termino at konsepto ng Islam. Maghanap at matuto sa sarili mong bilis.",
-      "searchPlaceholder": "Mga termino para sa paghahanap...",
-      "searchLabel": "Maghanap ng glossary",
+      "description": "Mabilisang sanggunian sa mga terminong Islamiko. Maghanap tuwing may bagong salita.",
+      "searchPlaceholder": "Maghanap ng termino...",
+      "searchLabel": "Maghanap sa talahuluganan",
       "liveRegion": {
-        "one": "terminong natagpuan",
-        "other": "mga terminong natagpuan"
+        "one": "termino ang nakita",
+        "other": "termino ang nakita"
       },
-      "emptyTitle": "Walang nakitang mga termino",
-      "emptyPrefix": "Subukan ang ibang termino para sa paghahanap o",
-      "emptyAction": "i-clear ang paghahanap",
+      "emptyTitle": "Walang nakitang termino",
+      "emptyPrefix": "Subukan ang ibang salita, o",
+      "emptyAction": "burahin ang hinahanap",
       "seeAlso": "See also:"
     },
     "offline": {
       "title": "Offline ka",
-      "body": "Mukhang hindi ka konektado sa internet. Ang pahinang iyong hiniling ay hindi pa naka-cache para sa offline na paggamit.",
-      "note": "Dapat na available pa rin ang mga page na dati mong binisita. Subukang mag-navigate sa isang pahinang nabuksan mo na dati, o muling kumonekta sa internet at subukang muli.",
-      "goHome": "Umuwi ka na",
-      "retry": "Subukan muli ang Koneksyon"
+      "body": "Mukhang wala kang koneksyon sa internet ngayon, at hindi pa naka-save ang pahinang ito para magamit offline.",
+      "note": "Dapat bumukas pa rin ang mga pahinang nabisita mo na. Subukan ang isa sa mga iyon, o kumonekta ulit at i-reload ang pahinang ito.",
+      "goHome": "Pumunta sa home",
+      "retry": "Subukan ulit"
     },
     "notFound": {
-      "title": "Hindi Nahanap ang Pahina",
-      "body": "Mukhang naligaw ang page na ito. Maaaring inilipat, inalis, o maaaring mali ang URL. Ibalik ka namin sa tamang landas.",
-      "returnHome": "Bumalik sa Bahay",
-      "goToRoadmap": "Pumunta sa Roadmap"
+      "title": "Hindi makita ang pahina",
+      "body": "Mukhang naligaw ang pahinang ito. Baka nailipat na ito, o may kaunting mali sa address. Ibalik natin sa tamang daan.",
+      "returnHome": "Bumalik sa home",
+      "goToRoadmap": "Pumunta sa roadmap"
     },
     "prayerTimes": {
-      "title": "Oras ng Panalangin",
-      "subtitle": "Tingnan ang mga oras ng panalangin ngayon para sa iyong lugar.",
-      "locationLabel": "Ang iyong lokasyon",
-      "locationPlaceholder": "Maglagay ng lungsod o address (hal. Toronto, ON)",
-      "locationButton": "Kumuha ng Mga Oras",
-      "loading": "Kinukuha ang mga oras ng panalangin...",
-      "error": "Hindi ma-load ang mga oras ng panalangin. Pakisuri ang iyong koneksyon at subukang muli.",
-      "locationError": "Hindi mahanap ang lokasyong iyon. Subukan ang isang mas tiyak na address o pangalan ng lungsod.",
-      "disclaimer": "Ang mga oras ng panalangin ay tinatayang mga pagtatantya na kinakalkula gamit ang ISNA method. Palaging kumpirmahin sa iyong lokal na mosque para sa eksaktong mga iskedyul ng pagdarasal.",
-      "hijriDate": "Islamic Petsa",
+      "title": "Oras ng pagdarasal",
+      "subtitle": "Ang oras ng pagdarasal ngayong araw sa inyong lugar.",
+      "locationLabel": "Ang lokasyon mo",
+      "locationPlaceholder": "Maglagay ng lungsod o address (halimbawa: Halifax, NS)",
+      "locationButton": "Kunin ang oras",
+      "loading": "Kinukuha ang oras ng pagdarasal...",
+      "error": "Hindi ma-load ang oras ng pagdarasal. Tingnan ang koneksyon mo at subukan ulit.",
+      "locationError": "Hindi mahanap ang lokasyong iyon. Subukan ang mas tiyak na address o pangalan ng lungsod.",
+      "disclaimer": "Tantiya ang mga oras na ito, kinuwenta gamit ang paraan ng ISNA at ipinapakita sa lokal na oras ng lugar na hinanap mo. Kumpirmahin ang eksaktong iskedyul sa masjid sa inyong lugar.",
+      "timeZoneLabel": "Sona ng oras",
+      "hijriDate": "Petsang Islamiko",
       "gregorianDate": "Petsa",
       "nextPrayer": "Susunod",
       "prayers": {
         "Fajr": "Fajr",
-        "Sunrise": "pagsikat ng araw",
+        "Sunrise": "Pagsikat ng araw",
         "Dhuhr": "Dhuhr",
         "Asr": "Asr",
         "Maghrib": "Maghrib",
         "Isha": "Isha"
       },
       "prayerDescriptions": {
-        "Fajr": "Dasal bago ang madaling araw",
-        "Sunrise": "Pagsikat ng araw - Matatapos ang Fajr",
-        "Dhuhr": "Pananalangin sa tanghali",
-        "Asr": "Dasal sa hapon",
-        "Maghrib": "Panalangin sa paglubog ng araw",
+        "Fajr": "Pagdarasal bago mag-madaling-araw",
+        "Sunrise": "Pagsikat ng araw, kung kailan nagtatapos ang Fajr",
+        "Dhuhr": "Pagdarasal sa tanghali",
+        "Asr": "Pagdarasal sa hapon",
+        "Maghrib": "Pagdarasal sa paglubog ng araw",
         "Isha": "Pagdarasal sa gabi"
       },
-      "offlineTitle": "Ang mga oras ng panalangin ay nangangailangan ng koneksyon sa internet",
-      "offlineBody": "Mangyaring kumonekta sa internet upang kunin ang mga oras ng panalangin para sa iyong lugar.",
-      "learnMore": "Bago sa panalangin?",
-      "learnMoreLink": "Alamin ang tungkol sa limang araw-araw na panalangin"
+      "offlineTitle": "Kailangan ng internet para sa oras ng pagdarasal",
+      "offlineBody": "Kumonekta sa internet para ma-load ang oras ng pagdarasal sa inyong lugar.",
+      "learnMore": "Bago sa pagdarasal?",
+      "learnMoreLink": "Alamin ang tungkol sa limang pang-araw-araw na pagdarasal",
+      "loadingAriaLabel": "Kinukuha ang oras ng pagdarasal",
+      "listAriaLabel": "Oras ng pagdarasal",
+      "errorTitle": "May problema"
     },
     "qibla": {
-      "title": "Tagahanap ng Qibla",
-      "subtitle": "Hanapin ang direksyon ng Kaaba sa Mecca para sa iyong mga panalangin.",
+      "title": "Paghahanap ng Qibla",
+      "subtitle": "Hanapin ang direksyon ng Kaaba sa Makkah para sa pagdarasal.",
       "directionLabel": "Direksyon ng Qibla",
-      "degrees": "degree mula sa Hilaga",
-      "loading": "Kinakalkula ang direksyon ng Qibla...",
-      "error": "Hindi matukoy ang direksyon ng Qibla. Pakisubukang muli.",
-      "permissionDenied": "Tinanggihan ang access sa lokasyon. Maaari kang manu-manong magpasok ng mga coordinate sa ibaba.",
-      "useMyLocation": "Gamitin ang Aking Lokasyon",
-      "manualEntry": "O manu-manong ipasok ang mga coordinate",
+      "degrees": "digri mula sa hilaga",
+      "loading": "Kinukuwenta ang direksyon ng Qibla...",
+      "error": "Hindi makuwenta ang direksyon ng Qibla. Pakisubukan ulit.",
+      "permissionDenied": "Hindi pinayagan ang access sa lokasyon. Puwede mong i-type ang coordinates sa ibaba.",
+      "useMyLocation": "Gamitin ang lokasyon ko",
+      "manualEntry": "O i-type ang coordinates",
       "latitudePlaceholder": "Latitude (hal. 43.65)",
       "longitudePlaceholder": "Longitude (hal. -79.38)",
-      "calculate": "Maghanap ng Qibla",
-      "disclaimer": "Ang direksyon na ipinapakita ay isang tinatayang tindig. Para sa pinakamahusay na mga resulta, gumamit ng pisikal na compass upang i-orient ang iyong sarili.",
-      "compassTip": "Harapin ang compass bearing na ito habang nagdarasal. Mula sa Toronto, ang Qibla ay halos hilagang-silangan.",
-      "compassTipLive": "Hawakan nang patag ang iyong telepono at i-rotate hanggang sa tumaas ang arrow. Nakaharap ka na ngayon sa Qibla!",
-      "compassActive": "Live compass active — ituro ang iyong telepono upang mahanap ang Qibla",
-      "compassUnavailable": "Hindi available ang compass sa device na ito. Gumamit ng pisikal na compass upang harapin ang ipinapakitang tindig.",
-      "offlineTitle": "Kinakailangan ang lokasyon",
-      "offlineBody": "Payagan ang pag-access sa lokasyon o manu-manong ilagay ang mga coordinate upang mahanap ang direksyon ng Qibla.",
-      "learnMore": "Bakit nakaharap ang mga Muslim sa Kaaba?",
-      "learnMoreBody": "Ang pagharap sa Kaaba sa Mecca sa panahon ng pagdarasal ay pinag-iisa ang mga Muslim sa buong mundo sa iisang direksyon ng pagsamba, na sumisimbolo sa pagkakaisa at debosyon kay Allah."
+      "calculate": "Hanapin ang Qibla",
+      "disclaimer": "Tinatayang direksyon ang ipinapakita. Mas maaasahan ang pisikal na compass.",
+      "compassTip": "Humarap sa direksyong ito habang nagdarasal. Mula sa Canada, halos pahilagang-silangan ang Qibla.",
+      "compassTipLive": "Hawakan nang patag ang telepono mo at umikot hanggang nakaturo pataas ang arrow. Nakaharap ka na sa Qibla.",
+      "compassActive": "Naka-on ang live na compass. Itutok ang telepono mo para mahanap ang Qibla.",
+      "compassUnavailable": "Walang compass ang device na ito. Gumamit ng pisikal na compass para humarap sa direksyong ipinapakita.",
+      "offlineTitle": "Kailangan ang lokasyon",
+      "offlineBody": "Payagan ang access sa lokasyon, o i-type ang coordinates, para mahanap ang direksyon ng Qibla.",
+      "learnMore": "Bakit humaharap ang mga Muslim sa Kaaba?",
+      "learnMoreBody": "Iisang direksyon ang hinaharap ng mga Muslim saanman sa mundo, ang Kaaba sa Makkah. Anuman ang bansang pinagdarasalan ng isang tao, iisa ang direksyon.",
+      "latitudeLabel": "Latitude",
+      "longitudeLabel": "Longitude",
+      "errorTitle": "May problema"
     },
     "asmaAlHusna": {
-      "title": "Ang 99 na Pangalan ng Allah",
-      "subtitle": "Galugarin ang Magagandang Pangalan ng Allah — ang bawat pangalan ay nagpapakita ng katangian ng Lumikha.",
-      "searchPlaceholder": "Maghanap ayon sa pangalan, kahulugan, o transliterasyon...",
-      "searchLabel": "Maghanap ng mga pangalan",
-      "nameOfTheDay": "Pangalan ng Araw",
-      "meaning": "Ibig sabihin",
-      "number": "Hindi.",
-      "loading": "Nilo-load ang 99 na Pangalan...",
-      "error": "Hindi ma-load ang mga pangalan. Pakisubukang muli.",
+      "title": "Ang 99 na pangalan ng Allah",
+      "subtitle": "Ang mga pangalan ng Allah, bawat isa ay nagpapakilala ng isang bagay tungkol sa Kanya.",
+      "searchPlaceholder": "Maghanap ayon sa pangalan, kahulugan o transliterasyon...",
+      "searchLabel": "Maghanap ng pangalan",
+      "nameOfTheDay": "Pangalan ng araw",
+      "meaning": "Kahulugan",
+      "number": "Blg.",
+      "loading": "Nilo-load ang 99 na pangalan...",
+      "error": "Hindi ma-load ang mga pangalan. Pakisubukan ulit.",
       "liveRegion": {
-        "one": "natagpuan ang pangalan",
-        "other": "mga pangalan na natagpuan"
+        "one": "pangalan ang nakita",
+        "other": "pangalan ang nakita"
       },
-      "emptyTitle": "Walang mga pangalan na tumutugma sa iyong paghahanap",
-      "emptyPrefix": "Subukan ang ibang termino para sa paghahanap o",
-      "emptyAction": "i-clear ang paghahanap",
-      "disclaimer": "Ang mga kahulugan sa Ingles ay mga maigsi na pagsalin. Ang buong lalim ng bawat pangalan ay pinakamahusay na nauunawaan sa pamamagitan ng pag-aaral ng iskolar.",
+      "emptyTitle": "Walang pangalang tugma sa hinahanap mo",
+      "emptyPrefix": "Subukan ang ibang salita, o",
+      "emptyAction": "burahin ang hinahanap",
+      "disclaimer": "Maiikling salin lamang ang mga kahulugan dito. Mas malalim pa ang bawat pangalan sa pag-aaral ng mga iskolar.",
       "reflection": "Pagninilay",
-      "reflectionBody": "Ang Propeta Muhammad (sumakanya nawa ang kapayapaan) ay nagsabi: \"Ang Allah ay may siyamnapu't siyam na pangalan. Ang sinumang kabisaduhin ang mga ito ay papasok sa Paraiso.\" Maglaan ng oras upang matuto at pagnilayan ang mga magagandang pangalan na ito."
+      "reflectionBody": "Sinabi ni Propeta Muhammad (sumakanya nawa ang kapayapaan): \"May siyamnapu't siyam na pangalan ang Allah. Sinumang magsaulo ng mga ito ay papasok sa Paraiso.\" Maglaan ng panahon sa mga ito.",
+      "errorTitle": "May problema"
+    },
+    "duaDhikr": {
+      "metadataTitle": "Sanggunian sa dua at dhikr",
+      "metadataDescription": "Sanggunian para sa baguhan tungkol sa mga dua mula sa Quran at hadith, mga pariralang dhikr, at kung saan akma ang sarili mong mga salita.",
+      "eyebrow": "Sanggunian para sa baguhan",
+      "title": "Sanggunian sa dua at dhikr",
+      "subtitle": "Maikling koleksyon ng mga dua at pariralang pag-alaala sa Allah na may tag ng sanggunian, para may masimulan ka. Matutuhan nang maayos ang ilan bago magdagdag.",
+      "duaTopicButton": "Paksa tungkol sa dua",
+      "salahCompanionButton": "Kasama sa salah",
+      "usingTitle": "Gamitin ito nang dahan-dahan",
+      "usingPoints": [
+        "{count} na entry sa kabuuan, pinili para madaling matutuhan, hindi para maging kumpleto.",
+        "Magkahiwalay na minarkahan ang mga salita mula sa Quran at mula sa hadith.",
+        "Tinatanggap din ang sarili mong mga salita, at minamarkahan sila ng pahinang ito bilang iyo, hindi bilang ipinasa mula sa tradisyon."
+      ],
+      "crisisTitle": "Kapag kailangan mo ng higit pa sa isang dua card",
+      "crisisBody": "Kung baka masaktan mo ang sarili mo, hindi ka ligtas, inaabuso ka, o hindi mo na kayang lampasan ang araw, tumawag sa emergency services, sa crisis line, sa clinician o sa isang mapagkakatiwalaang propesyonal sa inyong lugar. Magkasamang gumagana ang dua at ang praktikal na tulong. Hindi napapalitan ng isa ang isa.",
+      "noArabicNote": "Walang nakatakdang salitang Arabic para rito.",
+      "transliterationLabel": "Transliterasyon",
+      "meaningLabel": "Kahulugan",
+      "beginnerNoteLabel": "Tala para sa baguhan",
+      "compactTitle": "Maikling pang-araw-araw na sanggunian",
+      "compactReference": [
+        {
+          "title": "Pagkatapos magdasal",
+          "body": "Sabihin nang dahan-dahan ang SubhanAllah, Alhamdulillah at Allahu akbar. Idagdag ang buong bilang kapag panatag ka na rito."
+        },
+        {
+          "title": "Kapag nabibigatan ka",
+          "body": "Magsabi ng isang maikling dua, huminga, saka gumawa ng isang praktikal na bagay: tumawag sa isang ligtas na tao, lumayo sa panganib, humingi ng tulong."
+        },
+        {
+          "title": "Bago mag-aral",
+          "body": "Humingi sa Allah ng kapaki-pakinabang na kaalaman at bukas na puso bago ang isang klase, isang libro o isang mahirap na usapan."
+        }
+      ],
+      "sourcesNote": "Nasuri na ang mga sangguniang nakalista rito. Kailangan pa ring suriin ng isang kwalipikado ang mga salita ng hadith, ang transliterasyon at anumang personal.",
+      "prayerTopicButton": "Paksa tungkol sa pagdarasal",
+      "mentalHealthButton": "Suporta sa kalusugan ng isip",
+      "questionsButton": "Mga tanong at pag-aalinlangan"
+    },
+    "quranStarter": {
+      "metadataTitle": "Panimulang landas sa Quran",
+      "metadataDescription": "Panimulang landas sa Quran para sa baguhan: ano ang babasahin, paano makinig, ano ang salin, paano hawakan ang mushaf, at unang linggong puwedeng i-print.",
+      "eyebrow": "Panimulang landas para sa baguhan",
+      "title": "Panimulang landas sa Quran",
+      "subtitle": "Magsimulang magbasa at makinig nang hindi ito ginagawang proyektong puwede mong ikabigo. Maiikling bahagi, tapat na salin, isang tanong sa bawat pagkakataon.",
+      "quranBreadcrumb": "Quran",
+      "quranTopicButton": "Paksa tungkol sa Quran",
+      "salahCompanionButton": "Matutong magdasal (salah)",
+      "mattersMostTitle": "Ano ang pinakamahalaga ngayon",
+      "mattersMost": [
+        "Mas mabuti ang maikling bahaging binasa nang may pansin kaysa mahabang bahaging binasa nang may presyon.",
+        "Dinadala ng salin ang kahulugan. Ang Arabic ang Quran.",
+        "Kapag may talatang nakalito o nagpabahala sa iyo, dalhin ito sa isang gurong pinagkakatiwalaan mo."
+      ],
+      "translationTitle": "Ano ang salin",
+      "translationBody": "Ang Arabic ang ipinahayag na teksto. Dinadala ka ng salin sa kahulugan, pero pagsasalin pa rin ito ng isang tao, kaya may bahagi ng laman ng Arabic na hindi naipapasa.",
+      "vocabularyTitle": "Mga salitang lumilitaw",
+      "readingPathsTitle": "Mga landas sa pagbabasa na puwedeng simulan",
+      "readingPathsBody": "Walang sine-save at walang sinusubaybayan dito. Pumili ng isang landas, magbasa nang dahan-dahan, at huminto bago ka mapagod.",
+      "weekTitle": "Unang linggong puwedeng i-print",
+      "weekBody": "I-print ito at ilagay kung saan mo ito makikita. Hindi nito sine-save ang progreso mo at wala itong ipapaalala sa iyo.",
+      "listeningTitle": "Pakikinig nang hindi nabibigatan",
+      "listening": [
+        "Magsimula sa isang maikling surah at isang qari.",
+        "Makinig nang isang beses nang walang ibang ginagawa, saka makinig ulit habang sinusundan ang salin.",
+        "Kung pinag-aaralan mo ang pagbigkas, ulitin ang isang maikling parirala sa halip na isang buong surah.",
+        "Kapag gusto mong maitama ang pagbigkas mo, lumapit sa isang guro, imam o klase."
+      ],
+      "respectTitle": "Paghawak sa Quran nang may pag-iingat",
+      "respect": [
+        "Ilagay ang pisikal na mushaf sa malinis at magalang na lugar.",
+        "Magtanong sa isang kwalipikadong guro sa inyong lugar tungkol sa wudu at mga tuntunin sa kalinisan sa paghawak ng tekstong Arabic.",
+        "Hindi lahat ng tuntunin sa paghawak ay para rin sa mga salin at app sa telepono, pero mabuting adab pa rin ang pag-iingat sa mga ito.",
+        "Huwag hayaang pigilan ka ng takot na magkamali sa detalye na magbasa at makinig."
+      ],
+      "confusingTitle": "Kapag may talatang nakalito sa iyo",
+      "confusingVerse": [
+        {
+          "title": "Huminto muna",
+          "body": "Huwag lutasin ang tanong mula sa screenshot, maikling clip o away na nadaanan mo online."
+        },
+        {
+          "title": "Basahin ang nakapaligid",
+          "body": "Basahin ang mga talata bago at pagkatapos nito, saka basahin ang isang mapagkakatiwalaang paliwanag."
+        },
+        {
+          "title": "Isulat ang eksaktong tanong",
+          "body": "Isulat ang talata, kung ano ang ikinabahala mo rito, at kung ano talaga ang gusto mong maliwanagan."
+        },
+        {
+          "title": "Magtanong sa maaasahang tao",
+          "body": "Dalhin ito sa isang guro, imam o programa sa pag-aaral na nagpapakita ng mga sanggunian nito."
+        }
+      ],
+      "resourcesTitle": "Mga lugar na puwedeng simulan",
+      "resourcesBody": "Manatili sa mga sangguniang nagpapakilala ng kanilang publisher at mga guro. Hindi magandang paraan para matutuhan ang Quran ang mga larawan ng quote na walang pinanggalingan at mga channel ng debate.",
+      "openResource": "Buksan ang mapagkukunan",
+      "sourcesNote": "Nasuri na ang mga sanggunian sa Quran, mga tala sa salin, gabay sa pakikinig at mga tala sa paghawak sa pahinang ito. Para sa isang kwalipikadong guro ang mga tanong tungkol sa sarili mong pagbigkas, kalinisan o tafsir.",
+      "roadmapButton": "Hakbang sa roadmap",
+      "duaDhikrButton": "Dua at dhikr",
+      "learnArabicTitle": "Matuto ng Arabic para sa pagdarasal",
+      "learnArabicBody": "Hindi mo kailangang matutuhan ang buong wika para makapagdasal. Magsimula sa Al-Fatihah, ang kabanatang binibigkas sa bawat rak'ah, at alamin ang mga salita nito at ang kahulugan ng mga ito. Patuloy na magdasal gamit ang alam mo habang nag-aaral ka.",
+      "learnArabicStagesTitle": "Bilis na kaya mo",
+      "wordByWordTitle": "Al-Fatihah, salita por salita",
+      "wordByWordBody": "Bawat salita na may transliterasyon at salin ng kahulugan nito. Tinutulungan ka ng salin na umunawa. Ang Arabic ang Quran. Basahin ito mula kanan pakaliwa, isang linya bawat araw.",
+      "verseLabel": "Talata {number}"
+    },
+    "salahCompanion": {
+      "metadataTitle": "Matutong magdasal (salah)",
+      "metadataDescription": "Kasama ng baguhan sa salah: ang hugis ng pagdarasal, ang mga bibigkasin mo, mga karaniwang alalahanin, at mga susunod na hakbang na may sanggunian.",
+      "eyebrow": "Tool sa pag-aaral ng pagsamba",
+      "title": "Matutong magdasal (salah)",
+      "subtitle": "Mahinahong paglalakad sa isang simpleng pagdarasal na may dalawang yunit, kasama ang mga bibigkasin ng baguhan at tapat na tala kung kailan dapat magtanong sa iba.",
+      "wuduButton": "Paghuhugas bago magdasal (wudu)",
+      "prayerTimesButton": "Oras ng pagdarasal",
+      "mattersMostTitle": "Ano ang pinakamahalaga ngayon",
+      "mattersMost": [
+        "Magdasal nang taos-puso habang pinag-aaralan mo pa ang mga salita.",
+        "Matutuhan muna ang hugis ng pagdarasal bago habulin ang bawat detalye.",
+        "Magtanong sa isang kwalipikadong imam tungkol sa anumang nakadepende sa sarili mong kalagayan."
+      ],
+      "shapeTitle": "Ang hugis ng pagdarasal na may dalawang yunit",
+      "shapeBody": "Mapa ito, hindi guro. Gamitin ito para matutuhan ang pagkakasunod-sunod, saka hilingin sa isang imam o guro sa inyong lugar na panoorin ka minsan at itama ka.",
+      "stepLabel": "Hakbang {number}",
+      "recitationTitle": "Ang mga bibigkasin mo",
+      "recitationBody": "Nasa bawat card ang Arabic, ang transliterasyon at ang kahulugan. Kapag Quran ang teksto, salin ng kahulugan ang Filipino para matulungan kang umunawa, at ang Arabic ang Quran.",
+      "transliterationLabel": "Transliterasyon",
+      "meaningLabel": "Kahulugan",
+      "beginnerNoteLabel": "Tala para sa baguhan",
+      "cannotReciteTitle": "Kung hindi ka pa makabigkas ng Arabic",
+      "invalidatesTitle": "Ano ang nagpapawalang-bisa sa pagdarasal?",
+      "invalidatesBody": "Pangkalahatang-ideya ito para sa baguhan. Nagkakaiba ang mga detalye ayon sa paaralan ng batas at ayon sa kalagayan.",
+      "correctionsTitle": "Mga karaniwang alalahanin at ano ang gagawin",
+      "askImamTitle": "Magtanong sa imam kung",
+      "askImam": [
+        "Pinipigilan ka ng sakit, kapansanan, pinsala o trauma na tumayo, yumuko, umupo o magpatirapa.",
+        "Hindi mo alam kung ano ang bibigkasin habang pinag-aaralan mo pa ang Arabic.",
+        "Madalas kang makaligta ng pagdarasal at kailangan mo ng planong pambawi na kaya mong sundan.",
+        "Nagkakasalungat ang payong nakuha mo mula sa mga video o sa iba't ibang paaralan ng batas.",
+        "Binabago ng trabaho, paaralan, paglalakbay, pamilya o sarili mong kaligtasan ang paraan ng pagdarasal mo."
+      ],
+      "sourcesNote": "Kasama ito para sa baguhan. Nasuri na ang mga sanggunian. Kailangan pa ring suriin ng isang kwalipikado ang mga personal na hatol sa pagdarasal, mga detalye ng bawat paaralan, mga akomodasyon sa kapansanan at mga di-pangkaraniwang sitwasyon.",
+      "prayerTopicButton": "Paksa tungkol sa pagdarasal",
+      "prayerOnRampButton": "Unti-unting pagsisimula sa pagdarasal",
+      "duaDhikrButton": "Dua at dhikr",
+      "watchTitle": "Manood ng buong pagdarasal",
+      "watchBody": "Mas madaling sundan ang mapa sa itaas kapag nakita mo na minsan ang mga galaw. Pumili ng isang pagdarasal sa listahan sa ilalim ng video kung ilang minuto lang ang gusto mo.",
+      "phrasesVideoTitle": "Matutuhan ang mga salita, isang parirala sa bawat pagkakataon",
+      "phrasesVideoBody": "Maiikling aralin mula sa Islamwise, isang proyekto para sa bagong Muslim kasama ang Green Lane Masjid. Binibigkas ng bawat isa ang isang parirala nang dahan-dahan at ipinapaliwanag ang kahulugan nito.",
+      "openSeries": "Buksan ang serye sa YouTube",
+      "placementTitle": "Kung saan ang mga pag-upo (tashahhud)",
+      "placementBody": "Nagtatapos ang bawat pagdarasal sa isang pag-upo. May mas maikling pag-upo rin pagkatapos ng ikalawang rak'ah ang mga pagdarasal na may tatlo o apat na rak'ah.",
+      "sahwTitle": "Kung magkamali ka (sujud al-sahw)",
+      "tableTitle": "Ang limang pang-araw-araw na pagdarasal sa isang tingin",
+      "tableCaption": "Ang limang pang-araw-araw na pagdarasal, ang oras ng bawat isa at ang bilang ng rak'ah",
+      "tablePrayer": "Pagdarasal",
+      "tableWindow": "Saklaw na oras",
+      "tableUnits": "Mga rak'ah",
+      "notOwedTitle": "Hindi mo utang ang mga pagdarasal bago ka naging Muslim",
+      "seatedTitle": "Pagdarasal nang nakaupo, sa silya o nakahiga",
+      "learnArabicLink": "Matutuhan ang Al-Fatihah salita por salita sa panimulang landas sa Quran",
+      "menstruationLink": "Regla, pagdurugo pagkapanganak at ang pagdarasal"
+    },
+    "wuduGhusl": {
+      "metadataTitle": "Paghuhugas bago magdasal (wudu at ghusl)",
+      "metadataDescription": "Gabay para sa baguhan na puwedeng i-print tungkol sa paghuhugas bago magdasal: wudu, ghusl (paghuhugas ng buong katawan), tayammum, at kailan magtatanong.",
+      "eyebrow": "Tool sa pag-aaral ng pagsamba",
+      "title": "Paghuhugas bago magdasal (wudu at ghusl)",
+      "subtitle": "Simpleng gabay sa paghuhugas bago magdasal, ginawa para i-print. Matutuhan muna ang mahahalaga, at dalhin sa isang kwalipikadong guro ang anumang nakadepende sa sarili mong sitwasyon.",
+      "purificationTopicButton": "Paksa tungkol sa kalinisan",
+      "mattersMostTitle": "Ano ang pinakamahalaga",
+      "mattersMost": [
+        "Naaabot ng tubig ang lahat ng dapat nitong maabot.",
+        "Naghuhugas ka para sa Allah, hindi dahil sa pagkataranta.",
+        "Nagtatanong ka kapag pinapakumplika ito ng sitwasyong medikal, sa trabaho o sa pamilya."
+      ],
+      "wuduTitle": "Paghuhugas bago magdasal (wudu), hakbang-hakbang",
+      "wuduBody": "Ang wudu ang bahagyang paghuhugas na karaniwang ginagawa bago magdasal. Itinatakda ng Quran 5:6 kung aling bahagi ang hinuhugasan at alin ang pinapahiran, at pinupunan ng mga gabay para sa baguhan ang praktikal na pagkakasunod-sunod.",
+      "ghuslTitle": "Paghuhugas ng buong katawan (ghusl), hakbang-hakbang",
+      "ghuslBody": "Ang ghusl ang paghuhugas ng buong katawan. Panatilihin itong disente at simple: magkaroon ng intensyon, linisin ang kailangang linisin, at tiyaking naaabot ng tubig ang buong katawan mo.",
+      "stepLabel": "Hakbang {number}",
+      "wuduBreaksTitle": "Ano ang sumisira sa wudu",
+      "ghuslNeededTitle": "Kailan kailangan ang ghusl",
+      "correctionsTitle": "Mga karaniwang alalahanin at ano ang gagawin",
+      "askQualifiedTitle": "Magtanong sa isang kwalipikado kung",
+      "askQualified": [
+        "Pinahihirapan ng kondisyong medikal, sugat, kapansanan o matinding panunuyo ng balat ang paggamit ng tubig.",
+        "Hindi ka sigurado tungkol sa regla, pagdurugo pagkapanganak, discharge, o mga hatol na may kinalaman sa pagtatalik.",
+        "Pinahihirapan ng trabaho, paaralan, paglalakbay o sitwasyon sa pamilya ang paglilinis.",
+        "Pakiramdam mo ay paulit-ulit kang nagwu-wudu o nagghu-ghusl dahil sa pagkabalisa."
+      ],
+      "sourcesNote": "Tool ito para sa baguhan. Nagkakaiba ang ilang detalye ng paglilinis ayon sa paaralan ng batas, at mabuting pag-usapan ang sarili mong sitwasyon kasama ang isang kwalipikadong imam o iskolar sa inyong lugar.",
+      "ghuslRoadmapButton": "Pumunta sa hakbang sa roadmap tungkol sa ghusl",
+      "prayerTopicButton": "Paksa tungkol sa pagdarasal",
+      "watchTitle": "Panoorin itong gawin nang isang beses",
+      "breaksAgreedTitle": "Itinuturo ng lahat ng paaralan",
+      "breaksDifferTitle": "Kung saan nagkakaiba ang mga paaralan",
+      "convertGhuslTitle": "Kung kayayakap mo pa lang sa Islam",
+      "menstruationLink": "Regla, pagdurugo pagkapanganak at ang pagsamba",
+      "tayammumTitle": "Kapag hindi ka makagamit ng tubig (tayammum)",
+      "tayammumStepsTitle": "Paano ito gawin",
+      "questionsTitle": "Medyas sa taglamig, nail polish at cast"
+    },
+    "video": {
+      "playAria": "I-play ang video: {title}",
+      "playerTitle": "{title} (video sa YouTube)",
+      "length": "Haba {duration}",
+      "chaptersLabel": "Tumalon sa isang bahagi",
+      "watchOnYouTube": "Panoorin sa YouTube",
+      "newTab": "(magbubukas sa bagong tab)",
+      "privacyNote": "Walang naglo-load mula sa YouTube hangga't hindi mo pinipindot ang play. Pagkatapos noon, magpe-play ang video sa privacy-enhanced player ng YouTube. Kung ayaw mag-play ng video o offline ka, gamitin ang link na Panoorin sa YouTube. Higit pa sa aming",
+      "privacyLink": "patakaran sa privacy",
+      "sectionTitle": "Manood"
+    },
+    "faq": {
+      "title": "Mga madalas itanong",
+      "description": "Maiikling sagot sa mga madalas itanong ng bagong Muslim. May listahan ng sanggunian ang bawat sagot, at marami ang may link sa mas buong pahina.",
+      "noteTitle": "Pangkalahatang sagot, hindi personal na hatol",
+      "noteBody": "Kapag nagkakaiba ang mga iskolar, sinasabi namin ito nang hindi pumipili para sa iyo. Para sa sarili mong sitwasyon, ang tamang tanungin ay isang kwalipikadong guro o imam na nakakakilala sa iyo.",
+      "indexLabel": "Tumalon sa isang paksa",
+      "questionCount": {
+        "one": "tanong",
+        "other": "tanong"
+      },
+      "reviewBadge": "Naghihintay ng pagsusuri ng iskolar",
+      "differencesLabel": "Kung saan nagkakaiba ang mga iskolar",
+      "askTeacher": "May kinalaman ito sa isang hatol. Itanong sa isang kwalipikadong guro o imam na pinagkakatiwalaan mo kung paano ito para sa iyo.",
+      "sourcesLabel": "Mga sanggunian",
+      "readMoreLabel": "Magbasa pa:",
+      "backToIndex": "Bumalik sa listahan ng paksa",
+      "categories": {
+        "foundations": "Paniniwala at pagiging Muslim",
+        "prayer": "Pagdarasal (salah)",
+        "purification": "Paghuhugas bago magdasal (wudu) at paghuhugas ng buong katawan (ghusl)",
+        "quran": "Pagbabasa ng Quran",
+        "ramadan": "Pag-aayuno at Ramadan",
+        "zakat": "Obligadong kawanggawa (zakat)",
+        "hajj": "Paglalakbay sa Makkah (Hajj at Umrah)",
+        "menstruation": "Regla at pagsamba",
+        "family": "Pamilya at kasal",
+        "holidays": "Mga pista opisyal at okasyon ng pamilya",
+        "everyday-life": "Pagkain, trabaho at pang-araw-araw na buhay",
+        "community": "Komunidad at pakikibahagi",
+        "safety": "Pananatiling ligtas at paghingi ng tulong",
+        "mentorship": "Mga mentor at guro",
+        "site": "Paggamit ng site na ito"
+      }
+    },
+    "getHelp": {
+      "title": "Humingi ng tulong",
+      "subtitle": "Magtanong, humingi ng mentor, maghanap ng kaganapan na malapit sa iyo, o sabihin sa amin ang isang alalahanin. Binabasa ng isang maliit na team ang bawat kahilingan.",
+      "crisis": {
+        "text": "Kung nasa panganib ka, tumawag sa 911. Para sa krisis sa kalusugan ng isip, tumawag o mag-text sa 9-8-8.",
+        "linkLabel": "Higit pang suporta sa pahina tungkol sa kalusugan ng isip"
+      },
+      "placeholderNotice": {
+        "title": "Inihahanda pa ang form",
+        "body": "Hindi pa gumagana ang form at ang mga email address sa pahinang ito. Habang hindi pa, magandang magtanong sa masjid sa inyong lugar, at nariyan ang mga crisis line sa itaas kung kailangan mo ng tulong ngayon."
+      },
+      "whatFor": {
+        "title": "Ano ang puwede mong hingin sa amin",
+        "items": [
+          {
+            "title": "Magtanong",
+            "body": "Anumang hindi ka sigurado, mula sa pagdarasal hanggang sa pagsasabi sa pamilya mo. Kung hindi kami ang tamang sumagot, sasabihin namin kung sino."
+          },
+          {
+            "title": "Humingi ng mentor",
+            "body": "Isang sinanay na boluntaryo, karaniwang kapareho mo ng kasarian, na kukumustahin ka at tutulong sa mga batayan."
+          },
+          {
+            "title": "Mga kaganapan at komunidad",
+            "body": "Mga klase, pagtitipon ng bagong Muslim at mga masjid na malapit sa iyo."
+          },
+          {
+            "title": "Mag-ulat ng alalahanin",
+            "body": "May kinalaman sa isang mentor, grupo o admin na hindi tama ang pakiramdam."
+          }
+        ]
+      },
+      "form": {
+        "title": "Magpadala ng kahilingan",
+        "body": "Magbubukas ang form sa Google Forms sa bagong tab.",
+        "buttonLabel": "Buksan ang help form",
+        "asksTitle": "Ano ang itinatanong ng form",
+        "asks": [
+          "Kung saan mo kailangan ng tulong",
+          "Ang wikang gusto mong gamitin",
+          "Kung mas gusto mo ang mentor na kapareho mo ng kasarian",
+          "Ang lungsod o probinsya mo",
+          "Ang time zone mo",
+          "Paano mo gustong kontakin ka namin",
+          "Isang mensahe, kung gusto mong magdagdag",
+          "Isang linya kung saan pumapayag kang gamitin namin ang mga sagot mo para sumagot sa iyo"
+        ],
+        "asksNote": "Iyon lang. Hinihingi lamang namin ang kailangan para sumagot at, kung gusto mo, para makahanap ng mentor para sa iyo."
+      },
+      "whoReads": {
+        "title": "Sino ang nagbabasa nito",
+        "body": "Isa o dalawang boluntaryong coordinator ang nagbabasa ng bawat kahilingan mula sa iisang shared inbox. Wala nang iba pang nakakakita nito. Kung humingi ka ng mentor, sasabihin muna sa iyo ng coordinator ang tungkol sa napiling mentor at ipapasa lamang ang kailangan ng mentor kapag pumayag ka.",
+        "responseTitle": "Kailan kami sasagot",
+        "response": "Sinisikap naming sumagot sa loob ng 48 hanggang 72 oras. Layunin iyon, hindi pangako. Maaaring mas matagal ang sagot tuwing pista opisyal at sa Ramadan."
+      },
+      "privacy": {
+        "title": "Ang privacy mo",
+        "items": [
+          "Sinasabi sa amin ng kahilingan para sa tulong na Muslim ka o pinag-iisipan mo ang Islam, kaya itinuturing namin itong sensitibo.",
+          "Ang mga coordinator lamang ang nagbabasa nito. Hindi namin ito ibinabahagi sa pamilya mo, sa masjid o sa iba nang hindi ka muna tinatanong.",
+          "Google ang nagpapatakbo ng form, at maaari nitong iimbak ang mga sagot mo sa labas ng Canada.",
+          "Sinisikap naming burahin ang kahilingan anim na buwan matapos namin itong isara.",
+          "Kung may ibang tumitingin sa telepono o computer mo, puwede mong ipadala ang form mula sa ibang device, gaya ng computer sa library, at magbigay ng paraan ng pakikipag-ugnayan na ikaw lamang ang makakakita."
+        ],
+        "linkLabel": "Basahin ang patakaran sa privacy"
+      },
+      "report": {
+        "title": "Mag-ulat tungkol sa mentor, grupo o admin",
+        "body": "Sabihin sa amin kung humingi sa iyo ng pera ang isang mentor, miyembro ng grupo o admin, nag-alok ng kasal, pinilit kang sumali sa isang bagay, o pinaramdam sa iyong hindi ka ligtas. Napupunta ang ulat mo sa mga coordinator, hindi kailanman sa taong inuulat mo.",
+        "emailLabel": "Email",
+        "scamNote": "Kung may humingi sa iyo ng pera o sa tingin mo ay naloko ka, puwede mo rin itong iulat sa Canadian Anti-Fraud Centre sa 1-888-495-8501.",
+        "redFlagsLabel": "Mga babalang palatandaan na dapat bantayan"
+      },
+      "contact": {
+        "title": "Mas gusto mo bang mag-email?",
+        "body": "Puwede kang sumulat sa amin sa halip na gamitin ang form. Ang parehong mga coordinator ang nagbabasa ng inbox na ito.",
+        "emailLabel": "Email"
+      },
+      "guideLink": {
+        "prompt": "Hindi sigurado kung para sa amin, sa imam o sa counsellor ang tanong mo?",
+        "label": "Paano humingi ng tulong"
+      },
+      "sourcesTitle": "Mga sangguniang ginamit",
+      "sourcesNote": "Sinusuportahan ng mga sangguniang ito kung paano inayos ang form at kung paano pinangangasiwaan ang mga detalye mo. Sarili naming mga layunin ang target na oras ng pagsagot at ang tagal ng pagtatago."
+    },
+    "communityGroups": {
+      "title": "Mga grupo ng komunidad",
+      "subtitle": "Mga paalala, lokal na balita at samahan ng ibang bagong Muslim, inayos para ikaw ang pumili kung gaano karami ang ibabahagi mo tungkol sa sarili mo.",
+      "placeholderNotice": {
+        "title": "Inihahanda pa ang mga link na ito",
+        "body": "Hindi pa live ang link ng channel at ang listahan ng mga grupo sa pahinang ito. Idadagdag namin ang mga ito kapag handa na ang mga admin."
+      },
+      "channel": {
+        "title": "Our WhatsApp Channel",
+        "body": "A one-way channel for reminders, new pages on the site and events. Only admins post, and other followers cannot see your phone number.",
+        "buttonLabel": "Follow the channel on WhatsApp"
+      },
+      "groups": {
+        "title": "Mga lokal na grupo",
+        "body": "Maliliit na grupo ayon sa lungsod o rehiyon kung saan puwede kang magtanong at makakilala ng tao. Inaaprubahan ng mga admin ang bawat bagong miyembro.",
+        "emptyState": "Ililista rito ang mga grupo kapag handa na ang mga admin.",
+        "joinNote": "Kapag sumali ka sa isang grupo, makikita ng mga admin ng grupo ang numero mo, at maaari rin itong makita ng ibang miyembro."
+      },
+      "reveals": {
+        "title": "Ano ang ipinapakita ng bawat opsyon tungkol sa iyo",
+        "items": [
+          {
+            "name": "Channel",
+            "body": "Nananatiling pribado ang numero mo. Makikita lamang ito ng admin kung naka-save ka na bilang contact niya. Ikaw lamang ang nakakakita kung aling mga channel ang sinusundan mo, at hindi puwedeng magmensahe sa isa't isa ang mga tagasunod doon."
+          },
+          {
+            "name": "Grupo",
+            "body": "Nakikita ng mga admin ang numero mo, at maaari rin itong makita ng ibang miyembro. Puwede kang i-message ng sinuman sa grupo."
+          },
+          {
+            "name": "Community",
+            "body": "Ang community ay isang hanay ng magkakaugnay na grupo. Nakikita ang numero mo ng mga admin nito at ng mga taong mayroon na nito, hindi ng bawat miyembro."
+          }
+        ],
+        "usernameNote": "Unti-unting inilalabas ng WhatsApp ang mga username, na nagtatago ng numero mo sa mga taong wala pa nito. Maaaring wala ka pa nito."
+      },
+      "safety": {
+        "title": "Kung pinananatili mong pribado ang pagyakap mo sa Islam",
+        "body": "Sundan ang channel sa halip na sumali sa grupo, dahil itinatago ng channel ang numero mo. Maaaring lumabas sa mga notification mo ang pangalan ng grupo at ang mga mensahe, kaya isipin kung sino ang nakakakita ng telepono mo bago ka sumali sa anuman."
+      },
+      "rules": {
+        "title": "Mga patakaran ng grupo",
+        "intro": "Pumapayag dito ang lahat ng sumasali. Inaalis ng mga admin ang sinumang lumalabag.",
+        "items": [
+          "Bawal humingi ng pera, magbenta o mangalap ng pondo.",
+          "Bawal ang alok ng kasal o paghahanap ng mapapangasawa.",
+          "Bawal ang pribadong mensahe sa mga miyembrong hindi humiling nito.",
+          "Bawal ipasa sa labas ng grupo ang pangalan, numero, larawan o mensahe ng mga miyembro.",
+          "Walang idinaragdag nang hindi pinipiling sumali. Ibinabahagi namin ang link at ikaw ang magpapasya."
+        ],
+        "adminsTitle": "Sino ang mga admin",
+        "admins": "Mga boluntaryo sa isang nakatakdang tungkulin ang mga admin, hindi mga taong pinangalanan. Inaaprubahan nila ang mga bagong miyembro, inaalis at iniuulat ang mga scam account, at ipinapasa sa mga coordinator ang anumang alalahanin sa kaligtasan."
+      },
+      "report": {
+        "title": "Pag-uulat ng problema",
+        "body": "Kung may tao sa grupo o sa channel na humingi sa iyo ng pera, nag-alok ng kasal, nag-message sa iyo nang pribado nang hindi hinihingi, o nagbahagi ng mga detalye mo, sabihin sa amin. Napupunta ang mga ulat sa mga coordinator. Puwede mo ring i-report at i-block ang account sa loob ng WhatsApp.",
+        "emailLabel": "Email",
+        "linkLabel": "Pumunta sa pahinang Humingi ng tulong"
+      },
+      "redFlags": {
+        "prompt": "Alamin ang mga babalang palatandaan ng scam at pamimilit sa mga espasyo ng komunidad.",
+        "label": "Mga babalang palatandaan at pananatiling ligtas"
+      },
+      "sourcesTitle": "Mga sangguniang ginamit",
+      "sourcesNote": "Galing sa sariling mga help page ng WhatsApp ang ipinapakita ng bawat opsyon. Maaaring baguhin ng WhatsApp kung paano gumagana ang mga feature na ito, kaya tingnan ang help centre nito kung hindi ka sigurado."
+    },
+    "events": {
+      "title": "Mga kaganapan",
+      "subtitle": "Mga pagtitipon ng bagong Muslim, klase at bukas na kaganapan sa mga masjid sa buong Canada.",
+      "intro": "Ang organizer ang nagpapatakbo ng bawat kaganapan, hindi kami. Maaaring magbago ang mga detalye, kaya kumpirmahin muna sa organizer bago ka pumunta.",
+      "noRegistration": "Walang pagpaparehistro sa site na ito. Para magpalista, gamitin ang sariling pahina ng organizer.",
+      "filters": {
+        "legend": "Salain ang mga kaganapan",
+        "cityLabel": "Lungsod",
+        "provinceLabel": "Probinsya",
+        "all": "Lahat",
+        "resultsCount": "{count} kaganapan ang ipinapakita",
+        "noMatches": "Walang kaganapang tugma sa mga filter na ito.",
+        "reset": "Ipakita ang lahat ng kaganapan"
+      },
+      "empty": {
+        "title": "Walang nakalistang kaganapan ngayon",
+        "body": "Nagdaragdag kami ng kaganapan kapag nakumpirma na ito ng organizer. Maaaring may sariling kalendaryo ang masjid sa inyong lugar, at kung may alam kang kaganapan para sa bagong Muslim, puwede mo itong sabihin sa amin.",
+        "masjidLink": "Maghanap ng masjid na malapit sa iyo"
+      },
+      "card": {
+        "dateLabel": "Petsa",
+        "timeLabel": "Oras",
+        "venueLabel": "Lugar",
+        "whereLabel": "Saan",
+        "organiserLabel": "Inorganisa ng",
+        "linkLabel": "Mga detalye sa site ng organizer"
+      },
+      "lastUpdatedLabel": "Huling na-update ang listahan:",
+      "tellUs": {
+        "prompt": "May alam ka bang kaganapang babagay sa bagong Muslim?",
+        "label": "Sabihin sa amin ang isang kaganapan"
+      }
+    },
+    "dawahGuide": {
+      "breadcrumbHome": "Pangunahing pahina",
+      "viewModeAriaLabel": "Paraan ng pagtingin",
+      "guidedFlow": "Ginabayang daloy",
+      "quickReference": "Mabilisang sanggunian",
+      "printSavePdf": "I-print o i-save bilang PDF",
+      "stepStatus": "Hakbang {step} sa {total}: {title}",
+      "stepOf": "Hakbang {step} sa {total}",
+      "conversationPathAriaLabel": "Ang daloy ng usapan hanggang ngayon",
+      "conversationTips": "Mga tip sa pakikipag-usap",
+      "gentlyAvoid": "Mahinahong iwasan",
+      "continue": "Magpatuloy",
+      "back": "Bumalik",
+      "restartGuide": "Ulitin ang gabay",
+      "pauseGentleExit": "Huminto, mahinahong pagtatapos",
+      "draftPendingReview": "Burador, naghihintay ng pagsusuri",
+      "sourceChecked": "Nasuri ang sanggunian",
+      "verified": "Napatunayan",
+      "guideSourceChecked": "Nasuri ang sanggunian, naghihintay ng kwalipikadong pagsusuri",
+      "translation": "Salin",
+      "sourcePrefix": "Sanggunian:",
+      "viewSource": "Tingnan ang sanggunian",
+      "gorapHeading": "GORAP, isang lohikal na pagkakasunod-sunod",
+      "gorapSubheading": "Ang landas ng katotohanan at patnubay.",
+      "suggestionsHeading": "Mga pangkalahatang mungkahi",
+      "outsideTheField": "Bago lumabas",
+      "onTheField": "Habang nasa labas",
+      "toneHeading": "Maging matiyaga, maging taos-puso",
+      "toneSubheading": "Ipaubaya sa Allah ang resulta.",
+      "quickReferenceHeading": "Mabilisang sanggunian",
+      "gorapAtGlance": "Ang GORAP sa isang tingin",
+      "conversationFlow": "Ang daloy ng usapan",
+      "keepInMind": "Tandaan",
+      "approach": "Paraan",
+      "watchFor": "Bantayan",
+      "sourcePendingReview": "Naghihintay ng pagsusuri ang sanggunian",
+      "moreForDaees": "Higit pa para sa mga da'ee",
+      "moreForDaeesIntro": "Opsyonal na materyal para sa totoong mga usapan. Buksan ang bahaging kailangan mo.",
+      "commonQuestionsTitle": "Mga karaniwang tanong at mahinahong sagot",
+      "misconceptionsTitle": "Pagsagot sa mga maling akala",
+      "scenariosTitle": "Gabay batay sa mga sitwasyon",
+      "trainingCardsTitle": "Mga training card para sa da'ee",
+      "postShahadaHandoffTitle": "Pagpasa pagkatapos ng Shahada",
+      "referralBoundariesTitle": "Mga tanong na hindi dapat sagutin nang mag-isa",
+      "practice": "Pagsasanay",
+      "handoffActions": "Mga gagawin",
+      "referTo": "Ipasa sa",
+      "duaRemindersTitle": "Mga paalala sa dua",
+      "printFieldSuggestions": "Mga mungkahi sa pakikipag-usap",
+      "printPostShahadaHandoff": "Pagpasa pagkatapos ng Shahada",
+      "printReferralBoundaries": "Mga tanong na hindi dapat sagutin nang mag-isa",
+      "printScenarioReminders": "Mga paalala sa mga sitwasyon",
+      "printReferences": "Mga sanggunian (suriin bago ibahagi)",
+      "duaGroups": {
+        "before": "Bago ang usapan",
+        "after": "Habang at pagkatapos",
+        "general": "Pangkalahatan"
+      },
+      "kind": {
+        "intro": "Simula",
+        "teaching": "Pagtuturo",
+        "decision": "Pagpapasya",
+        "encouragement": "Paghihikayat",
+        "exit": "Mahinahong pagtatapos",
+        "completion": "Komunidad"
+      },
+      "metadataTitle": "Gabay sa dawah | Revert Guide",
+      "metadataDescription": "Isang pribadong gabay na naaabot lamang sa direktang link, para sa mga usapang dawah."
     }
   }
 }
