@@ -276,6 +276,13 @@ export interface EventEntry {
 
 /* Slice D additions (help, mentoring and community) */
 
+/** Shape of locales/<locale>/events.json. */
+export interface EventsContent {
+  /** ISO date the list was last checked. */
+  lastUpdated: string;
+  events: EventEntry[];
+}
+
 /* Slice E additions (masjid directory and Canada scope) */
 
 /* Slice F additions (visuals and housekeeping) */
