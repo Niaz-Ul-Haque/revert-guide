@@ -21,7 +21,7 @@ import {
 } from "@/lib/content";
 import { localizeHref, type Locale, type Messages } from "@/lib/i18n";
 import { getTranslator } from "@/lib/messages";
-import { buildPageMetadata } from "@/lib/metadata";
+import { buildPageMetadata, metaDescription } from "@/lib/metadata";
 import { JsonLd, breadcrumbJsonLd } from "@/components/JsonLd";
 import { localeUrl } from "@/lib/site";
 
@@ -52,10 +52,13 @@ export function generateMetadata({
     return { title: t("metadata.dynamic.stepNotFoundTitle") };
   }
 
+  // Lead with why the step matters; when that is short, add the tiny
+  // version so the description has something concrete to act on.
+  const lead = metaDescription(step.whyMatters);
   return buildPageMetadata({
     locale: params.locale,
     title: `${step.title} - ${t("brand.name")}`,
-    description: step.whyMatters,
+    description: lead.length < 110 ? `${lead} ${step.tinyVersion}` : lead,
     path: `/roadmap/${step.stageId}/${step.slug}`,
     ogType: "article",
   });
