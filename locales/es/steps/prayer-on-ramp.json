@@ -14,27 +14,38 @@
       ]
     },
     {
-      "text": "Elige una oración ancla",
+      "text": "Proteja una oración que le sirva de ancla",
       "subSteps": [
-        "Elija una oración que sea más probable que escuche diariamente.",
-        "Genere consistencia allí antes de agregar más.",
-        "Si te lo pierdes, reinicia en la siguiente oración sin caer en espiral."
+        "Elija la oración que tenga más probabilidades de hacer cada día.",
+        "Haga de esa la oración que nunca suelta, mientras reza las demás en la forma sencilla lo mejor que pueda.",
+        "Si se salta una, retome en la siguiente oración en lugar de hundirse."
       ]
     },
     {
-      "text": "Usa lo que sabes mientras aprendes árabe",
+      "text": "Use lo que sabe mientras aprende el árabe",
       "subSteps": [
-        "Empiece a memorizar Al-Fatiha en trozos pequeños.",
-        "Lea de un periódico o teléfono mientras aprende si es necesario.",
-        "Pregúntale a un maestro qué recitación mínima para principiantes debes usar en tu situación."
+        "Empiece a memorizar Al-Fatihah línea a línea.",
+        "Hasta que la sepa, la guía para aprender a rezar explica las opciones que dan las escuelas, como frases cortas de recuerdo de Allah en árabe.",
+        "Pregunte a un maestro qué opción sigue su comunidad."
       ]
     },
     {
-      "text": "Conecta la oración con la misericordia",
+      "text": "Suba un peldaño cada vez",
       "subSteps": [
-        "No midáis vuestra fe por la perfección.",
-        "Tenga en cuenta que cada intento genera familiaridad.",
-        "Pídele a Allah que haga que la oración sea amada y constante para ti."
+        "Peldaño 1: aprenda la forma de una rak'ah. Póngase de pie, diga Allahu akbar, diga lo que sepa (las frases de recuerdo de Allah si todavía no sabe Al-Fatihah), inclínese, incorpórese y postérnese dos veces con una breve sentada entre ambas.",
+        "Peldaño 2: rece Fajr como dos rak'ahs con las palabras que sepa, terminando con una sentada y el salam.",
+        "Peldaño 3: añada el tashahhud después de la segunda rak'ah, y luego aprenda cómo Maghrib continúa hasta una tercera rak'ah.",
+        "Peldaño 4: aprenda las oraciones de cuatro rak'ahs, Dhuhr, Asr e Isha.",
+        "Cambie las frases de recuerdo de Allah por Al-Fatihah y una sura corta a medida que las memorice.",
+        "Rece las cinco oraciones diarias en la forma sencilla mientras sube. Los peldaños tratan de lo que dice y añade, no de qué oraciones reza."
+      ]
+    },
+    {
+      "text": "Mantenga la oración unida a la misericordia",
+      "subSteps": [
+        "No mida su fe por lo perfecta que parezca su oración.",
+        "Cada intento hace que el siguiente resulte menos extraño.",
+        "Pida a Allah que le haga amada y constante la oración."
       ]
     }
   ],
@@ -51,13 +62,10 @@
   ],
   "tinyVersion": "Elige una oración para proteger hoy, incluso si necesitas una guía a tu lado.",
   "unlocksNext": "Una vez que tienes una rampa de acceso, el paso de oración completo se siente menos como un muro y más como un camino.",
-  "resourceIds": ["learn-salah-guide", "muslim-pro-app", "being-muslim-book"],
-  "relatedGlossaryIds": ["salah", "wudu", "qiblah", "al-fatiha"],
-  "relatedTopicIds": ["prayer", "new-muslim-basics", "dua-and-dhikr"],
   "commonQuestions": [
     {
-      "problem": "¿Puedo orar mientras leo una guía?",
-      "solution": "Muchos principiantes utilizan una guía escrita mientras aprenden. Pídele más detalles a un maestro local, especialmente una vez que estés listo para perfeccionar tu oración."
+      "problem": "¿Puedo rezar leyendo de una guía?",
+      "solution": "Las escuelas difieren. La escuela hanafí considera muy desaconsejable sostener un Corán y leer de él en la oración, mientras que la escuela shafií permite a quien está aprendiendo leer Al-Fatihah de un mushaf. Practicar con una tarjeta antes y después de la oración vale en todas las opiniones. Pregunte a un maestro local qué sigue su comunidad."
     }
   ],
   "contextNotes": [
@@ -66,6 +74,13 @@
       "body": "Empiece por identificar espacios tranquilos y ventanas de oración realistas. Si se necesita adaptación, hable con calma y mantenga la solicitud práctica."
     }
   ],
-  "sourceIds": ["new-muslim-guide", "seekersguidance"],
-  "reviewStatus": "review-needed"
+  "videos": [
+    {
+      "videoId": "Fpa-c_M_V7Q",
+      "title": "Cada frase de una rak'ah (en inglés)",
+      "channel": "Islamwise",
+      "duration": "10:29",
+      "sourceIds": ["video-islamwise-rakah-recap"]
+    }
+  ]
 }
