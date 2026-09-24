@@ -6,6 +6,7 @@ import { getTranslator } from "@/lib/messages";
 import { getPageMetadata } from "@/lib/metadata";
 import { CONTACT_EMAIL, localeUrl } from "@/lib/site";
 import { JsonLd, breadcrumbJsonLd } from "@/components/JsonLd";
+import { PLACEHOLDER_LINK_REL } from "@/lib/link-rel";
 
 export function generateMetadata({ params }: { params: { locale: Locale } }) {
   return getPageMetadata(params.locale, "accessibility", "/accessibility");
@@ -141,6 +142,7 @@ export default function AccessibilityPage({
               {copy.contactLinks.emailLabel}{" "}
               <a
                 href={`mailto:${CONTACT_EMAIL}`}
+                rel={PLACEHOLDER_LINK_REL}
                 className="font-medium text-primary hover:text-primaryHover"
               >
                 {CONTACT_EMAIL}

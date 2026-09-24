@@ -17,6 +17,7 @@ import {
   localeUrl,
 } from "@/lib/site";
 import { JsonLd, breadcrumbJsonLd } from "@/components/JsonLd";
+import { PLACEHOLDER_LINK_REL } from "@/lib/link-rel";
 
 export function generateMetadata({ params }: { params: { locale: Locale } }) {
   return getPageMetadata(params.locale, "communityGroups", "/community-groups");
@@ -92,7 +93,12 @@ export default function CommunityGroupsPage({
             <p className="mb-5 flex-1 text-sm leading-relaxed text-textSecondary">
               {copy.channel.body}
             </p>
-            <Button href={WHATSAPP_CHANNEL_URL} external className="self-start">
+            <Button
+              href={WHATSAPP_CHANNEL_URL}
+              rel={PLACEHOLDER_LINK_REL}
+              external
+              className="self-start"
+            >
               {copy.channel.buttonLabel}
             </Button>
           </section>
@@ -231,7 +237,11 @@ export default function CommunityGroupsPage({
               <span className="font-medium text-textPrimary">
                 {copy.report.emailLabel}:
               </span>{" "}
-              <a href={`mailto:${REPORT_EMAIL}`} className={linkClass}>
+              <a
+                href={`mailto:${REPORT_EMAIL}`}
+                rel={PLACEHOLDER_LINK_REL}
+                className={linkClass}
+              >
                 {REPORT_EMAIL}
               </a>
             </p>

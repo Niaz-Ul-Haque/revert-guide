@@ -17,6 +17,7 @@ import {
   localeUrl,
 } from "@/lib/site";
 import { JsonLd, breadcrumbJsonLd } from "@/components/JsonLd";
+import { PLACEHOLDER_LINK_REL } from "@/lib/link-rel";
 
 export function generateMetadata({ params }: { params: { locale: Locale } }) {
   return getPageMetadata(params.locale, "getHelp", "/get-help");
@@ -136,7 +137,7 @@ export default function GetHelpPage({
           <p className="mb-5 text-base leading-relaxed text-textSecondary">
             {copy.form.body}
           </p>
-          <Button href={HELP_FORM_URL} external>
+          <Button href={HELP_FORM_URL} rel={PLACEHOLDER_LINK_REL} external>
             {copy.form.buttonLabel}
           </Button>
 
@@ -232,7 +233,11 @@ export default function GetHelpPage({
             <span className="font-medium text-textPrimary">
               {copy.report.emailLabel}:
             </span>{" "}
-            <a href={`mailto:${REPORT_EMAIL}`} className={linkClass}>
+            <a
+              href={`mailto:${REPORT_EMAIL}`}
+              rel={PLACEHOLDER_LINK_REL}
+              className={linkClass}
+            >
               {REPORT_EMAIL}
             </a>
           </p>
@@ -263,7 +268,11 @@ export default function GetHelpPage({
             <span className="font-medium text-textPrimary">
               {copy.contact.emailLabel}:
             </span>{" "}
-            <a href={`mailto:${CONTACT_EMAIL}`} className={linkClass}>
+            <a
+              href={`mailto:${CONTACT_EMAIL}`}
+              rel={PLACEHOLDER_LINK_REL}
+              className={linkClass}
+            >
               {CONTACT_EMAIL}
             </a>
           </p>
