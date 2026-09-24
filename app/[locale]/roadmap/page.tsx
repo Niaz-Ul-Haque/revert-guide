@@ -60,6 +60,30 @@ export default function RoadmapPage({
         </AnimateIn>
       </header>
 
+      <AnimateIn>
+        <Link
+          href={localizeHref(locale, "/topics/five-pillars")}
+          className="group mb-14 flex items-center gap-4 rounded-2xl border border-primaryGreen/50 bg-surfaceElevated/60 p-5 no-underline shadow-card transition-colors duration-200 hover:border-primary focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-borderStrong sm:p-6"
+        >
+          <span className="flex h-12 w-12 shrink-0 items-center justify-center rounded-xl bg-primary text-white">
+            <Icon name="star" size="md" />
+          </span>
+          <span className="min-w-0 flex-1">
+            <span className="block text-lg font-semibold text-textPrimary group-hover:text-primary">
+              {copy.pillarsTitle}
+            </span>
+            <span className="mt-1 block text-sm leading-relaxed text-textSecondary">
+              {copy.pillarsBody}
+            </span>
+          </span>
+          <Icon
+            name="chevron-right"
+            size="md"
+            className="shrink-0 text-primary"
+          />
+        </Link>
+      </AnimateIn>
+
       <div className="relative" role="list" aria-label={copy.stagesLabel}>
         <div
           className="absolute bottom-0 left-6 top-0 w-0.5 bg-gradient-to-b from-primary/40 via-primaryGreen/50 to-secondaryGreen/40 md:left-1/2 md:-translate-x-px"
