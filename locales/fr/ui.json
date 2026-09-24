@@ -1,10 +1,10 @@
 {
   "brand": {
-    "name": "Revenir au guide",
-    "homeAriaLabel": "Guide de retour - Accueil"
+    "name": "Revert Guide",
+    "homeAriaLabel": "Revert Guide, accueil"
   },
   "languageSwitcher": {
-    "ariaLabel": "Sélecteur de langue",
+    "ariaLabel": "Choix de la langue",
     "label": "Langue",
     "locales": {
       "en": "English",
@@ -23,7 +23,7 @@
     }
   },
   "nav": {
-    "home": "Maison",
+    "home": "Accueil",
     "roadmap": "Feuille de route",
     "topics": "Sujets",
     "guides": "Guides",
@@ -32,21 +32,27 @@
     "allResources": "Toutes les ressources",
     "findMasjid": "Trouver une mosquée",
     "about": "À propos",
-    "aboutUs": "À propos de nous",
+    "aboutUs": "Qui sommes-nous",
     "accessibility": "Accessibilité",
-    "privacy": "politique de confidentialité",
+    "privacy": "Politique de confidentialité",
     "terms": "Conditions d'utilisation",
     "sources": "Sources",
     "ramadan": "Guide du Ramadan",
     "mentalHealth": "Santé mentale",
     "tools": "Outils",
-    "prayerTimes": "Horaires de prière",
-    "qibla": "Recherche de Qibla",
-    "wuduGhusl": "Wudu et Ghusl",
-    "salahCompanion": "Compagnon de Salah",
-    "quranStarter": "Démarreur du Coran",
-    "duaDhikr": "Dua et Dhikr",
-    "asmaAlHusna": "99 noms d'Allah",
+    "prayerTimes": "Heures de prière",
+    "qibla": "Trouver la direction de la qibla",
+    "wuduGhusl": "Se laver avant la prière (wudu et ghusl)",
+    "salahCompanion": "Apprendre à prier (salah)",
+    "quranStarter": "Débuter avec le Coran",
+    "duaDhikr": "Invocations et rappel d'Allah",
+    "asmaAlHusna": "Les 99 noms d'Allah",
+    "help": "Aide",
+    "getHelp": "Obtenir de l'aide",
+    "faq": "Questions et réponses",
+    "events": "Événements",
+    "communityGroups": "Groupes communautaires",
+    "fivePillars": "Les cinq piliers de l'islam",
     "mainNavigation": "Navigation principale",
     "openMenu": "Ouvrir le menu",
     "closeMenu": "Fermer le menu",
@@ -55,35 +61,48 @@
   "footer": {
     "about": "À propos",
     "accessibility": "Accessibilité",
-    "privacy": "politique de confidentialité",
+    "privacy": "Politique de confidentialité",
     "terms": "Conditions d'utilisation",
     "sources": "Sources",
-    "description": "A free, offline-first resource for new Muslims. Pas de suivi, pas de publicité, juste des conseils sur votre voyage.",
+    "description": "Un guide gratuit pour les nouveaux musulmans au Canada. Aucun suivi, aucune publicité et rien à quoi s'inscrire.",
     "explore": "Explorer",
-    "information": "Information",
+    "information": "Informations",
     "quickLinksAriaLabel": "Liens rapides",
-    "navigationAriaLabel": "Navigation en pied de page",
-    "copyright": "Revenir au guide. Made with care for new Muslims everywhere."
+    "navigationAriaLabel": "Navigation du pied de page",
+    "copyright": "Revert Guide. Conçu pour les nouveaux musulmans, où que vous soyez.",
+    "startHere": "Commencer ici",
+    "help": "Aide",
+    "crisisDanger": "En danger?",
+    "crisisCall911": "Composez le 911.",
+    "crisisMentalHealth": "Crise de santé mentale?",
+    "crisisCall988": "Appelez ou textez le 9-8-8.",
+    "orientation": "Nous suivons l'enseignement sunnite majoritaire et signalons les points où les savants divergent."
   },
   "common": {
-    "beginJourney": "Commencez votre voyage",
+    "beginJourney": "Commencer ici",
     "nextStep": "Étape suivante",
     "previousStep": "Étape précédente",
     "readMore": "En savoir plus",
-    "searchPlaceholder": "Recherche...",
-    "loading": "Préparez votre prochaine étape...",
-    "offline": "Vous êtes hors ligne. Some features may be limited.",
+    "searchPlaceholder": "Rechercher...",
+    "loading": "Nous préparons votre prochaine étape...",
+    "offline": "Vous êtes hors ligne. Certaines fonctions peuvent être limitées.",
+    "translationNotice": "Certaines pages ne sont pas encore traduites de l'anglais. Nous y travaillons.",
     "backToRoadmap": "Retour à la feuille de route",
-    "skipToContent": "Passer au contenu",
+    "skipToContent": "Aller au contenu",
     "breadcrumb": "Fil d'Ariane",
-    "search": "Recherche",
-    "clearSearch": "Effacer la recherche"
+    "search": "Rechercher",
+    "clearSearch": "Effacer la recherche",
+    "print": "Imprimer ou enregistrer en PDF",
+    "sourceLabel": "Source :",
+    "bestForLabel": "Idéal pour :",
+    "loadingPage": "Chargement…",
+    "sourcesUsed": "Sources utilisées"
   },
   "search": {
-    "placeholder": "Rechercher des guides, glossaires, sujets, ressources…",
-    "label": "Rechercher tout le contenu",
-    "noResults": "Aucun résultat trouvé",
-    "noResultsHint": "Essayez différents mots-clés ou parcourez par catégorie",
+    "placeholder": "Rechercher des guides, le glossaire, des sujets, des ressources...",
+    "label": "Rechercher dans tout le contenu",
+    "noResults": "Aucun résultat",
+    "noResultsHint": "Essayez d'autres mots-clés ou parcourez par catégorie",
     "close": "Fermer la recherche",
     "openSearch": "Ouvrir la recherche",
     "keyboardHint": "⌘K",
@@ -95,17 +114,20 @@
       "steps": "Étapes de la feuille de route",
       "topics": "Sujets",
       "glossary": "Glossaire",
-      "resources": "Ressources"
+      "resources": "Ressources",
+      "faq": "Questions"
     },
-    "seeAll": "Voir tous les résultats {count}",
+    "seeAll": "Voir les {count} résultats",
     "tips": {
       "title": "Conseils de recherche",
       "items": [
-        "Recherchez par nom de sujet comme « prière » ou « jeûne »",
-        "Recherchez des termes islamiques comme « Shahada » ou « Wudu »",
-        "Trouver des ressources et des guides d'apprentissage"
+        "Cherchez par sujet, comme « prière » ou « jeûne »",
+        "Cherchez un terme arabe, comme « Shahada » ou « Wudu »",
+        "Trouvez des livres, des vidéos et des cours"
       ]
-    }
+    },
+    "keyboardNavigate": "parcourir",
+    "keyboardOpen": "ouvrir"
   },
   "resources": {
     "types": {
@@ -117,122 +139,211 @@
       "pdf": "PDF"
     },
     "visitResource": "Visiter la ressource",
-    "viewResource": "Afficher la ressource"
+    "viewResource": "Voir la ressource"
   },
   "metadata": {
     "site": {
-      "title": "Guide de retour - Votre voyage commence ici",
-      "description": "Un premier guide éducatif hors ligne destiné aux nouveaux convertis musulmans de la région de Toronto. Intégration étape par étape avec empathie et conseils pratiques.",
-      "keywords": ["Islam", "convert", "revert", "Muslim", "guide", "Toronto"],
-      "openGraphDescription": "Votre voyage guidé vers l'Islam - pratique, compatissant et à votre rythme."
+      "title": "Revert Guide - aide pratique pour les nouveaux musulmans",
+      "description": "Un guide gratuit pour les nouveaux musulmans au Canada : le premier jour, les premières semaines et les premiers mois, pas à pas, même hors ligne.",
+      "keywords": [
+        "islam",
+        "nouveau musulman",
+        "converti",
+        "nouvelle musulmane",
+        "musulman",
+        "guide",
+        "Canada"
+      ],
+      "openGraphDescription": "Une aide simple et pratique pour votre première année de musulman au Canada, à votre rythme."
     },
     "dynamic": {
-      "topicNotFoundTitle": "Sujet introuvable - Guide de retour",
-      "stageNotFoundTitle": "Étape introuvable - Guide de retour",
-      "stepNotFoundTitle": "Étape introuvable - Guide de retour"
+      "topicNotFoundTitle": "Sujet introuvable - Revert Guide",
+      "stageNotFoundTitle": "Étape introuvable - Revert Guide",
+      "stepNotFoundTitle": "Étape introuvable - Revert Guide"
     },
     "home": {
-      "title": "Guide de retour - Votre voyage commence ici",
-      "description": "Un guide éducatif hors ligne pour les nouveaux musulmans avec les prochaines étapes pratiques et compatissantes."
+      "title": "Revert Guide - aide pratique pour les nouveaux musulmans",
+      "description": "Un guide hors ligne pour les nouveaux musulmans au Canada : apprendre à prier, se laver avant la prière, les heures de prière et de l'aide, sans pression."
     },
     "about": {
-      "title": "À propos - Guide de restauration",
-      "description": "Découvrez le projet Revert Guide, notre mission et notre approche de l'orientation islamique adaptée aux débutants."
+      "title": "À propos - Revert Guide",
+      "description": "Qui gère Revert Guide, comment le contenu est vérifié à partir des sources et comment joindre l'équipe. Un guide gratuit qui fonctionne hors ligne."
     },
     "accessibility": {
-      "title": "Déclaration d'accessibilité - Guide de retour",
-      "description": "L'engagement de Revert Guide en faveur de l'accessibilité, de la conformité aux WCAG 2.1 AA et de la conception inclusive."
+      "title": "Déclaration d'accessibilité - Revert Guide",
+      "description": "L'accessibilité de Revert Guide : les normes WCAG 2.1 AA et LAPHO utilisées pour les tests, les fonctions offertes et les lacunes connues."
     },
     "glossary": {
-      "title": "Glossaire - Guide de retour",
-      "description": "Recherchez des termes, des translittérations et des définitions islamiques dans le glossaire du Guide Revert."
+      "title": "Glossaire - Revert Guide",
+      "description": "Les termes islamiques expliqués simplement, avec l'arabe, une translittération et des termes liés. Cherchez dans la liste dès qu'un mot est nouveau."
     },
     "mentalHealth": {
-      "title": "Prendre soin de votre esprit - Guide de retour",
-      "description": "Soutien émotionnel, validation, ressources de crise et conseils pratiques pour les nouveaux musulmans."
+      "title": "Prendre soin de votre esprit - Revert Guide",
+      "description": "Du soutien pour les nouveaux musulmans face à la solitude, au doute, aux conflits familiaux ou à l'anxiété, avec les lignes de crise au Canada."
     },
     "offline": {
-      "title": "Hors ligne - Guide de retour",
-      "description": "Reconnectez-vous ou ouvrez une page précédemment mise en cache pour continuer à utiliser Revert Guide hors ligne."
+      "title": "Hors ligne - Revert Guide",
+      "description": "Vous êtes hors ligne. Reconnectez-vous, ou ouvrez une page déjà visitée : les pages ouvertes auparavant fonctionnent sans connexion."
     },
     "privacy": {
-      "title": "Politique de confidentialité - Guide de retour",
-      "description": "Lisez la politique de confidentialité du Revert Guide et comprenez nos pratiques en matière de données hors ligne."
+      "title": "Politique de confidentialité - Revert Guide",
+      "description": "Ce qui quitte votre appareil quand vous utilisez Revert Guide, les services externes utilisés par chaque outil et le sort d'une demande d'aide."
     },
     "ramadan": {
-      "title": "Guide du Ramadan - Guide de retour",
-      "description": "Votre premier Ramadan en tant que musulman, comprenant les bases du jeûne, la préparation et un soutien pratique."
+      "title": "Guide du Ramadan - Revert Guide",
+      "description": "Votre premier Ramadan : le sens du mois, les bases du jeûne, la préparation, les Tarawih, Laylat al-Qadr, l'Aïd al-Fitr et où trouver de l'aide."
     },
     "resources": {
-      "title": "Ressources - Guide de retour",
-      "description": "Des livres, des vidéos, des applications et des communautés sélectionnés pour vous accompagner dans votre parcours."
+      "title": "Ressources - Revert Guide",
+      "description": "Livres, vidéos, applications, articles et communautés choisis pour les nouveaux musulmans, triés par type, avec une courte note pour chacun."
     },
     "findMasjid": {
-      "title": "Trouver une mosquée - Guide de retour",
-      "description": "Recherchez les masjids et les mosquées de la région de Toronto, même hors ligne."
+      "title": "Trouver une mosquée - Revert Guide",
+      "description": "Cherchez des mosquées et centres islamiques au Canada, comparez ce que chacun offre et ouvrez l'itinéraire. La liste fonctionne hors ligne."
     },
     "roadmap": {
-      "title": "Votre feuille de route - Guide de retour",
-      "description": "Une chronologie étape par étape pour votre premier jour, vos premières semaines et vos premiers mois en tant que musulman."
+      "title": "Votre feuille de route - Revert Guide",
+      "description": "Un parcours pas à pas pour votre premier jour, vos premières semaines et vos premiers mois de musulman : Shahada, prière, jeûne, famille et communauté."
     },
     "sources": {
-      "title": "Sources et citations - Guide de retour",
-      "description": "Parcourez le Coran, les hadiths, les articles et les livres cités dans le guide Revert."
+      "title": "Sources et références - Revert Guide",
+      "description": "Les passages du Coran, hadiths, articles et livres cités dans Revert Guide, classés par sujet, avec un lien pour lire chaque source vous-même."
     },
     "terms": {
-      "title": "Conditions d'utilisation - Guide de restauration",
-      "description": "Comprendre les termes, les clauses de non-responsabilité et les conditions d'utilisation de Revert Guide."
+      "title": "Conditions d'utilisation - Revert Guide",
+      "description": "Les conditions d'utilisation de Revert Guide : avertissements sur le contenu et la santé, liens externes, droit applicable et modifications."
     },
     "topics": {
-      "title": "Sujets - Revenir au guide",
-      "description": "Explorez des guides thématiques autonomes sur la prière, le jeûne, les croyances, la communauté et bien plus encore."
+      "title": "Sujets - Revert Guide",
+      "description": "Des guides autonomes pour les nouveaux musulmans, un sujet chacun : prière, jeûne, foi, vie halal, pudeur, famille et vie communautaire."
     },
     "notFound": {
-      "title": "Page introuvable - Guide de retour",
-      "description": "Revenez à la feuille de route ou à la page d’accueil pour continuer votre voyage."
+      "title": "Page introuvable - Revert Guide",
+      "description": "La page demandée n'est pas ici. Elle a peut-être été déplacée ou le lien contient une faute. Revenez à la feuille de route ou à l'accueil."
     },
     "prayerTimes": {
-      "title": "Horaires de prière - Revenir au guide",
-      "description": "Découvrez les cinq heures de prière islamique quotidiennes et le moment où elles ont lieu tout au long de la journée."
+      "title": "Heures de prière - Revert Guide",
+      "description": "Les cinq heures de prière du jour pour toute ville ou adresse au Canada, selon la méthode de l'ISNA, en heure locale. Confirmez avec votre mosquée."
     },
     "qibla": {
-      "title": "Qibla Finder - Guide de retour",
-      "description": "Trouvez la direction de la Qibla (Kaaba à La Mecque) pour vos prières."
+      "title": "Trouver la qibla - Revert Guide",
+      "description": "Trouvez la direction de la Kaaba à La Mecque pour la prière, avec votre position ou des coordonnées saisies. Suivez la boussole ou l'angle indiqué."
     },
     "asmaAlHusna": {
-      "title": "99 noms d'Allah - Guide Revert",
-      "description": "Explorez les 99 beaux noms d'Allah avec des significations et des réflexions."
+      "title": "Les 99 noms d'Allah - Revert Guide",
+      "description": "Les 99 noms d'Allah en arabe, avec translittération, sens en anglais et courte réflexion. Cherchez par nom, par sens ou par translittération."
+    },
+    "faq": {
+      "title": "Questions fréquentes - Revert Guide",
+      "description": "Des réponses simples aux questions des nouveaux musulmans : Shahada, prière, règles, nourriture, travail et sécurité, avec les sources de chaque réponse."
+    },
+    "getHelp": {
+      "title": "Obtenir de l'aide - Revert Guide",
+      "description": "Posez une question, demandez un mentor, trouvez des événements ou signalez un problème. Qui lit votre demande, nos délais et vos données."
+    },
+    "communityGroups": {
+      "title": "Groupes communautaires - Revert Guide",
+      "description": "Suivez notre chaîne WhatsApp ou rejoignez un groupe local. Ce que chaque option révèle de vous, les règles et comment signaler un problème."
+    },
+    "events": {
+      "title": "Événements - Revert Guide",
+      "description": "Rencontres, cours et portes ouvertes de mosquées pour nouveaux musulmans au Canada. Filtrez par ville et province, puis inscrivez-vous chez l'organisateur."
     }
   },
   "pages": {
+    "guides": {
+      "index": {
+        "metadataTitle": "Guides pratiques pour la vie",
+        "metadataDescription": "Des guides pratiques pour parler à votre famille, visiter une mosquée, le travail et l'école, les relations, la vie halal, la pudeur et le mentorat après la Shahada.",
+        "title": "Guides pratiques pour la vie",
+        "eyebrow": "Communauté, famille et vie quotidienne",
+        "subtitle": "De courts guides pour les situations qui se présentent en dehors du culte lui-même : l'annoncer à votre famille, entrer dans une mosquée pour la première fois, le travail et l'école, la solitude, la nourriture halal, les vêtements, les prénoms et savoir où poser vos limites.",
+        "openGuide": "Ouvrir le guide",
+        "noteTitle": "Des points de départ",
+        "noteBody": "Ces guides donnent des informations générales. Pour un avis religieux personnel, une question de sécurité, un sujet juridique, le mariage, une pression familiale ou la santé mentale, adressez-vous à un imam, un savant, un clinicien ou un professionnel qualifié près de chez vous.",
+        "roadmapButton": "Revenir à la feuille de route"
+      },
+      "detail": {
+        "notFoundTitle": "Guide introuvable",
+        "indexTitle": "Guides pratiques pour la vie",
+        "eyebrow": "Guide pratique",
+        "startHere": "Commencer ici",
+        "scriptsTitle": "Ce que vous pouvez dire",
+        "situationsTitle": "Situations fréquentes",
+        "relatedTitle": "Pour aller plus loin",
+        "qualifiedTitle": "Quand demander à une personne qualifiée",
+        "qualifiedBody": "Ce guide donne des informations générales. Si votre question touche à la sécurité, au mariage, à une pression familiale, à vos droits au travail ou à l'école, à la santé mentale, à l'argent ou à un avis religieux personnel, parlez-en à un imam, un savant, un clinicien, un juriste ou un service de sécurité qualifié près de chez vous.",
+        "sourcesNote": "Ces sources appuient le cadre général de ce guide. Elles ne remplacent pas un conseil personnel donné par une personne qualifiée près de chez vous.",
+        "backLink": "Retour à tous les guides pratiques"
+      }
+    },
+    "seasonal": {
+      "index": {
+        "metadataTitle": "Guides saisonniers",
+        "metadataDescription": "Guides pour débutants sur le calendrier islamique, le Ramadan, l'Aïd, Muharram, Achoura, Dhul Hijjah, le hajj, la omra, la zakat et la charité.",
+        "title": "Guides saisonniers",
+        "eyebrow": "Culte et dons au fil des saisons",
+        "subtitle": "De courts guides, avec leurs sources, sur les temps forts de l'année islamique qui soulèvent souvent des questions pratiques quand on débute.",
+        "startTitle": "Commencez par la période actuelle",
+        "openGuide": "Ouvrir le guide",
+        "disclaimerTitle": "Les cas personnels demandent l'avis d'une personne qualifiée",
+        "disclaimerBody": "Les annonces du calendrier local, les jeûnes volontaires, les dispenses, les jeûnes manqués, la fidya, le sacrifice (qurbani), les voyages du hajj, les visas pour la omra, le calcul de la zakat et les situations familiales ou de santé délicates dépendent tous de votre situation exacte. Servez-vous de ces guides pour vous repérer, puis demandez à un savant, un imam, un organisme de confiance, un clinicien ou une source officielle de voyage près de chez vous.",
+        "resourcesButton": "Parcourir les ressources",
+        "roadmapButton": "Étape zakat et hajj de la feuille de route",
+        "ramadanTitle": "Guide du Ramadan",
+        "ramadanDescription": "Les bases du jeûne, de l'aide pour votre premier jeûne, les prières de Tarawih, Laylat al-Qadr et la préparation de l'Aïd.",
+        "ramadanBadge": "Guide détaillé"
+      },
+      "detail": {
+        "notFoundTitle": "Guide saisonnier introuvable",
+        "indexTitle": "Guides saisonniers",
+        "allButton": "Tous les guides saisonniers",
+        "startHere": "Commencer ici",
+        "focusNow": "Sur quoi vous concentrer maintenant",
+        "canWait": "Ce qui peut attendre",
+        "scriptsTitle": "Phrases utiles",
+        "qualifiedTitle": "Demandez à une personne qualifiée si",
+        "qualifiedBody": "Votre question concerne une maladie, un médicament, une grossesse, les règles, une difficulté, un voyage, un visa, le sacrifice (qurbani), des jeûnes manqués, la fidya, le calcul de la zakat, une dette, des actifs d'entreprise ou une pression familiale. Ce guide donne des informations générales, pas un avis religieux pour votre situation.",
+        "sourcesNote": "Ces sources appuient la présentation pour débutants de cette page. Là où l'anglais apparaît, les liens vers le Coran sont des traductions du sens, les liens vers les hadiths gardent leurs références de recueil, et les avis personnels demandent toujours l'examen d'une personne qualifiée.",
+        "relatedTitle": "Pour aller plus loin",
+        "backLink": "Retour à tous les guides saisonniers"
+      }
+    },
     "rootRedirect": {
       "body": "Redirection vers votre langue par défaut."
     },
     "home": {
-      "badge": "Gratuit et hors ligne d'abord",
-      "title": "Bienvenue à",
+      "badge": "Gratuit et utilisable hors ligne",
+      "title": "Bienvenue dans",
       "titleHighlight": "la famille",
-      "subtitle": "Votre voyage commence ici et nous sommes honorés de marcher à vos côtés. Ce guide vous aidera à faire vos premiers pas avec clarté, chaleur et conseils pratiques.",
-      "logoAlt": "Revenir au logo du Guide",
+      "subtitle": "Vous êtes au bon endroit. Ce guide vous accompagne dans vos premiers pas, à votre rythme, avec des réponses simples et sans que personne ne vous presse.",
+      "logoAlt": "Logo de Revert Guide",
       "exploreTopics": "Explorer les sujets",
-      "pathsTitle": "Où en êtes-vous dans votre voyage ?",
-      "pathsSubtitle": "Tout le monde commence à un endroit différent. Choisissez le chemin qui vous convient.",
+      "firstStepsLabel": "Premiers pas",
+      "firstSteps": [
+        "Apprendre à prier (salah)",
+        "Se laver avant la prière (wudu et ghusl)",
+        "Heures de prière",
+        "Obtenir de l'aide"
+      ],
+      "pathsTitle": "Où en êtes-vous?",
+      "pathsSubtitle": "Chacun part d'un endroit différent. Choisissez le parcours qui vous convient.",
       "paths": [
         {
-          "title": "Vous venez de prendre Shahada ?",
-          "body": "Félicitations! Commencez ici pour vos tous premiers pas – depuis la compréhension de ce que vous venez de déclarer jusqu’à l’exécution du Ghusl et l’acceptation de votre nouveau départ."
+          "title": "Vous venez de prononcer la Shahada?",
+          "body": "Commencez ici. Ce que vous venez de dire, quoi faire le premier jour et comment faire le lavage complet du corps (ghusl) quand vous serez prêt."
         },
         {
-          "title": "Vous êtes musulman depuis quelques semaines ?",
-          "body": "Vous avez franchi le pas et souhaitez désormais bâtir des bases solides. Lancez-vous dans l’apprentissage de la prière, en vous connectant avec la communauté et en développant des habitudes quotidiennes."
+          "title": "Quelques semaines déjà?",
+          "body": "Apprenez le déroulement de la prière, trouvez une mosquée où poser vos questions et construisez un rythme quotidien que vous pouvez vraiment tenir."
         },
         {
-          "title": "Vous recherchez des sujets spécifiques ?",
-          "body": "Explorez des sujets tels que la prière, le jeûne, les croyances et la communauté à votre rythme. Parcourez le glossaire ou plongez dans ce qui vous intéresse le plus en ce moment."
+          "title": "Vous cherchez une chose précise?",
+          "body": "Lisez sur la prière, le jeûne, la foi ou la communauté, chaque sujet séparément. Le glossaire est là dès qu'un mot est nouveau."
         }
       ],
-      "intro": "Revert Guide est un compagnon gratuit, étape par étape, pour tous ceux qui ont récemment embrassé l'Islam. Que vous appreniez simplement à prier ou que vous prépariez votre premier Ramadan, ce guide vous rencontre là où vous êtes – avec des actions pratiques, des encouragements doux et aucun jugement.",
-      "trust": "Pas de publicité, pas de suivi, pas de compte requis - juste une assistance pour votre voyage.",
+      "intro": "Revert Guide est un compagnon gratuit, étape par étape, pour toute personne devenue musulmane récemment. Que vous appreniez encore à prier ou que vous vous prépariez à votre premier Ramadan, il part de là où vous en êtes vraiment. Il s'en tient à des étapes pratiques, sans sermon ni jugement.",
+      "trust": "Aucune publicité, aucun suivi et aucun compte à créer.",
       "quickAccess": "Accès rapide",
       "quickLinks": [
         {
@@ -240,586 +351,825 @@
           "body": "Préparez-vous à votre premier jeûne"
         },
         {
-          "title": "Conseils en matière de santé mentale",
-          "body": "Accompagnement du voyage intérieur"
+          "title": "Santé mentale",
+          "body": "Du soutien pour les jours plus difficiles"
         },
         {
           "title": "Trouver une mosquée",
-          "body": "Mosquées près de Toronto"
+          "body": "Des mosquées partout au Canada"
         }
-      ]
+      ],
+      "quickLinkPillars": {
+        "title": "Les cinq piliers de l'islam",
+        "body": "Vue d'ensemble de ce que fait un musulman"
+      },
+      "quickLinkFaq": {
+        "title": "Questions et réponses",
+        "body": "De courtes réponses aux questions des nouveaux musulmans"
+      }
     },
     "about": {
-      "title": "À propos du guide de restauration",
+      "title": "À propos de Revert Guide",
       "missionTitle": "Notre mission",
-      "mission": "Revert Guide existe pour soutenir les musulmans nouvellement convertis avec des conseils compatissants et accessibles au cours de leur première année d'islam. Nous pensons que chaque revenant mérite un espace de soutien et sans jugement pour apprendre et grandir à son propre rythme. Notre objectif est de fournir les informations, les encouragements et les outils pratiques dont les nouveaux musulmans ont besoin - le tout en un seul endroit, disponible hors ligne et entièrement gratuit.",
+      "mission": "Revert Guide accompagne les gens pendant leur première année de musulman. Cette première année apporte beaucoup de questions, et la plupart sont des questions ordinaires qu'on n'ose pas poser. Les réponses sont donc réunies ici, en un seul endroit. Elles fonctionnent hors ligne et ne coûtent rien.",
       "approachTitle": "Notre approche",
       "approachItems": [
         {
-          "title": "Axé sur l'éducation et les débutants",
-          "body": "Nous expliquons les concepts à partir de zéro, en supposant aucune connaissance préalable de l'Islam."
+          "title": "Éducatif et pensé pour les débutants",
+          "body": "Nous expliquons chaque notion depuis le début, sans supposer de connaissances préalables sur l'islam."
         },
         {
-          "title": "Point de vue sunnite dominant",
-          "body": "Notre contenu suit l’érudition islamique largement acceptée, sans parti pris sectaire."
+          "title": "Perspective sunnite majoritaire",
+          "body": "Le contenu et l'annuaire des mosquées suivent l'enseignement sunnite majoritaire, sans polémique entre courants. Quand les quatre écoles juridiques sunnites divergent, nous le disons et ne choisissons pas à votre place."
         },
         {
-          "title": "Apolitique et inclusif",
-          "body": "Nous nous concentrons sur la foi et la pratique, accueillant les musulmans de toutes origines culturelles."
+          "title": "Non politique et inclusif",
+          "body": "Nous nous en tenons à la foi et à la pratique, et nous accueillons les musulmans de toutes les cultures."
         },
         {
-          "title": "L'essentiel sur des sujets avancés",
-          "body": "Nous donnons la priorité aux principes fondamentaux dont les nouveaux musulmans ont le plus besoin, laissant la jurisprudence avancée aux érudits."
+          "title": "L'essentiel avant les sujets avancés",
+          "body": "Nous couvrons les bases dont les nouveaux musulmans ont le plus besoin et laissons la jurisprudence avancée aux savants."
         },
         {
           "title": "Sans publicité et non commercial",
-          "body": "Pas de publicité, pas de trackers, pas de monétisation. Il s'agit d'un service, pas d'une entreprise."
+          "body": "Aucune publicité, aucun traceur, aucune monétisation. C'est un service, pas une entreprise."
         },
         {
-          "title": "Complémentaire à l'accompagnement local",
-          "body": "Nous encourageons la connexion avec une mosquée locale et un mentor. Ce guide complète, mais ne remplace pas, les relations personnelles."
+          "title": "Un complément à l'accompagnement local",
+          "body": "Trouvez une mosquée et un mentor près de chez vous. Ce guide s'ajoute à ces relations, il ne les remplace pas."
         }
       ],
-      "disclaimerTitle": "Clause de non-responsabilité",
-      "disclaimer": "Ce guide fournit des informations pédagogiques générales sur l’Islam et ne remplace pas les décisions religieuses personnelles (fatawa). Pour des questions religieuses spécifiques concernant votre situation, veuillez consulter un érudit ou un imam local compétent. Nous visons l’exactitude et toute erreur n’est pas intentionnelle.",
-      "contactTitle": "Contact",
-      "contact": "If you have questions about Islam, we encourage you to approach a local mosque or mentor for personalised guidance. For feedback on the guide itself, please use the feedback options within the app."
+      "whoRunsTitle": "Qui gère ce site",
+      "whoRunsBody": "Revert Guide est un projet bénévole. Ce n'est pas une entreprise, il n'affiche aucune publicité et ne vend rien.",
+      "organisationLabel": "Géré par",
+      "locationLabel": "Basé à",
+      "toBeConfirmed": "À confirmer",
+      "reviewTitle": "Comment le contenu est vérifié",
+      "reviewIntro": "Chaque page passe par quatre étapes.",
+      "reviewStates": [
+        {
+          "name": "Brouillon",
+          "body": "La page est rédigée, mais personne n'a encore vérifié ses sources."
+        },
+        {
+          "name": "Sources vérifiées",
+          "body": "Un membre de l'équipe a ouvert chaque source citée par la page et confirmé qu'elle dit bien ce que dit la page."
+        },
+        {
+          "name": "Révision nécessaire",
+          "body": "Les sources sont vérifiées, mais la page touche à des avis religieux, à la santé, à la sécurité, au droit ou à la famille. Elle attend donc un réviseur qualifié."
+        },
+        {
+          "name": "Approuvée",
+          "body": "Un réviseur qualifié a lu la page et l'a validée."
+        }
+      ],
+      "badgeTitle": "Si une page indique « révision nécessaire »",
+      "badgeBody": "Vous pouvez quand même l'utiliser. Les informations ont des sources, mais aucun réviseur qualifié ne les a encore validées. Pour tout ce qui concerne votre propre situation, vérifiez auprès d'un imam, d'un savant ou du professionnel compétent près de chez vous.",
+      "reviewerTitle": "Qui fait la révision savante",
+      "reviewerBody": "Le contenu religieux est révisé par un réviseur qualifié approuvé par l'équipe. Nous publierons la liste des réviseurs une fois confirmée.",
+      "lastReviewedLabel": "Dernière révision :",
+      "lastReviewedDate": "2026-09-24",
+      "lastReviewed": "24 septembre 2026",
+      "disclaimerTitle": "Avertissement",
+      "disclaimer": "Ce guide donne des informations éducatives générales sur l'islam. Il ne remplace pas un avis religieux personnel (fatwa). Pour les questions sur votre propre situation, demandez à un savant ou un imam compétent près de chez vous. Nous visons l'exactitude, et les erreurs éventuelles sont involontaires.",
+      "contactTitle": "Comment nous joindre",
+      "contact": "Pour les questions sur l'islam lui-même, une mosquée ou un mentor près de chez vous peut vous répondre en personne, et c'est mieux que tout ce qu'un site peut faire. Pour joindre notre équipe, demander un mentor, signaler une erreur ou nous parler d'un problème d'accessibilité, passez par la page Obtenir de l'aide ou écrivez-nous par courriel.",
+      "contactLinkLabel": "Aller à la page Obtenir de l'aide",
+      "contactEmailLabel": "Courriel"
     },
     "accessibility": {
       "title": "Accessibilité",
       "commitmentTitle": "Notre engagement",
-      "commitment": "Nous nous engageons à rendre Revert Guide accessible à tous les utilisateurs, quelles que soient leurs capacités. Ce site répond aux critères WCAG 2.1 niveau AA et est conforme aux exigences de la Loi sur l'accessibilité pour les personnes handicapées de l'Ontario (LAPHO). Nous pensons que chacun mérite d’avoir accès à des conseils et à un soutien tout au long de son cheminement spirituel.",
+      "commitment": "Revert Guide est conçu pour fonctionner pour les personnes de toutes capacités. Le site respecte les critères du niveau AA des WCAG 2.1 et les exigences de la Loi sur l'accessibilité pour les personnes handicapées de l'Ontario (LAPHO). Personne ne devrait être privé de ce contenu à cause de la façon dont il a été programmé.",
       "standardsTitle": "Normes",
       "standards": [
-        "Directives pour l'accessibilité du contenu Web (WCAG) 2.1 niveau AA",
+        "Règles pour l'accessibilité des contenus Web (WCAG) 2.1, niveau AA",
         "Loi sur l'accessibilité pour les personnes handicapées de l'Ontario (LAPHO)",
-        "Testé avec des lecteurs d'écran, notamment NVDA, JAWS et VoiceOver"
+        "Testé avec des lecteurs d'écran, dont NVDA, JAWS et VoiceOver"
       ],
-      "featuresTitle": "Fonctionnalités d'accessibilité",
+      "featuresTitle": "Fonctions d'accessibilité",
       "features": [
-        "Navigation complète au clavier sur tout le site - toutes les fonctionnalités sont accessibles via le clavier",
-        "Prise en charge du lecteur d'écran avec attributs sémantiques HTML et ARIA",
-        "Contraste de couleur suffisant répondant aux exigences WCAG AA (4,5:1 pour le texte normal, 3:1 pour le texte de grande taille)",
-        "Lien d'accès au contenu pour contourner la navigation",
-        "Texte du lien descriptif – pas de liens « cliquez ici »",
-        "Texte alternatif sur toutes les images significatives",
-        "Accessibilité hors ligne : le contenu est mis en cache et disponible sans Internet",
-        "Conception réactive qui fonctionne sur les appareils mobiles et les ordinateurs de bureau",
-        "Structure de titre claire pour une navigation facile",
-        "Indicateurs de focus visibles sur tous les éléments interactifs",
-        "Ordre de tabulation logique sur toutes les pages"
+        "Navigation complète au clavier : chaque fonction est accessible sans souris",
+        "Prise en charge des lecteurs d'écran grâce au HTML sémantique et aux attributs ARIA",
+        "Contraste des couleurs conforme au niveau AA des WCAG (4.5:1 pour le texte normal, 3:1 pour le grand texte)",
+        "Un lien « Aller au contenu » qui permet de passer la navigation",
+        "Des textes de liens descriptifs, sans liens « cliquez ici »",
+        "Un texte de remplacement pour chaque image porteuse de sens",
+        "Contenu mis en cache pour la lecture hors ligne, donc disponible sans connexion",
+        "Mise en page adaptative qui fonctionne sur téléphone et sur ordinateur",
+        "Une structure de titres claire pour naviguer",
+        "Des indicateurs de focus visibles sur tous les éléments interactifs",
+        "Un ordre de tabulation logique sur chaque page"
       ],
       "limitationsTitle": "Limites connues",
-      "limitations": "La recherche de carte et d'adresse sur la page Trouver une mosquée repose sur des services de cartographie tiers et peut ne pas être entièrement accessible dans chaque flux de travail de lecteur d'écran ou de clavier. Cependant, toutes les informations de localisation, les filtres et les liens d'itinéraire sont également disponibles dans la liste de résultats textuels accessibles sur la même page.",
-      "feedbackTitle": "Retour",
-      "feedback": "Si vous rencontrez des obstacles à l'accessibilité lors de l'utilisation de Revert Guide, nous souhaitons vous entendre. Veuillez utiliser les options de commentaires de l'application pour signaler tout problème. Nous apprécions votre contribution et nous nous efforcerons de résoudre rapidement les problèmes d’accessibilité.",
+      "limitations": "La carte et la recherche d'adresse de la page Trouver une mosquée dépendent de services de cartographie externes, qui peuvent ne pas fonctionner entièrement avec tous les lecteurs d'écran ou au clavier. Toutes les informations de lieu, les filtres et les liens d'itinéraire figurent aussi dans la liste de résultats en texte sur la même page, qui est entièrement accessible.",
+      "feedbackTitle": "Vos commentaires",
+      "feedbackBody": "Si vous rencontrez un obstacle d'accessibilité en utilisant Revert Guide, dites-le-nous par la page Obtenir de l'aide ou par courriel, et nous y travaillerons.",
+      "contactLinks": {
+        "getHelpLabel": "Aller à la page Obtenir de l'aide",
+        "emailLabel": "Ou écrivez-nous :"
+      },
       "lastUpdatedTitle": "Dernière mise à jour",
       "lastUpdated": "Cette déclaration d'accessibilité a été révisée pour la dernière fois en mars 2026."
     },
     "privacy": {
-      "title": "politique de confidentialité",
-      "effectiveDate": "En vigueur à compter de janvier 2026",
-      "sections": [
+      "title": "Politique de confidentialité",
+      "effective": "En vigueur le 24 septembre 2026",
+      "policySections": [
         {
-          "id": "collection",
-          "title": "Ce que nous collectons",
+          "id": "summary",
+          "title": "En bref",
           "paragraphs": [
-            "Nous ne collectons pas de données personnelles ni d'analyses d'utilisation dans cette version de Revert Guide. Aucune donnée utilisateur, adresse e-mail, nom ou suivi d'activité n'est collecté.",
-            "Les versions futures peuvent inclure des fonctionnalités facultatives qui collectent des données. De tels changements seront clairement communiqués et reflétés dans une version mise à jour de cette politique."
+            "Vous pouvez lire tout Revert Guide sans compte. Nous n'utilisons ni outils d'analyse, ni publicité, ni témoins de suivi, et nous ne recueillons rien sur vous pendant votre navigation.",
+            "Notre équipe ne reçoit des renseignements personnels que si vous choisissez de nous envoyer une demande d'aide. Cette politique traite les deux situations séparément."
           ]
         },
         {
-          "id": "cookies",
-          "title": "Cookies",
+          "id": "browsing",
+          "title": "Quand vous naviguez",
           "paragraphs": [
-            "Revert Guide utilise un service worker pour la mise en cache hors ligne. Cela n’implique pas de cookies de suivi. Nous n'utilisons pas de cookies analytiques (tels que Google Analytics) ou de cookies marketing.",
-            "La recherche de carte et d'adresse sur la page Masjid Finder peut charger des données provenant de fournisseurs tiers, qui peuvent définir des cookies ou recevoir des données de demande standard telles que votre adresse IP. Ceci est hors de notre contrôle."
+            "Lire le site n'envoie rien sur vous à notre équipe. Il n'y a ni compte, ni outil d'analyse, ni publicité.",
+            "Pour que le site fonctionne hors ligne, votre navigateur enregistre des pages sur votre propre appareil. Nous ne pouvons pas le voir. Une autre personne qui utilise votre appareil pourrait voir quelles pages vous avez consultées. Effacer vos données de navigation les supprime.",
+            "Quelques outils doivent contacter un autre service pour fonctionner. Chacun de ces services reçoit les données de requête habituelles, comme votre adresse IP et le type de navigateur, en plus de ce que l'outil envoie. Ils sont listés dans la section suivante."
           ]
         },
         {
           "id": "third-parties",
-          "title": "Tiers",
+          "title": "Autres services, outil par outil",
           "paragraphs": [
-            "Ce site utilise des tuiles cartographiques basées sur OpenStreetMap et des services de géocodage tiers pour la fonctionnalité Masjid Finder. Ces fournisseurs peuvent recevoir des données de requête standard nécessaires pour charger des cartes et rechercher des adresses.",
-            "Aucun autre tracker ou service d'analyse tiers n'est utilisé. Des liens externes sont fournis pour plus de commodité ; nous ne sommes pas responsables des pratiques de confidentialité des sites Web externes."
+            "Voici tous les services externes que le site peut contacter, et à quel moment."
+          ],
+          "items": [
+            {
+              "label": "Trouver une mosquée, carte :",
+              "text": "Les images de la carte viennent d'OpenStreetMap. La OpenStreetMap Foundation enregistre les données de requête, comme votre adresse IP, votre navigateur et la page qui a demandé la carte, et conserve les informations d'utilisation détaillées pendant 180 jours."
+            },
+            {
+              "label": "Trouver une mosquée, recherche d'adresse :",
+              "text": "Ce que vous tapez est envoyé à Nominatim, le service de recherche d'OpenStreetMap, avec votre adresse IP. Un code postal ou un quartier fonctionne aussi bien qu'une adresse. Vous n'avez donc jamais besoin de taper votre adresse personnelle."
+            },
+            {
+              "label": "Trouver une mosquée, utiliser ma position :",
+              "text": "Ce bouton est facultatif. Votre navigateur vous demande d'abord la permission. Votre position sert, sur votre appareil, à trier la liste. Le site ne l'envoie jamais à notre équipe ni à aucun serveur."
+            },
+            {
+              "label": "Direction de la qibla :",
+              "text": "La page Qibla demande votre position à votre navigateur et calcule la direction sur votre appareil. Le site n'envoie votre position nulle part. Pour savoir où vous êtes, votre navigateur ou votre téléphone peut utiliser son propre service de localisation. Le positionnement par Wi-Fi, par exemple, est souvent fourni par Google."
+            },
+            {
+              "label": "Heures de prière :",
+              "text": "L'adresse ou la ville que vous tapez est envoyée à AlAdhan, un service gratuit d'heures de prière géré par Islamic Network, avec votre adresse IP. Nous n'avons pas trouvé de politique de confidentialité publiée pour AlAdhan. Taper une ville plutôt qu'une adresse précise protège mieux votre vie privée."
+            },
+            {
+              "label": "Les 99 noms d'Allah :",
+              "text": "Cette page charge les noms depuis AlAdhan. Elle n'envoie aucune adresse, seulement les données de requête habituelles comme votre adresse IP."
+            },
+            {
+              "label": "Vidéos :",
+              "text": "Les vidéos utilisent le lecteur YouTube en mode de confidentialité avancée. Rien ne se charge depuis YouTube avant que vous appuyiez sur lecture. Ensuite, YouTube reçoit les données de requête habituelles, comme votre adresse IP, et peut déposer des témoins ou enregistrer des données semblables sur votre appareil. YouTube indique que les visionnements dans ce mode ne servent pas à personnaliser votre expérience YouTube ni les publicités que vous voyez ailleurs. Si vous cliquez pour aller sur YouTube, la politique de confidentialité de YouTube s'applique."
+            },
+            {
+              "label": "WhatsApp :",
+              "text": "Si vous suivez notre chaîne WhatsApp, les autres abonnés ne voient pas votre numéro de téléphone. Seuls les administrateurs qui vous ont enregistré comme contact peuvent le voir. Un groupe WhatsApp, c'est différent. En rejoindre un montre votre numéro aux administrateurs du groupe, et les autres membres peuvent aussi le voir. Les conditions de WhatsApp s'appliquent dans les deux cas."
+            },
+            {
+              "label": "Liens vers d'autres sites :",
+              "text": "Les sites vers lesquels nous renvoyons ont leurs propres pratiques de confidentialité, que nous ne contrôlons pas."
+            }
+          ]
+        },
+        {
+          "id": "help-requests",
+          "title": "Quand vous nous demandez de l'aide",
+          "paragraphs": [
+            "Le formulaire de la page Obtenir de l'aide est le seul endroit où nous recueillons des renseignements personnels. Il ne demande que ce qu'il nous faut pour vous répondre ou vous trouver du soutien : le type d'aide souhaité, votre langue, comment vous préférez être contacté et votre ville ou province. Vous pouvez utiliser un pseudonyme.",
+            "Le formulaire est un Google Form. Nous y renvoyons par un lien au lieu de l'intégrer à nos pages, donc rien de Google ne se charge avant que vous l'ouvriez. Nous l'avons configuré pour que vous n'ayez pas à vous connecter à un compte Google. Vos réponses sont conservées dans le compte Google de notre équipe, et Google reçoit les données de requête habituelles comme votre adresse IP. Google peut déposer des témoins sur la page du formulaire et peut stocker des données hors du Canada.",
+            "Merci de ne rien inclure que vous ne voudriez pas voir stocké en ligne.",
+            "Si vous nous écrivez plutôt par courriel, votre message est conservé dans notre boîte de réception."
+          ]
+        },
+        {
+          "id": "who-reads",
+          "title": "Qui peut lire votre demande",
+          "paragraphs": [
+            "Une ou deux personnes coordonnatrices lisent les demandes dans une boîte de réception partagée. Si vous demandez un mentor, nous ne transmettons que les détails dont il a besoin, et seulement après votre accord. Nous ne vendons pas les demandes et ne les partageons avec personne d'autre."
+          ]
+        },
+        {
+          "id": "retention",
+          "title": "Combien de temps nous la gardons",
+          "paragraphs": [
+            "Nous visons une réponse dans un délai de 48 à 72 heures. Ensuite, une demande reste ouverte seulement le temps de vous aider.",
+            "Notre objectif est de supprimer une demande d'aide 6 mois après sa clôture. L'équipe confirmera la durée exacte et mettra cette page à jour. Vous pouvez nous demander de supprimer votre demande à tout moment, et nous le ferons."
+          ]
+        },
+        {
+          "id": "consent",
+          "title": "Votre consentement",
+          "paragraphs": [
+            "Une demande d'aide nous apprend que vous êtes musulman, nouveau dans l'islam ou que vous y réfléchissez. Le Commissariat à la protection de la vie privée du Canada considère les croyances religieuses comme des renseignements sensibles et indique que les organisations doivent en général obtenir un consentement explicite avant de les recueillir.",
+            "Le formulaire vous dit ce que nous recueillons, qui le voit, pourquoi nous en avons besoin et quels sont les risques, et vous demande votre accord avant l'envoi. Envoyer le formulaire, c'est consentir à ce que nous utilisions vos réponses pour vous répondre et organiser l'aide demandée. Vous pouvez retirer ce consentement en nous demandant de supprimer votre demande."
+          ]
+        },
+        {
+          "id": "private-conversion",
+          "title": "Si vous gardez votre conversion privée",
+          "paragraphs": [
+            "Naviguer sur Revert Guide n'envoie rien sur vous à notre équipe. Ce que d'autres pourraient voir se trouve sur votre propre appareil : votre historique de navigation et les pages enregistrées pour la lecture hors ligne. Une fenêtre de navigation privée garde les pages hors de votre historique.",
+            "Ce que vous tapez dans l'outil des heures de prière ou dans la recherche de mosquées est envoyé aux services listés plus haut.",
+            "Une demande d'aide, elle, quitte votre appareil et va chez Google et chez notre équipe, comme décrit plus haut. Vous pouvez envoyer le formulaire depuis un autre appareil, comme un ordinateur de bibliothèque ou le téléphone d'un ami de confiance, et indiquer un moyen de contact que vous seul consultez."
           ]
         },
         {
           "id": "children",
-          "title": "Confidentialité des enfants",
+          "title": "Vie privée des enfants",
           "paragraphs": [
-            "Ce site n'est pas destiné aux enfants de moins de 13 ans. Nous ne collectons pas sciemment d'informations auprès des enfants de moins de 13 ans."
+            "Ce site ne s'adresse pas aux enfants de moins de 13 ans, et nous ne recueillons pas sciemment de renseignements à leur sujet."
           ]
         },
         {
           "id": "changes",
           "title": "Modifications de cette politique",
           "paragraphs": [
-            "Si nous mettons à jour cette politique de confidentialité, nous publierons la version mise à jour sur cette page et mettrons à jour la date d'entrée en vigueur en haut. Nous vous encourageons à revoir cette politique périodiquement."
+            "Si nous mettons cette politique à jour, la nouvelle version est publiée sur cette page et la date d'entrée en vigueur en haut change aussi. Revenez la consulter de temps en temps."
           ]
         },
         {
           "id": "contact",
-          "title": "Contact",
+          "title": "Nous joindre",
           "paragraphs": [
-            "Si vous avez des questions sur cette politique de confidentialité, veuillez utiliser les options de commentaires dans l'application."
+            "Pour toute question sur cette politique, ou pour nous demander de supprimer une demande d'aide, contactez-nous par la page Obtenir de l'aide ou par courriel."
           ]
         }
-      ]
+      ],
+      "contactLinks": {
+        "getHelpLabel": "Aller à la page Obtenir de l'aide",
+        "emailLabel": "Ou écrivez-nous :"
+      }
     },
     "terms": {
       "title": "Conditions d'utilisation",
-      "effectiveDate": "En vigueur à compter de janvier 2026",
+      "effectiveDate": "En vigueur depuis janvier 2026",
       "sections": [
         {
           "id": "acceptance",
           "title": "Acceptation des conditions",
-          "body": "En accédant et en utilisant Revert Guide, vous acceptez d'être lié par ces conditions. Si vous n'êtes pas d'accord avec une partie de ces conditions, veuillez ne pas utiliser le site."
+          "body": "En utilisant Revert Guide, vous acceptez ces conditions. Si vous n'êtes pas d'accord avec une partie d'entre elles, merci de ne pas utiliser le site."
         },
         {
           "id": "content-disclaimer",
-          "title": "Avis de non-responsabilité concernant le contenu",
-          "body": "Le contenu fourni sur Revert Guide est à des fins éducatives sur l'Islam et ne constitue pas des décisions religieuses formelles (fatawa) ou des conseils juridiques. Pour les décisions religieuses personnelles, veuillez consulter un érudit local qualifié ou un imam. Même si nous visons l’exactitude, nous ne garantissons pas que toutes les informations soient exemptes d’erreurs. Utilisez le contenu à votre propre discrétion."
+          "title": "Avertissement sur le contenu",
+          "body": "Le contenu de Revert Guide est un matériel éducatif sur l'islam. Ce n'est pas un avis religieux formel (fatwa) ni un conseil juridique. Pour vos décisions religieuses personnelles, consultez un savant ou un imam qualifié près de chez vous. Nous visons l'exactitude, mais nous ne pouvons pas garantir que chaque détail est sans erreur. Utilisez donc le contenu avec discernement."
         },
         {
           "id": "medical-disclaimer",
-          "title": "Avis de non-responsabilité en matière médicale et de santé",
-          "body": "Le contenu sur la santé mentale ou des sujets liés à la santé sur ce site ne constitue pas un conseil médical ou de santé mentale professionnel. Si vous rencontrez des problèmes de santé mentale ou des problèmes médicaux, veuillez consulter un professionnel agréé. N'utilisez pas ce guide comme substitut à des soins médicaux professionnels."
+          "title": "Avertissement médical et de santé",
+          "body": "Rien sur ce site concernant la santé mentale ou physique ne constitue un avis médical professionnel. Si vous vivez un problème de santé mentale ou une préoccupation médicale, consultez un professionnel autorisé. Ne considérez pas ce guide comme un remplacement des soins médicaux."
         },
         {
           "id": "ip",
           "title": "Propriété intellectuelle",
-          "body": "Tout le contenu, y compris le texte, la conception, les logos et la structure du site, est la propriété intellectuelle de Revert Guide ou de ses contributeurs. Les utilisateurs peuvent visualiser et partager des liens vers le site mais ne peuvent pas republier, copier, modifier ou distribuer du contenu sans autorisation. L'utilisation personnelle et non commerciale est autorisée - par exemple, lire du contenu pour vous-même ou partager un lien avec un ami."
+          "body": "Les textes, le design, les logos et la structure du site appartiennent à Revert Guide ou à ses contributeurs. Vous pouvez lire le site et partager des liens vers celui-ci, mais pas republier, copier, modifier ou redistribuer le contenu sans permission. L'usage personnel et non commercial est permis, comme le lire vous-même ou envoyer un lien à un ami."
         },
         {
           "id": "liability",
           "title": "Limitation de responsabilité",
-          "body": "Le Guide Revert est fourni « tel quel » sans garantie, expresse ou implicite. Nous ne sommes pas responsables des dommages indirects, accessoires ou consécutifs découlant de votre utilisation du site. Votre utilisation de ce site est à vos propres risques."
+          "body": "Revert Guide est fourni « tel quel », sans garantie d'aucune sorte, expresse ou implicite. Nous ne sommes pas responsables des dommages indirects, accessoires ou consécutifs liés à votre utilisation du site. Vous l'utilisez à vos propres risques."
         },
         {
           "id": "governing-law",
-          "title": "Loi applicable",
-          "body": "Ces conditions sont régies par les lois de la province de l'Ontario, Canada. Tout litige découlant de l'utilisation de ce site est soumis à la compétence des tribunaux de l'Ontario."
+          "title": "Droit applicable",
+          "body": "Ces conditions sont régies par les lois de la province de l'Ontario, au Canada. Les litiges liés à l'utilisation de ce site relèvent de la compétence des tribunaux de l'Ontario."
         },
         {
           "id": "changes",
           "title": "Modifications de ces conditions",
-          "body": "Nous pouvons mettre à jour ces conditions à tout moment en publiant les conditions révisées sur cette page. L'utilisation continue de Revert Guide après la publication des modifications constitue l'acceptation des conditions mises à jour."
+          "body": "Nous pouvons mettre à jour ces conditions à tout moment en publiant une version révisée sur cette page. Continuer à utiliser Revert Guide après cela vaut acceptation de la mise à jour."
         },
         {
           "id": "external-links",
           "title": "Liens externes",
-          "body": "Ce site contient des liens vers des sites Internet externes. Nous ne sommes pas responsables du contenu ou des pratiques de ces sites. Les liens externes sont fournis pour plus de commodité et n’impliquent pas une approbation."
+          "body": "Ce site renvoie à des sites externes. Nous ne sommes pas responsables de leur contenu ni de leurs pratiques. Un lien est une commodité, pas une approbation."
         }
       ]
     },
     "sources": {
-      "title": "Sources et citations",
-      "intro": "Nous nous engageons à garantir l’exactitude et à fonder notre contenu sur des sources authentiques. Chaque réclamation et citation spécifique de ce guide est référencée ci-dessous. Nous vous encourageons à lire ces sources vous-même pour une connaissance plus approfondie.",
-      "sections": [
-        {
-          "id": "quran-refs",
-          "title": "Références coraniques",
-          "items": [
-            {
-              "code": "T1",
-              "text": "Coran 2 : 185 – « Le Ramadan est le mois au cours duquel le Coran a été envoyé comme guide pour l’humanité… » – Référencé dans",
-              "linkLabel": "Guide du Ramadan"
-            },
-            {
-              "code": "T2",
-              "text": "Coran 1 : 1-7 (Sourate Al-Fatiha) – Le premier chapitre du Coran, récité dans chaque unité de prière. - Référencé dans",
-              "linkLabel": "Sujets : Prière"
-            },
-            {
-              "code": "T3",
-              "text": "Coran 112 :1-4 (Sourate Al-Ikhlas) – « Dis : Il est Allah, l'Unique… » – Référencé dans",
-              "linkLabel": "Sujets : Croyances fondamentales"
-            },
-            {
-              "code": "T4",
-              "text": "Coran 7 : 156 – « Ma miséricorde entoure toutes choses. » - Référencé dans",
-              "linkLabel": "Sujets : Croyances fondamentales"
-            },
-            {
-              "code": "Q5",
-              "text": "Coran 21 : 107 – « Nous ne vous avons envoyé que comme miséricorde envers les mondes. » - Référencé dans",
-              "linkLabel": "Sujets : Croyances fondamentales"
-            },
-            {
-              "code": "Q6",
-              "text": "Coran 97 : 1-5 (Sourate Al-Qadr) – Décrit Laylat al-Qadr comme « mieux que mille mois ». - Référencé dans",
-              "linkLabel": "Guide du Ramadan"
-            }
-          ]
-        },
-        {
-          "id": "hadith-refs",
-          "title": "Références de hadiths",
-          "items": [
-            {
-              "code": "H1",
-              "text": "Sahih Boukhari, Vol. 1, Livre 2, Hadith 7 - \"Les actions sont jugées par les intentions (niyyah).\" - Référencé tout au long de plusieurs étapes"
-            },
-            {
-              "code": "H2",
-              "text": "Sahih Muslim, Livre 35, Hadith 6505 - \"Comme c'est merveilleux l'affaire du croyant...\" - Référencé dans",
-              "linkLabel": "Sujets : Croyances fondamentales"
-            },
-            {
-              "code": "H3",
-              "text": "Sahih Bukhari, Livre 8, Hadith 604 - \"Priez comme vous m'avez vu prier.\" - Référencé dans",
-              "linkLabel": "Sujets : Prière"
-            },
-            {
-              "code": "H4",
-              "text": "Sahih Bukhari - \"Allah a quatre-vingt-dix-neuf noms ; quiconque les mémorise entrera au Paradis.\" - Référencé dans",
-              "linkLabel": "Sujets : Croyances fondamentales"
-            },
-            {
-              "code": "H5",
-              "text": "Jami at-Tirmidhi - \"Attachez votre chameau, puis faites confiance à Allah.\" - Référencé dans",
-              "linkLabel": "Guide de santé mentale"
-            }
-          ]
-        },
-        {
-          "id": "article-refs",
-          "title": "Articles",
-          "items": [
-            {
-              "code": "A1",
-              "text": "Nouveau guide musulman - newmuslimguide.com - Ressource complète couvrant le culte, les croyances et la vie quotidienne. - Référencé aux étapes 1 à 3"
-            },
-            {
-              "code": "A2",
-              "text": "Ma prière (Salah) - Un guide étape par étape - newmuslimguide.com - Guide de prière illustré. - Référencé dans",
-              "linkLabel": "Étape : Prière"
-            },
-            {
-              "code": "A3",
-              "text": "Santé mentale et expérience de conversion musulmane - Yaqeen Institute - Référencé dans",
-              "linkLabel": "Guide de santé mentale"
-            },
-            {
-              "code": "A4",
-              "text": "Guide de préparation au Ramadan - Yaqeen Institute - Référencé dans",
-              "linkLabel": "Guide du Ramadan"
-            }
-          ]
-        },
-        {
-          "id": "book-refs",
-          "title": "Livres",
-          "items": [
-            {
-              "code": "B1",
-              "text": "Le Coran clair du Dr Mustafa Khattab - Traduction moderne du Coran en anglais. - Référencé dans",
-              "linkLabel": "Sujets : Coran"
-            },
-            {
-              "code": "B2",
-              "text": "Bienvenue dans l'Islam par Mustafa Umar - Nouveau guide musulman pratique. - Référencé aux étapes 1 et 3"
-            },
-            {
-              "code": "B3",
-              "text": "Être musulman : un guide pratique par Asad Tarsin (Sandala Press) - Manuel pour les musulmans nouveaux et anciens. - Référencé aux étapes 3, 8"
-            },
-            {
-              "code": "B4",
-              "text": "Forteresse du musulman (Hisn al-Muslim) - Recueil d'authentiques supplications quotidiennes. - Référencé dans",
-              "linkLabel": "Sujets : Prière"
-            }
-          ]
-        }
-      ],
-      "closing": "Si vous avez des questions sur l'une de ces références ou si vous souhaitez suggérer des sources supplémentaires, veuillez utiliser les options de commentaires de l'application. Nous apprécions les contributions qui contribuent à renforcer l’exactitude et la profondeur de ce guide."
+      "title": "Sources et références",
+      "closingContact": "Si vous avez une question sur l'une de ces références, ou si vous voulez en suggérer une qui manque, contactez-nous par la page Obtenir de l'aide ou par courriel.",
+      "contactLinks": {
+        "getHelpLabel": "Aller à la page Obtenir de l'aide",
+        "emailLabel": "Ou écrivez-nous :"
+      },
+      "registryIntro": "Cette page vous montre d'où viennent les conseils de Revert Guide, qu'ils soient religieux, pratiques, liés à la santé ou intégrés à l'un des outils. Rien de tout cela ne remplace un imam, un savant, un clinicien ou un autre professionnel qualifié près de chez vous dès que la question porte sur votre propre situation.",
+      "policyTitle": "Comment Revert Guide utilise les sources",
+      "howToUseTitle": "Utiliser les sources sans vous sentir débordé",
+      "howToUseBody": "Vous n'avez pas besoin de devenir expert en vérification des sources. Commencez par les bases, apprenez auprès d'enseignants de confiance et demandez à une personne qualifiée quand une question touche votre culte, votre famille, votre santé ou votre argent. Les étiquettes sont là pour que vous puissiez vérifier notre travail. Ce n'est pas une chose de plus à maîtriser.",
+      "linkLastChecked": "Lien vérifié pour la dernière fois : {date}.",
+      "endorsementNote": "Une étiquette de source ne veut pas dire que l'organisation soutient Revert Guide. Elle indique où nous avons cherché des informations à l'appui et où vous pouvez continuer à lire."
     },
     "roadmap": {
-      "badge": "Votre chemin à suivre",
-      "description": "Un guide basé sur une chronologie depuis votre premier jour en tant que musulman jusqu'aux six premiers mois et au-delà. Chaque étape s'appuie sur la précédente : suivez-les dans l'ordre ou sautez là où cela vous convient.",
-      "stagesLabel": "Étapes du voyage",
+      "badge": "Votre chemin",
+      "description": "Un parcours qui va de votre premier jour de musulman aux six premiers mois, et au-delà. Chaque étape s'appuie sur la précédente. Vous pouvez donc les suivre dans l'ordre ou aller directement à celle qui correspond à où vous en êtes.",
+      "stagesLabel": "Étapes de la feuille de route",
       "explore": "Explorer",
-      "endingTitle": "Il n’y a pas de mauvais endroit pour commencer.",
-      "endingBody": "Commencez là où vous êtes et progressez à votre rythme. Chaque voyage est unique et le vôtre ne fait pas exception."
+      "endingTitle": "Il n'y a pas de mauvais point de départ.",
+      "endingBody": "Commencez là où vous en êtes et avancez à votre rythme. Personne ne suit le même calendrier.",
+      "pillarsTitle": "Commencez par la vue d'ensemble : les cinq piliers de l'islam",
+      "pillarsBody": "Ce que fait un musulman, d'où cela vient, et ce qui vous concerne dès maintenant."
     },
     "stage": {
-      "stageLabel": "Scène",
+      "stageLabel": "Étape",
       "overview": "Aperçu",
       "mainGoal": "Objectif principal",
-      "successLooksLike": "Le succès ressemble à",
-      "stepsInStage": "Étapes de cette étape",
-      "dontWorryYet": "Ne vous inquiétez pas encore",
-      "whatsNext": "Quelle est la prochaine étape",
+      "successLooksLike": "À quoi ressemble la réussite",
+      "stepsInStage": "Les étapes de cette période",
+      "dontWorryYet": "Pas d'inquiétude pour l'instant",
+      "whatsNext": "Et ensuite",
       "nextStage": "Étape suivante",
-      "continueTo": "Continuez à",
-      "finalStageTitle": "Vous avez atteint l'étape finale !",
-      "finalStageBody": "À partir de là, continuez votre parcours de croissance tout au long de votre vie. Explorez la section Sujets pour un apprentissage plus approfondi sur des sujets spécifiques.",
-      "exploreTopics": "Explorer les sujets"
+      "continueTo": "Continuer vers",
+      "finalStageTitle": "Vous avez atteint la dernière étape.",
+      "finalStageBody": "Il n'y a pas de ligne d'arrivée après celle-ci. La section des sujets approfondit chaque thème quand vous le souhaitez.",
+      "exploreTopics": "Explorer les sujets",
+      "learningPathTitle": "Quoi apprendre à cette étape",
+      "learningPathIntro": "Une chose principale pour commencer, et une autre en plus si vous en voulez davantage. Tout le reste peut attendre.",
+      "learningPathMain": "Commencer ici",
+      "learningPathOptional": "Si vous en voulez plus",
+      "learningPathGuardrails": "Allez-y en douceur",
+      "learningPathOpen": "Ouvrir",
+      "opensInNewTab": "(s'ouvre dans un nouvel onglet)",
+      "guidanceTitle": "Sur quoi vous concentrer maintenant",
+      "focusNow": "À faire maintenant",
+      "canWait": "Ce qui peut attendre",
+      "askHelpIf": "Demandez de l'aide si",
+      "goodNextQuestions": "Bonnes questions pour la suite"
     },
     "step": {
       "stepLabel": "Étape",
-      "whyThisStepMatters": "Pourquoi cette étape est importante",
-      "exactActions": "Actions exactes",
-      "commonObstacles": "Obstacles courants",
-      "tinyVersion": "Petite version",
-      "whatUnlocksNext": "Ce qui se débloquera ensuite",
+      "whyThisStepMatters": "Pourquoi cette étape compte",
+      "exactActions": "Actions concrètes",
+      "commonObstacles": "Obstacles fréquents",
+      "tinyVersion": "Version minimale",
+      "whatUnlocksNext": "Ce que cela ouvre ensuite",
       "recommendedResources": "Ressources recommandées",
-      "relatedTopics": "Sujets connexes",
-      "keyTerms": "Termes clés",
-      "navigationAriaLabel": "Navigation par étapes",
-      "previous": "Précédent",
-      "next": "Suivant"
+      "relatedTopics": "Sujets liés",
+      "keyTerms": "Termes à connaître",
+      "navigationAriaLabel": "Navigation entre les étapes",
+      "previous": "Précédente",
+      "next": "Suivante",
+      "watchTitle": "Regarder et apprendre",
+      "commonQuestions": "Questions fréquentes",
+      "workSchoolFamily": "Au travail, à l'école ou en famille",
+      "gentleScripts": "Phrases toutes simples"
     },
     "topics": {
-      "description": "Explorez des guides sur des sujets spécifiques pour approfondir votre compréhension. Chaque sujet est autonome : commencez par celui qui vous intéresse le plus.",
+      "description": "Des guides sur un seul sujet chacun, complets en eux-mêmes. Commencez par celui dont vous avez besoin.",
       "gridLabel": "Guides thématiques",
-      "footerPrefix": "Vous recherchez un cheminement étape par étape ?",
+      "footerPrefix": "Vous cherchez un parcours étape par étape?",
       "footerRoadmap": "Suivez la feuille de route",
-      "footerGlossaryPrefix": "Besoin d'une recherche rapide de termes ?",
+      "footerGlossaryPrefix": "Besoin de vérifier un terme rapidement?",
       "footerGlossary": "Consultez le glossaire"
     },
     "topic": {
-      "relatedSteps": "Étapes associées",
-      "keyTerms": "Termes clés",
-      "resources": "Ressources"
+      "relatedSteps": "Étapes liées",
+      "keyTerms": "Termes à connaître",
+      "resources": "Ressources",
+      "actions": {
+        "quranStarter": {
+          "label": "Ouvrir le parcours pour débuter avec le Coran",
+          "body": "Choisissez une traduction, commencez par de courts passages, écoutez sans pression et imprimez un rythme de lecture pour la première semaine."
+        },
+        "salahCompanion": {
+          "label": "Ouvrir Apprendre à prier (salah)",
+          "body": "Parcourez le déroulement d'une prière de deux unités (rak'ah), avec ce qu'il faut réciter et quoi faire si vous perdez le fil."
+        },
+        "duaDhikr": {
+          "label": "Ouvrir le mémento des invocations et du rappel d'Allah",
+          "body": "Une courte sélection d'invocations pour débutants et de formules de rappel, avec leurs sources, et les limites de l'invocation personnelle."
+        }
+      },
+      "toolsLabel": "Outils pour débutants liés",
+      "linkCardsTitle": "Pour aller plus loin",
+      "videosTitle": "À regarder",
+      "sourcesNote": "Ces sources appuient les conseils généraux de ce sujet. Pour un avis religieux personnel ou une situation délicate, demandez selon le cas à un imam, un savant, un clinicien ou un professionnel qualifié près de chez vous."
+    },
+    "sourceNotes": {
+      "findMasjidMap": "Les fonds de carte et la recherche d'adresse viennent d'OpenStreetMap et de Nominatim. Les informations sur les mosquées changent. Confirmez donc avec la mosquée les heures de prière, les cours, l'accessibilité et l'accueil des visiteurs avant d'y aller.",
+      "mentalHealth": "Cette page offre un soutien émotionnel général et vous oriente vers l'aide en cas de crise. Ce n'est ni une thérapie, ni un diagnostic, ni un avis médical. Si vous êtes en danger immédiat, composez le 9-1-1 maintenant.",
+      "prayerTimes": "Les heures de prière affichées ici viennent d'AlAdhan. Les méthodes de calcul varient d'une source à l'autre. Quand l'heure exacte compte, confirmez l'horaire auprès de votre mosquée.",
+      "qibla": "Cette page calcule une direction à partir de vos coordonnées vers la Kaaba. La boussole d'un téléphone peut dévier selon la qualité du capteur, l'étui, les aimants ou le fait d'être à l'intérieur.",
+      "asmaAlHusna": "Les noms et leurs courtes significations en anglais viennent d'AlAdhan. Le hadith est cité pour le mérite général d'apprendre ces noms. Pour aller plus loin, il vous faut un enseignant qualifié.",
+      "stage": "Les conseils de cette étape sont des informations générales pour les nouveaux musulmans. Un mentor local ou un enseignant qualifié peut vous aider à les appliquer à votre situation.",
+      "step": "Ces sources appuient le cadre éducatif général de cette étape. Posez vos questions religieuses personnelles à un imam ou un savant qualifié près de chez vous."
     },
     "ramadan": {
       "title": "Guide du Ramadan",
       "subtitle": "Votre premier Ramadan en tant que musulman.",
       "whatIsRamadan": {
-        "title": "Qu’est-ce que le Ramadan ?",
-        "body": "Le Ramadan est le neuvième mois du calendrier islamique et le mois le plus sacré pour les musulmans du monde entier. Pendant le Ramadan, les musulmans jeûnent chaque jour de l’aube au coucher du soleil – s’abstenant de manger, de boire et d’autres besoins physiques. Mais le Ramadan, c’est bien plus que ne pas manger ; c'est un moment de réflexion spirituelle, d'amélioration personnelle, de prière accrue et de liens communautaires approfondis. Le Coran a été révélé pour la première fois pendant le Ramadan, ce qui en fait un mois revêtant une signification spirituelle particulière."
+        "title": "Qu'est-ce que le Ramadan?",
+        "body": "Le Ramadan est le neuvième mois du calendrier islamique et le mois où les musulmans jeûnent. De l'aube au coucher du soleil, on ne mange pas, on ne boit pas et on n'a pas de relations intimes. Le jeûne est la partie visible, mais le mois est aussi consacré à la prière, à la lecture du Coran, aux dons et à une attention plus grande à la façon dont on traite les autres. La première révélation du Coran est venue pendant le Ramadan, ce qui explique en partie l'importance de ce mois."
       },
       "forNewMuslims": {
         "title": "Pour les nouveaux musulmans",
-        "calloutTitle": "Tu n'es pas seul",
-        "calloutBody": "Si c’est votre premier Ramadan, il est tout à fait normal de vous sentir anxieux ou incertain. N’oubliez pas que tout jeûne que vous pouvez pratiquer est précieux et que vous pouvez le développer progressivement. Ne soyez pas dur avec vous-même : même les musulmans de longue date trouvent parfois le Ramadan difficile.",
-        "body": "Recherchez un ami de jeûne, un mentor ou un groupe communautaire avec qui partager votre expérience. De nombreuses mosquées proposent des programmes spéciaux pour les nouveaux musulmans pendant le Ramadan. Vous entreprenez quelque chose de beau et la communauté musulmane est là pour vous soutenir."
+        "calloutTitle": "Vous n'êtes pas seul",
+        "calloutBody": "Si c'est votre premier Ramadan, il est normal de vous sentir anxieux ou hésitant. Chaque jeûne que vous arrivez à faire compte, et vous pouvez progresser à partir de là. Soyez doux avec vous-même. Des musulmans qui jeûnent depuis toujours trouvent encore certains jours difficiles.",
+        "body": "Trouvez un compagnon de jeûne, un mentor ou un groupe communautaire pour ne pas vivre ce mois seul. Beaucoup de mosquées organisent des programmes pour les nouveaux musulmans pendant le Ramadan, et la plupart des gens sont contents qu'on leur demande."
       },
       "fastingBasics": {
         "title": "Les bases du jeûne",
         "items": [
           {
-            "term": "Souhour",
-            "desc": "(repas avant l'aube) - Prenez un repas nourrissant avant la prière du Fajr. Ceci est important pour l’énergie tout au long de la journée. Les aliments riches en fibres et en protéines vous aident à rester rassasié plus longtemps."
+            "term": "Le suhoor",
+            "desc": "est le repas avant l'aube. Mangez quelque chose de consistant avant la prière de Fajr, car ce repas vous porte toute la journée. Les fibres et les protéines rassasient plus longtemps que le sucre."
           },
           {
-            "term": "Iftar",
-            "desc": "(rupture du jeûne) - Rompre le jeûne au coucher du soleil, traditionnellement avec des dattes et de l'eau. Il s'agit d'une sunna du prophète Mahomet (que la paix soit sur lui) et d'un moyen rapide de refaire le plein d'énergie."
+            "term": "L'iftar",
+            "desc": "est le repas qui rompt le jeûne au coucher du soleil, traditionnellement avec des dattes et de l'eau d'abord. C'était la pratique du Prophète Muhammad (paix et bénédictions sur lui), et cela vous redonne vite de l'énergie."
           },
           {
-            "term": "Ce qu'il faut éviter",
-            "desc": "- Pas de nourriture, de boisson ou de relations intimes de l'aube au coucher du soleil. Si vous mangez ou buvez accidentellement, votre jeûne est toujours valable – arrêtez simplement et continuez à jeûner."
+            "term": "Ce qu'on évite",
+            "desc": "c'est la nourriture, la boisson et les relations intimes de l'aube au coucher du soleil. Si vous mangez ou buvez par oubli, le jeûne reste valable. Arrêtez-vous simplement et continuez."
           },
           {
-            "term": "Qui est exempté",
-            "desc": "- Les personnes malades, en voyage, âgées, enceintes, allaitantes ou ayant leurs règles sont exonérées. Les jours manqués peuvent être rattrapés plus tard."
+            "term": "Qui est dispensé",
+            "desc": "toute personne malade, en voyage, âgée, enceinte, qui allaite ou qui a ses règles. Les jours manqués peuvent être rattrapés plus tard."
           },
           {
-            "term": "Intention (Niyyah)",
-            "desc": "- Faites chaque nuit ou avant l'aube l'intention dans votre cœur de jeûner pour l'amour d'Allah."
+            "term": "L'intention (niyyah)",
+            "desc": "se forme dans le cœur, la veille au soir ou avant l'aube : vous jeûnez pour Allah."
           }
         ],
-        "footerPrefix": "Pour les règles de jeûne détaillées, voir",
-        "footerLinkLabel": "Jeûne et Ramadan",
-        "footerSuffix": "dans la section Thèmes."
+        "footerPrefix": "Pour les règles détaillées, voyez ",
+        "footerLinkLabel": "Le jeûne et le Ramadan",
+        "footerSuffix": " dans la section des sujets."
       },
       "preparing": {
-        "title": "Préparation du Ramadan",
+        "title": "Se préparer au Ramadan",
         "items": [
-          "Ajustez progressivement votre horaire de sommeil - vous vous réveillerez avant l'aube pour le suhoor.",
-          "Réduisez au préalable votre consommation de caféine pour éviter les maux de tête liés au manque pendant les heures de jeûne.",
-          "Planifiez à l’avance des repas simples et nutritifs pour le suhoor et l’iftar.",
-          "Si possible, informez-en votre employeur ou votre école : de nombreuses personnes comprennent les observances religieuses.",
-          "Apprenez les supplications clés : l’intention de jeûner et le dua pour rompre le jeûne.",
-          "Fixez-vous des objectifs personnels pour le mois : lisez davantage le Coran, faites des dons de charité, améliorez une habitude ou renforcez une relation."
+          "Avancez peu à peu votre heure de coucher sur quelques jours, car vous vous lèverez avant l'aube pour le suhoor.",
+          "Réduisez la caféine à l'avance pour ne pas jeûner avec un mal de tête de sevrage.",
+          "Choisissez à l'avance des repas simples pour le suhoor et l'iftar, avant d'être fatigué et affamé.",
+          "Prévenez votre employeur ou votre école si cela vous aide. La plupart des gens sont compréhensifs face à la pratique religieuse.",
+          "Apprenez deux courtes invocations : l'intention du jeûne et l'invocation pour le rompre.",
+          "Choisissez un ou deux objectifs pour le mois, comme lire davantage le Coran, donner régulièrement ou réparer une relation."
         ]
       },
       "duringRamadan": {
         "title": "Pendant le Ramadan",
         "spiritualPracticesTitle": "Pratiques spirituelles",
         "spiritualPractices": [
-          "Lisez le Coran tous les jours – Le Ramadan est le mois du Coran, et même quelques versets par jour font la différence.",
-          "Augmentez vos prières, notamment les Tarawih (prières nocturnes) à la mosquée.",
-          "Faites fréquemment dua (invocation) - les prières d'une personne à jeun ont une signification particulière.",
-          "Donnez la charité (sadaqah) si vous en êtes capable – la générosité est grandement encouragée au cours de ce mois."
+          "Lisez un peu de Coran chaque jour. Le Ramadan est le mois du Coran, et quelques versets par jour comptent aussi.",
+          "Priez davantage, en particulier les Tarawih à la mosquée le soir.",
+          "Invoquez Allah souvent. L'invocation de la personne qui jeûne a un poids particulier.",
+          "Donnez l'aumône (sadaqa) si vous le pouvez. La générosité est vivement encouragée ce mois-ci."
         ],
-        "practicalTipsTitle": "Conseils pratiques de survie",
-        "practicalTipsCalloutTitle": "Restez hydraté !",
-        "practicalTipsCalloutBody": "Buvez beaucoup d'eau entre l'iftar et le suhoor. La déshydratation est le problème le plus courant, en particulier pendant les longs jeûnes d'été.",
+        "practicalTipsTitle": "Conseils pratiques pour tenir",
+        "practicalTipsCalloutTitle": "Hydratez-vous",
+        "practicalTipsCalloutBody": "Buvez beaucoup d'eau entre l'iftar et le suhoor. La déshydratation cause plus de soucis que la faim, surtout lors des longs jeûnes d'été.",
         "practicalTips": [
-          "Ne sautez pas le suhoor – cela vous donne l’énergie nécessaire pour passer la journée.",
-          "Faites une courte sieste si possible, surtout si vos nuits sont plus courtes à cause du Tarawih et du suhoor.",
-          "Attendez-vous à une baisse d’énergie l’après-midi – planifiez des tâches exigeantes pour le matin lorsque cela est possible.",
-          "Rompre le jeûne avec des dattes et de l'eau - cela fournit une énergie rapide et suit la Sunna."
+          "Ne sautez pas le suhoor. C'est la différence entre une journée gérable et une journée pénible.",
+          "Faites une sieste si vous le pouvez, surtout quand les Tarawih et le suhoor réduisent votre sommeil.",
+          "Attendez-vous à un coup de fatigue l'après-midi. Placez le travail exigeant le matin quand c'est possible.",
+          "Rompez le jeûne avec des dattes et de l'eau. C'est la sunna, et cela redonne vite de l'énergie."
         ]
       },
       "tarawihAndCommunity": {
-        "title": "Tarawih et la communauté",
-        "tarawihBodyBeforeIsha": "Les Tarawih sont des prières spéciales du soir effectuées pendant le Ramadan, organisées après",
-        "tarawihBodyAfterIsha": "(Isha) prière à la mosquée. Elles peuvent être assez longues, mais ne vous inquiétez pas si vous ne pouvez pas prier pendant toute la session : même une participation partielle est enrichissante. Essayez d'y assister au moins une fois pour découvrir la belle atmosphère communautaire.",
-        "iftarBody": "Les rassemblements d’iftar dans les mosquées et les centres communautaires sont une merveilleuse façon de rompre le jeûne avec les autres. Vous y trouverez des repas généreux et des visages accueillants. Ces rassemblements sont l’un des moments les plus appréciés du Ramadan et un excellent moyen de se faire de nouveaux amis.",
-        "calloutTitle": "Conseil de la communauté",
-        "calloutBody": "Pensez à trouver un compagnon de jeûne ou un mentor pour vous assurer de la responsabilité et du soutien. Partager l’expérience avec quelqu’un d’autre rend le voyage beaucoup plus facile."
+        "title": "Les Tarawih et la communauté",
+        "tarawihBodyBeforeIsha": "Les Tarawih sont les prières supplémentaires du soir pendant le Ramadan, faites à la mosquée après la ",
+        "tarawihBodyAfterIsha": " (Isha). Elles sont longues, et partir en cours de route ne pose aucun problème. Essayez d'y aller au moins une fois, car l'ambiance de la salle pendant les Tarawih se vit plus qu'elle ne s'explique.",
+        "iftarBody": "Les iftars dans les mosquées et les centres communautaires sont un moyen simple de rompre le jeûne avec d'autres. Il y a en général bien plus de nourriture que prévu et quelqu'un pour venir se présenter. Pour beaucoup de convertis, c'est lors de ces soirées que naissent les premières vraies amitiés.",
+        "calloutTitle": "Conseil communautaire",
+        "calloutBody": "Trouvez un compagnon de jeûne ou un mentor pour le mois. Avoir une personne qui sait comment se passe votre semaine rend tout plus léger."
       },
       "laylatAlQadr": {
-        "title": "Laylat al-Qadr (Nuit du pouvoir)",
-        "body": "Durant les dix dernières nuits du Ramadan, les musulmans recherchent Laylat al-Qadr – la Nuit du Pouvoir. Le Coran décrit cette nuit comme « meilleure que mille mois ». Bien que sa date exacte soit inconnue, elle est traditionnellement recherchée les nuits impaires des dix derniers jours (21, 23, 25, 27 ou 29). De nombreux musulmans augmentent leur culte pendant ces nuits grâce à des prières supplémentaires, à la lecture du Coran et à des supplications."
+        "title": "Laylat al-Qadr (la Nuit du destin)",
+        "body": "Pendant les dix dernières nuits du Ramadan, les musulmans recherchent Laylat al-Qadr, la Nuit du destin. Le Coran la décrit comme meilleure que mille mois. Personne ne connaît la date exacte. On la recherche donc traditionnellement pendant les nuits impaires de ces dix nuits : la 21e, la 23e, la 25e, la 27e ou la 29e. Beaucoup prient davantage, lisent plus de Coran et veillent plus tard pendant cette période."
       },
       "eidAlFitr": {
-        "title": "Aïd al-Fitr",
-        "body": "À la fin du Ramadan, les musulmans célèbrent l'Aïd al-Fitr, une fête joyeuse marquant la fin du mois de jeûne. Cela commence par une prière spéciale de l'Aïd le matin, généralement organisée lors de grands rassemblements dans les mosquées ou dans des espaces ouverts.",
+        "title": "L'Aïd al-Fitr",
+        "body": "L'Aïd al-Fitr est la fête de la fin du Ramadan. Elle commence le matin par la prière de l'Aïd, en général lors d'un grand rassemblement dans une mosquée ou en plein air.",
         "items": [
-          "Portez vos plus beaux vêtements et saluez les autres avec « Eid Mubarak » (Aïd béni).",
-          "Savourez des repas de fête avec votre communauté - L'Aïd est un jour de célébration et de gratitude.",
-          "Si vous le pouvez, contribuez à la Zakat al-Fitr (un petit don caritatif) avant la prière de l'Aïd. Renseignez-vous auprès de votre mosquée."
+          "Mettez vos plus beaux vêtements et saluez les gens avec « Eid Mubarak », qui veut dire « bonne fête bénie ».",
+          "Mangez avec votre communauté. L'Aïd est un jour de fête et de gratitude.",
+          "Si vous le pouvez, donnez la Zakat al-Fitr, une petite aumône, avant la prière de l'Aïd. Votre mosquée peut vous indiquer le montant."
         ],
-        "calloutTitle": "Vous l'avez mérité !",
-        "calloutBody": "Il n'y a rien de mal à se sentir ému à l'occasion de l'Aïd, surtout si votre famille est loin ou ne comprend pas votre voyage. N'oubliez pas : vous avez une nouvelle communauté avec laquelle célébrer. Allez à la prière de l'Aïd, profitez de la journée et soyez fier de ce que vous avez accompli."
+        "calloutTitle": "Vous l'avez bien mérité",
+        "calloutBody": "Il est courant d'être ému le jour de l'Aïd, surtout quand votre famille est loin ou ne comprend pas ce que vous fêtez. Vous avez maintenant une communauté. Allez à la prière, mangez trop et soyez fier du mois que vous venez d'accomplir."
       },
       "resources": {
         "title": "Ressources",
-        "footerPrefix": "Pour plus de détails, explorez le",
-        "footerLinkLabel": "Jeûne et Ramadan",
-        "footerSuffix": "page thématique."
-      }
+        "footerPrefix": "Pour plus de détails, lisez la page ",
+        "footerLinkLabel": "Le jeûne et le Ramadan",
+        "footerSuffix": " dans les sujets."
+      },
+      "seasonalButton": "Guides saisonniers",
+      "planningTitle": "Préparer votre premier Ramadan",
+      "planningBody": "Servez-vous de ces courtes listes comme point de départ. Le Ramadan dure un mois entier. Inutile de tout faire la première semaine.",
+      "careTitle": "Les questions plus difficiles",
+      "careBody": "Ces notes sont là pour vous repérer. Votre propre situation de jeûne demande l'examen d'une personne qualifiée en religion, et tout ce qui touche votre santé demande aussi un avis médical.",
+      "firstEidButton": "Guide de votre premier Aïd",
+      "zakatButton": "Guide de la zakat pour débutants",
+      "sourcesNote": "Le contenu sur le culte repose sur des références du Coran et des hadiths, et le cadre pratique vient de sources éducatives pour débutants. Pour la maladie, le voyage, les règles, les médicaments, la fidya ou les jeûnes manqués, demandez à un imam qualifié près de chez vous.",
+      "checklistAlt": "Mon premier Ramadan, une liste avec des cases vides à cocher. Avant le Ramadan : demandez à votre mosquée comment elle annonce le début du mois ; apprenez les bases, pas de nourriture, de boisson ni de relations intimes de l'aube au coucher du soleil ; sachez qui est dispensé et posez la question pour votre propre cas. Chaque jour : mangez quelque chose au suhoor avant l'aube ; rompez le jeûne peu après le coucher du soleil avec de l'eau ou des dattes ; choisissez un petit acte d'adoration que vous pouvez garder. En chemin : essayez les Tarawih une fois si vous le souhaitez, c'est facultatif ; dites à une personne comment ça se passe. Manquer un jour ou avoir du mal n'annule pas votre Ramadan. Allah veut pour vous la facilité.",
+      "checklistCaption": "Une liste à imprimer pour votre premier Ramadan. Cochez ce qui vous aide et laissez le reste.",
+      "sistersLinkLabel": "Pour les sœurs : ce qui change pendant les règles"
     },
     "mentalHealth": {
       "title": "Prendre soin de votre esprit",
-      "subtitle": "Votre bien-être émotionnel compte. Cette page est là pour vous soutenir.",
+      "subtitle": "Votre état émotionnel compte. Cette page est là pour ça.",
       "validation": {
-        "title": "Vos sentiments sont valables",
-        "calloutTitle": "Tu n'es pas seul",
-        "calloutBody": "De nombreux nouveaux musulmans éprouvent des sentiments de solitude, de doute, d’anxiété, de questions d’identité ou de conflits familiaux. Ces sentiments ne font pas de vous un mauvais musulman, ils font de vous un humain.",
-        "body": "Embrasser l’Islam est l’une des décisions les plus importantes que vous puissiez prendre. C’est une belle étape, mais c’est aussi un changement de vie majeur qui nécessite un ajustement émotionnel. Il est tout à fait normal de se sentir parfois dépassé, en conflit ou incertain. Ce qui compte, c'est que vous soyez ici, en train d'apprendre et de grandir. Tous les convertis avant vous ont navigué dans ces mêmes eaux, et vous trouverez également votre place."
+        "title": "Vos émotions sont légitimes",
+        "calloutTitle": "Vous n'êtes pas seul",
+        "calloutBody": "Beaucoup de nouveaux musulmans vivent la solitude, le doute, l'anxiété, des questions sur qui ils sont maintenant ou des conflits à la maison. Rien de tout cela ne fait de vous un mauvais musulman. Cela fait de vous un être humain.",
+        "body": "Devenir musulman est l'une des plus grandes décisions qu'une personne puisse prendre. C'est une bonne décision, et c'est tout de même un grand changement de vie qui pèse sur le plan émotionnel pendant que vous vous adaptez. Se sentir débordé ou partagé certaines semaines est normal. Ce qui compte, c'est que vous soyez là et que vous continuiez d'apprendre. D'autres convertis sont passés par la même période et en sont sortis."
       },
       "faithAndHelp": {
-        "title": "Foi et aide professionnelle",
+        "title": "La foi et l'aide professionnelle",
         "paragraphs": [
-          "L'Islam enseigne la compassion, la miséricorde et qu'il est important de prendre soin de son esprit. La confiance en Allah peut apporter un grand réconfort, mais notre foi nous apprend également à rechercher des moyens pratiques d’aide. Tout comme nous consultons un médecin pour une maladie physique tout en priant pour la guérison, il est tout à fait acceptable de consulter un conseiller en cas de détresse émotionnelle tout en priant pour être soulagé.",
-          "Le Prophète Muhammad (que la paix soit sur lui) et ses compagnons ont connu de la tristesse, du chagrin et du stress. Être musulman ne signifie pas être heureux à chaque instant, cela signifie avoir de l'espoir et de la persévérance même dans les difficultés."
+          "L'islam enseigne la miséricorde, et il considère que prendre soin de son esprit fait partie de prendre soin de soi. La confiance en Allah est un vrai réconfort, et cette même foi nous dit aussi de prendre des moyens concrets. Nous consultons un médecin pour une maladie physique tout en priant pour la guérison. Consulter un conseiller pour une détresse émotionnelle fonctionne exactement de la même façon.",
+          "Le Prophète Muhammad (paix et bénédictions sur lui) et ses compagnons ont connu le deuil, la tristesse et le stress. Être musulman ne veut pas dire être heureux à chaque instant. Cela veut dire garder l'espoir et continuer malgré les moments difficiles."
         ],
         "calloutTitle": "Attachez votre chameau",
-        "calloutBody": "Il existe un concept bien connu dans l'Islam : « Attachez votre chameau, puis faites confiance à Allah ». Cela signifie prendre des mesures pratiques pour relever vos défis tout en plaçant votre confiance en Dieu. Rechercher une thérapie ou des conseils est l’une de ces étapes pratiques."
+        "calloutBody": "Une parole bien connue dit : attache ton chameau, puis place ta confiance en Allah. Faites ce qui est concrètement possible face à votre problème, et placez votre confiance en Dieu en même temps. La thérapie fait partie de ces moyens concrets."
       },
       "commonExperiences": {
-        "title": "Expériences communes",
-        "helpLabel": "Qu'est-ce qui peut aider :",
+        "title": "Expériences fréquentes",
+        "helpLabel": "Ce qui peut aider :",
         "items": [
           {
-            "title": "Solitude",
-            "body": "Vous pourriez vous sentir isolé si vous n’avez pas encore d’amis musulmans ou si votre famille a pris ses distances. Ce sentiment est temporaire, même si cela ne semble pas être le cas pour le moment.",
-            "help": "Rejoignez de nouveaux cours musulmans ou événements communautaires dans votre mosquée locale. Les communautés en ligne peuvent fournir une assistance lorsque les connexions en personne ne sont pas disponibles. Vérifiez si votre mosquée dispose d’un groupe de soutien aux convertis – beaucoup en ont."
+            "title": "La solitude",
+            "body": "Vous pouvez vous sentir isolé si vous n'avez pas encore d'amis musulmans ou si votre famille a pris ses distances. Cette période passe, même si ce n'est pas l'impression qu'on a quand on la traverse.",
+            "help": "Inscrivez-vous à un cours pour nouveaux musulmans ou à un événement communautaire de votre mosquée. Les groupes en ligne aident quand rien n'existe en personne. Demandez si votre mosquée a un groupe de soutien pour convertis, car beaucoup en ont un."
           },
           {
-            "title": "Conflit familial",
-            "body": "Votre famille ne comprend peut-être pas votre conversion et certains peuvent réagir avec confusion, inquiétude, voire hostilité. C’est l’une des parties les plus difficiles du voyage pour de nombreux convertis.",
-            "help": "Maintenez une communication aimante si possible. Donnez à votre famille le temps de s’adapter – vous n’êtes pas obligé de débattre de chaque détail de votre foi. Fixez des limites douces pour protéger votre paix. De nombreux convertis ont vécu cette situation avant vous, et leurs expériences peuvent offrir des conseils et de l’espoir."
+            "title": "Les conflits familiaux",
+            "body": "Votre famille ne comprend peut-être pas pourquoi vous vous êtes converti, et certains réagiront avec incompréhension, inquiétude ou colère. Pour beaucoup de convertis, c'est la partie la plus difficile de toutes.",
+            "help": "Continuez à leur parler avec chaleur quand c'est possible. Laissez-leur le temps de s'adapter et évitez les débats sur chaque détail de la foi. Posez des limites douces pour protéger votre paix. D'autres convertis sont passés par là et peuvent vous dire ce qui a marché."
           },
           {
-            "title": "Questions d'identité",
-            "body": "Vous pourriez vous sentir déchiré entre votre ancienne identité et votre nouvelle vie de musulman. Vous vous demandez peut-être si vous êtes « assez musulman » ou si vous vous sentez comme un imposteur dans un contexte religieux.",
-            "help": "Vous n’êtes pas obligé d’abandonner votre culture ou votre personnalité pour être musulman. L’Islam ajoute à qui vous êtes – il n’efface pas qui vous étiez. Embrassez le bien de votre éducation et mélangez-le avec les valeurs islamiques. Chacun grandit à son propre rythme et il n’existe pas une seule « bonne manière » d’être musulman."
+            "title": "Les questions d'identité",
+            "body": "Vous pouvez vous sentir tiraillé entre la personne que vous étiez et celle que vous êtes maintenant. Se demander si l'on est « assez musulman », ou se sentir imposteur dans un cadre religieux, est très courant.",
+            "help": "Vous n'avez pas à rejeter votre culture ni votre personnalité pour être musulman. L'islam s'ajoute à qui vous êtes. Il n'efface pas qui vous étiez. Gardez le bon de votre éducation et laissez-le vivre avec votre foi. Il n'y a pas une seule bonne façon d'être musulman, et personne n'a d'échéancier."
           },
           {
-            "title": "Doutes dans la foi",
-            "body": "Vous pourriez avoir des doutes sur l’Islam ou remettre en question votre décision. La foi peut fluctuer et les questions font naturellement partie de tout voyage spirituel.",
-            "help": "L'Islam encourage la recherche de la connaissance. Parlez à un mentor compétent, lisez des livres fiables ou participez à un cercle d'étude. Ne refoulez pas vos questions : les explorer avec sincérité renforce souvent la foi avec le temps. Faites dua (invocation) pour obtenir des conseils et soyez patient avec vous-même."
+            "title": "Les doutes dans la foi",
+            "body": "Vous pouvez avoir des doutes sur l'islam, ou remettre toute votre décision en question. La foi monte et descend, et les questions accompagnent tout engagement sérieux.",
+            "help": "L'islam vous invite à rechercher le savoir. Parlez à un mentor qui connaît le sujet, lisez des livres fiables ou assistez à un cercle d'étude. Ne gardez pas vos questions pour vous. Les traiter honnêtement rend généralement la foi plus forte qu'avant. Demandez à Allah de vous guider, et donnez-vous du temps."
           }
         ]
       },
       "selfCare": {
-        "title": "Stratégies pratiques de soins personnels",
+        "title": "Prendre soin de soi au quotidien",
         "items": [
-          "Maintenez des soins personnels de base : un sommeil suffisant, une alimentation nutritive et une activité physique régulière. Le bien-être physique affecte fortement le bien-être émotionnel.",
-          "Restez connecté : contactez régulièrement un ami ou un mentor. Même un appel téléphonique hebdomadaire peut faire une grande différence.",
-          "Pratiquez des activités qui vous apportent paix et joie : balades nature, lecture, loisirs créatifs. Les loisirs sains ne sont pas anti-islamiques.",
-          "Utilisez le souvenir d'Allah (dhikr) et la prière pour soulager l'anxiété. Des phrases simples comme « SubhanAllah » ou réciter Al-Fatiha peuvent apporter le calme dans les moments difficiles.",
-          "Notez vos sentiments ou exprimez-les en dua – écrire des choses ou parler à Allah avec votre cœur peut soulager la pression émotionnelle.",
-          "Fixez des limites saines avec des personnes ou des situations qui vous épuisent émotionnellement. Protéger votre paix est une forme de soin personnel.",
-          "Pratiquez des exercices de respiration. Le dhikr (souvenir) peut être méditatif – répéter « SubhanAllah » avec des respirations lentes et profondes combine le calme spirituel et physique.",
-          "Trouvez une communauté de soutien ou un mentor qui comprend le parcours de conversion. Vous n'êtes pas obligé de le faire seul."
+          "Assurez les bases : assez de sommeil, une alimentation correcte, un peu de mouvement. L'état physique influence l'état émotionnel plus qu'on ne le croit.",
+          "Gardez contact avec un ami ou un mentor. Même un appel par semaine change les choses.",
+          "Faites des choses qui vous apaisent, que ce soit une marche dehors, la lecture ou un bricolage. Prendre plaisir à la vie n'a rien de contraire à l'islam.",
+          "Tournez-vous vers le rappel d'Allah (dhikr) et la prière quand l'anxiété monte. Répéter « SubhanAllah » ou réciter Al-Fatiha peut apaiser un mauvais moment.",
+          "Écrivez ce que vous ressentez, ou dites-le dans une invocation. Le sortir de votre tête allège la pression.",
+          "Posez des limites avec les personnes et les situations qui vous épuisent. Protéger votre paix n'est pas égoïste.",
+          "Ralentissez votre respiration. Le dhikr s'y prête bien : répéter « SubhanAllah » sur de longues respirations calme à la fois le corps et le cœur.",
+          "Trouvez une communauté ou un mentor qui comprend ce qu'est une conversion. Vous n'êtes pas censé vivre cela seul."
         ]
       },
       "seekHelp": {
-        "title": "Quand demander l’aide d’un professionnel",
-        "intro": "Si vous ressentez l'un des symptômes suivants, veuillez contacter un professionnel de la santé mentale ou une ligne d'assistance téléphonique en cas de crise. Ce n’est pas le signe d’une foi faible : obtenir de l’aide est une étape courageuse vers la guérison que l’Islam soutient pleinement.",
+        "title": "Quand demander l'aide d'un professionnel",
+        "intro": "Si l'une des situations suivantes vous correspond, contactez un professionnel de la santé mentale ou une ligne de crise. Avoir besoin d'aide n'est pas un signe de foi faible. L'islam soutient le fait de se soigner, et demander de l'aide demande plus de courage que de s'en passer.",
         "items": [
-          "Tristesse persistante, désespoir ou vide qui ne s'améliore pas",
-          "Incapacité d'accomplir les fonctions quotidiennes - manger, travailler ou prendre soin de soi - en raison de votre état émotionnel",
-          "Crises de panique fréquentes ou anxiété intense qui interfèrent avec la vie quotidienne",
-          "Pensées d'automutilation ou souhait de ne plus être en vie",
-          "Se sentir complètement dépassé ou incapable de faire face à la vie quotidienne",
-          "Utiliser des substances pour gérer vos émotions"
+          "Une tristesse, un désespoir ou un vide qui persiste et ne se dissipe pas",
+          "Ne plus arriver à gérer le quotidien, comme manger, travailler ou se laver, à cause de ce que vous ressentez",
+          "Des crises de panique, ou une anxiété assez forte pour gêner la vie de tous les jours",
+          "Des pensées de vous faire du mal, ou le souhait de ne plus être en vie",
+          "Le sentiment d'être totalement incapable de faire face",
+          "Consommer des substances pour passer la journée"
         ],
         "calloutTitle": "Si vous êtes en danger immédiat",
-        "calloutBody": "Si vous pensez vous faire du mal, veuillez appeler le 911 ou vous rendre immédiatement aux urgences les plus proches. Votre vie est précieuse et valorisée."
+        "calloutBody": "Si vous pensez à vous faire du mal, appelez ou textez le 9-8-8 à toute heure. Si vous êtes en danger immédiat, composez le 9-1-1 ou rendez-vous tout de suite au service d'urgence le plus proche. Votre vie compte."
       },
       "disclaimer": {
-        "label": "Note:",
-        "body": "Ce guide est destiné au soutien émotionnel général et à l’éducation. Cela ne remplace pas une thérapie professionnelle ou un avis médical. Si vous vivez une crise de santé mentale, veuillez contacter un professionnel agréé ou l'une des ressources de crise répertoriées ci-dessous."
+        "label": "Note :",
+        "body": "Ce guide offre un soutien émotionnel et des informations générales. Il ne remplace pas une thérapie ni un avis médical. Si vous traversez une crise de santé mentale, contactez un professionnel autorisé ou l'une des ressources de crise ci-dessous."
       },
       "resources": {
-        "title": "Ressources d'assistance",
-        "crisisHelplinesTitle": "Lignes d'assistance téléphonique en cas de crise",
-        "crisisHelplines": [
+        "title": "Ressources de soutien",
+        "confidentialityNote": "Les lignes d'écoute gardent confidentiel ce que vous leur dites. Certaines, dont Jeunesse, J'écoute, précisent qu'elles peuvent contacter les services d'urgence si la vie de quelqu'un est en danger.",
+        "officialLabel": "Site officiel",
+        "supportGroups": [
           {
-            "name": "988 Bouée de sauvetage en cas de suicide et de crise",
-            "desc": "Assistance 24h/24 et 7j/7 pour toute personne en détresse ou en crise.",
-            "label": "Appel ou SMS :",
-            "contact": "988"
+            "id": "urgent",
+            "title": "Si vous êtes en danger ou pensez au suicide",
+            "items": [
+              {
+                "name": "Services d'urgence (9-1-1)",
+                "desc": "Si vous ou quelqu'un d'autre êtes en danger immédiat ou avez besoin d'aide médicale urgente, composez le 9-1-1 ou rendez-vous au service d'urgence le plus proche.",
+                "contacts": [
+                  {
+                    "label": "Appelez :",
+                    "value": "9-1-1",
+                    "href": "tel:911"
+                  }
+                ],
+                "officialHref": "https://www.canada.ca/en/public-health/services/mental-health-services/mental-health-get-help.html",
+                "checked": "Vérifié le 23 septembre 2026"
+              },
+              {
+                "name": "9-8-8 : Ligne d'aide en cas de crise de suicide",
+                "desc": "Pour toute personne au Canada qui pense au suicide ou qui s'inquiète pour quelqu'un. Gratuit, 24 heures sur 24.",
+                "contacts": [
+                  {
+                    "label": "Appelez :",
+                    "value": "9-8-8",
+                    "href": "tel:988"
+                  },
+                  {
+                    "label": "Textez :",
+                    "value": "9-8-8",
+                    "href": "sms:988"
+                  }
+                ],
+                "officialHref": "https://988.ca/",
+                "checked": "Vérifié le 23 septembre 2026"
+              },
+              {
+                "name": "Jeunesse, J'écoute (Kids Help Phone)",
+                "desc": "Soutien gratuit 24 h sur 24, 7 jours sur 7, pour les jeunes partout au Canada. Les textos sont confidentiels, mais pas anonymes.",
+                "contacts": [
+                  {
+                    "label": "Appelez :",
+                    "value": "1-800-668-6868",
+                    "href": "tel:18006686868"
+                  },
+                  {
+                    "label": "Textez PARLER au",
+                    "value": "686868",
+                    "href": "sms:686868"
+                  }
+                ],
+                "officialHref": "https://kidshelpphone.ca/",
+                "checked": "Vérifié le 23 septembre 2026"
+              },
+              {
+                "name": "Ligne d'écoute d'espoir pour le mieux-être",
+                "desc": "Counseling et intervention en situation de crise 24 h sur 24, 7 jours sur 7, pour les Premières Nations, les Inuit et les Métis partout au Canada.",
+                "contacts": [
+                  {
+                    "label": "Appelez :",
+                    "value": "1-855-242-3310",
+                    "href": "tel:18552423310"
+                  }
+                ],
+                "officialHref": "https://www.hopeforwellness.ca/",
+                "checked": "Vérifié le 23 septembre 2026"
+              }
+            ]
           },
           {
-            "name": "Ligne de texte de crise",
-            "desc": "Assistance de crise gratuite par SMS 24h/24 et 7j/7.",
-            "label": "Envoyez HOME à",
-            "contact": "741741"
+            "id": "faith",
+            "title": "Soutien attentif à la foi (pas un service d'urgence)",
+            "items": [
+              {
+                "name": "Ligne d'écoute Naseeha",
+                "desc": "Une ligne d'écoute 24 h sur 24, 7 jours sur 7, pour les jeunes musulmans, gérée par un organisme de bienfaisance musulman canadien. Ce n'est pas un service d'urgence. Si votre vie est en danger, composez d'abord le 9-1-1 ou le 9-8-8.",
+                "contacts": [
+                  {
+                    "label": "Appelez :",
+                    "value": "1 (866) 627-3342",
+                    "href": "tel:18666273342"
+                  }
+                ],
+                "officialHref": "https://www.naseeha.org/",
+                "checked": "Vérifié le 23 septembre 2026"
+              }
+            ]
           },
           {
-            "name": "Ligne d'assistance téléphonique en santé mentale Naseeha",
-            "desc": "Assistance confidentielle pour les musulmans, disponible 24h/24 et 7j/7.",
-            "label": "Appel:",
-            "contact": "1-866-627-3342"
+            "id": "women",
+            "title": "Services pour les femmes",
+            "intro": "Des services gérés par des organismes de bienfaisance musulmans pour les femmes et les filles. Si vous êtes en danger immédiat, composez le 9-1-1.",
+            "items": [
+              {
+                "name": "Ligne d'urgence de Sakeenah Canada",
+                "desc": "Une ligne d'urgence 24 h sur 24, 7 jours sur 7, pour les femmes et les enfants qui fuient la violence familiale, gérée par un organisme de bienfaisance musulman canadien. Sakeenah gère aussi des maisons de transition dans plusieurs villes canadiennes.",
+                "contacts": [
+                  {
+                    "label": "Appelez :",
+                    "value": "1-888-671-3446",
+                    "href": "tel:18886713446"
+                  }
+                ],
+                "officialHref": "https://sakeenahcanada.com/",
+                "checked": "Vérifié le 23 septembre 2026"
+              },
+              {
+                "name": "Nisa Helpline",
+                "desc": "Soutien par les pairs, gratuit et confidentiel, pour les femmes et les filles musulmanes de 14 ans et plus, 7 jours sur 7, de 8 h à minuit (heure de l'Est). C'est du soutien par les pairs, pas une ligne de crise.",
+                "contacts": [
+                  {
+                    "label": "Appelez :",
+                    "value": "+1 888 711 6472",
+                    "href": "tel:+18887116472"
+                  }
+                ],
+                "officialHref": "https://www.nisafoundation.ca/programs/nisa-helpline",
+                "checked": "Vérifié le 23 septembre 2026"
+              },
+              {
+                "name": "Nisa Homes",
+                "desc": "Un refuge sûr pour les femmes et les enfants, avec des maisons partout au Canada. Il est géré par la Nisa Foundation. Faites une demande sur le site de la Nisa Foundation ou appelez la Nisa Helpline.",
+                "contacts": [
+                  {
+                    "label": "Appelez :",
+                    "value": "+1 888 711 6472",
+                    "href": "tel:+18887116472"
+                  }
+                ],
+                "officialHref": "https://www.nisafoundation.ca/",
+                "checked": "Vérifié le 23 septembre 2026"
+              }
+            ],
+            "warningTitle": "Si quelqu'un vérifie votre téléphone ou votre ordinateur",
+            "warningBody": "Le gouvernement du Canada avertit qu'une personne violente peut surveiller votre activité et votre historique en ligne, et qu'il n'existe aucun moyen sûr de tout effacer. Si vous êtes inquiète ou inquiet, cherchez de l'aide sur un appareil ailleurs, par exemple à la bibliothèque ou chez une amie de confiance.",
+            "warningLinkLabel": "Gouvernement du Canada : planifier votre sécurité",
+            "warningLinkHref": "https://www.canada.ca/en/public-health/services/health-promotion/stop-family-violence/plan-your-safety.html"
+          },
+          {
+            "id": "ontario",
+            "title": "Trouver des services en Ontario",
+            "intro": "Ces lignes vous aident à trouver des services locaux qui ne sont pas des urgences. Hors de l'Ontario, le gouvernement du Canada tient une liste de services pour chaque province et territoire.",
+            "linkLabel": "Voir les services par province et territoire",
+            "linkHref": "https://www.canada.ca/en/public-health/services/mental-health-services/mental-health-get-help.html",
+            "items": [
+              {
+                "name": "211 Ontario",
+                "desc": "De l'aide pour trouver des services communautaires, sociaux et de santé près de chez vous. Des personnes répondent 24 h sur 24, 7 jours sur 7, dans plus de 150 langues.",
+                "contacts": [
+                  {
+                    "label": "Appelez ou textez :",
+                    "value": "2-1-1",
+                    "href": "tel:211"
+                  }
+                ],
+                "officialHref": "https://211ontario.ca/contact/",
+                "checked": "Vérifié le 23 septembre 2026"
+              },
+              {
+                "name": "ConnexOntario",
+                "desc": "Aide gratuite 24 h sur 24, 7 jours sur 7, pour trouver des services en santé mentale, en dépendances et en jeu problématique en Ontario.",
+                "contacts": [
+                  {
+                    "label": "Appelez :",
+                    "value": "1-866-531-2600",
+                    "href": "tel:18665312600"
+                  },
+                  {
+                    "label": "Textez CONNEX au",
+                    "value": "247247",
+                    "href": "sms:247247"
+                  }
+                ],
+                "officialHref": "https://www.connexontario.ca/",
+                "checked": "Vérifié le 23 septembre 2026"
+              }
+            ]
           }
         ],
-        "directoriesTitle": "Annuaires et assistance",
+        "directoriesTitle": "Répertoires et soutien",
         "directories": [
           {
-            "name": "Centre Khalil",
-            "desc": "Thérapie sensible à la foi et groupes de soutien pour les musulmans.",
-            "linkLabel": "Visitez le site Web"
+            "name": "Khalil Center",
+            "desc": "Thérapie et groupes de soutien pour les musulmans, par des cliniciens qui tiennent compte de la foi plutôt que de la contourner.",
+            "linkLabel": "Visiter le site"
           },
           {
-            "name": "Votre imam local ou aumônier musulman",
-            "desc": "De nombreux imams et aumôniers sont formés pour fournir une orientation spirituelle et émotionnelle. N'hésitez pas à en contacter un dans votre mosquée locale."
+            "name": "Votre imam ou aumônier musulman",
+            "desc": "Beaucoup d'imams et d'aumôniers sont formés à l'accompagnement spirituel et émotionnel. Renseignez-vous à votre mosquée."
           },
           {
-            "name": "Groupes de support de conversion locaux",
-            "desc": "Vérifiez auprès de votre mosquée les groupes de soutien aux convertis dans votre région. De nombreuses communautés organisent régulièrement des rassemblements où les nouveaux musulmans partagent leurs expériences et se soutiennent mutuellement."
+            "name": "Groupes de soutien locaux pour convertis",
+            "desc": "Demandez à votre mosquée s'il existe un groupe de convertis près de chez vous. Beaucoup de communautés organisent des rencontres régulières où les nouveaux musulmans parlent ensemble des mêmes difficultés."
           }
         ],
-        "furtherReadingTitle": "Lectures complémentaires",
-        "furtherReading": [
+        "furtherReadingTitle": "Pour aller plus loin",
+        "reading": [
           {
-            "name": "La santé mentale et l’expérience des convertis musulmans",
-            "desc": "Une exploration approfondie des défis émotionnels uniques auxquels les convertis sont confrontés, avec des stratégies d'adaptation pratiques.",
-            "linkLabel": "Lire l'article"
+            "name": "Becoming Muslim: The Lives of American Converts to Islam (rapport en anglais)",
+            "desc": "Un rapport publié en 2025 par le Yaqeen Institute sur 618 convertis aux États-Unis. Il décrit ce qui les a aidés après leur conversion, comme les mosquées, les imams et les amis musulmans. C'est une recherche, pas un guide de développement personnel.",
+            "linkLabel": "Lire le rapport",
+            "href": "https://yaqeeninstitute.org/read/data/reports/becoming-muslim-lives-of-american-converts-to-islam"
           }
         ]
       },
       "crossLink": {
-        "prompt": "Vous recherchez le soutien de la communauté?",
-        "linkLabel": "Lire : Construire votre communauté musulmane"
+        "prompt": "Vous cherchez du soutien communautaire?",
+        "linkLabel": "À lire : bâtir votre communauté musulmane"
       }
     },
     "resourcesPage": {
-      "description": "Des livres, des vidéos, des applications et des communautés sélectionnés pour vous accompagner dans votre parcours.",
+      "description": "Des livres, des vidéos, des applications et des communautés pour bien commencer.",
       "findMasjidTitle": "Trouver une mosquée",
-      "findMasjidBody": "Recherchez des mosquées dans la région de Toronto et connectez-vous avec votre communauté locale.",
+      "findMasjidBody": "Cherchez des mosquées partout au Canada et trouvez-en une où vous pouvez entrer.",
       "filterAriaLabel": "Filtrer les ressources par catégorie",
       "categories": {
-        "all": "Tous",
+        "all": "Toutes",
         "article": "Articles",
         "video": "Vidéos",
         "app": "Applications",
@@ -832,172 +1182,738 @@
         "other": "ressources affichées"
       },
       "emptyTitle": "Aucune ressource dans cette catégorie",
-      "emptyPrefix": "Essayez de sélectionner une autre catégorie ou",
-      "emptyAction": "voir toutes les ressources"
+      "emptyPrefix": "Essayez une autre catégorie, ou",
+      "emptyAction": "voir toutes les ressources",
+      "collectionsTitle": "Sélections de ressources",
+      "collectionsIntro": "Choisissez la sélection qui correspond à où vous en êtes maintenant. Vous n'avez pas à toutes les parcourir.",
+      "chooseTitle": "Comment choisir une ressource",
+      "warningsTitle": "Mises en garde sur les ressources"
     },
     "findMasjid": {
-      "description": "Recherchez des mosquées dans la région de Toronto, comparez les options d'assistance et ouvrez les itinéraires dans votre application de cartes préférée.",
+      "description": "Cherchez des mosquées et des centres islamiques partout au Canada, comparez ce que chacun offre et ouvrez l'itinéraire dans votre application de cartes habituelle.",
+      "coverage": {
+        "title": "Ce que couvre cet annuaire",
+        "summary": "{count} mosquées et centres islamiques dans {regions} provinces et territoires : {list}.",
+        "scope": "L'annuaire répertorie les mosquées et centres islamiques sunnites majoritaires qui ont un site ou une page officielle. Il n'est pas complet, et d'autres lieux s'ajoutent au fur et à mesure des vérifications.",
+        "programNote": "Si une fiche n'a pas de note sur un programme pour nouveaux musulmans, cela ne veut pas dire qu'il n'y en a pas. Posez la question quand vous appelez."
+      },
       "offlineTitle": "Vous êtes hors ligne",
-      "offlineBody": "La liste des mosquées, la recherche de texte et les filtres sont disponibles hors ligne. La carte interactive et la recherche d'adresse nécessitent une connexion Internet.",
-      "mapTitle": "Carte de la mosquée",
-      "mapBody": "Explorez les résultats actuels sur une carte en direct, puis utilisez une recherche d'adresse pour trier la liste en fonction de ce qui est le plus proche de vous.",
+      "offlineBody": "La liste des mosquées, la recherche par texte et les filtres fonctionnent hors ligne. La carte interactive et la recherche d'adresse ont besoin d'une connexion.",
+      "mapTitle": "Carte des mosquées",
+      "mapBody": "Voyez les résultats actuels sur une carte interactive, puis cherchez une adresse pour trier la liste par proximité.",
       "mapLoading": "Chargement de la carte...",
       "mapOfflineTitle": "Carte indisponible hors ligne",
-      "mapOfflineBody": "Reconnectez-vous pour charger les vignettes de la carte et rechercher une adresse à proximité. La liste des mosquées ci-dessous fonctionne toujours hors ligne.",
+      "mapOfflineBody": "Reconnectez-vous pour charger la carte et chercher une adresse proche. La liste ci-dessous fonctionne dans tous les cas.",
       "mapEmptyTitle": "Aucune mosquée ne correspond à la recherche et aux filtres actuels.",
-      "mapLegendMasjid": "mosquée",
+      "mapLegendMasjid": "Mosquée",
       "mapLegendSelected": "Mosquée sélectionnée",
       "mapLegendSearch": "Zone recherchée",
-      "locationLabel": "Rechercher à proximité d'une adresse",
-      "locationPlaceholder": "Entrez une adresse ou un quartier de la région de Toronto...",
-      "locationAction": "Zone de recherche",
-      "locationSearching": "Trouver des mosquées à proximité...",
-      "locationClear": "Zone dégagée",
-      "locationHelper": "Nous n'utilisons pas la localisation de votre appareil. Entrez une adresse pour trier la liste par distance.",
-      "locationResults": "Affichage des mosquées les plus proches de",
-      "locationError": "Nous n'avons pas pu trouver cette adresse. Essayez une adresse postale ou un nom de quartier plus complet.",
+      "mapLegendApproximate": "Emplacement approximatif (centre-ville seulement)",
+      "approximateLocation": "Emplacement approximatif. La carte montre le centre-ville, pas le bâtiment. Servez-vous de l'adresse pour le trouver.",
+      "noMapLocation": "Absent de la carte. Nous n'avons pas pu situer cette adresse. Vérifiez le site ou appelez avant d'y aller.",
+      "distanceApprox": "environ",
+      "localVerificationNeeded": "À vérifier sur place",
+      "locationLabel": "Chercher près d'une adresse",
+      "locationPlaceholder": "Entrez une adresse, une ville ou un code postal...",
+      "locationAction": "Chercher la zone",
+      "locationSearching": "Recherche des mosquées proches...",
+      "locationClear": "Effacer la zone",
+      "locationHelper": "Le bouton Utiliser ma position est facultatif et ne s'active que si vous appuyez dessus. Votre navigateur vous demande d'abord. La position reste sur cet appareil et sert seulement à trier la liste. Elle n'est jamais envoyée à un serveur. Une adresse que vous tapez est envoyée à OpenStreetMap pour la localiser.",
+      "deviceLocationAction": "Utiliser ma position",
+      "deviceLocationLocating": "Recherche de votre position...",
+      "deviceLocationLabel": "votre position actuelle (gardée sur cet appareil)",
+      "deviceLocationDenied": "Nous n'avons pas pu obtenir votre position. L'accès à la localisation est peut-être désactivé pour ce site. Vous pouvez quand même chercher par adresse.",
+      "deviceLocationUnsupported": "Ce navigateur ne peut pas partager votre position. Vous pouvez chercher par adresse à la place.",
+      "locationResults": "Mosquées les plus proches de",
+      "locationError": "Nous n'avons pas trouvé cette adresse. Essayez une adresse plus complète ou le nom d'un quartier.",
       "locationOffline": "La recherche d'adresse nécessite une connexion Internet.",
-      "searchPlaceholder": "Recherchez par nom, adresse, ville, notes, service ou code postal...",
-      "searchLabel": "Rechercher des mosquées",
+      "searchPlaceholder": "Chercher par nom, adresse, ville, notes, service ou code postal...",
+      "searchLabel": "Chercher des mosquées",
       "filtersTitle": "Filtrer cette liste",
+      "provinceLabel": "Province ou territoire",
+      "provinceAll": "Toutes les provinces et tous les territoires",
       "cityLabel": "Ville",
       "cityAll": "Toutes les villes",
       "servicesLabel": "Services",
-      "amenitiesLabel": "Assistance et accessibilité",
-      "womenFriendly": "Espace convivial pour les femmes",
-      "convertSupport": "Prise en charge des conversions",
-      "parking": "Parking",
+      "amenitiesLabel": "Soutien et accessibilité",
+      "womenFriendly": "Espace accueillant pour les femmes",
+      "convertSupport": "Soutien aux convertis",
+      "parking": "Stationnement",
       "accessibility": "Accessibilité",
-      "clearFilters": "Supprimer tous les filtres",
-      "showOnMap": "Afficher sur la carte",
-      "selectedLabel": "Sélectionné sur la carte",
-      "distanceAway": "loin",
-      "googleMaps": "Google Cartes",
-      "appleMaps": "Cartes Apple",
+      "clearFilters": "Effacer tous les filtres",
+      "showOnMap": "Voir sur la carte",
+      "selectedLabel": "Sélectionnée sur la carte",
+      "distanceAway": "de distance",
+      "googleMaps": "Google Maps",
+      "appleMaps": "Plans d'Apple",
       "serviceLabels": {
         "quran-classes": "Cours de Coran",
         "community-events": "Événements communautaires",
-        "new-muslim-support": "Nouveau soutien musulman",
+        "new-muslim-support": "Soutien aux nouveaux musulmans",
         "youth-programs": "Programmes jeunesse",
-        "weekend-school": "École du week-end",
+        "weekend-school": "École de fin de semaine",
         "library": "Bibliothèque",
-        "interfaith-outreach": "Sensibilisation interconfessionnelle"
+        "interfaith-outreach": "Dialogue interreligieux"
       },
       "liveRegion": {
         "one": "mosquée trouvée",
         "other": "mosquées trouvées"
       },
       "emptyTitle": "Aucune mosquée trouvée",
-      "emptyPrefix": "Essayez un autre terme de recherche, une autre adresse ou une autre combinaison de filtres, ou",
-      "emptyAction": "tout effacer",
-      "visitWebsite": "Visitez le site Web",
-      "visitWebsiteSuffix": "pour",
-      "crossLinkPrompt": "Vous débutez dans la visite d'une mosquée ? Apprenez à quoi vous attendre.",
-      "crossLinkLabel": "Lire : Construire votre communauté musulmane"
+      "emptyPrefix": "Essayez un autre terme, une autre adresse ou une autre combinaison de filtres, ou",
+      "emptyAction": "effacez tout",
+      "visitWebsite": "Visiter le site",
+      "visitWebsiteSuffix": " de ",
+      "crossLinkPrompt": "Vous n'êtes jamais entré dans une mosquée? Voici à quoi vous attendre.",
+      "crossLinkLabel": "À lire : bâtir votre communauté musulmane",
+      "firstVisitGuideLabel": "À lire : guide de la première visite à la mosquée",
+      "noteLabels": {
+        "visitor": "Note pour les visiteurs",
+        "womenSpace": "Espace pour les femmes",
+        "newMuslimSupport": "Soutien aux nouveaux musulmans",
+        "accessibility": "Accessibilité",
+        "jumuah": "Prière du vendredi (jumu'ah)",
+        "classes": "Cours",
+        "parking": "Stationnement"
+      },
+      "firstVisit": {
+        "title": "Avant votre première visite",
+        "subtitle": "Quelques minutes de vérification à l'avance rendent la visite plus sereine.",
+        "askTitle": "Quoi demander avant d'y aller",
+        "askItems": [
+          "À quelle heure dois-je arriver pour cette prière ou pour la prière du vendredi (jumu'ah)?",
+          "Quelle entrée doit utiliser une personne qui vient pour la première fois?",
+          "L'espace de prière des femmes est-il ouvert pour cette prière?",
+          "Y a-t-il une personne-ressource pour les nouveaux musulmans, un cours ou un mentor?",
+          "Y a-t-il du stationnement et une entrée accessible?"
+        ],
+        "scriptTitle": "Exemple d'appel ou de courriel",
+        "scriptBody": "Assalamu alaykum. Je suis nouveau musulman (nouvelle musulmane) et j'aimerais venir pour la première fois. Pourriez-vous m'indiquer par où entrer, s'il y a une personne-ressource pour les nouveaux musulmans et ce que je devrais savoir avant de venir?",
+        "verifyTitle": "Comment vérifier les informations",
+        "verifyItems": [
+          "Commencez par le site officiel quand une étiquette de source est affichée.",
+          "Appelez ou écrivez avant de vous fier aux notes sur les cours, la prière du vendredi, le stationnement ou l'accessibilité.",
+          "Considérez une fiche sans source comme une information à vérifier sur place.",
+          "Demandez si quelque chose a changé pour le Ramadan, l'Aïd, des travaux ou un événement spécial."
+        ],
+        "bringTitle": "Quoi apporter",
+        "bringBody": "Portez des vêtements propres et pudiques qui vous permettent de vous incliner et de vous prosterner. Un tapis de prière est facultatif. Des bas peuvent vous mettre à l'aise si vous êtes gêné d'enlever vos chaussures.",
+        "bringFallback": "Si cette mosquée ne peut pas vous aider, demandez si elle connaît un cours, un aumônier, un groupe de convertis ou une personne dans une autre mosquée près de chez vous."
+      }
     },
     "glossary": {
-      "description": "Référence rapide pour les termes et concepts islamiques. Recherchez et apprenez à votre rythme.",
-      "searchPlaceholder": "Termes de recherche...",
-      "searchLabel": "Glossaire de recherche",
+      "description": "Un aide-mémoire des termes islamiques. Consultez-le dès qu'un mot est nouveau.",
+      "searchPlaceholder": "Chercher un terme...",
+      "searchLabel": "Chercher dans le glossaire",
       "liveRegion": {
         "one": "terme trouvé",
         "other": "termes trouvés"
       },
       "emptyTitle": "Aucun terme trouvé",
-      "emptyPrefix": "Essayez un autre terme de recherche ou",
-      "emptyAction": "effacer la recherche",
-      "seeAlso": "See also:"
+      "emptyPrefix": "Essayez un autre terme, ou",
+      "emptyAction": "effacez la recherche",
+      "seeAlso": "Voir aussi :"
     },
     "offline": {
       "title": "Vous êtes hors ligne",
-      "body": "Il semble que vous n'êtes pas connecté à Internet. La page que vous avez demandée n'a pas encore été mise en cache pour une utilisation hors ligne.",
-      "note": "Les pages que vous avez visitées précédemment devraient toujours être disponibles. Essayez de naviguer vers une page que vous avez déjà ouverte ou reconnectez-vous à Internet et réessayez.",
-      "goHome": "Rentrer à la maison",
-      "retry": "Réessayer la connexion"
+      "body": "Vous semblez ne pas avoir de connexion Internet pour le moment, et cette page n'a pas encore été enregistrée pour une utilisation hors ligne.",
+      "note": "Les pages que vous avez déjà visitées devraient encore s'ouvrir. Essayez l'une d'elles, ou reconnectez-vous et rechargez celle-ci.",
+      "goHome": "Aller à l'accueil",
+      "retry": "Réessayer"
     },
     "notFound": {
       "title": "Page introuvable",
-      "body": "Cette page semble s'être égarée. Il a peut-être été déplacé, supprimé ou l'URL est peut-être incorrecte. Remettons-nous sur la bonne voie.",
-      "returnHome": "Retour à la maison",
+      "body": "Cette page semble s'être égarée. Elle a peut-être été déplacée, ou l'adresse est légèrement erronée. Remettons-vous sur la bonne voie.",
+      "returnHome": "Retour à l'accueil",
       "goToRoadmap": "Aller à la feuille de route"
     },
     "prayerTimes": {
-      "title": "Horaires de prière",
-      "subtitle": "Consultez les heures de prière d'aujourd'hui pour votre région.",
+      "title": "Heures de prière",
+      "subtitle": "Les heures de prière d'aujourd'hui pour votre région.",
       "locationLabel": "Votre emplacement",
-      "locationPlaceholder": "Entrez une ville ou une adresse (par exemple Toronto, ON)",
-      "locationButton": "Obtenir les horaires",
-      "loading": "Récupération des heures de prière…",
-      "error": "Impossible de charger les heures de prière. Veuillez vérifier votre connexion et réessayer.",
-      "locationError": "Impossible de trouver cet emplacement. Essayez une adresse ou un nom de ville plus spécifique.",
-      "disclaimer": "Les horaires de prière sont des estimations approximatives calculées selon la méthode ISNA. Confirmez toujours auprès de votre mosquée locale pour connaître les horaires de prière exacts.",
+      "locationPlaceholder": "Entrez une ville ou une adresse (par exemple Halifax, NS)",
+      "locationButton": "Obtenir les heures",
+      "loading": "Chargement des heures de prière...",
+      "error": "Impossible de charger les heures de prière. Vérifiez votre connexion et réessayez.",
+      "locationError": "Impossible de trouver cet endroit. Essayez une adresse ou un nom de ville plus précis.",
+      "disclaimer": "Ces heures sont des estimations calculées selon la méthode de l'ISNA et affichées à l'heure locale du lieu recherché. Confirmez l'horaire exact auprès de votre mosquée.",
+      "timeZoneLabel": "Fuseau horaire",
       "hijriDate": "Date islamique",
       "gregorianDate": "Date",
-      "nextPrayer": "Suivant",
+      "nextPrayer": "Prochaine",
       "prayers": {
         "Fajr": "Fajr",
         "Sunrise": "Lever du soleil",
         "Dhuhr": "Dhuhr",
-        "Asr": "asr",
-        "Maghrib": "Maghreb",
-        "Isha": "Icha"
+        "Asr": "Asr",
+        "Maghrib": "Maghrib",
+        "Isha": "Isha"
       },
       "prayerDescriptions": {
-        "Fajr": "Prière avant l'aube",
-        "Sunrise": "Lever du soleil — Fin du Fajr",
+        "Fajr": "Prière de l'aube",
+        "Sunrise": "Lever du soleil, fin du temps de Fajr",
         "Dhuhr": "Prière de midi",
         "Asr": "Prière de l'après-midi",
-        "Maghrib": "Prière au coucher du soleil",
-        "Isha": "Prière nocturne"
+        "Maghrib": "Prière du coucher du soleil",
+        "Isha": "Prière de la nuit"
       },
-      "offlineTitle": "Les horaires de prière nécessitent une connexion Internet",
-      "offlineBody": "Veuillez vous connecter à Internet pour récupérer les heures de prière de votre région.",
-      "learnMore": "Nouveau dans la prière ?",
-      "learnMoreLink": "Découvrez les cinq prières quotidiennes"
+      "offlineTitle": "Les heures de prière nécessitent une connexion Internet",
+      "offlineBody": "Connectez-vous à Internet pour charger les heures de prière de votre région.",
+      "learnMore": "Vous découvrez la prière?",
+      "learnMoreLink": "Découvrir les cinq prières quotidiennes",
+      "loadingAriaLabel": "Chargement des heures de prière",
+      "listAriaLabel": "Heures de prière",
+      "errorTitle": "Erreur"
     },
     "qibla": {
-      "title": "Recherche de Qibla",
-      "subtitle": "Trouvez la direction de la Kaaba à la Mecque pour vos prières.",
-      "directionLabel": "Direction de la Qibla",
-      "degrees": "degrés du Nord",
-      "loading": "Calculer la direction de la Qibla…",
-      "error": "Impossible de déterminer la direction de la Qibla. Veuillez réessayer.",
-      "permissionDenied": "L'accès à la localisation a été refusé. Vous pouvez saisir les coordonnées manuellement ci-dessous.",
+      "title": "Trouver la qibla",
+      "subtitle": "Trouvez la direction de la Kaaba à La Mecque pour la prière.",
+      "directionLabel": "Direction de la qibla",
+      "degrees": "degrés à partir du nord",
+      "loading": "Calcul de la direction de la qibla...",
+      "error": "Impossible de calculer la direction de la qibla. Veuillez réessayer.",
+      "permissionDenied": "L'accès à la position a été refusé. Vous pouvez entrer des coordonnées à la main ci-dessous.",
       "useMyLocation": "Utiliser ma position",
-      "manualEntry": "Ou entrez les coordonnées manuellement",
-      "latitudePlaceholder": "Latitude (par exemple 43,65)",
-      "longitudePlaceholder": "Longitude (par exemple -79,38)",
-      "calculate": "Trouver la Qibla",
-      "disclaimer": "La direction indiquée est un relèvement approximatif. Pour de meilleurs résultats, utilisez une boussole physique pour vous orienter.",
-      "compassTip": "Faites face à ce relèvement de boussole pendant la prière. Depuis Toronto, la Qibla se trouve à peu près au nord-est.",
-      "compassTipLive": "Tenez votre téléphone à plat et faites-le pivoter jusqu'à ce que la flèche pointe vers le haut. Vous êtes désormais face à la Qibla !",
-      "compassActive": "Boussole en direct active : pointez votre téléphone pour trouver la Qibla",
-      "compassUnavailable": "Boussole non disponible sur cet appareil. Utilisez une boussole physique pour faire face au relèvement indiqué.",
-      "offlineTitle": "Emplacement requis",
-      "offlineBody": "Autorisez l'accès à la localisation ou entrez les coordonnées manuellement pour trouver la direction de la Qibla.",
-      "learnMore": "Pourquoi les musulmans font-ils face à la Kaaba ?",
-      "learnMoreBody": "Faire face à la Kaaba à La Mecque pendant la prière unifie les musulmans du monde entier dans une seule direction de culte, symbolisant l'unité et la dévotion à Allah."
+      "manualEntry": "Ou entrez des coordonnées à la main",
+      "latitudePlaceholder": "Latitude (ex. 43.65)",
+      "longitudePlaceholder": "Longitude (ex. -79.38)",
+      "calculate": "Trouver la qibla",
+      "disclaimer": "La direction affichée est un angle approximatif. Une vraie boussole vous orientera de façon plus fiable.",
+      "compassTip": "Tournez-vous dans cette direction pendant la prière. Depuis le Canada, la qibla pointe à peu près vers le nord-est.",
+      "compassTipLive": "Tenez votre téléphone à plat et tournez jusqu'à ce que la flèche pointe vers le haut. Vous faites alors face à la qibla.",
+      "compassActive": "Boussole en direct activée. Orientez votre téléphone pour trouver la qibla.",
+      "compassUnavailable": "Cet appareil n'a pas de boussole disponible. Utilisez une vraie boussole pour vous tourner vers l'angle indiqué.",
+      "offlineTitle": "Position requise",
+      "offlineBody": "Autorisez l'accès à la position, ou entrez des coordonnées à la main, pour trouver la direction de la qibla.",
+      "learnMore": "Pourquoi les musulmans se tournent-ils vers la Kaaba?",
+      "learnMoreBody": "Partout dans le monde, les musulmans prient vers le même point, la Kaaba à La Mecque. Quel que soit le pays où l'on prie, la direction est commune.",
+      "latitudeLabel": "Latitude",
+      "longitudeLabel": "Longitude",
+      "errorTitle": "Erreur"
     },
     "asmaAlHusna": {
       "title": "Les 99 noms d'Allah",
-      "subtitle": "Explorez les beaux noms d'Allah – chaque nom révèle un attribut du Créateur.",
-      "searchPlaceholder": "Recherche par nom, signification ou translittération…",
-      "searchLabel": "Rechercher des noms",
-      "nameOfTheDay": "Nom du jour",
-      "meaning": "Signification",
-      "number": "Non.",
-      "loading": "Chargement des 99 noms…",
+      "subtitle": "Les noms d'Allah, chacun disant quelque chose de Lui.",
+      "searchPlaceholder": "Chercher par nom, sens ou translittération...",
+      "searchLabel": "Chercher des noms",
+      "nameOfTheDay": "Le nom du jour",
+      "meaning": "Sens",
+      "number": "N°",
+      "loading": "Chargement des 99 noms...",
       "error": "Impossible de charger les noms. Veuillez réessayer.",
       "liveRegion": {
         "one": "nom trouvé",
         "other": "noms trouvés"
       },
       "emptyTitle": "Aucun nom ne correspond à votre recherche",
-      "emptyPrefix": "Essayez un autre terme de recherche ou",
-      "emptyAction": "effacer la recherche",
-      "disclaimer": "Les significations anglaises sont des rendus concis. La pleine profondeur de chaque nom est mieux comprise grâce à une étude scientifique.",
+      "emptyPrefix": "Essayez un autre terme, ou",
+      "emptyAction": "effacez la recherche",
+      "disclaimer": "Les sens en anglais affichés ici sont de courtes traductions. Chaque nom va bien plus loin dans l'étude savante.",
       "reflection": "Réflexion",
-      "reflectionBody": "Le Prophète Muhammad (que la paix soit sur lui) a dit : « Allah a quatre-vingt-dix-neuf noms. Celui qui les mémorise entrera au Paradis. » Prenez le temps d'apprendre et de réfléchir à ces beaux noms."
+      "reflectionBody": "Le Prophète Muhammad (paix et bénédictions sur lui) a dit : « Allah a quatre-vingt-dix-neuf noms. Quiconque les retient entrera au Paradis. » Prenez votre temps avec eux.",
+      "errorTitle": "Erreur"
+    },
+    "duaDhikr": {
+      "metadataTitle": "Mémento des invocations et du rappel d'Allah",
+      "metadataDescription": "Un mémento pour débutants : invocations du Coran et des hadiths, formules de rappel d'Allah (dhikr) et place de vos propres mots.",
+      "eyebrow": "Mémento pour débutants",
+      "title": "Mémento des invocations (dua) et du rappel d'Allah (dhikr)",
+      "subtitle": "Une courte sélection d'invocations et de formules de rappel, avec leurs sources, pour commencer. Apprenez-en quelques-unes correctement avant d'en ajouter d'autres.",
+      "duaTopicButton": "Sujet : l'invocation",
+      "salahCompanionButton": "Compagnon de prière",
+      "usingTitle": "Utilisez ce mémento en douceur",
+      "usingPoints": [
+        "{count} entrées en tout, choisies pour être faciles à apprendre plutôt qu'exhaustives.",
+        "Les formulations du Coran et celles des hadiths sont indiquées séparément.",
+        "Vos propres mots sont les bienvenus aussi, et cette page les indique comme les vôtres plutôt que comme transmis."
+      ],
+      "crisisTitle": "Quand une invocation ne suffit pas",
+      "crisisBody": "Si vous risquez de vous faire du mal, ne vous sentez pas en sécurité, subissez de la violence ou n'arrivez plus à passer la journée, appelez les services d'urgence, une ligne de crise, un clinicien ou un professionnel de confiance près de chez vous. L'invocation et l'aide concrète vont ensemble. L'une ne remplace pas l'autre.",
+      "noArabicNote": "Il n'y a pas de formulation arabe fixe pour celle-ci.",
+      "transliterationLabel": "Translittération",
+      "meaningLabel": "Sens",
+      "beginnerNoteLabel": "Note pour débutants",
+      "compactTitle": "Mémento quotidien condensé",
+      "compactReference": [
+        {
+          "title": "Après la prière",
+          "body": "Dites SubhanAllah, Alhamdulillah et Allahu akbar lentement. Ajoutez le nombre complet quand cela vous semble stable."
+        },
+        {
+          "title": "Quand vous êtes débordé",
+          "body": "Dites une courte invocation, respirez, puis faites une chose concrète : appelez une personne sûre, mettez-vous hors de danger, demandez de l'aide."
+        },
+        {
+          "title": "Avant d'apprendre",
+          "body": "Demandez à Allah une science utile et un cœur ouvert avant un cours, un livre ou une conversation difficile."
+        }
+      ],
+      "sourcesNote": "Les références listées ici ont été vérifiées. La formulation des hadiths, la translittération et tout ce qui est personnel doivent encore être révisés par une personne qualifiée.",
+      "prayerTopicButton": "Sujet : la prière",
+      "mentalHealthButton": "Soutien en santé mentale",
+      "questionsButton": "Questions et doutes"
+    },
+    "quranStarter": {
+      "metadataTitle": "Parcours pour débuter avec le Coran",
+      "metadataDescription": "Un parcours pour débuter avec le Coran : quoi lire, comment écouter, ce qu'est une traduction, comment traiter un mushaf, et une première semaine à imprimer.",
+      "eyebrow": "Parcours pour débutants",
+      "title": "Parcours pour débuter avec le Coran",
+      "subtitle": "Commencez à lire et à écouter sans en faire un projet où l'on peut échouer. De courts passages, des traductions honnêtes, une question à la fois.",
+      "quranBreadcrumb": "Coran",
+      "quranTopicButton": "Sujet : le Coran",
+      "salahCompanionButton": "Apprendre à prier (salah)",
+      "mattersMostTitle": "Ce qui compte le plus maintenant",
+      "mattersMost": [
+        "Un petit passage lu avec attention vaut mieux qu'un long passage lu sous pression.",
+        "La traduction transmet le sens. Le texte arabe, lui, est le Coran.",
+        "Quand un verset vous trouble ou vous inquiète, apportez-le à un enseignant de confiance."
+      ],
+      "translationTitle": "Ce qu'est une traduction",
+      "translationBody": "Le texte arabe est le texte révélé. Une traduction vous donne accès au sens, mais elle reste le rendu d'une personne. Une partie de ce que contient l'arabe ne passe donc pas.",
+      "vocabularyTitle": "Des mots que vous croiserez",
+      "readingPathsTitle": "Des parcours de lecture pour commencer",
+      "readingPathsBody": "Rien n'est enregistré et rien n'est suivi ici. Choisissez un parcours, lisez lentement et arrêtez-vous avant d'en avoir trop.",
+      "weekTitle": "Une première semaine à imprimer",
+      "weekBody": "Imprimez-la et gardez-la là où vous la verrez. Elle n'enregistre pas vos progrès et ne vous rappelle rien.",
+      "listeningTitle": "Écouter sans vous sentir submergé",
+      "listening": [
+        "Commencez par une courte sourate et un seul récitateur.",
+        "Écoutez une fois sans rien faire d'autre, puis écoutez encore en suivant la traduction.",
+        "Si vous travaillez la prononciation, répétez une courte phrase plutôt qu'une sourate entière.",
+        "Quand vous voulez faire corriger votre récitation, adressez-vous à un enseignant, un imam ou un cours."
+      ],
+      "respectTitle": "Traiter le Coran avec soin",
+      "respect": [
+        "Gardez un mushaf (exemplaire imprimé du Coran) dans un endroit propre et respectueux.",
+        "Demandez à un enseignant qualifié près de chez vous les règles d'ablutions et de pureté pour toucher le texte arabe.",
+        "Ces règles ne s'appliquent pas toutes aux traductions ni aux applications sur téléphone, mais les traiter avec soin reste une bonne manière d'agir (adab).",
+        "Ne laissez pas la peur de vous tromper sur un détail vous empêcher de lire et d'écouter."
+      ],
+      "confusingTitle": "Quand un verset vous déroute",
+      "confusingVerse": [
+        {
+          "title": "Faites une pause",
+          "body": "Ne tranchez pas la question à partir d'une capture d'écran, d'un court extrait vidéo ou d'une dispute croisée par hasard en ligne."
+        },
+        {
+          "title": "Lisez le contexte",
+          "body": "Lisez les versets avant et après, puis une explication fiable."
+        },
+        {
+          "title": "Écrivez votre question exacte",
+          "body": "Notez le verset, ce qui vous a dérangé et ce que vous voulez vraiment éclaircir."
+        },
+        {
+          "title": "Demandez à une personne fiable",
+          "body": "Apportez-la à un enseignant, un imam ou un programme d'études qui cite ses sources."
+        }
+      ],
+      "resourcesTitle": "Par où commencer",
+      "resourcesBody": "Tenez-vous-en aux sources qui nomment leur éditeur et leurs enseignants. Les images de citations anonymes et les chaînes de débats sont un mauvais moyen d'apprendre le Coran.",
+      "openResource": "Ouvrir la ressource",
+      "sourcesNote": "Les références coraniques, les notes sur les traductions, les conseils d'écoute et les notes sur la manière de traiter le Coran ont été vérifiés. Les questions sur votre propre récitation, la pureté ou l'exégèse (tafsir) relèvent d'un enseignant qualifié.",
+      "roadmapButton": "Étape de la feuille de route",
+      "duaDhikrButton": "Invocations et rappel d'Allah",
+      "learnArabicTitle": "Apprendre l'arabe pour la prière",
+      "learnArabicBody": "Vous n'avez pas besoin d'apprendre toute la langue pour prier. Commencez par Al-Fatihah, le chapitre récité dans chaque unité de prière (rak'ah), et apprenez ses mots et leur sens. Continuez à prier avec ce que vous savez pendant ce temps.",
+      "learnArabicStagesTitle": "Un rythme qui fonctionne",
+      "wordByWordTitle": "Al-Fatihah mot à mot",
+      "wordByWordBody": "Chaque mot avec sa translittération et une traduction de son sens. Le français vous aide à comprendre. Le texte arabe est le Coran. Lisez-le de droite à gauche, une ligne par jour.",
+      "verseLabel": "Verset {number}"
+    },
+    "salahCompanion": {
+      "metadataTitle": "Apprendre à prier (salah)",
+      "metadataDescription": "Un compagnon de prière pour débutants : le déroulement de la prière, les récitations nécessaires, les inquiétudes fréquentes et des pistes avec sources.",
+      "eyebrow": "Outil d'apprentissage du culte",
+      "title": "Apprendre à prier (salah)",
+      "subtitle": "Un parcours tranquille d'une prière simple de deux unités, avec les récitations dont un débutant a besoin et des notes honnêtes sur le moment d'aller demander conseil.",
+      "wuduButton": "Se laver avant la prière (wudu)",
+      "prayerTimesButton": "Heures de prière",
+      "mattersMostTitle": "Ce qui compte le plus maintenant",
+      "mattersMost": [
+        "Priez sincèrement pendant que vous apprenez encore les mots.",
+        "Maîtrisez le déroulement de la prière avant de courir après chaque détail.",
+        "Demandez à un imam qualifié tout ce qui dépend de votre situation personnelle."
+      ],
+      "shapeTitle": "Le déroulement d'une prière de deux unités",
+      "shapeBody": "Ceci est une carte, pas un enseignant. Servez-vous-en pour apprendre l'ordre, puis demandez à un imam ou un enseignant près de chez vous de vous regarder prier une fois et de vous corriger.",
+      "stepLabel": "Étape {number}",
+      "recitationTitle": "Les récitations dont vous avez besoin",
+      "recitationBody": "Chaque fiche donne l'arabe, une translittération et le sens. Quand le texte vient du Coran, le français est une traduction du sens pour vous aider à comprendre. Le texte arabe, lui, est le Coran.",
+      "transliterationLabel": "Translittération",
+      "meaningLabel": "Sens",
+      "beginnerNoteLabel": "Note pour débutants",
+      "cannotReciteTitle": "Si vous ne savez pas encore réciter en arabe",
+      "invalidatesTitle": "Qu'est-ce qui annule une prière?",
+      "invalidatesBody": "Ceci est un aperçu pour débutants. Les détails varient selon les écoles juridiques et les circonstances.",
+      "correctionsTitle": "Inquiétudes fréquentes, et quoi faire",
+      "askImamTitle": "Demandez à un imam si",
+      "askImam": [
+        "Une douleur, un handicap, une blessure ou un traumatisme vous empêche de vous tenir debout, de vous incliner, de vous asseoir ou de vous prosterner.",
+        "Vous ne savez pas quoi réciter pendant que votre arabe progresse.",
+        "Vous manquez souvent des prières et avez besoin d'un plan de rattrapage que vous pouvez vraiment suivre.",
+        "Des vidéos ou des écoles juridiques différentes vous ont donné des conseils contradictoires.",
+        "Le travail, l'école, un voyage, la famille ou votre propre sécurité change la façon dont vous pouvez prier."
+      ],
+      "sourcesNote": "Ceci est un compagnon pour débutants. Les références ont été vérifiées. Les avis personnels sur la prière, les détails propres à chaque école, les aménagements liés à un handicap et les situations inhabituelles doivent encore être examinés par une personne qualifiée.",
+      "prayerTopicButton": "Sujet : la prière",
+      "prayerOnRampButton": "Premiers pas vers la prière",
+      "duaDhikrButton": "Invocations et rappel d'Allah",
+      "watchTitle": "Regarder une prière complète",
+      "watchBody": "Voir les mouvements une fois rend la carte ci-dessus plus facile à suivre. Si vous n'avez que quelques minutes, choisissez une seule prière dans la liste sous la vidéo.",
+      "phrasesVideoTitle": "Apprendre les mots, une phrase à la fois",
+      "phrasesVideoBody": "De courtes leçons d'Islamwise, un projet pour nouveaux musulmans mené avec la Green Lane Masjid. Chacune prononce une phrase lentement et en explique le sens.",
+      "openSeries": "Ouvrir la série sur YouTube",
+      "placementTitle": "Où se placent les positions assises (tashahhud)",
+      "placementBody": "Chaque prière se termine par une position assise. Les prières de trois ou quatre unités (rak'ah) ont aussi une position assise plus courte après la deuxième unité.",
+      "sahwTitle": "Si vous faites une erreur (sujud al-sahw)",
+      "tableTitle": "Les cinq prières quotidiennes en un coup d'œil",
+      "tableCaption": "Les cinq prières quotidiennes, leurs plages horaires et leur nombre d'unités (rak'ah)",
+      "tablePrayer": "Prière",
+      "tableWindow": "Plage horaire",
+      "tableUnits": "Unités (rak'ah)",
+      "notOwedTitle": "Vous ne devez pas les prières d'avant votre islam",
+      "seatedTitle": "Prier assis, sur une chaise ou allongé",
+      "learnArabicLink": "Apprendre Al-Fatihah mot à mot dans le parcours Coran",
+      "menstruationLink": "Les règles, les saignements après l'accouchement et la prière"
+    },
+    "wuduGhusl": {
+      "metadataTitle": "Se laver avant la prière (wudu et ghusl)",
+      "metadataDescription": "Un guide à imprimer pour débutants sur le lavage avant la prière : ablutions (wudu), lavage complet du corps (ghusl), tayammum, et quand demander conseil.",
+      "eyebrow": "Outil d'apprentissage du culte",
+      "title": "Se laver avant la prière (wudu et ghusl)",
+      "subtitle": "Un guide simple du lavage avant la prière, conçu pour être imprimé. Apprenez d'abord l'essentiel, et confiez à un enseignant qualifié tout ce qui dépend de votre situation.",
+      "purificationTopicButton": "Sujet : la purification",
+      "mattersMostTitle": "Ce qui compte le plus",
+      "mattersMost": [
+        "L'eau atteint chaque endroit qu'elle doit atteindre.",
+        "Vous vous lavez pour Allah, pas par panique.",
+        "Vous demandez conseil quand une situation médicale, professionnelle ou familiale complique les choses."
+      ],
+      "wuduTitle": "Les ablutions (wudu), étape par étape",
+      "wuduBody": "Le wudu est le lavage partiel que l'on fait normalement avant la prière. Quran 5:6 indique quelles parties sont lavées et lesquelles sont essuyées, et les guides pour débutants précisent l'ordre pratique.",
+      "ghuslTitle": "Le lavage complet du corps (ghusl), étape par étape",
+      "ghuslBody": "Le ghusl est le lavage complet du corps. Restez pudique et simple : formulez l'intention, nettoyez ce qui doit l'être et assurez-vous que l'eau atteint tout votre corps.",
+      "stepLabel": "Étape {number}",
+      "wuduBreaksTitle": "Ce qui annule les ablutions",
+      "ghuslNeededTitle": "Quand le ghusl est nécessaire",
+      "correctionsTitle": "Inquiétudes fréquentes, et quoi faire",
+      "askQualifiedTitle": "Demandez à une personne qualifiée si",
+      "askQualified": [
+        "Un problème médical, une plaie, un handicap ou une grande sécheresse de la peau rend l'usage de l'eau difficile.",
+        "Vous avez des doutes sur les règles, les saignements après l'accouchement, les pertes ou les règles liées aux relations intimes.",
+        "Votre travail, l'école, un voyage ou votre situation familiale rend la purification difficile à gérer.",
+        "Vous vous sentez coincé à refaire le wudu ou le ghusl à cause de l'anxiété."
+      ],
+      "sourcesNote": "Ceci est un outil pour débutants. Certains détails de la purification varient selon les écoles juridiques, et votre situation mérite d'être revue avec un imam ou un savant qualifié près de chez vous.",
+      "ghuslRoadmapButton": "Aller à l'étape ghusl de la feuille de route",
+      "prayerTopicButton": "Sujet : la prière",
+      "watchTitle": "Le voir faire une fois",
+      "breaksAgreedTitle": "Enseigné par toutes les écoles",
+      "breaksDifferTitle": "Là où les écoles divergent",
+      "convertGhuslTitle": "Si vous venez de devenir musulman",
+      "menstruationLink": "Les règles, les saignements après l'accouchement et le culte",
+      "tayammumTitle": "Quand vous ne pouvez pas utiliser d'eau (tayammum)",
+      "tayammumStepsTitle": "Comment faire",
+      "questionsTitle": "Bas d'hiver, vernis à ongles et plâtres"
+    },
+    "video": {
+      "playAria": "Lire la vidéo : {title}",
+      "playerTitle": "{title} (vidéo YouTube)",
+      "length": "Durée {duration}",
+      "chaptersLabel": "Aller à une partie",
+      "watchOnYouTube": "Regarder sur YouTube",
+      "newTab": "(s'ouvre dans un nouvel onglet)",
+      "privacyNote": "Rien ne se charge depuis YouTube avant que vous appuyiez sur lecture. Ensuite, la vidéo passe dans le lecteur YouTube en mode de confidentialité avancée. Si la vidéo ne démarre pas ou si vous êtes hors ligne, utilisez le lien Regarder sur YouTube. Pour en savoir plus, consultez notre",
+      "privacyLink": "politique de confidentialité",
+      "sectionTitle": "À regarder"
+    },
+    "faq": {
+      "title": "Questions fréquentes",
+      "description": "De courtes réponses aux questions que les nouveaux musulmans posent le plus. Chaque réponse indique ses sources, et beaucoup renvoient à une page plus complète.",
+      "noteTitle": "Des réponses générales, pas des avis personnels",
+      "noteBody": "Quand les savants divergent, nous le disons sans choisir à votre place. Pour votre propre situation, la bonne personne à qui demander est un enseignant ou un imam qualifié qui vous connaît.",
+      "indexLabel": "Aller à un sujet",
+      "questionCount": {
+        "one": "question traitée",
+        "other": "questions traitées"
+      },
+      "reviewBadge": "En attente de révision savante",
+      "differencesLabel": "Là où les savants divergent",
+      "askTeacher": "Ceci touche à une règle religieuse. Demandez à un enseignant ou un imam qualifié de confiance comment elle s'applique à vous.",
+      "sourcesLabel": "Sources",
+      "readMoreLabel": "À lire aussi :",
+      "backToIndex": "Retour à la liste des sujets",
+      "categories": {
+        "foundations": "La foi et devenir musulman",
+        "prayer": "La prière (salah)",
+        "purification": "Les ablutions (wudu) et le lavage complet du corps (ghusl)",
+        "quran": "Lire le Coran",
+        "ramadan": "Le jeûne et le Ramadan",
+        "zakat": "L'aumône obligatoire (zakat)",
+        "hajj": "Le pèlerinage (hajj et omra)",
+        "menstruation": "Les règles et le culte",
+        "family": "Famille et mariage",
+        "holidays": "Fêtes et occasions familiales",
+        "everyday-life": "Nourriture, travail et vie quotidienne",
+        "community": "Communauté et appartenance",
+        "safety": "Rester en sécurité et obtenir de l'aide",
+        "mentorship": "Mentors et enseignants",
+        "site": "Utiliser ce site"
+      }
+    },
+    "getHelp": {
+      "title": "Obtenir de l'aide",
+      "subtitle": "Posez une question, demandez un mentor, trouvez des événements près de chez vous ou parlez-nous d'une inquiétude. Une petite équipe lit chaque demande.",
+      "crisis": {
+        "text": "Si vous êtes en danger, composez le 911. En cas de crise de santé mentale, appelez ou textez le 9-8-8.",
+        "linkLabel": "Plus de soutien sur la page santé mentale"
+      },
+      "placeholderNotice": {
+        "title": "Le formulaire est encore en préparation",
+        "body": "Le formulaire de demande et les adresses courriel de cette page ne fonctionnent pas encore. En attendant, votre mosquée est un bon endroit pour poser vos questions, et les lignes de crise ci-dessus sont là si vous avez besoin d'aide maintenant."
+      },
+      "whatFor": {
+        "title": "Ce que vous pouvez nous demander",
+        "items": [
+          {
+            "title": "Poser une question",
+            "body": "Tout ce dont vous n'êtes pas sûr, de la prière à la façon de l'annoncer à votre famille. Si nous ne sommes pas les bonnes personnes pour répondre, nous vous dirons qui l'est."
+          },
+          {
+            "title": "Demander un mentor",
+            "body": "Une personne bénévole formée, en général du même sexe que vous, qui prend de vos nouvelles et vous aide avec les bases."
+          },
+          {
+            "title": "Événements et communauté",
+            "body": "Des cours, des rencontres de nouveaux musulmans et des mosquées près de chez vous."
+          },
+          {
+            "title": "Signaler un problème",
+            "body": "Quelque chose au sujet d'un mentor, d'un groupe ou d'un administrateur qui ne vous a pas semblé correct."
+          }
+        ]
+      },
+      "form": {
+        "title": "Envoyer une demande",
+        "body": "Le formulaire s'ouvre dans Google Forms, dans un nouvel onglet.",
+        "buttonLabel": "Ouvrir le formulaire d'aide",
+        "asksTitle": "Ce que demande le formulaire",
+        "asks": [
+          "Ce pour quoi vous avez besoin d'aide",
+          "La langue que vous souhaitez utiliser",
+          "Si vous préférez un mentor du même sexe",
+          "Votre ville ou votre province",
+          "Votre fuseau horaire",
+          "Comment vous souhaitez être contacté",
+          "Un message, si vous voulez en ajouter un",
+          "Une ligne où vous acceptez que nous utilisions vos réponses pour vous répondre"
+        ],
+        "asksNote": "C'est tout. Nous ne demandons que ce qu'il nous faut pour vous répondre et, si vous le souhaitez, vous trouver un mentor."
+      },
+      "whoReads": {
+        "title": "Qui la lit",
+        "body": "Une ou deux personnes bénévoles coordonnatrices lisent chaque demande dans une boîte de réception partagée. Personne d'autre ne la voit. Si vous demandez un mentor, la personne coordonnatrice vous présente d'abord le jumelage et ne transmet au mentor que ce dont il a besoin, une fois que vous êtes d'accord.",
+        "responseTitle": "Quand nous répondons",
+        "response": "Nous visons une réponse dans un délai de 48 à 72 heures. C'est un objectif, pas une promesse. Les réponses peuvent être plus lentes pendant les fêtes et le Ramadan."
+      },
+      "privacy": {
+        "title": "Votre vie privée",
+        "items": [
+          "Une demande d'aide nous apprend que vous êtes musulman ou que vous vous intéressez à l'islam. Nous la traitons donc comme une information sensible.",
+          "Seules les personnes coordonnatrices la lisent. Nous ne la partageons ni avec votre famille, ni avec une mosquée, ni avec personne d'autre sans vous demander d'abord.",
+          "Le formulaire est géré par Google, qui peut stocker vos réponses hors du Canada.",
+          "Nous visons à supprimer une demande six mois après sa clôture.",
+          "Si quelqu'un d'autre vérifie votre téléphone ou votre ordinateur, vous pouvez envoyer le formulaire depuis un autre appareil, comme un ordinateur de bibliothèque, et nous donner un moyen de contact que vous seul pouvez voir."
+        ],
+        "linkLabel": "Lire la politique de confidentialité"
+      },
+      "report": {
+        "title": "Signaler un mentor, un groupe ou un administrateur",
+        "body": "Dites-nous si un mentor, un membre d'un groupe ou un administrateur vous demande de l'argent, vous propose le mariage, vous pousse à rejoindre quelque chose ou vous fait sentir en danger. Votre signalement va aux personnes coordonnatrices, jamais à la personne que vous signalez.",
+        "emailLabel": "Courriel",
+        "scamNote": "Si quelqu'un vous a demandé de l'argent ou si vous pensez avoir été victime d'une fraude, vous pouvez aussi le signaler au Centre antifraude du Canada au 1-888-495-8501.",
+        "redFlagsLabel": "Signaux d'alerte à surveiller"
+      },
+      "contact": {
+        "title": "Vous préférez écrire un courriel?",
+        "body": "Vous pouvez nous écrire au lieu d'utiliser le formulaire. Les mêmes personnes coordonnatrices lisent cette boîte de réception.",
+        "emailLabel": "Courriel"
+      },
+      "guideLink": {
+        "prompt": "Vous ne savez pas si votre question s'adresse à nous, à un imam ou à un conseiller?",
+        "label": "Comment demander de l'aide"
+      },
+      "sourcesTitle": "Sources utilisées",
+      "sourcesNote": "Ces sources appuient la façon dont le formulaire est configuré et dont vos données sont traitées. Le délai de réponse et la durée de conservation sont nos propres objectifs."
+    },
+    "communityGroups": {
+      "title": "Groupes communautaires",
+      "subtitle": "Des rappels, des nouvelles locales et la compagnie d'autres nouveaux musulmans, organisés pour que vous choisissiez ce que vous partagez de vous.",
+      "placeholderNotice": {
+        "title": "Ces liens sont encore en préparation",
+        "body": "Le lien de la chaîne et la liste des groupes de cette page ne sont pas encore actifs. Nous les ajouterons dès que les administrateurs seront en place."
+      },
+      "channel": {
+        "title": "Notre chaîne WhatsApp",
+        "body": "Une chaîne à sens unique pour les rappels, les nouvelles pages du site et les événements. Seuls les administrateurs publient, et les autres abonnés ne voient pas votre numéro de téléphone.",
+        "buttonLabel": "Suivre la chaîne sur WhatsApp"
+      },
+      "groups": {
+        "title": "Groupes locaux",
+        "body": "De petits groupes par ville ou région où vous pouvez poser des questions et rencontrer des gens. Les administrateurs approuvent chaque nouveau membre.",
+        "emptyState": "Les groupes seront listés ici dès que les administrateurs seront en place.",
+        "joinNote": "Rejoindre un groupe montre votre numéro de téléphone aux administrateurs du groupe, et les autres membres peuvent aussi le voir."
+      },
+      "reveals": {
+        "title": "Ce que chaque option révèle de vous",
+        "items": [
+          {
+            "name": "Chaîne",
+            "body": "Votre numéro de téléphone reste privé. Un administrateur ne peut le voir que s'il vous a déjà enregistré comme contact. Vous seul voyez les chaînes que vous suivez, et les abonnés ne peuvent pas s'y écrire entre eux."
+          },
+          {
+            "name": "Groupe",
+            "body": "Les administrateurs voient votre numéro, et les autres membres peuvent aussi le voir. Tout membre du groupe peut vous écrire."
+          },
+          {
+            "name": "Communauté",
+            "body": "Une communauté est un ensemble de groupes reliés. Votre numéro est visible par ses administrateurs et par les personnes qui l'ont déjà, plutôt que par tous les membres."
+          }
+        ],
+        "usernameNote": "WhatsApp déploie peu à peu les noms d'utilisateur, qui cachent votre numéro aux personnes qui ne l'ont pas déjà. Vous ne les avez peut-être pas encore."
+      },
+      "safety": {
+        "title": "Si vous gardez votre conversion privée",
+        "body": "Suivez la chaîne plutôt que de rejoindre un groupe, car la chaîne garde votre numéro caché. Les noms de groupes et les messages peuvent apparaître dans vos notifications. Pensez donc à qui peut voir votre téléphone avant de rejoindre quoi que ce soit."
+      },
+      "rules": {
+        "title": "Règles des groupes",
+        "intro": "Toute personne qui rejoint un groupe accepte ces règles. Les administrateurs retirent quiconque ne les respecte pas.",
+        "items": [
+          "Pas de demandes d'argent, de vente ni de collecte de fonds.",
+          "Pas de demandes en mariage ni d'arrangements matrimoniaux.",
+          "Pas de messages privés aux membres qui ne l'ont pas demandé.",
+          "Ne transférez pas les noms, numéros, photos ou messages des membres hors du groupe.",
+          "Personne n'est ajouté sans choisir de rejoindre. Nous partageons le lien et vous décidez."
+        ],
+        "adminsTitle": "Qui sont les administrateurs",
+        "admins": "Les administrateurs sont des bénévoles dans un rôle défini, pas des personnes nommées. Ils approuvent les nouveaux membres, retirent et signalent les comptes frauduleux, et transmettent toute préoccupation de sécurité aux personnes coordonnatrices."
+      },
+      "report": {
+        "title": "Signaler un problème",
+        "body": "Si quelqu'un dans un groupe ou sur la chaîne vous demande de l'argent, vous propose le mariage, vous écrit en privé sans que vous l'ayez demandé ou partage vos coordonnées, dites-le-nous. Les signalements vont aux personnes coordonnatrices. Vous pouvez aussi signaler et bloquer le compte dans WhatsApp.",
+        "emailLabel": "Courriel",
+        "linkLabel": "Aller à la page Obtenir de l'aide"
+      },
+      "redFlags": {
+        "prompt": "Connaissez les signaux d'alerte de fraude et de pression dans les espaces communautaires.",
+        "label": "Signaux d'alerte et sécurité"
+      },
+      "sourcesTitle": "Sources utilisées",
+      "sourcesNote": "Ce que chaque option révèle vient des pages d'aide de WhatsApp. WhatsApp peut modifier le fonctionnement de ces options. En cas de doute, consultez son centre d'aide."
+    },
+    "events": {
+      "title": "Événements",
+      "subtitle": "Rencontres de nouveaux musulmans, cours et activités portes ouvertes dans des mosquées partout au Canada.",
+      "intro": "Chaque événement est organisé par son organisateur, pas par nous. Les détails peuvent changer. Vérifiez donc auprès de l'organisateur avant d'y aller.",
+      "noRegistration": "Il n'y a pas d'inscription sur ce site. Pour vous inscrire, passez par la page de l'organisateur.",
+      "filters": {
+        "legend": "Filtrer les événements",
+        "cityLabel": "Ville",
+        "provinceLabel": "Province",
+        "all": "Toutes",
+        "resultsCount": "{count} événements affichés",
+        "noMatches": "Aucun événement ne correspond à ces filtres.",
+        "reset": "Afficher tous les événements"
+      },
+      "empty": {
+        "title": "Aucun événement pour le moment",
+        "body": "Nous ajoutons les événements une fois confirmés par les organisateurs. Votre mosquée a peut-être son propre calendrier, et si vous connaissez un événement pour nouveaux musulmans, vous pouvez nous en parler.",
+        "masjidLink": "Trouver une mosquée près de chez vous"
+      },
+      "card": {
+        "dateLabel": "Date",
+        "timeLabel": "Heure",
+        "venueLabel": "Lieu",
+        "whereLabel": "Où",
+        "organiserLabel": "Organisé par",
+        "linkLabel": "Détails sur le site de l'organisateur"
+      },
+      "lastUpdatedLabel": "Liste mise à jour le :",
+      "tellUs": {
+        "prompt": "Vous connaissez un événement qui conviendrait aux nouveaux musulmans?",
+        "label": "Parlez-nous d'un événement"
+      }
+    },
+    "dawahGuide": {
+      "breadcrumbHome": "Accueil",
+      "viewModeAriaLabel": "Mode d'affichage",
+      "guidedFlow": "Parcours guidé",
+      "quickReference": "Aide-mémoire",
+      "printSavePdf": "Imprimer ou enregistrer en PDF",
+      "stepStatus": "Étape {step} sur {total} : {title}",
+      "stepOf": "Étape {step} sur {total}",
+      "conversationPathAriaLabel": "Parcours de la conversation jusqu'ici",
+      "conversationTips": "Conseils pour la conversation",
+      "gentlyAvoid": "À éviter en douceur",
+      "continue": "Continuer",
+      "back": "Retour",
+      "restartGuide": "Recommencer le guide",
+      "pauseGentleExit": "Faire une pause, sortie en douceur",
+      "draftPendingReview": "Brouillon, en attente de révision",
+      "sourceChecked": "Source vérifiée",
+      "verified": "Vérifié",
+      "guideSourceChecked": "Sources vérifiées, révision qualifiée en attente",
+      "translation": "Traduction",
+      "sourcePrefix": "Source :",
+      "viewSource": "Voir la source",
+      "gorapHeading": "GORAP, une progression logique",
+      "gorapSubheading": "Le chemin de la vérité et de la guidée.",
+      "suggestionsHeading": "Suggestions générales",
+      "outsideTheField": "Avant d'aller sur le terrain",
+      "onTheField": "Sur le terrain",
+      "toneHeading": "Soyez patient, soyez sincère",
+      "toneSubheading": "Laissez le résultat à Allah.",
+      "quickReferenceHeading": "Aide-mémoire",
+      "gorapAtGlance": "GORAP en un coup d'œil",
+      "conversationFlow": "Le fil de la conversation",
+      "keepInMind": "À garder en tête",
+      "approach": "Approche",
+      "watchFor": "À surveiller",
+      "sourcePendingReview": "Source en attente de révision",
+      "moreForDaees": "Plus pour les da'ees",
+      "moreForDaeesIntro": "Du contenu facultatif pour les vraies conversations. Ouvrez la partie dont vous avez besoin.",
+      "commonQuestionsTitle": "Questions fréquentes et réponses douces",
+      "misconceptionsTitle": "Répondre aux idées reçues",
+      "scenariosTitle": "Conseils par situation",
+      "trainingCardsTitle": "Fiches de formation pour da'ees",
+      "postShahadaHandoffTitle": "Le relais après la Shahada",
+      "referralBoundariesTitle": "Les questions à ne pas traiter seul",
+      "practice": "Pratique",
+      "handoffActions": "Actions",
+      "referTo": "Orienter vers",
+      "duaRemindersTitle": "Rappels d'invocations",
+      "printFieldSuggestions": "Suggestions pour le terrain",
+      "printPostShahadaHandoff": "Le relais après la Shahada",
+      "printReferralBoundaries": "Les questions à ne pas traiter seul",
+      "printScenarioReminders": "Rappels par situation",
+      "printReferences": "Références (à vérifier avant de les partager)",
+      "duaGroups": {
+        "before": "Avant la conversation",
+        "after": "Pendant et après",
+        "general": "Général"
+      },
+      "kind": {
+        "intro": "Début",
+        "teaching": "Enseignement",
+        "decision": "Décision",
+        "encouragement": "Encouragement",
+        "exit": "Sortie en douceur",
+        "completion": "Communauté"
+      },
+      "metadataTitle": "Guide de la dawah | Revert Guide",
+      "metadataDescription": "Un guide privé, accessible par lien direct, pour les conversations de dawah avec des personnes qui s'intéressent à l'islam."
     }
   }
 }
