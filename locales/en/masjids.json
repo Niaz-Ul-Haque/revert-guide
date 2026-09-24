@@ -5294,5 +5294,77 @@
       "masjid-muslim-society-of-prince-edward-island-masjid-dar-as-salam-charlottetown"
     ],
     "reviewStatus": "review-needed"
+  },
+  {
+    "id": "yukon-muslim-society-inc-whitehorse",
+    "name": "Yukon Muslim Society Inc. (Whitehorse Masjid)",
+    "address": "2178, 2nd Ave",
+    "city": "Whitehorse",
+    "stateProvince": "Yukon",
+    "country": "Canada",
+    "postalCode": "Y1A 5N6",
+    "coordinates": {
+      "lat": 60.721571,
+      "lng": -135.054932
+    },
+    "coordinatesPrecision": "city-centre",
+    "phone": "(867) 333-2178",
+    "email": "yukonmuslim@gmail.com",
+    "website": "https://yukonmuslims.com/home/",
+    "notes": "Also known as Yukon Muslims Society; Whitehorse Mosque.",
+    "visitorNotes": "English services confirmed: Friday sermon delivered in English.",
+    "womenSpaceNote": "Tours page: \"Women will be asked to cover their heads before entering the prayer hall.\" A separate women's area is not stated on official pages.",
+    "accessibilityNote": "Wheelchair accessible.",
+    "parkingNote": "Masjid parking lot available; one accessible stall.",
+    "newMuslimSupportNote": "The Shahadas page says \"New Muslims are encouraged to visit us to learn about, and practice, Islam.\" The Friday sermon is in English.",
+    "serviceIds": ["new-muslim-support"],
+    "convertSupport": true,
+    "accessibility": true,
+    "parking": true,
+    "sourceIds": [
+      "masjid-yukon-muslim-society-inc-whitehorse",
+      "masjid-yukon-muslim-society-inc-whitehorse-programme"
+    ],
+    "reviewStatus": "source-checked"
+  },
+  {
+    "id": "midnight-sun-mosque-inuvik",
+    "name": "Midnight Sun Mosque (Muslim Association of Inuvik)",
+    "address": "29 Wolverine Road",
+    "city": "Inuvik",
+    "stateProvince": "Northwest Territories",
+    "country": "Canada",
+    "postalCode": "X0E 0T0",
+    "coordinates": {
+      "lat": 68.36833,
+      "lng": -133.73777
+    },
+    "coordinatesPrecision": "street",
+    "phone": "(867) 620-1010",
+    "email": "inuvikmuslims@gmail.com",
+    "website": "https://inuvikmuslims.com/",
+    "serviceIds": ["youth-programs"],
+    "sourceIds": ["masjid-midnight-sun-mosque-inuvik"],
+    "reviewStatus": "source-checked"
+  },
+  {
+    "id": "iqaluit-masjid",
+    "name": "Iqaluit Masjid (Islamic Society of Nunavut)",
+    "address": "4121 Road To Nowhere",
+    "city": "Iqaluit",
+    "stateProvince": "Nunavut",
+    "country": "Canada",
+    "postalCode": "",
+    "coordinates": {
+      "lat": 63.7478881,
+      "lng": -68.4879886
+    },
+    "coordinatesPrecision": "street",
+    "phone": "(867) 979-1362",
+    "email": "masjid.iqaluit@gmail.com",
+    "website": "https://www.iqaluitmasjid.com/",
+    "jumuahNote": "\"Is Jumu'ah prayer offered every Friday?\" answered yes on the About page; time not stated.",
+    "sourceIds": ["masjid-iqaluit-masjid"],
+    "reviewStatus": "source-checked"
   }
 ]
