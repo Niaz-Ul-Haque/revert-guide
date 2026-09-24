@@ -200,7 +200,7 @@ export default function SalahCompanionPage({
         items={[
           { label: t("nav.home"), href: localizeHref(locale, "/") },
           { label: t("nav.tools") },
-          { label: t("nav.salahCompanion") },
+          { label: copy.title },
         ]}
       />
 

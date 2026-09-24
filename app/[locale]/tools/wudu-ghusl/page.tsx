@@ -71,6 +71,7 @@ const sourceIds = [
   "seekersguidance-nail-polish",
   "seekersguidance-cast-hanafi",
   "seekersguidance-cast-shafii",
+  "newmuslims-ghusl",
 ];
 
 export function generateMetadata({ params }: { params: { locale: Locale } }) {
@@ -195,7 +196,7 @@ export default function WuduGhuslPage({
         items={[
           { label: t("nav.home"), href: localizeHref(locale, "/") },
           { label: t("nav.tools") },
-          { label: t("nav.wuduGhusl") },
+          { label: copy.title },
         ]}
       />
 
