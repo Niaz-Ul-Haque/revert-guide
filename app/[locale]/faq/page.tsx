@@ -3,7 +3,7 @@ import { Breadcrumb } from "@/components/Breadcrumb";
 import { FaqPageClient } from "@/components/FaqPageClient";
 import { Icon } from "@/components/Icon";
 import { SourceTags } from "@/components/SourceTags";
-import { JsonLd, breadcrumbJsonLd } from "@/components/JsonLd";
+import { JsonLd, breadcrumbJsonLd, faqPageJsonLd } from "@/components/JsonLd";
 import { getAllSources } from "@/lib/content";
 import { getFaqByCategory } from "@/lib/faq";
 import { localizeHref, type Locale, type Messages } from "@/lib/i18n";
@@ -41,6 +41,7 @@ export default function FaqPage({ params }: { params: { locale: Locale } }) {
           { name: copy.title, url: localeUrl(locale, "/faq") },
         ])}
       />
+      <JsonLd data={faqPageJsonLd(groups.flatMap((group) => group.entries))} />
       <Breadcrumb
         items={[
           { label: t("nav.home"), href: localizeHref(locale, "/") },
