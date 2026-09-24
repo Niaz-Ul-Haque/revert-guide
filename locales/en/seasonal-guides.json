@@ -187,12 +187,13 @@
     "id": "zakat",
     "slug": "zakat",
     "title": "Zakat guide for beginners",
-    "description": "What zakat is, what nisab and hawl mean, and when to get a qualified review of your own numbers.",
+    "description": "What zakat is, how nisab is measured, how to check a Canadian charity, and when to get a qualified review of your own numbers.",
     "badge": "Giving guide",
     "intro": "Zakat is an obligation for Muslims whose wealth meets certain conditions. This page covers the vocabulary and the decision points. It is not a calculator, and it is not a ruling on your finances.",
     "summary": [
       "Zakat is not the same thing as charity in general. Sadaqah is the voluntary kind.",
       "The terms you will hear are nisab, hawl, and 2.5 percent.",
+      "Nisab is measured in grams of gold or silver, so its dollar value changes. Charities use slightly different figures.",
       "Different assets get treated differently, so a personal case needs reviewing.",
       "Quran 9:60 names eight categories of people who can receive zakat."
     ],
@@ -200,7 +201,7 @@
       "Learn the basic terms: zakat, sadaqah, nisab, hawl, and who can receive it.",
       "Notice whether your savings or assets might sit above the threshold.",
       "If you think zakat applies to you, ask someone qualified.",
-      "Give through organizations that explain their zakat policy in plain terms."
+      "Give through a registered charity that explains its zakat policy in plain terms."
     ],
     "canWait": [
       "A calculator inside this app.",
@@ -220,25 +221,43 @@
       {
         "heading": "Nisab, hawl, and 2.5 percent",
         "items": [
-          "Nisab is the minimum amount of wealth at which zakat becomes relevant.",
-          "Hawl is a lunar year passing over wealth that qualifies, which is how many zakat cases are counted.",
-          "2.5 percent is the rate people quote for the common categories, though not every asset works that way.",
-          "Gold and silver thresholds, and anything modern, need a current answer from someone qualified."
+          "Nisab is the minimum wealth at which zakat becomes due. It is measured by weight: Islamic Relief Canada gives it as 87.48 grams of gold or 612.36 grams of silver.",
+          "Other Canadian charities use slightly different figures. National Zakat Foundation Canada uses 85 grams of gold or 595 grams of silver, and Muslim Welfare Canada's calculator uses 88 grams of gold or 613 grams of silver.",
+          "Some charities use the silver figure by default, which is lower, so more people pay and more people receive. Others use gold. Which one applies to you is a question for a scholar.",
+          "The dollar value moves with gold and silver prices, so this page does not give one. Use a current figure from the charity or scholar you follow.",
+          "Hawl is one lunar year, about 354 days, with your wealth staying above nisab.",
+          "2.5 percent is the rate for cash and savings. Some charities give 2.577 percent if you count by the ordinary calendar year instead of the lunar year."
         ]
       },
       {
         "heading": "Assets that raise questions",
-        "body": "Cash savings, gold, silver, business stock, investments, money owed to you, and retirement accounts each raise their own questions. This page is here to help you ask better ones, not to hand you a final figure."
+        "body": "Cash savings, gold, silver, business stock, investments, money owed to you, debts, and Canadian accounts such as an RRSP, TFSA or RESP each raise their own questions. National Zakat Foundation Canada, for example, says to count RRSP or TFSA money you can access at its value on your zakat date, and that you may subtract the tax withheld on an RRSP withdrawal. Muslim Welfare Canada's calculator only subtracts the coming year's payments on long-term debts. Scholars do not all agree, so use these as examples of the questions to ask, not as your answer."
       },
       {
         "heading": "The eight categories of recipients",
         "body": "Quran 9:60 names eight categories of people who may receive zakat. Applying those categories takes knowledge of local need, organization policy, and scholarly interpretation, so work through a trusted zakat organization or ask someone qualified."
       },
       {
+        "heading": "If you are the one who needs help",
+        "body": "If your wealth is below nisab, zakat is not due from you, and if you are struggling you may be able to receive it. Some charities count new Muslims among those zakat can support. Penny Appeal Canada's policy, for example, reads the category of those whose hearts are to be reconciled as including new converts. Ask your masjid or a zakat charity. Needing help is nothing to be ashamed of."
+      },
+      {
+        "heading": "Canadian registered charities",
+        "body": "These Canadian charities collect zakat and publish how they handle it. They are listed in alphabetical order with the registration number as each one shows it on its own site. This is not an endorsement, and other good options exist, including your local masjid.",
+        "items": [
+          "Islamic Relief Canada: Registered Charity No. 821896875RR0001.",
+          "Muslim Welfare Canada: CRA Charity No. 89733-1732-RR0001.",
+          "National Zakat Foundation Canada: Registered Charity No. 839912599RR0001.",
+          "Penny Appeal Canada: CRA no. 827502741 RR0001."
+        ]
+      },
+      {
         "heading": "Choosing where to give",
         "items": [
+          "Check the charity on the Canada Revenue Agency's list of charities before you give.",
           "Look for a clear zakat policy, or a scholar who reviews their decisions.",
-          "Check that they explain who qualifies to receive it and what they take in fees.",
+          "Check that they explain who qualifies to receive it and what share goes to running costs.",
+          "Give to the charity itself, not to a person collecting for it, and do not give under pressure. Registered charities do not ask for gift cards.",
           "Ask your local masjid who they trust to distribute zakat.",
           "Keep your own records. Do not store personal financial details in this app."
         ]
@@ -260,9 +279,13 @@
     ],
     "sourceIds": [
       "quran-zakat-9-60",
-      "irusa-zakat",
-      "launchgood-zakat",
-      "islamicfinder-zakat",
+      "irc-nisab",
+      "nzf-canada-rrsp-tfsa",
+      "mwc-zakat-calculator",
+      "penny-appeal-canada-zakat-policy",
+      "cra-charities-listing",
+      "cra-donate-wisely",
+      "cafc-charity-fraud",
       "seekersguidance"
     ],
     "relatedLinks": [
@@ -270,7 +293,10 @@
         "label": "Zakat and Hajj step",
         "href": "/roadmap/month-6-plus/zakat-hajj"
       },
-      { "label": "Halal living topic", "href": "/topics/halal-living" },
+      {
+        "label": "Halal living topic",
+        "href": "/topics/halal-living"
+      },
       {
         "label": "Ask an imam step",
         "href": "/roadmap/month-3-6/asking-an-imam"

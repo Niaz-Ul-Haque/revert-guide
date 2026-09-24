@@ -9,10 +9,10 @@
       "text": "Learn the basics of Zakat",
       "subSteps": [
         "Zakat is an obligatory annual charity of 2.5% of your savings and qualifying wealth.",
-        "It is due once your savings pass a minimum threshold called the nisab, roughly the value of 85 grams of gold, which is updated every year.",
+        "It is due once your wealth passes a minimum threshold called the nisab. Nisab is a weight of gold or silver (Islamic Relief Canada gives 87.48 grams of gold or 612.36 grams of silver), so its dollar value changes with metal prices. Charities use slightly different figures.",
         "The wealth has to have been held for one full lunar year (hawl) before Zakat is due on it.",
         "It is calculated on savings, investments, gold, silver, and business assets. Your home, your car, and your everyday belongings are not counted.",
-        "It goes to specific categories of people in need, including the poor, people in debt, and travelers who are stranded.",
+        "It goes to eight categories of people named in the Quran (9:60), including the poor, people in debt, and travelers who are stranded.",
         "Many Muslims pay their Zakat during Ramadan, though it can be paid at any time of year."
       ]
     },
@@ -20,9 +20,9 @@
       "text": "Learn how to calculate your Zakat",
       "subSteps": [
         "Add up your total qualifying wealth: savings accounts, cash, investments, gold, silver, and business inventory.",
-        "Subtract any debts you owe.",
+        "Subtract debts that are due now. Charities and scholars treat long-term debts such as a mortgage or student loan differently, so ask.",
         "If what is left is above the nisab threshold, pay 2.5% of that total as Zakat.",
-        "Use an online Zakat calculator, since many Islamic organizations offer free ones.",
+        "Canadian charities such as National Zakat Foundation Canada and Muslim Welfare Canada publish calculators. They use slightly different nisab figures, so results can differ.",
         "Keep your first year simple and stick to cash savings. The finer details can wait until your finances get more complicated."
       ]
     },
@@ -31,9 +31,9 @@
       "subSteps": [
         "Alongside obligatory Zakat, Islam strongly encourages voluntary giving, called Sadaqah.",
         "Sadaqah can be money, and it can also be a kind word, helping someone carry their groceries, or smiling at somebody.",
-        "The Prophet (peace be upon him) said: 'Every act of goodness is charity.'",
+        "The Prophet (peace be upon him) said: 'Every act of goodness is charity' (Sahih Muslim 1005).",
         "You can give Sadaqah at any time, in any amount, to anyone in need.",
-        "Get into the habit of giving regularly, even if the amounts are small. Consistency in charity is beloved to Allah."
+        "Get into the habit of giving regularly, even if the amounts are small. The Prophet (peace be upon him) said the deeds Allah loves most are the regular ones, even if they are few (Sahih al-Bukhari 6464)."
       ]
     },
     {
@@ -62,7 +62,7 @@
   "obstacles": [
     {
       "problem": "I don't know how to calculate my Zakat",
-      "solution": "Zakat looks complicated and then turns out to be one line: total qualifying wealth, minus debts, times 2.5%. Many Islamic charities have free online calculators where you enter your details and get the figure. Islamic Relief Canada and National Zakat Foundation both offer guidance too. For your first year, a reasonable estimate made in good faith is perfectly acceptable."
+      "solution": "Zakat looks complicated and then turns out to be one line: qualifying wealth, minus debts that are due, times 2.5%. Several Canadian charities publish free calculators and guidance, and the zakat guide on this site explains the terms. For your first year, a reasonable estimate made in good faith is perfectly acceptable, and a qualified scholar can check it."
     },
     {
       "problem": "Hajj feels impossible, it's so far away and expensive",
@@ -70,11 +70,11 @@
     },
     {
       "problem": "I have financial concerns about giving Zakat",
-      "solution": "Zakat is only obligatory if your savings sit above the nisab threshold. If your wealth is below it, you are eligible to receive Zakat rather than pay it. Even when it is due, 2.5% of savings is meant to be manageable. Islam does not ask you for more than you can give. If your situation is unclear, talk to a knowledgeable imam or a Zakat advisor at a charity you trust."
+      "solution": "Zakat is only obligatory if your wealth sits above the nisab threshold. If it is below, zakat is not due from you, and if you are struggling you may be able to receive it. Even when it is due, 2.5% of savings is meant to be manageable. Islam does not ask you for more than you can give. If your situation is unclear, talk to a knowledgeable imam or a Zakat advisor at a charity you trust."
     },
     {
       "problem": "I don't know where to give my Zakat",
-      "solution": "Choose a reputable Islamic charity that is open about where the money goes. In Canada, Islamic Relief Canada, National Zakat Foundation, and Muslim Welfare Canada are all well established. You can also give directly to people in need: widows, orphans, people in debt, students. Some people prefer to give locally so they can see the effect. Your masjid may run a Zakat distribution program as well."
+      "solution": "Choose a registered charity that is open about where the money goes, and check it on the Canada Revenue Agency's list of charities first. The zakat guide on this site lists some Canadian charities with their registration numbers, without endorsing any of them. You can also give directly to people in need: widows, orphans, people in debt, students. Your masjid may run a Zakat distribution program as well."
     },
     {
       "problem": "I feel disconnected from Hajj since I've never been to Mecca",
@@ -83,7 +83,11 @@
   ],
   "tinyVersion": "Zakat is 2.5% of your savings, given once a year to people in need. Hajj is a once-in-a-lifetime pilgrimage to Mecca, for when you are able. Both sit in the future, so learn about them now and plan when you are ready.",
   "unlocksNext": "With all five pillars in view, Shahada, Salah, Sawm, Zakat, and Hajj, you have the whole foundation. From here it is about living it, day after ordinary day.",
-  "resourceIds": ["zakat-calculator", "being-muslim-book", "seekers-guidance"],
+  "resourceIds": [
+    "cra-list-of-charities",
+    "being-muslim-book",
+    "seekers-guidance"
+  ],
   "relatedGlossaryIds": [
     "zakat",
     "hajj",
@@ -97,6 +101,15 @@
     "dhul-hijjah"
   ],
   "relatedTopicIds": ["beliefs", "fasting", "halal-living"],
-  "sourceIds": ["irusa-zakat", "launchgood-zakat", "seekersguidance"],
+  "sourceIds": [
+    "quran-zakat-9-60",
+    "irc-nisab",
+    "nzf-canada-rrsp-tfsa",
+    "mwc-zakat-calculator",
+    "cra-charities-listing",
+    "sunnah-muslim-goodness-charity",
+    "sunnah-bukhari-6464-regular-deeds",
+    "seekersguidance"
+  ],
   "reviewStatus": "review-needed"
 }

@@ -577,15 +577,15 @@
   },
   {
     "id": "irusa-zakat",
-    "title": "Islamic Relief USA FAQs",
-    "organization": "Islamic Relief USA",
+    "title": "Zakat Policy - IDEA (formerly Islamic Relief USA)",
+    "organization": "IDEA (formerly Islamic Relief USA)",
     "category": "zakat-financial-education",
-    "url": "https://irusa.org/faqs/",
-    "sourceType": "Zakat and charity education",
+    "url": "https://development.org/zakat-policy",
+    "sourceType": "Zakat policy (United States)",
     "label": "Financial education",
-    "accessed": "2026-06-03",
+    "accessed": "2026-09-23",
     "reviewStatus": "source-checked",
-    "note": "Cited only for basic zakat education and for pointing you toward established charities."
+    "note": "Islamic Relief USA is now IDEA, and its old FAQ page redirects to the homepage. This policy explains how zakat is collected, held and distributed to the eight categories the Quran names, ratified by four independent US scholars in 2023. A US charity: for giving in Canada, use a charity registered with the CRA."
   },
   {
     "id": "launchgood-zakat",
@@ -814,6 +814,114 @@
     "accessed": "2026-09-23",
     "reviewStatus": "review-needed",
     "note": "Tarteel says recitation audio is used to train its AI model, with a portion reviewed by humans; free users can delete recordings, and opting out of AI training is for Premium users only (opt-out article dated 16 October 2025). The full privacy policy was not read."
+  },
+  {
+    "id": "cra-charities-listing",
+    "title": "List of charities and other qualified donees",
+    "organization": "Canada Revenue Agency",
+    "category": "zakat-financial-education",
+    "url": "https://www.canada.ca/en/revenue-agency/services/charities-giving/list-charities/list-charities-other-qualified-donees.html",
+    "sourceType": "Official federal charity register",
+    "label": "Official source",
+    "accessed": "2026-09-23",
+    "reviewStatus": "source-checked",
+    "note": "The federal list where you can check that a charity is registered before you give. (The search tool itself needs JavaScript, so the registration numbers on this site were copied from each charity's own page, not cross-checked against the list.)"
+  },
+  {
+    "id": "cra-donate-wisely",
+    "title": "Donate wisely and avoid fraud",
+    "organization": "Canada Revenue Agency",
+    "category": "public-safety",
+    "url": "https://www.canada.ca/en/revenue-agency/services/charities-giving/giving-charity-information-donors/donate-wisely-avoid-fraud.html",
+    "sourceType": "Official donor guidance",
+    "label": "Public safety source",
+    "accessed": "2026-09-23",
+    "reviewStatus": "source-checked",
+    "note": "Supports checking a charity on the CRA lists, paying the charity rather than an individual, and not giving under pressure; lists red flags such as cash, gift cards, couriers and free email addresses. Last updated 2 September 2025."
+  },
+  {
+    "id": "cafc-charity-fraud",
+    "title": "Charity and donation fraud",
+    "organization": "Canadian Anti-Fraud Centre",
+    "category": "public-safety",
+    "url": "https://antifraudcentre-centreantifraude.ca/scams-fraudes/charity-donation-charite-eng.htm",
+    "sourceType": "Official fraud prevention page",
+    "label": "Public safety source",
+    "accessed": "2026-09-23",
+    "reviewStatus": "source-checked",
+    "note": "Supports refusing high-pressure requests, asking for a charity's registration number and checking it with the CRA (1-800-267-2384), asking for information in writing, and watching for false crowdfunding ads, including for religious causes. Modified 15 January 2026."
+  },
+  {
+    "id": "irc-nisab",
+    "title": "Nisab value: what is nisab?",
+    "organization": "Islamic Relief Canada",
+    "category": "zakat-financial-education",
+    "url": "https://www.islamicreliefcanada.org/our-work/zakat/nisab",
+    "sourceType": "Charity zakat page",
+    "label": "Financial education",
+    "accessed": "2026-09-23",
+    "reviewStatus": "source-checked",
+    "note": "Nisab as 87.48 g of gold or 612.36 g of silver; the charity uses silver so more people pay and more are helped, or gold if gold is your only asset; hawl of one lunar year (354 days); 2.5 percent, or 2.577 percent on a Gregorian year (companion zakat page). Footer: Registered Charity No. 821896875RR0001. Dollar values on the page change with metal prices and are not repeated here."
+  },
+  {
+    "id": "irc-fidya",
+    "title": "Fidya",
+    "organization": "Islamic Relief Canada",
+    "category": "zakat-financial-education",
+    "url": "https://www.islamicreliefcanada.org/giving/islamic-giving/fidya",
+    "sourceType": "Charity fidya page",
+    "label": "Financial education",
+    "accessed": "2026-09-23",
+    "reviewStatus": "source-checked",
+    "note": "Fidya is for someone who cannot fast for a lasting valid reason and cannot make the days up: feed one person per missed fast. Kaffarah, for a fast broken without a valid reason, means feeding 60 people per fast. The 2026 amount is CAD 15 per missed fast. Cites Quran 2:184 and notes many scholars include pregnancy. Reviewed September 2026."
+  },
+  {
+    "id": "nzf-canada-rrsp-tfsa",
+    "title": "How do I calculate zakat on my retirement savings, RRSP and TFSA?",
+    "organization": "National Zakat Foundation Canada",
+    "category": "zakat-financial-education",
+    "url": "https://www.nzfcanada.com/zakat-faq/how-do-i-calculate-zakat-on-my-retirement-savings-rrsp-and-tfsa",
+    "sourceType": "Charity zakat FAQ",
+    "label": "Financial education",
+    "accessed": "2026-09-23",
+    "reviewStatus": "source-checked",
+    "note": "NZF Canada's method: count RRSP or TFSA funds you can access at their value on your zakat date; for an RRSP you may deduct the withholding tax (10, 20 or 30 percent; 5, 10 or 15 percent in Quebec). Its calculator uses 85 g of gold or 595 g of silver. Footer: Registered Charity No. 839912599RR0001."
+  },
+  {
+    "id": "penny-appeal-canada-zakat-policy",
+    "title": "Zakat policy",
+    "organization": "Penny Appeal Canada",
+    "category": "zakat-financial-education",
+    "url": "https://pennyappeal.ca/zakat-policy/",
+    "sourceType": "Charity zakat policy",
+    "label": "Financial education",
+    "accessed": "2026-09-23",
+    "reviewStatus": "source-checked",
+    "note": "States an administration cap of one eighth (12.5 percent), distribution within one lunar year, named zakat advisors, and that it reads the category of those whose hearts are to be reconciled as including new converts. Reviewed January 2026. Shown on the page: CRA no. 827502741 RR0001. Its category list omits freeing captives, which Quran 9:60 names."
+  },
+  {
+    "id": "mwc-zakat-calculator",
+    "title": "Zakat calculator",
+    "organization": "Muslim Welfare Canada",
+    "category": "zakat-financial-education",
+    "url": "https://mwcanada.org/zakat-calculator/",
+    "sourceType": "Charity zakat calculator",
+    "label": "Financial education",
+    "accessed": "2026-09-23",
+    "reviewStatus": "review-needed",
+    "note": "Calculator using a gold nisab of 88 g by default, with silver at 613 g as an option (its explanatory text gives 87.49 g and 613.35 g); counts only the coming year's principal on long-term debts; notes the difference of opinion on worn jewellery. Names Mufti Yusuf Badat as Zakat Policy Advisor. Shown on the page: CRA Charity No. 89733-1732-RR0001. The price feed may be out of date."
+  },
+  {
+    "id": "sunnah-bukhari-6464-regular-deeds",
+    "title": "Sahih al-Bukhari 6464: the most beloved deeds are the regular ones",
+    "organization": "Sunnah.com",
+    "category": "hadith",
+    "url": "https://sunnah.com/bukhari:6464",
+    "sourceType": "Hadith reference",
+    "label": "Hadith reference",
+    "accessed": "2026-09-23",
+    "reviewStatus": "source-checked",
+    "note": "In Sahih al-Bukhari: the most beloved deed to Allah is the most regular and constant, even if it is little. Checked on Sunnah.com."
   },
   {
     "id": "welcome-to-islam",
@@ -1162,18 +1270,6 @@
     "accessed": "2026-09-23",
     "reviewStatus": "review-needed",
     "note": "Cited as a named app for Quran recitation practice. Its privacy policy (last updated 26 May 2023) says voice recordings are stored in the United States and used to train its AI, and that it uses Mixpanel analytics and Google cookies for analytics and marketing. A reviewer should decide whether it still fits a privacy-first site."
-  },
-  {
-    "id": "islamicfinder-zakat",
-    "title": "IslamicFinder Zakat Calculator",
-    "organization": "IslamicFinder",
-    "category": "zakat-financial-education",
-    "url": "https://www.islamicfinder.org/zakatcalculator/",
-    "sourceType": "Zakat calculator",
-    "label": "Financial education",
-    "accessed": "2026-06-03",
-    "reviewStatus": "review-needed",
-    "note": "Kept as an educational calculator, with the reminder that your own zakat questions need qualified review."
   },
   {
     "id": "quran-fasting-2-183-185",

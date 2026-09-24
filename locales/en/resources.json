@@ -305,20 +305,6 @@
     "reviewStatus": "source-checked"
   },
   {
-    "id": "zakat-calculator",
-    "title": "IslamicFinder Zakat Calculator",
-    "type": "app",
-    "url": "https://www.islamicfinder.org/zakatcalculator/",
-    "description": "An online zakat calculator that walks through the usual categories of wealth and gives you a rough figure.",
-    "relatedStepIds": ["zakat-hajj"],
-    "relatedTopicIds": ["halal-living"],
-    "organization": "IslamicFinder",
-    "bestFor": "Learning how zakat calculators are structured",
-    "trustNote": "Calculator output is not a ruling. Ask a qualified scholar about your own finances.",
-    "sourceIds": ["islamicfinder-zakat"],
-    "reviewStatus": "review-needed"
-  },
-  {
     "id": "convert-story-videos",
     "title": "Convert Stories - The Deen Show",
     "type": "video",
@@ -409,20 +395,6 @@
     "trustNote": "Use emergency services or crisis lines immediately if there is danger or risk of self-harm.",
     "sourceIds": ["naseeha"],
     "reviewStatus": "source-checked"
-  },
-  {
-    "id": "islamic-relief-usa-zakat-faq",
-    "title": "Islamic Relief USA Zakat FAQ",
-    "type": "article",
-    "url": "https://irusa.org/faqs/",
-    "description": "Plain answers to common zakat and giving questions, from a named charity rather than an anonymous page.",
-    "relatedStepIds": ["zakat-hajj"],
-    "relatedTopicIds": ["halal-living"],
-    "organization": "Islamic Relief USA",
-    "bestFor": "Beginner charity and zakat concepts",
-    "trustNote": "Personal zakat calculations should be checked with a qualified scholar or trusted zakat institution.",
-    "sourceIds": ["irusa-zakat"],
-    "reviewStatus": "review-needed"
   },
   {
     "id": "launchgood-zakat-policy",
@@ -618,6 +590,34 @@
     "bestFor": "Prayer reminders on your phone",
     "trustNote": "No ads and no account. Your location stays on your phone. It uses anonymous analytics, which you can turn off in Settings.",
     "sourceIds": ["pillars-app-privacy"],
+    "reviewStatus": "source-checked"
+  },
+  {
+    "id": "cra-list-of-charities",
+    "title": "CRA list of charities",
+    "type": "article",
+    "url": "https://www.canada.ca/en/revenue-agency/services/charities-giving/list-charities/list-charities-other-qualified-donees.html",
+    "description": "The Canada Revenue Agency's list, where you can check that a charity is registered before you give zakat or sadaqah.",
+    "relatedStepIds": ["zakat-hajj"],
+    "relatedTopicIds": ["halal-living"],
+    "organization": "Canada Revenue Agency",
+    "bestFor": "Checking a charity before you give",
+    "trustNote": "Official Government of Canada list.",
+    "sourceIds": ["cra-charities-listing"],
+    "reviewStatus": "source-checked"
+  },
+  {
+    "id": "cafc-charity-fraud",
+    "title": "Charity and donation fraud",
+    "type": "article",
+    "url": "https://antifraudcentre-centreantifraude.ca/scams-fraudes/charity-donation-charite-eng.htm",
+    "description": "Warning signs of charity scams, including appeals for religious causes, and how to check a registration number.",
+    "relatedStepIds": ["zakat-hajj"],
+    "relatedTopicIds": ["halal-living"],
+    "organization": "Canadian Anti-Fraud Centre",
+    "bestFor": "Spotting a fake appeal",
+    "trustNote": "Official Government of Canada page.",
+    "sourceIds": ["cafc-charity-fraud"],
     "reviewStatus": "source-checked"
   }
 ]
