@@ -102,7 +102,7 @@ Use existing component patterns first. Add a new component only if the feature g
 - Next.js 14 App Router project with static export. React 18, TypeScript, Tailwind CSS, Serwist, Leaflet, Capacitor.
 - Localized route structure under app/[locale]. Supported locales: en, fr, es, hi, ur, zh, tl, pa, pt, ko, fa, ru, bn.
 - English is the default and only fully developed locale.
-- Shared UI components: Button, Card, Callout, Accordion, AnimateIn, Breadcrumb, Icon, SourceTags, SourcesPanel, PrintButton, GlossaryTooltip, LanguageSwitcher, Navbar, MobileNav, Footer, OfflineIndicator.
+- Shared UI components: Button, Card, Callout, Accordion, AnimateIn, Breadcrumb, Icon, SourceTags, SourcesPanel, PrintButton, GlossaryTooltip, LanguageSwitcher, Navbar, Footer, OfflineIndicator, VideoEmbed, EventsPageClient.
 
 ### English content inventory (current)
 
