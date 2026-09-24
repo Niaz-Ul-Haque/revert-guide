@@ -1,256 +1,1268 @@
 [
   {
     "id": "islamic-society-of-toronto-dundas",
-    "name": "Islamic Society of Toronto - Masjid Darus Salaam",
-    "address": "20 Overlea Boulevard",
-    "city": "Toronto",
-    "stateProvince": "Ontario",
-    "country": "Canada",
-    "postalCode": "M4H 1A4",
-    "coordinates": {
-      "lat": 43.7046555,
-      "lng": -79.3514705
-    },
-    "phone": "(416) 467-0786",
-    "email": "info@islamicsocietyoftoronto.com",
-    "website": "https://www.islamicsocietyoftoronto.com/",
-    "notes": "Également connu sous le nom de Masjid Darus Salaam. Le site officiel répertorie les prières quotidiennes et les programmes d'éducation islamique.",
-    "visitorNotes": "Utilisez le site officiel ou contactez le bureau avant de vous rendre car les heures de prière, les notes de stationnement et les programmes peuvent changer.",
-    "jumuahNote": "Le site officiel publie des lignes de Jumu'ah et des mises à jour sur les heures de prière ; confirmer l’horaire actuel avant d’y assister.",
-    "classSupportNote": "Les programmes officiellement répertoriés comprennent les cours du soir sur le Coran, la madrasa du dimanche, le Hifz, l'Alim/Alima et les études islamiques essentielles.",
-    "parkingNote": "Le site officiel comprend un avertissement de stationnement spécifique pour les parkings privés à proximité ; vérifiez les instructions actuelles avant de partir.",
-    "serviceIds": ["quran-classes", "weekend-school", "community-events"],
-    "sourceIds": ["masjid-ist-darus-salaam"],
-    "reviewStatus": "source-checked"
+    "notes": "Aussi appelée Masjid Darus Salaam. Le site officiel indique les prières quotidiennes et les programmes d'éducation islamique.",
+    "visitorNotes": "Consultez le site officiel ou appelez le bureau avant d'y aller. Les heures de prière, les consignes de stationnement et les programmes changent.",
+    "jumuahNote": "Le site officiel publie les heures de la prière du vendredi (jumu'ah) et les mises à jour des heures de prière. Vérifiez l'horaire avant d'y aller.",
+    "classSupportNote": "Les programmes indiqués comprennent un cours de Coran le soir, une madrasa le dimanche, la mémorisation du Coran (hifz), des études d'alim et d'alima et des cours d'études islamiques essentielles.",
+    "parkingNote": "Le site officiel met en garde contre le stationnement privé à proximité. Lisez les consignes actuelles avant de vous garer."
   },
   {
     "id": "taric-islamic-centre",
-    "name": "TARIC Islamic Centre",
-    "address": "99 Beverly Hills Drive",
-    "city": "North York",
-    "stateProvince": "Ontario",
-    "country": "Canada",
-    "postalCode": "M3L 1A2",
-    "coordinates": {
-      "lat": 43.7179655,
-      "lng": -79.5159803
-    },
-    "phone": "(416) 245-5675",
-    "email": "admin@taric.org",
-    "website": "https://taric.org/",
-    "notes": "Un centre islamique de longue date avec des horaires d'événements publics et une programmation communautaire.",
-    "visitorNotes": "Utilisez le site officiel ou contactez le centre pour connaître les horaires actuels de Jumu'ah, les événements et l'assistance aux visiteurs.",
-    "classSupportNote": "Le matériel officiel de l'événement répertorie les séminaires familiaux, les activités du Ramadan, les événements de l'Aïd, la sensibilisation communautaire et les programmes pour les jeunes et les familles.",
-    "serviceIds": ["community-events", "youth-programs"],
-    "sourceIds": ["masjid-taric"],
-    "reviewStatus": "source-checked"
+    "notes": "Un centre islamique établi depuis longtemps qui publie son calendrier d'activités et propose régulièrement des activités communautaires.",
+    "visitorNotes": "Consultez le site officiel ou appelez le centre pour connaître les heures actuelles de la prière du vendredi, les activités et l'accueil des visiteurs.",
+    "classSupportNote": "Les documents publiés mentionnent des séminaires pour les familles, des activités du Ramadan, des fêtes de l'Aïd, des activités de rayonnement et des programmes pour les jeunes et les familles."
   },
   {
     "id": "masjid-toronto-adelaide",
-    "name": "Masjid Toronto (Dundas)",
-    "address": "168 Dundas Street West",
-    "city": "Toronto",
-    "stateProvince": "Ontario",
-    "country": "Canada",
-    "postalCode": "M5G 1C6",
-    "coordinates": {
-      "lat": 43.6536,
-      "lng": -79.3849
-    },
-    "phone": "(416) 596-0507",
-    "website": "https://centres.macnet.ca/masjidtoronto/venue/toronto-dundas/",
-    "notes": "Emplacement de la mosquée du centre-ville exploité par MAC Masjid Toronto. Ce record correspond désormais à l'adresse du site de Dundas.",
-    "visitorNotes": "Les emplacements du centre-ville peuvent être occupés autour de Jumu'ah. Confirmez les horaires actuels et les détails d’entrée avant de visiter.",
-    "jumuahNote": "Utilisez le site officiel de Masjid Toronto pour connaître les détails de la prière actuelle et de Jumu'ah.",
-    "sourceIds": ["masjid-toronto-dundas"],
-    "reviewStatus": "source-checked"
+    "notes": "L'emplacement de la rue Dundas de MAC Masjid Toronto. Un deuxième emplacement se trouve rue Adelaide Est.",
+    "visitorNotes": "Le centre-ville est très fréquenté au moment de la prière du vendredi (jumu'ah), alors prévoyez du temps. Vérifiez les heures actuelles et l'entrée à utiliser avant d'y aller.",
+    "womenSpaceNote": "On accède à la salle de prière des sœurs par un escalier indiqué « Sister's Entrance ».",
+    "newMuslimSupportNote": "Le cours After the Shahadah a lieu ici les 2e et 4e dimanches après-midi. La page officielle donne deux heures de début différentes, alors écrivez à convertconnect@masjidtoronto.com pour confirmer. Un groupe Convert Connect se réunit les 1er et 3e dimanches après la prière du midi (dhuhr), et vous pouvez demander que quelqu'un vous accueille lors de votre première visite.",
+    "accessibilityNote": "Il y a un ascenseur derrière la salle de prière des frères.",
+    "jumuahNote": "Trois prières du vendredi (12 h 10, 13 h 10 et 14 h 10 en septembre 2026). Consultez le site pour la semaine en cours.",
+    "classSupportNote": "La page des programmes mentionne aussi un cours d'éducation islamique en langue des signes les 2e et 4e dimanches."
   },
   {
     "id": "islamic-foundation-of-toronto",
-    "name": "Islamic Foundation of Toronto",
-    "address": "441 Nugget Avenue",
-    "city": "Scarborough",
-    "stateProvince": "Ontario",
-    "country": "Canada",
-    "postalCode": "M1S 5E1",
-    "coordinates": {
-      "lat": 43.7874,
-      "lng": -79.2636
-    },
-    "phone": "(416) 321-0909",
-    "email": "info@islamicfoundation.ca",
-    "website": "https://www.islamicfoundation.ca/",
-    "notes": "Grand établissement communautaire avec culte, éducation et programmation publique.",
-    "visitorNotes": "Confirmez les programmes actuels, l'inscription aux cours et le soutien aux visiteurs directement avant d'y assister.",
-    "classSupportNote": "Les listes officielles et liées aux sources présentent des programmes éducatifs tels que Hifz, l'école du dimanche et les services communautaires.",
-    "serviceIds": ["quran-classes", "weekend-school", "community-events"],
-    "sourceIds": ["masjid-islamic-foundation-toronto"],
-    "reviewStatus": "source-checked"
+    "notes": "Un grand bâtiment avec une salle de prière, des cours et des activités ouvertes au public.",
+    "visitorNotes": "Communiquez avec le bureau avant d'y aller pour confirmer les programmes, l'inscription aux cours et l'accueil offert aux visiteurs.",
+    "classSupportNote": "Les annonces publiées mentionnent des programmes d'éducation, dont la mémorisation du Coran (hifz) et une école du dimanche, ainsi que des services communautaires."
   },
   {
     "id": "khalid-bin-al-walid-mosque",
-    "name": "Khalid Bin Al-Walid Mosque",
-    "address": "16 Bethridge Road",
-    "city": "Etobicoke",
-    "stateProvince": "Ontario",
-    "country": "Canada",
-    "postalCode": "M9W 1N1",
-    "coordinates": {
-      "lat": 43.7087605,
-      "lng": -79.5687599
-    },
-    "phone": "(416) 745-2888",
-    "email": "info@khalidmosque.com",
-    "website": "https://www.khalidmosque.com/",
-    "notes": "Mosquée d'Etobicoke avec coordonnées officielles et mises à jour de la programmation communautaire.",
-    "visitorNotes": "Contactez le bureau ou consultez le site officiel avant de vous rendre ; les anciennes listes d’adresses peuvent être obsolètes.",
-    "jumuahNote": "Confirmez la Jumu'ah actuelle et les heures de prière directement avec la mosquée.",
-    "sourceIds": ["masjid-khalid-bin-al-walid"],
-    "reviewStatus": "source-checked"
+    "notes": "Une mosquée d'Etobicoke qui tient ses coordonnées et ses programmes à jour sur son propre site.",
+    "visitorNotes": "Appelez le bureau ou consultez le site officiel avant d'y aller. D'anciennes annonces ailleurs indiquent encore une adresse périmée.",
+    "jumuahNote": "Confirmez les heures actuelles de la prière du vendredi et des prières directement auprès de la mosquée."
   },
   {
     "id": "imdadul-islamic-centre",
-    "name": "Imdadul Islamic Centre",
-    "address": "26 Le Page Court",
-    "city": "North York",
-    "stateProvince": "Ontario",
-    "country": "Canada",
-    "postalCode": "M3J 1Z9",
-    "coordinates": {
-      "lat": 43.759028,
-      "lng": -79.4869955
-    },
-    "phone": "(416) 636-0044",
-    "email": "imdaduljamat@gmail.com",
-    "website": "https://www.imdadulcentre.ca/",
-    "notes": "Mosquée communautaire avec programmes de culte, de famille, de jeunesse, de bénévolat et de sensibilisation.",
-    "visitorNotes": "Le site officiel demande aux visiteurs de contacter la mosquée pour toute question, soutien ou implication.",
-    "jumuahNote": "Le site officiel répertorie deux prières de Jumu'ah ; confirmer les horaires actuels avant d’y assister.",
-    "classSupportNote": "Les descriptions officielles mentionnent les services de prière, la sensibilisation communautaire, les opportunités de bénévolat et les programmes familiaux.",
-    "parkingNote": "Arrivez tôt pour Jumu'ah et confirmez directement les instructions de stationnement.",
-    "serviceIds": ["community-events", "youth-programs"],
-    "sourceIds": ["masjid-imdadul-islamic-centre"],
-    "reviewStatus": "source-checked"
+    "notes": "Une mosquée de quartier qui propose le culte et des activités pour les familles, les jeunes, les bénévoles et le rayonnement.",
+    "visitorNotes": "Le site officiel invite les visiteurs à communiquer avec la mosquée pour leurs questions, pour obtenir du soutien ou pour offrir leur aide.",
+    "jumuahNote": "Le site officiel indique deux prières du vendredi. Confirmez les heures actuelles avant d'y aller.",
+    "classSupportNote": "Les descriptions publiées mentionnent les prières, des activités de rayonnement, des possibilités de bénévolat et des programmes pour les familles.",
+    "parkingNote": "Arrivez tôt pour la prière du vendredi et demandez à la mosquée où vous garer."
   },
   {
     "id": "masjid-el-noor",
-    "name": "Masjid El Noor",
-    "address": "277 Scott Road",
-    "city": "Toronto",
-    "stateProvince": "Ontario",
-    "country": "Canada",
-    "postalCode": "M6M 3V3",
-    "coordinates": {
-      "lat": 43.689655,
-      "lng": -79.4719435
-    },
-    "phone": "(416) 658-6667",
-    "email": "info@masjidelnoor.ca",
-    "website": "https://masjidelnoor.ca/",
-    "notes": "Masjid établi à Toronto avec prière, cours et services communautaires.",
-    "visitorNotes": "Le site officiel publie des mises à jour sur Jumu'ah, le stationnement et le programme ; confirmer les détails actuels avant de visiter.",
-    "womenSpaceNote": "La page officielle À propos décrit les salles de prière pour les frères et sœurs.",
-    "accessibilityNote": "La page officielle à propos mentionne des rampes et des places de stationnement désignées.",
-    "jumuahNote": "Le site officiel répertorie une prière de Jumu'ah avec une conférence en anglais avant la khutbah arabe ; confirmer les heures actuelles.",
-    "classSupportNote": "Les programmes officiellement répertoriés incluent l'éducation liée au Maktaab du soir et au Coran.",
-    "parkingNote": "Le site officiel publie des conseils de stationnement réservés à Jumu'ah et demande aux visiteurs de ne pas bloquer les bouches d'incendie, les passages pour piétons ou les allées.",
-    "serviceIds": ["quran-classes", "community-events"],
-    "womenFriendly": true,
-    "parking": true,
-    "accessibility": true,
-    "sourceIds": ["masjid-el-noor"],
-    "reviewStatus": "source-checked"
+    "notes": "Une mosquée établie de Toronto avec la prière quotidienne, des cours et des services communautaires.",
+    "visitorNotes": "Le site officiel publie les mises à jour sur la prière du vendredi, le stationnement et les programmes. Vérifiez les renseignements actuels avant votre visite.",
+    "womenSpaceNote": "La page de présentation décrit des salles de prière séparées pour les frères et les sœurs.",
+    "accessibilityNote": "La page de présentation mentionne des rampes et des places de stationnement réservées.",
+    "jumuahNote": "Le site officiel indique une seule prière du vendredi, avec une conférence en anglais avant le sermon (khutbah) en arabe. Confirmez les heures actuelles.",
+    "classSupportNote": "Les programmes indiqués comprennent un maktab le soir et des cours de Coran.",
+    "parkingNote": "Le site officiel publie des consignes de stationnement pour la prière du vendredi et demande aux visiteurs de ne pas bloquer les bornes d'incendie, les passages pour piétons ni les entrées de cour."
   },
   {
     "id": "islamic-institute-of-toronto",
-    "name": "Islamic Institute of Toronto",
-    "address": "1630 Neilson Road",
-    "city": "Scarborough",
-    "stateProvince": "Ontario",
-    "country": "Canada",
-    "postalCode": "M1X 1S3",
-    "coordinates": {
-      "lat": 43.7903,
-      "lng": -79.2141
-    },
-    "phone": "(416) 335-9173",
-    "email": "iit@islam.ca",
-    "website": "https://islam.ca/contact-us/",
-    "notes": "Institut éducatif et centre communautaire avec contact et directions officiels.",
-    "visitorNotes": "Utilisez la page de contact officielle pour les directions actuelles, les informations sur les cours et les questions des visiteurs.",
-    "classSupportNote": "Le site officiel décrit l'IIT comme un institut d'enseignement à but non lucratif et répertorie les mises à jour des programmes et des bulletins d'information.",
-    "serviceIds": ["quran-classes", "community-events"],
-    "sourceIds": ["masjid-islamic-institute-toronto"],
-    "reviewStatus": "source-checked"
+    "notes": "Un institut d'enseignement et centre communautaire. Les coordonnées et l'itinéraire se trouvent sur son propre site.",
+    "visitorNotes": "Utilisez la page de contact officielle pour l'itinéraire, les renseignements sur les cours et toute question de visiteur.",
+    "newMuslimSupportNote": "Le New Muslim Corner est un cours gratuit de 25 leçons enregistrées. La page du cours mentionne aussi un cours pour les nouveaux musulmans le vendredi à 19 h, mais rien ne confirme qu'il a encore lieu en direct, alors renseignez-vous auprès du bureau.",
+    "classSupportNote": "Le site officiel présente l'IIT comme un institut d'enseignement sans but lucratif et publie des nouvelles sur ses programmes et son infolettre."
   },
   {
     "id": "jami-mosque",
-    "name": "Jami Mosque Toronto | ISNA Canada",
-    "address": "56 Boustead Avenue",
-    "city": "Toronto",
-    "stateProvince": "Ontario",
-    "country": "Canada",
-    "postalCode": "M6R 1Y9",
-    "coordinates": {
-      "lat": 43.6474,
-      "lng": -79.4446
-    },
-    "phone": "(416) 769-1192",
-    "website": "https://www.isnacanada.com/locations/jami-mosque-toronto",
-    "notes": "La mosquée historique de Toronto est désormais répertoriée par ISNA Canada.",
-    "visitorNotes": "Confirmez les heures actuelles, les heures de Jumu'ah et l'accès aux événements via ISNA Canada avant de vous rendre.",
-    "sourceIds": ["masjid-jami-mosque-isna"],
-    "reviewStatus": "source-checked"
+    "notes": "Une mosquée historique de Toronto, maintenant rattachée à ISNA Canada.",
+    "visitorNotes": "Vérifiez les heures d'ouverture, les heures de la prière du vendredi et l'accès aux activités auprès d'ISNA Canada avant d'y aller."
   },
   {
     "id": "abu-huraira-center",
-    "name": "Abu Huraira Center",
-    "address": "270 Yorkland Boulevard",
-    "city": "North York",
-    "stateProvince": "Ontario",
-    "country": "Canada",
-    "postalCode": "M2J 5C9",
-    "coordinates": {
-      "lat": 43.77282,
-      "lng": -79.33454
-    },
-    "phone": "(416) 752-1200",
-    "email": "info@abuhuraira.org",
-    "website": "https://www.abuhuraira.org/",
-    "notes": "Grand centre communautaire du Grand Toronto avec services de prière, d'apprentissage, de conseil, pour les jeunes et de nouveaux services de soutien aux musulmans.",
-    "visitorNotes": "Le site officiel répertorie les programmes et les coordonnées ; confirmer le soutien actuel des visiteurs et l’inscription aux cours avant d’y assister.",
-    "newMuslimSupportNote": "Le site officiel répertorie le support New Muslim parmi ses services.",
-    "classSupportNote": "Les programmes officiellement répertoriés comprennent l'éducation liée au Coran, les écoles du week-end, le Hifdh, la jeunesse et les halaqas régulières.",
-    "serviceIds": [
-      "quran-classes",
-      "community-events",
-      "new-muslim-support",
-      "youth-programs",
-      "weekend-school"
-    ],
-    "convertSupport": true,
-    "sourceIds": ["masjid-abu-huraira-center"],
-    "reviewStatus": "source-checked"
+    "notes": "Un grand centre communautaire de la région du Grand Toronto. La prière, les cours, le counseling, les activités jeunesse et le soutien aux nouveaux musulmans se déroulent tous dans le même bâtiment.",
+    "visitorNotes": "Le site officiel indique les programmes et les coordonnées. Confirmez l'accueil des visiteurs et l'inscription aux cours avant d'y aller.",
+    "newMuslimSupportNote": "Le site officiel mentionne le soutien aux nouveaux musulmans parmi ses services.",
+    "classSupportNote": "Les programmes indiqués comprennent des cours de Coran, une école de fin de semaine, la mémorisation du Coran (hifdh), des activités jeunesse et des cercles d'étude (halaqas) réguliers."
   },
   {
     "id": "isna-islamic-centre-of-canada",
-    "name": "Islamic Centre of Canada (ISNA)",
-    "address": "2200 South Sheridan Way",
-    "city": "Mississauga",
-    "stateProvince": "Ontario",
-    "country": "Canada",
-    "postalCode": "L5J 2M4",
-    "coordinates": {
-      "lat": 43.5063,
-      "lng": -79.6505
-    },
-    "phone": "(905) 403-8406",
-    "website": "https://www.isnacanada.com/our-spaces/islamic-centre-of-canada/",
-    "notes": "Siège social d'ISNA Canada et centre communautaire local avec espaces musulmans, pour les jeunes, l'éducation et les événements.",
-    "visitorNotes": "Confirmez les heures de prière, les cours, l'accès aux événements et le soutien aux visiteurs actuels via ISNA Canada avant de partir.",
-    "classSupportNote": "La page officielle décrit un centre éducatif, un pôle jeunesse, musallah et des espaces communautaires réservables.",
-    "serviceIds": ["quran-classes", "community-events", "youth-programs"],
-    "sourceIds": ["masjid-isna-islamic-centre-canada"],
-    "reviewStatus": "source-checked"
+    "notes": "Le siège d'ISNA Canada, qui est aussi un centre communautaire à part entière, avec une salle de prière (musallah), un espace jeunesse, des salles de cours et une salle d'événements.",
+    "visitorNotes": "Vérifiez les heures de prière, les cours, l'accès aux activités et l'accueil des visiteurs auprès d'ISNA Canada avant d'y aller.",
+    "newMuslimSupportNote": "Le programme New Muslims and Convert Care d'ISNA Canada propose des cours chaque semaine, des rencontres sociales chaque mois et une boîte Being Muslim avec une traduction du Coran, des livres et un tapis de prière. Le jour, l'heure et le lieu du cours ne sont pas publiés, alors appelez le bureau ou utilisez le formulaire de contact.",
+    "classSupportNote": "La page officielle décrit un centre d'éducation, un espace jeunesse, une salle de prière (musallah) et des salles communautaires à réserver."
+  },
+  {
+    "id": "masjid-quba-islamic-society-of-ajax",
+    "notes": "Aussi appelée Ajax Masjid.",
+    "jumuahNote": "Trois prières du vendredi (sermon à 14 h, 15 h 15 et 16 h 15 selon l'horaire du 2026-09-23).",
+    "parkingNote": "La page d'accueil demande de « se garer avec courtoisie lors de la prière du vendredi »."
+  },
+  {
+    "id": "barrie-mosque",
+    "notes": "Aussi appelée Barrie Mosque ou Noor Ul Islam.",
+    "newMuslimSupportNote": "La page Reverts to Islam propose du mentorat ainsi qu'un cercle social et d'étude (Reverts to Islam Social Circle and Study) le premier samedi de chaque mois."
+  },
+  {
+    "id": "islamic-society-of-belleville",
+    "notes": "Aussi appelée Belleville Masjid ou Belleville Mosque.",
+    "jumuahNote": "La page de présentation mentionne la prière du vendredi. Un ancien avis sur la page d'accueil indique : « Sermon du vendredi : 13 h 45, prière : 14 h (une seule prière) » (peut-être périmé).",
+    "parkingNote": "Avis sur la page d'accueil : consignes pour sortir par la rue Moira après la prière du vendredi et « Veuillez NE PAS vous garer dans les places réservées du stationnement ni aux endroits où le stationnement est interdit »."
+  },
+  {
+    "id": "brampton-islamic-centre",
+    "notes": "Aussi appelé BIC/BSIA ou Brampton Society for Islamic Awareness.",
+    "jumuahNote": "Page d'accueil : « 1re prière du vendredi : sermon à 13 h 45, iqama à 14 h 10. 2e prière du vendredi : sermon à 14 h 55, iqama à 15 h 15 »."
+  },
+  {
+    "id": "jame-makki-masjid-brampton",
+    "notes": "Aussi appelée Brampton Makki Masjid.",
+    "womenSpaceNote": "Espace réservé aux femmes (page de présentation).",
+    "jumuahNote": "Iqama de la prière du vendredi à 13 h 45, 14 h 30 et 15 h 30 (page d'accueil)."
+  },
+  {
+    "id": "jamiat-ul-ansar-brampton",
+    "notes": "Aussi appelée Ansar Mosque Brampton.",
+    "womenSpaceNote": "Page des sœurs : conférence mensuelle, « le premier mercredi de chaque mois ... de 18 h 30 à 19 h 30 », « Toutes les sœurs sont les bienvenues », « Que vous soyez nouvelle dans la communauté ou parmi nous depuis des années, cet espace est pensé pour que chaque sœur s'y sente bienvenue ».",
+    "newMuslimSupportNote": "La page des services décrit un comité New Muslim Outreach qui offre « soutien, conseils et enseignement aux nouveaux musulmans ». Écrivez au centre pour en savoir plus."
+  },
+  {
+    "id": "muslim-association-of-brantford",
+    "notes": "Aussi appelée MAB ou Brantford Mosque.",
+    "womenSpaceNote": "Page des prières : « installations pour les frères et pour les sœurs »; mentionne un espace séparé pour les femmes, « Mussallah-UL-Nissah ».",
+    "parkingNote": "Page des prières : « utilisez seulement les aires de stationnement désignées »; le stationnement « se remplit vite » le vendredi."
+  },
+  {
+    "id": "halton-islamic-association-halton-masjid-burlington",
+    "notes": "Aussi appelée Masjid Halton.",
+    "womenSpaceNote": "Comité des sœurs et activités pour les sœurs; une salle d'entraînement pour les femmes est mentionnée.",
+    "jumuahNote": "Halton Masjid : sermon à 13 h 30, 14 h 30 et 15 h 20; d'autres prières du vendredi ont lieu à l'église East Plains (375 Plains Rd E) et dans un centre communautaire."
+  },
+  {
+    "id": "galt-islamic-center-cambridge",
+    "notes": "Secteur : Galt. Aussi appelé Galt Islamic Centre.",
+    "womenSpaceNote": "Page de présentation : « programmes spéciaux pour les sœurs, des programmes réservés à nos mères et à nos sœurs »."
+  },
+  {
+    "id": "hespeler-masjid-a-mac-community-centre-cambridge",
+    "jumuahNote": "Première prière à 13 h 30; une deuxième prière à 14 h est aussi indiquée."
+  },
+  {
+    "id": "islamic-centre-of-cambridge",
+    "notes": "Aussi appelé ICC.",
+    "jumuahNote": "Deux sermons : 13 h 30 et 14 h 45."
+  },
+  {
+    "id": "townline-muslim-centre-cambridge",
+    "notes": "Aussi appelé TMC.",
+    "jumuahNote": "Deux prières du vendredi; appel à la prière (adhan) 30 minutes avant chaque iqama (heures sur le site)."
+  },
+  {
+    "id": "cornwall-islamic-centre",
+    "womenSpaceNote": "« L'entrée des sœurs se trouve du côté droit du bâtiment » (page de présentation)."
+  },
+  {
+    "id": "the-ottawa-valley-islamic-centre-deep-river"
+  },
+  {
+    "id": "islamic-association-of-sudbury-greater-sudbury",
+    "notes": "Aussi appelée Sudbury Mosque.",
+    "jumuahNote": "« LE SERMON DE LA PRIÈRE DU VENDREDI COMMENCE À 12 H 30 »."
+  },
+  {
+    "id": "islamic-centre-of-northern-ontario-greater-sudbury",
+    "notes": "Aussi appelé ICONO.",
+    "jumuahNote": "Une page propose les enregistrements des sermons; les heures ne sont pas indiquées."
+  },
+  {
+    "id": "islamic-society-of-guelph",
+    "notes": "Aussi appelée Masjid Abu Bakr As-Siddique.",
+    "jumuahNote": "Prière du vendredi chaque semaine (heures non précisées)."
+  },
+  {
+    "id": "masjid-aisha-a-mac-community-centre-guelph",
+    "jumuahNote": "Indiquée « À venir » sur la page d'accueil (aucune heure)."
+  },
+  {
+    "id": "muslim-society-of-guelph",
+    "notes": "Aussi appelée MSOG.",
+    "jumuahNote": "Plusieurs prières du vendredi, par exemple iqama à 13 h 35 et à 15 h 35; « Merci d'arriver de 10 à 15 minutes avant l'heure de début »."
+  },
+  {
+    "id": "alkhairia-islamic-centre-hamilton",
+    "notes": "Secteur : Ancaster. Aussi appelé AIC Ancaster.",
+    "newMuslimSupportNote": "La page d'accueil mentionne des programmes de rayonnement pour les nouveaux musulmans (Revert Outreach Programs) parmi ses services. Aucune page ne les décrit en détail, alors renseignez-vous auprès du centre.",
+    "jumuahNote": "La page d'accueil mentionne la prière du vendredi parmi les services; l'heure n'est pas précisée."
+  },
+  {
+    "id": "bosnian-islamic-centre-of-hamilton",
+    "notes": "Secteur : Stoney Creek. Aussi appelé BIC Hamilton.",
+    "visitorNotes": "Langues : le site est surtout en bosniaque, avec une section en anglais (présentation, coordonnées, nouvelles). La langue du sermon n'est pas précisée.",
+    "jumuahNote": "Page de contact : « Prière du vendredi : le vendredi, 13 h 30 (HNE) »; encadré des prières sur la page d'accueil : « Prière du vendredi : le vendredi, 13 h 25 et 15 h »."
+  },
+  {
+    "id": "hamilton-downtown-mosque",
+    "notes": "Aussi appelée HDM.",
+    "jumuahNote": "« Sermon et prière du vendredi (voir la page des heures de prière) »."
+  },
+  {
+    "id": "hamilton-mountain-mosque",
+    "notes": "Aussi appelée MAH ou Mountain Mosque.",
+    "accessibilityNote": "La MAH publie une politique d'accessibilité selon la LAPHO et demande aux personnes qui ont besoin d'une mesure d'adaptation d'écrire à contactus@hamiltonmosque.com; les caractéristiques physiques ne sont pas précisées."
+  },
+  {
+    "id": "umar-mosque-hamilton",
+    "notes": "Aussi appelée MAH Umar Mosque.",
+    "accessibilityNote": "Page de présentation de la MAH (pour toute l'association) : « fonctionne conformément à la Loi sur l'accessibilité pour les personnes handicapées de l'Ontario. La MAH s'engage à offrir un accès complet aux locaux et à éliminer tout obstacle possible ». Les caractéristiques propres à ce lieu ne sont pas précisées."
+  },
+  {
+    "id": "islamic-society-of-kingston",
+    "notes": "Aussi appelé ISK ou ICK.",
+    "accessibilityNote": "La page des programmes mentionne un cours d'éducation spécialisée pour les enfants ayant des besoins d'apprentissage; l'accessibilité du bâtiment n'est pas précisée.",
+    "jumuahNote": "Deux prières du vendredi : premier sermon à 13 h (iqama à 13 h 45), deuxième à 14 h 30 (iqama entre 14 h 45 et 15 h).",
+    "parkingNote": "Page des heures de prière : « Comme le stationnement reste difficile à l'ISK pendant la prière du vendredi, pensez à l'une des autres prières du vendredi en ville » (BFC Kingston, église Crossroads United, Université Queen's, toutes à 13 h 30)."
+  },
+  {
+    "id": "al-salaam-islamic-centre-kitchener",
+    "jumuahNote": "Page d'accueil : « Prière du vendredi à 13 h 30 »."
+  },
+  {
+    "id": "kitchener-masjid-a-mac-community-centre",
+    "notes": "Aussi appelée Kitchener Masjid.",
+    "jumuahNote": "Trois prières : 12 h 15, 13 h 15 et 14 h 15 (la troisième en arabe)."
+  },
+  {
+    "id": "north-london-islamic-centre-komoka"
+  },
+  {
+    "id": "hyde-park-masjid-london",
+    "jumuahNote": "Première prière à 12 h 30, deuxième prière à 13 h 30."
+  },
+  {
+    "id": "islamic-centre-of-southwest-ontario-london",
+    "notes": "Aussi appelé ICSWO.",
+    "jumuahNote": "Horaire indiqué pour toute l'année : appel à la prière à 13 h 30, sermon à 13 h 35, iqama à 13 h 55."
+  },
+  {
+    "id": "london-muslim-mosque",
+    "notes": "Aussi appelée LMM.",
+    "newMuslimSupportNote": "La page des conférences décrit une rencontre familiale gratuite pour les nouveaux musulmans (New Muslim Family Meet Up) les premier et troisième samedis du mois, ainsi qu'un diplôme de connaissances islamiques essentielles pour les nouveaux musulmans. L'inscription est obligatoire.",
+    "jumuahNote": "Deux prières du vendredi indiquées sur la page d'accueil : 12 h et 13 h 15 (vérifiez les heures actuelles sur le site)."
+  },
+  {
+    "id": "mac-noor-gardens-a-mac-community-centre-london",
+    "notes": "Aussi appelé Noor Gardens. Le centre a annoncé une grande ouverture pour le 28 août 2026.",
+    "jumuahNote": "1re prière : 12 h, 2e prière : 13 h 30."
+  },
+  {
+    "id": "muslim-association-of-canada-masonville-centre-london",
+    "notes": "Aussi appelé MAC Masonville.",
+    "jumuahNote": "Le vendredi à 12 h."
+  },
+  {
+    "id": "westmount-masjid-a-mac-community-centre-london",
+    "notes": "Aussi appelé MAC Westmount Centre; bureau principal de MAC London.",
+    "jumuahNote": "1re prière à 12 h 15, 2e prière à 13 h 30."
+  },
+  {
+    "id": "islamic-centre-of-markham",
+    "parkingNote": "Un appel aux dons pour rénover le stationnement a été publié en mars 2026; aucun détail sur le stationnement."
+  },
+  {
+    "id": "islamic-society-of-markham",
+    "newMuslimSupportNote": "La page du programme New Muslim Care propose des coordonnateurs pour les questions sur l'islam, les activités communautaires et l'enseignement. Aucun horaire n'est donné."
+  },
+  {
+    "id": "islamic-community-centre-of-milton",
+    "notes": "Aussi appelé ICNA Milton.",
+    "womenSpaceNote": "Page des programmes : « Un espace réservé aux femmes pour étudier le savoir islamique (du mardi au jeudi) ».",
+    "jumuahNote": "Encadré des prières sur la page d'accueil : « 1re prière du vendredi 13 h 30, 2e prière du vendredi 14 h 45, 3e prière du vendredi 15 h 45 »."
+  },
+  {
+    "id": "966-icna-masjid-youth-centre-mississauga",
+    "notes": "Aussi appelé 966 Community Centre.",
+    "jumuahNote": "Encadré des prières sur la page d'accueil : « 1re prière du vendredi 13 h 30, 2e prière du vendredi 14 h 30 »."
+  },
+  {
+    "id": "anatolia-islamic-centre-mississauga",
+    "visitorNotes": "Langues : un cercle d'étude (halaqa) en turc est indiqué; le site laisse supposer l'usage de l'anglais, mais la langue des services n'est pas précisée."
+  },
+  {
+    "id": "dar-al-tawheed-islamic-centre-mississauga"
+  },
+  {
+    "id": "islamic-community-centre-of-ontario-mississauga",
+    "notes": "Aussi appelé MAC ICCO.",
+    "jumuahNote": "Prières du vendredi indiquées à 12 h, 13 h 15, 14 h 30 et 15 h 30; langue non précisée."
+  },
+  {
+    "id": "masjid-al-farooq-mississauga",
+    "womenSpaceNote": "Des programmes de diplôme en charia pour les sœurs sont indiqués; aucun espace de prière réservé n'est décrit.",
+    "accessibilityNote": "Le site a des pages sur la politique d'accessibilité, les avis et le rapport de conformité; les détails sur l'accessibilité physique ne sont pas précisés.",
+    "jumuahNote": "Plusieurs prières du vendredi sont indiquées, dont une 4e à 15 h 30; langue non précisée."
+  },
+  {
+    "id": "sayeda-khadija-centre-mississauga",
+    "notes": "Aussi appelé Faith of Life Network.",
+    "jumuahNote": "Des « prières en assemblée chaque semaine » sont mentionnées; les heures ne sont pas précisées."
+  },
+  {
+    "id": "newmarket-islamic-centre",
+    "womenSpaceNote": "Page d'accueil : « Plus de 1 200 hommes et femmes assistent chaque semaine à la prière du vendredi. » L'espace des femmes n'est pas décrit.",
+    "jumuahNote": "Page d'accueil : « 1re prière : sermon à 13 h 15, prière à 13 h 45; 2e prière : sermon à 14 h 15, prière à 14 h 45 »; des avis mentionnent des prières du vendredi à la mosquée et dans des salles extérieures (Lions Hall, Ray Twinney Recreation Complex) à des heures différentes."
+  },
+  {
+    "id": "islamic-society-of-niagara-peninsula-niagara-falls",
+    "jumuahNote": "Prière du vendredi chaque semaine à 13 h 30."
+  },
+  {
+    "id": "masjid-alsalam-niagara-falls-islamic-center",
+    "jumuahNote": "Trois prières du vendredi à 13 h 30, 14 h 30 et 15 h 30."
+  },
+  {
+    "id": "al-falah-islamic-centre-oakville",
+    "notes": "Aussi appelé Al Falah Center Oakville; siège social d'ICNA Canada.",
+    "womenSpaceNote": "La page des programmes indique une rencontre hebdomadaire pour les sœurs; l'espace de prière n'est pas décrit.",
+    "jumuahNote": "Encadré des prières sur la page d'accueil : « 1re prière du vendredi ... 12 h 15, 2e prière du vendredi ... 13 h 25, 3e prière du vendredi ... 14 h 35 »."
+  },
+  {
+    "id": "muslim-association-of-milton-oakville",
+    "notes": "Aussi appelée MAM ou HICC Masjid.",
+    "jumuahNote": "La prière du vendredi a lieu au Milton Sports Centre et dans d'autres lieux; voir l'affiche sur la page d'accueil."
+  },
+  {
+    "id": "islamic-centre-of-oshawa",
+    "notes": "Aussi appelée Oshawa Mosque.",
+    "visitorNotes": "Services en anglais confirmés (l'horaire de la prière du vendredi indique une causerie en anglais avant la première et la deuxième prière).",
+    "jumuahNote": "Page d'accueil : « 1re PRIÈRE : causerie en anglais à 13 h 15 ... sermon et prière à 13 h 45. 2e PRIÈRE : causerie en anglais à 14 h 30 ... sermon et prière à 14 h 45. 3e PRIÈRE : sermon et prière à 16 h 30 »."
+  },
+  {
+    "id": "al-farooq-al-azam-mosque-ottawa",
+    "notes": "Secteur : Old Ottawa South. Aussi appelée Jamia Masjid Farooq-e-Azam ou Masjid Farooq Azam.",
+    "womenSpaceNote": "« Séance hebdomadaire de tajwid du Coran (pour les sœurs) » le samedi de 11 h à 13 h; l'aménagement de l'espace de prière n'est pas décrit.",
+    "jumuahNote": "Première séance à 14 h, deuxième séance à 14 h 45 (page d'accueil)."
+  },
+  {
+    "id": "bukhari-community-centre-masjid-ottawa",
+    "notes": "Secteur : Overbrook, boulevard St-Laurent. Aussi appelé Bukhari Centre ou Bukhari Masjid & Community Centre.",
+    "womenSpaceNote": "Page du vendredi : « 2e prière du vendredi : 14 h (ouverte aux frères et aux sœurs) »; la première prière du vendredi est réservée aux frères. Aucun espace séparé pour les femmes n'est décrit.",
+    "accessibilityNote": "La page de présentation mentionne de nouvelles portes à l'avant et à l'arrière qui « améliorent la sécurité et l'accessibilité »; aucune caractéristique d'accessibilité précise n'est indiquée.",
+    "jumuahNote": "« 1re prière du vendredi : 13 h (ouverte aux frères). 2e prière du vendredi : 14 h (ouverte aux frères et aux sœurs) »."
+  },
+  {
+    "id": "centretown-mosque-ottawa",
+    "notes": "Secteur : Centretown. Selon le site, la communauté cherche encore à obtenir un local permanent au 397, rue Kent, alors confirmez l'adresse avant d'y aller.",
+    "womenSpaceNote": "Un « cours d'arabe pour les sœurs » (le samedi à 12 h, pour les sœurs adultes) est indiqué; l'aménagement de l'espace de prière n'est pas décrit.",
+    "newMuslimSupportNote": "Le site mentionne des séminaires pour les nouveaux musulmans (New Muslim Seminars), « un espace accueillant pour apprendre les principes de base de l'islam ». Aucun horaire n'est donné.",
+    "jumuahNote": "« Joignez-vous à la communauté chaque vendredi pour le sermon et la prière en assemblée à 13 h et à 14 h »."
+  },
+  {
+    "id": "darul-arqum-ottawa",
+    "notes": "Secteur : Riverside South. Aussi appelé Darul Arqum Riverside South.",
+    "jumuahNote": "« Prière du vendredi à 13 h 30 et 14 h 30 » (page d'accueil); page des heures de prière : « 1er sermon à 13 h 30 et 2e sermon à 14 h 30 ».",
+    "parkingNote": "Page de contact : « Le stationnement se trouve sur place. Pour stationner la nuit, il faut d'abord l'autorisation du conseil d'administration »."
+  },
+  {
+    "id": "darul-uloom-ottawa",
+    "notes": "Secteur : Orléans. Aussi appelée Darul-Uloom Mosque.",
+    "jumuahNote": "La page d'accueil indique des prières du vendredi hors site : « Navan 13 h 15, prière du vendredi au Aqsa Centre » et « Blackburn 13 h 15, prière du vendredi au Quba Centre ». La page de présentation précise que le centre accueille les prières quotidiennes, y compris le sermon du vendredi."
+  },
+  {
+    "id": "east-ottawa-masjid-and-community-center",
+    "notes": "Secteur : Vanier et Overbrook.",
+    "jumuahNote": "Page d'accueil : « Prière du vendredi : 1re à 13 h 15, 2e à 14 h 15 »."
+  },
+  {
+    "id": "islam-care-centre-ottawa",
+    "newMuslimSupportNote": "Convert Care est un cours gratuit hebdomadaire sur les bases de l'islam, tous les mercredis à 18 h au centre.",
+    "jumuahNote": "Page d'accueil : prière du vendredi « à 12 h 30 et 13 h 15 » au sous-sol de l'église presbytérienne Knox, 120 Lisgar St, Ottawa, ON K2P 2L7 (lieu hors site)."
+  },
+  {
+    "id": "jami-omar-ottawa",
+    "notes": "Secteur : Bells Corners et Nepean. Aussi appelée Masjid Jami Omar ou JMOC.",
+    "jumuahNote": "Page d'accueil : « Prière du vendredi de 12 h à 15 h ».",
+    "parkingNote": "Page d'accueil : garez-vous seulement dans les endroits autorisés; du stationnement est offert à l'école D.A. Moodie."
+  },
+  {
+    "id": "kanata-muslim-association-ottawa",
+    "notes": "Secteur : Kanata. Aussi appelée KMA.",
+    "jumuahNote": "« 3 prières le vendredi : 13 h, 14 h 15 et 15 h 45 » (l'heure de la troisième prière varie)."
+  },
+  {
+    "id": "mac-barrhaven-islamic-centre-ottawa",
+    "notes": "Secteur : Barrhaven. Aussi appelé BIC.",
+    "jumuahNote": "« 1er sermon : 13 h » et « 2e sermon : 14 h 30 »."
+  },
+  {
+    "id": "mac-islamic-centre-ottawa",
+    "notes": "Secteur : Nepean, avenue Grenon. Aussi appelée MAC Grenon; située dans le bâtiment de l'école Abraar."
+  },
+  {
+    "id": "mac-qurtuba-islamic-centre-ottawa",
+    "notes": "Secteur : Nepean, Merivale. Aussi appelé MAC Qurtuba ou QIC."
+  },
+  {
+    "id": "markaz-at-tawheed-ottawa",
+    "notes": "Secteur : Bayshore, Dumaurier. Aussi appelé Markaz At-Tawheed Ottawa.",
+    "visitorNotes": "La page d'accueil précise que certaines conférences sont « en arabe, avec des pauses pour la traduction en anglais »; le reste est en anglais.",
+    "womenSpaceNote": "Avis du Ramadan : « Le sermon et la prière du vendredi sont réservés aux frères (manque d'espace) »; « Capacité maximale : 12 sœurs par soir » pour la prière de la nuit (isha) et les tarawih.",
+    "jumuahNote": "La page d'accueil indique « Le sermon commence à 12 h 30 » dans un encadré et « Début du sermon : 13 h 15 » dans une mise à jour du Ramadan; réservée aux frères."
+  },
+  {
+    "id": "masjid-bilal-ottawa",
+    "notes": "Secteur : Orléans. Aussi appelée Bilal Masjid ou Islamic Society of Cumberland.",
+    "visitorNotes": "La page d'accueil appelle la causerie avant le sermon « Speech (English Talk) », soit une causerie en anglais.",
+    "womenSpaceNote": "Page sur les visites de la mosquée : « les hommes et les femmes prient dans des salles de prière séparées ».",
+    "jumuahNote": "1re prière du vendredi : causerie en anglais à 12 h 45, sermon à 13 h 15; 2e prière : pas de causerie, sermon à 14 h 20; 3e prière : causerie en anglais à 15 h, sermon à 15 h 10."
+  },
+  {
+    "id": "masjid-ar-rahmah-ottawa",
+    "notes": "Secteur : Gloucester, South Keys. Aussi appelée Mosque of Mercy, AMA ou AMA Community Centre.",
+    "visitorNotes": "L'anglais est confirmé pour la séance de questions-réponses destinée aux convertis (« Langue : anglais seulement »); site en anglais avec un lien vers un site en arabe.",
+    "newMuslimSupportNote": "La page Revert Corner offre des ressources gratuites pour les nouveaux musulmans, et Muslim's Basics est un cours enregistré en anglais de 37 épisodes. Les activités pour les convertis sur le site datent de 2021 et 2022, alors demandez ce qui est offert maintenant."
+  },
+  {
+    "id": "ottawa-muslim-association",
+    "notes": "Aussi appelée Ottawa Main Mosque ou OMA.",
+    "womenSpaceNote": "FAQ : « Nous offrons un espace de prière réservé aux femmes, ainsi que des espaces adaptés aux familles ».",
+    "jumuahNote": "La FAQ indique que la mosquée offre la prière du vendredi (jumu'ah); les heures ne sont pas publiées sur son site."
+  },
+  {
+    "id": "ottawa-uyghur-centre",
+    "notes": "Secteur : Orléans.",
+    "jumuahNote": "Page des services : « Joignez-vous à nous pour les sermons du vendredi »; les heures ne sont pas précisées."
+  },
+  {
+    "id": "richmond-islamic-community-ottawa",
+    "notes": "Secteur : Richmond. Aussi appelé RICO.",
+    "womenSpaceNote": "La page des programmes indique un cercle d'étude du Coran (halaqa) pour les adolescentes et les femmes; l'espace de prière des femmes n'est pas précisé.",
+    "jumuahNote": "Page d'accueil : « Prière du vendredi, le vendredi seulement : 1re à 13 h 15, 2e à 14 h 30 ». Services : « Nous offrons la prière de la nuit (isha) en hiver, les prières de l'après-midi (asr), du coucher du soleil (maghrib) et de la nuit (isha) en été, et la prière du vendredi »."
+  },
+  {
+    "id": "siraj-institute-ottawa",
+    "notes": "Secteur : Nepean."
+  },
+  {
+    "id": "south-nepean-muslim-community-ottawa",
+    "notes": "Secteur : Nepean, Barrhaven. Aussi appelé SNMC Center & Masjid.",
+    "womenSpaceNote": "Programmes pour les sœurs (halaqa et autres), avec un courriel réservé aux sœurs, sisters@snmc.ca; l'aménagement de l'espace de prière n'est pas décrit.",
+    "newMuslimSupportNote": "La page Reverts vous invite à communiquer avec le centre pour de l'information, des questions, un certificat de Shahada ou une visite. Aucun cours ni programme de mentorat n'est décrit."
+  },
+  {
+    "id": "stittsville-muslim-association-ottawa",
+    "notes": "Secteur : Stittsville. Le site officiel indique deux codes postaux (K2S 1E3 et K2S 0T9). Vérifiez avant d'y aller.",
+    "jumuahNote": "Page d'accueil : 13 h 15, 14 h 15 et 15 h 45."
+  },
+  {
+    "id": "the-islamic-society-of-gloucester-ottawa",
+    "notes": "Secteur : Gloucester. Aussi appelée ISG Masjid.",
+    "jumuahNote": "Page d'accueil : « Heures de la prière du vendredi : sermon à 13 h 30, iqama à 14 h ».",
+    "parkingNote": "Avis de l'Aïd sur la page d'accueil : « Le stationnement de l'église n'est pas disponible; vous pouvez plutôt vous garer au stationnement du Costco et du Rona, 1880 chemin Innes »; « Interdit de stationner juste devant l'entrée de la mosquée ». Le stationnement les jours ordinaires n'est pas précisé."
+  },
+  {
+    "id": "the-ottawa-islamic-centre-assalam-mosque",
+    "notes": "Secteur : Ottawa-Sud, boulevard St-Laurent. Aussi appelée Assalam Mosque ou Masjid Assalam.",
+    "womenSpaceNote": "Page d'accueil : « Nous offrons l'une des plus grandes salles de prière d'Ottawa, pour les hommes et les femmes, pour la prière quotidienne et la prière du vendredi »."
+  },
+  {
+    "id": "owen-sound-muslim-association",
+    "notes": "Aussi appelée Owen Sound Masjid.",
+    "newMuslimSupportNote": "La page des services mentionne la Shahada parmi les services. Aucun programme de suivi pour les nouveaux musulmans n'est décrit."
+  },
+  {
+    "id": "kawartha-muslim-religious-association-masjid-al-salaam-peterborough",
+    "notes": "Aussi appelée KMRA ou Al-Salaam Mosque.",
+    "womenSpaceNote": "Salle de prière des femmes d'une capacité de 60 personnes, avec une salle d'ablutions pour les femmes.",
+    "jumuahNote": "Deux prières du vendredi sur la page d'accueil pour le vendredi 25 septembre 2026 : 13 h 30 et 14 h 45."
+  },
+  {
+    "id": "pickering-islamic-centre",
+    "notes": "Aussi appelée Masjid Usman ou PIC.",
+    "womenSpaceNote": "Comité des sœurs, école du vendredi pour les filles et cours de Coran pour les sœurs indiqués.",
+    "newMuslimSupportNote": "Le centre organise régulièrement des rencontres Fortify My Deen: Reverts Meet and Greet, la plus récente le 23 août 2026. Inscrivez-vous sur la page de l'annonce ou renseignez-vous auprès du bureau.",
+    "jumuahNote": "Sermon à 14 h, 15 h 45 et 16 h 45, et une prière du vendredi hors site à 15 h."
+  },
+  {
+    "id": "al-nadwa-educational-islamic-centre-richmond-hill",
+    "notes": "Aussi appelé Al Nadwa Centre.",
+    "womenSpaceNote": "Page des services : « Programme pour les sœurs adultes : chaque 1er dimanche du mois, après la prière du midi (dhuhr). Réservé aux sœurs ».",
+    "jumuahNote": "Page d'accueil : « 1re prière du vendredi : causerie (bayan) à 12 h 30, sermon en arabe à 12 h 45. 2e prière du vendredi : causerie à 13 h 15, sermon en arabe à 13 h 30 » au 2 Levendale Rd; une autre prière du vendredi a lieu au Bayview Hill Community Centre, 114 Spadina Rd (début à 13 h 25).",
+    "parkingNote": "Page d'accueil : « Veuillez ne pas vous garer devant le centre commercial. Le stationnement est permis seulement dans le centre commercial du No Frills »."
+  },
+  {
+    "id": "islamic-society-of-york-region-richmond-hill",
+    "womenSpaceNote": "La page d'accueil indique des cours d'arabe pour les sœurs; l'espace de prière des femmes n'est pas décrit.",
+    "jumuahNote": "Page d'accueil : « PRIÈRE DU VENDREDI : causerie (bayan) à 13 h 45, prière à 14 h 15. Veuillez noter qu'à l'ISYR, il n'y a qu'UNE seule prière du vendredi ».",
+    "parkingNote": "Liste des installations sur la page d'accueil : « Grand stationnement »."
+  },
+  {
+    "id": "richmond-hill-muslim-association"
+  },
+  {
+    "id": "sarnia-muslim-association"
+  },
+  {
+    "id": "islamic-association-of-sault-ste-marie",
+    "notes": "Aussi appelée IASSM.",
+    "jumuahNote": "« Le sermon commence à 14 h et la prière à 14 h 30 » (horaire adapté à l'heure avancée)."
+  },
+  {
+    "id": "masjid-an-noor-st-catharines",
+    "notes": "Aussi appelée Masjid Al Noor.",
+    "accessibilityNote": "Places de stationnement pour personnes handicapées réservées aux détenteurs de permis.",
+    "parkingNote": "Stationnement avec plan et règles : pas de stationnement la nuit, ne bloquez pas les voitures pendant la prière du vendredi, n'utilisez pas les stationnements des commerces voisins."
+  },
+  {
+    "id": "stratford-mosque",
+    "jumuahNote": "Le vendredi à 13 h 45; « Les 5 prières sont accomplies à la mosquée »; « Ouverte 24 heures sur 24, 7 jours sur 7 »."
+  },
+  {
+    "id": "thunder-bay-masjid",
+    "notes": "Aussi appelée Thunder Bay Masjid.",
+    "jumuahNote": "Deux prières du vendredi : 14 h et 15 h 15.",
+    "parkingNote": "Page d'accueil : « Veuillez vous garer de façon responsable pour que tout le monde puisse circuler »; certains endroits ne sont pas des places de stationnement."
+  },
+  {
+    "id": "muslim-association-of-tillsonburg",
+    "womenSpaceNote": "La page d'accueil indique que la salle de prière (musalla) « accueille les hommes et les femmes »; l'espace des femmes n'est pas décrit.",
+    "jumuahNote": "Page d'accueil : « Sermon du vendredi à 13 h 30 et prière à 13 h 45 » (dernière mise à jour le 1er novembre 2025)."
+  },
+  {
+    "id": "mac-masjid-toronto-adelaide",
+    "notes": "Aussi appelée Masjid Toronto Adelaide.",
+    "newMuslimSupportNote": "Masjid Toronto peut prévoir qu'« un frère ou une sœur de notre communauté » vous accueille lors de votre première visite. Le cours After the Shahadah a lieu à l'emplacement de la rue Dundas, et un groupe Convert Connect se réunit les 1er et 3e dimanches après la prière du midi (dhuhr).",
+    "jumuahNote": "Prière du vendredi à 12 h 10, 13 h 10 et 14 h 10 (semaine du 2026-09-18)."
+  },
+  {
+    "id": "madinah-masjid-jamiatul-muslemin-of-toronto",
+    "accessibilityNote": "« Facile d'accès en transport en commun. » L'accessibilité du bâtiment n'est pas précisée.",
+    "jumuahNote": "La prière du vendredi et les prières de l'Aïd ont lieu ici; les heures ne sont pas précisées."
+  },
+  {
+    "id": "masjid-omar-farooq-toronto",
+    "notes": "Secteur : Scarborough. Aussi appelée Masjid Omar Al-Farooq.",
+    "visitorNotes": "Services en anglais confirmés (la prière du vendredi comprend une causerie en anglais, ou « English Bayaan », avant chaque sermon en arabe).",
+    "jumuahNote": "Page d'accueil : « 1re prière du vendredi : causerie en anglais à 13 h 30, sermon en arabe à 14 h 10. 2e prière du vendredi : causerie en anglais à 14 h 45, sermon en arabe à 15 h 10 »."
+  },
+  {
+    "id": "scarborough-muslim-association-jame-abu-bakr-siddique-toronto",
+    "notes": "Secteur : Scarborough. Aussi appelée SMA ou Jame Abu Bakr Siddique Masjid.",
+    "parkingNote": "La page de présentation indique qu'avant l'agrandissement, les fidèles « devaient souvent prier dans le stationnement extérieur »; le stationnement fait partie du projet d'agrandissement. Les modalités de stationnement actuelles ne sont pas précisées."
+  },
+  {
+    "id": "toronto-islamic-centre",
+    "newMuslimSupportNote": "La page New Muslim Support offre une boîte-cadeau de bienvenue pour les nouveaux musulmans et des traductions du Coran en 27 langues, dont le braille. Aucun horaire n'est donné.",
+    "accessibilityNote": "Des Corans en braille sont offerts; l'accessibilité du bâtiment n'est pas précisée."
+  },
+  {
+    "id": "islamic-society-of-vaughan",
+    "womenSpaceNote": "Horaire du vendredi : « 3e prière du vendredi (frères et sœurs) : 15 h 15, 4e prière du vendredi (frères et sœurs) : 16 h »; les deux premières sont réservées aux frères. Des cours pour les sœurs sont indiqués.",
+    "jumuahNote": "Page d'accueil : « 1re prière du vendredi (frères seulement) : 13 h 30, 2e prière du vendredi (frères seulement) : 14 h 30, 3e prière du vendredi (frères et sœurs) : 15 h 15, 4e prière du vendredi (frères et sœurs) : 16 h »."
+  },
+  {
+    "id": "masjid-vaughan",
+    "notes": "Secteur : Maple.",
+    "jumuahNote": "Page de présentation : « Les heures de la prière du vendredi restent les mêmes toute l'année : appel à la prière à 13 h 30, sermon à 13 h 35 et prière à 14 h ».",
+    "parkingNote": "Page de présentation : « Un grand stationnement est offert à l'hôtel de ville de Vaughan (stationnement du côté ouest) le vendredi entre 13 h et 15 h. De plus, il y a beaucoup de stationnement dans les rues autour de la mosquée »."
+  },
+  {
+    "id": "vaughan-islamic-community-centre"
+  },
+  {
+    "id": "islamic-centre-of-waterloo-a-mac-community-centre",
+    "notes": "Aussi appelé ICW.",
+    "jumuahNote": "1re à 13 h 30, 2e (en arabe) à 14 h 30, 3e à 15 h 30."
+  },
+  {
+    "id": "muslim-society-of-waterloo-wellington-counties",
+    "notes": "Aussi appelée Waterloo Masjid.",
+    "jumuahNote": "Prière du vendredi diffusée en direct le vendredi à 13 h 40.",
+    "parkingNote": "Page d'accueil : « veuillez ne pas vous garer au Westmount Plaza et respecter tous les règlements municipaux quand vous stationnez dans les rues du quartier »."
+  },
+  {
+    "id": "masjid-e-ayesha-whitby",
+    "notes": "Aussi appelée Whitby Masjid.",
+    "jumuahNote": "Trois prières du vendredi : sermon à 13 h 45, 14 h 45 et 15 h 45.",
+    "parkingNote": "Le stationnement est limité. Depuis le 1er novembre 2024, le stationnement du Kendalwood Plaza n'est plus disponible pour la prière du vendredi; des agents municipaux y donnent des contraventions le vendredi. Les tentes d'appoint sont fermées jusqu'à nouvel ordre (avis sur la page d'accueil)."
+  },
+  {
+    "id": "al-hijra-academy-windsor",
+    "notes": "Secteur : Oldcastle, à la limite de LaSalle. Aussi appelée Al-Hijra Academy - Masjid and Islamic School.",
+    "womenSpaceNote": "Page d'historique : la mosquée est « divisée en deux sections, pour les hommes et pour les femmes » (description historique)."
+  },
+  {
+    "id": "islamic-society-of-windsor"
+  },
+  {
+    "id": "rose-city-islamic-centre-windsor",
+    "notes": "Aussi appelé RCIC.",
+    "jumuahNote": "Le vendredi à 13 h 30."
+  },
+  {
+    "id": "windsor-islamic-association",
+    "notes": "Aussi appelée Windsor Mosque ou Windsor Central Mosque.",
+    "newMuslimSupportNote": "La page de contact désigne l'administrateur des affaires religieuses comme personne-ressource pour les nouveaux musulmans (519-966-2355, poste 4). Il s'agit d'une personne-ressource, pas d'un cours."
+  },
+  {
+    "id": "islamic-center-of-west-island-dollard-des-ormeaux",
+    "notes": "Secteur : West Island. Aussi appelé Centre Islamique du West Island."
+  },
+  {
+    "id": "centre-islamique-de-l-outaouais-la-mosquee-de-gatineau",
+    "notes": "Secteur : Hull. Aussi appelé Outaouais Islamic Centre ou Mosquée de Gatineau. En septembre 2026, le site officiel affichait un avis d'expiration du nom de domaine. Appelez avant d'y aller si le site ne s'affiche pas.",
+    "jumuahNote": "Deux prières du vendredi (depuis le 11 février d'une année non précisée); les heures figurent seulement dans une image sur https://cio-oic.ca/horaire-des-jumuahs/."
+  },
+  {
+    "id": "masjid-meriam-gatineau",
+    "notes": "Secteur : Gatineau. Aussi appelée Mosquée Mariam ou CIOIC - Meriam.",
+    "visitorNotes": "Langues : le site du CIO est surtout en français; certaines annonces sont bilingues, en français et en anglais."
+  },
+  {
+    "id": "the-mosque-of-aylmer-gatineau",
+    "notes": "Secteur : Aylmer.",
+    "visitorNotes": "Le contenu du site est bilingue, en anglais et en français; la langue du sermon n'est pas précisée.",
+    "womenSpaceNote": "La page des services mentionne des programmes pour les femmes : « des rencontres, des groupes d'étude et des activités ... réservés aux femmes »; l'aménagement de l'espace de prière n'est pas décrit.",
+    "jumuahNote": "« Sermon hebdomadaire donné par des orateurs qualifiés »; les heures ne sont pas publiées."
+  },
+  {
+    "id": "association-islamique-al-ihssane-de-laval",
+    "notes": "Secteur : Pont-Viau. Aussi appelée AIIL ou Mosquée Al-Itissam."
+  },
+  {
+    "id": "centre-al-iman-laval",
+    "notes": "Secteur : Auteuil. Aussi appelé CCVA."
+  },
+  {
+    "id": "centre-communautaire-musulman-iqra-laval",
+    "notes": "Secteur : Chomedey. Aussi appelé Centre IQRA."
+  },
+  {
+    "id": "centre-communautaire-musulman-de-longueuil"
+  },
+  {
+    "id": "aisha-islamic-center-montreal",
+    "notes": "Secteur : Griffintown. Aussi appelé AIC."
+  },
+  {
+    "id": "al-madinah-center-montreal",
+    "notes": "Secteur : centre-ville. Aussi appelé Centre Al-Madinah.",
+    "visitorNotes": "Services en anglais confirmés (cours de tajwid offerts « en arabe et en anglais »).",
+    "womenSpaceNote": "Les cercles d'étude du Coran (halaqat) pour adultes s'adressent « aux frères et aux sœurs »; l'espace de prière des femmes n'est pas décrit."
+  },
+  {
+    "id": "assuna-annabawiyah-mosque-montreal",
+    "notes": "Secteur : Parc-Extension. Aussi appelée Mosquée Assuna Annabawiyah ou Masjid Assuna.",
+    "visitorNotes": "Langues : le site mélange le français, l'anglais et l'arabe; la langue des services n'est pas précisée."
+  },
+  {
+    "id": "canadian-institute-of-islamic-civilization-a-mac-community-centre-montreal",
+    "notes": "Secteur : centre-ville. Aussi appelé CIIC.",
+    "womenSpaceNote": "Un cercle d'étude (halaqa) hebdomadaire pour les sœurs est indiqué (le vendredi de 18 h 30 à 20 h); l'espace de prière n'est pas décrit.",
+    "jumuahNote": "Trois prières du vendredi : 11 h 45, 12 h 30 et 13 h 15."
+  },
+  {
+    "id": "centre-bel-agir-montreal",
+    "notes": "Secteur : Villeray et Saint-Michel. Aussi appelé Bel Agir - Al-Ihsane.",
+    "jumuahNote": "Des « Prières du Vendredi » sont offertes; les heures ne figurent pas sur la page d'accueil."
+  },
+  {
+    "id": "centre-communautaire-fath-montreal",
+    "notes": "Secteur : Rivière-des-Prairies. Aussi appelée Mosquée Elfath - RDP.",
+    "parkingNote": "« 38 places de stationnement »."
+  },
+  {
+    "id": "centre-communautaire-villeray-mosquee-aboubakr-montreal",
+    "notes": "Secteur : Villeray. Aussi appelé CCV.",
+    "jumuahNote": "Prière du vendredi « 12 h | 13 h »."
+  },
+  {
+    "id": "centre-islamique-de-verdun-montreal",
+    "notes": "Secteur : Verdun. Aussi appelé CIV.",
+    "womenSpaceNote": "Des activités pour les femmes et les filles sont mentionnées (par exemple « Iftar spécial pour les filles, leurs mères et les enseignantes »); l'espace de prière n'est pas décrit.",
+    "newMuslimSupportNote": "La page des programmes indique des groupes pour les nouvelles converties et pour les nouveaux convertis. Aucun horaire n'est donné.",
+    "jumuahNote": "Prière du vendredi à 12 h et à 13 h 15."
+  },
+  {
+    "id": "islamic-centre-of-quebec-montreal",
+    "notes": "Secteur : Saint-Laurent. Aussi appelé Centre Islamique du Québec.",
+    "jumuahNote": "Page d'accueil : « 1re prière du vendredi (13 h 30), 2e prière du vendredi (14 h 30) »; « La traduction aura lieu 15 minutes avant le sermon ». La langue de la traduction n'est pas précisée.",
+    "parkingNote": "Stationnement sur le terrain."
+  },
+  {
+    "id": "masjid-makkah-al-mukarramah-montreal",
+    "notes": "Secteur : Pierrefonds-Roxboro, West Island. Aussi appelée Makkah-al-Mukarramah Mosque ou Masjid Makkah.",
+    "visitorNotes": "Langues : les leçons (dars) hebdomadaires sont en ourdou; le site est en anglais.",
+    "womenSpaceNote": "« Nous tenons un cercle d'étude (halaqa) pour les femmes chaque samedi après la prière du midi (dhuhr) »; l'espace de prière des femmes n'est pas décrit."
+  },
+  {
+    "id": "mosquee-al-rawdah-montreal",
+    "notes": "Secteur : Cartierville. Le Centre Communautaire Laurentien est juste à côté, au 12265 boul. Laurentien, avec le même numéro de téléphone.",
+    "jumuahNote": "Prière du vendredi à 12 h et à 13 h."
+  },
+  {
+    "id": "muslim-community-of-quebec-montreal",
+    "notes": "Secteur : Notre-Dame-de-Grâce.",
+    "womenSpaceNote": "La page des programmes indique des « programmes de soutien et d'autonomisation des femmes »; l'espace de prière n'est pas décrit.",
+    "jumuahNote": "La page des programmes indique la « prière du vendredi (salatul jumu'ah) »; les heures ne figurent pas sur la page des heures de prière."
+  },
+  {
+    "id": "centre-communautaire-de-quebec-quebec-city",
+    "notes": "Secteur : Saint-Roch. Aussi appelée MAC Québec ou Masjid Al-Rahma.",
+    "jumuahNote": "La page d'accueil affiche deux horaires contradictoires pour la prière du vendredi : 12 h 15 et 12 h 45, et 12 h et 12 h 45."
+  },
+  {
+    "id": "centre-culturel-islamique-luqman-de-quebec-quebec-city",
+    "notes": "Secteur : Les Saules. Aussi appelé Centre Luqman.",
+    "jumuahNote": "Heures de prière accessibles par un lien Mawaqit sur le site."
+  },
+  {
+    "id": "centre-culturel-islamique-de-quebec-grande-mosquee-de-quebec-quebec-city",
+    "notes": "Secteur : Sainte-Foy. Aussi appelé CCIQ ou GMQ. Le CCIQ gère aussi la Mosquée Annour et des lieux de prière à Charlesbourg et à Portneuf.",
+    "womenSpaceNote": "Le Conseil de la femme musulmane de Québec (CFMQ) figure parmi les entités du CCIQ, et des activités pour les femmes sont indiquées; l'espace de prière n'est pas décrit.",
+    "jumuahNote": "La prière du vendredi est offerte (« Prières quotidiennes et la prière de vendredi »); heures sur mosqueprayertimes.com/cciq."
+  },
+  {
+    "id": "mosquee-de-la-capitale-quebec-city",
+    "notes": "Secteur : Vanier. Aussi appelée Association Mosquée de la Capitale."
+  },
+  {
+    "id": "centre-culturel-islamique-de-lanaudiere-repentigny",
+    "notes": "Secteur : Lanaudière. Aussi appelée Masjid Atassamouh.",
+    "jumuahNote": "Page d'accueil : « Prière du vendredi : 1re à 12 h, 2e à 13 h »."
+  },
+  {
+    "id": "association-islamique-du-saguenay-lac-st-jean",
+    "notes": "Secteur : Chicoutimi. Aussi appelée Mosquée Chicoutimi.",
+    "visitorNotes": "Langues : le site est en français, avec des options pour passer à l'anglais et à l'arabe; la langue des services n'est pas précisée."
+  },
+  {
+    "id": "centre-islamique-maskoutain-saint-hyacinthe",
+    "jumuahNote": "Page d'accueil : « il y a deux prières du vendredi : la première débute à 12 h 10 et la deuxième à 12 h 45 »."
+  },
+  {
+    "id": "centre-rayan-sainte-therese",
+    "notes": "Secteur : Basses-Laurentides. Aussi appelée Mosque Rayane."
+  },
+  {
+    "id": "association-culturelle-islamique-de-l-estrie-mosquee-a-rahmane-sherbrooke",
+    "notes": "Aussi appelé ACIE; gère aussi le Centre Horizon au 1239, rue Denault.",
+    "jumuahNote": "Deux groupes : « 12 h 15 et 13 h ».",
+    "parkingNote": "Demande aux visiteurs : « Merci de ne pas utiliser les stationnements privés de notre voisinage »."
+  },
+  {
+    "id": "centre-culturel-islamique-de-sherbrooke-mosquee-annour",
+    "notes": "Aussi appelé CCIS Annour."
+  },
+  {
+    "id": "centre-culturel-islamique-de-la-mauricie-trois-rivieres",
+    "notes": "Aussi appelé Islamic Cultural Center of Mauricie.",
+    "newMuslimSupportNote": "La page des services propose un rendez-vous avec un représentant du CCIM si vous souhaitez embrasser l'islam, ainsi qu'un certificat officiel de conversion. Elle promet de répondre à vos questions en toute confidentialité. Ce n'est pas un cours suivi."
+  },
+  {
+    "id": "vaudreuil-islamic-community-centre-masjid-attakwa-vaudreuil-dorion",
+    "notes": "Aussi appelé Centre Culturel Islamique de Vaudreuil Soulanges ou ICCVS.",
+    "jumuahNote": "La page des services indique la « prière du vendredi (jumu'ah) »; l'heure n'est pas précisée."
+  },
+  {
+    "id": "bcma-abbotsford-branch",
+    "notes": "Aussi appelé Abbotsford Islamic Centre.",
+    "newMuslimSupportNote": "Le programme provincial New Muslim Care est géré par la BC Muslim Association; cette section n'indique pas de programme à elle. Le formulaire d'inscription de la BCMA permet de choisir cette section."
+  },
+  {
+    "id": "bcma-burnaby-branch",
+    "notes": "Aussi appelé Masjid al Salaam & Education Centre.",
+    "newMuslimSupportNote": "Le programme provincial New Muslim Care est géré par la BC Muslim Association; cette section n'indique pas de programme à elle. Le formulaire d'inscription de la BCMA permet de choisir cette section.",
+    "jumuahNote": "Page de la section : la prière du vendredi commence à 13 h 30, iqama à 14 h 30."
+  },
+  {
+    "id": "bcma-castlegar-branch",
+    "notes": "Aussi appelé Islamic Centre of Castlegar.",
+    "newMuslimSupportNote": "Le programme provincial New Muslim Care est géré par la BC Muslim Association; cette section n'indique pas de programme à elle. Le formulaire d'inscription de la BCMA permet de choisir cette section."
+  },
+  {
+    "id": "bcma-chilliwack-branch",
+    "notes": "Aussi appelé Chilliwack Islamic Centre.",
+    "newMuslimSupportNote": "Le programme provincial New Muslim Care est géré par la BC Muslim Association; cette section n'indique pas de programme à elle. Le formulaire d'inscription de la BCMA permet de choisir cette section."
+  },
+  {
+    "id": "bcma-dawson-creek-islamic-center",
+    "newMuslimSupportNote": "Le programme provincial New Muslim Care est géré par la BC Muslim Association; cette section n'indique pas de programme à elle. Le formulaire d'inscription de la BCMA permet de choisir cette section."
+  },
+  {
+    "id": "bcma-delta-islamic-center",
+    "notes": "Aussi appelé Delta Islamic Centre.",
+    "newMuslimSupportNote": "Le programme provincial New Muslim Care est géré par la BC Muslim Association; cette section n'indique pas de programme à elle. Le formulaire d'inscription de la BCMA permet de choisir cette section."
+  },
+  {
+    "id": "kamloops-ayesha-mosque",
+    "notes": "Secteur : Knutsford. Aussi appelée Ayesha Mosque ou Kamloops Islamic Association.",
+    "accessibilityNote": "La page d'accueil indique que le lieu actuel de Knutsford n'a « pas d'eau municipale, pas de transport en commun, peu d'espace », et que l'association amasse des fonds pour « déménager dans un lieu accessible » à l'intérieur des limites de Kamloops.",
+    "jumuahNote": "Page d'accueil : sermon du vendredi à 13 h 30.",
+    "parkingNote": "Page d'accueil : par manque d'espace, certaines activités ont lieu « hors site, et même dans le stationnement »."
+  },
+  {
+    "id": "bcma-kelowna-branch",
+    "notes": "Aussi appelé Kelowna Islamic Centre.",
+    "newMuslimSupportNote": "Le programme provincial New Muslim Care est géré par la BC Muslim Association; cette section n'indique pas de programme à elle. Le formulaire d'inscription de la BCMA permet de choisir cette section."
+  },
+  {
+    "id": "bcma-kitimat-islamic-center",
+    "newMuslimSupportNote": "Le programme provincial New Muslim Care est géré par la BC Muslim Association; cette section n'indique pas de programme à elle. Le formulaire d'inscription de la BCMA permet de choisir cette section."
+  },
+  {
+    "id": "masjid-al-sahaba-langley",
+    "notes": "Aussi appelé Langley Islamic Centre ou Langley Musalla.",
+    "womenSpaceNote": "Page officielle : « comprend un espace de prière pour les femmes »."
+  },
+  {
+    "id": "jamia-riyadhul-jannah-maple-ridge",
+    "notes": "Aussi appelée Riyadhul Jannah Mosque.",
+    "jumuahNote": "Page d'accueil : sermon du vendredi à 13 h 30."
+  },
+  {
+    "id": "bcma-nanaimo-chapter",
+    "newMuslimSupportNote": "Le programme provincial New Muslim Care est géré par la BC Muslim Association; cette section n'indique pas de programme à elle. Le formulaire d'inscription de la BCMA permet de choisir cette section."
+  },
+  {
+    "id": "bcma-north-shore-chapter-north-vancouver",
+    "newMuslimSupportNote": "Le programme provincial New Muslim Care est géré par la BC Muslim Association; cette section n'indique pas de programme à elle. Le formulaire d'inscription de la BCMA permet de choisir cette section."
+  },
+  {
+    "id": "masjid-ar-rahman-north-vancouver",
+    "notes": "Aussi appelée Masjid Ar-Rahman Foundation of North Vancouver.",
+    "womenSpaceNote": "La page des programmes indique des cours pour les sœurs et les femmes; l'espace de prière des femmes n'est pas décrit.",
+    "jumuahNote": "Page de la prière du vendredi : sermon à 13 h 30 à l'heure avancée (de la mi-mars à novembre) et à 12 h 30 à l'heure normale."
+  },
+  {
+    "id": "bcma-penticton-branch",
+    "newMuslimSupportNote": "Le programme provincial New Muslim Care est géré par la BC Muslim Association; cette section n'indique pas de programme à elle. Le formulaire d'inscription de la BCMA permet de choisir cette section."
+  },
+  {
+    "id": "islamic-society-of-british-columbia-port-coquitlam",
+    "notes": "Aussi appelée Masjid Al-Hidayah & Islamic Cultural Centre ou ISBC.",
+    "womenSpaceNote": "La page des programmes indique une rencontre hebdomadaire pour les femmes; l'espace de prière n'est pas précisé; la prière du vendredi est ouverte aux hommes et aux femmes; consultations privées offertes aux femmes.",
+    "jumuahNote": "Le sermon commence à 13 h 40.",
+    "parkingNote": "Stationnement souterrain à la mosquée; stationnement d'appoint au terrain de l'ECBC (payant) ou au terrain municipal de la Légion; ne vous garez pas sur l'avenue Kingsway."
+  },
+  {
+    "id": "al-ihsan-islamic-centre-port-moody"
+  },
+  {
+    "id": "bcma-prince-george-branch",
+    "notes": "Aussi appelé BCMA Prince George Chapter.",
+    "newMuslimSupportNote": "Le programme provincial New Muslim Care est géré par la BC Muslim Association; cette section n'indique pas de programme à elle. Le formulaire d'inscription de la BCMA permet de choisir cette section."
+  },
+  {
+    "id": "bcma-richmond-branch",
+    "notes": "Aussi appelée Richmond Jamia Masjid; siège de la BCMA.",
+    "newMuslimSupportNote": "Le programme provincial New Muslim Care est géré par la BC Muslim Association; cette section n'indique pas de programme à elle. Le formulaire d'inscription de la BCMA permet de choisir cette section.",
+    "jumuahNote": "La page de la section indique un premier sermon à 13 h 30 et un deuxième à 15 h (peut changer selon la saison)."
+  },
+  {
+    "id": "abu-bakr-islamic-centre-surrey",
+    "notes": "Aussi appelée Masjid Abu Bakr.",
+    "womenSpaceNote": "Les sœurs sont les bienvenues à la 2e prière du vendredi.",
+    "jumuahNote": "1re prière du vendredi à 13 h 40, 2e à 14 h 40, 3e à 15 h 30."
+  },
+  {
+    "id": "bcma-surrey-delta-branch",
+    "notes": "Aussi appelée Surrey Jamia Masjid.",
+    "newMuslimSupportNote": "Le programme provincial New Muslim Care est géré par la BC Muslim Association; cette section n'indique pas de programme à elle. Le formulaire d'inscription de la BCMA permet de choisir cette section."
+  },
+  {
+    "id": "bcma-surrey-east-branch",
+    "newMuslimSupportNote": "Le programme provincial New Muslim Care est géré par la BC Muslim Association; cette section n'indique pas de programme à elle. Le formulaire d'inscription de la BCMA permet de choisir cette section."
+  },
+  {
+    "id": "cloverdale-islamic-society-surrey",
+    "notes": "Secteur : Cloverdale. Aussi appelé Cloverdale Islamic Center."
+  },
+  {
+    "id": "guildford-islamic-cultural-center-surrey",
+    "notes": "Secteur : Guildford. Aussi appelée Guildford Musullah.",
+    "womenSpaceNote": "Les 2e et 3e prières du vendredi sont ouvertes aux sœurs; salle des sœurs dans la mosquée.",
+    "jumuahNote": "Trois prières du vendredi; la première est réservée aux frères; heures sur awqat.net."
+  },
+  {
+    "id": "white-rock-muslim-association-surrey",
+    "notes": "Secteur : South Surrey et White Rock. Aussi appelée WRMA Musallah.",
+    "womenSpaceNote": "Page des services de prière : « Espaces de prière séparés pour les frères (salle principale) et les sœurs (étage supérieur) ».",
+    "accessibilityNote": "Page des services de prière : « Pour en savoir plus sur l'accessibilité et les heures de prière, communiquez avec nous ».",
+    "jumuahNote": "1re prière du vendredi à 13 h 35, 2e à 14 h 15 (horaire d'été, sous réserve de changements); horaire d'hiver : 12 h 35 et 13 h 15.",
+    "parkingNote": "Page des services de prière : « Garez-vous dans un endroit public et non devant d'autres commerces ou dans des places réservées. Les voitures seront remorquées aux frais du propriétaire »."
+  },
+  {
+    "id": "ajyal-islamic-society-vancouver",
+    "notes": "Aussi appelée Ajyal Islamic Centre Vancouver Mosque.",
+    "visitorNotes": "Langues : selon le site, les programmes se déroulent en anglais, en turc, en arabe et dans d'autres langues.",
+    "womenSpaceNote": "Programmes pour les sœurs indiqués (halaqa, cours de Coran, soutien aux nouvelles musulmanes); l'espace de prière des femmes n'est pas décrit.",
+    "jumuahNote": "Page du vendredi (en vigueur depuis le 8 mars 2026) : trois prières, avec sermon à 13 h 30 (frères seulement), 14 h 10 et 14 h 45."
+  },
+  {
+    "id": "al-masjid-al-jamia-vancouver",
+    "notes": "Aussi appelée Al-Jamia Masjid ou Vancouver Jamia Masjid.",
+    "jumuahNote": "Page de l'organisme gestionnaire : deux prières du vendredi, à 13 h 30 et à 14 h 15."
+  },
+  {
+    "id": "bcma-vancouver-branch",
+    "notes": "Aussi appelée Masjid ul-Haqq.",
+    "newMuslimSupportNote": "Le programme provincial New Muslim Care est géré par la BC Muslim Association; cette section n'indique pas de programme à elle. Le formulaire d'inscription de la BCMA permet de choisir cette section.",
+    "jumuahNote": "Page de la section : la prière du vendredi commence à 13 h 30, iqama à 14 h."
+  },
+  {
+    "id": "mac-vancouver-centre",
+    "notes": "Aussi appelé Muslim Association of Canada, Vancouver.",
+    "jumuahNote": "Page du centre : sermon à 13 h 30, prière à 14 h."
+  },
+  {
+    "id": "masjid-omar-al-farooq-vancouver",
+    "notes": "Aussi appelé Othman Bin Affan Islamic Society."
+  },
+  {
+    "id": "vernon-islamic-centre",
+    "notes": "Aussi appelée Vernon Mosque."
+  },
+  {
+    "id": "bcma-victoria-branch",
+    "notes": "Aussi appelée Victoria Masjid.",
+    "newMuslimSupportNote": "Le programme provincial New Muslim Care est géré par la BC Muslim Association; cette section n'indique pas de programme à elle. Le formulaire d'inscription de la BCMA permet de choisir cette section."
+  },
+  {
+    "id": "bcma-westshore-branch",
+    "newMuslimSupportNote": "Le programme provincial New Muslim Care est géré par la BC Muslim Association; cette section n'indique pas de programme à elle. Le formulaire d'inscription de la BCMA permet de choisir cette section."
+  },
+  {
+    "id": "bcma-central-cariboo-islamic-center-williams-lake",
+    "notes": "Aussi appelé Williams Lake Muslim Committee.",
+    "newMuslimSupportNote": "Le programme provincial New Muslim Care est géré par la BC Muslim Association; cette section n'indique pas de programme à elle. Le formulaire d'inscription de la BCMA permet de choisir cette section."
+  },
+  {
+    "id": "akram-jomaa-islamic-centre-calgary",
+    "womenSpaceNote": "La page de présentation mentionne un comité des femmes; l'espace de prière n'est pas décrit.",
+    "newMuslimSupportNote": "La page New to Islam vous invite à prendre rendez-vous avec un imam, à faire une visite et à récupérer au bureau de l'administration une trousse de livres pour la Shahada. Le formulaire du groupe de soutien sur cette page ne fonctionne peut-être pas encore, alors communiquez plutôt avec le bureau.",
+    "accessibilityNote": "Page de présentation : certifiée MUHSEN; un comité sur le handicap veille à « ce que chacun ait les mêmes possibilités de participer pleinement »."
+  },
+  {
+    "id": "al-hedaya-islamic-centre-of-north-east-calgary",
+    "notes": "Aussi appelé Islamic Center NE.",
+    "womenSpaceNote": "Programme Rising Muslimah pour les filles de 13 à 19 ans (le samedi à 9 h); l'espace de prière des femmes n'est pas décrit.",
+    "jumuahNote": "« La prière du vendredi a lieu seulement au Genesis Centre, dans les salles polyvalentes A et B » à 14 h, 14 h 30 et 15 h."
+  },
+  {
+    "id": "al-madinah-calgary-islamic-assembly",
+    "notes": "Aussi appelée Green Dome Mosque."
+  },
+  {
+    "id": "al-salam-centre-calgary",
+    "notes": "Aussi appelé MAC Calgary ou Masjid Al-Salam.",
+    "jumuahNote": "« 13 h et 14 h » au Al-Salam Centre; 13 h 30 à la MAC Islamic School et à la Marlborough Community Association."
+  },
+  {
+    "id": "hazrat-bilal-islamic-centre-calgary",
+    "notes": "Aussi appelée Masjid Bilal.",
+    "jumuahNote": "« Premier sermon à 13 h 45. Deuxième sermon à 14 h 30. Les portes ferment à 14 h pour la première prière du vendredi ».",
+    "parkingNote": "Page d'accueil : « Veuillez éviter de bloquer les entrées de cour des voisins et suivez les indications des bénévoles »."
+  },
+  {
+    "id": "islamic-association-of-north-west-calgary",
+    "notes": "Aussi appelé IANWC ou Northwest Islamic Centre.",
+    "newMuslimSupportNote": "La page d'accueil indique que l'imam de la mosquée est là pour vous aider si vous avez des questions ou si vous êtes prêt à prononcer la Shahada. Aucun cours ni mentorat n'est décrit.",
+    "jumuahNote": "13 h 15, 14 h et 14 h 45 à Ranchland et à la Maryam Masjid, 183 Beddington Drive NW.",
+    "parkingNote": "Stationnement dans la rue et sur le terrain; places limitées, arrivez tôt; le terrain est fermé aux voitures une fois plein."
+  },
+  {
+    "id": "islamic-centre-of-south-calgary",
+    "notes": "Aussi appelé ICSC ou Islamic Center SE.",
+    "jumuahNote": "Legacy Musallah : 13 h 15, 14 h, 14 h 45 et 15 h 30; McKenzie Towne Hall : 13 h et 13 h 45."
+  },
+  {
+    "id": "islamic-centre-of-southwest-calgary",
+    "notes": "Aussi appelée SW Masjid ou Calgary Islamic Centre SW.",
+    "jumuahNote": "Deux prières du vendredi; les heures changent selon la saison (13 h 45 et 15 h à partir du 26 septembre 2026); voir l'encadré sur la page d'accueil."
+  },
+  {
+    "id": "muslim-council-of-calgary",
+    "notes": "Aussi appelé MCC. Il s'agit du bureau du Muslim Council of Calgary, qui dessert les mosquées de toute la ville.",
+    "newMuslimSupportNote": "La page New Muslim décrit le New Muslim Circle, un groupe de soutien, ainsi que Connect with an Imam et un guide pour les nouveaux musulmans. Elle offre aussi un accompagnement individuel par un pair, un mentor ou un imam."
+  },
+  {
+    "id": "mac-cold-lake-mosque",
+    "jumuahNote": "13 h 30."
+  },
+  {
+    "id": "ahl-al-athar-islamic-center-edmonton",
+    "womenSpaceNote": "La page d'accueil indique une entrée séparée pour les femmes (lien vers un plan)."
+  },
+  {
+    "id": "al-ameen-masjid-edmonton",
+    "notes": "Aussi appelée Al-Ameen Mosque.",
+    "womenSpaceNote": "Page d'accueil : « de grandes salles de prière pour les frères et pour les sœurs »; la liste des services comprend un « espace de prière pour les sœurs ».",
+    "jumuahNote": "Page d'accueil : 1er sermon du vendredi à 12 h 45, 2e à 13 h 40 (peut varier selon la saison).",
+    "parkingNote": "La liste des services mentionne le stationnement (sans détails)."
+  },
+  {
+    "id": "al-rashid-mosque-edmonton",
+    "womenSpaceNote": "Programmes pour les sœurs indiqués (cercle d'étude pour les femmes le vendredi à 19 h; programme pour les aînées le mercredi de 12 h à 14 h); l'espace de prière n'est pas décrit.",
+    "jumuahNote": "Al Rashid Mosque à 13 h 45; ARCA à 14 h."
+  },
+  {
+    "id": "alfalah-islamic-centre-edmonton",
+    "notes": "Aussi appelé Alfalah Center ou ICNA Edmonton.",
+    "womenSpaceNote": "Page des programmes : « Mosquée complète (hommes et femmes). Notre centre offre un espace de prière réservé et inclusif pour les hommes et pour les femmes »; des programmes pour les femmes sont indiqués.",
+    "jumuahNote": "Page d'accueil : 1re prière du vendredi à 13 h 30 et 2e à 14 h 30; « L'iqama de la prière du vendredi a lieu 30 minutes après l'heure prévue »."
+  },
+  {
+    "id": "assiddiq-islamic-foundation-edmonton",
+    "notes": "Aussi appelé Assiddiq Islamic Center.",
+    "visitorNotes": "Services en anglais confirmés : cercle d'étude (halaqa) pour les filles de 17 ans et plus le samedi, « en anglais ».",
+    "womenSpaceNote": "La page des services indique un cercle d'étude (halaqa) pour les sœurs; l'espace de prière des femmes n'est pas décrit.",
+    "newMuslimSupportNote": "La page des services mentionne des séances pour les nouveaux musulmans parmi ses cours pour adultes, avec un lien d'inscription. L'horaire et le coût ne sont pas indiqués.",
+    "jumuahNote": "Tableau des prières sur la page d'accueil : 1re prière du vendredi à 14 h, 2e à 15 h 30 (été); la section des services indique aussi « Prière du vendredi chaque vendredi à 13 h » (sans doute l'horaire d'hiver). À confirmer."
+  },
+  {
+    "id": "dar-al-sunnah-edmonton",
+    "notes": "Aussi appelée Dar-Al-Sunnah.",
+    "visitorNotes": "Services en anglais confirmés : la page d'accueil indique « 1er sermon du vendredi (en anglais) : 13 h 45 ».",
+    "jumuahNote": "Page d'accueil : 1er sermon (en anglais) à 13 h 45; 2e sermon (en arabe) à 14 h 45."
+  },
+  {
+    "id": "darul-ilmi-masjid-edmonton",
+    "notes": "Aussi appelée Masjid Daril Ilmi ou Darul Ilmi Quran School.",
+    "jumuahNote": "Page d'accueil : « Le sermon du vendredi commence à 13 h »."
+  },
+  {
+    "id": "mas-islamic-centre-edmonton",
+    "notes": "Aussi appelée Masjid Al-Salaam.",
+    "jumuahNote": "« Chaque vendredi à 14 h »."
+  },
+  {
+    "id": "markaz-al-imam-malik-edmonton"
+  },
+  {
+    "id": "markaz-ul-islam-edmonton",
+    "visitorNotes": "Langues : livres de bibliothèque en anglais, en ourdou et en arabe.",
+    "womenSpaceNote": "Programme de Coran et de hadiths réservé aux sœurs les 1er et 3e samedis du mois.",
+    "jumuahNote": "1re prière du vendredi à 14 h, 2e à 15 h (iqama), page d'accueil."
+  },
+  {
+    "id": "masjid-al-ansar-edmonton"
+  },
+  {
+    "id": "masjid-al-omari-edmonton",
+    "notes": "Aussi appelé Edmonton Islamic Centre.",
+    "jumuahNote": "Page d'accueil : 1re prière du vendredi à 12 h 30; 2e à 13 h 30 (deuxième sermon à 13 h 30, iqama à 13 h 50). Les heures peuvent varier selon la saison."
+  },
+  {
+    "id": "masjid-at-taqwa-edmonton"
+  },
+  {
+    "id": "masjid-quba-jama-masjid-edmonton",
+    "notes": "Aussi appelée Islamic Missionary Association Edmonton.",
+    "jumuahNote": "1re prière du vendredi à 14 h; 2e à 15 h."
+  },
+  {
+    "id": "medina-mosque-society-of-edmonton",
+    "notes": "Aussi appelée Medina Mosque."
+  },
+  {
+    "id": "muslim-community-of-edmonton-mosque",
+    "jumuahNote": "Prière du vendredi chaque semaine; les heures ne figurent pas sur la page d'accueil."
+  },
+  {
+    "id": "rahma-mosque-edmonton",
+    "notes": "Aussi appelé MAC Islamic Centre Edmonton.",
+    "jumuahNote": "Trois prières du vendredi : 13 h, 14 h et 15 h; les portes ferment à 400 personnes par prière; « Pas d'enfants de moins de 12 ans »."
+  },
+  {
+    "id": "ruh-a-ruh-mosque-edmonton",
+    "notes": "Aussi appelé Soul Community Center ou Ruh a Ruh Mosque.",
+    "womenSpaceNote": "La page d'accueil mentionne une salle à réserver, « Women's Space », pour les « grands rassemblements de femmes »; aucun espace de prière séparé pour les femmes n'est décrit.",
+    "jumuahNote": "Page d'accueil : « Prière du vendredi : 10 minutes après l'appel à la prière (adhan). Le sermon est suivi de la prière en assemblée ».",
+    "parkingNote": "« Avis de stationnement pour les visiteurs » sur la page d'accueil : demande de se garer de façon responsable et de ne pas bloquer les commerces voisins."
+  },
+  {
+    "id": "sahaba-mosque-edmonton"
+  },
+  {
+    "id": "markaz-ul-islam-fort-mcmurray",
+    "newMuslimSupportNote": "La page New Muslim (Shahada) Support offre l'organisation de la Shahada, une initiation à la prière, aux ablutions (wudu) et aux croyances de base, un parrain ou une marraine de la communauté et de l'aide face aux pressions familiales. Un formulaire d'accueil vous permet de choisir un soutien par téléphone, texto, courriel, en personne ou en ligne."
+  },
+  {
+    "id": "islamic-association-of-grande-prairie",
+    "notes": "Aussi appelée IAGP."
+  },
+  {
+    "id": "lethbridge-muslim-association",
+    "newMuslimSupportNote": "La page des services mentionne des « cours et programmes conçus pour les personnes qui ont récemment embrassé l'islam ». La plus récente annonce sur la page d'accueil date de mars 2025, alors demandez si les cours ont encore lieu.",
+    "jumuahNote": "Prière du vendredi à 13 h 30."
+  },
+  {
+    "id": "islamic-association-of-medicine-hat",
+    "notes": "Aussi appelée IAMH.",
+    "jumuahNote": "1re prière du vendredi à 13 h 30; 2e à 14 h."
+  },
+  {
+    "id": "red-deer-islamic-centre",
+    "jumuahNote": "Deux prières du vendredi au centre; heures non relevées."
+  },
+  {
+    "id": "masjid-in-the-park-sherwood-park",
+    "womenSpaceNote": "Salles de prière et entrées séparées pour les frères et les sœurs; une salle pour les mères avec retransmission audio en direct.",
+    "accessibilityNote": "Entièrement accessible, avec des rampes pour fauteuils roulants, des toilettes accessibles et un ascenseur dans tout le bâtiment.",
+    "jumuahNote": "La page d'accueil mentionne la prière du vendredi et une capacité de plus de 250 personnes; les heures ne sont pas précisées."
+  },
+  {
+    "id": "muslim-association-of-st-albert",
+    "notes": "Aussi appelée MASA ou St. Albert Mosque.",
+    "womenSpaceNote": "Page d'accueil : « le rez-de-chaussée et le gymnase sont réservés aux frères, et le deuxième étage aux sœurs »."
+  },
+  {
+    "id": "abu-bakr-al-siddiq-masjid-moose-jaw"
+  },
+  {
+    "id": "prince-albert-masjid"
+  },
+  {
+    "id": "darul-falah-islamic-centre-regina",
+    "jumuahNote": "Trois prières du vendredi : sermon à 13 h, 13 h 30 et 14 h (page d'accueil)."
+  },
+  {
+    "id": "iaos-regina-east-musallah",
+    "notes": "Aussi appelée East Regina Mosque ou East Regina Musalla.",
+    "newMuslimSupportNote": "L'IAOS Regina gère un comité des convertis pour toute la ville, avec du mentorat par les pairs, un programme de jumelage à la mosquée et du counseling. Cette salle de prière (musallah) n'indique pas de programme à elle."
+  },
+  {
+    "id": "islamic-association-of-saskatchewan-inc-iaos-regina-mosque",
+    "womenSpaceNote": "Page de présentation : le centre comprend des espaces de prière séparés pour les frères et les sœurs.",
+    "newMuslimSupportNote": "Le comité des convertis de l'IAOS Regina offre du mentorat par les pairs, un programme de jumelage à la mosquée, du counseling, des livres et des conférences. L'horaire de la page d'accueil indique un cours pour les nouveaux musulmans le samedi après la prière de la nuit (isha).",
+    "jumuahNote": "1re prière du vendredi à 13 h 15, 2e à 14 h (page d'accueil)."
+  },
+  {
+    "id": "islamic-society-of-regina-masjid",
+    "notes": "Aussi appelée ISR.",
+    "jumuahNote": "Page d'accueil : prière du vendredi à 13 h 15 et 13 h 45."
+  },
+  {
+    "id": "madni-islamic-center-mosque-inc-regina",
+    "jumuahNote": "Page d'accueil : prière du vendredi à 13 h 30."
+  },
+  {
+    "id": "regina-city-jamia-masjid",
+    "notes": "Aussi appelée RCJM.",
+    "womenSpaceNote": "Page de contact : « La Regina City Jamia Masjid a des espaces de prière pour les hommes et pour les femmes ».",
+    "newMuslimSupportNote": "La page New to Islam décrit des « cours, des programmes de mentorat et des rencontres individuelles d'accompagnement » pour les nouveaux musulmans. Elle n'indique pas comment s'inscrire, alors appelez ou écrivez.",
+    "jumuahNote": "Page d'accueil : sermon du vendredi à 13 h 10, iqama à 13 h 30."
+  },
+  {
+    "id": "jamia-riyadhul-jannah-saskatoon",
+    "jumuahNote": "Prière du vendredi à 13 h 35 et 14 h 30 (page d'accueil)."
+  },
+  {
+    "id": "prairie-muslim-association-saskatoon-masjid"
+  },
+  {
+    "id": "the-islamic-association-of-saskatchewan-inc-ias-masjid-saskatoon",
+    "jumuahNote": "1re prière du vendredi à 13 h (iqama à 13 h 30); 2e à 14 h 05 (iqama à 14 h 30), page d'accueil du 2026-09-23."
+  },
+  {
+    "id": "brandon-islamic-centre-inc",
+    "jumuahNote": "1er sermon du vendredi à 14 h, 2e à 15 h."
+  },
+  {
+    "id": "mia-steinbach-mussallah"
+  },
+  {
+    "id": "mia-pembina-valley-mussallah-winkler"
+  },
+  {
+    "id": "alhaqq-prayer-group-of-canada-inc-winnipeg",
+    "notes": "Aussi appelé Al-Haqq Canada ou Al-Haqq Masjid. Le site décrit un culte en assemblée chaque dimanche. Renseignez-vous sur les prières quotidiennes et la prière du vendredi."
+  },
+  {
+    "id": "beit-naballa-mosque-winnipeg",
+    "jumuahNote": "Page d'accueil : « Nous sommes ouverts pour les cinq prières quotidiennes et pour la prière du vendredi »."
+  },
+  {
+    "id": "manitoba-dawah-center-winnipeg",
+    "womenSpaceNote": "La 2e prière du vendredi est « pour les hommes et les femmes »; la 1re est réservée aux hommes.",
+    "jumuahNote": "Prière du vendredi à 13 h 35 (hommes seulement) et à 14 h 25 (hommes et femmes), selon la page d'accueil."
+  },
+  {
+    "id": "pioneer-mosque-winnipeg",
+    "notes": "Aussi appelée St. Vital Mosque ou Hazelwood Mosque.",
+    "newMuslimSupportNote": "Le comité des convertis de la Manitoba Islamic Association est « géré par des convertis pour des convertis ». Il propose une trousse de livres, des rencontres, des séminaires et un système de jumelage. Le comité dessert toute l'association, pas un seul bâtiment.",
+    "jumuahNote": "MIA : ouverte pour les 5 prières quotidiennes et la prière du vendredi; l'heure de la prière du vendredi à cet endroit n'est pas précisée."
+  },
+  {
+    "id": "winnipeg-central-mosque",
+    "womenSpaceNote": "FAQ : « La WCM n'a pas de séparation physique entre les hommes et les femmes »; les entrées avant et arrière sont toutes deux des entrées familiales.",
+    "accessibilityNote": "Places de stationnement pour personnes handicapées dans le terrain arrière; rien d'autre n'est précisé.",
+    "jumuahNote": "Prière du vendredi : sermon à 13 h 45, fin de la prière à 14 h 15 (page d'accueil, 2026-09-23).",
+    "parkingNote": "On peut se garer dans le terrain voisin de la mosquée, accessible par la rue Toronto, et dans le terrain derrière la mosquée. Le terrain arrière compte quelques places pour personnes handicapées."
+  },
+  {
+    "id": "winnipeg-grand-mosque-and-community-centre",
+    "notes": "Aussi appelée Waverley Mosque ou MIA Grand Mosque.",
+    "newMuslimSupportNote": "Le comité des convertis de la Manitoba Islamic Association est « géré par des convertis pour des convertis ». Il propose une trousse de livres, des rencontres, des séminaires et un système de jumelage. Le comité dessert toute l'association, pas un seul bâtiment.",
+    "jumuahNote": "Page d'accueil de la MIA : prière du vendredi « à 13 h 45 et 15 h 30 ». Page des mosquées de la MIA : « Les deux mosquées sont ouvertes pour les 5 prières quotidiennes et la prière du vendredi »."
+  },
+  {
+    "id": "nova-scotia-islamic-community-centre-kearney-lake-masjid-bedford",
+    "notes": "Secteur : municipalité régionale d'Halifax. Aussi appelée NSICC, Kearney Lake Masjid ou Halifax Jamia Masjid.",
+    "womenSpaceNote": "La page de contact mentionne un comité des sœurs et un groupe de soutien pour les femmes musulmanes; l'espace de prière des femmes n'est pas décrit.",
+    "jumuahNote": "Page d'accueil : « Vendredi, prière du vendredi (sermon) à 13 h 30 »."
+  },
+  {
+    "id": "dartmouth-masjid",
+    "notes": "Aussi appelée IANS Dartmouth Masjid.",
+    "jumuahNote": "13 h 30."
+  },
+  {
+    "id": "the-centre-for-islamic-development-halifax",
+    "notes": "Aussi appelé CID."
+  },
+  {
+    "id": "truro-masjid",
+    "jumuahNote": "13 h 30."
+  },
+  {
+    "id": "fredericton-islamic-association-fia",
+    "womenSpaceNote": "Une entrée pour les femmes est mentionnée; aucun détail sur l'espace de prière.",
+    "accessibilityNote": "Les places de stationnement près de l'entrée des femmes sont réservées aux personnes handicapées ou aux sœurs (page d'accueil).",
+    "jumuahNote": "Page d'accueil : « 12 h 30 et 13 h 30 » (deux prières du vendredi).",
+    "parkingNote": "La page d'accueil donne des options de stationnement : le terrain principal, sous le pont Princess Margaret et en bordure de rue, avec des conseils pour les heures de pointe."
+  },
+  {
+    "id": "masjid-yusuf-moncton",
+    "notes": "Aussi appelée Masjid Yusuf Islamic Center."
+  },
+  {
+    "id": "moncton-muslim-association"
+  },
+  {
+    "id": "al-falah-islamic-center-st-john-s",
+    "notes": "Aussi appelé ICNA NewFoundLand.",
+    "visitorNotes": "Services en anglais confirmés (le cercle d'étude du vendredi porte la mention « Langue : anglais »).",
+    "jumuahNote": "Page d'accueil : « 1re prière du vendredi à 12 h 45 au Farmers' Market, 2e à 13 h 15 au Farmers' Market » (hors site).",
+    "parkingNote": "Consignes de stationnement sur la page d'accueil : utilisez le terrain désigné de la mosquée; « Si le stationnement de la mosquée est plein, vous pouvez vous garer du même côté de la rue que la mosquée »."
+  },
+  {
+    "id": "masjid-al-noor-st-john-s",
+    "notes": "Aussi appelée Masjid An-Noor ou MANAL.",
+    "jumuahNote": "Page des activités : une prière du vendredi chaque semaine à la Masjid Suleman Dawood, de 12 h 50 à 13 h 20 (pas à Al-Noor)."
+  },
+  {
+    "id": "masjid-suleman-dawood-st-john-s",
+    "womenSpaceNote": "Avis de l'Aïd : les sœurs entrent et sortent par l'entrée arrière.",
+    "jumuahNote": "« une prière du vendredi chaque semaine, à la Masjid Suleman Dawood, de 12 h 50 à 13 h 20 » (MANAL).",
+    "parkingNote": "Avis de l'Aïd : garez-vous seulement dans les terrains désignés et suivez les indications des bénévoles."
+  },
+  {
+    "id": "muslim-society-of-prince-edward-island-masjid-dar-as-salam-charlottetown",
+    "notes": "Aussi appelée Dar As-Salam Mosque; Muslim Society of PEI.",
+    "jumuahNote": "Page d'accueil : 1re prière du vendredi à 13 h 20, 2e à 14 h."
+  },
+  {
+    "id": "yukon-muslim-society-inc-whitehorse",
+    "notes": "Aussi appelée Yukon Muslims Society ou Whitehorse Mosque.",
+    "visitorNotes": "Services en anglais confirmés : le sermon du vendredi est donné en anglais.",
+    "womenSpaceNote": "Page des visites : « On demandera aux femmes de se couvrir la tête avant d'entrer dans la salle de prière. » Les pages officielles ne mentionnent pas d'espace séparé pour les femmes.",
+    "newMuslimSupportNote": "La page Shahadas indique : « Les nouveaux musulmans sont invités à nous rendre visite pour découvrir et pratiquer l'islam. » Le sermon du vendredi est en anglais.",
+    "accessibilityNote": "Accessible en fauteuil roulant.",
+    "parkingNote": "Stationnement de la mosquée disponible; une place accessible."
+  },
+  {
+    "id": "midnight-sun-mosque-inuvik"
+  },
+  {
+    "id": "iqaluit-masjid",
+    "jumuahNote": "À la question « La prière du vendredi a-t-elle lieu chaque vendredi? », la page de présentation répond oui; l'heure n'est pas précisée."
   }
 ]
