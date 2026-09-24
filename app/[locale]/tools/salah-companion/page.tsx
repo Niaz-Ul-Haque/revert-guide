@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { Breadcrumb } from "@/components/Breadcrumb";
 import { Button } from "@/components/Button";
 import { Icon } from "@/components/Icon";
@@ -9,6 +10,7 @@ import { getSourcesByIds } from "@/lib/content";
 import { getSalahCompanionContent } from "@/lib/tool-content";
 import { getTranslator, localizeHref, type Locale } from "@/lib/i18n";
 import { buildPageMetadata } from "@/lib/metadata";
+import type { TopicImage } from "@/lib/types";
 
 interface SalahCompanionCopy {
   metadataTitle: string;
@@ -43,6 +45,9 @@ interface SalahCompanionCopy {
   phrasesVideoTitle: string;
   phrasesVideoBody: string;
   openSeries: string;
+  placementTitle: string;
+  placementBody: string;
+  sahwTitle: string;
 }
 
 const pageSourceIds = [
@@ -60,6 +65,17 @@ const pageSourceIds = [
   "video-islamwise-rakah-recap",
   "video-islamwise-comprehensive-remembrance",
   "video-islamwise-prayer-series",
+  "sunnah-bukhari-rising-from-ruku",
+  "sunnah-ibnmajah-between-sujud",
+  "sunnah-abudawud-ruku-sujud-dhikr",
+  "sunnah-bukhari-salawat-ibrahimiyyah",
+  "sunnah-bukhari-prayed-badly",
+  "sunnah-bukhari-prayed-badly-long",
+  "islamic-foundation-ireland-prayer-booklet",
+  "sunnah-muslim-sahw-doubt",
+  "sunnah-bukhari-sahw-after-salam",
+  "seekersguidance-sajda-sahw",
+  "newmuslims-prostration-forgetfulness",
 ];
 
 export function generateMetadata({ params }: { params: { locale: Locale } }) {
@@ -92,6 +108,28 @@ function SimpleList({ items }: { items: string[] }) {
   );
 }
 
+function ContentFigure({ image }: { image: TopicImage }) {
+  return (
+    <figure className="page-break-avoid m-0 overflow-hidden rounded-2xl border border-border/60 bg-white p-4">
+      <Image
+        src={image.src}
+        alt={image.alt}
+        width={1200}
+        height={800}
+        className="h-auto w-full"
+      />
+      {(image.caption || image.credit) && (
+        <figcaption className="mt-3 text-sm leading-relaxed text-textSecondary">
+          {image.caption}
+          {image.credit && (
+            <span className="block text-xs text-textMuted">{image.credit}</span>
+          )}
+        </figcaption>
+      )}
+    </figure>
+  );
+}
+
 function ArabicText({ text }: { text: string }) {
   return (
     <p
@@ -121,6 +159,9 @@ export default function SalahCompanionPage({
     mainVideo,
     phraseVideos,
     phraseSeries,
+    shapeImage,
+    tashahhudPlacement,
+    sujudAlSahw,
   } = getSalahCompanionContent(locale);
   const pageSources = getSourcesByIds(pageSourceIds, locale);
 
@@ -205,6 +246,9 @@ export default function SalahCompanionPage({
             <p className="mb-0 text-sm leading-relaxed text-textSecondary">
               {copy.shapeBody}
             </p>
+          </div>
+          <div className="mb-6 max-w-3xl">
+            <ContentFigure image={shapeImage} />
           </div>
           <div className="grid gap-4 md:grid-cols-2">
             {prayerSequence.map((step, index) => (
@@ -325,6 +369,37 @@ export default function SalahCompanionPage({
       </AnimateIn>
 
       <AnimateIn>
+        <section className="mb-12" aria-labelledby="placement-heading">
+          <div className="mb-5 max-w-3xl">
+            <h2
+              id="placement-heading"
+              className="mb-2 font-display text-2xl font-semibold tracking-tight text-textPrimary"
+            >
+              {copy.placementTitle}
+            </h2>
+            <p className="mb-0 text-sm leading-relaxed text-textSecondary">
+              {copy.placementBody}
+            </p>
+          </div>
+          <div className="grid items-start gap-6 lg:grid-cols-2">
+            <ContentFigure image={tashahhudPlacement.image} />
+            <div className="rounded-2xl border border-border/60 bg-white p-5 shadow-card">
+              <SimpleList items={tashahhudPlacement.items} />
+              <div className="mt-4">
+                <SourceTags
+                  sources={getSourcesByIds(
+                    tashahhudPlacement.sourceIds,
+                    locale,
+                  )}
+                  compact
+                />
+              </div>
+            </div>
+          </div>
+        </section>
+      </AnimateIn>
+
+      <AnimateIn>
         <section className="mb-12" aria-labelledby="phrase-videos-heading">
           <div className="mb-5 max-w-3xl">
             <h2
@@ -398,6 +473,31 @@ export default function SalahCompanionPage({
           </section>
         </AnimateIn>
       </div>
+
+      <AnimateIn>
+        <section
+          className="mt-12 rounded-2xl border border-border/60 bg-white p-6 shadow-card"
+          aria-labelledby="sahw-heading"
+        >
+          <h2
+            id="sahw-heading"
+            className="mb-3 mt-0 font-display text-2xl font-semibold tracking-tight text-textPrimary"
+          >
+            {copy.sahwTitle}
+          </h2>
+          <p className="mb-4 max-w-3xl text-sm leading-relaxed text-textSecondary">
+            {sujudAlSahw.summary}
+          </p>
+          <SimpleList items={sujudAlSahw.steps} />
+          <p className="mb-4 mt-4 text-sm font-medium leading-relaxed text-textPrimary">
+            {sujudAlSahw.referral}
+          </p>
+          <SourceTags
+            sources={getSourcesByIds(sujudAlSahw.sourceIds, locale)}
+            compact
+          />
+        </section>
+      </AnimateIn>
 
       <AnimateIn>
         <section className="my-12" aria-labelledby="corrections-heading">

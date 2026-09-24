@@ -2,7 +2,7 @@ import * as fs from "fs";
 import * as path from "path";
 import type { IconName } from "@/components/Icon";
 import { DEFAULT_LOCALE, type Locale } from "./i18n";
-import type { VideoRef, VideoWithChapters } from "./types";
+import type { TopicImage, VideoRef, VideoWithChapters } from "./types";
 
 /**
  * Loader for the longer-form content that sits behind the tool pages and the
@@ -154,6 +154,18 @@ export interface SalahCompanionContent {
   mainVideo: VideoWithChapters;
   phraseVideos: VideoRef[];
   phraseSeries: ExternalLink;
+  shapeImage: TopicImage;
+  tashahhudPlacement: {
+    items: string[];
+    sourceIds: string[];
+    image: TopicImage;
+  };
+  sujudAlSahw: {
+    summary: string;
+    steps: string[];
+    referral: string;
+    sourceIds: string[];
+  };
 }
 
 export function getSalahCompanionContent(

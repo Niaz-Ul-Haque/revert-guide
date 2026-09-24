@@ -24,16 +24,24 @@
     {
       "title": "Bow and rise",
       "posture": "Ruku",
-      "body": "Bow with your back flat and steady, say the ruku phrase, then stand up straight and pause before you go down. Do not rush this to get it over with.",
+      "body": "Bow with your back flat and steady and say the bowing phrase. Rise while saying Sami'a Allahu liman hamidah, and once you are standing straight say Rabbana wa lakal-hamd. Pause before you go down. Do not rush this to get it over with.",
       "icon": "check",
-      "sourceIds": ["hisn-ruku-dhikr"]
+      "sourceIds": [
+        "hisn-ruku-dhikr",
+        "sunnah-bukhari-rising-from-ruku",
+        "sunnah-bukhari-prayed-badly"
+      ]
     },
     {
       "title": "Prostrate twice",
       "posture": "Sujud",
-      "body": "Go down into prostration, sit up briefly, then prostrate again. Sujud is the closest you come to Allah in the prayer. Learn the short phrase first, and ask a teacher before you start adding your own dua here.",
+      "body": "Go down into prostration and say the prostration phrase. Sit up and say Rabbighfir li, then prostrate a second time with the same phrase. Let each position settle before you move on.",
       "icon": "check",
-      "sourceIds": ["hisn-sujud-dhikr"]
+      "sourceIds": [
+        "hisn-sujud-dhikr",
+        "sunnah-ibnmajah-between-sujud",
+        "sunnah-bukhari-prayed-badly-long"
+      ]
     },
     {
       "title": "Repeat for the second rak'ah",
@@ -45,9 +53,12 @@
     {
       "title": "Sit for the final words",
       "posture": "Tashahhud",
-      "body": "After the second rak'ah, sit and recite the tashahhud. Learn it slowly from a teacher or a reliable recording. Small differences in wording between narrations and schools are normal, so do not worry when you hear two versions.",
+      "body": "After the second rak'ah, sit and recite the tashahhud. In a two-rak'ah prayer this is the final sitting, so add the blessings on the Prophet (salawat) before the salam. In a three or four rak'ah prayer this first sitting is shorter, and you stand again afterwards. The rak'ah map below shows where each sitting falls.",
       "icon": "info",
-      "sourceIds": ["sunnah-bukhari-tashahhud"]
+      "sourceIds": [
+        "sunnah-bukhari-tashahhud",
+        "sunnah-bukhari-salawat-ibrahimiyyah"
+      ]
     },
     {
       "title": "End with salam",
@@ -104,6 +115,15 @@
       "sourceIds": ["hisn-ruku-dhikr"]
     },
     {
+      "title": "Rising from bowing",
+      "occasion": "Coming up from ruku",
+      "arabic": "سَمِعَ اللَّهُ لِمَنْ حَمِدَهُ\nرَبَّنَا وَلَكَ الْحَمْدُ",
+      "transliteration": "Sami'a Allahu liman hamidah. Rabbana wa lakal-hamd.",
+      "meaning": "Allah hears the one who praises Him. Our Lord, and to You belongs all praise.",
+      "beginnerNote": "Say the first line as you come up and the second once you are standing straight. You will also hear 'Rabbana lakal-hamd' without the 'wa'. Both wordings are in the hadith.",
+      "sourceIds": ["sunnah-bukhari-rising-from-ruku"]
+    },
+    {
       "title": "Sujud phrase",
       "occasion": "While prostrating",
       "arabic": "سُبْحَانَ رَبِّيَ الْأَعْلَى",
@@ -113,13 +133,34 @@
       "sourceIds": ["hisn-sujud-dhikr"]
     },
     {
-      "title": "Tashahhud overview",
-      "occasion": "Final sitting",
-      "arabic": "التَّحِيَّاتُ لِلَّهِ وَالصَّلَوَاتُ وَالطَّيِّبَاتُ ...",
-      "transliteration": "At-tahiyyatu lillahi was-salawatu wat-tayyibat...",
-      "meaning": "Translation of meaning: greetings, prayers, and good words are for Allah, followed by testimony of faith.",
-      "beginnerNote": "This card shows the opening only, not the full text to learn from. Get the complete wording from a teacher or a reliable recording.",
+      "title": "Sitting between the two prostrations",
+      "occasion": "Between the first and second sujud",
+      "arabic": "رَبِّ اغْفِرْ لِي",
+      "transliteration": "Rabbighfir li",
+      "meaning": "My Lord, forgive me.",
+      "beginnerNote": "Two words, and the Prophet repeated them. Say it once or twice. A teacher can show you a longer version later if you want it.",
+      "sourceIds": [
+        "sunnah-ibnmajah-between-sujud",
+        "sunnah-abudawud-ruku-sujud-dhikr"
+      ]
+    },
+    {
+      "title": "Tashahhud",
+      "occasion": "Every sitting: after the second rak'ah and at the end",
+      "arabic": "التَّحِيَّاتُ لِلَّهِ وَالصَّلَوَاتُ وَالطَّيِّبَاتُ\nالسَّلَامُ عَلَيْكَ أَيُّهَا النَّبِيُّ وَرَحْمَةُ اللَّهِ وَبَرَكَاتُهُ\nالسَّلَامُ عَلَيْنَا وَعَلَى عِبَادِ اللَّهِ الصَّالِحِينَ\nأَشْهَدُ أَنْ لَا إِلَٰهَ إِلَّا اللَّهُ\nوَأَشْهَدُ أَنَّ مُحَمَّدًا عَبْدُهُ وَرَسُولُهُ",
+      "transliteration": "At-tahiyyatu lillahi was-salawatu wat-tayyibat. As-salamu 'alayka ayyuhan-Nabiyyu wa rahmatullahi wa barakatuh. As-salamu 'alayna wa 'ala 'ibadillahis-salihin. Ash-hadu an la ilaha illallah, wa ash-hadu anna Muhammadan 'abduhu wa rasuluh.",
+      "meaning": "All compliments, prayers and good things are for Allah. Peace be on you, O Prophet, and Allah's mercy and blessings. Peace be on us and on the righteous servants of Allah. I testify that there is no god but Allah, and I testify that Muhammad is His servant and Messenger.",
+      "beginnerNote": "This is the wording narrated by Ibn Mas'ud. You may hear slightly different wordings from other authentic narrations, so follow your teacher. Learn it one line at a time.",
       "sourceIds": ["sunnah-bukhari-tashahhud"]
+    },
+    {
+      "title": "Blessings on the Prophet (salawat)",
+      "occasion": "Final sitting, after the tashahhud",
+      "arabic": "اللَّهُمَّ صَلِّ عَلَى مُحَمَّدٍ وَعَلَى آلِ مُحَمَّدٍ\nكَمَا صَلَّيْتَ عَلَى إِبْرَاهِيمَ وَعَلَى آلِ إِبْرَاهِيمَ\nإِنَّكَ حَمِيدٌ مَجِيدٌ\nاللَّهُمَّ بَارِكْ عَلَى مُحَمَّدٍ وَعَلَى آلِ مُحَمَّدٍ\nكَمَا بَارَكْتَ عَلَى إِبْرَاهِيمَ وَعَلَى آلِ إِبْرَاهِيمَ\nإِنَّكَ حَمِيدٌ مَجِيدٌ",
+      "transliteration": "Allahumma salli 'ala Muhammadin wa 'ala ali Muhammad, kama sallayta 'ala Ibrahima wa 'ala ali Ibrahim, innaka Hamidun Majid. Allahumma barik 'ala Muhammadin wa 'ala ali Muhammad, kama barakta 'ala Ibrahima wa 'ala ali Ibrahim, innaka Hamidun Majid.",
+      "meaning": "O Allah, send Your mercy on Muhammad and on the family of Muhammad, as You sent Your mercy on Ibrahim and on the family of Ibrahim. You are Praiseworthy and Glorious. O Allah, send Your blessings on Muhammad and on the family of Muhammad, as You sent Your blessings on Ibrahim and on the family of Ibrahim. You are Praiseworthy and Glorious.",
+      "beginnerNote": "Say it in the final sitting, after the tashahhud and before the salam. Whether it is also said in the first sitting of a longer prayer differs between schools, so ask your teacher.",
+      "sourceIds": ["sunnah-bukhari-salawat-ibrahimiyyah"]
     },
     {
       "title": "Salam",
@@ -226,5 +267,45 @@
     "body": "29 short lessons, one phrase at a time, including Al-Fatihah verse by verse, the tashahhud and the salawat.",
     "href": "https://www.youtube.com/playlist?list=PLW9v5fexkmD_8i507k8oL2x9n0vJeP1BT",
     "sourceIds": ["video-islamwise-prayer-series"]
+  },
+  "shapeImage": {
+    "src": "/graphics/rakah-steps.svg",
+    "alt": "Seven faceless figures showing one rak'ah in order: standing with hands raised, standing to recite, bowing, standing straight, prostrating, sitting, and prostrating again, each with its short phrase.",
+    "caption": "One rak'ah, from the opening takbir to the second prostration.",
+    "credit": "Illustration: Revert Guide."
+  },
+  "tashahhudPlacement": {
+    "items": [
+      "Fajr, 2 rak'ahs: one sitting, after the second rak'ah. It is the final sitting: tashahhud, salawat, then salam.",
+      "Maghrib, 3 rak'ahs: a first sitting after the second rak'ah with the tashahhud, then stand for the third. The final sitting comes after the third: tashahhud, salawat, then salam.",
+      "Dhuhr, Asr and Isha, 4 rak'ahs: a first sitting after the second rak'ah with the tashahhud, then stand for the third and fourth. The final sitting comes after the fourth.",
+      "In the first two rak'ahs you recite Al-Fatihah and a short surah. In the third and fourth you recite Al-Fatihah only."
+    ],
+    "sourceIds": [
+      "sunnah-bukhari-tashahhud",
+      "islamic-foundation-ireland-prayer-booklet"
+    ],
+    "image": {
+      "src": "/graphics/rakah-map-tashahhud.svg",
+      "alt": "A row of dots for each of the five prayers, one dot per rak'ah, with a sitting figure after the second rak'ah and at the end. Fajr has 2 dots, Dhuhr 4, Asr 4, Maghrib 3 and Isha 4.",
+      "caption": "Where you sit for the tashahhud in each prayer.",
+      "credit": "Illustration: Revert Guide."
+    }
+  },
+  "sujudAlSahw": {
+    "summary": "If you forget part of the prayer, add something by mistake, or lose count of your rak'ahs, there is a simple repair: two extra prostrations called sujud al-sahw, the prostration of forgetfulness. For many mistakes you do not need to start the prayer again.",
+    "steps": [
+      "If you are unsure how many rak'ahs you have prayed, go with the number you are sure of, which is the lower one, and finish the prayer from there.",
+      "Near the end of the prayer, make two extra prostrations with a short sitting between them, the same way you prostrate in every rak'ah.",
+      "Authentic reports mention these two prostrations both before and after the closing salam. The schools teach slightly different methods, so learn the one your teacher uses.",
+      "If you are praying behind an imam, follow the imam and do not add your own."
+    ],
+    "referral": "While you are new, finish calmly and ask a teacher about the specific mistake afterwards. Nobody expects you to know every rule in your first months.",
+    "sourceIds": [
+      "sunnah-muslim-sahw-doubt",
+      "sunnah-bukhari-sahw-after-salam",
+      "seekersguidance-sajda-sahw",
+      "newmuslims-prostration-forgetfulness"
+    ]
   }
 }
