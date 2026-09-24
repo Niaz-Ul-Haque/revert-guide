@@ -42,7 +42,35 @@ export default function HomePage({ params }: { params: { locale: Locale } }) {
         "border-l-4 border-l-primary bg-gradient-to-br from-surfaceElevated to-primaryGreen/20",
     },
   ];
+  const firstSteps = [
+    {
+      title: copy.firstSteps[0],
+      href: "/tools/salah-companion",
+      icon: "star" as const,
+    },
+    {
+      title: copy.firstSteps[1],
+      href: "/tools/wudu-ghusl",
+      icon: "check" as const,
+    },
+    {
+      title: copy.firstSteps[2],
+      href: "/prayer-times",
+      icon: "clock" as const,
+    },
+    { title: copy.firstSteps[3], href: "/get-help", icon: "users" as const },
+  ];
   const quickLinks = [
+    {
+      ...copy.quickLinkPillars,
+      href: "/topics/five-pillars",
+      bar: "bg-gradient-to-r from-primary via-primaryGreen to-accentYellow",
+    },
+    {
+      ...copy.quickLinkFaq,
+      href: "/faq",
+      bar: "bg-gradient-to-r from-secondaryGreen via-primaryGreen to-primary",
+    },
     {
       ...copy.quickLinks[0],
       href: "/ramadan",
@@ -68,9 +96,9 @@ export default function HomePage({ params }: { params: { locale: Locale } }) {
           aria-hidden="true"
         />
 
-        <div className="relative mx-auto max-w-4xl px-5 pb-8 pt-16 text-center md:pb-12 md:pt-24">
+        <div className="relative mx-auto max-w-4xl px-5 pb-8 pt-8 text-center md:pb-12 md:pt-24">
           <AnimateIn animation="fade-in">
-            <div className="mx-auto mb-8 flex h-40 w-40 items-center justify-center md:h-48 md:w-48">
+            <div className="mx-auto mb-4 flex h-20 w-20 items-center justify-center md:mb-8 md:h-48 md:w-48">
               <Image
                 src="/revert-guide-logo.png"
                 alt={copy.logoAlt}
@@ -83,7 +111,7 @@ export default function HomePage({ params }: { params: { locale: Locale } }) {
           </AnimateIn>
 
           <AnimateIn animation="fade-up" delay={0.05}>
-            <span className="mb-6 inline-flex items-center gap-2 rounded-full bg-primary/10 px-4 py-1.5 text-sm font-medium text-primary">
+            <span className="mb-4 inline-flex items-center gap-2 rounded-full bg-primary/10 px-4 py-1.5 text-sm font-medium text-primary md:mb-6">
               <span
                 className="h-1.5 w-1.5 animate-pulse-soft rounded-full bg-primary"
                 aria-hidden="true"
@@ -93,23 +121,23 @@ export default function HomePage({ params }: { params: { locale: Locale } }) {
           </AnimateIn>
 
           <AnimateIn animation="fade-up" delay={0.15}>
-            <h1 className="mb-5 font-display text-4xl font-semibold tracking-tight text-textPrimary md:text-5xl lg:text-6xl">
+            <h1 className="mb-4 font-display text-4xl font-semibold tracking-tight text-textPrimary md:text-5xl lg:text-6xl">
               {copy.title}{" "}
               <span className="text-gradient">{copy.titleHighlight}</span>
             </h1>
           </AnimateIn>
 
           <AnimateIn animation="fade-up" delay={0.25}>
-            <p className="mx-auto mb-10 max-w-xl text-lg leading-relaxed text-textSecondary">
+            <p className="mx-auto mb-6 max-w-xl text-lg leading-relaxed text-textSecondary md:mb-10">
               {copy.subtitle}
             </p>
           </AnimateIn>
 
           <AnimateIn animation="fade-up" delay={0.35}>
-            <div className="flex flex-col items-center justify-center gap-3 sm:flex-row">
+            <div className="flex flex-row flex-wrap items-center justify-center gap-3">
               <Button
                 href={localizeHref(locale, "/roadmap")}
-                className="px-8 py-4 text-lg"
+                className="px-6 sm:px-8 sm:py-4 sm:text-lg"
               >
                 {t("common.beginJourney")}
               </Button>
@@ -121,6 +149,31 @@ export default function HomePage({ params }: { params: { locale: Locale } }) {
                 {copy.exploreTopics}
               </Button>
             </div>
+          </AnimateIn>
+
+          <AnimateIn animation="fade-up" delay={0.4}>
+            <nav
+              aria-label={copy.firstStepsLabel}
+              className="mx-auto mt-6 max-w-3xl md:mt-10"
+            >
+              <ul className="mb-0 grid grid-cols-2 gap-3 pl-0 md:grid-cols-4">
+                {firstSteps.map((item) => (
+                  <li key={item.href}>
+                    <Link
+                      href={localizeHref(locale, item.href)}
+                      className="flex h-full min-h-[88px] flex-col items-start gap-2 rounded-2xl border-2 border-primaryGreen/60 bg-white p-4 text-left no-underline shadow-card transition-colors duration-200 hover:border-primary hover:bg-surfaceElevated focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-borderStrong"
+                    >
+                      <span className="flex h-9 w-9 items-center justify-center rounded-xl bg-primary text-white">
+                        <Icon name={item.icon} size="sm" />
+                      </span>
+                      <span className="text-sm font-semibold leading-snug text-textPrimary sm:text-base">
+                        {item.title}
+                      </span>
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </nav>
           </AnimateIn>
         </div>
 
@@ -263,7 +316,7 @@ export default function HomePage({ params }: { params: { locale: Locale } }) {
           </h2>
         </AnimateIn>
 
-        <div className="grid gap-5 sm:grid-cols-3">
+        <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
           {quickLinks.map((link, index) => (
             <AnimateIn key={link.href} delay={0.1 + index * 0.1}>
               <Link

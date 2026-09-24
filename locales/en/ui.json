@@ -143,7 +143,7 @@
     },
     "home": {
       "title": "Revert Guide - practical help for new Muslims",
-      "description": "An offline-first guide for new Muslims, with practical next steps and no rush."
+      "description": "An offline-first guide for new Muslims in Canada: learn to pray, wash before prayer, find prayer times and get help, with no rush."
     },
     "about": {
       "title": "About - Revert Guide",
@@ -299,6 +299,13 @@
       "subtitle": "You are in the right place. This guide walks you through the first steps at a pace you set, with plain answers and nobody rushing you.",
       "logoAlt": "Revert Guide logo",
       "exploreTopics": "Explore topics",
+      "firstStepsLabel": "First steps",
+      "firstSteps": [
+        "Learn to pray (salah)",
+        "Washing before prayer (wudu and ghusl)",
+        "Prayer times",
+        "Get help"
+      ],
       "pathsTitle": "Where are you right now?",
       "pathsSubtitle": "Everyone starts somewhere different. Pick the path that fits.",
       "paths": [
@@ -329,9 +336,17 @@
         },
         {
           "title": "Find a masjid",
-          "body": "Mosques near Toronto"
+          "body": "Masjids across Canada"
         }
-      ]
+      ],
+      "quickLinkPillars": {
+        "title": "Five pillars of Islam",
+        "body": "The big picture of what a Muslim does"
+      },
+      "quickLinkFaq": {
+        "title": "Questions and answers",
+        "body": "Short answers to what new Muslims ask"
+      }
     },
     "about": {
       "title": "About Revert Guide",
