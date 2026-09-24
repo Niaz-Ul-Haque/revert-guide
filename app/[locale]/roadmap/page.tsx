@@ -126,9 +126,9 @@ export default function RoadmapPage({
                     />
 
                     <div className="relative">
-                      <h3 className="mb-2 mt-0 font-display text-xl font-semibold text-textPrimary transition-colors duration-200 group-hover:text-primary">
+                      <h2 className="mb-2 mt-0 font-display text-xl font-semibold text-textPrimary transition-colors duration-200 group-hover:text-primary">
                         {stage.title}
-                      </h3>
+                      </h2>
                       <p className="mb-3 text-sm leading-relaxed text-textSecondary">
                         {stage.description}
                       </p>
