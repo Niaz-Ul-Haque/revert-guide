@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import { Breadcrumb } from "@/components/Breadcrumb";
 import { Button } from "@/components/Button";
 import { Icon } from "@/components/Icon";
@@ -55,6 +56,7 @@ interface SalahCompanionCopy {
   tableUnits: string;
   notOwedTitle: string;
   seatedTitle: string;
+  learnArabicLink: string;
 }
 
 const pageSourceIds = [
@@ -93,6 +95,11 @@ const pageSourceIds = [
   "seekersguidance-sick-person-prayer",
   "video-greenlane-physical-disability",
   "video-assim-chair-prayer",
+  "sunnah-abudawud-dhikr-instead",
+  "seekersguidance-recite-in-english",
+  "seekersguidance-reading-from-mushaf",
+  "dar-alifta-new-muslim-fatiha",
+  "sunnah-muslim-two-rewards",
 ];
 
 export function generateMetadata({ params }: { params: { locale: Locale } }) {
@@ -171,6 +178,7 @@ export default function SalahCompanionPage({
     prayerSequence,
     recitations,
     cannotReciteYet,
+    cannotReciteSourceIds,
     invalidatesPrayer,
     commonCorrections,
     mainVideo,
@@ -543,6 +551,19 @@ export default function SalahCompanionPage({
               {copy.cannotReciteTitle}
             </h2>
             <SimpleList items={cannotReciteYet} />
+            <div className="mt-4 flex flex-col gap-3">
+              <Link
+                href={localizeHref(locale, "/quran-starter#learn-arabic")}
+                className="inline-flex min-h-[44px] items-center gap-1.5 text-sm font-semibold text-primary"
+              >
+                {copy.learnArabicLink}
+                <Icon name="chevron-right" size="sm" />
+              </Link>
+              <SourceTags
+                sources={getSourcesByIds(cannotReciteSourceIds, locale)}
+                compact
+              />
+            </div>
           </section>
         </AnimateIn>
 

@@ -17,7 +17,7 @@
     {
       "title": "Recite in the first rak'ah",
       "posture": "Standing",
-      "body": "Recite Al-Fatiha, then a short surah or the few verses you are working on. If you are not there yet, keep learning phrase by phrase and ask an imam what to recite in the meantime.",
+      "body": "Recite Al-Fatihah, then a short surah or the few verses you are working on. If you cannot recite yet, the section 'If you cannot recite Arabic yet' below explains what the schools allow in the meantime.",
       "icon": "book",
       "sourceIds": ["quran-al-fatihah-1", "quran-al-ikhlas-112"]
     },
@@ -173,10 +173,15 @@
     }
   ],
   "cannotReciteYet": [
-    "Keep praying while you learn. Waiting until your Arabic is good enough means waiting forever.",
-    "Memorize Al-Fatiha phrase by phrase. A printed card or a transliteration helps you practice, and a local imam can tell you what to recite in your prayer while you get there.",
-    "Pick one short surah and stay with it until it comes out steadily.",
-    "If pain, disability, trauma, or anxiety changes what your body can do in prayer, ask a qualified teacher about the concessions before you force anything."
+    "Keep praying while you learn. The scholars in the sources below say a new Muslim prays with what they can manage and learns the rest over time.",
+    "A widely taught option is to say short Arabic phrases of remembrance in place of the recitation: SubhanAllah (glory be to Allah), Alhamdulillah (praise be to Allah), La ilaha illallah (there is no god but Allah), Allahu akbar (Allah is the Greatest) and La hawla wa la quwwata illa billah (there is no power or strength except with Allah). The Prophet taught these words to a man who said he could not memorise any Quran (Sunan Abi Dawud 832, graded Hasan by al-Albani).",
+    "SeekersGuidance calls these remembrance phrases the more cautious choice, because they are valid in both the Hanafi and Shafi'i schools.",
+    "The Hanafi school also accepts reciting a translation of the meaning for someone who cannot yet recite Arabic.",
+    "The Shafi'i school does not accept a translation. It allows a learner to read Al-Fatihah from a mushaf (a printed Quran) during the prayer.",
+    "The Maliki and Hanbali schools do not accept recitation in another language.",
+    "Reading from a book or screen during prayer is itself a point of difference: the Hanafi school counts holding a Quran and reading from it in prayer as strongly disliked.",
+    "In the meantime, learn Al-Fatihah one phrase at a time, then one short surah. Someone who recites with difficulty has two rewards (Sahih Muslim 798a).",
+    "Ask a local imam which of these options your community follows."
   ],
   "invalidatesPrayer": [
     "Losing wudu, such as by using the restroom or passing wind.",
@@ -402,5 +407,12 @@
       "href": "https://www.youtube.com/watch?v=nNKUwHi99Qo",
       "sourceIds": ["video-assim-chair-prayer"]
     }
-  }
+  },
+  "cannotReciteSourceIds": [
+    "sunnah-abudawud-dhikr-instead",
+    "seekersguidance-recite-in-english",
+    "seekersguidance-reading-from-mushaf",
+    "dar-alifta-new-muslim-fatiha",
+    "sunnah-muslim-two-rewards"
+  ]
 }

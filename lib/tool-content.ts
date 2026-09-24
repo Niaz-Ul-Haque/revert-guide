@@ -149,6 +149,7 @@ export interface SalahCompanionContent {
   prayerSequence: SequenceStep[];
   recitations: RecitationBlock[];
   cannotReciteYet: string[];
+  cannotReciteSourceIds: string[];
   invalidatesPrayer: string[];
   commonCorrections: CorrectionNote[];
   mainVideo: VideoWithChapters;
