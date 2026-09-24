@@ -6,7 +6,12 @@ import { AnimateIn } from "@/components/AnimateIn";
 import { Breadcrumb } from "@/components/Breadcrumb";
 import { Callout } from "@/components/Callout";
 import { Icon } from "@/components/Icon";
-import { MasjidMap, type MasjidSearchLocation } from "@/components/MasjidMap";
+import {
+  MasjidMap,
+  getDirectionsDestination,
+  isApproximate,
+  type MasjidSearchLocation,
+} from "@/components/MasjidMap";
 import { SearchBar } from "@/components/SearchBar";
 import { SourceTags, SourcesPanel } from "@/components/SourceTags";
 import { localizeHref, type Locale, type Messages } from "@/lib/i18n";
@@ -73,7 +78,7 @@ function toSearchableText(
 
 function calculateDistanceKm(
   from: MasjidSearchLocation,
-  to: Masjid["coordinates"],
+  to: NonNullable<Masjid["coordinates"]>,
 ) {
   const earthRadiusKm = 6371;
   const dLat = degreesToRadians(to.lat - from.lat);
@@ -92,11 +97,11 @@ function degreesToRadians(value: number) {
 }
 
 function getGoogleMapsDirectionsUrl(masjid: Masjid) {
-  return `https://www.google.com/maps/dir/?api=1&destination=${masjid.coordinates.lat},${masjid.coordinates.lng}`;
+  return `https://www.google.com/maps/dir/?api=1&destination=${getDirectionsDestination(masjid)}`;
 }
 
 function getAppleMapsDirectionsUrl(masjid: Masjid) {
-  return `https://maps.apple.com/?daddr=${masjid.coordinates.lat},${masjid.coordinates.lng}&q=${encodeURIComponent(masjid.name)}`;
+  return `https://maps.apple.com/?daddr=${getDirectionsDestination(masjid)}&q=${encodeURIComponent(masjid.name)}`;
 }
 
 function formatDistance(locale: Locale, distanceKm: number) {
@@ -222,11 +227,21 @@ export function FindMasjidPageClient({
       })
       .map((masjid) => ({
         masjid,
-        distanceKm: searchLocation
-          ? calculateDistanceKm(searchLocation, masjid.coordinates)
-          : null,
+        /* Records without coordinates cannot be measured; they sort after
+           every measured record. */
+        distanceKm:
+          searchLocation && masjid.coordinates
+            ? calculateDistanceKm(searchLocation, masjid.coordinates)
+            : null,
       }))
       .sort((left, right) => {
+        if (
+          searchLocation &&
+          (left.distanceKm === null) !== (right.distanceKm === null)
+        ) {
+          return left.distanceKm === null ? 1 : -1;
+        }
+
         if (
           left.distanceKm !== null &&
           right.distanceKm !== null &&
@@ -612,6 +627,10 @@ export function FindMasjidPageClient({
                 {copy.mapLegendSelected}
               </span>
               <span className="inline-flex items-center gap-1.5">
+                <span className="h-2 w-2 rounded-full border border-dashed border-primary bg-primary/10" />
+                {copy.mapLegendApproximate}
+              </span>
+              <span className="inline-flex items-center gap-1.5">
                 <span className="h-2.5 w-2.5 rounded-full border-2 border-accent bg-accentYellow" />
                 {copy.mapLegendSearch}
               </span>
@@ -813,6 +832,10 @@ export function FindMasjidPageClient({
           <div className="grid gap-3 sm:grid-cols-2 xl:grid-cols-3">
             {filteredMasjids.map(({ masjid, distanceKm }, index) => {
               const isSelected = masjid.id === selectedMasjidId;
+              const approximate = isApproximate(masjid);
+              const addressLine = [masjid.address, masjid.postalCode]
+                .filter(Boolean)
+                .join(", ");
               const supportBadges = [
                 masjid.womenFriendly ? copy.womenFriendly : null,
                 masjid.convertSupport ? copy.convertSupport : null,
@@ -868,26 +891,38 @@ export function FindMasjidPageClient({
                         </h2>
                         {distanceKm !== null && (
                           <span className="shrink-0 rounded-full bg-primary/10 px-2.5 py-0.5 text-xs font-semibold text-primary">
-                            {formatDistance(locale, distanceKm)}
+                            {approximate
+                              ? `${copy.distanceApprox} ${formatDistance(locale, distanceKm)}`
+                              : formatDistance(locale, distanceKm)}
                           </span>
                         )}
                       </div>
                       <p className="mb-0 mt-0.5 text-xs text-textMuted">
                         {masjid.city}, {masjid.stateProvince}
                       </p>
+                      {approximate && (
+                        <p className="mb-0 mt-1 text-xs font-medium text-textSecondary">
+                          {copy.approximateLocation}
+                        </p>
+                      )}
+                      {!masjid.coordinates && (
+                        <p className="mb-0 mt-1 text-xs font-medium text-textSecondary">
+                          {copy.noMapLocation}
+                        </p>
+                      )}
                     </div>
 
                     {/* Address */}
-                    <p className="mb-0 flex items-start gap-2 text-sm text-textSecondary">
-                      <Icon
-                        name="map-pin"
-                        size="sm"
-                        className="mt-0.5 shrink-0 text-primary/50"
-                      />
-                      <span>
-                        {masjid.address}, {masjid.postalCode}
-                      </span>
-                    </p>
+                    {addressLine && (
+                      <p className="mb-0 flex items-start gap-2 text-sm text-textSecondary">
+                        <Icon
+                          name="map-pin"
+                          size="sm"
+                          className="mt-0.5 shrink-0 text-primary/50"
+                        />
+                        <span>{addressLine}</span>
+                      </p>
+                    )}
 
                     {/* Phone */}
                     {masjid.phone && (
@@ -956,7 +991,7 @@ export function FindMasjidPageClient({
                         <SourceTags sources={masjidSources} compact />
                       ) : (
                         <span className="rounded-full border border-warning/20 bg-accentYellow/30 px-2.5 py-1 text-[11px] font-medium text-warning">
-                          Local verification needed
+                          {copy.localVerificationNeeded}
                         </span>
                       )}
                     </div>
@@ -986,18 +1021,20 @@ export function FindMasjidPageClient({
 
                     {/* Actions, pushed to the bottom of the card */}
                     <div className="mt-auto flex flex-wrap items-center gap-2 pt-4">
-                      <button
-                        type="button"
-                        onClick={() => setSelectedMasjidId(masjid.id)}
-                        className={`inline-flex items-center gap-1.5 rounded-lg px-3 py-2 text-xs font-semibold transition-all duration-200 ${
-                          isSelected
-                            ? "bg-primary text-white"
-                            : "bg-surfaceElevated text-primary hover:bg-primary/10"
-                        }`}
-                      >
-                        <Icon name="map-pin" size="sm" />
-                        {isSelected ? copy.selectedLabel : copy.showOnMap}
-                      </button>
+                      {masjid.coordinates && (
+                        <button
+                          type="button"
+                          onClick={() => setSelectedMasjidId(masjid.id)}
+                          className={`inline-flex items-center gap-1.5 rounded-lg px-3 py-2 text-xs font-semibold transition-all duration-200 ${
+                            isSelected
+                              ? "bg-primary text-white"
+                              : "bg-surfaceElevated text-primary hover:bg-primary/10"
+                          }`}
+                        >
+                          <Icon name="map-pin" size="sm" />
+                          {isSelected ? copy.selectedLabel : copy.showOnMap}
+                        </button>
+                      )}
                       <a
                         href={getGoogleMapsDirectionsUrl(masjid)}
                         target="_blank"

@@ -148,7 +148,9 @@ export interface Masjid {
   stateProvince: string;
   country: string;
   postalCode: string;
-  coordinates: {
+  /** Omitted when no street address could be matched; the record then shows
+   *  in the list only. */
+  coordinates?: {
     lat: number;
     lng: number;
   };

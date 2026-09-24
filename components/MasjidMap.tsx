@@ -20,7 +20,27 @@ interface MasjidMapProps {
   onSelectMasjid: (id: string) => void;
 }
 
-const TORONTO_CENTER: [number, number] = [43.6532, -79.3832];
+const CANADA_CENTER: [number, number] = [56.1304, -106.3468];
+const CANADA_ZOOM = 3;
+
+/** True when the record's pin is only a city-centre fallback. */
+export function isApproximate(masjid: Masjid) {
+  return masjid.coordinatesPrecision === "city-centre";
+}
+
+/** Directions go to the street pin when there is one, otherwise to the
+ *  written address, so an approximate pin never sends anyone to the wrong
+ *  street. */
+export function getDirectionsDestination(masjid: Masjid) {
+  if (masjid.coordinates && !isApproximate(masjid)) {
+    return `${masjid.coordinates.lat},${masjid.coordinates.lng}`;
+  }
+  return encodeURIComponent(
+    [masjid.name, masjid.address, masjid.city, masjid.stateProvince]
+      .filter(Boolean)
+      .join(", "),
+  );
+}
 
 function escapeHtml(value: string) {
   return value
@@ -32,7 +52,7 @@ function escapeHtml(value: string) {
 }
 
 function getGoogleMapsDirectionsUrl(masjid: Masjid) {
-  return `https://www.google.com/maps/dir/?api=1&destination=${masjid.coordinates.lat},${masjid.coordinates.lng}`;
+  return `https://www.google.com/maps/dir/?api=1&destination=${getDirectionsDestination(masjid)}`;
 }
 
 export function MasjidMap({
@@ -65,8 +85,8 @@ export function MasjidMap({
       }
 
       const map = L.map(containerRef.current, {
-        center: TORONTO_CENTER,
-        zoom: 10,
+        center: CANADA_CENTER,
+        zoom: CANADA_ZOOM,
         scrollWheelZoom: false,
         zoomControl: true,
       });
@@ -119,24 +139,45 @@ export function MasjidMap({
       layer.clearLayers();
 
       for (const masjid of masjids) {
+        if (!masjid.coordinates) {
+          continue;
+        }
         const isSelected = masjid.id === selectedMasjidId;
+        const approximate = isApproximate(masjid);
+        /* Approximate (city-centre) records get a small dashed circle so they
+           never read as a street-level pin. */
         const marker = L.circleMarker(
           [masjid.coordinates.lat, masjid.coordinates.lng],
-          {
-            radius: isSelected ? 10 : 7,
-            weight: isSelected ? 3 : 2,
-            color: isSelected ? "#3D6649" : "#4A7C59",
-            fillColor: isSelected ? "#4A7C59" : "#FFFFFF",
-            fillOpacity: 1,
-          },
+          approximate
+            ? {
+                radius: isSelected ? 7 : 4,
+                weight: 2,
+                color: "#4A7C59",
+                fillColor: isSelected ? "#4A7C59" : "#E8F0EA",
+                fillOpacity: 0.9,
+                dashArray: "2 3",
+              }
+            : {
+                radius: isSelected ? 10 : 7,
+                weight: isSelected ? 3 : 2,
+                color: isSelected ? "#3D6649" : "#4A7C59",
+                fillColor: isSelected ? "#4A7C59" : "#FFFFFF",
+                fillOpacity: 1,
+              },
         );
 
         marker.bindPopup(
           `<div class="masjid-map-popup">
             <p class="masjid-map-popup__title">${escapeHtml(masjid.name)}</p>
             <p class="masjid-map-popup__body">${escapeHtml(
-              `${masjid.address}, ${masjid.city}`,
-            )}</p>
+              [masjid.address, masjid.city].filter(Boolean).join(", "),
+            )}</p>${
+              approximate
+                ? `<p class="masjid-map-popup__body">${escapeHtml(
+                    copy.approximateLocation,
+                  )}</p>`
+                : ""
+            }
             <a class="masjid-map-popup__link" href="${getGoogleMapsDirectionsUrl(
               masjid,
             )}" target="_blank" rel="noopener noreferrer">${escapeHtml(
@@ -181,10 +222,16 @@ export function MasjidMap({
 
       if (selectedMasjidId) {
         const selectedMarker = markersById.get(selectedMasjidId);
+        const selected = masjids.find((item) => item.id === selectedMasjidId);
         if (selectedMarker) {
-          map.setView(selectedMarker.getLatLng(), Math.max(map.getZoom(), 13), {
-            animate: true,
-          });
+          const zoom = selected && isApproximate(selected) ? 11 : 13;
+          map.setView(
+            selectedMarker.getLatLng(),
+            Math.max(map.getZoom(), zoom),
+            {
+              animate: true,
+            },
+          );
           selectedMarker.openPopup();
           return;
         }
@@ -198,7 +245,7 @@ export function MasjidMap({
         return;
       }
 
-      map.setView(TORONTO_CENTER, 10);
+      map.setView(CANADA_CENTER, CANADA_ZOOM);
     }
 
     renderMarkers();
@@ -207,6 +254,7 @@ export function MasjidMap({
       ignore = true;
     };
   }, [
+    copy.approximateLocation,
     copy.googleMaps,
     copy.mapLegendSearch,
     isOffline,
