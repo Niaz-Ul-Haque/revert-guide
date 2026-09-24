@@ -3,15 +3,12 @@
 import Image from "next/image";
 import { Button } from "@/components/Button";
 import { Icon } from "@/components/Icon";
-import { localizeHref, type Locale, type Messages } from "@/lib/i18n";
-import { getTranslator } from "@/lib/messages";
+import { useLocale, useTranslations } from "@/components/LocaleProvider";
+import { localizeHref, type Messages } from "@/lib/i18n";
 
-export default function OfflinePage({
-  params,
-}: {
-  params: { locale: Locale };
-}) {
-  const t = getTranslator(params.locale);
+export default function OfflinePage() {
+  const locale = useLocale();
+  const t = useTranslations();
   const copy = t<Messages["pages"]["offline"]>("pages.offline");
 
   function handleRetry() {
@@ -39,7 +36,7 @@ export default function OfflinePage({
       <p className="mb-8 text-sm text-textMuted">{copy.note}</p>
 
       <div className="flex flex-col gap-3 sm:flex-row">
-        <Button href={localizeHref(params.locale, "/")} variant="primary">
+        <Button href={localizeHref(locale, "/")} variant="primary">
           <Icon name="home" size="sm" />
           {copy.goHome}
         </Button>

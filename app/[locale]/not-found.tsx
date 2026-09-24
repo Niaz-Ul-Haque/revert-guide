@@ -1,16 +1,14 @@
 "use client";
 
 import Image from "next/image";
-import { usePathname } from "next/navigation";
 import { Button } from "@/components/Button";
 import { Icon } from "@/components/Icon";
-import { localizeHref, resolveLocale, type Messages } from "@/lib/i18n";
-import { getTranslator } from "@/lib/messages";
+import { useLocale, useTranslations } from "@/components/LocaleProvider";
+import { localizeHref, type Messages } from "@/lib/i18n";
 
 export default function NotFound() {
-  const pathname = usePathname();
-  const locale = resolveLocale(pathname.split("/")[1]);
-  const t = getTranslator(locale);
+  const locale = useLocale();
+  const t = useTranslations();
   const copy = t<Messages["pages"]["notFound"]>("pages.notFound");
 
   return (
