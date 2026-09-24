@@ -8,8 +8,10 @@ import {
   type Messages,
 } from "@/lib/i18n";
 import { getPageMetadata } from "@/lib/metadata";
+import { Button } from "@/components/Button";
 import { Callout } from "@/components/Callout";
 import {
+  CONTACT_EMAIL,
   ORGANISATION_LOCATION,
   ORGANISATION_NAME,
   hasPlaceholderConfig,
@@ -199,9 +201,25 @@ export default function AboutPage({ params }: { params: { locale: Locale } }) {
           >
             {copy.contactTitle}
           </h2>
-          <p className="text-base leading-relaxed text-textSecondary">
+          <p className="mb-4 text-base leading-relaxed text-textSecondary">
             {copy.contact}
           </p>
+          <div className="flex flex-col gap-3 sm:flex-row sm:items-center sm:gap-6">
+            <Button href={localizeHref(locale, "/get-help")} variant="outline">
+              {copy.contactLinkLabel}
+            </Button>
+            <p className="mb-0 text-base">
+              <span className="font-medium text-textPrimary">
+                {copy.contactEmailLabel}:
+              </span>{" "}
+              <a
+                href={`mailto:${CONTACT_EMAIL}`}
+                className="font-semibold text-primary underline-offset-2 hover:text-primaryHover hover:underline"
+              >
+                {CONTACT_EMAIL}
+              </a>
+            </p>
+          </div>
         </section>
       </AnimateIn>
 
