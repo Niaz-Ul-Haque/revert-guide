@@ -1085,14 +1085,134 @@
     "id": "how-mentoring-works",
     "slug": "how-mentoring-works",
     "title": "How mentoring works and our conduct standards",
-    "description": "How mentors are vetted and trained, what they agree to, and how to report a concern.",
-    "intro": "This page is being written.",
-    "summary": ["This guide is on its way."],
-    "sourceIds": [],
-    "sections": [],
-    "scripts": [],
-    "scenarios": [],
-    "relatedLinks": [],
+    "description": "How mentors are vetted and trained, what they promise, how matching and check-ins work, and how to report a concern.",
+    "intro": "A mentor is a volunteer who helps you with the basics and keeps you company through the first months. This page sets out how we choose mentors, what they promise, and what to do if something goes wrong. It does not name anyone. The standards follow published benchmarks from MENTOR and Volunteer Canada, adapted for adult volunteers.",
+    "summary": [
+      "Every mentor applies in writing, gives two references, has an interview, and is checked with the masjid they belong to.",
+      "Mentors sign a code of conduct: no marriage proposals, no money, no recruiting, and your story stays private.",
+      "You are matched with a mentor of the same gender by default, and you can say no to any match.",
+      "If a mentor breaks the rules, you report it to the coordinators, never to the mentor."
+    ],
+    "sourceIds": [
+      "mentor-eepm-screening",
+      "volunteer-canada-screening",
+      "volunteer-canada-screening-handbook",
+      "mentor-eepm-training",
+      "islamwise-mentor-training",
+      "mentor-eepm-relationships",
+      "mentor-eepm-supporting",
+      "whyislam-mentor",
+      "rcmp-vulnerable-sector-checks",
+      "ontario-police-record-checks",
+      "cafc-report-fraud"
+    ],
+    "sections": [
+      {
+        "heading": "How mentors are vetted",
+        "body": "Nobody is matched with a new Muslim until they have finished every one of these steps.",
+        "items": [
+          "A written application.",
+          "Two references, and we contact both of them.",
+          "An interview with a coordinator, in person or by video.",
+          "A check with the masjid or Islamic organisation the applicant belongs to."
+        ]
+      },
+      {
+        "heading": "The code of conduct mentors sign",
+        "body": "Every mentor signs this before a match. If a mentor breaks it, the coordinators end the match.",
+        "items": [
+          "No marriage proposals, no matchmaking and no romantic contact.",
+          "No asking for money, lending money, selling anything or asking you to donate.",
+          "No recruiting you into any group, movement, business or paid course.",
+          "Your conversion, name, photo and story stay private unless you clearly say otherwise. Mentors do not add you to groups without asking.",
+          "Contact stays in the channels and at the times you both agreed. A mentor does not demand constant updates or keep tabs on your private life.",
+          "Personal religious rulings go to a qualified imam. Mentors help with the basics and refer the rest.",
+          "Men mentor men and women mentor women by default."
+        ]
+      },
+      {
+        "heading": "Training before the first match",
+        "body": "Every mentor completes at least two hours of training before they are matched. It covers the code of conduct, boundaries, privacy, when to refer someone to an imam or a professional, and how to report a concern.",
+        "items": [
+          "A Guide to New Muslim Mentoring, a recorded course published by Islamwise on YouTube. The playlist is linked in the sources below.",
+          "Our own Guide for mentors of new Muslims, which covers the first meeting, what to leave out, boundaries and where to refer."
+        ]
+      },
+      {
+        "heading": "How matching works",
+        "body": "A coordinator reads your request and looks for a mentor who shares your gender, speaks your language, is in your time zone, and ideally lives near you. Before anyone's contact details are shared, the coordinator tells you about the proposed mentor, and you can say no.\n\nYou and your mentor then agree in writing how often you will talk, which channel you will use, what the mentoring covers, and who to contact with a concern."
+      },
+      {
+        "heading": "Check-ins",
+        "body": "A coordinator checks in with you, not only with your mentor. The first check-in comes after your first conversation, then at least once a month for the first months. That is a good moment to mention anything that is bothering you, however small."
+      },
+      {
+        "heading": "Meeting in person",
+        "items": [
+          "Meet in a public place. A masjid during open hours is best.",
+          "Another adult is present as well as your mentor.",
+          "No home visits, and no meetings in cars."
+        ]
+      },
+      {
+        "heading": "Reporting a concern",
+        "body": "If your mentor asks for money, proposes marriage, pushes you towards a group, shares your story, or makes you uncomfortable in any way, tell the coordinators. The report address is on the Get help page. Your report goes to the coordinators, not to your mentor. If you are in danger, call 911."
+      },
+      {
+        "heading": "What the team is still deciding",
+        "body": "Two points are not settled yet. Until they are, every standard above still applies in full.",
+        "items": [
+          "Police checks. A police service has to advise whether mentoring adult converts qualifies for a Vulnerable Sector Check. The team will ask and publish the answer. Whatever it is, the application, references, interview and masjid check still apply.",
+          "Who approves mentors. The team has not yet named the role that gives final approval. Until it does, nobody is matched without every vetting step completed."
+        ]
+      }
+    ],
+    "scripts": [
+      {
+        "title": "Asking for a mentor",
+        "body": "I became Muslim recently and I would like a mentor. I would prefer someone who is a [man or woman], speaks [language], and lives near [city]."
+      },
+      {
+        "title": "Saying no to a match",
+        "body": "Thank you for finding someone. I don't think this match is right for me. Could you look for someone else?"
+      },
+      {
+        "title": "Reporting a concern",
+        "body": "I want to report something about my mentor. It happened on [date]. This is what they said or did: [short description]."
+      }
+    ],
+    "scenarios": [
+      {
+        "title": "Your mentor mentions someone they would like you to marry.",
+        "response": "That breaks the code of conduct. You do not have to answer. Tell the coordinators and they will step in."
+      },
+      {
+        "title": "Your mentor asks to borrow money or asks you to donate.",
+        "response": "Say no, and report it. A mentor never asks for money. If you already sent money, you can also report it to the Canadian Anti-Fraud Centre."
+      },
+      {
+        "title": "Your mentor suggests meeting at their home.",
+        "response": "Suggest the masjid instead. Home visits are not allowed, and you can tell the coordinators it came up."
+      }
+    ],
+    "relatedLinks": [
+      {
+        "label": "Get help and report a concern",
+        "href": "/get-help"
+      },
+      {
+        "label": "Guide for mentors",
+        "href": "/guides/guide-for-mentors"
+      },
+      {
+        "label": "Red flags and staying safe",
+        "href": "/guides/red-flags-and-staying-safe"
+      },
+      {
+        "label": "How to ask for help",
+        "href": "/guides/how-to-ask-for-help"
+      }
+    ],
     "reviewStatus": "review-needed"
   }
 ]
