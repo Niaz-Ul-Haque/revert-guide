@@ -8,8 +8,9 @@
     {
       "text": "Find a masjid near you",
       "subSteps": [
-        "Use the Masjid Finder in this app to locate mosques in the Toronto area.",
+        "Use the Masjid Finder in this app to find mosques near you in Canada.",
         "Look for masjids that run programs for new Muslims or converts.",
+        "Some Canadian masjids run named programmes for converts, such as Convert Care at Islam Care Centre in Ottawa or Convert Connect at MAC Masjid Toronto, which can arrange a guide for your first visit. The community topic lists more across Canada. Confirm times with the masjid before you go.",
         "Some have a convert support group or a weekly class just for beginners.",
         "If there are a few nearby, visit more than one and see where you feel most welcome."
       ]
@@ -61,7 +62,7 @@
     },
     {
       "problem": "I feel like I don't fit in",
-      "solution": "Islam spans more cultures than almost any other religion. The Toronto Muslim community alone comes from dozens of countries. You belong here as much as the person standing next to you. It can take a few visits before it feels ordinary. Give yourself room and keep turning up, because that is how connection actually builds."
+      "solution": "Islam spans more cultures than almost any other religion. Muslims in Canada come from dozens of countries. You belong here as much as the person standing next to you. It can take a few visits before it feels ordinary. Give yourself room and keep turning up, because that is how connection actually builds."
     },
     {
       "problem": "I don't know what to wear",
@@ -97,6 +98,12 @@
     "masjid-and-community",
     "family-and-identity"
   ],
-  "sourceIds": ["whyislam", "icna", "yaqeen-mental-health"],
+  "sourceIds": [
+    "whyislam",
+    "icna",
+    "yaqeen-becoming-muslim",
+    "islam-care-centre-convert-care",
+    "masjid-toronto-programs"
+  ],
   "reviewStatus": "source-checked"
 }
