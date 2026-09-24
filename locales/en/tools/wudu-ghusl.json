@@ -69,14 +69,15 @@
     }
   ],
   "wuduBreaks": [
-    "Using the restroom or passing wind.",
-    "Deep sleep or loss of consciousness.",
-    "Some details, like bleeding or touching private areas, differ between schools of law. If it comes up for you often, ask a qualified local teacher."
+    "Using the toilet: passing urine or stool, and passing wind. A hadith says prayer is not accepted from someone whose wudu has broken until they make wudu again.",
+    "Deep sleep. The schools differ on details, such as sleeping while sitting firmly.",
+    "Losing consciousness. Scholars treat this like sleep.",
+    "If you only think you passed wind, your wudu stands until you are sure, for example when you hear a sound or notice a smell."
   ],
   "ghuslNeeded": [
-    "After marital intimacy or sexual discharge.",
-    "After menstruation or postpartum bleeding ends.",
-    "On entering Islam. Scholars differ on whether it is required or recommended. If you have already said the Shahada and not done it yet, do it when you get the chance."
+    "After sexual intimacy or a sexual discharge, including a wet dream.",
+    "After menstruation or bleeding after childbirth ends.",
+    "On becoming Muslim. The schools differ on whether this is required or recommended. See the note below."
   ],
   "commonCorrections": [
     {
@@ -111,5 +112,95 @@
     "duration": "3:17",
     "note": "Shows a simple way and the fuller Sunnah way. Schools differ on whether rinsing the mouth and nose is required in ghusl.",
     "sourceIds": ["video-greenlane-ghusl"]
+  },
+  "wuduBreaksDiffer": [
+    "Bleeding and vomiting. In the Hanafi school, a mouthful of vomit breaks wudu, and so does blood from the mouth that equals or outweighs the saliva. Other teaching, such as the Islamic Foundation of Ireland booklet, says bleeding and vomiting do not break it.",
+    "Touching your private parts directly. Some teaching lists it as breaking wudu (the Ireland booklet does). It is not on the Hanafi list.",
+    "Laughing out loud in prayer. The Hanafi list includes an adult laughing out loud during a prayer with bowing and prostration. The Ireland booklet lists laughing in prayer as not breaking wudu."
+  ],
+  "wuduBreaksNote": "No single source we checked compares all four schools side by side. If one of these comes up often for you, ask a local teacher which view you follow.",
+  "wuduBreaksSourceIds": [
+    "sunnah-bukhari-wudu-after-hadath",
+    "sunnah-abudawud-sleep-wudu",
+    "sunnah-bukhari-doubt-wind",
+    "seekersguidance-what-breaks-wudu",
+    "islamic-foundation-ireland-prayer-booklet"
+  ],
+  "wuduBreaksImage": {
+    "src": "/graphics/what-breaks-wudu.svg",
+    "alt": "Two boxes. The first, what breaks wudu for everyone: using the toilet, passing wind, deep sleep and losing consciousness. The second, points where the schools differ: bleeding, vomiting and touching the private parts. A note says a doubt alone does not break wudu.",
+    "caption": "What breaks wudu, and where the schools differ.",
+    "credit": "Illustration: Revert Guide."
+  },
+  "convertGhusl": {
+    "points": [
+      "Your Shahada is valid without it. The bath is not a condition of becoming Muslim.",
+      "A hadith reports the Prophet telling a man who had just become Muslim to bathe (Sunan Abi Dawud 355, graded Sahih by al-Albani).",
+      "In the relied-upon Hanafi and Shafi'i view, the bath is recommended, and it is required if you were already in a state that needs ghusl, such as after sexual intimacy.",
+      "The Maliki and Hanbali schools are reported to treat it as required in all cases, though the sources we checked disagree on the Hanbali position.",
+      "If you have not done it yet, do it when you can, and before you pray if you were in a state that needs ghusl. A local imam can help you with your own situation."
+    ],
+    "sourceIds": [
+      "sunnah-abudawud-convert-bath",
+      "muslimmatters-convert-ghusl",
+      "islamweb-convert-ghusl"
+    ]
+  },
+  "wuduImage": {
+    "src": "/graphics/wudu-steps.svg",
+    "alt": "Eight faceless panels showing wudu in order: intention, hands, mouth and nose, face, arms to the elbows, wiping the head, ears, and feet to the ankles.",
+    "caption": "Wudu in order. Washing each part once is the minimum, and three times is the Sunnah.",
+    "credit": "Illustration: Revert Guide."
+  },
+  "ghuslImage": {
+    "src": "/graphics/ghusl-steps.svg",
+    "alt": "Five simple panels showing ghusl: intention, washing the hands and private parts, wudu, water over the head to the hair roots, then the whole body.",
+    "caption": "Ghusl, the full-body wash, in five steps.",
+    "credit": "Illustration: Revert Guide."
+  },
+  "tayammum": {
+    "summary": "When you cannot use water, because there is none, or because you are ill or injured and water would harm you, there is a dry alternative called tayammum. The Quran allows it for people who are ill, travelling or cannot find water.",
+    "steps": [
+      "Make the intention in your heart and say Bismillah.",
+      "Lightly strike clean earth, or a natural surface with dust on it, with both palms.",
+      "Blow or shake off the excess, then wipe your face.",
+      "Wipe your hands."
+    ],
+    "schoolNote": "One method uses a single strike and wipes the hands to the wrists, as in Sahih al-Bukhari 338. The Hanafi method uses two strikes: one for the face, and a second to wipe both arms including the elbows.",
+    "ends": "Tayammum ends when you find water you can use, and with anything that breaks wudu or calls for ghusl.",
+    "referral": "If an illness or injury keeps you away from water for a while, ask a local teacher how to manage it day to day.",
+    "sourceIds": [
+      "quran-4-43-tayammum",
+      "quran-5-6-wudu-tayammum",
+      "sunnah-bukhari-tayammum-one-strike",
+      "newmuslims-tayammum",
+      "seekersguidance-tayammum"
+    ],
+    "video": {
+      "videoId": "8frJLplYkc4",
+      "title": "How to make tayammum",
+      "channel": "Green Lane Masjid",
+      "duration": "3:57",
+      "note": "Chapter labels come from YouTube and may not show for everyone, but the jump links still work.",
+      "sourceIds": ["video-greenlane-tayammum"],
+      "chapters": [
+        {
+          "label": "The steps",
+          "start": 57
+        },
+        {
+          "label": "When it is allowed",
+          "start": 98
+        },
+        {
+          "label": "What ends it",
+          "start": 170
+        },
+        {
+          "label": "What you can use",
+          "start": 188
+        }
+      ]
+    }
   }
 }

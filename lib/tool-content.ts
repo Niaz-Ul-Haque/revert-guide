@@ -226,6 +226,22 @@ export interface WuduGhuslContent {
   commonCorrections: CorrectionNote[];
   wuduVideo: VideoRef;
   ghuslVideo: VideoRef;
+  wuduBreaksDiffer: string[];
+  wuduBreaksNote: string;
+  wuduBreaksSourceIds: string[];
+  wuduBreaksImage: TopicImage;
+  convertGhusl: { points: string[]; sourceIds: string[] };
+  wuduImage: TopicImage;
+  ghuslImage: TopicImage;
+  tayammum: {
+    summary: string;
+    steps: string[];
+    schoolNote: string;
+    ends: string;
+    referral: string;
+    sourceIds: string[];
+    video: VideoWithChapters;
+  };
 }
 
 export function getWuduGhuslContent(
