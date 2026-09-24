@@ -268,7 +268,7 @@ export default function StepPage({
               id="common-questions-heading"
               className="mb-5 font-display text-2xl font-semibold tracking-tight text-textPrimary"
             >
-              Common Questions
+              {copy.commonQuestions}
             </h2>
           </AnimateIn>
           <div className="flex flex-col gap-3">
@@ -295,7 +295,7 @@ export default function StepPage({
               id="context-notes-heading"
               className="mb-5 font-display text-2xl font-semibold tracking-tight text-textPrimary"
             >
-              For Work, School, or Family
+              {copy.workSchoolFamily}
             </h2>
             <div className="grid gap-4 sm:grid-cols-2">
               {step.contextNotes.map((note) => (
@@ -323,7 +323,7 @@ export default function StepPage({
               id="scripts-heading"
               className="mb-5 font-display text-2xl font-semibold tracking-tight text-textPrimary"
             >
-              Gentle Scripts
+              {copy.gentleScripts}
             </h2>
             <div className="flex flex-col gap-3">
               {step.gentleScripts.map((script) => (

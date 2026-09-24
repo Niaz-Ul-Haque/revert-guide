@@ -1,4 +1,7 @@
+"use client";
+
 import { Icon } from "@/components/Icon";
+import { useTranslations } from "@/components/LocaleProvider";
 import type { SourceEntry } from "@/lib/types";
 
 type SourceReference = Pick<
@@ -49,10 +52,11 @@ export function SourceTags({
 
 export function SourcesPanel({
   sources,
-  title = "Sources used",
+  title,
   note,
   className = "",
 }: SourcesPanelProps) {
+  const t = useTranslations();
   if (sources.length === 0) return null;
 
   return (
@@ -68,7 +72,7 @@ export function SourcesPanel({
           id="sources-used-heading"
           className="mb-0 mt-0 font-display text-lg font-semibold text-textPrimary"
         >
-          {title}
+          {title ?? t("common.sourcesUsed")}
         </h2>
       </div>
       {note ? (

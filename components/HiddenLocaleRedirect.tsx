@@ -7,13 +7,18 @@ import { LOCALE_STORAGE_KEY, resolveLocale } from "@/lib/i18n";
 interface HiddenLocaleRedirectProps {
   // Path (without locale prefix) to redirect to, e.g. "/dawah-guide-personal".
   path: string;
+  // Visible text while the redirect runs, read from ui.json by the server page.
+  loadingLabel: string;
 }
 
 // Thin client redirect that mirrors app/page.tsx: read the saved locale,
 // fall back to the default, and send the user to the localized route. Used
 // for hidden direct-link aliases so the project can stay statically exported
 // without middleware or server redirects.
-export function HiddenLocaleRedirect({ path }: HiddenLocaleRedirectProps) {
+export function HiddenLocaleRedirect({
+  path,
+  loadingLabel,
+}: HiddenLocaleRedirectProps) {
   const router = useRouter();
 
   useEffect(() => {
@@ -25,7 +30,7 @@ export function HiddenLocaleRedirect({ path }: HiddenLocaleRedirectProps) {
 
   return (
     <div className="flex min-h-screen items-center justify-center">
-      <p className="text-textSecondary">Loading…</p>
+      <p className="text-textSecondary">{loadingLabel}</p>
     </div>
   );
 }

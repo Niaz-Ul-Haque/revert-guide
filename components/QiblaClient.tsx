@@ -282,7 +282,7 @@ export function QiblaClient() {
               onChange={(e) => setManualLat(e.target.value)}
               placeholder={copy.latitudePlaceholder as string}
               className="w-40 rounded-xl border border-border/60 bg-white px-4 py-2.5 text-sm text-textPrimary shadow-inner-glow placeholder:text-textMuted/60 focus:border-primaryGreen focus:outline-2 focus:outline-offset-0 focus:outline-borderStrong"
-              aria-label="Latitude"
+              aria-label={copy.latitudeLabel as string}
             />
             <input
               type="text"
@@ -291,7 +291,7 @@ export function QiblaClient() {
               onChange={(e) => setManualLng(e.target.value)}
               placeholder={copy.longitudePlaceholder as string}
               className="w-40 rounded-xl border border-border/60 bg-white px-4 py-2.5 text-sm text-textPrimary shadow-inner-glow placeholder:text-textMuted/60 focus:border-primaryGreen focus:outline-2 focus:outline-offset-0 focus:outline-borderStrong"
-              aria-label="Longitude"
+              aria-label={copy.longitudeLabel as string}
             />
             <button
               type="submit"
@@ -326,7 +326,7 @@ export function QiblaClient() {
 
       {/* Error */}
       {error && !loading && (
-        <Callout variant="warning" title="Error">
+        <Callout variant="warning" title={copy.errorTitle as string}>
           <p>{error}</p>
         </Callout>
       )}

@@ -907,11 +907,11 @@ export function GlobalSearch() {
               <kbd className="rounded border border-border/60 bg-surface px-1.5 py-0.5 font-sans">
                 ↑↓
               </kbd>
-              <span>navigate</span>
+              <span>{t("search.keyboardNavigate")}</span>
               <kbd className="ml-1 rounded border border-border/60 bg-surface px-1.5 py-0.5 font-sans">
                 ↵
               </kbd>
-              <span>open</span>
+              <span>{t("search.keyboardOpen")}</span>
             </div>
           </div>
         )}

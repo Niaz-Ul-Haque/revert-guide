@@ -7,7 +7,7 @@ import { Callout } from "./Callout";
 import { Accordion } from "./Accordion";
 import { Icon, type IconName } from "./Icon";
 import { Button } from "./Button";
-import { useLocale } from "./LocaleProvider";
+import { useLocale, useTranslations } from "./LocaleProvider";
 import { localizeHref } from "@/lib/i18n";
 import type {
   CommonQuestion,
@@ -37,8 +37,10 @@ interface DawahGuideUiLabels {
   guidedFlow: string;
   quickReference: string;
   printSavePdf: string;
-  stepStatus: (step: number, total: number, title: string) => string;
-  stepOf: (step: number, total: number) => string;
+  /** Placeholders: {step}, {total}, {title}. */
+  stepStatus: string;
+  /** Placeholders: {step}, {total}. */
+  stepOf: string;
   conversationPathAriaLabel: string;
   conversationTips: string;
   gentlyAvoid: string;
@@ -88,145 +90,6 @@ interface DawahGuideUiLabels {
   kind: Record<DawahNodeKind, string>;
 }
 
-const dawahGuideUiLabels: Record<"en" | "bn", DawahGuideUiLabels> = {
-  en: {
-    breadcrumbHome: "Home",
-    viewModeAriaLabel: "View mode",
-    guidedFlow: "Guided flow",
-    quickReference: "Quick reference",
-    printSavePdf: "Print or save as PDF",
-    stepStatus: (step, total, title) => `Step ${step} of ${total}: ${title}`,
-    stepOf: (step, total) => `Step ${step} of ${total}`,
-    conversationPathAriaLabel: "Conversation path so far",
-    conversationTips: "Conversation tips",
-    gentlyAvoid: "Gently avoid",
-    continue: "Continue",
-    back: "Back",
-    restartGuide: "Restart guide",
-    pauseGentleExit: "Pause, gentle exit",
-    draftPendingReview: "Draft, pending review",
-    sourceChecked: "Source checked",
-    verified: "Verified",
-    guideSourceChecked: "Source checked, qualified review pending",
-    translation: "Translation",
-    sourcePrefix: "Source:",
-    viewSource: "View source",
-    gorapHeading: "GORAP, a logical progression",
-    gorapSubheading: "The path of truth and guidance.",
-    suggestionsHeading: "General suggestions",
-    outsideTheField: "Outside the field",
-    onTheField: "On the field",
-    toneHeading: "Be patient, be sincere",
-    toneSubheading: "Leave the result to Allah.",
-    quickReferenceHeading: "Quick reference",
-    gorapAtGlance: "GORAP at a glance",
-    conversationFlow: "The conversation flow",
-    keepInMind: "Keep in mind",
-    approach: "Approach",
-    watchFor: "Watch for",
-    sourcePendingReview: "Source pending review",
-    moreForDaees: "More for da'ees",
-    moreForDaeesIntro:
-      "Optional material for real conversations. Open whichever part you need.",
-    commonQuestionsTitle: "Common questions and gentle answers",
-    misconceptionsTitle: "Responding to misconceptions",
-    scenariosTitle: "Scenario-based guidance",
-    trainingCardsTitle: "Da'ee training cards",
-    postShahadaHandoffTitle: "Post-Shahada handoff",
-    referralBoundariesTitle: "Questions not to answer alone",
-    practice: "Practice",
-    handoffActions: "Actions",
-    referTo: "Refer to",
-    duaRemindersTitle: "Dua reminders",
-    printFieldSuggestions: "Field suggestions",
-    printPostShahadaHandoff: "Post-Shahada handoff",
-    printReferralBoundaries: "Questions not to answer alone",
-    printScenarioReminders: "Scenario reminders",
-    printReferences: "References (verify before sharing)",
-    duaGroups: {
-      before: "Before the conversation",
-      after: "During and after",
-      general: "General",
-    },
-    kind: {
-      intro: "Start",
-      teaching: "Teaching",
-      decision: "Decision",
-      encouragement: "Encourage",
-      exit: "Gentle exit",
-      completion: "Community",
-    },
-  },
-  bn: {
-    breadcrumbHome: "হোম",
-    viewModeAriaLabel: "ভিউ মোড",
-    guidedFlow: "নির্দেশিত ধারা",
-    quickReference: "দ্রুত রেফারেন্স",
-    printSavePdf: "প্রিন্ট / PDF হিসেবে সংরক্ষণ",
-    stepStatus: (step, total, title) => `ধাপ ${step} / ${total}: ${title}`,
-    stepOf: (step, total) => `ধাপ ${step} / ${total}`,
-    conversationPathAriaLabel: "এ পর্যন্ত কথোপকথনের পথ",
-    conversationTips: "কথোপকথনের পরামর্শ",
-    gentlyAvoid: "কোমলভাবে এড়িয়ে চলুন",
-    continue: "চালিয়ে যান",
-    back: "পেছনে",
-    restartGuide: "গাইড আবার শুরু করুন",
-    pauseGentleExit: "বিরতি — কোমলভাবে শেষ",
-    draftPendingReview: "খসড়া — পর্যালোচনা বাকি",
-    sourceChecked: "Source checked",
-    verified: "Verified",
-    guideSourceChecked: "Source checked, qualified review pending",
-    translation: "অর্থ",
-    sourcePrefix: "উৎস:",
-    viewSource: "উৎস দেখুন",
-    gorapHeading: "GORAP — যৌক্তিক অগ্রগতি",
-    gorapSubheading: "সত্য ও হিদায়াতের পথ।",
-    suggestionsHeading: "সাধারণ পরামর্শ",
-    outsideTheField: "মাঠের বাইরে",
-    onTheField: "মাঠে",
-    toneHeading: "ধৈর্য ধরুন · আন্তরিক থাকুন",
-    toneSubheading: "ফলাফল আল্লাহর ওপর ছেড়ে দিন।",
-    quickReferenceHeading: "দ্রুত রেফারেন্স",
-    gorapAtGlance: "এক নজরে GORAP",
-    conversationFlow: "কথোপকথনের ধারা",
-    keepInMind: "মনে রাখুন",
-    approach: "পদ্ধতি",
-    watchFor: "সতর্ক থাকুন",
-    sourcePendingReview: "উৎস পর্যালোচনার অপেক্ষায়",
-    moreForDaees: "দাঈদের জন্য আরও",
-    moreForDaeesIntro:
-      "বাস্তব কথোপকথনের জন্য ঐচ্ছিক সহায়ক উপাদান — যা দরকার খুলুন।",
-    commonQuestionsTitle: "সাধারণ প্রশ্ন ও কোমল উত্তর",
-    misconceptionsTitle: "ভুল ধারণার জবাব",
-    scenariosTitle: "পরিস্থিতিভিত্তিক দিকনির্দেশনা",
-    trainingCardsTitle: "Da'ee training cards",
-    postShahadaHandoffTitle: "Post-Shahada handoff",
-    referralBoundariesTitle: "Questions not to answer alone",
-    practice: "Practice",
-    handoffActions: "Actions",
-    referTo: "Refer to",
-    duaRemindersTitle: "দোয়ার স্মরণিকা",
-    printFieldSuggestions: "মাঠপর্যায়ের পরামর্শ",
-    printPostShahadaHandoff: "Post-Shahada handoff",
-    printReferralBoundaries: "Questions not to answer alone",
-    printScenarioReminders: "Scenario reminders",
-    printReferences: "রেফারেন্স (শেয়ারের আগে যাচাই করুন)",
-    duaGroups: {
-      before: "কথোপকথনের আগে",
-      after: "চলাকালীন ও পরে",
-      general: "সাধারণ",
-    },
-    kind: {
-      intro: "শুরু",
-      teaching: "শিক্ষা",
-      decision: "সিদ্ধান্ত",
-      encouragement: "উৎসাহ",
-      exit: "কোমল প্রস্থান",
-      completion: "কমিউনিটি",
-    },
-  },
-};
-
 const kindConfig: Record<
   DawahNodeKind,
   { icon: IconName; badgeClass: string }
@@ -259,8 +122,8 @@ const kindConfig: Record<
 
 export function DawahGuideClient({ guide }: DawahGuideClientProps) {
   const locale = useLocale();
-  const labels =
-    locale === "bn" ? dawahGuideUiLabels.bn : dawahGuideUiLabels.en;
+  const t = useTranslations();
+  const labels = t<DawahGuideUiLabels>("pages.dawahGuide");
   const [history, setHistory] = useState<string[]>([guide.startNodeId]);
   const [mode, setMode] = useState<ViewMode>("flow");
   const headingRef = useRef<HTMLHeadingElement>(null);
@@ -386,7 +249,10 @@ export function DawahGuideClient({ guide }: DawahGuideClientProps) {
 
       {/* Polite live region announcing step changes to screen readers. */}
       <div className="sr-only" role="status" aria-live="polite">
-        {labels.stepStatus(stepNumber, totalSteps, currentNode.title)}
+        {labels.stepStatus
+          .replace("{step}", String(stepNumber))
+          .replace("{total}", String(totalSteps))
+          .replace("{title}", currentNode.title)}
       </div>
 
       {mode === "flow" ? (
@@ -628,7 +494,9 @@ function DawahProgress({
   return (
     <div>
       <p className="text-sm font-medium text-textSecondary">
-        {labels.stepOf(Math.max(stepNumber, 1), totalSteps)}
+        {labels.stepOf
+          .replace("{step}", String(Math.max(stepNumber, 1)))
+          .replace("{total}", String(totalSteps))}
       </p>
       <ol
         className="mb-0 mt-2 flex list-none flex-wrap gap-1.5 pl-0"

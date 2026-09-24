@@ -91,7 +91,7 @@ export function AsmaAlHusnaClient() {
 
       {/* Error */}
       {error && !loading && (
-        <Callout variant="warning" title="Error">
+        <Callout variant="warning" title={copy.errorTitle as string}>
           <p>{error}</p>
         </Callout>
       )}

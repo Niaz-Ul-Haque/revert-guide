@@ -1,31 +1,41 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
-import { isLocale, type Locale } from "@/lib/i18n";
+import {
+  DEFAULT_LOCALE,
+  SUPPORTED_LOCALES,
+  isLocale,
+  type Locale,
+} from "@/lib/i18n";
+import { getTranslator } from "@/lib/messages";
 import { getDawahGuide } from "@/lib/dawah-content";
 import { DawahGuideClient } from "@/components/DawahGuideClient";
 
-// This hidden route is published for English and Bengali only. Content lives in
-// locale-specific dawah guide JSON files and still falls back to English if a
+// This hidden route is published for every supported locale. Content lives in
+// locale-specific dawah guide JSON files and falls back to English if a
 // localized file is missing.
-const DAWAH_ROUTE_LOCALES = ["en", "bn"] as const;
 
 // Hidden, direct-link page. Intentionally kept out of all navigation, the
 // footer, the homepage, GlobalSearch, and any sitemap. Note: on a static
 // public site "hidden" is not private. Anyone with the URL can reach it.
 
 export function generateStaticParams() {
-  return DAWAH_ROUTE_LOCALES.map((locale) => ({ locale }));
+  return SUPPORTED_LOCALES.map((locale) => ({ locale }));
 }
 
-export const metadata: Metadata = {
-  title: "Dawah guide | Revert Guide",
-  description: "A private, direct-link guide for dawah conversations.",
-  robots: {
-    index: false,
-    follow: false,
-    googleBot: { index: false, follow: false },
-  },
-};
+export function generateMetadata({ params }: PageProps): Metadata {
+  const t = getTranslator(
+    isLocale(params.locale) ? params.locale : DEFAULT_LOCALE,
+  );
+  return {
+    title: t("pages.dawahGuide.metadataTitle"),
+    description: t("pages.dawahGuide.metadataDescription"),
+    robots: {
+      index: false,
+      follow: false,
+      googleBot: { index: false, follow: false },
+    },
+  };
+}
 
 interface PageProps {
   params: { locale: string };

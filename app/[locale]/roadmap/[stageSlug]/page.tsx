@@ -215,13 +215,13 @@ export default function StagePage({
               id="stage-guidance-heading"
               className="mb-5 font-display text-2xl font-semibold tracking-tight text-textPrimary"
             >
-              What to Focus On Now
+              {copy.guidanceTitle}
             </h2>
             <div className="grid gap-4 md:grid-cols-3">
               {stage.focusNow && stage.focusNow.length > 0 ? (
                 <div className="rounded-2xl border border-primaryGreen/30 bg-surfaceElevated/50 p-5">
                   <h3 className="mb-3 mt-0 text-base font-semibold text-textPrimary">
-                    Focus on now
+                    {copy.focusNow}
                   </h3>
                   <ul className="mb-0 flex flex-col gap-2.5 pl-0">
                     {stage.focusNow.map((item) => (
@@ -244,7 +244,7 @@ export default function StagePage({
               {stage.canWait && stage.canWait.length > 0 ? (
                 <div className="rounded-2xl border border-border/60 bg-white p-5">
                   <h3 className="mb-3 mt-0 text-base font-semibold text-textPrimary">
-                    What can wait
+                    {copy.canWait}
                   </h3>
                   <ul className="mb-0 flex flex-col gap-2.5 pl-0">
                     {stage.canWait.map((item) => (
@@ -266,7 +266,7 @@ export default function StagePage({
               {stage.askHelpIf && stage.askHelpIf.length > 0 ? (
                 <div className="rounded-2xl border border-warning/20 bg-accentYellow/20 p-5">
                   <h3 className="mb-3 mt-0 text-base font-semibold text-textPrimary">
-                    Ask someone for help if
+                    {copy.askHelpIf}
                   </h3>
                   <ul className="mb-0 flex flex-col gap-2.5 pl-0">
                     {stage.askHelpIf.map((item) => (
@@ -297,7 +297,7 @@ export default function StagePage({
               id="good-questions-heading"
               className="mb-4 font-display text-2xl font-semibold tracking-tight text-textPrimary"
             >
-              Good Next Questions
+              {copy.goodNextQuestions}
             </h2>
             <div className="flex flex-wrap gap-2">
               {stage.goodNextQuestions.map((question) => (

@@ -42,11 +42,7 @@ export default function FindMasjidPage({
       <FindMasjidPageClient
         locale={params.locale}
         masjids={masjids}
-        sources={
-          params.locale === "en"
-            ? getSourcesByIds(sourceIds, params.locale)
-            : []
-        }
+        sources={getSourcesByIds(sourceIds, params.locale)}
       />
     </>
   );

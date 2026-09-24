@@ -94,7 +94,9 @@
     "clearSearch": "Clear search",
     "print": "Print or save as PDF",
     "sourceLabel": "Source:",
-    "bestForLabel": "Best for:"
+    "bestForLabel": "Best for:",
+    "loadingPage": "Loading…",
+    "sourcesUsed": "Sources used"
   },
   "search": {
     "placeholder": "Search guides, glossary, topics, resources...",
@@ -123,7 +125,9 @@
         "Look up an Arabic term, like \"Shahada\" or \"Wudu\"",
         "Find books, videos, and classes"
       ]
-    }
+    },
+    "keyboardNavigate": "navigate",
+    "keyboardOpen": "open"
   },
   "resources": {
     "types": {
@@ -652,129 +656,17 @@
     },
     "sources": {
       "title": "Sources and citations",
-      "intro": "Every specific claim and quotation in this guide is referenced below. Read the sources yourself where you can, since they say more than a summary ever will.",
-      "sections": [
-        {
-          "id": "quran-refs",
-          "title": "Quranic references",
-          "items": [
-            {
-              "code": "Q1",
-              "text": "Quran 2:185 - \"Ramadan is the month in which the Quran was sent down as a guide to mankind...\" - Referenced in ",
-              "linkLabel": "Ramadan guide"
-            },
-            {
-              "code": "Q2",
-              "text": "Quran 1:1-7 (Surah Al-Fatiha) - The opening chapter of the Quran, recited in every unit of prayer. - Referenced in ",
-              "linkLabel": "Topics: prayer"
-            },
-            {
-              "code": "Q3",
-              "text": "Quran 112:1-4 (Surah Al-Ikhlas) - \"Say, He is Allah, the One...\" - Referenced in ",
-              "linkLabel": "Topics: core beliefs"
-            },
-            {
-              "code": "Q4",
-              "text": "Quran 7:156 - \"My mercy encompasses all things.\" - Referenced in ",
-              "linkLabel": "Topics: core beliefs"
-            },
-            {
-              "code": "Q5",
-              "text": "Quran 21:107 - \"We have not sent you except as a mercy to the worlds.\" - Referenced in ",
-              "linkLabel": "Topics: core beliefs"
-            },
-            {
-              "code": "Q6",
-              "text": "Quran 97:1-5 (Surah Al-Qadr) - Describes Laylat al-Qadr as \"better than a thousand months.\" - Referenced in ",
-              "linkLabel": "Ramadan guide"
-            }
-          ]
-        },
-        {
-          "id": "hadith-refs",
-          "title": "Hadith references",
-          "items": [
-            {
-              "code": "H1",
-              "text": "Sahih Bukhari, Vol. 1, Book 2, Hadith 7 - \"Actions are judged by intentions (niyyah).\" - Referenced across several steps"
-            },
-            {
-              "code": "H2",
-              "text": "Sahih Muslim, Book 35, Hadith 6505 - \"How wonderful is the affair of the believer...\" - Referenced in ",
-              "linkLabel": "Topics: core beliefs"
-            },
-            {
-              "code": "H3",
-              "text": "Sahih Bukhari, Book 8, Hadith 604 - \"Pray as you have seen me pray.\" - Referenced in ",
-              "linkLabel": "Topics: prayer"
-            },
-            {
-              "code": "H4",
-              "text": "Sahih Bukhari - \"Allah has ninety-nine names; whoever memorizes them will enter Paradise.\" - Referenced in ",
-              "linkLabel": "Topics: core beliefs"
-            },
-            {
-              "code": "H5",
-              "text": "Jami at-Tirmidhi - \"Tie your camel, then trust in Allah.\" - Referenced in ",
-              "linkLabel": "Mental health guide"
-            }
-          ]
-        },
-        {
-          "id": "article-refs",
-          "title": "Articles",
-          "items": [
-            {
-              "code": "A1",
-              "text": "New Muslim Guide - newmuslimguide.com - Covers worship, beliefs, and daily life. - Referenced in Steps 1-3"
-            },
-            {
-              "code": "A2",
-              "text": "My Prayer (Salah), A Step-by-Step Guide - newmuslimguide.com - Illustrated prayer guide. - Referenced in ",
-              "linkLabel": "Step: prayer"
-            },
-            {
-              "code": "A3",
-              "text": "Becoming Muslim: The Lives of American Converts to Islam - Yaqeen Institute (2025) - Referenced in ",
-              "linkLabel": "Mental health guide"
-            },
-            {
-              "code": "A4",
-              "text": "Ramadan Prep Guide - Yaqeen Institute - Referenced in ",
-              "linkLabel": "Ramadan guide"
-            }
-          ]
-        },
-        {
-          "id": "book-refs",
-          "title": "Books",
-          "items": [
-            {
-              "code": "B1",
-              "text": "The Clear Quran by Dr. Mustafa Khattab - Modern English Quran translation. - Referenced in ",
-              "linkLabel": "Topics: Quran"
-            },
-            {
-              "code": "B2",
-              "text": "Welcome to Islam by Mustafa Umar - Practical guide for new Muslims. - Referenced in Steps 1 and 3"
-            },
-            {
-              "code": "B3",
-              "text": "Being Muslim: A Practical Guide (Sandala) - Handbook for new and returning Muslims. - Referenced in Steps 3, 8"
-            },
-            {
-              "code": "B4",
-              "text": "Fortress of the Muslim (Hisn al-Muslim) - Collection of authenticated daily supplications. - Referenced in ",
-              "linkLabel": "Topics: prayer"
-            }
-          ]
-        }
-      ],
       "closingContact": "If you have a question about any of these references, or want to suggest one we missed, contact us through the Get help page or by email.",
       "contactLinks": {
         "getHelpLabel": "Go to the Get help page",
         "emailLabel": "Or email us:"
-      }
+      },
+      "registryIntro": "This page shows you where the guidance on Revert Guide comes from, whether it is religious, practical, health related, or built into one of the tools. None of it replaces a qualified local imam, scholar, clinician, or other professional once the question is about your own situation.",
+      "policyTitle": "How Revert Guide uses sources",
+      "howToUseTitle": "How to use sources without feeling overwhelmed",
+      "howToUseBody": "You do not need to become an expert in checking sources. Start with the basics, learn from teachers you trust, and ask someone qualified when a question touches your worship, your family, your health, or your money. The tags are here so you can check our work. They are not one more thing you have to master.",
+      "linkLastChecked": "Link last checked: {date}.",
+      "endorsementNote": "A source tag does not mean that organisation endorses Revert Guide. It shows where we looked for supporting information and where you can keep reading."
     },
     "roadmap": {
       "badge": "Your path forward",
@@ -805,7 +697,12 @@
       "learningPathOptional": "If you want more",
       "learningPathGuardrails": "Go gently",
       "learningPathOpen": "Open",
-      "opensInNewTab": "(opens in a new tab)"
+      "opensInNewTab": "(opens in a new tab)",
+      "guidanceTitle": "What to focus on now",
+      "focusNow": "Focus on now",
+      "canWait": "What can wait",
+      "askHelpIf": "Ask someone for help if",
+      "goodNextQuestions": "Good next questions"
     },
     "step": {
       "stepLabel": "Step",
@@ -820,7 +717,10 @@
       "navigationAriaLabel": "Step navigation",
       "previous": "Previous",
       "next": "Next",
-      "watchTitle": "Watch and learn"
+      "watchTitle": "Watch and learn",
+      "commonQuestions": "Common questions",
+      "workSchoolFamily": "For work, school or family",
+      "gentleScripts": "Gentle scripts"
     },
     "topics": {
       "description": "Guides on single subjects, each one self-contained. Start with whichever one you need.",
@@ -1283,7 +1183,11 @@
       },
       "emptyTitle": "No resources in this category",
       "emptyPrefix": "Try a different category, or",
-      "emptyAction": "view all resources"
+      "emptyAction": "view all resources",
+      "collectionsTitle": "Curated collections",
+      "collectionsIntro": "Pick the one collection that matches where you are right now. You do not have to work through all of them.",
+      "chooseTitle": "How to choose a resource",
+      "warningsTitle": "Resource warnings"
     },
     "findMasjid": {
       "description": "Search masjids and Islamic centres across Canada, compare what each one offers, and open directions in your usual maps app.",
@@ -1456,7 +1360,10 @@
       "offlineTitle": "Prayer times need an internet connection",
       "offlineBody": "Connect to the internet to load prayer times for your area.",
       "learnMore": "New to prayer?",
-      "learnMoreLink": "Learn about the five daily prayers"
+      "learnMoreLink": "Learn about the five daily prayers",
+      "loadingAriaLabel": "Loading prayer times",
+      "listAriaLabel": "Prayer times",
+      "errorTitle": "Error"
     },
     "qibla": {
       "title": "Qibla finder",
@@ -1479,7 +1386,10 @@
       "offlineTitle": "Location required",
       "offlineBody": "Allow location access, or enter coordinates by hand, to find the Qibla direction.",
       "learnMore": "Why do Muslims face the Kaaba?",
-      "learnMoreBody": "Muslims everywhere pray toward the same point, the Kaaba in Mecca. Whatever country someone is praying in, the direction is shared."
+      "learnMoreBody": "Muslims everywhere pray toward the same point, the Kaaba in Mecca. Whatever country someone is praying in, the direction is shared.",
+      "latitudeLabel": "Latitude",
+      "longitudeLabel": "Longitude",
+      "errorTitle": "Error"
     },
     "asmaAlHusna": {
       "title": "The 99 Names of Allah",
@@ -1500,7 +1410,8 @@
       "emptyAction": "clear the search",
       "disclaimer": "The English meanings here are short renderings. Each name goes a good deal deeper in scholarly study.",
       "reflection": "Reflection",
-      "reflectionBody": "The Prophet Muhammad (peace be upon him) said: \"Allah has ninety-nine names. Whoever memorizes them will enter Paradise.\" Take your time with them."
+      "reflectionBody": "The Prophet Muhammad (peace be upon him) said: \"Allah has ninety-nine names. Whoever memorizes them will enter Paradise.\" Take your time with them.",
+      "errorTitle": "Error"
     },
     "duaDhikr": {
       "metadataTitle": "Dua and dhikr reference",
@@ -1934,6 +1845,75 @@
         "prompt": "Know of an event that would suit new Muslims?",
         "label": "Tell us about an event"
       }
+    },
+    "dawahGuide": {
+      "breadcrumbHome": "Home",
+      "viewModeAriaLabel": "View mode",
+      "guidedFlow": "Guided flow",
+      "quickReference": "Quick reference",
+      "printSavePdf": "Print or save as PDF",
+      "stepStatus": "Step {step} of {total}: {title}",
+      "stepOf": "Step {step} of {total}",
+      "conversationPathAriaLabel": "Conversation path so far",
+      "conversationTips": "Conversation tips",
+      "gentlyAvoid": "Gently avoid",
+      "continue": "Continue",
+      "back": "Back",
+      "restartGuide": "Restart guide",
+      "pauseGentleExit": "Pause, gentle exit",
+      "draftPendingReview": "Draft, pending review",
+      "sourceChecked": "Source checked",
+      "verified": "Verified",
+      "guideSourceChecked": "Source checked, qualified review pending",
+      "translation": "Translation",
+      "sourcePrefix": "Source:",
+      "viewSource": "View source",
+      "gorapHeading": "GORAP, a logical progression",
+      "gorapSubheading": "The path of truth and guidance.",
+      "suggestionsHeading": "General suggestions",
+      "outsideTheField": "Outside the field",
+      "onTheField": "On the field",
+      "toneHeading": "Be patient, be sincere",
+      "toneSubheading": "Leave the result to Allah.",
+      "quickReferenceHeading": "Quick reference",
+      "gorapAtGlance": "GORAP at a glance",
+      "conversationFlow": "The conversation flow",
+      "keepInMind": "Keep in mind",
+      "approach": "Approach",
+      "watchFor": "Watch for",
+      "sourcePendingReview": "Source pending review",
+      "moreForDaees": "More for da'ees",
+      "moreForDaeesIntro": "Optional material for real conversations. Open whichever part you need.",
+      "commonQuestionsTitle": "Common questions and gentle answers",
+      "misconceptionsTitle": "Responding to misconceptions",
+      "scenariosTitle": "Scenario-based guidance",
+      "trainingCardsTitle": "Da'ee training cards",
+      "postShahadaHandoffTitle": "Post-Shahada handoff",
+      "referralBoundariesTitle": "Questions not to answer alone",
+      "practice": "Practice",
+      "handoffActions": "Actions",
+      "referTo": "Refer to",
+      "duaRemindersTitle": "Dua reminders",
+      "printFieldSuggestions": "Field suggestions",
+      "printPostShahadaHandoff": "Post-Shahada handoff",
+      "printReferralBoundaries": "Questions not to answer alone",
+      "printScenarioReminders": "Scenario reminders",
+      "printReferences": "References (verify before sharing)",
+      "duaGroups": {
+        "before": "Before the conversation",
+        "after": "During and after",
+        "general": "General"
+      },
+      "kind": {
+        "intro": "Start",
+        "teaching": "Teaching",
+        "decision": "Decision",
+        "encouragement": "Encourage",
+        "exit": "Gentle exit",
+        "completion": "Community"
+      },
+      "metadataTitle": "Dawah guide | Revert Guide",
+      "metadataDescription": "A private, direct-link guide for dawah conversations."
     }
   }
 }

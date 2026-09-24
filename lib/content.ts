@@ -1,6 +1,7 @@
 import * as fs from "fs";
 import * as path from "path";
 import { DEFAULT_LOCALE, type Locale } from "./i18n";
+import type { IconName } from "@/components/Icon";
 import type {
   GlossaryEntry,
   Masjid,
@@ -299,4 +300,34 @@ export function getSourceCategoryContent(
   locale: Locale = DEFAULT_LOCALE,
 ): SourceCategoryContent {
   return readJsonFile<SourceCategoryContent>(locale, "source-categories.json");
+}
+
+export interface ResourceCollection {
+  title: string;
+  body: string;
+  icon: IconName;
+  resourceIds: string[];
+}
+
+export interface ResourceFeatureCard {
+  title: string;
+  body: string;
+  href: string;
+  icon: IconName;
+}
+
+export interface ResourceCollectionsContent {
+  collections: ResourceCollection[];
+  featureCards: ResourceFeatureCard[];
+  chooseChecklist: string[];
+  warnings: string[];
+}
+
+export function getResourceCollections(
+  locale: Locale = DEFAULT_LOCALE,
+): ResourceCollectionsContent {
+  return readJsonFile<ResourceCollectionsContent>(
+    locale,
+    "resource-collections.json",
+  );
 }

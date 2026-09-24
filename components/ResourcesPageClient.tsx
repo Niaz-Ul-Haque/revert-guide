@@ -5,43 +5,31 @@ import Link from "next/link";
 import { Breadcrumb } from "@/components/Breadcrumb";
 import { useTranslations } from "@/components/LocaleProvider";
 import { ResourceCard } from "@/components/Card";
-import { Icon, type IconName } from "@/components/Icon";
+import { Icon } from "@/components/Icon";
 import { AnimateIn } from "@/components/AnimateIn";
 import type { Resource, ResourceType, SourceEntry } from "@/lib/types";
 import { localizeHref, type Locale, type Messages } from "@/lib/i18n";
-import resourceCollectionsContent from "@/locales/en/resource-collections.json";
+import type { ResourceCollectionsContent } from "@/lib/content";
 
 interface ResourcesPageClientProps {
   locale: Locale;
   resources: Resource[];
   sources: SourceEntry[];
+  collections: ResourceCollectionsContent;
 }
-
-interface CollectionDefinition {
-  title: string;
-  body: string;
-  icon: IconName;
-  resourceIds: string[];
-}
-
-interface FeatureCard {
-  title: string;
-  body: string;
-  href: string;
-  icon: IconName;
-}
-
-const collectionDefinitions =
-  resourceCollectionsContent.collections as CollectionDefinition[];
-const featureCards = resourceCollectionsContent.featureCards as FeatureCard[];
-const chooseChecklist = resourceCollectionsContent.chooseChecklist;
-const resourceWarnings = resourceCollectionsContent.warnings;
 
 export function ResourcesPageClient({
   locale,
   resources,
   sources,
+  collections,
 }: ResourcesPageClientProps) {
+  const {
+    collections: collectionDefinitions,
+    featureCards,
+    chooseChecklist,
+    warnings: resourceWarnings,
+  } = collections;
   const t = useTranslations();
   const copy = t<Messages["pages"]["resourcesPage"]>("pages.resourcesPage");
   const [activeCategory, setActiveCategory] = useState<ResourceType | "all">(
@@ -72,15 +60,13 @@ export function ResourcesPageClient({
     [resources],
   );
   const curatedCollections = useMemo(() => {
-    if (locale !== "en") return [];
-
     return collectionDefinitions.map((collection) => ({
       ...collection,
       resources: collection.resourceIds
         .map((id) => resourceMap.get(id))
         .filter((resource): resource is Resource => resource !== undefined),
     }));
-  }, [locale, resourceMap]);
+  }, [collectionDefinitions, resourceMap]);
 
   return (
     <div className="mx-auto max-w-5xl px-5 py-10">
@@ -124,7 +110,7 @@ export function ResourcesPageClient({
         </Link>
       </AnimateIn>
 
-      {locale === "en" && (
+      {featureCards.length > 0 && (
         <AnimateIn delay={0.12}>
           <div className="mb-10 grid gap-4 md:grid-cols-2">
             {featureCards.map((item) => (
@@ -155,7 +141,7 @@ export function ResourcesPageClient({
         </AnimateIn>
       )}
 
-      {locale === "en" && curatedCollections.length > 0 && (
+      {curatedCollections.length > 0 && (
         <AnimateIn delay={0.14}>
           <section className="mb-10" aria-labelledby="curated-collections">
             <div className="mb-5">
@@ -163,11 +149,10 @@ export function ResourcesPageClient({
                 id="curated-collections"
                 className="mb-2 font-display text-2xl font-semibold tracking-tight text-textPrimary"
               >
-                Curated collections
+                {copy.collectionsTitle}
               </h2>
               <p className="mb-0 max-w-2xl text-sm leading-relaxed text-textSecondary">
-                Pick the one collection that matches where you are right now.
-                You do not have to work through all of them.
+                {copy.collectionsIntro}
               </p>
             </div>
             <div className="grid gap-4 md:grid-cols-2">
@@ -203,7 +188,7 @@ export function ResourcesPageClient({
                         </a>
                         {resource.bestFor ? (
                           <p className="mb-0 mt-0.5 text-xs text-textMuted">
-                            Best for: {resource.bestFor}
+                            {t("common.bestForLabel")} {resource.bestFor}
                           </p>
                         ) : null}
                       </li>
@@ -216,14 +201,14 @@ export function ResourcesPageClient({
         </AnimateIn>
       )}
 
-      {locale === "en" && (
+      {chooseChecklist.length > 0 && (
         <AnimateIn delay={0.145}>
           <section className="mb-10" aria-labelledby="choose-resource-heading">
             <h2
               id="choose-resource-heading"
               className="mb-4 mt-0 font-display text-2xl font-semibold tracking-tight text-textPrimary"
             >
-              How to choose a resource
+              {copy.chooseTitle}
             </h2>
             <div className="grid gap-3 md:grid-cols-2">
               {chooseChecklist.map((item) => (
@@ -244,7 +229,7 @@ export function ResourcesPageClient({
         </AnimateIn>
       )}
 
-      {locale === "en" && (
+      {resourceWarnings.length > 0 && (
         <AnimateIn delay={0.148}>
           <section
             className="mb-10"
@@ -259,7 +244,7 @@ export function ResourcesPageClient({
                   id="resource-warnings-heading"
                   className="mb-0 mt-0 text-lg font-semibold text-textPrimary"
                 >
-                  Resource warnings
+                  {copy.warningsTitle}
                 </h2>
               </div>
               <div className="grid gap-3 md:grid-cols-3">

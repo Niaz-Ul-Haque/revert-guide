@@ -394,13 +394,9 @@ function formatTime12(timeStr: string): { time: string; period: string } {
 }
 
 /* ─── Skeleton loader ─── */
-function TimelineSkeleton() {
+function TimelineSkeleton({ label }: { label: string }) {
   return (
-    <div
-      className="space-y-4 py-6"
-      aria-busy="true"
-      aria-label="Loading prayer times"
-    >
+    <div className="space-y-4 py-6" aria-busy="true" aria-label={label}>
       {/* Hero skeleton */}
       <div className="mb-8 animate-pulse rounded-3xl bg-surfaceElevated/60 p-8">
         <div className="h-4 w-24 rounded-lg bg-border/40" />
@@ -554,11 +550,11 @@ export function PrayerTimesClient() {
       </form>
 
       {/* ── Loading ── */}
-      {loading && <TimelineSkeleton />}
+      {loading && <TimelineSkeleton label={copy.loadingAriaLabel as string} />}
 
       {/* ── Error ── */}
       {error && !loading && (
-        <Callout variant="warning" title="Error">
+        <Callout variant="warning" title={copy.errorTitle as string}>
           <p>{error}</p>
         </Callout>
       )}
@@ -700,7 +696,11 @@ export function PrayerTimesClient() {
           )}
 
           {/* ── Prayer timeline ── */}
-          <div className="relative" role="list" aria-label="Prayer times">
+          <div
+            className="relative"
+            role="list"
+            aria-label={copy.listAriaLabel as string}
+          >
             {/* Vertical timeline line */}
             <div
               className="absolute left-5 top-4 bottom-4 w-px bg-gradient-to-b from-border/60 via-border/30 to-border/60 sm:left-6"
