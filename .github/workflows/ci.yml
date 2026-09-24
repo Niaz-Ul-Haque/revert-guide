@@ -2,9 +2,9 @@ name: CI
 
 on:
   pull_request:
-    branches: [main]
+    branches: [master]
   push:
-    branches: [main]
+    branches: [master]
 
 jobs:
   build-and-lint:
@@ -35,5 +35,5 @@ jobs:
       - name: Build
         run: npm run build
 
-      - name: Test
+      - name: Accessibility check (axe-core over out/)
         run: npm run test
