@@ -86,13 +86,46 @@ function readJsonDir<T>(locale: Locale, relativeDir: string): T[] {
     }
   }
 
-  return Array.from(fileNames).map((fileName) =>
-    readJson<T>(resolveLocaleFile(locale, path.join(relativeDir, fileName))),
+  // A translated file overrides field by field, so a field added to the
+  // English file (sources, videos, a new section) still renders in every
+  // locale until it is translated.
+  return Array.from(fileNames).map((fileName) => {
+    const fallbackPath = path.join(fallbackDir, fileName);
+    const localizedPath = path.join(localizedDir, fileName);
+    const base = fs.existsSync(fallbackPath)
+      ? readJson<T>(fallbackPath)
+      : undefined;
+    const localized =
+      locale !== DEFAULT_LOCALE && fs.existsSync(localizedPath)
+        ? readJson<Partial<T>>(localizedPath)
+        : undefined;
+    if (base && localized) return { ...base, ...localized } as T;
+    return (base ?? localized) as T;
+  });
+}
+
+// Collections (stages, glossary, resources, sources) fall back to the English
+// entry by id, so entries added in English are available in every locale.
+function readLocalizedCollection<T extends { id: string }>(
+  locale: Locale,
+  relativePath: string,
+): T[] {
+  const baseItems = readJson<T[]>(
+    path.join(getLocaleDir(DEFAULT_LOCALE), relativePath),
+  );
+  if (locale === DEFAULT_LOCALE) return baseItems;
+
+  const localizedPath = path.join(getLocaleDir(locale), relativePath);
+  if (!fs.existsSync(localizedPath)) return baseItems;
+
+  return mergeLocalizedCollectionById(
+    baseItems,
+    readJson<Partial<T>[]>(localizedPath),
   );
 }
 
 export function getAllStages(locale: Locale = DEFAULT_LOCALE): Stage[] {
-  return readJsonFile<Stage[]>(locale, "stages.json");
+  return readLocalizedCollection<Stage>(locale, "stages.json");
 }
 
 export function getStageById(
@@ -155,8 +188,8 @@ export function getTopicBySlug(
 export function getAllGlossaryEntries(
   locale: Locale = DEFAULT_LOCALE,
 ): GlossaryEntry[] {
-  return readJsonFile<GlossaryEntry[]>(locale, "glossary.json").sort((a, b) =>
-    a.term.localeCompare(b.term),
+  return readLocalizedCollection<GlossaryEntry>(locale, "glossary.json").sort(
+    (a, b) => a.term.localeCompare(b.term),
   );
 }
 
@@ -168,7 +201,7 @@ export function getGlossaryEntryById(
 }
 
 export function getAllResources(locale: Locale = DEFAULT_LOCALE): Resource[] {
-  return readJsonFile<Resource[]>(locale, "resources.json");
+  return readLocalizedCollection<Resource>(locale, "resources.json");
 }
 
 export function getResourceById(
@@ -179,7 +212,7 @@ export function getResourceById(
 }
 
 export function getAllSources(locale: Locale = DEFAULT_LOCALE): SourceEntry[] {
-  return readJsonFile<SourceEntry[]>(locale, "sources.json");
+  return readLocalizedCollection<SourceEntry>(locale, "sources.json");
 }
 
 export function getSourceById(
