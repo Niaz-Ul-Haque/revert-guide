@@ -67,3 +67,52 @@ export function languageAlternates(path: string): Record<string, string> {
 
   return alternates;
 }
+
+/* ── Team-owned placeholders ──────────────────────────────────────────────
+ * Every real-world detail the team has not created yet lives here, in one
+ * place, so nothing is scattered through content files. Replace each value
+ * when the real one exists. Content and components must read from these
+ * constants and never hard-code the values.
+ */
+
+/** Google Form for help requests (mentor, question, events, community).
+ *  PLACEHOLDER: replace with the real forms.gle link once the form exists. */
+export const HELP_FORM_URL = "https://forms.gle/PLACEHOLDER";
+
+/** Monitored contact mailbox for questions, corrections and accessibility
+ *  reports. PLACEHOLDER: replace with the real address. */
+export const CONTACT_EMAIL = "hello@PLACEHOLDER.example";
+
+/** WhatsApp Channel for reminders. Followers' numbers stay private.
+ *  PLACEHOLDER: replace with the real channel invite link. */
+export const WHATSAPP_CHANNEL_URL = "https://whatsapp.com/channel/PLACEHOLDER";
+
+/** Small moderated WhatsApp groups, one per city or region. Members' numbers
+ *  are visible to other members. PLACEHOLDER: add the real invite links, or
+ *  leave the list empty to hide the section. */
+export const WHATSAPP_GROUPS: { label: string; url: string }[] = [];
+
+/** Organisation or group name published on the About page.
+ *  PLACEHOLDER: replace with the legal or working name the team agrees on. */
+export const ORGANISATION_NAME = "[Organisation name to be confirmed]";
+
+/** Where the team is based, published on the About page.
+ *  PLACEHOLDER: replace with the city and province. */
+export const ORGANISATION_LOCATION = "[City, Province to be confirmed]";
+
+/** Address to which a mentee or member can report a mentor, group or admin.
+ *  PLACEHOLDER: replace with the real address (may equal CONTACT_EMAIL). */
+export const REPORT_EMAIL = "report@PLACEHOLDER.example";
+
+/** True while any value above is still a placeholder. Used to show a short
+ *  notice on pages that depend on these values. */
+export function hasPlaceholderConfig(): boolean {
+  return [
+    HELP_FORM_URL,
+    CONTACT_EMAIL,
+    WHATSAPP_CHANNEL_URL,
+    ORGANISATION_NAME,
+    ORGANISATION_LOCATION,
+    REPORT_EMAIL,
+  ].some((value) => value.includes("PLACEHOLDER") || value.includes("["));
+}
