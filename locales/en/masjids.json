@@ -4603,5 +4603,433 @@
     "womenSpaceNote": "Home page: \"the Main Floor and Gym areas are designated for brothers, while the Second Floor is reserved for sisters\".",
     "sourceIds": ["masjid-muslim-association-of-st-albert"],
     "reviewStatus": "source-checked"
+  },
+  {
+    "id": "abu-bakr-al-siddiq-masjid-moose-jaw",
+    "name": "Abu Bakr Al-Siddiq Masjid (Islamic Association of Saskatchewan - Moose Jaw)",
+    "address": "73 Lancaster Road",
+    "city": "Moose Jaw",
+    "stateProvince": "Saskatchewan",
+    "country": "Canada",
+    "postalCode": "S6J 1M8",
+    "coordinates": {
+      "lat": 50.4175342,
+      "lng": -105.5173307
+    },
+    "coordinatesPrecision": "street",
+    "phone": "(306) 631-2567",
+    "website": "https://iasmoosejaw.com/",
+    "sourceIds": ["masjid-abu-bakr-al-siddiq-masjid-moose-jaw"],
+    "reviewStatus": "review-needed"
+  },
+  {
+    "id": "prince-albert-masjid",
+    "name": "Prince Albert Masjid",
+    "address": "2727 2nd Ave W",
+    "city": "Prince Albert",
+    "stateProvince": "Saskatchewan",
+    "country": "Canada",
+    "postalCode": "S6V 5E5",
+    "coordinates": {
+      "lat": 53.2020289,
+      "lng": -105.7558962
+    },
+    "coordinatesPrecision": "city-centre",
+    "phone": "(639) 533-3676",
+    "email": "Pamuslimassociation@gmail.com",
+    "website": "https://www.facebook.com/pamasjid/",
+    "sourceIds": ["masjid-prince-albert-masjid"],
+    "reviewStatus": "review-needed"
+  },
+  {
+    "id": "darul-falah-islamic-centre-regina",
+    "name": "Darul Falah Islamic Centre (DFIC)",
+    "address": "1876 Wallace St",
+    "city": "Regina",
+    "stateProvince": "Saskatchewan",
+    "country": "Canada",
+    "postalCode": "S4N 3Z9",
+    "coordinates": {
+      "lat": 50.4489718,
+      "lng": -104.5940955
+    },
+    "coordinatesPrecision": "street",
+    "phone": "(306) 803-5377",
+    "email": "admin@dficregina.com",
+    "website": "https://dficregina.com/",
+    "jumuahNote": "Three Jumu'ah prayers: khutbah 1:00, 1:30 and 2:00 PM (homepage).",
+    "serviceIds": ["quran-classes", "weekend-school"],
+    "sourceIds": ["masjid-darul-falah-islamic-centre-regina"],
+    "reviewStatus": "source-checked"
+  },
+  {
+    "id": "iaos-regina-east-musallah",
+    "name": "IAOS Regina East Musallah",
+    "address": "2318 Assiniboine Ave E",
+    "city": "Regina",
+    "stateProvince": "Saskatchewan",
+    "country": "Canada",
+    "postalCode": "S4V 2P5",
+    "coordinates": {
+      "lat": 50.4233496,
+      "lng": -104.5504883
+    },
+    "coordinatesPrecision": "street",
+    "phone": "(306) 585-0090",
+    "email": "iaos@iaosregina.com",
+    "website": "https://www.iaosregina.com/web/allmosques.php",
+    "notes": "Also known as East Regina Mosque; East Regina Musalla.",
+    "newMuslimSupportNote": "IAOS Regina runs a Converts Committee for the whole city, with peer mentoring, a masjid buddy program and counselling. This musallah does not list its own program.",
+    "serviceIds": ["new-muslim-support"],
+    "convertSupport": true,
+    "sourceIds": [
+      "masjid-iaos-regina-east-musallah",
+      "iaos-regina-converts-committee"
+    ],
+    "reviewStatus": "source-checked"
+  },
+  {
+    "id": "islamic-association-of-saskatchewan-inc-iaos-regina-mosque",
+    "name": "Islamic Association of Saskatchewan (Regina) Inc - IAOS Regina Mosque",
+    "address": "3273 Montague St",
+    "city": "Regina",
+    "stateProvince": "Saskatchewan",
+    "country": "Canada",
+    "postalCode": "S4S 1Z8",
+    "coordinates": {
+      "lat": 50.4265708,
+      "lng": -104.6292142
+    },
+    "coordinatesPrecision": "street",
+    "phone": "(306) 585-0090",
+    "email": "iaos@iaosregina.com",
+    "website": "https://www.iaosregina.com/web/",
+    "womenSpaceNote": "About page: the Centre includes separate prayer areas for brothers and sisters.",
+    "jumuahNote": "Jumu'ah 1 at 1:15 PM, Jumu'ah 2 at 2:00 PM (homepage).",
+    "newMuslimSupportNote": "IAOS Regina's Converts Committee offers peer mentoring, a masjid buddy program, counselling, books and lectures. The homepage schedule lists a Saturday New Muslims Class after Isha.",
+    "serviceIds": ["new-muslim-support"],
+    "womenFriendly": true,
+    "convertSupport": true,
+    "sourceIds": [
+      "masjid-islamic-association-of-saskatchewan-inc-iaos-regina-mosque",
+      "iaos-regina-converts-committee"
+    ],
+    "reviewStatus": "source-checked"
+  },
+  {
+    "id": "islamic-society-of-regina-masjid",
+    "name": "Islamic Society of Regina Masjid",
+    "address": "5048 Sherwood Dr",
+    "city": "Regina",
+    "stateProvince": "Saskatchewan",
+    "country": "Canada",
+    "postalCode": "S4R 4C2",
+    "coordinates": {
+      "lat": 50.4772872,
+      "lng": -104.6543151
+    },
+    "coordinatesPrecision": "street",
+    "website": "https://isrregina.ca/",
+    "notes": "Also known as ISR.",
+    "jumuahNote": "Home page: Jumuah 1:15 pm | 1:45 pm.",
+    "sourceIds": ["masjid-islamic-society-of-regina-masjid"],
+    "reviewStatus": "review-needed"
+  },
+  {
+    "id": "madni-islamic-center-mosque-inc-regina",
+    "name": "Madni Islamic Center & Mosque Inc.",
+    "address": "639 Pasqua Street",
+    "city": "Regina",
+    "stateProvince": "Saskatchewan",
+    "country": "Canada",
+    "postalCode": "S4T 4K5",
+    "coordinates": {
+      "lat": 50.468853,
+      "lng": -104.6406525
+    },
+    "coordinatesPrecision": "street",
+    "email": "reginamadnimasjid@gmail.com",
+    "website": "https://www.madnicanada.ca/",
+    "jumuahNote": "Home page: Jumma 1:30 PM.",
+    "sourceIds": ["masjid-madni-islamic-center-mosque-inc-regina"],
+    "reviewStatus": "review-needed"
+  },
+  {
+    "id": "regina-city-jamia-masjid",
+    "name": "Regina City Jamia Masjid",
+    "address": "1910 McIntyre St",
+    "city": "Regina",
+    "stateProvince": "Saskatchewan",
+    "country": "Canada",
+    "postalCode": "S4P 2R3",
+    "coordinates": {
+      "lat": 50.4484468,
+      "lng": -104.6170522
+    },
+    "coordinatesPrecision": "street",
+    "phone": "(306) 999-5150",
+    "email": "info@citymasjid.ca",
+    "website": "https://citymasjid.ca/",
+    "notes": "Also known as RCJM.",
+    "womenSpaceNote": "Contact page: \"The Regina City Jamia Masjid has prayer facilities for males and females.\".",
+    "jumuahNote": "Home page: Jummah khutbah 1:10 pm, iqamah 1:30 pm.",
+    "newMuslimSupportNote": "The New to Islam page describes \"educational classes, mentorship programs, and one-on-one guidance sessions\" for new Muslims. It does not say how to sign up, so call or email.",
+    "serviceIds": ["new-muslim-support"],
+    "womenFriendly": true,
+    "convertSupport": true,
+    "sourceIds": [
+      "masjid-regina-city-jamia-masjid",
+      "masjid-regina-city-jamia-masjid-programme"
+    ],
+    "reviewStatus": "source-checked"
+  },
+  {
+    "id": "jamia-riyadhul-jannah-saskatoon",
+    "name": "Jamia Riyadhul Jannah Saskatoon",
+    "address": "2233 Hanselman Ave",
+    "city": "Saskatoon",
+    "stateProvince": "Saskatchewan",
+    "country": "Canada",
+    "postalCode": "S7L 6A8",
+    "coordinates": {
+      "lat": 52.1609696,
+      "lng": -106.6800823
+    },
+    "coordinatesPrecision": "street",
+    "phone": "(306) 974-6666",
+    "email": "info@jrjsk.ca",
+    "website": "https://jrjsk.ca/",
+    "jumuahNote": "Jummah 1:35 PM and 2:30 PM (homepage).",
+    "sourceIds": ["masjid-jamia-riyadhul-jannah-saskatoon"],
+    "reviewStatus": "source-checked"
+  },
+  {
+    "id": "prairie-muslim-association-saskatoon-masjid",
+    "name": "Prairie Muslim Association (PMA) - Saskatoon Masjid",
+    "address": "3350 Fairlight Drive",
+    "city": "Saskatoon",
+    "stateProvince": "Saskatchewan",
+    "country": "Canada",
+    "postalCode": "S7M 5H9",
+    "coordinates": {
+      "lat": 52.1272912,
+      "lng": -106.7263893
+    },
+    "coordinatesPrecision": "street",
+    "phone": "(306) 374-7860",
+    "email": "contact@saskatoonmosque.com",
+    "website": "https://saskatoonmosque.com/",
+    "sourceIds": ["masjid-prairie-muslim-association-saskatoon-masjid"],
+    "reviewStatus": "source-checked"
+  },
+  {
+    "id": "the-islamic-association-of-saskatchewan-inc-ias-masjid-saskatoon",
+    "name": "The Islamic Association of Saskatchewan (Saskatoon) Inc. - IAS Masjid",
+    "address": "222 Copland Crescent",
+    "city": "Saskatoon",
+    "stateProvince": "Saskatchewan",
+    "country": "Canada",
+    "postalCode": "S7H 2Z5",
+    "coordinates": {
+      "lat": 52.1182028,
+      "lng": -106.6306252
+    },
+    "coordinatesPrecision": "street",
+    "phone": "(306) 665-6424",
+    "email": "info@islamiccenter.sk.ca",
+    "website": "https://islamiccenter.sk.ca/",
+    "jumuahNote": "Jumma1 1:00 pm (iqamah 1:30 pm); Jumma2 2:05 pm (iqamah 2:30 pm), homepage 2026-09-23.",
+    "sourceIds": [
+      "masjid-the-islamic-association-of-saskatchewan-inc-ias-masjid-saskatoon"
+    ],
+    "reviewStatus": "source-checked"
+  },
+  {
+    "id": "brandon-islamic-centre-inc",
+    "name": "Brandon Islamic Centre Inc",
+    "address": "834 10th Street",
+    "city": "Brandon",
+    "stateProvince": "Manitoba",
+    "country": "Canada",
+    "postalCode": "R7A 4H1",
+    "coordinates": {
+      "lat": 49.8228771,
+      "lng": -99.9514035
+    },
+    "coordinatesPrecision": "street",
+    "email": "info@bicmanitoba.ca",
+    "website": "https://bicmanitoba.ca/",
+    "jumuahNote": "1st Friday khutbah 2:00 pm, 2nd 3:00 pm.",
+    "sourceIds": ["masjid-brandon-islamic-centre-inc"],
+    "reviewStatus": "source-checked"
+  },
+  {
+    "id": "mia-steinbach-mussallah",
+    "name": "MIA Steinbach Mussallah",
+    "address": "10 Chrysler Gate",
+    "city": "Steinbach",
+    "stateProvince": "Manitoba",
+    "country": "Canada",
+    "postalCode": "R5G 2E6",
+    "coordinates": {
+      "lat": 49.5127988,
+      "lng": -96.6902181
+    },
+    "coordinatesPrecision": "street",
+    "phone": "(204) 256-1347",
+    "website": "https://miaonline.org/prayer-locations/",
+    "sourceIds": ["masjid-mia-steinbach-mussallah"],
+    "reviewStatus": "review-needed"
+  },
+  {
+    "id": "mia-pembina-valley-mussallah-winkler",
+    "name": "MIA Pembina Valley Mussallah",
+    "address": "#10 385 Mountain Ave",
+    "city": "Winkler",
+    "stateProvince": "Manitoba",
+    "country": "Canada",
+    "postalCode": "R6W 2R7",
+    "coordinates": {
+      "lat": 49.1819225,
+      "lng": -97.9374226
+    },
+    "coordinatesPrecision": "street",
+    "phone": "(204) 256-1347",
+    "website": "https://miaonline.org/prayer-locations/",
+    "sourceIds": ["masjid-mia-pembina-valley-mussallah-winkler"],
+    "reviewStatus": "review-needed"
+  },
+  {
+    "id": "alhaqq-prayer-group-of-canada-inc-winnipeg",
+    "name": "AlHaqq Prayer Group of Canada Inc.",
+    "address": "500 Dovercourt Dr",
+    "city": "Winnipeg",
+    "stateProvince": "Manitoba",
+    "country": "Canada",
+    "postalCode": "R3Y 1G4",
+    "coordinates": {
+      "lat": 49.8172137,
+      "lng": -97.1902507
+    },
+    "coordinatesPrecision": "street",
+    "phone": "(204) 799-0389",
+    "email": "info@alhaqqcanada.ca",
+    "website": "https://alhaqqcanada.ca/",
+    "notes": "Also known as Al-Haqq Canada; Al-Haqq Masjid. The site describes weekly Sunday congregational worship. Ask about daily and Friday prayers.",
+    "sourceIds": ["masjid-alhaqq-prayer-group-of-canada-inc-winnipeg"],
+    "reviewStatus": "review-needed"
+  },
+  {
+    "id": "beit-naballa-mosque-winnipeg",
+    "name": "Beit Naballa Mosque",
+    "address": "325 Wallasey Street",
+    "city": "Winnipeg",
+    "stateProvince": "Manitoba",
+    "country": "Canada",
+    "postalCode": "",
+    "coordinates": {
+      "lat": 49.8811076,
+      "lng": -97.2645516
+    },
+    "coordinatesPrecision": "street",
+    "website": "https://bnmosque.org/",
+    "jumuahNote": "Home page: \"We are open for the five daily prayers along with Jummah (Friday) prayers\".",
+    "sourceIds": ["masjid-beit-naballa-mosque-winnipeg"],
+    "reviewStatus": "source-checked"
+  },
+  {
+    "id": "manitoba-dawah-center-winnipeg",
+    "name": "Manitoba Dawah Center",
+    "address": "368 Edmonton Street",
+    "city": "Winnipeg",
+    "stateProvince": "Manitoba",
+    "country": "Canada",
+    "postalCode": "R3B 2L3",
+    "coordinates": {
+      "lat": 49.8948913,
+      "lng": -97.1489524
+    },
+    "coordinatesPrecision": "street",
+    "phone": "(204) 219-9100",
+    "email": "manitobadc@gmail.com",
+    "website": "https://manitobadc.com/",
+    "womenSpaceNote": "Second Jummah \"For Both Men and Women\"; first Jummah men only.",
+    "jumuahNote": "Jummah 1:35 PM (men only) and 2:25 PM (men and women), per homepage.",
+    "sourceIds": ["masjid-manitoba-dawah-center-winnipeg"],
+    "reviewStatus": "source-checked"
+  },
+  {
+    "id": "pioneer-mosque-winnipeg",
+    "name": "Pioneer Mosque (Manitoba Islamic Association)",
+    "address": "247 Hazelwood Ave.",
+    "city": "Winnipeg",
+    "stateProvince": "Manitoba",
+    "country": "Canada",
+    "postalCode": "R2M 4W1",
+    "coordinates": {
+      "lat": 49.8267069,
+      "lng": -97.1013949
+    },
+    "coordinatesPrecision": "street",
+    "phone": "(204) 256-1347",
+    "email": "converts@miaonline.org",
+    "website": "https://miaonline.org/mosques/",
+    "notes": "Also known as St; Vital Mosque; Hazelwood Mosque.",
+    "jumuahNote": "MIA: open for all 5 daily prayers and Friday prayers; Jumuah time for this site not stated.",
+    "newMuslimSupportNote": "The Manitoba Islamic Association's Converts Committee is \"run by Converts for converts\". It lists a care package of books, meetups, seminars and a buddy system. The committee serves the whole association, not one building.",
+    "serviceIds": ["new-muslim-support"],
+    "convertSupport": true,
+    "sourceIds": ["masjid-pioneer-mosque-winnipeg", "mia-converts-committee"],
+    "reviewStatus": "review-needed"
+  },
+  {
+    "id": "winnipeg-central-mosque",
+    "name": "Winnipeg Central Mosque",
+    "address": "715 Ellice Ave.",
+    "city": "Winnipeg",
+    "stateProvince": "Manitoba",
+    "country": "Canada",
+    "postalCode": "R3G 0B3",
+    "coordinates": {
+      "lat": 49.8933299,
+      "lng": -97.1645088
+    },
+    "coordinatesPrecision": "street",
+    "phone": "(204) 783-6797",
+    "website": "https://www.winnipegmosque.org/",
+    "womenSpaceNote": "FAQ: \"WCM does not have a physical partition between men and women\"; front and back entrances are both family entrances.",
+    "accessibilityNote": "Handicap parking spaces in rear lot; nothing else stated.",
+    "jumuahNote": "Jumaa: khutbah 1:45 PM, salat ends 2:15 PM (homepage, 2026-09-23).",
+    "parkingNote": "Parking is available in the lot adjacent to the mosque off Toronto Street and in the lot behind the mosque. The lot behind the mosque has some handicap spaces.",
+    "parking": true,
+    "sourceIds": ["masjid-winnipeg-central-mosque"],
+    "reviewStatus": "source-checked"
+  },
+  {
+    "id": "winnipeg-grand-mosque-and-community-centre",
+    "name": "Winnipeg Grand Mosque and Community Centre (Manitoba Islamic Association)",
+    "address": "2445 Waverley St.",
+    "city": "Winnipeg",
+    "stateProvince": "Manitoba",
+    "country": "Canada",
+    "postalCode": "R3Y 1S3",
+    "coordinates": {
+      "lat": 49.7913791,
+      "lng": -97.1749886
+    },
+    "coordinatesPrecision": "street",
+    "phone": "(204) 256-1347",
+    "email": "converts@miaonline.org",
+    "website": "https://miaonline.org/",
+    "notes": "Also known as Waverley Mosque; MIA Grand Mosque.",
+    "jumuahNote": "MIA homepage: Jumu'ah \"1:45 pm & 3:30 pm\". MIA mosques page: \"Both mosques are open for all 5 daily prayers and Friday prayers.\".",
+    "newMuslimSupportNote": "The Manitoba Islamic Association's Converts Committee is \"run by Converts for converts\". It lists a care package of books, meetups, seminars and a buddy system. The committee serves the whole association, not one building.",
+    "serviceIds": ["new-muslim-support"],
+    "convertSupport": true,
+    "sourceIds": [
+      "masjid-winnipeg-grand-mosque-and-community-centre",
+      "mia-converts-committee"
+    ],
+    "reviewStatus": "review-needed"
   }
 ]
