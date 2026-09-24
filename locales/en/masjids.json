@@ -21,7 +21,8 @@
     "parkingNote": "The official site warns about the private parking nearby. Read the current instructions before you park.",
     "serviceIds": ["quran-classes", "weekend-school", "community-events"],
     "sourceIds": ["masjid-ist-darus-salaam"],
-    "reviewStatus": "source-checked"
+    "reviewStatus": "source-checked",
+    "coordinatesPrecision": "street"
   },
   {
     "id": "taric-islamic-centre",
@@ -43,7 +44,8 @@
     "classSupportNote": "Published event material lists family seminars, Ramadan activities, Eid events, community outreach, and youth and family programming.",
     "serviceIds": ["community-events", "youth-programs"],
     "sourceIds": ["masjid-taric"],
-    "reviewStatus": "source-checked"
+    "reviewStatus": "source-checked",
+    "coordinatesPrecision": "street"
   },
   {
     "id": "masjid-toronto-adelaide",
@@ -94,7 +96,8 @@
     "classSupportNote": "Published listings show education programs including Hifz and Sunday school, plus community services.",
     "serviceIds": ["quran-classes", "weekend-school", "community-events"],
     "sourceIds": ["masjid-islamic-foundation-toronto"],
-    "reviewStatus": "source-checked"
+    "reviewStatus": "source-checked",
+    "coordinatesPrecision": "street"
   },
   {
     "id": "khalid-bin-al-walid-mosque",
@@ -115,7 +118,8 @@
     "visitorNotes": "Phone the office or check the official site before you go. Older listings elsewhere still carry an out-of-date address.",
     "jumuahNote": "Confirm current Jumu'ah and prayer times directly with the masjid.",
     "sourceIds": ["masjid-khalid-bin-al-walid"],
-    "reviewStatus": "source-checked"
+    "reviewStatus": "source-checked",
+    "coordinatesPrecision": "street"
   },
   {
     "id": "imdadul-islamic-centre",
@@ -139,7 +143,8 @@
     "parkingNote": "Arrive early for Jumu'ah, and ask the masjid where to park.",
     "serviceIds": ["community-events", "youth-programs"],
     "sourceIds": ["masjid-imdadul-islamic-centre"],
-    "reviewStatus": "source-checked"
+    "reviewStatus": "source-checked",
+    "coordinatesPrecision": "street"
   },
   {
     "id": "masjid-el-noor",
@@ -168,7 +173,8 @@
     "parking": true,
     "accessibility": true,
     "sourceIds": ["masjid-el-noor"],
-    "reviewStatus": "source-checked"
+    "reviewStatus": "source-checked",
+    "coordinatesPrecision": "street"
   },
   {
     "id": "islamic-institute-of-toronto",
@@ -215,7 +221,8 @@
     "notes": "A historic Toronto mosque, now listed under ISNA Canada.",
     "visitorNotes": "Check hours, Jumu'ah times, and event access with ISNA Canada before you go.",
     "sourceIds": ["masjid-jami-mosque-isna"],
-    "reviewStatus": "source-checked"
+    "reviewStatus": "source-checked",
+    "coordinatesPrecision": "street"
   },
   {
     "id": "abu-huraira-center",
@@ -245,7 +252,8 @@
     ],
     "convertSupport": true,
     "sourceIds": ["masjid-abu-huraira-center"],
-    "reviewStatus": "source-checked"
+    "reviewStatus": "source-checked",
+    "coordinatesPrecision": "street"
   },
   {
     "id": "isna-islamic-centre-of-canada",
@@ -3350,7 +3358,8 @@
     "notes": "Also known as Riyadhul Jannah Mosque.",
     "jumuahNote": "Home page: Friday Jumma khutbah 13:30.",
     "sourceIds": ["masjid-jamia-riyadhul-jannah-maple-ridge"],
-    "reviewStatus": "review-needed"
+    "reviewStatus": "review-needed",
+    "phone": "236-818-5112"
   },
   {
     "id": "bcma-nanaimo-chapter",
@@ -4027,7 +4036,7 @@
     "email": "info@muslimscalgary.ca",
     "website": "https://muslimscalgary.ca/",
     "notes": "Also known as MCC. This is the Muslim Council of Calgary office, which serves masjids across the city.",
-    "newMuslimSupportNote": "The New Muslim page describes the New Muslim Circle, a support group, plus Connect with an Imam, Islam 101 classes and a New Muslim guide book. It also offers one-on-one support from a peer, a mentor or an imam.",
+    "newMuslimSupportNote": "The New Muslim page describes the New Muslim Circle, a support group, plus Connect with an Imam and a New Muslim guide book. It also offers one-on-one support from a peer, a mentor or an imam.",
     "serviceIds": ["new-muslim-support"],
     "convertSupport": true,
     "sourceIds": [
