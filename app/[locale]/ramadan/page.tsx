@@ -43,7 +43,7 @@ export default function RamadanPage({
       "quran-fasting-2-183-185",
       "quran-laylat-al-qadr-97",
       "sunnah-bukhari-laylat-qadr",
-      "sunnah-bukhari-menstruation-fasting",
+      "sunnah-muslim-335c",
       "new-muslim-guide",
       "yaqeen-ramadan",
       "quran-fasting-2-187",
