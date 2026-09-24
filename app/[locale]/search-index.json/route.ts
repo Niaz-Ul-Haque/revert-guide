@@ -1,6 +1,6 @@
 import { NextResponse } from "next/server";
 import { SUPPORTED_LOCALES, isLocale, DEFAULT_LOCALE } from "@/lib/i18n";
-import { buildSearchIndex } from "@/lib/search-index";
+import { buildSearchIndex } from "@/lib/build-search-index";
 
 // Exported as a static JSON file per locale at build time.
 export const dynamic = "force-static";
