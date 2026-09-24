@@ -272,6 +272,18 @@ export interface EventEntry {
 
 /* Slice B additions (prayer and worship) */
 
+/** A labelled start point inside a video, for example one prayer in a
+ *  full demonstration. `start` is a second offset. */
+export interface VideoChapter {
+  label: string;
+  start: number;
+}
+
+/** A video with optional chapter buttons, rendered by VideoEmbed. */
+export interface VideoWithChapters extends VideoRef {
+  chapters?: VideoChapter[];
+}
+
 /* Slice C additions (new content pages) */
 
 /* Slice D additions (help, mentoring and community) */

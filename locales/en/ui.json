@@ -1612,8 +1612,14 @@
       "prayerTopicButton": "Prayer topic"
     },
     "video": {
-      "play": "Play video",
-      "note": "Slice B fills this block."
+      "playAria": "Play video: {title}",
+      "playerTitle": "{title} (YouTube video)",
+      "length": "Length {duration}",
+      "chaptersLabel": "Jump to a part",
+      "watchOnYouTube": "Watch on YouTube",
+      "newTab": "(opens in a new tab)",
+      "privacyNote": "Nothing loads from YouTube until you press play. After that, the video plays in YouTube's privacy-enhanced player. If the video will not play or you are offline, use the Watch on YouTube link. More in our",
+      "privacyLink": "privacy policy"
     },
     "faq": {
       "title": "Frequently asked questions",
