@@ -66,7 +66,7 @@ export function Footer() {
             >
               <span className="flex h-8 w-8 shrink-0 items-center justify-center overflow-hidden rounded-lg">
                 <Image
-                  src="/revert-guide-logo.png"
+                  src="/revert-guide-logo.webp"
                   alt=""
                   width={32}
                   height={32}
@@ -86,7 +86,7 @@ export function Footer() {
               aria-hidden="true"
             >
               <Image
-                src="/revert-guide-logo.png"
+                src="/revert-guide-logo.webp"
                 alt=""
                 width={40}
                 height={40}

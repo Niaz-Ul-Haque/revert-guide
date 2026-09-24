@@ -83,7 +83,7 @@ export default function RamadanPage({
           aria-hidden="true"
         >
           <Image
-            src="/Grandmother female Character Standing.png"
+            src="/Grandmother female Character Standing.webp"
             alt=""
             fill
             className="object-contain object-right-bottom"

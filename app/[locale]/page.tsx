@@ -96,7 +96,7 @@ export default function HomePage({ params }: { params: { locale: Locale } }) {
           <AnimateIn animation="fade-in">
             <div className="mx-auto mb-4 flex h-20 w-20 items-center justify-center md:mb-8 md:h-48 md:w-48">
               <Image
-                src="/revert-guide-logo.png"
+                src="/revert-guide-logo.webp"
                 alt={copy.logoAlt}
                 width={192}
                 height={192}
@@ -181,31 +181,31 @@ export default function HomePage({ params }: { params: { locale: Locale } }) {
             >
               {[
                 {
-                  src: "/Grandmother female Character Standing.png",
+                  src: "/Grandmother female Character Standing.webp",
                   className:
                     "h-[100px] w-[60px] sm:h-[140px] sm:w-[80px] md:h-[200px] md:w-[110px]",
                   delay: "0.5s",
                 },
                 {
-                  src: "/Adult female Character Standing.png",
+                  src: "/Adult female Character Standing.webp",
                   className:
                     "h-[120px] w-[70px] sm:h-[160px] sm:w-[90px] md:h-[240px] md:w-[130px]",
                   delay: "1s",
                 },
                 {
-                  src: "/Kid standing with right hand up.png",
+                  src: "/Kid standing with right hand up.webp",
                   className:
                     "h-[80px] w-[50px] sm:h-[110px] sm:w-[70px] md:h-[160px] md:w-[95px]",
                   delay: "2.5s",
                 },
                 {
-                  src: "/Adult male Character Standing.png",
+                  src: "/Adult male Character Standing.webp",
                   className:
                     "h-[130px] w-[75px] sm:h-[170px] sm:w-[95px] md:h-[250px] md:w-[135px]",
                   delay: "1.8s",
                 },
                 {
-                  src: "/Grandfather male Character Standing.png",
+                  src: "/Grandfather male Character Standing.webp",
                   className:
                     "h-[110px] w-[65px] sm:h-[150px] sm:w-[85px] md:h-[210px] md:w-[115px]",
                   delay: "3.2s",

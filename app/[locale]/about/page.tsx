@@ -44,7 +44,7 @@ export default function AboutPage({ params }: { params: { locale: Locale } }) {
           aria-hidden="true"
         >
           <Image
-            src="/Grandfather male Character Standing.png"
+            src="/Grandfather male Character Standing.webp"
             alt=""
             fill
             className="object-contain"

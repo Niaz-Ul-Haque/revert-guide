@@ -15,7 +15,7 @@ export default function NotFound() {
     <div className="mx-auto flex min-h-[60vh] max-w-xl flex-col items-center justify-center px-5 py-16 text-center">
       <div className="mb-8 flex h-24 w-24 items-center justify-center rounded-3xl bg-primary/10">
         <Image
-          src="/revert-guide-logo.png"
+          src="/revert-guide-logo.webp"
           alt=""
           width={48}
           height={48}

@@ -19,7 +19,7 @@ export default function OfflinePage() {
     <div className="mx-auto flex min-h-[60vh] max-w-xl flex-col items-center justify-center px-5 py-16 text-center">
       <div className="relative mb-8 h-48 w-36">
         <Image
-          src="/Adult female Character Standing.png"
+          src="/Adult female Character Standing.webp"
           alt=""
           fill
           className="animate-float object-contain"

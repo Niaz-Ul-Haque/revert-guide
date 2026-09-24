@@ -35,7 +35,7 @@ export default function RoadmapPage({
         <AnimateIn>
           <div className="mb-5 flex justify-center" aria-hidden="true">
             <Image
-              src="/revert-guide-logo.png"
+              src="/revert-guide-logo.webp"
               alt=""
               width={48}
               height={48}

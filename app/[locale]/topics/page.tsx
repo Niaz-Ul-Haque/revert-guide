@@ -64,7 +64,7 @@ export default function TopicsPage({ params }: { params: { locale: Locale } }) {
           aria-hidden="true"
         >
           <Image
-            src="/Adult male Character Standing.png"
+            src="/Adult male Character Standing.webp"
             alt=""
             fill
             className="object-contain"

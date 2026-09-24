@@ -71,7 +71,7 @@ export default function MentalHealthPage({
           aria-hidden="true"
         >
           <Image
-            src="/Adult female Character Standing.png"
+            src="/Adult female Character Standing.webp"
             alt=""
             fill
             className="object-contain object-right-bottom"

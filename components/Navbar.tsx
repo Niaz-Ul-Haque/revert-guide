@@ -263,7 +263,7 @@ export function Navbar() {
           {/* Logo mark */}
           <span className="flex h-10 w-10 shrink-0 items-center justify-center overflow-hidden rounded-xl shadow-soft transition-transform duration-300 group-hover:scale-105">
             <Image
-              src="/revert-guide-logo.png"
+              src="/revert-guide-logo.webp"
               alt=""
               width={40}
               height={40}
