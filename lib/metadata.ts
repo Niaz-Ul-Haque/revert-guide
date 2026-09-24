@@ -31,8 +31,10 @@ export function metaDescription(text: string, max = 155): string {
   if (clean.length <= max) return clean;
   const head = clean.slice(0, max + 1);
   let cut = 0;
-  for (const match of head.matchAll(/[.!?]['"’)]?(?=\s|$)/g)) {
-    const end = (match.index ?? 0) + match[0].length;
+  const sentenceEnd = /[.!?]['"’)]?(?=\s|$)/g;
+  let match: RegExpExecArray | null;
+  while ((match = sentenceEnd.exec(head))) {
+    const end = match.index + match[0].length;
     if (end <= max) cut = end;
   }
   // A very short first sentence reads worse than a longer word-boundary cut.
