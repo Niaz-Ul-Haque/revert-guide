@@ -1265,6 +1265,12 @@
     },
     "findMasjid": {
       "description": "Search Toronto-area mosques, compare what each one offers, and open directions in your usual maps app.",
+      "coverage": {
+        "title": "What this directory covers",
+        "summary": "{count} masjids and Islamic centres in {regions} provinces and territories: {list}.",
+        "scope": "The directory lists mainstream Sunni masjids and Islamic centres that have an official website or page. It is not complete, and more places are added as they are checked.",
+        "programNote": "If a listing has no new Muslim program note, that does not mean there is no program. Ask when you call."
+      },
       "offlineTitle": "You are offline",
       "offlineBody": "The masjid list, the text search, and the filters all work offline. The interactive map and the address search need a connection.",
       "mapTitle": "Masjid map",
@@ -1293,6 +1299,8 @@
       "searchPlaceholder": "Search by name, address, city, notes, service, or postal code...",
       "searchLabel": "Search masjids",
       "filtersTitle": "Filter this list",
+      "provinceLabel": "Province or territory",
+      "provinceAll": "All provinces and territories",
       "cityLabel": "City",
       "cityAll": "All cities",
       "servicesLabel": "Services",

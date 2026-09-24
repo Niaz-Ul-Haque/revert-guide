@@ -120,6 +120,7 @@ export function FindMasjidPageClient({
   const t = useTranslations();
   const copy = t<Messages["pages"]["findMasjid"]>("pages.findMasjid");
   const [query, setQuery] = useState("");
+  const [provinceFilter, setProvinceFilter] = useState("all");
   const [cityFilter, setCityFilter] = useState("all");
   const [selectedServiceIds, setSelectedServiceIds] = useState<
     MasjidServiceId[]
@@ -161,12 +162,49 @@ export function FindMasjidPageClient({
     };
   }, []);
 
+  /* Province counts drive both the province filter and the coverage line. */
+  const provinceCounts = useMemo(() => {
+    const counts = new Map<string, number>();
+    for (const masjid of masjids) {
+      counts.set(
+        masjid.stateProvince,
+        (counts.get(masjid.stateProvince) ?? 0) + 1,
+      );
+    }
+    return Array.from(counts.entries()).sort(
+      (left, right) => right[1] - left[1] || left[0].localeCompare(right[0]),
+    );
+  }, [masjids]);
+
+  const provinceOptions = useMemo(() => {
+    const collator = new Intl.Collator(locale);
+    return provinceCounts.map(([province]) => province).sort(collator.compare);
+  }, [locale, provinceCounts]);
+
   const cityOptions = useMemo(() => {
     const collator = new Intl.Collator(locale);
-    return Array.from(new Set(masjids.map((masjid) => masjid.city))).sort(
-      collator.compare,
+    return Array.from(
+      new Set(
+        masjids
+          .filter(
+            (masjid) =>
+              provinceFilter === "all" ||
+              masjid.stateProvince === provinceFilter,
+          )
+          .map((masjid) => masjid.city),
+      ),
+    ).sort(collator.compare);
+  }, [locale, masjids, provinceFilter]);
+
+  const coverageSummary = copy.coverage.summary
+    .replace("{count}", String(masjids.length))
+    .replace("{regions}", String(provinceCounts.length))
+    .replace(
+      "{list}",
+      provinceCounts
+        .map(([province, count]) => `${province} (${count})`)
+        .join(", "),
     );
-  }, [locale, masjids]);
 
   const availableServiceIds = useMemo(() => {
     const uniqueIds = new Set<MasjidServiceId>();
@@ -202,6 +240,13 @@ export function FindMasjidPageClient({
         if (
           normalizedQuery &&
           !toSearchableText(masjid, serviceLabels).includes(normalizedQuery)
+        ) {
+          return false;
+        }
+
+        if (
+          provinceFilter !== "all" &&
+          masjid.stateProvince !== provinceFilter
         ) {
           return false;
         }
@@ -259,6 +304,7 @@ export function FindMasjidPageClient({
   }, [
     amenityFilters,
     cityFilter,
+    provinceFilter,
     locale,
     masjids,
     query,
@@ -357,6 +403,7 @@ export function FindMasjidPageClient({
 
   function clearAllFilters() {
     setQuery("");
+    setProvinceFilter("all");
     setCityFilter("all");
     setSelectedServiceIds([]);
     setAmenityFilters({
@@ -371,6 +418,7 @@ export function FindMasjidPageClient({
 
   const hasActiveFilters =
     query.trim().length > 0 ||
+    provinceFilter !== "all" ||
     cityFilter !== "all" ||
     selectedServiceIds.length > 0 ||
     Object.values(amenityFilters).some(Boolean) ||
@@ -379,6 +427,7 @@ export function FindMasjidPageClient({
 
   const activeFilterCount =
     (query.trim().length > 0 ? 1 : 0) +
+    (provinceFilter !== "all" ? 1 : 0) +
     (cityFilter !== "all" ? 1 : 0) +
     selectedServiceIds.length +
     Object.values(amenityFilters).filter(Boolean).length +
@@ -415,6 +464,29 @@ export function FindMasjidPageClient({
           </p>
         </AnimateIn>
       </header>
+
+      <AnimateIn delay={0.02}>
+        <section
+          className="mb-6 rounded-2xl border border-border/60 bg-white p-5 shadow-card"
+          aria-labelledby="masjid-coverage-heading"
+        >
+          <h2
+            id="masjid-coverage-heading"
+            className="mb-2 mt-0 text-lg font-semibold text-textPrimary"
+          >
+            {copy.coverage.title}
+          </h2>
+          <p className="mb-2 text-sm leading-relaxed text-textSecondary">
+            {coverageSummary}
+          </p>
+          <p className="mb-2 text-sm leading-relaxed text-textSecondary">
+            {copy.coverage.scope}
+          </p>
+          <p className="mb-0 text-sm font-medium leading-relaxed text-textPrimary">
+            {copy.coverage.programNote}
+          </p>
+        </section>
+      </AnimateIn>
 
       {isOffline && (
         <Callout variant="warning" title={copy.offlineTitle}>
@@ -709,6 +781,32 @@ export function FindMasjidPageClient({
               </div>
 
               <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
+                {/* Province */}
+                <div>
+                  <label
+                    htmlFor="masjid-province-filter"
+                    className="mb-1.5 block text-sm font-medium text-textPrimary"
+                  >
+                    {copy.provinceLabel}
+                  </label>
+                  <select
+                    id="masjid-province-filter"
+                    value={provinceFilter}
+                    onChange={(event) => {
+                      setProvinceFilter(event.target.value);
+                      setCityFilter("all");
+                    }}
+                    className="w-full rounded-xl border border-border/60 bg-white px-3.5 py-2.5 text-sm text-textPrimary focus:border-primaryGreen focus:outline-2 focus:outline-offset-0 focus:outline-borderStrong"
+                  >
+                    <option value="all">{copy.provinceAll}</option>
+                    {provinceOptions.map((province) => (
+                      <option key={province} value={province}>
+                        {province}
+                      </option>
+                    ))}
+                  </select>
+                </div>
+
                 {/* City */}
                 <div>
                   <label
