@@ -7,6 +7,8 @@ import { getLifeGuides } from "@/lib/life-guides";
 import { localizeHref, type Locale } from "@/lib/i18n";
 import { getTranslator } from "@/lib/messages";
 import { buildPageMetadata } from "@/lib/metadata";
+import { JsonLd, breadcrumbJsonLd } from "@/components/JsonLd";
+import { localeUrl } from "@/lib/site";
 
 export function generateMetadata({ params }: { params: { locale: Locale } }) {
   const t = getTranslator(params.locale);
@@ -38,6 +40,12 @@ export default function GuidesPage({ params }: { params: { locale: Locale } }) {
 
   return (
     <div className="mx-auto max-w-5xl px-5 py-10">
+      <JsonLd
+        data={breadcrumbJsonLd([
+          { name: t("nav.home"), url: localeUrl(locale, "/") },
+          { name: copy.title, url: localeUrl(locale, "/guides") },
+        ])}
+      />
       <Breadcrumb
         items={[
           { label: t("nav.home"), href: localizeHref(locale, "/") },

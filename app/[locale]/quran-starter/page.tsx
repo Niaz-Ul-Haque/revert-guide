@@ -17,6 +17,8 @@ import { localizeHref, type Locale } from "@/lib/i18n";
 import { getTranslator } from "@/lib/messages";
 import { buildPageMetadata } from "@/lib/metadata";
 import type { TopicImage } from "@/lib/types";
+import { JsonLd, breadcrumbJsonLd } from "@/components/JsonLd";
+import { localeUrl } from "@/lib/site";
 
 interface QuranStarterCopy {
   metadataTitle: string;
@@ -248,6 +250,20 @@ export default function QuranStarterPage({
 
   return (
     <div className="mx-auto max-w-5xl px-5 py-10">
+      <JsonLd
+        data={breadcrumbJsonLd([
+          { name: t("nav.home"), url: localeUrl(locale, "/") },
+          { name: t("nav.topics"), url: localeUrl(locale, "/topics") },
+          {
+            name: copy.quranBreadcrumb,
+            url: localeUrl(locale, "/topics/quran"),
+          },
+          {
+            name: t("nav.quranStarter"),
+            url: localeUrl(locale, "/quran-starter"),
+          },
+        ])}
+      />
       <Breadcrumb
         items={[
           { label: t("nav.home"), href: localizeHref(locale, "/") },

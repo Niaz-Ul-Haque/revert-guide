@@ -11,7 +11,9 @@ import {
   ORGANISATION_LOCATION,
   ORGANISATION_NAME,
   hasPlaceholderConfig,
+  localeUrl,
 } from "@/lib/site";
+import { JsonLd, breadcrumbJsonLd } from "@/components/JsonLd";
 
 export function generateMetadata({ params }: { params: { locale: Locale } }) {
   return getPageMetadata(params.locale, "about", "/about");
@@ -25,6 +27,12 @@ export default function AboutPage({ params }: { params: { locale: Locale } }) {
 
   return (
     <div className="mx-auto max-w-4xl px-5 py-10">
+      <JsonLd
+        data={breadcrumbJsonLd([
+          { name: t("nav.home"), url: localeUrl(locale, "/") },
+          { name: copy.title, url: localeUrl(locale, "/about") },
+        ])}
+      />
       <Breadcrumb
         items={[
           { label: t("nav.home"), href: localizeHref(locale, "/") },

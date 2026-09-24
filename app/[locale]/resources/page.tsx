@@ -2,6 +2,9 @@ import { ResourcesPageClient } from "@/components/ResourcesPageClient";
 import { getAllResources, getAllSources } from "@/lib/content";
 import { type Locale } from "@/lib/i18n";
 import { getPageMetadata } from "@/lib/metadata";
+import { JsonLd, breadcrumbJsonLd } from "@/components/JsonLd";
+import { getTranslator } from "@/lib/messages";
+import { localeUrl } from "@/lib/site";
 
 export function generateMetadata({ params }: { params: { locale: Locale } }) {
   return getPageMetadata(params.locale, "resources", "/resources");
@@ -12,11 +15,22 @@ export default function ResourcesPage({
 }: {
   params: { locale: Locale };
 }) {
+  const locale = params.locale;
+  const t = getTranslator(locale);
+
   return (
-    <ResourcesPageClient
-      locale={params.locale}
-      resources={getAllResources(params.locale)}
-      sources={params.locale === "en" ? getAllSources(params.locale) : []}
-    />
+    <>
+      <JsonLd
+        data={breadcrumbJsonLd([
+          { name: t("nav.home"), url: localeUrl(locale, "/") },
+          { name: t("nav.resources"), url: localeUrl(locale, "/resources") },
+        ])}
+      />
+      <ResourcesPageClient
+        locale={params.locale}
+        resources={getAllResources(params.locale)}
+        sources={params.locale === "en" ? getAllSources(params.locale) : []}
+      />
+    </>
   );
 }

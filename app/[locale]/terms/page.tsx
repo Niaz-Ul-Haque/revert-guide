@@ -3,6 +3,8 @@ import { AnimateIn } from "@/components/AnimateIn";
 import { localizeHref, type Locale, type Messages } from "@/lib/i18n";
 import { getTranslator } from "@/lib/messages";
 import { getPageMetadata } from "@/lib/metadata";
+import { JsonLd, breadcrumbJsonLd } from "@/components/JsonLd";
+import { localeUrl } from "@/lib/site";
 
 export function generateMetadata({ params }: { params: { locale: Locale } }) {
   return getPageMetadata(params.locale, "terms", "/terms");
@@ -15,6 +17,12 @@ export default function TermsPage({ params }: { params: { locale: Locale } }) {
 
   return (
     <div className="mx-auto max-w-4xl px-5 py-10">
+      <JsonLd
+        data={breadcrumbJsonLd([
+          { name: t("nav.home"), url: localeUrl(locale, "/") },
+          { name: copy.title, url: localeUrl(locale, "/terms") },
+        ])}
+      />
       <Breadcrumb
         items={[
           { label: t("nav.home"), href: localizeHref(locale, "/") },

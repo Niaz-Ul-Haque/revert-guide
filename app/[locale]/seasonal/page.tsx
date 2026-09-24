@@ -7,6 +7,8 @@ import { getSeasonalGuides } from "@/lib/seasonal-guides";
 import { localizeHref, type Locale } from "@/lib/i18n";
 import { getTranslator } from "@/lib/messages";
 import { buildPageMetadata } from "@/lib/metadata";
+import { JsonLd, breadcrumbJsonLd } from "@/components/JsonLd";
+import { localeUrl } from "@/lib/site";
 
 export function generateMetadata({ params }: { params: { locale: Locale } }) {
   const t = getTranslator(params.locale);
@@ -63,6 +65,12 @@ export default function SeasonalGuidesPage({
 
   return (
     <div className="mx-auto max-w-5xl px-5 py-10">
+      <JsonLd
+        data={breadcrumbJsonLd([
+          { name: t("nav.home"), url: localeUrl(locale, "/") },
+          { name: copy.title, url: localeUrl(locale, "/seasonal") },
+        ])}
+      />
       <Breadcrumb
         items={[
           { label: t("nav.home"), href: href("/") },

@@ -13,6 +13,8 @@ import { getRamadanPlanningContent } from "@/lib/tool-content";
 import { localizeHref, type Locale, type Messages } from "@/lib/i18n";
 import { getTranslator } from "@/lib/messages";
 import { getPageMetadata } from "@/lib/metadata";
+import { JsonLd, breadcrumbJsonLd } from "@/components/JsonLd";
+import { localeUrl } from "@/lib/site";
 
 export function generateMetadata({ params }: { params: { locale: Locale } }) {
   return getPageMetadata(params.locale, "ramadan", "/ramadan");
@@ -52,6 +54,12 @@ export default function RamadanPage({
 
   return (
     <div className="mx-auto max-w-4xl px-5 py-10">
+      <JsonLd
+        data={breadcrumbJsonLd([
+          { name: t("nav.home"), url: localeUrl(locale, "/") },
+          { name: t("nav.ramadan"), url: localeUrl(locale, "/ramadan") },
+        ])}
+      />
       <Breadcrumb
         items={[
           { label: t("nav.home"), href: localizeHref(locale, "/") },

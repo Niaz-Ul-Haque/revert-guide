@@ -7,6 +7,8 @@ import { AnimateIn } from "@/components/AnimateIn";
 import { localizeHref, type Locale, type Messages } from "@/lib/i18n";
 import { getTranslator } from "@/lib/messages";
 import { getPageMetadata } from "@/lib/metadata";
+import { JsonLd, breadcrumbJsonLd } from "@/components/JsonLd";
+import { localeUrl } from "@/lib/site";
 
 export function generateMetadata({ params }: { params: { locale: Locale } }) {
   return getPageMetadata(params.locale, "roadmap", "/roadmap");
@@ -24,6 +26,12 @@ export default function RoadmapPage({
 
   return (
     <div className="mx-auto max-w-4xl px-5 py-10">
+      <JsonLd
+        data={breadcrumbJsonLd([
+          { name: t("nav.home"), url: localeUrl(locale, "/") },
+          { name: t("nav.roadmap"), url: localeUrl(locale, "/roadmap") },
+        ])}
+      />
       <Breadcrumb
         items={[
           { label: t("nav.home"), href: localizeHref(locale, "/") },

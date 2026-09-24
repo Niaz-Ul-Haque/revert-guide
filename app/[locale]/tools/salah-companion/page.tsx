@@ -13,6 +13,8 @@ import { localizeHref, type Locale } from "@/lib/i18n";
 import { getTranslator } from "@/lib/messages";
 import { buildPageMetadata } from "@/lib/metadata";
 import type { TopicImage } from "@/lib/types";
+import { JsonLd, breadcrumbJsonLd } from "@/components/JsonLd";
+import { localeUrl } from "@/lib/site";
 
 interface SalahCompanionCopy {
   metadataTitle: string;
@@ -197,6 +199,16 @@ export default function SalahCompanionPage({
 
   return (
     <div className="mx-auto max-w-5xl px-5 py-10">
+      <JsonLd
+        data={breadcrumbJsonLd([
+          { name: t("nav.home"), url: localeUrl(locale, "/") },
+          { name: t("nav.tools"), url: localeUrl(locale, "/resources") },
+          {
+            name: copy.title,
+            url: localeUrl(locale, "/tools/salah-companion"),
+          },
+        ])}
+      />
       <Breadcrumb
         items={[
           { label: t("nav.home"), href: localizeHref(locale, "/") },

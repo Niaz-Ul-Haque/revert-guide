@@ -13,7 +13,8 @@ import {
 } from "@/lib/i18n";
 import { getTranslator } from "@/lib/messages";
 import { getPageMetadata } from "@/lib/metadata";
-import { CONTACT_EMAIL } from "@/lib/site";
+import { CONTACT_EMAIL, localeUrl } from "@/lib/site";
+import { JsonLd, breadcrumbJsonLd } from "@/components/JsonLd";
 
 const sourceLinkHrefs: Record<string, string[]> = {
   "quran-refs": [
@@ -57,6 +58,12 @@ export default function SourcesPage({
 
     return (
       <div className="mx-auto max-w-5xl px-5 py-10">
+        <JsonLd
+          data={breadcrumbJsonLd([
+            { name: t("nav.home"), url: localeUrl(locale, "/") },
+            { name: copy.title, url: localeUrl(locale, "/sources") },
+          ])}
+        />
         <Breadcrumb
           items={[
             { label: t("nav.home"), href: href("/") },
@@ -217,6 +224,12 @@ export default function SourcesPage({
 
   return (
     <div className="mx-auto max-w-4xl px-5 py-10">
+      <JsonLd
+        data={breadcrumbJsonLd([
+          { name: t("nav.home"), url: localeUrl(locale, "/") },
+          { name: copy.title, url: localeUrl(locale, "/sources") },
+        ])}
+      />
       <Breadcrumb
         items={[
           { label: t("nav.home"), href: href("/") },

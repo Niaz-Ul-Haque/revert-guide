@@ -9,6 +9,8 @@ import { getDuaDhikrContent, type DuaEntry } from "@/lib/tool-content";
 import { localizeHref, type Locale } from "@/lib/i18n";
 import { getTranslator } from "@/lib/messages";
 import { buildPageMetadata } from "@/lib/metadata";
+import { JsonLd, breadcrumbJsonLd } from "@/components/JsonLd";
+import { localeUrl } from "@/lib/site";
 
 interface DuaDhikrCopy {
   metadataTitle: string;
@@ -159,6 +161,13 @@ export default function DuaDhikrPage({
 
   return (
     <div className="mx-auto max-w-5xl px-5 py-10">
+      <JsonLd
+        data={breadcrumbJsonLd([
+          { name: t("nav.home"), url: localeUrl(locale, "/") },
+          { name: t("nav.topics"), url: localeUrl(locale, "/topics") },
+          { name: t("nav.duaDhikr"), url: localeUrl(locale, "/dua-dhikr") },
+        ])}
+      />
       <Breadcrumb
         items={[
           { label: t("nav.home"), href: localizeHref(locale, "/") },

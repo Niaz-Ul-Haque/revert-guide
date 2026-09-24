@@ -6,6 +6,8 @@ import { getSourcesByIds } from "@/lib/content";
 import { localizeHref, type Locale } from "@/lib/i18n";
 import { getTranslator } from "@/lib/messages";
 import { getPageMetadata } from "@/lib/metadata";
+import { JsonLd, breadcrumbJsonLd } from "@/components/JsonLd";
+import { localeUrl } from "@/lib/site";
 
 export function generateMetadata({ params }: { params: { locale: Locale } }) {
   return getPageMetadata(params.locale, "prayerTimes", "/prayer-times");
@@ -23,6 +25,13 @@ export default function PrayerTimesPage({
 
   return (
     <div className="mx-auto max-w-2xl px-5 py-10">
+      <JsonLd
+        data={breadcrumbJsonLd([
+          { name: t("nav.home"), url: localeUrl(locale, "/") },
+          { name: t("nav.tools"), url: localeUrl(locale, "/resources") },
+          { name: copy.title, url: localeUrl(locale, "/prayer-times") },
+        ])}
+      />
       <Breadcrumb
         items={[
           { label: t("nav.home"), href: localizeHref(locale, "/") },

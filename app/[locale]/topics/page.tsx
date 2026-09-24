@@ -9,6 +9,8 @@ import type { IconName } from "@/components/Icon";
 import { localizeHref, type Locale, type Messages } from "@/lib/i18n";
 import { getTranslator } from "@/lib/messages";
 import { getPageMetadata } from "@/lib/metadata";
+import { JsonLd, breadcrumbJsonLd } from "@/components/JsonLd";
+import { localeUrl } from "@/lib/site";
 
 const topicIcons: Record<string, IconName> = {
   prayer: "star",
@@ -42,6 +44,12 @@ export default function TopicsPage({ params }: { params: { locale: Locale } }) {
 
   return (
     <div className="mx-auto max-w-5xl px-5 py-10">
+      <JsonLd
+        data={breadcrumbJsonLd([
+          { name: t("nav.home"), url: localeUrl(locale, "/") },
+          { name: t("nav.topics"), url: localeUrl(locale, "/topics") },
+        ])}
+      />
       <Breadcrumb
         items={[
           { label: t("nav.home"), href: localizeHref(locale, "/") },
