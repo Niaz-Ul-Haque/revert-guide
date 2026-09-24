@@ -177,6 +177,18 @@ export default function RamadanPage({
               {copy.planningBody}
             </p>
           </div>
+          <figure className="page-break-avoid mx-auto mb-6 mt-0 max-w-sm">
+            <Image
+              src="/graphics/first-ramadan-checklist.svg"
+              alt={copy.checklistAlt}
+              width={420}
+              height={925}
+              className="h-auto w-full"
+            />
+            <figcaption className="mt-2 text-center text-sm text-textSecondary">
+              {copy.checklistCaption}
+            </figcaption>
+          </figure>
           <div className="grid gap-4 md:grid-cols-2">
             {firstRamadanSections.map((section) => (
               <article
@@ -218,6 +230,14 @@ export default function RamadanPage({
             </h2>
             <p className="mb-0 max-w-2xl text-sm leading-relaxed text-textSecondary">
               {copy.careBody}
+            </p>
+            <p className="mb-0 mt-3 text-sm">
+              <Link
+                href={localizeHref(locale, "/topics/menstruation-and-worship")}
+                className="font-medium text-primary underline hover:text-primaryHover"
+              >
+                {copy.sistersLinkLabel}
+              </Link>
             </p>
           </div>
           <div className="grid gap-4">
