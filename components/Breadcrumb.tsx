@@ -47,7 +47,7 @@ export function Breadcrumb({ items }: BreadcrumbProps) {
 
               {isLast || !item.href ? (
                 <span
-                  className="font-medium text-textMuted"
+                  className="font-medium text-textSecondary"
                   aria-current={isLast ? "page" : undefined}
                 >
                   {item.label}

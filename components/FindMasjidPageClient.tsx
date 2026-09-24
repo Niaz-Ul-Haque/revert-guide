@@ -685,7 +685,7 @@ export function FindMasjidPageClient({
                   <button
                     type="button"
                     onClick={clearLocationSearch}
-                    className="inline-flex items-center justify-center rounded-xl border border-border/60 bg-white px-3 py-3 text-sm text-textMuted transition-colors hover:border-primary/40 hover:text-primary"
+                    className="inline-flex items-center justify-center rounded-xl border border-border/60 bg-white px-3 py-3 text-sm text-textSecondary transition-colors hover:border-primary/40 hover:text-primary"
                     aria-label={copy.locationClear}
                   >
                     <Icon name="x" size="sm" />
@@ -706,7 +706,7 @@ export function FindMasjidPageClient({
                   ? copy.deviceLocationLocating
                   : copy.deviceLocationAction}
               </button>
-              <p className="mb-0 max-w-2xl flex-1 text-xs text-textMuted">
+              <p className="mb-0 max-w-2xl flex-1 text-xs text-textSecondary">
                 {copy.locationHelper}
               </p>
             </div>
@@ -746,7 +746,7 @@ export function FindMasjidPageClient({
 
           {/* Map legend + count bar */}
           <div className="flex flex-wrap items-center justify-between gap-3 border-t border-border/40 bg-surface/60 px-4 py-2.5">
-            <div className="flex flex-wrap gap-3 text-xs text-textMuted">
+            <div className="flex flex-wrap gap-3 text-xs text-textSecondary">
               <span className="inline-flex items-center gap-1.5">
                 <span className="h-2.5 w-2.5 rounded-full border-2 border-primary bg-white" />
                 {copy.mapLegendMasjid}
@@ -1041,14 +1041,14 @@ export function FindMasjidPageClient({
                           {masjid.name}
                         </h2>
                         {distanceKm !== null && (
-                          <span className="shrink-0 rounded-full bg-primary/10 px-2.5 py-0.5 text-xs font-semibold text-primary">
+                          <span className="shrink-0 rounded-full bg-primary/10 px-2.5 py-0.5 text-xs font-semibold text-primaryHover">
                             {approximate
                               ? `${copy.distanceApprox} ${formatDistance(locale, distanceKm)}`
                               : formatDistance(locale, distanceKm)}
                           </span>
                         )}
                       </div>
-                      <p className="mb-0 mt-0.5 text-xs text-textMuted">
+                      <p className="mb-0 mt-0.5 text-xs text-textSecondary">
                         {masjid.city}, {masjid.stateProvince}
                       </p>
                       {approximate && (
@@ -1154,7 +1154,7 @@ export function FindMasjidPageClient({
                         {supportBadges.map((badge) => (
                           <span
                             key={badge}
-                            className="rounded-full bg-surfaceElevated px-2.5 py-1 text-[11px] font-medium text-textMuted"
+                            className="rounded-full bg-surfaceElevated px-2.5 py-1 text-[11px] font-medium text-textSecondary"
                           >
                             {badge}
                           </span>
