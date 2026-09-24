@@ -26,18 +26,9 @@ export default function MentalHealthPage({
   const locale = params.locale;
   const t = getTranslator(locale);
   const copy = t<Messages["pages"]["mentalHealth"]>("pages.mentalHealth");
-  const helplines = copy.resources.crisisHelplines.map((item, index) => ({
-    ...item,
-    href: ["tel:988", "sms:741741", "tel:1-866-627-3342"][index],
-    officialHref: [
-      "https://988lifeline.org/",
-      "https://www.crisistextline.org/",
-      "https://www.naseeha.org/",
-    ][index],
-  }));
   const directories = copy.resources.directories.map((item, index) => ({
     ...item,
-    href: index === 0 ? "https://khalilcenter.com/" : null,
+    href: index === 0 ? "https://khalilcenter.ca/" : null,
   }));
   const furtherReading = copy.resources.furtherReading.map((item, index) => ({
     ...item,
@@ -48,12 +39,14 @@ export default function MentalHealthPage({
   }));
   const sources = getSourcesByIds(
     [
-      "988-lifeline",
-      "samhsa-988",
-      "cdc-suicide-prevention",
-      "crisis-text-line",
-      "khalil-center",
+      "emergency-911-canada",
+      "988-canada",
+      "kids-help-phone",
+      "hope-for-wellness",
       "naseeha",
+      "ontario-211",
+      "connexontario",
+      "khalil-center",
       "yaqeen-mental-health",
     ],
     locale,
@@ -247,45 +240,76 @@ export default function MentalHealthPage({
             {copy.resources.title}
           </h2>
 
-          {/* Crisis Helplines */}
-          <h3 className="mb-3 font-display text-lg font-semibold text-textPrimary">
-            {copy.resources.crisisHelplinesTitle}
-          </h3>
-          <div className="mb-8 flex flex-col gap-3">
-            {helplines.map((item, i) => (
-              <div
-                key={i}
-                className="rounded-2xl border border-border/60 bg-white p-5 shadow-card transition-shadow duration-300 hover:shadow-soft"
-              >
-                <p className="mb-1 text-base font-bold text-textPrimary">
-                  {item.name}
+          <p className="mb-6 text-base leading-relaxed text-textSecondary">
+            {copy.resources.confidentialityNote}
+          </p>
+
+          {/* Crisis and support lines, in the order a person should try them */}
+          {copy.resources.supportGroups.map((group) => (
+            <div key={group.id} className="mb-8">
+              <h3 className="mb-3 font-display text-lg font-semibold text-textPrimary">
+                {group.title}
+              </h3>
+              {"intro" in group && group.intro ? (
+                <p className="mb-3 text-sm leading-relaxed text-textSecondary">
+                  {group.intro}{" "}
+                  {"linkHref" in group && group.linkHref ? (
+                    <a
+                      href={group.linkHref}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="font-medium text-primary hover:text-primaryHover"
+                    >
+                      {group.linkLabel}
+                    </a>
+                  ) : null}
                 </p>
-                <p className="mb-2 text-sm leading-relaxed text-textSecondary">
-                  {item.desc}
-                </p>
-                <p className="mb-0 flex items-center gap-2 text-sm">
-                  <span className="font-medium text-textPrimary">
-                    {item.label}
-                  </span>
-                  <a
-                    href={item.href}
-                    className="font-bold text-primary no-underline transition-colors duration-200 hover:text-primaryHover hover:underline"
+              ) : null}
+              <div className="flex flex-col gap-3">
+                {group.items.map((item) => (
+                  <div
+                    key={item.name}
+                    className="rounded-2xl border border-border/60 bg-white p-5 shadow-card transition-shadow duration-300 hover:shadow-soft"
                   >
-                    {item.contact}
-                  </a>
-                </p>
-                <a
-                  href={item.officialHref}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="mt-3 inline-flex items-center gap-1 text-sm font-medium text-primary no-underline transition-colors duration-200 hover:text-primaryHover hover:underline"
-                >
-                  Official website
-                  <Icon name="external-link" size="sm" />
-                </a>
+                    <p className="mb-1 text-base font-bold text-textPrimary">
+                      {item.name}
+                    </p>
+                    <p className="mb-2 text-sm leading-relaxed text-textSecondary">
+                      {item.desc}
+                    </p>
+                    {item.contacts.map((contact) => (
+                      <p
+                        key={contact.href}
+                        className="mb-1 flex flex-wrap items-center gap-2 text-sm"
+                      >
+                        <span className="font-medium text-textPrimary">
+                          {contact.label}
+                        </span>
+                        <a
+                          href={contact.href}
+                          className="inline-flex min-h-[44px] items-center font-bold text-primary no-underline transition-colors duration-200 hover:text-primaryHover hover:underline"
+                        >
+                          {contact.value}
+                        </a>
+                      </p>
+                    ))}
+                    <p className="mb-0 text-xs text-textMuted">
+                      {item.checked}
+                    </p>
+                    <a
+                      href={item.officialHref}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="mt-3 inline-flex items-center gap-1 text-sm font-medium text-primary no-underline transition-colors duration-200 hover:text-primaryHover hover:underline"
+                    >
+                      {copy.resources.officialLabel}
+                      <Icon name="external-link" size="sm" />
+                    </a>
+                  </div>
+                ))}
               </div>
-            ))}
-          </div>
+            </div>
+          ))}
 
           {/* Directories & Support */}
           <h3 className="mb-3 font-display text-lg font-semibold text-textPrimary">

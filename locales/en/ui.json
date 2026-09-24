@@ -863,7 +863,7 @@
           "Using substances to get through the day"
         ],
         "calloutTitle": "If you are in immediate danger",
-        "calloutBody": "If you are thinking about harming yourself, call 911 or go to the nearest emergency room now. Your life matters."
+        "calloutBody": "If you are thinking about harming yourself, call or text 9-8-8 at any hour. If you are in immediate danger, call 9-1-1 or go to the nearest emergency department now. Your life matters."
       },
       "disclaimer": {
         "label": "Note:",
@@ -871,25 +871,135 @@
       },
       "resources": {
         "title": "Support resources",
-        "crisisHelplinesTitle": "Crisis helplines",
-        "crisisHelplines": [
+        "confidentialityNote": "Helplines keep what you tell them confidential. Some, including Kids Help Phone, say they may contact emergency services if someone's life is in danger.",
+        "officialLabel": "Official website",
+        "supportGroups": [
           {
-            "name": "988 Suicide & Crisis Lifeline",
-            "desc": "Support for anyone in distress or crisis, any hour of the day.",
-            "label": "Call or text:",
-            "contact": "988"
+            "id": "urgent",
+            "title": "If you are in danger or thinking about suicide",
+            "items": [
+              {
+                "name": "Emergency services (9-1-1)",
+                "desc": "If you or someone else is in immediate danger or needs urgent medical help, call 9-1-1 or go to the nearest emergency department.",
+                "contacts": [
+                  {
+                    "label": "Call:",
+                    "value": "9-1-1",
+                    "href": "tel:911"
+                  }
+                ],
+                "officialHref": "https://www.canada.ca/en/public-health/services/mental-health-services/mental-health-get-help.html",
+                "checked": "Checked 23 September 2026"
+              },
+              {
+                "name": "9-8-8: Suicide Crisis Helpline",
+                "desc": "For anyone in Canada who is thinking about suicide, or who is worried about someone else. Free, 24/7, in English and French.",
+                "contacts": [
+                  {
+                    "label": "Call:",
+                    "value": "9-8-8",
+                    "href": "tel:988"
+                  },
+                  {
+                    "label": "Text:",
+                    "value": "9-8-8",
+                    "href": "sms:988"
+                  }
+                ],
+                "officialHref": "https://988.ca/",
+                "checked": "Checked 23 September 2026"
+              },
+              {
+                "name": "Kids Help Phone",
+                "desc": "Free 24/7 support for young people aged 5 to 29. Phone calls are anonymous. Texts are confidential but not anonymous.",
+                "contacts": [
+                  {
+                    "label": "Call:",
+                    "value": "1-800-668-6868",
+                    "href": "tel:18006686868"
+                  },
+                  {
+                    "label": "Text CONNECT to",
+                    "value": "686868",
+                    "href": "sms:686868"
+                  }
+                ],
+                "officialHref": "https://kidshelpphone.ca/",
+                "checked": "Checked 23 September 2026"
+              },
+              {
+                "name": "Hope for Wellness Help Line",
+                "desc": "24/7 counselling and crisis support for First Nations, Inuit and Métis people anywhere in Canada.",
+                "contacts": [
+                  {
+                    "label": "Call:",
+                    "value": "1-855-242-3310",
+                    "href": "tel:18552423310"
+                  }
+                ],
+                "officialHref": "https://www.hopeforwellness.ca/",
+                "checked": "Checked 23 September 2026"
+              }
+            ]
           },
           {
-            "name": "Crisis Text Line",
-            "desc": "Free crisis support by text, around the clock.",
-            "label": "Text HOME to",
-            "contact": "741741"
+            "id": "faith",
+            "title": "Faith-aware support (not an emergency service)",
+            "items": [
+              {
+                "name": "Naseeha helpline",
+                "desc": "A 24/7 helpline for Muslim youth, run by a Canadian Muslim charity. It is not an emergency service. If your life is in danger, call 9-1-1 or 9-8-8 first.",
+                "contacts": [
+                  {
+                    "label": "Call:",
+                    "value": "1 (866) 627-3342",
+                    "href": "tel:18666273342"
+                  }
+                ],
+                "officialHref": "https://www.naseeha.org/",
+                "checked": "Checked 23 September 2026"
+              }
+            ]
           },
           {
-            "name": "Naseeha Mental Health Helpline",
-            "desc": "Confidential support for Muslims, available around the clock.",
-            "label": "Call:",
-            "contact": "1-866-627-3342"
+            "id": "ontario",
+            "title": "Finding services in Ontario",
+            "intro": "These lines help you find local services that are not emergencies. Outside Ontario, the Government of Canada keeps a list of services for each province and territory.",
+            "linkLabel": "See services by province and territory",
+            "linkHref": "https://www.canada.ca/en/public-health/services/mental-health-services/mental-health-get-help.html",
+            "items": [
+              {
+                "name": "211 Ontario",
+                "desc": "Help finding community, social and health services near you. Answered by people 24/7, in more than 150 languages.",
+                "contacts": [
+                  {
+                    "label": "Call or text:",
+                    "value": "2-1-1",
+                    "href": "tel:211"
+                  }
+                ],
+                "officialHref": "https://211ontario.ca/contact/",
+                "checked": "Checked 23 September 2026"
+              },
+              {
+                "name": "ConnexOntario",
+                "desc": "Free 24/7 help finding mental health, addiction and problem gambling services in Ontario.",
+                "contacts": [
+                  {
+                    "label": "Call:",
+                    "value": "1-866-531-2600",
+                    "href": "tel:18665312600"
+                  },
+                  {
+                    "label": "Text CONNEX to",
+                    "value": "247247",
+                    "href": "sms:247247"
+                  }
+                ],
+                "officialHref": "https://www.connexontario.ca/",
+                "checked": "Checked 23 September 2026"
+              }
+            ]
           }
         ],
         "directoriesTitle": "Directories and support",
