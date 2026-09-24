@@ -330,6 +330,7 @@ export function MasjidMap({
         ref={containerRef}
         className="h-full w-full overflow-hidden rounded-2xl"
         style={{ minHeight: "280px" }}
+        role="region"
         aria-label={copy.mapTitle}
       />
     </div>
