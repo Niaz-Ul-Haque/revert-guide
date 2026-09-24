@@ -65,7 +65,7 @@ function collectRoutes(): RouteEntry[] {
 
   for (const topic of getAllTopics()) {
     routes.push({
-      path: `/topics/${topic.slug}`,
+      path: `/topics/${topic.slug ?? topic.id}`,
       priority: 0.7,
       changeFrequency: "monthly",
     });
