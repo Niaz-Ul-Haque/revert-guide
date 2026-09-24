@@ -46,6 +46,10 @@ export default function RamadanPage({
       "sunnah-bukhari-menstruation-fasting",
       "new-muslim-guide",
       "yaqeen-ramadan",
+      "quran-fasting-2-187",
+      "sunnah-bukhari-suhoor-blessing",
+      "sunnah-bukhari-hasten-iftar",
+      "sunnah-abudawud-iftar-dates-water",
     ],
     locale,
   );
