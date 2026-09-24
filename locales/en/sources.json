@@ -1141,15 +1141,15 @@
   },
   {
     "id": "masjid-toronto-dundas",
-    "title": "Masjid Toronto at Dundas",
+    "title": "MAC Masjid Toronto",
     "organization": "Muslim Association of Canada",
     "category": "masjid-community",
-    "url": "https://centres.macnet.ca/masjidtoronto/venue/toronto-dundas/",
-    "sourceType": "Official masjid venue page",
+    "url": "https://centres.macnet.ca/masjidtoronto/contact-mac-masjid-toronto/",
+    "sourceType": "Official masjid contact page",
     "label": "Official masjid source",
-    "accessed": "2026-06-03",
-    "reviewStatus": "source-checked",
-    "note": "The source used to correct the Masjid Toronto Dundas name, address, and phone number."
+    "accessed": "2026-09-23",
+    "reviewStatus": "review-needed",
+    "note": "Official contact page, opened on 2026-09-23: the Dundas address, phone and email. The programs page gives two start times for the After the Shahadah class, so the time is left out."
   },
   {
     "id": "masjid-islamic-foundation-toronto",
@@ -1207,21 +1207,21 @@
     "url": "https://islam.ca/contact-us/",
     "sourceType": "Official institution contact page",
     "label": "Official masjid source",
-    "accessed": "2026-06-03",
-    "reviewStatus": "source-checked",
-    "note": "The source for the IIT address, phone number, email, directions, and education profile."
+    "accessed": "2026-09-23",
+    "reviewStatus": "review-needed",
+    "note": "Official contact page, opened on 2026-09-23: the IIT address, phone, email and directions. The site menu links The New Muslim Corner course."
   },
   {
     "id": "masjid-jami-mosque-isna",
-    "title": "Jami Mosque Toronto - ISNA Canada",
+    "title": "Jami Masjid - ISNA Canada",
     "organization": "ISNA Canada",
     "category": "masjid-community",
-    "url": "https://www.isnacanada.com/locations/jami-mosque-toronto",
+    "url": "https://www.isnacanada.com/our-spaces/jami-masjid/",
     "sourceType": "Official masjid location page",
     "label": "Official masjid source",
-    "accessed": "2026-06-03",
+    "accessed": "2026-09-23",
     "reviewStatus": "source-checked",
-    "note": "The source for the Jami Mosque profile, with the reminder that visitors should verify details directly."
+    "note": "ISNA Canada's current Jami Masjid page (the old /locations/ page returns 404). The source for the Jami Mosque profile; visitors should still confirm details directly."
   },
   {
     "id": "masjid-abu-huraira-center",
@@ -1243,9 +1243,45 @@
     "url": "https://www.isnacanada.com/our-spaces/islamic-centre-of-canada/",
     "sourceType": "Official masjid/community centre page",
     "label": "Official masjid source",
-    "accessed": "2026-06-03",
-    "reviewStatus": "source-checked",
-    "note": "The source for the Islamic Centre of Canada profile: musallah, youth hub, education center, and the note for visitors."
+    "accessed": "2026-09-23",
+    "reviewStatus": "review-needed",
+    "note": "The source for the Islamic Centre of Canada profile: musallah, youth hub and education centre. The footer confirms 2200 South Sheridan Way and 905.403.8406. ISNA Canada's convert care program is cited separately."
+  },
+  {
+    "id": "masjid-toronto-programs",
+    "title": "Masjid Toronto programs: New Muslims",
+    "organization": "Muslim Association of Canada",
+    "category": "masjid-community",
+    "url": "https://centres.macnet.ca/masjidtoronto/programs/",
+    "sourceType": "Official program page",
+    "label": "Official masjid source",
+    "accessed": "2026-09-23",
+    "reviewStatus": "review-needed",
+    "note": "Official page describing the new Muslim program, opened on 2026-09-23."
+  },
+  {
+    "id": "islamic-institute-toronto-new-muslim-corner",
+    "title": "The New Muslim Corner (recorded course)",
+    "organization": "Islamic Institute of Toronto",
+    "category": "masjid-community",
+    "url": "https://courses.islam.ca/courses/the-new-muslim-corner",
+    "sourceType": "Official course page",
+    "label": "Official masjid source",
+    "accessed": "2026-09-23",
+    "reviewStatus": "review-needed",
+    "note": "Official course page for new Muslims, opened on 2026-09-23: free, 25 recorded lessons, and a Friday 7:00 PM class whose live status is not confirmed."
+  },
+  {
+    "id": "isna-new-muslims-convert-care",
+    "title": "New Muslims and Convert Care",
+    "organization": "ISNA Canada",
+    "category": "masjid-community",
+    "url": "https://www.isnacanada.com/our-work/community/new-muslims-convert-care/",
+    "sourceType": "Official program page",
+    "label": "Official masjid source",
+    "accessed": "2026-09-23",
+    "reviewStatus": "review-needed",
+    "note": "Official program page, opened on 2026-09-23 through a reader proxy because the site blocks automated requests: weekly classes, monthly socials and Being Muslim boxes. Class day, time and venue are not published."
   },
   {
     "id": "quran-al-fatihah-1",

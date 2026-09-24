@@ -47,23 +47,32 @@
   },
   {
     "id": "masjid-toronto-adelaide",
-    "name": "Masjid Toronto (Dundas)",
+    "name": "MAC Masjid Toronto (Dundas)",
     "address": "168 Dundas Street West",
     "city": "Toronto",
     "stateProvince": "Ontario",
     "country": "Canada",
     "postalCode": "M5G 1C6",
     "coordinates": {
-      "lat": 43.6536,
-      "lng": -79.3849
+      "lat": 43.6553756,
+      "lng": -79.3858908
     },
     "phone": "(416) 596-0507",
-    "website": "https://centres.macnet.ca/masjidtoronto/venue/toronto-dundas/",
-    "notes": "A downtown location run by MAC Masjid Toronto. The address here is the Dundas venue.",
+    "website": "https://centres.macnet.ca/masjidtoronto/",
+    "notes": "The Dundas location of MAC Masjid Toronto. A second location is on Adelaide Street East.",
     "visitorNotes": "Downtown gets busy around Jumu'ah, so give yourself extra time. Check current timings and which entrance to use before you go.",
-    "jumuahNote": "Use the official Masjid Toronto site for current prayer and Jumu'ah details.",
-    "sourceIds": ["masjid-toronto-dundas"],
-    "reviewStatus": "source-checked"
+    "jumuahNote": "Three Jumu'ah prayers (12:10, 1:10 and 2:10 PM in September 2026). Check the site for the current week.",
+    "sourceIds": ["masjid-toronto-dundas", "masjid-toronto-programs"],
+    "reviewStatus": "review-needed",
+    "coordinatesPrecision": "street",
+    "email": "info@masjidtoronto.com",
+    "womenSpaceNote": "The sisters' prayer area is reached by a stairwell marked Sister's Entrance.",
+    "newMuslimSupportNote": "The After the Shahadah class meets here on the 2nd and 4th Sunday afternoons. The official page gives two different start times, so email convertconnect@masjidtoronto.com to confirm. A Convert Connect Group meets on the 1st and 3rd Sunday after Dhuhr, and you can ask for someone to meet you on your first visit.",
+    "accessibilityNote": "There is an elevator behind the brothers' prayer area.",
+    "classSupportNote": "The programs page also lists Islamic Education in Sign Language on the 2nd and 4th Sunday.",
+    "serviceIds": ["new-muslim-support"],
+    "convertSupport": true,
+    "accessibility": true
   },
   {
     "id": "islamic-foundation-of-toronto",
@@ -170,8 +179,8 @@
     "country": "Canada",
     "postalCode": "M1X 1S3",
     "coordinates": {
-      "lat": 43.7903,
-      "lng": -79.2141
+      "lat": 43.8187485,
+      "lng": -79.2298213
     },
     "phone": "(416) 335-9173",
     "email": "iit@islam.ca",
@@ -179,9 +188,15 @@
     "notes": "An educational institute and community center. Contact details and directions are on its own site.",
     "visitorNotes": "Use the official contact page for directions, class information, and any visitor questions.",
     "classSupportNote": "The official site describes IIT as a non-profit educational institute and posts program and newsletter updates.",
-    "serviceIds": ["quran-classes", "community-events"],
-    "sourceIds": ["masjid-islamic-institute-toronto"],
-    "reviewStatus": "source-checked"
+    "serviceIds": ["quran-classes", "community-events", "new-muslim-support"],
+    "sourceIds": [
+      "masjid-islamic-institute-toronto",
+      "islamic-institute-toronto-new-muslim-corner"
+    ],
+    "reviewStatus": "review-needed",
+    "coordinatesPrecision": "street",
+    "newMuslimSupportNote": "The New Muslim Corner is a free course of 25 recorded lessons. The course page also mentions a Friday 7:00 PM class for new Muslims, but it is not confirmed that it still runs live, so ask the office.",
+    "convertSupport": true
   },
   {
     "id": "jami-mosque",
@@ -196,7 +211,7 @@
       "lng": -79.4446
     },
     "phone": "(416) 769-1192",
-    "website": "https://www.isnacanada.com/locations/jami-mosque-toronto",
+    "website": "https://www.isnacanada.com/our-spaces/jami-masjid/",
     "notes": "A historic Toronto mosque, now listed under ISNA Canada.",
     "visitorNotes": "Check hours, Jumu'ah times, and event access with ISNA Canada before you go.",
     "sourceIds": ["masjid-jami-mosque-isna"],
@@ -233,23 +248,6 @@
     "reviewStatus": "source-checked"
   },
   {
-    "id": "baitul-mukarram-masjid",
-    "name": "Baitul Mukarram Masjid",
-    "address": "84 Rivalda Road",
-    "city": "Toronto",
-    "stateProvince": "Ontario",
-    "country": "Canada",
-    "postalCode": "M9M 2M8",
-    "coordinates": {
-      "lat": 43.7412,
-      "lng": -79.5143
-    },
-    "phone": "(416) 744-1400",
-    "notes": "No official website was found for this masjid, so these details come from local listings and are unverified.",
-    "visitorNotes": "Phone ahead to confirm the address, the prayer times, and whether someone can help you when you arrive.",
-    "reviewStatus": "review-needed"
-  },
-  {
     "id": "isna-islamic-centre-of-canada",
     "name": "Islamic Centre of Canada (ISNA)",
     "address": "2200 South Sheridan Way",
@@ -258,16 +256,27 @@
     "country": "Canada",
     "postalCode": "L5J 2M4",
     "coordinates": {
-      "lat": 43.5063,
-      "lng": -79.6505
+      "lat": 43.5202048,
+      "lng": -79.6502227
     },
     "phone": "(905) 403-8406",
     "website": "https://www.isnacanada.com/our-spaces/islamic-centre-of-canada/",
     "notes": "ISNA Canada's headquarters, and a community center in its own right, with a musallah, youth space, education rooms, and event space.",
     "visitorNotes": "Check prayer times, classes, event access, and visitor support with ISNA Canada before you go.",
     "classSupportNote": "The official page describes an education center, a youth hub, a musallah, and bookable community spaces.",
-    "serviceIds": ["quran-classes", "community-events", "youth-programs"],
-    "sourceIds": ["masjid-isna-islamic-centre-canada"],
-    "reviewStatus": "source-checked"
+    "serviceIds": [
+      "quran-classes",
+      "community-events",
+      "youth-programs",
+      "new-muslim-support"
+    ],
+    "sourceIds": [
+      "masjid-isna-islamic-centre-canada",
+      "isna-new-muslims-convert-care"
+    ],
+    "reviewStatus": "review-needed",
+    "coordinatesPrecision": "street",
+    "newMuslimSupportNote": "ISNA Canada's New Muslims and Convert Care offers weekly classes, monthly socials, and a Being Muslim box with a Quran translation, books and a prayer rug. The class day, time and place are not published, so call the office or use the contact form.",
+    "convertSupport": true
   }
 ]
