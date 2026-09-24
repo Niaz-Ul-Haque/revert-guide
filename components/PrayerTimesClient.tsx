@@ -9,6 +9,8 @@ import { Callout } from "@/components/Callout";
 /* ─── Types ─── */
 interface PrayerTimesData {
   timings: Record<string, string>;
+  /** AlAdhan resolves the time zone from the searched address. */
+  meta?: { timezone?: string };
   date: {
     hijri: {
       date: string;
@@ -298,20 +300,40 @@ function formatApiDate(d: Date): string {
   return `${dd}-${mm}-${yyyy}`;
 }
 
-function parseTime(timeStr: string): Date | null {
+/** Wall-clock time right now in the given IANA zone (device zone if none). */
+function zonedNow(timeZone?: string, at: Date = new Date()): ZonedNow {
+  const parts = new Intl.DateTimeFormat("en-US", {
+    timeZone,
+    hour: "2-digit",
+    minute: "2-digit",
+    second: "2-digit",
+    hourCycle: "h23",
+  }).formatToParts(at);
+  const get = (type: string) =>
+    Number(parts.find((part) => part.type === type)?.value ?? 0);
+  return { minutes: get("hour") * 60 + get("minute"), seconds: get("second") };
+}
+
+interface ZonedNow {
+  minutes: number;
+  seconds: number;
+}
+
+/** "05:42" or "05:42 (EDT)" to minutes after midnight. */
+function toMinutes(timeStr: string): number | null {
   const cleaned = timeStr.replace(/\s*\(.*\)/, "").trim();
   const parts = cleaned.split(":");
   if (parts.length !== 2) return null;
-  const now = new Date();
-  now.setHours(parseInt(parts[0], 10), parseInt(parts[1], 10), 0, 0);
-  return now;
+  return parseInt(parts[0], 10) * 60 + parseInt(parts[1], 10);
 }
 
-function getNextPrayer(timings: Record<string, string>): string | null {
-  const now = new Date();
+function getNextPrayer(
+  timings: Record<string, string>,
+  now: ZonedNow,
+): string | null {
   for (const key of ACTUAL_PRAYERS) {
-    const time = parseTime(timings[key] ?? "");
-    if (time && time > now) return key;
+    const time = toMinutes(timings[key] ?? "");
+    if (time !== null && time > now.minutes) return key;
   }
   return ACTUAL_PRAYERS[0];
 }
@@ -319,25 +341,44 @@ function getNextPrayer(timings: Record<string, string>): string | null {
 function getCountdown(
   timings: Record<string, string>,
   nextPrayer: string | null,
+  now: ZonedNow,
 ): string {
   if (!nextPrayer) return "";
-  const time = parseTime(timings[nextPrayer] ?? "");
-  if (!time) return "";
-  const now = new Date();
-  let diff = time.getTime() - now.getTime();
-  if (diff < 0) diff += 24 * 60 * 60 * 1000; // wrap to next day for Fajr
-  const hours = Math.floor(diff / (1000 * 60 * 60));
-  const minutes = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
-  const seconds = Math.floor((diff % (1000 * 60)) / 1000);
+  const time = toMinutes(timings[nextPrayer] ?? "");
+  if (time === null) return "";
+  let diff = (time - now.minutes) * 60 - now.seconds;
+  if (diff < 0) diff += 24 * 60 * 60; // wrap to next day for Fajr
+  const hours = Math.floor(diff / 3600);
+  const minutes = Math.floor((diff % 3600) / 60);
+  const seconds = diff % 60;
   if (hours > 0) return `${hours}h ${String(minutes).padStart(2, "0")}m`;
   if (minutes > 0) return `${minutes}m ${String(seconds).padStart(2, "0")}s`;
   return `${seconds}s`;
 }
 
-function isPassed(timings: Record<string, string>, key: string): boolean {
-  const time = parseTime(timings[key] ?? "");
-  if (!time) return false;
-  return time < new Date();
+function isPassed(
+  timings: Record<string, string>,
+  key: string,
+  now: ZonedNow,
+): boolean {
+  const time = toMinutes(timings[key] ?? "");
+  if (time === null) return false;
+  return time < now.minutes;
+}
+
+/** "Pacific Daylight Time" for display next to the zone id. */
+function getZoneName(locale: string, timeZone: string): string {
+  try {
+    const part = new Intl.DateTimeFormat(locale, {
+      timeZone,
+      timeZoneName: "long",
+    })
+      .formatToParts(new Date())
+      .find((item) => item.type === "timeZoneName");
+    return part?.value ?? timeZone;
+  } catch {
+    return timeZone;
+  }
 }
 
 function formatTime12(timeStr: string): { time: string; period: string } {
@@ -407,7 +448,7 @@ export function PrayerTimesClient() {
       try {
         const date = formatApiDate(new Date());
         const res = await fetch(
-          `https://api.aladhan.com/v1/timingsByAddress/${date}?address=${encodeURIComponent(addr)}&method=2&school=0&timezonestring=America/Toronto`,
+          `https://api.aladhan.com/v1/timingsByAddress/${date}?address=${encodeURIComponent(addr)}&method=2&school=0`,
         );
         if (!res.ok) throw new Error("API error");
         const json = await res.json();
@@ -427,20 +468,23 @@ export function PrayerTimesClient() {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
+  /* Times from the API are wall-clock times in the searched place, so every
+     comparison uses "now" in that place's zone, not the device's. */
+  const timeZone = data?.meta?.timezone;
   const nextPrayer = useMemo(() => {
     if (!data) return null;
-    return getNextPrayer(data.timings);
-  }, [data]);
+    return getNextPrayer(data.timings, zonedNow(timeZone));
+  }, [data, timeZone]);
 
   /* Live countdown tick */
   useEffect(() => {
     if (!data || !nextPrayer) return;
-    setCountdown(getCountdown(data.timings, nextPrayer));
+    setCountdown(getCountdown(data.timings, nextPrayer, zonedNow(timeZone)));
     const timer = setInterval(() => {
-      setCountdown(getCountdown(data.timings, nextPrayer));
+      setCountdown(getCountdown(data.timings, nextPrayer, zonedNow(timeZone)));
     }, 1000);
     return () => clearInterval(timer);
-  }, [data, nextPrayer]);
+  }, [data, nextPrayer, timeZone]);
 
   function handleSubmit(e: React.FormEvent) {
     e.preventDefault();
@@ -571,6 +615,17 @@ export function PrayerTimesClient() {
                 {data.date.hijri.month.ar}
               </span>
             </div>
+            {timeZone && (
+              <div className="flex items-center gap-2.5">
+                <span className="text-sm text-textPrimary">
+                  <span className="font-semibold">
+                    {copy.timeZoneLabel as string}:
+                  </span>{" "}
+                  {getZoneName(locale, timeZone)}{" "}
+                  <span className="text-textMuted">({timeZone})</span>
+                </span>
+              </div>
+            )}
             {data.date.hijri.holidays.length > 0 && (
               <span className="inline-flex items-center gap-1.5 rounded-full border border-[#C77700]/25 bg-accentYellow/30 px-3 py-1.5 text-xs font-semibold text-[#C77700]">
                 <svg
@@ -659,7 +714,8 @@ export function PrayerTimesClient() {
               const isActual = (ACTUAL_PRAYERS as readonly string[]).includes(
                 key,
               );
-              const passed = isPassed(data.timings, key) && !isNext;
+              const passed =
+                isPassed(data.timings, key, zonedNow(timeZone)) && !isNext;
               const theme = SKY_THEME[key] ?? SKY_THEME.Dhuhr;
 
               return (
