@@ -161,7 +161,7 @@
     },
     "privacy": {
       "title": "Privacy policy - Revert Guide",
-      "description": "What Revert Guide does and does not store, and why there is nothing to sign in to."
+      "description": "What leaves your device when you use Revert Guide, which outside services each tool uses, and what happens to a help request."
     },
     "ramadan": {
       "title": "Ramadan guide - Revert Guide",
@@ -396,30 +396,110 @@
     },
     "privacy": {
       "title": "Privacy policy",
-      "effectiveDate": "Effective as of January 2026",
-      "sections": [
+      "effective": "Effective 24 September 2026",
+      "policySections": [
         {
-          "id": "collection",
-          "title": "What we collect",
+          "id": "summary",
+          "title": "The short version",
           "paragraphs": [
-            "This version of Revert Guide collects no personal data and no usage analytics. No user data, no email addresses, no names, and no activity tracking.",
-            "Future versions may add optional features that collect data. If that happens, we will say so clearly and update this policy."
+            "You can read everything on Revert Guide without an account. We do not use analytics, ads or tracking cookies, and we collect nothing about you while you browse.",
+            "The only time our team receives personal information is when you choose to send us a help request. This policy covers the two situations separately."
           ]
         },
         {
-          "id": "cookies",
-          "title": "Cookies",
+          "id": "browsing",
+          "title": "When you browse",
           "paragraphs": [
-            "Revert Guide uses a service worker to cache pages for offline reading. That does not involve tracking cookies. There are no analytics cookies such as Google Analytics, and no marketing cookies.",
-            "The map and address search on the Masjid Finder page may load data from third-party providers, which can set cookies or receive standard request data such as your IP address. That part is outside our control."
+            "Reading the site sends nothing about you to our team. There are no accounts, no analytics and no advertising.",
+            "So that the site works offline, your browser saves pages on your own device. We cannot see this. Someone else who uses your device may be able to see which pages you visited, and clearing your browsing data removes them.",
+            "A few tools have to contact another service to work. Each of those services receives standard request data, such as your IP address and browser type, plus whatever the tool sends. They are listed in the next section."
           ]
         },
         {
           "id": "third-parties",
-          "title": "Third parties",
+          "title": "Other services, tool by tool",
           "paragraphs": [
-            "The Masjid Finder uses OpenStreetMap-based map tiles and a third-party geocoding service. Those providers receive the standard request data needed to load maps and look up addresses.",
-            "No other third-party trackers or analytics services are used. External links are there for convenience, and we are not responsible for the privacy practices of other websites."
+            "This is every outside service the site can contact, and when."
+          ],
+          "items": [
+            {
+              "label": "Find a masjid, map:",
+              "text": "Map images come from OpenStreetMap. The OpenStreetMap Foundation logs request data such as your IP address, browser and the page that asked for the map, and keeps detailed usage information for 180 days."
+            },
+            {
+              "label": "Find a masjid, address search:",
+              "text": "What you type is sent to Nominatim, the OpenStreetMap search service, along with your IP address. A postal code or neighbourhood works as well as a street address, so you never need to type your home address."
+            },
+            {
+              "label": "Find a masjid, use my location:",
+              "text": "This button is optional. Your browser asks your permission first. Your location is used on your device to sort the list, and this site never sends it to our team or to any server."
+            },
+            {
+              "label": "Qibla direction:",
+              "text": "The Qibla page asks your browser for your location and works out the direction on your device. The site sends your location nowhere. To find where you are, your browser or phone may use its own location service. Wi-Fi positioning, for example, is often provided by Google."
+            },
+            {
+              "label": "Prayer times:",
+              "text": "The address or city you type is sent to AlAdhan, a free prayer times service run by Islamic Network, along with your IP address. We could not find a published privacy policy for AlAdhan. Typing a city instead of a street address keeps this more private."
+            },
+            {
+              "label": "The 99 names of Allah:",
+              "text": "This page loads the names from AlAdhan. It sends no address, only standard request data such as your IP address."
+            },
+            {
+              "label": "Videos:",
+              "text": "Videos use YouTube's privacy-enhanced player. Nothing loads from YouTube until you press play. Once you press play, YouTube receives standard request data such as your IP address, and it may set cookies or store similar data on your device. YouTube says views in this mode are not used to personalise your YouTube experience or the ads you see elsewhere. If you click through to YouTube itself, YouTube's own privacy policy applies."
+            },
+            {
+              "label": "WhatsApp:",
+              "text": "If you follow our WhatsApp Channel, other followers cannot see your phone number, and only admins who have saved you as a contact can see it. A WhatsApp group is different. Joining one shows your phone number to the group admins, and other members may see it too. WhatsApp's own terms apply to both."
+            },
+            {
+              "label": "Links to other websites:",
+              "text": "Websites we link to have their own privacy practices, which we do not control."
+            }
+          ]
+        },
+        {
+          "id": "help-requests",
+          "title": "When you ask us for help",
+          "paragraphs": [
+            "The help form on the Get help page is the one place we collect personal information. It asks only what we need to reply to you or to find you support: the kind of help you want, your language, how you would like us to contact you, and your city or province. You can use a nickname.",
+            "The form is a Google Form. We link to it instead of placing it on our pages, so nothing from Google loads until you open it. We set it up so you do not need to sign in to a Google account. Your answers are stored in our team's Google account, and Google receives standard request data such as your IP address. Google may set cookies on the form page, and it may store data outside Canada.",
+            "Please do not include anything you would not want stored online.",
+            "If you email us instead, your message is kept in our email inbox."
+          ]
+        },
+        {
+          "id": "who-reads",
+          "title": "Who can read your request",
+          "paragraphs": [
+            "One or two coordinators read requests in one shared inbox. If you ask for a mentor, we pass on only the details the mentor needs, and only after you agree. We do not sell requests or share them with anyone else."
+          ]
+        },
+        {
+          "id": "retention",
+          "title": "How long we keep it",
+          "paragraphs": [
+            "We aim to reply within 48 to 72 hours. After that, a request stays open only while we are helping you.",
+            "Our target is to delete a help request 6 months after it is closed. The team will confirm the exact period and update this page. You can ask us to delete your request at any time, and we will."
+          ]
+        },
+        {
+          "id": "consent",
+          "title": "Your consent",
+          "paragraphs": [
+            "A help request tells us that you are Muslim, new to Islam, or thinking about it. The Office of the Privacy Commissioner of Canada treats religious belief as sensitive information and says organisations should generally get express consent before collecting it.",
+            "The form tells you what we collect, who sees it, why we need it and the risks, and asks you to agree before you send it. Sending the form is your consent for us to use your answers to reply to you and to arrange the help you asked for. You can withdraw that consent by asking us to delete your request."
+          ]
+        },
+        {
+          "id": "private-conversion",
+          "title": "If you are keeping your conversion private",
+          "paragraphs": [
+            "Browsing Revert Guide sends nothing about you to our team. What others could see is on your own device: your browsing history and the pages saved for offline reading. A private or incognito window keeps pages out of your history.",
+            "What you type into the prayer times tool or the masjid search goes to the services listed above.",
+            "A help request does leave your device, and goes to Google and to our team as described above. You can send the form from another device, such as a library computer or a trusted friend's phone, and give a contact method that only you check."
           ]
         },
         {

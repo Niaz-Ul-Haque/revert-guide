@@ -372,6 +372,102 @@
     "note": "Nisa Homes is a Nisa Foundation program offering safe shelter for women and children, with locations across Canada. Apply through the Nisa Foundation site or call the helpline, +1 888 711 6472. nisahomes.com could not be opened, so it is not linked. Checked on 23 September 2026."
   },
   {
+    "id": "osmf-privacy-policy",
+    "title": "OpenStreetMap Foundation privacy policy",
+    "organization": "OpenStreetMap Foundation",
+    "category": "tools-data",
+    "url": "https://osmfoundation.org/wiki/Privacy_Policy",
+    "sourceType": "Privacy policy",
+    "label": "Privacy source",
+    "accessed": "2026-09-23",
+    "reviewStatus": "source-checked",
+    "note": "Used in the privacy policy for what OpenStreetMap services log: IP address, browser and device type, operating system, referring page, date and time, and pages accessed, with detailed usage kept for 180 days. Page last edited 25 January 2026."
+  },
+  {
+    "id": "mdn-geolocation",
+    "title": "Geolocation API",
+    "organization": "MDN Web Docs (Mozilla)",
+    "category": "tools-data",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API",
+    "sourceType": "Technical reference",
+    "label": "Privacy source",
+    "accessed": "2026-09-23",
+    "reviewStatus": "source-checked",
+    "note": "Used in the privacy policy for how browser location works: the browser asks permission first, it works only over HTTPS, and Wi-Fi positioning is often provided by Google. Page last modified 11 September 2026."
+  },
+  {
+    "id": "youtube-privacy-enhanced",
+    "title": "Embed videos and playlists: privacy-enhanced mode",
+    "organization": "YouTube Help (Google)",
+    "category": "tools-data",
+    "url": "https://support.google.com/youtube/answer/171780",
+    "sourceType": "Privacy information",
+    "label": "Privacy source",
+    "accessed": "2026-09-23",
+    "reviewStatus": "source-checked",
+    "note": "Used in the privacy policy for what YouTube's privacy-enhanced player does. Views are not used to personalise the viewer's YouTube experience or advertising outside the site, and clicking out to another site may lead to tracking. The page does not promise that no cookies are used."
+  },
+  {
+    "id": "google-forms-settings",
+    "title": "Choose where to save form responses and settings",
+    "organization": "Google Docs Editors Help",
+    "category": "tools-data",
+    "url": "https://support.google.com/docs/answer/2839588",
+    "sourceType": "Form settings help",
+    "label": "Privacy source",
+    "accessed": "2026-09-23",
+    "reviewStatus": "source-checked",
+    "note": "Used in the privacy policy for the help form settings. Turning on 'Limit to 1 response' makes people sign in to a Google account, and usernames are not recorded unless the form collects email addresses. The team's form leaves that setting off."
+  },
+  {
+    "id": "google-cookies",
+    "title": "How Google uses cookies",
+    "organization": "Google",
+    "category": "tools-data",
+    "url": "https://policies.google.com/technologies/cookies",
+    "sourceType": "Privacy information",
+    "label": "Privacy source",
+    "accessed": "2026-09-23",
+    "reviewStatus": "source-checked",
+    "note": "Used in the privacy policy for the note that Google may set cookies when a person opens a Google service, such as the help form."
+  },
+  {
+    "id": "whatsapp-channels",
+    "title": "WhatsApp Channels",
+    "organization": "WhatsApp (Meta)",
+    "category": "tools-data",
+    "url": "https://www.whatsapp.com/channels",
+    "sourceType": "Privacy information",
+    "label": "Privacy source",
+    "accessed": "2026-09-23",
+    "reviewStatus": "source-checked",
+    "note": "Used in the privacy policy: 'Your phone number stays private, and only admins that have you saved as a contact can see it.' Channels are one-way broadcasts."
+  },
+  {
+    "id": "whatsapp-communities-help",
+    "title": "About communities",
+    "organization": "WhatsApp Help Center",
+    "category": "tools-data",
+    "url": "https://faq.whatsapp.com/458610306367976",
+    "sourceType": "Privacy information",
+    "label": "Privacy source",
+    "accessed": "2026-09-23",
+    "reviewStatus": "source-checked",
+    "note": "Used in the privacy policy for phone number visibility: community admins can see members' numbers. Whether other members of a linked group see each other's numbers is not stated on the page, so the policy says they may."
+  },
+  {
+    "id": "opc-meaningful-consent",
+    "title": "Guidelines for obtaining meaningful consent",
+    "organization": "Office of the Privacy Commissioner of Canada",
+    "category": "public-rights",
+    "url": "https://www.priv.gc.ca/en/privacy-topics/collecting-personal-information/consent/gl_omc_201805/",
+    "sourceType": "Privacy guidance",
+    "label": "Public rights source",
+    "accessed": "2026-09-23",
+    "reviewStatus": "review-needed",
+    "note": "Used in the privacy policy for treating religious or philosophical beliefs as sensitive information, and for express consent when information is sensitive. Whether this law applies to a volunteer group still needs a privacy reviewer. Page modified 2025-08-11."
+  },
+  {
     "id": "aladhan-api",
     "title": "AlAdhan Prayer Times API",
     "organization": "AlAdhan",
@@ -379,9 +475,9 @@
     "url": "https://aladhan.com/prayer-times-api",
     "sourceType": "Prayer times and Islamic calendar API",
     "label": "Tool data source",
-    "accessed": "2026-06-03",
+    "accessed": "2026-09-23",
     "reviewStatus": "source-checked",
-    "note": "The live data behind the prayer times tool and the 99 Names tool."
+    "note": "The live data behind the prayer times tool and the 99 Names tool. AlAdhan is part of Islamic Network. The prayer times tool sends the typed address; the 99 Names tool sends no address. AlAdhan's terms contain only a no-warranty notice, and no privacy policy was found (aladhan.com/privacy-policy returned 404 on 23 September 2026)."
   },
   {
     "id": "openstreetmap",
@@ -391,9 +487,9 @@
     "url": "https://www.openstreetmap.org/",
     "sourceType": "Map data",
     "label": "Map data source",
-    "accessed": "2026-06-03",
+    "accessed": "2026-09-23",
     "reviewStatus": "source-checked",
-    "note": "The map tiles and geographic context behind the masjid finder."
+    "note": "The map tiles and geographic context behind the masjid finder. Loading a map sends standard request data, such as your IP address, to the OpenStreetMap Foundation (see its privacy policy)."
   },
   {
     "id": "nominatim",
@@ -403,9 +499,9 @@
     "url": "https://operations.osmfoundation.org/policies/nominatim/",
     "sourceType": "Geocoding policy",
     "label": "Geocoding source",
-    "accessed": "2026-06-03",
+    "accessed": "2026-09-23",
     "reviewStatus": "source-checked",
-    "note": "The address lookup behind the masjid finder, and the attribution policy that comes with it."
+    "note": "The address lookup behind the masjid finder. The policy asks users not to submit personal data, limits use to 1 request per second and requires an identifying referrer. The privacy policy tells people that a postal code works as well as a home address."
   },
   {
     "id": "qibla-local-calculation",

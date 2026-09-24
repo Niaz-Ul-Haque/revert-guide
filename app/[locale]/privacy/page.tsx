@@ -34,10 +34,10 @@ export default function PrivacyPage({
         <h1 className="mb-2 font-display text-3xl font-semibold tracking-tight text-textPrimary md:text-4xl">
           {copy.title}
         </h1>
-        <p className="mb-10 text-sm text-textMuted">{copy.effectiveDate}</p>
+        <p className="mb-10 text-sm text-textMuted">{copy.effective}</p>
       </AnimateIn>
 
-      {copy.sections.map((section) => (
+      {copy.policySections.map((section) => (
         <AnimateIn key={section.id}>
           <section className="mb-10" aria-labelledby={section.id}>
             <h2
@@ -54,6 +54,19 @@ export default function PrivacyPage({
                 {paragraph}
               </p>
             ))}
+            {"items" in section && section.items ? (
+              <ul className="mt-4 flex flex-col gap-3 pl-0">
+                {section.items.map((item) => (
+                  <li
+                    key={item.label}
+                    className="list-none rounded-xl bg-surfaceElevated/50 p-4 text-base leading-relaxed text-textSecondary"
+                  >
+                    <strong className="text-textPrimary">{item.label}</strong>{" "}
+                    {item.text}
+                  </li>
+                ))}
+              </ul>
+            ) : null}
           </section>
         </AnimateIn>
       ))}
