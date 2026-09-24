@@ -221,7 +221,7 @@
     },
     "events": {
       "title": "Events - Revert Guide",
-      "description": "Slice fills this block."
+      "description": "New Muslim get-togethers, classes and open masjid events by city and province, with a link to each organiser."
     }
   },
   "pages": {
@@ -1763,7 +1763,36 @@
     },
     "events": {
       "title": "Events",
-      "note": "Slice D fills this block."
+      "subtitle": "New Muslim get-togethers, classes and open events at masjids across Canada.",
+      "intro": "Each event is run by its organiser, not by us. Details can change, so check with the organiser before you go.",
+      "noRegistration": "There is no registration on this site. To sign up, use the organiser's own page.",
+      "filters": {
+        "legend": "Filter events",
+        "cityLabel": "City",
+        "provinceLabel": "Province",
+        "all": "All",
+        "resultsCount": "{count} events shown",
+        "noMatches": "No events match these filters.",
+        "reset": "Show all events"
+      },
+      "empty": {
+        "title": "No events listed right now",
+        "body": "We add events once organisers confirm them. Your local masjid may keep its own calendar, and if you know of an event for new Muslims, you can tell us about it.",
+        "masjidLink": "Find a masjid near you"
+      },
+      "card": {
+        "dateLabel": "Date",
+        "timeLabel": "Time",
+        "venueLabel": "Venue",
+        "whereLabel": "Where",
+        "organiserLabel": "Organised by",
+        "linkLabel": "Details on the organiser's site"
+      },
+      "lastUpdatedLabel": "List last updated:",
+      "tellUs": {
+        "prompt": "Know of an event that would suit new Muslims?",
+        "label": "Tell us about an event"
+      }
     }
   }
 }
