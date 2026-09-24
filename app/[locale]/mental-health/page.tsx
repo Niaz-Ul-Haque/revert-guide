@@ -30,13 +30,6 @@ export default function MentalHealthPage({
     ...item,
     href: index === 0 ? "https://khalilcenter.ca/" : null,
   }));
-  const furtherReading = copy.resources.furtherReading.map((item, index) => ({
-    ...item,
-    href:
-      index === 0
-        ? "https://yaqeeninstitute.org/read/paper/new-muslims-and-mental-health"
-        : null,
-  }));
   const sources = getSourcesByIds(
     [
       "emergency-911-canada",
@@ -51,7 +44,7 @@ export default function MentalHealthPage({
       "nisa-homes",
       "canada-safety-planning",
       "khalil-center",
-      "yaqeen-mental-health",
+      "yaqeen-becoming-muslim",
     ],
     locale,
   );
@@ -370,7 +363,7 @@ export default function MentalHealthPage({
             {copy.resources.furtherReadingTitle}
           </h3>
           <div className="flex flex-col gap-3">
-            {furtherReading.map((item) => (
+            {copy.resources.reading.map((item) => (
               <div
                 key={item.name}
                 className="rounded-2xl border border-border/60 bg-white p-5 shadow-card transition-shadow duration-300 hover:shadow-soft"
@@ -381,17 +374,15 @@ export default function MentalHealthPage({
                 <p className="mb-2 text-sm leading-relaxed text-textSecondary">
                   {item.desc}
                 </p>
-                {item.href && item.linkLabel ? (
-                  <a
-                    href={item.href}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="inline-flex items-center gap-1 text-sm font-medium text-primary no-underline transition-colors duration-200 hover:text-primaryHover hover:underline"
-                  >
-                    {item.linkLabel}
-                    <Icon name="external-link" size="sm" />
-                  </a>
-                ) : null}
+                <a
+                  href={item.href}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-1 text-sm font-medium text-primary no-underline transition-colors duration-200 hover:text-primaryHover hover:underline"
+                >
+                  {item.linkLabel}
+                  <Icon name="external-link" size="sm" />
+                </a>
               </div>
             ))}
           </div>
