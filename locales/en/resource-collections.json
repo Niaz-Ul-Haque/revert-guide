@@ -6,6 +6,7 @@
       "icon": "star",
       "resourceIds": [
         "welcome-to-islam-book",
+        "quran-com-al-fatihah-plan",
         "new-muslim-academy",
         "being-muslim-book"
       ]
@@ -20,13 +21,23 @@
       "title": "Quran beginner tools",
       "body": "Read the meaning, listen to recitation, and build a habit you can keep.",
       "icon": "book",
-      "resourceIds": ["quran-com", "clear-quran-translation", "tarteel-ai-app"]
+      "resourceIds": [
+        "quran-com",
+        "clear-quran-translation",
+        "new-muslim-academy-quran-classes",
+        "yaqeen-quran-30-for-30"
+      ]
     },
     {
       "title": "Mentor resources",
       "body": "If you are helping someone new, this is where to point them and what to teach first.",
       "icon": "users",
-      "resourceIds": ["new-muslim-guide-icna", "new-muslim-academy", "whyislam"]
+      "resourceIds": [
+        "new-muslim-guide-icna",
+        "new-muslim-academy",
+        "seekersguidance-essentials-course",
+        "whyislam"
+      ]
     },
     {
       "title": "Mental health and support",
@@ -35,7 +46,7 @@
       "resourceIds": [
         "khalil-center",
         "naseeha-mental-health",
-        "convert-mental-health-article"
+        "becoming-muslim-report"
       ]
     },
     {
