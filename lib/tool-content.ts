@@ -2,7 +2,7 @@ import * as fs from "fs";
 import * as path from "path";
 import type { IconName } from "@/components/Icon";
 import { DEFAULT_LOCALE, type Locale } from "./i18n";
-import type { VideoRef } from "./types";
+import type { VideoRef, VideoWithChapters } from "./types";
 
 /**
  * Loader for the longer-form content that sits behind the tool pages and the
@@ -40,6 +40,13 @@ function readJsonFile<T>(locale: Locale, relativePath: string): T {
 export interface CorrectionNote {
   title: string;
   body: string;
+}
+
+export interface ExternalLink {
+  label: string;
+  body?: string;
+  href: string;
+  sourceIds: string[];
 }
 
 /* ── Dua and dhikr reference ── */
@@ -144,6 +151,9 @@ export interface SalahCompanionContent {
   cannotReciteYet: string[];
   invalidatesPrayer: string[];
   commonCorrections: CorrectionNote[];
+  mainVideo: VideoWithChapters;
+  phraseVideos: VideoRef[];
+  phraseSeries: ExternalLink;
 }
 
 export function getSalahCompanionContent(

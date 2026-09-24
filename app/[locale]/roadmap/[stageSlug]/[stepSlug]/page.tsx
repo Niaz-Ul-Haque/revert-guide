@@ -8,6 +8,7 @@ import { Button } from "@/components/Button";
 import { Icon } from "@/components/Icon";
 import { AnimateIn } from "@/components/AnimateIn";
 import { SourcesPanel } from "@/components/SourceTags";
+import { VideoEmbed } from "@/components/VideoEmbed";
 import {
   getAllStages,
   getStageById,
@@ -212,6 +213,27 @@ export default function StepPage({
           ))}
         </ol>
       </section>
+
+      {step.videos && step.videos.length > 0 && (
+        <AnimateIn>
+          <section className="mb-12" aria-labelledby="videos-heading">
+            <h2
+              id="videos-heading"
+              className="mb-5 font-display text-2xl font-semibold tracking-tight text-textPrimary"
+            >
+              {copy.watchTitle}
+            </h2>
+            <div className="grid max-w-3xl gap-6">
+              {step.videos.map((video) => (
+                <VideoEmbed
+                  key={`${video.videoId}-${video.start ?? 0}`}
+                  {...video}
+                />
+              ))}
+            </div>
+          </section>
+        </AnimateIn>
+      )}
 
       {step.obstacles.length > 0 && (
         <section className="mb-12" aria-labelledby="obstacles-heading">

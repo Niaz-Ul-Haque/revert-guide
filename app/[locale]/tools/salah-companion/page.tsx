@@ -3,6 +3,7 @@ import { Button } from "@/components/Button";
 import { Icon } from "@/components/Icon";
 import { AnimateIn } from "@/components/AnimateIn";
 import { PrintButton } from "@/components/PrintButton";
+import { VideoEmbed } from "@/components/VideoEmbed";
 import { SourceTags, SourcesPanel } from "@/components/SourceTags";
 import { getSourcesByIds } from "@/lib/content";
 import { getSalahCompanionContent } from "@/lib/tool-content";
@@ -37,6 +38,11 @@ interface SalahCompanionCopy {
   prayerTopicButton: string;
   prayerOnRampButton: string;
   duaDhikrButton: string;
+  watchTitle: string;
+  watchBody: string;
+  phrasesVideoTitle: string;
+  phrasesVideoBody: string;
+  openSeries: string;
 }
 
 const pageSourceIds = [
@@ -50,6 +56,10 @@ const pageSourceIds = [
   "sunnah-bukhari-tashahhud",
   "sunnah-abudawud-taslim",
   "seekersguidance",
+  "video-greenlane-five-prayers",
+  "video-islamwise-rakah-recap",
+  "video-islamwise-comprehensive-remembrance",
+  "video-islamwise-prayer-series",
 ];
 
 export function generateMetadata({ params }: { params: { locale: Locale } }) {
@@ -108,6 +118,9 @@ export default function SalahCompanionPage({
     cannotReciteYet,
     invalidatesPrayer,
     commonCorrections,
+    mainVideo,
+    phraseVideos,
+    phraseSeries,
   } = getSalahCompanionContent(locale);
   const pageSources = getSourcesByIds(pageSourceIds, locale);
 
@@ -227,6 +240,25 @@ export default function SalahCompanionPage({
       </AnimateIn>
 
       <AnimateIn>
+        <section className="mb-12" aria-labelledby="watch-heading">
+          <div className="mb-5 max-w-3xl">
+            <h2
+              id="watch-heading"
+              className="mb-2 font-display text-2xl font-semibold tracking-tight text-textPrimary"
+            >
+              {copy.watchTitle}
+            </h2>
+            <p className="mb-0 text-sm leading-relaxed text-textSecondary">
+              {copy.watchBody}
+            </p>
+          </div>
+          <div className="max-w-3xl">
+            <VideoEmbed {...mainVideo} />
+          </div>
+        </section>
+      </AnimateIn>
+
+      <AnimateIn>
         <section className="mb-12" aria-labelledby="recitation-heading">
           <div className="mb-5">
             <h2
@@ -288,6 +320,46 @@ export default function SalahCompanionPage({
                 </div>
               </article>
             ))}
+          </div>
+        </section>
+      </AnimateIn>
+
+      <AnimateIn>
+        <section className="mb-12" aria-labelledby="phrase-videos-heading">
+          <div className="mb-5 max-w-3xl">
+            <h2
+              id="phrase-videos-heading"
+              className="mb-2 font-display text-2xl font-semibold tracking-tight text-textPrimary"
+            >
+              {copy.phrasesVideoTitle}
+            </h2>
+            <p className="mb-0 text-sm leading-relaxed text-textSecondary">
+              {copy.phrasesVideoBody}
+            </p>
+          </div>
+          <div className="grid gap-6 md:grid-cols-2">
+            {phraseVideos.map((video) => (
+              <VideoEmbed key={video.videoId} {...video} />
+            ))}
+          </div>
+          <div className="mt-6 rounded-2xl border border-border/60 bg-surfaceElevated/50 p-5">
+            <h3 className="mb-1 mt-0 text-base font-semibold text-textPrimary">
+              {phraseSeries.label}
+            </h3>
+            {phraseSeries.body && (
+              <p className="mb-3 text-sm leading-relaxed text-textSecondary">
+                {phraseSeries.body}
+              </p>
+            )}
+            <a
+              href={phraseSeries.href}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex min-h-[44px] items-center gap-1.5 text-sm font-medium text-primary"
+            >
+              {copy.openSeries}
+              <Icon name="external-link" size="sm" />
+            </a>
           </div>
         </section>
       </AnimateIn>
