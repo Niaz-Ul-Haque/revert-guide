@@ -6,6 +6,7 @@ import { LocaleProvider } from "@/components/LocaleProvider";
 import { HtmlLocaleAttributes } from "@/components/HtmlLocaleAttributes";
 import { GlobalSearchProvider } from "@/components/GlobalSearchProvider";
 import { GlobalSearch } from "@/components/GlobalSearch";
+import { getAllFaqEntries } from "@/lib/faq";
 import {
   SUPPORTED_LOCALES,
   createTranslator,
@@ -43,6 +44,13 @@ export default function LocaleLayout({
   const topics = getAllTopics(params.locale);
   const glossary = getAllGlossaryEntries(params.locale);
   const resources = getAllResources(params.locale);
+  const faq = getAllFaqEntries(params.locale).map(
+    ({ id, question, answer }) => ({
+      id,
+      question,
+      answer: answer.slice(0, 160),
+    }),
+  );
 
   return (
     <LocaleProvider locale={params.locale} messages={messages}>
@@ -68,6 +76,7 @@ export default function LocaleLayout({
           topics={topics}
           glossary={glossary}
           resources={resources}
+          faq={faq}
         />
       </GlobalSearchProvider>
     </LocaleProvider>

@@ -13,13 +13,20 @@ import { useRouter } from "next/navigation";
 import { useGlobalSearch } from "@/components/GlobalSearchProvider";
 import { useLocale, useTranslations } from "@/components/LocaleProvider";
 import { localizeHref } from "@/lib/i18n";
-import type { Stage, Step, Topic, GlossaryEntry, Resource } from "@/lib/types";
+import type {
+  Stage,
+  Step,
+  Topic,
+  GlossaryEntry,
+  Resource,
+  FaqEntry,
+} from "@/lib/types";
 
 /* ─── Types ─── */
 
 interface SearchResult {
   id: string;
-  type: "step" | "topic" | "glossary" | "resource";
+  type: "step" | "topic" | "glossary" | "resource" | "faq";
   title: string;
   description: string;
   href: string;
@@ -32,6 +39,8 @@ interface GlobalSearchProps {
   topics: Topic[];
   glossary: GlossaryEntry[];
   resources: Resource[];
+  /** Questions with a short answer excerpt, so every page stays light. */
+  faq: Pick<FaqEntry, "id" | "question" | "answer">[];
 }
 
 /* ─── Constants ─── */
@@ -183,6 +192,25 @@ function ResourceIcon({ className }: { className?: string }) {
   );
 }
 
+function FaqIcon({ className }: { className?: string }) {
+  return (
+    <svg
+      className={className}
+      fill="none"
+      viewBox="0 0 24 24"
+      strokeWidth={1.5}
+      stroke="currentColor"
+      aria-hidden="true"
+    >
+      <path
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        d="M9.879 7.519c1.171-1.025 3.071-1.025 4.242 0 1.172 1.025 1.172 2.687 0 3.712-.203.179-.43.326-.67.442-.745.361-1.45.999-1.45 1.827v.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Zm-9 5.25h.008v.008H12v-.008Z"
+      />
+    </svg>
+  );
+}
+
 const CATEGORY_META: Record<
   SearchResult["type"],
   {
@@ -211,6 +239,11 @@ const CATEGORY_META: Record<
     colorClass: "text-[#4A5D4A]",
     bgClass: "bg-[#4A5D4A]/10",
   },
+  faq: {
+    icon: FaqIcon,
+    colorClass: "text-primary",
+    bgClass: "bg-primary/10",
+  },
 };
 
 /* ─── Main Component ─── */
@@ -221,6 +254,7 @@ export function GlobalSearch({
   topics,
   glossary,
   resources,
+  faq,
 }: GlobalSearchProps) {
   const { isSearchOpen, closeSearch } = useGlobalSearch();
   const locale = useLocale();
@@ -339,9 +373,32 @@ export function GlobalSearch({
       }
     }
 
+    for (const entry of faq) {
+      const score = bestScore([entry.question, entry.answer], q);
+      if (score > 0) {
+        all.push({
+          id: `faq-${entry.id}`,
+          type: "faq",
+          title: entry.question,
+          description: truncate(entry.answer, 120),
+          href: localizeHref(locale, `/faq#${entry.id}`),
+          score,
+        });
+      }
+    }
+
     all.sort((a, b) => b.score - a.score);
     return all;
-  }, [debouncedQuery, steps, topics, glossary, resources, stageMap, locale]);
+  }, [
+    debouncedQuery,
+    steps,
+    topics,
+    glossary,
+    resources,
+    faq,
+    stageMap,
+    locale,
+  ]);
 
   /* Group results by category */
   const grouped = useMemo(() => {
@@ -350,6 +407,7 @@ export function GlobalSearch({
       "topic",
       "glossary",
       "resource",
+      "faq",
     ];
     const groups: {
       type: SearchResult["type"];
@@ -486,6 +544,7 @@ export function GlobalSearch({
       topic: t("search.categories.topics"),
       glossary: t("search.categories.glossary"),
       resource: t("search.categories.resources"),
+      faq: t("search.categories.faq"),
     };
     return labels[type];
   };
@@ -639,6 +698,7 @@ export function GlobalSearch({
                     { type: "topic" as const, href: "/topics" },
                     { type: "glossary" as const, href: "/glossary" },
                     { type: "resource" as const, href: "/resources" },
+                    { type: "faq" as const, href: "/faq" },
                   ] as const
                 ).map(({ type, href }) => {
                   const meta = CATEGORY_META[type];
@@ -798,7 +858,9 @@ export function GlobalSearch({
                                 ? localizeHref(locale, "/topics")
                                 : group.type === "glossary"
                                   ? localizeHref(locale, "/glossary")
-                                  : localizeHref(locale, "/resources")
+                                  : group.type === "faq"
+                                    ? localizeHref(locale, "/faq")
+                                    : localizeHref(locale, "/resources")
                           }
                           onClick={closeSearch}
                           className={`text-xs font-medium no-underline ${meta.colorClass} hover:underline`}
