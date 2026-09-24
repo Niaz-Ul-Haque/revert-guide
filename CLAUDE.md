@@ -6,14 +6,15 @@ This is the authoritative project context document for the **Revert Guide** appl
 
 ## 0. Project Overview
 
-**Revert Guide** is an offline-first educational web app (Next.js 14 + React) for new Muslim converts in the Toronto area. The app provides step-by-step onboarding without login or user accounts. It's packaged for web and mobile (Capacitor) as a Progressive Web App (PWA).
+**Revert Guide** is an offline-first educational web app (Next.js 14 + React) for new Muslim converts across Canada. The app provides step-by-step onboarding without login or user accounts. It's packaged for web and mobile (Capacitor) as a Progressive Web App (PWA).
 
 **Core Principles:**
 - **Offline-First:** Users access all content without network after initial load
 - **Accessibility First:** WCAG 2.0 AA compliance (AODA standards)
 - **No Tracking:** Zero analytics, ads, or trackers
 - **No Login (MVP):** No user accounts or cloud sync
-- **Content-Driven:** All text is structured data (JSON/MDX), not hard-coded
+- **Content-Driven:** All text is structured data (JSON), not hard-coded
+- **Mainstream Sunni:** Religious content stays within mainstream Sunni scholarship (see Site orientation below)
 
 ---
 
@@ -26,7 +27,7 @@ This is the authoritative project context document for the **Revert Guide** appl
 - **Offline-First PWA:** Users must have a seamless experience offline. The app uses a service worker to precache critical assets and cache content pages. The app shell and recent content must load offline; dynamic features degrade gracefully without network.
 - **No User Tracking:** **No analytics scripts, ads, or third-party trackers.** Privacy is paramount. The app does not collect personal data in V1.
 - **No Login or Persistence (MVP):** There are **no user accounts or cloud sync.** Do not implement login or store user progress on a server. **No data persists beyond the device**.
-- **Content is King:** All educational content is stored as data (MDX/JSON files) and not hard-coded in components. The app should be easy to update by editing content files.
+- **Content is King:** All educational content is stored as data (JSON files under `locales/`) and not hard-coded in components. The app should be easy to update by editing content files.
 - **Performance:** Use a light, responsive design. Avoid unnecessary heavy libraries. All pages should score 90+ on Lighthouse. This includes efficient image loading and code-splitting.
 - **Design Consistency:** Follow brand guidelines for styling. Use the provided color palette, typography, and spacing system. Do not introduce new colors or fonts without design approval.
 - **Security:** Follow Next.js security best practices. Use HTTPS for interactions. No eval or dangerous HTML insertion. Sanitize external content. No XSS vectors.
@@ -34,11 +35,11 @@ This is the authoritative project context document for the **Revert Guide** appl
 
 **System Constraints & Tech Stack:**
 - Next.js 14 with **App Router** and React 18. Use **TypeScript** (strict mode) across the project.
-- Node.js 18+ required. Deploy as a static site (use next export).
-- **Capacitor 5** for native builds. Keep dependencies compatible with Capacitor's WebView.
+- Node.js 18+ required. Deploy as a static site (`output: "export"` in next.config.mjs writes the site to `out/`).
+- **Capacitor 8** for native builds. Keep dependencies compatible with Capacitor's WebView.
 - PWA implemented via **@serwist/next** (a Next.js PWA service worker solution). Build process generates sw.js.
 - **UI Library:** None. Use Next.js/React + Tailwind CSS. Build custom components per design spec.
-- **Map:** Google Maps JavaScript API (or static map) for Masjid Finder. Load lazily. Handle offline gracefully.
+- **Map:** Leaflet with OpenStreetMap tiles for the Masjid Finder. Load lazily. Handle offline gracefully. No Google Maps and no API key.
 - **No database or server in V1** - all data lives in static files.
 
 **Repository & Code Conventions:**
@@ -70,22 +71,22 @@ This is the authoritative project context document for the **Revert Guide** appl
 - **Continuous Integration:** CI pipeline runs linting and all tests on push/PR. Only merge code that passes all checks. Accessibility violations block merging.
 
 **Content Modeling Rules:**
-- All **Stages, Steps, Topics, Glossary terms, Resources, and Masjids** are defined in structured content files (JSON or MDX). Developers should not hard-code content into components; components fetch from content files.
+- All **Stages, Steps, Topics, Glossary terms, Resources, and Masjids** are defined in structured JSON content files under `locales/en/`. Developers should not hard-code content into components; components fetch from content files.
 - **Steps**: Each step is stored as .mdx or structured object with required fields: id/slug, title, whyMatters, exactActions (ordered list with optional sub-steps), timeEstimate, obstacles (list with problem/solution), tinyVersion, unlocksNext, and resources (list of Resource IDs).
 - **Stages**: Each stage has id/slug, title, summary/mainGoal, success (the "Success looks like" text), notWorry (list of reassurance points), and ordered stepIds.
-- **Topics**: Stored as MDX with metadata: id/slug, title, description (short blurb), main content (markdown with headings), relatedStepIds, relatedGlossaryIds.
+- **Topics**: One JSON file per topic under `locales/en/topics/`, with fields: id/slug, title, description (short blurb), main content (markdown with headings), relatedStepIds, relatedGlossaryIds.
 - **Glossary**: Glossary.json with entries: id (unique key), term, optional arabicText and transliteration, plain language definition, seeAlso (array of related term ids). Sorted alphabetically.
 - **Resources**: resources.json with entries: id, title, type (article, video, book, app, community, pdf), url, description, relatedStepIds, relatedTopicIds. Keep descriptions concise.
-- **Masjid Data**: masjids.json with entries: id (unique slug), name, address, city, stateProvince, country, postalCode, coordinates (lat/lng), phone, website, notes. Initial dataset: 10 Toronto-area masjids.
+- **Masjid Data**: masjids.json with entries: id (unique slug), name, address, city, stateProvince, country, postalCode, coordinates (lat/lng), phone, website, notes, coordinatesPrecision, sourceIds. Canada-wide directory, see locales/en/masjids.json.
 - **Default Locale:** English locale assets reside under `locales/en/` with potential subfolders.
 
 **i18n (Internationalization) Rules:**
 - **Default Language:** English (US) is the default.
 - **UI Strings:** Stored in locale JSON (e.g., `locales/en/ui.json`). Do not hard-code English in components; use a lookup like `t('nav.home')`.
-- **Translations:** Although initially English-only, the system accommodates future languages. Duplicate the locale folder for new languages (e.g., `locales/fr/`).
+- **Translations:** 13 locales are wired in lib/i18n.ts (en, fr, es, hi, ur, zh, tl, pa, pt, ko, fa, ru, bn). Missing UI strings and content fall back to English by key, id and field. Non-English pages show a short translation notice; English pages do not. Menus show the same items in every locale.
 - **RTL Support:** Arabic requires right-to-left layout. Use `dir="rtl"` on Arabic text segments and RTL fonts. Use logical CSS properties (margin-inline-start vs margin-left).
 - **Proper Nouns:** Do not translate "Allah", "Ramadan", "Shahada", etc.
-- **Locale Switching:** (Future) Architecture keeps content separated by locale, enabling simple language switching.
+- **Locale Switching:** The language switcher changes the URL prefix and stores the choice in localStorage (`revert-guide-locale`).
 
 **Offline & Caching Strategy:**
 - **Offline-First Approach:** Service worker handles caching via precaching and runtime caching.
@@ -103,7 +104,7 @@ This is the authoritative project context document for the **Revert Guide** appl
 
 **"No Persistence Until Login" Rule:**
 - App does not save user-specific data permanently without an account.
-- Avoid localStorage entirely. Use sessionStorage or in-memory context only for ephemeral state (remembering last viewed step).
+- Avoid localStorage, with one exception: the chosen language is stored under the key `revert-guide-locale` so the site opens in that language next time. It is a setting, not personal data, and it is the only allowed persistence. Use sessionStorage or in-memory context for other ephemeral state (remembering last viewed step).
 - **Do not implement any backend** or cloud to store progress. No API calls like /api/saveProgress.
 - All progress is client-side and resets if user clears cache or uses new device.
 - **No registration, no profile info, no analytics** - nothing introducing privacy concerns.
@@ -111,10 +112,10 @@ This is the authoritative project context document for the **Revert Guide** appl
 - If a contributor suggests adding login, reject it for MVP.
 
 **Definition of Done (MVP):**
-- All 6 timeline stages implemented with descriptions and all 10 onboarding steps with full content.
-- Topics hub and 2 topic pages (Ramadan, Mental Health) with meaningful content. Glossary with 30+ terms. Resources page with ~20 curated resources. Masjid Finder with 10+ masjids.
+- All 6 timeline stages implemented with descriptions and all 20 steps with full content.
+- Topics hub with 15 topic pages before the research expansion, plus the new five pillars (`/topics/five-pillars`) and menstruation and worship (`/topics/menstruation-and-worship`) topics. Ramadan guide and Mental health pages. Glossary with 109 entries. Resources page with curated resources. Sources page listing 112 sources before the expansion. Guides hub with 11 life guides plus the new holidays and family occasions, red flags and staying safe, and how mentoring works guides. Masjid Finder: Canada-wide directory, see locales/en/masjids.json.
 - Static info pages: "About", "Accessibility Statement", "Privacy Policy", "Terms of Use".
-- Mobile bottom nav (4-5 icons) working. Desktop top nav with dropdowns keyboard accessible. Breadcrumbs on all content pages.
+- No mobile bottom nav. On small screens the Navbar opens a hamburger menu with every link, with Get help and Find a masjid as the two prominent entries. Desktop top nav with dropdowns (Resources, Tools, Help, About) keyboard accessible. The same items show in every locale. Breadcrumbs on all content pages.
 - Skip link functional on all pages.
 - Responsive design tested at common breakpoints (375px, 768px, 1024px, 1200px+).
 - Accessibility audit: 0 critical violations. Manual SR verification for key flows.
@@ -125,7 +126,7 @@ This is the authoritative project context document for the **Revert Guide** appl
 - 404 page exists with helpful message.
 - No console errors. No React warnings.
 - No deprecated Next.js patterns.
-- No localStorage or cookies for persistent data (except possibly dismissed banner).
+- No localStorage or cookies for persistent data (except the stored language choice).
 - Deployment ready: build succeeds. Production build tested locally/staging.
 - Capacitor builds prepared (app id, name, icons configured).
 
@@ -144,9 +145,42 @@ This is the authoritative project context document for the **Revert Guide** appl
 - Console Logging Sensitive Data: Strip console.log before production or use sparingly.
 - Ignoring Build Warnings: Fix hydration mismatches, missing keys, etc. These indicate potential bugs.
 
+**Site orientation:**
+- Revert Guide is a mainstream Sunni site. All religious content, sources and teachers stay within mainstream Sunni scholarship. Differences between the four Sunni schools are acknowledged without choosing. No Shia or Ahmadiyya institution is used as a source, and none is listed in the masjid directory.
+- Scope is Canada-wide, for the content and the masjid directory. Crisis lines and services are Canadian.
+
+**Naming rule:**
+- Labels and headings lead with plain English and put the Arabic term in brackets, for example "Washing before prayer (wudu)" and "Learn to pray (salah)".
+- Ghusl is described as a full-body wash, never as a shower.
+
+**Review states:**
+- Every step, topic, guide, masjid and source carries a `reviewStatus` (`ContentReviewStatus` in lib/types.ts): `draft`, `source-checked`, `review-needed` or `approved`.
+- `source-checked` means the sources were verified. `review-needed` is for anything touching rulings, mental health, safety, legal, financial or sensitive family matters that still needs a qualified reviewer. Only a qualified reviewer moves content to `approved`.
+
+**Placeholder config:**
+- Real-world details the team has not created yet live in lib/site.ts: `HELP_FORM_URL`, `CONTACT_EMAIL`, `REPORT_EMAIL`, `WHATSAPP_CHANNEL_URL`, `WHATSAPP_GROUPS`, `ORGANISATION_NAME`, `ORGANISATION_LOCATION`.
+- Components read these constants. Never write the values into content files. `hasPlaceholderConfig()` is true while any value is still a placeholder, and pages that depend on them show a short notice.
+
+**Sources (sources.json):**
+- Every religious claim carries `sourceIds` pointing to entries in `locales/en/sources.json`. Never invent a reference.
+- Entry fields (`SourceEntry` in lib/types.ts): id (kebab-case, unique), title, organization, category (a `SourceCategory` value), url, sourceType, label, accessed (the date the link was checked), reviewStatus, note.
+- The note says what the source supports. Hadith entries give the collection, number and grading. Media entries give the licence. Quran and hadith links use the exact Quran.com and Sunnah.com URLs.
+- The Sources page lists every entry, grouped by category (source-categories.json).
+
+**Help and community pages:**
+- `/get-help`: how to ask for a mentor, an answer to a question, events or community, through the help form in lib/site.ts, with Canadian crisis lines first.
+- `/faq`: questions and answers for new Muslims. Each answer has its sources, and the answers are included in the site search.
+- `/events`: upcoming events and how to hear about them. The site collects no personal data for events.
+- `/community-groups`: the WhatsApp Channel and moderated groups from lib/site.ts, and the privacy difference between the two.
+- `/guides/how-mentoring-works` explains mentoring. The hidden dawah guide under `app/[locale]/(hidden)` stays unlinked and noindexed.
+
+**CI checks:**
+- `npm run test` runs scripts/axe-check.mjs, an axe-core check over key pages in `out/`, after the build. It fails on serious or critical violations.
+- `npm run check:links` runs scripts/check-links.mjs over the URLs in sources.json, resources.json and masjids.json. A weekly workflow runs it and uploads a JSON report.
+
 **Checklist Before Commit/PR:**
-1. Run tests and lint: `npm run lint && npm run test`
-2. Run build: `npm run build && next export`
+1. Run lint and types: `npm run lint && npx tsc --noEmit`
+2. Run the build, then the accessibility check over `out/`: `npm run build && npm run test`
 3. Manual smoke test in dev mode: Navigate through app, check for runtime errors.
 4. Verify content linking: Click cross-links to confirm they go to correct places.
 5. Check offline (dev mode): Simulate offline, verify cached pages load.
@@ -173,10 +207,10 @@ This is the authoritative project context document for the **Revert Guide** appl
 - User can navigate linearly (Next/Previous) or via cross-links. No isolated content.
 
 **Data Modeling & Storage:**
-- All content in structured data files (JSON/MDX). Components don't hard-code content.
+- All content in structured data files (JSON). Components don't hard-code content.
 - **Stages:** JSON with id, title, description, success, notWorry list, stepIds array.
-- **Steps:** MDX with front-matter. Fields: id/slug, title, stageId, whyMatters, exactActions (array with optional sub-steps), timeEstimate, obstacles (array of {problem, solution}), tinyVersion, unlocksNext, resources (array of Resource IDs), relatedGlossary.
-- **Topics:** MDX with front-matter. Fields: id, title, description, content (markdown with headings), relatedStepIds, relatedGlossaryIds.
+- **Steps:** One JSON file per step under `locales/en/steps/`. Fields: id/slug, title, stageId, whyMatters, exactActions (array with optional sub-steps), timeEstimate, obstacles (array of {problem, solution}), tinyVersion, unlocksNext, resources (array of Resource IDs), relatedGlossary.
+- **Topics:** One JSON file per topic under `locales/en/topics/`. Fields: id, title, description, content (markdown with headings), relatedStepIds, relatedGlossaryIds.
 - **Glossary:** glossary.json array. Entries: id (for anchoring), term, arabicText, transliteration, definition, seeAlso array.
 - **Resources:** resources.json array. Entries: id, title, type (article, video, book, app, community, pdf), url, description, relatedStepIds, relatedTopicIds.
 - **Masjids:** masjids.json array. Entries: id, name, address, city, province, postalCode, country, lat, lng, phone, website, notes.
@@ -184,25 +218,25 @@ This is the authoritative project context document for the **Revert Guide** appl
 - During build: transform content into HTML and data objects for rendering. Structured approach ensures consistency (all Steps have whyMatters section). Updating content means editing files, not code.
 
 **Masjid Finder Implementation:**
-- Static JSON dataset ~10 mosques (expandable to 100+ in future).
-- Use **Google Maps JavaScript API** (or Leaflet + OSM) for interactive map.
+- Static JSON dataset: Canada-wide directory, see locales/en/masjids.json.
+- Use **Leaflet** with **OpenStreetMap** tiles for the interactive map (components/MasjidMap.tsx).
 - Map initialized in Finder page component on load. Markers created from data coordinates.
-- Map centered on Toronto by default, zoom appropriate to show all points.
-- **Filtering:** Client-side. When user types, filter list whose name/city/postalCode contain query (case-insensitive). Simple string matching—fast for our data size.
+- The map fits its bounds to the listed masjids and falls back to a Toronto center when the list is empty.
+- **Filtering:** Client-side. When user types, filter list whose name/city/postalCode contain query (case-insensitive). Simple string matching is fast for our data size.
 - If dataset grows large (hundreds/thousands): plan to use **virtualization** (only render visible list items to keep DOM lightweight) and **Web Worker** for filtering (if dataset very large, filter on separate thread to avoid UI blocking).
-- For MVP (10 items): optimizations not needed (filter instant).
+- At the current size, optimizations are not needed (the filter is instant).
 - Code structured so swapping in worker would be straightforward later.
 - Map updates with filtering: clear and redraw markers on filter event (low count makes this fine).
 - **Offline Fallback:** Detect navigator.onLine. If offline or map API fails: display friendly message in place of map. List and search still function (data is local).
 - Clicking marker: open info window with name/maybe link to details. Or highlight list item.
 - Clicking list item: pan/zoom map, maybe bounce marker.
 - **No geolocation in MVP** (user can visually locate nearest). Code structured to allow adding later.
-- Masjids.json ~10 entries now. Tested filtering scales smoothly to ~few hundred on mid-range devices. If thousands: would need more robust solution (indexing, server-side queries). Beyond MVP scope.
+- Masjids.json grows as verified records are imported. Tested filtering scales smoothly to ~few hundred on mid-range devices. If thousands: would need more robust solution (indexing, server-side queries). Beyond MVP scope.
 
 **Internationalization (i18n):**
 - Built with future translation in mind.
 - All UI labels/static text in locale JSON (e.g., `locales/en/ui.json`). Components use lookup like `t('nav.home')`.
-- Currently English-only. System accommodates future languages.
+- English is complete. Other locales are partly translated and fall back to English.
 - Content files organized by locale (`locales/en/`, `locales/fr/`, etc.). Default is English.
 - **RTL Support:** Arabic requires right-to-left layout. Use dir="rtl" on Arabic text spans. RTL fonts (Amiri for Arabic).
 - **Logical CSS:** Use logical properties (margin-inline-start vs margin-left) where possible.
