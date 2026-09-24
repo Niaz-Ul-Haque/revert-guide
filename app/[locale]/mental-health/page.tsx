@@ -46,6 +46,10 @@ export default function MentalHealthPage({
       "naseeha",
       "ontario-211",
       "connexontario",
+      "sakeenah-canada",
+      "nisa-helpline",
+      "nisa-homes",
+      "canada-safety-planning",
       "khalil-center",
       "yaqeen-mental-health",
     ],
@@ -308,6 +312,21 @@ export default function MentalHealthPage({
                   </div>
                 ))}
               </div>
+              {"warningBody" in group && group.warningBody ? (
+                <Callout variant="warning" title={group.warningTitle}>
+                  <p>{group.warningBody}</p>
+                  <p>
+                    <a
+                      href={group.warningLinkHref}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="font-medium text-primary hover:text-primaryHover"
+                    >
+                      {group.warningLinkLabel}
+                    </a>
+                  </p>
+                </Callout>
+              ) : null}
             </div>
           ))}
 

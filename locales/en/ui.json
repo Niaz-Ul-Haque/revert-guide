@@ -962,6 +962,56 @@
             ]
           },
           {
+            "id": "women",
+            "title": "Women's services",
+            "intro": "Services run by Muslim charities for women and girls. If you are in immediate danger, call 9-1-1.",
+            "items": [
+              {
+                "name": "Sakeenah Canada emergency hotline",
+                "desc": "A 24/7 crisis line for women and children leaving abuse, homelessness or poverty. Sakeenah also runs homes in several Canadian cities.",
+                "contacts": [
+                  {
+                    "label": "Call:",
+                    "value": "1-888-671-3446",
+                    "href": "tel:18886713446"
+                  }
+                ],
+                "officialHref": "https://sakeenahcanada.com/",
+                "checked": "Checked 23 September 2026"
+              },
+              {
+                "name": "Nisa Helpline",
+                "desc": "Free, confidential peer support for Muslim women and girls aged 14 and up, 7 days a week from 8 AM to midnight Eastern time. It is peer support, not a crisis line.",
+                "contacts": [
+                  {
+                    "label": "Call:",
+                    "value": "+1 888 711 6472",
+                    "href": "tel:+18887116472"
+                  }
+                ],
+                "officialHref": "https://www.nisafoundation.ca/programs/nisa-helpline",
+                "checked": "Checked 23 September 2026"
+              },
+              {
+                "name": "Nisa Homes",
+                "desc": "Safe shelter for women and children, with locations across Canada. It is run by the Nisa Foundation. Apply through the Nisa Foundation website, or call the Nisa Helpline.",
+                "contacts": [
+                  {
+                    "label": "Call:",
+                    "value": "+1 888 711 6472",
+                    "href": "tel:+18887116472"
+                  }
+                ],
+                "officialHref": "https://www.nisafoundation.ca/",
+                "checked": "Checked 23 September 2026"
+              }
+            ],
+            "warningTitle": "If someone checks your phone or computer",
+            "warningBody": "The Government of Canada warns that an abuser can monitor your online activity and history, and that there is no sure way to delete all of it. If you are worried, look up help on a device somewhere else, such as at a library or a trusted friend's home.",
+            "warningLinkLabel": "Government of Canada: plan for your safety",
+            "warningLinkHref": "https://www.canada.ca/en/public-health/services/health-promotion/stop-family-violence/plan-your-safety.html"
+          },
+          {
             "id": "ontario",
             "title": "Finding services in Ontario",
             "intro": "These lines help you find local services that are not emergencies. Outside Ontario, the Government of Canada keeps a list of services for each province and territory.",
