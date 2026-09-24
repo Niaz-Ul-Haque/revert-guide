@@ -1,36 +1,12 @@
 import type { Metadata, Viewport } from "next";
-import { Outfit, Fraunces, Amiri } from "next/font/google";
-import "leaflet/dist/leaflet.css";
 import en from "@/locales/en/ui.json";
-import { JsonLd } from "@/components/JsonLd";
-import { DEFAULT_OG_IMAGE, SITE_URL, languageAlternates } from "@/lib/site";
-import { SUPPORTED_LOCALES } from "@/lib/i18n";
-import "./globals.css";
+import { DEFAULT_OG_IMAGE, SITE_URL, languageAlternates } from "./site";
+import { SUPPORTED_LOCALES } from "./i18n";
 
-const outfit = Outfit({
-  subsets: ["latin"],
-  display: "swap",
-  variable: "--font-outfit",
-});
+/* Site-level metadata shared by both root layouts. Pages override the
+   title, description, canonical and social tags through lib/metadata.ts. */
 
-const fraunces = Fraunces({
-  subsets: ["latin"],
-  display: "swap",
-  variable: "--font-fraunces",
-  axes: ["opsz"],
-});
-
-const amiri = Amiri({
-  weight: ["400", "700"],
-  subsets: ["arabic", "latin"],
-  display: "swap",
-  variable: "--font-amiri",
-  // Only pages with Arabic text use this font, so it is not preloaded on
-  // every page; the browser fetches it when a page first uses it.
-  preload: false,
-});
-
-export const metadata: Metadata = {
+export const siteMetadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   title: {
     default: en.metadata.site.title,
@@ -91,11 +67,11 @@ export const metadata: Metadata = {
   },
 };
 
-export const viewport: Viewport = {
+export const siteViewport: Viewport = {
   themeColor: "#4A7C59",
 };
 
-const websiteJsonLd = {
+export const websiteJsonLd = {
   "@context": "https://schema.org",
   "@type": "WebSite",
   name: en.brand.name,
@@ -112,21 +88,3 @@ const websiteJsonLd = {
     },
   },
 };
-
-export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode;
-}) {
-  return (
-    <html
-      lang="en"
-      className={`${outfit.variable} ${fraunces.variable} ${amiri.variable}`}
-    >
-      <body className="flex min-h-screen flex-col font-sans">
-        <JsonLd data={websiteJsonLd} />
-        {children}
-      </body>
-    </html>
-  );
-}
