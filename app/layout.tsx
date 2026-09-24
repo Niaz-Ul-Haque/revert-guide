@@ -25,6 +25,9 @@ const amiri = Amiri({
   subsets: ["arabic", "latin"],
   display: "swap",
   variable: "--font-amiri",
+  // Only pages with Arabic text use this font, so it is not preloaded on
+  // every page; the browser fetches it when a page first uses it.
+  preload: false,
 });
 
 export const metadata: Metadata = {
