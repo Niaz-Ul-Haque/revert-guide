@@ -68,7 +68,7 @@ export function StageCard({
             {title}
           </h3>
           <p className="mb-3 text-sm text-textSecondary">{description}</p>
-          <span className="inline-flex items-center gap-1.5 rounded-full bg-surfaceElevated px-3 py-1 text-xs font-medium text-textMuted">
+          <span className="inline-flex items-center gap-1.5 rounded-full bg-surfaceElevated px-3 py-1 text-xs font-medium text-textSecondary">
             <svg
               className="h-3.5 w-3.5"
               fill="none"
@@ -120,7 +120,7 @@ export function StepCard({
             {title}
           </h4>
           {timeEstimate && (
-            <span className="mt-0.5 block text-xs text-textMuted">
+            <span className="mt-0.5 block text-xs text-textSecondary">
               {timeEstimate}
             </span>
           )}

@@ -92,11 +92,11 @@ export function SourcesPanel({
                 {source.title}
                 <Icon name="external-link" size="sm" />
               </a>
-              <span className="rounded-full bg-primary/10 px-2.5 py-0.5 text-[11px] font-semibold text-primary">
+              <span className="rounded-full bg-primary/10 px-2.5 py-0.5 text-[11px] font-semibold text-primaryHover">
                 {source.label}
               </span>
             </div>
-            <p className="mb-1 text-xs font-medium text-textMuted">
+            <p className="mb-1 text-xs font-medium text-textSecondary">
               {source.organization} - {source.sourceType}
             </p>
             <p className="mb-0 text-sm leading-relaxed text-textSecondary">

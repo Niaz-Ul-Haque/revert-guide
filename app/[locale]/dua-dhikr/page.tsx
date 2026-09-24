@@ -89,7 +89,7 @@ function EntryCard({
       <div className="mb-4 flex flex-wrap items-start justify-between gap-3">
         <div>
           <div className="mb-2 flex flex-wrap items-center gap-2">
-            <span className="rounded-full bg-primary/10 px-2.5 py-0.5 text-xs font-semibold text-primary">
+            <span className="rounded-full bg-primary/10 px-2.5 py-0.5 text-xs font-semibold text-primaryHover">
               {entry.kind}
             </span>
             <span className="text-xs font-medium text-textMuted">
