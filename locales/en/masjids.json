@@ -302,6 +302,52 @@
     "reviewStatus": "source-checked"
   },
   {
+    "id": "barrie-mosque",
+    "name": "Barrie Mosque (Noor-Ul-Islam)",
+    "address": "155 Ferris Lane",
+    "city": "Barrie",
+    "stateProvince": "Ontario",
+    "country": "Canada",
+    "postalCode": "L4M 1Z3",
+    "coordinates": {
+      "lat": 44.4087451,
+      "lng": -79.6897574
+    },
+    "coordinatesPrecision": "street",
+    "phone": "(705) 726-4594",
+    "email": "barriemosque@gmail.com",
+    "website": "https://www.barriemosque.ca/",
+    "notes": "Also known as Barrie Mosque; Noor Ul Islam.",
+    "newMuslimSupportNote": "The Reverts to Islam page offers mentorship and a Reverts to Islam Social Circle and Study on the first Saturday of every month.",
+    "serviceIds": ["new-muslim-support"],
+    "convertSupport": true,
+    "sourceIds": ["masjid-barrie-mosque", "masjid-barrie-mosque-programme"],
+    "reviewStatus": "source-checked"
+  },
+  {
+    "id": "islamic-society-of-belleville",
+    "name": "Islamic Society of Belleville",
+    "address": "33 Moira St W",
+    "city": "Belleville",
+    "stateProvince": "Ontario",
+    "country": "Canada",
+    "postalCode": "K8P 1S1",
+    "coordinates": {
+      "lat": 44.1683215,
+      "lng": -77.3881613
+    },
+    "coordinatesPrecision": "street",
+    "phone": "(613) 707-3861",
+    "email": "masjidbelleville@gmail.com",
+    "website": "https://bellevillemasjid.ca/",
+    "notes": "Also known as Belleville Masjid; Belleville Mosque.",
+    "jumuahNote": "About page lists \"Friday Juma\"; an older homepage notice says \"Friday Khutba: 1:45 PM - Salat 2:00 PM (just one prayer)\" (may be outdated).",
+    "parkingNote": "Homepage notice: exit guidance for Moira St after Friday prayer and \"Please DO NOT park in the designated parking spots in the parking lot or where parking is marked as prohibited.\".",
+    "serviceIds": ["quran-classes"],
+    "sourceIds": ["masjid-islamic-society-of-belleville"],
+    "reviewStatus": "source-checked"
+  },
+  {
     "id": "brampton-islamic-centre",
     "name": "Brampton Islamic Centre (BSIA)",
     "address": "6 Lowry Drive",
@@ -373,6 +419,28 @@
     "reviewStatus": "source-checked"
   },
   {
+    "id": "muslim-association-of-brantford",
+    "name": "Muslim Association of Brantford",
+    "address": "192 Greenwich St",
+    "city": "Brantford",
+    "stateProvince": "Ontario",
+    "country": "Canada",
+    "postalCode": "N3S 2X6",
+    "coordinates": {
+      "lat": 43.1355687,
+      "lng": -80.2578768
+    },
+    "coordinatesPrecision": "street",
+    "phone": "(519) 753-2066",
+    "email": "info@brantfordmosque.ca",
+    "website": "https://brantfordmosque.ca/",
+    "notes": "Also known as MAB; Brantford Mosque.",
+    "womenSpaceNote": "Prayers page: 'Accommodations for both brothers and sisters'; mentions a separate women's facility 'Mussallah-UL-Nissah'.",
+    "parkingNote": "Prayers page: 'Use only the designated parking areas'; parking 'fills up quickly' on Fridays.",
+    "sourceIds": ["masjid-muslim-association-of-brantford"],
+    "reviewStatus": "source-checked"
+  },
+  {
     "id": "halton-islamic-association-halton-masjid-burlington",
     "name": "Halton Islamic Association - Halton Masjid",
     "address": "4310 Fairview Street",
@@ -392,6 +460,547 @@
     "womenSpaceNote": "Sisters committee and sisters' events; women's gym facilities mentioned.",
     "jumuahNote": "Halton Masjid: khutbah 1:30, 2:30, 3:20 PM; additional Jumuah at East Plains Church (375 Plains Rd E) and a community centre.",
     "sourceIds": ["masjid-halton-islamic-association-halton-masjid-burlington"],
+    "reviewStatus": "source-checked"
+  },
+  {
+    "id": "galt-islamic-center-cambridge",
+    "name": "Galt Islamic Center",
+    "address": "431 Dundas Street North",
+    "city": "Cambridge",
+    "stateProvince": "Ontario",
+    "country": "Canada",
+    "postalCode": "N1R 5R5",
+    "coordinates": {
+      "lat": 43.3554739,
+      "lng": -80.31706
+    },
+    "coordinatesPrecision": "city-centre",
+    "phone": "(519) 998-1620",
+    "email": "info@galtislamic.com",
+    "website": "https://www.galtislamic.com/",
+    "notes": "Area: Galt. Also known as Galt Islamic Centre.",
+    "womenSpaceNote": "About page: \"special programs for sisters - exclusive programs for our mothers and sisters\".",
+    "sourceIds": ["masjid-galt-islamic-center-cambridge"],
+    "reviewStatus": "source-checked"
+  },
+  {
+    "id": "hespeler-masjid-a-mac-community-centre-cambridge",
+    "name": "Hespeler Masjid - A MAC Community Centre",
+    "address": "64 Winston Blvd",
+    "city": "Cambridge",
+    "stateProvince": "Ontario",
+    "country": "Canada",
+    "postalCode": "",
+    "coordinates": {
+      "lat": 43.4254334,
+      "lng": -80.3177917
+    },
+    "coordinatesPrecision": "street",
+    "phone": "(519) 212-5788",
+    "email": "info@hespelermasjid.com",
+    "website": "https://centres.macnet.ca/hespelermasjid/",
+    "jumuahNote": "First prayer 1:30 PM; a second prayer at 2:00 PM also listed.",
+    "sourceIds": ["masjid-hespeler-masjid-a-mac-community-centre-cambridge"],
+    "reviewStatus": "source-checked"
+  },
+  {
+    "id": "islamic-centre-of-cambridge",
+    "name": "Islamic Centre of Cambridge",
+    "address": "1550 Dunbar Rd.",
+    "city": "Cambridge",
+    "stateProvince": "Ontario",
+    "country": "Canada",
+    "postalCode": "N1R 8J5",
+    "coordinates": {
+      "lat": 43.3904277,
+      "lng": -80.3175141
+    },
+    "coordinatesPrecision": "street",
+    "phone": "(519) 740-6855",
+    "email": "info@iccambridge.com",
+    "website": "https://www.iccambridge.com/",
+    "notes": "Also known as ICC.",
+    "jumuahNote": "Two khutbahs: 1:30 PM and 2:45 PM.",
+    "sourceIds": ["masjid-islamic-centre-of-cambridge"],
+    "reviewStatus": "source-checked"
+  },
+  {
+    "id": "townline-muslim-centre-cambridge",
+    "name": "Townline Muslim Centre",
+    "address": "1170 Townline Road",
+    "city": "Cambridge",
+    "stateProvince": "Ontario",
+    "country": "Canada",
+    "postalCode": "N1T 2G3",
+    "coordinates": {
+      "lat": 43.4021411,
+      "lng": -80.2767779
+    },
+    "coordinatesPrecision": "street",
+    "phone": "(519) 651-0335",
+    "email": "info@townlinemuslimcentre.ca",
+    "website": "https://www.townlinemuslimcentre.ca/",
+    "notes": "Also known as TMC.",
+    "jumuahNote": "Two Jumuah sessions; adhan 30 minutes before each iqama (times on site).",
+    "sourceIds": ["masjid-townline-muslim-centre-cambridge"],
+    "reviewStatus": "source-checked"
+  },
+  {
+    "id": "cornwall-islamic-centre",
+    "name": "Cornwall Islamic Centre",
+    "address": "900 Pitt St",
+    "city": "Cornwall",
+    "stateProvince": "Ontario",
+    "country": "Canada",
+    "postalCode": "K6J 3S5",
+    "coordinates": {
+      "lat": 45.0288273,
+      "lng": -74.7349402
+    },
+    "coordinatesPrecision": "street",
+    "phone": "(613) 604-4393",
+    "email": "info@cornwallislamiccentre.ca",
+    "website": "https://cornwallislamiccentre.ca/",
+    "womenSpaceNote": "\"Sisters' entrance located on the right side of the building\" (About page).",
+    "womenFriendly": true,
+    "sourceIds": ["masjid-cornwall-islamic-centre"],
+    "reviewStatus": "source-checked"
+  },
+  {
+    "id": "the-ottawa-valley-islamic-centre-deep-river",
+    "name": "The Ottawa Valley Islamic Centre (OVIC)",
+    "address": "30 McElligott Dr",
+    "city": "Deep River",
+    "stateProvince": "Ontario",
+    "country": "Canada",
+    "postalCode": "K0J 1P0",
+    "coordinates": {
+      "lat": 46.101328,
+      "lng": -77.487602
+    },
+    "coordinatesPrecision": "city-centre",
+    "phone": "(438) 988-2345",
+    "email": "ovicentre@gmail.com",
+    "website": "https://www.ovicentre.org/",
+    "serviceIds": ["quran-classes"],
+    "sourceIds": ["masjid-the-ottawa-valley-islamic-centre-deep-river"],
+    "reviewStatus": "source-checked"
+  },
+  {
+    "id": "islamic-association-of-sudbury-greater-sudbury",
+    "name": "Islamic Association of Sudbury",
+    "address": "755 Churchill Avenue, Sudbury",
+    "city": "Greater Sudbury",
+    "stateProvince": "Ontario",
+    "country": "Canada",
+    "postalCode": "P3A 4A1",
+    "coordinates": {
+      "lat": 46.5131805,
+      "lng": -80.9345732
+    },
+    "coordinatesPrecision": "street",
+    "phone": "(705) 525-7729",
+    "website": "https://www.iasudbury.com/",
+    "notes": "Also known as Sudbury Mosque.",
+    "jumuahNote": "'WE HAVE FRIDAY PRAYER KHUTBA STARTING AT 12:30 PM'.",
+    "sourceIds": ["masjid-islamic-association-of-sudbury-greater-sudbury"],
+    "reviewStatus": "review-needed"
+  },
+  {
+    "id": "islamic-centre-of-northern-ontario-greater-sudbury",
+    "name": "Islamic Centre of Northern Ontario",
+    "address": "1534 Pioneer Rd, Sudbury",
+    "city": "Greater Sudbury",
+    "stateProvince": "Ontario",
+    "country": "Canada",
+    "postalCode": "P3G 1A8",
+    "coordinates": {
+      "lat": 46.4351213,
+      "lng": -80.9404762
+    },
+    "coordinatesPrecision": "street",
+    "phone": "(705) 805-1240",
+    "email": "iconosudbury@gmail.com",
+    "website": "https://www.iconosudbury.com/",
+    "notes": "Also known as ICONO.",
+    "jumuahNote": "Khutbah recordings page exists; times not shown.",
+    "sourceIds": ["masjid-islamic-centre-of-northern-ontario-greater-sudbury"],
+    "reviewStatus": "source-checked"
+  },
+  {
+    "id": "islamic-society-of-guelph",
+    "name": "Islamic Society of Guelph",
+    "address": "126 Norwich St E",
+    "city": "Guelph",
+    "stateProvince": "Ontario",
+    "country": "Canada",
+    "postalCode": "N1E 2G7",
+    "phone": "(519) 803-9245",
+    "email": "info.isofg@gmail.com",
+    "website": "https://isofg.ca/",
+    "notes": "Also known as Masjid Abu Bakr As-Siddique.",
+    "jumuahNote": "Jummah every Friday (times not stated).",
+    "serviceIds": ["quran-classes"],
+    "sourceIds": ["masjid-islamic-society-of-guelph"],
+    "reviewStatus": "review-needed"
+  },
+  {
+    "id": "masjid-aisha-a-mac-community-centre-guelph",
+    "name": "Masjid Aisha - A MAC Community Centre",
+    "address": "44 Marlborough Rd",
+    "city": "Guelph",
+    "stateProvince": "Ontario",
+    "country": "Canada",
+    "postalCode": "N1E 3X2",
+    "coordinates": {
+      "lat": 43.5605907,
+      "lng": -80.2640406
+    },
+    "coordinatesPrecision": "street",
+    "phone": "(226) 486-1143",
+    "website": "https://centres.macnet.ca/masjidaisha",
+    "jumuahNote": "Listed as 'Coming Soon' on the homepage (no times).",
+    "sourceIds": ["masjid-masjid-aisha-a-mac-community-centre-guelph"],
+    "reviewStatus": "review-needed"
+  },
+  {
+    "id": "muslim-society-of-guelph",
+    "name": "Muslim Society of Guelph",
+    "address": "286 Water Street",
+    "city": "Guelph",
+    "stateProvince": "Ontario",
+    "country": "Canada",
+    "postalCode": "",
+    "coordinates": {
+      "lat": 43.5293346,
+      "lng": -80.2534981
+    },
+    "coordinatesPrecision": "street",
+    "phone": "(519) 767-0097",
+    "website": "https://msofg.org/",
+    "notes": "Also known as MSOG.",
+    "jumuahNote": "Multiple Jumuah prayers, e.g. 1:35 PM and 3:35 PM iqamah; 'Kindly arrive 10 to 15 minutes before the start time'.",
+    "sourceIds": ["masjid-muslim-society-of-guelph"],
+    "reviewStatus": "source-checked"
+  },
+  {
+    "id": "alkhairia-islamic-centre-hamilton",
+    "name": "Alkhairia Islamic Centre (Voice of Goodness)",
+    "address": "528 Alberton Road, Ancaster",
+    "city": "Hamilton",
+    "stateProvince": "Ontario",
+    "country": "Canada",
+    "postalCode": "L0R 0R1",
+    "coordinates": {
+      "lat": 43.2177341,
+      "lng": -79.9894444
+    },
+    "coordinatesPrecision": "city-centre",
+    "phone": "(905) 298-3898",
+    "email": "info@vogcanada.org",
+    "website": "https://www.aiccanada.org/",
+    "notes": "Area: Ancaster. Also known as AIC Ancaster.",
+    "jumuahNote": "Homepage lists \"Friday Prayers\" as a service; time not stated.",
+    "newMuslimSupportNote": "The homepage lists Revert Outreach Programs among its services. No page describes them in detail, so ask the centre.",
+    "serviceIds": ["new-muslim-support", "quran-classes", "youth-programs"],
+    "convertSupport": true,
+    "sourceIds": ["masjid-alkhairia-islamic-centre-hamilton"],
+    "reviewStatus": "source-checked"
+  },
+  {
+    "id": "bosnian-islamic-centre-of-hamilton",
+    "name": "Bosnian Islamic Centre of Hamilton (Bosnjacki Islamski Centar Hamilton)",
+    "address": "202 Barton Street, Stoney Creek",
+    "city": "Hamilton",
+    "stateProvince": "Ontario",
+    "country": "Canada",
+    "postalCode": "L8E 2K2",
+    "coordinates": {
+      "lat": 43.1922524,
+      "lng": -79.819164
+    },
+    "coordinatesPrecision": "city-centre",
+    "phone": "(905) 662-3678",
+    "email": "info@bichamilton.com",
+    "website": "http://bichamilton.com/",
+    "notes": "Area: Stoney Creek. Also known as BIC Hamilton.",
+    "visitorNotes": "Languages: site is mainly in Bosnian with an English section (About Us, Contact Info, News (English)). Language of khutbah not stated.",
+    "jumuahNote": "Contact page: \"Jumu'ah: Fridays, 1:30PM EST\"; homepage prayer box: \"Jumu'ah: Fridays, 1:25PM, 3:00PM\".",
+    "sourceIds": ["masjid-bosnian-islamic-centre-of-hamilton"],
+    "reviewStatus": "source-checked"
+  },
+  {
+    "id": "hamilton-downtown-mosque",
+    "name": "Hamilton Downtown Mosque",
+    "address": "221 York Boulevard",
+    "city": "Hamilton",
+    "stateProvince": "Ontario",
+    "country": "Canada",
+    "postalCode": "L8R 1Y6",
+    "coordinates": {
+      "lat": 43.2610548,
+      "lng": -79.8756204
+    },
+    "coordinatesPrecision": "street",
+    "phone": "(905) 527-7371",
+    "email": "admin@downtownmosque.com",
+    "website": "https://downtownmosque.com/",
+    "notes": "Also known as HDM.",
+    "jumuahNote": "'Friday Sermon and Prayer (see the prayer time page)'.",
+    "sourceIds": ["masjid-hamilton-downtown-mosque"],
+    "reviewStatus": "source-checked"
+  },
+  {
+    "id": "hamilton-mountain-mosque",
+    "name": "Hamilton Mountain Mosque (Muslim Association of Hamilton)",
+    "address": "1545 Stone Church Road East",
+    "city": "Hamilton",
+    "stateProvince": "Ontario",
+    "country": "Canada",
+    "postalCode": "L8W 3P8",
+    "coordinates": {
+      "lat": 43.1955411,
+      "lng": -79.8205309
+    },
+    "coordinatesPrecision": "street",
+    "phone": "(905) 929-1526",
+    "email": "contactus@hamiltonmosque.com",
+    "website": "https://www.mahcanada.com/mosques/hamilton",
+    "notes": "Also known as MAH, Mountain Mosque.",
+    "accessibilityNote": "MAH publishes an AODA accessibility policy and asks people needing accommodation to contact contactus@hamiltonmosque.com; physical features not stated.",
+    "sourceIds": ["masjid-hamilton-mountain-mosque"],
+    "reviewStatus": "source-checked"
+  },
+  {
+    "id": "umar-mosque-hamilton",
+    "name": "Umar Mosque (Muslim Association of Hamilton)",
+    "address": "734 Rennie St",
+    "city": "Hamilton",
+    "stateProvince": "Ontario",
+    "country": "Canada",
+    "postalCode": "L8H 3R2",
+    "coordinates": {
+      "lat": 43.2465044,
+      "lng": -79.7741583
+    },
+    "coordinatesPrecision": "street",
+    "phone": "(905) 544-9016",
+    "website": "https://www.mahcanada.com/mosques/umar",
+    "notes": "Also known as MAH Umar Mosque.",
+    "accessibilityNote": "MAH About page (association-wide): \"operating in accordance with the Accessibility for Ontarians with Disabilities Act. MAH is committed to providing full access to the premises and eliminating any potential barriers\". Site-specific features not stated.",
+    "sourceIds": ["masjid-umar-mosque-hamilton"],
+    "reviewStatus": "source-checked"
+  },
+  {
+    "id": "islamic-society-of-kingston",
+    "name": "Islamic Society of Kingston (Islamic Centre of Kingston)",
+    "address": "1477 Sydenham Road",
+    "city": "Kingston",
+    "stateProvince": "Ontario",
+    "country": "Canada",
+    "postalCode": "K7L 4V4",
+    "coordinates": {
+      "lat": 44.2838555,
+      "lng": -76.5421365
+    },
+    "coordinatesPrecision": "street",
+    "phone": "(613) 542-9000",
+    "email": "iskadmin@kingstonmuslims.ca",
+    "website": "https://kingstonmuslims.ca/",
+    "notes": "Also known as ISK; ICK.",
+    "accessibilityNote": "Programs page mentions a special education class for children with learning needs; building accessibility not stated.",
+    "jumuahNote": "Two Jumu'ahs: first khutbah 1:00 PM (iqamah 1:45 PM), second 2:30 PM (iqamah 2:45 to 3:00 PM).",
+    "parkingNote": "Prayer timings page: \"Since parking remains a challenge at ISK during Jummah Prayer, please consider one of these other Jummah options in the city\" (CFB Kingston, Crossroads United Church, Queen's University, all 1:30 PM).",
+    "serviceIds": ["youth-programs"],
+    "sourceIds": ["masjid-islamic-society-of-kingston"],
+    "reviewStatus": "source-checked"
+  },
+  {
+    "id": "al-salaam-islamic-centre-kitchener",
+    "name": "Al-Salaam Islamic Centre",
+    "address": "585 Queen St S",
+    "city": "Kitchener",
+    "stateProvince": "Ontario",
+    "country": "Canada",
+    "postalCode": "N2G 4S4",
+    "coordinates": {
+      "lat": 43.4431089,
+      "lng": -80.4954313
+    },
+    "coordinatesPrecision": "street",
+    "phone": "(519) 496-6585",
+    "email": "alsalaam570@gmail.com",
+    "website": "https://www.alsalaam.ca/",
+    "jumuahNote": "Homepage: \"Juma Prayer 1:30\".",
+    "sourceIds": ["masjid-al-salaam-islamic-centre-kitchener"],
+    "reviewStatus": "source-checked"
+  },
+  {
+    "id": "kitchener-masjid-a-mac-community-centre",
+    "name": "Kitchener Masjid - A MAC Community Centre",
+    "address": "1017 Victoria St. N.",
+    "city": "Kitchener",
+    "stateProvince": "Ontario",
+    "country": "Canada",
+    "postalCode": "N2B 3C7",
+    "coordinates": {
+      "lat": 43.4648171,
+      "lng": -80.4604244
+    },
+    "coordinatesPrecision": "street",
+    "phone": "(519) 743-9111",
+    "email": "info@kitchenermasjid.com",
+    "website": "https://centres.macnet.ca/kitchenermasjid/",
+    "notes": "Also known as Kitchener Masjid.",
+    "jumuahNote": "Three prayers: 12:15 PM, 1:15 PM, 2:15 PM (third in Arabic).",
+    "serviceIds": ["quran-classes"],
+    "sourceIds": ["masjid-kitchener-masjid-a-mac-community-centre"],
+    "reviewStatus": "source-checked"
+  },
+  {
+    "id": "north-london-islamic-centre-komoka",
+    "name": "North London Islamic Centre (NLIC)",
+    "address": "23266 Nairn Road",
+    "city": "Komoka",
+    "stateProvince": "Ontario",
+    "country": "Canada",
+    "postalCode": "N0L 1R0",
+    "phone": "(519) 518-1938",
+    "email": "admin@nlic.ca",
+    "website": "https://www.northlondonislamiccentre.com/",
+    "sourceIds": ["masjid-north-london-islamic-centre-komoka"],
+    "reviewStatus": "review-needed"
+  },
+  {
+    "id": "hyde-park-masjid-london",
+    "name": "Hyde Park Masjid (MAC)",
+    "address": "1175 Hyde Park Rd, Unit 9",
+    "city": "London",
+    "stateProvince": "Ontario",
+    "country": "Canada",
+    "postalCode": "N6H 5K5",
+    "coordinates": {
+      "lat": 42.9887293,
+      "lng": -81.3256984
+    },
+    "coordinatesPrecision": "street",
+    "phone": "(226) 884-9357",
+    "email": "hydepark.masjid@gmail.com",
+    "website": "https://centres.macnet.ca/machydepark/",
+    "jumuahNote": "First Prayer 12:30 PM, Second Prayer 1:30 PM.",
+    "sourceIds": ["masjid-hyde-park-masjid-london"],
+    "reviewStatus": "review-needed"
+  },
+  {
+    "id": "islamic-centre-of-southwest-ontario-london",
+    "name": "Islamic Centre of Southwest Ontario",
+    "address": "951 Pond Mills Rd",
+    "city": "London",
+    "stateProvince": "Ontario",
+    "country": "Canada",
+    "postalCode": "N6N 1C3",
+    "coordinates": {
+      "lat": 42.9317261,
+      "lng": -81.1919691
+    },
+    "coordinatesPrecision": "street",
+    "phone": "(519) 668-2269",
+    "email": "info@islamiccentre.ca",
+    "website": "https://islamiccentre.ca/",
+    "notes": "Also known as ICSWO.",
+    "jumuahNote": "Stated year-round: athan 1:30 PM, sermon 1:35 PM, iqama 1:55 PM.",
+    "serviceIds": ["weekend-school"],
+    "sourceIds": ["masjid-islamic-centre-of-southwest-ontario-london"],
+    "reviewStatus": "source-checked"
+  },
+  {
+    "id": "london-muslim-mosque",
+    "name": "London Muslim Mosque",
+    "address": "151 Oxford St W",
+    "city": "London",
+    "stateProvince": "Ontario",
+    "country": "Canada",
+    "postalCode": "",
+    "coordinates": {
+      "lat": 42.9909104,
+      "lng": -81.2707644
+    },
+    "coordinatesPrecision": "street",
+    "phone": "(519) 439-9451",
+    "email": "secretary@londonmosque.ca",
+    "website": "https://www.londonmosque.ca/",
+    "notes": "Also known as LMM.",
+    "jumuahNote": "Two Jumuah prayers listed on homepage: 12:00 PM and 1:15 PM (check site for current times).",
+    "newMuslimSupportNote": "The lectures page describes a free New Muslim Family Meet Up on the first and third Saturday of the month, and a Diploma of Essential Islamic Knowledge for reverts and new Muslims. Registration is required.",
+    "serviceIds": ["new-muslim-support"],
+    "convertSupport": true,
+    "sourceIds": [
+      "masjid-london-muslim-mosque",
+      "masjid-london-muslim-mosque-programme"
+    ],
+    "reviewStatus": "source-checked"
+  },
+  {
+    "id": "mac-noor-gardens-a-mac-community-centre-london",
+    "name": "MAC Noor Gardens - A MAC Community Centre",
+    "address": "457 Southdale Rd W",
+    "city": "London",
+    "stateProvince": "Ontario",
+    "country": "Canada",
+    "postalCode": "N6P 1M7",
+    "coordinates": {
+      "lat": 42.9385281,
+      "lng": -81.2858577
+    },
+    "coordinatesPrecision": "street",
+    "phone": "(519) 936-2304",
+    "email": "programs@london.macnet.ca",
+    "website": "https://centres.macnet.ca/macnoorgardens/",
+    "notes": "Also known as Noor Gardens. The centre announced a grand opening for August 28, 2026.",
+    "jumuahNote": "Prayer 1: 12:00 PM, Prayer 2: 1:30 PM.",
+    "sourceIds": ["masjid-mac-noor-gardens-a-mac-community-centre-london"],
+    "reviewStatus": "source-checked"
+  },
+  {
+    "id": "muslim-association-of-canada-masonville-centre-london",
+    "name": "Muslim Association of Canada - Masonville Centre",
+    "address": "1737 Richmond St unit 105",
+    "city": "London",
+    "stateProvince": "Ontario",
+    "country": "Canada",
+    "postalCode": "N5X 3Y2",
+    "coordinates": {
+      "lat": 43.0278484,
+      "lng": -81.2853565
+    },
+    "coordinatesPrecision": "street",
+    "website": "https://centres.macnet.ca/masonville/",
+    "notes": "Also known as MAC Masonville.",
+    "jumuahNote": "Friday 12:00 PM.",
+    "sourceIds": [
+      "masjid-muslim-association-of-canada-masonville-centre-london"
+    ],
+    "reviewStatus": "review-needed"
+  },
+  {
+    "id": "westmount-masjid-a-mac-community-centre-london",
+    "name": "Westmount Masjid - A MAC Community Centre",
+    "address": "312 Commissioners Rd W Unit 5",
+    "city": "London",
+    "stateProvince": "Ontario",
+    "country": "Canada",
+    "postalCode": "N6J 1Y3",
+    "coordinates": {
+      "lat": 42.9559774,
+      "lng": -81.2763725
+    },
+    "coordinatesPrecision": "street",
+    "phone": "(519) 936-2304",
+    "email": "programs@london.macnet.ca",
+    "website": "https://centres.macnet.ca/westmount/",
+    "notes": "Also known as MAC Westmount Centre; MAC London main office.",
+    "jumuahNote": "1st prayer 12:15 PM, 2nd prayer 1:30 PM.",
+    "sourceIds": ["masjid-westmount-masjid-a-mac-community-centre-london"],
     "reviewStatus": "source-checked"
   },
   {
@@ -605,6 +1214,45 @@
     "womenSpaceNote": "Homepage: \"Over 1,200 men and women attend the weekly Jumma prayer service.\" Women's area not described.",
     "jumuahNote": "Homepage: \"Prayer 1 Khutbah 1:15 PM Prayer 1:45 PM, Prayer 2 Khutbah 2:15 PM Prayer 2:45 PM\"; notices mention Jumu'ah at the masjid and at off-site halls (Lions Hall, Ray Twinney Recreation Complex) at different times.",
     "sourceIds": ["masjid-newmarket-islamic-centre"],
+    "reviewStatus": "source-checked"
+  },
+  {
+    "id": "islamic-society-of-niagara-peninsula-niagara-falls",
+    "name": "Islamic Society of Niagara Peninsula (ISNP)",
+    "address": "6768 Lyons Creek Road",
+    "city": "Niagara Falls",
+    "stateProvince": "Ontario",
+    "country": "Canada",
+    "postalCode": "L2E 6S6",
+    "coordinates": {
+      "lat": 43.0326295,
+      "lng": -79.1060829
+    },
+    "coordinatesPrecision": "street",
+    "email": "info@isnp.ca",
+    "website": "https://isnp.ca/",
+    "jumuahNote": "Jumuah every Friday at 1:30 pm.",
+    "sourceIds": ["masjid-islamic-society-of-niagara-peninsula-niagara-falls"],
+    "reviewStatus": "source-checked"
+  },
+  {
+    "id": "masjid-alsalam-niagara-falls-islamic-center",
+    "name": "Masjid Alsalam - Niagara Falls Islamic Center (NFIC)",
+    "address": "6735 Caledonia Street",
+    "city": "Niagara Falls",
+    "stateProvince": "Ontario",
+    "country": "Canada",
+    "postalCode": "L2G 5A6",
+    "coordinates": {
+      "lat": 43.0737441,
+      "lng": -79.1069931
+    },
+    "coordinatesPrecision": "street",
+    "phone": "(905) 358-9556",
+    "email": "info@nfic.ca",
+    "website": "https://niagarafallsislamiccenter.com/",
+    "jumuahNote": "Three Jumu'ah at 1:30, 2:30 and 3:30 PM.",
+    "sourceIds": ["masjid-masjid-alsalam-niagara-falls-islamic-center"],
     "reviewStatus": "source-checked"
   },
   {
@@ -1178,6 +1826,56 @@
     "reviewStatus": "source-checked"
   },
   {
+    "id": "owen-sound-muslim-association",
+    "name": "Owen Sound Muslim Association (OSMA)",
+    "address": "895 7th St E",
+    "city": "Owen Sound",
+    "stateProvince": "Ontario",
+    "country": "Canada",
+    "postalCode": "N4K 1K2",
+    "coordinates": {
+      "lat": 44.5633946,
+      "lng": -80.92729
+    },
+    "coordinatesPrecision": "street",
+    "email": "admin@osmuslim.ca",
+    "website": "https://osmuslim.ca/",
+    "notes": "Also known as Owen Sound Masjid.",
+    "newMuslimSupportNote": "The services page lists shahada as a service. No follow-up program for new Muslims is described.",
+    "serviceIds": ["new-muslim-support", "quran-classes"],
+    "convertSupport": true,
+    "sourceIds": [
+      "masjid-owen-sound-muslim-association",
+      "masjid-owen-sound-muslim-association-programme"
+    ],
+    "reviewStatus": "source-checked"
+  },
+  {
+    "id": "kawartha-muslim-religious-association-masjid-al-salaam-peterborough",
+    "name": "Kawartha Muslim Religious Association - Masjid Al-Salaam",
+    "address": "784 Parkhill Road West",
+    "city": "Peterborough",
+    "stateProvince": "Ontario",
+    "country": "Canada",
+    "postalCode": "",
+    "coordinates": {
+      "lat": 44.3091369,
+      "lng": -78.3487825
+    },
+    "coordinatesPrecision": "street",
+    "phone": "(705) 749-2820",
+    "email": "info@kmrapeterborough.org",
+    "website": "https://www.kmrapeterborough.org/",
+    "notes": "Also known as KMRA; Al-Salaam Mosque.",
+    "womenSpaceNote": "Women's prayer room, capacity 60, with women's ablution room.",
+    "jumuahNote": "Two Jumuah on the homepage for Friday 25 Sep 2026: 1:30 PM and 2:45 PM.",
+    "womenFriendly": true,
+    "sourceIds": [
+      "masjid-kawartha-muslim-religious-association-masjid-al-salaam-peterborough"
+    ],
+    "reviewStatus": "source-checked"
+  },
+  {
     "id": "pickering-islamic-centre",
     "name": "Pickering Islamic Centre",
     "address": "2065 Brock Road North",
@@ -1269,6 +1967,130 @@
     "email": "info@rhmacanada.com",
     "website": "https://rhmacanada.com/",
     "sourceIds": ["masjid-richmond-hill-muslim-association"],
+    "reviewStatus": "source-checked"
+  },
+  {
+    "id": "sarnia-muslim-association",
+    "name": "Sarnia Muslim Association",
+    "address": "1609 London Line",
+    "city": "Sarnia",
+    "stateProvince": "Ontario",
+    "country": "Canada",
+    "postalCode": "N7W 1A9",
+    "coordinates": {
+      "lat": 42.9831767,
+      "lng": -82.3354929
+    },
+    "coordinatesPrecision": "street",
+    "phone": "(519) 541-1335",
+    "email": "sarnia.muslim.association@gmail.com",
+    "website": "https://sarniamuslim.com/",
+    "serviceIds": ["quran-classes"],
+    "sourceIds": ["masjid-sarnia-muslim-association"],
+    "reviewStatus": "source-checked"
+  },
+  {
+    "id": "islamic-association-of-sault-ste-marie",
+    "name": "Islamic Association of Sault Ste. Marie",
+    "address": "2 Towers St, Sault Ste Marie",
+    "city": "Sault Ste. Marie",
+    "stateProvince": "Ontario",
+    "country": "Canada",
+    "postalCode": "P6A 2T9",
+    "coordinates": {
+      "lat": 46.507472,
+      "lng": -84.3250963
+    },
+    "coordinatesPrecision": "street",
+    "email": "Contact@iassm.ca",
+    "website": "https://iassm.ca/",
+    "notes": "Also known as IASSM.",
+    "jumuahNote": "'The khutba begins at 2 PM with salat at 2:30' (adjusted for daylight saving).",
+    "sourceIds": ["masjid-islamic-association-of-sault-ste-marie"],
+    "reviewStatus": "source-checked"
+  },
+  {
+    "id": "masjid-an-noor-st-catharines",
+    "name": "Masjid An-Noor (Islamic Society of St. Catharines)",
+    "address": "117 Geneva Street",
+    "city": "St. Catharines",
+    "stateProvince": "Ontario",
+    "country": "Canada",
+    "postalCode": "L2R 4N3",
+    "coordinates": {
+      "lat": 43.1658898,
+      "lng": -79.2404923
+    },
+    "coordinatesPrecision": "street",
+    "phone": "(905) 641-8007",
+    "email": "themosque@gmail.com",
+    "website": "https://islamicsocietyofstcatharines.ca/",
+    "notes": "Also known as Masjid Al Noor.",
+    "accessibilityNote": "Handicap parking spaces reserved for permit holders.",
+    "parkingNote": "Parking lot with map and rules: no overnight parking, do not block cars on Jumu'ah, do not use neighbouring business lots.",
+    "sourceIds": ["masjid-masjid-an-noor-st-catharines"],
+    "reviewStatus": "source-checked"
+  },
+  {
+    "id": "stratford-mosque",
+    "name": "Stratford Mosque",
+    "address": "97 Woods Street",
+    "city": "Stratford",
+    "stateProvince": "Ontario",
+    "country": "Canada",
+    "postalCode": "N5A 1M2",
+    "coordinates": {
+      "lat": 43.3652278,
+      "lng": -80.9954739
+    },
+    "coordinatesPrecision": "street",
+    "phone": "(519) 305-1516",
+    "email": "Info@StratfordMosque.ca",
+    "website": "https://stratfordmosque.ca/",
+    "jumuahNote": "Friday 1:45 PM; 'All 5 Prayers are performed at the Mosque'; 'Open 24/7'.",
+    "sourceIds": ["masjid-stratford-mosque"],
+    "reviewStatus": "source-checked"
+  },
+  {
+    "id": "thunder-bay-masjid",
+    "name": "Thunder Bay Masjid (Thunder Bay Muslim Religious Association)",
+    "address": "591 John Street",
+    "city": "Thunder Bay",
+    "stateProvince": "Ontario",
+    "country": "Canada",
+    "postalCode": "P7B 1Y8",
+    "coordinates": {
+      "lat": 48.4319469,
+      "lng": -89.2478948
+    },
+    "coordinatesPrecision": "street",
+    "website": "https://tbmra.org/",
+    "notes": "Also known as Thunder Bay Masjid.",
+    "jumuahNote": "Two Jumuah: 2:00 PM and 3:15 PM.",
+    "parkingNote": "Homepage: 'Please park responsibly to ensure smooth access for all'; some areas are not parking spots.",
+    "sourceIds": ["masjid-thunder-bay-masjid"],
+    "reviewStatus": "review-needed"
+  },
+  {
+    "id": "muslim-association-of-tillsonburg",
+    "name": "Muslim Association of Tillsonburg (MAoT)",
+    "address": "169 Broadway Street",
+    "city": "Tillsonburg",
+    "stateProvince": "Ontario",
+    "country": "Canada",
+    "postalCode": "N4G 3P9",
+    "coordinates": {
+      "lat": 42.859494,
+      "lng": -80.7265015
+    },
+    "coordinatesPrecision": "city-centre",
+    "phone": "(519) 957-9009",
+    "email": "info@muslimassociationtillsonburg.ca",
+    "website": "https://muslimassociationtillsonburg.ca/",
+    "womenSpaceNote": "Homepage says the musalla \"welcomes men and women\"; women's area not described.",
+    "jumuahNote": "Homepage: \"Friday Khutbah at 1:30 PM and Salah at 1:45 PM\" (last updated Nov 1, 2025).",
+    "serviceIds": ["quran-classes"],
+    "sourceIds": ["masjid-muslim-association-of-tillsonburg"],
     "reviewStatus": "source-checked"
   },
   {
@@ -1458,6 +2280,47 @@
     "reviewStatus": "review-needed"
   },
   {
+    "id": "islamic-centre-of-waterloo-a-mac-community-centre",
+    "name": "Islamic Centre of Waterloo - A MAC Community Centre",
+    "address": "510 Erbsville Rd",
+    "city": "Waterloo",
+    "stateProvince": "Ontario",
+    "country": "Canada",
+    "postalCode": "N2T 2V8",
+    "coordinates": {
+      "lat": 43.4685064,
+      "lng": -80.589175
+    },
+    "coordinatesPrecision": "street",
+    "email": "info@icwaterloo.com",
+    "website": "https://centres.macnet.ca/icwaterloo",
+    "notes": "Also known as ICW.",
+    "jumuahNote": "1st 1:30 PM, 2nd (Arabic) 2:30 PM, 3rd 3:30 PM.",
+    "sourceIds": ["masjid-islamic-centre-of-waterloo-a-mac-community-centre"],
+    "reviewStatus": "source-checked"
+  },
+  {
+    "id": "muslim-society-of-waterloo-wellington-counties",
+    "name": "Muslim Society of Waterloo & Wellington Counties",
+    "address": "213 Erb St. West",
+    "city": "Waterloo",
+    "stateProvince": "Ontario",
+    "country": "Canada",
+    "postalCode": "N2L 1V6",
+    "coordinates": {
+      "lat": 43.4590736,
+      "lng": -80.5354742
+    },
+    "coordinatesPrecision": "street",
+    "phone": "(519) 886-8470",
+    "website": "https://www.waterloomasjid.com/",
+    "notes": "Also known as Waterloo Masjid.",
+    "jumuahNote": "Jumuah live streamed Fridays at 1:40 PM.",
+    "parkingNote": "Homepage: 'please not park at Westmount Plaza, and follow all bi-laws when parking in the neighbourhood streets'.",
+    "sourceIds": ["masjid-muslim-society-of-waterloo-wellington-counties"],
+    "reviewStatus": "review-needed"
+  },
+  {
     "id": "masjid-e-ayesha-whitby",
     "name": "Masjid-e-Ayesha (Muslim Association of Whitby)",
     "address": "221 Kendalwood Road",
@@ -1477,6 +2340,87 @@
     "jumuahNote": "Three Jumu'ah: khutbah 1:45, 2:45 and 3:45 PM.",
     "parkingNote": "Parking is limited. Kendalwood Plaza lot not available for Jumu'ah as of November 1, 2024; bylaw officers ticket there on Fridays.; Overflow tents closed until further notice (homepage notice).",
     "sourceIds": ["masjid-masjid-e-ayesha-whitby"],
+    "reviewStatus": "source-checked"
+  },
+  {
+    "id": "al-hijra-academy-windsor",
+    "name": "Al-Hijra Academy (Al-Hijra Mosque and School)",
+    "address": "5100 Howard Ave., Oldcastle",
+    "city": "Windsor",
+    "stateProvince": "Ontario",
+    "country": "Canada",
+    "postalCode": "N9H 0M3",
+    "phone": "(519) 966-8276",
+    "email": "info@alhijraacademy.com",
+    "website": "http://alhijraacademy.com/",
+    "notes": "Area: Oldcastle, at the LaSalle border. Also known as Al-Hijra Academy - Masjid and Islamic School.",
+    "womenSpaceNote": "History page: mosque \"divided into two sections for men and women\" (historical description).",
+    "sourceIds": ["masjid-al-hijra-academy-windsor"],
+    "reviewStatus": "review-needed"
+  },
+  {
+    "id": "islamic-society-of-windsor",
+    "name": "Islamic Society of Windsor",
+    "address": "1955 Provincial Rd, Unit 2 & 3",
+    "city": "Windsor",
+    "stateProvince": "Ontario",
+    "country": "Canada",
+    "postalCode": "",
+    "coordinates": {
+      "lat": 42.264335,
+      "lng": -82.9894138
+    },
+    "coordinatesPrecision": "street",
+    "phone": "(519) 608-8033",
+    "website": "https://iswindsor.ca/",
+    "sourceIds": ["masjid-islamic-society-of-windsor"],
+    "reviewStatus": "review-needed"
+  },
+  {
+    "id": "rose-city-islamic-centre-windsor",
+    "name": "Rose City Islamic Centre (A MAC Community Centre)",
+    "address": "5420 Empress St",
+    "city": "Windsor",
+    "stateProvince": "Ontario",
+    "country": "Canada",
+    "postalCode": "N8T 1B4",
+    "coordinates": {
+      "lat": 42.3107264,
+      "lng": -82.9616871
+    },
+    "coordinatesPrecision": "street",
+    "phone": "(519) 948-4500",
+    "email": "rcicoffice@macnet.ca",
+    "website": "https://centres.macnet.ca/rcic",
+    "notes": "Also known as RCIC.",
+    "jumuahNote": "Friday 1:30 PM.",
+    "sourceIds": ["masjid-rose-city-islamic-centre-windsor"],
+    "reviewStatus": "source-checked"
+  },
+  {
+    "id": "windsor-islamic-association",
+    "name": "Windsor Islamic Association",
+    "address": "1320 Northwood Street",
+    "city": "Windsor",
+    "stateProvince": "Ontario",
+    "country": "Canada",
+    "postalCode": "N9E 1A4",
+    "coordinates": {
+      "lat": 42.2755397,
+      "lng": -83.0499028
+    },
+    "coordinatesPrecision": "street",
+    "phone": "(519) 966-2355",
+    "email": "info@windsormosque.ca",
+    "website": "https://windsorislamicassociation.com/",
+    "notes": "Also known as Windsor Mosque; Windsor Central Mosque.",
+    "newMuslimSupportNote": "The contact page names the Administrator of Religious Affairs as the contact for reverts (519-966-2355 ext. 4). This is a contact point, not a class.",
+    "serviceIds": ["new-muslim-support"],
+    "convertSupport": true,
+    "sourceIds": [
+      "masjid-windsor-islamic-association",
+      "masjid-windsor-islamic-association-programme"
+    ],
     "reviewStatus": "source-checked"
   }
 ]
