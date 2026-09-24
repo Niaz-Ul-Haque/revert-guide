@@ -8,6 +8,12 @@ import {
   type Messages,
 } from "@/lib/i18n";
 import { getPageMetadata } from "@/lib/metadata";
+import { Callout } from "@/components/Callout";
+import {
+  ORGANISATION_LOCATION,
+  ORGANISATION_NAME,
+  hasPlaceholderConfig,
+} from "@/lib/site";
 
 export function generateMetadata({ params }: { params: { locale: Locale } }) {
   return getPageMetadata(params.locale, "about", "/about");
@@ -17,6 +23,7 @@ export default function AboutPage({ params }: { params: { locale: Locale } }) {
   const locale = params.locale;
   const t = getTranslator(locale);
   const copy = t<Messages["pages"]["about"]>("pages.about");
+  const placeholder = hasPlaceholderConfig();
 
   return (
     <div className="mx-auto max-w-4xl px-5 py-10">
@@ -92,6 +99,85 @@ export default function AboutPage({ params }: { params: { locale: Locale } }) {
       </AnimateIn>
 
       <AnimateIn>
+        <section className="mb-10" aria-labelledby="who-runs">
+          <h2
+            id="who-runs"
+            className="mb-4 font-display text-2xl font-semibold tracking-tight text-textPrimary"
+          >
+            {copy.whoRunsTitle}
+          </h2>
+          <p className="mb-4 text-base leading-relaxed text-textSecondary">
+            {copy.whoRunsBody}
+          </p>
+          <dl className="mb-0 grid gap-3 sm:grid-cols-2">
+            {[
+              { label: copy.organisationLabel, value: ORGANISATION_NAME },
+              { label: copy.locationLabel, value: ORGANISATION_LOCATION },
+            ].map((row) => (
+              <div
+                key={row.label}
+                className="rounded-xl border border-border/60 bg-white p-4"
+              >
+                <dt className="mb-1 text-sm font-medium text-textMuted">
+                  {row.label}
+                </dt>
+                <dd className="mb-0 ml-0 text-base font-semibold text-textPrimary">
+                  {row.value}
+                  {placeholder && (
+                    <span className="ml-2 inline-block rounded-full border border-warning/40 bg-accentYellow/20 px-2 py-0.5 align-middle text-xs font-medium text-textPrimary">
+                      {copy.toBeConfirmed}
+                    </span>
+                  )}
+                </dd>
+              </div>
+            ))}
+          </dl>
+        </section>
+      </AnimateIn>
+
+      <AnimateIn>
+        <section className="mb-10" aria-labelledby="review">
+          <h2
+            id="review"
+            className="mb-4 font-display text-2xl font-semibold tracking-tight text-textPrimary"
+          >
+            {copy.reviewTitle}
+          </h2>
+          <p className="mb-4 text-base leading-relaxed text-textSecondary">
+            {copy.reviewIntro}
+          </p>
+          <ol className="mb-6 flex flex-col gap-3 pl-0">
+            {copy.reviewStates.map((state, index) => (
+              <li
+                key={state.name}
+                className="flex items-start gap-3 rounded-xl bg-surfaceElevated/50 p-4"
+              >
+                <span
+                  className="flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-primary/10 text-sm font-semibold text-primary"
+                  aria-hidden="true"
+                >
+                  {index + 1}
+                </span>
+                <span className="text-base leading-relaxed text-textSecondary">
+                  <strong className="text-textPrimary">{state.name}.</strong>{" "}
+                  {state.body}
+                </span>
+              </li>
+            ))}
+          </ol>
+          <Callout variant="info" title={copy.badgeTitle}>
+            <p>{copy.badgeBody}</p>
+          </Callout>
+          <h3 className="mb-2 font-display text-lg font-semibold text-textPrimary">
+            {copy.reviewerTitle}
+          </h3>
+          <p className="mb-0 text-base leading-relaxed text-textSecondary">
+            {copy.reviewerBody}
+          </p>
+        </section>
+      </AnimateIn>
+
+      <AnimateIn>
         <section className="mb-10" aria-labelledby="disclaimer">
           <h2
             id="disclaimer"
@@ -118,6 +204,11 @@ export default function AboutPage({ params }: { params: { locale: Locale } }) {
           </p>
         </section>
       </AnimateIn>
+
+      <p className="mb-0 mt-10 text-sm text-textMuted">
+        {copy.lastReviewedLabel}{" "}
+        <time dateTime={copy.lastReviewedDate}>{copy.lastReviewed}</time>
+      </p>
     </div>
   );
 }
