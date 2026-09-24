@@ -1,6 +1,7 @@
 import fs from "fs";
 import path from "path";
 import { DEFAULT_LOCALE, type Locale } from "@/lib/i18n";
+import type { VideoRef } from "@/lib/types";
 
 export interface GuideSection {
   heading: string;
@@ -36,6 +37,7 @@ export interface LifeGuide {
   scenarios: GuideScenario[];
   relatedLinks: GuideLink[];
   reviewStatus: "source-checked" | "review-needed";
+  videos?: VideoRef[];
 }
 
 type LifeGuideTranslation = Partial<Omit<LifeGuide, "id" | "slug">> &

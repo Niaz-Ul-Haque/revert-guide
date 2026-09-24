@@ -5,7 +5,8 @@ import { Breadcrumb } from "@/components/Breadcrumb";
 import { Button } from "@/components/Button";
 import { Icon } from "@/components/Icon";
 import { AnimateIn } from "@/components/AnimateIn";
-import { SourcesPanel } from "@/components/SourceTags";
+import { SourceTags, SourcesPanel } from "@/components/SourceTags";
+import { VideoEmbed } from "@/components/VideoEmbed";
 import { getSourcesByIds } from "@/lib/content";
 import { getLifeGuideBySlug, getLifeGuides } from "@/lib/life-guides";
 import { getTranslator, localizeHref, type Locale } from "@/lib/i18n";
@@ -222,6 +223,32 @@ export default function GuideDetailPage({
           </div>
         </section>
       </AnimateIn>
+
+      {guide.videos && guide.videos.length > 0 && (
+        <AnimateIn>
+          <section className="mb-10" aria-labelledby="videos-heading">
+            <h2
+              id="videos-heading"
+              className="mb-5 font-display text-2xl font-semibold tracking-tight text-textPrimary"
+            >
+              {t<string>("pages.video.sectionTitle")}
+            </h2>
+            <div className="grid max-w-3xl gap-6">
+              {guide.videos.map((video) => (
+                <div key={video.videoId}>
+                  <VideoEmbed {...video} />
+                  <div className="mt-2">
+                    <SourceTags
+                      sources={getSourcesByIds(video.sourceIds, locale)}
+                      compact
+                    />
+                  </div>
+                </div>
+              ))}
+            </div>
+          </section>
+        </AnimateIn>
+      )}
 
       <AnimateIn>
         <section className="mb-10" aria-labelledby="related-heading">
