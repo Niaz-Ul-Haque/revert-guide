@@ -3,7 +3,8 @@ import { AnimateIn } from "@/components/AnimateIn";
 import { QiblaClient } from "@/components/QiblaClient";
 import { SourcesPanel } from "@/components/SourceTags";
 import { getSourcesByIds } from "@/lib/content";
-import { getTranslator, localizeHref, type Locale } from "@/lib/i18n";
+import { localizeHref, type Locale } from "@/lib/i18n";
+import { getTranslator } from "@/lib/messages";
 import { getPageMetadata } from "@/lib/metadata";
 
 export function generateMetadata({ params }: { params: { locale: Locale } }) {

@@ -6,7 +6,8 @@ import { PrintButton } from "@/components/PrintButton";
 import { SourceTags, SourcesPanel } from "@/components/SourceTags";
 import { getSourcesByIds } from "@/lib/content";
 import { getDuaDhikrContent, type DuaEntry } from "@/lib/tool-content";
-import { getTranslator, localizeHref, type Locale } from "@/lib/i18n";
+import { localizeHref, type Locale } from "@/lib/i18n";
+import { getTranslator } from "@/lib/messages";
 import { buildPageMetadata } from "@/lib/metadata";
 
 interface DuaDhikrCopy {

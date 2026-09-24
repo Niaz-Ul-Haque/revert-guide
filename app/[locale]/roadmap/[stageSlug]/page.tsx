@@ -13,12 +13,8 @@ import {
   getStepsByStageId,
   getSourcesByIds,
 } from "@/lib/content";
-import {
-  getTranslator,
-  localizeHref,
-  type Locale,
-  type Messages,
-} from "@/lib/i18n";
+import { localizeHref, type Locale, type Messages } from "@/lib/i18n";
+import { getTranslator } from "@/lib/messages";
 import { buildPageMetadata } from "@/lib/metadata";
 import { JsonLd, breadcrumbJsonLd } from "@/components/JsonLd";
 import { localeUrl } from "@/lib/site";

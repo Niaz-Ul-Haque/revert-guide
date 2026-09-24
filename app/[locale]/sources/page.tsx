@@ -7,11 +7,11 @@ import { Icon } from "@/components/Icon";
 import { getAllSources, getSourceCategoryContent } from "@/lib/content";
 import {
   DEFAULT_LOCALE,
-  getTranslator,
   localizeHref,
   type Locale,
   type Messages,
 } from "@/lib/i18n";
+import { getTranslator } from "@/lib/messages";
 import { getPageMetadata } from "@/lib/metadata";
 import { CONTACT_EMAIL } from "@/lib/site";
 

@@ -1,12 +1,8 @@
 import Image from "next/image";
 import { Breadcrumb } from "@/components/Breadcrumb";
 import { AnimateIn } from "@/components/AnimateIn";
-import {
-  getTranslator,
-  localizeHref,
-  type Locale,
-  type Messages,
-} from "@/lib/i18n";
+import { localizeHref, type Locale, type Messages } from "@/lib/i18n";
+import { getTranslator } from "@/lib/messages";
 import { getPageMetadata } from "@/lib/metadata";
 import { Button } from "@/components/Button";
 import { Callout } from "@/components/Callout";

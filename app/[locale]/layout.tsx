@@ -7,12 +7,8 @@ import { HtmlLocaleAttributes } from "@/components/HtmlLocaleAttributes";
 import { GlobalSearchProvider } from "@/components/GlobalSearchProvider";
 import { GlobalSearch } from "@/components/GlobalSearch";
 import { getAllFaqEntries } from "@/lib/faq";
-import {
-  SUPPORTED_LOCALES,
-  createTranslator,
-  getMessages,
-  isLocale,
-} from "@/lib/i18n";
+import { SUPPORTED_LOCALES, createTranslator, isLocale } from "@/lib/i18n";
+import { getMessages } from "@/lib/messages";
 import {
   getAllStages,
   getAllSteps,

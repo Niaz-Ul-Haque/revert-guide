@@ -3,12 +3,8 @@
 import Image from "next/image";
 import { Button } from "@/components/Button";
 import { Icon } from "@/components/Icon";
-import {
-  getTranslator,
-  localizeHref,
-  type Locale,
-  type Messages,
-} from "@/lib/i18n";
+import { localizeHref, type Locale, type Messages } from "@/lib/i18n";
+import { getTranslator } from "@/lib/messages";
 
 export default function OfflinePage({
   params,

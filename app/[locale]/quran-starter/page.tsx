@@ -13,7 +13,8 @@ import {
   type ResourceLink,
   type WeekDay,
 } from "@/lib/tool-content";
-import { getTranslator, localizeHref, type Locale } from "@/lib/i18n";
+import { localizeHref, type Locale } from "@/lib/i18n";
+import { getTranslator } from "@/lib/messages";
 import { buildPageMetadata } from "@/lib/metadata";
 import type { TopicImage } from "@/lib/types";
 

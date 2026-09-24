@@ -9,7 +9,8 @@ import { VideoEmbed } from "@/components/VideoEmbed";
 import { SourceTags, SourcesPanel } from "@/components/SourceTags";
 import { getSourcesByIds } from "@/lib/content";
 import { getSalahCompanionContent } from "@/lib/tool-content";
-import { getTranslator, localizeHref, type Locale } from "@/lib/i18n";
+import { localizeHref, type Locale } from "@/lib/i18n";
+import { getTranslator } from "@/lib/messages";
 import { buildPageMetadata } from "@/lib/metadata";
 import type { TopicImage } from "@/lib/types";
 

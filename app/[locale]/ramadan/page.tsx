@@ -10,12 +10,8 @@ import { AnimateIn } from "@/components/AnimateIn";
 import { SourcesPanel } from "@/components/SourceTags";
 import { getAllResources, getSourcesByIds } from "@/lib/content";
 import { getRamadanPlanningContent } from "@/lib/tool-content";
-import {
-  getTranslator,
-  localizeHref,
-  type Locale,
-  type Messages,
-} from "@/lib/i18n";
+import { localizeHref, type Locale, type Messages } from "@/lib/i18n";
+import { getTranslator } from "@/lib/messages";
 import { getPageMetadata } from "@/lib/metadata";
 
 export function generateMetadata({ params }: { params: { locale: Locale } }) {

@@ -6,12 +6,8 @@ import { SourceTags } from "@/components/SourceTags";
 import { JsonLd, breadcrumbJsonLd } from "@/components/JsonLd";
 import { getAllSources } from "@/lib/content";
 import { getFaqByCategory } from "@/lib/faq";
-import {
-  getTranslator,
-  localizeHref,
-  type Locale,
-  type Messages,
-} from "@/lib/i18n";
+import { localizeHref, type Locale, type Messages } from "@/lib/i18n";
+import { getTranslator } from "@/lib/messages";
 import { getPageMetadata } from "@/lib/metadata";
 import { localeUrl } from "@/lib/site";
 import type { SourceEntry } from "@/lib/types";

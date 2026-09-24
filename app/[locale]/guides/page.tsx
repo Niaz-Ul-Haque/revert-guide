@@ -4,7 +4,8 @@ import { Button } from "@/components/Button";
 import { Icon } from "@/components/Icon";
 import { AnimateIn } from "@/components/AnimateIn";
 import { getLifeGuides } from "@/lib/life-guides";
-import { getTranslator, localizeHref, type Locale } from "@/lib/i18n";
+import { localizeHref, type Locale } from "@/lib/i18n";
+import { getTranslator } from "@/lib/messages";
 import { buildPageMetadata } from "@/lib/metadata";
 
 export function generateMetadata({ params }: { params: { locale: Locale } }) {

@@ -6,13 +6,13 @@ import { useRouter } from "next/navigation";
 import {
   DEFAULT_LOCALE,
   getLocaleDisplayName,
-  getTranslator,
   LOCALE_STORAGE_KEY,
   SUPPORTED_LOCALES,
   localizeHref,
   resolveLocale,
   type Messages,
 } from "@/lib/i18n";
+import { getTranslator } from "@/lib/messages";
 
 export default function RootPage() {
   const router = useRouter();

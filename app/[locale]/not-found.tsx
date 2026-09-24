@@ -4,12 +4,8 @@ import Image from "next/image";
 import { usePathname } from "next/navigation";
 import { Button } from "@/components/Button";
 import { Icon } from "@/components/Icon";
-import {
-  getTranslator,
-  localizeHref,
-  resolveLocale,
-  type Messages,
-} from "@/lib/i18n";
+import { localizeHref, resolveLocale, type Messages } from "@/lib/i18n";
+import { getTranslator } from "@/lib/messages";
 
 export default function NotFound() {
   const pathname = usePathname();

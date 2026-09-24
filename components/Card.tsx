@@ -2,7 +2,8 @@
 
 import Link from "next/link";
 import { SourceTags } from "@/components/SourceTags";
-import { getTranslator, type Locale } from "@/lib/i18n";
+import { type Locale } from "@/lib/i18n";
+import { useTranslations } from "@/components/LocaleProvider";
 import type { SourceEntry } from "@/lib/types";
 
 /* ─── Base Card ─── */
@@ -222,7 +223,7 @@ export function ResourceCard({
   trustNote,
   sources = [],
 }: ResourceCardProps) {
-  const t = getTranslator(locale);
+  const t = useTranslations();
   const isExternal = url.startsWith("http");
 
   return (

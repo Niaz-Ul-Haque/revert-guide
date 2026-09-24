@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
-import { getTranslator, type Locale } from "./i18n";
+import { type Locale } from "./i18n";
+import { getTranslator } from "./messages";
 import {
   DEFAULT_OG_IMAGE,
   OG_LOCALE_MAP,
