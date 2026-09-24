@@ -116,6 +116,7 @@ function DesktopDropdown({
           {item.dropdown!.map((subItem) => (
             <li key={subItem.href} className="mb-0 list-none">
               <Link
+                prefetch={false}
                 href={subItem.href}
                 className="block rounded-lg px-3 py-2.5 text-sm font-medium text-textSecondary no-underline transition-all duration-200 hover:bg-surfaceElevated hover:text-primary focus-visible:bg-surfaceElevated focus-visible:text-primary focus-visible:outline-none"
                 onClick={() => setOpen(false)}
@@ -423,6 +424,7 @@ export function Navbar() {
                 }
               >
                 <Link
+                  prefetch={false}
                   href={link.href}
                   className={`flex min-h-11 items-center rounded-xl px-4 text-sm font-medium no-underline transition-all duration-200 ${
                     link.prominent

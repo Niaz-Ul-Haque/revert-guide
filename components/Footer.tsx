@@ -106,6 +106,7 @@ export function Footer() {
                 {quickLinks.map((link) => (
                   <li key={link.href} className="mb-0">
                     <Link
+                      prefetch={false}
                       href={link.href}
                       className="text-sm font-medium text-textSecondary no-underline transition-colors duration-200 hover:text-primary"
                     >
@@ -127,6 +128,7 @@ export function Footer() {
                 {footerLinks.map((link) => (
                   <li key={link.href} className="mb-0">
                     <Link
+                      prefetch={false}
                       href={link.href}
                       className="text-sm font-medium text-textSecondary no-underline transition-colors duration-200 hover:text-primary"
                     >
