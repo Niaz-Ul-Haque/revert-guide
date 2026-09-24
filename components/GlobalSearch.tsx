@@ -13,14 +13,7 @@ import { useRouter } from "next/navigation";
 import { useGlobalSearch } from "@/components/GlobalSearchProvider";
 import { useLocale, useTranslations } from "@/components/LocaleProvider";
 import { localizeHref } from "@/lib/i18n";
-import type {
-  Stage,
-  Step,
-  Topic,
-  GlossaryEntry,
-  Resource,
-  FaqEntry,
-} from "@/lib/types";
+import { searchIndexPath, type SearchIndex } from "@/lib/search-index";
 
 /* ─── Types ─── */
 
@@ -33,19 +26,17 @@ interface SearchResult {
   extra?: string;
 }
 
-interface GlobalSearchProps {
-  stages: Stage[];
-  steps: Step[];
-  topics: Topic[];
-  glossary: GlossaryEntry[];
-  resources: Resource[];
-  /** Questions with a short answer excerpt, so every page stays light. */
-  faq: Pick<FaqEntry, "id" | "question" | "answer">[];
-}
-
 /* ─── Constants ─── */
 
 const MAX_PER_CATEGORY = 5;
+const EMPTY_INDEX: SearchIndex = {
+  stages: [],
+  steps: [],
+  topics: [],
+  glossary: [],
+  resources: [],
+  faq: [],
+};
 const DEBOUNCE_MS = 150;
 
 /* ─── Helpers ─── */
@@ -248,18 +239,38 @@ const CATEGORY_META: Record<
 
 /* ─── Main Component ─── */
 
-export function GlobalSearch({
-  stages,
-  steps,
-  topics,
-  glossary,
-  resources,
-  faq,
-}: GlobalSearchProps) {
+export function GlobalSearch() {
   const { isSearchOpen, closeSearch } = useGlobalSearch();
   const locale = useLocale();
   const t = useTranslations();
   const router = useRouter();
+
+  /* The index is a static JSON file per locale, fetched the first time the
+     search box opens so ordinary pages stay light. */
+  const [index, setIndex] = useState<SearchIndex | null>(null);
+  const [indexFailed, setIndexFailed] = useState(false);
+
+  useEffect(() => {
+    if (!isSearchOpen || index || indexFailed) return;
+    let cancelled = false;
+    fetch(searchIndexPath(locale))
+      .then((response) => {
+        if (!response.ok) throw new Error(String(response.status));
+        return response.json() as Promise<SearchIndex>;
+      })
+      .then((data) => {
+        if (!cancelled) setIndex(data);
+      })
+      .catch(() => {
+        if (!cancelled) setIndexFailed(true);
+      });
+    return () => {
+      cancelled = true;
+    };
+  }, [isSearchOpen, index, indexFailed, locale]);
+
+  const { stages, steps, topics, glossary, resources, faq } =
+    index ?? EMPTY_INDEX;
 
   const [query, setQuery] = useState("");
   const [debouncedQuery, setDebouncedQuery] = useState("");
@@ -739,10 +750,12 @@ export function GlobalSearch({
                 </svg>
               </div>
               <p className="text-sm font-medium text-textSecondary">
-                {t("search.noResults")}
+                {index || indexFailed
+                  ? t("search.noResults")
+                  : t("common.loading")}
               </p>
               <p className="mt-1 text-xs text-textMuted">
-                {t("search.noResultsHint")}
+                {index || indexFailed ? t("search.noResultsHint") : ""}
               </p>
             </div>
           )}
@@ -914,7 +927,9 @@ export function GlobalSearch({
                   "{count}",
                   String(totalCount),
                 )
-            : t("search.noResults"))}
+            : index || indexFailed
+              ? t("search.noResults")
+              : t("common.loading"))}
       </div>
     </div>
   );
