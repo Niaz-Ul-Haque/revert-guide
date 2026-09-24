@@ -42,27 +42,35 @@ export function AnimateIn({
   threshold = 0.1,
 }: AnimateInProps) {
   const ref = useRef<HTMLDivElement>(null);
-  const [isVisible, setIsVisible] = useState(false);
+  /* "static": plain content (server HTML, reduced motion, or already on
+     screen when scripts run). "hidden": below the fold, waiting. "animate":
+     entering the viewport now. Content is never hidden before hydration, so
+     the first screen paints without waiting for scripts. */
+  const [state, setState] = useState<"static" | "hidden" | "animate">("static");
   const [computedDelay, setComputedDelay] = useState(0);
 
   const triggerAnimation = useCallback(() => {
     const stagger = getStaggerDelay();
     setComputedDelay(delay + stagger);
-    setIsVisible(true);
+    setState("animate");
   }, [delay]);
 
   useEffect(() => {
     const el = ref.current;
     if (!el) return;
 
-    /* Respect reduced-motion preference */
+    /* Respect reduced-motion preference, and leave anything already on
+       screen alone so the first paint is not hidden and shown again */
     const prefersReducedMotion = window.matchMedia(
       "(prefers-reduced-motion: reduce)",
     ).matches;
-    if (prefersReducedMotion) {
-      setIsVisible(true);
+    if (
+      prefersReducedMotion ||
+      el.getBoundingClientRect().top < window.innerHeight
+    ) {
       return;
     }
+    setState("hidden");
 
     const observer = new IntersectionObserver(
       ([entry]) => {
@@ -89,10 +97,14 @@ export function AnimateIn({
     <div
       ref={ref}
       className={`${className} ${
-        isVisible ? animationMap[animation] : "opacity-0"
+        state === "animate"
+          ? animationMap[animation]
+          : state === "hidden"
+            ? "opacity-0"
+            : ""
       }`}
       style={
-        isVisible
+        state === "animate"
           ? {
               animationDelay: `${computedDelay}s`,
               // Keep element invisible until its animation actually starts
