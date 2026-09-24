@@ -15,15 +15,15 @@
   },
   {
     "id": "welcome-to-islam-book",
-    "title": "Welcome to Islam",
-    "type": "community",
-    "url": "https://welcometoislam.net/",
-    "description": "A support site for new Muslims, with short introductory lessons and practical next steps.",
+    "title": "Welcome to Islam: A Step-by-Step Guide for New Muslims",
+    "type": "book",
+    "url": "https://mustafaumar.com/downloads/welcome-to-islam/",
+    "description": "A short guide by Mustafa Umar for your first month as a Muslim, covering the basics and the difficulties new Muslims often face.",
     "relatedStepIds": ["shahada", "first-24-hours", "prayer-on-ramp"],
     "relatedTopicIds": ["new-muslim-basics", "beliefs"],
-    "organization": "Welcome to Islam",
-    "bestFor": "First orientation after Shahada",
-    "trustNote": "The earlier book attribution was unclear, so this now points to the identifiable official site.",
+    "organization": "Mustafa Umar",
+    "bestFor": "Your first days and weeks after shahada",
+    "trustNote": "32 pages and free to read online. The author is an imam and a member of the Fiqh Council of North America.",
     "sourceIds": ["welcome-to-islam"],
     "reviewStatus": "source-checked"
   },
@@ -37,22 +37,8 @@
     "relatedTopicIds": ["quran", "dua-and-dhikr"],
     "organization": "Quran Foundation",
     "bestFor": "Listening, reading, and comparing translations",
-    "trustNote": "Useful for study links. Treat the translation wording as meaning rather than as the Arabic itself.",
-    "sourceIds": ["quran-com"],
-    "reviewStatus": "source-checked"
-  },
-  {
-    "id": "muslim-pro-app",
-    "title": "Muslim Pro",
-    "type": "app",
-    "url": "https://www.muslimpro.com/",
-    "description": "An everyday app for prayer times, Quran reading, and finding the Qibla.",
-    "relatedStepIds": ["prayer", "prayer-on-ramp", "halal-eating-practical"],
-    "relatedTopicIds": ["prayer", "quran", "halal-living"],
-    "organization": "Muslim Pro",
-    "bestFor": "Prayer reminders and daily utility",
-    "trustNote": "Always confirm prayer times with a local masjid when needed.",
-    "sourceIds": ["muslim-pro"],
+    "trustNote": "Run by Quran.Foundation, a nonprofit, with no ads. You do not need an account. The site uses Google Analytics.",
+    "sourceIds": ["quran-com", "quran-com-privacy"],
     "reviewStatus": "source-checked"
   },
   {
@@ -384,8 +370,8 @@
     "relatedTopicIds": ["quran"],
     "organization": "Tarteel AI",
     "bestFor": "Quran recitation practice between lessons",
-    "trustNote": "App feedback is a practice aid, not a replacement for a teacher. Tarteel's privacy policy (last updated 26 May 2023) says voice recordings are stored in the United States and used to train its AI, and that it uses analytics and Google cookies. Read it before you record.",
-    "sourceIds": ["tarteel"],
+    "trustNote": "App feedback is a practice aid, not a replacement for a teacher. Tarteel's privacy policy (last updated 26 May 2023) says voice recordings are stored in the United States and used to train its AI, some are reviewed by people, and the app uses analytics and Google cookies. Free users can delete recordings; only Premium users can opt out of AI training. Read the policy before you record.",
+    "sourceIds": ["tarteel", "tarteel-recordings-privacy"],
     "reviewStatus": "review-needed"
   },
   {
@@ -618,6 +604,20 @@
     "bestFor": "Readers who want the classical meaning of the surahs they recite",
     "trustNote": "A paid print book. Best read with a teacher.",
     "sourceIds": ["darussalam-tafsir-ibn-kathir-30"],
+    "reviewStatus": "source-checked"
+  },
+  {
+    "id": "pillars-app",
+    "title": "Pillars",
+    "type": "app",
+    "url": "https://www.thepillarsapp.com/",
+    "description": "A prayer times app with the Qibla, widgets and several calculation methods, including the ISNA method this site uses.",
+    "relatedStepIds": ["prayer", "prayer-on-ramp"],
+    "relatedTopicIds": ["prayer"],
+    "organization": "The Pillars Group Ltd",
+    "bestFor": "Prayer reminders on your phone",
+    "trustNote": "No ads and no account. Your location stays on your phone. It uses anonymous analytics, which you can turn off in Settings.",
+    "sourceIds": ["pillars-app-privacy"],
     "reviewStatus": "source-checked"
   }
 ]
