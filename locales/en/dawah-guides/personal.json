@@ -783,14 +783,14 @@
       "reviewNote": "Reviewed educational topic page checked online on 2026-06-03; used for careful referral around violence, jihad, terrorism, and media narratives."
     },
     {
-      "id": "988-lifeline",
+      "id": "988-canada",
       "type": "public-health",
-      "citation": "988 Suicide & Crisis Lifeline",
+      "citation": "9-8-8: Suicide Crisis Helpline",
       "label": "Crisis support",
-      "sourceName": "988 Lifeline",
-      "sourceUrl": "https://988lifeline.org/",
+      "sourceName": "9-8-8 (CAMH, funded by the Government of Canada)",
+      "sourceUrl": "https://988.ca/",
       "reviewStatus": "source-checked",
-      "reviewNote": "Official crisis support source checked online on 2026-06-03; used for mental-health crisis referral language."
+      "reviewNote": "Official Canadian crisis line checked online on 2026-09-23; used for mental-health crisis referral language."
     },
     {
       "id": "canada-safety-planning",
@@ -1044,8 +1044,8 @@
           "They are panicking, unable to function, or making urgent unsafe plans.",
           "They need emergency help more than a religious explanation."
         ],
-        "referTo": "Emergency services or crisis support such as 988 in the United States and Canada, plus qualified clinical care.",
-        "referenceIds": ["988-lifeline"]
+        "referTo": "Emergency services (9-1-1) or crisis support such as 9-8-8 in Canada, plus qualified clinical care.",
+        "referenceIds": ["988-canada"]
       },
       {
         "id": "detailed-fiqh",
@@ -1284,7 +1284,7 @@
         ],
         "referenceIds": [
           "quran-16-125",
-          "988-lifeline",
+          "988-canada",
           "canada-safety-planning"
         ]
       },
@@ -1361,7 +1361,7 @@
           "Debating instead of listening.",
           "Missing signs of crisis, self-harm, or unsafe isolation."
         ],
-        "referenceIds": ["quran-67-2", "quran-2-155", "988-lifeline"]
+        "referenceIds": ["quran-67-2", "quran-2-155", "988-canada"]
       },
       {
         "id": "s-violence-media-narratives",

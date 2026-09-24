@@ -46,7 +46,7 @@ const pageSourceIds = [
   "sunnah-bukhari-anxiety-grief",
   "sunnah-ibnmajah-beneficial-knowledge",
   "darussalam",
-  "988-lifeline",
+  "988-canada",
 ];
 
 export function generateMetadata({ params }: { params: { locale: Locale } }) {
