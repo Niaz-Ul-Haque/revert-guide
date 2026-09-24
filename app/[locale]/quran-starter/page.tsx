@@ -1,8 +1,10 @@
+import Image from "next/image";
 import { Breadcrumb } from "@/components/Breadcrumb";
 import { Button } from "@/components/Button";
 import { Icon } from "@/components/Icon";
 import { AnimateIn } from "@/components/AnimateIn";
 import { PrintButton } from "@/components/PrintButton";
+import { VideoEmbed } from "@/components/VideoEmbed";
 import { SourceTags, SourcesPanel } from "@/components/SourceTags";
 import { getSourcesByIds } from "@/lib/content";
 import {
@@ -13,6 +15,7 @@ import {
 } from "@/lib/tool-content";
 import { getTranslator, localizeHref, type Locale } from "@/lib/i18n";
 import { buildPageMetadata } from "@/lib/metadata";
+import type { TopicImage } from "@/lib/types";
 
 interface QuranStarterCopy {
   metadataTitle: string;
@@ -44,6 +47,12 @@ interface QuranStarterCopy {
   sourcesNote: string;
   roadmapButton: string;
   duaDhikrButton: string;
+  learnArabicTitle: string;
+  learnArabicBody: string;
+  learnArabicStagesTitle: string;
+  wordByWordTitle: string;
+  wordByWordBody: string;
+  verseLabel: string;
 }
 
 const pageSourceIds = [
@@ -66,6 +75,12 @@ const pageSourceIds = [
   "new-muslim-academy",
   "seekersguidance",
   "yaqeen-institute",
+  "quranic-arabic-corpus-fatihah",
+  "quran-com-seven-days-seven-verses",
+  "video-islamwise-prayer-series",
+  "video-islamwise-fatihah-alhamdu",
+  "madinah-arabic-free-content",
+  "video-arabic101-alphabet-lesson-1",
 ];
 
 export function generateMetadata({ params }: { params: { locale: Locale } }) {
@@ -95,6 +110,28 @@ function SimpleList({ items }: { items: string[] }) {
         </li>
       ))}
     </ul>
+  );
+}
+
+function ContentFigure({ image }: { image: TopicImage }) {
+  return (
+    <figure className="page-break-avoid m-0 overflow-hidden rounded-2xl border border-border/60 bg-white p-4">
+      <Image
+        src={image.src}
+        alt={image.alt}
+        width={1200}
+        height={800}
+        className="h-auto w-full"
+      />
+      {(image.caption || image.credit) && (
+        <figcaption className="mt-3 text-sm leading-relaxed text-textSecondary">
+          {image.caption}
+          {image.credit && (
+            <span className="block text-xs text-textMuted">{image.credit}</span>
+          )}
+        </figcaption>
+      )}
+    </figure>
   );
 }
 
@@ -198,8 +235,14 @@ export default function QuranStarterPage({
   const locale = params.locale;
   const t = getTranslator(locale);
   const copy = t<QuranStarterCopy>("pages.quranStarter");
-  const { vocabulary, translationTips, readingPaths, weekPlan, resourceLinks } =
-    getQuranStarterContent(locale);
+  const {
+    learnArabic,
+    vocabulary,
+    translationTips,
+    readingPaths,
+    weekPlan,
+    resourceLinks,
+  } = getQuranStarterContent(locale);
   const pageSources = getSourcesByIds(pageSourceIds, locale);
 
   return (
@@ -331,6 +374,129 @@ export default function QuranStarterPage({
           </section>
         </AnimateIn>
       </div>
+
+      <AnimateIn>
+        <section
+          id="learn-arabic"
+          className="my-12 scroll-mt-24"
+          aria-labelledby="learn-arabic-heading"
+        >
+          <div className="mb-6 max-w-3xl">
+            <h2
+              id="learn-arabic-heading"
+              className="mb-2 font-display text-2xl font-semibold tracking-tight text-textPrimary"
+            >
+              {copy.learnArabicTitle}
+            </h2>
+            <p className="mb-0 text-sm leading-relaxed text-textSecondary">
+              {copy.learnArabicBody}
+            </p>
+          </div>
+
+          <div className="mb-8 grid items-start gap-6 lg:grid-cols-2">
+            <ContentFigure image={learnArabic.image} />
+            <div className="rounded-2xl border border-primaryGreen/30 bg-surfaceElevated/50 p-5">
+              <h3 className="mb-3 mt-0 text-base font-semibold text-textPrimary">
+                {copy.learnArabicStagesTitle}
+              </h3>
+              <SimpleList items={learnArabic.stages} />
+            </div>
+          </div>
+
+          <h3 className="mb-2 mt-0 text-lg font-semibold text-textPrimary">
+            {copy.wordByWordTitle}
+          </h3>
+          <p className="mb-4 max-w-3xl text-sm leading-relaxed text-textSecondary">
+            {copy.wordByWordBody}
+          </p>
+          <ol className="mb-3 flex flex-col gap-3 pl-0">
+            {learnArabic.fatihahWords.map((line) => (
+              <li
+                key={line.verse}
+                className="page-break-avoid rounded-2xl border border-border/60 bg-white p-4 shadow-card"
+              >
+                <p className="mb-3 text-xs font-semibold text-textMuted">
+                  {copy.verseLabel.replace("{number}", String(line.verse))}
+                </p>
+                <ul
+                  className="mb-0 flex flex-wrap gap-2 pl-0"
+                  dir="rtl"
+                  lang="ar"
+                >
+                  {line.words.map((word, index) => (
+                    <li
+                      key={`${line.verse}-${index}`}
+                      className="min-w-[6.5rem] rounded-xl bg-surfaceElevated/70 px-3 py-2 text-center"
+                    >
+                      <span className="block font-arabic text-2xl leading-loose text-textPrimary">
+                        {word.arabic}
+                      </span>
+                      <span
+                        className="block text-xs italic text-textSecondary"
+                        dir="ltr"
+                        lang="en"
+                      >
+                        {word.transliteration}
+                      </span>
+                      <span
+                        className="block text-xs text-textPrimary"
+                        dir="ltr"
+                        lang="en"
+                      >
+                        {word.meaning}
+                      </span>
+                    </li>
+                  ))}
+                </ul>
+              </li>
+            ))}
+          </ol>
+          <div className="mb-8">
+            <SourceTags
+              sources={getSourcesByIds(learnArabic.fatihahSourceIds, locale)}
+              compact
+            />
+          </div>
+
+          <div className="mb-8 grid gap-6 md:grid-cols-2">
+            <VideoEmbed {...learnArabic.fatihahVideo} />
+            <VideoEmbed {...learnArabic.alphabetVideo} />
+          </div>
+
+          <div className="grid gap-4 md:grid-cols-2">
+            {learnArabic.links.map((link) => (
+              <article
+                key={link.href}
+                className="page-break-avoid rounded-2xl border border-border/60 bg-white p-5 shadow-card"
+              >
+                <h3 className="mb-1 mt-0 text-base font-semibold text-textPrimary">
+                  {link.label}
+                </h3>
+                {link.body && (
+                  <p className="mb-3 text-sm leading-relaxed text-textSecondary">
+                    {link.body}
+                  </p>
+                )}
+                <div className="flex flex-wrap items-center gap-3">
+                  <a
+                    href={link.href}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex min-h-[44px] items-center gap-1.5 text-sm font-medium text-primary"
+                  >
+                    {copy.openResource}
+                    <Icon name="external-link" size="sm" />
+                  </a>
+                  <SourceTags
+                    sources={getSourcesByIds(link.sourceIds, locale)}
+                    compact
+                  />
+                </div>
+              </article>
+            ))}
+          </div>
+        </section>
+      </AnimateIn>
 
       <AnimateIn>
         <section className="my-12" aria-labelledby="reading-paths-heading">

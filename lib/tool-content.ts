@@ -111,7 +111,24 @@ export interface ResourceLink {
   icon: IconName;
 }
 
+export interface FatihahWord {
+  arabic: string;
+  transliteration: string;
+  meaning: string;
+}
+
+export interface LearnArabicContent {
+  image: TopicImage;
+  stages: string[];
+  fatihahWords: { verse: number; words: FatihahWord[] }[];
+  fatihahSourceIds: string[];
+  links: ExternalLink[];
+  fatihahVideo: VideoRef;
+  alphabetVideo: VideoRef;
+}
+
 export interface QuranStarterContent {
+  learnArabic: LearnArabicContent;
   vocabulary: VocabularyEntry[];
   translationTips: string[];
   readingPaths: ReadingPath[];

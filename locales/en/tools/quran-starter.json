@@ -155,5 +155,242 @@
       "sourceIds": ["quran-reciter-mishary"],
       "icon": "play"
     }
-  ]
+  ],
+  "learnArabic": {
+    "image": {
+      "src": "/graphics/al-fatihah-card.svg",
+      "alt": "A card with the seven lines of Al-Fatihah, each with the Arabic, a transliteration and a translation of the meaning.",
+      "caption": "Al-Fatihah, one line at a time.",
+      "credit": "Illustration: Revert Guide."
+    },
+    "stages": [
+      "Week 1: one line of Al-Fatihah a day. Listen, repeat, and read the word meanings below. That is the only task.",
+      "Weeks 2 to 4: keep praying with what you know, finish Al-Fatihah, and add one short surah such as Al-Ikhlas.",
+      "After that, when you feel ready: start the Arabic letters, or ask your local masjid about a beginners' Quran reading class."
+    ],
+    "fatihahWords": [
+      {
+        "verse": 1,
+        "words": [
+          {
+            "arabic": "بِسْمِ",
+            "transliteration": "bismi",
+            "meaning": "In the name"
+          },
+          {
+            "arabic": "اللَّهِ",
+            "transliteration": "Allahi",
+            "meaning": "of Allah"
+          },
+          {
+            "arabic": "الرَّحْمَٰنِ",
+            "transliteration": "ar-Rahmani",
+            "meaning": "the Most Compassionate"
+          },
+          {
+            "arabic": "الرَّحِيمِ",
+            "transliteration": "ar-Rahim",
+            "meaning": "the Most Merciful"
+          }
+        ]
+      },
+      {
+        "verse": 2,
+        "words": [
+          {
+            "arabic": "الْحَمْدُ",
+            "transliteration": "al-hamdu",
+            "meaning": "All praise"
+          },
+          {
+            "arabic": "لِلَّهِ",
+            "transliteration": "lillahi",
+            "meaning": "is for Allah"
+          },
+          {
+            "arabic": "رَبِّ",
+            "transliteration": "Rabbi",
+            "meaning": "Lord"
+          },
+          {
+            "arabic": "الْعَالَمِينَ",
+            "transliteration": "al-'alamin",
+            "meaning": "of all the worlds"
+          }
+        ]
+      },
+      {
+        "verse": 3,
+        "words": [
+          {
+            "arabic": "الرَّحْمَٰنِ",
+            "transliteration": "ar-Rahmani",
+            "meaning": "the Most Compassionate"
+          },
+          {
+            "arabic": "الرَّحِيمِ",
+            "transliteration": "ar-Rahim",
+            "meaning": "the Most Merciful"
+          }
+        ]
+      },
+      {
+        "verse": 4,
+        "words": [
+          {
+            "arabic": "مَالِكِ",
+            "transliteration": "Maliki",
+            "meaning": "Master"
+          },
+          {
+            "arabic": "يَوْمِ",
+            "transliteration": "yawmi",
+            "meaning": "of the Day"
+          },
+          {
+            "arabic": "الدِّينِ",
+            "transliteration": "ad-din",
+            "meaning": "of Judgement"
+          }
+        ]
+      },
+      {
+        "verse": 5,
+        "words": [
+          {
+            "arabic": "إِيَّاكَ",
+            "transliteration": "iyyaka",
+            "meaning": "You alone"
+          },
+          {
+            "arabic": "نَعْبُدُ",
+            "transliteration": "na'budu",
+            "meaning": "we worship"
+          },
+          {
+            "arabic": "وَإِيَّاكَ",
+            "transliteration": "wa iyyaka",
+            "meaning": "and You alone"
+          },
+          {
+            "arabic": "نَسْتَعِينُ",
+            "transliteration": "nasta'in",
+            "meaning": "we ask for help"
+          }
+        ]
+      },
+      {
+        "verse": 6,
+        "words": [
+          {
+            "arabic": "اهْدِنَا",
+            "transliteration": "ihdina",
+            "meaning": "Guide us"
+          },
+          {
+            "arabic": "الصِّرَاطَ",
+            "transliteration": "as-sirata",
+            "meaning": "to the path"
+          },
+          {
+            "arabic": "الْمُسْتَقِيمَ",
+            "transliteration": "al-mustaqim",
+            "meaning": "the straight"
+          }
+        ]
+      },
+      {
+        "verse": 7,
+        "words": [
+          {
+            "arabic": "صِرَاطَ",
+            "transliteration": "sirata",
+            "meaning": "the path"
+          },
+          {
+            "arabic": "الَّذِينَ",
+            "transliteration": "alladhina",
+            "meaning": "of those"
+          },
+          {
+            "arabic": "أَنْعَمْتَ",
+            "transliteration": "an'amta",
+            "meaning": "You have blessed"
+          },
+          {
+            "arabic": "عَلَيْهِمْ",
+            "transliteration": "'alayhim",
+            "meaning": "them"
+          },
+          {
+            "arabic": "غَيْرِ",
+            "transliteration": "ghayri",
+            "meaning": "not"
+          },
+          {
+            "arabic": "الْمَغْضُوبِ",
+            "transliteration": "al-maghdubi",
+            "meaning": "those who earned anger"
+          },
+          {
+            "arabic": "عَلَيْهِمْ",
+            "transliteration": "'alayhim",
+            "meaning": "on them"
+          },
+          {
+            "arabic": "وَلَا",
+            "transliteration": "wa la",
+            "meaning": "nor"
+          },
+          {
+            "arabic": "الضَّالِّينَ",
+            "transliteration": "ad-dallin",
+            "meaning": "those who went astray"
+          }
+        ]
+      }
+    ],
+    "fatihahSourceIds": ["quran-al-fatihah-1", "quranic-arabic-corpus-fatihah"],
+    "links": [
+      {
+        "label": "Listen to Al-Fatihah on Quran.com",
+        "body": "Press play on the Quran.com page to hear each verse. Mishary al-Afasy is a clear reciter to start with.",
+        "href": "https://quran.com/1",
+        "sourceIds": ["quran-al-fatihah-1", "quran-reciter-mishary"]
+      },
+      {
+        "label": "Seven Days, Seven Verses (Quran.com)",
+        "body": "One verse of Al-Fatihah a day, under 10 minutes each, with the words broken down. Free, and you can read it without an account.",
+        "href": "https://quran.com/learning-plans/seven-days-seven-verses-living-the-message-of-al-fatihah",
+        "sourceIds": ["quran-com-seven-days-seven-verses"]
+      },
+      {
+        "label": "The Islamwise phrase-by-phrase series",
+        "body": "Short YouTube lessons on every phrase of the prayer. Episodes 11 to 18 go through Al-Fatihah verse by verse.",
+        "href": "https://www.youtube.com/playlist?list=PLW9v5fexkmD_8i507k8oL2x9n0vJeP1BT",
+        "sourceIds": ["video-islamwise-prayer-series"]
+      },
+      {
+        "label": "Arabic letters: Madinah Arabic reading course",
+        "body": "Costs nothing and needs no account for the free lessons. The site also sells paid one-to-one lessons, and the course author is not named.",
+        "href": "https://madinaharabic.com/free-content",
+        "sourceIds": ["madinah-arabic-free-content"]
+      }
+    ],
+    "fatihahVideo": {
+      "videoId": "Rdhcd8452-I",
+      "title": "Alhamdu lillahi Rabbil-'alamin, phrase by phrase",
+      "channel": "Islamwise",
+      "duration": "2:27",
+      "sourceIds": ["video-islamwise-fatihah-alhamdu"]
+    },
+    "alphabetVideo": {
+      "videoId": "c-7SVieC_04",
+      "title": "Reading Arabic, lesson 1: the first letters",
+      "channel": "Arabic 101",
+      "duration": "13:57",
+      "note": "Arabic 101 also sells live classes. This first lesson is free to watch.",
+      "sourceIds": ["video-arabic101-alphabet-lesson-1"]
+    }
+  }
 }
