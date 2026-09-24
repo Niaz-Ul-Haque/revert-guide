@@ -57,6 +57,7 @@ interface SalahCompanionCopy {
   notOwedTitle: string;
   seatedTitle: string;
   learnArabicLink: string;
+  menstruationLink: string;
 }
 
 const pageSourceIds = [
@@ -582,6 +583,13 @@ export default function SalahCompanionPage({
               {copy.invalidatesBody}
             </p>
             <SimpleList items={invalidatesPrayer} />
+            <Link
+              href={localizeHref(locale, "/topics/menstruation-and-worship")}
+              className="mt-4 inline-flex min-h-[44px] items-center gap-1.5 text-sm font-semibold text-primary"
+            >
+              {copy.menstruationLink}
+              <Icon name="chevron-right" size="sm" />
+            </Link>
           </section>
         </AnimateIn>
       </div>
