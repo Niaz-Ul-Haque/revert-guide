@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import { Accordion } from "@/components/Accordion";
 import { Breadcrumb } from "@/components/Breadcrumb";
 import { Button } from "@/components/Button";
 import { Icon } from "@/components/Icon";
@@ -42,6 +43,7 @@ interface WuduGhuslCopy {
   menstruationLink: string;
   tayammumTitle: string;
   tayammumStepsTitle: string;
+  questionsTitle: string;
 }
 
 const sourceIds = [
@@ -65,6 +67,10 @@ const sourceIds = [
   "newmuslims-tayammum",
   "seekersguidance-tayammum",
   "video-greenlane-tayammum",
+  "seekersguidance-thick-socks",
+  "seekersguidance-nail-polish",
+  "seekersguidance-cast-hanafi",
+  "seekersguidance-cast-shafii",
 ];
 
 export function generateMetadata({ params }: { params: { locale: Locale } }) {
@@ -179,6 +185,7 @@ export default function WuduGhuslPage({
     wuduImage,
     ghuslImage,
     tayammum,
+    commonQuestions,
   } = getWuduGhuslContent(locale);
   const sources = getSourcesByIds(sourceIds, locale);
 
@@ -429,6 +436,30 @@ export default function WuduGhuslPage({
               />
             </div>
             <VideoEmbed {...tayammum.video} />
+          </div>
+        </section>
+      </AnimateIn>
+
+      <AnimateIn>
+        <section className="mt-12" aria-labelledby="questions-heading">
+          <h2
+            id="questions-heading"
+            className="mb-5 font-display text-2xl font-semibold tracking-tight text-textPrimary"
+          >
+            {copy.questionsTitle}
+          </h2>
+          <div className="flex flex-col gap-3">
+            {commonQuestions.map((item) => (
+              <Accordion key={item.question} title={item.question}>
+                <p className="mb-3 text-sm leading-relaxed text-textSecondary">
+                  {item.answer}
+                </p>
+                <SourceTags
+                  sources={getSourcesByIds(item.sourceIds, locale)}
+                  compact
+                />
+              </Accordion>
+            ))}
           </div>
         </section>
       </AnimateIn>

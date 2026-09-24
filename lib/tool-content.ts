@@ -233,6 +233,7 @@ export interface WuduGhuslContent {
   convertGhusl: { points: string[]; sourceIds: string[] };
   wuduImage: TopicImage;
   ghuslImage: TopicImage;
+  commonQuestions: { question: string; answer: string; sourceIds: string[] }[];
   tayammum: {
     summary: string;
     steps: string[];
