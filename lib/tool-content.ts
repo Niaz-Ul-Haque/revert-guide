@@ -2,6 +2,7 @@ import * as fs from "fs";
 import * as path from "path";
 import type { IconName } from "@/components/Icon";
 import { DEFAULT_LOCALE, type Locale } from "./i18n";
+import type { VideoRef } from "./types";
 
 /**
  * Loader for the longer-form content that sits behind the tool pages and the
@@ -168,6 +169,8 @@ export interface WuduGhuslContent {
   wuduBreaks: string[];
   ghuslNeeded: string[];
   commonCorrections: CorrectionNote[];
+  wuduVideo: VideoRef;
+  ghuslVideo: VideoRef;
 }
 
 export function getWuduGhuslContent(

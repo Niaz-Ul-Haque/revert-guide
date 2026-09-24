@@ -3,6 +3,7 @@ import { Button } from "@/components/Button";
 import { Icon } from "@/components/Icon";
 import { AnimateIn } from "@/components/AnimateIn";
 import { PrintButton } from "@/components/PrintButton";
+import { VideoEmbed } from "@/components/VideoEmbed";
 import { SourcesPanel } from "@/components/SourceTags";
 import { getSourcesByIds } from "@/lib/content";
 import { getWuduGhuslContent, type PracticeStep } from "@/lib/tool-content";
@@ -31,6 +32,7 @@ interface WuduGhuslCopy {
   sourcesNote: string;
   ghuslRoadmapButton: string;
   prayerTopicButton: string;
+  watchTitle: string;
 }
 
 const sourceIds = [
@@ -38,6 +40,8 @@ const sourceIds = [
   "new-muslim-guide-wudu",
   "new-muslim-guide-hadath",
   "seekersguidance",
+  "video-greenlane-wudu",
+  "video-greenlane-ghusl",
 ];
 
 export function generateMetadata({ params }: { params: { locale: Locale } }) {
@@ -114,8 +118,15 @@ export default function WuduGhuslPage({
   const locale = params.locale;
   const t = getTranslator(locale);
   const copy = t<WuduGhuslCopy>("pages.wuduGhusl");
-  const { wuduSteps, ghuslSteps, wuduBreaks, ghuslNeeded, commonCorrections } =
-    getWuduGhuslContent(locale);
+  const {
+    wuduSteps,
+    ghuslSteps,
+    wuduBreaks,
+    ghuslNeeded,
+    commonCorrections,
+    wuduVideo,
+    ghuslVideo,
+  } = getWuduGhuslContent(locale);
   const sources = getSourcesByIds(sourceIds, locale);
 
   return (
@@ -194,6 +205,12 @@ export default function WuduGhuslPage({
             </p>
           </div>
           <StepGrid steps={wuduSteps} stepLabel={copy.stepLabel} />
+          <div className="mt-8 max-w-2xl">
+            <h3 className="mb-3 mt-0 text-lg font-semibold text-textPrimary">
+              {copy.watchTitle}
+            </h3>
+            <VideoEmbed {...wuduVideo} />
+          </div>
         </section>
       </AnimateIn>
 
@@ -211,6 +228,12 @@ export default function WuduGhuslPage({
             </p>
           </div>
           <StepGrid steps={ghuslSteps} stepLabel={copy.stepLabel} />
+          <div className="mt-8 max-w-2xl">
+            <h3 className="mb-3 mt-0 text-lg font-semibold text-textPrimary">
+              {copy.watchTitle}
+            </h3>
+            <VideoEmbed {...ghuslVideo} />
+          </div>
         </section>
       </AnimateIn>
 
