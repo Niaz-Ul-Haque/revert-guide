@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { Breadcrumb } from "@/components/Breadcrumb";
 import { AnimateIn } from "@/components/AnimateIn";
 import {
@@ -7,6 +8,7 @@ import {
   type Messages,
 } from "@/lib/i18n";
 import { getPageMetadata } from "@/lib/metadata";
+import { CONTACT_EMAIL } from "@/lib/site";
 
 export function generateMetadata({ params }: { params: { locale: Locale } }) {
   return getPageMetadata(params.locale, "accessibility", "/accessibility");
@@ -123,7 +125,24 @@ export default function AccessibilityPage({
             {copy.feedbackTitle}
           </h2>
           <p className="text-base leading-relaxed text-textSecondary">
-            {copy.feedback}
+            {copy.feedbackBody}
+          </p>
+          <p className="mt-3 flex flex-wrap items-center gap-x-4 gap-y-1 text-base">
+            <Link
+              href={localizeHref(locale, "/get-help")}
+              className="inline-flex min-h-[44px] items-center font-medium text-primary hover:text-primaryHover"
+            >
+              {copy.contactLinks.getHelpLabel}
+            </Link>
+            <span className="inline-flex min-h-[44px] items-center gap-1 text-textSecondary">
+              {copy.contactLinks.emailLabel}{" "}
+              <a
+                href={`mailto:${CONTACT_EMAIL}`}
+                className="font-medium text-primary hover:text-primaryHover"
+              >
+                {CONTACT_EMAIL}
+              </a>
+            </span>
           </p>
         </section>
       </AnimateIn>

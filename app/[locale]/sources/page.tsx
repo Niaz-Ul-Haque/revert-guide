@@ -13,6 +13,7 @@ import {
   type Messages,
 } from "@/lib/i18n";
 import { getPageMetadata } from "@/lib/metadata";
+import { CONTACT_EMAIL } from "@/lib/site";
 
 const sourceLinkHrefs: Record<string, string[]> = {
   "quran-refs": [
@@ -185,7 +186,25 @@ export default function SourcesPage({
 
         <AnimateIn>
           <section aria-labelledby="closing">
-            <p className="text-sm text-textMuted">
+            <p className="mb-0 text-sm text-textMuted">{copy.closingContact}</p>
+            <p className="mt-3 flex flex-wrap items-center gap-x-4 gap-y-1 text-base">
+              <Link
+                href={href("/get-help")}
+                className="inline-flex min-h-[44px] items-center font-medium text-primary hover:text-primaryHover"
+              >
+                {copy.contactLinks.getHelpLabel}
+              </Link>
+              <span className="inline-flex min-h-[44px] items-center gap-1 text-textSecondary">
+                {copy.contactLinks.emailLabel}{" "}
+                <a
+                  href={`mailto:${CONTACT_EMAIL}`}
+                  className="font-medium text-primary hover:text-primaryHover"
+                >
+                  {CONTACT_EMAIL}
+                </a>
+              </span>
+            </p>
+            <p className="mt-4 text-sm text-textMuted">
               A source tag does not mean that organisation endorses Revert
               Guide. It shows where we looked for supporting information and
               where you can keep reading.
@@ -251,7 +270,24 @@ export default function SourcesPage({
 
       <AnimateIn>
         <section aria-labelledby="closing">
-          <p className="text-sm text-textMuted">{copy.closing}</p>
+          <p className="mb-0 text-sm text-textMuted">{copy.closingContact}</p>
+          <p className="mt-3 flex flex-wrap items-center gap-x-4 gap-y-1 text-base">
+            <Link
+              href={href("/get-help")}
+              className="inline-flex min-h-[44px] items-center font-medium text-primary hover:text-primaryHover"
+            >
+              {copy.contactLinks.getHelpLabel}
+            </Link>
+            <span className="inline-flex min-h-[44px] items-center gap-1 text-textSecondary">
+              {copy.contactLinks.emailLabel}{" "}
+              <a
+                href={`mailto:${CONTACT_EMAIL}`}
+                className="font-medium text-primary hover:text-primaryHover"
+              >
+                {CONTACT_EMAIL}
+              </a>
+            </span>
+          </p>
         </section>
       </AnimateIn>
     </div>

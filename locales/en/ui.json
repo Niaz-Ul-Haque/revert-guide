@@ -390,7 +390,11 @@
       "limitationsTitle": "Known limitations",
       "limitations": "The map and address search on the Find a Masjid page depend on third-party mapping services, and those may not work fully in every screen reader or keyboard workflow. All the location details, filters, and directions links also appear in the text results list on the same page, which is fully accessible.",
       "feedbackTitle": "Feedback",
-      "feedback": "If you hit an accessibility barrier while using Revert Guide, tell us. Use the feedback options in the app to report it, and we will work on it.",
+      "feedbackBody": "If you hit an accessibility barrier while using Revert Guide, please tell us through the Get help page or by email, and we will work on it.",
+      "contactLinks": {
+        "getHelpLabel": "Go to the Get help page",
+        "emailLabel": "Or email us:"
+      },
       "lastUpdatedTitle": "Last updated",
       "lastUpdated": "This accessibility statement was last reviewed in March 2026."
     },
@@ -520,10 +524,14 @@
           "id": "contact",
           "title": "Contact",
           "paragraphs": [
-            "For questions about this privacy policy, use the feedback options in the app."
+            "For questions about this policy, or to ask us to delete a help request, contact us through the Get help page or by email."
           ]
         }
-      ]
+      ],
+      "contactLinks": {
+        "getHelpLabel": "Go to the Get help page",
+        "emailLabel": "Or email us:"
+      }
     },
     "terms": {
       "title": "Terms of use",
@@ -691,7 +699,11 @@
           ]
         }
       ],
-      "closing": "If you have a question about any of these references, or want to suggest one we missed, use the feedback options in the app."
+      "closingContact": "If you have a question about any of these references, or want to suggest one we missed, contact us through the Get help page or by email.",
+      "contactLinks": {
+        "getHelpLabel": "Go to the Get help page",
+        "emailLabel": "Or email us:"
+      }
     },
     "roadmap": {
       "badge": "Your path forward",
