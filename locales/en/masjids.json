@@ -2422,5 +2422,688 @@
       "masjid-windsor-islamic-association-programme"
     ],
     "reviewStatus": "source-checked"
+  },
+  {
+    "id": "islamic-center-of-west-island-dollard-des-ormeaux",
+    "name": "Islamic Center of West Island (ICWI)",
+    "address": "31 Rue Montrose",
+    "city": "Dollard-des-Ormeaux",
+    "stateProvince": "Quebec",
+    "country": "Canada",
+    "postalCode": "H9B 2J5",
+    "website": "https://icwestisland.com/",
+    "notes": "Area: West Island. Also known as Centre Islamique du West Island.",
+    "sourceIds": ["masjid-islamic-center-of-west-island-dollard-des-ormeaux"],
+    "reviewStatus": "review-needed"
+  },
+  {
+    "id": "centre-islamique-de-l-outaouais-la-mosquee-de-gatineau",
+    "name": "Centre Islamique de l'Outaouais (CIO) - La Mosquée de Gatineau",
+    "address": "4 Rue Lois",
+    "city": "Gatineau",
+    "stateProvince": "Quebec",
+    "country": "Canada",
+    "postalCode": "J8Y 3R1",
+    "coordinates": {
+      "lat": 45.4290273,
+      "lng": -75.7321103
+    },
+    "coordinatesPrecision": "street",
+    "phone": "(819) 776-1831",
+    "email": "info@cio-oic.ca",
+    "website": "https://cio-oic.ca/",
+    "notes": "Area: Hull. Also known as Outaouais Islamic Centre; Mosquée de Gatineau. The official site showed a domain expiry notice in September 2026. Phone ahead if the site does not load.",
+    "jumuahNote": "Two Jumu'ahs (from 11 February of an unstated year); times are only in an image on https://cio-oic.ca/horaire-des-jumuahs/.",
+    "sourceIds": [
+      "masjid-centre-islamique-de-l-outaouais-la-mosquee-de-gatineau"
+    ],
+    "reviewStatus": "review-needed"
+  },
+  {
+    "id": "masjid-meriam-gatineau",
+    "name": "Masjid Meriam (Centre Islamique de l'Outaouais)",
+    "address": "355 Notre Dame",
+    "city": "Gatineau",
+    "stateProvince": "Quebec",
+    "country": "Canada",
+    "postalCode": "J8P 1L4",
+    "coordinates": {
+      "lat": 45.4521661,
+      "lng": -75.7303632
+    },
+    "coordinatesPrecision": "city-centre",
+    "phone": "(819) 776-1831",
+    "email": "info@cio-oic.ca",
+    "website": "https://cio-oic.ca/masjid-meriam/",
+    "notes": "Area: Gatineau sector. Also known as Mosquée Mariam; CIOIC - Meriam.",
+    "visitorNotes": "Languages: CIO site is mainly French; some announcements are bilingual French and English.",
+    "sourceIds": ["masjid-masjid-meriam-gatineau"],
+    "reviewStatus": "review-needed"
+  },
+  {
+    "id": "the-mosque-of-aylmer-gatineau",
+    "name": "The Mosque of Aylmer (La Mosquée d'Aylmer)",
+    "address": "21 Rue Park",
+    "city": "Gatineau",
+    "stateProvince": "Quebec",
+    "country": "Canada",
+    "postalCode": "J9H 3M2",
+    "coordinates": {
+      "lat": 45.3955671,
+      "lng": -75.8448069
+    },
+    "coordinatesPrecision": "street",
+    "email": "info@mosque-aylmer.ca",
+    "website": "https://www.mosque-aylmer.ca/",
+    "notes": "Area: Aylmer.",
+    "visitorNotes": "Site content is bilingual English and French; khutbah language not stated.",
+    "womenSpaceNote": "Services page lists \"Women's Programs\": \"Dedicated gatherings, study groups, and activities ... for women\"; prayer-space layout not described.",
+    "jumuahNote": "\"Weekly khutbah delivered by qualified speakers\"; times not published.",
+    "sourceIds": ["masjid-the-mosque-of-aylmer-gatineau"],
+    "reviewStatus": "review-needed"
+  },
+  {
+    "id": "association-islamique-al-ihssane-de-laval",
+    "name": "Association Islamique Al-Ihssane de Laval (Masjid Al-Itissam)",
+    "address": "600, boul. des Laurentides",
+    "city": "Laval",
+    "stateProvince": "Quebec",
+    "country": "Canada",
+    "postalCode": "H7G 2V5",
+    "coordinates": {
+      "lat": 45.5720444,
+      "lng": -73.6940649
+    },
+    "coordinatesPrecision": "street",
+    "phone": "(450) 668-4381",
+    "email": "info@al-itissam.org",
+    "website": "http://al-itissam.org",
+    "notes": "Area: Pont-Viau. Also known as AIIL; Mosquée Al-Itissam.",
+    "sourceIds": ["masjid-association-islamique-al-ihssane-de-laval"],
+    "reviewStatus": "review-needed"
+  },
+  {
+    "id": "centre-al-iman-laval",
+    "name": "Centre Al-Iman (Centre Culturel et Voix des Anges)",
+    "address": "5050-5080 Boulevard des Laurentides",
+    "city": "Laval",
+    "stateProvince": "Quebec",
+    "country": "Canada",
+    "postalCode": "H7K 2J5",
+    "coordinates": {
+      "lat": 45.620459,
+      "lng": -73.7455337
+    },
+    "coordinatesPrecision": "street",
+    "phone": "(579) 279-9911",
+    "email": "centrealiman@gmail.com",
+    "website": "https://centrealiman.ca/",
+    "notes": "Area: Auteuil. Also known as CCVA.",
+    "sourceIds": ["masjid-centre-al-iman-laval"],
+    "reviewStatus": "review-needed"
+  },
+  {
+    "id": "centre-communautaire-musulman-iqra-laval",
+    "name": "Centre Communautaire Musulman IQRA",
+    "address": "960 Bd du Curé-Labelle",
+    "city": "Laval",
+    "stateProvince": "Quebec",
+    "country": "Canada",
+    "postalCode": "H7V 2V5",
+    "coordinates": {
+      "lat": 45.5371143,
+      "lng": -73.7315471
+    },
+    "coordinatesPrecision": "city-centre",
+    "phone": "(450) 241-0646",
+    "email": "info@centreIQRA.org",
+    "website": "http://www.centreiqra.org",
+    "notes": "Area: Chomedey. Also known as Centre IQRA.",
+    "serviceIds": ["quran-classes", "youth-programs"],
+    "sourceIds": ["masjid-centre-communautaire-musulman-iqra-laval"],
+    "reviewStatus": "review-needed"
+  },
+  {
+    "id": "centre-communautaire-musulman-de-longueuil",
+    "name": "Centre Communautaire Musulman de Longueuil (CCML)",
+    "address": "1398, chemin Chambly",
+    "city": "Longueuil",
+    "stateProvince": "Quebec",
+    "country": "Canada",
+    "postalCode": "J4J 3X3",
+    "coordinates": {
+      "lat": 45.5314036,
+      "lng": -73.4867344
+    },
+    "coordinatesPrecision": "street",
+    "phone": "(450) 321-1225",
+    "email": "infoccmlongueuil@gmail.com",
+    "website": "https://ccmlongueuil.ca/",
+    "sourceIds": ["masjid-centre-communautaire-musulman-de-longueuil"],
+    "reviewStatus": "source-checked"
+  },
+  {
+    "id": "aisha-islamic-center-montreal",
+    "name": "Aisha Islamic Center Montreal",
+    "address": "425 Aqueduc Street",
+    "city": "Montreal",
+    "stateProvince": "Quebec",
+    "country": "Canada",
+    "postalCode": "H3C 4J8",
+    "coordinates": {
+      "lat": 45.4921021,
+      "lng": -73.5648084
+    },
+    "coordinatesPrecision": "street",
+    "phone": "(514) 360-3133",
+    "email": "admin@aishaic.org",
+    "website": "https://aishaic.org/",
+    "notes": "Area: Griffintown. Also known as AIC.",
+    "sourceIds": ["masjid-aisha-islamic-center-montreal"],
+    "reviewStatus": "review-needed"
+  },
+  {
+    "id": "al-madinah-center-montreal",
+    "name": "Al-Madinah Center",
+    "address": "1260 Rue Mackay",
+    "city": "Montreal",
+    "stateProvince": "Quebec",
+    "country": "Canada",
+    "postalCode": "H3G 2H4",
+    "coordinates": {
+      "lat": 45.495554,
+      "lng": -73.5704458
+    },
+    "coordinatesPrecision": "city-centre",
+    "phone": "(514) 360-3175",
+    "email": "info@almadinah-center.org",
+    "website": "https://almadinah-center.org/en/",
+    "notes": "Area: Downtown. Also known as Centre Al-Madinah.",
+    "visitorNotes": "English services confirmed: (tajweed courses offered \"in both Arabic and English\").",
+    "womenSpaceNote": "Adult Quran halaqat are for \"brothers and sisters\"; prayer space for women not described.",
+    "serviceIds": ["quran-classes"],
+    "sourceIds": ["masjid-al-madinah-center-montreal"],
+    "reviewStatus": "review-needed"
+  },
+  {
+    "id": "assuna-annabawiyah-mosque-montreal",
+    "name": "Assuna Annabawiyah Mosque",
+    "address": "7220 Rue Hutchison",
+    "city": "Montreal",
+    "stateProvince": "Quebec",
+    "country": "Canada",
+    "postalCode": "H3N 1Z1",
+    "coordinates": {
+      "lat": 45.5297107,
+      "lng": -73.6235498
+    },
+    "coordinatesPrecision": "street",
+    "phone": "(514) 278-8441",
+    "email": "assuna.annabawiyah@gmail.com",
+    "website": "https://assuna.org/",
+    "notes": "Area: Parc-Extension. Also known as Mosquée Assuna Annabawiyah; Masjid Assuna.",
+    "visitorNotes": "Languages: site mixes French, English and Arabic; language of services not stated.",
+    "serviceIds": ["weekend-school"],
+    "sourceIds": ["masjid-assuna-annabawiyah-mosque-montreal"],
+    "reviewStatus": "source-checked"
+  },
+  {
+    "id": "canadian-institute-of-islamic-civilization-a-mac-community-centre-montreal",
+    "name": "Canadian Institute of Islamic Civilization (CIIC Montreal), a MAC community centre",
+    "address": "615 Rue Belmont",
+    "city": "Montreal",
+    "stateProvince": "Quebec",
+    "country": "Canada",
+    "postalCode": "H3B 2L8",
+    "coordinates": {
+      "lat": 45.5021169,
+      "lng": -73.5655429
+    },
+    "coordinatesPrecision": "street",
+    "phone": "(514) 508-2444",
+    "email": "manager@ciic.macnet.ca",
+    "website": "https://centres.macnet.ca/theciic/",
+    "notes": "Area: Downtown. Also known as CIIC.",
+    "womenSpaceNote": "Sisters weekly halaqa listed (Fridays 6:30 to 8:00 PM); prayer space not described.",
+    "jumuahNote": "Three Jumuah prayers: 11:45 AM, 12:30 PM, 1:15 PM.",
+    "sourceIds": [
+      "masjid-canadian-institute-of-islamic-civilization-a-mac-community-centre-montreal"
+    ],
+    "reviewStatus": "source-checked"
+  },
+  {
+    "id": "centre-bel-agir-montreal",
+    "name": "Centre Bel Agir",
+    "address": "8390 Rue St-Hubert",
+    "city": "Montreal",
+    "stateProvince": "Quebec",
+    "country": "Canada",
+    "postalCode": "H2P 1Z3",
+    "website": "https://centre-belagir.ca/",
+    "notes": "Area: Villeray and Saint-Michel area. Also known as Bel Agir - Al-Ihsane.",
+    "jumuahNote": "'Prières du Vendredi' are offered; times not given on the homepage.",
+    "sourceIds": ["masjid-centre-bel-agir-montreal"],
+    "reviewStatus": "review-needed"
+  },
+  {
+    "id": "centre-communautaire-fath-montreal",
+    "name": "Centre Communautaire Fath",
+    "address": "11660 boul. Rivière-Des-Prairies",
+    "city": "Montreal",
+    "stateProvince": "Quebec",
+    "country": "Canada",
+    "postalCode": "H1C 1P9",
+    "coordinates": {
+      "lat": 45.6442037,
+      "lng": -73.5144699
+    },
+    "coordinatesPrecision": "city-centre",
+    "phone": "(514) 951-1660",
+    "email": "ccf.rdp@gmail.com",
+    "website": "http://elfath.ca",
+    "notes": "Area: Rivière-des-Prairies. Also known as Mosquée Elfath - RDP.",
+    "parkingNote": "'38 Places de Stationnement' (38 parking spaces).",
+    "parking": true,
+    "sourceIds": ["masjid-centre-communautaire-fath-montreal"],
+    "reviewStatus": "review-needed"
+  },
+  {
+    "id": "centre-communautaire-villeray-mosquee-aboubakr-montreal",
+    "name": "Centre Communautaire Villeray / Mosquée Aboubakr (MAC)",
+    "address": "371 Rue Jean-Talon",
+    "city": "Montreal",
+    "stateProvince": "Quebec",
+    "country": "Canada",
+    "postalCode": "H2R 1T4",
+    "coordinates": {
+      "lat": 45.5381025,
+      "lng": -73.6148777
+    },
+    "coordinatesPrecision": "street",
+    "phone": "(514) 506-8899",
+    "email": "info@ccvmac.ca",
+    "website": "https://centres.macnet.ca/ccv/fr/",
+    "notes": "Area: Villeray. Also known as CCV.",
+    "jumuahNote": "Jumuah '12:00 pm | 1:00 pm'.",
+    "serviceIds": ["quran-classes"],
+    "sourceIds": [
+      "masjid-centre-communautaire-villeray-mosquee-aboubakr-montreal"
+    ],
+    "reviewStatus": "review-needed"
+  },
+  {
+    "id": "centre-islamique-de-verdun-montreal",
+    "name": "Centre Islamique de Verdun (MAC)",
+    "address": "4538 Rue de Verdun, Verdun",
+    "city": "Montreal",
+    "stateProvince": "Quebec",
+    "country": "Canada",
+    "postalCode": "H4G 1M3",
+    "coordinates": {
+      "lat": 45.4589929,
+      "lng": -73.571548
+    },
+    "coordinatesPrecision": "street",
+    "phone": "(514) 508-9419",
+    "email": "info@civmac.ca",
+    "website": "https://centres.macnet.ca/civ/fr/",
+    "notes": "Area: Verdun. Also known as CIV.",
+    "womenSpaceNote": "Events for women and girls are mentioned (for example 'Iftar spécial pour les filles, leurs mères et les enseignantes'); prayer space not described.",
+    "jumuahNote": "Jumuah 12:00 PM and 1:15 PM.",
+    "newMuslimSupportNote": "The programmes page lists new convert groups for women (Nouvelles converties) and for men (Nouveaux convertis). No schedule is given.",
+    "serviceIds": ["new-muslim-support", "quran-classes"],
+    "convertSupport": true,
+    "sourceIds": [
+      "masjid-centre-islamique-de-verdun-montreal",
+      "masjid-centre-islamique-de-verdun-montreal-programme"
+    ],
+    "reviewStatus": "source-checked"
+  },
+  {
+    "id": "islamic-centre-of-quebec-montreal",
+    "name": "Islamic Centre of Quebec (ICQ)",
+    "address": "2520 Laval Road, St. Laurent",
+    "city": "Montreal",
+    "stateProvince": "Quebec",
+    "country": "Canada",
+    "postalCode": "H4L 3A1",
+    "coordinates": {
+      "lat": 45.5231571,
+      "lng": -73.7027145
+    },
+    "coordinatesPrecision": "street",
+    "phone": "(514) 331-1770",
+    "email": "info@icqmontreal.com",
+    "website": "https://icqmontreal.com/",
+    "notes": "Area: Saint-Laurent. Also known as Centre Islamique du Québec.",
+    "visitorNotes": "English services confirmed:.",
+    "jumuahNote": "Homepage: 'Jumu'ah 1 (13:30) - Jumu'ah 2 (14:30)'; 'Translation will be 15 minutes before Khutabh.' Language of the translation is not stated.",
+    "parkingNote": "Parking lot on the property.",
+    "serviceIds": ["quran-classes"],
+    "parking": true,
+    "sourceIds": ["masjid-islamic-centre-of-quebec-montreal"],
+    "reviewStatus": "review-needed"
+  },
+  {
+    "id": "masjid-makkah-al-mukarramah-montreal",
+    "name": "Masjid Makkah Al-Mukarramah",
+    "address": "11900 Gouin Ouest, Pierrefonds-Roxboro",
+    "city": "Montreal",
+    "stateProvince": "Quebec",
+    "country": "Canada",
+    "postalCode": "H8Z 1V6",
+    "phone": "(514) 421-1455",
+    "email": "info@masjidmakkah.com",
+    "website": "https://masjidmakkah.com/",
+    "notes": "Area: Pierrefonds-Roxboro, West Island. Also known as Makkah-al-Mukarramah Mosque; Masjid Makkah.",
+    "visitorNotes": "Languages: weekly dars sessions are in Urdu; site is in English.",
+    "womenSpaceNote": "\"We hold a Women's Halaqa Every Saturday after Zuhur Salah\"; prayer space for women not described.",
+    "sourceIds": ["masjid-masjid-makkah-al-mukarramah-montreal"],
+    "reviewStatus": "source-checked"
+  },
+  {
+    "id": "mosquee-al-rawdah-montreal",
+    "name": "Mosquée Al-Rawdah (MAC)",
+    "address": "12253 Boul. Laurentien",
+    "city": "Montreal",
+    "stateProvince": "Quebec",
+    "country": "Canada",
+    "postalCode": "H4K 1N5",
+    "coordinates": {
+      "lat": 45.5293795,
+      "lng": -73.7222594
+    },
+    "coordinatesPrecision": "street",
+    "phone": "(514) 227-5000",
+    "email": "info@alrawdah.ca",
+    "website": "https://centres.macnet.ca/alrawdah/",
+    "notes": "Area: Cartierville. Also known as Centre Communautaire Laurentien next door at 12265 Boul; Laurentien, same phone.",
+    "jumuahNote": "Jumuah 12:00 PM and 1:00 PM.",
+    "serviceIds": ["quran-classes", "youth-programs"],
+    "sourceIds": ["masjid-mosquee-al-rawdah-montreal"],
+    "reviewStatus": "source-checked"
+  },
+  {
+    "id": "muslim-community-of-quebec-montreal",
+    "name": "Muslim Community of Quebec (MCQ)",
+    "address": "7445 Chester Ave",
+    "city": "Montreal",
+    "stateProvince": "Quebec",
+    "country": "Canada",
+    "postalCode": "H4V 1M4",
+    "coordinates": {
+      "lat": 45.4595518,
+      "lng": -73.6545599
+    },
+    "coordinatesPrecision": "street",
+    "phone": "(514) 484-2967",
+    "email": "info@MuslimCommunityofQuebec.ca",
+    "website": "https://www.muslimcommunityofquebec.ca",
+    "notes": "Area: Notre-Dame-de-Grâce.",
+    "womenSpaceNote": "Programs page lists 'Women's Support and Empowerment Programs'; prayer space not described.",
+    "jumuahNote": "Programs page lists 'Friday prayer (Salatul Jummah)'; times are not shown on the prayer-time page.",
+    "sourceIds": ["masjid-muslim-community-of-quebec-montreal"],
+    "reviewStatus": "source-checked"
+  },
+  {
+    "id": "centre-communautaire-de-quebec-quebec-city",
+    "name": "Centre Communautaire de Québec (Muslim Association of Canada)",
+    "address": "363 rue de la Couronne, suite 301-302",
+    "city": "Quebec City",
+    "stateProvince": "Quebec",
+    "country": "Canada",
+    "postalCode": "G1K 6E9",
+    "coordinates": {
+      "lat": 46.8147569,
+      "lng": -71.2248827
+    },
+    "coordinatesPrecision": "street",
+    "phone": "(418) 261-6652",
+    "email": "info@mac-quebec.org",
+    "website": "https://centres.macnet.ca/mac-quebec/",
+    "notes": "Area: Saint-Roch. Also known as MAC Québec; Masjid Al-Rahma.",
+    "jumuahNote": "Homepage shows two conflicting Jumuah blocks: 12:15 and 12:45 PM, and 12:00 and 12:45 PM.",
+    "sourceIds": ["masjid-centre-communautaire-de-quebec-quebec-city"],
+    "reviewStatus": "source-checked"
+  },
+  {
+    "id": "centre-culturel-islamique-luqman-de-quebec-quebec-city",
+    "name": "Centre Culturel Islamique Luqman de Québec (CCILQ)",
+    "address": "5485 Boulevard de L'Ormière",
+    "city": "Quebec City",
+    "stateProvince": "Quebec",
+    "country": "Canada",
+    "postalCode": "G1P 1K6",
+    "coordinates": {
+      "lat": 46.8196566,
+      "lng": -71.3332319
+    },
+    "coordinatesPrecision": "street",
+    "phone": "(581) 999-8454",
+    "email": "centreculturelluqman@gmail.com",
+    "website": "https://ccilq.com/",
+    "notes": "Area: Les Saules. Also known as Centre Luqman.",
+    "jumuahNote": "Prayer times via a Mawaqit link on the site.",
+    "sourceIds": [
+      "masjid-centre-culturel-islamique-luqman-de-quebec-quebec-city"
+    ],
+    "reviewStatus": "source-checked"
+  },
+  {
+    "id": "centre-culturel-islamique-de-quebec-grande-mosquee-de-quebec-quebec-city",
+    "name": "Centre Culturel Islamique de Québec (CCIQ) - Grande Mosquée de Québec",
+    "address": "2877 chemin Sainte-Foy",
+    "city": "Quebec City",
+    "stateProvince": "Quebec",
+    "country": "Canada",
+    "postalCode": "G1V 1W3",
+    "coordinates": {
+      "lat": 46.7779515,
+      "lng": -71.3053718
+    },
+    "coordinatesPrecision": "street",
+    "phone": "(418) 683-1329",
+    "website": "https://cciq.org/",
+    "notes": "Area: Sainte-Foy. Also known as CCIQ; GMQ; CCIQ also runs Mosquée Annour and prayer places in Charlesbourg and Portneuf.",
+    "womenSpaceNote": "Conseil de la femme musulmane de Québec (CFMQ) is listed as a CCIQ entity and women's activities are listed; prayer space not described.",
+    "jumuahNote": "Friday prayer offered ('Prières quotidiennes et la prière de vendredi'); times via mosqueprayertimes.com/cciq.",
+    "sourceIds": [
+      "masjid-centre-culturel-islamique-de-quebec-grande-mosquee-de-quebec-quebec-city"
+    ],
+    "reviewStatus": "review-needed"
+  },
+  {
+    "id": "mosquee-de-la-capitale-quebec-city",
+    "name": "Mosquée de la Capitale",
+    "address": "270, Marie de l'Incarnation",
+    "city": "Quebec City",
+    "stateProvince": "Quebec",
+    "country": "Canada",
+    "postalCode": "G1N 3G4",
+    "coordinates": {
+      "lat": 46.8118011,
+      "lng": -71.2634948
+    },
+    "coordinatesPrecision": "city-centre",
+    "phone": "(418) 914-2025",
+    "email": "info@mosqueedelacapitale.com",
+    "website": "https://www.mosqueedelacapitale.com",
+    "notes": "Area: Vanier. Also known as Association Mosquée de la Capitale.",
+    "sourceIds": ["masjid-mosquee-de-la-capitale-quebec-city"],
+    "reviewStatus": "review-needed"
+  },
+  {
+    "id": "centre-culturel-islamique-de-lanaudiere-repentigny",
+    "name": "Centre Culturel Islamique de Lanaudière (CCIL)",
+    "address": "589 rue Leclerc",
+    "city": "Repentigny",
+    "stateProvince": "Quebec",
+    "country": "Canada",
+    "postalCode": "J6A 7N3",
+    "coordinates": {
+      "lat": 45.7507717,
+      "lng": -73.4473134
+    },
+    "coordinatesPrecision": "street",
+    "phone": "(450) 932-3932",
+    "email": "info@ccilanaudiere.org",
+    "website": "https://ccilanaudiere.org/",
+    "notes": "Area: Lanaudière. Also known as Masjid Atassamouh.",
+    "jumuahNote": "Homepage: \"Jumu'ah 1ère 12:00 2ème 13:00\".",
+    "sourceIds": ["masjid-centre-culturel-islamique-de-lanaudiere-repentigny"],
+    "reviewStatus": "source-checked"
+  },
+  {
+    "id": "association-islamique-du-saguenay-lac-st-jean",
+    "name": "Association Islamique du Saguenay Lac St-Jean (AISLSJ)",
+    "address": "555 rue Bégin, Chicoutimi",
+    "city": "Saguenay",
+    "stateProvince": "Quebec",
+    "country": "Canada",
+    "postalCode": "G7H 4N7",
+    "coordinates": {
+      "lat": 48.4217569,
+      "lng": -71.0588536
+    },
+    "coordinatesPrecision": "street",
+    "email": "info@aislsj.com",
+    "website": "https://www.aislsj.com/",
+    "notes": "Area: Chicoutimi. Also known as Mosquée Chicoutimi.",
+    "visitorNotes": "Languages: site is in French with English and Arabic language switches; language of services not stated.",
+    "sourceIds": ["masjid-association-islamique-du-saguenay-lac-st-jean"],
+    "reviewStatus": "source-checked"
+  },
+  {
+    "id": "centre-islamique-maskoutain-saint-hyacinthe",
+    "name": "Centre Islamique Maskoutain (CIM)",
+    "address": "2340 Av. Saint-Joseph",
+    "city": "Saint-Hyacinthe",
+    "stateProvince": "Quebec",
+    "country": "Canada",
+    "postalCode": "J2S 5L5",
+    "coordinates": {
+      "lat": 45.6294351,
+      "lng": -72.9556869
+    },
+    "coordinatesPrecision": "street",
+    "email": "info@cimaskoutain.com",
+    "website": "https://cimaskoutain.com/",
+    "jumuahNote": "Homepage: \"il y'a deux prières de Jumu'a: la première débute à 12h10 et la deuxième à 12h45.\".",
+    "sourceIds": ["masjid-centre-islamique-maskoutain-saint-hyacinthe"],
+    "reviewStatus": "source-checked"
+  },
+  {
+    "id": "centre-rayan-sainte-therese",
+    "name": "Centre Rayan",
+    "address": "110 Boulevard du Curé-Labelle, local 9",
+    "city": "Sainte-Thérèse",
+    "stateProvince": "Quebec",
+    "country": "Canada",
+    "postalCode": "J7E 2X5",
+    "coordinates": {
+      "lat": 45.763989,
+      "lng": -73.9896929
+    },
+    "coordinatesPrecision": "city-centre",
+    "phone": "(514) 770-1001",
+    "email": "info@centrerayan.ca",
+    "website": "https://centrerayan.ca/",
+    "notes": "Area: Basses-Laurentides. Also known as Mosque Rayane.",
+    "sourceIds": ["masjid-centre-rayan-sainte-therese"],
+    "reviewStatus": "source-checked"
+  },
+  {
+    "id": "association-culturelle-islamique-de-l-estrie-mosquee-a-rahmane-sherbrooke",
+    "name": "Association Culturelle Islamique de l'Estrie (ACIE) - Mosquée A'Rahmane",
+    "address": "1200, rue Massé",
+    "city": "Sherbrooke",
+    "stateProvince": "Quebec",
+    "country": "Canada",
+    "postalCode": "J1H 5X2",
+    "coordinates": {
+      "lat": 45.3860992,
+      "lng": -71.9059635
+    },
+    "coordinatesPrecision": "street",
+    "phone": "(819) 820-1566",
+    "email": "contact@acie.ca",
+    "website": "https://acie.ca/",
+    "notes": "Also known as ACIE; also runs Centre Horizon at 1239 Rue Denault.",
+    "jumuahNote": "Two groups: '12h15 et 13h00'.",
+    "parkingNote": "Asks visitors: 'Merci de ne pas utiliser les stationnements privés de notre voisinage' (please do not use the neighbours' private parking).",
+    "sourceIds": [
+      "masjid-association-culturelle-islamique-de-l-estrie-mosquee-a-rahmane-sherbrooke"
+    ],
+    "reviewStatus": "source-checked"
+  },
+  {
+    "id": "centre-culturel-islamique-de-sherbrooke-mosquee-annour",
+    "name": "Centre Culturel Islamique de Sherbrooke (CCIS) - Mosquée Annour",
+    "address": "3232 Rue Richard",
+    "city": "Sherbrooke",
+    "stateProvince": "Quebec",
+    "country": "Canada",
+    "postalCode": "J1L 1Y2",
+    "coordinates": {
+      "lat": 45.4100605,
+      "lng": -71.9483501
+    },
+    "coordinatesPrecision": "street",
+    "phone": "(819) 481-1548",
+    "email": "contact@ccis-annour.ca",
+    "website": "https://www.ccis-annour.ca/",
+    "notes": "Also known as CCIS Annour.",
+    "sourceIds": [
+      "masjid-centre-culturel-islamique-de-sherbrooke-mosquee-annour"
+    ],
+    "reviewStatus": "source-checked"
+  },
+  {
+    "id": "centre-culturel-islamique-de-la-mauricie-trois-rivieres",
+    "name": "Centre Culturel Islamique de la Mauricie (CCIM)",
+    "address": "5375 Rue St Joseph",
+    "city": "Trois-Rivières",
+    "stateProvince": "Quebec",
+    "country": "Canada",
+    "postalCode": "G8Z 4M5",
+    "coordinates": {
+      "lat": 46.3331809,
+      "lng": -72.5867612
+    },
+    "coordinatesPrecision": "street",
+    "website": "https://ccim3r.ca/",
+    "notes": "Also known as Islamic Cultural Center of Mauricie.",
+    "newMuslimSupportNote": "The services page offers an appointment with a CCIM representative if you want to embrace Islam, and an official conversion certificate. It promises to answer your questions in confidence. It is not an ongoing class.",
+    "serviceIds": ["new-muslim-support"],
+    "convertSupport": true,
+    "sourceIds": [
+      "masjid-centre-culturel-islamique-de-la-mauricie-trois-rivieres",
+      "masjid-centre-culturel-islamique-de-la-mauricie-trois-rivieres-programme"
+    ],
+    "reviewStatus": "review-needed"
+  },
+  {
+    "id": "vaudreuil-islamic-community-centre-masjid-attakwa-vaudreuil-dorion",
+    "name": "Vaudreuil Islamic Community Centre - Masjid Attakwa",
+    "address": "2400 St Antoine",
+    "city": "Vaudreuil-Dorion",
+    "stateProvince": "Quebec",
+    "country": "Canada",
+    "postalCode": "J7V 8P2",
+    "coordinates": {
+      "lat": 45.3660198,
+      "lng": -74.0356083
+    },
+    "coordinatesPrecision": "street",
+    "phone": "(888) 968-9868",
+    "email": "info-iccvs@islamvaudreuil.ca",
+    "website": "https://www.islamvaudreuil.ca/",
+    "notes": "Also known as Centre Culturel Islamique de Vaudreuil Soulanges; ICCVS.",
+    "jumuahNote": "Services page lists \"Jumu'ah (Friday prayer)\"; time not stated.",
+    "serviceIds": ["quran-classes", "weekend-school", "youth-programs"],
+    "sourceIds": [
+      "masjid-vaudreuil-islamic-community-centre-masjid-attakwa-vaudreuil-dorion"
+    ],
+    "reviewStatus": "source-checked"
   }
 ]
