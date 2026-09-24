@@ -307,5 +307,100 @@
       "seekersguidance-sajda-sahw",
       "newmuslims-prostration-forgetfulness"
     ]
+  },
+  "prayerTable": {
+    "rows": [
+      {
+        "name": "Dawn prayer (Fajr)",
+        "window": "From the first light of dawn until sunrise.",
+        "units": "2"
+      },
+      {
+        "name": "Midday prayer (Dhuhr)",
+        "window": "From just after midday, once the sun has passed its highest point, until Asr begins.",
+        "units": "4"
+      },
+      {
+        "name": "Afternoon prayer (Asr)",
+        "window": "From mid-afternoon until sunset. Try not to leave it until the sun turns yellow.",
+        "units": "4"
+      },
+      {
+        "name": "Sunset prayer (Maghrib)",
+        "window": "From just after sunset until the twilight has gone.",
+        "units": "3"
+      },
+      {
+        "name": "Night prayer (Isha)",
+        "window": "From when the twilight has gone until the middle of the night.",
+        "units": "4"
+      }
+    ],
+    "note": "You can pray any time inside a window, so you do not need to be exact to the minute. Schools differ on when Asr begins (the Hanafi start is later) and on the latest time for Isha. In summer, much of Canada uses adjusted rules for Fajr and Isha, so use the prayer times page or your local masjid's timetable.",
+    "sourceIds": [
+      "sunnah-muslim-prayer-times",
+      "quran-4-103-appointed-times",
+      "newmuslims-prayer-for-beginners"
+    ],
+    "image": {
+      "src": "/graphics/prayer-day-timeline.svg",
+      "alt": "A timeline of one day from dawn to night with the five prayers marked in order: Fajr at dawn, Dhuhr after midday, Asr in the afternoon, Maghrib after sunset and Isha at night, each with its number of rak'ahs.",
+      "caption": "The five prayers across one day. Exact times change daily with the sun.",
+      "credit": "Illustration: Revert Guide."
+    }
+  },
+  "notOwed": {
+    "text": "Prayers from the years before you became Muslim are not something you owe. The Prophet said that Islam wipes out what came before it, so you start from today. Some scholars add that a convert who did not yet know prayer was an obligation is not held to make up that time either. If you are unsure how this applies to you, ask a teacher.",
+    "sourceIds": [
+      "sunnah-muslim-islam-wipes-out",
+      "seekersguidance-converts-missed-prayers"
+    ]
+  },
+  "seatedPrayer": {
+    "summary": "If pain, illness or disability makes standing, bowing or prostrating hard, pray in the way your body allows. The Prophet told a companion who was ill to pray standing, and if he could not, sitting, and if he could not, lying on his side.",
+    "points": [
+      "If you cannot stand, or standing brings real pain or dizziness, pray sitting. You can sit on the floor, or on a chair if the floor is hard for you.",
+      "If you can still prostrate, the Hanafi answer we link prefers sitting on the floor and prostrating normally. If you cannot, lower your head instead: a little for bowing and a little further for prostration.",
+      "If you cannot sit, pray lying down, facing the qibla as best you can.",
+      "Short illnesses and long-term conditions are treated a little differently, and the schools differ on details such as how a chair user bows and where the chair goes in a row."
+    ],
+    "referral": "A local imam or teacher can watch you pray once and help you settle on what works for your body. You never need to push through pain to make your prayer count.",
+    "sourceIds": [
+      "sunnah-bukhari-pray-standing-sitting",
+      "seekersguidance-praying-sitting",
+      "seekersguidance-sick-person-prayer"
+    ],
+    "video": {
+      "videoId": "3geUbODPg5U",
+      "title": "How to pray with a physical disability",
+      "channel": "Green Lane Masjid",
+      "duration": "6:06",
+      "note": "Shows praying on the floor, on a chair, standing without bowing, and lying in bed.",
+      "sourceIds": ["video-greenlane-physical-disability"],
+      "chapters": [
+        {
+          "label": "Sitting on the floor",
+          "start": 66
+        },
+        {
+          "label": "On a chair",
+          "start": 171
+        },
+        {
+          "label": "Unable to bow",
+          "start": 215
+        },
+        {
+          "label": "Lying in bed",
+          "start": 279
+        }
+      ]
+    },
+    "extraLink": {
+      "label": "How to pray sitting in a chair (Sheikh Assim al-Hakeem, 3:25)",
+      "body": "A short second demonstration, including praying on a chair in a masjid row.",
+      "href": "https://www.youtube.com/watch?v=nNKUwHi99Qo",
+      "sourceIds": ["video-assim-chair-prayer"]
+    }
   }
 }

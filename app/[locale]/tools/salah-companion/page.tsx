@@ -48,6 +48,13 @@ interface SalahCompanionCopy {
   placementTitle: string;
   placementBody: string;
   sahwTitle: string;
+  tableTitle: string;
+  tableCaption: string;
+  tablePrayer: string;
+  tableWindow: string;
+  tableUnits: string;
+  notOwedTitle: string;
+  seatedTitle: string;
 }
 
 const pageSourceIds = [
@@ -76,6 +83,16 @@ const pageSourceIds = [
   "sunnah-bukhari-sahw-after-salam",
   "seekersguidance-sajda-sahw",
   "newmuslims-prostration-forgetfulness",
+  "sunnah-muslim-prayer-times",
+  "quran-4-103-appointed-times",
+  "newmuslims-prayer-for-beginners",
+  "sunnah-muslim-islam-wipes-out",
+  "seekersguidance-converts-missed-prayers",
+  "sunnah-bukhari-pray-standing-sitting",
+  "seekersguidance-praying-sitting",
+  "seekersguidance-sick-person-prayer",
+  "video-greenlane-physical-disability",
+  "video-assim-chair-prayer",
 ];
 
 export function generateMetadata({ params }: { params: { locale: Locale } }) {
@@ -162,6 +179,9 @@ export default function SalahCompanionPage({
     shapeImage,
     tashahhudPlacement,
     sujudAlSahw,
+    prayerTable,
+    notOwed,
+    seatedPrayer,
   } = getSalahCompanionContent(locale);
   const pageSources = getSourcesByIds(pageSourceIds, locale);
 
@@ -230,6 +250,77 @@ export default function SalahCompanionPage({
                 </p>
               </div>
             ))}
+          </div>
+        </section>
+      </AnimateIn>
+
+      <AnimateIn>
+        <section className="mb-12" aria-labelledby="table-heading">
+          <h2
+            id="table-heading"
+            className="mb-5 font-display text-2xl font-semibold tracking-tight text-textPrimary"
+          >
+            {copy.tableTitle}
+          </h2>
+          <div className="grid items-start gap-6 lg:grid-cols-[1.2fr_0.8fr]">
+            <div>
+              <div className="overflow-x-auto rounded-2xl border border-border/60 bg-white shadow-card">
+                <table className="w-full border-collapse text-left text-sm">
+                  <caption className="sr-only">{copy.tableCaption}</caption>
+                  <thead className="bg-surfaceElevated text-textPrimary">
+                    <tr>
+                      <th scope="col" className="px-4 py-3 font-semibold">
+                        {copy.tablePrayer}
+                      </th>
+                      <th scope="col" className="px-4 py-3 font-semibold">
+                        {copy.tableWindow}
+                      </th>
+                      <th scope="col" className="px-4 py-3 font-semibold">
+                        {copy.tableUnits}
+                      </th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    {prayerTable.rows.map((row) => (
+                      <tr key={row.name} className="border-t border-border/50">
+                        <th
+                          scope="row"
+                          className="px-4 py-3 align-top font-semibold text-textPrimary"
+                        >
+                          {row.name}
+                        </th>
+                        <td className="px-4 py-3 align-top leading-relaxed text-textSecondary">
+                          {row.window}
+                        </td>
+                        <td className="px-4 py-3 align-top text-base font-semibold text-primary">
+                          {row.units}
+                        </td>
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+              </div>
+              <p className="mb-3 mt-4 text-sm leading-relaxed text-textSecondary">
+                {prayerTable.note}
+              </p>
+              <SourceTags
+                sources={getSourcesByIds(prayerTable.sourceIds, locale)}
+                compact
+              />
+            </div>
+            <ContentFigure image={prayerTable.image} />
+          </div>
+          <div className="mt-6 rounded-2xl border border-primaryGreen/40 bg-surfaceElevated/60 p-5">
+            <h3 className="mb-2 mt-0 text-base font-semibold text-textPrimary">
+              {copy.notOwedTitle}
+            </h3>
+            <p className="mb-3 text-sm leading-relaxed text-textSecondary">
+              {notOwed.text}
+            </p>
+            <SourceTags
+              sources={getSourcesByIds(notOwed.sourceIds, locale)}
+              compact
+            />
           </div>
         </section>
       </AnimateIn>
@@ -496,6 +587,54 @@ export default function SalahCompanionPage({
             sources={getSourcesByIds(sujudAlSahw.sourceIds, locale)}
             compact
           />
+        </section>
+      </AnimateIn>
+
+      <AnimateIn>
+        <section
+          className="mt-12 rounded-2xl border border-border/60 bg-white p-6 shadow-card"
+          aria-labelledby="seated-heading"
+        >
+          <h2
+            id="seated-heading"
+            className="mb-3 mt-0 font-display text-2xl font-semibold tracking-tight text-textPrimary"
+          >
+            {copy.seatedTitle}
+          </h2>
+          <div className="grid items-start gap-6 lg:grid-cols-2">
+            <div>
+              <p className="mb-4 text-sm leading-relaxed text-textSecondary">
+                {seatedPrayer.summary}
+              </p>
+              <SimpleList items={seatedPrayer.points} />
+              <p className="mb-4 mt-4 text-sm font-medium leading-relaxed text-textPrimary">
+                {seatedPrayer.referral}
+              </p>
+              <SourceTags
+                sources={getSourcesByIds(seatedPrayer.sourceIds, locale)}
+                compact
+              />
+            </div>
+            <div>
+              <VideoEmbed {...seatedPrayer.video} />
+              <div className="mt-4 rounded-xl border border-border/50 bg-surfaceElevated/50 p-4">
+                <a
+                  href={seatedPrayer.extraLink.href}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex min-h-[44px] items-center gap-1.5 text-sm font-semibold text-primary"
+                >
+                  {seatedPrayer.extraLink.label}
+                  <Icon name="external-link" size="sm" />
+                </a>
+                {seatedPrayer.extraLink.body && (
+                  <p className="mb-0 text-sm leading-relaxed text-textSecondary">
+                    {seatedPrayer.extraLink.body}
+                  </p>
+                )}
+              </div>
+            </div>
+          </div>
         </section>
       </AnimateIn>
 

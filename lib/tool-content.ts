@@ -166,6 +166,21 @@ export interface SalahCompanionContent {
     referral: string;
     sourceIds: string[];
   };
+  prayerTable: {
+    rows: { name: string; window: string; units: string }[];
+    note: string;
+    sourceIds: string[];
+    image: TopicImage;
+  };
+  notOwed: { text: string; sourceIds: string[] };
+  seatedPrayer: {
+    summary: string;
+    points: string[];
+    referral: string;
+    sourceIds: string[];
+    video: VideoWithChapters;
+    extraLink: ExternalLink;
+  };
 }
 
 export function getSalahCompanionContent(
