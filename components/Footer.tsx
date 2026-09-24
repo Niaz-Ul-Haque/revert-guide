@@ -98,7 +98,7 @@ export function Footer() {
 
           {/* Quick Links */}
           <div className="md:col-span-3">
-            <p className="mb-4 text-xs font-semibold uppercase tracking-widest text-textMuted">
+            <p className="mb-4 text-xs font-semibold uppercase tracking-widest text-textSecondary">
               {t("footer.explore")}
             </p>
             <nav aria-label={t("footer.quickLinksAriaLabel")}>
@@ -119,7 +119,7 @@ export function Footer() {
 
           {/* Legal Links */}
           <div className="md:col-span-4">
-            <p className="mb-4 text-xs font-semibold uppercase tracking-widest text-textMuted">
+            <p className="mb-4 text-xs font-semibold uppercase tracking-widest text-textSecondary">
               {t("footer.information")}
             </p>
             <nav aria-label={t("footer.navigationAriaLabel")}>
