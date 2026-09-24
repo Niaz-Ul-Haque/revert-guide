@@ -42,20 +42,6 @@
     "reviewStatus": "source-checked"
   },
   {
-    "id": "muslim-pro-app",
-    "title": "Muslim Pro",
-    "type": "app",
-    "url": "https://www.muslimpro.com/",
-    "description": "一款穆斯林实用应用程序，提供祈祷时间、古兰经访问和朝拜工具。",
-    "relatedStepIds": ["prayer", "prayer-on-ramp", "halal-eating-practical"],
-    "relatedTopicIds": ["prayer", "quran", "halal-living"],
-    "organization": "Muslim Pro",
-    "bestFor": "祈祷提醒和日常实用",
-    "trustNote": "需要时务必与当地清真寺确认祈祷时间。",
-    "sourceIds": ["muslim-pro"],
-    "reviewStatus": "source-checked"
-  },
-  {
     "id": "new-muslim-academy",
     "title": "New Muslim Academy",
     "type": "article",
@@ -217,30 +203,6 @@
     "reviewStatus": "source-checked"
   },
   {
-    "id": "convert-mental-health-article",
-    "title": "Mental Health and the Muslim Convert Experience",
-    "type": "article",
-    "url": "https://yaqeeninstitute.org/read/paper/new-muslims-and-mental-health",
-    "description": "针对情感挑战、身份转变和应对策略的皈依者特定讨论。",
-    "relatedStepIds": [
-      "community",
-      "character",
-      "family-and-friends",
-      "questions-and-doubts"
-    ],
-    "relatedTopicIds": [
-      "character",
-      "community",
-      "family-and-identity",
-      "questions-and-doubts"
-    ],
-    "organization": "Yaqeen Institute",
-    "bestFor": "了解皈依后的情绪调整",
-    "trustNote": "仅教育支持；针对危机或持续困扰寻求临床帮助。",
-    "sourceIds": ["yaqeen-mental-health"],
-    "reviewStatus": "source-checked"
-  },
-  {
     "id": "seekers-guidance",
     "title": "SeekersGuidance",
     "type": "article",
@@ -319,20 +281,6 @@
     "trustNote": "如果您不确定，应与值得信赖的老师讨论敏感细节。",
     "sourceIds": ["new-muslim-guide"],
     "reviewStatus": "source-checked"
-  },
-  {
-    "id": "zakat-calculator",
-    "title": "IslamicFinder Zakat Calculator",
-    "type": "app",
-    "url": "https://www.islamicfinder.org/zakatcalculator/",
-    "description": "在线天课计算器，可以帮助您了解常见类别和估算。",
-    "relatedStepIds": ["zakat-hajj"],
-    "relatedTopicIds": ["halal-living"],
-    "organization": "IslamicFinder",
-    "bestFor": "了解天课计算器的结构",
-    "trustNote": "不要将计算器的输出视为最终裁决；向合格的学者询问您的财务状况。",
-    "sourceIds": ["islamicfinder-zakat"],
-    "reviewStatus": "review-needed"
   },
   {
     "id": "convert-story-videos",
@@ -425,20 +373,6 @@
     "trustNote": "如果存在危险或自残风险，请立即使用紧急服务或危机热线。",
     "sourceIds": ["naseeha"],
     "reviewStatus": "source-checked"
-  },
-  {
-    "id": "islamic-relief-usa-zakat-faq",
-    "title": "Islamic Relief USA Zakat FAQ",
-    "type": "article",
-    "url": "https://irusa.org/faqs/",
-    "description": "高级别的天课并由可识别的慈善组织提出问题。",
-    "relatedStepIds": ["zakat-hajj"],
-    "relatedTopicIds": ["halal-living"],
-    "organization": "Islamic Relief USA",
-    "bestFor": "初学者慈善和天课概念",
-    "trustNote": "个人天课计算应与合格的学者或值得信赖的天课机构核实。",
-    "sourceIds": ["irusa-zakat"],
-    "reviewStatus": "review-needed"
   },
   {
     "id": "launchgood-zakat-policy",

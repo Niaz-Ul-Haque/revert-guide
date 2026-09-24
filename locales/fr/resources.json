@@ -42,20 +42,6 @@
     "reviewStatus": "source-checked"
   },
   {
-    "id": "muslim-pro-app",
-    "title": "Muslim Pro",
-    "type": "app",
-    "url": "https://www.muslimpro.com/",
-    "description": "Une application utilitaire musulmane avec des horaires de prière, un accès au Coran et des outils Qibla.",
-    "relatedStepIds": ["prayer", "prayer-on-ramp", "halal-eating-practical"],
-    "relatedTopicIds": ["prayer", "quran", "halal-living"],
-    "organization": "Muslim Pro",
-    "bestFor": "Rappels de prière et utilité quotidienne",
-    "trustNote": "Confirmez toujours les heures de prière auprès d'une mosquée locale en cas de besoin.",
-    "sourceIds": ["muslim-pro"],
-    "reviewStatus": "source-checked"
-  },
-  {
     "id": "new-muslim-academy",
     "title": "New Muslim Academy",
     "type": "article",
@@ -217,30 +203,6 @@
     "reviewStatus": "source-checked"
   },
   {
-    "id": "convert-mental-health-article",
-    "title": "Mental Health and the Muslim Convert Experience",
-    "type": "article",
-    "url": "https://yaqeeninstitute.org/read/paper/new-muslims-and-mental-health",
-    "description": "Une discussion spécifique aux convertis sur les défis émotionnels, les changements d'identité et les stratégies d'adaptation.",
-    "relatedStepIds": [
-      "community",
-      "character",
-      "family-and-friends",
-      "questions-and-doubts"
-    ],
-    "relatedTopicIds": [
-      "character",
-      "community",
-      "family-and-identity",
-      "questions-and-doubts"
-    ],
-    "organization": "Yaqeen Institute",
-    "bestFor": "Comprendre l'ajustement émotionnel après la conversion",
-    "trustNote": "Soutien éducatif uniquement ; demander de l’aide clinique en cas de crise ou de détresse persistante.",
-    "sourceIds": ["yaqeen-mental-health"],
-    "reviewStatus": "source-checked"
-  },
-  {
     "id": "seekers-guidance",
     "title": "SeekersGuidance",
     "type": "article",
@@ -319,20 +281,6 @@
     "trustNote": "Les détails sensibles doivent être discutés avec un enseignant de confiance en cas de doute.",
     "sourceIds": ["new-muslim-guide"],
     "reviewStatus": "source-checked"
-  },
-  {
-    "id": "zakat-calculator",
-    "title": "IslamicFinder Zakat Calculator",
-    "type": "app",
-    "url": "https://www.islamicfinder.org/zakatcalculator/",
-    "description": "Un calculateur de zakat en ligne qui peut vous aider à comprendre les catégories et estimations courantes.",
-    "relatedStepIds": ["zakat-hajj"],
-    "relatedTopicIds": ["halal-living"],
-    "organization": "IslamicFinder",
-    "bestFor": "Apprendre comment les calculateurs de zakat sont structurés",
-    "trustNote": "Ne considérez pas le résultat de la calculatrice comme une décision finale ; renseignez-vous auprès d'un spécialiste qualifié sur vos finances.",
-    "sourceIds": ["islamicfinder-zakat"],
-    "reviewStatus": "review-needed"
   },
   {
     "id": "convert-story-videos",
@@ -425,20 +373,6 @@
     "trustNote": "Utilisez immédiatement les services d’urgence ou les lignes d’écoute en cas de danger ou de risque d’automutilation.",
     "sourceIds": ["naseeha"],
     "reviewStatus": "source-checked"
-  },
-  {
-    "id": "islamic-relief-usa-zakat-faq",
-    "title": "Islamic Relief USA Zakat FAQ",
-    "type": "article",
-    "url": "https://irusa.org/faqs/",
-    "description": "Zakat de haut niveau et questions posées par une organisation caritative identifiable.",
-    "relatedStepIds": ["zakat-hajj"],
-    "relatedTopicIds": ["halal-living"],
-    "organization": "Islamic Relief USA",
-    "bestFor": "Concepts de charité et de zakat pour débutants",
-    "trustNote": "Les calculs personnels de la zakat doivent être vérifiés auprès d’un érudit qualifié ou d’une institution de zakat de confiance.",
-    "sourceIds": ["irusa-zakat"],
-    "reviewStatus": "review-needed"
   },
   {
     "id": "launchgood-zakat-policy",

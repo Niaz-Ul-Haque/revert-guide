@@ -42,20 +42,6 @@
     "reviewStatus": "source-checked"
   },
   {
-    "id": "muslim-pro-app",
-    "title": "Muslim Pro",
-    "type": "app",
-    "url": "https://www.muslimpro.com/",
-    "description": "Isang Muslim utility app na may mga oras ng pagdarasal, pag-access sa Quran, at mga tool sa Qibla.",
-    "relatedStepIds": ["prayer", "prayer-on-ramp", "halal-eating-practical"],
-    "relatedTopicIds": ["prayer", "quran", "halal-living"],
-    "organization": "Muslim Pro",
-    "bestFor": "Mga paalala sa panalangin at pang-araw-araw na gamit",
-    "trustNote": "Palaging kumpirmahin ang mga oras ng pagdarasal sa isang lokal na masjid kung kinakailangan.",
-    "sourceIds": ["muslim-pro"],
-    "reviewStatus": "source-checked"
-  },
-  {
     "id": "new-muslim-academy",
     "title": "New Muslim Academy",
     "type": "article",
@@ -217,30 +203,6 @@
     "reviewStatus": "source-checked"
   },
   {
-    "id": "convert-mental-health-article",
-    "title": "Mental Health and the Muslim Convert Experience",
-    "type": "article",
-    "url": "https://yaqeeninstitute.org/read/paper/new-muslims-and-mental-health",
-    "description": "Isang talakayan na partikular sa convert ng mga emosyonal na hamon, pagbabago ng pagkakakilanlan, at mga diskarte sa pagharap.",
-    "relatedStepIds": [
-      "community",
-      "character",
-      "family-and-friends",
-      "questions-and-doubts"
-    ],
-    "relatedTopicIds": [
-      "character",
-      "community",
-      "family-and-identity",
-      "questions-and-doubts"
-    ],
-    "organization": "Yaqeen Institute",
-    "bestFor": "Pag-unawa sa emosyonal na pagsasaayos pagkatapos ng conversion",
-    "trustNote": "Pang-edukasyon na suporta lamang; humingi ng klinikal na tulong para sa krisis o patuloy na pagkabalisa.",
-    "sourceIds": ["yaqeen-mental-health"],
-    "reviewStatus": "source-checked"
-  },
-  {
     "id": "seekers-guidance",
     "title": "SeekersGuidance",
     "type": "article",
@@ -319,20 +281,6 @@
     "trustNote": "Ang mga sensitibong detalye ay dapat talakayin sa isang pinagkakatiwalaang guro kung hindi ka sigurado.",
     "sourceIds": ["new-muslim-guide"],
     "reviewStatus": "source-checked"
-  },
-  {
-    "id": "zakat-calculator",
-    "title": "IslamicFinder Zakat Calculator",
-    "type": "app",
-    "url": "https://www.islamicfinder.org/zakatcalculator/",
-    "description": "Isang online na zakat calculator na makakatulong sa iyong maunawaan ang mga karaniwang kategorya at pagtatantya.",
-    "relatedStepIds": ["zakat-hajj"],
-    "relatedTopicIds": ["halal-living"],
-    "organization": "IslamicFinder",
-    "bestFor": "Pag-aaral kung paano nakaayos ang mga calculator ng zakat",
-    "trustNote": "Huwag ituring ang output ng calculator bilang panghuling desisyon; magtanong sa isang kwalipikadong iskolar tungkol sa iyong pananalapi.",
-    "sourceIds": ["islamicfinder-zakat"],
-    "reviewStatus": "review-needed"
   },
   {
     "id": "convert-story-videos",
@@ -425,20 +373,6 @@
     "trustNote": "Gumamit kaagad ng mga serbisyong pang-emerhensiya o mga linya ng krisis kung may panganib o panganib na saktan ang sarili.",
     "sourceIds": ["naseeha"],
     "reviewStatus": "source-checked"
-  },
-  {
-    "id": "islamic-relief-usa-zakat-faq",
-    "title": "Islamic Relief USA Zakat FAQ",
-    "type": "article",
-    "url": "https://irusa.org/faqs/",
-    "description": "Mataas na antas ng zakat at pagbibigay ng mga tanong mula sa isang makikilalang organisasyon ng kawanggawa.",
-    "relatedStepIds": ["zakat-hajj"],
-    "relatedTopicIds": ["halal-living"],
-    "organization": "Islamic Relief USA",
-    "bestFor": "Baguhan na mga konsepto ng kawanggawa at zakat",
-    "trustNote": "Ang mga personal na kalkulasyon ng zakat ay dapat suriin sa isang kwalipikadong iskolar o pinagkakatiwalaang institusyon ng zakat.",
-    "sourceIds": ["irusa-zakat"],
-    "reviewStatus": "review-needed"
   },
   {
     "id": "launchgood-zakat-policy",

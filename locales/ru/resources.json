@@ -42,20 +42,6 @@
     "reviewStatus": "source-checked"
   },
   {
-    "id": "muslim-pro-app",
-    "title": "Muslim Pro",
-    "type": "app",
-    "url": "https://www.muslimpro.com/",
-    "description": "Мусульманское служебное приложение с указанием времени молитв, доступом к Корану и инструментами Киблы.",
-    "relatedStepIds": ["prayer", "prayer-on-ramp", "halal-eating-practical"],
-    "relatedTopicIds": ["prayer", "quran", "halal-living"],
-    "organization": "Muslim Pro",
-    "bestFor": "Молитвенные напоминания и ежедневная полезность",
-    "trustNote": "При необходимости всегда уточняйте время молитвы в местной мечети.",
-    "sourceIds": ["muslim-pro"],
-    "reviewStatus": "source-checked"
-  },
-  {
     "id": "new-muslim-academy",
     "title": "New Muslim Academy",
     "type": "article",
@@ -217,30 +203,6 @@
     "reviewStatus": "source-checked"
   },
   {
-    "id": "convert-mental-health-article",
-    "title": "Mental Health and the Muslim Convert Experience",
-    "type": "article",
-    "url": "https://yaqeeninstitute.org/read/paper/new-muslims-and-mental-health",
-    "description": "Специальное обсуждение эмоциональных проблем, изменений идентичности и стратегий преодоления трудностей, ориентированное на новообращенных.",
-    "relatedStepIds": [
-      "community",
-      "character",
-      "family-and-friends",
-      "questions-and-doubts"
-    ],
-    "relatedTopicIds": [
-      "character",
-      "community",
-      "family-and-identity",
-      "questions-and-doubts"
-    ],
-    "organization": "Yaqeen Institute",
-    "bestFor": "Понимание эмоциональной адаптации после обращения",
-    "trustNote": "Только образовательная поддержка; обратитесь за клинической помощью в случае кризиса или продолжающегося стресса.",
-    "sourceIds": ["yaqeen-mental-health"],
-    "reviewStatus": "source-checked"
-  },
-  {
     "id": "seekers-guidance",
     "title": "SeekersGuidance",
     "type": "article",
@@ -319,20 +281,6 @@
     "trustNote": "Если вы не уверены, деликатные детали следует обсудить с доверенным учителем.",
     "sourceIds": ["new-muslim-guide"],
     "reviewStatus": "source-checked"
-  },
-  {
-    "id": "zakat-calculator",
-    "title": "IslamicFinder Zakat Calculator",
-    "type": "app",
-    "url": "https://www.islamicfinder.org/zakatcalculator/",
-    "description": "Онлайн-калькулятор закята, который поможет вам понять общие категории и оценки.",
-    "relatedStepIds": ["zakat-hajj"],
-    "relatedTopicIds": ["halal-living"],
-    "organization": "IslamicFinder",
-    "bestFor": "Изучение структуры калькуляторов закята",
-    "trustNote": "Не рассматривайте результаты калькулятора как окончательное решение; спросите квалифицированного ученого о ваших финансах.",
-    "sourceIds": ["islamicfinder-zakat"],
-    "reviewStatus": "review-needed"
   },
   {
     "id": "convert-story-videos",
@@ -425,20 +373,6 @@
     "trustNote": "Немедленно обратитесь в службы экстренной помощи или экстренные службы, если существует опасность или риск членовредительства.",
     "sourceIds": ["naseeha"],
     "reviewStatus": "source-checked"
-  },
-  {
-    "id": "islamic-relief-usa-zakat-faq",
-    "title": "Islamic Relief USA Zakat FAQ",
-    "type": "article",
-    "url": "https://irusa.org/faqs/",
-    "description": "Закят высокого уровня и вопросы от известной благотворительной организации.",
-    "relatedStepIds": ["zakat-hajj"],
-    "relatedTopicIds": ["halal-living"],
-    "organization": "Islamic Relief USA",
-    "bestFor": "Концепции благотворительности и закята для начинающих",
-    "trustNote": "Личный расчет закята следует уточнить у квалифицированного ученого или в надежном учреждении по выплате закята.",
-    "sourceIds": ["irusa-zakat"],
-    "reviewStatus": "review-needed"
   },
   {
     "id": "launchgood-zakat-policy",

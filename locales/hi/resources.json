@@ -42,20 +42,6 @@
     "reviewStatus": "source-checked"
   },
   {
-    "id": "muslim-pro-app",
-    "title": "Muslim Pro",
-    "type": "app",
-    "url": "https://www.muslimpro.com/",
-    "description": "प्रार्थना के समय, कुरान पहुंच और क़िबला टूल के साथ एक मुस्लिम उपयोगिता ऐप।",
-    "relatedStepIds": ["prayer", "prayer-on-ramp", "halal-eating-practical"],
-    "relatedTopicIds": ["prayer", "quran", "halal-living"],
-    "organization": "Muslim Pro",
-    "bestFor": "प्रार्थना अनुस्मारक और दैनिक उपयोगिता",
-    "trustNote": "जरूरत पड़ने पर हमेशा स्थानीय मस्जिद से प्रार्थना के समय की पुष्टि करें।",
-    "sourceIds": ["muslim-pro"],
-    "reviewStatus": "source-checked"
-  },
-  {
     "id": "new-muslim-academy",
     "title": "New Muslim Academy",
     "type": "article",
@@ -217,30 +203,6 @@
     "reviewStatus": "source-checked"
   },
   {
-    "id": "convert-mental-health-article",
-    "title": "Mental Health and the Muslim Convert Experience",
-    "type": "article",
-    "url": "https://yaqeeninstitute.org/read/paper/new-muslims-and-mental-health",
-    "description": "भावनात्मक चुनौतियों, पहचान में बदलाव और मुकाबला करने की रणनीतियों की एक रूपांतरण-विशिष्ट चर्चा।",
-    "relatedStepIds": [
-      "community",
-      "character",
-      "family-and-friends",
-      "questions-and-doubts"
-    ],
-    "relatedTopicIds": [
-      "character",
-      "community",
-      "family-and-identity",
-      "questions-and-doubts"
-    ],
-    "organization": "Yaqeen Institute",
-    "bestFor": "रूपांतरण के बाद भावनात्मक समायोजन को समझना",
-    "trustNote": "केवल शैक्षिक सहायता; संकट या चल रहे संकट के लिए चिकित्सीय सहायता लें।",
-    "sourceIds": ["yaqeen-mental-health"],
-    "reviewStatus": "source-checked"
-  },
-  {
     "id": "seekers-guidance",
     "title": "SeekersGuidance",
     "type": "article",
@@ -319,20 +281,6 @@
     "trustNote": "यदि आप अनिश्चित हैं तो संवेदनशील विवरणों पर किसी विश्वसनीय शिक्षक से चर्चा की जानी चाहिए।",
     "sourceIds": ["new-muslim-guide"],
     "reviewStatus": "source-checked"
-  },
-  {
-    "id": "zakat-calculator",
-    "title": "IslamicFinder Zakat Calculator",
-    "type": "app",
-    "url": "https://www.islamicfinder.org/zakatcalculator/",
-    "description": "एक ऑनलाइन ज़कात कैलकुलेटर जो आपको सामान्य श्रेणियों और अनुमानों को समझने में मदद कर सकता है।",
-    "relatedStepIds": ["zakat-hajj"],
-    "relatedTopicIds": ["halal-living"],
-    "organization": "IslamicFinder",
-    "bestFor": "सीखना कि जकात कैलकुलेटर कैसे संरचित होते हैं",
-    "trustNote": "कैलकुलेटर आउटपुट को अंतिम निर्णय न मानें; अपने वित्त के बारे में किसी योग्य विद्वान से पूछें।",
-    "sourceIds": ["islamicfinder-zakat"],
-    "reviewStatus": "review-needed"
   },
   {
     "id": "convert-story-videos",
@@ -425,20 +373,6 @@
     "trustNote": "यदि खतरा हो या खुद को नुकसान पहुंचाने का जोखिम हो तो तुरंत आपातकालीन सेवाओं या संकट लाइनों का उपयोग करें।",
     "sourceIds": ["naseeha"],
     "reviewStatus": "source-checked"
-  },
-  {
-    "id": "islamic-relief-usa-zakat-faq",
-    "title": "Islamic Relief USA Zakat FAQ",
-    "type": "article",
-    "url": "https://irusa.org/faqs/",
-    "description": "उच्च-स्तरीय ज़कात और एक पहचाने जाने योग्य दान संगठन से प्रश्न देना।",
-    "relatedStepIds": ["zakat-hajj"],
-    "relatedTopicIds": ["halal-living"],
-    "organization": "Islamic Relief USA",
-    "bestFor": "शुरुआती दान और जकात अवधारणाएँ",
-    "trustNote": "व्यक्तिगत ज़कात गणना की जाँच किसी योग्य विद्वान या विश्वसनीय ज़कात संस्थान से की जानी चाहिए।",
-    "sourceIds": ["irusa-zakat"],
-    "reviewStatus": "review-needed"
   },
   {
     "id": "launchgood-zakat-policy",
