@@ -213,7 +213,7 @@
     },
     "getHelp": {
       "title": "Get help - Revert Guide",
-      "description": "Slice fills this block."
+      "description": "Ask a question, ask for a mentor, find events or report a concern. Who reads your request, when we reply and how we handle your details."
     },
     "communityGroups": {
       "title": "Community groups - Revert Guide",
@@ -1578,7 +1578,88 @@
     },
     "getHelp": {
       "title": "Get help",
-      "note": "Slice D fills this block."
+      "subtitle": "Ask a question, ask for a mentor, find events near you, or tell us about a concern. A small team reads every request.",
+      "crisis": {
+        "text": "If you are in danger, call 911. For a mental health crisis, call or text 9-8-8.",
+        "linkLabel": "More support on the mental health page"
+      },
+      "placeholderNotice": {
+        "title": "The form is still being set up",
+        "body": "The request form and the email addresses on this page are not working yet. Until they are, your local masjid is a good place to ask, and the crisis lines above are there if you need help now."
+      },
+      "whatFor": {
+        "title": "What you can ask us for",
+        "items": [
+          {
+            "title": "Ask a question",
+            "body": "Anything you are unsure about, from prayer to telling your family. If we are not the right people to answer, we will tell you who is."
+          },
+          {
+            "title": "Ask for a mentor",
+            "body": "A trained volunteer, usually of the same gender, who checks in with you and helps with the basics."
+          },
+          {
+            "title": "Events and community",
+            "body": "Classes, new Muslim get-togethers and masjids near you."
+          },
+          {
+            "title": "Report a concern",
+            "body": "Something about a mentor, a group or an admin that did not feel right."
+          }
+        ]
+      },
+      "form": {
+        "title": "Send a request",
+        "body": "The form opens on Google Forms in a new tab.",
+        "buttonLabel": "Open the help form",
+        "asksTitle": "What the form asks",
+        "asks": [
+          "What you need help with",
+          "The language you would like to use",
+          "Whether you would prefer a mentor of the same gender",
+          "Your city or province",
+          "Your time zone",
+          "How you would like us to contact you",
+          "A message, if you want to add one",
+          "A line where you agree to us using your answers to reply to you"
+        ],
+        "asksNote": "That is all. We only ask what we need to reply and, if you want one, to find you a mentor."
+      },
+      "whoReads": {
+        "title": "Who reads it",
+        "body": "One or two volunteer coordinators read every request from one shared inbox. Nobody else sees it. If you ask for a mentor, the coordinator tells you about the match first and passes on only what the mentor needs, once you agree.",
+        "responseTitle": "When we reply",
+        "response": "We aim to reply within 48 to 72 hours. That is a target, not a promise. Replies can be slower over holidays and in Ramadan."
+      },
+      "privacy": {
+        "title": "Your privacy",
+        "items": [
+          "A help request tells us that you are Muslim or thinking about Islam, so we treat it as sensitive.",
+          "Only the coordinators read it. We do not share it with your family, a masjid or anyone else without asking you first.",
+          "The form is run by Google, which may store your answers outside Canada.",
+          "We aim to delete a request six months after we close it.",
+          "If someone else checks your phone or computer, you can send the form from another device, such as a library computer, and give us a contact method only you can see."
+        ],
+        "linkLabel": "Read the privacy policy"
+      },
+      "report": {
+        "title": "Report a mentor, group or admin",
+        "body": "Tell us if a mentor, a group member or an admin asks you for money, proposes marriage, pushes you to join something, or makes you feel unsafe. Your report goes to the coordinators, never to the person you are reporting.",
+        "emailLabel": "Email",
+        "scamNote": "If someone asked you for money or you think you were scammed, you can also report it to the Canadian Anti-Fraud Centre at 1-888-495-8501.",
+        "redFlagsLabel": "Warning signs to watch for"
+      },
+      "contact": {
+        "title": "Rather send an email?",
+        "body": "You can write to us instead of using the form. The same coordinators read this inbox.",
+        "emailLabel": "Email"
+      },
+      "guideLink": {
+        "prompt": "Not sure whether your question is for us, an imam or a counsellor?",
+        "label": "How to ask for help"
+      },
+      "sourcesTitle": "Sources used",
+      "sourcesNote": "These sources back how the form is set up and how your details are handled. The reply target and the retention period are our own targets."
     },
     "communityGroups": {
       "title": "Community groups",
