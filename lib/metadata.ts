@@ -19,13 +19,36 @@ interface PageMetadataOptions {
 }
 
 /**
+ * Turns body text into a search-friendly description: drops markdown
+ * markers, collapses whitespace, and cuts at the last sentence end that
+ * fits within `max` (or the last word boundary when no sentence fits).
+ */
+export function metaDescription(text: string, max = 155): string {
+  const clean = text
+    .replace(/\*\*|_/g, "")
+    .replace(/\s+/g, " ")
+    .trim();
+  if (clean.length <= max) return clean;
+  const head = clean.slice(0, max + 1);
+  let cut = 0;
+  for (const match of head.matchAll(/[.!?]['"’)]?(?=\s|$)/g)) {
+    const end = (match.index ?? 0) + match[0].length;
+    if (end <= max) cut = end;
+  }
+  // A very short first sentence reads worse than a longer word-boundary cut.
+  if (cut >= 70) return clean.slice(0, cut);
+  const space = clean.lastIndexOf(" ", max);
+  return clean.slice(0, space > 0 ? space : max).replace(/[\s,;:]+$/, "");
+}
+
+/**
  * Builds complete per-page metadata: canonical URL, hreflang alternates
  * for every supported locale, Open Graph and Twitter cards.
  */
 export function buildPageMetadata({
   locale,
   title,
-  description,
+  description: rawDescription,
   path,
   noindex = false,
   ogType = "website",
@@ -33,6 +56,7 @@ export function buildPageMetadata({
   const canonical = localeUrl(locale, path);
   const t = getTranslator(locale);
   const siteName = t("brand.name");
+  const description = rawDescription && metaDescription(rawDescription);
 
   const metadata: Metadata = {
     title,
