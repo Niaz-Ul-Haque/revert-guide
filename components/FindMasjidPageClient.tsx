@@ -1026,7 +1026,7 @@ export function FindMasjidPageClient({
                 );
 
               return (
-                <AnimateIn key={masjid.id} delay={0.04 + index * 0.02}>
+                <div key={masjid.id}>
                   <article
                     className={`group flex h-full flex-col rounded-2xl border bg-white p-5 transition-all duration-300 ${
                       isSelected
@@ -1221,7 +1221,7 @@ export function FindMasjidPageClient({
                       )}
                     </div>
                   </article>
-                </AnimateIn>
+                </div>
               );
             })}
           </div>

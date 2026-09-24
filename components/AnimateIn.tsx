@@ -19,11 +19,12 @@ interface AnimateInProps {
 let queuedDelay = 0;
 let resetTimer: ReturnType<typeof setTimeout> | null = null;
 const STAGGER_INCREMENT = 0.12; // seconds between each element's animation start
+const MAX_STAGGER = 0.48; // cap so a long list never waits seconds to appear
 const RESET_AFTER = 600; // ms of no new triggers before resetting the queue
 
 function getStaggerDelay(): number {
   const current = queuedDelay;
-  queuedDelay += STAGGER_INCREMENT;
+  queuedDelay = Math.min(queuedDelay + STAGGER_INCREMENT, MAX_STAGGER);
 
   // Reset the queue after a pause in new triggers
   if (resetTimer) clearTimeout(resetTimer);
