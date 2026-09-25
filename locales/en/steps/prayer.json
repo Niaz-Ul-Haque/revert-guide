@@ -53,7 +53,7 @@
         "Asr: 4 rak'at.",
         "Maghrib: 3 rak'at.",
         "Isha: 4 rak'at.",
-        "Start with the obligatory (fard) prayers. You can add the voluntary (sunnah) ones later."
+        "Start with the obligatory (fard) prayers. The extra voluntary (sunnah) rak'ahs you see at the masjid can come later, one at a time. The prayer topic explains them."
       ]
     },
     {
@@ -110,7 +110,9 @@
     "isha",
     "al-fatiha",
     "sajdah",
-    "ruku"
+    "ruku",
+    "sujud",
+    "rawatib"
   ],
   "relatedTopicIds": ["prayer", "purification", "dua-and-dhikr"],
   "sourceIds": [
@@ -130,6 +132,12 @@
       "start": 228,
       "note": "Starts at Fajr, the two-rak'ah prayer. Small differences between schools are normal.",
       "sourceIds": ["video-greenlane-five-prayers"]
+    }
+  ],
+  "relatedLinks": [
+    {
+      "label": "Extra prayers you will see, and when to add them",
+      "href": "/topics/prayer"
     }
   ]
 }
