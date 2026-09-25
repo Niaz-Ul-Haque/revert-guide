@@ -1,6 +1,7 @@
 [
   {
     "id": "family-and-friends",
+    "group": "family-and-relationships",
     "title": "Guide pour la famille et les amis",
     "description": "Préparez une conversation calme, restez en sécurité et gardez les liens familiaux quand c'est possible.",
     "intro": "Vous n'avez pas à l'annoncer à tout le monde d'un coup. Cette page vous aide à voir qui a vraiment besoin de le savoir, quoi dire dans la première minute et comment éviter que la conversation tourne au débat.",
@@ -42,6 +43,16 @@
         ]
       },
       {
+        "heading": "Vous n'avez pas à les convaincre",
+        "body": "Certaines personnes vous diront que vous devez amener vos parents à l'islam, et que leur choix pèsera sur vous. Le Coran dit au Prophète lui-même : « Tu ne guides pas qui tu aimes, mais c'est Allah qui guide qui Il veut » (Coran 28:56). Il n'y a pas de contrainte en religion (Coran 2:256), et le Prophète a été envoyé pour rappeler, pas pour contrôler (Coran 88:21-22). Ce que votre famille choisit est entre elle et Allah.\n\nLes savants décrivent de différentes façons l'obligation d'inviter les autres à l'islam, et ce guide ne tranche pas cette question. Demandez à votre enseignant si elle vous pèse. Ce qui est clair, c'est que le résultat n'est pas à vous de le porter.",
+        "items": [
+          "Répondez aux questions quand votre famille en pose, brièvement et avec gentillesse.",
+          "Vous pouvez refuser les débats, la prédication dans la rue et le fait d'amener votre famille à des événements.",
+          "Faites des invocations (dua) pour eux. Cela ne coûte rien et ne déclenche jamais de dispute.",
+          "Essayez de ne pas débattre avec vos parents dans vos premières semaines. Laissez-les voir comment vous vivez."
+        ]
+      },
+      {
         "heading": "Fêtes, repas et vie à la maison",
         "body": "Les habitudes familiales seront un peu gênantes pendant un temps. Gardez deux choses en tête : évitez la nourriture clairement haram, et gardez la relation calme quand c'est possible. Si un événement familial comprend un acte d'adoration d'une autre religion, demandez conseil à un imam local qualifié pour votre situation précise plutôt que de deviner.",
         "items": [
@@ -54,6 +65,17 @@
       {
         "heading": "La sécurité d'abord",
         "body": "Si quelqu'un risque de vous faire du mal, de vous empêcher de partir, de lire votre téléphone, de prendre vos documents ou de vous mettre à la porte, ce n'est pas une simple conversation. Avant de dire quoi que ce soit, contactez un professionnel local de confiance, une ligne d'écoute de crise, un refuge, un conseiller, un aumônier ou un responsable communautaire qui connaît la planification de la sécurité."
+      },
+      {
+        "heading": "Faire le deuil des personnes que vous avez perdues",
+        "body": "Quand les parents se taisent ou que de vieux amis cessent d'appeler, cela peut ressembler à un deuil, même si personne n'est mort. Les psychothérapeutes Najwa Awad et Sarah Sultan écrivent que le deuil suit bien des formes de perte, y compris la perte d'un avenir qu'on avait espéré, et que le deuil n'est pas un signe de foi faible. Les prophètes aussi ont vécu le deuil. Le prophète Yaqub (Jacob) a pleuré son fils Yusuf (Joseph), et le Prophète Muhammad a pleuré quand son jeune fils Ibrahim est mort.\n\nRessentir cette tristesse n'est pas un regret d'avoir embrassé l'islam. Vous pouvez aimer votre foi et vous ennuyer de votre famille en même temps.",
+        "items": [
+          "Écrivez en quelques lignes ce que vous avez perdu. Le nommer aide.",
+          "Si c'est sans danger, gardez un petit contact régulier avec votre famille, comme un court message chaque semaine.",
+          "Préparez-vous aux dates difficiles comme les fêtes et les anniversaires. Le guide sur les fêtes propose des idées.",
+          "Parlez-en à une personne de confiance, ou à un groupe de convertis.",
+          "Si la tristesse reste lourde pendant des mois, ou nuit à votre vie quotidienne, consultez un conseiller ou votre médecin."
+        ]
       }
     ],
     "scripts": [
@@ -68,6 +90,10 @@
       {
         "title": "Pendant un repas de famille",
         "body": "Merci de m'avoir invité. Je ne mange plus de porc et je ne bois plus d'alcool, alors j'ai aussi apporté quelque chose que je peux manger. J'ai toujours envie d'être ici avec tout le monde."
+      },
+      {
+        "title": "S'ils se sentent sous pression",
+        "body": "Je préfère le vivre plutôt que d'en débattre. Si tu veux en savoir plus un jour, demande-moi simplement."
       }
     ],
     "scenarios": [
@@ -100,11 +126,32 @@
       {
         "label": "Étape : la famille et les amis",
         "href": "/roadmap/week-2-3/family-and-friends"
+      },
+      {
+        "label": "Les enfants et la vie de famille",
+        "href": "/guides/children-and-family-life"
+      },
+      {
+        "label": "Si vous avez moins de 18 ans",
+        "href": "/guides/young-converts"
+      },
+      {
+        "label": "La proche famille (mahram)",
+        "href": "/topics/modesty"
+      },
+      {
+        "label": "Protéger vos volontés funéraires",
+        "href": "/guides/when-someone-dies"
+      },
+      {
+        "label": "Prendre soin de votre esprit",
+        "href": "/mental-health"
       }
     ]
   },
   {
     "id": "first-masjid-visit",
+    "group": "starting-out",
     "title": "Guide de la première visite à la mosquée",
     "description": "Ce qui vous attend la première fois que vous entrez dans une mosquée : quoi porter, où laisser vos chaussures, à qui demander de l'aide et en quoi la prière du vendredi est différente.",
     "intro": "Chaque mosquée fonctionne un peu à sa façon. La visite devient plus facile quand vous savez à qui demander, quoi porter et quoi faire quand vous ne comprenez pas ce qui se passe.",
@@ -112,7 +159,8 @@
       "Vous pouvez appeler la mosquée ou lui écrire un courriel avant d'y aller.",
       "Des vêtements propres et pudiques suffisent. Vous n'avez pas besoin de tenue traditionnelle.",
       "Une fois sur place, demandez directement de l'aide à une personne.",
-      "La prière du vendredi est beaucoup plus fréquentée qu'une prière quotidienne ordinaire."
+      "La prière du vendredi est beaucoup plus fréquentée qu'une prière quotidienne ordinaire.",
+      "Ne passez pas devant une personne qui prie, et restez silencieux pendant le sermon du vendredi."
     ],
     "sections": [
       {
@@ -140,6 +188,24 @@
         ]
       },
       {
+        "heading": "Petites politesses",
+        "body": "Quelques habitudes rendent la mosquée plus agréable pour tout le monde. Souvent, les gens ne les mentionnent pas avant que vous fassiez une erreur, alors les voici, avec leurs sources. Si quelqu'un vous corrige, dites « Merci, je suis nouveau », et demandez plus tard à votre enseignant s'il s'agissait d'une règle ou d'une habitude locale.",
+        "items": [
+          "Ne passez pas juste devant une personne qui prie. Le Prophète (paix et bénédictions sur lui) a dit que celui qui connaîtrait le péché de passer devant une personne en prière préférerait attendre quarante (jours, mois ou années) plutôt que de le faire (Sahih al-Bukhari 510). Passez derrière elle, ou au-delà de l'objet qu'elle a placé devant elle, qu'on appelle une barrière (sutrah).",
+          "Quand vous priez seul, priez face à un mur, à un pilier ou à un objet, et restez près de lui (Sunan Abi Dawud 698, jugé hasan sahih). Les gens peuvent alors passer au-delà sans vous déranger (Sahih Muslim 499a).",
+          "En entrant, vous pouvez dire « Allahumma iftah li abwaba rahmatik » (Ô Allah, ouvre-moi les portes de Ta miséricorde), et en sortant, « Allahumma inni as'aluka min fadlik » (Ô Allah, je Te demande de Ta grâce) (Sahih Muslim 713a). C'est recommandé, pas obligatoire.",
+          "Si vous le pouvez, priez deux courtes unités de prière (rak'ahs) en arrivant, avant de vous asseoir (Sahih al-Bukhari 444). Si vous n'êtes pas sûr que ce soit le bon moment, asseyez-vous simplement, et demandez plus tard à votre enseignant.",
+          "Si vous arrivez pendant le sermon du vendredi (khutbah) : le Prophète a dit à un homme entré pendant le sermon de se lever et de prier deux rak'ahs (Sahih Muslim 875c). Les savants diffèrent sur le fait de le faire pendant le sermon : demandez à votre enseignant ce que suit votre mosquée, et n'en débattez pas dans la rangée.",
+          "Pendant le sermon, écoutez et restez silencieux, et rangez votre téléphone. Le Prophète a dit que même dire à votre voisin de se taire pendant le sermon est une faute (Sahih al-Bukhari 934).",
+          "N'enjambez pas les gens pour atteindre l'avant. On a dit à un homme qui le faisait pendant le sermon du vendredi : « Assieds-toi, tu as dérangé les gens » (Sunan Abi Dawud 1118, jugé sahih). Asseyez-vous là où il y a de la place, même à l'arrière.",
+          "Essayez de ne pas venir juste après avoir mangé de l'oignon, de l'ail ou du poireau. Le Prophète a dit aux gens qui avaient mangé de l'oignon ou du poireau de ne pas s'approcher de la mosquée (Sahih Muslim 564a), et un autre récit nomme l'ail et l'oignon (Sahih al-Bukhari 855).",
+          "Les femmes peuvent aller à la mosquée. Le Prophète a dit : « N'empêchez pas les servantes d'Allah d'aller aux mosquées d'Allah » (Sahih al-Bukhari 900). Les savants discutent des conditions et de l'endroit où il est préférable pour une femme de prier : demandez à votre enseignant ce qui s'applique à votre situation. Si l'espace des femmes est fermé ou trop petit, voyez plus bas la section sur l'espace des femmes.",
+          "Les enfants sont les bienvenus dans beaucoup de mosquées. Le Prophète écourtait une prière quand il entendait un enfant pleurer, pour que la mère ne soit pas inquiétée (Sahih al-Bukhari 707). Gardez les jeunes enfants près de vous et vérifiez les règles de la mosquée.",
+          "Les exemplaires du Coran sur les étagères sont là pour être lus dans la mosquée. Remettez-les en place quand vous avez fini. Si vous avez vos règles ou devez faire le lavage complet du corps (ghusl), le sujet sur les règles et l'adoration explique où les savants divergent au sujet de toucher le Coran.",
+          "Après une conférence, attendez la période de questions ou allez voir le conférencier ensuite. Ça aide d'écrire votre question d'abord. Une question privée peut être envoyée par courriel au bureau de la mosquée."
+        ]
+      },
+      {
         "heading": "L'essentiel de la prière du vendredi",
         "body": "La prière du vendredi (jumu'ah) est la prière collective de la semaine. Il y a d'abord un sermon, puis la prière, et la salle est généralement pleine. Si votre première visite tombe un vendredi, arrivez tôt et attendez-vous à ce que le stationnement, les portes et les places soient bondés."
       },
@@ -151,6 +217,16 @@
           "Y a-t-il une entrée accessible ou un ascenseur?",
           "Où une personne qui vient pour la première fois devrait-elle se stationner?",
           "Y a-t-il un cours pour les nouveaux musulmans, un mentor ou quelqu'un à qui je pourrais parler?"
+        ]
+      },
+      {
+        "heading": "Si vous êtes sourd, aveugle, autiste ou avez d'autres besoins d'accès",
+        "body": "Les mosquées sont pour tout le monde, et demander des mesures d'accès est normal. Écrivez ou téléphonez au bureau avant votre visite et dites ce qui vous aiderait.\n\nDeaf Muslims of Canada travaille avec les organisateurs pour réserver des interprètes en ASL pour les événements, et forme des interprètes aux signes islamiques. ISDHH, aux États-Unis, offre des cours d'ASL et interprète en ASL le sermon du vendredi (khutbah). Si vous êtes aveugle ou malvoyant, des applications audio du Coran vous permettent d'écouter et de suivre, et notre page de ressources en présente quelques-unes.\n\nSi le bruit et la foule sont difficiles pour vous, venez à une heure de prière plus calme, apportez des protège-oreilles, et prévenez l'imam ou un bénévole que vous devrez peut-être sortir. Allah n'impose à aucune âme plus qu'elle ne peut porter (Coran 2:286).",
+        "items": [
+          "Pouvez-vous prévoir un interprète en ASL pour le sermon (khutbah) ou un cours?",
+          "Y a-t-il une rampe, un ascenseur et des toilettes accessibles?",
+          "Y a-t-il un moment ou un espace plus calme que je pourrais utiliser?",
+          "Est-ce que je peux réserver une chaise ou une place près de l'avant?"
         ]
       }
     ],
@@ -180,6 +256,10 @@
       {
         "title": "La mosquée ne peut pas offrir de soutien aux convertis.",
         "response": "Demandez s'ils connaissent une autre mosquée, un aumônier, un cours ou un groupe communautaire à proximité. Le soutien peut venir d'une autre mosquée, d'un cours en ligne ou d'une seule personne fiable."
+      },
+      {
+        "title": "Quelqu'un vous reprend parce que vous êtes passé devant une personne en prière.",
+        "response": "Dites « Merci, je suis nouveau », et passez derrière la personne. Le Prophète a mis en garde contre le fait de passer devant quelqu'un qui prie : la remarque était donc juste, même si le ton ne l'était pas."
       }
     ],
     "relatedLinks": [
@@ -194,11 +274,20 @@
       {
         "label": "Étape : première visite à la mosquée",
         "href": "/roadmap/week-1/first-masjid-visit"
+      },
+      {
+        "label": "Sujet sur les règles et l'adoration",
+        "href": "/topics/menstruation-and-worship"
+      },
+      {
+        "label": "Prier derrière un imam (et arriver en retard)",
+        "href": "/tools/salah-companion#behind-imam"
       }
     ]
   },
   {
     "id": "work-and-school",
+    "group": "everyday-life",
     "title": "Guide pour le travail et l'école",
     "description": "Des formulations pratiques pour la prière, le jeûne et la nourriture au travail ou à l'école, et les règles d'accommodement qui s'appliquent là où vous êtes au Canada.",
     "intro": "La plupart de ces démarches deviennent plus faciles si vous demandez tôt et que votre demande reste petite et précise. Vous n'avez pas à raconter toute votre vie pour obtenir quelques minutes pour prier.",
@@ -212,7 +301,7 @@
     "sections": [
       {
         "heading": "Partez de votre horaire réel",
-        "body": "Notez vos quarts de travail ou vos heures de cours, vos pauses, vos trajets et tout endroit propre et calme à proximité. La plupart des prières entrent dans une pause ordinaire une fois que vous les voyez sur papier. Pour celles qui n'y entrent pas, une courte demande précise passe mieux qu'une longue explication sur la religion."
+        "body": "Notez vos quarts de travail ou vos heures de cours, vos pauses, vos déplacements et tout endroit propre et calme à proximité. La plupart des prières entrent dans une pause ordinaire une fois que vous le voyez sur papier. Pour celles qui n'y entrent pas, une demande courte et précise passe mieux qu'une longue explication sur la religion. Si un quart couvre toute la plage d'une prière, demandez d'abord une courte pause. Les écoles diffèrent sur le regroupement des prières à cause du travail : l'AMJA le permet en cas de réelle difficulté, comme mesure temporaire, alors que l'école hanafite permet seulement de prier une prière à la fin de son heure et la suivante au début de la sienne. Demandez à un enseignant avant de commencer à regrouper vos prières."
       },
       {
         "heading": "La prière au travail ou à l'école",
@@ -272,6 +361,53 @@
         ]
       },
       {
+        "heading": "Si votre travail touche à l'alcool, au porc, à l'intérêt ou aux jeux de hasard",
+        "body": "Beaucoup de gens deviennent musulmans alors qu'ils travaillent comme serveur, barman, caissier ou dans une banque. Ne démissionnez pas le lendemain de votre Shahada sans autre revenu en vue. Les savants regardent d'abord à quel point vos propres tâches touchent directement la chose interdite.\n\nLes réponses ci-dessous viennent d'enseignants de SeekersGuidance (surtout hanafites) et de l'Assemblée des juristes musulmans d'Amérique (AMJA). Nous n'avons pas vérifié comment les autres écoles traitent chaque cas, et il n'y a pas deux emplois pareils : consultez un savant qualifié au sujet de votre poste exact avant de démissionner.",
+        "items": [
+          "Rôles directs : des réponses de SeekersGuidance disent que servir de l'alcool ou du porc, et préparer ou promouvoir de la nourriture interdite (haram), ne sont pas permis. Un savant de l'AMJA dit que les savants s'entendent pour interdire la vente d'alcool. Un hadith de Jami at-Tirmidhi (1295, jugé hasan) compte parmi les maudits celui qui sert le vin et celui qui le vend.",
+          "Rôles indirects : une réponse de SeekersGuidance permet un emploi de nettoyage dans un restaurant qui vend de l'alcool, ainsi que son salaire. Une autre permet de travailler comme caissier là où l'on vend de la nourriture interdite, tout en conseillant la prudence et la recherche d'un autre emploi. Les deux s'appuient sur l'instruction du Coran de ne pas coopérer au péché (5:2).",
+          "Banque : un savant de l'AMJA dit que travailler directement sur les prêts à intérêt n'est pas permis, alors que les autres services bancaires sont licites en principe. Il conseille de chercher sérieusement un autre emploi.",
+          "Casinos, paris et comptoirs de boucherie ou de charcuterie qui manipulent du porc : nous n'avons pas encore trouvé de source sur ces emplois, alors consultez un savant au sujet de votre poste.",
+          "Si partir maintenant voulait dire ne plus pouvoir payer votre loyer ou vos besoins de base : une réponse hanafite sur SeekersGuidance dit que vous pouvez continuer de travailler pendant que vous cherchez activement un emploi permis. C'est une seule réponse d'une seule école : vérifiez-la auprès d'un savant.",
+          "Ne prenez pas un prêt à intérêt pour faire le pont."
+        ]
+      },
+      {
+        "heading": "Demander un échange de tâches",
+        "body": "Parfois, la solution est un changement de tâches plutôt qu'un nouvel emploi. La politique ontarienne sur la croyance (section 10.6) dit qu'une restriction alimentaire fondée sur la croyance peut s'étendre à la manipulation des aliments, et donne l'exemple d'une usine qui a affecté à d'autres tâches des employés qui ne pouvaient pas manipuler de porc. La section 10.5 de la même politique décrit une affaire de Terre-Neuve : un tribunal a conclu qu'un employeur aurait dû laisser quelqu'un d'autre vendre les billets d'un événement où l'on vendait de l'alcool, au lieu de suspendre l'employé pentecôtiste qui s'y opposait. C'est un exemple d'une autre province, pas une règle pour tous les milieux de travail. Le guide du NCCM mentionne aussi le fait de ne pas manipuler de porc ni d'alcool parmi les accommodements que demandent les employés musulmans.",
+        "items": [
+          "Notez lesquelles de vos tâches touchent directement l'alcool, le porc, l'intérêt ou les jeux de hasard.",
+          "Demandez à votre gestionnaire si un collègue pourrait se charger de ces tâches, par exemple servir les boissons ou manipuler le porc.",
+          "Limitez la demande à la tâche. Votre gestionnaire n'a pas besoin de toute l'histoire de votre conversion.",
+          "Si rien ne peut changer, continuez de travailler pendant que vous cherchez un autre emploi, et parlez-en avec un savant."
+        ]
+      },
+      {
+        "heading": "Travailler et étudier avec l'autre sexe",
+        "body": "L'islam ne vous demande pas d'arrêter de travailler ou d'étudier aux côtés de l'autre sexe. Une réponse de SeekersGuidance dit qu'il n'y a aucun problème à parler ou à travailler avec une personne de l'autre sexe quand il y a un besoin, avec pudeur et le regard baissé (Coran 24:30-31). Ce que les savants vous demandent d'éviter, c'est l'isolement (khalwa) : un homme et une femme qui ne sont pas proches parents, seuls ensemble dans un endroit fermé où personne d'autre ne peut voir ni entrer. Un hadith de Jami at-Tirmidhi (2165, jugé sahih) dit que lorsqu'un homme est seul avec une femme, le troisième est Satan (Shaytan).\n\nLes écoles définissent l'isolement un peu différemment, par exemple sur la question de savoir si un homme avec deux femmes compte. Les réponses ici sont surtout hanafites : demandez à votre enseignant comment votre école le formule.\n\nDeux erreurs sont fréquentes. La première est de refuser tout contact de travail avec l'autre sexe, ce que ces savants ne vous demandent pas. La seconde est de garder une amitié privée et émotionnellement proche sous prétexte qu'il ne se passe rien.",
+        "items": [
+          "Bureaux et salles de réunion : une réponse hanafite sur SeekersGuidance dit qu'un bureau où des gens entrent régulièrement, ou qui a une fenêtre ou une troisième personne, n'est pas un lieu isolé. À l'heure du dîner ou pendant les heures tranquilles, laissez la porte ouverte ou sortez.",
+          "Réunions tardives : invitez un troisième collègue, ou réservez une salle vitrée, ou laissez la porte entrouverte.",
+          "Les courriels, messages et appels pour le travail ou les études sont permis, selon une réponse hanafite sur SeekersGuidance. Le flirt et les conversations de séduction ne le sont pas.",
+          "Partenaires d'étude et tutorat : rencontrez-vous dans une bibliothèque, un laboratoire ou une aire d'étude ouverte plutôt que dans une pièce fermée.",
+          "Trajets en voiture seul avec un collègue : nous n'avons pas encore trouvé de source qui traite de cela, alors demandez à votre enseignant.",
+          "Rendez-vous médicaux : nous n'avons pas encore trouvé de source à citer sur le fait de consulter un médecin de l'autre sexe. Demandez à votre enseignant si cela vous inquiète, et ne reportez pas les soins dont vous avez besoin en attendant une réponse.",
+          "Jeux et clavardage en ligne : un enseignant chaféite sur SeekersGuidance qualifie d'assurément inappropriées les activités en ligne non nécessaires avec l'autre sexe, comme jouer ensemble. Désactiver le clavardage vocal avec des inconnus est une première étape facile.",
+          "Anciennes amitiés : gardez la gentillesse et le respect. Ce qui change, c'est la proximité privée en tête-à-tête, et déplacer les conversations vers des groupes est une façon douce de faire ce changement. Parlez à un enseignant ou à un mentor des amitiés avec un ancien partenaire."
+        ]
+      },
+      {
+        "heading": "À l'école secondaire, au cégep, au collège ou à l'université",
+        "body": "Beaucoup d'universités et de collèges canadiens ont une politique écrite sur les pratiques religieuses. La politique de l'Université de Toronto demande aux étudiants d'en informer leurs professeurs assez tôt, demande aux professeurs d'éviter de fixer des examens les jours saints, et donne aux étudiants la possibilité de rattraper les travaux manqués ou d'écrire à un autre moment. Student Life de U of T dit qu'aucun document d'un responsable religieux n'est exigé. Le calendrier de l'Université de la Colombie-Britannique dit aussi qu'aucune lettre d'un responsable religieux n'est nécessaire, demande un préavis aussi long que possible (normalement 14 jours), et compte parmi les pratiques accommodées l'absence pour les prières quotidiennes, le jeûne ou la rupture du jeûne, et les codes vestimentaires. La politique de chaque établissement est différente : consultez la vôtre.\n\nPour l'école secondaire, la politique ontarienne sur la croyance (section 10.2) cite en exemple les lignes directrices du York Region District School Board : tenue d'éducation physique, vestiaire privé et maillot de bain différent. Ce sont les lignes directrices d'un seul conseil scolaire, pas une règle pour toutes les écoles, mais elles montrent le genre de choses que vous pouvez demander. Pour les cégeps et les universités du Québec, lisez la section sur le Québec plus haut.\n\nVous êtes loin d'être seul sur le campus. Dans le sondage du Yaqeen Institute auprès des convertis aux États-Unis, 89 % avaient fait des études collégiales ou universitaires.",
+        "items": [
+          "Au début de chaque session, comparez les dates d'examen avec le Ramadan et les deux Aïds, et écrivez à vos professeurs tôt plutôt que pendant la semaine d'examens.",
+          "Trouvez le centre multiconfessionnel ou l'aumônerie de votre campus et demandez où les étudiants prient. À U of T, c'est le Multi-Faith Centre, au 569 Spadina Crescent.",
+          "Beaucoup de campus ont une association d'étudiants musulmans (MSA). Elle peut aider pour les lieux de prière et les amitiés, mais c'est un club étudiant : apportez vos questions sur les règles religieuses à un enseignant qualifié.",
+          "La résidence et la semaine d'initiation peuvent tourner autour de l'alcool. Demandez au personnel de la résidence s'il y a des étages sans alcool ni drogue ou des activités sans alcool.",
+          "Pendant les longs laboratoires ou travaux de groupe, dites au groupe quand tombe une prière et sortez pendant dix minutes."
+        ]
+      },
+      {
         "heading": "Une note juridique",
         "body": "Ceci est de l'information générale, pas un avis juridique. Les lois et les politiques changent, et chaque école et chaque employeur traite les demandes à sa façon. Pour votre situation personnelle, contactez la commission des droits de la personne de votre région, une clinique juridique ou un avocat."
       }
@@ -292,6 +428,18 @@
       {
         "title": "En parler à quelqu'un à l'école",
         "body": "Je suis musulman et j'ai besoin de quelques minutes pour prier pendant la journée. À qui devrais-je parler pour trouver un endroit convenable et l'intégrer à mon horaire?"
+      },
+      {
+        "title": "Demander d'échanger une tâche",
+        "body": "Pour des raisons religieuses, je ne peux plus servir d'alcool ni manipuler de porc. Est-ce que quelqu'un d'autre pourrait s'occuper de cette partie du quart, et je prendrais plus de l'autre travail en échange?"
+      },
+      {
+        "title": "Proposer un lieu de rencontre ouvert",
+        "body": "Est-ce que ça vous dérangerait qu'on se rencontre dans l'aire ouverte, ou qu'on laisse la porte ouverte? C'est une question religieuse pour moi, ça n'a rien à voir avec vous."
+      },
+      {
+        "title": "Demander de déplacer un examen",
+        "body": "Je suis musulman et le [date] est l'Aïd, que je célèbre. Selon la politique sur les pratiques religieuses, est-ce que je pourrais écrire l'examen à un autre moment? Je vous en informe maintenant pour que ce soit plus facile à organiser."
       }
     ],
     "scenarios": [
@@ -320,11 +468,24 @@
       {
         "label": "Étape : consulter un imam",
         "href": "/roadmap/month-3-6/asking-an-imam"
+      },
+      {
+        "label": "Les ablutions (wudu) avec un foulard",
+        "href": "/faq#faq-pry-043"
+      },
+      {
+        "label": "Travail par quarts et regroupement des prières",
+        "href": "/faq#faq-pry-038"
+      },
+      {
+        "label": "Faire face à la haine et au harcèlement",
+        "href": "/guides/facing-hate-and-harassment"
       }
     ]
   },
   {
     "id": "identity-and-culture",
+    "group": "starting-out",
     "title": "Guide sur l'identité et la culture",
     "description": "Être musulman sans avoir l'impression de devoir adopter la culture de quelqu'un d'autre.",
     "intro": "L'islam change votre façon d'adorer et ce à quoi vous accordez de la valeur. Il n'efface pas votre personnalité, votre origine, votre langue ni les bons côtés de là d'où vous venez.",
@@ -342,6 +503,20 @@
       {
         "heading": "Les noms",
         "body": "La plupart des nouveaux musulmans gardent le nom qu'on leur a donné. Certains ajoutent un nom musulman parce qu'ils le souhaitent. Un changement n'est généralement pas obligatoire, sauf si le nom va à l'encontre de la croyance islamique ou a un sens laid. Si vous n'êtes pas sûr du sens de votre nom, demandez à une personne qualifiée plutôt que d'imaginer le pire."
+      },
+      {
+        "heading": "Religion ou coutume? Des exemples",
+        "body": "Beaucoup de choses que vous voyez à la mosquée sont de bonnes coutumes, pas des règles religieuses. Le rapport du Yaqeen Institute sur les convertis américains note que des musulmans bien intentionnés confondent parfois ce qui est islamique et ce qui leur est culturellement familier, et qu'on ne s'attend pas à ce que les convertis abandonnent leur propre culture. Le Coran compte la variété des langues et des couleurs humaines parmi les signes d'Allah (Coran 30:22), et dit que les gens ont été faits en nations et en tribus pour qu'ils se connaissent (Coran 49:13). Quelques exemples :",
+        "items": [
+          "Les vêtements : l'islam demande une tenue pudique. Un thobe, un shalwar kameez ou une abaya est un style culturel, pas une obligation.",
+          "La nourriture : l'islam demande une nourriture halal. Le biryani à la rupture du jeûne (iftar) est une coutume. Une tarte à la citrouille à l'iftar convient aussi, et le rapport du Yaqeen Institute utilise justement cet exemple.",
+          "La langue : certaines parties fixes de la prière se disent en arabe. Vous n'avez pas besoin de parler arabe ou ourdou dans la conversation, et c'est à chaque mosquée de décider si le sermon du vendredi se fait dans la langue d'ici.",
+          "Les noms : la plupart des convertis gardent leur nom. La section sur les noms, plus haut, en parle.",
+          "Les mariages : les cérémonies, les tenues et les coutumes de cadeaux varient beaucoup d'une culture à l'autre. Demandez à votre enseignant quelles parties d'un mariage sont des obligations religieuses.",
+          "La barbe, et la séparation plus ou moins grande des hommes et des femmes lors des événements : les savants et les mosquées diffèrent sur ces points, alors demandez à votre enseignant plutôt que de vous fier à la parole d'une seule personne.",
+          "Apportez un plat de votre propre culture au prochain repas-partage. Votre culture a aussi de bonnes choses à partager.",
+          "Vous n'avez pas besoin de changer vos vêtements, votre nom et votre cuisine dès la première semaine pour avoir l'air musulman. Vous n'avez pas non plus à rejeter les cultures musulmanes. Prenez-en le bon à votre rythme."
+        ]
       },
       {
         "heading": "Le sentiment d'être entre deux mondes",
@@ -380,6 +555,10 @@
       {
         "title": "Quand vous vous sentez en retard",
         "body": "Je suis nouveau et je prends cela au sérieux. Pourriez-vous m'aider avec ce qui compte le plus en ce moment, au lieu de me donner dix choses à la fois?"
+      },
+      {
+        "title": "Quand un aîné vous corrige sans arrêt",
+        "body": "Merci, je sais que vous voulez bien faire. Est-ce que c'est quelque chose que l'islam exige, ou est-ce la façon de faire là où vous avez grandi? J'essaie d'apprendre à faire la différence."
       }
     ],
     "scenarios": [
@@ -413,6 +592,7 @@
   },
   {
     "id": "relationships-and-marriage-basics",
+    "group": "family-and-relationships",
     "title": "Les relations et le mariage : l'essentiel",
     "description": "Ralentissez les grandes décisions, posez vos questions aux bonnes personnes et protégez votre sécurité et votre dignité.",
     "intro": "Les relations peuvent devenir compliquées après la Shahada, surtout quand il y a la famille, un passé amoureux, une pression pour se marier ou les attentes d'un partenaire. La première étape est simple : ne prenez pas seul une décision précipitée sur votre vie.",
@@ -444,6 +624,32 @@
         ]
       },
       {
+        "heading": "Si votre partenaire n'est pas musulman",
+        "body": "Beaucoup de gens prononcent leur Shahada alors qu'ils fréquentent quelqu'un ou vivent avec un partenaire. Votre Shahada est valide, et ce que vous avez fait avant est pardonné. Ce qui change, c'est l'avenir. En islam, l'intimité sexuelle a sa place dans le mariage (nikah). Le Coran dit : « N'approchez pas de la fornication » (17:32), et les savants comprennent cela comme le fait de rester loin aussi de ce qui y mène.\n\nSavoir si vous pouvez épouser votre partenaire dépend de si vous êtes un homme ou une femme, et de la religion de votre partenaire.\n\nSi vous êtes une femme, l'AMJA (fatwa 21783) et SeekersGuidance (2017) affirment toutes deux, comme un point de consensus des savants, qu'une femme musulmane n'épouse pas un homme qui n'est pas musulman. Elles s'appuient sur le Coran (2:221 et 60:10).\n\nSi vous êtes un homme, le Coran (5:5) permet d'épouser une femme chrétienne ou juive chaste. Les enseignants appellent quand même à la prudence. L'AMJA (fatwa 2575) dit que c'est permis mais ne le conseille pas, à cause des problèmes observés en pratique. L'école chaféite fixe des conditions plus strictes sur qui compte comme femme chrétienne ou juive ici, et un enseignant chaféite de SeekersGuidance (2016) dit que les savants locaux célèbrent rarement un tel mariage. Une femme d'une autre religion, ou sans religion, n'est pas visée par cette permission.\n\nSi votre partenaire s'intéresse à l'islam, c'est une bonne nouvelle. Sa Shahada doit quand même être pour Dieu, et non pour vous garder (SeekersGuidance 2014). Un enseignant de SeekersGuidance (2019) conseille d'attendre au moins un an après la Shahada d'un partenaire pour voir un engagement réel avant un vrai mariage (nikah). C'est un conseil, pas une décision juridique. Consultez un enseignant qualifié qui connaît votre situation."
+      },
+      {
+        "heading": "Si vous vivez déjà ensemble ou avez des enfants",
+        "body": "Ne partez pas ce soir dans la panique. Un logement, des enfants et de l'argent demandent un plan, et un déménagement précipité peut faire du mal aux personnes que vous aimez. Les savants vous demandent par contre d'arrêter les relations sexuelles dès maintenant. Si vous vivez ensemble, dormez séparément pendant que vous planifiez, et obtenez rapidement une aide privée qualifiée.\n\nPour un couple de convertis qui vit ensemble avant le mariage, un enseignant de SeekersGuidance (2020) conseille de faire le mariage (nikah) le plus tôt possible ou, si ce n'est pas possible bientôt, de vivre séparément, par exemple avec un colocataire du même sexe. Si vous êtes une femme et que votre partenaire n'est pas musulman, une réponse de SeekersGuidance (2017) dit que le seul chemin vers le mariage est sa Shahada sincère suivie d'un nouveau mariage (nikah), et que le repentir vous est ouvert.\n\nLes recommandations de l'AMJA sur les nouveaux musulmans traitent aussi de la grossesse avant le mariage, de la filiation d'un enfant conçu hors mariage et du repentir avant de se marier. Ces décisions diffèrent d'une école à l'autre et dépendent des détails : apportez votre situation à un savant plutôt que de les appliquer vous-même.\n\nLes faux pas arrivent. Le Prophète a enseigné qu'Allah pardonne aux gens qui pèchent puis demandent pardon (Sahih Muslim 2749). Repentez-vous et continuez.",
+        "items": [
+          "Dites tous les faits, en privé, à un imam ou à un enseignant qualifié. Cacher les enfants, l'argent ou la situation de logement par honte vous donnera une moins bonne réponse.",
+          "Ne pressez pas un partenaire de prononcer la Shahada pour pouvoir vous marier.",
+          "Ne supposez pas que la règle est la même pour les hommes et pour les femmes.",
+          "Continuez de traiter votre partenaire et vos enfants avec bonté pendant que vous trouvez une solution."
+        ]
+      },
+      {
+        "heading": "Votre logement, vos enfants et votre argent",
+        "body": "Ceci est de l'information générale sur l'Ontario, pas un avis juridique. Les autres provinces ont d'autres règles : vérifiez celles de l'endroit où vous vivez.\n\nEn Ontario, les conjoints non mariés ne sont pas tenus de partager les biens acquis pendant leur vie commune. Cela ne veut pas dire que vous n'avez aucun droit. Si vous avez contribué à payer un bien qui appartient à votre partenaire, vous pourriez avoir droit à une partie de ce bien, et les couples peuvent signer un accord de cohabitation. Les époux mariés partagent la valeur du foyer conjugal.",
+        "items": [
+          "Notez qui vit où, à quel nom sont le bail ou le prêt hypothécaire, qui paie quoi, les habitudes des enfants, et tout ce qui touche au statut d'immigration.",
+          "Parlez à un avocat en droit de la famille avant que quelqu'un déménage. En Ontario, le Service de référence du Barreau offre une consultation gratuite d'un maximum de 30 minutes.",
+          "Si l'argent manque, Aide juridique Ontario aide les personnes admissibles pour les questions de parentalité, de pension alimentaire et de violence familiale. Appelez le 1-800-668-8258, du lundi au vendredi, de 8 h 30 à 16 h 30 (HE).",
+          "En Ontario, appelez ou textez le 2-1-1 pour trouver de l'aide au logement et d'autres services locaux.",
+          "Les femmes peuvent obtenir un soutien offert par des musulmans auprès de Nisa Helpline (1-888-711-6472), Nisa Homes et Sakeenah Canada (ligne 24 h sur 24, 7 jours sur 7 : 1-888-671-3446).",
+          "Si vous êtes en danger, composez le 911."
+        ]
+      },
+      {
         "heading": "Comment poser la question à un imam",
         "body": "Une question claire permet à un imam ou à un enseignant de répondre de façon responsable. Dites-lui que vous êtes un nouveau musulman et que vous cherchez une prochaine étape concrète, pas un manuel juridique complet.",
         "items": [
@@ -456,6 +662,16 @@
       {
         "heading": "Limites et sécurité",
         "body": "Un vocabulaire religieux ne rend pas une relation saine. Soyez attentif à la pression, à l'isolement des autres, aux menaces, à une personne qui fouille votre téléphone, qui contrôle l'argent, qui presse le mariage, ou qui vous dit que vous n'avez pas le droit de demander conseil à quelqu'un d'autre."
+      },
+      {
+        "heading": "Si votre mariage prend fin",
+        "body": "Au Canada, le divorce religieux et le divorce civil sont deux choses distinctes. Régler l'un ne règle pas l'autre.\n\nDu côté religieux, un mari peut prononcer le divorce (talaq), et une période d'attente (iddah) suit (Coran 2:228 à 2:232 et 65:1). Une épouse peut demander de mettre fin au mariage en rendant son don de mariage (mahr) ou une autre compensation convenue (khul'). L'épouse de Thabit ibn Qays l'a fait à l'époque du Prophète (Sahih al-Bukhari 5273), et le Code de la famille de l'AMJA en traite à l'article 143. Les écoles diffèrent sur le moment où un juge ou un imam peut dissoudre un mariage.\n\nDu côté civil, si vous étiez légalement mariés, seul un tribunal peut accorder un divorce en vertu de la Loi sur le divorce fédérale. Habituellement, l'un de vous doit avoir vécu un an dans la province, et le tribunal cherche une rupture du mariage : un an de séparation, l'adultère ou la cruauté.\n\nPour la plupart des savants, un divorce civil ne règle pas la question religieuse. Le Code de la famille de l'AMJA (article 129) dit qu'un divorce civil met fin seulement au contrat civil, sauf si le mari le signe de plein gré. Une étude de 2023 (Wahb, Revue canadienne Droit et Société) a constaté que 14 des 15 fatwas examinées ne donnent aucun effet religieux à un divorce prononcé par un juge non musulman sans le consentement du mari. Le Conseil européen de la fatwa et de la recherche était la seule exception.\n\nSi un mari refuse de donner le divorce religieux, la Loi sur le divorce offre un outil. En vertu du paragraphe 21.1(2), un époux peut déposer un affidavit sur les obstacles au remariage religieux. En vertu du paragraphe 21.1(3), si l'autre époux ne lève pas les obstacles qui dépendent de lui, le tribunal peut rejeter ses demandes et radier ses documents. Le tribunal ne peut pas ordonner un talaq, et cela ne s'applique qu'aux couples légalement mariés, pas à un mariage religieux (nikah) qui n'a jamais été enregistré.\n\nEn Ontario, un arbitrage familial qui suit une loi religieuse plutôt que le droit canadien n'a aucun effet juridique (Loi de 2006 modifiant des lois en ce qui concerne le droit de la famille). Les biens et la parentalité sont décidés selon le droit canadien.\n\nCeci est de l'information générale, pas un avis juridique. Consultez un avocat en droit de la famille pour le côté civil et un enseignant qualifié pour le côté religieux, en même temps.",
+        "items": [
+          "Gardez des copies de votre contrat de mariage religieux (nikah), de toute entente sur le don de mariage (mahr) et de votre certificat de mariage civil.",
+          "Trouvez un avocat en droit de la famille. En Ontario, le Service de référence du Barreau offre une consultation gratuite d'un maximum de 30 minutes, et Aide juridique Ontario aide les personnes admissibles.",
+          "Ne négociez pas seul avec un conjoint qui vous contrôle ou vous fait peur. S'il y a de la violence, la sécurité passe d'abord : composez le 911 en cas de danger, et utilisez les services pour femmes indiqués plus haut.",
+          "Ne supposez pas qu'un divorce prononcé par un tribunal règle la question religieuse, ni qu'un divorce religieux met fin au mariage légal."
+        ]
       },
       {
         "heading": "Ceci n'est pas un avis juridique ni une thérapie de couple",
@@ -474,6 +690,10 @@
       {
         "title": "Tenir une limite",
         "body": "Je veux gérer cela d'une manière halal et respectueuse, mais je ne suis pas d'accord qu'on me mette de la pression. J'ai besoin de temps et de bons conseils."
+      },
+      {
+        "title": "Parler de votre partenaire à un imam",
+        "body": "Je suis un nouveau musulman et je vis avec mon partenaire, qui n'est pas musulman. Nous partageons un logement, et il y a des enfants et de l'argent en jeu. Je veux faire les choses correctement sans laisser personne sans toit. Est-ce que je pourrais prendre un rendez-vous privé pour bien vous expliquer la situation?"
       }
     ],
     "scenarios": [
@@ -488,6 +708,10 @@
       {
         "title": "Vous êtes déjà marié et votre conjoint n'est pas musulman.",
         "response": "Ne réglez pas cette question avec du contenu général trouvé sur un site Web. Demandez conseil à un savant qualifié de votre région qui pourra examiner votre situation réelle avec vous."
+      },
+      {
+        "title": "Votre partenaire offre de prononcer la Shahada pour que vous puissiez vous marier rapidement.",
+        "response": "Remerciez-le, et ralentissez. Une Shahada doit être pour Dieu, pas pour un mariage. Les enseignants conseillent d'attendre de voir un engagement réel d'abord. Gardez la relation licite (halal) en attendant, et demandez à un enseignant local qualifié quelle est la prochaine étape."
       }
     ],
     "relatedLinks": [
@@ -502,11 +726,40 @@
       {
         "label": "Guide pour la famille et les amis",
         "href": "/guides/family-and-friends"
+      },
+      {
+        "label": "Comment les musulmans se marient",
+        "href": "/guides/how-muslims-marry"
+      },
+      {
+        "label": "Les enfants et la vie de famille",
+        "href": "/guides/children-and-family-life"
+      },
+      {
+        "label": "Travailler et étudier avec l'autre sexe",
+        "href": "/guides/work-and-school"
+      },
+      {
+        "label": "Questions sur les relations et l'intimité",
+        "href": "/faq#faq-relationships-and-intimacy"
+      },
+      {
+        "label": "Devenir musulman autour d'un mariage : ma Shahada compte-t-elle?",
+        "href": "/faq#faq-fnd-039"
+      },
+      {
+        "label": "Avoir un bébé",
+        "href": "/guides/having-a-baby"
+      },
+      {
+        "label": "Testaments et héritage",
+        "href": "/topics/wills-and-inheritance"
       }
     ]
   },
   {
     "id": "loneliness-and-belonging",
+    "group": "community-and-safety",
     "title": "Solitude et appartenance",
     "description": "Créez un lien solide, et sachez quand il est temps de demander une aide professionnelle.",
     "intro": "Beaucoup de nouveaux musulmans se sentent pris entre deux mondes pendant un temps. La solitude ne prouve pas que votre foi est faible. Elle signifie généralement que vos amitiés, vos habitudes et les lieux où vous vous sentez chez vous changent tous en même temps.",
@@ -534,6 +787,18 @@
       {
         "heading": "Les programmes pour convertis au Canada",
         "body": "Certaines mosquées canadiennes offrent des programmes conçus pour les nouveaux musulmans. Quelques exemples, chacun décrit sur le site Web de l'organisme : Convert Care à l'Islam Care Centre d'Ottawa, tous les mercredis à 18 h; Convert Connect à MAC Masjid Toronto, qui peut organiser un guide pour votre première visite; le New Muslim Family Meet Up à la London Muslim Mosque; des rencontres hebdomadaires pour les nouveaux musulmans à Ummah Masjid, à Halifax; le Converts Committee de la Manitoba Islamic Association, à Winnipeg; et New Muslim Care à la BC Muslim Association. Le sujet sur la communauté en présente d'autres, avec leurs sites Web.\n\nVérifiez avant d'y aller. Les horaires et les lieux changent, et nous les avons vérifiés pour la dernière fois le 23 septembre 2026."
+      },
+      {
+        "heading": "Si vous subissez des préjugés dans un espace musulman",
+        "body": "Les préjugés existent chez certains musulmans, comme chez tous les êtres humains. Être traité comme un moins bon musulman à cause de votre race, de vos origines ou parce que vous êtes converti, ce n'est pas l'islam. Le Coran dit que les gens ont été faits en nations et en tribus pour qu'ils se connaissent, et que le plus noble d'entre eux auprès d'Allah est le plus pieux (Coran 49:13). L'article du Dr Jonathan Brown pour le Yaqeen Institute sur le racisme envers les Noirs explique que ce genre de préjugé vient de la culture, pas de la religion.\n\nC'est une expérience réelle, et vous ne l'imaginez pas. Dans le même sondage du Yaqeen Institute auprès de 618 convertis américains, 36 % ont dit que le fait de ne pas se sentir accueillis dans la communauté leur avait déjà causé des doutes religieux, et 30.9 % ont dit la même chose du fait que des musulmans les avaient fait se sentir inférieurs. Ces chiffres viennent d'un échantillon américain et mesurent ce qui a déjà causé des doutes, pas le nombre de personnes qui ont subi du racisme. Au Canada, une étude de 2025 sur des musulmans noirs africains à Montréal (pas précisément des convertis) a décrit des gens repoussés aux marges des espaces de prière et tenus à l'écart des postes de responsabilité.\n\nLe comportement de certains musulmans n'est pas la mesure de l'islam. Vous n'avez pas à adopter une nouvelle identité ethnique pour être accepté, et vous n'avez pas à porter cela seul.",
+        "items": [
+          "Notez ce qui s'est passé et quand, pendant que c'est frais.",
+          "Parlez à une personne de confiance avant de décider de quitter une communauté.",
+          "Trouvez une personne accueillante, ou essayez une autre mosquée. Les programmes pour convertis présentés plus haut sont un bon point de départ.",
+          "Si vous voulez soulever la question, parlez calmement à l'imam ou au conseil d'administration, en personne ou par écrit.",
+          "S'il y a des menaces ou du harcèlement, utilisez les moyens de signalement du guide sur les signaux d'alarme.",
+          "Si vous êtes membre des Premières Nations, Inuit ou Métis et avez besoin de parler à quelqu'un maintenant, la Ligne d'écoute d'espoir pour le mieux-être est ouverte 24 h sur 24, 7 jours sur 7, au 1-855-242-3310."
+        ]
       },
       {
         "heading": "Une routine hebdomadaire en douceur",
@@ -565,6 +830,14 @@
       {
         "title": "Demander un soutien professionnel",
         "body": "J'ai du mal avec la solitude et ça commence à nuire à mes journées. Pourriez-vous m'aider à trouver un conseiller, une ligne de crise ou un soutien en santé mentale qui comprend la foi?"
+      },
+      {
+        "title": "Quand les gens ne parlent qu'une autre langue autour de vous",
+        "body": "J'aimerais bien participer à cette conversation. Est-ce qu'on pourrait passer au français (ou à l'anglais) un moment, ou est-ce que quelqu'un pourrait me résumer?"
+      },
+      {
+        "title": "Quand quelqu'un vous demande si vous êtes vraiment musulman",
+        "body": "Oui, je suis musulman. J'apprends encore, comme tout le monde ici. S'il y a quelque chose que je devrais savoir selon vous, je suis content de l'entendre, avec gentillesse."
       }
     ],
     "scenarios": [
@@ -593,11 +866,16 @@
       {
         "label": "Guide de la première visite à la mosquée",
         "href": "/guides/first-masjid-visit"
+      },
+      {
+        "label": "Signaux d'alarme et sécurité",
+        "href": "/guides/red-flags-and-staying-safe"
       }
     ]
   },
   {
     "id": "healthy-community-signs",
+    "group": "community-and-safety",
     "title": "Les signes d'une communauté saine",
     "description": "Faites la différence entre un soutien qui vous aide à grandir et une pression déguisée en aide.",
     "intro": "Une bonne communauté musulmane rend les bases plus faciles à porter. Cette page présente ce à quoi ressemble un soutien sain, et les signaux d'alarme qui indiquent qu'il faut prendre du recul ou demander une aide qualifiée.",
@@ -623,12 +901,35 @@
         "body": "Méfiez-vous de quiconque vous dit de n'écouter que lui, vous pousse à couper tout de suite les liens avec tout le monde, vous presse vers un mariage ou des décisions financières, vous demande de garder un secret nuisible, ou vous fait honte de vouloir une aide qualifiée."
       },
       {
+        "heading": "Comment vérifier un enseignant",
+        "body": "Bien des gens en ligne se disent cheikh. Le savant des premiers temps Muhammad ibn Sirin a dit : « Ce savoir est une religion, alors examinez bien de qui vous prenez votre religion » (Sahih Muslim, Introduction 26). Un titre ou un grand nombre d'abonnés ne montre pas que quelqu'un est qualifié. Une réponse de SeekersGuidance sur les qualités d'un enseignant mentionne le fait de présenter clairement les différences entre les écoles, et l'article du Dr Nazir Khan pour le Yaqeen Institute dit qu'une personne non spécialiste a besoin d'un enseignant digne de confiance qu'elle peut joindre pour poser ses questions.\n\nAu Canada, le Conseil canadien des imams dit être affilié à plus de 100 imams et a annoncé un programme d'accréditation des imams, mais il n'a publié ni critères ni registre public. Pour l'instant, demandez directement à la mosquée : « Qui donne ce cours, et où a-t-il étudié? »\n\nDes personnes qualifiées peuvent quand même mal se comporter : les signes d'alerte ci-dessus et le guide sur les signaux d'alarme s'appliquent toujours. Des questions à poser :",
+        "items": [
+          "Où a-t-il étudié, et avec qui? Un enseignant qualifié peut habituellement nommer ses propres enseignants.",
+          "Une mosquée locale ou un établissement reconnu avec une adresse publique le soutient-il?",
+          "Dit-il « je ne sais pas » et vous oriente-t-il ailleurs quand une question le dépasse?",
+          "Présente-t-il équitablement les différences entre les écoles, sans se moquer d'autres savants?",
+          "Est-il content que vous consultiez aussi un autre enseignant? Gardez un deuxième avis de confiance.",
+          "Préférez un cours à la mosquée à des leçons privées en tête-à-tête avec quelqu'un rencontré en ligne, et ne payez pas d'avance des leçons privées à un inconnu."
+        ]
+      },
+      {
         "heading": "Les questions de débutant devraient être normales",
         "body": "Vous devriez pouvoir demander où prier, comment faire les ablutions (wudu), ce que veut dire un mot ou qui pourrait vous enseigner. Dans un espace accueillant pour les débutants, aucune de ces questions ne devient gênante."
       },
       {
         "heading": "Orienter vers quelqu'un d'autre est une force",
         "body": "Un mentor responsable ne prétend pas avoir réponse à tout. Le mariage, le divorce, la violence, les traumatismes, les questions détaillées de jurisprudence (fiqh), les problèmes juridiques, la détresse psychologique et les décisions financières relèvent tous de personnes qualifiées."
+      },
+      {
+        "heading": "Refuser d'être filmé ou mis en vitrine",
+        "body": "Votre histoire vous appartient. Certaines mosquées aiment filmer une Shahada et la publier, ou demandent à de nouveaux musulmans de prendre la parole lors d'un souper ou d'une collecte de fonds. Habituellement, elles veulent bien faire, et le rapport du Yaqeen Institute sur les convertis encourage les responsables à inviter les convertis à raconter leur histoire. Partager est un choix, et refuser aussi. Votre Shahada compte, que quelqu'un l'enregistre ou non.",
+        "items": [
+          "Dites-le avant la Shahada, pas après : « S'il vous plaît, pas de photos ni de vidéo. »",
+          "Vous n'avez pas à décider sur-le-champ. « Laissez-moi y réfléchir » est une réponse complète.",
+          "Si vous acceptez, fixez des conditions : pas de nom complet, pas de visage, et une limite à la durée de publication.",
+          "Demandez à voir tout contenu avant qu'il soit publié.",
+          "Si quelque chose est déjà publié et que vous voulez le faire retirer, demandez à la personne ou à la mosquée de l'enlever. Des copies et des captures d'écran peuvent rester en ligne même après le retrait d'une publication."
+        ]
       },
       {
         "heading": "Si un espace ne semble pas sûr",
@@ -647,6 +948,10 @@
       {
         "title": "Chercher un autre espace",
         "body": "Je ne pense pas que ce soit le bon endroit pour moi en ce moment. Connaissez-vous un autre cours ou une autre mosquée où l'on est calme avec les nouveaux musulmans?"
+      },
+      {
+        "title": "Refuser de prendre la parole lors d'un événement",
+        "body": "Merci de me l'avoir demandé. Je ne suis pas prêt à raconter mon histoire en public, mais je serais content d'aider autrement."
       }
     ],
     "scenarios": [
@@ -684,6 +989,7 @@
   },
   {
     "id": "halal-living-in-daily-life",
+    "group": "everyday-life",
     "title": "Vivre halal au quotidien",
     "description": "Commencez par les bases claires de la nourriture halal, gérez calmement les repas de famille, les activités sociales et le travail, et sachez quand un détail demande une aide locale.",
     "intro": "On apprend à vivre halal une décision ordinaire à la fois. Commencez par les bases claires, essayez de ne pas tomber dans l'habitude de vérifier chaque étiquette deux fois, et demandez l'aide d'une personne qualifiée de votre région quand les détails se compliquent.",
@@ -717,8 +1023,38 @@
         "body": "Pour les dîners, les réunions avec traiteur et les voyages d'affaires, choisissez l'option claire ou apportez votre repas. Si une activité tourne autour de l'alcool, décidez à l'avance quelle part vous y prendrez, et demandez à une personne qualifiée si vous n'êtes pas sûr."
       },
       {
+        "heading": "Au-delà des bases",
+        "body": "Quelques questions se posent une fois que les bases sont bien établies. La page de questions répond à chacune avec ses sources, et les écoles diffèrent sur plusieurs d'entre elles.",
+        "items": [
+          "La viande casher : les écoles hanafite et hanbalite exigent le nom de Dieu sur chaque animal, alors que l'école chaféite le considère comme recommandé. Demandez à votre enseignant si la viande casher est une option pour vous.",
+          "Le fromage : cherchez sur l'étiquette les mentions enzyme microbienne, présure végétale ou végétarien. L'école hanafite permet la présure tirée d'animaux autres que le porc, et d'autres écoles sont plus strictes.",
+          "Les restaurants : posez la question quand une contamination est probable, surtout avec les friteuses partagées, plutôt que pour chaque cas possible.",
+          "La chasse et la pêche : chasser pour se nourrir est permis, pas pour le sport, et une réponse hanafite juge la pêche avec remise à l'eau non permise. Apprenez auprès d'un enseignant les conditions pour le gibier.",
+          "Le poisson et les plats végétariens sont toujours une solution tranquille."
+        ]
+      },
+      {
         "heading": "Quand les détails demandent de l'aide",
         "body": "La gélatine, les enzymes, les arômes, les médicaments, les cuisines de restaurant et les normes de certification deviennent vite déroutants. Si l'une de ces questions revient souvent pour vous, demandez à un imam local, à un organisme de certification halal, à un pharmacien ou à un enseignant qualifié, selon la question."
+      },
+      {
+        "heading": "Si vous êtes malade ou à l'hôpital",
+        "body": "Quand vous êtes malade, les règles de l'adoration vous font de la place. Vous priez de la façon que votre corps permet : debout, assis ou couché. Si l'eau vous causait du tort, les ablutions sèches (tayammum) remplacent le lavage. Notre page de questions et le compagnon de prière expliquent les deux.\n\nCertains hôpitaux canadiens ont une équipe de soins spirituels et une salle de prière. À L'Hôpital d'Ottawa, par exemple, vous demandez des soins spirituels à votre équipe soignante, les salles de prière sont ouvertes jour et nuit, et il y a des prières musulmanes le vendredi. Dites à votre infirmière que vous êtes musulman et demandez ce que votre hôpital offre.\n\nCertains médicaments et vaccins contiennent de la gélatine de porc ou un peu d'alcool. Une réponse de l'AMJA dit d'éviter la gélatine dans les médicaments quand il existe une autre option, et que lorsqu'il n'y en a pas, le médicament peut être pris. Demandez au pharmacien s'il existe une version sans gélatine ou sans alcool. S'il n'existe pas de version sans gélatine, la réponse de l'AMJA permet le médicament. Pour l'alcool dans un médicament, demandez à votre imam, et n'arrêtez pas un médicament dont vous avez besoin en attendant une réponse. Recevoir du sang est aussi permis : une autre réponse de l'AMJA dit que donner et recevoir du sang et des organes est permis, quelle que soit la religion du donneur, avec une seule exception limitée.\n\nSi vous êtes trop malade pour jeûner, les pages sur le Ramadan et le jeûne expliquent les dispenses.",
+        "items": [
+          "Dites à l'infirmière que vous êtes musulman et renseignez-vous sur les soins spirituels ou une salle de prière.",
+          "Demandez à un ami d'apporter un petit tapis de prière et installez une application du Coran sur votre téléphone.",
+          "Demandez au pharmacien s'il existe d'autres options avant de refuser un médicament.",
+          "Priez assis ou couché si c'est ce que votre corps permet."
+        ]
+      },
+      {
+        "heading": "Plus tard dans la vie et en établissement de soins",
+        "body": "Il n'est jamais trop tard pour devenir musulman ni pour apprendre. Si vos genoux ou votre dos rendent la prière difficile, priez assis sur une chaise ou de la façon que votre corps permet. Allah n'impose à aucune âme plus qu'elle ne peut porter (Coran 2:286). Les personnes âgées qui ne peuvent pas jeûner ont leurs propres règles, que le sujet sur le jeûne explique.\n\nSi vous vivez dans un foyer de soins de longue durée en Ontario, la Déclaration des droits des résidents, telle que CLEO l'explique, vous donne le droit de poursuivre vos intérêts religieux et spirituels avec une aide raisonnable, et de recevoir une alimentation et des soins adaptés à vos besoins. Vous pouvez invoquer ces droits quand vous demandez des repas halal et un endroit et un moment tranquilles pour prier. Les autres provinces ont leurs propres règles : renseignez-vous auprès du personnel du foyer ou d'une clinique juridique de votre région.",
+        "items": [
+          "Demandez au foyer d'inscrire vos heures de prière et votre régime halal dans votre plan de soins.",
+          "Demandez à votre mosquée si des bénévoles visitent les personnes en foyer de soins ou à l'hôpital.",
+          "Demandez à un proche ou à un ami d'installer pour vous une application de récitation du Coran ou un lecteur audio."
+        ]
       }
     ],
     "scripts": [
@@ -761,11 +1097,28 @@
       {
         "label": "Guide pour le travail et l'école",
         "href": "/guides/work-and-school"
+      },
+      {
+        "label": "Questions et réponses",
+        "href": "/faq"
+      },
+      {
+        "label": "Prier avec de la douleur ou un handicap",
+        "href": "/faq#faq-pry-020"
+      },
+      {
+        "label": "Les décisions de fin de vie",
+        "href": "/topics/end-of-life-decisions"
+      },
+      {
+        "label": "Le jeûne",
+        "href": "/topics/fasting"
       }
     ]
   },
   {
     "id": "modesty-and-clothing",
+    "group": "everyday-life",
     "title": "La pudeur et les vêtements",
     "description": "Faites des changements vestimentaires que vous pouvez maintenir, en tenant compte du travail, de l'école, de la famille, de la sécurité et du climat.",
     "intro": "La pudeur ne se limite pas aux vêtements, mais un changement de tenue reste ce que tout le monde remarque. Cette page vous aide à la prendre au sérieux sans panique et sans vous déguiser avec la culture de quelqu'un d'autre.",
@@ -777,8 +1130,19 @@
     ],
     "sections": [
       {
-        "heading": "Commencez progressivement",
-        "body": "Choisissez une étape que vous pouvez maintenir : des vêtements plus amples, des tenues dans lesquelles vous pouvez prier, des couches plus longues ou une meilleure couverture dans les milieux où c'est sans danger. Évitez les achats de panique."
+        "heading": "Faites des pas que vous pouvez maintenir",
+        "body": "Choisissez un pas que vous pouvez maintenir : des vêtements plus amples, des tenues dans lesquelles vous pouvez prier, des épaisseurs plus longues, ou une meilleure couverture dans les milieux où c'est sans danger. Avancer à un rythme que vous pouvez tenir ne rend pas facultatif ce qui est obligatoire. Cela veut dire que vous travaillez à y arriver. Évitez la frénésie d'achats sous le coup de la panique."
+      },
+      {
+        "heading": "Commencer à porter le hijab",
+        "body": "Une réponse de SeekersGuidance explique que les quatre écoles sunnites considèrent le fait de couvrir les cheveux (hijab) comme obligatoire pour les femmes musulmanes adultes, en s'appuyant sur des versets comme 24:31 et 33:59. Si vous ne pouvez pas commencer aujourd'hui, il ne cesse pas d'être obligatoire. Parlez à un enseignant de ce qui vous retient et choisissez un début que vous pouvez maintenir. Un enseignant de SeekersGuidance conseille de commencer tout de suite plutôt que par petites étapes, avec un style simple.\n\nBeaucoup de converties commencent effectivement plus tard. Dans un sondage de 2021 du Yaqeen Institute auprès de convertis aux États-Unis, 63 % des femmes portaient le hijab. Parmi elles, 46 % ont commencé au moment de leur conversion, 30 % quelques mois plus tard et 24 % un an ou plus après. C'est un échantillon américain, et il décrit ce que les gens ont fait, pas ce que vous devez faire.",
+        "items": [
+          "Si porter le hijab pouvait entraîner des menaces, de la violence ou une expulsion de la maison, faites un plan de sécurité avec des personnes de confiance avant un changement visible. Votre sécurité passe d'abord, et la page Obtenir de l'aide présente des lignes de crise canadiennes.",
+          "Tout style convient s'il couvre les cheveux, le cou et la tête, selon la même réponse de SeekersGuidance. Gardez un style simple qui va avec un uniforme ou de l'équipement de sécurité.",
+          "Au travail, la politique ontarienne sur la croyance (section 10.2) dit qu'un code vestimentaire doit accommoder un couvre-chef religieux, sauf si cela cause un préjudice injustifié. Le Québec interdit les signes religieux dans certains postes du secteur public, ce que le guide sur le travail et l'école explique. Ceci est de l'information générale, pas un avis juridique.",
+          "Si vous vous attendez à des questions au travail, informez votre gestionnaire en une phrase.",
+          "Ne laissez personne fixer votre calendrier par la honte. Vous êtes musulmane avant et après l'avoir mis."
+        ]
       },
       {
         "heading": "La culture et le principe religieux",
@@ -786,7 +1150,17 @@
       },
       {
         "heading": "Les réalités du travail et de l'école",
-        "body": "Les uniformes, l'équipement de sécurité, les sports, les laboratoires et les règlements scolaires demandent tous de la planification. Certains endroits publient des lignes directrices sur les droits de la personne qui portent sur la tenue religieuse et les accommodements, mais les règles varient selon le lieu. Cette page n'est pas un avis juridique."
+        "body": "Les uniformes, l'équipement de sécurité, les sports, les laboratoires et les politiques scolaires demandent tous de la planification. Certains endroits publient des directives sur les droits de la personne qui couvrent les tenues religieuses et les accommodements, mais les règles varient selon l'endroit. Cette page n'est pas un avis juridique.\n\nPour les photos d'identité, les règles canadiennes sur les passeports, la prise de données biométriques d'IRCC, ainsi que le permis de conduire et la carte Santé de l'Ontario permettent tous un couvre-chef religieux, pourvu que tout votre visage soit visible. La page de questions donne les détails."
+      },
+      {
+        "heading": "Le gym, la natation et le sport",
+        "body": "Continuez de bouger. L'exercice vous fait du bien, et rien de tout cela ne veut dire y renoncer.\n\nLes savants diffèrent sur les gyms mixtes. Une réponse de SeekersGuidance du mawlana Ilyas Patel, vérifiée par le cheikh Abdul-Rahim Reasat, dit que le choix le plus conscient de Dieu est de les éviter quand c'est possible. Elle suggère un gym à la maison, un partenaire d'entraînement, des heures plus tranquilles ou un espace privé pendant que vous cherchez un gym non mixte. Une fatwa de l'AMJA du Dr Main Khalid Al-Qudah compare un gym à un supermarché ou à une rue : vous pouvez y aller, baisser le regard et limiter les interactions au nécessaire.",
+        "items": [
+          "Les hommes : une réponse de SeekersGuidance sur la natation dit de se couvrir du nombril jusqu'un peu plus bas que le genou, et suggère un pantalon de compression trois-quarts. La même solution fonctionne pour les shorts de sport qui remontent.",
+          "Les femmes : une réponse de SeekersGuidance du cheikh Anas al-Musa dit que la natation est permise sous conditions : les endroits réservés aux femmes sont préférables, les vêtements devraient être amples et pas minces, et il vaut mieux éviter les vestiaires publics.",
+          "Demandez à votre centre récréatif local s'il offre des plages horaires de natation et de gym réservées aux femmes ou aux hommes.",
+          "Pour les sports d'équipe et l'éducation physique à l'école, demandez à la ligue ou à l'école une tenue pudique. La politique ontarienne sur la croyance cite en exemple les lignes directrices d'un conseil scolaire sur la tenue d'éducation physique, le vestiaire privé et le maillot de bain différent."
+        ]
       },
       {
         "heading": "La famille et la sécurité",
@@ -795,6 +1169,10 @@
       {
         "heading": "Le climat et le confort",
         "body": "La chaleur, le froid, la mobilité, les besoins sensoriels et les problèmes de santé comptent tous. Demandez à un enseignant qualifié ce qui s'applique à votre situation et choisissez des vêtements qui vous permettent de prier et de passer votre journée."
+      },
+      {
+        "heading": "Commencez progressivement",
+        "body": "Choisissez une étape que vous pouvez maintenir : des vêtements plus amples, des tenues dans lesquelles vous pouvez prier, des couches plus longues ou une meilleure couverture dans les milieux où c'est sans danger. Évitez les achats de panique."
       }
     ],
     "scripts": [
@@ -809,6 +1187,10 @@
       {
         "title": "Au travail ou à l'école",
         "body": "J'ai un besoin vestimentaire lié à ma religion et j'aimerais trouver une façon pratique d'y répondre qui respecte aussi les exigences de sécurité et de mon poste."
+      },
+      {
+        "title": "Parler du hijab à votre gestionnaire",
+        "body": "J'ai commencé à porter un foulard pour des raisons religieuses. Ça ne changera rien à mon travail, et je peux porter un style qui respecte l'uniforme et les règles de sécurité."
       }
     ],
     "scenarios": [
@@ -837,11 +1219,20 @@
       {
         "label": "Guide pour le travail et l'école",
         "href": "/guides/work-and-school"
+      },
+      {
+        "label": "Obtenir de l'aide",
+        "href": "/get-help"
+      },
+      {
+        "label": "Faire face à la haine et au harcèlement",
+        "href": "/guides/facing-hate-and-harassment"
       }
     ]
   },
   {
     "id": "how-to-ask-for-help",
+    "group": "starting-out",
     "title": "Comment demander de l'aide",
     "description": "Choisissez la bonne personne, expliquez clairement la situation et sachez quand une situation demande une aide urgente.",
     "intro": "Vous n'avez pas besoin de connaître la bonne porte avant de frapper. Cette page vous aide à savoir si votre question relève d'un imam, d'un enseignant, d'un conseiller, de l'administration d'une mosquée, d'un organisme de défense des droits ou d'un service d'urgence. Si vous voulez poser une question à notre équipe ou demander un mentor, utilisez la page Obtenir de l'aide.",
@@ -923,11 +1314,20 @@
       {
         "label": "Trouver une mosquée",
         "href": "/resources/find-masjid"
+      },
+      {
+        "label": "Quand quelqu'un meurt",
+        "href": "/guides/when-someone-dies"
+      },
+      {
+        "label": "Testaments et héritage",
+        "href": "/topics/wills-and-inheritance"
       }
     ]
   },
   {
     "id": "guide-for-mentors",
+    "group": "mentoring",
     "title": "Guide pour les mentors des nouveaux musulmans",
     "description": "Comment accueillir un nouveau musulman avec des priorités calmes, des limites claires et des orientations honnêtes.",
     "intro": "Un mentor n'a pas à répondre à tout. Le meilleur soutien au début est stable, discret et pratique, et il confie les questions délicates aux personnes qualifiées pour y répondre.",
@@ -965,6 +1365,10 @@
           "Un professionnel du droit ou de la défense des droits pour le travail, l'école, le logement, la garde des enfants, l'immigration et tout ce qui touche aux documents juridiques ou financiers.",
           "L'administration de la mosquée pour les cours, le stationnement, l'accessibilité, les heures de prière et l'aspect pratique des visites."
         ]
+      },
+      {
+        "heading": "Race et appartenance",
+        "body": "Certains convertis, et les convertis noirs en particulier, rencontrent des préjugés dans les espaces musulmans. Le rapport de 2025 du Yaqeen Institute sur les convertis américains recommande que les responsables aillent vers les convertis noirs et les interrogent sur leurs expériences liées à la race au sein de la communauté musulmane, et que les conseils d'administration comptent des personnes de différentes origines ou un représentant des convertis. Posez des questions, écoutez, et ne cherchez pas à minimiser. Le guide sur la solitude et l'appartenance contient une section que vous pouvez partager."
       },
       {
         "heading": "Vie privée et sécurité",
@@ -1047,12 +1451,15 @@
         "channel": "Sheikh Assim al-Hakeem",
         "duration": "1:04:14",
         "note": "Pour les mentors. C'est une présentation longue, détaillée et plus stricte, selon une seule approche, qui diffère de certaines écoles sur plusieurs points. Elle vous sera utile comme contexte, mais ce n'est pas un point de départ pour un débutant. Pour une personne nouvelle, commencez par le compagnon de la prière (salah) et ses vidéos plus courtes.",
-        "sourceIds": ["video-assim-prophets-prayer"]
+        "sourceIds": [
+          "video-assim-prophets-prayer"
+        ]
       }
     ]
   },
   {
     "id": "holidays-and-family-occasions",
+    "group": "family-and-relationships",
     "title": "Les fêtes et les occasions familiales",
     "description": "Ce à quoi vous pouvez participer à Noël, à l'Action de grâce, aux anniversaires et aux autres occasions familiales, et comment garder les liens familiaux.",
     "intro": "Les fêtes peuvent être la partie la plus difficile de la première année. Votre famille veut vous voir, et vous voulez garder votre foi. Les savants s'entendent sur deux choses : garder les liens avec sa famille fait partie de l'islam, et un musulman ne participe pas à l'adoration d'une autre religion. Entre ces deux points, leurs avis divergent, et ce guide présente l'éventail des opinions sans choisir à votre place.",
@@ -1092,6 +1499,10 @@
         "body": "Un office de Pâques ou de Noël à l'église est un acte d'adoration, et c'est là que les savants tracent une limite claire. Une réponse de SeekersGuidance (Ustadh Farid Dingle) indique qu'il n'est pas permis de célébrer activement la fête religieuse d'une autre religion, alors qu'apprendre à connaître d'autres traditions ne pose pas de problème. Un dîner familial de Pâques est traité comme le repas de Noël ci-dessus.\n\nPour les mariages et les funérailles à l'église, les avis sont plus variés. Dar al-Ifta d'Égypte et un savant de l'AMJA permettent d'assister aux funérailles d'un proche, même à l'église. Des réponses hanafites de SeekersGuidance permettent la réunion familiale, mais pas l'office à l'église sans un besoin important. IslamQA adopte un avis strict, y compris pour les mariages à l'église. Notre sujet sur les croyances fondamentales explique pourquoi l'adoration revient à Allah seul. Posez la question à un imam local avant l'événement, car les détails de votre situation comptent."
       },
       {
+        "heading": "Diwali, Vaisakhi, le Nouvel An lunaire, Norouz et Hanoukka",
+        "body": "La même ligne s'applique à chaque tradition familiale. Le repas, la visite et le temps passé ensemble relèvent des liens familiaux. Les prières et les rites sont un culte, et vous vous en retirez.\n\nLe Nouvel An lunaire : un article de MuslimSG, une plateforme du Conseil religieux islamique de Singapour (MUIS), dit que les soupers de retrouvailles, les visites aux aînés et l'échange d'oranges et d'enveloppes rouges (ang bao) sont culturels. En citant le Bureau du mufti de Singapour, il dit que vous pouvez assister à une activité comportant des éléments religieux pour observer et montrer votre respect, sans participer aux rites. C'est un article plutôt qu'une fatwa formelle, et il ne traite pas des rites envers les ancêtres.\n\nDiwali : une réponse de SeekersGuidance du cheikh Farid Dingle, au sujet d'une sortie scolaire à un événement de Diwali dans un temple, dit que participer au rite d'une autre religion n'est pas permis, et que par défaut, un musulman n'entre pas dans un temple ou une église sans réel besoin. La même réponse note qu'il existe des positions fiables qui permettent d'entrer dans des églises ou des temples. Elle ne traite pas d'un repas familial de Diwali ni des sucreries à la maison.\n\nVaisakhi, Norouz, Hanoukka et les cérémonies autochtones : nous n'avons pas trouvé de réponse savante pour ces occasions. Appliquez le principe du début de ce guide, et demandez à un imam local ce qui s'applique à l'occasion précise de votre famille avant qu'elle arrive."
+      },
+      {
         "heading": "Les fêtes où l'on sert de l'alcool",
         "body": "Un hadith de Jami at-Tirmidhi (2801, jugé Hasan par Darussalam sur Sunnah.com) est la base sur laquelle beaucoup de savants déconseillent de s'asseoir à une table où l'on sert de l'alcool. Une réponse de SeekersGuidance au sujet d'une fête d'anniversaire familiale avec de l'alcool conseille de décliner poliment une réunion centrée sur l'alcool et de proposer autre chose, comme inviter la famille au restaurant ou lui rendre visite avant.\n\nLes savants divergent sur les événements où l'alcool est présent sans être le but de la réunion, comme un souper du jour de l'An. Demandez à votre imam comment cela s'applique à vous."
       },
@@ -1106,6 +1517,10 @@
       {
         "heading": "Si votre famille est hostile",
         "body": "Si une visite pendant les fêtes risque de mener à des cris, des menaces ou de la violence, votre sécurité passe en premier. Une réponse de SeekersGuidance indique que vous pouvez réduire les contacts avec un proche qui vous fait du tort et garder le lien autrement, par des appels, de petits cadeaux et des invocations (dua) pour lui. La page du gouvernement du Canada sur la planification de la sécurité peut vous aider à vous préparer, et en cas de danger, appelez le 911. Notre guide sur les signaux d'alarme et la sécurité et notre guide pour la famille et les amis offrent plus d'aide."
+      },
+      {
+        "heading": "Quand un proche qui n'était pas musulman meurt",
+        "body": "Vous avez le droit d'être en deuil. Le Prophète a pleuré quand son fils est mort (Sahih al-Bukhari 1303), et perdre un parent ou un grand-parent qui n'était pas musulman, c'est quand même perdre quelqu'un que vous aimez. Allez aux funérailles si vous le pouvez, en suivant les conseils ci-dessus, et utilisez des mots de réconfort simples avec votre famille. Une réponse hanafite de SeekersGuidance dit que les condoléances habituelles sont correctes.\n\nBeaucoup de convertis demandent s'ils peuvent prier pour un proche mort hors de l'islam. Les savants répondent différemment. Des réponses de SeekersGuidance disent qu'on ne demande pas formellement le pardon, mais qu'on peut espérer et demander qu'il reçoive ce qu'il y a de meilleur. Dar al-Ifta, en Égypte, permet à un enfant de demander pardon pour un parent qui n'a peut-être jamais reçu correctement le message. Notre page de questions présente les deux avis. C'est Allah qui juge, pas vous ni personne aux funérailles.\n\nAprès les funérailles, continuez de bien traiter la famille, gardez le contact avec les personnes que votre proche aimait, et partagez de bons souvenirs. Demandez du soutien à votre mentor ou à votre mosquée, et prenez congé si vous en avez besoin."
       }
     ],
     "scripts": [
@@ -1164,11 +1579,24 @@
       {
         "label": "Questions sur les fêtes",
         "href": "/faq#faq-holidays"
+      },
+      {
+        "label": "La proche famille (mahram)",
+        "href": "/topics/modesty"
+      },
+      {
+        "label": "Le deuil et la perte",
+        "href": "/topics/grief-and-loss"
+      },
+      {
+        "label": "Prier en voyage",
+        "href": "/topics/prayer"
       }
     ]
   },
   {
     "id": "red-flags-and-staying-safe",
+    "group": "community-and-safety",
     "title": "Signaux d'alarme et sécurité",
     "description": "Comment repérer la pression, les demandes d'argent et les arnaques dans une communauté, et où les signaler au Canada.",
     "intro": "La plupart des gens que vous rencontrez à la mosquée ou dans un groupe de convertis sont bienveillants et veulent aider. Quelques-uns ne le sont pas. Ce guide présente les signaux d'alarme les plus fréquents chez les nouveaux musulmans, ce que vous pouvez faire et où faire un signalement au Canada. Être ciblé n'est jamais votre faute.",
@@ -1189,7 +1617,8 @@
           "Une personne que vous n'avez pas rencontrée en vrai dit qu'elle vous aime, veut poursuivre la conversation dans une application privée et a toujours une raison de ne pas vous rencontrer.",
           "Une personne ou un groupe vous demande de garder des choses secrètes pour votre famille, vos amis ou d'autres enseignants.",
           "Un groupe dit que la plupart des musulmans ne sont pas de vrais musulmans, vous dit de couper les liens avec votre famille, ou parle de colère et de violence.",
-          "Quelqu'un propose de l'aide pour l'immigration ou le parrainage et promet un résultat garanti ou plus rapide."
+          "Quelqu'un propose de l'aide pour l'immigration ou le parrainage et promet un résultat garanti ou plus rapide.",
+          "Un guérisseur spirituel propose une récitation de guérison payante (ruqya) ou une amulette, demande des paiements répétés, veut vous voir seul, ou vous dit d'arrêter un traitement médical."
         ]
       },
       {
@@ -1269,6 +1698,10 @@
     ],
     "relatedLinks": [
       {
+        "label": "Qui est considéré comme cheikh ou mufti",
+        "href": "/faq#faq-fnd-039"
+      },
+      {
         "label": "Obtenir de l'aide ou signaler une préoccupation",
         "href": "/get-help"
       },
@@ -1277,17 +1710,38 @@
         "href": "/guides/healthy-community-signs"
       },
       {
-        "label": "Les relations et le mariage : l'essentiel",
+        "label": "Les bases des relations et du mariage",
         "href": "/guides/relationships-and-marriage-basics"
       },
       {
         "label": "Soutien en santé mentale",
         "href": "/mental-health"
+      },
+      {
+        "label": "Comment les musulmans se marient",
+        "href": "/guides/how-muslims-marry"
+      },
+      {
+        "label": "Si vous avez moins de 18 ans",
+        "href": "/guides/young-converts"
+      },
+      {
+        "label": "Un homme musulman peut-il avoir plus d'une épouse au Canada?",
+        "href": "/faq#faq-rel-011"
+      },
+      {
+        "label": "L'invisible, sans peur",
+        "href": "/topics/beliefs"
+      },
+      {
+        "label": "Faire face à la haine et au harcèlement",
+        "href": "/guides/facing-hate-and-harassment"
       }
     ]
   },
   {
     "id": "how-mentoring-works",
+    "group": "mentoring",
     "title": "Le fonctionnement du mentorat et nos normes de conduite",
     "description": "Comment les mentors sont sélectionnés et formés, ce qu'ils s'engagent à faire, comment fonctionnent le jumelage et les suivis, et comment signaler une préoccupation.",
     "intro": "Un mentor est un bénévole qui vous aide avec les bases et vous accompagne pendant les premiers mois. Cette page explique comment nous choisissons les mentors, ce qu'ils s'engagent à faire et quoi faire si quelque chose ne va pas. Elle ne nomme personne. Les normes suivent des références publiées par MENTOR et Bénévoles Canada, adaptées aux bénévoles adultes.",
@@ -1402,6 +1856,863 @@
       {
         "label": "Comment demander de l'aide",
         "href": "/guides/how-to-ask-for-help"
+      },
+      {
+        "label": "Si vous avez moins de 18 ans",
+        "href": "/guides/young-converts"
+      }
+    ]
+  },
+  {
+    "id": "how-muslims-marry",
+    "group": "family-and-relationships",
+    "title": "Comment les musulmans se marient",
+    "description": "Ce qui fait un contrat de mariage (nikah), ce que la loi de votre province ajoute, épouser une personne d'une famille musulmane, et chercher un conjoint quand on n'a pas de proches musulmans.",
+    "intro": "On commence souvent à vous parler de mariage quelques mois après la Shahada, habituellement des gens qui vous veulent du bien. Ce guide explique ce dont un contrat de mariage musulman (nikah) a besoin, ce qui n'est que coutume, comment rendre le mariage légal au Canada, et comment chercher un conjoint d'une façon qui vous protège. Rien ne presse. Un enseignant cité par SeekersGuidance (2025) recommande d'être musulman depuis environ un an avant de se marier.",
+    "summary": [
+      "Un mariage (nikah) demande une offre et une acceptation, des témoins et un don de mariage (mahr). Trois des quatre écoles exigent aussi un tuteur (wali) pour la mariée.",
+      "Un certificat de mosquée à lui seul n'est pas un mariage légal. Obtenez aussi un permis provincial et un célébrant enregistré.",
+      "Les grands mariages, l'or et les fêtes de fiançailles sont des coutumes, pas des obligations.",
+      "Devenez musulman pour Dieu, jamais pour un partenaire ou une famille."
+    ],
+    "sections": [
+      {
+        "heading": "Ce qui fait un mariage (nikah)",
+        "body": "Le mariage (nikah) est un contrat conclu par la parole. Une partie fait l'offre et l'autre l'accepte, au cours de la même séance, dans des mots que les deux comprennent (Code de la famille de l'AMJA, articles 26 et 27).\n\nDes témoins sont présents. Le Code de la famille de l'AMJA (article 55) demande deux hommes musulmans. Une réponse de SeekersGuidance de 2025 dit deux hommes musulmans, ou un homme et deux femmes. Demandez à votre imam quel avis suit votre mosquée.\n\nLa mariée a un tuteur (wali). Le Prophète a dit : « Il n'y a pas de mariage sans la permission d'un tuteur » (Sunan Abi Dawud 2085, jugé sahih; aussi Jami at-Tirmidhi 1101). Les écoles malikite, chaféite et hanbalite exigent un tuteur. L'école hanafite considère que le contrat de mariage conclu par une femme adulte elle-même est valide (fatwa 87635 de l'AMJA). Le Code de la famille de l'AMJA (article 18) dit qu'un mariage conclu sans tuteur, avec un mari convenable, un don de mariage équitable et par une femme adulte saine d'esprit, n'est pas annulé, même s'il est préférable de le refaire avec un tuteur.\n\nLe mari donne un don de mariage (mahr). C'est le droit de l'épouse, et il lui appartient (Coran 4:4). Il n'y a pas de minimum fixe (Code de la famille de l'AMJA, article 47), et il peut être modeste : un compagnon du Prophète a donné de l'or du poids d'un noyau de datte (Sahih al-Bukhari 5167).\n\nUn repas de noces (walimah) suit. Le Prophète a dit au même compagnon : « Offre un banquet, même avec un seul mouton » (Sahih al-Bukhari 5167). Un repas simple suffit.\n\nLe mariage est annoncé. SeekersGuidance (2025) dit que les mariages secrets sont déconseillés."
+      },
+      {
+        "heading": "Ce qui relève de la coutume, pas de la religion",
+        "body": "Beaucoup de choses dans les mariages musulmans viennent de la culture. Elles peuvent être belles, et aucune n'est obligatoire : une fête de fiançailles, des bijoux en or, une grande salle, des vêtements particuliers, ou quelle famille paie quoi. Quand quelqu'un vous dit qu'une chose doit se faire, demandez si elle est obligatoire, recommandée ou coutumière."
+      },
+      {
+        "heading": "Avant le jour J",
+        "items": [
+          "Demandez à votre imam comment la mosquée célèbre un mariage (nikah), qui agirait comme tuteur (wali) de la mariée, et si l'imam est autorisé à célébrer des mariages légaux dans votre province.",
+          "Mettez-vous d'accord par écrit sur le don de mariage (mahr) avant le jour J, et gardez-en une copie signée.",
+          "Planifiez le permis de mariage civil en même temps que le mariage religieux (nikah).",
+          "Parlez d'argent, de logement, d'enfants, de belle-famille et de tout mariage antérieur avec votre futur conjoint, en y associant le tuteur ou l'imam."
+        ]
+      },
+      {
+        "heading": "L'aspect juridique au Canada",
+        "body": "Ceci est de l'information générale, pas un avis juridique. Le droit du mariage est provincial : les règles dépendent donc de l'endroit où vous vous mariez.\n\nEn Ontario, il vous faut une licence de mariage ou la publication des bans, un célébrant religieux doit être reconnu par son organisme religieux, et le couple, deux témoins et le célébrant signent juste après la cérémonie. Au Québec, le célébrant doit être autorisé par la loi, au moins deux témoins sont présents, et un avis est publié au moins 20 jours avant le mariage (Éducaloi). En Colombie-Britannique, toute personne qui célèbre un mariage doit être enregistrée auprès de la Vital Statistics Agency, et le couple, deux témoins et le célébrant signent. En Alberta, les célébrants religieux doivent être enregistrés auprès de l'état civil (Vital Statistics), il faut toujours un permis de l'Alberta, et deux témoins sont présents.\n\nCertains imams sont des célébrants enregistrés et peuvent faire le mariage religieux et le mariage légal pendant la même cérémonie. Le Code de la famille de l'AMJA (article 31) dit que les musulmans devraient documenter leurs mariages et suivre la loi locale. L'article 19 dit que pour une nouvelle musulmane qui n'a pas de parents musulmans du côté de son père, la personne qui agit pour elle est un arbitre ou une personne désignée par la communauté et autorisée par l'État à célébrer des mariages, ou sinon un homme musulman qu'elle mandate. Ce n'est pas n'importe quel imam qui se propose.\n\nUn mariage religieux (nikah) jamais enregistré ne vous donne pas les droits d'un conjoint marié. En Ontario, les époux mariés partagent la valeur du foyer conjugal, alors que les conjoints de fait ne sont pas tenus de partager leurs biens, même si un partenaire qui a contribué aux biens de l'autre peut avoir un recours. Le droit ontarien comporte certaines dispositions qui peuvent considérer comme valide un mariage conclu de bonne foi même quand un problème est survenu avec le célébrant ou les papiers. Seul un avocat en droit de la famille peut vous dire si elles s'appliquent à vous.\n\nLes tribunaux canadiens ont parfois fait respecter une entente sur le don de mariage (mahr) comme un contrat. Des tribunaux de la Colombie-Britannique et de l'Ontario l'ont fait, et un tribunal de l'Ontario a refusé (Raman, 2024). Savoir si la vôtre peut être exécutée dépend des règles provinciales sur les contrats et de sa rédaction : une entente signée et revue par un avocat est donc plus sûre. En Ontario, l'arbitrage familial selon une loi religieuse n'a aucun effet juridique (Loi de 2006 modifiant des lois en ce qui concerne le droit de la famille).",
+        "items": [
+          "Vérifiez que votre célébrant est enregistré dans votre province.",
+          "Obtenez le permis de mariage avant le mariage religieux (nikah).",
+          "Gardez des copies du contrat de mariage religieux (nikah), de l'entente sur le don de mariage (mahr) et du certificat de mariage civil.",
+          "Un certificat de mosquée à lui seul n'est pas un certificat de mariage légal."
+        ]
+      },
+      {
+        "heading": "Épouser une personne née musulmane",
+        "body": "Si quelqu'un vous demande de devenir musulman pour pouvoir vous épouser, arrêtez-vous et réfléchissez. SeekersGuidance (2014) a dit à une femme dans exactement cette situation de se convertir pour Dieu seul, pas pour une personne ou une famille. Si vous avez déjà prononcé votre Shahada, le même principe s'applique au choix d'un conjoint : la foi d'abord.\n\nLe Prophète a conseillé de choisir un conjoint pour sa religion (Sahih al-Bukhari 5090). Le hadith ne dit rien de l'origine ethnique, et il place la foi et le caractère avant les origines.\n\nUne famille née musulmane peut avoir des attentes culturelles sur la taille du mariage, l'or, la vie avec la belle-famille ou la langue parlée à la maison. Beaucoup relèvent de la coutume, pas de la religion. Rencontrez la famille avec un imam ou un mentor qui peut expliquer ce qui est quoi.\n\nLes mariages entre cultures sont fréquents. Dans un sondage américain auprès de 618 convertis (Yaqeen Institute, 2025), 70 % des convertis mariés avaient épousé une personne d'une autre race ou origine ethnique. Les convertis célibataires ont nommé comme obstacles le fait de ne pas trouver de conjoint convenable (51 %), leur origine raciale (32 %) et le fait d'être converti (25 %). Les savants ont des règles détaillées sur la compatibilité dans le mariage (kafa'a) que cette page ne couvre pas : consultez un enseignant qualifié."
+      },
+      {
+        "heading": "Chercher un conjoint",
+        "body": "Les convertis n'ont souvent pas de réseau familial pour faire les présentations. Un enseignant de SeekersGuidance (2009) note que beaucoup de convertis rencontrent leur futur conjoint à l'école ou au travail. Une fois l'intérêt sérieux, faites intervenir un tuteur ou un imam, rencontrez-vous en présence d'un accompagnateur plutôt que seuls, et gardez la relation au grand jour. Un tuteur peut refuser un mariage qui ne convient pas, et cela vous protège.\n\nLes savants diffèrent sur ce qu'un prétendant peut voir de l'autre personne et sur combien ils peuvent se parler avant le mariage. Consultez un enseignant qualifié.",
+        "items": [
+          "Dites à votre imam ou à un mentor de confiance que vous êtes prêt à vous marier, et renseignez-vous sur les présentations ou sur un programme de mariage de la mosquée.",
+          "Notez vos propres critères non négociables avant de rencontrer qui que ce soit.",
+          "Si vous faites une rencontre par une application, voyez-vous dans un lieu public, faites intervenir votre tuteur ou votre imam, et n'envoyez jamais d'argent.",
+          "Faites la prière de consultation (istikhara) avant de décider.",
+          "N'acceptez pas une présentation de la part de quelqu'un rencontré en ligne il y a une semaine, et ne passez pas des mois à vous voir en privé pour apprendre à vous connaître."
+        ]
+      }
+    ],
+    "scripts": [
+      {
+        "title": "Demander à l'imam comment se fait un mariage (nikah)",
+        "body": "Assalamu alaykum. Je suis un nouveau musulman et je commence à penser au mariage. Pourriez-vous m'expliquer comment la mosquée célèbre un mariage (nikah), qui pourrait agir comme tuteur (wali), et si vous pouvez aussi enregistrer le mariage légalement?"
+      },
+      {
+        "title": "Parler du don de mariage (mahr)",
+        "body": "Avant de fixer une date, j'aimerais qu'on s'entende sur le don de mariage (mahr) et qu'on le mette par écrit. J'aimerais aussi qu'un avocat examine l'entente pour qu'elle nous protège tous les deux."
+      },
+      {
+        "title": "Quand on vous demande de vous convertir pour un mariage",
+        "body": "Je te respecte, toi et ta famille, et je prends l'islam au sérieux. Je prendrai cette décision pour elle-même, pas pour qu'un mariage ait lieu."
+      }
+    ],
+    "scenarios": [
+      {
+        "title": "Un ami offre de faire un mariage (nikah) rapide dans son salon.",
+        "response": "Dites non, gentiment. Un mariage sans tuteur, sans trace écrite et sans permis civil peut vous laisser sans protection, religieusement et juridiquement. Adressez-vous à un imam d'une mosquée qui est autorisé à célébrer des mariages dans votre province."
+      },
+      {
+        "title": "La famille de votre fiancé dit que le mariage exige de l'or et une grande salle.",
+        "response": "Demandez à un imam ce qui est obligatoire. Le don de mariage (mahr) est obligatoire et appartient à la mariée. La taille de la fête et l'or sont des coutumes, et vous pouvez en discuter."
+      },
+      {
+        "title": "Quelqu'un rencontré en ligne veut vous épouser d'ici quelques semaines.",
+        "response": "Ralentissez. Faites intervenir votre tuteur ou votre imam et lisez le guide sur les signaux d'alarme. La pression pour précipiter un mariage est un signe d'alerte."
+      }
+    ],
+    "relatedLinks": [
+      {
+        "label": "Les bases des relations et du mariage",
+        "href": "/guides/relationships-and-marriage-basics"
+      },
+      {
+        "label": "Signaux d'alarme et sécurité",
+        "href": "/guides/red-flags-and-staying-safe"
+      },
+      {
+        "label": "FAQ : qui est mon tuteur (wali)?",
+        "href": "/faq#faq-lif-032"
+      },
+      {
+        "label": "Trouver une mosquée",
+        "href": "/resources/find-masjid"
+      },
+      {
+        "label": "Les enfants et la vie de famille",
+        "href": "/guides/children-and-family-life"
+      }
+    ]
+  },
+  {
+    "id": "young-converts",
+    "group": "family-and-relationships",
+    "title": "Si vous avez moins de 18 ans",
+    "description": "Votre Shahada compte. Quoi faire pour l'instant, comment traiter vos parents, vos droits en Ontario, et comment rester en sécurité.",
+    "intro": "Si vous êtes adolescent et que vous êtes devenu musulman, ou voulez le devenir, votre Shahada est valide. Vous n'avez besoin ni d'une mosquée ni d'un certificat pour qu'elle compte. Cette page est pour vous, et pour les adultes qui vous rencontrent.",
+    "summary": [
+      "Votre Shahada est valide. Faites ce que vous pouvez, discrètement, et apprenez à votre rythme.",
+      "Soyez gentil et honnête avec vos parents. Ne fuguez pas.",
+      "Un adulte qui veut que vous gardiez des secrets envers vos parents est un signe d'alerte.",
+      "Si la maison n'est pas sûre, appelez Jeunesse, J'écoute au 1-800-668-6868 ou textez PARLER au 686868. En cas de danger, composez le 911."
+    ],
+    "sections": [
+      {
+        "heading": "Quoi faire pour l'instant",
+        "body": "Une enseignante de SeekersGuidance a répondu à une jeune de 13 ans qui voulait devenir musulmane (2023). Elle a dit que la Shahada suffit. Elle a aussi dit : « Pour l'instant, ne t'inquiète pas de ne pas pouvoir te couvrir, jeûner ou aller à la mosquée », et a conseillé de saisir chaque occasion de pratiquer qui se présente.\n\nAlors croyez, faites des invocations (dua), priez là où vous le pouvez, et apprenez avec un cours ou un enseignant de confiance. Les grands changements peuvent attendre que vous soyez plus âgé et que votre situation les permette.",
+        "items": [
+          "Commencez par les premières étapes de la feuille de route de ce site.",
+          "Si vous ne pouvez pas encore prier, continuez d'apprendre et de faire des invocations (dua).",
+          "Quand vous avez une question sur une règle religieuse, demandez à un enseignant qualifié."
+        ]
+      },
+      {
+        "heading": "Vos parents",
+        "body": "L'islam vous demande de traiter vos parents avec amour et bon caractère, même quand ils ne sont pas musulmans. Un enseignant de SeekersGuidance (2010) explique que vous obéissez à vos parents en tout, sauf en ce qui voudrait dire désobéir à Dieu.\n\nEn pratique, cela veut dire aider à la maison, ne pas leur mentir sans réel besoin, et ne pas déclencher de disputes sur la religion. Donnez-leur du temps."
+      },
+      {
+        "heading": "Vos droits en Ontario",
+        "body": "Ceci est de l'information générale sur le droit ontarien, pas un avis juridique. Les autres provinces ont d'autres règles. Elle vient de Justice for Children and Youth, une clinique juridique pour les jeunes en Ontario, et non d'une page gouvernementale.\n\nSi vous avez 15 ans ou moins, vos parents ou les personnes qui prennent soin de vous décident où vous vivez. Si vous n'êtes pas en sécurité à la maison, une société d'aide à l'enfance peut vous aider.\n\nSi vous avez 16 ou 17 ans, vous pouvez vous soustraire à l'autorité de vos parents sans ordonnance du tribunal. C'est une décision sérieuse, qui a des conséquences juridiques, financières et de logement : parlez à Justice for Children and Youth ou à Jeunesse, J'écoute avant de décider quoi que ce soit.\n\nUn adulte qui aide un jeune à quitter la maison peut faire face à des accusations criminelles. Aucune mosquée, aucun mentor ni aucun ami en ligne ne devrait donc jamais offrir de vous aider à quitter la maison."
+      },
+      {
+        "heading": "Les signaux d'alarme",
+        "body": "Les bons enseignants et les bonnes mosquées ne vous demandent pas de cacher des choses. Si quelqu'un fait l'une de ces choses, arrêtez de lui parler et dites-le à un adulte de confiance, ou appelez Jeunesse, J'écoute.",
+        "items": [
+          "Un adulte vous demande de garder vos conversations ou vos rencontres secrètes envers vos parents.",
+          "Quelqu'un parle de vous épouser, ou offre d'organiser un mariage (nikah) secret.",
+          "Quelqu'un vous offre un logement, ou de l'argent, pour que vous puissiez quitter la maison.",
+          "Des messages privés vous mettent mal à l'aise, ou quelqu'un vous demande des photos."
+        ]
+      },
+      {
+        "heading": "Pour les mentors et les mosquées",
+        "body": "Si vous rencontrez un jeune converti, faites participer les parents quand c'est sans danger, rencontrez-le dans des lieux publics en présence d'autres adultes, et n'encouragez jamais un mineur à quitter la maison. Si vous êtes inquiet pour la sécurité d'un jeune, communiquez avec une société d'aide à l'enfance, ou composez le 911 en cas d'urgence."
+      }
+    ],
+    "scripts": [
+      {
+        "title": "Le dire doucement à un parent",
+        "body": "J'apprends à connaître l'islam et c'est important pour moi. Je ne rejette pas notre famille. J'aimerais qu'on continue d'en parler ensemble."
+      },
+      {
+        "title": "Refuser un secret",
+        "body": "Je ne cache pas à mes parents à qui je parle. Si tu veux m'aider, ça doit se faire au grand jour."
+      }
+    ],
+    "scenarios": [
+      {
+        "title": "Quelqu'un dans une conversation de groupe vous offre d'aller vivre dans une famille musulmane.",
+        "response": "N'y allez pas. Arrêtez de répondre et parlez-en à un adulte de confiance. Si la maison n'est pas sûre, appelez Jeunesse, J'écoute ou le 911, pas un inconnu d'un groupe de discussion."
+      },
+      {
+        "title": "Vos parents disent que vous ne pouvez pas prier à la maison.",
+        "response": "Restez calme et gentil. Faites des invocations (dua), priez discrètement là où vous le pouvez, et saisissez les occasions qui se présentent. Si vous ne vous sentez pas en sécurité, appelez Jeunesse, J'écoute, ou le 911 en cas de danger."
+      }
+    ],
+    "relatedLinks": [
+      {
+        "label": "Signaux d'alarme et sécurité",
+        "href": "/guides/red-flags-and-staying-safe"
+      },
+      {
+        "label": "Obtenir de l'aide",
+        "href": "/get-help"
+      },
+      {
+        "label": "Soutien en santé mentale",
+        "href": "/mental-health"
+      },
+      {
+        "label": "Comment fonctionne le mentorat",
+        "href": "/guides/how-mentoring-works"
+      },
+      {
+        "label": "Guide de la famille et des amis",
+        "href": "/guides/family-and-friends"
+      }
+    ]
+  },
+  {
+    "id": "children-and-family-life",
+    "group": "family-and-relationships",
+    "title": "Les enfants et la vie de famille",
+    "description": "Élever des enfants quand l'autre parent n'est pas musulman, l'annoncer à vos enfants, l'école et l'école de fin de semaine, les adolescents, et prendre soin de vos parents qui vieillissent.",
+    "intro": "Devenir musulman change la vie de famille d'une façon dont on parle rarement. Ce guide commence par vos enfants et se termine par vos propres parents qui vieillissent. Prenez-le une partie à la fois.",
+    "summary": [
+      "Enseignez par l'exemple et avec miséricorde. N'utilisez jamais la religion pour faire pression sur un enfant.",
+      "Si vous êtes séparé, obtenez un avis juridique avant de changer l'école, le nom ou les habitudes religieuses d'un enfant.",
+      "En Ontario, vous pouvez demander chaque année scolaire que votre enfant soit exempté des leçons d'éducation sexuelle de la 1re à la 8e année.",
+      "Prendre soin de parents qui ne sont pas musulmans fait partie de votre foi."
+    ],
+    "sections": [
+      {
+        "heading": "Quand l'autre parent n'est pas musulman",
+        "body": "Le Coran demande aux croyants de se protéger eux-mêmes et de protéger leur famille (66:6). Avec un coparent qui n'est pas musulman, une enseignante de SeekersGuidance (2025) conseille de parler ouvertement avec l'autre parent, de prier et de pratiquer pendant votre temps avec l'enfant, de prévoir un enseignant de Coran, de garder les bonnes manières islamiques avec miséricorde, et de faire des invocations (dua).\n\nVos enfants gardent leur relation avec l'autre parent et avec leurs grands-parents. L'islam vous demande de maintenir les liens familiaux, pas de les couper. Dire à un enfant qu'un de ses parents va aller en Enfer n'aide personne."
+      },
+      {
+        "heading": "Ce que le droit canadien prend en compte",
+        "body": "Ceci est de l'information générale, pas un avis juridique.\n\nQuand des parents mariés se séparent et vont devant le tribunal, la Loi sur le divorce dit que seul l'intérêt de l'enfant compte, et que la sécurité physique, affective et psychologique de l'enfant passe en premier (article 16). Le tribunal tient compte aussi du point de vue de l'enfant, en lui accordant l'importance voulue selon son âge et sa maturité, ainsi que de son éducation et de son patrimoine culturels, linguistiques, religieux et spirituels. Justice Canada explique que la religion peut apporter un soutien supplémentaire à un enfant, et que la capacité d'un parent à maintenir le lien de l'enfant avec son patrimoine religieux peut compter.\n\nDepuis 2021, la loi parle d'arrangements parentaux et de responsabilités décisionnelles plutôt que de garde et d'accès. Les décisions concernant la religion peuvent faire partie d'un plan parental. Si vous n'avez jamais été mariés, d'autres règles provinciales s'appliquent : consultez un avocat.\n\nLes règles islamiques classiques sur la garde, exposées par exemple dans le Code de la famille de l'AMJA (articles 206 à 211), ne sont pas celles qu'applique un tribunal canadien.",
+        "items": [
+          "Si vous êtes séparé, parlez à un avocat en droit de la famille avant de changer l'école, le nom ou la pratique religieuse d'un enfant.",
+          "Gardez une trace écrite et calme de ce dont vous et l'autre parent convenez.",
+          "En Ontario, Aide juridique Ontario aide les personnes admissibles pour les questions de parentalité : 1-800-668-8258."
+        ]
+      },
+      {
+        "heading": "L'annoncer à vos enfants",
+        "body": "Soyez bref et chaleureux. Dites-leur ce qui ne change pas : vous les aimez, vous êtes toujours leur parent, et les habitudes familiales continuent. Laissez-les poser des questions et répondez à leur niveau. Ne leur demandez pas de choisir entre vous et l'autre parent."
+      },
+      {
+        "heading": "L'école",
+        "body": "Beaucoup d'activités scolaires peuvent se vivre en gardant à l'esprit les liens familiaux et la bonté, sans prendre part au culte d'une autre religion. Le guide sur les fêtes et les occasions familiales explique où les savants diffèrent. Parlez tôt à l'enseignant des concerts, des fêtes de classe et de la nourriture.\n\nEn Ontario, les parents peuvent demander que leur enfant soit exempté des attentes en développement humain et santé sexuelle de la 1re à la 8e année (Note Politique/Programmes no 162). Les écoles doivent informer les parents au moins 20 jours d'école avant ces leçons, et le formulaire standard sert chaque année scolaire. Les autres provinces ont leurs propres règles. Ceci est de l'information générale, pas un avis juridique.",
+        "items": [
+          "Lisez le formulaire d'exemption de votre conseil scolaire chaque mois de septembre.",
+          "Ne retirez pas vos enfants de tout d'un coup. Parlez d'abord à l'enseignant."
+        ]
+      },
+      {
+        "heading": "L'école de fin de semaine et les adolescents",
+        "body": "Beaucoup de mosquées offrent une école de fin de semaine ou un programme jeunesse. Dans l'outil pour trouver une mosquée, choisissez le filtre École de fin de semaine pour voir les mosquées qui en indiquent une, et appelez avant, parce que les programmes changent.\n\nAvec les adolescents, invitez sans forcer. Attendez-vous à ce qu'ils adoptent les pratiques avec le temps, pas toutes d'un coup. Continuez de parler avec eux, et laissez-les apporter leurs propres questions à un enseignant en qui ils ont confiance."
+      },
+      {
+        "heading": "Quand vos parents vieillissent",
+        "body": "Le Coran demande d'être bon envers ses parents dans leur vieillesse : pas même un mot d'impatience, de l'humilité par miséricorde, et une prière pour que Dieu leur fasse miséricorde (17:23 à 24). Cela vaut aussi pour les parents qui ne sont pas musulmans (31:15). Un enseignant de SeekersGuidance (2017) a dit à une femme qu'elle devait prendre soin de sa mère non musulmane et maintenir les liens familiaux, et lui a conseillé de mettre de côté chaque mois, sur ses propres revenus, de l'argent comme aumône (sadaqah) et de lui rendre visite chaque semaine.\n\nLeur religion leur appartient, et vous ne vous joignez pas à leur culte. Les savants distinguent l'aide directe à un rite religieux, qui n'est pas permise, de l'aide indirecte, qui n'est pas un péché. Un enseignant de SeekersGuidance (2021) donne comme exemple de la première le fait de tenir un bébé pour un baptême, et comme exemple de la seconde le fait d'indiquer à quelqu'un où se trouve une église. Au sujet de conduire un parent à l'église, un mufti hanafite (Darul Uloom Trinidad and Tobago) dit qu'il vaut mieux ne pas en être le moyen, mais que ce n'est pas un péché quand le parent n'a personne d'autre. Les savants diffèrent sur ce point : consultez un enseignant qualifié au sujet des demandes que vous prévoyez avant qu'elles se présentent.\n\nEn foyer de soins ou à l'hôpital, laissez leur propre clergé leur rendre visite. Votre présence et vos soins comptent. Quand un parent qui n'est pas musulman meurt, un savant peut vous guider sur les questions concernant les funérailles et la prière, et le guide sur les fêtes et les occasions familiales traite de la présence aux funérailles.",
+        "items": [
+          "Planifiez les soins tôt avec vos frères et sœurs.",
+          "Demandez à un imam ce qui s'applique à des demandes précises avant qu'elles se présentent.",
+          "Ne refusez pas toute aide d'une façon qui laisserait seul un parent fragile."
+        ]
+      }
+    ],
+    "scripts": [
+      {
+        "title": "Parler à l'autre parent",
+        "body": "J'aimerais que notre enfant connaisse nos deux familles et nos deux traditions. Quand il est avec moi, je vais prier et lui enseigner un peu de Coran. Est-ce qu'on peut s'entendre sur la façon de parler de religion pour qu'il ne se sente jamais pris entre nous deux?"
+      },
+      {
+        "title": "Demander à l'école",
+        "body": "Mon enfant est musulman. Pourriez-vous m'avertir à l'avance des fêtes de classe, des concerts et des leçons sur la santé, pour qu'on puisse planifier ensemble?"
+      },
+      {
+        "title": "Offrir de l'aide à un parent",
+        "body": "Je suis là pour toi. Je peux t'emmener à tes rendez-vous et t'aider à faire l'épicerie chaque semaine."
+      }
+    ],
+    "scenarios": [
+      {
+        "title": "Votre ancien partenaire veut faire baptiser l'enfant.",
+        "response": "N'agissez pas seul. Parlez à un avocat en droit de la famille des responsabilités décisionnelles, et à un enseignant qualifié de votre propre rôle dans cette situation."
+      },
+      {
+        "title": "Votre adolescent dit qu'il ne veut pas prier.",
+        "response": "Restez proche et gardez la porte ouverte. Invitez sans forcer, continuez de prier vous-même, et laissez-le interroger un enseignant en qui il a confiance."
+      },
+      {
+        "title": "Votre mère vous demande de la conduire à l'église.",
+        "response": "Les savants diffèrent sur ce point. Un mufti hanafite dit que ce n'est pas un péché quand elle n'a personne d'autre, même s'il vaut mieux l'éviter. Consultez un enseignant qualifié, et continuez de prendre soin d'elle dans tous les cas."
+      }
+    ],
+    "relatedLinks": [
+      {
+        "label": "Trouver une mosquée avec une école de fin de semaine",
+        "href": "/resources/find-masjid"
+      },
+      {
+        "label": "Les fêtes et les occasions familiales",
+        "href": "/guides/holidays-and-family-occasions"
+      },
+      {
+        "label": "Guide de la famille et des amis",
+        "href": "/guides/family-and-friends"
+      },
+      {
+        "label": "Les bases des relations et du mariage",
+        "href": "/guides/relationships-and-marriage-basics"
+      },
+      {
+        "label": "Si vous avez moins de 18 ans",
+        "href": "/guides/young-converts"
+      }
+    ]
+  },
+  {
+    "id": "travelling-as-a-muslim",
+    "title": "Voyager en tant que musulman",
+    "description": "Prier dans l'avion et sur la route, trouver un endroit calme à l'aéroport ou à l'hôtel, et manger halal en voyage.",
+    "intro": "Le voyage déplace vos heures de prière et change vos options de nourriture, mais votre prière vous suit. Un peu de planification avant de partir rend presque tout simple.",
+    "summary": [
+      "Vérifiez les heures de prière pour votre trajet et votre destination avant de partir.",
+      "Dans l'avion, faites la prière obligatoire à son heure. Tenez-vous debout si vous le pouvez raisonnablement, sinon assoyez-vous.",
+      "Une serviette propre ou un manteau suffit pour prier. Vous n'avez pas besoin d'un tapis de prière.",
+      "Apportez de la nourriture que vous savez halal, et rabattez-vous sur le poisson et les plats végétariens en chemin.",
+      "Le sujet sur la prière explique la prière raccourcie des voyageurs."
+    ],
+    "sections": [
+      {
+        "heading": "Avant de partir",
+        "items": [
+          "Cherchez les heures de prière de votre destination, et de toute longue escale, pour savoir quelles prières tombent pendant le voyage.",
+          "Apportez un petit tapis de prière, ou prévoyez d'utiliser une serviette propre.",
+          "Vérifiez si votre aéroport de départ a une chapelle ou un espace de prière, et où il se trouve.",
+          "Pour un long trajet en voiture, apportez des collations et un repas que vous savez halal.",
+          "Si vous portez des chaussettes ou des bottes toute la journée, lisez la FAQ sur le passage de la main sur les chaussettes avant de partir."
+        ]
+      },
+      {
+        "heading": "Prier dans l'avion",
+        "body": "Une réponse hanafite du cheikh Faraz Rabbani sur SeekersGuidance dit que vous faites quand même la prière obligatoire dans l'avion quand son heure arrive. Si vous le pouvez raisonnablement, tenez-vous debout, par exemple près de l'office ou d'une sortie, et inclinez-vous et prosternez-vous normalement. Sinon, priez à votre siège, et faites une vraie prosternation si c'est possible. Calculez les heures de prière à partir de l'heure de départ, de l'heure d'arrivée et de l'itinéraire.\n\nLes écoles diffèrent sur la prière assise dans l'avion et sur la question de savoir si une prière faite ainsi doit être refaite plus tard. La réponse ci-dessus est hanafite : demandez à votre enseignant ce que dit votre école.",
+        "items": [
+          "Ne sautez pas la prière parce que l'avion est en mouvement.",
+          "N'attendez pas l'atterrissage si l'heure de la prière se termine avant votre arrivée."
+        ]
+      },
+      {
+        "heading": "À l'aéroport",
+        "body": "Certains aéroports canadiens ont une chapelle multiconfessionnelle. À Toronto Pearson, la chapelle du terminal 1 se trouve avant le contrôle de sécurité, au niveau 1 des arrivées, et est ouverte à toute personne présente à l'aéroport. C'est un espace interconfessionnel, pas une salle de prière musulmane. Nous n'avons vérifié que Pearson pour l'instant : renseignez-vous sur votre propre aéroport avant de prendre l'avion. Un coin tranquille près de la porte d'embarquement convient aussi, pourvu que vous soyez hors du passage."
+      },
+      {
+        "heading": "À l'hôtel",
+        "body": "Utilisez l'outil pour trouver la qibla afin d'obtenir la direction depuis votre chambre. Une serviette propre ou un manteau posé par terre suffit pour prier. Les tapis de prière sont pratiques, mais pas obligatoires."
+      },
+      {
+        "heading": "Manger halal en voyage",
+        "body": "Les petites villes n'ont parfois ni boucherie ni restaurant halal. Le poisson et les plats végétariens sont une solution facile presque partout. Une réponse de SeekersGuidance pour les nouveaux musulmans, vérifiée par le cheikh Abdul-Rahim Reasat, dit que manger pescétarien pendant un temps est une option raisonnable quand la viande halal est difficile à trouver. Elle ajoute que vous n'avez pas à enquêter sur chaque contamination croisée possible, et que la friture est la principale chose sur laquelle poser la question, parce que l'huile de la friteuse est souvent partagée.\n\nLa viande casher est une différence entre les écoles. Une réponse hanafite sur SeekersGuidance explique que les écoles hanafite et hanbalite exigent que le nom de Dieu soit prononcé sur chaque animal. L'école chaféite considère cela comme recommandé, et certains malikites estiment que c'est une condition seulement pour les musulmans. La réponse conclut que la viande casher peut être mangée, comme l'ont jugé la plupart des savants contemporains. Demandez à votre enseignant si la viande casher est une solution de rechange pour vous."
+      }
+    ],
+    "scripts": [
+      {
+        "title": "Demander à l'équipage",
+        "body": "J'ai besoin de faire une courte prière. Y a-t-il un endroit près de l'office ou d'une sortie où je pourrais me tenir debout pendant cinq minutes sans nuire à personne?"
+      },
+      {
+        "title": "Poser la question sur la friteuse",
+        "body": "Petite question : est-ce que les frites cuisent dans la même huile que le poulet ou le bacon?"
+      }
+    ],
+    "scenarios": [
+      {
+        "title": "L'heure de la prière se terminera avant votre atterrissage.",
+        "response": "Priez dans l'avion. Tenez-vous debout si l'équipage peut vous trouver une place, sinon priez à votre siège. Demandez plus tard à votre enseignant si votre école vous demande de la refaire."
+      },
+      {
+        "title": "Le seul repas offert à l'aire de service, ce sont des hamburgers et des hot-dogs.",
+        "response": "Choisissez une option au poisson ou végétarienne, ou mangez les collations halal que vous avez apportées. Un repas qui ne se passe pas comme prévu n'est pas une crise."
+      },
+      {
+        "title": "Votre aéroport n'a pas de chapelle.",
+        "response": "Trouvez un coin tranquille loin des passages, posez un tissu propre et priez. La plupart des voyageurs ne le remarqueront même pas."
+      }
+    ],
+    "relatedLinks": [
+      {
+        "label": "Sujet sur la prière, y compris la prière en voyage",
+        "href": "/topics/prayer"
+      },
+      {
+        "label": "Trouver la qibla",
+        "href": "/qibla"
+      },
+      {
+        "label": "Heures de prière",
+        "href": "/prayer-times"
+      },
+      {
+        "label": "Vivre halal au quotidien",
+        "href": "/guides/halal-living-in-daily-life"
+      },
+      {
+        "label": "Questions et réponses",
+        "href": "/faq"
+      }
+    ],
+    "group": "everyday-life"
+  },
+  {
+    "id": "when-someone-dies",
+    "group": "life-events",
+    "title": "Quand quelqu'un meurt : quoi faire et qui appeler",
+    "description": "Ce qui se passe quand un musulman meurt au Canada, qui appeler en premier, les formalités avec l'Ontario comme exemple, et comment un converti peut protéger ses propres volontés.",
+    "intro": "Les musulmans enterrent leurs morts rapidement : les premières heures comptent donc. Les personnes nées musulmanes apprennent souvent les étapes de leur famille. Vous êtes peut-être le seul musulman de votre foyer : ce guide explique donc ce qui se passe, qui appeler et quoi dire. Il se termine par une courte liste pour protéger vos propres volontés. Ceci est de l'information générale, pas un avis juridique, et les détails du lavage, du linceul et de la prière funéraire devraient être vérifiés avec votre imam.",
+    "summary": [
+      "Enregistrez dès maintenant dans votre téléphone le contact funéraire de votre mosquée, avant d'en avoir besoin.",
+      "Si un décès est attendu, le médecin ou l'infirmière le constate. S'il est soudain, composez le 911.",
+      "Dites tout de suite à l'hôpital ou au coroner que la famille souhaite une inhumation musulmane et que le délai compte.",
+      "Le service funéraire d'une mosquée s'occupe habituellement du lavage, du linceul, des formalités et de l'inhumation.",
+      "Votre famille non musulmane pourrait prendre les décisions après votre mort : mettez donc vos volontés par écrit et nommez un exécuteur testamentaire qui les suivra."
+    ],
+    "sections": [
+      {
+        "heading": "Enregistrez un numéro dès maintenant",
+        "body": "Demandez à votre mosquée si elle a un comité funéraire ou si elle travaille avec un service funéraire musulman, et enregistrez ce numéro dans votre téléphone. Beaucoup de mosquées en ont un. La Scarborough Muslim Association, à Toronto, par exemple, offre la remise du corps, le lavage et l'ensevelissement dans le linceul, la conservation au froid, l'enregistrement du décès, le permis d'inhumation et l'inhumation dans un cimetière musulman. C'est un exemple du genre de service à chercher, pas une recommandation.\n\nSi votre mosquée n'offre pas ce service, demandez-lui lequel elle utilise. Une entreprise funéraire ordinaire ne sait pas toujours ce dont une inhumation musulmane a besoin : le contact de la mosquée est donc celui à appeler en premier."
+      },
+      {
+        "heading": "Quoi faire dans les premières heures",
+        "items": [
+          "Si le décès était attendu, à la maison ou à l'hôpital, un médecin ou une infirmière le constate.",
+          "Si le décès est soudain ou inattendu, composez le 911.",
+          "Dites tout de suite au personnel de l'hôpital ou au coroner que la famille souhaite une inhumation musulmane et pourquoi le délai compte.",
+          "Appelez le contact funéraire de la mosquée. Il vous explique les prochaines étapes, les formalités et le cimetière.",
+          "Si vous n'êtes pas le plus proche parent, restez près de la famille et offrez de faire les appels. C'est la famille qui décide."
+        ]
+      },
+      {
+        "heading": "Les étapes islamiques en mots simples",
+        "body": "D'abord, le corps est lavé (le lavage du défunt, ghusl), habituellement par des bénévoles formés de la mosquée. Ensuite, il est enveloppé dans un tissu simple (le linceul, kafan). La communauté fait la prière funéraire (salat al-janazah), et l'inhumation suit dès qu'elle peut être organisée. Les musulmans ne pratiquent pas la crémation.\n\nLa prière funéraire est courte. Tout le monde se tient en rangées derrière l'imam, et il n'y a ni inclinaison ni prosternation. Il y a quatre takbirs (on dit Allahu Akbar). Selon la méthode enseignée par IslamQA, on récite Al-Fatiha après le premier, on prie sur le Prophète après le deuxième, on fait une invocation (dua) pour la personne décédée après le troisième, puis on dit le quatrième takbir et on termine par la salutation de paix (salam). Les écoles diffèrent sur les paroles après le premier takbir et sur le nombre de salutations : suivez l'imam et demandez-lui ce que dit votre école.\n\nLes détails du lavage et de l'ensevelissement diffèrent aussi d'une école à l'autre. L'équipe de la mosquée les connaît, et vous n'avez pas besoin de les apprendre avant d'aider."
+      },
+      {
+        "heading": "Les formalités, avec l'Ontario comme exemple",
+        "body": "Chaque province a ses propres bureaux et formulaires. En Ontario, le guide de la province présente ces étapes. Un médecin ou une infirmière praticienne remplit le certificat médical de décès. Une déclaration de décès est remplie avec les renseignements sur la personne. Le décès est enregistré auprès de la municipalité, qui délivre un permis d'inhumation. La province indique aussi que les familles peuvent organiser les arrangements sans fournisseur de services funéraires, même si la plupart des gens font appel au service d'une mosquée ou à une entreprise funéraire.\n\nDans les autres provinces, demandez au service de la mosquée ou à l'hôpital quels formulaires s'appliquent. Le gouvernement du Canada propose une liste de vérification pour la suite, comme informer les programmes fédéraux du décès, les prestations, et les successions et testaments."
+      },
+      {
+        "heading": "Les décès soudains et le coroner",
+        "body": "Un coroner enquête sur les décès soudains ou inattendus. Le service du coroner de l'Ontario demande aux familles de signaler tout de suite leurs besoins religieux ou culturels liés au délai, et le coroner tient compte de ces préoccupations. La décision de faire une autopsie appartient au coroner, et en Ontario, elle est légale et obligatoire.\n\nUne autopsie peut retarder l'inhumation, mais le lavage, la prière funéraire et l'inhumation ont quand même lieu une fois le corps remis. Parlez tôt et calmement, et laissez le service de la mosquée communiquer avec le bureau du coroner si cela aide."
+      },
+      {
+        "heading": "Les cimetières et les coûts",
+        "body": "Certaines régions ont des cimetières musulmans, d'autres une section musulmane dans un cimetière municipal. Demandez à votre mosquée lequel elle utilise et combien coûtent un lot et le service, parce que les prix varient beaucoup d'une ville à l'autre. Si l'argent vous inquiète, dites-le. Beaucoup de mosquées savent où trouver de l'aide pour une famille qui ne peut pas payer."
+      },
+      {
+        "heading": "Les femmes et les funérailles",
+        "body": "Les femmes peuvent assister à la prière funéraire. La question de savoir si les femmes suivent le cortège et assistent à l'inhumation est traitée différemment selon les écoles, et les mosquées ont leur propre pratique. La série For Those Left Behind du Yaqeen Institute comprend un épisode sur la prière funéraire des femmes et la visite des tombes. Demandez à votre mosquée ce qu'elle fait, et à votre imam ce que dit votre école."
+      },
+      {
+        "heading": "Protéger vos volontés : une liste pour les convertis",
+        "body": "Après votre mort, votre plus proche parent au sens de la loi pourrait ne pas être musulman. Dans la plupart des provinces, c'est lui, ou l'exécuteur de votre testament, qui prend les décisions concernant votre corps et vos funérailles. Sans volontés écrites et sans exécuteur qui accepte de les suivre, une inhumation musulmane pourrait ne pas avoir lieu. Cela vaut la peine de s'en occuper discrètement, dès maintenant, même si vous êtes jeune et en bonne santé.",
+        "items": [
+          "Écrivez un court paragraphe qui dit que vous êtes musulman et que vous voulez une inhumation musulmane. Un modèle se trouve dans les formulations ci-dessous.",
+          "Faites un testament qui nomme un exécuteur (appelé fiduciaire de la succession en Ontario) qui a accepté d'organiser une inhumation musulmane. Demandez-lui d'abord.",
+          "Dites à un ami musulman et à un membre de votre famille où se trouvent votre testament et vos volontés écrites.",
+          "Mettez le contact funéraire de votre mosquée dans votre téléphone et dans la note.",
+          "Informez votre famille avec douceur, quand vous vous sentez en sécurité, pour que ce ne soit pas une surprise."
+        ]
+      },
+      {
+        "heading": "Qui décide dans votre province",
+        "body": "Cela dépend du droit provincial, et les règles diffèrent.\n\nEn Colombie-Britannique, la Cremation, Interment and Funeral Services Act donne le droit de décider d'abord à l'exécuteur nommé dans le testament, puis au conjoint, à un enfant adulte et aux autres proches, dans l'ordre (article 5). Une préférence écrite dans un testament ou dans un contrat d'arrangements funéraires préalables est obligatoire, sauf si elle est déraisonnable, irréalisable ou cause une difficulté (article 6).\n\nEn Ontario, le guide de la province ne dit pas qui a le contrôle des funérailles. Les avocats décrivent habituellement le fiduciaire de la succession comme la personne qui a ce droit, et les volontés écrites sur l'inhumation comme une indication qui n'est pas obligatoire. Nous n'avons pas confirmé cela dans une source juridique primaire : consultez un avocat de l'Ontario. Si c'est exact, nommer un fiduciaire de la succession qui respectera une inhumation musulmane compte plus que la note écrite.\n\nDans les autres provinces, demandez à un avocat comment cela fonctionne là où vous vivez. Notre sujet sur les testaments et l'héritage en dit plus sur la rédaction d'un testament."
+      },
+      {
+        "heading": "Si vos volontés ne sont pas respectées",
+        "body": "Certains convertis craignent que leur famille les fasse incinérer. Une réponse du centre de fatwas d'IslamWeb à une convertie qui avait cette crainte dit qu'elle devrait mettre ses volontés par écrit et les confier à des musulmans qui les exécuteront, et qu'elle ne porte aucun péché si sa famille la fait incinérer contre sa volonté. Faites ce que vous pouvez, puis laissez le reste à Allah.\n\nSi votre conversion est encore privée, gardez la note dans un endroit sûr ou chez un ami musulman. Notre guide sur les signaux d'alarme et la sécurité contient une section sur la façon de garder votre conversion privée."
+      }
+    ],
+    "scripts": [
+      {
+        "title": "Appeler la mosquée",
+        "body": "Assalamu alaikum. Je m'appelle ___. Un membre de ma famille est décédé à ___ (hôpital ou adresse). Nous voulons une inhumation musulmane. Pouvez-vous me dire quoi faire ensuite et qui s'occupera du lavage et des formalités?"
+      },
+      {
+        "title": "Informer l'hôpital ou le coroner",
+        "body": "La famille souhaite une inhumation musulmane. Dans notre foi, l'inhumation se fait le plus tôt possible : dites-nous donc dès maintenant s'il y a des étapes qui pourraient causer un retard. Voici le numéro de téléphone du service funéraire de notre mosquée."
+      },
+      {
+        "title": "Vos volontés écrites",
+        "body": "Je suis musulman. À ma mort, je souhaite être lavé, enveloppé dans un linceul et inhumé selon la pratique islamique, et ne pas être incinéré. Veuillez communiquer avec ___ (mosquée et numéro de téléphone), qui aidera à organiser les arrangements. Signé ___, daté du ___."
+      },
+      {
+        "title": "Informer votre famille",
+        "body": "Ce n'est pas parce que quelque chose ne va pas. Je veux juste que vous sachiez que s'il m'arrive quelque chose, j'aimerais une inhumation musulmane. La mosquée peut s'occuper des détails. Je l'ai mis par écrit pour que personne n'ait à deviner."
+      }
+    ],
+    "scenarios": [
+      {
+        "title": "Votre conjoint musulman meurt soudainement à la maison.",
+        "response": "Composez d'abord le 911. Quand la police ou les ambulanciers arrivent, dites que vous voulez une inhumation musulmane. Ensuite, appelez le contact funéraire de la mosquée. Le coroner pourrait intervenir : informez tôt son bureau au sujet du délai."
+      },
+      {
+        "title": "Le coroner ordonne une autopsie.",
+        "response": "La décision du coroner s'applique, et une inhumation musulmane a quand même lieu après. Demandez combien de temps cela prendra, et laissez le service de la mosquée rester en contact avec le bureau du coroner."
+      },
+      {
+        "title": "Vous n'avez pas encore de mosquée.",
+        "response": "Utilisez notre outil pour trouver la mosquée la plus proche et appelez le bureau. Même si vous n'y êtes jamais allé, on vous aidera ou on vous dira qui appeler."
+      },
+      {
+        "title": "Vos parents vous demandent ce que vous voudriez si vous mouriez.",
+        "response": "Prenez la question comme une marque d'attention. Dites-leur simplement que vous aimeriez une inhumation musulmane, et dites-leur où se trouvent vos volontés écrites."
+      }
+    ],
+    "relatedLinks": [
+      {
+        "label": "Le deuil et la perte",
+        "href": "/topics/grief-and-loss"
+      },
+      {
+        "label": "Testaments et héritage",
+        "href": "/topics/wills-and-inheritance"
+      },
+      {
+        "label": "Les décisions de fin de vie",
+        "href": "/topics/end-of-life-decisions"
+      },
+      {
+        "label": "Trouver une mosquée",
+        "href": "/resources/find-masjid"
+      },
+      {
+        "label": "Comment demander de l'aide",
+        "href": "/guides/how-to-ask-for-help"
+      },
+      {
+        "label": "Signaux d'alarme et sécurité",
+        "href": "/guides/red-flags-and-staying-safe"
+      }
+    ]
+  },
+  {
+    "id": "having-a-baby",
+    "group": "life-events",
+    "title": "Avoir un bébé quand on est nouveau musulman",
+    "description": "Ce que font les musulmans à la naissance d'un bébé, ce qui est sunnah et ce qui est coutume familiale, les prénoms, le sacrifice de naissance (aqiqah), la circoncision selon les directives médicales canadiennes, et votre moral après l'accouchement.",
+    "intro": "Un nouveau bébé apporte beaucoup de conseils, certains religieux et d'autres tirés des coutumes familiales. Ce guide présente les pratiques que les musulmans suivent après une naissance, à quel point chacune est recommandée, et où interviennent les directives de santé canadiennes. Rien de tout cela n'a à être parfait. Demandez à votre imam ce que dit votre école, et à votre médecin ou à votre sage-femme ce qui concerne votre santé et celle de votre bébé.",
+    "summary": [
+      "Les actes recommandés après une naissance sont sunnah, pas des conditions pour que votre enfant soit musulman.",
+      "Le sacrifice de naissance (aqiqah) est une sunnah confirmée pour ceux qui en ont les moyens. Ce n'est pas une dette si vous ne les avez pas.",
+      "Un bon prénom compte. Il n'a pas besoin d'être arabe.",
+      "Si vous voulez que votre fils soit circoncis, parlez-en tôt à votre médecin. Les régimes provinciaux ne paient pas quand c'est fait pour des raisons religieuses.",
+      "La baisse de moral ou l'anxiété après une naissance est fréquente et se soigne. Ce n'est pas un problème de foi."
+    ],
+    "sections": [
+      {
+        "heading": "Sunnah, coutume et ce qui peut attendre",
+        "body": "Les proches et la belle-famille peuvent présenter leurs coutumes comme des obligations religieuses. Certaines sont sunnah, d'autres culturelles, et certaines les deux. Vous pouvez demander gentiment : « Est-ce que ça vient de la religion ou de la famille? », et vérifier avec un enseignant. Les coutumes comme un repos de quarante jours pour la mère varient beaucoup d'une famille et d'un pays à l'autre."
+      },
+      {
+        "heading": "Les premiers jours : les actes que suivent les musulmans",
+        "body": "SeekersGuidance, qui répond selon l'école chaféite, énumère ces actes recommandés. Il est bon de les faire, et en manquer un ne rend rien invalide.",
+        "items": [
+          "L'appel à la prière (adhan) dans l'oreille droite du bébé, et l'iqamah dans la gauche.",
+          "Mettre un peu de datte ramollie dans la bouche du bébé (tahnik). Vérifiez avec votre sage-femme ou votre médecin avant de donner quelque nourriture que ce soit à un nouveau-né.",
+          "Choisir un bon prénom.",
+          "Le septième jour, raser la tête du bébé et donner une aumône.",
+          "Le sacrifice de naissance (aqiqah), le sacrifice d'un animal pour remercier Allah pour l'enfant."
+        ]
+      },
+      {
+        "heading": "Quelle est la force du hadith sur l'adhan?",
+        "body": "Le récit selon lequel le Prophète a fait l'appel à la prière dans l'oreille de son petit-fils se trouve dans Sunan Abi Dawud 5105, jugé hasan par Al-Albani. At-Tirmidhi l'a aussi rapporté (Jami' at-Tirmidhi 1514) et l'a jugé hasan sahih, alors que le degré attribué par Darussalam sur Sunnah.com est da'if. La force du récit est donc débattue, et les écoles ne traitent pas toutes cette pratique de la même façon. La même réponse de SeekersGuidance dit que chuchoter le prénom du bébé à son oreille n'est pas une sunnah établie. Demandez à votre imam ce que retient votre école."
+      },
+      {
+        "heading": "Le sacrifice de naissance (aqiqah)",
+        "body": "Le centre de fatwas d'IslamWeb qualifie le sacrifice de naissance (aqiqah) de sunnah confirmée pour ceux qui en ont les moyens : deux moutons pour un garçon et un pour une fille, le septième jour, sinon le quatorzième ou le vingt et unième, ou à n'importe quel moment avant la puberté de l'enfant. Les écoles diffèrent sur la force de cette recommandation. Ce n'est pas une obligation, et personne ne devrait emprunter de l'argent pour le faire.\n\nCertains organismes de bienfaisance et bouchers halal peuvent organiser l'aqiqah pour vous. Demandez à votre mosquée à qui elle fait confiance."
+      },
+      {
+        "heading": "Choisir un prénom",
+        "body": "Choisissez un prénom qui a un bon sens. Il n'a pas besoin d'être arabe, de la même façon que les convertis gardent habituellement leur propre prénom, sauf si son sens pose problème. Si un prénom vous plaît mais que vous n'êtes pas sûr de son sens, demandez à quelqu'un qui connaît la langue avant de décider."
+      },
+      {
+        "heading": "La circoncision des bébés garçons",
+        "body": "Les écoles de droit islamique diffèrent sur la circoncision masculine : certaines la considèrent comme fortement recommandée et d'autres comme obligatoire. Notre page de questions explique ce que cela veut dire pour les adultes.\n\nPour les bébés, le document pour les parents de la Société canadienne de pédiatrie (SCP), mis à jour pour la dernière fois en février 2021, dit que la SCP ne recommande pas la circoncision systématique de tous les nouveau-nés garçons, et que beaucoup de parents la choisissent pour des raisons religieuses. Elle devrait être faite par un praticien formé et expérimenté, avec une anesthésie locale contre la douleur. Aucun régime d'assurance maladie provincial ou territorial ne la paie quand elle est faite pour des raisons non médicales. Le document de principes de la SCP sur lequel s'appuyait ce document a depuis été retiré : demandez à votre médecin des conseils à jour.\n\nSi vous voulez qu'elle soit faite, parlez-en tôt à votre médecin ou à votre sage-femme, et demandez à votre mosquée quelles cliniques locales les familles utilisent."
+      },
+      {
+        "heading": "Après l'accouchement : les saignements et l'adoration",
+        "body": "Les saignements après l'accouchement (nifas) suivent les mêmes règles d'adoration que les règles : vous ne priez pas et ne jeûnez pas tant qu'ils continuent, et vous rattrapez plus tard les jeûnes du Ramadan manqués. Notre sujet sur les règles et l'adoration explique les détails et les points où les écoles diffèrent. Suivez aussi les conseils de votre médecin ou de votre sage-femme pour votre rétablissement."
+      },
+      {
+        "heading": "Votre moral après l'accouchement",
+        "body": "Santé Canada rapporte que 23 % des mères ayant récemment accouché au Canada ont décrit des sentiments correspondant à une dépression post-partum ou à un trouble anxieux, un chiffre tiré de l'Enquête sur la santé maternelle de 2018/2019.\n\nSe sentir déprimée, anxieuse ou vide après une naissance n'est pas un signe de foi faible ni d'ingratitude. Parlez-en à votre médecin, à votre sage-femme ou à l'infirmière de la santé publique. De l'aide existe, et Santé Canada a publié des lignes directrices de traitement pour ces troubles.\n\nSi vous ou quelqu'un d'autre êtes en danger immédiat, composez le 911. Si vous pensez au suicide ou êtes inquiet pour un nouveau parent, appelez ou textez le 9-8-8."
+      }
+    ],
+    "scripts": [
+      {
+        "title": "Quand un proche insiste sur une coutume",
+        "body": "Merci, je sais que c'est important pour toi. J'apprends à distinguer ce qui vient de la religion et ce qui relève des coutumes familiales, alors laisse-moi demander à mon enseignant pour celle-ci."
+      },
+      {
+        "title": "Parler de la circoncision à votre médecin",
+        "body": "Nous sommes musulmans, et nous aimerions que notre fils soit circoncis pour des raisons religieuses. Qui recommandez-vous, quel soulagement de la douleur est utilisé, et combien cela coûte-t-il?"
+      },
+      {
+        "title": "Dire à votre professionnel de la santé comment vous vous sentez",
+        "body": "Depuis l'arrivée du bébé, je me sens déprimée (ou anxieuse) presque tous les jours, et ça ne s'améliore pas. J'aimerais parler de l'aide qui existe."
+      }
+    ],
+    "scenarios": [
+      {
+        "title": "Vous n'avez pas les moyens de faire l'aqiqah.",
+        "response": "Alors elle ne vous est pas demandée maintenant. Vous pourrez la faire plus tard si votre situation change, avant la puberté de l'enfant, ou y renoncer."
+      },
+      {
+        "title": "Votre belle-famille dit que le bébé doit avoir un prénom arabe.",
+        "response": "C'est le bon sens du prénom qui compte. Vous pouvez choisir un prénom que vous aimez tous les deux, arabe ou non, et expliquer calmement pourquoi."
+      },
+      {
+        "title": "Quelqu'un vous dit que la tristesse après l'accouchement veut dire que votre foi est faible.",
+        "response": "Ce n'est pas vrai. Parlez à votre médecin ou à votre sage-femme, et appuyez-vous sur les personnes qui vous soutiennent."
+      }
+    ],
+    "relatedLinks": [
+      {
+        "label": "Menstruation et adoration",
+        "href": "/topics/menstruation-and-worship"
+      },
+      {
+        "label": "Soutien en santé mentale",
+        "href": "/mental-health"
+      },
+      {
+        "label": "Les bases des relations et du mariage",
+        "href": "/guides/relationships-and-marriage-basics"
+      },
+      {
+        "label": "Testaments et héritage",
+        "href": "/topics/wills-and-inheritance"
+      }
+    ]
+  },
+  {
+    "id": "facing-hate-and-harassment",
+    "group": "community-and-safety",
+    "title": "Faire face à la haine et au harcèlement",
+    "description": "Quoi faire si quelqu'un vous prend pour cible parce que vous êtes musulman : vous mettre en sécurité, garder des traces, où faire un signalement au Canada, et prendre soin de vous après.",
+    "intro": "La plupart des jours se passent sans problème. Certains musulmans au Canada, surtout ceux qui sont visiblement musulmans, font face à de l'hostilité : un cri dans l'autobus, une main qui tire sur un hijab, des insultes en ligne. Si cela vous arrive, ce n'est pas votre faute, et vous n'avez pas à y faire face seul. Ce guide explique ce qui constitue un crime haineux, comment garder des traces, où faire un signalement et ce qui aide après. C'est de l'information générale, pas un avis juridique.",
+    "summary": [
+      "Si vous êtes blessé ou encore en danger, composez le 911.",
+      "Notez ce qui s'est passé le jour même, et sauvegardez les captures d'écran et les photos avant de bloquer ou de supprimer quoi que ce soit.",
+      "Vous pouvez faire un signalement à votre police locale, anonymement à Échec au crime (Crime Stoppers) au 1-800-222-8477, et au Conseil national des musulmans canadiens (NCCM). Vous pouvez en choisir un, deux ou les trois.",
+      "La discrimination dans le logement, dans un magasin ou une école, ou dans la plupart des milieux de travail peut être portée devant l'organisme des droits de la personne de votre province ou territoire.",
+      "La peur et le mauvais sommeil sont fréquents après. Les services d'aide aux victimes peuvent vous aider, et vous pouvez appeler ou texter le 9-8-8 si cela devient trop lourd."
+    ],
+    "sections": [
+      {
+        "heading": "Crime haineux ou incident haineux?",
+        "body": "La GRC explique la différence. Un crime haineux est une infraction criminelle, comme une agression, une menace ou des dommages à des biens, commise par haine ou par préjugé contre un groupe, par exemple une religion. Un incident haineux est un comportement haineux qui n'est pas un crime, comme une insulte ou une personne qui se moque de votre religion sur les réseaux sociaux.\n\nLes deux valent la peine d'être signalés. La GRC dit que signaler les incidents, aussi mineurs soient-ils, aide la police à les prévenir. En 2024, la police au Canada a enregistré 229 crimes haineux visant des musulmans, selon Statistique Canada."
+      },
+      {
+        "heading": "Tout de suite : vous mettre en sécurité",
+        "items": [
+          "Éloignez-vous de la personne et rapprochez-vous d'autres gens, d'un chauffeur, d'employés ou d'un magasin.",
+          "Si quelqu'un est blessé, ou si la personne vous menace encore, composez le 911.",
+          "N'affrontez pas la personne physiquement. Votre sécurité passe d'abord.",
+          "Si quelqu'un a vu ce qui s'est passé, demandez-lui son nom et son numéro de téléphone."
+        ]
+      },
+      {
+        "heading": "Garder des traces",
+        "body": "Les auteurs du Yaqeen Institute, l'imam Khalid Latif, le Dr Salman Khan et Mazin Awad, le disent simplement : la documentation compte. Des traces écrites aident la police, le NCCM ou un organisme des droits de la personne, même des semaines plus tard. Essayez de tout noter le jour même.",
+        "items": [
+          "La date, l'heure et le lieu.",
+          "Ce qui a été dit ou fait, avec les mots mêmes de la personne si vous vous en souvenez.",
+          "L'apparence de la personne, tout véhicule, et le nom des témoins.",
+          "Des captures d'écran des insultes en ligne, qui montrent le nom du compte et la date. Prenez-les avant de bloquer ou de signaler le compte.",
+          "Des photos de toute blessure ou de tout dommage. Gardez les objets abîmés, comme un hijab déchiré."
+        ]
+      },
+      {
+        "heading": "Où faire un signalement",
+        "body": "Faire un signalement est votre choix, et vous pouvez le faire à plus d'un endroit.",
+        "items": [
+          "Votre police locale. En cas d'urgence, composez le 911. Sinon, utilisez la ligne non urgente ou le signalement en ligne de votre police locale, ou le détachement de la GRC si c'est la GRC qui assure les services de police dans votre région.",
+          "Échec au crime (Crime Stoppers), si vous voulez rester anonyme. Appelez le 1-800-222-8477 (1-800-222-TIPS) ou utilisez son formulaire en ligne sécurisé. On ne vous demande pas votre nom, et il n'y a pas d'afficheur. Échec au crime n'est pas la police et n'offre pas de soutien aux victimes.",
+          "Le Conseil national des musulmans canadiens (NCCM). Toute personne qui a subi ou vu de la discrimination, du harcèlement ou un crime haineux peut remplir son formulaire de signalement d'incident. Le NCCM confirme la réception de votre signalement dans les sept jours, communique avec vous si c'est un cas qu'il peut prendre en charge, et ne communique pas vos renseignements sans votre consentement. Le NCCM est un groupe de défense des droits, pas la police ni un service juridique.",
+          "L'organisme des droits de la personne de votre province ou territoire, pour la discrimination dans le logement, dans un magasin ou un restaurant, à l'école ou dans les soins de santé, ou dans un milieu de travail qui n'est pas sous réglementation fédérale. La Commission canadienne des droits de la personne donne les liens vers chaque organisme. En Ontario, par exemple, le Code des droits de la personne couvre la location d'un logement et le fait d'être servi dans les magasins, les écoles et le transport en commun.",
+          "Au cégep, au collège ou à l'université, demandez au doyen des étudiants ou à l'association étudiante quel bureau reçoit les signalements de harcèlement et de discrimination. Signalez aussi un crime à la police."
+        ]
+      },
+      {
+        "heading": "Pourquoi faire un signalement aide quand même",
+        "body": "Beaucoup de gens ne font jamais de signalement. Dans une enquête de Statistique Canada de 2019, seulement 22 % des incidents que les gens percevaient comme motivés par la haine avaient été signalés à la police. Statistique Canada compte les barrières linguistiques, la confiance envers la police et la peur que cela se reproduise parmi les raisons pour lesquelles les gens se taisent. Ces raisons se comprennent. Un signalement compte quand même : c'est ainsi que la police et les gouvernements voient où la haine se manifeste."
+      },
+      {
+        "heading": "Après l'incident",
+        "body": "Justice Canada indique que les personnes visées par la haine se sentent souvent moins en sécurité après, et que certaines vivent de l'anxiété, une baisse de moral ou des troubles du sommeil. Cela peut aussi ébranler votre famille et votre communauté. Ce sont des réactions courantes à quelque chose qui n'aurait pas dû arriver.\n\nLe Répertoire des services aux victimes de Justice Canada trouve les services aux victimes près de chez vous grâce au code postal. Racontez ce qui s'est passé à une personne de confiance. Si la peur ou le mauvais sommeil ne se sont pas calmés après quelques semaines, parlez-en à votre médecin ou à un conseiller. Si vous pensez au suicide, appelez ou textez le 9-8-8 en tout temps."
+      },
+      {
+        "heading": "Si vous portez le hijab",
+        "body": "Les femmes visiblement musulmanes, converties comprises, sont souvent celles qu'on prend pour cible. Le Dr Naved Bakali, de l'Université de Windsor, a interrogé des femmes musulmanes à ce sujet, dont une convertie qui a été insultée après avoir commencé à porter le hijab. Être prise pour cible ne dit rien de mal sur vous, votre foi ou votre hijab.\n\nCertaines femmes se demandent si elles peuvent modifier ou enlever leur hijab dans un endroit où elles craignent pour leur sécurité. C'est une question de droit islamique, et ce guide n'y répond pas. Posez-la à un savant qualifié en qui vous avez confiance."
+      },
+      {
+        "heading": "La foi, en plus de l'aide concrète",
+        "body": "Beaucoup de musulmans trouvent du réconfort dans l'invocation (dua) quand ils sont ébranlés, et la page des invocations a une section pour les moments où vous vous sentez anxieux ou dépassé. Faire des invocations et signaler ce qui s'est passé peuvent aller ensemble."
+      }
+    ],
+    "scripts": [
+      {
+        "title": "Demander l'aide d'un témoin",
+        "body": "Excusez-moi, avez-vous vu ce qui vient de se passer? Est-ce que je pourrais avoir votre nom et votre numéro, au cas où la police aurait besoin d'un témoin?"
+      },
+      {
+        "title": "Commencer une plainte à la police",
+        "body": "Je veux signaler un incident haineux. Le [date], à [lieu], une personne [ce qu'elle a fait ou dit]. Je crois que c'était parce que je suis musulman. J'ai des photos et un témoin."
+      },
+      {
+        "title": "En parler à une personne de confiance",
+        "body": "Il m'est arrivé quelque chose d'effrayant aujourd'hui. Je n'ai pas besoin que tu règles le problème. Est-ce que je peux t'en parler?"
+      }
+    ],
+    "scenarios": [
+      {
+        "title": "Quelqu'un vous crie des insultes sur votre religion dans l'autobus, puis descend.",
+        "response": "Rapprochez-vous du chauffeur ou d'autres passagers. Une fois en sécurité, notez l'heure, le trajet et ce qui a été dit. Vous pouvez le signaler à la police et au NCCM."
+      },
+      {
+        "title": "Un inconnu tire sur votre hijab dans un magasin.",
+        "response": "Cela peut être un crime. Mettez-vous en sécurité, et composez le 911 si vous êtes blessée ou si la personne est encore là. Demandez au personnel de conserver toute vidéo de surveillance, et notez ce qui s'est passé."
+      },
+      {
+        "title": "Quelqu'un publie des insultes à votre sujet en ligne.",
+        "response": "Prenez des captures d'écran qui montrent le compte, les mots et la date avant de le bloquer ou de le signaler. Signalez-le à la plateforme, à la police s'il y a des menaces, et au NCCM."
+      },
+      {
+        "title": "Un propriétaire refuse de vous louer un logement après vous avoir vu prier.",
+        "response": "Cela peut être de la discrimination dans le logement. Notez ce qui a été dit et gardez tous les messages. Communiquez avec l'organisme des droits de la personne de votre province ou territoire."
+      }
+    ],
+    "relatedLinks": [
+      {
+        "label": "Obtenir de l'aide ou signaler une préoccupation",
+        "href": "/get-help"
+      },
+      {
+        "label": "Signaux d'alarme et sécurité",
+        "href": "/guides/red-flags-and-staying-safe"
+      },
+      {
+        "label": "Guide du travail et de l'école",
+        "href": "/guides/work-and-school"
+      },
+      {
+        "label": "Guide sur la pudeur et les vêtements",
+        "href": "/guides/modesty-and-clothing"
+      },
+      {
+        "label": "Prendre soin de votre esprit",
+        "href": "/mental-health"
+      },
+      {
+        "label": "Invocations (dua) et rappel d'Allah (dhikr)",
+        "href": "/dua-dhikr"
+      }
+    ]
+  },
+  {
+    "id": "coming-back",
+    "group": "starting-out",
+    "title": "Revenir après une pause",
+    "description": "Si vous avez arrêté de prier ou vous êtes éloigné de l'islam pendant un temps : comment revenir, ce que disent les savants sur les prières manquées, et retourner à la mosquée.",
+    "intro": "Beaucoup de musulmans, convertis comme personnes élevées dans la foi, traversent une période où ils arrêtent de prier ou s'éloignent. Revenir est toujours possible, et cela peut commencer par la prochaine prière. Ce guide parle du premier jour du retour, de ce que disent les savants sur les prières manquées, et du retour à la mosquée sans devoir d'explication à personne.",
+    "summary": [
+      "Allah dit de ne pas désespérer de Sa miséricorde, car Il pardonne tous les péchés (Coran 39:53).",
+      "Commencez par la prochaine prière. Vous n'avez pas besoin de vous sentir prêt d'abord.",
+      "Les prières d'avant le moment où vous avez su que la prière était obligatoire ne sont pas dues.",
+      "Pour les prières manquées après cela, les positions retenues des quatre écoles exigent de les rattraper, selon un horaire que vous pouvez tenir. Certains savants ont divergé au sujet des prières manquées volontairement. Demandez à un enseignant de vous aider à planifier.",
+      "Vous ne devez d'explication à personne à la mosquée sur l'endroit où vous étiez."
+    ],
+    "sections": [
+      {
+        "heading": "La porte est ouverte",
+        "body": "Allah dit : « Ô Mes serviteurs qui avez commis des excès à votre propre détriment! Ne désespérez pas de la miséricorde d'Allah, car Allah pardonne certainement tous les péchés » (Coran 39:53, traduction du sens d'après le Dr Mustafa Khattab). Le Prophète a dit que si les gens ne péchaient pas, Allah les remplacerait par des gens qui pèchent puis Lui demandent pardon, et qu'Il leur pardonnerait (Sahih Muslim 2749).\n\nRoohi Tahir, du Yaqeen Institute, écrit que le repentir est un mode de vie. Vous revenez à Allah chaque fois que vous glissez, même après être retombé, et le désespoir est l'une des principales choses qui empêchent les gens de revenir."
+      },
+      {
+        "heading": "Votre premier jour de retour",
+        "items": [
+          "Faites vos ablutions (wudu) et priez la prochaine prière due.",
+          "Dites un court repentir dans vos propres mots, dans n'importe quelle langue.",
+          "N'attendez pas de vous sentir prêt. Priez d'abord.",
+          "Si vous le voulez, dites à une personne de confiance que vous êtes de retour."
+        ]
+      },
+      {
+        "heading": "Les prières manquées",
+        "body": "Les prières d'avant votre conversion ne sont pas dues. Une réponse de SeekersGuidance de l'enseignante Shaista Maqbool dit aussi qu'un converti dans un pays non musulman n'est pas responsable des prières de la période où il ne savait pas encore que la prière était obligatoire.\n\nPour les prières manquées après cela, une réponse de SeekersGuidance du cheikh Dr Muhammad Fayez Awad dit qu'il faut les rattraper, avec un repentir sincère. Elle cite des savants hanafites, chaféites et hanbalites, et Ibn Rushd pour l'avis majoritaire. La même réponse cite Ibn Rushd, qui dit que les savants ont divergé au sujet de la personne qui a manqué des prières volontairement, et note que certains savants ont divergé sur la question de savoir si le rattrapage s'applique aux prières manquées volontairement. Si vous avez quitté l'islam pendant un temps et que vous êtes revenu, demandez à un enseignant comment cela s'applique à vous.\n\nSi vous rattrapez des prières, allez-y doucement. L'enseignante Maqbool suggère un horaire que vous pouvez tenir, comme rattraper une journée de prières chaque jour, même si cela prend un an ou plus.",
+        "items": [
+          "Estimez le nombre approximativement. Ne laissez pas le compte vous empêcher de prier aujourd'hui.",
+          "Ajoutez des prières de rattrapage à vos prières quotidiennes, ou suivez l'horaire que votre enseignant fixe.",
+          "N'essayez pas de rattraper des mois en quelques jours. Un plan régulier dure plus longtemps."
+        ]
+      },
+      {
+        "heading": "Retourner à la mosquée",
+        "body": "Vous ne devez d'explication à personne sur l'endroit où vous étiez. Entrez, priez, et repartez si c'est tout ce que vous pouvez faire aujourd'hui. Si quelqu'un vous pose la question, une réponse courte suffit. Si vous vous êtes senti mal accueilli dans une mosquée auparavant, essayez-en une autre, ou un cours pour nouveaux musulmans."
+      },
+      {
+        "heading": "Qu'est-ce qui vous a éloigné?",
+        "body": "Il peut être utile de nommer ce qui vous a fait vous éloigner, parce que chaque raison a son propre type d'aide.",
+        "items": [
+          "En faire trop d'un coup : voyez le plan pour les semaines difficiles sur la page Les bases du nouveau musulman.",
+          "La solitude : voyez le guide sur la solitude et l'appartenance.",
+          "Les doutes ou une foi qui semble à plat : voyez le sujet sur les questions et les doutes.",
+          "Une baisse de moral qui ne passe pas, ou l'alcool et les drogues : voyez la page sur la santé mentale."
+        ]
+      }
+    ],
+    "scripts": [
+      {
+        "title": "Un court repentir",
+        "body": "Ô Allah, je me suis éloigné et je le regrette. Je reviens vers Toi. Pardonne-moi et aide-moi à continuer."
+      },
+      {
+        "title": "Si quelqu'un à la mosquée vous pose la question",
+        "body": "J'ai été absent un bout de temps. Ça fait du bien d'être de retour."
+      },
+      {
+        "title": "Demander à un ami de prendre de vos nouvelles",
+        "body": "J'ai arrêté de prier pendant un temps, et je recommence cette semaine. Est-ce que tu pourrais prendre de mes nouvelles de temps en temps?"
+      }
+    ],
+    "scenarios": [
+      {
+        "title": "Vous n'avez pas prié depuis six mois et vous avez trop honte pour recommencer.",
+        "response": "Commencez par la prochaine prière, seulement celle-là. Repentez-vous dans vos propres mots. Ensuite, demandez à un enseignant de vous aider à planifier les prières à rattraper, s'il y en a."
+      },
+      {
+        "title": "Vous essayez de tout rattraper en une fin de semaine et vous vous épuisez.",
+        "response": "Ralentissez. Un horaire que vous pouvez tenir, comme une journée de rattrapage chaque jour, fonctionne mieux qu'un effort intense que vous ne pouvez pas répéter."
+      },
+      {
+        "title": "Quelqu'un à la mosquée vous dit qu'il ne vous a pas vu depuis un moment.",
+        "response": "Une réponse courte et amicale suffit. Vous ne devez votre histoire à personne."
+      }
+    ],
+    "relatedLinks": [
+      {
+        "label": "Étape pour commencer à prier",
+        "href": "/roadmap/week-1/prayer-on-ramp"
+      },
+      {
+        "label": "Les bases pour les nouveaux musulmans",
+        "href": "/topics/new-muslim-basics"
+      },
+      {
+        "label": "Guide sur la solitude et l'appartenance",
+        "href": "/guides/loneliness-and-belonging"
+      },
+      {
+        "label": "Sujet : questions et doutes",
+        "href": "/topics/questions-and-doubts"
+      },
+      {
+        "label": "Prendre soin de votre esprit",
+        "href": "/mental-health"
+      },
+      {
+        "label": "Invocations (dua) et rappel d'Allah (dhikr)",
+        "href": "/dua-dhikr"
       }
     ]
   }
