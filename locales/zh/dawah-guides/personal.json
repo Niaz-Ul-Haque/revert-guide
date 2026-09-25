@@ -2,18 +2,18 @@
   "id": "personal",
   "slug": "dawah-guide-personal",
   "title": "宣教指南",
-  "subtitle": "一个温柔、循序渐进的伴侣，以智慧和仁慈分享伊斯兰教。",
-  "audienceNote": "这是针对 da'ees（邀请加入伊斯兰教的人）的私人直接链接指南。它是一个现场伴侣，而不是一个脚本。真正的对话不是线性的——先听，按照对方的节奏行动，然后把结果交给真主。",
+  "subtitle": "一份平静、循序渐进的指南，陪你以智慧和善意谈论伊斯兰。",
+  "audienceNote": "这是一份私密的、仅通过直接链接访问的指南，写给宣教者（邀请他人了解伊斯兰的人）。请把它当作实地使用的陪伴手册，而不是一份台词。真实的谈话不会按直线进行。先倾听，按对方的节奏走，把结果交给安拉。",
   "reviewStatus": "source-checked",
-  "reviewNote": "2026 年 6 月 3 日，根据在线源链接对《古兰经》和圣训引用进行了检查。这未标记为已验证，因为合格的学者/手册仍在等待批准。",
+  "reviewNote": "古兰经和圣训引用已于2026年6月3日对照网上的原始链接核对过。由于仍在等待有资质的学者人工审核，因此尚未标记为“已核实”。",
   "lastSourceChecked": "2026-06-03",
   "tonePrinciples": [
-    "用智慧和礼貌来邀请，不要施加压力。",
-    "听的比说的多。一次问一个问题。",
-    "切勿嘲笑他人的信仰或背景。",
-    "为了获胜而避免争论。旨在理解。",
-    "即使谈话在没有清真言的情况下结束，也要保持门开着。",
-    "私下做出真诚的杜阿，并将结果留给安拉。"
+    "以智慧和良好的礼貌去邀请，绝不施压。",
+    "多听少说。一次只问一个问题。",
+    "绝不嘲笑别人的信仰或背景。",
+    "避免为了赢而辩论。以相互理解为目标。",
+    "即使谈话结束时对方没有念清真言，也要让大门保持敞开。",
+    "私下里真诚地为对方祈祷，把结果交给安拉。"
   ],
   "startNodeId": "start",
   "nodeOrder": [
@@ -39,18 +39,18 @@
     "start": {
       "id": "start",
       "kind": "intro",
-      "title": "开始对话",
-      "eyebrow": "伊斯兰教/穆斯林",
-      "summary": "热情而自然地开始。在讨论信仰之前建立真正的联系。",
+      "title": "开始谈话",
+      "eyebrow": "伊斯兰 / 穆斯林",
+      "summary": "温暖、自然地开始。在谈论信仰之前，先稍微了解一下这个人。",
       "explanation": [
-        "没有完美的开场白。真诚的微笑、善意的话语以及对对方真正的兴趣比任何技巧都重要。",
-        "让对话顺畅进行。你不是在演讲——你是在进行一场人类对话，对话可能会温和地转向生命的目的以及我们与造物主的关系。"
+        "没有完美的开场白。一个真诚的微笑、一句友善的话，以及对这个人真正的兴趣，比你能学到的任何技巧都更有用。",
+        "让谈话自然展开。你不是在讲课。你是在和一个人交谈，这场交谈也许会温和地转向我们为什么在这里，以及我们与造物主的关系。"
       ],
       "conversationTips": [
-        "在开始之前做杜阿，并祈求安拉软化双方的心。",
-        "提出开放性问题并真诚地倾听答案。",
-        "在进入更深层次的话题之前先征求许可：“如果我分享伊斯兰教对此的看法可以吗？”",
-        "首先找到共同点——大多数人关心真理、正义和意义。"
+        "开始之前先祈祷，祈求安拉让双方的心都变得柔和。",
+        "问开放式的问题，然后真正去听对方的回答。",
+        "在进入更深的话题之前先征得同意：“我可以分享一下伊斯兰是怎么看这个问题的吗？”",
+        "先找到共同点。大多数人都在意真理、公平和意义。"
       ],
       "referenceIds": ["quran-16-125"],
       "nextNodeId": "believe-in-god-initial"
@@ -58,83 +58,86 @@
     "believe-in-god-initial": {
       "id": "believe-in-god-initial",
       "kind": "decision",
-      "title": "他们相信上帝吗？",
-      "summary": "轻轻地了解这个人的立场。这里没有正确或错误的答案——只是一个起点。",
+      "title": "对方相信神吗？",
+      "summary": "温和地了解对方的立场。这里没有对错之分，只是一个起点。",
       "conversationTips": [
-        "不加判断地询问：“你相信有造物主吗？”并让他们用自己的话来解释。",
-        "如果他们不确定，那完全没问题——在他们所在的地方与他们会面。"
+        "不带评判地问：“你相信有一位造物主吗？”让对方用自己的话来解释。",
+        "如果对方不确定，这完全没问题。从对方所在的地方开始。"
       ],
       "options": [
         {
           "id": "yes",
-          "label": "是的，他们相信上帝",
-          "helperText": "朝着理解神的独一性前进。",
+          "label": "是的，对方相信神",
+          "helperText": "接着去理解神的独一。",
           "nextNodeId": "tawheed-surah-ikhlas",
-          "ariaLabel": "是的，他们相信上帝——继续Tawheed"
+          "ariaLabel": "是的，对方相信神。继续讲认主独一"
         },
         {
           "id": "no",
-          "label": "不，或者他们不确定",
-          "helperText": "一起轻轻地探索创造的迹象。",
+          "label": "不相信，或者不确定",
+          "helperText": "一起温和地探讨受造物中的迹象。",
           "nextNodeId": "signs-creation-infinite-regress",
-          "ariaLabel": "否或不确定——探索创造的迹象"
+          "ariaLabel": "不相信或不确定。探讨受造物中的迹象"
         }
       ]
     },
     "signs-creation-infinite-regress": {
       "id": "signs-creation-infinite-regress",
       "kind": "teaching",
-      "title": "创造的迹象",
-      "eyebrow": "阿亚特 / 设计 / 创作",
-      "summary": "邀请他们反思宇宙的秩序、设计和存在——而不是强行得出结论。",
+      "title": "受造物中的迹象",
+      "eyebrow": "迹象 / 设计 / 创造",
+      "summary": "邀请对方看看宇宙的秩序和设计，想想它为什么会存在。不要强迫对方得出结论。",
       "explanation": [
-        "我们所看到的一切都有一个开始和一个原因。反思创造引出了一个简单的问题：这一切都是从无到有，还是指向造物主？",
-        "谦虚地分享这些反思，将其视为奇迹，而不是一场有待赢得的辩论。我们的目标是打开思想之门，而不是逼迫任何人。"
+        "我们看到的一切都有开端，也有原因。这就引出一个简单的问题：这一切是从无中来的，还是指向一位造物主？",
+        "谦逊地分享这一点，把它当作一种惊叹，而不是一场要赢的辩论。你是在为对方打开一扇思考的门，而不是把对方逼到墙角。"
       ],
       "conversationTips": [
-        "邀请反思：“你有没有想过一切最终从何而来？”",
-        "使用日常的设计和秩序示例，而不是复杂的哲学。",
-        "保持冷静和好奇。避免将其变成争论。"
+        "邀请对方思考：“你有没有想过，这一切是从哪里来的？”",
+        "用日常生活中关于设计和秩序的例子，而不是复杂的哲学。",
+        "保持平静和好奇。避免把它变成一场争论。"
       ],
-      "avoid": ["过于自信的哲学主张你无法解释。", "贬低对方或暗示他们很愚蠢。"],
+      "avoid": [
+        "你自己都解释不清的、过于自信的哲学论断。",
+        "居高临下地对待对方，或暗示对方很愚蠢。"
+      ],
       "referenceIds": ["quran-52-35"],
       "nextNodeId": "believe-in-god-after-signs"
     },
     "believe-in-god-after-signs": {
       "id": "believe-in-god-after-signs",
       "kind": "decision",
-      "title": "反思之后，他们信神吗？",
-      "summary": "轻轻地检查。信仰是他们和安拉之间的事——你的角色只是邀请。",
+      "title": "经过思考之后，对方相信神吗？",
+      "summary": "温和地问一问。信仰是对方和安拉之间的事。你的责任只是邀请。",
       "options": [
         {
           "id": "yes",
-          "label": "是的，他们现在相信",
-          "helperText": "走向神的独一性。",
+          "label": "是的，对方现在相信了",
+          "helperText": "接着讲神的独一。",
           "nextNodeId": "tawheed-surah-ikhlas",
-          "ariaLabel": "是的，他们现在相信——继续 Tawheed"
+          "ariaLabel": "是的，对方现在相信了。继续讲认主独一"
         },
         {
           "id": "no",
-          "label": "不，还没有",
-          "helperText": "温暖地关上门并保持门打开。",
+          "label": "还没有",
+          "helperText": "温暖地结束谈话，让大门保持敞开。",
           "nextNodeId": "respectful-exit-best-of-luck",
-          "ariaLabel": "不，还没有——热情地关闭"
+          "ariaLabel": "还没有。温暖地结束谈话"
         }
       ]
     },
     "tawheed-surah-ikhlas": {
       "id": "tawheed-surah-ikhlas",
       "kind": "teaching",
-      "title": "神的独一性（Tawheed）",
-      "eyebrow": "Tawheed / Surah Al-Ikhlas / 安拉",
-      "summary": "介绍伊斯兰教中的上帝是谁：独一、永恒、没有伴侣或平等，如《Al-Ikhlas》中所述。",
+      "title": "神的独一（认主独一）",
+      "eyebrow": "认主独一 / 忠诚章 / 安拉",
+      "summary": "介绍伊斯兰中的神是谁：独一的、永恒的，没有伙伴，也没有匹敌，正如忠诚章所描述的那样。",
       "explanation": [
-        "在伊斯兰教中，上帝（安拉）是独一的——他没有伴侣，没有孩子，没有什么可以与他相比。 “安拉”在阿拉伯语中是独一的神，是所有先知所崇拜的同一位神。",
-        "《Surah Al-Ikhlas》是《古兰经》的一小章，用四行诗句完美地总结了这一纯粹的信仰。"
+        "在伊斯兰中，神（安拉）是独一的。祂没有伙伴，没有子女，没有任何东西可以与祂相比。“安拉”只是阿拉伯语中对独一之神的称呼，也就是每一位先知都崇拜的那同一位神。",
+        "忠诚章是古兰经中很短的一章，用四句话概括了这一信仰。"
       ],
       "conversationTips": [
-        "说明“安拉”不是一位不同的神，而是万物的独一创造者。",
-        "分享《Surah Al-Ikhlas》，它是对神是谁的温柔而清晰的总结。"
+        "解释“安拉”并不是另一位神，而是万物独一的造物主。",
+        "把忠诚章当作对神是谁的一个温和而清楚的概括来分享。"
       ],
       "referenceIds": ["quran-112-ikhlas"],
       "nextNodeId": "one-god-initial"
@@ -142,78 +145,78 @@
     "one-god-initial": {
       "id": "one-god-initial",
       "kind": "decision",
-      "title": "他们承认神是独一的吗？",
-      "summary": "看看独一、不可分割的上帝这一观念是否能引起他们的共鸣。",
+      "title": "对方接受神是独一的吗？",
+      "summary": "看看独一、不可分割的神这个概念，是否能被对方接受。",
       "options": [
         {
           "id": "yes",
-          "label": "是的，他们接受独一上帝",
-          "helperText": "走向启示、正义和审判日。",
+          "label": "是的，对方接受独一的神",
+          "helperText": "接着讲启示、公正和审判日。",
           "nextNodeId": "justice-day-judgment-test-revelation",
-          "ariaLabel": "是的，他们接受独一上帝——继续"
+          "ariaLabel": "是的，对方接受独一的神。继续"
         },
         {
           "id": "no",
-          "label": "不，或者他们有疑问",
+          "label": "不接受，或者有疑问",
           "helperText": "温和地讨论为什么多神会导致矛盾。",
           "nextNodeId": "ayat-ikhtilaf",
-          "ariaLabel": "否或有疑问——讨论独一神的逻辑"
+          "ariaLabel": "不接受或有疑问。讨论独一之神的道理"
         }
       ]
     },
     "ayat-ikhtilaf": {
       "id": "ayat-ikhtilaf",
       "kind": "teaching",
-      "title": "为什么独一神是有道理的",
-      "eyebrow": "阿亚特·伊赫蒂拉夫",
-      "summary": "冷静地讨论多个相互竞争的神将如何导致冲突和混乱——而单个造物主解释了我们观察到的和谐。",
+      "title": "为什么独一的神是合理的",
+      "eyebrow": "关于分歧的迹象",
+      "summary": "平静地讨论：相互竞争的多位神会把受造物拉向不同的方向，而一位造物主则能解释我们实际看到的秩序。",
       "explanation": [
-        "如果有很多神都有自己的意志，那么造物就会被拉向相互冲突的方向。相反，宇宙的秩序与和谐指向一个单一的权威。",
-        "将其作为反思，而不是作为淘汰论证。有些人需要时间，这没关系。"
+        "如果有许多位神，各有各的意志，受造物就会被拉向相互冲突的方向。而我们所看到的秩序，指向的是唯一的主宰。",
+        "把这当作一种思考来呈现，而不是一个一锤定音的论证。有些人需要时间，这没关系。"
       ],
       "conversationTips": [
-        "保持语气反思和谦虚，不要好斗。",
-        "允许沉默和提问。您是在播撒种子，而不是完成销售。"
+        "保持思考和谦逊的语气，绝不咄咄逼人。",
+        "允许沉默，也允许提问。你是在播下一颗种子，而不是在做成一笔买卖。"
       ],
-      "avoid": ["嘲笑多神教或其他信仰。", "将讨论变成了激烈的辩论。"],
+      "avoid": ["嘲笑多神信仰或其他信仰。", "把讨论变成激烈的辩论。"],
       "referenceIds": ["quran-21-22"],
       "nextNodeId": "one-god-after-ikhtilaf"
     },
     "one-god-after-ikhtilaf": {
       "id": "one-god-after-ikhtilaf",
       "kind": "decision",
-      "title": "现在，独一神对他们来说有意义吗？",
-      "summary": "再次入住，轻柔且无压力。",
+      "title": "现在对方觉得独一的神是合理的吗？",
+      "summary": "再温和地问一次，不带任何压力。",
       "options": [
         {
           "id": "yes",
-          "label": "是的，现在有意义了",
-          "helperText": "走向启示、正义和审判日。",
+          "label": "是的，现在觉得合理了",
+          "helperText": "接着讲启示、公正和审判日。",
           "nextNodeId": "justice-day-judgment-test-revelation",
-          "ariaLabel": "是的——继续启示录和审判日"
+          "ariaLabel": "是的。继续讲启示和审判日"
         },
         {
           "id": "no",
-          "label": "不，还没有",
-          "helperText": "温暖地关上门并保持门打开。",
+          "label": "还没有",
+          "helperText": "温暖地结束谈话，让大门保持敞开。",
           "nextNodeId": "respectful-exit-best-of-luck",
-          "ariaLabel": "不，还没有——热情地关闭"
+          "ariaLabel": "还没有。温暖地结束谈话"
         }
       ]
     },
     "justice-day-judgment-test-revelation": {
       "id": "justice-day-judgment-test-revelation",
       "kind": "teaching",
-      "title": "正义、生命的考验和启示",
-      "eyebrow": "正义/审判日/测试/启示",
-      "summary": "说明今生是一场考验，正义将在审判日得到实现，上帝并没有让我们失去指引。",
+      "title": "公正、人生的考验与启示",
+      "eyebrow": "公正 / 审判日 / 考验 / 启示",
+      "summary": "解释今生是一场考验，公正将在审判日得到实现，而且神没有让我们在没有引导的情况下生活。",
       "explanation": [
-        "公正的上帝不会永远对不法行为置之不理。审判日是完美正义最终建立的地方。",
-        "因为生命是一次有意义的考验，上帝通过他的使者赐予启示——指导——所以我们永远不会独自弄清楚生命的目的。"
+        "一位公正的神不会让不义永远得不到回应。在审判日，每一笔账最终都会被清算。",
+        "正因为人生是一场真实的考验，神降下了启示。祂通过祂的使者给予引导，所以没有人需要独自摸索人生的目的。"
       ],
       "conversationTips": [
-        "连接到他们与生俱来的正义感和公平感。",
-        "将启示视为仁慈：我们不必猜测。"
+        "把话题与对方内心天生的公正感和公平感联系起来。",
+        "把启示说成一种慈悯：我们不是被留下来胡乱猜测的。"
       ],
       "referenceIds": ["hadith-jibril"],
       "nextNodeId": "angels"
@@ -221,12 +224,12 @@
     "angels": {
       "id": "angels",
       "kind": "teaching",
-      "title": "对天使的信仰",
+      "title": "信天使",
       "eyebrow": "天使",
-      "summary": "介绍天使是上帝尊贵的创造物，执行他的命令，包括传递启示。",
+      "summary": "介绍天使是神尊贵的受造物，他们执行祂的命令，包括传达启示。",
       "explanation": [
-        "天使是上帝用光创造的生物，他们从不违背上帝。他们的作用包括传达启示、记录事迹等等。",
-        "对天使的信仰是伊斯兰教对看不见的事物更广泛理解的一部分。"
+        "天使是神用光创造的，他们从不违抗祂。有的传达启示，有的记录我们的行为，他们还有其他职责。",
+        "信天使，是穆斯林对幽玄世界所接受的信仰的一部分。"
       ],
       "referenceIds": ["hadith-jibril"],
       "nextNodeId": "messengers-prophets"
@@ -234,15 +237,15 @@
     "messengers-prophets": {
       "id": "messengers-prophets",
       "kind": "teaching",
-      "title": "使者和先知",
-      "eyebrow": "使者/先知",
-      "summary": "说明上帝在历史上派遣了许多先知和使者，他们都携带一个核心信息：敬拜独一的上帝。",
+      "title": "使者与先知",
+      "eyebrow": "使者 / 先知",
+      "summary": "解释神在历史上派遣了许多先知和使者，他们都传达同一个核心信息：崇拜独一的神。",
       "explanation": [
-        "从第一个人类开始，上帝就为每个民族派遣了向导。像诺亚、亚伯拉罕、摩西和耶稣这样的名字在伊斯兰教中都受到极大的尊敬。",
-        "尽管他们的社区和时代不同，但他们的中心信息是相同的：只有一位上帝值得崇拜。"
+        "从第一个人开始，神就向每一个民族派遣引导者。穆斯林非常尊敬努哈（挪亚）、易卜拉欣（亚伯拉罕）、穆萨（摩西）和尔撒（耶稣）。",
+        "尽管他们的群体和时代各不相同，他们的核心信息却是一样的：只有独一的神配受崇拜。"
       ],
       "conversationTips": [
-        "强调先知之间的共同主线——这通常会引起其他信仰的人的共鸣。"
+        "指出贯穿所有先知的那条主线。这常常能打动其他信仰的人。"
       ],
       "referenceIds": ["quran-21-25"],
       "nextNodeId": "jesus-peace-be-upon-him"
@@ -250,20 +253,20 @@
     "jesus-peace-be-upon-him": {
       "id": "jesus-peace-be-upon-him",
       "kind": "teaching",
-      "title": "耶稣，愿他平安",
-      "eyebrow": "耶稣（愿主福安之）",
-      "summary": "以深深的爱和尊重来谈论耶稣，因为伊斯兰教尊他为上帝最伟大的使者之一。",
+      "title": "尔撒（耶稣），愿主福安之",
+      "eyebrow": "尔撒（耶稣，愿主福安之）",
+      "summary": "怀着爱和尊重谈论尔撒。伊斯兰尊敬他，视他为神最伟大的使者之一。",
       "explanation": [
-        "穆斯林热爱并尊崇耶稣（愿他安息）。我们相信他的奇迹般的诞生，他在上帝许可下所创造的奇迹，以及他崇高的信息。",
-        "伊斯兰教教导说，耶稣是上帝的一位强大的使者，他号召人们崇拜独一的上帝。以极大的谨慎和尊重来处理这个话题，特别是对于那些有基督教背景的人。"
+        "穆斯林爱戴并尊敬尔撒（愿主福安之）。我们相信他奇迹般的降生，相信他凭神的许可所行的奇迹，也相信他所带来的信息。",
+        "伊斯兰教导说，尔撒是神的一位伟大使者，他号召人们崇拜独一的神。在这里要谨慎、恭敬，尤其是面对有基督教背景的人时。"
       ],
       "conversationTips": [
-        "以对耶稣的共同爱和尊重来领导——而不是批评。",
-        "仔细听；对于许多人来说，这可能是一个情感话题。"
+        "从你们对尔撒共有的爱和尊敬说起，绝不要从批评开始。",
+        "仔细倾听。对很多人来说，这是一个触动感情的话题。"
       ],
       "avoid": [
-        "不尊重基督教信仰或激烈争论神学。",
-        "加快这次谈话——给它温暖和时间。"
+        "不尊重基督教信仰，或咄咄逼人地争论神学问题。",
+        "匆匆带过这段谈话，而不是给它足够的温暖和时间。"
       ],
       "referenceIds": ["quran-3-45"],
       "nextNodeId": "shahada-readiness-initial"
@@ -271,45 +274,45 @@
     "shahada-readiness-initial": {
       "id": "shahada-readiness-initial",
       "kind": "decision",
-      "title": "他们准备好做清真言了吗？",
-      "summary": "感受这个人是否准备好接受伊斯兰教。他们必须真诚、自由地做好准备。",
+      "title": "对方准备好念清真言了吗？",
+      "summary": "感受一下对方是否觉得自己已经准备好成为穆斯林。这种准备必须出自对方本人，自由而真诚。",
       "conversationTips": [
-        "永远不要有压力。清真言必须是自由、真诚的选择。",
-        "温柔地询问一次，然后给他们思考的空间。",
-        "对于某人来说，花更多的时间是完全可以的，而且往往更好。"
+        "绝不施压。念清真言必须是自由、真诚的选择。",
+        "温和地问一次，然后给对方思考的空间。",
+        "一个人多花些时间完全没问题，而且往往更好。"
       ],
       "options": [
         {
           "id": "yes",
-          "label": "是的，他们感觉已经准备好了",
-          "helperText": "将他们与指导和社区联系起来。",
+          "label": "是的，对方觉得准备好了",
+          "helperText": "帮对方联系指导和社区。",
           "nextNodeId": "connect-guidance-community",
-          "ariaLabel": "是的，他们感觉已经准备好了——将他们与社区联系起来"
+          "ariaLabel": "是的，对方觉得准备好了。帮对方联系社区"
         },
         {
           "id": "no",
           "label": "还没有",
-          "helperText": "轻轻地鼓励并保持门打开。",
+          "helperText": "温和地鼓励，让大门保持敞开。",
           "nextNodeId": "encourage-keep-door-open",
-          "ariaLabel": "还没有——温柔地鼓励"
+          "ariaLabel": "还没有。温和地鼓励"
         }
       ]
     },
     "encourage-keep-door-open": {
       "id": "encourage-keep-door-open",
       "kind": "encouragement",
-      "title": "轻轻鼓励，保持门打开",
+      "title": "温和地鼓励，让大门保持敞开",
       "eyebrow": "鼓励",
-      "summary": "在没有任何压力的情况下提供温暖、资源和友谊。让他们知道大门永远敞开。",
+      "summary": "给予温暖、一两份资源以及你的友谊，不附带任何压力。让对方知道，大门始终敞开。",
       "explanation": [
-        "让他们放心，不要着急，也没有压力。随时回答问题，分享少量值得信赖的资源，让他们决定是现在继续还是稍后继续。",
-        "一个善良、耐心的人，把门一直开着，比推门更有效。指引来自安拉，许多人在第一次对话后很久就接受了伊斯兰教。"
+        "让对方放心，不用着急。表示随时愿意回答问题，分享一两份可靠的资源，让对方自己决定是现在继续还是以后再说。",
+        "一位友善、耐心、让大门保持敞开的宣教者，远比一位急于推动的宣教者更有效。引导来自安拉，很多人是在第一次谈话之后很久才接受伊斯兰的。"
       ],
       "conversationTips": [
-        "提供您的联系方式和一些温和的资源。",
-        "如果他们看起来疲倦、紧张或不知所措，请暂停而不是添加更多分数。",
-        "无论他们的决定如何，都要重申友谊。",
-        "私下为他们做真诚的杜阿。"
+        "把你的电话号码和一两份资源留给对方。",
+        "如果对方看起来疲惫、紧张或应接不暇，就停下来，而不是再增加论点。",
+        "清楚地表明，无论结果如何，友谊都不会改变。",
+        "私下里为对方真诚地祈祷。"
       ],
       "referenceIds": ["quran-51-55", "quran-28-56", "quran-2-256"],
       "nextNodeId": "shahada-readiness-after-encouragement"
@@ -317,59 +320,59 @@
     "shahada-readiness-after-encouragement": {
       "id": "shahada-readiness-after-encouragement",
       "kind": "decision",
-      "title": "受到鼓励后，他们准备好了吗？",
-      "summary": "仅当您仍然感到受欢迎时才再次入住。无论他们做出什么决定，都要善意地回应。",
+      "title": "经过鼓励之后，对方准备好了吗？",
+      "summary": "只有在气氛仍然融洽的时候，才再问一次。无论对方做什么决定，都以善意回应。",
       "options": [
         {
           "id": "yes",
-          "label": "是的，他们要求继续",
-          "helperText": "将他们与指导和社区联系起来。",
+          "label": "是的，对方要求继续",
+          "helperText": "帮对方联系指导和社区。",
           "nextNodeId": "connect-guidance-community",
-          "ariaLabel": "是的，他们要求继续——将他们与社区联系起来"
+          "ariaLabel": "是的，对方要求继续。帮对方联系社区"
         },
         {
           "id": "no",
-          "label": "还没有",
-          "helperText": "温暖地关上门并保持门打开。",
+          "label": "仍然还没有",
+          "helperText": "温暖地结束谈话，让大门保持敞开。",
           "nextNodeId": "respectful-exit-best-of-luck",
-          "ariaLabel": "还没有——热烈关闭"
+          "ariaLabel": "仍然还没有。温暖地结束谈话"
         }
       ]
     },
     "connect-guidance-community": {
       "id": "connect-guidance-community",
       "kind": "completion",
-      "title": "将他们与指导和社区联系起来",
-      "eyebrow": "联系方式 / 穆斯林指南",
-      "summary": "在支持下帮助他们采取后续步骤。新穆斯林永远不应该感到孤独。",
+      "title": "帮对方联系指导和社区",
+      "eyebrow": "联系人 / 穆斯林引导者",
+      "summary": "帮助对方在支持下迈出下一步。一位新穆斯林绝不应该感到孤单。",
       "explanation": [
-        "拥抱伊斯兰教是一个开始，而不是结束。现在最重要的是关爱的支持和温和、实用的指导。",
-        "帮助他们与值得信赖的当地社区建立联系，以便他们能够按照自己的节奏学习和成长。"
+        "成为穆斯林是一个开始，而不是结束。现在最重要的是温暖的支持，以及对方真正用得上的实际指导。",
+        "帮助对方联系一个可靠的当地社区，让他们能按自己的节奏学习和成长。"
       ],
       "checklist": [
-        "将他们介绍给一位友善的当地伊玛目或导师。",
-        "将他们与新的穆斯林支持小组联系起来。",
-        "帮助他们找到一个受欢迎的当地清真寺。",
-        "商定一个温和的后续计划（报到、上课、一起吃饭）。",
-        "分享适合初学者的祈祷和伊斯兰教基础知识资源。"
+        "把对方介绍给一位友善的当地伊玛目或导师。",
+        "帮对方联系一个新穆斯林互助小组。",
+        "帮对方找到一座欢迎新人的当地清真寺。",
+        "商定一个温和的跟进计划（一次问候、一门课程、一起吃顿饭）。",
+        "分享关于礼拜和伊斯兰基础知识、适合初学者的资源。"
       ],
       "referenceIds": ["quran-16-125"]
     },
     "respectful-exit-best-of-luck": {
       "id": "respectful-exit-best-of-luck",
       "kind": "exit",
-      "title": "温暖关门——保持门开着",
-      "eyebrow": "祝你好运",
-      "summary": "无论结果如何，都以善意结束每一次谈话。你的工作是传达，而不是转换。",
+      "title": "温暖地结束谈话，让大门保持敞开",
+      "eyebrow": "祝一切顺利",
+      "summary": "无论结果如何，都以善意结束每一次谈话。你的任务是传达，而不是让人归信。",
       "explanation": [
-        "衷心感谢他们的时间和开放。明确表示欢迎他们稍后继续对话。",
-        "避免任何沮丧或争论。指导仅来自安拉——你的作用只是用智慧和良好的举止邀请他们，并私下为他们做杜阿。"
+        "真诚地感谢对方付出的时间和开放的态度。清楚地表明，对方以后随时都可以继续这场谈话。",
+        "放下任何挫败感，不要执意要说最后一句话。引导只来自安拉。你的责任是以智慧和良好的礼貌去邀请，并私下为对方祈祷。"
       ],
       "conversationTips": [
-        "给他们留下对伊斯兰教和穆斯林的良好印象。",
-        "随时保持联系并回答问题。",
-        "在他们明确暂停或拒绝后，不要要求做出决定。",
-        "分手后为他们真诚的杜阿。"
+        "让对方对伊斯兰和穆斯林留下好印象。",
+        "表示愿意保持联系，随时回答问题。",
+        "在对方已经明确停下或拒绝之后，不要再要求对方做决定。",
+        "分别之后，为对方真诚地祈祷。"
       ],
       "referenceIds": ["quran-51-55", "quran-28-56", "quran-2-256"]
     }
@@ -377,9 +380,9 @@
   "gorap": [
     {
       "letter": "G",
-      "title": "上帝",
+      "title": "神",
       "shortLabel": "安拉的存在",
-      "explanation": "建立对造物主的信仰——上帝的存在。",
+      "explanation": "确立对造物主的信仰，也就是神的存在。",
       "relatedNodeIds": [
         "believe-in-god-initial",
         "signs-creation-infinite-regress"
@@ -387,9 +390,9 @@
     },
     {
       "letter": "O",
-      "title": "独一神",
-      "shortLabel": "塔希德",
-      "explanation": "建立上帝的独一性——他是独一的，没有伙伴或平等者。",
+      "title": "独一的神",
+      "shortLabel": "认主独一",
+      "explanation": "确立神的独一：祂是独一的，没有伙伴，也没有匹敌。",
       "relatedNodeIds": [
         "tawheed-surah-ikhlas",
         "one-god-initial",
@@ -399,22 +402,22 @@
     {
       "letter": "R",
       "title": "启示",
-      "shortLabel": "正义/审判日/测试",
-      "explanation": "确定生命是一场考验，正义将会实现，上帝会赐下启示作为指导。",
+      "shortLabel": "公正 / 审判日 / 考验",
+      "explanation": "确立人生是一场考验，公正必将实现，神降下启示作为引导。",
       "relatedNodeIds": ["justice-day-judgment-test-revelation"]
     },
     {
       "letter": "A",
       "title": "天使",
       "shortLabel": "天使",
-      "explanation": "建立对天使的信仰，天使是执行上帝命令的尊贵造物。",
+      "explanation": "确立对天使的信仰，他们是执行神命令的尊贵受造物。",
       "relatedNodeIds": ["angels"]
     },
     {
       "letter": "P",
       "title": "先知与使者",
-      "shortLabel": "一条消息",
-      "explanation": "建立对先知和使者的信仰，他们都携带着一个核心信息。",
+      "shortLabel": "同一个信息",
+      "explanation": "确立对先知和使者的信仰，他们都传达同一个核心信息。",
       "relatedNodeIds": ["messengers-prophets", "jesus-peace-be-upon-him"]
     }
   ],
@@ -422,76 +425,76 @@
     "outsideTheField": [
       {
         "id": "dua",
-        "title": "杜阿",
-        "body": "在谈话之前、之中和之后，为对方和你自己做出真诚的杜阿。指导来自安拉。",
+        "title": "祈祷",
+        "body": "在谈话之前、之中和之后，为对方也为自己真诚地祈祷。引导来自安拉。",
         "priority": "core"
       },
       {
         "id": "sincerity",
-        "title": "诚意",
-        "body": "净化你的意图。你是为了阿拉而传达信息，而不是为了赢得胜利或被人看见。",
+        "title": "真诚",
+        "body": "端正你的举意。你传达信息是为了安拉，而不是为了赢，也不是为了被人看见。",
         "priority": "core"
       },
       {
         "id": "planning",
-        "title": "规划",
-        "body": "学好基础知识，以便您能够冷静、诚实地回答常见问题。可以说“我不知道，让我找出来”。",
+        "title": "准备",
+        "body": "把基础知识学扎实，这样你就能平静、诚实地回答常见问题。说“我不知道，让我去查一查”完全没问题。",
         "priority": "helpful"
       },
       {
         "id": "istiqamah",
-        "title": "伊斯提卡玛",
-        "body": "在你自己的实践中要坚定和一致。你的性格是你最强大的宣教。",
+        "title": "坚守正道",
+        "body": "在你自己的功修上坚定、始终如一。你的品德比你的言语更能起到宣教的作用。",
         "priority": "helpful"
       }
     ],
     "onTheField": [
       {
         "id": "make-dua",
-        "title": "使杜阿",
-        "body": "随着谈话的展开，静静地祈求真主软化人心。",
+        "title": "祈祷",
+        "body": "在谈话时，默默地祈求安拉让人心变得柔和。",
         "priority": "core"
       },
       {
         "id": "smile",
         "title": "保持微笑",
-        "body": "温暖、真诚的微笑是一种慈善形式，可以打开心灵。",
+        "body": "真诚的微笑是一种施舍，它能打开人心。",
         "priority": "helpful"
       },
       {
         "id": "polite-kind",
-        "title": "要有礼貌和友善",
-        "body": "良好的举止会给伊斯兰教留下持久、积极的印象。",
+        "title": "有礼貌，友善待人",
+        "body": "良好的礼貌，是人们事后对伊斯兰记得最清楚的东西。",
         "priority": "core"
       },
       {
         "id": "avoid-debate",
-        "title": "避免不必要的争论",
-        "body": "旨在理解，而不是赢得争论。如果温度变热，请退后一步。",
+        "title": "避免不必要的辩论",
+        "body": "以相互理解为目标，而不是赢得争论。如果气氛变得激烈，就退一步。",
         "priority": "core"
       },
       {
         "id": "follow-flow",
-        "title": "遵循流程和优先顺序",
-        "body": "去见见那个人所在的地方。不要强迫命令——让谈话自然而然地进行。",
+        "title": "顺着谈话的走向和重点",
+        "body": "从对方所在的地方开始。不要强求顺序，让谈话自然展开。",
         "priority": "helpful"
       },
       {
         "id": "be-concise",
-        "title": "简洁（注意时间）",
-        "body": "尊重他们的时间和注意力。少说，多听。",
+        "title": "简明扼要（注意时间）",
+        "body": "尊重对方的时间和注意力。少说，多听。",
         "priority": "helpful"
       },
       {
         "id": "redirect",
-        "title": "重定向至优先事项",
-        "body": "当有帮助时，轻轻地将旁白引回到问题的核心。",
+        "title": "回到重点",
+        "body": "在有帮助的时候，温和地把偏离的话题引回主要的内容。",
         "priority": "helpful"
       },
       {
         "id": "encourage-shahada",
-        "title": "鼓励清真言（切勿强迫）",
-        "body": "轻轻地邀请。这个决定必须是真诚和自由的。永远不要给任何人施加压力。",
+        "title": "鼓励念清真言（绝不强迫）",
+        "body": "温和地邀请。这个决定必须是真诚而自由的。绝不要给任何人施压。",
         "priority": "core"
       }
     ]
@@ -500,322 +503,322 @@
     {
       "id": "quran-16-125",
       "type": "quran",
-      "citation": "Qur'an 16:125 (excerpt)",
-      "label": "用智慧和良好的指导来邀请",
+      "citation": "Qur'an 16:125（节选）",
+      "label": "以智慧和善言邀请",
       "arabic": "ٱدْعُ إِلَىٰ سَبِيلِ رَبِّكَ بِٱلْحِكْمَةِ وَٱلْمَوْعِظَةِ ٱلْحَسَنَةِ ۖ وَجَـٰدِلْهُم بِٱلَّتِى هِىَ أَحْسَنُ",
-      "translation": "用智慧和仁慈的建议邀请“所有人”走上你的主的道路，并且只以最好的方式与他们辩论。",
+      "translation": "你应凭智慧和善言，劝人遵循你的主的道路，你应以最优美的态度与他们辩论。",
       "translator": "Dr. Mustafa Khattab, The Clear Quran",
       "sourceName": "Quran.com",
       "sourceUrl": "https://quran.com/16/125",
       "reviewStatus": "source-checked",
-      "reviewNote": "摘录于 2026 年 6 月 3 日对照 Quran.com 检查；合格的学者/手册正在等待批准。"
+      "reviewNote": "节选已于2026年6月3日对照 Quran.com 核对；尚待有资质的学者人工审核。"
     },
     {
       "id": "quran-51-55",
       "type": "quran",
       "citation": "Qur'an 51:55",
-      "label": "提醒使信徒受益",
+      "label": "提醒对信士有益",
       "arabic": "وَذَكِّرْ فَإِنَّ ٱلذِّكْرَىٰ تَنفَعُ ٱلْمُؤْمِنِينَ",
-      "translation": "但“继续”提醒。因为提醒确实对信徒有益。",
+      "translation": "你当继续劝导，因为劝导确实有益于信士。",
       "translator": "Dr. Mustafa Khattab, The Clear Quran",
       "sourceName": "Quran.com",
       "sourceUrl": "https://quran.com/51/55",
       "reviewStatus": "source-checked",
-      "reviewNote": "于 2026 年 6 月 3 日对照 Quran.com 检查；合格的学者/手册正在等待批准。"
+      "reviewNote": "已于2026年6月3日对照 Quran.com 核对；尚待有资质的学者人工审核。"
     },
     {
       "id": "quran-112-ikhlas",
       "type": "quran",
-      "citation": "Qur'an 112:1-4 (Surah Al-Ikhlas)",
-      "label": "神的独一性的纯粹宣告",
+      "citation": "Qur'an 112:1-4（忠诚章）",
+      "label": "对神的独一最纯正的宣告",
       "arabic": "قُلْ هُوَ ٱللَّهُ أَحَدٌ ٱللَّهُ ٱلصَّمَدُ لَمْ يَلِدْ وَلَمْ يُولَدْ وَلَمْ يَكُن لَّهُۥ كُفُوًا أَحَدٌۢ",
-      "translation": "你说，“先知啊”，“他是安拉——独一且不可分割的”；安拉——所有人都需要的维持者。他从未有过后代，也没有诞生过。没有人可以与他相比。”",
+      "translation": "你说（先知啊）：“祂是安拉，是独一的（不可分割的）；安拉是万物所依赖的。祂没有生育，也没有被生育，没有任何物可以与祂相比。”",
       "translator": "Dr. Mustafa Khattab, The Clear Quran",
       "sourceName": "Quran.com",
       "sourceUrl": "https://quran.com/112",
       "reviewStatus": "source-checked",
-      "reviewNote": "于 2026 年 6 月 3 日对照 Quran.com 检查；合格的学者/手册正在等待批准。"
+      "reviewNote": "已于2026年6月3日对照 Quran.com 核对；尚待有资质的学者人工审核。"
     },
     {
       "id": "quran-52-35",
       "type": "quran",
       "citation": "Qur'an 52:35",
-      "label": "创作反思",
+      "label": "思考受造物",
       "arabic": "أَمْ خُلِقُوا۟ مِنْ غَيْرِ شَىْءٍ أَمْ هُمُ ٱلْخَٰلِقُونَ",
-      "translation": "或者它们是无中生有，还是它们是“它们自己”的创造者？",
+      "translation": "难道他们不是由任何物创造的吗？难道他们是（自己的）创造者吗？",
       "translator": "Dr. Mustafa Khattab, The Clear Quran",
       "sourceName": "Quran.com",
       "sourceUrl": "https://quran.com/52/35",
       "reviewStatus": "source-checked",
-      "reviewNote": "于 2026 年 6 月 3 日对照 Quran.com 检查；合格的学者/手册正在等待批准。"
+      "reviewNote": "已于2026年6月3日对照 Quran.com 核对；尚待有资质的学者人工审核。"
     },
     {
       "id": "quran-21-22",
       "type": "quran",
-      "citation": "Qur'an 21:22 (excerpt)",
-      "label": "一神的逻辑",
+      "citation": "Qur'an 21:22（节选）",
+      "label": "独一之神的道理",
       "arabic": "لَوْ كَانَ فِيهِمَآ ءَالِهَةٌ إِلَّا ٱللَّهُ لَفَسَدَتَا",
-      "translation": "如果天地间除了真主之外还有其他神灵，那么两个“领域”肯定都会被腐化。",
+      "translation": "假如天地间除安拉外还有别的神灵，那么天地（两界）必定都已毁坏了。",
       "translator": "Dr. Mustafa Khattab, The Clear Quran",
       "sourceName": "Quran.com",
       "sourceUrl": "https://quran.com/21/22",
       "reviewStatus": "source-checked",
-      "reviewNote": "摘录于 2026 年 6 月 3 日对照 Quran.com 检查；合格的学者/手册正在等待批准。"
+      "reviewNote": "节选已于2026年6月3日对照 Quran.com 核对；尚待有资质的学者人工审核。"
     },
     {
       "id": "quran-21-25",
       "type": "quran",
       "citation": "Qur'an 21:25",
-      "label": "一条消息通过所有信使",
+      "label": "所有使者传达同一个信息",
       "arabic": "وَمَآ أَرْسَلْنَا مِن قَبْلِكَ مِن رَّسُولٍ إِلَّا نُوحِىٓ إِلَيْهِ أَنَّهُۥ لَآ إِلَٰهَ إِلَّآ أَنَا۠ فَٱعْبُدُونِ",
-      "translation": "在您（先知啊）之前，我们从来没有派遣过任何一位使者，而不向他透露：“除了我之外，没有任何神“值得崇拜”，所以“单独崇拜我”。”",
+      "translation": "在你（先知啊）以前，我所派遣的每一位使者，我都启示他：“除我之外，绝无（应受崇拜的）神灵，所以你们应当（只）崇拜我。”",
       "translator": "Dr. Mustafa Khattab, The Clear Quran",
       "sourceName": "Quran.com",
       "sourceUrl": "https://quran.com/21/25",
       "reviewStatus": "source-checked",
-      "reviewNote": "于 2026 年 6 月 3 日对照 Quran.com 检查；合格的学者/手册正在等待批准。"
+      "reviewNote": "已于2026年6月3日对照 Quran.com 核对；尚待有资质的学者人工审核。"
     },
     {
       "id": "quran-3-45",
       "type": "quran",
       "citation": "Qur'an 3:45",
-      "label": "玛利亚之子耶稣的尊贵地位",
+      "label": "麦尔彦之子尔撒（耶稣）的尊贵地位",
       "arabic": "إِذْ قَالَتِ ٱلْمَلَـٰٓئِكَةُ يَـٰمَرْيَمُ إِنَّ ٱللَّهَ يُبَشِّرُكِ بِكَلِمَةٍۢ مِّنْهُ ٱسْمُهُ ٱلْمَسِيحُ عِيسَى ٱبْنُ مَرْيَمَ وَجِيهًۭا فِى ٱلدُّنْيَا وَٱلْـَٔاخِرَةِ وَمِنَ ٱلْمُقَرَّبِينَ",
-      "translation": "请记住，当天使宣告时：“玛利亚啊！真主从他那里给了你一个好消息，他的名字将是弥赛亚，耶稣，玛利亚的儿子；在今世和后世受到尊敬，他将是最接近真主的人之一。”",
+      "translation": "（你当记得）当时天使们说：“麦尔彦（玛利亚）啊！安拉的确把从祂发出的一句话向你报喜，他的名字是弥赛亚，麦尔彦之子尔撒（耶稣）；他在今世和后世都是尊贵的，是最接近（安拉）的人之一。”",
       "translator": "Dr. Mustafa Khattab, The Clear Quran",
       "sourceName": "Quran.com",
       "sourceUrl": "https://quran.com/3/45",
       "reviewStatus": "source-checked",
-      "reviewNote": "于 2026 年 6 月 3 日对照 Quran.com 检查；合格的学者/手册正在等待批准。"
+      "reviewNote": "已于2026年6月3日对照 Quran.com 核对；尚待有资质的学者人工审核。"
     },
     {
       "id": "hadith-jibril",
       "type": "hadith",
-      "citation": "Sahih Muslim 8a (Book 1, Hadith 1) — Hadith of Jibril",
-      "label": "六项信仰",
-      "translation": "你确认你对安拉、他的天使、他的经典、他的使徒、审判日的信仰，并且你确认你对有关善恶的神圣法令的信仰。",
+      "citation": "Sahih Muslim 8a（第1卷，第1段圣训）：吉卜利勒圣训",
+      "label": "六大信仰",
+      "translation": "你要确信安拉、祂的天使、祂的经典、祂的使者、审判日，并确信关于善恶的前定。",
       "sourceName": "Sahih Muslim (sunnah.com)",
       "sourceUrl": "https://sunnah.com/muslim:8a",
       "reviewStatus": "source-checked",
-      "reviewNote": "摘录于 2026 年 6 月 3 日对照 Sunnah.com 检查；合格的学者/手册正在等待批准。"
+      "reviewNote": "节选已于2026年6月3日对照 Sunnah.com 核对；尚待有资质的学者人工审核。"
     },
     {
       "id": "quran-2-256",
       "type": "quran",
-      "citation": "Qur'an 2:256 (excerpt)",
-      "label": "宗教没有强迫",
+      "citation": "Qur'an 2:256（节选）",
+      "label": "宗教无强迫",
       "arabic": "لَآ إِكْرَاهَ فِى ٱلدِّينِ ۖ قَد تَّبَيَّنَ ٱلرُّشْدُ مِنَ ٱلْغَىِّ",
-      "translation": "宗教中不要有任何强迫，因为真理与谬误是显而易见的。",
+      "translation": "对于宗教，绝无强迫，因为正道与迷误已经清楚地分开了。",
       "translator": "Dr. Mustafa Khattab, The Clear Quran",
       "sourceName": "Quran.com",
       "sourceUrl": "https://quran.com/2/256",
       "reviewStatus": "source-checked",
-      "reviewNote": "摘录于 2026 年 6 月 3 日对照 Quran.com 检查；合格的学者/手册正在等待批准。"
+      "reviewNote": "节选已于2026年6月3日对照 Quran.com 核对；尚待有资质的学者人工审核。"
     },
     {
       "id": "quran-28-56",
       "type": "quran",
       "citation": "Qur'an 28:56",
-      "label": "指导仅属于安拉",
+      "label": "引导只属于安拉",
       "arabic": "إِنَّكَ لَا تَهْدِى مَنْ أَحْبَبْتَ وَلَـٰكِنَّ ٱللَّهَ يَهْدِى مَن يَشَآءُ ۚ وَهُوَ أَعْلَمُ بِٱلْمُهْتَدِينَ",
-      "translation": "你当然无法引导你喜欢的人（先知啊），但真主会引导他所愿意的人，并且他最了解谁“适合被引导”。",
+      "translation": "你（先知啊）的确不能引导你所喜爱的人，但安拉能引导祂所意欲的人，祂最知道谁是（适合）遵循正道的。",
       "translator": "Dr. Mustafa Khattab, The Clear Quran",
       "sourceName": "Quran.com",
       "sourceUrl": "https://quran.com/28/56",
       "reviewStatus": "source-checked",
-      "reviewNote": "于 2026 年 6 月 3 日对照 Quran.com 检查；合格的学者/手册正在等待批准。"
+      "reviewNote": "已于2026年6月3日对照 Quran.com 核对；尚待有资质的学者人工审核。"
     },
     {
       "id": "quran-20-25-26",
       "type": "quran",
       "citation": "Qur'an 20:25-26",
-      "label": "先知摩西的杜阿表示轻松和开放的心",
+      "label": "先知穆萨（摩西）祈求顺利和心胸开阔的祈祷",
       "arabic": "رَبِّ ٱشْرَحْ لِى صَدْرِى وَيَسِّرْ لِىٓ أَمْرِى",
-      "translation": "我的主啊！为我振奋我的心，让我的任务变得轻松，",
+      "translation": "我的主啊！求你为我开阔我的心胸，求你使我的任务顺利，",
       "translator": "Dr. Mustafa Khattab, The Clear Quran",
       "sourceName": "Quran.com",
       "sourceUrl": "https://quran.com/20/25-26",
       "reviewStatus": "source-checked",
-      "reviewNote": "2026 年 6 月 3 日 Quran.com 20:25 和 20:26 检查；合格的学者/手册正在等待批准。"
+      "reviewNote": "已于2026年6月3日对照 Quran.com 20:25 和 20:26 核对；尚待有资质的学者人工审核。"
     },
     {
       "id": "new-muslim-academy",
       "type": "scholarly-note",
       "citation": "New Muslim Academy",
-      "label": "初学者教育和转换支持框架",
+      "label": "初学者教育与归信者支持的表述",
       "sourceName": "New Muslim Academy",
       "sourceUrl": "https://www.newmuslimacademy.org/",
       "reviewStatus": "source-checked",
-      "reviewNote": "官方教育来源2026-06-03在线查看；用于初学者友好的支持框架，而不是个人裁决。"
+      "reviewNote": "官方教育资料已于2026年6月3日在网上核对；用于面向初学者的支持性表述，而不是个人的教法判断。"
     },
     {
       "id": "whyislam-jesus",
       "type": "scholarly-note",
-      "citation": "WhyIslam: Jesus in Islam",
-      "label": "伊斯兰教中耶稣的入门教育",
+      "citation": "WhyIslam：伊斯兰中的尔撒（耶稣）",
+      "label": "关于伊斯兰中尔撒（耶稣）的入门介绍",
       "sourceName": "WhyIslam",
       "sourceUrl": "https://www.whyislam.org/jesus-pbuh/",
       "reviewStatus": "source-checked",
-      "reviewNote": "官方公共教育来源2026-06-03在线查看；用于尊敬的介绍性框架。"
+      "reviewNote": "官方公共教育资料已于2026年6月3日在网上核对；用于恭敬的入门性表述。"
     },
     {
       "id": "quran-67-2",
       "type": "quran",
       "citation": "Qur'an 67:2",
-      "label": "人生如一场考验",
-      "translation": "他是创造死亡和生命的那一位，为了测试你们中谁的行为最好。",
+      "label": "人生是一场考验",
+      "translation": "祂创造了死和生，以便考验你们谁的行为最优美。",
       "translator": "Dr. Mustafa Khattab, The Clear Quran",
       "sourceName": "Quran.com",
       "sourceUrl": "https://quran.com/67/2",
       "reviewStatus": "source-checked",
-      "reviewNote": "于 2026 年 6 月 3 日对照 Quran.com 检查；合格的学者/手册正在等待批准。"
+      "reviewNote": "已于2026年6月3日对照 Quran.com 核对；尚待有资质的学者人工审核。"
     },
     {
       "id": "quran-2-155",
       "type": "quran",
       "citation": "Qur'an 2:155",
-      "label": "考验和耐心",
-      "translation": "我们肯定会用恐惧、饥荒以及财产、生命和庄稼的损失来考验你们。将好消息传给那些耐心忍耐的人。",
+      "label": "考验与忍耐",
+      "translation": "我必以些微的恐惧和饥馑，以及财产、生命和收获的损失来考验你们。你当向坚忍的人报喜。",
       "translator": "Dr. Mustafa Khattab, The Clear Quran",
       "sourceName": "Quran.com",
       "sourceUrl": "https://quran.com/2/155",
       "reviewStatus": "source-checked",
-      "reviewNote": "于 2026 年 6 月 3 日对照 Quran.com 检查；合格的学者/手册正在等待批准。"
+      "reviewNote": "已于2026年6月3日对照 Quran.com 核对；尚待有资质的学者人工审核。"
     },
     {
       "id": "quran-33-35",
       "type": "quran",
       "citation": "Qur'an 33:35",
-      "label": "男人和女人以信仰说话",
-      "translation": "当然，对于穆斯林男人和女人、有信仰的男人和女人、虔诚的男人和女人……安拉已经准备好了宽恕和巨大的奖赏。",
+      "label": "信仰中对男女的同样称呼",
+      "translation": "穆斯林男女、信道的男女、虔诚的男女……安拉已为他们预备了赦宥和重大的报酬。",
       "translator": "Dr. Mustafa Khattab, The Clear Quran",
       "sourceName": "Quran.com",
       "sourceUrl": "https://quran.com/33/35",
       "reviewStatus": "source-checked",
-      "reviewNote": "摘录于 2026 年 6 月 3 日对照 Quran.com 检查；合格的学者/手册正在等待批准。"
+      "reviewNote": "节选已于2026年6月3日对照 Quran.com 核对；尚待有资质的学者人工审核。"
     },
     {
       "id": "quran-5-32",
       "type": "quran",
-      "citation": "Qur'an 5:32 (excerpt)",
-      "label": "生命的神圣性",
-      "translation": "无论谁夺走了一条生命……就好像他们杀死了全人类。",
+      "citation": "Qur'an 5:32（节选）",
+      "label": "生命的神圣",
+      "translation": "谁杀害一条生命……就如同杀害了全人类。",
       "translator": "Dr. Mustafa Khattab, The Clear Quran",
       "sourceName": "Quran.com",
       "sourceUrl": "https://quran.com/5/32",
       "reviewStatus": "source-checked",
-      "reviewNote": "摘录于 2026 年 6 月 3 日对照 Quran.com 检查；合格的学者/手册正在等待批准。"
+      "reviewNote": "节选已于2026年6月3日对照 Quran.com 核对；尚待有资质的学者人工审核。"
     },
     {
       "id": "whyislam-mosque-visit",
       "type": "scholarly-note",
-      "citation": "WhyIslam: First Mosque Visit",
-      "label": "新的皈依清真寺支持",
+      "citation": "WhyIslam：第一次去清真寺",
+      "label": "新归信者的清真寺支持",
       "sourceName": "WhyIslam",
       "sourceUrl": "https://www.whyislam.org/mosquevisit/",
       "reviewStatus": "source-checked",
-      "reviewNote": "官方公共教育来源2026-06-03在线查看；用于首次参观清真寺和公共清真言边界框架。"
+      "reviewNote": "官方公共教育资料已于2026年6月3日在网上核对；用于第一次去清真寺以及公开念清真言的界限相关表述。"
     },
     {
       "id": "whyislam-becoming-muslim",
       "type": "scholarly-note",
-      "citation": "WhyIslam: Becoming Muslim",
-      "label": "清真言简介",
+      "citation": "WhyIslam：成为穆斯林",
+      "label": "清真言入门介绍",
       "sourceName": "WhyIslam",
       "sourceUrl": "https://www.whyislam.org/muslimhow/",
       "reviewStatus": "source-checked",
-      "reviewNote": "官方公共教育来源2026-06-03在线查看；用于基本清真言方向。"
+      "reviewNote": "官方公共教育资料已于2026年6月3日在网上核对；用于清真言的基本介绍。"
     },
     {
       "id": "seekersguidance-shahada-witnesses",
       "type": "scholarly-note",
-      "citation": "SeekersGuidance: Does Taking Shahada Require Witnesses?",
-      "label": "合格的清真言指导",
+      "citation": "SeekersGuidance：念清真言需要见证人吗？",
+      "label": "有资质的清真言指导",
       "sourceName": "SeekersGuidance",
       "sourceUrl": "https://seekersguidance.org/answers/calling-to-islam/does-taking-shahada-require-witnesses/",
       "reviewStatus": "source-checked",
-      "reviewNote": "2026-06-03在线查询合格教育来源；用于清真言周围的隐私和公众证人边界。"
+      "reviewNote": "有资质的教育资料已于2026年6月3日在网上核对；用于念清真言时隐私与公开见证的界限。"
     },
     {
       "id": "new-muslim-academy-family",
       "type": "scholarly-note",
-      "citation": "New Muslim Academy: Family",
-      "label": "家庭支持框架",
+      "citation": "New Muslim Academy：家庭",
+      "label": "家庭支持的表述",
       "sourceName": "New Muslim Academy",
       "sourceUrl": "https://www.newmuslimacademy.org/family/",
       "reviewStatus": "source-checked",
-      "reviewNote": "官方教育来源2026-06-03在线查看；用于家庭、归属感和清真言后的支持框架。"
+      "reviewNote": "官方教育资料已于2026年6月3日在网上核对；用于家庭、归属感以及念清真言之后支持的表述。"
     },
     {
       "id": "seekersguidance",
       "type": "scholarly-note",
       "citation": "SeekersGuidance",
-      "label": "合格的伊斯兰教育",
+      "label": "有资质的伊斯兰教育",
       "sourceName": "SeekersGuidance",
       "sourceUrl": "https://seekersguidance.org/",
       "reviewStatus": "source-checked",
-      "reviewNote": "2026-06-03在线查询合格教育来源；用于向合格的教师提出详细的伊斯兰教法和神学问题。"
+      "reviewNote": "有资质的教育资料已于2026年6月3日在网上核对；用于把详细的教法和神学问题转介给有资质的老师。"
     },
     {
       "id": "yaqeen-women",
       "type": "scholarly-note",
-      "citation": "Yaqeen Institute: Islam and Women",
-      "label": "伊斯兰教教育中的女性",
+      "citation": "Yaqeen Institute：伊斯兰与女性",
+      "label": "关于伊斯兰中女性的教育资料",
       "sourceName": "Yaqeen Institute",
       "sourceUrl": "https://yaqeeninstitute.org/what-islam-says-about/islam-and-women",
       "reviewStatus": "source-checked",
-      "reviewNote": "审查了2026年6月3日在线查看的教育主题页面；用于谨慎、非争议性的伊斯兰女性场景框架。"
+      "reviewNote": "经审阅的教育专题页面已于2026年6月3日在网上核对；用于审慎、不带论战色彩的伊斯兰女性相关情境表述。"
     },
     {
       "id": "yaqeen-violence",
       "type": "scholarly-note",
-      "citation": "Yaqeen Institute: Islam and Violence",
-      "label": "暴力和媒体叙事",
+      "citation": "Yaqeen Institute：伊斯兰与暴力",
+      "label": "暴力与媒体叙事",
       "sourceName": "Yaqeen Institute",
       "sourceUrl": "https://yaqeeninstitute.org/what-islam-says-about/islam-and-violence",
       "reviewStatus": "source-checked",
-      "reviewNote": "审查了2026年6月3日在线查看的教育主题页面；用于围绕暴力、圣战、恐怖主义和媒体叙事进行仔细转介。"
+      "reviewNote": "经审阅的教育专题页面已于2026年6月3日在网上核对；用于在暴力、吉哈德、恐怖主义和媒体叙事等问题上审慎地转介。"
     },
     {
-      "id": "988-lifeline",
+      "id": "988-canada",
       "type": "public-health",
-      "citation": "988 Suicide & Crisis Lifeline",
+      "citation": "9-8-8：自杀危机求助热线",
       "label": "危机支持",
-      "sourceName": "988 Lifeline",
-      "sourceUrl": "https://988lifeline.org/",
+      "sourceName": "9-8-8 (CAMH, funded by the Government of Canada)",
+      "sourceUrl": "https://988.ca/",
       "reviewStatus": "source-checked",
-      "reviewNote": "官方危机支持来源2026-06-03在线查看；用于心理健康危机转介语言。"
+      "reviewNote": "加拿大官方危机热线已于2026年9月23日在网上核对；用于心理危机转介的措辞。"
     },
     {
       "id": "canada-safety-planning",
       "type": "public-safety",
-      "citation": "Government of Canada: Safety Planning",
-      "label": "安全规划",
+      "citation": "加拿大政府：安全计划",
+      "label": "安全计划",
       "sourceName": "Government of Canada",
       "sourceUrl": "https://www.canada.ca/en/public-health/services/health-promotion/stop-family-violence/plan-your-safety.html",
       "reviewStatus": "source-checked",
-      "reviewNote": "官方公共安全来源2026-06-03在线检查；用于家庭拒绝、虐待和安全转介边界。"
+      "reviewNote": "官方公共安全资料已于2026年6月3日在网上核对；用于家庭排斥、虐待和安全转介的界限。"
     },
     {
       "id": "ohrc-religious-rights",
       "type": "public-rights",
-      "citation": "Ontario Human Rights Commission: Religious Rights Fact Sheet",
+      "citation": "Ontario Human Rights Commission（安大略人权委员会）：宗教权利简报",
       "label": "公共权利信息",
       "sourceName": "Ontario Human Rights Commission",
       "sourceUrl": "https://www.ohrc.on.ca/en/religious-rights-fact-sheet",
       "reviewStatus": "source-checked",
-      "reviewNote": "官方公权来源2026-06-03上网查；仅用于将与法律相关的问题转至合格的当地建议。"
+      "reviewNote": "官方公共权利资料已于2026年6月3日在网上核对；仅用于把涉及法律的问题引导到当地有资质的建议渠道。"
     }
   ],
   "communityConnect": {
-    "title": "连接新穆斯林",
-    "intro": "无论有人今天接受清真言还是只是想继续学习，温暖的支持都是最重要的。使用此清单可以帮助他们感到受欢迎，而不是感到孤独。",
+    "title": "帮新穆斯林建立联系",
+    "intro": "无论对方是今天念了清真言，还是只想继续学习，温暖的支持都是最重要的。用这份清单，让对方感到被欢迎，并知道可以去找谁。",
     "checklist": [
-      "向他们介绍一位善良、知识渊博的当地伊玛目或导师。",
-      "将他们与新的穆斯林支持团体或班级联系起来。",
-      "帮助他们在附近找到一个热情的当地清真寺。",
-      "商定温和的后续行动——登记、共享餐点或课程。",
-      "分享适合初学者的祈祷和伊斯兰教基础知识资源。"
+      "把对方介绍给一位友善、有学识的当地伊玛目或导师。",
+      "帮对方联系一个新穆斯林互助小组或课程。",
+      "帮对方找到附近一座欢迎新人的清真寺。",
+      "商定一个温和的跟进安排：一次问候、一起吃顿饭或一门课程。",
+      "分享关于礼拜和伊斯兰基础知识、适合初学者的资源。"
     ],
     "masjidFinderLabel": "寻找附近的清真寺"
   },
@@ -823,83 +826,89 @@
     "trainingCards": [
       {
         "id": "listen-first",
-        "title": "先听",
-        "summary": "一次好的宣教对话始于理解对方，而不是纠正他们。",
+        "title": "先倾听",
+        "summary": "一次好的宣教谈话，从理解这个人开始，而不是从纠正他开始。",
         "practice": [
-          "提出一个开放性问题，让他们在回答之前充分回答。",
-          "回想一下你所听到的：“听起来你主要关心的是……”",
-          "回答他们实际提出的问题，而不是您想要涵盖的每个主题。"
+          "问一个开放式的问题，让对方完整回答后再回应。",
+          "复述你听到的内容：“听起来你主要担心的是……”",
+          "回答对方真正问的问题，而不是你想讲的每一个话题。"
         ],
         "avoid": [
-          "中断以赢得一分。",
-          "在他们解释之前先假设他们的背景或反对意见。"
+          "为了赢得一个论点而打断对方。",
+          "在对方解释之前就预设他的背景或反对意见。"
         ],
         "referenceIds": ["quran-16-125", "new-muslim-academy"]
       },
       {
         "id": "ask-permission",
-        "title": "继续之前先征得许可",
-        "summary": "获得许可可以使谈话保持尊重，并帮助对方控制自己的节奏。",
+        "title": "继续之前先征得同意",
+        "summary": "征得同意能让谈话保持尊重，也让对方能掌握自己的节奏。",
         "practice": [
-          "使用简单的短语，例如：“如果我认同伊斯兰教观点可以吗？”",
-          "如果他们拒绝或犹豫，感谢他们并暂停。",
-          "提议下次继续，不要让他们感到内疚。"
+          "用简单的话，比如：“我可以分享一下伊斯兰的看法吗？”",
+          "如果对方说不或者犹豫，就谢谢对方，停下来。",
+          "表示可以改天再继续，不要让对方感到内疚。"
         ],
-        "avoid": ["将犹豫视为挑战。", "在他们明确拒绝后，又重复了同样的邀请。"],
+        "avoid": [
+          "把对方的犹豫当成一种挑战。",
+          "在对方明确拒绝之后，还重复同样的邀请。"
+        ],
         "referenceIds": ["quran-2-256", "quran-28-56"]
       },
       {
         "id": "one-point-at-a-time",
-        "title": "一次一点",
-        "summary": "大多数人需要一个清晰的想法来思考，而不是一场完整的讲座。",
+        "title": "一次只讲一点",
+        "summary": "大多数人需要的是一个可以思考的清楚想法，而不是一整堂课。",
         "practice": [
-          "选择对话中下一个最相关的点。",
-          "使用简短的解释并暂停提问。",
-          "如果出现多个主题，请将它们写下来，然后一次返回一个。"
+          "在谈话中选择下一个最相关的要点。",
+          "用简短的解释，停下来让对方提问。",
+          "如果冒出好几个话题，把它们记下来，一次回到一个。"
         ],
         "avoid": [
-          "用你所知道的每一个证据、裁决或故事来超载它们。",
-          "在这个人处理完基础知识之前就转向清真言。"
+          "把你知道的每一个证据、每一条教法判断、每一个故事都一股脑儿地塞给对方。",
+          "在对方还没消化基础内容之前，就转到念清真言。"
         ],
         "referenceIds": ["quran-16-125"]
       },
       {
         "id": "handle-hostility",
-        "title": "冷静处理敌意",
-        "summary": "如果有人生气或侮辱，请保护谈话的尊严并退后一步。",
+        "title": "平静地应对敌意",
+        "summary": "如果有人变得愤怒或出言侮辱，要维护谈话的尊严，并退一步。",
         "practice": [
-          "降低声音并放慢速度。",
-          "温和地说出这个界限：“我不想让我们争论或互相不尊重。”",
-          "如果对话不再真诚或安全，请结束对话。"
+          "放低声音，放慢节奏。",
+          "温和地说明界限：“我不希望我们争吵或互不尊重。”",
+          "如果谈话已经不再真诚或不再安全，就结束它。"
         ],
-        "avoid": ["将愤怒与愤怒相匹配。", "使用讽刺、嘲笑或公开羞辱。"],
+        "avoid": ["以怒制怒。", "使用讽刺、嘲笑或当众让人难堪。"],
         "referenceIds": ["quran-16-125"]
       },
       {
         "id": "when-to-stop",
-        "title": "何时停止谈话",
-        "summary": "停下来比强行多拿一分更好。",
+        "title": "什么时候该停止谈话",
+        "summary": "好好地停下来，可能比硬塞进一个论点更像宣教。",
         "practice": [
-          "当这个人感到疲倦、痛苦、嘲笑、不安全或明显已经完成时就停止。",
+          "当对方疲惫、苦恼、嘲笑、处境不安全，或明显不想再谈时，就停下来。",
           "以感谢和温暖结束。",
-          "私下进行杜阿，并敞开大门，享受更好的时光。"
+          "私下祈祷，为更合适的时机留一扇门。"
         ],
         "avoid": [
-          "追逐一个决定。",
-          "将谈话视为失败，因为它没有清真言就结束了。"
+          "追着对方要一个决定。",
+          "因为谈话结束时对方没有念清真言，就把它当作失败。"
         ],
         "referenceIds": ["quran-51-55", "quran-28-56", "quran-2-256"]
       },
       {
         "id": "refer-to-imam",
-        "title": "咨询伊玛目或导师",
-        "summary": "达伊不需要回答所有问题。敏感、详细或个人问题需要合格的帮助。",
+        "title": "转介给伊玛目或导师",
+        "summary": "宣教者不需要回答所有问题。敏感的、详细的或个人的问题，需要有资质的人来帮助。",
         "practice": [
-          "明确地说：“我不想猜测这一点。”",
-          "主动帮助他们与值得信赖的当地伊玛目、老师或新的穆斯林导师建立联系。",
-          "对于情感安全、法律、医疗或家庭风险问题，也请让他们咨询合格的当地专业人士。"
+          "清楚地说：“这个问题我不想乱猜。”",
+          "提出帮对方联系一位可信赖的当地伊玛目、老师或新穆斯林导师。",
+          "涉及情绪安全、法律、医疗或家庭风险的问题时，也要引导对方去找当地有资质的专业人士。"
         ],
-        "avoid": ["当场制定裁决。", "成为清真言后唯一的支持者。"],
+        "avoid": [
+          "当场编造教法判断。",
+          "在对方念清真言之后，成为他唯一的依靠。"
+        ],
         "referenceIds": ["new-muslim-academy"]
       }
     ],
@@ -907,17 +916,17 @@
       {
         "id": "first-hour",
         "title": "第一个小时",
-        "summary": "以温暖、隐私和平静的支持来回应。清真言是一个开始，而不是公开表演。",
+        "summary": "以温暖、尊重隐私和平静的支持来回应。念清真言是一个开始，而不是一场公开表演。",
         "actions": [
-          "温和地祝贺他们，但不要压倒他们。",
-          "询问他们是否想要隐私、安静的证人或公共社区介绍。",
-          "写下一位值得信赖的联系人：伊玛目、导师、新穆斯林阶层或支持穆斯林的朋友。",
-          "检查家庭、住房、工作或安全问题是否会导致公开披露存在风险。"
+          "温和地祝贺对方，不要让对方应接不暇。",
+          "问问对方是希望保密、只要一位安静的见证人，还是希望公开向社区介绍。",
+          "写下一个可信赖的联系人：伊玛目、导师、新穆斯林课程，或一位支持他的穆斯林朋友。",
+          "了解家庭、住房、工作或安全方面的顾虑，是否会让公开这件事带来风险。"
         ],
         "avoid": [
-          "迫使他们公开宣布。",
-          "立即向他们提供一长串规则。",
-          "未经明确许可发布照片、视频或清真言时刻。"
+          "逼对方公开宣布。",
+          "马上递给对方一长串规定。",
+          "未经明确同意，就发布照片、视频或念清真言的那一刻。"
         ],
         "referenceIds": [
           "quran-2-256",
@@ -929,45 +938,45 @@
       {
         "id": "first-day",
         "title": "第一天",
-        "summary": "帮助他们结束对话，并提供明确的下一步行动和一位可靠的支持人员。",
+        "summary": "帮助对方带着一个清楚的下一步和一位可靠的支持者离开谈话。",
         "actions": [
-          "共享一个初学者资源，而不是一堆链接。",
-          "主动帮助他们找到当地的清真寺或新的穆斯林阶层。",
-          "询问他们是否需要帮助学习小净和祈祷的形式。",
-          "提醒他们学习需要时间，真主知道他们的努力。"
+          "分享一份初学者资源，而不是一堆链接。",
+          "提出帮对方找一座当地清真寺或一门新穆斯林课程。",
+          "问问对方是否需要帮助学习小净和礼拜的基本形式。",
+          "提醒对方学习需要时间，安拉知道他的努力。"
         ],
         "avoid": [
-          "立即纠正每一个习惯。",
-          "在他们询问之前讨论家庭、婚姻、服装或食物细节。"
+          "一下子纠正所有的习惯。",
+          "在对方开口问之前，就争论家庭、婚姻、衣着或饮食的细节。"
         ],
         "referenceIds": ["new-muslim-academy", "whyislam-mosque-visit"]
       },
       {
         "id": "first-week",
         "title": "第一周",
-        "summary": "在高级裁决之前支持一致性、归属感和安全学习。",
+        "summary": "在涉及深入的教法判断之前，先支持对方的坚持、归属感和安全的学习。",
         "actions": [
-          "帮助他们选择温和的祷告学习计划。",
-          "为他们联系一位可以耐心回答问题的导师。",
-          "邀请他们参加一个社区活动：上课、祈祷、吃饭或喝咖啡。",
-          "鼓励他们尽早私下提出敏感问题。"
+          "帮对方选择一个温和的礼拜学习计划。",
+          "帮对方联系一位能耐心回答问题的导师。",
+          "邀请对方参加一次社区活动：课程、礼拜、聚餐或喝杯咖啡。",
+          "鼓励对方尽早、私下地询问敏感问题。"
         ],
-        "avoid": ["让自己成为他们唯一的支持。", "利用羞耻感来加速他们的学习。"],
+        "avoid": ["让自己成为对方唯一的依靠。", "用羞辱来加快对方的学习。"],
         "referenceIds": ["new-muslim-academy", "new-muslim-academy-family"]
       },
       {
         "id": "connect-community",
-        "title": "连接到当地社区",
-        "summary": "新穆斯林需要周围有可靠的人，而不仅仅是在线内容。",
+        "title": "联系当地社区",
+        "summary": "新穆斯林身边需要可靠的人。仅靠网上的内容，无法支撑一个人度过最初的几个月。",
         "actions": [
-          "向他们介绍一位值得信赖的伊玛目、老师或皈依支持领导。",
-          "帮助他们核实上课时间以及场地是否适合初学者。",
-          "提供尊重他们的日程安排和隐私的后续计划。",
-          "如果他们的家庭情况紧张，请优先考虑安全和值得信赖的专业支持。"
+          "把对方介绍给一位可信赖的伊玛目、老师或归信者支持负责人。",
+          "帮对方确认课程时间，以及那里是否适合初学者。",
+          "提出一个尊重对方日程和隐私的跟进计划。",
+          "如果对方的家庭情况紧张，要把安全和可信赖的专业支持放在首位。"
         ],
         "avoid": [
-          "假设每个清真寺都有相同的文化或支持水平。",
-          "未经许可分享他们的故事。"
+          "以为每座清真寺的文化和支持程度都一样。",
+          "未经同意就分享对方的故事。"
         ],
         "referenceIds": [
           "quran-16-125",
@@ -977,17 +986,17 @@
       },
       {
         "id": "avoid-overwhelm",
-        "title": "避免让他们不知所措",
-        "summary": "清真言之后的第一个赛季应该感到受到支持，而不是被要求所淹没。",
+        "title": "避免让对方应接不暇",
+        "summary": "念清真言之后的第一段时间，应该让人感到被支持，而不是被各种要求压垮。",
         "actions": [
-          "优先考虑信仰、祈祷入口、值得信赖的社区和情绪稳定。",
-          "使用简短的签到：一个问题、一项资源、一个下一步。",
-          "清楚地告诉他们什么可以等到老师和他们一起复习。",
-          "庆祝努力，但不要把完美作为归属的条件。"
+          "把信仰、开始礼拜、可信赖的社区和情绪上的稳定放在首位。",
+          "用简短的问候：一个问题，一份资源，一个下一步。",
+          "清楚地告诉对方，哪些事可以等到老师和他一起审视之后再说。",
+          "肯定对方的努力，而不要把完美当作归属的条件。"
         ],
         "avoid": [
-          "将第一周变成完整的伊斯兰教法课程。",
-          "让文化变革听起来像是迫在眉睫的宗教义务。"
+          "把第一周变成一整套教法课程。",
+          "把文化上的改变说成是必须马上履行的宗教义务。"
         ],
         "referenceIds": ["new-muslim-academy", "quran-16-125"]
       }
@@ -995,115 +1004,115 @@
     "referralBoundaries": [
       {
         "id": "marriage-divorce",
-        "title": "婚姻、离婚和家庭法",
-        "summary": "不要即兴回答有关婚姻有效性、离婚、监护权、继承、转换证书或家庭法后果的问题。",
+        "title": "婚姻、离婚与家庭法",
+        "summary": "对于婚姻是否有效、离婚、监护权、遗产、归信证书或家庭法方面的后果，不要随口给出答案。",
         "examples": [
-          "他们询问清真言之后他们目前的婚姻是否会发生变化。",
-          "他们询问离婚措辞、监护权或继承权。",
-          "他们需要婚姻、朝觐/副朝、学校、工作或政府记录的文件。"
+          "对方问念清真言之后，现在的婚姻是否会有变化。",
+          "对方问到离婚的措辞、监护权或遗产。",
+          "对方需要用于结婚、朝觐或副朝、上学、工作或政府记录的文件。"
         ],
-        "referTo": "合格的当地学者，以及涉及合法权利或文件的许可的法律专业人士或官方机构。",
+        "referTo": "当地有资质的学者；涉及法律权利或文件时，还需要持有执照的法律专业人士或官方机构。",
         "referenceIds": ["seekersguidance", "ohrc-religious-rights"]
       },
       {
         "id": "trauma-safety",
         "title": "创伤、虐待或安全风险",
-        "summary": "如果披露可能导致伤害，在考虑安全之前不要鼓励公众采取行动。",
+        "summary": "如果公开这件事可能导致伤害，在考虑安全之前，不要鼓励对方采取公开行动。",
         "examples": [
-          "他们害怕暴力、无家可归、跟踪或家人报复。",
-          "他们有与宗教或权威人物有关的创伤。",
-          "他们询问是否应该立即告诉不安全的亲戚。"
+          "对方害怕暴力、无家可归、被跟踪或家人报复。",
+          "对方有与宗教或权威人物相关的创伤。",
+          "对方问是否应该马上告诉会对他不利的亲人。"
         ],
-        "referTo": "值得信赖的当地安全专业人员、危机或家庭暴力支持，以及尊重隐私的温柔的伊玛目或导师。",
+        "referTo": "可信赖的当地安全专业人士、危机或家庭暴力支持机构，以及一位尊重隐私、态度温和的伊玛目或导师。",
         "referenceIds": ["canada-safety-planning", "new-muslim-academy-family"]
       },
       {
         "id": "mental-health-crisis",
-        "title": "心理健康危机",
-        "summary": "达伊不应该试图独自解决危机。",
+        "title": "心理危机",
+        "summary": "宣教者不应该独自尝试为处于危机中的人提供辅导。",
         "examples": [
-          "他们提到自杀、自残、无法保持安全或感觉脱离现实。",
-          "他们惊慌失措，无法行动，或者制定紧急的不安全计划。",
-          "他们需要紧急帮助，而不仅仅是宗教解释。"
+          "对方提到自杀、自残、无法保证自身安全，或感到与现实脱节。",
+          "对方陷入恐慌、无法正常生活，或正在做紧急而不安全的打算。",
+          "对方需要的是紧急帮助，而不是宗教上的解释。"
         ],
-        "referTo": "紧急服务或危机支持，例如美国和加拿大的 988，以及合格的临床护理。",
-        "referenceIds": ["988-lifeline"]
+        "referTo": "紧急服务（9-1-1）或危机支持（比如加拿大的 9-8-8），以及有资质的临床护理。",
+        "referenceIds": ["988-canada"]
       },
       {
         "id": "detailed-fiqh",
-        "title": "详细说明",
-        "summary": "敬拜和日常生活的规定可能取决于学校、环境、健康状况和当地情况。",
+        "title": "详细的教法问题",
+        "summary": "功修和日常生活方面的教法判断，可能取决于所遵循的学派、具体情况、健康状况和当地环境。",
         "examples": [
-          "他们询问祈祷的有效性、错过的祈祷、禁食豁免、天课计算、纯度细节或残疾住宿。",
-          "他们要求对食物、工作、衣服、家庭义务或金钱做出裁决。",
-          "你依赖的是记忆而不是可靠的来源。"
+          "对方问到礼拜是否有效、错过的礼拜、斋戒的豁免、天课计算、洁净细节或残障方面的变通。",
+          "对方想知道关于饮食、工作、衣着、家庭义务或钱财的教法判断。",
+          "你是凭记忆在回答，而不是依据可靠的资料。"
         ],
-        "referTo": "合格的学者、伊玛目、教师或值得信赖的追令服务机构可以提出后续问题。",
+        "referTo": "有资质的学者、伊玛目、老师，或能进一步追问情况的可信赖法特瓦服务。",
         "referenceIds": ["seekersguidance", "new-muslim-academy"]
       },
       {
         "id": "complex-theology",
-        "title": "复杂的神学和令人不安的主张",
-        "summary": "有些问题需要时间、背景和老师，而不是快速回答。",
+        "title": "复杂的神学问题和令人不安的说法",
+        "summary": "有些问题需要时间、背景知识和一位老师，而不是一个快速的回答。",
         "examples": [
-          "他们询问有关苦难、卡达尔、地狱之火、圣训的疑问或困难的网上主张。",
-          "他们受到以前宗教团体的创伤。",
-          "他们在辩论片段或敌对媒体中螺旋式上升。"
+          "对方问到苦难、前定、火狱、对圣训的疑问，或网上一些难以回应的说法。",
+          "对方在以前的宗教群体中受过创伤。",
+          "对方正沉迷于辩论短视频或充满敌意的媒体内容，越陷越深。"
         ],
-        "referTo": "可靠的老师、结构化的课程或能够逐步、负责任地回答的合格学者。",
+        "referTo": "一位可靠的老师、一门系统的课程，或一位能循序渐进、负责任地回答问题的有资质学者。",
         "referenceIds": ["quran-67-2", "quran-2-155", "seekersguidance"]
       },
       {
         "id": "legal-immigration",
-        "title": "法律、移民、工作场所或学校问题",
-        "summary": "宗教鼓励不能取代法律或官方建议。",
+        "title": "法律、移民、职场或学校问题",
+        "summary": "宗教上的鼓励不能代替法律或官方的建议。",
         "examples": [
-          "他们询问有关移民、庇护、监护权、工作场所权利、学校住宿或身份证件的问题。",
-          "他们需要证书、信件或官方证明。",
-          "他们可能面临歧视或报复。"
+          "对方问到移民、庇护、监护权、职场权利、学校里的便利安排或身份证件。",
+          "对方需要一份证书、一封信或官方证明。",
+          "对方可能会遭受歧视或报复。"
         ],
-        "referTo": "持有执照的法律专业人士、官方公共权利机构、学校/工作办公室或当地定居服务机构（视情况而定）。",
+        "referTo": "视情况而定：持有执照的法律专业人士、官方的公共权利机构、学校或工作单位的相关部门，或当地的新移民安置服务机构。",
         "referenceIds": ["ohrc-religious-rights"]
       }
     ],
     "commonQuestions": [
       {
         "id": "q-god-exists",
-        "topic": "上帝",
-        "question": "你怎么知道上帝存在？",
+        "topic": "神",
+        "question": "你怎么知道神存在？",
         "answer": [
-          "邀请反思而不是争论。我们周围的一切——宇宙的秩序、自然的精确性、我们自己的存在——都指向造物主。轻轻地问：这一切是无中生有，还是指向造物主？",
-          "保持谦虚。你并不是想赢，而是想赢。你正在打开一扇思想之门。"
+          "邀请对方思考，而不是争论。宇宙的秩序、自然的精确、我们自身的存在，这一切都指向一位造物主。温和地问：这一切是从无中来的，还是指向一位创造者？",
+          "保持谦逊。你不是要赢。你是在打开一扇门。"
         ],
         "referenceIds": ["quran-52-35"]
       },
       {
         "id": "q-one-god",
-        "topic": "一体性",
+        "topic": "独一",
         "question": "为什么神必须是独一的？",
         "answer": [
-          "如果有许多神具有相互竞争的意志，那么创造就会被拉向相互冲突的方向。相反，我们观察到的和谐与秩序指向一个单一的权威。",
-          "将其作为反思，并留出时间和提问。"
+          "如果有许多位意志相互竞争的神，受造物就会被拉向相互冲突的方向。而我们所看到的和谐与秩序，指向的是唯一的主宰。",
+          "把这当作一种思考来呈现，给对方时间，也允许提问。"
         ],
         "referenceIds": ["quran-21-22"]
       },
       {
         "id": "q-jesus",
-        "topic": "耶稣（愿主福安之）",
-        "question": "穆斯林对耶稣有什么看法？",
+        "topic": "尔撒（耶稣，愿主福安之）",
+        "question": "穆斯林如何看待尔撒（耶稣）？",
         "answer": [
-          "穆斯林热爱并深深尊崇耶稣，愿他安息。我们相信圣母玛利亚的奇迹般的诞生，他在上帝许可下所创造的奇迹，以及他崇高的信息。",
-          "伊斯兰教教导说，耶稣是上帝最伟大的使者之一，他号召人们崇拜独一的上帝。以热情和尊重的态度处理这个话题。"
+          "穆斯林爱戴并尊敬尔撒，愿主福安之。我们相信他由童贞女麦尔彦（玛利亚）奇迹般地降生，相信他凭神的许可所行的奇迹，也相信他所带来的信息。",
+          "伊斯兰教导说，尔撒是神最伟大的使者之一，他号召人们崇拜独一的神。谈这个话题时要温暖、恭敬。"
         ],
         "referenceIds": ["quran-3-45"]
       },
       {
         "id": "q-why-prophets",
         "topic": "启示",
-        "question": "为什么我们需要先知和圣经？",
+        "question": "我们为什么需要先知和经典？",
         "answer": [
-          "因为生命是一次有意义的考验，公正而仁慈的上帝并没有让我们去猜测我们的目的。他通过历史上的使者发出了指导，所有这些都携带着一个核心信息：崇拜独一的上帝。",
-          "启示是一种怜悯——我们永远不会孤单。"
+          "正因为人生是一场真实的考验，公正而仁慈的神没有让我们去猜测自己的目的。祂在历史上通过使者降下引导，每一位使者都传达同一个核心信息：崇拜独一的神。",
+          "启示是一种慈悯。没有人被留下来独自摸索。"
         ],
         "referenceIds": ["quran-21-25"]
       },
@@ -1112,18 +1121,18 @@
         "topic": "清真言",
         "question": "清真言到底是什么？",
         "answer": [
-          "The Shahada is the sincere testimony that there is no god worthy of worship except Allah, and that Muhammad is His messenger.它是进入伊斯兰教的门户。",
-          "It must be a free, sincere choice — never rushed or pressured. Taking the Shahada is a beginning, not an ending;接下来是爱的支持。"
+          "清真言是真诚的作证：除安拉外，别无应受崇拜的神，穆罕默德是祂的使者。它是进入伊斯兰的门户。",
+          "它必须是自由、真诚的选择，绝不能仓促，也绝不能施压。念清真言是一个开始，而不是结束，接下来需要的是温暖的支持。"
         ],
         "referenceIds": ["whyislam-becoming-muslim", "quran-2-256"]
       },
       {
         "id": "q-suffering",
-        "topic": "目的",
-        "question": "如果神是公义的，为什么还会有苦难呢？",
+        "topic": "人生目的",
+        "question": "如果神是公正的，为什么会有苦难？",
         "answer": [
-          "今生是一场考验，公正的上帝将在审判日建立完美的正义，所有错误都会得到解决。",
-          "诚实而温和地承认对方的痛苦，而不是快速提供答案。"
+          "今生是一场考验，公正的神将在审判日确立完美的公正，到那时，没有任何不义会得不到回应。",
+          "诚实而温和地承认对方的痛苦，而不是急着给出答案。"
         ],
         "referenceIds": ["quran-67-2", "quran-2-155"]
       }
@@ -1131,37 +1140,37 @@
     "misconceptions": [
       {
         "id": "m-sword",
-        "claim": "伊斯兰教是靠刀剑传播的。",
+        "claim": "伊斯兰是靠刀剑传播的。",
         "response": [
-          "《古兰经》清楚地表明信仰不能被强迫——它必须是真诚的和自由选择的。冷静地回应，不要有防御心理。",
-          "温和地指出信仰伊斯兰教的社区的悠久历史，并将重点放在信息而不是辩论上。"
+          "古兰经明确指出，信仰不能被强迫。它必须是真诚的、自由选择的。平静地回应，不要急于辩护。",
+          "温和地指出，历史上有很多整个群体都是出于信服而接受伊斯兰的，并把重点放在信息本身，而不是争论上。"
         ],
         "referenceIds": ["quran-2-256", "yaqeen-violence"]
       },
       {
         "id": "m-different-god",
-        "claim": "穆斯林崇拜不同的神。",
+        "claim": "穆斯林崇拜的是另一位神。",
         "response": [
-          "“安拉”在阿拉伯语中是独一的上帝——亚伯拉罕、摩西和耶稣崇拜的同一位上帝。讲阿拉伯语的基督徒和犹太人也称上帝为“安拉”。",
-          "Surah Al-Ikhlas 总结了这一纯粹的信仰：上帝是独一的、永恒的、没有伙伴，也没有任何东西可以与他相比。"
+          "“安拉”只是阿拉伯语中对独一之神的称呼，也就是易卜拉欣（亚伯拉罕）、穆萨（摩西）和尔撒（耶稣）所崇拜的同一位神。讲阿拉伯语的基督徒和犹太人也称神为“安拉”。",
+          "忠诚章说得很清楚：神是独一的、永恒的，没有伙伴，也没有任何物可以与祂相比。"
         ],
         "referenceIds": ["quran-112-ikhlas"]
       },
       {
         "id": "m-women",
-        "claim": "伊斯兰教压迫妇女。",
+        "claim": "伊斯兰压迫女性。",
         "response": [
-          "避免激烈的争论。首先倾听，承认文化和宗教经常被混淆，并将有害的文化习俗与伊斯兰教义分开。",
-          "谈论伊斯兰教所确认的妇女权利和给予母亲的荣誉，并让您自己尊重的品格说话。"
+          "避免激烈的辩论。先倾听，承认文化和宗教常常被混为一谈，并把有害的文化习俗与伊斯兰的教导区分开来。",
+          "谈谈伊斯兰为女性确立的权利，以及给予母亲的尊荣，也让你自己尊重他人的品德来说话。"
         ],
         "referenceIds": ["quran-33-35", "yaqeen-women"]
       },
       {
         "id": "m-all-same",
-        "claim": "所有宗教基本上都是一样的，那为什么要改变呢？",
+        "claim": "所有宗教基本上都一样，为什么要改变信仰？",
         "response": [
-          "确认共同的价值观——同情、正义、诚实。然后轻轻地注意到，宗教也对上帝有不同的主张，这些差异很重要。",
-          "邀请无压力的反思：目标是真诚的信念，而不是赢得一分。"
+          "肯定共同的价值：同情、公正、诚实。然后温和地指出，这些宗教对神的说法也各不相同，而这些差异是重要的。",
+          "不带压力地邀请对方思考：目标是真诚的信服，而不是赢得一个论点。"
         ]
       }
     ],
@@ -1169,116 +1178,112 @@
       {
         "id": "s-atheist",
         "audience": "无神论者或不可知论者",
-        "summary": "不相信上帝或不确定的人。",
+        "summary": "不相信神，或不确定的人。",
         "approach": [
-          "从上帝的存在和创造的迹象问题开始。",
-          "提出开放性问题并真诚地倾听他们的推理。",
-          "保持语气好奇和谦虚，而不是好斗的。"
+          "从神是否存在的问题以及受造物中的迹象开始。",
+          "问开放式的问题，真心倾听对方的思路。",
+          "保持好奇和谦逊的语气，不要咄咄逼人。"
         ],
         "watchFor": [
-          "将反思转化为有待赢得的争论。",
-          "过于自信的哲学主张你无法解释。"
+          "把思考变成一场要赢的争论。",
+          "你自己都解释不清的、过于自信的哲学论断。"
         ],
         "referenceIds": ["quran-52-35", "quran-16-125"]
       },
       {
         "id": "s-christian",
-        "audience": "基督教背景",
-        "summary": "一个已经爱上帝和耶稣的人，愿他平安。",
+        "audience": "有基督教背景的人",
+        "summary": "已经爱着神和尔撒（耶稣，愿主福安之）的人。",
         "approach": [
-          "以对耶稣和先知的共同爱和尊重来领导。",
-          "温柔而小心地介绍神的独一性。",
-          "尊重这个话题所能承载的情感分量。"
+          "从对尔撒和众先知共有的爱与尊敬说起。",
+          "温和、用心地介绍神的独一。",
+          "尊重这个话题可能带来的情感分量。"
         ],
         "watchFor": [
-          "不尊重基督教信仰或激进地争论神学。",
-          "匆忙——给谈话温暖和时间。"
+          "不尊重基督教信仰，或咄咄逼人地争论神学。",
+          "匆匆带过，而不是给谈话足够的温暖和时间。"
         ],
         "referenceIds": ["quran-3-45", "whyislam-jesus"]
       },
       {
         "id": "s-spiritual-not-religious",
-        "audience": "精神但非宗教",
-        "summary": "有人相信生活可能有更多，但不信任有组织的宗教。",
+        "audience": "有灵性追求但不信宗教的人",
+        "summary": "相信人生可能不止于此，但不信任有组织的宗教的人。",
         "approach": [
-          "从他们对意义、治愈或联系的渴望开始。",
-          "将伊斯兰教解释为对独一造物主的直接崇拜，而不是屈服于人类机构。",
-          "展示启示如何在不消除真诚的情况下塑造灵性。"
+          "从对方对意义、疗愈或联结的渴望开始。",
+          "解释伊斯兰是直接崇拜独一的造物主，而不是顺从某个人类机构。",
+          "说明启示如何为灵性赋予形式，同时不会失去真诚。"
         ],
         "watchFor": [
-          "否认他们过去的宗教经历。",
-          "在建立信任之前使用过多的内部语言。"
+          "轻视对方过去与宗教有关的经历。",
+          "在建立信任之前，使用太多圈内人才懂的词语。"
         ],
         "referenceIds": ["quran-112-ikhlas", "quran-21-25"]
       },
       {
         "id": "s-cultural-muslim",
-        "audience": "文化上是穆斯林，而不是实践",
-        "summary": "在伊斯兰教周围长大的人感觉与伊斯兰教脱节。",
+        "audience": "文化上是穆斯林，但不践行",
+        "summary": "在伊斯兰环境中长大，却觉得与它疏远了的人。",
         "approach": [
-          "将它们与实践背后的意义和美丽重新联系起来。",
-          "避免对过去做出评判；专注于温和的下一步。",
-          "提供陪伴和小的、可实现的鼓励。"
+          "帮助对方重新感受功修背后的意义和美好。",
+          "不要评判过去。专注于一个温和的下一步。",
+          "给予陪伴，以及小而可行的鼓励。"
         ],
-        "watchFor": ["羞耻感或内疚感会让人疏远。"],
+        "watchFor": ["让人感到羞耻或内疚，这只会把人推开。"],
         "referenceIds": ["new-muslim-academy"]
       },
       {
         "id": "s-family-difficult-questions",
-        "audience": "家庭成员提出棘手的问题",
-        "summary": "亲戚或亲密的朋友带着情感、恐惧或挑战性的假设询问伊斯兰教。",
+        "audience": "提出难题的家人",
+        "summary": "亲戚或好友带着情绪、恐惧或尖锐的预设来问关于伊斯兰的问题。",
         "approach": [
-          "在尝试回答每一个反对意见之前先保护好关系。",
-          "承认问题并冷静地回答一点。",
-          "如果问题很敏感或超出您的知识范围，请主动提出一起询问伊玛目或导师。"
+          "先维护这段关系，再去试着回答每一个反对意见。",
+          "承认对方的担忧，平静地回答其中一点。",
+          "如果问题很敏感或超出了你的知识范围，提出一起去问伊玛目或导师。"
         ],
-        "watchFor": ["让家庭压力迫使你猜测。", "用讲座来回应情感上的痛苦。"],
+        "watchFor": ["在家人的压力下随口乱猜。", "用说教来回应情感上的痛苦。"],
         "referenceIds": ["quran-16-125", "new-muslim-academy"]
       },
       {
         "id": "s-not-ready",
-        "audience": "有兴趣但还没准备好",
-        "summary": "对伊斯兰教持开放态度的人需要更多时间。",
+        "audience": "感兴趣但还没准备好的人",
+        "summary": "对伊斯兰持开放态度、但需要更多时间的人。",
         "approach": [
-          "让他们放心，不要着急，也没有压力。",
-          "提供值得信赖的资源并随时解答问题。",
-          "保持友谊和大门敞开，为他们做杜阿。"
+          "让对方放心，不用着急，也没有压力。",
+          "提供可靠的资源，并表示随时可以回答问题。",
+          "保持友谊，让大门敞开，并为对方祈祷。"
         ],
-        "watchFor": ["任何使未来谈话变得更加困难的压力。"],
+        "watchFor": ["任何会让以后的谈话变得更难的压力。"],
         "referenceIds": ["quran-2-256", "quran-28-56"]
       },
       {
         "id": "s-trauma-from-religion",
-        "audience": "因宗教而遭受创伤的人",
-        "summary": "有人对伊斯兰教感兴趣，但过去的宗教伤害使信任变得困难。",
+        "audience": "受过宗教创伤的人",
+        "summary": "对伊斯兰感兴趣，但过去在宗教中受到的伤害让他很难信任别人的人。",
         "approach": [
-          "不要为伤害他们的事情辩护或急于解释。",
-          "在分享任何宗教内容之前先征求许可，并让他们来决定节奏。",
-          "如果存在创伤、恐慌、虐待或危机，请提供安全、合格的支持途径。"
+          "不要为伤害过对方的事情辩护，也不要急着解释。",
+          "在分享任何宗教内容之前先征得同意，让对方来决定节奏。",
+          "如果涉及创伤、恐慌、虐待或危机，提供一条安全、有资质的支持渠道。"
         ],
         "watchFor": [
-          "使用经文或圣训作为创伤的快速修复。",
-          "在考虑信任和安全之前将他们推向权威人物。",
-          "尝试用您自己的建议代替临床或安全支持。"
+          "把经文或圣训当作解决创伤的速效药。",
+          "在考虑信任和安全之前，就把对方推向权威人物。",
+          "试图用你自己的建议代替临床或安全方面的支持。"
         ],
-        "referenceIds": [
-          "quran-16-125",
-          "988-lifeline",
-          "canada-safety-planning"
-        ]
+        "referenceIds": ["quran-16-125", "988-canada", "canada-safety-planning"]
       },
       {
         "id": "s-family-rejection",
-        "audience": "担心家人拒绝的人",
-        "summary": "有人担心如果成为穆斯林，就会失去家庭、住房、工作支持或情感安全。",
+        "audience": "担心被家人排斥的人",
+        "summary": "担心成为穆斯林后会失去家人、住处、工作上的支持或情感上的安全感的人。",
         "approach": [
-          "验证恐惧并避免告诉他们在安全之前透露信息。",
-          "帮助他们思考谁可以安全地告诉谁，谁应该等待。",
-          "如果披露可能会造成伤害，请将他们与当地导师、伊玛目或安全专业人员联系起来。"
+          "认可对方的恐惧，不要在对方安全之前就叫他公开。",
+          "帮对方想清楚，告诉谁是安全的，谁应该等一等。",
+          "如果公开可能造成伤害，帮对方联系当地的导师、伊玛目或安全方面的专业人士。"
         ],
         "watchFor": [
-          "当可能存在真正的风险时，将保密视为弱点。",
-          "对公开的清真言、社交媒体帖子或直系亲属公告施加压力。"
+          "在可能存在真实风险时，把保密当作软弱。",
+          "逼对方公开念清真言、在社交媒体上发帖，或马上向家人宣布。"
         ],
         "referenceIds": [
           "quran-2-256",
@@ -1288,17 +1293,17 @@
       },
       {
         "id": "s-private-shahada",
-        "audience": "有兴趣但不敢公开说清真言的人",
-        "summary": "有人真诚地相信，但害怕公众关注、家庭反应或被记录。",
+        "audience": "有兴趣、但害怕公开念清真言的人",
+        "summary": "真心相信，但害怕公众关注、家人的反应或被拍下来的人。",
         "approach": [
-          "让他们放心，压力和公开表现不是目标。",
-          "主动帮助他们与值得信赖的伊玛目或合格的导师私下联系。",
-          "询问他们是否需要安静的证人、私人谈话或了解更多信息的时间。"
+          "让对方放心，施压和公开表演都不是目的。",
+          "提出私下帮对方联系一位可信赖的伊玛目或有资质的导师。",
+          "问问对方是想要一位安静的见证人、一次私下的谈话，还是想要更多时间来学习。"
         ],
         "watchFor": [
-          "未经明确许可记录或分享他们的清真言。",
-          "公开宣布听起来像是成为穆斯林的条件。",
-          "忽视家庭或社区反应的安全问题。"
+          "未经明确同意，就录下或分享对方念清真言的过程。",
+          "把公开宣布说得好像是成为穆斯林的条件。",
+          "忽视家人或社区反应所带来的安全顾虑。"
         ],
         "referenceIds": [
           "quran-2-256",
@@ -1308,17 +1313,17 @@
       },
       {
         "id": "s-women-in-islam",
-        "audience": "有人询问伊斯兰教中的女性",
-        "summary": "有人询问尊严、权利、谦虚、婚姻、离婚、文化或对女性的伤害。",
+        "audience": "问到伊斯兰中女性问题的人",
+        "summary": "问到尊严、权利、端庄、婚姻、离婚、文化或女性所受伤害等问题的人。",
         "approach": [
-          "先听；这个问题可能来自个人痛苦，而不仅仅是好奇心。",
-          "将伊斯兰教义与有害的文化习俗和真正的虐待分开。",
-          "使用可靠的来源，并将详细的婚姻、离婚、继承或安全问题转介给合格的帮助。"
+          "先倾听。这个问题可能来自个人的痛苦，而不只是好奇。",
+          "把伊斯兰的教导与有害的文化习俗和真实的虐待区分开来。",
+          "使用可靠的资料，把详细的婚姻、离婚、遗产或安全问题转介给有资质的帮助。"
         ],
         "watchFor": [
-          "否认生活经验或用口号来回应。",
-          "猜测个人法律、婚姻、离婚或虐待情况。",
-          "将对话变成性别战争辩论。"
+          "轻视对方的亲身经历，或用口号来回答。",
+          "对个人的法律、婚姻、离婚或虐待情况随口乱猜。",
+          "把谈话变成一场性别之争。"
         ],
         "referenceIds": [
           "quran-33-35",
@@ -1328,33 +1333,33 @@
       },
       {
         "id": "s-suffering",
-        "audience": "人问苦难",
-        "summary": "有人问为什么公正和仁慈的上帝允许痛苦、悲伤、压迫或个人损失。",
+        "audience": "问到苦难的人",
+        "summary": "问为什么公正仁慈的神会允许痛苦、悲伤、压迫或个人损失的人。",
         "approach": [
-          "在给出答案之前先承认痛苦。",
-          "温和地解释伊斯兰教教导生命是一种考验，最终的正义属于安拉。",
-          "如果疼痛是直接的或创伤性的，请寻求合格的情感或危机支持。"
+          "在给出回答之前，先承认对方的痛苦。",
+          "温和地解释，伊斯兰教导说人生是一场考验，最终的公正属于安拉。",
+          "如果痛苦是眼前的或带有创伤性的，请转介给有资质的情感支持或危机支持。"
         ],
         "watchFor": [
-          "当对方悲伤时给出一个简洁的答案。",
-          "辩论而不是倾听。",
-          "缺少危机、自残或不安全隔离的迹象。"
+          "在对方悲伤的时候，给出一个整整齐齐的答案。",
+          "争论，而不是倾听。",
+          "忽略危机、自残或危险的孤立状态的迹象。"
         ],
-        "referenceIds": ["quran-67-2", "quran-2-155", "988-lifeline"]
+        "referenceIds": ["quran-67-2", "quran-2-155", "988-canada"]
       },
       {
         "id": "s-violence-media-narratives",
-        "audience": "有人询问暴力或媒体叙述",
-        "summary": "有人问伊斯兰教是否宣扬暴力、恐怖主义、强迫皈依或对他人的敌意。",
+        "audience": "问到暴力或媒体叙事的人",
+        "summary": "问伊斯兰是否鼓吹暴力、恐怖主义、强迫改教或敌视他人的人。",
         "approach": [
-          "保持冷静，不要变得防御性。",
-          "澄清信仰不能被强迫，伊斯兰教维护生命的神圣性。",
-          "使用可靠且经过审查的资源来描述圣战、战争和政治暴力等复杂术语。"
+          "保持平静，不要急于辩护。",
+          "说明信仰不能被强迫，伊斯兰坚持生命的神圣。",
+          "对于吉哈德、战争和政治暴力等复杂的词语，使用可靠、经过审阅的资料。"
         ],
         "watchFor": [
-          "试图立即回答每个地缘政治问题。",
-          "分享你无法支持的无力的道歉主张。",
-          "与只想公开打架的人争论。"
+          "试图一次回答所有的地缘政治问题。",
+          "分享你自己都无法支持的、站不住脚的护教说法。",
+          "和一个只想公开吵架的人争论。"
         ],
         "referenceIds": ["quran-2-256", "quran-5-32", "yaqeen-violence"]
       }
@@ -1363,42 +1368,42 @@
       {
         "id": "dua-ease",
         "occasion": "before",
-        "title": "为了轻松和开放的心",
+        "title": "祈求顺利和心胸开阔",
         "arabic": "رَبِّ ٱشْرَحْ لِى صَدْرِى وَيَسِّرْ لِىٓ أَمْرِى",
         "transliteration": "Rabbi-shraḥ lī ṣadrī wa yassir lī amrī",
-        "translation": "我的主啊！为我振奋我的心，让我的任务变得轻松，",
+        "translation": "我的主啊！求你为我开阔我的心胸，求你使我的任务顺利，",
         "referenceId": "quran-20-25-26"
       },
       {
         "id": "dua-sincerity",
         "occasion": "before",
-        "title": "未经来源的个人措辞的诚意",
-        "translation": "未经来源的个人措辞，不是传输的杜阿：安拉啊，请让我的意图真诚，并帮助我诚实和友善地说话。"
+        "title": "没有出处的个人祈祷：为了真诚",
+        "translation": "没有出处的个人措辞，不是传述下来的祈祷词：安拉啊，求你使我的举意真诚，帮助我说话诚实而友善。"
       },
       {
         "id": "dua-guidance",
         "occasion": "after",
-        "title": "谈话后未透露来源的个人措辞",
-        "translation": "未经来源的个人措辞，不是传播的杜阿：安拉啊，引导他们走向真实和善良，并引导我走向谦卑。"
+        "title": "没有出处的个人祈祷：谈话之后",
+        "translation": "没有出处的个人措辞，不是传述下来的祈祷词：安拉啊，求你引导他们走向真实和美好，也引导我保持谦逊。"
       },
       {
         "id": "dua-leave-results",
         "occasion": "general",
-        "title": "记住指导属于安拉",
+        "title": "记住引导属于安拉",
         "arabic": "إِنَّكَ لَا تَهْدِى مَنْ أَحْبَبْتَ وَلَٰكِنَّ ٱللَّهَ يَهْدِى مَن يَشَآءُ",
-        "translation": "你当然不能引导你喜欢的人，但安拉可以引导他所愿意的人。",
+        "translation": "你的确不能引导你所喜爱的人，但安拉能引导祂所意欲的人。",
         "referenceId": "quran-28-56"
       }
     ],
     "quickReference": {
-      "intro": "对 GORAP 路径、对话流程和良好宣教核心的紧凑回顾。在谈话之前或期间使用它作为复习。",
+      "intro": "对 GORAP 路径、对话流程以及好的宣教对你有哪些要求的简要回顾。可以在谈话之前或谈话期间拿来温习。",
       "points": [
-        "以智慧和礼貌来邀请；永远不会有压力。",
-        "多听少说，一次提出一个问题。",
-        "在进一步深入之前征求许可，并在对方需要空间时暂停。",
-        "在人们所在的地方与他们见面——真正的对话不是线性的。",
-        "即使谈话在没有清真言的情况下结束，也要保持门开着。",
-        "做出真诚的杜阿并将结果留给安拉。"
+        "以智慧和良好的礼貌去邀请，绝不施压。",
+        "多听少说，一次只问一个问题。",
+        "在深入之前先征得同意，当对方需要空间时就停下来。",
+        "从对方所在的地方开始，因为真实的谈话总会绕来绕去。",
+        "即使谈话结束时对方没有念清真言，也要让大门保持敞开。",
+        "真诚地祈祷，把结果交给安拉。"
       ]
     }
   }
