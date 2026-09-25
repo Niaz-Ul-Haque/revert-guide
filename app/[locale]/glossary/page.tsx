@@ -19,7 +19,12 @@ export default function GlossaryPage({
   const t = getTranslator(locale);
   const entries = getAllGlossaryEntries(locale);
   const sources = getSourcesByIds(
-    Array.from(new Set(entries.flatMap((entry) => entry.sourceIds ?? []))),
+    Array.from(
+      new Set([
+        "ijmes-transliteration-chart",
+        ...entries.flatMap((entry) => entry.sourceIds ?? []),
+      ]),
+    ),
     locale,
   );
 

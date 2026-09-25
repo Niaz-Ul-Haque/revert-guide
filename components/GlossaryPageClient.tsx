@@ -73,6 +73,26 @@ export function GlossaryPageClient({
         </AnimateIn>
       </header>
 
+      <details className="mb-6 rounded-2xl border border-border/60 bg-surfaceElevated/50 px-5 py-4">
+        <summary className="cursor-pointer text-sm font-semibold text-textPrimary">
+          {copy.pronunciationKey.title}
+        </summary>
+        <ul className="mb-0 mt-3 flex flex-col gap-2 pl-5 text-sm leading-relaxed text-textSecondary">
+          {copy.pronunciationKey.items.map((item) => (
+            <li key={item} className="list-disc">
+              {item}
+            </li>
+          ))}
+        </ul>
+        <SourceTags
+          sources={sources.filter(
+            (source) => source.id === "ijmes-transliteration-chart",
+          )}
+          compact
+          className="mt-3"
+        />
+      </details>
+
       <AnimateIn delay={0.1}>
         <SearchBar
           value={query}
@@ -138,8 +158,11 @@ export function GlossaryPageClient({
                         </span>
                       )}
                       {entry.transliteration && (
-                        <span className="text-sm italic text-textMuted">
-                          ({entry.transliteration})
+                        <span className="text-sm text-textMuted">
+                          {copy.sayItLabel}{" "}
+                          <span className="italic">
+                            {entry.transliteration}
+                          </span>
                         </span>
                       )}
                     </dt>
