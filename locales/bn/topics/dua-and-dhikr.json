@@ -1,6 +1,6 @@
 {
   "id": "dua-and-dhikr",
-  "title": "দোয়া ও জিকির",
+  "title": "প্রার্থনা ও স্মরণ (দোয়া ও জিকির)",
   "description": "নতুনদের জন্য সহজ জিকির আর দোয়া, অর্থ আর যাচাই করা যায় এমন সূত্রকে কেন্দ্র করে।",
   "sections": [
     {
@@ -20,9 +20,21 @@
       "content": "দোয়া আর জিকির সত্যিকারের সান্ত্বনা দেয়, আর সংকটের সময় পেশাদার সাহায্যের বিকল্প নয়। নিজের ক্ষতি করার চিন্তা এলে, অনিরাপদ বোধ করলে, বা দৈনন্দিন কাজ করতে না পারলে 9-1-1 নম্বরে কল করুন, 9-8-8 নম্বরে কল বা টেক্সট করুন, অথবা একজন যোগ্য চিকিৎসকের সাথে যোগাযোগ করুন। ঈমান আর বাস্তব সাহায্য একসাথে চলে।"
     }
   ],
-  "relatedStepIds": ["daily-dua-dhikr", "prayer-on-ramp", "prayer"],
-  "relatedGlossaryIds": ["dua", "dhikr", "sunnah", "salah"],
-  "relatedResourceIds": ["fortress-muslim-dua-book", "quran-com"],
+  "relatedStepIds": [
+    "daily-dua-dhikr",
+    "prayer-on-ramp",
+    "prayer"
+  ],
+  "relatedGlossaryIds": [
+    "dua",
+    "dhikr",
+    "sunnah",
+    "salah"
+  ],
+  "relatedResourceIds": [
+    "fortress-muslim-dua-book",
+    "quran-com"
+  ],
   "sourceIds": [
     "quran-com",
     "sunnah-com",
@@ -30,5 +42,12 @@
     "emergency-911-canada",
     "988-canada"
   ],
-  "reviewStatus": "review-needed"
+  "reviewStatus": "review-needed",
+  "linkCards": [
+    {
+      "label": "শোক আর হারানো",
+      "href": "/topics/grief-and-loss",
+      "body": "কাউকে হারালে কী বলবেন, আর মারা যাওয়া কারও জন্য দোয়া।"
+    }
+  ]
 }

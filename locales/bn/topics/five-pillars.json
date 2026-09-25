@@ -59,7 +59,7 @@
       "body": "নামাজের গঠন, শব্দগুলো, আর শেখার সময় কী করবেন।"
     },
     {
-      "label": "যাকাত গাইড",
+      "label": "নতুনদের জন্য বার্ষিক দান (যাকাত)",
       "href": "/seasonal/zakat",
       "body": "যাকাত কখন প্রযোজ্য আর কীভাবে হিসাব করবেন।"
     },
@@ -69,13 +69,23 @@
       "body": "প্রথম রোজার জন্য তৈরি হওয়া।"
     },
     {
-      "label": "হজ ও উমরাহর গাইড",
+      "label": "হজের মৌসুম (হজ ও যিলহজ)",
       "href": "/seasonal/dhul-hijjah-hajj-umrah",
       "body": "হজ, উমরাহ আর তার আশপাশের মৌসুম।"
     }
   ],
-  "relatedStepIds": ["shahada", "prayer-on-ramp", "prayer"],
-  "relatedGlossaryIds": ["shahada", "salah", "zakat", "sawm", "hajj"],
+  "relatedStepIds": [
+    "shahada",
+    "prayer-on-ramp",
+    "prayer"
+  ],
+  "relatedGlossaryIds": [
+    "shahada",
+    "salah",
+    "zakat",
+    "sawm",
+    "hajj"
+  ],
   "sourceIds": [
     "sunnah-bukhari-five-pillars",
     "sunnah-muslim-five-pillars",
