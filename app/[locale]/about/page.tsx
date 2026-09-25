@@ -76,6 +76,20 @@ export default function AboutPage({ params }: { params: { locale: Locale } }) {
       </AnimateIn>
 
       <AnimateIn>
+        <section className="mb-10" aria-labelledby="site-name">
+          <h2
+            id="site-name"
+            className="mb-4 font-display text-2xl font-semibold tracking-tight text-textPrimary"
+          >
+            {copy.nameTitle}
+          </h2>
+          <p className="text-base leading-relaxed text-textSecondary">
+            {copy.nameBody}
+          </p>
+        </section>
+      </AnimateIn>
+
+      <AnimateIn>
         <section className="mb-10" aria-labelledby="approach">
           <h2
             id="approach"
