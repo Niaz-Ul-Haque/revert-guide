@@ -9,8 +9,8 @@
       "text": "Apprenez les principales règles alimentaires",
       "subSteps": [
         "Le porc et ses dérivés (bacon, jambon, gélatine de porc) sont haram.",
-        "L'alcool et les autres substances enivrantes sont haram, y compris les boissons, le vin de cuisson et les aliments préparés avec de l'alcool.",
-        "La viande doit provenir d'un abattage halal (zabiha), c'est-à-dire que l'animal est abattu sans cruauté en mentionnant le nom d'Allah.",
+        "Les boissons alcoolisées et les autres substances enivrantes sont interdites (haram). Les toutes petites quantités d'alcool qui ne vient pas du vin, utilisé comme solvant dans les arômes comme l'extrait de vanille, font l'objet d'une vraie divergence : l'école hanafite les permet quand la quantité ne peut pas enivrer, et d'autres savants évitent tout alcool ajouté. Cette permission ne couvre pas le vin : le vin de cuisson est donc exclu. Tant que vous êtes nouveau, les versions sans alcool sont le choix prudent.",
+        "Beaucoup de savants et d'organismes de certification halal canadiens n'acceptent que la viande zabiha, d'un animal abattu sans cruauté en mentionnant le nom d'Allah. D'autres savants acceptent aussi la viande des chrétiens et des juifs (les gens du Livre) en vertu du Coran 5:5. Vous n'avez pas à trancher cela dès le premier jour : la viande zabiha, le poisson et la nourriture végétarienne gardent les choses simples, et votre imam local peut vous dire quel avis suit votre communauté.",
         "Le poisson est halal dans toutes les écoles. Pour les autres fruits de mer, comme les crevettes, les écoles divergent. Demandez conseil en cas de doute.",
         "Les fruits, les légumes, les céréales, les produits laitiers et les œufs sont halal.",
         "La plupart des aliments transformés sont halal, mais il vaut la peine de vérifier la présence de gélatine, de saindoux ou d'arômes à base d'alcool."
@@ -19,7 +19,7 @@
     {
       "text": "Apprenez à lire les étiquettes",
       "subSteps": [
-        "Cherchez les symboles de certification halal sur l'emballage. Au Canada, les plus courants sont IFANCC, ISNA et HMA.",
+        "Cherchez le nom de l'organisme de certification sur l'emballage. Au Canada, une allégation halal sur une étiquette doit nommer qui l'a certifiée. Deux noms que vous verrez souvent sont la Halal Monitoring Authority (HMA) et ISNA Canada Halal, et leurs normes ne sont pas identiques : demandez à votre mosquée locale auxquels elle fait confiance.",
         "Parcourez la liste des ingrédients à la recherche de gélatine (souvent de porc), de saindoux, de graisse animale, d'alcool et d'extrait de vanille, qui peut contenir de l'alcool.",
         "En cas de doute, cherchez le produit en ligne ou choisissez un équivalent certifié halal.",
         "Beaucoup de grandes marques conviennent, et vous apprendrez vite lesquelles."
@@ -80,5 +80,38 @@
     }
   ],
   "tinyVersion": "Deux règles pour commencer : pas de porc, pas d'alcool. Le reste s'apprend étape par étape. La plupart de ce que vous mangez déjà est probablement halal de toute façon.",
-  "unlocksNext": "Avec les notions de halal et de haram en main, vous êtes prêt à découvrir le jeûne, qui fait participer votre corps à la pratique en plus de votre cœur."
+  "unlocksNext": "Avec le halal et le haram en main, vous êtes prêt à passer à la pratique aux repas, en commençant par la nourriture de votre propre cuisine.",
+  "resourceIds": [
+    "halal-living-guide",
+    "new-muslim-guide-site",
+    "seekers-guidance"
+  ],
+  "relatedGlossaryIds": [
+    "halal",
+    "haram",
+    "zabiha",
+    "mashbooh",
+    "bismillah",
+    "tayyib"
+  ],
+  "relatedTopicIds": [
+    "fasting",
+    "halal-living"
+  ],
+  "sourceIds": [
+    "new-muslim-guide",
+    "seekersguidance",
+    "quran-5-5",
+    "amja-eating-the-meat-of-the",
+    "seekersguidance-is-vanilla-extract-permissible-if",
+    "hma-what-is-halal",
+    "cfia-method-production-claims"
+  ],
+  "reviewStatus": "review-needed",
+  "relatedLinks": [
+    {
+      "label": "Vivre halal au quotidien",
+      "href": "/guides/halal-living-in-daily-life"
+    }
+  ]
 }

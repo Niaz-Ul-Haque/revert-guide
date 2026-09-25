@@ -6,23 +6,11 @@
   "whyMatters": "L'islam n'a jamais été fait pour être pratiqué seul. La communauté musulmane (oumma) fonctionne un peu comme une famille : les gens célèbrent avec vous, restent avec vous dans les moments difficiles et vous aident à continuer de grandir. Trouver votre communauté locale est l'une des choses les plus utiles que vous puissiez faire comme nouveau musulman. Un seul ami ou mentor qui est passé par là peut faire la différence entre se sentir perdu et se sentir chez soi.",
   "exactActions": [
     {
-      "text": "Trouvez une mosquée près de chez vous",
+      "text": "Chercher un programme pour les nouveaux musulmans",
       "subSteps": [
-        "Utilisez l'outil de recherche de mosquées de cette application pour trouver des mosquées près de chez vous au Canada.",
-        "Cherchez des mosquées qui offrent des programmes pour les nouveaux musulmans ou les convertis.",
-        "Certaines mosquées canadiennes ont des programmes nommés pour les convertis, comme Convert Care à l'Islam Care Centre d'Ottawa ou Convert Connect à la MAC Masjid Toronto, qui peuvent prévoir un guide pour votre première visite. La page thématique sur la communauté en présente d'autres ailleurs au Canada. Confirmez les horaires auprès de la mosquée avant d'y aller.",
-        "Certaines ont un groupe de soutien pour les convertis ou un cours hebdomadaire réservé aux débutants.",
-        "S'il y en a plusieurs près de chez vous, visitez-en plus d'une et voyez où vous vous sentez le mieux accueilli."
-      ]
-    },
-    {
-      "text": "Visitez la mosquée pour la première fois",
-      "subSteps": [
-        "La prière du vendredi (jumu'ah) est un bon moment pour une visite parce que toute la communauté se rassemble, mais il y a beaucoup de monde. Une prière plus calme en semaine est plus facile pour une première découverte.",
-        "Arrivez quelques minutes à l'avance. Retirez vos chaussures à l'entrée.",
-        "Les hommes et les femmes prient habituellement dans des espaces séparés.",
-        "Faites comme tout le monde. Levez-vous quand les autres se lèvent, inclinez-vous quand ils s'inclinent. Personne ne s'attend à ce que vous sachiez tout.",
-        "Après la prière, présentez-vous à quelqu'un près de vous. Un simple « As-salamu alaykum, je suis nouveau dans l'islam » ouvre bien des portes."
+        "Beaucoup de mosquées et de centres offrent quelque chose pour les convertis, comme un cours hebdomadaire pour débutants ou un groupe de soutien pour convertis.",
+        "Certaines mosquées canadiennes ont des programmes nommés pour les convertis, comme Convert Care à l'Islam Care Centre d'Ottawa ou Convert Connect à la MAC Masjid Toronto. Le sujet sur la communauté en présente d'autres partout au Canada. Confirmez les horaires avant d'y aller.",
+        "Renseignez-vous à votre mosquée, ou téléphonez à une mosquée près de chez vous, et demandez ce qu'elle offre aux nouveaux musulmans."
       ]
     },
     {
@@ -54,19 +42,11 @@
       ]
     }
   ],
-  "timeEstimate": "1 à 2 heures pour une première visite, puis les liens se construisent avec le temps",
+  "timeEstimate": "Une heure ou deux par semaine, qui s'ajoutent avec le temps",
   "obstacles": [
-    {
-      "problem": "Je suis nerveux à l'idée de visiter une mosquée",
-      "solution": "Presque tous les nouveaux musulmans le ressentent, et c'est compréhensible. La plupart des communautés musulmanes ont un réel respect pour les convertis et voient dans leur accueil une bénédiction. Beaucoup de personnes dans cette salle étaient elles-mêmes nouvelles un jour. Vous pouvez téléphoner ou écrire un courriel à l'avance pour annoncer votre venue, et certaines mosquées demanderont à quelqu'un de vous accueillir à la porte."
-    },
     {
       "problem": "J'ai l'impression de ne pas être à ma place",
       "solution": "L'islam réunit plus de cultures que presque toute autre religion. Les musulmans du Canada viennent de dizaines de pays. Vous avez votre place ici autant que la personne à côté de vous. Il faut parfois quelques visites avant que cela paraisse naturel. Laissez-vous du temps et continuez de venir, car c'est ainsi que les liens se créent vraiment."
-    },
-    {
-      "problem": "Je ne sais pas comment m'habiller",
-      "solution": "Habillez-vous de façon pudique et confortable. Pour les hommes, un pantalon long et un haut à manches. Pour les femmes, des vêtements amples qui couvrent les bras et les jambes, et un foulard. Beaucoup de mosquées gardent des foulards près de l'entrée. Vous n'avez rien à acheter : portez ce que vous avez déjà et qui correspond à cette idée."
     },
     {
       "problem": "Je n'ai aucun ami musulman",
@@ -78,5 +58,54 @@
     }
   ],
   "tinyVersion": "Si une mosquée est trop pour le moment, commencez par un musulman, en ligne ou en personne. Un seul ami sur qui compter change beaucoup de choses.",
-  "unlocksNext": "Avec des gens autour de vous, vous êtes prêt à commencer à lire le Coran et à passer du temps avec les paroles d'Allah."
+  "unlocksNext": "Avec des gens autour de vous, vous êtes prêt à commencer à lire le Coran et à passer du temps avec les paroles d'Allah.",
+  "resourceIds": [
+    "new-muslim-guide-icna",
+    "whyislam",
+    "aboutislam-new-muslims",
+    "khalil-center"
+  ],
+  "relatedGlossaryIds": [
+    "masjid",
+    "ummah",
+    "imam",
+    "jumuah",
+    "halaqa",
+    "salam"
+  ],
+  "relatedTopicIds": [
+    "community",
+    "masjid-and-community",
+    "family-and-identity"
+  ],
+  "relatedLinks": [
+    {
+      "label": "Solitude et appartenance",
+      "href": "/guides/loneliness-and-belonging"
+    },
+    {
+      "label": "Les signes d'une communauté saine",
+      "href": "/guides/healthy-community-signs"
+    },
+    {
+      "label": "Signaux d'alarme et sécurité",
+      "href": "/guides/red-flags-and-staying-safe"
+    },
+    {
+      "label": "Comment fonctionne le mentorat",
+      "href": "/guides/how-mentoring-works"
+    },
+    {
+      "label": "Groupes communautaires",
+      "href": "/community-groups"
+    }
+  ],
+  "sourceIds": [
+    "whyislam",
+    "icna",
+    "yaqeen-becoming-muslim",
+    "islam-care-centre-convert-care",
+    "masjid-toronto-programs"
+  ],
+  "reviewStatus": "source-checked"
 }

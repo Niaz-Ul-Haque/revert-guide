@@ -53,7 +53,7 @@
         "Asr : 4 rak'at.",
         "Maghrib : 3 rak'at.",
         "Isha : 4 rak'at.",
-        "Commencez par les prières obligatoires (fard). Vous pourrez ajouter les prières surérogatoires (sunna) plus tard."
+        "Commencez par les prières obligatoires (fard). Les rak'ahs volontaires supplémentaires (sunnah) que vous voyez à la mosquée peuvent venir plus tard, une à la fois. Le sujet sur la prière les explique."
       ]
     },
     {
@@ -83,7 +83,7 @@
     },
     {
       "problem": "Je ne peux pas prier au travail ou à l'école",
-      "solution": "Vous avez le droit de prier. Des musulmans le font dans des coins tranquilles, des salles de réunion vides ou des voitures stationnées. Une prière prend de cinq à dix minutes. Si l'horaire est difficile, certaines prières peuvent être regroupées dans certaines situations : demandez à un enseignant ce qu'il en est pour vous. Parlez-en à un collègue ou à un superviseur si vous êtes à l'aise, et la plupart des gens se montrent raisonnables."
+      "solution": "Vous avez le droit de prier. Les musulmans y arrivent dans des coins tranquilles, des salles de réunion vides et des voitures stationnées. Une prière prend de cinq à dix minutes. Si l'horaire est difficile, les écoles diffèrent sur la possibilité de regrouper les prières à cause du travail : lisez la FAQ sur le travail par quarts et demandez à un enseignant ce qui s'applique à votre situation. Parlez-en à un collègue ou à un superviseur si vous êtes à l'aise, et la plupart des gens se montrent raisonnables."
     },
     {
       "problem": "Je suis mal à l'aise avec les mouvements",
@@ -92,6 +92,42 @@
   ],
   "tinyVersion": "Si tout cela vous semble trop, commencez par une prière par jour. Se tenir debout, s'incliner, se prosterner et parler à Allah avec son cœur, cela compte, même sous sa forme la plus simple. Vous pourrez peaufiner les détails à mesure que vous apprenez.",
   "unlocksNext": "Une fois que la prière a sa place dans votre journée, vous êtes prêt à trouver votre communauté musulmane locale, les gens qui feront ce chemin avec vous.",
+  "resourceIds": [
+    "learn-salah-guide",
+    "pillars-app",
+    "wudu-tutorial",
+    "being-muslim-book"
+  ],
+  "relatedGlossaryIds": [
+    "salah",
+    "wudu",
+    "rakah",
+    "qiblah",
+    "fajr",
+    "dhuhr",
+    "asr",
+    "maghrib",
+    "isha",
+    "al-fatiha",
+    "sajdah",
+    "ruku",
+    "rawatib"
+  ],
+  "relatedTopicIds": [
+    "prayer",
+    "purification",
+    "dua-and-dhikr"
+  ],
+  "sourceIds": [
+    "new-muslim-guide",
+    "sunnah-com",
+    "seekersguidance",
+    "sunnah-abudawud-dhikr-instead",
+    "seekersguidance-recite-in-english",
+    "amja-combining-for-job",
+    "seekersguidance-combining-hanafi"
+  ],
+  "reviewStatus": "review-needed",
   "videos": [
     {
       "videoId": "4zr6tNgmKSI",
@@ -100,7 +136,35 @@
       "duration": "33:57",
       "start": 228,
       "note": "Commence par le Fajr, la prière de deux unités (rak'ah). De petites différences entre les écoles sont normales.",
-      "sourceIds": ["video-greenlane-five-prayers"]
+      "sourceIds": [
+        "video-greenlane-five-prayers"
+      ]
+    }
+  ],
+  "relatedLinks": [
+    {
+      "label": "Les prières supplémentaires que vous verrez, et quand les ajouter",
+      "href": "/topics/prayer"
+    },
+    {
+      "label": "Travail par quarts et regroupement des prières",
+      "href": "/faq#faq-pry-038"
+    },
+    {
+      "label": "Compagnon pour apprendre à prier (salah)",
+      "href": "/tools/salah-companion"
+    },
+    {
+      "label": "Heures de prière",
+      "href": "/prayer-times"
+    },
+    {
+      "label": "Guide du travail et de l'école",
+      "href": "/guides/work-and-school"
+    },
+    {
+      "label": "Menstruation et adoration",
+      "href": "/topics/menstruation-and-worship"
     }
   ]
 }

@@ -10,7 +10,8 @@
       "subSteps": [
         "L'heure de la prière du vendredi diffère souvent de l'heure habituelle du Dhuhr.",
         "Beaucoup de mosquées organisent plus d'une prière du vendredi.",
-        "Renseignez-vous sur le stationnement, l'entrée à utiliser et l'espace des femmes si cela vous concerne."
+        "Renseignez-vous sur le stationnement, l'entrée à utiliser et l'espace des femmes si cela vous concerne.",
+        "Si vous le pouvez, faites un lavage complet du corps (ghusl) avant d'y aller et portez des vêtements propres. Ce lavage est recommandé, ce n'est pas une condition de la prière, et les ablutions (wudu) seules suffisent."
       ]
     },
     {
@@ -18,7 +19,7 @@
       "subSteps": [
         "Prenez le temps de trouver l'entrée et l'endroit où laisser vos chaussures.",
         "Asseyez-vous calmement et écoutez le sermon (khutbah).",
-        "Si vous arrivez en retard, suivez l'assemblée et restez calme."
+        "Si vous arrivez en retard, joignez la rangée calmement et suivez l'imam. Le compagnon de prière explique comment se joindre en retard et quoi rattraper."
       ]
     },
     {
@@ -26,6 +27,7 @@
       "subSteps": [
         "L'imam fait un sermon, puis dirige une prière de deux unités.",
         "Vous pouvez suivre les mouvements des gens autour de vous.",
+        "Dites Amine avec tout le monde quand l'imam termine Al-Fatiha, et faites chaque mouvement après l'imam, pas avant lui.",
         "Si vous vous êtes senti perdu, posez la question à quelqu'un après la prière."
       ]
     },
@@ -51,10 +53,70 @@
   ],
   "tinyVersion": "Cherchez l'heure de la prière du vendredi d'une mosquée et prévoyez d'arriver 15 minutes à l'avance.",
   "unlocksNext": "La jumu'ah vous donne un rythme hebdomadaire et c'est l'endroit le plus simple pour entendre parler de cours, de mentors et de gens qu'il vaut la peine de connaître.",
+  "resourceIds": [
+    "learn-salah-guide",
+    "new-muslim-guide-icna",
+    "whyislam"
+  ],
+  "relatedGlossaryIds": [
+    "jumuah",
+    "masjid",
+    "imam",
+    "salah"
+  ],
+  "relatedTopicIds": [
+    "masjid-and-community",
+    "prayer",
+    "community"
+  ],
   "contextNotes": [
     {
       "title": "Travail ou école",
-      "body": "Si la prière du vendredi entre en conflit avec votre horaire, demandez à un imam de votre région comment gérer la situation et comment formuler une demande de temps."
+      "body": "La prière du vendredi est une obligation pour les hommes adultes. Demandez ce temps à votre employeur ou à votre école avant que l'horaire soit fixé; le guide sur le travail et l'école propose des formulations que vous pouvez utiliser. Une réponse hanafite que nous donnons en lien est stricte sur ce point : elle dit qu'un emploi qui vous empêche régulièrement d'assister à la prière du vendredi n'est pas permis. Si vous ne pouvez pas obtenir ce temps, parlez de votre situation à un savant."
+    },
+    {
+      "title": "Pendant le sermon",
+      "body": "Écoutez en silence et rangez votre téléphone. N'enjambez pas les gens pour atteindre l'avant. Asseyez-vous là où il y a de la place, même à l'arrière. Si vous arrivez pendant le sermon, demandez à votre enseignant s'il faut d'abord prier deux courtes rak'ahs, parce que les savants diffèrent sur ce point."
+    },
+    {
+      "title": "Pour les sœurs",
+      "body": "La prière du vendredi n'est pas obligatoire pour les femmes (Sunan Abi Dawud 1067). Vous êtes la bienvenue, et si vous y allez, elle remplace le Dhuhr ce jour-là. Si le travail, les enfants ou un petit espace pour les femmes vous retiennent à la maison, priez le Dhuhr comme d'habitude. Vous n'avez rien manqué de ce que vous deviez."
+    }
+  ],
+  "sourceIds": [
+    "new-muslim-guide",
+    "seekersguidance",
+    "whyislam",
+    "sunnah-bukhari-934",
+    "sunnah-abudawud-1118",
+    "sunnah-muslim-875c",
+    "sunnah-bukhari-780",
+    "sunnah-bukhari-877",
+    "sunnah-abudawud-354",
+    "seekersguidance-friday-ghusl-hanafi",
+    "sunnah-bukhari-636",
+    "sunnah-abudawud-1067",
+    "seekersguidance-friday-prayer-rulings",
+    "seekersguidance-missing-jumuah-for-work",
+    "quran-62-9-friday-call"
+  ],
+  "reviewStatus": "review-needed",
+  "relatedLinks": [
+    {
+      "label": "Guide de la première visite à la mosquée",
+      "href": "/guides/first-masjid-visit"
+    },
+    {
+      "label": "Trouver une mosquée",
+      "href": "/resources/find-masjid"
+    },
+    {
+      "label": "Prier derrière un imam (et arriver en retard)",
+      "href": "/tools/salah-companion#behind-imam"
+    },
+    {
+      "label": "Guide du travail et de l'école",
+      "href": "/guides/work-and-school"
     }
   ]
 }

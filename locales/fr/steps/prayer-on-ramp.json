@@ -62,6 +62,22 @@
   ],
   "tinyVersion": "Choisissez une prière à protéger aujourd'hui, même si vous avez besoin d'un guide ouvert à côté de vous.",
   "unlocksNext": "Une fois que vous avez trouvé une porte d'entrée, l'étape complète sur la prière ne ressemble plus à un mur.",
+  "resourceIds": [
+    "learn-salah-guide",
+    "pillars-app",
+    "being-muslim-book"
+  ],
+  "relatedGlossaryIds": [
+    "salah",
+    "wudu",
+    "qiblah",
+    "al-fatiha"
+  ],
+  "relatedTopicIds": [
+    "prayer",
+    "new-muslim-basics",
+    "dua-and-dhikr"
+  ],
   "commonQuestions": [
     {
       "problem": "Puis-je prier en lisant un guide?",
@@ -74,13 +90,43 @@
       "body": "Repérez les endroits calmes que vous pouvez utiliser et les plages de prière qui sont réalistes. Si vous avez besoin d'un accommodement, demandez-le calmement et gardez une demande concrète."
     }
   ],
+  "sourceIds": [
+    "new-muslim-guide",
+    "seekersguidance",
+    "sunnah-bukhari-prayed-badly",
+    "sunnah-abudawud-dhikr-instead",
+    "seekersguidance-recite-in-english",
+    "seekersguidance-reading-from-mushaf",
+    "newmuslims-recent-convert-prayer"
+  ],
+  "reviewStatus": "review-needed",
   "videos": [
     {
       "videoId": "Fpa-c_M_V7Q",
       "title": "Chaque formule d'une unité (rak'ah)",
       "channel": "Islamwise",
       "duration": "10:29",
-      "sourceIds": ["video-islamwise-rakah-recap"]
+      "sourceIds": [
+        "video-islamwise-rakah-recap"
+      ]
+    }
+  ],
+  "relatedLinks": [
+    {
+      "label": "Revenir après une pause",
+      "href": "/guides/coming-back"
+    },
+    {
+      "label": "Compagnon pour apprendre à prier (salah)",
+      "href": "/tools/salah-companion"
+    },
+    {
+      "label": "Heures de prière",
+      "href": "/prayer-times"
+    },
+    {
+      "label": "Guide du travail et de l'école",
+      "href": "/guides/work-and-school"
     }
   ]
 }

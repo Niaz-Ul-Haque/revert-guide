@@ -6,33 +6,44 @@
   "whyMatters": "Une mosquée vous offre un endroit pour prier, des gens à qui poser vos questions, des cours et de la compagnie. Votre première visite n'a pas à être parfaite. Elle doit seulement être assez simple pour que vous y alliez vraiment.",
   "exactActions": [
     {
-      "text": "Choisissez un moment calme",
+      "text": "Choisir une mosquée et un moment calme",
       "subSteps": [
+        "Utilisez l'outil Trouver une mosquée de cette application pour trouver des mosquées près de chez vous au Canada.",
         "Une prière quotidienne ordinaire est beaucoup plus facile qu'un vendredi bondé.",
         "Consultez le site Web de la mosquée ou téléphonez à l'avance si vous avez un doute.",
-        "Demandez s'il y a quelque chose pour les nouveaux musulmans ou pour les visiteurs."
+        "Demandez s'il y a quelque chose pour les nouveaux musulmans ou pour les visiteurs.",
+        "Certains programmes pour convertis, comme Convert Care à l'Islam Care Centre d'Ottawa ou Convert Connect à la MAC Masjid Toronto, peuvent prévoir un guide pour votre première visite.",
+        "S'il y en a plusieurs près de chez vous, visitez-en plus d'une et voyez où vous vous sentez le mieux accueilli."
       ]
     },
     {
       "text": "Habillez-vous simplement et avec pudeur",
       "subSteps": [
         "Portez des vêtements propres et amples qui vous couvrent confortablement.",
+        "Les hommes portent habituellement un pantalon long et une chemise à manches.",
         "Les femmes peuvent apporter un foulard si elles prévoient d'entrer dans la salle de prière.",
+        "Beaucoup de mosquées gardent des foulards de rechange près de la porte.",
         "Ne paniquez pas si vous n'êtes pas habillé comme tout le monde."
       ]
     },
     {
       "text": "Suivez les règles de politesse de base",
       "subSteps": [
+        "Arrivez quelques minutes à l'avance.",
         "Retirez vos chaussures là où vous voyez les autres retirer les leurs.",
         "Mettez votre téléphone en mode silencieux.",
-        "Si vous ne savez pas où aller, demandez à quelqu'un près de l'entrée."
+        "Si vous ne savez pas où aller, demandez à quelqu'un près de l'entrée.",
+        "Quand l'appel à la prière (adhan) retentit, les gens se taisent souvent et le répètent à voix basse. La page des invocations et du rappel d'Allah donne les paroles et la réponse.",
+        "Ne passez pas devant une personne qui prie. Passez derrière elle.",
+        "Les hommes et les femmes prient habituellement dans des espaces séparés.",
+        "Si vous vous joignez à une prière, faites comme tout le monde. Levez-vous quand ils se lèvent, inclinez-vous quand ils s'inclinent. Personne ne s'attend à ce que vous sachiez tout.",
+        "Si quelqu'un vous corrige, dites merci, et demandez plus tard à votre enseignant s'il s'agissait d'une règle ou d'une habitude locale."
       ]
     },
     {
       "text": "Présentez-vous à une personne",
       "subSteps": [
-        "Dire que vous êtes un nouveau musulman et que c'est votre première visite suffit.",
+        "Dire que vous êtes un nouveau musulman et que c'est votre première visite suffit. « As-salamu alaykum, je suis nouveau en islam » ouvre bien des portes.",
         "Demandez qui s'occupe du soutien aux convertis ou des cours pour débutants.",
         "Si cela devient trop, partez. Vous pourrez revenir un autre jour."
       ]
@@ -51,6 +62,22 @@
   ],
   "tinyVersion": "Téléphonez ou écrivez à une mosquée et demandez quand un débutant peut passer.",
   "unlocksNext": "Une fois la porte franchie, la prière du vendredi (jumu'ah), les cours et la recherche d'un mentor deviennent tous plus faciles.",
+  "resourceIds": [
+    "new-muslim-guide-icna",
+    "whyislam",
+    "new-muslim-guide-site"
+  ],
+  "relatedGlossaryIds": [
+    "masjid",
+    "imam",
+    "salah",
+    "ummah"
+  ],
+  "relatedTopicIds": [
+    "masjid-and-community",
+    "community",
+    "new-muslim-basics"
+  ],
   "commonQuestions": [
     {
       "problem": "Puis-je visiter une mosquée si je ne sais pas encore bien prier?",
@@ -61,6 +88,34 @@
     {
       "title": "À l'entrée",
       "body": "Assalamu alaykum. Je suis un nouveau musulman et c'est ma première visite ici. Pourriez-vous m'indiquer où aller?"
+    }
+  ],
+  "sourceIds": [
+    "whyislam",
+    "icna",
+    "new-muslim-guide",
+    "islam-care-centre-convert-care",
+    "masjid-toronto-programs",
+    "sunnah-bukhari-510",
+    "sunnah-muslim-384"
+  ],
+  "reviewStatus": "source-checked",
+  "relatedLinks": [
+    {
+      "label": "Guide de la première visite à la mosquée",
+      "href": "/guides/first-masjid-visit"
+    },
+    {
+      "label": "Trouver une mosquée",
+      "href": "/resources/find-masjid"
+    },
+    {
+      "label": "Expressions de tous les jours et comment y répondre",
+      "href": "/dua-dhikr#everyday-phrases"
+    },
+    {
+      "label": "Quand vous entendez l'appel à la prière (adhan)",
+      "href": "/dua-dhikr"
     }
   ]
 }

@@ -50,11 +50,34 @@
     }
   ],
   "tinyVersion": "À votre prochain repas, évitez le porc et l'alcool et choisissez l'option halal la plus claire devant vous.",
-  "unlocksNext": "Une fois que la nourriture vous semble gérable, les bases plus larges du halal et du haram sont beaucoup plus faciles à assimiler.",
+  "unlocksNext": "Une fois que la nourriture vous semble gérable, vous êtes prêt à découvrir le jeûne, qui fait participer votre corps à la pratique aux côtés de votre cœur.",
+  "resourceIds": [
+    "halal-living-guide",
+    "new-muslim-guide-site"
+  ],
+  "relatedGlossaryIds": [
+    "halal",
+    "haram"
+  ],
+  "relatedTopicIds": [
+    "halal-living",
+    "new-muslim-basics"
+  ],
   "gentleScripts": [
     {
       "title": "Pour un hôte",
       "body": "Merci de m'avoir invité. Je mange halal maintenant, donc j'évite le porc et l'alcool. Je peux volontiers apporter un plat pour vous simplifier la tâche."
+    }
+  ],
+  "sourceIds": [
+    "new-muslim-guide",
+    "seekersguidance"
+  ],
+  "reviewStatus": "review-needed",
+  "relatedLinks": [
+    {
+      "label": "Vivre halal au quotidien",
+      "href": "/guides/halal-living-in-daily-life"
     }
   ]
 }

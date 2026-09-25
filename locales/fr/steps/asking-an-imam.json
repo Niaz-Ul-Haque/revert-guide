@@ -38,15 +38,55 @@
     },
     {
       "problem": "J'ai reçu des réponses différentes",
-      "solution": "Demandez à l'enseignant quelle réponse s'applique à votre situation et ce qui peut attendre. Si vous avez besoin d'aller plus loin, adressez-vous à un savant local qualifié qui connaît votre contexte."
+      "solution": "Demandez à l'enseignant quelle réponse s'applique à votre situation et quelles parties peuvent attendre. S'il vous faut plus que cela, apportez la question à un savant local qualifié qui connaît votre contexte. Les réponses en ligne diffèrent souvent parce qu'elles suivent des écoles différentes ou répondent à la situation de quelqu'un d'autre : notez la source et l'école de chacune avant de poser votre question."
     }
   ],
   "tinyVersion": "Notez trois choses : ce qui s'est passé, ce que vous devez décider, et le fait que vous êtes un nouveau musulman.",
   "unlocksNext": "Les bonnes questions vous permettent de continuer à apprendre avec confiance et vous évitent de suivre de mauvais conseils.",
+  "resourceIds": [
+    "seekers-guidance",
+    "new-muslim-academy",
+    "new-muslim-guide-icna"
+  ],
+  "relatedGlossaryIds": [
+    "imam",
+    "sunnah",
+    "halal",
+    "haram"
+  ],
+  "relatedTopicIds": [
+    "questions-and-doubts",
+    "masjid-and-community",
+    "new-muslim-basics"
+  ],
   "gentleScripts": [
     {
       "title": "Demander une réponse pour débutant",
       "body": "Je suis un nouveau musulman et j'essaie de bien faire les choses sans me sentir dépassé. Quelle est la prochaine étape concrète dans ma situation, et qu'est-ce qui peut attendre?"
+    }
+  ],
+  "sourceIds": [
+    "seekersguidance",
+    "new-muslim-academy",
+    "whyislam"
+  ],
+  "reviewStatus": "source-checked",
+  "relatedLinks": [
+    {
+      "label": "Pourquoi les musulmans divergent",
+      "href": "/topics/why-muslims-differ"
+    },
+    {
+      "label": "Qui est considéré comme cheikh ou mufti",
+      "href": "/faq#faq-fnd-025"
+    },
+    {
+      "label": "Comment demander de l'aide",
+      "href": "/guides/how-to-ask-for-help"
+    },
+    {
+      "label": "Obtenir de l'aide",
+      "href": "/get-help"
     }
   ]
 }
