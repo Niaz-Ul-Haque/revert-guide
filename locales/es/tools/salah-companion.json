@@ -5,21 +5,28 @@
       "posture": "Antes de la oración",
       "body": "Haga la ablución (wudu), busque un lugar limpio, oriéntese hacia la qibla (la dirección de la Kaaba) y tenga claro en su corazón qué oración va a hacer. No tiene que decir la intención en voz alta.",
       "icon": "check",
-      "sourceIds": ["new-muslim-guide-prayer"]
+      "sourceIds": [
+        "new-muslim-guide-prayer"
+      ]
     },
     {
       "title": "Comience de pie",
       "posture": "Takbir de apertura",
       "body": "Levante las manos y diga Allahu akbar. Con eso comienza la oración, y desde ese momento usted deja la conversación ordinaria y entra en la adoración.",
       "icon": "star",
-      "sourceIds": ["new-muslim-guide-prayer"]
+      "sourceIds": [
+        "new-muslim-guide-prayer"
+      ]
     },
     {
       "title": "Recite en la primera rak'ah",
       "posture": "De pie",
       "body": "Recite Al-Fatihah y luego una sura corta o los pocos versículos que esté aprendiendo. Si todavía no puede recitar, la sección \"Si todavía no puede recitar en árabe\", más abajo, explica lo que permiten las escuelas mientras tanto.",
       "icon": "book",
-      "sourceIds": ["quran-al-fatihah-1", "quran-al-ikhlas-112"]
+      "sourceIds": [
+        "quran-al-fatihah-1",
+        "quran-al-ikhlas-112"
+      ]
     },
     {
       "title": "Inclínese y levántese",
@@ -48,7 +55,9 @@
       "posture": "Segunda unidad",
       "body": "Póngase de pie de nuevo y repita la misma forma: Al-Fatiha, una recitación corta, el ruku, volver a ponerse de pie y luego dos postraciones.",
       "icon": "chevron-right",
-      "sourceIds": ["new-muslim-guide-prayer"]
+      "sourceIds": [
+        "new-muslim-guide-prayer"
+      ]
     },
     {
       "title": "Siéntese para las palabras finales",
@@ -65,7 +74,9 @@
       "posture": "Taslim",
       "body": "Gire la cabeza a la derecha y luego a la izquierda, dando el saludo de paz cada vez. Con eso termina la oración. Quédese sentado un momento antes de levantarse y volver a su día.",
       "icon": "star",
-      "sourceIds": ["sunnah-abudawud-taslim"]
+      "sourceIds": [
+        "sunnah-abudawud-taslim"
+      ]
     }
   ],
   "recitations": [
@@ -76,7 +87,9 @@
       "transliteration": "Allahu akbar",
       "meaning": "Allah es el más grande.",
       "beginnerNote": "Esta es la primera frase que conviene aprender. Dígala con claridad y sin prisa. La pronunciación irá mejorando sola.",
-      "sourceIds": ["new-muslim-guide-prayer"]
+      "sourceIds": [
+        "new-muslim-guide-prayer"
+      ]
     },
     {
       "title": "Al-Fatiha",
@@ -84,8 +97,12 @@
       "arabic": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ\nالْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينَ\nالرَّحْمَٰنِ الرَّحِيمِ\nمَالِكِ يَوْمِ الدِّينِ\nإِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ\nاهْدِنَا الصِّرَاطَ الْمُسْتَقِيمَ\nصِرَاطَ الَّذِينَ أَنْعَمْتَ عَلَيْهِمْ غَيْرِ الْمَغْضُوبِ عَلَيْهِمْ وَلَا الضَّالِّينَ",
       "transliteration": "Bismillahir-Rahmanir-Rahim. Alhamdu lillahi Rabbil-'alamin. Ar-Rahmanir-Rahim. Maliki yawmid-din. Iyyaka na'budu wa iyyaka nasta'in. Ihdinas-siratal-mustaqim. Siratal-ladhina an'amta 'alayhim ghayril-maghdubi 'alayhim wa lad-dallin.",
       "meaning": "Traducción del significado: la alabanza, la adoración y la ayuda pertenecen a Allah, y Le pedimos que nos guíe por el camino recto.",
-      "beginnerNote": "Al-Fatiha es la primera meta real de memorización. Aprenda una frase a la vez y pregunte a un maestro qué recitar mientras todavía la está aprendiendo.",
-      "sourceIds": ["quran-al-fatihah-1"]
+      "beginnerNote": "Al-Fatiha es la primera meta real de memorización. Aprenda una frase cada vez, y pregunte a un maestro qué recitar mientras todavía la está aprendiendo. En congregación, cuando el imam termina Al-Fatihah y dice Amín (Oh Allah, responde), diga Amín con él. Si tiene preguntas sobre decirlo cuando reza solo, pregunte a un maestro.",
+      "sourceIds": [
+        "quran-al-fatihah-1",
+        "sunnah-bukhari-780",
+        "sunnah-muslim-410a"
+      ]
     },
     {
       "title": "Ejemplo de sura corta: Al-Ikhlas",
@@ -94,7 +111,9 @@
       "transliteration": "Qul huwa Allahu ahad. Allahus-samad. Lam yalid wa lam yulad. Wa lam yakun lahu kufuwan ahad.",
       "meaning": "Traducción del significado: Allah es Uno, autosuficiente, distinto de la creación, y nada es comparable a Él.",
       "beginnerNote": "La mayoría de los principiantes empieza por aquí. Es corta y expresa la unicidad de Allah en cuatro líneas.",
-      "sourceIds": ["quran-al-ikhlas-112"]
+      "sourceIds": [
+        "quran-al-ikhlas-112"
+      ]
     },
     {
       "title": "Ejemplo de sura corta: Al-'Asr",
@@ -103,7 +122,9 @@
       "transliteration": "Wal-'asr. Innal-insana lafi khusr. Illal-ladhina amanu wa 'amilus-salihat, wa tawasaw bil-haqqi wa tawasaw bis-sabr.",
       "meaning": "Traducción del significado: las personas están en pérdida, excepto quienes creen, obran el bien y se aconsejan mutuamente la verdad y la paciencia.",
       "beginnerNote": "Aprenda una sura corta a la vez. Escuchar primero a un recitador fiable le ayuda más que pasar deprisa por varios capítulos.",
-      "sourceIds": ["quran-al-asr-103"]
+      "sourceIds": [
+        "quran-al-asr-103"
+      ]
     },
     {
       "title": "Frase del ruku",
@@ -112,7 +133,9 @@
       "transliteration": "Subhana Rabbiyal-'Azim",
       "meaning": "Gloria a mi Señor, el Grandioso.",
       "beginnerNote": "La mayoría de las guías enseñan a decirla tres veces. Mientras aprende, decirla una vez con claridad es un buen punto de partida. Pregunte a un maestro por los detalles.",
-      "sourceIds": ["hisn-ruku-dhikr"]
+      "sourceIds": [
+        "hisn-ruku-dhikr"
+      ]
     },
     {
       "title": "Al levantarse de la inclinación",
@@ -121,7 +144,9 @@
       "transliteration": "Sami'a Allahu liman hamidah. Rabbana wa lakal-hamd.",
       "meaning": "Allah escucha a quien Lo alaba. Señor nuestro, a Ti pertenece toda alabanza.",
       "beginnerNote": "Diga la primera línea mientras sube y la segunda una vez que esté de pie y derecho. También oirá \"Rabbana lakal-hamd\" sin el \"wa\". Ambas formas aparecen en el hadiz.",
-      "sourceIds": ["sunnah-bukhari-rising-from-ruku"]
+      "sourceIds": [
+        "sunnah-bukhari-rising-from-ruku"
+      ]
     },
     {
       "title": "Frase del sujud",
@@ -130,7 +155,9 @@
       "transliteration": "Subhana Rabbiyal-A'la",
       "meaning": "Gloria a mi Señor, el Altísimo.",
       "beginnerNote": "El sujud se siente extraño las primeras veces. Muévase al ritmo que le resulte cómodo a su cuerpo, haga una pausa una vez abajo y aprenda la frase. Ir despacio no es un fallo.",
-      "sourceIds": ["hisn-sujud-dhikr"]
+      "sourceIds": [
+        "hisn-sujud-dhikr"
+      ]
     },
     {
       "title": "Sentado entre las dos postraciones",
@@ -151,7 +178,9 @@
       "transliteration": "At-tahiyyatu lillahi was-salawatu wat-tayyibat. As-salamu 'alayka ayyuhan-Nabiyyu wa rahmatullahi wa barakatuh. As-salamu 'alayna wa 'ala 'ibadillahis-salihin. Ash-hadu an la ilaha illallah, wa ash-hadu anna Muhammadan 'abduhu wa rasuluh.",
       "meaning": "Todos los saludos, las oraciones y las cosas buenas son para Allah. La paz sea contigo, oh Profeta, y la misericordia de Allah y Sus bendiciones. La paz sea con nosotros y con los siervos rectos de Allah. Atestiguo que no hay más dios que Allah, y atestiguo que Muhammad es Su siervo y Mensajero.",
       "beginnerNote": "Esta es la forma narrada por Ibn Mas'ud. Puede que oiga formas un poco distintas de otras narraciones auténticas, así que siga a su maestro. Apréndala línea por línea.",
-      "sourceIds": ["sunnah-bukhari-tashahhud"]
+      "sourceIds": [
+        "sunnah-bukhari-tashahhud"
+      ]
     },
     {
       "title": "Bendiciones sobre el Profeta (salawat)",
@@ -160,7 +189,9 @@
       "transliteration": "Allahumma salli 'ala Muhammadin wa 'ala ali Muhammad, kama sallayta 'ala Ibrahima wa 'ala ali Ibrahim, innaka Hamidun Majid. Allahumma barik 'ala Muhammadin wa 'ala ali Muhammad, kama barakta 'ala Ibrahima wa 'ala ali Ibrahim, innaka Hamidun Majid.",
       "meaning": "Oh Allah, envía Tu misericordia sobre Muhammad y sobre la familia de Muhammad, como enviaste Tu misericordia sobre Ibrahim y sobre la familia de Ibrahim. Tú eres Digno de alabanza y Glorioso. Oh Allah, envía Tus bendiciones sobre Muhammad y sobre la familia de Muhammad, como enviaste Tus bendiciones sobre Ibrahim y sobre la familia de Ibrahim. Tú eres Digno de alabanza y Glorioso.",
       "beginnerNote": "Dígala en la posición sentada final, después del tashahhud y antes del salam. Las escuelas difieren sobre si también se dice en la primera posición sentada de una oración más larga, así que pregunte a su maestro.",
-      "sourceIds": ["sunnah-bukhari-salawat-ibrahimiyyah"]
+      "sourceIds": [
+        "sunnah-bukhari-salawat-ibrahimiyyah"
+      ]
     },
     {
       "title": "Salam",
@@ -169,7 +200,9 @@
       "transliteration": "As-salamu 'alaykum wa rahmatullah",
       "meaning": "La paz y la misericordia de Allah sean con ustedes.",
       "beginnerNote": "Con esto se cierra la oración. Gire la cabeza con suavidad hacia cada lado. No hace falta hacer un movimiento grande.",
-      "sourceIds": ["sunnah-abudawud-taslim"]
+      "sourceIds": [
+        "sunnah-abudawud-taslim"
+      ]
     }
   ],
   "cannotReciteYet": [
@@ -188,7 +221,7 @@
     "Comer, beber o decir a propósito palabras ajenas a la oración mientras reza.",
     "Omitir una postura, una condición o una recitación obligatoria una vez que sabe que es obligatoria.",
     "Terminar la oración o apartarse de ella a propósito, sin motivo.",
-    "Los errores, los olvidos, la enfermedad, la menstruación, los viajes y la discapacidad tienen detalles que conviene repasar con un maestro calificado."
+    "Los errores, los olvidos, la enfermedad, la menstruación, los viajes y la discapacidad tienen detalles que vale la pena repasar con un maestro cualificado. La lista de abajo indica lo que este sitio ya explica."
   ],
   "commonCorrections": [
     {
@@ -210,11 +243,13 @@
   ],
   "mainVideo": {
     "videoId": "4zr6tNgmKSI",
-    "title": "Cómo hacer las cinco oraciones diarias",
+    "title": "Cómo rezar las cinco oraciones diarias (en inglés)",
     "channel": "Green Lane Masjid",
     "duration": "33:57",
     "note": "El capítulo de Asr es corto porque el Asr se reza igual que el Dhuhr. El video sigue la práctica de una escuela, y es normal que haya pequeñas diferencias entre escuelas. Los subtítulos se generan automáticamente.",
-    "sourceIds": ["video-greenlane-five-prayers"],
+    "sourceIds": [
+      "video-greenlane-five-prayers"
+    ],
     "chapters": [
       {
         "label": "Antes de rezar",
@@ -253,10 +288,12 @@
   "phraseVideos": [
     {
       "videoId": "Fpa-c_M_V7Q",
-      "title": "Todas las frases de una rak'ah",
+      "title": "Cada frase de una rak'ah (en inglés)",
       "channel": "Islamwise",
       "duration": "10:29",
-      "sourceIds": ["video-islamwise-rakah-recap"]
+      "sourceIds": [
+        "video-islamwise-rakah-recap"
+      ]
     },
     {
       "videoId": "n0aGnzSY_hs",
@@ -264,14 +301,18 @@
       "channel": "Islamwise",
       "duration": "7:01",
       "note": "Usar estas frases mientras aprende es una de las opiniones de las escuelas. Vea la sección sobre rezar antes de poder recitar.",
-      "sourceIds": ["video-islamwise-comprehensive-remembrance"]
+      "sourceIds": [
+        "video-islamwise-comprehensive-remembrance"
+      ]
     }
   ],
   "phraseSeries": {
     "label": "La serie completa de Islamwise en YouTube",
     "body": "29 lecciones cortas, una frase a la vez, que incluyen Al-Fatihah versículo por versículo, el tashahhud y el salawat.",
     "href": "https://www.youtube.com/playlist?list=PLW9v5fexkmD_8i507k8oL2x9n0vJeP1BT",
-    "sourceIds": ["video-islamwise-prayer-series"]
+    "sourceIds": [
+      "video-islamwise-prayer-series"
+    ]
   },
   "shapeImage": {
     "src": "/graphics/rakah-steps.svg",
@@ -369,7 +410,7 @@
       "Si no puede sentarse, rece acostado, orientado hacia la qibla lo mejor que pueda.",
       "Las enfermedades breves y las condiciones de larga duración se tratan de forma un poco distinta, y las escuelas difieren en detalles como la manera en que se inclina quien usa una silla y dónde se coloca la silla en una fila."
     ],
-    "referral": "Un imam o maestro local puede verle rezar una vez y ayudarle a decidir qué funciona para su cuerpo. Nunca tiene que forzarse a pesar del dolor para que su oración cuente.",
+    "referral": "Un imam o un maestro de su zona puede verle rezar una vez y ayudarle a encontrar lo que funciona para su cuerpo. Nunca tiene que aguantar el dolor para que su oración cuente. En el hospital, rece en la cama como pueda, y pregunte a las enfermeras si el hospital tiene un equipo de atención espiritual.",
     "sourceIds": [
       "sunnah-bukhari-pray-standing-sitting",
       "seekersguidance-praying-sitting",
@@ -381,7 +422,9 @@
       "channel": "Green Lane Masjid",
       "duration": "6:06",
       "note": "Muestra cómo rezar en el suelo, en una silla, de pie sin inclinarse y acostado en la cama.",
-      "sourceIds": ["video-greenlane-physical-disability"],
+      "sourceIds": [
+        "video-greenlane-physical-disability"
+      ],
       "chapters": [
         {
           "label": "Sentado en el suelo",
@@ -405,7 +448,9 @@
       "label": "Cómo rezar sentado en una silla (Sheikh Assim al-Hakeem, 3:25)",
       "body": "Una segunda demostración breve, que incluye rezar en una silla en una fila de la mezquita.",
       "href": "https://www.youtube.com/watch?v=nNKUwHi99Qo",
-      "sourceIds": ["video-assim-chair-prayer"]
+      "sourceIds": [
+        "video-assim-chair-prayer"
+      ]
     }
   },
   "cannotReciteSourceIds": [
@@ -414,5 +459,166 @@
     "seekersguidance-reading-from-mushaf",
     "dar-alifta-new-muslim-fatiha",
     "sunnah-muslim-two-rewards"
-  ]
+  ],
+  "moreCards": [
+    {
+      "id": "behind-imam",
+      "title": "Rezar detrás de un imam (y unirse tarde)",
+      "summary": "A todo el mundo le pasa llegar a la mezquita cuando la oración ya ha empezado. El Profeta (la paz sea con él) dijo que se llegue con calma, se rece lo que se alcance y se complete lo que se perdió (Sahih al-Bukhari 636).",
+      "points": [
+        "Camine, no corra, y únase a la fila más cercana.",
+        "Póngase de pie, levante las manos y diga Allahu akbar, y luego pase directamente a la posición en que esté el imam, aunque esté en postración (Sunan Abi Dawud 893, calificado hasan por al-Albani).",
+        "Si se inclinó con el imam antes de que él se levantara de la inclinación, ha alcanzado esa rak'ah. Si se unió después, sígale de todos modos, pero esa rak'ah no cuenta para usted. Las respuestas hanafí y shafií que enlazamos coinciden en esto.",
+        "Muévase después del imam, nunca antes que él.",
+        "Cuando el imam termina Al-Fatihah, quienes rezan detrás de él dicen Amín con él (Sahih al-Bukhari 780).",
+        "Si el imam termina con el salam y a usted todavía le faltan rak'ahs, no diga el salam. Levántese y complete por su cuenta lo que se perdió. La respuesta shafií que enlazamos recomienda esperar a que el imam haya dicho los dos salams antes de levantarse.",
+        "Colóquese cerca en la fila, hombro con hombro y pie con pie (Sahih al-Bukhari 725). Por eso la persona de al lado puede acercar su pie al suyo.",
+        "Si se equivoca rezando detrás del imam, siga al imam y no añada sus propias postraciones por olvido.",
+        "En sus primeras oraciones en congregación, colóquese cerca del final de una fila desde donde pueda ver a la gente de delante. Si se pierde, termine como crea que es correcto y pregunte a alguien después."
+      ],
+      "differencesTitle": "Donde las escuelas difieren",
+      "differences": [
+        "Lo que se recita detrás del imam varía entre las escuelas. Pregunte a su maestro qué práctica sigue su comunidad.",
+        "Alcanzar la oración del viernes: en la respuesta hanafí que enlazamos, unirse antes del salam final del imam cuenta como haber alcanzado el Jumu'ah, y después usted se levanta y reza dos rak'ahs. La escuela shafií considera alcanzado el Jumu'ah solo si alcanza al menos una rak'ah con el imam; si no, reza Dhuhr. Se basa en hadices como \"Quien alcanza una rak'ah del Jumu'ah lo ha alcanzado\" (Sunan an-Nasa'i 1425, calificado sahih por Darussalam).",
+        "Dos rak'ahs al llegar: el Profeta pidió a la gente que rezara dos rak'ahs antes de sentarse en una mezquita (Sahih al-Bukhari 444). Una vez que el imam sube para el sermón del viernes, las escuelas hanafí y malikí dicen que no se rece, sino que uno se siente y escuche. Las escuelas shafií y hanbalí enseñan dos rak'ahs breves incluso durante el sermón, porque el Profeta pidió a un hombre que entró durante el sermón que se levantara y rezara dos rak'ahs (Sahih Muslim 875c)."
+      ],
+      "referral": "Pida a un imam de su zona que le explique una vez cómo unirse tarde. Son cinco minutos y le ahorran muchas preocupaciones.",
+      "links": [
+        {
+          "label": "Vaya a su primera oración del viernes",
+          "href": "/roadmap/week-1/first-jumuah"
+        }
+      ],
+      "sourceIds": [
+        "sunnah-bukhari-636",
+        "sunnah-abudawud-893",
+        "sunnah-bukhari-780",
+        "sunnah-bukhari-725",
+        "sunnah-bukhari-444",
+        "sunnah-muslim-875c",
+        "sunnah-nasai-1425",
+        "seekersguidance-latecomer-hanafi",
+        "seekersguidance-latecomer-shafii",
+        "seekersguidance-friday-prayer-rulings",
+        "seekersguidance-maliki-voluntary-prayers"
+      ]
+    },
+    {
+      "id": "prayer-kit",
+      "title": "Su kit de oración, y dónde puede rezar",
+      "summary": "Puede rezar casi en cualquier lugar limpio. Unas pocas cosas pequeñas en su bolso le facilitan rezar en el trabajo, en clase o de viaje.",
+      "points": [
+        "Una toalla pequeña o una alfombrilla de viaje. No hace falta una alfombra de oración: sirve cualquier superficie limpia.",
+        "Para las hermanas, un pañuelo o una prenda de oración de una pieza. La mujer que ha llegado a la pubertad se cubre el cabello en la oración (Sunan Abi Dawud 641, calificado sahih por al-Albani).",
+        "Una botella pequeña de agua para limpiarse después de ir al baño.",
+        "Zapatos: el Profeta rezó con sus sandalias y pidió a la gente que antes comprobara que no tuvieran suciedad (Sunan Abi Dawud 650, calificado sahih por al-Albani). Dentro de una mezquita, quítese los zapatos donde lo hacen los demás.",
+        "Al aire libre o en público, puede servir un parque, una escalera tranquila o un coche estacionado. Rece cerca de una pared o ponga su bolso delante como señal (sutrah), y manténgase cerca de ella (Sunan Abi Dawud 695, calificado sahih por al-Albani).",
+        "Qibla: oriéntese hacia la Kaaba lo mejor que pueda (Corán 2:144). Cuando no pueda ser exacto, basta con la dirección general (Jami at-Tirmidhi 344). Unos grados de diferencia en la brújula no son motivo para repetir la oración.",
+        "Vaya al baño antes de rezar en lugar de aguantarse. El Profeta dijo que no se rece mientras uno tiene ganas urgentes de ir al baño (Sahih Muslim 560a).",
+        "Vístase para la adoración: \"tomad vuestros adornos en todo lugar de oración\" (Corán 7:31). La ropa de trabajo limpia que cubre lo que su escuela exige está bien."
+      ],
+      "links": [
+        {
+          "label": "Encontrar la qibla",
+          "href": "/qibla"
+        },
+        {
+          "label": "Qué cubrir en la oración",
+          "href": "/topics/prayer"
+        }
+      ],
+      "sourceIds": [
+        "quran-7-31-adornment-masjid",
+        "sunnah-abudawud-641",
+        "sunnah-abudawud-650",
+        "sunnah-abudawud-695",
+        "quran-2-144-qibla",
+        "sunnah-tirmidhi-344",
+        "sunnah-muslim-560a"
+      ]
+    },
+    {
+      "id": "funeral-prayer",
+      "title": "Oración fúnebre (janazah)",
+      "summary": "La oración fúnebre se reza de pie, detrás de un imam, sin inclinación y sin postración. Es breve, normalmente unos minutos. Asistir a ella tiene recompensa, y quedarse al entierro tiene más (Sahih al-Bukhari 1325).",
+      "points": [
+        "Haga el lavado antes de la oración (wudu) antes de ir, y luego colóquese en las filas detrás del imam.",
+        "Hay cuatro takbirs (Sahih al-Bukhari 1333). El imam dice Allahu akbar cada vez, y usted lo dice en voz baja después de él.",
+        "Un método habitual, tal como lo explica IslamQA: después del primer takbir, recite Al-Fatihah. Después del segundo, diga las bendiciones sobre el Profeta (la misma salawat que en la última sentada). Después del tercero, haga una dua por la persona fallecida. Después del cuarto, termine con el salam.",
+        "Si todavía no conoce una dua fija, pida a Allah en voz baja y con sus propias palabras que perdone a la persona y tenga misericordia de ella.",
+        "Permanezca de pie todo el tiempo. No se incline ni se postre.",
+        "Si llega tarde, únase y siga al imam, y después pregunte a alguien qué se perdió."
+      ],
+      "differencesTitle": "Donde las escuelas difieren",
+      "differences": [
+        "Las escuelas difieren en los detalles, por ejemplo en lo que se dice después del primer takbir y en si hay uno o dos salams. El método de arriba sigue un enfoque. Siga al imam, y pregunte a su maestro cómo la reza su comunidad."
+      ],
+      "referral": "Si ha fallecido alguien que usted conoce, la mezquita de su zona puede decirle cuándo y dónde es la oración fúnebre.",
+      "links": [
+        {
+          "label": "Oración de Eid",
+          "href": "/seasonal/eid-al-fitr"
+        }
+      ],
+      "sourceIds": [
+        "sunnah-bukhari-1333",
+        "sunnah-bukhari-1325",
+        "islamqa-12363-janazah"
+      ]
+    }
+  ],
+  "situationIndex": {
+    "title": "Cuando surge algo",
+    "intro": "La vida real se interpone en la oración. Busque aquí su situación y vaya directo a la respuesta.",
+    "items": [
+      {
+        "label": "La oración ya ha empezado cuando usted llega",
+        "href": "/tools/salah-companion#behind-imam"
+      },
+      {
+        "label": "Perdió la cuenta o se equivocó",
+        "href": "/tools/salah-companion#sujud-al-sahw"
+      },
+      {
+        "label": "Está de viaje, conduce lejos o va en avión",
+        "href": "/topics/prayer"
+      },
+      {
+        "label": "Se quedó dormido en Fajr o se le pasó una oración",
+        "href": "/faq#faq-pry-037"
+      },
+      {
+        "label": "Su turno de trabajo cubre todo el tiempo de una oración",
+        "href": "/faq#faq-pry-038"
+      },
+      {
+        "label": "Necesita rezar en el trabajo, al aire libre o de viaje",
+        "href": "/tools/salah-companion#prayer-kit"
+      },
+      {
+        "label": "Le cayó algo en la ropa",
+        "href": "/topics/purification"
+      },
+      {
+        "label": "Un problema de salud le rompe el wudu una y otra vez",
+        "href": "/tools/wudu-ghusl#excused-person"
+      },
+      {
+        "label": "Dolor, enfermedad o una estancia en el hospital",
+        "href": "/tools/salah-companion#seated-prayer"
+      },
+      {
+        "label": "Le ha empezado la menstruación",
+        "href": "/topics/menstruation-and-worship"
+      },
+      {
+        "label": "Va a asistir a una oración fúnebre",
+        "href": "/tools/salah-companion#funeral-prayer"
+      },
+      {
+        "label": "Va a asistir a una oración de Eid",
+        "href": "/seasonal/eid-al-fitr"
+      }
+    ]
+  }
 }
