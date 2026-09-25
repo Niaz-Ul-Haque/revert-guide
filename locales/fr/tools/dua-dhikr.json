@@ -1,4 +1,5 @@
 {
+  "reviewStatus": "review-needed",
   "sections": [
     {
       "id": "daily-basics",
@@ -13,7 +14,9 @@
           "transliteration": "SubhanAllah",
           "meaning": "Gloire à Allah.",
           "note": "Un court rappel qui ramène votre cœur vers Allah. Utile quand votre esprit s'est égaré.",
-          "sourceIds": ["sunnah-muslim-after-prayer-dhikr"]
+          "sourceIds": [
+            "sunnah-muslim-after-prayer-dhikr"
+          ]
         },
         {
           "title": "Alhamdulillah",
@@ -23,7 +26,9 @@
           "transliteration": "Alhamdulillah",
           "meaning": "Toute louange appartient à Allah.",
           "note": "Dites-la quand vous remarquez un bienfait, grand ou petit.",
-          "sourceIds": ["sunnah-muslim-after-prayer-dhikr"]
+          "sourceIds": [
+            "sunnah-muslim-after-prayer-dhikr"
+          ]
         },
         {
           "title": "Allahu Akbar",
@@ -33,7 +38,9 @@
           "transliteration": "Allahu akbar",
           "meaning": "Allah est le plus Grand.",
           "note": "La dire remet à leur juste place vos soucis, et les personnes qui vous inquiètent.",
-          "sourceIds": ["sunnah-muslim-after-prayer-dhikr"]
+          "sourceIds": [
+            "sunnah-muslim-after-prayer-dhikr"
+          ]
         },
         {
           "title": "La ilaha illa Allah (il n'y a de divinité qu'Allah)",
@@ -43,15 +50,56 @@
           "transliteration": "La ilaha illa Allah",
           "meaning": "Il n'y a de divinité digne d'adoration qu'Allah.",
           "note": "C'est le cœur de la croyance musulmane. Dites-la avec attention, pas comme un bruit de fond.",
-          "sourceIds": ["sunnah-muslim-after-prayer-dhikr"]
+          "sourceIds": [
+            "sunnah-muslim-after-prayer-dhikr"
+          ]
         }
       ]
     },
     {
       "id": "before-after-prayer",
       "title": "Avant et après la prière",
-      "intro": "La prière contient déjà les invocations (dua) dont un débutant a le plus besoin. Quand vous avez terminé, restez assis un moment avec un court rappel d'Allah (dhikr) avant de vous lever.",
+      "intro": "La prière contient déjà les invocations (dua) dont un débutant a le plus besoin. Avant la prière, vous pouvez répondre à l'appel à la prière. Quand vous avez fini, restez assis un moment avec un court rappel d'Allah (dhikr) avant de vous lever.",
       "entries": [
+        {
+          "title": "L'appel à la prière (adhan)",
+          "kind": "Rappel d'Allah (dhikr)",
+          "occasion": "Avant chacune des cinq prières",
+          "arabic": "اللَّهُ أَكْبَرُ اللَّهُ أَكْبَرُ، اللَّهُ أَكْبَرُ اللَّهُ أَكْبَرُ\nأَشْهَدُ أَنْ لَا إِلَٰهَ إِلَّا اللَّهُ، أَشْهَدُ أَنْ لَا إِلَٰهَ إِلَّا اللَّهُ\nأَشْهَدُ أَنَّ مُحَمَّدًا رَسُولُ اللَّهِ، أَشْهَدُ أَنَّ مُحَمَّدًا رَسُولُ اللَّهِ\nحَيَّ عَلَى الصَّلَاةِ، حَيَّ عَلَى الصَّلَاةِ\nحَيَّ عَلَى الْفَلَاحِ، حَيَّ عَلَى الْفَلَاحِ\nاللَّهُ أَكْبَرُ اللَّهُ أَكْبَرُ\nلَا إِلَٰهَ إِلَّا اللَّهُ",
+          "transliteration": "Allahu akbar (four times). Ash-hadu an la ilaha illallah (twice). Ash-hadu anna Muhammadan rasulullah (twice). Hayya 'alas-salah (twice). Hayya 'alal-falah (twice). Allahu akbar (twice). La ilaha illallah.",
+          "meaning": "Allah est le plus grand. J'atteste qu'il n'y a de dieu qu'Allah. J'atteste que Muhammad est le Messager d'Allah. Venez à la prière. Venez au succès. Allah est le plus grand. Il n'y a de dieu qu'Allah.",
+          "note": "C'est la formulation enseignée à Abdullah ibn Zayd et approuvée par le Prophète (Sunan Abi Dawud 499, jugé hasan sahih par al-Albani). L'iqama est l'appel plus court dit juste avant le début de la prière : les mêmes phrases, la plupart dites une seule fois, avec l'ajout de « Qad qamatis-salah » (la prière a commencé). De petites différences de formulation d'une communauté à l'autre ne changent pas votre réponse.",
+          "sourceIds": [
+            "sunnah-abudawud-499"
+          ]
+        },
+        {
+          "title": "Répondre à l'appel à la prière (adhan)",
+          "kind": "Rappel d'Allah (dhikr)",
+          "occasion": "Pendant que vous entendez l'appel à la prière",
+          "arabic": "لَا حَوْلَ وَلَا قُوَّةَ إِلَّا بِاللَّهِ",
+          "transliteration": "La hawla wa la quwwata illa billah",
+          "meaning": "Il n'y a de force ni de puissance qu'en Allah.",
+          "note": "Répétez chaque phrase à voix basse après le muezzin. À « Hayya 'alas-salah » et « Hayya 'alal-falah », dites plutôt cette phrase (Sahih Muslim 385). Répondre est récompensé, mais ce n'est pas une condition de votre prière, et vous n'avez pas à tout arrêter ni à le faire parfaitement. Vous n'avez pas non plus à prier dès la fin de l'appel : tout moment dans la plage de la prière compte.",
+          "sourceIds": [
+            "sunnah-muslim-385",
+            "sunnah-muslim-384"
+          ]
+        },
+        {
+          "title": "L'invocation après l'appel à la prière",
+          "kind": "Invocation tirée du hadith",
+          "occasion": "Quand l'appel à la prière se termine",
+          "arabic": "اللَّهُمَّ رَبَّ هَذِهِ الدَّعْوَةِ التَّامَّةِ وَالصَّلَاةِ الْقَائِمَةِ\nآتِ مُحَمَّدًا الْوَسِيلَةَ وَالْفَضِيلَةَ\nوَابْعَثْهُ مَقَامًا مَحْمُودًا الَّذِي وَعَدْتَهُ",
+          "transliteration": "Allahumma Rabba hadhihid-da'watit-tammah, was-salatil-qa'imah, ati Muhammadanil-wasilata wal-fadilah, wab'athhu maqaman mahmudanil-ladhi wa'adtah.",
+          "meaning": "Ô Allah, Seigneur de cet appel parfait et de la prière qui va commencer, accorde à Muhammad le lieu de proximité et le rang particulier, et élève-le à la station louée que Tu lui as promise.",
+          "note": "Priez d'abord sur le Prophète, puis dites cette invocation (Sahih Muslim 384; Sahih al-Bukhari 614). Le vendredi, l'appel est aussi le signal de laisser les affaires et d'aller à la prière (Coran 62:9).",
+          "sourceIds": [
+            "sunnah-bukhari-614",
+            "sunnah-muslim-384",
+            "quran-62-9-friday-call"
+          ]
+        },
         {
           "title": "La guidance dans Al-Fatiha",
           "kind": "Invocation coranique",
@@ -60,7 +108,21 @@
           "transliteration": "Ihdinas-siratal-mustaqim",
           "meaning": "Guide-nous vers le droit chemin.",
           "note": "Vous la dites dans chaque unité de prière (rak'ah). Si vous ne deviez apprendre d'abord le sens que d'une seule phrase de la prière, que ce soit celle-ci.",
-          "sourceIds": ["quran-al-fatihah-1"]
+          "sourceIds": [
+            "quran-al-fatihah-1"
+          ]
+        },
+        {
+          "title": "Les premiers mots après la salutation de paix (salam)",
+          "kind": "Invocation tirée du hadith",
+          "occasion": "Juste après la salutation de paix (salam)",
+          "arabic": "أَسْتَغْفِرُ اللَّهَ\nاللَّهُمَّ أَنْتَ السَّلَامُ وَمِنْكَ السَّلَامُ\nتَبَارَكْتَ يَا ذَا الْجَلَالِ وَالْإِكْرَامِ",
+          "transliteration": "Astaghfirullah (three times). Allahumma antas-salam wa minkas-salam, tabarakta ya dhal-jalali wal-ikram.",
+          "meaning": "Je demande pardon à Allah. Ô Allah, Tu es la Paix et de Toi vient la paix. Béni sois-Tu, Détenteur de la majesté et de l'honneur.",
+          "note": "Le Prophète disait cela dès qu'il terminait la prière (Sahih Muslim 591). C'est ce que vous entendez les gens chuchoter avant de commencer à compter. Cela vient après la prière et n'en fait pas partie : commencez petit.",
+          "sourceIds": [
+            "sunnah-muslim-591"
+          ]
         },
         {
           "title": "Le rappel d'Allah (dhikr) après la prière",
@@ -70,7 +132,9 @@
           "transliteration": "SubhanAllah. Alhamdulillah. Allahu akbar.",
           "meaning": "Glorifier Allah, louer Allah et proclamer la grandeur d'Allah.",
           "note": "Beaucoup de musulmans les répètent après chaque prière. Commencez par quelques répétitions de chacune et apprenez le nombre complet plus tard.",
-          "sourceIds": ["sunnah-muslim-after-prayer-dhikr"]
+          "sourceIds": [
+            "sunnah-muslim-after-prayer-dhikr"
+          ]
         }
       ]
     },
@@ -87,7 +151,9 @@
           "transliteration": "Rabbana la tuzigh qulubana ba'da idh hadaytana wa hab lana min ladunka rahmah",
           "meaning": "Notre Seigneur, ne laisse pas dévier nos cœurs après que Tu nous as guidés, et accorde-nous une miséricorde venant de Toi.",
           "note": "Une invocation coranique pour les jours où vous avez peur de faiblir ou de perdre le fil.",
-          "sourceIds": ["quran-3-8-steadfastness"]
+          "sourceIds": [
+            "quran-3-8-steadfastness"
+          ]
         },
         {
           "title": "Le bien dans cette vie et dans l'autre",
@@ -97,14 +163,16 @@
           "transliteration": "Rabbana atina fid-dunya hasanah wa fil-akhirati hasanah wa qina 'adhaban-nar",
           "meaning": "Notre Seigneur, accorde-nous le bien en ce monde et dans l'au-delà, et protège-nous du châtiment du Feu.",
           "note": "Une courte invocation coranique qui demande le bien dans la vie que vous vivez maintenant, et le bien dans celle qui suivra.",
-          "sourceIds": ["quran-2-201-rabbana-atina"]
+          "sourceIds": [
+            "quran-2-201-rabbana-atina"
+          ]
         }
       ]
     },
     {
       "id": "anxious-overwhelmed",
       "title": "Quand vous vous sentez anxieux ou dépassé",
-      "intro": "L'invocation (dua) et le rappel d'Allah (dhikr) apportent un vrai réconfort. Ils ne remplacent pas l'aide dont vous avez besoin si vous êtes en crise, si vous pensez à vous faire du mal, si vous subissez de la violence ou si vous n'arrivez plus à passer la journée.",
+      "intro": "Les invocations (dua) et le rappel d'Allah (dhikr) apportent un vrai réconfort. Ils ne remplacent pas l'aide quand vous êtes en crise, que vous pensez à vous faire du mal, que vous subissez de la violence ou que vous n'arrivez pas à passer la journée. Si l'inquiétude vous pousse sans cesse à refaire vos ablutions ou votre prière, la page sur les ablutions a une section sur les doutes qui ne s'arrêtent pas, et la page sur la santé mentale indique où trouver de l'aide.",
       "entries": [
         {
           "title": "Contre l'anxiété et le chagrin",
@@ -114,7 +182,10 @@
           "transliteration": "Allahumma inni a'udhu bika minal-hammi wal-huzn, wal-'ajzi wal-kasal, wal-bukhli wal-jubn, wa dala'id-dayn wa ghalabatir-rijal",
           "meaning": "Ô Allah, je cherche refuge auprès de Toi contre le souci, le chagrin, l'impuissance, la paresse, l'avarice, la lâcheté, le poids des dettes et la domination des hommes.",
           "note": "Dites-la, et faites aussi le pas concret qui s'offre à vous : passez l'appel, allez voir le médecin, parlez-en à quelqu'un.",
-          "sourceIds": ["sunnah-bukhari-anxiety-grief", "988-canada"]
+          "sourceIds": [
+            "sunnah-bukhari-anxiety-grief",
+            "988-canada"
+          ]
         },
         {
           "title": "La patience et des pas fermes",
@@ -124,7 +195,9 @@
           "transliteration": "Rabbana afrigh 'alayna sabran wa thabbit aqdamana",
           "meaning": "Notre Seigneur, déverse sur nous la patience et affermis nos pas.",
           "note": "Une invocation coranique pour le moment qui précède une chose difficile, quand vous avez besoin à la fois de patience et de courage.",
-          "sourceIds": ["quran-2-250-patience"]
+          "sourceIds": [
+            "quran-2-250-patience"
+          ]
         }
       ]
     },
@@ -141,7 +214,9 @@
           "transliteration": "Allahumma anta Rabbi la ilaha illa ant, khalaqtani wa ana 'abduk, wa ana 'ala 'ahdika wa wa'dika mastata't...",
           "meaning": "Ô Allah, Tu es mon Seigneur. Je reconnais Tes bienfaits et mes péchés : pardonne-moi donc, car nul ne pardonne les péchés en dehors de Toi.",
           "note": "Celle-ci est plus longue qu'une formule de départ. Apprenez-la une ligne à la fois, en gardant le sens sous les yeux.",
-          "sourceIds": ["sunnah-bukhari-sayyid-istighfar"]
+          "sourceIds": [
+            "sunnah-bukhari-sayyid-istighfar"
+          ]
         },
         {
           "title": "Le pardon et la miséricorde",
@@ -151,7 +226,9 @@
           "transliteration": "Rabbana amanna faghfir lana warhamna wa anta khayrur-rahimin",
           "meaning": "Notre Seigneur, nous avons cru : pardonne-nous donc et fais-nous miséricorde, car Tu es le meilleur des miséricordieux.",
           "note": "Une courte invocation coranique qui réunit la foi, le pardon et la miséricorde en une seule phrase.",
-          "sourceIds": ["quran-23-109-forgiveness"]
+          "sourceIds": [
+            "quran-23-109-forgiveness"
+          ]
         }
       ]
     },
@@ -168,7 +245,9 @@
           "transliteration": "Rabbi ishrah li sadri. Wa yassir li amri. Wahlul 'uqdatan min lisani. Yafqahu qawli.",
           "meaning": "Mon Seigneur, ouvre-moi mon cœur, facilite-moi ma tâche, dénoue ma langue, et fais que l'on comprenne mes paroles.",
           "note": "C'est l'invocation du prophète Moïse (Musa), que la paix soit sur lui. Beaucoup de nouveaux musulmans la disent avant une conversation qu'ils redoutent.",
-          "sourceIds": ["quran-20-25-28-musa-ease"]
+          "sourceIds": [
+            "quran-20-25-28-musa-ease"
+          ]
         },
         {
           "title": "Une science utile",
@@ -178,7 +257,9 @@
           "transliteration": "Allahumma inni as'aluka 'ilman nafi'a, wa rizqan tayyiba, wa 'amalan mutaqabbala",
           "meaning": "Ô Allah, je Te demande une science utile, une subsistance bonne et des œuvres acceptées.",
           "note": "Utile avant un cours sur l'islam, et tout aussi utile avant le travail, l'école ou l'apprentissage d'une compétence.",
-          "sourceIds": ["sunnah-ibnmajah-beneficial-knowledge"]
+          "sourceIds": [
+            "sunnah-ibnmajah-beneficial-knowledge"
+          ]
         }
       ]
     },
@@ -193,9 +274,255 @@
           "occasion": "À tout moment, en dehors des récitations fixes de la prière",
           "meaning": "Exemple : Ô Allah, guide-moi, pardonne-moi, facilite-moi la prière et place des personnes de bien dans ma vie.",
           "note": "Il s'agit d'une formulation personnelle, et non d'une invocation transmise. Demandez à Allah ce dont vous avez besoin, dans votre langue, avec vos propres mots.",
-          "sourceIds": ["quran-2-186-dua-nearness"]
+          "sourceIds": [
+            "quran-2-186-dua-nearness"
+          ]
         }
       ]
     }
-  ]
+  ],
+  "phrases": {
+    "id": "everyday-phrases",
+    "title": "Expressions de tous les jours : ce qu'elles veulent dire et comment y répondre",
+    "intro": "Les musulmans autour de vous utiliseront ces courtes expressions arabes dans la conversation de tous les jours. Chaque carte donne le sens, le moment où on les dit, et la réponse s'il y en a une. Quand la réponse relève de la politesse courante plutôt que d'une formule tirée d'un hadith, la carte le précise.",
+    "tips": [
+      "Apprenez-en trois cette semaine : la salutation et sa réponse, Bismillah, et Jazak Allahu khayran.",
+      "Ajoutez ensuite la réponse à l'éternuement et inna lillahi. Elles s'accompagnent d'une réponse fixe ou d'un moment délicat.",
+      "Si vous oubliez l'arabe, dites le sens en français. C'est quand même une chose gentille et juste à dire.",
+      "Imprimez cette page ou gardez-la ouverte sur votre téléphone jusqu'à ce que les expressions viennent naturellement."
+    ],
+    "entries": [
+      {
+        "phrase": "As-salamu alaykum",
+        "arabic": "السَّلَامُ عَلَيْكُمْ",
+        "meaning": "Que la paix soit sur vous.",
+        "when": "Quand vous rencontrez un musulman, arrivez à la mosquée, entrez dans une maison ou commencez un appel téléphonique.",
+        "reply": "Wa alaykum as-salam (et que la paix soit sur vous aussi). Vous pouvez ajouter wa rahmatullahi wa barakatuh (ainsi que la miséricorde d'Allah et Ses bénédictions).",
+        "replySource": "text",
+        "note": "Le Coran demande de répondre à une salutation par une meilleure, ou au moins par la même. Un hadith d'Abu Dawud donne plus de récompense pour chaque forme plus complète.",
+        "sourceIds": [
+          "quran-4-86",
+          "sunnah-abudawud-5195"
+        ]
+      },
+      {
+        "phrase": "Bismillah",
+        "arabic": "بِسْمِ اللَّهِ",
+        "meaning": "Au nom d'Allah.",
+        "when": "Avant de manger, avant les ablutions (wudu) et avant de commencer une tâche.",
+        "note": "Le Prophète a dit à un garçon assis à sa table de mentionner le nom d'Allah avant de manger.",
+        "sourceIds": [
+          "sunnah-bukhari-5376"
+        ]
+      },
+      {
+        "phrase": "In sha Allah",
+        "arabic": "إِنْ شَاءَ اللَّهُ",
+        "meaning": "Si Allah le veut.",
+        "when": "Quand vous parlez de quelque chose que vous prévoyez de faire : « À demain, in sha Allah. »",
+        "note": "Le Coran l'enseigne pour les projets. C'est recommandé, pas obligatoire, et si vous oubliez, vous pouvez le dire quand vous vous en souvenez. Certaines personnes l'utilisent comme un « peut-être » poli. C'est une habitude, pas son sens : dites-le quand vous avez vraiment l'intention de faire la chose.",
+        "sourceIds": [
+          "quran-18-23-24",
+          "seekersguidance-etiquette-in-sha-allah"
+        ]
+      },
+      {
+        "phrase": "Ma sha Allah",
+        "arabic": "مَا شَاءَ اللَّهُ",
+        "meaning": "C'est ce qu'Allah a voulu.",
+        "when": "Quand vous voyez ou entendez quelque chose de bien : un nouveau bébé, une nouvelle maison, les progrès de quelqu'un.",
+        "note": "Ces mots viennent du Coran 18:39, qui continue ainsi : la quwwata illa billah (il n'y a de force qu'en Allah). Pour une mauvaise nouvelle, dites plutôt inna lillahi.",
+        "sourceIds": [
+          "quran-18-39"
+        ]
+      },
+      {
+        "phrase": "Alhamdulillah",
+        "arabic": "الْحَمْدُ لِلَّهِ",
+        "meaning": "Toute louange appartient à Allah.",
+        "when": "Pour remercier, pour répondre à « Comment ça va? », et après un éternuement.",
+        "sourceIds": [
+          "sunnah-muslim-after-prayer-dhikr",
+          "sunnah-bukhari-6224"
+        ]
+      },
+      {
+        "phrase": "SubhanAllah",
+        "arabic": "سُبْحَانَ اللَّهِ",
+        "meaning": "Gloire à Allah.",
+        "when": "Comme rappel d'Allah à tout moment, y compris après la prière. Beaucoup de gens le disent aussi quand quelque chose les émerveille.",
+        "sourceIds": [
+          "sunnah-muslim-after-prayer-dhikr"
+        ]
+      },
+      {
+        "phrase": "Astaghfirullah",
+        "arabic": "أَسْتَغْفِرُ اللَّهَ",
+        "meaning": "Je demande pardon à Allah.",
+        "when": "Après un faux pas, quand vous vous rendez compte que vous avez mal agi, ou comme rappel d'Allah quotidien.",
+        "note": "Le Prophète demandait pardon plus de soixante-dix fois par jour : le dire est donc une habitude normale, pas l'aveu de quelque chose de terrible.",
+        "sourceIds": [
+          "sunnah-bukhari-6307"
+        ]
+      },
+      {
+        "phrase": "Jazak Allahu khayran",
+        "arabic": "جَزَاكَ اللَّهُ خَيْرًا",
+        "meaning": "Qu'Allah te récompense par le bien.",
+        "when": "Pour remercier quelqu'un qui vous a aidé ou vous a rendu service.",
+        "reply": "Wa iyyak ou wa iyyakum (et toi aussi), ou wa antum fa jazakumullahu khayran (et qu'Allah te récompense aussi).",
+        "replySource": "custom",
+        "note": "Un hadith d'at-Tirmidhi dit que ces mots sont la façon la plus complète de remercier quelqu'un. Il est jugé hasan.",
+        "sourceIds": [
+          "sunnah-tirmidhi-2035"
+        ]
+      },
+      {
+        "phrase": "Barak Allahu fik",
+        "arabic": "بَارَكَ اللَّهُ فِيكَ",
+        "meaning": "Qu'Allah te bénisse.",
+        "when": "Pour remercier ou encourager quelqu'un.",
+        "reply": "Wa fik (et toi aussi).",
+        "replySource": "custom",
+        "note": "Ces mots sont proches de la bénédiction que le Prophète donnait lors des mariages (voir la carte sur les mariages plus bas). La courte réponse relève de la politesse courante.",
+        "sourceIds": [
+          "sunnah-abudawud-2130"
+        ]
+      },
+      {
+        "phrase": "Yarhamuk Allah (après un éternuement)",
+        "arabic": "يَرْحَمُكَ اللَّهُ",
+        "meaning": "Qu'Allah te fasse miséricorde.",
+        "when": "Quand quelqu'un près de vous éternue et dit Alhamdulillah.",
+        "reply": "La personne qui a éternué répond : Yahdikumullah wa yuslihu balakum (qu'Allah te guide et arrange tes affaires).",
+        "replySource": "text",
+        "note": "Les trois phrases viennent d'un même hadith de Sahih al-Bukhari.",
+        "sourceIds": [
+          "sunnah-bukhari-6224"
+        ]
+      },
+      {
+        "phrase": "Amine",
+        "arabic": "آمِين",
+        "meaning": "Ô Allah, exauce.",
+        "when": "Après qu'une personne a fait une invocation (dua), et dans la prière en groupe quand l'imam termine Al-Fatiha et dit Amine.",
+        "note": "Deux hadiths de Sahih al-Bukhari et de Sahih Muslim demandent aux personnes qui prient derrière l'imam de dire Amine quand il le dit. Si vous avez des questions sur le fait de le dire dans votre propre prière, demandez à un enseignant.",
+        "sourceIds": [
+          "sunnah-bukhari-780",
+          "sunnah-muslim-410a"
+        ]
+      },
+      {
+        "phrase": "Inna lillahi wa inna ilayhi raji'un",
+        "arabic": "إِنَّا لِلَّهِ وَإِنَّا إِلَيْهِ رَاجِعُونَ",
+        "meaning": "Certes, nous appartenons à Allah et c'est vers Lui que nous retournerons.",
+        "when": "Quand vous apprenez un décès ou toute perte, grande ou petite.",
+        "note": "Ces mots viennent du Coran 2:156. Un hadith de Sahih Muslim ajoute une courte invocation : Allahumma'jurni fi musibati wa akhlif li khayran minha (Ô Allah, récompense-moi pour ma perte et donne-moi quelque chose de meilleur).",
+        "sourceIds": [
+          "quran-2-156",
+          "sunnah-muslim-918a"
+        ]
+      },
+      {
+        "phrase": "Inna lillahi ma akhadha (pour réconforter une personne en deuil)",
+        "arabic": "إِنَّ لِلَّهِ مَا أَخَذَ وَلَهُ مَا أَعْطَى",
+        "meaning": "Ce qu'Allah prend Lui appartient, et ce qu'Il donne Lui appartient. Toute chose auprès de Lui a son terme fixé.",
+        "when": "Pour réconforter quelqu'un après un décès.",
+        "note": "Le Prophète a envoyé ces mots à sa fille quand son enfant était mourant, avec le conseil d'être patiente et d'espérer la récompense. Il a lui-même pleuré, et a appelé ses larmes une miséricorde. Dire « Je suis vraiment désolé » et rester auprès de la famille est aussi une bonne chose.",
+        "sourceIds": [
+          "sunnah-bukhari-1284"
+        ]
+      },
+      {
+        "phrase": "La ba's, tahurun in sha Allah (en visitant une personne malade)",
+        "arabic": "لَا بَأْسَ طَهُورٌ إِنْ شَاءَ اللَّهُ",
+        "meaning": "Pas de mal, c'est une purification, si Allah le veut. C'est une traduction littérale; la traduction anglaise de Sunnah.com se lit : « Aucun mal ne t'atteindra! Qu'Allah te guérisse! »",
+        "when": "Quand vous rendez visite à une personne malade.",
+        "sourceIds": [
+          "sunnah-bukhari-3616"
+        ]
+      },
+      {
+        "phrase": "Astawdi'ullaha dinaka (pour dire au revoir à un voyageur)",
+        "arabic": "أَسْتَوْدِعُ اللَّهَ دِينَكَ وَأَمَانَتَكَ وَخَوَاتِيمَ عَمَلِكَ",
+        "meaning": "Je confie à Allah ta religion, ce qui t'a été confié et la fin de tes œuvres.",
+        "when": "Quand quelqu'un part en voyage.",
+        "note": "La phrase complète est Astawdi'ullaha dinaka wa amanataka wa khawatima 'amalik. Un hadith d'at-Tirmidhi, jugé hasan, rapporte que le Prophète la disait.",
+        "sourceIds": [
+          "sunnah-tirmidhi-3443"
+        ]
+      },
+      {
+        "phrase": "Barak Allahu laka wa baraka 'alayka (lors d'un mariage)",
+        "arabic": "بَارَكَ اللَّهُ لَكَ وَبَارَكَ عَلَيْكَ وَجَمَعَ بَيْنَكُمَا فِي خَيْرٍ",
+        "meaning": "Qu'Allah te bénisse, répande Ses bénédictions sur toi, et vous réunisse tous les deux dans le bien.",
+        "when": "Pour féliciter une personne qui vient de se marier.",
+        "note": "La phrase complète se termine par wa jama'a baynakuma fi khayr. Ce sont les félicitations mêmes du Prophète, dans un hadith d'Abu Dawud jugé sahih.",
+        "sourceIds": [
+          "sunnah-abudawud-2130"
+        ]
+      },
+      {
+        "phrase": "Eid mubarak, ou Taqabbal Allahu minna wa minkum",
+        "arabic": "تَقَبَّلَ اللَّهُ مِنَّا وَمِنْكُمْ",
+        "meaning": "Bonne et bénie fête de l'Aïd. Qu'Allah accepte de nous et de vous.",
+        "when": "Les jours de l'Aïd.",
+        "reply": "Les mêmes mots en retour, ou Eid mubarak.",
+        "replySource": "custom",
+        "note": "Les Compagnons se saluaient à l'Aïd par « Qu'Allah accepte de nous et de vous », et toute bonne salutation, y compris Eid mubarak, convient. Les gens disent aussi taqabbal Allah (qu'Allah accepte) après que quelqu'un a prié, jeûné ou donné l'aumône, comme un souhait bienveillant.",
+        "sourceIds": [
+          "islamqa-36442-eid-etiquette"
+        ]
+      },
+      {
+        "phrase": "Sallallahu 'alayhi wa sallam",
+        "arabic": "صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ",
+        "meaning": "Qu'Allah répande sur lui Ses bénédictions et la paix. En français : « paix et bénédictions sur lui ».",
+        "when": "Quand vous dites, entendez ou lisez le nom du Prophète Muhammad.",
+        "note": "Le Coran demande aux croyants de prier sur le Prophète et de lui adresser le salut. La page de questions et réponses explique les abréviations comme SAW et PBUH.",
+        "sourceIds": [
+          "quran-33-56",
+          "sunnah-tirmidhi-3546"
+        ]
+      }
+    ],
+    "otherWords": {
+      "title": "Des mots d'autres langues que vous entendrez peut-être",
+      "intro": "Beaucoup de musulmans au Canada ont grandi en parlant ourdou, bengali, persan, turc ou arabe à la maison, et quelques mots de tous les jours passent dans la conversation. Ce ne sont pas des termes religieux, et personne ne s'attend à ce que vous les utilisiez.",
+      "items": [
+        {
+          "word": "Namaz",
+          "meaning": "la prière (salah), en persan, en ourdou, en turc et en bengali"
+        },
+        {
+          "word": "Roza",
+          "meaning": "un jeûne (sawm), en persan et en ourdou"
+        },
+        {
+          "word": "Abbu ou abi",
+          "meaning": "papa"
+        },
+        {
+          "word": "Ammi",
+          "meaning": "maman, en ourdou et dans d'autres langues d'Asie du Sud"
+        },
+        {
+          "word": "Akhi",
+          "meaning": "mon frère, en arabe, un mot amical entre hommes"
+        },
+        {
+          "word": "Ukhti",
+          "meaning": "ma sœur, en arabe, un mot amical entre femmes"
+        },
+        {
+          "word": "Habibi",
+          "meaning": "mon cher, en arabe (habibti pour une femme), une marque d'affection de tous les jours"
+        },
+        {
+          "word": "Bhai",
+          "meaning": "frère, en ourdou, en hindi et en bengali, souvent ajouté après un prénom"
+        }
+      ]
+    }
+  }
 }

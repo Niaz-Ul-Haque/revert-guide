@@ -1,4 +1,5 @@
 {
+  "reviewStatus": "review-needed",
   "vocabulary": [
     {
       "term": "Le Coran en arabe",
@@ -45,7 +46,11 @@
       "title": "Miséricorde et espoir",
       "time": "Une séance au calme",
       "body": "Lisez ceci quand la honte ou la peur parlent plus fort que l'espoir. Prenez le temps de méditer ce que ces versets disent de la proximité d'Allah et de Sa disposition à pardonner, avant d'ajouter quoi que ce soit.",
-      "readings": ["Coran 39:53", "Coran 2:186", "Coran 23:109"],
+      "readings": [
+        "Coran 39:53",
+        "Coran 2:186",
+        "Coran 23:109"
+      ],
       "sourceIds": [
         "quran-39-53-mercy",
         "quran-2-186-dua-nearness",
@@ -56,14 +61,22 @@
       "title": "Les prophètes et le sens de la vie",
       "time": "Plusieurs courtes séances",
       "body": "Lisez la sourate Yusuf quelques pages à la fois. C'est un seul récit continu : une famille qui se retourne contre lui, une longue patience, la tentation, la prison, et le pardon à la fin.",
-      "readings": ["Sourate Yusuf, chapitre 12"],
-      "sourceIds": ["quran-yusuf-12"]
+      "readings": [
+        "Sourate Yusuf, chapitre 12"
+      ],
+      "sourceIds": [
+        "quran-yusuf-12"
+      ]
     },
     {
       "title": "La prière et l'adoration",
       "time": "Un quart d'heure",
       "body": "Reliez votre lecture à votre prière. Ces passages montrent la place de la prière : un rappel d'Allah, une demande de guidance et un refuge quand vous avez besoin de patience.",
-      "readings": ["Al-Fatiha, chapitre 1", "Coran 20:14", "Coran 2:153"],
+      "readings": [
+        "Al-Fatiha, chapitre 1",
+        "Coran 20:14",
+        "Coran 2:153"
+      ],
       "sourceIds": [
         "quran-al-fatihah-1",
         "quran-20-14-prayer-remembrance",
@@ -74,8 +87,14 @@
       "title": "Le caractère et la patience",
       "time": "Dix minutes",
       "body": "Restez concret avec celle-ci. Après votre lecture, demandez-vous ce qu'elle changerait aujourd'hui à votre façon de parler, à votre patience et à votre façon de traiter les gens.",
-      "readings": ["Al-'Asr, chapitre 103", "Coran 2:153"],
-      "sourceIds": ["quran-al-asr-103", "quran-2-153-patience-prayer"]
+      "readings": [
+        "Al-'Asr, chapitre 103",
+        "Coran 2:153"
+      ],
+      "sourceIds": [
+        "quran-al-asr-103",
+        "quran-2-153-patience-prayer"
+      ]
     }
   ],
   "weekPlan": [
@@ -83,7 +102,9 @@
       "day": "Jour 1",
       "title": "Commencer par Al-Fatiha",
       "body": "Lisez le sens d'Al-Fatiha, puis écoutez-la une fois. Gardez avec vous toute la journée le verset sur la guidance.",
-      "sourceIds": ["quran-al-fatihah-1"]
+      "sourceIds": [
+        "quran-al-fatihah-1"
+      ]
     },
     {
       "day": "Jour 2",
@@ -99,31 +120,45 @@
       "day": "Jour 3",
       "title": "Lire pour retrouver l'espoir",
       "body": "Lisez lentement Coran 39:53. Écrivez ensuite une phrase, avec vos propres mots, sur ce que la miséricorde d'Allah signifie pour votre situation.",
-      "sourceIds": ["quran-39-53-mercy"]
+      "sourceIds": [
+        "quran-39-53-mercy"
+      ]
     },
     {
       "day": "Jour 4",
       "title": "Faire votre propre invocation (dua)",
       "body": "Lisez Coran 2:186 et 23:109. Faites ensuite une courte invocation (dua) en français, avec vos propres mots.",
-      "sourceIds": ["quran-2-186-dua-nearness", "quran-23-109-forgiveness"]
+      "sourceIds": [
+        "quran-2-186-dua-nearness",
+        "quran-23-109-forgiveness"
+      ]
     },
     {
       "day": "Jour 5",
       "title": "Relier le Coran à la prière",
       "body": "Lisez Coran 20:14 et écoutez de nouveau Al-Fatiha. La prière est d'abord un rappel d'Allah. La perfection viendra plus tard.",
-      "sourceIds": ["quran-20-14-prayer-remembrance", "quran-al-fatihah-1"]
+      "sourceIds": [
+        "quran-20-14-prayer-remembrance",
+        "quran-al-fatihah-1"
+      ]
     },
     {
       "day": "Jour 6",
       "title": "Pratiquer la patience",
       "body": "Lisez Coran 2:153 et Al-'Asr. Choisissez aujourd'hui une petite occasion d'être patient, ou de dire la vérité quand il serait plus facile de ne pas le faire.",
-      "sourceIds": ["quran-2-153-patience-prayer", "quran-al-asr-103"]
+      "sourceIds": [
+        "quran-2-153-patience-prayer",
+        "quran-al-asr-103"
+      ]
     },
     {
       "day": "Jour 7",
       "title": "Réviser et poser une question",
       "body": "Revenez au passage qui vous a le plus marqué. Si quelque chose vous a semblé confus, notez le verset exact et soumettez-le à un enseignant en qui vous avez confiance.",
-      "sourceIds": ["quran-com", "seekersguidance"]
+      "sourceIds": [
+        "quran-com",
+        "seekersguidance"
+      ]
     }
   ],
   "resourceLinks": [
@@ -131,28 +166,36 @@
       "title": "Le site Quran.com",
       "body": "Lisez, écoutez, comparez les traductions et ouvrez les pages des récitateurs dans un navigateur, sans rien installer.",
       "href": "https://quran.com/",
-      "sourceIds": ["quran-com"],
+      "sourceIds": [
+        "quran-com"
+      ],
       "icon": "book"
     },
     {
       "title": "The Clear Quran",
       "body": "Une traduction anglaise du sens, facile à lire. Servez-vous-en pour comprendre, en gardant à l'esprit que le Coran lui-même est le texte arabe.",
       "href": "https://theclearquran.org/",
-      "sourceIds": ["clear-quran"],
+      "sourceIds": [
+        "clear-quran"
+      ],
       "icon": "file-text"
     },
     {
       "title": "New Muslim Academy",
       "body": "Des cours pour débutants et de l'aide pour le Coran, conçus pour les personnes qui découvrent l'islam.",
       "href": "https://www.newmuslimacademy.org/",
-      "sourceIds": ["new-muslim-academy"],
+      "sourceIds": [
+        "new-muslim-academy"
+      ],
       "icon": "users"
     },
     {
       "title": "Mishari Rashid al-Afasy sur Quran.com",
       "body": "Un récitateur clair à écouter en suivant le texte. Écoutez d'abord en entier, puis répétez un court passage.",
       "href": "https://quran.com/reciters/7",
-      "sourceIds": ["quran-reciter-mishary"],
+      "sourceIds": [
+        "quran-reciter-mishary"
+      ],
       "icon": "play"
     }
   ],
@@ -165,9 +208,29 @@
     },
     "stages": [
       "Semaine 1 : un verset d'Al-Fatihah par jour. Écoutez, répétez et lisez le sens des mots ci-dessous. C'est votre seule tâche.",
-      "Semaines 2 à 4 : continuez à prier avec ce que vous savez, terminez Al-Fatihah et ajoutez une courte sourate comme Al-Ikhlas.",
-      "Ensuite, quand vous vous sentez prêt : commencez les lettres arabes, ou renseignez-vous auprès de votre mosquée sur un cours de lecture du Coran pour débutants."
+      "Mois 1 : terminez Al-Fatiha et ajoutez une courte sourate comme Al-Ikhlas. Continuez de prier avec ce que vous savez, et apprenez le sens de chaque phrase de la prière avec le compagnon de prière.",
+      "Mois 3 : commencez les lettres arabes et les voyelles brèves en quelques courtes séances par semaine, et ajoutez deux ou trois autres courtes sourates comme Al-Asr, Al-Kawthar, Al-Falaq et An-Nas. C'est un bon moment pour trouver un enseignant, parce qu'un enseignant entend des sons que vous ne pouvez pas entendre vous-même.",
+      "Mois 6 : lisez lentement de courtes sourates dans le texte avec un enseignant qui vous vérifie, et apprenez le sens de tout ce que vous dites dans la prière.",
+      "Mois 12 : lisez de façon régulière avec les règles de base de la psalmodie (tajweed), et si vous le souhaitez, commencez à apprendre les mots courants du Coran. Certaines personnes prennent plus de temps, et c'est correct."
     ],
+    "plan": {
+      "title": "Faire fonctionner le plan",
+      "notes": [
+        "Lire et comprendre sont deux objectifs différents. Lire et réciter (les lettres, puis le tajweed), c'est ce dont vous avez besoin pour la prière. Comprendre l'arabe (le vocabulaire, puis la grammaire) est un projet plus long que vous pouvez mener lentement.",
+        "Dix à quinze minutes par jour valent mieux qu'une longue séance par semaine. Le Prophète a dit que les actes qu'Allah aime le plus sont les actes réguliers, même s'ils sont petits.",
+        "Commencez par les options gratuites : un cours pour débutants à votre mosquée, les cours de Coran gratuits de New Muslim Academy, ou les leçons d'arabe gratuites de Médine en lien ci-dessous.",
+        "Le tutorat payant est correct si vous le choisissez librement. Réservez un cours d'essai avant de payer un forfait, et fuyez la pression, les longs forfaits payés d'avance, un enseignant sans nom ou les demandes de passer en conversation privée.",
+        "Choisissez une application ou un cours à la fois. Commencer trois applications et deux cours en même temps finit habituellement par aucun.",
+        "Vous n'êtes pas un moins bon musulman tant que vous ne savez pas lire l'arabe, et vous ne mettez pas vos prières sur pause en attendant que votre récitation soit parfaite. Le Prophète a dit que celui qui récite avec difficulté reçoit une double récompense."
+      ],
+      "sourceIds": [
+        "sunnah-bukhari-6464",
+        "new-muslim-academy-quran-classes",
+        "madinah-arabic-free-content",
+        "sunnah-muslim-798a",
+        "quran-73-4"
+      ]
+    },
     "fatihahWords": [
       {
         "verse": 1,
@@ -350,31 +413,108 @@
         ]
       }
     ],
-    "fatihahSourceIds": ["quran-al-fatihah-1", "quranic-arabic-corpus-fatihah"],
+    "fatihahSourceIds": [
+      "quran-al-fatihah-1",
+      "quranic-arabic-corpus-fatihah"
+    ],
+    "sounds": {
+      "title": "Les sons à écouter",
+      "intro": "L'écriture en lettres latines utilise les mêmes lettres pour des sons qui sont différents en arabe. Voici ceux que les francophones trouvent le plus souvent difficiles. Écoutez un récitateur clair pour chacun plutôt que de vous fier à l'orthographe. Un enseignant de tajweed peut vérifier les exemples avec vous.",
+      "sounds": [
+        {
+          "letter": "ع",
+          "name": "Ayn",
+          "tip": "Un serrement au fond de la gorge. La translittération le marque souvent d'une apostrophe, comme dans na'budu (nous adorons)."
+        },
+        {
+          "letter": "ح",
+          "name": "Le h lourd (ha)",
+          "tip": "Un h soufflé qui vient du milieu de la gorge, comme quand on souffle sur une vitre froide. Le h de al-hamdu est cette lettre, pas le h léger qu'on entend en anglais dans « hat »."
+        },
+        {
+          "letter": "خ",
+          "name": "Kha",
+          "tip": "Le son de la « jota » espagnole ou du « ch » allemand de « Bach »."
+        },
+        {
+          "letter": "غ",
+          "name": "Ghayn",
+          "tip": "Proche du r français, comme dans ghayril-maghdubi."
+        },
+        {
+          "letter": "ق",
+          "name": "Qaf",
+          "tip": "Un k prononcé plus au fond de la gorge, comme dans al-mustaqim."
+        },
+        {
+          "letter": "ص ض ط ظ",
+          "name": "Les lettres emphatiques",
+          "tip": "Elles se prononcent avec l'arrière de la langue relevé, ce qui assombrit la voyelle voisine. Écoutez-les dans as-sirat et wa lad-dallin."
+        },
+        {
+          "letter": "ث ذ",
+          "name": "Deux sortes de th",
+          "tip": "L'un est le th anglais de « thin », l'autre le th anglais de « this », comme dans alladhina."
+        },
+        {
+          "letter": "ـّـ",
+          "name": "Les lettres doublées (shaddah)",
+          "tip": "Tenez la lettre un peu plus longtemps, comme dans iyyaka et rabbil."
+        }
+      ],
+      "mistakesTitle": "Et si je prononce mal une lettre?",
+      "mistakes": [
+        "Tous les apprenants font des erreurs, et le Prophète a dit que celui qui récite avec difficulté reçoit une double récompense. Dans l'école chaféite, une erreur de lettre gâte ce mot : vous redites donc le mot une fois, correctement. La prière elle-même n'est invalide que si une erreur change le sens et a été faite volontairement.",
+        "Une réponse hanafite, citant Ibn Abidin, dit que confondre par accident des lettres comme sad et sin n'invalide pas la prière, et qu'un apprenant devrait continuer de faire un effort raisonnable. Demandez à un enseignant les détails malikites et hanbalites.",
+        "Répéter un mot encore et encore, ou recommencer toute la prière pour une seule lettre incertaine, n'est pas exigé. Ce genre de doute (waswasa) est quelque chose à laisser aller."
+      ],
+      "practiceTitle": "Comment pratiquer",
+      "practice": [
+        "Choisissez un son difficile par semaine et pratiquez-le dans un mot que vous dites déjà dans la prière.",
+        "Une fois par semaine, enregistrez-vous sur votre téléphone en récitant Al-Fatiha et comparez avec l'audio de Quran.com.",
+        "Demandez à un enseignant de votre mosquée d'écouter pendant cinq minutes et de vérifier seulement ces lettres. La plupart le feront avec plaisir.",
+        "Apprenez en écoutant. La translittération est un aide-mémoire, pas un remplacement de l'écoute du mot."
+      ],
+      "sourceIds": [
+        "seekersguidance-mispronunciation-fatiha",
+        "seekersguidance-saad-seen-hanafi",
+        "sunnah-muslim-798a",
+        "quran-73-4"
+      ]
+    },
     "links": [
       {
         "label": "Écouter Al-Fatihah sur Quran.com",
         "body": "Appuyez sur lecture sur la page de Quran.com pour entendre chaque verset. Mishary al-Afasy est un récitateur clair pour commencer.",
         "href": "https://quran.com/1",
-        "sourceIds": ["quran-al-fatihah-1", "quran-reciter-mishary"]
+        "sourceIds": [
+          "quran-al-fatihah-1",
+          "quran-reciter-mishary"
+        ]
       },
       {
         "label": "Seven Days, Seven Verses, sept jours et sept versets (Quran.com)",
         "body": "Un verset d'Al-Fatihah par jour, moins de 10 minutes chaque fois, mot par mot. C'est gratuit, et vous pouvez le lire sans compte.",
         "href": "https://quran.com/learning-plans/seven-days-seven-verses-living-the-message-of-al-fatihah",
-        "sourceIds": ["quran-com-seven-days-seven-verses"]
+        "sourceIds": [
+          "quran-com-seven-days-seven-verses"
+        ]
       },
       {
         "label": "La série d'Islamwise, formule par formule",
         "body": "De courtes leçons sur YouTube pour chaque formule de la prière. Les épisodes 11 à 18 passent en revue Al-Fatihah verset par verset.",
         "href": "https://www.youtube.com/playlist?list=PLW9v5fexkmD_8i507k8oL2x9n0vJeP1BT",
-        "sourceIds": ["video-islamwise-prayer-series"]
+        "sourceIds": [
+          "video-islamwise-prayer-series"
+        ]
       },
       {
         "label": "Lettres arabes : cours de lecture Madinah Arabic",
         "body": "Les leçons gratuites ne coûtent rien et ne demandent aucun compte. Le site vend aussi des cours particuliers payants, et l'auteur du cours n'est pas nommé.",
         "href": "https://madinaharabic.com/free-content",
-        "sourceIds": ["madinah-arabic-free-content"]
+        "sourceIds": [
+          "madinah-arabic-free-content"
+        ]
       }
     ],
     "fatihahVideo": {
@@ -382,7 +522,9 @@
       "title": "Alhamdu lillahi Rabbil-'alamin, expression par expression",
       "channel": "Islamwise",
       "duration": "2:27",
-      "sourceIds": ["video-islamwise-fatihah-alhamdu"]
+      "sourceIds": [
+        "video-islamwise-fatihah-alhamdu"
+      ]
     },
     "alphabetVideo": {
       "videoId": "c-7SVieC_04",
@@ -390,7 +532,9 @@
       "channel": "Arabic 101",
       "duration": "13:57",
       "note": "Arabic 101 vend aussi des cours en direct. Cette première leçon est gratuite.",
-      "sourceIds": ["video-arabic101-alphabet-lesson-1"]
+      "sourceIds": [
+        "video-arabic101-alphabet-lesson-1"
+      ]
     }
   }
 }

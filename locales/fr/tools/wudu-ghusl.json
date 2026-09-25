@@ -1,4 +1,5 @@
 {
+  "reviewStatus": "review-needed",
   "wuduSteps": [
     {
       "title": "Formuler votre intention",
@@ -59,7 +60,7 @@
     },
     {
       "title": "Laver la tête et la racine des cheveux",
-      "body": "Faites pénétrer l'eau jusqu'au cuir chevelu et à la racine des cheveux du mieux que vous pouvez. Si vous avez des tresses, un pansement médical ou des cheveux qui rendent cela difficile, demandez à une personne qualifiée.",
+      "body": "Faites parvenir l'eau jusqu'au cuir chevelu et aux racines des cheveux du mieux que vous pouvez. Une femme dont les cheveux sont tressés serré n'a pas à défaire ses tresses : elle verse de l'eau sur sa tête trois fois pour qu'elle atteigne les racines (Sahih Muslim 330a, où un récit mentionne aussi le lavage après les règles). Pour les rallonges, les locks, les perruques, les cheveux collés ou un pansement médical, demandez à une personne qualifiée.",
       "icon": "info"
     },
     {
@@ -77,7 +78,8 @@
   "ghuslNeeded": [
     "Après des rapports intimes ou un écoulement sexuel, y compris une éjaculation nocturne.",
     "À la fin des menstruations ou des saignements qui suivent l'accouchement.",
-    "Au moment de devenir musulman. Les écoles divergent sur la question de savoir si c'est obligatoire ou recommandé. Voir la note plus bas."
+    "Au moment de devenir musulman. Les écoles divergent sur la question de savoir si c'est obligatoire ou recommandé. Voir la note plus bas.",
+    "Recommandé plutôt qu'obligatoire : un lavage complet du corps avant la prière du vendredi et le matin de chaque Aïd. Voyez plus bas la carte sur les lavages du vendredi et de l'Aïd."
   ],
   "commonCorrections": [
     {
@@ -103,7 +105,9 @@
     "channel": "Green Lane Masjid",
     "duration": "6:08",
     "note": "Cette vidéo a une musique de fond au début et aucune parole en anglais. Elle montre une seule méthode, et de petits détails diffèrent selon les écoles.",
-    "sourceIds": ["video-greenlane-wudu"]
+    "sourceIds": [
+      "video-greenlane-wudu"
+    ]
   },
   "ghuslVideo": {
     "videoId": "iWFMlUyB73A",
@@ -111,7 +115,9 @@
     "channel": "Green Lane Masjid",
     "duration": "3:17",
     "note": "Montre une façon simple et la façon plus complète de la sunna. Les écoles divergent sur l'obligation de se rincer la bouche et le nez pendant le ghusl.",
-    "sourceIds": ["video-greenlane-ghusl"]
+    "sourceIds": [
+      "video-greenlane-ghusl"
+    ]
   },
   "wuduBreaksDiffer": [
     "Les saignements et les vomissements. Dans l'école hanafite, vomir une bouchée annule les ablutions, tout comme du sang dans la bouche en quantité égale ou supérieure à la salive. D'autres enseignements, comme la brochure de l'Islamic Foundation of Ireland, disent que les saignements et les vomissements ne les annulent pas.",
@@ -182,7 +188,9 @@
       "channel": "Green Lane Masjid",
       "duration": "3:57",
       "note": "Les titres des chapitres viennent de YouTube et ne s'affichent pas forcément pour tout le monde, mais les liens vers chaque passage fonctionnent quand même.",
-      "sourceIds": ["video-greenlane-tayammum"],
+      "sourceIds": [
+        "video-greenlane-tayammum"
+      ],
       "chapters": [
         {
           "label": "Les étapes",
@@ -207,12 +215,17 @@
     {
       "question": "En hiver, puis-je passer la main mouillée sur mes chaussettes au lieu de me laver les pieds?",
       "answer": "De nombreux savants permettent de passer la main mouillée sur des chaussures de cuir (khuffs) ou des chaussettes adaptées, à certaines conditions. Vous devez les avoir enfilées après des ablutions (wudu) complètes, et la permission dure un jour et une nuit chez vous, ou trois jours et trois nuits en voyage. Pour le lavage complet (ghusl), vous vous lavez quand même les pieds. Les écoles divergent sur les chaussettes qui conviennent. Selon la réponse hanafite dont nous donnons le lien, elles doivent être assez solides pour marcher environ 3,5 milles (5,5 km) sans se déchirer, et l'eau ne doit pas les traverser : des chaussettes de ville ordinaires ne conviennent généralement pas, alors que des chaussettes de randonnée conviennent souvent. D'autres enseignements acceptent des chaussettes ordinaires. Demandez à l'imam de votre région quel avis votre communauté suit.",
-      "sourceIds": ["new-muslim-guide-wudu", "seekersguidance-thick-socks"]
+      "sourceIds": [
+        "new-muslim-guide-wudu",
+        "seekersguidance-thick-socks"
+      ]
     },
     {
       "question": "Puis-je faire mes ablutions (wudu) avec du vernis à ongles?",
       "answer": "Le vernis à ongles ordinaire empêche l'eau d'atteindre vos ongles : des ablutions faites par-dessus ne comptent donc pas. Si vous avez fait vos ablutions avant de mettre le vernis, vous pouvez prier avec ces ablutions. Enlevez le vernis avant vos prochaines ablutions. Si vous avez un doute sur un produit précis, demandez à un enseignant de votre région.",
-      "sourceIds": ["seekersguidance-nail-polish"]
+      "sourceIds": [
+        "seekersguidance-nail-polish"
+      ]
     },
     {
       "question": "J'ai un plâtre ou un pansement. Comment faire mes ablutions (wudu)?",
@@ -221,6 +234,197 @@
         "seekersguidance-cast-hanafi",
         "seekersguidance-cast-shafii"
       ]
+    },
+    {
+      "question": "Je porte un foulard. Est-ce que je dois l'enlever pour passer la main mouillée sur ma tête au travail?",
+      "answer": "Selon la réponse hanafite que nous donnons en lien, vous devez passer la main mouillée sur au moins le quart de la tête elle-même, et la passer sur le foulard ne compte pas. Une façon pratique de faire : desserrer le devant du foulard dans une cabine fermée et glisser une main mouillée en dessous. L'école hanbalite permet de passer la main sur un foulard enroulé sous le menton, pourvu que vous l'ayez mis en état d'ablutions, pendant un jour et une nuit (trois en voyage). Une réponse de SeekersGuidance dit que vous pouvez suivre l'avis hanbalite pour cela, à condition que vos ablutions et votre prière soient toutes deux valides dans cette école. Faire vos ablutions à la maison et les garder, et passer la main sur des chaussettes appropriées pour les pieds, réduisent aussi le lavage au travail. Demandez à votre enseignant quelle option vous convient.",
+      "sourceIds": [
+        "seekersguidance-headscarf-wipe-hanafi",
+        "seekersguidance-working-woman-wudu"
+      ]
+    },
+    {
+      "question": "À quelle fréquence devrais-je me couper les ongles et enlever les poils?",
+      "answer": "Un hadith de Sahih Muslim (258) dit que tailler la moustache, couper les ongles et enlever les poils des aisselles et du pubis ne devrait pas être laissé plus de quarante nuits. Une journée de soins par semaine, souvent le vendredi, vous garde bien en deçà. Le sujet sur la pudeur traite de ces soins du corps (fitrah) et des différences entre les écoles sur la barbe.",
+      "sourceIds": [
+        "sunnah-muslim-258"
+      ]
     }
-  ]
+  ],
+  "moreCards": [
+    {
+      "id": "friday-eid-ghusl",
+      "title": "Les lavages du vendredi et de l'Aïd, et les cheveux tressés",
+      "summary": "Certains lavages complets du corps sont recommandés plutôt qu'obligatoires. Les plus connus sont le lavage avant la prière du vendredi et le lavage le matin de chaque Aïd.",
+      "points": [
+        "La formulation des hadiths sur le lavage du vendredi est forte. Un récit dit qu'il est obligatoire pour tout homme pubère (Sahih al-Bukhari 879), et un autre dit à toute personne qui va à la prière du vendredi de se laver (Sahih al-Bukhari 877).",
+        "Un autre hadith dit que les ablutions seules le vendredi suffisent, et que le lavage complet est meilleur (Sunan Abi Dawud 354, jugé hasan par al-Albani). Votre prière du vendredi est valide avec les ablutions (wudu).",
+        "Selon la réponse hanafite que nous donnons en lien, le lavage du vendredi est une sunnah liée à la prière. Une personne qui en a besoin, comme quelqu'un qui travaille le vendredi, peut suivre l'avis selon lequel c'est une sunnah liée au jour. Se laver sous la douche avant le travail, avec cette intention, compte alors.",
+        "La réponse hanafite sur l'Aïd compte le lavage le matin de l'Aïd parmi les sunnahs de ce jour.",
+        "Le lavage lui-même est le même que pour tout lavage complet du corps (ghusl) : de l'eau sur tout le corps, avec l'intention.",
+        "Les tresses : une femme n'a pas à défaire ses cheveux tressés serré pour le lavage complet du corps (ghusl). Verser de l'eau sur la tête trois fois suffit (Sahih Muslim 330a). Demandez à une personne qualifiée pour les rallonges, les locks, les perruques ou les cheveux collés."
+      ],
+      "differencesTitle": "Là où les écoles divergent",
+      "differences": [
+        "Comme la formulation de Sahih al-Bukhari 879 est forte, les savants discutent du degré d'obligation du lavage du vendredi. La réponse hanafite que nous donnons en lien le considère comme une sunnah. Demandez à votre enseignant ce que dit votre école."
+      ],
+      "links": [
+        {
+          "label": "Aller à votre première prière du vendredi (jumu'ah)",
+          "href": "/roadmap/week-1/first-jumuah"
+        }
+      ],
+      "sourceIds": [
+        "sunnah-bukhari-877",
+        "sunnah-bukhari-879",
+        "sunnah-abudawud-354",
+        "seekersguidance-friday-ghusl-hanafi",
+        "seekersguidance-eid-fiqh",
+        "sunnah-muslim-330a"
+      ]
+    },
+    {
+      "id": "clean-clothes",
+      "title": "Des vêtements propres et un endroit propre (najasah)",
+      "summary": "Votre corps, vos vêtements et l'endroit où vous priez devraient être exempts d'impuretés comme l'urine, les selles ou le sang. Lavez jusqu'à ce que la substance, sa couleur et son odeur soient parties, autant que vous le pouvez raisonnablement.",
+      "points": [
+        "Un doute ne rend pas une chose impure. Ce que vous savez propre reste propre tant que vous n'êtes pas sûr du contraire.",
+        "Les animaux de compagnie, les vêtements mouillés d'un bébé, l'alcool dans le parfum et la lessive faite par la famille ont tous des réponses rassurantes dans le sujet sur la purification.",
+        "Si vous n'êtes pas sûr, fiez-vous à ce que vous savez avec certitude et demandez à un enseignant après, plutôt que de sauter une prière."
+      ],
+      "links": [
+        {
+          "label": "Des vêtements propres et un endroit propre",
+          "href": "/topics/purification"
+        }
+      ],
+      "sourceIds": [
+        "quran-74-4-purify-garments",
+        "seekersguidance-shafii-filth-categories",
+        "sunnah-bukhari-doubt-wind"
+      ]
+    },
+    {
+      "id": "excused-person",
+      "title": "Si un problème de santé annule sans cesse vos ablutions (wudu)",
+      "summary": "Certains problèmes de santé annulent sans cesse les ablutions : des gaz constants avec le syndrome du côlon irritable, des fuites urinaires, des saignements en dehors des règles, ou une stomie ou un cathéter. Continuez de prier. On a dit à une femme dont les saignements ne s'arrêtaient pas de continuer de prier et de faire ses ablutions pour chaque prière (Sahih al-Bukhari 228).",
+      "points": [
+        "Selon la réponse hanafite que nous donnons en lien, vous êtes considéré comme une personne excusée quand le problème ne vous laisse pas assez de temps, dans la plage d'une prière, pour faire vos ablutions et la prière obligatoire sans qu'il survienne.",
+        "Une fois excusé, faites vos ablutions après le début de l'heure de la prière. Le problème n'annule pas ces ablutions avant la fin de l'heure de la prière, même s'il continue.",
+        "Si vous n'êtes pas excusé, un doute n'annule quand même pas vos ablutions. Le Prophète a dit de ne pas quitter la prière à moins d'entendre un son ou de sentir une odeur (Sahih al-Bukhari 137).",
+        "À l'hôpital, priez de la façon que votre corps permet, assis ou couché si nécessaire, et utilisez les ablutions sèches (tayammum) si l'eau vous causait du tort. Vous pouvez demander au personnel infirmier si l'hôpital a une équipe de soins spirituels.",
+        "Si vous utilisez un sac de stomie ou un cathéter, demandez à un imam local comment ces règles s'appliquent à vous, et continuez de prier en attendant une réponse."
+      ],
+      "differencesTitle": "Là où les écoles divergent",
+      "differences": [
+        "La règle ci-dessus est celle de l'école hanafite. Les autres écoles définissent autrement la personne excusée, et nous n'avons pas encore vérifié leurs propres sources : demandez à votre enseignant."
+      ],
+      "referral": "Décrivez votre situation une fois à un imam et obtenez une réponse claire pour votre cas. On ne vous demande pas de refaire vos ablutions toutes les quelques minutes.",
+      "links": [
+        {
+          "label": "Prier assis ou couché",
+          "href": "/tools/salah-companion#seated-prayer"
+        },
+        {
+          "label": "Les saignements et l'adoration",
+          "href": "/topics/menstruation-and-worship"
+        }
+      ],
+      "sourceIds": [
+        "sunnah-bukhari-228",
+        "seekersguidance-what-is-the-ruling-regarding",
+        "sunnah-bukhari-doubt-wind"
+      ]
+    }
+  ],
+  "istinja": {
+    "id": "istinja",
+    "title": "Avant les ablutions : se nettoyer après les toilettes (istinja)",
+    "summary": "Peu de gens l'expliquent, et c'est gênant de poser la question en personne. Les musulmans nettoient leurs parties intimes après être allés aux toilettes, et ce nettoyage (istinja) est une étape à part, distincte des ablutions. Le Prophète (paix et bénédictions sur lui) utilisait de l'eau pour cela (Sahih al-Bukhari 150), et un hadith considère la négligence envers l'urine sur le corps comme une affaire grave (Sahih al-Bukhari 218).",
+    "points": [
+      "Essuyez d'abord avec du papier de toilette, puis lavez avec l'eau d'une bouteille, d'un pichet ou d'une douchette de bidet si vous le pouvez.",
+      "Utilisez la main gauche pour vous nettoyer. Le Prophète a enseigné de ne pas se nettoyer avec la main droite (Sahih Muslim 262a).",
+      "Si vous n'avez que du papier, essuyez jusqu'à ce que vous soyez propre. Selon les réponses hanafites que nous donnons en lien, le papier seul remplit la sunnah de base tant que la saleté reste à l'orifice. Une fois qu'elle s'est étendue au-delà de l'orifice et de la zone juste autour, le lavage à l'eau est obligatoire.",
+      "Séchez en tapotant avec du papier. Si une tache a atteint vos sous-vêtements, rincez-la ou changez-vous avant de prier.",
+      "Beaucoup de toilettes au Canada n'ont pas de bidet. Une petite bouteille réutilisable dans votre sac ou au travail fait l'affaire.",
+      "Vous n'avez pas besoin de prendre une douche après chaque passage aux toilettes. Nettoyez-vous, puis faites vos ablutions (wudu).",
+      "Nettoyez une fois, correctement, puis passez à autre chose. Une réponse hanafite sur les scrupules dit que les doutes après un istinja bien fait devraient être ignorés, et elle oriente vers de l'aide pour les doutes obsessionnels (TOC) toute personne qui y revient sans cesse."
+    ],
+    "differencesTitle": "Là où les écoles divergent",
+    "differences": [
+      "Faire face à la qibla : le hadith interdit de faire face à la qibla en faisant ses besoins (Sahih Muslim 262a). Les écoles diffèrent sur l'application de cette règle à l'intérieur d'un bâtiment : demandez à votre enseignant. Quand vous le pouvez, organisez-vous pour ne pas y faire face.",
+      "Quand essuyer seulement suffit : la règle ci-dessus est celle de l'école hanafite. Nous n'avons pas encore vérifié les conditions des autres écoles dans leurs propres sources : demandez à votre enseignant."
+    ],
+    "referral": "Si un handicap ou un appareil médical rend cela difficile, demandez à un imam local comment faire.",
+    "links": [
+      {
+        "label": "Questions sur la purification",
+        "href": "/faq#faq-purification"
+      }
+    ],
+    "sourceIds": [
+      "sunnah-bukhari-150",
+      "sunnah-bukhari-218",
+      "sunnah-muslim-262a",
+      "seekersguidance-istinja-best-way",
+      "seekersguidance-toilet-paper-sufficient",
+      "seekersguidance-istinja-misgivings"
+    ]
+  },
+  "doubts": {
+    "intro": "Vouloir bien faire ses ablutions et sa prière est un bon signe. Chez certaines personnes, ce souci se transforme en un doute qui ne lâche pas prise : laver un bras cinq fois, recommencer une prière, ou avoir sur Allah des pensées que vous détestez et que vous n'arrivez pas à arrêter. On appelle souvent cela les insinuations (waswas, le chuchotement). Le Prophète a donné des conseils clairs à ce sujet. Quand cela envahit la journée d'une personne, cela peut aussi être une forme de trouble obsessionnel-compulsif (TOC), qui se soigne.",
+    "teachings": [
+      {
+        "title": "Restez dans votre prière à moins d'être sûr",
+        "body": "Le Prophète a dit à un homme qui pensait avoir laissé échapper un gaz pendant la prière de ne pas la quitter à moins d'entendre un son ou de sentir une odeur (Sahih al-Bukhari 137). Les savants en tirent une règle générale : la certitude n'est pas effacée par un doute. Si vous avez fait vos ablutions et que vous n'êtes pas sûr qu'elles aient été annulées, elles ne l'ont pas été.",
+        "sourceIds": [
+          "sunnah-bukhari-doubt-wind",
+          "seekersguidance-certainty-doubt-waswasa"
+        ]
+      },
+      {
+        "title": "Détester une mauvaise pensée est un signe de foi",
+        "body": "Des compagnons ont dit au Prophète qu'ils avaient des pensées trop terribles pour être dites à voix haute. Il a répondu : « C'est la foi manifeste » (Sahih Muslim 132a). Un autre homme a dit qu'il préférerait être réduit en charbon plutôt que de dire ses pensées, et le Prophète a loué Allah, qui a réduit la ruse du diable à un chuchotement (Sunan Abi Dawud 5112, jugé sahih par al-Albani).",
+        "sourceIds": [
+          "sunnah-muslim-132a",
+          "sunnah-abudawud-5112"
+        ]
+      },
+      {
+        "title": "Les pensées sur lesquelles vous n'agissez pas ne sont pas retenues",
+        "body": "Le Prophète a dit qu'Allah passe sur les mauvaises pensées qui viennent à l'esprit des gens, tant qu'ils n'agissent pas en conséquence et ne les disent pas (Sahih al-Bukhari 5269). Le Dr Jibran Khokhar, un chercheur canadien qui écrit pour le Yaqeen Institute, cite ce hadith au sujet des pensées intrusives non désirées.",
+        "sourceIds": [
+          "sunnah-bukhari-5269",
+          "yaqeen-khokhar-religious-ocd"
+        ]
+      }
+    ],
+    "schoolNote": "La règle selon laquelle un doute n'efface pas la certitude est enseignée dans toutes les écoles. Les détails diffèrent, par exemple pour un doute pendant les ablutions plutôt qu'après, ou un doute sur le nombre d'unités (rak'ahs) que vous avez priées. La réponse que nous donnons en lien vient de l'école hanafite : demandez à votre enseignant les détails de votre propre école.",
+    "steps": [
+      "Faites vos ablutions une fois, avec attention, puis arrêtez.",
+      "Si vous n'êtes pas sûr que vos ablutions aient été annulées, continuez comme si elles ne l'avaient pas été, à moins d'en être certain.",
+      "Ne discutez pas avec une pensée non désirée. Dites « a'udhu billah » (je cherche refuge auprès d'Allah) et retournez à ce que vous faisiez.",
+      "Demandez à un seul enseignant une seule norme simple, et tenez-vous-y.",
+      "Si cela envahit votre journée, parlez-en à un médecin ou à un professionnel en santé mentale."
+    ],
+    "mistakes": [
+      "Poser la même question à beaucoup de gens. La psychothérapeute Najwa Awad explique que se faire rassurer à répétition nourrit le doute, et qu'apprendre la règle une fois aide davantage.",
+      "Choisir l'avis le plus strict sur chaque détail.",
+      "Prendre une pensée non désirée comme la preuve que vous avez quitté l'islam.",
+      "Traiter cela seulement comme un problème spirituel et ne jamais consulter un clinicien."
+    ],
+    "clinical": "Le CAMH, le plus grand hôpital d'enseignement en santé mentale du Canada, indique que le TOC touche environ 1 adulte sur 40. Les obsessions courantes comprennent le doute répété et la peur d'avoir des pensées blasphématoires. Les compulsions courantes comprennent le lavage excessif, les vérifications et les rituels mentaux comme la prière. Le traitement est habituellement la thérapie cognitivo-comportementale (TCC), souvent accompagnée de médicaments.\n\nNajwa Awad écrit que les insinuations (waswas) ne sont « pas une maladie musulmane », mais une forme religieuse du TOC chez les musulmans. Elle dit qu'une forme de TCC appelée exposition avec prévention de la réponse (EPR) s'est montrée assez efficace, et qu'un imam et un clinicien peuvent travailler ensemble. Le Dr Khokhar écrit que consulter un professionnel qualifié n'est pas un signe de foi faible, mais un moyen de guérison.",
+    "signs": [
+      "Laver, vérifier ou répéter occupe une grande partie de votre journée.",
+      "Vous évitez la prière ou les ablutions parce que vous avez peur de mal faire.",
+      "La détresse ne diminue pas, même après qu'un enseignant a répondu à votre question.",
+      "Les vérifications s'étendent à d'autres parties de votre vie."
+    ],
+    "signsNote": "Ces signes sont un repère approximatif, pas un diagnostic, et c'est un clinicien qui est la bonne personne pour juger. Le CAMH décrit le TOC comme des obsessions et des compulsions qui nuisent à la vie quotidienne.",
+    "sourceIds": [
+      "camh-ocd",
+      "yaqeen-awad-clinicians-imams-waswas",
+      "yaqeen-khokhar-religious-ocd"
+    ]
+  }
 }
