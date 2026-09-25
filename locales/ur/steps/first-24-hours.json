@@ -51,8 +51,17 @@
   ],
   "tinyVersion": "آج: ایک سادہ دعا کریں، ایک ایسا شخص چنیں جس سے مدد کے لیے رابطہ کر سکیں، اور بس یہیں رک جائیں۔",
   "unlocksNext": "ایک پرسکون پہلا دن غسل اور نماز کی ابتدائی مشق کو بہت آسان بنا دیتا ہے۔",
-  "resourceIds": ["new-muslim-academy", "whyislam", "welcome-to-islam-book"],
-  "relatedGlossaryIds": ["shahada", "dua", "masjid", "imam"],
+  "resourceIds": [
+    "new-muslim-academy",
+    "whyislam",
+    "welcome-to-islam-book"
+  ],
+  "relatedGlossaryIds": [
+    "shahada",
+    "dua",
+    "masjid",
+    "imam"
+  ],
   "relatedTopicIds": [
     "new-muslim-basics",
     "family-and-identity",
@@ -78,8 +87,34 @@
     {
       "title": "کسی رہنما یا مسجد کے لیے",
       "body": "میں نے حال ہی میں اسلام قبول کیا ہے اور غسل، نماز اور کمیونٹی کے سہارے کے لیے ابتدائی مدد تلاش کر رہا ہوں۔ کیا کوئی ہے جس سے میں بات کر سکوں؟"
+    },
+    {
+      "title": "اگر کوئی آپ کے شہادہ کی ویڈیو بنانا چاہے",
+      "body": "براہِ کرم، کوئی تصویر یا ویڈیو نہیں۔ میں فی الحال اسے ذاتی رکھنا چاہتا ہوں۔"
     }
   ],
-  "sourceIds": ["new-muslim-academy", "whyislam", "new-muslim-guide"],
-  "reviewStatus": "source-checked"
+  "sourceIds": [
+    "new-muslim-academy",
+    "whyislam",
+    "new-muslim-guide"
+  ],
+  "reviewStatus": "source-checked",
+  "relatedLinks": [
+    {
+      "label": "ابھی مسلمان نہیں؟ اسلام کے بارے میں سوچ رہے ہیں",
+      "href": "/topics/thinking-about-islam"
+    },
+    {
+      "label": "خطرے کی علامات اور محفوظ رہنا",
+      "href": "/guides/red-flags-and-staying-safe"
+    },
+    {
+      "label": "مدد حاصل کریں",
+      "href": "/get-help"
+    },
+    {
+      "label": "اسلام کے پانچ ارکان",
+      "href": "/topics/five-pillars"
+    }
+  ]
 }

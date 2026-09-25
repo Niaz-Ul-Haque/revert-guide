@@ -2,7 +2,7 @@
   "id": "zakat-hajj",
   "slug": "zakat-hajj",
   "stageId": "month-6-plus",
-  "title": "زکوٰۃ اور حج کے بارے میں جانیں",
+  "title": "خیرات (زکوٰۃ) اور زیارتِ مکہ (حج)",
   "whyMatters": "زکوٰۃ (فرض صدقہ) اور حج (مکہ مکرمہ میں بیت اللہ کا حج) پانچ ارکان میں سے دو ہیں، اور انہیں سمجھ لینے سے آپ کے پاس مسلمان ہونے کی پوری بنیاد آ جاتی ہے۔ زکوٰۃ آپ کے مال کو پاک کرتی ہے اور کمیونٹی کو ضرورت مندوں کا خیال رکھنے والا بناتی ہے۔ حج مکہ میں اللہ کے گھر کا زندگی میں ایک بار کا سفر ہے، جہاں دنیا کے ہر کونے سے لاکھوں مسلمان ایک ساتھ کھڑے ہوتے ہیں، اور یہ لوگوں کو بدل دیتا ہے۔ دونوں طویل مدتی ذمہ داریاں ہیں اور کوئی بھی فوری نہیں۔ ابھی ان کے بارے میں جاننا بعد کی تیاری ہے۔",
   "exactActions": [
     {
@@ -99,10 +99,14 @@
     "kaabah",
     "ihram",
     "tawaf",
-    "eid-al-adha",
+    "eid",
     "dhul-hijjah"
   ],
-  "relatedTopicIds": ["beliefs", "fasting", "halal-living"],
+  "relatedTopicIds": [
+    "beliefs",
+    "fasting",
+    "halal-living"
+  ],
   "sourceIds": [
     "quran-zakat-9-60",
     "irc-nisab",
@@ -115,5 +119,23 @@
     "travel-gc-saudi-arabia",
     "nusuk-hajj"
   ],
-  "reviewStatus": "review-needed"
+  "reviewStatus": "review-needed",
+  "relatedLinks": [
+    {
+      "label": "وصیت اور وراثت",
+      "href": "/topics/wills-and-inheritance"
+    },
+    {
+      "label": "جب کسی کا انتقال ہو جائے",
+      "href": "/guides/when-someone-dies"
+    },
+    {
+      "label": "ابتدائی افراد کے لیے زکوٰۃ کی گائیڈ",
+      "href": "/seasonal/zakat"
+    },
+    {
+      "label": "ذوالحجہ، حج اور عمرہ کی گائیڈ",
+      "href": "/seasonal/dhul-hijjah-hajj-umrah"
+    }
+  ]
 }

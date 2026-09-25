@@ -38,7 +38,7 @@
     },
     {
       "problem": "مجھے مختلف جواب ملے",
-      "solution": "استاد سے پوچھیں کہ کون سا جواب آپ کی صورتحال پر لاگو ہوتا ہے اور کون سے حصے انتظار کر سکتے ہیں۔ اگر اس سے زیادہ کی ضرورت ہو تو کسی ایسے مستند مقامی عالم کے پاس جائیں جو آپ کے حالات کو جانتا ہو۔"
+      "solution": "استاد سے پوچھیں کہ آپ کی صورتِ حال پر کون سا جواب لاگو ہوتا ہے اور کون سی باتیں بعد میں دیکھی جا سکتی ہیں۔ اگر اس سے زیادہ ضرورت ہو تو کسی ایسے مستند مقامی عالم کے پاس جائیں جو آپ کے حالات جانتا ہو۔ آن لائن جوابات اکثر اس لیے مختلف ہوتے ہیں کہ وہ الگ الگ مسلک پر چلتے ہیں یا کسی اور کی صورتِ حال کا جواب دے رہے ہوتے ہیں، اس لیے پوچھنے سے پہلے ہر جواب کا ماخذ اور مسلک نوٹ کر لیں۔"
     }
   ],
   "tinyVersion": "تین باتیں لکھ لیں: کیا ہوا، آپ کو کیا فیصلہ کرنا ہے، اور یہ کہ آپ نومسلم ہیں۔",
@@ -48,7 +48,12 @@
     "new-muslim-academy",
     "new-muslim-guide-icna"
   ],
-  "relatedGlossaryIds": ["imam", "sunnah", "halal", "haram"],
+  "relatedGlossaryIds": [
+    "imam",
+    "sunnah",
+    "halal",
+    "haram"
+  ],
   "relatedTopicIds": [
     "questions-and-doubts",
     "masjid-and-community",
@@ -60,6 +65,28 @@
       "body": "میں نومسلم ہوں اور بوجھل ہوئے بغیر یہ صحیح طریقے سے کرنے کی کوشش کر رہا ہوں۔ میری صورتحال کے لیے عملی اگلا قدم کیا ہے، اور کیا انتظار کر سکتا ہے؟"
     }
   ],
-  "sourceIds": ["seekersguidance", "new-muslim-academy", "whyislam"],
-  "reviewStatus": "source-checked"
+  "sourceIds": [
+    "seekersguidance",
+    "new-muslim-academy",
+    "whyislam"
+  ],
+  "reviewStatus": "source-checked",
+  "relatedLinks": [
+    {
+      "label": "مسلمانوں میں اختلاف کیوں ہوتا ہے",
+      "href": "/topics/why-muslims-differ"
+    },
+    {
+      "label": "شیخ یا مفتی کسے کہا جاتا ہے",
+      "href": "/faq#faq-fnd-025"
+    },
+    {
+      "label": "مدد کیسے مانگیں",
+      "href": "/guides/how-to-ask-for-help"
+    },
+    {
+      "label": "مدد حاصل کریں",
+      "href": "/get-help"
+    }
+  ]
 }

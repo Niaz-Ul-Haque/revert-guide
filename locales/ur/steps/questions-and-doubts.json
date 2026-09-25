@@ -39,19 +39,55 @@
     {
       "problem": "آن لائن جوابات ایک دوسرے سے متضاد ہیں",
       "solution": "ایسا بہت ہوتا ہے۔ کسی مستند استاد سے پوچھیں کہ کون سا جواب آپ پر لاگو ہوتا ہے اور کون سی تفصیلات بعد کے لیے چھوڑ سکتے ہیں۔"
+    },
+    {
+      "problem": "شروع کا جوش ماند پڑ گیا ہے، اور مجھے شک ہے کہ کیا میں کبھی مخلص تھا",
+      "solution": "نبی ﷺ کے صحابہ نے بھی یہ محسوس کیا۔ حنظلہؓ کو ڈر ہوا کہ وہ منافق ہیں کیونکہ گھر پر ان کے ایمان کی کیفیت مدھم پڑ جاتی تھی، اور نبی ﷺ نے انہیں تسلی دی (صحیح مسلم 2750a)۔ نمازیں جاری رکھیں چاہے وہ بے کیف لگیں، ایک چھوٹا سا ایسا عمل شامل کریں جسے آپ نبھا سکیں، اور سوالات اور شکوک کے موضوع میں وہ حصہ پڑھیں جو ایمان کے بے کیف محسوس ہونے کے بارے میں ہے۔"
     }
   ],
   "tinyVersion": "ایک سوال ایک واضح جملے میں لکھیں اور کسی ایک ایسے شخص کو بھیجیں جو اس کا جواب دے سکے۔",
   "unlocksNext": "سوال پوچھنا جاننا آپ کے ایمان کو دبنے سے بچاتا ہے اور آپ کو مسلسل رفتار سے علم بڑھانے دیتا ہے۔",
-  "resourceIds": ["yaqeen-institute", "seekers-guidance", "new-muslim-academy"],
-  "relatedGlossaryIds": ["iman", "imam", "fitrah", "tawhid"],
-  "relatedTopicIds": ["questions-and-doubts", "beliefs", "new-muslim-basics"],
+  "resourceIds": [
+    "yaqeen-institute",
+    "seekers-guidance",
+    "new-muslim-academy"
+  ],
+  "relatedGlossaryIds": [
+    "iman",
+    "imam",
+    "fitrah",
+    "tawhid"
+  ],
+  "relatedTopicIds": [
+    "questions-and-doubts",
+    "beliefs",
+    "new-muslim-basics"
+  ],
   "commonQuestions": [
     {
       "problem": "اگر مجھے فوراً جواب نہ ملے تو؟",
       "solution": "انتظار کرتے ہوئے بنیادی کام جاری رکھیں۔ نماز، دعا یا سیکھنا جاری رکھنے سے پہلے ہر سوال کا حل ضروری نہیں۔"
     }
   ],
-  "sourceIds": ["yaqeen-institute", "seekersguidance", "new-muslim-academy"],
-  "reviewStatus": "source-checked"
+  "sourceIds": [
+    "yaqeen-institute",
+    "seekersguidance",
+    "new-muslim-academy",
+    "sunnah-muslim-2750a"
+  ],
+  "reviewStatus": "review-needed",
+  "relatedLinks": [
+    {
+      "label": "سوالات اور جوابات",
+      "href": "/faq"
+    },
+    {
+      "label": "مدد حاصل کریں",
+      "href": "/get-help"
+    },
+    {
+      "label": "مدد کیسے مانگیں",
+      "href": "/guides/how-to-ask-for-help"
+    }
+  ]
 }

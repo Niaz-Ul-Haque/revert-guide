@@ -62,9 +62,22 @@
   ],
   "tinyVersion": "آج حفاظت کے لیے ایک نماز چنیں، چاہے آپ کو ساتھ کوئی گائیڈ کھول کر رکھنی پڑے۔",
   "unlocksNext": "جب آپ کو راستہ مل جائے تو مکمل نماز کا قدم دیوار جیسا نہیں لگتا۔",
-  "resourceIds": ["learn-salah-guide", "pillars-app", "being-muslim-book"],
-  "relatedGlossaryIds": ["salah", "wudu", "qiblah", "al-fatiha"],
-  "relatedTopicIds": ["prayer", "new-muslim-basics", "dua-and-dhikr"],
+  "resourceIds": [
+    "learn-salah-guide",
+    "pillars-app",
+    "being-muslim-book"
+  ],
+  "relatedGlossaryIds": [
+    "salah",
+    "wudu",
+    "qiblah",
+    "al-fatiha"
+  ],
+  "relatedTopicIds": [
+    "prayer",
+    "new-muslim-basics",
+    "dua-and-dhikr"
+  ],
   "commonQuestions": [
     {
       "problem": "کیا میں کسی گائیڈ سے پڑھتے ہوئے نماز پڑھ سکتا ہوں؟",
@@ -93,7 +106,27 @@
       "title": "ایک رکعت کا ہر کلمہ",
       "channel": "Islamwise",
       "duration": "10:29",
-      "sourceIds": ["video-islamwise-rakah-recap"]
+      "sourceIds": [
+        "video-islamwise-rakah-recap"
+      ]
+    }
+  ],
+  "relatedLinks": [
+    {
+      "label": "وقفے کے بعد واپس آنا",
+      "href": "/guides/coming-back"
+    },
+    {
+      "label": "نماز پڑھنا سیکھیں (صلاۃ) کا ساتھی",
+      "href": "/tools/salah-companion"
+    },
+    {
+      "label": "نماز کے اوقات",
+      "href": "/prayer-times"
+    },
+    {
+      "label": "کام اور تعلیم کی گائیڈ",
+      "href": "/guides/work-and-school"
     }
   ]
 }
