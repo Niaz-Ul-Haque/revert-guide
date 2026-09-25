@@ -1,6 +1,7 @@
 [
   {
     "id": "family-and-friends",
+    "group": "family-and-relationships",
     "title": "Gabay sa pamilya at mga kaibigan",
     "description": "Magplano ng mahinahong usapan, panatilihing ligtas ang sarili, at panghawakan ang ugnayang pampamilya kung saan kaya.",
     "intro": "Hindi mo kailangang sabihin sa lahat nang sabay-sabay. Tinutulungan ka ng pahinang ito na alamin kung sino talaga ang kailangang makaalam, ano ang sasabihin sa unang minuto, at paano pipigilan ang usapan na mauwi sa debate.",
@@ -42,6 +43,16 @@
         ]
       },
       {
+        "heading": "Hindi mo sila kailangang kumbinsihin",
+        "body": "May mga taong magsasabi sa iyo na kailangan mong dalhin sa Islam ang mga magulang mo, at na ikaw ang mananagot sa pinili nila. Sinasabi ng Quran sa Propeta mismo, \"Hindi mo nagagabayan ang sinumang naisin mo, ngunit ginagabayan ng Allah ang sinumang Kanyang naisin\" (Quran 28:56). Walang pamimilit sa relihiyon (Quran 2:256), at ipinadala ang Propeta bilang tagapagpaalala, hindi bilang tagakontrol (Quran 88:21-22). Nasa pagitan nila at ng Allah ang pinipili ng pamilya mo.\n\nMagkakaiba ang paglalarawan ng mga iskolar sa tungkuling anyayahan ang iba sa Islam, at hindi nilulutas ng gabay na ito ang tanong na iyon. Tanungin ang guro mo kung binabagabag ka nito. Ang malinaw ay hindi ikaw ang magpapasan ng kalalabasan.",
+        "items": [
+          "Sagutin ang mga tanong kapag nagtanong ang pamilya mo, nang maikli at mabait.",
+          "Puwede kang tumanggi sa mga debate, sa street dawah, at sa pagdadala ng pamilya mo sa mga kaganapan.",
+          "Ipag-dua sila. Wala itong gastos at hindi kailanman nagsisimula ng away.",
+          "Subukang huwag makipagdebate sa mga magulang mo sa mga unang linggo mo. Hayaan silang makita kung paano ka namumuhay."
+        ]
+      },
+      {
         "heading": "Mga pista opisyal, kainan at pamumuhay sa bahay",
         "body": "Magiging nakakailang ang mga nakasanayan ng pamilya nang ilang panahon. Isaisip ang dalawang bagay: lumayo sa pagkaing malinaw na haram, at panatilihing mahinahon ang relasyon kung kaya. Kung may kasamang pagsamba ng ibang relihiyon ang isang okasyon ng pamilya, itanong sa isang kwalipikadong imam sa inyong lugar ang tungkol sa eksaktong sitwasyon mo sa halip na manghula.",
         "items": [
@@ -54,6 +65,17 @@
       {
         "heading": "Kaligtasan ang una",
         "body": "Kung may maaaring manakit sa iyo, pumigil sa pag-alis mo, magbasa ng telepono mo, kumuha ng mga dokumento mo, o magpaalis sa iyo sa bahay, hindi ito simpleng usapan. Bago ka magsabi ng anuman, makipag-ugnayan sa isang mapagkakatiwalaang lokal na propesyonal, crisis line, shelter, counsellor, chaplain, o pinuno ng komunidad na nakakaunawa sa pagpaplano ng kaligtasan."
+      },
+      {
+        "heading": "Pagdadalamhati sa mga taong nawala sa iyo",
+        "body": "Kapag tumahimik ang mga magulang o huminto sa pagtawag ang mga dating kaibigan, puwede itong maramdaman na parang pagdadalamhati kahit walang namatay. Isinusulat ng mga psychotherapist na sina Najwa Awad at Sarah Sultan na sumusunod ang pagdadalamhati sa maraming uri ng pagkawala, kasama ang pagkawala ng hinaharap na inasahan mo, at na hindi tanda ng mahinang pananampalataya ang pagdadalamhati. Nagdalamhati rin ang mga propeta. Nagdalamhati si Propeta Yaqub para sa anak niyang si Yusuf, at umiyak si Propeta Muhammad nang mamatay ang batang anak niyang si Ibrahim.\n\nHindi pagsisisi sa Islam ang pakiramdam ng lungkot na ito. Puwede mong mahalin ang pananampalataya mo at mangulila sa pamilya mo nang sabay.",
+        "items": [
+          "Isulat, sa ilang linya, kung ano ang nawala sa iyo. Nakakatulong ang pagpapangalan dito.",
+          "Kung ligtas, panatilihin ang isang maliit at regular na ugnayan sa pamilya mo, gaya ng maikling mensahe bawat linggo.",
+          "Maghanda nang maaga para sa mahihirap na petsa gaya ng mga holiday at kaarawan. May mga ideya ang gabay tungkol sa mga holiday.",
+          "Ibahagi ito sa isang taong pinagkakatiwalaan mo, o sa isang grupo ng balik-Islam.",
+          "Kung mabigat pa rin ang lungkot pagkalipas ng ilang buwan, o sumasagabal ito sa pang-araw-araw na buhay, magpatingin sa counsellor o sa doktor mo."
+        ]
       }
     ],
     "scripts": [
@@ -68,6 +90,10 @@
       {
         "title": "Sa kainan ng pamilya",
         "body": "Salamat sa pagsama sa akin. Hindi na ako kumakain ng baboy o umiinom ng alak, kaya nagdala rin ako ng makakain ko. Gusto ko pa ring makasama kayong lahat."
+      },
+      {
+        "title": "Kung pakiramdam nila ay pinipilit sila",
+        "body": "Mas gusto kong isabuhay ito kaysa pagtalunan. Kung gusto mong malaman pa balang araw, magtanong ka lang sa akin."
       }
     ],
     "scenarios": [
@@ -100,11 +126,32 @@
       {
         "label": "Hakbang tungkol sa pamilya at mga kaibigan",
         "href": "/roadmap/week-2-3/family-and-friends"
+      },
+      {
+        "label": "Mga anak at buhay pamilya",
+        "href": "/guides/children-and-family-life"
+      },
+      {
+        "label": "Kung wala ka pang 18",
+        "href": "/guides/young-converts"
+      },
+      {
+        "label": "Malapit na pamilya (mahram)",
+        "href": "/topics/modesty"
+      },
+      {
+        "label": "Protektahan ang mga kagustuhan mo tungkol sa libing",
+        "href": "/guides/when-someone-dies"
+      },
+      {
+        "label": "Pag-aalaga sa isip mo",
+        "href": "/mental-health"
       }
     ]
   },
   {
     "id": "first-masjid-visit",
+    "group": "starting-out",
     "title": "Gabay sa unang pagbisita sa masjid",
     "description": "Ano ang aasahan sa unang pagpasok mo sa masjid: ano ang isusuot, saan ilalagay ang sapatos, sino ang hihingan ng tulong, at paano naiiba ang pagdarasal tuwing Biyernes.",
     "intro": "Medyo magkakaiba ang takbo ng bawat masjid. Mas madali ang pagbisita kapag alam mo kung sino ang tatanungin, ano ang isusuot, at ano ang gagawin kapag hindi mo matukoy ang nangyayari.",
@@ -112,7 +159,8 @@
       "Puwede kang tumawag o mag-email sa masjid bago ka pumunta.",
       "Sapat na ang malinis at disenteng damit. Hindi mo kailangan ng pangkulturang kasuotan.",
       "Pagdating mo, direktang humingi ng tulong sa isang tao.",
-      "Mas matao ang pagdarasal tuwing Biyernes kaysa sa karaniwang pang-araw-araw na pagdarasal."
+      "Mas matao ang pagdarasal tuwing Biyernes kaysa sa karaniwang pang-araw-araw na pagdarasal.",
+      "Huwag dumaan sa harap ng taong nagdarasal, at manatiling tahimik habang may sermon sa Biyernes."
     ],
     "sections": [
       {
@@ -140,6 +188,24 @@
         ]
       },
       {
+        "heading": "Maliliit na paggalang",
+        "body": "May ilang gawi na nagpapagaan sa masjid para sa lahat. Kadalasan, hindi ito binabanggit ng mga tao hangga't hindi ka nagkakamali sa isa, kaya narito ang mga ito kasama ang mga sanggunian. Kung may nagtama sa iyo, sabihing \"Salamat, bago lang ako,\" at tanungin ang guro mo kalaunan kung patakaran ba iyon o lokal na nakagawian.",
+        "items": [
+          "Huwag dumaan nang direkta sa harap ng taong nagdarasal. Sinabi ng Propeta (sumakanya nawa ang kapayapaan) na kung alam ng isang tao ang kasalanan ng pagdaan sa harap ng nagdarasal, mas gugustuhin pa niyang maghintay nang apatnapung (araw, buwan o taon) kaysa gawin ito (Sahih al-Bukhari 510). Dumaan sa likod nila, o lampas sa bagay na inilagay nila sa harap nila, na tinatawag na harang (sutrah).",
+          "Kapag nagdarasal ka nang mag-isa, humarap sa pader, haligi o isang bagay, at manatiling malapit dito (Sunan Abi Dawud 698, graded hasan sahih). Makakadaan na ang mga tao lampas dito nang hindi ka naaabala (Sahih Muslim 499a).",
+          "Pagpasok mo, puwede mong sabihin ang \"Allahumma iftah li abwaba rahmatik\" (O Allah, buksan Mo para sa akin ang mga pinto ng Iyong awa), at paglabas mo, \"Allahumma inni as'aluka min fadlik\" (O Allah, hinihiling ko sa Iyo ang Iyong biyaya) (Sahih Muslim 713a). Inirerekomenda ang mga ito, hindi obligado.",
+          "Kung kaya mo, magdasal ng dalawang maikling yunit ng pagdarasal (rak'ah) pagdating mo, bago ka umupo (Sahih al-Bukhari 444). Kung hindi ka sigurado kung magandang oras ito, umupo ka na lang, at tanungin ang guro mo kalaunan.",
+          "Kung dumating ka habang may sermon sa Biyernes (khutbah): sinabihan ng Propeta ang isang lalaking pumasok habang may sermon na tumayo at magdasal ng dalawang rak'ah (Sahih Muslim 875c). Nagkakaiba ang mga iskolar kung gagawin ito habang nagpapatuloy ang sermon, kaya tanungin ang guro mo kung ano ang sinusunod ng masjid mo, at huwag itong pagtalunan sa hanay.",
+          "Habang may sermon, makinig at manatiling tahimik, at itabi ang phone mo. Sinabi ng Propeta na mali pa nga ang pagsasabi sa katabi mo na tumahimik habang may sermon (Sahih al-Bukhari 934).",
+          "Huwag humakbang sa ibabaw ng mga tao para makarating sa harap. Ang lalaking gumawa niyon habang may sermon sa Biyernes ay sinabihan ng, \"Umupo ka, naabala mo ang mga tao\" (Sunan Abi Dawud 1118, graded sahih). Umupo kung saan may espasyo, kahit sa likod.",
+          "Subukang huwag pumunta kaagad pagkatapos kumain ng sibuyas, bawang o leek. Sinabihan ng Propeta ang mga taong kumain ng sibuyas o leek na huwag lumapit sa masjid (Sahih Muslim 564a), at binabanggit ng isa pang ulat ang bawang at sibuyas (Sahih al-Bukhari 855).",
+          "Puwedeng pumunta sa masjid ang kababaihan. Sinabi ng Propeta, \"Huwag ninyong pigilan ang mga babaeng alipin ng Allah na pumunta sa mga masjid ng Allah\" (Sahih al-Bukhari 900). Tinatalakay ng mga iskolar ang mga kondisyon at kung saan mas mabuting magdasal ang babae, kaya tanungin ang guro mo tungkol sa sitwasyon mo. Kung sarado o masyadong maliit ang espasyo para sa kababaihan, tingnan ang seksyon tungkol sa espasyo ng kababaihan sa ibaba.",
+          "Welcome ang mga bata sa maraming masjid. Pinaikli ng Propeta ang isang pagdarasal nang marinig niyang umiiyak ang isang bata, para hindi mabagabag ang ina (Sahih al-Bukhari 707). Panatilihing malapit sa iyo ang maliliit na bata at alamin ang sariling patakaran ng masjid.",
+          "Ang mga kopya ng Quran sa mga istante ay para basahin sa loob ng masjid. Ibalik ang mga ito pagkatapos mo. Kung may regla ka o kailangan mo ng paghuhugas ng buong katawan (ghusl), ipinapaliwanag ng paksa tungkol sa regla at pagsamba kung saan nagkakaiba ang mga iskolar sa paghawak sa Quran.",
+          "Pagkatapos ng isang talk, hintayin ang oras ng tanungan o lapitan ang nagsalita pagkatapos. Nakakatulong na isulat muna ang tanong mo. Puwedeng i-email sa opisina ng masjid ang pribadong tanong."
+        ]
+      },
+      {
         "heading": "Mga batayan ng pagdarasal tuwing Biyernes",
         "body": "Ang Jumu'ah ay ang sama-samang pagdarasal tuwing Biyernes. May sermon muna, saka ang pagdarasal, at karaniwang puno ang silid. Kung tumapat sa Biyernes ang una mong pagbisita, dumating nang maaga at asahang siksikan ang paradahan, mga pinto at upuan."
       },
@@ -151,6 +217,16 @@
           "May pasukan ba o elevator para sa may kapansanan?",
           "Saan dapat pumarada ang unang beses na bisita?",
           "May klase ba para sa bagong Muslim, mentor, o taong puwede kong kausapin?"
+        ]
+      },
+      {
+        "heading": "Kung Deaf, bulag, autistic ka o may iba pang pangangailangan sa access",
+        "body": "Para sa lahat ang mga masjid, at normal ang paghingi ng access. I-email o tawagan ang opisina bago ang pagbisita mo at sabihin kung ano ang makakatulong.\n\nNakikipagtulungan ang Deaf Muslims of Canada sa mga organizer para mag-book ng ASL interpreter para sa mga kaganapan at nagsasanay ng mga interpreter sa mga Islamikong senyas. Nagpapatakbo ang ISDHH sa United States ng mga klase sa ASL at nagsasalin sa ASL ng khutbah tuwing Biyernes. Kung bulag ka o malabo ang paningin mo, hinahayaan ka ng mga audio Quran app na makinig at sumabay, at may ilan na nakalista sa pahina namin ng mga mapagkukunan.\n\nKung mahirap para sa iyo ang ingay at dami ng tao, bumisita sa mas tahimik na oras ng pagdarasal, magdala ng ear defenders, at ipaalam sa imam o sa isang boluntaryo na baka kailangan mong lumabas sandali. Hindi hinihingi ng Allah sa isang kaluluwa ang higit sa kaya nito (Quran 2:286).",
+        "items": [
+          "Makakapag-ayos ba kayo ng ASL interpreter para sa khutbah o sa isang klase?",
+          "May rampa, elevator at accessible na CR ba?",
+          "May mas tahimik bang oras o lugar na puwede kong gamitin?",
+          "Puwede ba akong magpareserba ng upuan o puwesto malapit sa harap?"
         ]
       }
     ],
@@ -180,6 +256,10 @@
       {
         "title": "Walang maibigay na suporta sa balik-Islam ang masjid.",
         "response": "Itanong kung may alam silang ibang masjid, chaplain, klase o grupo ng komunidad sa malapit. Maaaring manggaling ang suporta sa ibang masjid, online na klase, o isang matatag na tao."
+      },
+      {
+        "title": "May sumita sa iyo dahil dumaan ka sa harap ng taong nagdarasal.",
+        "response": "Sabihing \"Salamat, bago lang ako,\" at dumaan sa likod ng tao. Binalaan ng Propeta ang pagdaan sa harap ng nagdarasal, kaya tama ang punto kahit hindi tama ang tono."
       }
     ],
     "relatedLinks": [
@@ -194,11 +274,20 @@
       {
         "label": "Hakbang tungkol sa unang pagbisita sa masjid",
         "href": "/roadmap/week-1/first-masjid-visit"
+      },
+      {
+        "label": "Paksa tungkol sa regla at pagsamba",
+        "href": "/topics/menstruation-and-worship"
+      },
+      {
+        "label": "Pagdarasal sa likod ng imam (at pagsali nang huli)",
+        "href": "/tools/salah-companion#behind-imam"
       }
     ]
   },
   {
     "id": "work-and-school",
+    "group": "everyday-life",
     "title": "Gabay sa trabaho at paaralan",
     "description": "Praktikal na pananalita para sa pagdarasal, pag-aayuno at pagkain sa trabaho o paaralan, at kung aling mga tuntunin sa akomodasyon ang para sa lugar mo sa Canada.",
     "intro": "Mas napapadali ang karamihan nito kung magtatanong ka nang maaga at pananatilihing maliit at tiyak ang kahilingan. Hindi mo utang sa kahit sino ang buong kuwento ng buhay mo para makakuha ng ilang minuto para magdasal.",
@@ -212,7 +301,7 @@
     "sections": [
       {
         "heading": "Magsimula sa tunay mong iskedyul",
-        "body": "Isulat ang mga shift o oras ng klase mo, mga break, biyahe, at anumang malinis at tahimik na lugar sa malapit. Kasya sa karaniwang break ang karamihan ng pagdarasal kapag nakita mo na ito sa papel. Para sa mga hindi kasya, mas tinatanggap ang maikli at tiyak na kahilingan kaysa mahabang paliwanag tungkol sa relihiyon."
+        "body": "Isulat ang mga shift o oras ng klase mo, mga break mo, ang biyahe mo, at anumang malinis at tahimik na lugar sa malapit. Kasya ang karamihan ng pagdarasal sa isang karaniwang break kapag nakita mo na ito sa papel. Para sa mga hindi kasya, mas tinatanggap ang maikli at tiyak na hiling kaysa sa mahabang paliwanag tungkol sa relihiyon. Kung sakop ng isang shift ang buong saklaw na oras ng isang pagdarasal, humingi muna ng maikling break. Nagkakaiba ang mga mazhab sa pagsasama ng mga pagdarasal dahil sa trabaho: pinapayagan ito ng AMJA para sa tunay na kahirapan bilang pansamantalang hakbang, habang pinapayagan lamang ng mazhab na Hanafi ang pagdarasal ng isang pagdarasal sa dulo ng oras nito at ng susunod sa simula ng oras nito. Magtanong sa isang guro bago ka magsimulang magsama ng pagdarasal."
       },
       {
         "heading": "Pagdarasal sa trabaho o paaralan",
@@ -272,6 +361,53 @@
         ]
       },
       {
+        "heading": "Kung may kinalaman ang trabaho mo sa alak, baboy, interes o sugal",
+        "body": "Maraming tao ang nagiging Muslim habang nagtatrabaho bilang server, bartender, cashier o sa bangko. Pakiusap, huwag mag-resign kinabukasan ng Shahada mo nang walang nakahandang ibang kita. Unang tinitingnan ng mga iskolar kung gaano kadirekta ang pagkakadikit ng sarili mong mga gawain sa ipinagbabawal na bagay.\n\nGaling ang mga sagot sa ibaba sa mga guro ng SeekersGuidance (karamihan ay Hanafi) at sa Assembly of Muslim Jurists of America (AMJA). Hindi pa namin nasusuri kung paano tinitingnan ng ibang mazhab ang bawat kaso, at walang dalawang trabahong magkapareho, kaya magtanong sa isang kwalipikadong iskolar tungkol sa eksaktong papel mo bago ka mag-resign.",
+        "items": [
+          "Direktang papel: sinasabi ng mga sagot ng SeekersGuidance na hindi pinapayagan ang pagsisilbi ng alak o baboy, at ang paghahanda o pagpo-promote ng haram na pagkain. Sinasabi ng isang iskolar ng AMJA na nagkakasundo ang mga iskolar na ipinagbabawal ang pagbebenta ng alak. Pinapangalanan ng isang hadith sa Jami at-Tirmidhi (1295, graded hasan) ang nagsisilbi ng alak at ang nagbebenta nito sa mga isinumpa.",
+          "Hindi direktang papel: pinapayagan ng isang sagot mula sa SeekersGuidance ang trabahong paglilinis sa restaurant na nagbebenta ng alak, at ang sahod nito. Pinapayagan ng isa pa ang pagtatrabaho bilang cashier kung saan nagbebenta ng haram na pagkain, habang nagpapayo ng pag-iingat at paghahanap ng ibang trabaho. Parehong nakabatay ang mga ito sa utos ng Quran na huwag makipagtulungan sa kasalanan (5:2).",
+          "Bangko: sinasabi ng isang iskolar ng AMJA na hindi pinapayagan ang direktang pagtatrabaho sa pagpapautang na may interes, habang pinapayagan sa prinsipyo ang ibang serbisyo ng bangko. Ipinapayo niya ang masigasig na paghahanap ng ibang trabaho.",
+          "Casino, pustahan, at butcher o deli counter na humahawak ng baboy: wala pa kaming nakitang sanggunian tungkol sa mga trabahong ito, kaya magtanong sa isang iskolar tungkol sa papel mo.",
+          "Kung ang pag-alis ngayon ay mangangahulugang hindi mo mababayaran ang upa o matutugunan ang mga batayang pangangailangan: sinasabi ng isang sagot na Hanafi sa SeekersGuidance na puwede kang magpatuloy sa trabaho habang aktibo kang naghahanap ng pinapayagang trabaho. Isang sagot iyan mula sa isang mazhab, kaya tiyakin ito sa isang iskolar.",
+          "Huwag kumuha ng loan na may interes para tulayan ang puwang."
+        ]
+      },
+      {
+        "heading": "Paghiling na makipagpalit ng gawain",
+        "body": "Minsan, pagpapalit ng gawain ang sagot at hindi bagong trabaho. Sinasabi ng patakaran ng Ontario tungkol sa creed (seksyon 10.6) na puwedeng umabot sa paghawak ng pagkain ang paghihigpit sa pagkain na nakabatay sa creed, at nagbibigay ito ng halimbawa ng isang planta na naglipat sa ibang trabaho ng mga empleyadong hindi makahawak ng baboy. Inilalarawan ng seksyon 10.5 ng parehong patakaran ang isang kaso sa Newfoundland: natuklasan ng isang tribunal na dapat hinayaan ng employer na iba ang magbenta ng tiket sa isang kaganapang nagbebenta ng alak, sa halip na suspindihin ang empleyadong Pentecostal na tumutol. Halimbawa iyon mula sa ibang probinsya, hindi patakaran para sa bawat lugar ng trabaho. Inililista rin ng gabay ng NCCM ang hindi paghawak ng baboy o alak sa mga akomodasyong hinihingi ng mga empleyadong Muslim.",
+        "items": [
+          "Isulat kung aling mga gawain mo ang direktang may kinalaman sa alak, baboy, interes o sugal.",
+          "Tanungin ang manager mo kung puwedeng sakupin ng isang katrabaho ang mga gawaing iyon, halimbawa ang pagsasalin ng inumin o paghawak ng baboy.",
+          "Ituon ang hiling sa gawain. Hindi kailangan ng manager mo ang buong kuwento ng pagyakap mo sa Islam.",
+          "Kung walang mababago, magpatuloy sa trabaho habang naghahanap ka ng ibang trabaho, at pag-usapan ito kasama ang isang iskolar."
+        ]
+      },
+      {
+        "heading": "Pagtatrabaho at pag-aaral kasama ang kabilang kasarian",
+        "body": "Hindi ka hinihiling ng Islam na tumigil sa pagtatrabaho o pag-aaral kasama ang kabilang kasarian. Sinasabi ng isang sagot mula sa SeekersGuidance na walang problema sa pakikipag-usap o pakikipagtrabaho sa kabilang kasarian kapag may pangangailangan, nang may kahinhinan at nakababang tingin (Quran 24:30-31). Ang hinihiling ng mga iskolar na iwasan mo ay ang pag-iisa (khalwa): ang lalaki at babaeng hindi malapit na magkamag-anak, na mag-isang magkasama sa saradong lugar kung saan walang ibang makakakita o makakapasok. Sinasabi ng isang hadith sa Jami at-Tirmidhi (2165, graded sahih) na kapag nag-iisa ang isang lalaki kasama ang isang babae, si Shaytan ang ikatlo sa kanila.\n\nBahagyang magkakaiba ang pagpapakahulugan ng mga mazhab sa pag-iisa, halimbawa kung bilang ba ang isang lalaki kasama ang dalawang babae. Karamihan ay Hanafi ang mga sagot dito, kaya tanungin ang guro mo kung paano ito inilalarawan ng mazhab mo.\n\nDalawang pagkakamali ang karaniwan. Ang una ay ang pagtanggi sa lahat ng ugnayan sa trabaho sa kabilang kasarian, na hindi hinihingi sa iyo ng mga iskolar na ito. Ang pangalawa ay ang pagpapatuloy ng isang pribado at emosyonal na malapit na pagkakaibigan dahil wala namang nangyayari.",
+        "items": [
+          "Mga opisina at meeting room: sinasabi ng isang sagot na Hanafi sa SeekersGuidance na hindi pag-iisa ang opisinang karaniwang pinapasok ng mga tao, o may bintana o ikatlong tao. Sa oras ng tanghalian o sa tahimik na oras, iwanang bukas ang pinto o lumabas muna.",
+          "Mga meeting sa gabi: mag-imbita ng ikatlong katrabaho, o mag-book ng kuwartong may salaming dingding o iwanang nakaawang ang pinto.",
+          "Ayos ang mga email, mensahe at tawag para sa trabaho o pag-aaral, ayon sa isang sagot na Hanafi sa SeekersGuidance. Hindi ayos ang pakikipaglandian at usapang pang-dating.",
+          "Mga study partner at tutoring: magkita sa library, lab o bukas na lugar para mag-aral sa halip na sa saradong kuwarto.",
+          "Pagsakay sa kotse nang mag-isa kasama ang isang katrabaho: wala pa kaming nakitang sangguniang tumatalakay dito, kaya tanungin ang guro mo.",
+          "Mga medical appointment: wala pa kaming nakitang sangguniang masisipi tungkol sa pagpapatingin sa doktor na kabilang kasarian. Tanungin ang guro mo kung inaalala mo ito, at huwag ipagpaliban ang pangangalagang kailangan mo habang hinihintay ang sagot.",
+          "Mga online game at chat: tinatawag ng isang Shafi'i na guro sa SeekersGuidance na walang dudang hindi angkop ang hindi kailangang online na aktibidad kasama ang kabilang kasarian, gaya ng sabay na paglalaro. Madaling unang hakbang ang pag-off ng voice chat sa mga estranghero.",
+          "Mga lumang pagkakaibigan: panatilihin ang kabaitan at paggalang. Ang nagbabago ay ang pribado at isa-sa-isang pagiging malapit, at mahinahong paraan para gawin ang pagbabagong iyon ang paglipat ng mga usapan sa group chat o sa grupo. Makipag-usap sa isang guro o mentor tungkol sa pakikipagkaibigan sa dating karelasyon."
+        ]
+      },
+      {
+        "heading": "Sa high school, college o unibersidad",
+        "body": "Maraming unibersidad at college sa Canada ang may nakasulat na patakaran tungkol sa pagsasagawa ng relihiyon. Hinihiling ng patakaran ng University of Toronto sa mga estudyante na sabihan ang mga instructor sa tamang panahon, hinihiling sa mga instructor na iwasang magtakda ng test sa mga banal na araw, at binibigyan ang mga estudyante ng pagkakataong bayaran ang nalampasang gawain o kumuha ng exam sa ibang oras. Sinasabi ng U of T Student Life na hindi kailangan ng dokumentasyon mula sa mga lider ng pananampalataya. Sinasabi rin ng calendar ng University of British Columbia na hindi kailangan ng sulat mula sa lider ng pananampalataya, humihingi ito ng abiso sa lalong madaling panahon (karaniwang 14 na araw), at inililista nito ang pagliban para sa pang-araw-araw na pagdarasal, pag-aayuno o pagbubukas ng ayuno, at mga dress code sa mga pagsasagawang inaakomoda nito. Magkakaiba ang patakaran ng bawat paaralan, kaya hanapin ang sa iyo.\n\nPara sa high school, sinisipi ng patakaran ng Ontario tungkol sa creed (seksyon 10.2) ang mga alituntunin ng York Region District School Board bilang mga halimbawa: damit para sa phys-ed, pribadong pagbibihis at alternatibong swimwear. Mga alituntunin iyon ng iisang board, hindi patakaran para sa bawat paaralan, pero ipinapakita nito ang uri ng bagay na puwede mong hingin. Para sa mga CEGEP at unibersidad sa Quebec, basahin ang seksyon tungkol sa Quebec sa itaas.\n\nMalayo sa pagiging nag-iisa ka sa campus. Sa survey ng Yaqeen Institute sa mga balik-Islam sa United States, 89% ang may kaunting edukasyon sa college.",
+        "items": [
+          "Sa simula ng bawat term, ihambing ang mga petsa ng exam sa Ramadan at sa dalawang Eid, at sumulat sa mga instructor mo nang maaga sa halip na sa linggo ng exam.",
+          "Hanapin ang multi-faith centre o chaplaincy ng campus mo at itanong kung saan nagdarasal ang mga estudyante. Sa U of T, ito ay ang Multi-Faith Centre sa 569 Spadina Crescent.",
+          "Maraming campus ang may Muslim Students' Association (MSA). Makakatulong ito sa lugar para magdasal at sa mga kaibigan, pero club ito ng mga estudyante, kaya dalhin sa isang kwalipikadong guro ang mga tanong tungkol sa mga hatol.",
+          "Puwedeng umikot sa pag-inom ang residence at frosh week. Tanungin ang residence staff kung may mga floor na walang alak o droga o mga kaganapang walang alak.",
+          "Sa mahahabang lab o group session, sabihin sa grupo kung kailan ang oras ng pagdarasal at lumabas nang sampung minuto."
+        ]
+      },
+      {
         "heading": "Paalalang legal",
         "body": "Pangkalahatang impormasyon ito, hindi payong legal. Nagbabago ang mga batas at patakaran, at iba-iba ang paghawak ng bawat paaralan at employer sa mga kahilingan. Para sa sarili mong sitwasyon, makipag-ugnayan sa human rights commission kung saan ka nakatira, sa isang legal clinic, o sa isang abogado."
       }
@@ -292,6 +428,18 @@
       {
         "title": "Pakikipag-usap sa isang tao sa paaralan",
         "body": "Muslim ako at kailangan ko ng ilang minuto para magdasal sa araw. Sino ang dapat kong kausapin tungkol sa angkop na lugar at sa pagsasaayos nito sa iskedyul ko?"
+      },
+      {
+        "title": "Paghiling na makipagpalit ng isang gawain",
+        "body": "Dahil sa relihiyon, hindi na ako puwedeng magsalin ng alak o humawak ng baboy. Puwede bang iba ang sumakop sa bahaging iyon ng shift, at ako naman ang kukuha ng mas maraming ibang gawain bilang kapalit?"
+      },
+      {
+        "title": "Pagmumungkahi ng bukas na lugar para magkita",
+        "body": "Ayos lang ba kung sa bukas na lugar tayo magkita, o panatilihin nating bukas ang pinto? Tungkol ito sa relihiyon ko, walang kinalaman sa iyo."
+      },
+      {
+        "title": "Paghiling na ilipat ang exam",
+        "body": "Muslim ako at Eid ang [petsa], na ipinagdiriwang ko. Sa ilalim ng patakaran tungkol sa pagsasagawa ng relihiyon, puwede ba akong kumuha ng exam sa ibang oras? Sinasabi ko na ngayon para mas madaling ayusin."
       }
     ],
     "scenarios": [
@@ -320,11 +468,24 @@
       {
         "label": "Hakbang tungkol sa pagtatanong sa imam",
         "href": "/roadmap/month-3-6/asking-an-imam"
+      },
+      {
+        "label": "Wudu habang nakasuot ng headscarf",
+        "href": "/faq#faq-pry-043"
+      },
+      {
+        "label": "Shift work at pagsasama ng mga pagdarasal",
+        "href": "/faq#faq-pry-038"
+      },
+      {
+        "label": "Pagharap sa pagkapoot at panliligalig",
+        "href": "/guides/facing-hate-and-harassment"
       }
     ]
   },
   {
     "id": "identity-and-culture",
+    "group": "starting-out",
     "title": "Gabay sa pagkakakilanlan at kultura",
     "description": "Maging Muslim nang hindi pakiramdam na kailangan mong tanggapin ang kultura ng iba.",
     "intro": "Binabago ng Islam kung paano ka sumasamba at kung ano ang pinahahalagahan mo. Hindi nito binubura ang personalidad, lahi, wika, o mabubuting bahagi ng pinanggalingan mo.",
@@ -342,6 +503,20 @@
       {
         "heading": "Mga pangalan",
         "body": "Pinananatili ng karamihan ng bagong Muslim ang pangalang ibinigay sa kanila. May ilang nagdaragdag ng Muslim na pangalan dahil gusto nila. Karaniwang hindi kailangan ang pagpapalit maliban kung salungat sa paniniwala ng Islam ang pangalan o pangit ang kahulugan nito. Kung hindi ka sigurado sa kahulugan ng pangalan mo, magtanong sa isang kwalipikado sa halip na ipagpalagay ang pinakamasama."
+      },
+      {
+        "heading": "Relihiyon o kaugalian? Mga halimbawa",
+        "body": "Maraming nakikita mo sa masjid ang mabubuting kaugalian, hindi patakarang panrelihiyon. Binabanggit ng ulat ng Yaqeen Institute tungkol sa mga balik-Islam sa Amerika na minsan ay napaghahalo ng mga Muslim na may mabuting intensyon ang Islamiko at ang pamilyar lang sa kultura, at na hindi inaasahang iiwan ng mga balik-Islam ang sarili nilang kultura. Ibinibilang ng Quran ang pagkakaiba-iba ng mga wika at kulay ng tao sa mga tanda ng Allah (Quran 30:22), at sinasabing ginawa ang mga tao na mga bansa at tribo para magkakilanlan (Quran 49:13). Ilang halimbawa:",
+        "items": [
+          "Pananamit: hinihingi ng Islam ang mahinhing pagtatakip. Estilong pangkultura ang thobe, shalwar kameez o abaya, hindi obligasyon.",
+          "Pagkain: hinihingi ng Islam ang halal na pagkain. Kaugalian ang biryani sa iftar. Ayos din ang pumpkin pie sa iftar, at ginagamit mismo ng ulat ng Yaqeen ang halimbawang iyon.",
+          "Wika: sinasabi sa Arabic ang ilang takdang bahagi ng pagdarasal. Hindi mo kailangang magsalita ng Arabic o Urdu sa usapan, at nasa bawat masjid kung nasa Ingles ang sermon sa Biyernes.",
+          "Mga pangalan: pinananatili ng karamihan ng balik-Islam ang pangalan nila. Tinatalakay ito ng seksyon tungkol sa mga pangalan sa itaas.",
+          "Mga kasal: malaki ang pagkakaiba-iba ng mga seremonya, kasuotan at kaugalian sa regalo sa pagitan ng mga kultura. Tanungin ang guro mo kung aling bahagi ng kasal ang obligasyong panrelihiyon.",
+          "Ang balbas, at kung gaano pinaghihiwalay ang kalalakihan at kababaihan sa mga kaganapan: nagkakaiba ang mga iskolar at masjid dito, kaya tanungin ang guro mo sa halip na maniwala sa salita ng iisang tao.",
+          "Magdala ng putahe mula sa sarili mong pinagmulan sa susunod na potluck. May mabubuting bagay ring maibabahagi ang kultura mo.",
+          "Hindi mo kailangang baguhin ang damit mo, ang pangalan mo at ang pagluluto mo sa unang linggo para magmukhang Muslim. Hindi mo rin kailangang tanggihan ang mga kulturang Muslim. Kunin ang mabuti mula sa mga ito ayon sa sarili mong bilis."
+        ]
       },
       {
         "heading": "Ang pakiramdam na nasa gitna",
@@ -380,6 +555,10 @@
       {
         "title": "Kapag pakiramdam mo ay nahuhuli ka",
         "body": "Bago ako at sineseryoso ko ito. Puwede mo ba akong tulungan sa pinakamahalaga ngayon sa halip na bigyan ako ng sampung bagay nang sabay-sabay?"
+      },
+      {
+        "title": "Kapag paulit-ulit kang itinatama ng isang nakatatanda",
+        "body": "Salamat po, alam kong mabuti ang intensyon ninyo. Hinihingi po ba ito ng Islam, o ganito lang ang nakagawian kung saan kayo lumaki? Sinusubukan ko pong alamin ang pagkakaiba."
       }
     ],
     "scenarios": [
@@ -413,6 +592,7 @@
   },
   {
     "id": "relationships-and-marriage-basics",
+    "group": "family-and-relationships",
     "title": "Mga batayan sa relasyon at kasal",
     "description": "Bagalan ang malalaking desisyon, magtanong sa mga tamang tao, at ingatan ang kaligtasan at dangal mo.",
     "intro": "Nagiging kumplikado ang mga relasyon pagkatapos ng Shahada, lalo na kapag kasama ang pamilya, nakaraang pakikipag-date, presyon sa kasal, o inaasahan ng isang karelasyon. Simple ang unang hakbang dito: huwag gumawa nang mag-isa ng nagmamadaling desisyon tungkol sa buhay mo.",
@@ -444,6 +624,32 @@
         ]
       },
       {
+        "heading": "Kung hindi Muslim ang partner mo",
+        "body": "Maraming tao ang nagsasabi ng Shahada habang may karelasyon o may kasamang partner sa bahay. Balido ang Shahada mo, at pinatawad na ang ginawa mo bago ito. Ang nagbabago ay ang hinaharap. Sa Islam, sa loob ng kasal (nikah) lamang ang sekswal na pagiging malapit. Sinasabi ng Quran na \"Huwag kayong lumapit sa pakikiapid\" (17:32), at binabasa ito ng mga iskolar na pag-iwas din sa mga nauuwi rito.\n\nNakadepende sa kung lalaki ka o babae, at sa relihiyon ng partner mo, kung puwede mong pakasalan ang partner mo.\n\nKung babae ka, parehong sinasabi ng AMJA (fatwa 21783) at SeekersGuidance (2017) bilang usaping may pinagkaisahan ng mga iskolar na hindi nagpapakasal ang babaeng Muslim sa lalaking hindi Muslim. Ibinabatay nila ito sa Quran (2:221 at 60:10).\n\nKung lalaki ka, pinapayagan ng Quran (5:5) ang pagpapakasal sa isang malinis ang puri na babaeng Kristiyano o Hudyo. Hinihimok pa rin ng mga guro ang pag-iingat. Sinasabi ng AMJA (fatwa 2575) na pinapayagan ito pero hindi nila ito ipinapayo, dahil sa mga problemang nakita nila sa praktika. Nagtatakda ang mazhab na Shafi'i ng mas mahigpit na kondisyon kung sino ang bilang na babaeng Kristiyano o Hudyo rito, at sinasabi ng isang Shafi'i na guro sa SeekersGuidance (2016) na bihirang magsagawa ng ganoong nikah ang mga lokal na iskolar. Hindi saklaw ng pahintulot na ito ang babaeng may ibang relihiyon, o walang relihiyon.\n\nKung magkainteres sa Islam ang partner mo, magandang balita iyon. Kailangan pa ring para sa Diyos ang Shahada niya, hindi para mapanatili ka (SeekersGuidance 2014). Ipinapayo ng isang guro ng SeekersGuidance (2019) na maghintay ng kahit isang taon pagkatapos ng Shahada ng partner para makita ang tunay na paninindigan bago ang wastong nikah. Payo iyon, hindi hatol. Magtanong sa isang kwalipikadong guro na nakakaalam ng sitwasyon mo."
+      },
+      {
+        "heading": "Kung nagsasama na kayo o may mga anak na",
+        "body": "Pakiusap, huwag umalis ngayong gabi dahil sa pagkataranta. Nangangailangan ng plano ang bahay, mga anak at pera, at puwedeng makasakit sa mga mahal mo ang padalos-dalos na paglipat. Hinihiling nga ng mga iskolar na itigil mo na ngayon ang sekswal na pagiging malapit. Kung nagsasama kayo, matulog nang magkahiwalay habang nagpaplano kayo, at kumuha agad ng kwalipikado at pribadong tulong.\n\nPara sa magkarelasyong balik-Islam na nagsasama bago ikasal, ipinapayo ng isang guro ng SeekersGuidance (2020) na gawin ang nikah sa lalong madaling panahon o, kung hindi ito mangyayari agad, magkahiwalay na manirahan, halimbawa kasama ang roommate na kaparehong kasarian. Kung babae ka at hindi Muslim ang partner mo, sinasabi ng isang sagot mula sa SeekersGuidance (2017) na ang tanging daan sa kasal ay ang taos-pusong Shahada niya na susundan ng bagong nikah, at na bukas para sa iyo ang pagsisisi.\n\nTinatalakay din ng mga rekomendasyon ng AMJA tungkol sa bagong Muslim ang pagbubuntis bago ikasal, ang lahi ng batang ipinaglihi sa labas ng kasal, at pagsisisi bago magpakasal. Nagkakaiba ang mga hatol na iyon sa pagitan ng mga mazhab at nakadepende sa mga detalye, kaya dalhin ang sitwasyon mo sa isang iskolar sa halip na ikaw mismo ang maglapat ng mga ito.\n\nNangyayari ang pagkadulas. Itinuro ng Propeta na pinatatawad ng Allah ang mga taong nagkakasala at pagkatapos ay humihingi ng kapatawaran (Sahih Muslim 2749). Magsisi at magpatuloy.",
+        "items": [
+          "Sabihin sa isang kwalipikadong imam o guro ang buong katotohanan, nang pribado. Mas masamang sagot ang makukuha mo kung itatago mo dahil sa hiya ang mga anak, ang pera o ang sitwasyon sa bahay.",
+          "Huwag madaliin ang partner sa pagsasabi ng Shahada para lang makapagpakasal kayo.",
+          "Huwag ipagpalagay na pareho ang patakaran para sa lalaki at babae.",
+          "Patuloy na pakitunguhan nang mabuti ang partner at mga anak mo habang inaayos mo ito."
+        ]
+      },
+      {
+        "heading": "Ang bahay, mga anak at pera mo",
+        "body": "Pangkalahatang impormasyon ito tungkol sa Ontario, hindi payong legal. May ibang patakaran ang ibang probinsya, kaya alamin ang sa lugar mo.\n\nSa Ontario, hindi obligado ang magkarelasyong hindi kasal na hatiin ang ari-ariang nakuha nila habang nagsasama. Hindi ibig sabihin niyon na wala kang karapatan. Kung nag-ambag ka sa ari-ariang pag-aari ng partner mo, maaaring may claim ka sa bahagi nito, at puwedeng pumirma ang magkarelasyon ng cohabitation agreement. Hinahati ng mga kasal na mag-asawa ang halaga ng bahay ng pamilya.",
+        "items": [
+          "Isulat kung sino ang nakatira saan, kaninong pangalan ang nasa lease o mortgage, sino ang nagbabayad ng ano, ang mga routine ng mga bata, at anumang tungkol sa immigration status.",
+          "Kumausap ng family lawyer bago may lumipat. Sa Ontario, nagbibigay ang Law Society Referral Service ng libreng konsultasyon nang hanggang 30 minuto.",
+          "Kung kapos sa pera, tinutulungan ng Legal Aid Ontario ang mga kwalipikado sa mga usapin ng pagpapalaki ng anak, suporta at karahasan sa tahanan. Tumawag sa 1-800-668-8258, Lunes hanggang Biyernes, 8:30 a.m. hanggang 4:30 p.m. (ET).",
+          "Sa Ontario, tumawag o mag-text sa 2-1-1 para makahanap ng tulong sa pabahay at iba pang lokal na serbisyo.",
+          "Makakakuha ang kababaihan ng suportang pinapatakbo ng mga Muslim sa pamamagitan ng Nisa Helpline (1-888-711-6472), Nisa Homes at Sakeenah Canada (24/7 na linya 1-888-671-3446).",
+          "Kung nasa panganib ka, tumawag sa 911."
+        ]
+      },
+      {
         "heading": "Paano magtanong sa imam",
         "body": "Nagbibigay-daan ang malinaw na tanong para sumagot nang responsable ang isang imam o guro. Sabihin sa kanila na bagong Muslim ka at praktikal na susunod na hakbang ang gusto mo, hindi buong legal na manwal.",
         "items": [
@@ -456,6 +662,16 @@
       {
         "heading": "Mga hangganan at kaligtasan",
         "body": "Hindi nagiging malusog ang isang relasyon dahil lang sa pananalitang panrelihiyon. Bantayan ang pamimilit, pagkakahiwalay sa ibang tao, pagbabanta, pagtingin ng iba sa telepono mo, pagkontrol sa pera, pagmamadali sa kasal, o pagsasabing hindi ka puwedeng humingi ng payo sa iba."
+      },
+      {
+        "heading": "Kung nagtatapos ang kasal mo",
+        "body": "Sa Canada, dalawang magkahiwalay na bagay ang diborsyong panrelihiyon at ang diborsyong sibil. Hindi naaayos ng pagtatapos ng isa ang isa pa.\n\nSa panig ng relihiyon, puwedeng magbigay ng diborsyo (talaq) ang asawang lalaki, at sinusundan ito ng panahon ng paghihintay (iddah) (Quran 2:228 hanggang 2:232 at 65:1). Puwedeng hilingin ng asawang babae na tapusin ang kasal sa pamamagitan ng pagbabalik ng regalo sa kasal (mahr) o ibang napagkasunduang kabayaran (khul'). Ginawa ito ng asawa ni Thabit ibn Qays noong panahon ng Propeta (Sahih al-Bukhari 5273), at tinatalakay ito ng Family Code ng AMJA sa artikulo 143. Nagkakaiba ang mga mazhab kung kailan puwedeng buwagin ng hukom o imam ang isang kasal.\n\nSa panig sibil, kung legal kayong kasal, korte lamang ang makapagbibigay ng diborsyo sa ilalim ng pederal na Divorce Act. Kadalasan, dapat nakatira ang isa sa inyo sa probinsya nang isang taon, at hinahanap ng korte ang pagkasira ng kasal: isang taong hiwalay na paninirahan, pakikiapid o kalupitan.\n\nPara sa karamihan ng iskolar, hindi naaayos ng diborsyong sibil ang tanong panrelihiyon. Sinasabi ng Family Code ng AMJA (artikulo 129) na ang kontratang sibil lamang ang tinatapos ng diborsyong sibil maliban kung kusang pinirmahan ito ng asawang lalaki. Natuklasan ng isang pag-aaral noong 2023 (Wahb, Canadian Journal of Law and Society) na 14 sa 15 fatwa na tiningnan nito ang hindi nagbibigay ng bisang panrelihiyon sa diborsyong mula sa hukom na hindi Muslim nang walang pahintulot ng asawang lalaki. Ang European Council for Fatwa and Research ang nag-iisang eksepsiyon.\n\nKung ayaw magbigay ng asawang lalaki ng diborsyong panrelihiyon, may isang kasangkapan ang Divorce Act. Sa ilalim ng seksyon 21.1(2), puwedeng mag-file ang isang asawa ng affidavit tungkol sa mga hadlang sa muling pagpapakasal ayon sa relihiyon. Sa ilalim ng seksyon 21.1(3), kung hindi aalisin ng kabilang asawa ang mga hadlang na nasa kontrol niya, puwedeng ibasura ng korte ang mga aplikasyon ng asawang iyon at tanggalin ang mga isinampa niya. Hindi puwedeng mag-utos ng talaq ang korte, at nalalapat lamang ito sa mga legal na kasal, hindi sa nikah na hindi kailanman nairehistro.\n\nSa Ontario, walang legal na bisa ang family arbitration na sumusunod sa batas panrelihiyon sa halip na sa batas ng Canada (Family Statute Law Amendment Act, 2006). Pinagpapasyahan sa ilalim ng batas ng Canada ang ari-arian at pagpapalaki ng anak.\n\nPangkalahatang impormasyon ito, hindi payong legal. Magtanong sa isang family lawyer tungkol sa panig sibil at sa isang kwalipikadong guro tungkol sa panig panrelihiyon, nang sabay.",
+        "items": [
+          "Magtago ng kopya ng kontrata ng nikah mo, anumang kasunduan sa mahr at ng civil marriage certificate mo.",
+          "Maghanap ng family lawyer. Sa Ontario, nagbibigay ang Law Society Referral Service ng libreng konsultasyon nang hanggang 30 minuto, at tinutulungan ng Legal Aid Ontario ang mga kwalipikado.",
+          "Huwag makipagnegosasyon nang mag-isa sa asawang kumokontrol o nananakot sa iyo. Kung may pang-aabuso, kaligtasan ang una: tumawag sa 911 kapag nasa panganib, at gamitin ang mga serbisyo para sa kababaihan na nakalista sa itaas.",
+          "Huwag ipagpalagay na naaayos ng diborsyo sa korte ang tanong panrelihiyon, o na tinatapos ng diborsyong panrelihiyon ang legal na kasal."
+        ]
       },
       {
         "heading": "Hindi ito legal o marriage counselling",
@@ -474,6 +690,10 @@
       {
         "title": "Pananatili sa hangganan",
         "body": "Gusto kong harapin ito sa halal at magalang na paraan, pero hindi ako komportable na pinipilit. Kailangan ko ng panahon, at kailangan ko ng tamang payo."
+      },
+      {
+        "title": "Pagtatanong sa imam tungkol sa isang partner",
+        "body": "Bagong Muslim po ako at nakatira ako kasama ang partner ko, na hindi Muslim. Magkasama kami sa iisang bahay at may mga anak at pera na kasangkot. Gusto kong gawin ito nang tama nang hindi naiiwang walang tirahan ang kahit sino. Puwede po ba akong mag-book ng pribadong oras para maipaliwanag ito nang maayos?"
       }
     ],
     "scenarios": [
@@ -488,6 +708,10 @@
       {
         "title": "May asawa ka na at hindi Muslim ang asawa mo.",
         "response": "Huwag itong lutasin gamit ang pangkalahatang nilalaman mula sa isang website. Magtanong sa isang kwalipikadong lokal na iskolar na kayang suriin kasama mo ang tunay mong sitwasyon."
+      },
+      {
+        "title": "Nag-alok ang partner mo na magsabi ng Shahada para makapagpakasal kayo agad.",
+        "response": "Pasalamatan siya, at bagalan. Kailangang para sa Diyos ang Shahada, hindi para sa kasal. Ipinapayo ng mga guro na maghintay muna para makita ang tunay na paninindigan. Panatilihing halal ang relasyon habang naghihintay at magtanong sa isang kwalipikadong lokal na guro tungkol sa susunod na hakbang."
       }
     ],
     "relatedLinks": [
@@ -502,11 +726,40 @@
       {
         "label": "Gabay sa pamilya at mga kaibigan",
         "href": "/guides/family-and-friends"
+      },
+      {
+        "label": "Paano nagpapakasal ang mga Muslim",
+        "href": "/guides/how-muslims-marry"
+      },
+      {
+        "label": "Mga anak at buhay pamilya",
+        "href": "/guides/children-and-family-life"
+      },
+      {
+        "label": "Pagtatrabaho at pag-aaral kasama ang kabilang kasarian",
+        "href": "/guides/work-and-school"
+      },
+      {
+        "label": "Mga tanong tungkol sa relasyon at intimacy",
+        "href": "/faq#faq-relationships-and-intimacy"
+      },
+      {
+        "label": "Pagiging Muslim kaugnay ng isang kasal: bilang ba ang Shahada ko?",
+        "href": "/faq#faq-fnd-039"
+      },
+      {
+        "label": "Pagkakaroon ng sanggol",
+        "href": "/guides/having-a-baby"
+      },
+      {
+        "label": "Mga habilin (will) at mana",
+        "href": "/topics/wills-and-inheritance"
       }
     ]
   },
   {
     "id": "loneliness-and-belonging",
+    "group": "community-and-safety",
     "title": "Pag-iisa at pagkakaroon ng kinabibilangan",
     "description": "Bumuo ng isang matatag na ugnayan, at alamin kung kailan na dapat humingi ng propesyonal na tulong.",
     "intro": "Maraming bagong Muslim ang nakakaramdam na naiipit sila sa pagitan ng dalawang mundo nang ilang panahon. Hindi patunay ng mahinang pananampalataya ang pag-iisa. Kadalasan, ibig sabihin nito ay sabay-sabay na nagbabago ang mga pagkakaibigan, gawi at lugar na kinabibilangan mo.",
@@ -534,6 +787,18 @@
       {
         "heading": "Mga programa para sa balik-Islam sa Canada",
         "body": "May ilang masjid sa Canada na may programang ginawa para sa bagong Muslim. Ilang halimbawa, bawat isa ay inilarawan sa sariling website ng organisasyon: Convert Care sa Islam Care Centre sa Ottawa, tuwing Miyerkules nang 6:00 pm; Convert Connect sa MAC Masjid Toronto, na makakapag-ayos ng gabay para sa unang pagbisita mo; ang New Muslim Family Meet Up sa London Muslim Mosque; lingguhang pagkikita ng mga balik-Islam sa Ummah Masjid sa Halifax; ang Converts Committee sa Manitoba Islamic Association sa Winnipeg; at New Muslim Care sa BC Muslim Association. Naglilista ng iba pa ang paksa tungkol sa komunidad, kasama ang kanilang mga website.\n\nKumpirmahin bago ka pumunta. Nagbabago ang oras at lugar, at huli naming nasuri ang mga ito noong 23 Setyembre 2026."
+      },
+      {
+        "heading": "Kung makaranas ka ng pagtatangi sa isang espasyong Muslim",
+        "body": "May pagtatangi sa ilang Muslim, gaya ng mayroon sa lahat ng tao. Hindi Islam ang pagtrato sa iyo bilang mas mababang Muslim dahil sa lahi mo, pinagmulan mo o dahil balik-Islam ka. Sinasabi ng Quran na ginawa ang mga tao na mga bansa at tribo para magkakilanlan, at na ang pinakamarangal sa kanila sa paningin ng Allah ay ang pinakamatuwid (Quran 49:13). Ipinapaliwanag ng papel ni Dr. Jonathan Brown para sa Yaqeen Institute tungkol sa anti-Blackness na galing sa kultura ang ganitong pagtatangi, hindi sa relihiyon.\n\nTunay na karanasan ito, at hindi mo lang ito iniisip. Sa parehong survey ng Yaqeen sa 618 na balik-Islam sa Amerika, 36% ang nagsabing minsan ay nagdulot sa kanila ng pag-aalinlangang panrelihiyon ang pakiramdam na hindi sila tinatanggap sa komunidad, at 30.9% ang nagsabi ng pareho tungkol sa mga Muslim na nagparamdam sa kanilang mas mababa sila. Galing ang mga numerong iyon sa sample sa US at sinusukat ang minsang nagdulot ng pag-aalinlangan, hindi kung ilang tao ang nakaranas ng rasismo. Sa Canada, inilarawan ng isang pag-aaral noong 2025 tungkol sa mga Black African na Muslim sa Montreal (hindi partikular na mga balik-Islam) ang mga taong itinutulak sa gilid ng mga lugar ng pagdarasal at inilalayo sa pamumuno.\n\nHindi sukatan ng Islam ang asal ng ilang Muslim. Hindi mo kailangang magkaroon ng bagong pagkakakilanlang etniko para matanggap, at hindi mo kailangang pasanin ito nang mag-isa.",
+        "items": [
+          "Isulat kung ano ang nangyari at kailan, habang sariwa pa.",
+          "Kausapin ang isang pinagkakatiwalaang tao bago ka magpasyang umalis sa isang komunidad.",
+          "Humanap ng isang magiliw na tao, o subukan ang ibang masjid. Magandang panimula ang mga programa para sa balik-Islam sa itaas.",
+          "Kung gusto mong ilabas ito, kausapin nang mahinahon ang imam o ang board, nang harapan o nakasulat.",
+          "Kung may pagbabanta o panliligalig, gamitin ang mga daan sa pag-report sa gabay tungkol sa mga babalang senyales.",
+          "Kung First Nations, Inuit o Metis ka at kailangan mo ng makakausap ngayon, bukas 24/7 ang Hope for Wellness Help Line sa 1-855-242-3310."
+        ]
       },
       {
         "heading": "Isang mahinahong lingguhang gawi",
@@ -565,6 +830,14 @@
       {
         "title": "Paghingi ng propesyonal na suporta",
         "body": "Nahihirapan ako sa pag-iisa at nakakasagabal na ito sa araw ko. Matutulungan mo ba akong makahanap ng counsellor, crisis line, o suporta sa kalusugan ng isip na nakakaunawa sa pananampalataya?"
+      },
+      {
+        "title": "Kapag ibang wika lang ang ginagamit ng mga tao sa paligid mo",
+        "body": "Gusto ko sanang makasali sa usapang ito. Puwede ba tayong mag-Ingles sandali, o may makakapagkuwento ba sa akin?"
+      },
+      {
+        "title": "Kapag may nagtanong kung Muslim ka ba talaga",
+        "body": "Oo, Muslim ako. Nag-aaral pa ako, gaya ng lahat dito. Kung may sa tingin mo ay dapat kong malaman, masaya akong marinig ito nang mabait."
       }
     ],
     "scenarios": [
@@ -593,11 +866,16 @@
       {
         "label": "Gabay sa unang pagbisita sa masjid",
         "href": "/guides/first-masjid-visit"
+      },
+      {
+        "label": "Mga babalang palatandaan at pananatiling ligtas",
+        "href": "/guides/red-flags-and-staying-safe"
       }
     ]
   },
   {
     "id": "healthy-community-signs",
+    "group": "community-and-safety",
     "title": "Mga palatandaan ng malusog na komunidad",
     "description": "Tukuyin ang pagkakaiba ng suportang tumutulong sa iyong lumago at ng pamimilit na nagkukunwaring tulong.",
     "intro": "Pinapagaan ng isang mabuting Muslim na komunidad ang pagdadala sa mga batayan. Inililista ng pahinang ito ang hitsura ng maayos na suporta, at ang mga babalang palatandaan na dapat kang umatras o humingi ng kwalipikadong tulong.",
@@ -623,12 +901,35 @@
         "body": "Mag-ingat sa sinumang nagsasabing sila lamang ang pakinggan mo, pinipilit kang putulin agad ang lahat, minamadali ka sa desisyon tungkol sa kasal o pera, hinihiling na ilihim mo ang isang nakakasamang bagay, o hinihiya ka dahil gusto mo ng kwalipikadong tulong."
       },
       {
+        "heading": "Paano susuriin ang isang guro",
+        "body": "Maraming tao online ang tumatawag sa sarili na shaykh. Sinabi ng naunang iskolar na si Muhammad ibn Sirin, \"Relihiyon ang kaalamang ito, kaya pag-isipang mabuti kung kanino ninyo kinukuha ang inyong relihiyon\" (Sahih Muslim, Introduction 26). Hindi ipinapakita ng titulo o ng malaking bilang ng tagasunod na kwalipikado ang isang tao. Kasama sa isang sagot mula sa SeekersGuidance tungkol sa mga katangian ng guro ang malinaw na paglalahad ng mga pagkakaiba ng mga mazhab, at sinasabi ng papel ni Dr. Nazir Khan para sa Yaqeen Institute na kailangan ng karaniwang tao ng mapagkakatiwalaang guro na mapagtatanungan niya.\n\nSa Canada, sinasabi ng Canadian Council of Imams na kaanib nito ang mahigit 100 imam at nag-anunsyo ito ng programa sa accreditation ng imam, pero hindi pa ito naglalathala ng pamantayan o pampublikong rehistro. Sa ngayon, direktang tanungin ang masjid: \"Sino ang nagtuturo ng klaseng ito, at saan siya nag-aral?\"\n\nPuwede pa ring gumawa ng masama ang mga kwalipikadong tao, kaya nalalapat pa rin ang mga babalang senyales sa itaas at ang gabay tungkol sa mga babalang senyales. Mga tanong na sulit itanong:",
+        "items": [
+          "Saan siya nag-aral, at kanino? Kadalasan, napapangalanan ng kwalipikadong guro ang sarili niyang mga guro.",
+          "May lokal na masjid o matatag na institusyong may pampublikong address ba na sumusuporta sa kanya?",
+          "Sinasabi ba niya ang \"Hindi ko alam\" at ipinapasa ka sa iba kapag lampas na sa kanya ang tanong?",
+          "Patas ba niyang inilalahad ang mga pagkakaiba ng mga mazhab, nang hindi tinutuya ang ibang iskolar?",
+          "Ayos lang ba sa kanya na magtanong ka rin sa ibang guro? Magkaroon ng isang pangalawang opinyon na pinagkakatiwalaan mo.",
+          "Mas piliin ang klase sa masjid kaysa sa pribadong isa-sa-isang leksyon sa taong nakilala mo online, at huwag magbayad nang maaga para sa pribadong leksyon mula sa isang estranghero."
+        ]
+      },
+      {
         "heading": "Dapat maging normal ang tanong ng baguhan",
         "body": "Dapat ay maitanong mo kung saan magdarasal, paano mag-wudu, ano ang kahulugan ng isang salita, o sino ang makakapagturo sa iyo. Sa espasyong magiliw sa baguhan, wala sa mga tanong na iyon ang nauuwi sa kahihiyan."
       },
       {
         "heading": "Lakas ang pag-refer",
         "body": "Hindi nagkukunwari ang responsableng mentor na nasa kanya ang lahat ng sagot. Para sa mga kwalipikadong tao ang kasal, diborsyo, pang-aabuso, trauma, detalyadong fiqh, problemang legal, klinikal na paghihirap ng isip, at desisyon tungkol sa pera."
+      },
+      {
+        "heading": "Pagtanggi na ma-video o maipakita",
+        "body": "Sa iyo ang kuwento mo. May ilang masjid na gustong i-video ang Shahada at i-post ito, o hinihiling sa bagong Muslim na magsalita sa hapunan o fundraiser. Kadalasan, mabuti ang intensyon nila, at hinihikayat ng ulat ng Yaqeen Institute tungkol sa mga balik-Islam ang mga lider na anyayahan ang mga balik-Islam na ibahagi ang kanilang kuwento. Pagpili ang pagbabahagi, at pagpili rin ang pagtanggi. Bilang ang Shahada mo may nag-record man o wala.",
+        "items": [
+          "Sabihin ito bago ang Shahada, hindi pagkatapos: \"Pakiusap, walang litrato o video.\"",
+          "Hindi mo kailangang magpasya agad. Buong sagot na ang \"Pag-iisipan ko muna.\"",
+          "Kung papayag ka, magtakda ng mga kondisyon: walang buong pangalan, walang mukha, at may limitasyon kung gaano katagal itong mananatiling naka-post.",
+          "Hilinging makita muna ang anumang bagay bago ito i-post.",
+          "Kung naka-post na ang isang bagay at gusto mo itong alisin, hilingin sa tao o sa masjid na tanggalin ito. Puwedeng manatili online ang mga kopya at screenshot kahit natanggal na ang post."
+        ]
       },
       {
         "heading": "Kung hindi ligtas ang isang espasyo",
@@ -647,6 +948,10 @@
       {
         "title": "Paghahanap ng ibang espasyo",
         "body": "Sa tingin ko ay hindi ito ang angkop para sa akin sa ngayon. May alam ka bang ibang klase o masjid na mahinahon sa mga bagong Muslim?"
+      },
+      {
+        "title": "Pagtanggi na magsalita sa isang kaganapan",
+        "body": "Salamat sa pag-anyaya. Hindi pa ako handang ibahagi ang kuwento ko sa publiko, pero masaya akong tumulong sa ibang paraan."
       }
     ],
     "scenarios": [
@@ -684,6 +989,7 @@
   },
   {
     "id": "halal-living-in-daily-life",
+    "group": "everyday-life",
     "title": "Halal na pamumuhay sa araw-araw",
     "description": "Magsimula sa malilinaw na batayan ng halal na pagkain, harapin nang mahinahon ang kainan ng pamilya, mga pagtitipon at trabaho, at alamin kung kailan kailangan ng lokal na tulong ang isang detalye.",
     "intro": "Natututuhan ang halal na pamumuhay sa bawat karaniwang desisyon. Magsimula sa malilinaw na batayan, subukang huwag madulas sa pagsusuri ng bawat label nang dalawang beses, at humingi ng kwalipikadong lokal na tulong kapag nagiging kumplikado ang mga detalye.",
@@ -717,8 +1023,38 @@
         "body": "Para sa tanghalian, catered na pulong at biyahe sa trabaho, piliin ang malinaw na opsyon o magdala ng sarili mo. Kung nakasentro sa pag-inom ang isang okasyon, pagpasyahan muna kung gaano karami ang dadaluhan mo, at magtanong sa isang kwalipikado kung hindi ka sigurado."
       },
       {
+        "heading": "Lampas sa mga batayan",
+        "body": "May ilang tanong na lumalabas kapag matatag na ang pakiramdam sa mga batayan. Sinasagot ng pahina ng mga tanong ang bawat isa kasama ang mga sanggunian nito, at nagkakaiba ang mga mazhab sa ilan dito.",
+        "items": [
+          "Kosher na karne: hinihingi ng mga mazhab na Hanafi at Hanbali ang pangalan ng Diyos sa bawat hayop, habang itinuturing ito ng mazhab na Shafi'i na inirerekomenda. Tanungin ang guro mo kung opsyon para sa iyo ang kosher.",
+          "Keso: hanapin ang microbial enzyme, vegetable rennet o vegetarian sa label. Pinapayagan ng mazhab na Hanafi ang rennet mula sa mga hayop maliban sa baboy, at mas mahigpit ang ibang mazhab.",
+          "Mga restaurant: magtanong kapag malamang ang kontaminasyon, lalo na ang pinagsasaluhang fryer, sa halip na sa bawat posibleng kaso.",
+          "Pangangaso at pangingisda: pinapayagan ang pangangaso para sa pagkain at hindi para sa isport, at tinatawag ng isang sagot na Hanafi na hindi pinapayagan ang catch-and-release na pangingisda. Alamin mula sa isang guro ang mga kondisyon para sa mga hayop-gubat.",
+          "Laging mahinahong alternatibo ang isda at mga pagkaing vegetarian."
+        ]
+      },
+      {
         "heading": "Kapag nangangailangan ng tulong ang mga detalye",
         "body": "Mabilis na nagiging nakakalito ang gelatin, enzymes, pampalasa, gamot, kusina ng restawran at pamantayan ng sertipikasyon. Kung paulit-ulit na lumilitaw sa iyo ang isa sa mga ito, magtanong sa imam sa inyong lugar, sa isang nagsesertipika ng halal, sa pharmacist, o sa isang kwalipikadong guro, alinman ang angkop sa tanong."
+      },
+      {
+        "heading": "Kung may sakit ka o nasa ospital",
+        "body": "Kapag may sakit ka, nagbibigay ng puwang para sa iyo ang mga patakaran ng pagsamba. Nagdarasal ka sa paraang pinapayagan ng katawan mo: nakatayo, nakaupo o nakahiga. Kung makakasama sa iyo ang tubig, ang tuyong paglilinis (tayammum) ang papalit sa paghuhugas. Ipinapaliwanag ang dalawa ng pahina namin ng mga tanong at ng gabay sa pagdarasal (salah companion).\n\nMay ilang ospital sa Canada na may spiritual care team at prayer room. Sa The Ottawa Hospital, halimbawa, hinihingi mo sa care team mo ang spiritual care, bukas buong araw at gabi ang mga prayer room, at may pagdarasal ng mga Muslim tuwing Biyernes. Sabihin sa nurse mo na Muslim ka at itanong kung ano ang iniaalok ng ospital mo.\n\nMay ilang gamot at bakuna na may gelatin mula sa baboy o kaunting alkohol. Sinasabi ng isang sagot ng AMJA na iwasan ang gelatin sa gamot kung may alternatibo, at na kapag walang alternatibo ay puwedeng inumin ang gamot. Tanungin ang pharmacist kung may bersyong walang gelatin o walang alkohol. Kung walang bersyong walang gelatin, pinapayagan ng sagot ng AMJA ang gamot. Para sa alkohol sa gamot, tanungin ang imam mo, at huwag itigil ang gamot na kailangan mo habang hinihintay ang sagot. Pinapayagan din ang pagtanggap ng dugo: sinasabi ng isa pang sagot ng AMJA na pinapayagan ang pagbibigay at pagtanggap ng dugo at organ anuman ang relihiyon ng donor, maliban sa isang makitid na eksepsiyon.\n\nKung masyado kang may sakit para mag-ayuno, ipinapaliwanag ng mga pahina tungkol sa Ramadan at pag-aayuno ang mga exemption.",
+        "items": [
+          "Sabihin sa nurse na Muslim ka at magtanong tungkol sa spiritual care o prayer room.",
+          "Hilingin sa isang kaibigan na magdala ng maliit na prayer mat at maglagay ng Quran app sa phone mo.",
+          "Magtanong sa pharmacist tungkol sa mga alternatibo bago tumanggi sa isang gamot.",
+          "Magdasal nang nakaupo o nakahiga kung iyon ang pinapayagan ng katawan mo."
+        ]
+      },
+      {
+        "heading": "Sa pagtanda at sa mga care home",
+        "body": "Hindi kailanman huli ang lahat para maging Muslim o para matuto. Kung pinahihirap ng tuhod o likod mo ang pagdarasal, magdasal nang nakaupo sa silya o sa anumang paraang pinapayagan ng katawan mo. Hindi hinihingi ng Allah sa isang kaluluwa ang higit sa kaya nito (Quran 2:286). May sariling patakaran ang matatandang hindi makapag-ayuno, na ipinapaliwanag ng paksa tungkol sa pag-aayuno.\n\nKung nakatira ka sa isang long-term care home sa Ontario, ibinibigay sa iyo ng Residents' Bill of Rights, ayon sa paliwanag ng CLEO, ang karapatang ituloy ang mga interes mong panrelihiyon at espiritwal nang may makatwirang tulong, at ang karapatan sa nutrisyon at pangangalagang tumutugon sa mga pangangailangan mo. Maaari mong ituro ang mga karapatang ito kapag humihingi ka ng halal na pagkain at ng tahimik na lugar at oras para magdasal. May sariling patakaran ang ibang probinsya, kaya magtanong sa staff ng home o sa isang legal clinic sa lugar mo.",
+        "items": [
+          "Hilingin sa care home na isulat sa care plan mo ang oras ng pagdarasal mo at ang halal na diyeta mo.",
+          "Tanungin ang masjid mo kung may mga boluntaryong dumadalaw sa mga tao sa care home o ospital.",
+          "Hilingin sa isang kamag-anak o kaibigan na mag-set up para sa iyo ng app sa pagbigkas ng Quran o audio player."
+        ]
       }
     ],
     "scripts": [
@@ -761,11 +1097,28 @@
       {
         "label": "Gabay sa trabaho at paaralan",
         "href": "/guides/work-and-school"
+      },
+      {
+        "label": "Mga tanong at sagot",
+        "href": "/faq"
+      },
+      {
+        "label": "Pagdarasal nang may sakit o kapansanan",
+        "href": "/faq#faq-pry-020"
+      },
+      {
+        "label": "Mga desisyon sa katapusan ng buhay",
+        "href": "/topics/end-of-life-decisions"
+      },
+      {
+        "label": "Pag-aayuno",
+        "href": "/topics/fasting"
       }
     ]
   },
   {
     "id": "modesty-and-clothing",
+    "group": "everyday-life",
     "title": "Kahinhinan at pananamit",
     "description": "Gumawa ng mga hakbang sa pananamit na kaya mong panatilihin, isinasaalang-alang ang trabaho, paaralan, pamilya, kaligtasan at panahon.",
     "intro": "Higit pa sa damit ang saklaw ng kahinhinan, pero ang pagbabago ng damit pa rin ang napapansin ng lahat. Tinutulungan ka ng pahinang ito na seryosohin ito nang walang pagkataranta at nang hindi nagbibihis na parang ibang kultura.",
@@ -777,8 +1130,19 @@
     ],
     "sections": [
       {
-        "heading": "Magsimula nang unti-unti",
-        "body": "Pumili ng isang hakbang na kaya mong panatilihin: mas maluwag na damit, kasuotang puwede mong ipagdasal, mas mahahabang patong, o mas maraming takip sa mga lugar kung saan ligtas iyon. Laktawan ang natatarantang pamimili."
+        "heading": "Gumawa ng mga hakbang na kaya mong panatilihin",
+        "body": "Pumili ng hakbang na kaya mong panatilihin: mas maluwag na damit, kasuotang puwede mong ipagdasal, mas mahahabang patong, o mas maayos na pagtatakip sa mga lugar kung saan ligtas iyon. Hindi nagiging opsyonal ang obligado dahil lang kumikilos ka sa bilis na kaya mong panindigan. Ibig sabihin nito ay pinagsisikapan mo ito. Iwasan ang padalos-dalos na pamimili dahil sa pagkataranta."
+      },
+      {
+        "heading": "Pagsisimula ng hijab",
+        "body": "Ipinapaliwanag ng isang sagot mula sa SeekersGuidance na itinuturing ng apat na mazhab na Sunni na obligado ang pagtatakip ng buhok (hijab) para sa mga babaeng Muslim na nasa hustong gulang, batay sa mga talatang gaya ng 24:31 at 33:59. Kung hindi ka makapagsimula ngayon, hindi ito tumitigil na maging obligado. Kausapin ang isang guro tungkol sa pumipigil sa iyo at pumili ng simula na kaya mong panatilihin. Ipinapayo ng isang guro ng SeekersGuidance na magsimula agad sa halip na paunti-unti, gamit ang isang simpleng estilo.\n\nMaraming balik-Islam ang nagsisimula nang mas huli. Sa isang survey noong 2021 ng Yaqeen Institute sa mga balik-Islam sa United States, 63% ng kababaihan ang nagsusuot ng hijab. Sa mga babaeng iyon, 46% ang nagsimula nang yumakap sila sa Islam, 30% makalipas ang ilang buwan at 24% makalipas ang isang taon o higit pa. Sample ito sa US, at inilalarawan nito ang ginawa ng mga tao, hindi ang dapat mong gawin.",
+        "items": [
+          "Kung ang pagsusuot ng hijab ay maaaring mauwi sa pagbabanta, karahasan o pagpapalayas sa bahay, gumawa ng safety plan kasama ang mapagkakatiwalaang suporta bago ang nakikitang pagbabago. Nauuna ang kaligtasan mo, at nakalista sa pahinang humingi ng tulong ang mga crisis line sa Canada.",
+          "Ayos ang anumang estilo basta natatakpan ang buhok, leeg at ulo, ayon sa parehong sagot mula sa SeekersGuidance. Magkaroon ng isang simpleng estilo na umaangkop sa uniporme o safety gear.",
+          "Sa trabaho, sinasabi ng patakaran ng Ontario tungkol sa creed (seksyon 10.2) na dapat akomodahin ng dress code ang panrelihiyong takip sa ulo maliban kung magdudulot ito ng labis na kahirapan (undue hardship). Ipinagbabawal ng Quebec ang mga simbolong panrelihiyon sa ilang posisyon sa pampublikong sektor, na ipinapaliwanag ng gabay tungkol sa trabaho at paaralan. Pangkalahatang impormasyon ito, hindi payong legal.",
+          "Kung inaasahan mong may magtatanong sa trabaho, sabihan ang manager mo sa isang pangungusap.",
+          "Huwag hayaang itakda ng kahit sino ang takdang panahon mo sa pamamagitan ng panghihiya. Muslim ka bago at pagkatapos mo itong isuot."
+        ]
       },
       {
         "heading": "Kultura at prinsipyong panrelihiyon",
@@ -786,7 +1150,17 @@
       },
       {
         "heading": "Mga katotohanan sa trabaho at paaralan",
-        "body": "Kailangan ng pagpaplano ang uniporme, kagamitang pangkaligtasan, sports, laboratoryo at patakaran ng paaralan. May ilang lugar na naglalathala ng gabay sa karapatang pantao tungkol sa pananamit na panrelihiyon at akomodasyon, pero nagkakaiba ang tuntunin ayon sa lokasyon. Hindi payong legal ang pahinang ito."
+        "body": "Nangangailangan ng pagpaplano ang mga uniporme, safety gear, isports, lab at patakaran ng paaralan. May ilang lugar na naglalathala ng gabay sa karapatang pantao na sumasaklaw sa pananamit na panrelihiyon at akomodasyon, pero nagkakaiba ang mga patakaran ayon sa lugar. Hindi payong legal ang pahinang ito.\n\nPara sa ID photo, pinapayagan ng mga patakaran ng Canada sa passport, ng IRCC biometrics, at ng driver's licence at health card ng Ontario ang panrelihiyong takip sa ulo basta kita ang buong mukha mo. Nasa pahina ng mga tanong ang mga detalye."
+      },
+      {
+        "heading": "Gym, paglangoy at isports",
+        "body": "Patuloy na gumalaw. Mabuti para sa iyo ang ehersisyo, at walang ibig sabihin ang alinman dito na isuko ito.\n\nNagkakaiba ang mga iskolar sa mixed gym. Sinasabi ng isang sagot mula sa SeekersGuidance ni Mawlana Ilyas Patel, na sinuri ni Shaykh Abdul-Rahim Reasat, na ang mas maka-Diyos na pagpili ay iwasan ang mga ito kung kaya mo. Iminumungkahi nito ang home gym, training partner, mas tahimik na oras o pribadong lugar habang naghahanap ka ng gym na iisang kasarian lang. Inihahambing ng isang fatwa ng AMJA ni Dr. Main Khalid Al-Qudah ang gym sa supermarket o kalye: puwede kang pumunta, ibaba ang tingin mo at panatilihin ang pakikisalamuha sa kailangan lang.",
+        "items": [
+          "Kalalakihan: sinasabi ng isang sagot mula sa SeekersGuidance tungkol sa paglangoy na takpan mula pusod hanggang bahagyang lampas sa tuhod, at iminumungkahi ang three-quarter compression pants. Parehong solusyon ang gumagana para sa gym shorts na umaangat.",
+          "Kababaihan: sinasabi ng isang sagot mula sa SeekersGuidance ni Shaykh Anas al-Musa na pinapayagan ang paglangoy nang may mga kondisyon: mas mainam ang mga lugar na para sa kababaihan lamang, dapat maluwag at hindi manipis ang damit, at mas mabuting iwasan ang pampublikong changing room.",
+          "Tanungin ang lokal na recreation centre mo kung may oras ng paglangoy at gym na para lang sa kababaihan o para lang sa kalalakihan.",
+          "Para sa team sports at phys-ed sa paaralan, tanungin ang liga o paaralan tungkol sa mahinhing kit. Sinisipi ng patakaran ng Ontario tungkol sa creed ang mga alituntunin ng isang school board tungkol sa damit sa phys-ed, pribadong pagbibihis at alternatibong swimwear bilang mga halimbawa."
+        ]
       },
       {
         "heading": "Pamilya at kaligtasan",
@@ -795,6 +1169,10 @@
       {
         "heading": "Panahon at ginhawa",
         "body": "Mahalaga ang init, lamig, kakayahang gumalaw, pangangailangang pandama at kondisyon sa kalusugan. Itanong sa isang kwalipikadong guro ang tungkol sa sarili mong sitwasyon at pumili ng damit na nagpapahintulot sa iyong magdasal at makaraos sa araw mo."
+      },
+      {
+        "heading": "Magsimula nang unti-unti",
+        "body": "Pumili ng isang hakbang na kaya mong panatilihin: mas maluwag na damit, kasuotang puwede mong ipagdasal, mas mahahabang patong, o mas maraming takip sa mga lugar kung saan ligtas iyon. Laktawan ang natatarantang pamimili."
       }
     ],
     "scripts": [
@@ -809,6 +1187,10 @@
       {
         "title": "Sa trabaho o paaralan",
         "body": "May pangangailangan ako sa pananamit dahil sa relihiyon at gusto kong humanap ng praktikal na paraan para matugunan ito na akma pa rin sa mga hinihingi ng kaligtasan at tungkulin."
+      },
+      {
+        "title": "Pagsasabi sa manager mo tungkol sa hijab",
+        "body": "Nagsimula na akong magsuot ng headscarf dahil sa relihiyon. Hindi nito babaguhin ang trabaho ko, at makakapagsuot ako ng estilong umaangkop sa uniporme at sa mga patakaran sa kaligtasan."
       }
     ],
     "scenarios": [
@@ -837,11 +1219,20 @@
       {
         "label": "Gabay sa trabaho at paaralan",
         "href": "/guides/work-and-school"
+      },
+      {
+        "label": "Humingi ng tulong",
+        "href": "/get-help"
+      },
+      {
+        "label": "Pagharap sa pagkapoot at panliligalig",
+        "href": "/guides/facing-hate-and-harassment"
       }
     ]
   },
   {
     "id": "how-to-ask-for-help",
+    "group": "starting-out",
     "title": "Paano humingi ng tulong",
     "description": "Piliin ang tamang tao, ipaliwanag nang malinaw ang sitwasyon, at alamin kung kailan kailangan ng agarang tulong ang isang bagay.",
     "intro": "Hindi mo kailangang malaman ang tamang pinto bago kumatok. Tinutulungan ka ng pahinang ito na alamin kung para sa imam, guro, counsellor, administrador ng masjid, opisina ng karapatan, o emergency service ang tanong mo. Kung gusto mong magtanong sa team namin, o humingi ng mentor, gamitin ang pahinang Humingi ng tulong.",
@@ -923,11 +1314,20 @@
       {
         "label": "Maghanap ng masjid",
         "href": "/resources/find-masjid"
+      },
+      {
+        "label": "Kapag may namatay",
+        "href": "/guides/when-someone-dies"
+      },
+      {
+        "label": "Mga habilin (will) at mana",
+        "href": "/topics/wills-and-inheritance"
       }
     ]
   },
   {
     "id": "guide-for-mentors",
+    "group": "mentoring",
     "title": "Gabay para sa mga mentor ng bagong Muslim",
     "description": "Paano tanggapin ang isang bagong Muslim nang may mahinahong prayoridad, malinaw na hangganan, at tapat na pag-refer.",
     "intro": "Hindi kailangang sagutin ng mentor ang lahat. Ang pinakamahusay na maagang suporta ay tuloy-tuloy, pribado at praktikal, at ipinapasa nito ang mga maselang tanong sa mga taong kwalipikado para sa mga ito.",
@@ -965,6 +1365,10 @@
           "Sa propesyonal na legal o sa karapatan para sa trabaho, paaralan, tirahan, kustodiya, imigrasyon, at anumang may kinalaman sa legal o pampinansyal na papeles.",
           "Sa administrador ng masjid para sa mga klase, paradahan, accessibility, oras ng pagdarasal, at praktikal na bahagi ng pagbisita."
         ]
+      },
+      {
+        "heading": "Lahi at pagkakabilang",
+        "body": "May ilang balik-Islam, at partikular na ang mga Black na balik-Islam, na nakakaranas ng pagtatangi sa loob ng mga espasyong Muslim. Inirerekomenda ng ulat ng Yaqeen Institute noong 2025 tungkol sa mga balik-Islam sa Amerika na lapitan ng mga lider ang mga Black na balik-Islam at tanungin sila tungkol sa mga karanasan nilang may kinalaman sa lahi sa loob ng komunidad ng mga Muslim, at na isama ng mga board ang mga tao mula sa iba't ibang pinagmulan o isang kinatawan ng mga balik-Islam. Magtanong, makinig, at huwag itong ipaliwanag palayo. May seksyon na maibabahagi mo ang gabay tungkol sa pag-iisa at pagkakabilang."
       },
       {
         "heading": "Privacy at kaligtasan",
@@ -1047,12 +1451,15 @@
         "channel": "Sheikh Assim al-Hakeem",
         "duration": "1:04:14",
         "note": "Para sa mga mentor. Mahaba, detalyado at mas mahigpit na paglalahad ito mula sa iisang pamamaraan, at naiiba ito sa ilang mazhab (paaralan ng fiqh) sa ilang punto. Kapaki-pakinabang itong background para sa iyo, pero hindi ito panimula para sa baguhan. Para sa bagong Muslim, magsimula sa kasama sa salah at sa mas maiikling video nito.",
-        "sourceIds": ["video-assim-prophets-prayer"]
+        "sourceIds": [
+          "video-assim-prophets-prayer"
+        ]
       }
     ]
   },
   {
     "id": "holidays-and-family-occasions",
+    "group": "family-and-relationships",
     "title": "Mga pista opisyal at okasyon ng pamilya",
     "description": "Ano ang puwede mong salihan sa Pasko, Thanksgiving, kaarawan at iba pang okasyon ng pamilya, at kung paano panatilihin ang ugnayang pampamilya.",
     "intro": "Maaaring ang mga pista opisyal ang pinakamahirap na bahagi ng unang taon. Gusto kang makasama ng pamilya mo, at gusto mong panatilihin ang pananampalataya mo. Nagkakasundo ang mga iskolar sa dalawang bagay: bahagi ng Islam ang pagpapanatili ng ugnayan sa pamilya mo, at hindi sumasali ang Muslim sa pagsamba ng ibang relihiyon. Sa pagitan ng dalawang puntong iyon ay nagkakaiba sila, at ipinapakita ng gabay na ito ang saklaw ng mga pananaw nang hindi pumipili para sa iyo.",
@@ -1092,6 +1499,10 @@
         "body": "Pagsamba ang misa sa Easter o Pasko, at doon naglalagay ang mga iskolar ng malinaw na linya. Sinasabi ng isang sagot ng SeekersGuidance (Ustadh Farid Dingle) na hindi pinapayagan ang aktibong pagdiriwang ng pistang panrelihiyon ng ibang relihiyon, habang ayos ang pag-aaral tungkol sa ibang tradisyon. Tinatrato ang tanghalian ng pamilya sa Easter gaya ng kainan sa Pasko sa itaas.\n\nMas malawak ang saklaw ng mga pananaw tungkol sa kasal at libing sa simbahan. Pinapayagan ng Dar al-Ifta ng Egypt at ng isang iskolar ng AMJA ang pagdalo sa libing ng kamag-anak, kahit sa simbahan. Pinapayagan ng mga sagot na Hanafi ng SeekersGuidance ang pagtitipon ng pamilya pero hindi ang misa kung walang matinding pangangailangan. Mahigpit ang pananaw ng IslamQA, kasama ang tungkol sa kasal sa simbahan. Ipinapaliwanag ng aming paksa tungkol sa mga pangunahing paniniwala kung bakit sa Allah lamang ang pagsamba. Magtanong sa isang lokal na imam bago ang okasyon, dahil mahalaga ang mga detalye ng sitwasyon mo."
       },
       {
+        "heading": "Diwali, Vaisakhi, Lunar New Year, Nowruz at Hanukkah",
+        "body": "Iisang hangganan ang nalalapat sa bawat tradisyon ng pamilya. Ugnayang pampamilya ang kainan, ang pagbisita at ang oras na magkasama. Pagsamba ang mga panalangin at ritwal, at hindi mo sasalihan ang mga iyon.\n\nLunar New Year: sinasabi ng isang artikulo sa MuslimSG, isang platform ng Islamic Religious Council of Singapore (MUIS), na pangkultura ang reunion dinner, pagbisita sa mga nakatatanda, pagpapalitan ng dalandan at pulang sobre (ang bao). Sumisipi sa Office of the Mufti ng Singapore, sinasabi nitong puwede kang dumalo sa isang okasyong may elementong panrelihiyon para magmasid at magpakita ng paggalang nang hindi sumasali sa mga ritwal. Artikulo ito at hindi pormal na fatwa, at hindi nito tinatalakay ang mga ritwal para sa ninuno.\n\nDiwali: sinasabi ng isang sagot mula sa SeekersGuidance ni Shaykh Farid Dingle, tungkol sa pagbisita ng paaralan sa isang kaganapang Diwali sa templo, na hindi pinapayagan ang pakikilahok sa ritwal ng ibang relihiyon, at na bilang default ay hindi pumapasok ang Muslim sa templo o simbahan nang walang tunay na pangangailangan. Binabanggit din ng parehong sagot na may mga maaasahang posisyon na nagpapahintulot sa pagpasok sa mga simbahan o templo. Hindi nito tinatalakay ang hapunan ng pamilya sa Diwali o ang mga matamis sa bahay.\n\nVaisakhi, Nowruz, Hanukkah at mga seremonya ng mga Katutubo: wala kaming nakitang sagot ng iskolar para sa mga ito. Gamitin ang prinsipyo sa itaas ng gabay na ito, at magtanong sa isang lokal na imam tungkol sa mismong okasyon ng pamilya mo bago ito dumating."
+      },
+      {
         "heading": "Mga party na may inihahaing alak",
         "body": "Isang hadith sa Jami at-Tirmidhi (2801, itinuring na Hasan ng Darussalam sa Sunnah.com) ang batayan ng maraming iskolar sa pagpapayong huwag umupo sa mesang may inihahaing alak. Ipinapayo ng isang sagot ng SeekersGuidance tungkol sa birthday party ng pamilya na may alak na magalang na tanggihan ang pagtitipong nakasentro sa alak at mag-alok ng alternatibo, gaya ng paglabas kasama ang pamilya para kumain o pagbisita bago ang party.\n\nNagkakaiba ang mga iskolar tungkol sa mga okasyong may alak pero hindi ito ang layunin ng pagtitipon, gaya ng hapunan sa Bagong Taon. Itanong sa imam mo kung paano ito para sa iyo."
       },
@@ -1106,6 +1517,10 @@
       {
         "heading": "Kung galit ang pamilya mo",
         "body": "Kung maaaring humantong sa sigawan, pagbabanta o karahasan ang pagbisita tuwing pista opisyal, kaligtasan mo ang una. Sinasabi ng isang sagot ng SeekersGuidance na puwede mong bawasan ang pakikipag-ugnayan sa kamag-anak na nakakasakit at panatilihin ang ugnayan sa ibang paraan, gaya ng tawag, maliliit na regalo at pag-dua para sa kanila. Matutulungan kang magplano ng pahina ng Government of Canada tungkol sa pagpaplano ng kaligtasan, at kapag nasa panganib ay dapat kang tumawag sa 911. May dagdag na tulong sa aming gabay sa mga babalang palatandaan at pananatiling ligtas at sa aming gabay sa pamilya at mga kaibigan."
+      },
+      {
+        "heading": "Kapag namatay ang isang kamag-anak na hindi Muslim",
+        "body": "Pinapayagan kang magdalamhati. Umiyak ang Propeta nang mamatay ang anak niya (Sahih al-Bukhari 1303), at pagkawala pa rin ng isang mahal mo ang pagkawala ng magulang o lolo o lola na hindi Muslim. Pumunta sa libing kung kaya mo, ayon sa patnubay sa itaas, at gumamit ng simpleng salita ng pag-aliw sa pamilya mo. Sinasabi ng isang sagot na Hanafi mula sa SeekersGuidance na ayos ang karaniwang pakikiramay.\n\nMaraming balik-Islam ang nagtatanong kung puwede nilang ipagdasal ang kamag-anak na namatay sa labas ng Islam. Magkakaiba ang sagot ng mga iskolar. Sinasabi ng mga sagot ng SeekersGuidance na hindi ka pormal na humihingi ng kapatawaran, pero puwede kang umasa at humiling na matanggap nila ang pinakamabuti. Pinapayagan ng Dar al-Ifta ng Egypt ang anak na humingi ng kapatawaran para sa magulang na maaaring hindi kailanman nakatanggap nang maayos ng mensahe. Inilalatag ng pahina namin ng mga tanong ang dalawang pananaw. Ang Allah ang hukom, hindi ikaw at hindi ang sinuman sa libing.\n\nPagkatapos ng libing, patuloy na pakitunguhan nang mabuti ang pamilya, manatiling konektado sa mga taong mahal ng kamag-anak mo, at magbahagi ng magagandang alaala. Humingi ng suporta sa mentor o masjid mo, at magpahinga muna kung kailangan mo."
       }
     ],
     "scripts": [
@@ -1164,11 +1579,24 @@
       {
         "label": "Mga tanong tungkol sa pista opisyal",
         "href": "/faq#faq-holidays"
+      },
+      {
+        "label": "Malapit na pamilya (mahram)",
+        "href": "/topics/modesty"
+      },
+      {
+        "label": "Pagdadalamhati at pagkawala",
+        "href": "/topics/grief-and-loss"
+      },
+      {
+        "label": "Pagdarasal habang naglalakbay",
+        "href": "/topics/prayer"
       }
     ]
   },
   {
     "id": "red-flags-and-staying-safe",
+    "group": "community-and-safety",
     "title": "Mga babalang palatandaan at pananatiling ligtas",
     "description": "Paano matutukoy ang pamimilit, paghingi ng pera at scam sa isang komunidad, at kung saan ito iuulat sa Canada.",
     "intro": "Mabait at gustong tumulong ang karamihan ng mga taong makikilala mo sa masjid o sa grupo ng balik-Islam. May iilang hindi. Inililista ng gabay na ito ang mga babalang palatandaang pinakamadalas lumitaw para sa mga bagong Muslim, ang gagawin tungkol sa mga ito, at kung saan mag-uulat sa Canada. Hindi kailanman kasalanan mo ang mapuntirya.",
@@ -1189,7 +1617,8 @@
           "May taong hindi mo pa nakikita nang harapan na nagsasabing mahal ka niya, gustong ilipat ang usapan sa pribadong lugar, at laging may dahilan para hindi makipagkita.",
           "May tao o grupong nagsasabing ilihim mo ang mga bagay sa pamilya, mga kaibigan o ibang guro mo.",
           "May grupong nagsasabing hindi tunay na Muslim ang karamihan ng Muslim, nagsasabing putulin mo ang pamilya mo, o nagsasalita tungkol sa galit at karahasan.",
-          "May nag-aalok ng tulong sa imigrasyon o sponsorship at nangangako ng garantisado o mas mabilis na resulta."
+          "May nag-aalok ng tulong sa imigrasyon o sponsorship at nangangako ng garantisado o mas mabilis na resulta.",
+          "Nag-aalok ang isang espiritwal na manggagamot ng bayad na pagbigkas para sa paggaling (ruqya) o anting-anting, humihingi ng paulit-ulit na bayad, gustong makita ka nang mag-isa, o nagsasabing itigil mo ang medikal na lunas."
         ]
       },
       {
@@ -1269,6 +1698,10 @@
     ],
     "relatedLinks": [
       {
+        "label": "Sino ang itinuturing na shaykh o mufti",
+        "href": "/faq#faq-fnd-039"
+      },
+      {
         "label": "Humingi ng tulong o mag-ulat ng alalahanin",
         "href": "/get-help"
       },
@@ -1283,11 +1716,32 @@
       {
         "label": "Suporta sa kalusugan ng isip",
         "href": "/mental-health"
+      },
+      {
+        "label": "Paano nagpapakasal ang mga Muslim",
+        "href": "/guides/how-muslims-marry"
+      },
+      {
+        "label": "Kung wala ka pang 18",
+        "href": "/guides/young-converts"
+      },
+      {
+        "label": "Puwede bang magkaroon ng higit sa isang asawa ang lalaking Muslim sa Canada?",
+        "href": "/faq#faq-rel-011"
+      },
+      {
+        "label": "Ang di-nakikita, nang walang takot",
+        "href": "/topics/beliefs"
+      },
+      {
+        "label": "Pagharap sa pagkapoot at panliligalig",
+        "href": "/guides/facing-hate-and-harassment"
       }
     ]
   },
   {
     "id": "how-mentoring-works",
+    "group": "mentoring",
     "title": "Paano gumagana ang paggabay at ang aming pamantayan sa asal",
     "description": "Paano sinusuri at sinasanay ang mga mentor, ano ang ipinapangako nila, paano gumagana ang pagtutugma at pagkumusta, at paano mag-ulat ng alalahanin.",
     "intro": "Ang mentor ay isang boluntaryong tumutulong sa iyo sa mga batayan at sumasama sa iyo sa mga unang buwan. Inilalatag ng pahinang ito kung paano kami pumipili ng mga mentor, ano ang ipinapangako nila, at ano ang gagawin kapag may nangyaring mali. Wala itong pinapangalanang tao. Sinusunod ng mga pamantayan ang nakalathalang benchmark mula sa MENTOR at Volunteer Canada, na iniangkop para sa mga boluntaryong nasa hustong gulang.",
@@ -1402,6 +1856,863 @@
       {
         "label": "Paano humingi ng tulong",
         "href": "/guides/how-to-ask-for-help"
+      },
+      {
+        "label": "Kung wala ka pang 18",
+        "href": "/guides/young-converts"
+      }
+    ]
+  },
+  {
+    "id": "how-muslims-marry",
+    "group": "family-and-relationships",
+    "title": "Paano nagpapakasal ang mga Muslim",
+    "description": "Ano ang bumubuo sa kontrata ng kasal (nikah), ano ang idinadagdag ng batas ng probinsya mo, pagpapakasal sa pamilyang Muslim, at paghahanap ng mapapangasawa kapag wala kang kamag-anak na Muslim.",
+    "intro": "Kadalasan, nagsisimula ang usapan tungkol sa kasal ilang buwan pagkatapos ng Shahada, karaniwang mula sa mga taong mabuti ang intensyon. Ipinapaliwanag ng gabay na ito kung ano ang kailangan ng kontrata ng kasal na Muslim (nikah), ano ang kaugalian lamang, paano gagawing legal ang kasal sa Canada, at paano maghahanap ng mapapangasawa sa paraang nagpoprotekta sa iyo. Walang pagmamadali. Inirerekomenda ng isang gurong sinipi ng SeekersGuidance (2025) na maging Muslim nang mga isang taon bago magpakasal.",
+    "summary": [
+      "Nangangailangan ang nikah ng alok at pagtanggap, mga saksi at regalo sa kasal (mahr). Hinihingi rin ng tatlo sa apat na mazhab ang tagapag-alaga (wali) ng nobya.",
+      "Hindi legal na kasal ang sertipiko ng masjid lamang. Kumuha rin ng lisensya mula sa probinsya at ng rehistradong officiant.",
+      "Kaugalian ang malalaking kasalan, ginto at engagement party, hindi obligasyon.",
+      "Maging Muslim para sa Diyos, huwag kailanman para sa isang partner o pamilya."
+    ],
+    "sections": [
+      {
+        "heading": "Ano ang bumubuo sa nikah",
+        "body": "Ang nikah ay kontratang ginagawa sa pamamagitan ng mga salita. Nag-aalok ang isang panig at tinatanggap ito ng kabila, sa iisang pag-upo, sa mga salitang naiintindihan ng dalawa (AMJA Family Code, artikulo 26 at 27).\n\nDumadalo ang mga saksi. Humihingi ang Family Code ng AMJA (artikulo 55) ng dalawang lalaking Muslim. Sinasabi ng isang sagot mula sa SeekersGuidance noong 2025 na dalawang lalaking Muslim, o isang lalaki at dalawang babae. Tanungin ang imam mo kung aling pananaw ang sinusunod ng masjid mo.\n\nMay tagapag-alaga (wali) ang nobya. Sinabi ng Propeta, \"Walang kasal nang walang pahintulot ng tagapag-alaga\" (Sunan Abi Dawud 2085, graded sahih; gayundin ang Jami at-Tirmidhi 1101). Hinihingi ng mga mazhab na Maliki, Shafi'i at Hanbali ang wali. Sinasabi ng mazhab na Hanafi na balido ang sariling kontrata ng kasal ng babaeng nasa hustong gulang (AMJA fatwa 87635). Sinasabi ng Family Code ng AMJA (artikulo 18) na hindi pinawawalang-bisa ang kasal na ginawa nang walang wali, sa angkop na asawa, may makatarungang mahr at ng babaeng nasa hustong gulang at tamang pag-iisip, bagaman mas mainam na ulitin ito nang may wali.\n\nNagbibigay ang asawang lalaki ng regalo sa kasal (mahr). Karapatan ito ng asawang babae at sa kanya ito (Quran 4:4). Walang itinakdang pinakamababang halaga (AMJA Family Code, artikulo 47), at puwede itong maging simple: nagbigay ang isang kasamahan ng Propeta ng gintong kasimbigat ng buto ng datiles (Sahih al-Bukhari 5167).\n\nSumusunod ang handaan sa kasal (walimah). Sinabi ng Propeta sa parehong kasamahan, \"Maghanda ka ng salu-salo, kahit isang tupa lang\" (Sahih al-Bukhari 5167). Sapat na ang simpleng pagkain.\n\nIpinapaalam sa publiko ang kasal. Sinasabi ng SeekersGuidance (2025) na hindi hinihikayat ang mga lihim na kasal."
+      },
+      {
+        "heading": "Ano ang kaugalian, hindi relihiyon",
+        "body": "Maraming bagay sa kasalang Muslim ang galing sa kultura. Puwedeng maganda ang mga ito, at wala sa mga ito ang obligado: engagement party, alahas na ginto, malaking bulwagan, partikular na kasuotan, o kung aling pamilya ang magbabayad ng ano. Kapag may nagsabi sa iyo na kailangang mangyari ang isang bagay, itanong kung obligado ba ito, inirerekomenda o kaugalian."
+      },
+      {
+        "heading": "Bago ang araw",
+        "items": [
+          "Tanungin ang imam mo kung paano nagsasagawa ng nikah ang masjid, sino ang magiging wali ng nobya, at kung rehistrado ang imam na magsagawa ng legal na kasal sa probinsya mo.",
+          "Pagkasunduan nang nakasulat ang mahr bago ang araw, at magtago ng pinirmahang kopya.",
+          "Iplano ang civil marriage licence kasabay ng nikah.",
+          "Pag-usapan ang pera, tirahan, mga anak, mga biyenan at anumang nakaraang kasal kasama ang magiging asawa mo, na may kasamang wali o imam."
+        ]
+      },
+      {
+        "heading": "Ang legal na bahagi sa Canada",
+        "body": "Pangkalahatang impormasyon ito, hindi payong legal. Panlalawigan ang batas sa kasal, kaya nakadepende ang mga patakaran sa kung saan kayo ikakasal.\n\nSa Ontario, kailangan mo ng marriage licence o banns, dapat kinikilala ng sariling lupong panrelihiyon ang panrelihiyong officiant, at pumipirma ang magkasintahan, dalawang saksi at ang officiant kaagad pagkatapos ng seremonya. Sa Quebec, dapat awtorisado ng batas ang officiant, kahit dalawang saksi ang dumadalo, at inilalathala ang abiso kahit 20 araw bago ang kasal (Educaloi). Sa British Columbia, dapat rehistrado sa Vital Statistics Agency ang sinumang nagsasagawa ng kasal, at pumipirma ang magkasintahan, dalawang saksi at ang officiant. Sa Alberta, dapat rehistrado sa Vital Statistics ang mga panrelihiyong officiant, laging kailangan mo ng lisensya mula sa Alberta, at dalawang saksi ang dumadalo.\n\nMay ilang imam na rehistradong officiant at nakakagawa ng nikah at ng legal na kasal sa iisang seremonya. Sinasabi ng Family Code ng AMJA (artikulo 31) na dapat idokumento ng mga Muslim ang kanilang kasal at sundin ang lokal na batas. Sinasabi ng artikulo 19 na para sa bagong Muslim na babaeng walang kamag-anak na Muslim sa panig ng ama, ang kikilos para sa kanya ay isang arbitrator o taong itinalaga ng komunidad at lisensyado ng estado para magsagawa ng kasal, o kung hindi ay isang lalaking Muslim na itatalaga niya. Hindi ito ang kahit sinong imam na nag-aalok.\n\nHindi ka binibigyan ng mga karapatan ng legal na asawa ng nikah na hindi kailanman nairehistro. Sa Ontario, hinahati ng mga kasal na mag-asawa ang halaga ng bahay ng pamilya, habang hindi obligado ang mga common-law partner na hatiin ang ari-arian, bagaman maaaring may claim ang partner na nag-ambag sa ari-arian ng isa pa. May ilang probisyon ang batas ng Ontario na maaaring ituring na balido ang kasal na ginawa nang may mabuting loob kahit may nagkamali sa officiant o sa papeles. Family lawyer lamang ang makapagsasabi sa iyo kung nalalapat ang mga ito sa iyo.\n\nMinsan nang ipinatupad ng mga korte sa Canada ang kasunduan sa mahr bilang kontrata. Ipinatupad ito ng mga korte sa British Columbia at Ontario, at may isang korte sa Ontario na tumanggi (Raman, 2024). Nakadepende sa mga patakaran ng probinsya sa kontrata at sa kung paano ito isinulat kung maipapatupad ang sa iyo, kaya mas ligtas ang pinirmahang kasunduang sinuri ng abogado. Sa Ontario, walang legal na bisa ang family arbitration sa ilalim ng batas panrelihiyon (Family Statute Law Amendment Act, 2006).",
+        "items": [
+          "Tiyaking rehistrado sa probinsya mo ang officiant mo.",
+          "Kumuha ng marriage licence bago ang nikah.",
+          "Magtago ng kopya ng kontrata ng nikah, ng kasunduan sa mahr at ng civil marriage certificate.",
+          "Hindi legal na marriage certificate ang sertipiko ng masjid lamang."
+        ]
+      },
+      {
+        "heading": "Pagpapakasal sa ipinanganak na Muslim",
+        "body": "Kung may humiling sa iyong maging Muslim para makapagpakasal kayo, huminto at mag-isip. Sinabihan ng SeekersGuidance (2014) ang isang babaeng nasa ganitong mismong kalagayan na yumakap sa Islam para sa Diyos lamang, hindi para sa isang tao o pamilya. Kung nasabi mo na ang Shahada mo, parehong punto ang nalalapat sa kung paano ka pipili ng mapapangasawa: pananampalataya muna.\n\nIpinayo ng Propeta ang pagpili ng mapapangasawa dahil sa kanyang relihiyon (Sahih al-Bukhari 5090). Walang sinasabi ang hadith tungkol sa lahi, at inuuna nito ang pananampalataya at ugali kaysa sa pinagmulan.\n\nMaaaring may dalang inaasahang pangkultura ang pamilyang ipinanganak na Muslim tungkol sa laki ng kasalan, ginto, pagtira kasama ang mga biyenan, o ang wikang ginagamit sa bahay. Kaugalian ang marami sa mga ito, hindi relihiyon. Harapin ang pamilya kasama ang isang imam o mentor na makakapagpaliwanag kung alin ang alin.\n\nKaraniwan ang pagpapakasal sa ibang kultura. Sa isang survey sa US sa 618 na balik-Islam (Yaqeen Institute, 2025), 70% ng mga kasal na balik-Islam ang nagpakasal sa taong iba ang lahi o etnisidad. Pinangalanan ng mga walang asawang balik-Islam bilang hadlang ang hindi paghahanap ng angkop na mapapangasawa (51%), ang kanilang lahi (32%) at ang pagiging balik-Islam (25%). May detalyadong patakaran ang mga iskolar tungkol sa pagkakatugma sa kasal (kafa'a) na hindi tinatalakay ng pahinang ito, kaya magtanong sa isang kwalipikadong guro."
+      },
+      {
+        "heading": "Paghahanap ng mapapangasawa",
+        "body": "Kadalasan, walang network ng pamilya ang mga balik-Islam na magpapakilala sa kanila. Binabanggit ng isang guro ng SeekersGuidance (2009) na maraming balik-Islam ang nakakakilala ng magiging asawa sa paaralan o trabaho. Kapag seryoso na ang interes, isama ang isang tagapag-alaga o imam, magkita nang may kasamang chaperone sa halip na mag-isa, at panatilihing hayag ang relasyon. Puwedeng tanggihan ng tagapag-alaga ang hindi angkop na pares, at pinoprotektahan ka niyon.\n\nNagkakaiba ang mga iskolar kung gaano karami ang puwedeng makita at makausap ng manliligaw sa kabilang tao bago ang kasal. Magtanong sa isang kwalipikadong guro.",
+        "items": [
+          "Sabihin sa imam mo o sa isang mentor na pinagkakatiwalaan mo na handa ka nang magpakasal, at magtanong tungkol sa pagpapakilala o sa programa ng masjid para sa kasal.",
+          "Isulat ang sarili mong mga hindi mapag-uusapang kondisyon bago ka makipagkita sa kahit sino.",
+          "Kung sa isang app kayo nagkakilala, magkita sa pampublikong lugar, isama ang wali o imam mo, at huwag kailanman magpadala ng pera.",
+          "Idasal ang pagdarasal para sa patnubay (istikhara) bago ka magpasya.",
+          "Huwag tanggapin ang pagpapakilala mula sa taong nakilala mo online noong isang linggo, at huwag gumugol ng ilang buwan sa pribadong pagkikita para makilala ang isa't isa."
+        ]
+      }
+    ],
+    "scripts": [
+      {
+        "title": "Pagtatanong sa imam tungkol sa nikah",
+        "body": "Assalamu alaykum. Bagong Muslim po ako at nagsisimula na akong mag-isip tungkol sa kasal. Puwede po ba ninyong ipaliwanag kung paano ginagawa ng masjid ang nikah, sino ang puwedeng maging wali, at kung mairerehistro rin ninyo nang legal ang kasal?"
+      },
+      {
+        "title": "Pag-uusap tungkol sa mahr",
+        "body": "Bago tayo magtakda ng petsa, gusto kong pagkasunduan natin ang mahr at isulat ito. Gusto ko ring ipasuri sa abogado ang kasunduan para maprotektahan tayong dalawa."
+      },
+      {
+        "title": "Kapag hinilingan kang yumakap sa Islam para sa kasal",
+        "body": "Iginagalang ko kayo at ang pamilya ninyo, at sineseryoso ko ang Islam. Gagawin ko ang desisyong iyon para sa sarili nitong halaga, hindi para matuloy ang kasal."
+      }
+    ],
+    "scenarios": [
+      {
+        "title": "Nag-alok ang isang kaibigan na gawin ang mabilisang nikah sa sala niya.",
+        "response": "Tumanggi, nang mabait. Puwede kang iwanang walang proteksyon, sa relihiyon at sa batas, ng nikah na walang wali, walang rekord at walang civil licence. Magtanong sa isang imam sa masjid na rehistradong magsagawa ng kasal sa probinsya mo."
+      },
+      {
+        "title": "Sinasabi ng pamilya ng mapapangasawa mo na kailangan ng ginto at malaking bulwagan sa kasal.",
+        "response": "Tanungin ang isang imam kung ano ang obligado. Obligado ang mahr at sa nobya ito. Kaugalian ang laki ng handaan at ang ginto, at puwede ninyo itong pag-usapan."
+      },
+      {
+        "title": "Gusto kang pakasalan sa loob ng ilang linggo ng taong nakilala mo online.",
+        "response": "Bagalan. Isama ang wali o imam mo at basahin ang gabay tungkol sa mga babalang senyales. Babalang senyales ang pamimilit na madaliin ang kasal."
+      }
+    ],
+    "relatedLinks": [
+      {
+        "label": "Mga batayan sa relasyon at kasal",
+        "href": "/guides/relationships-and-marriage-basics"
+      },
+      {
+        "label": "Mga babalang palatandaan at pananatiling ligtas",
+        "href": "/guides/red-flags-and-staying-safe"
+      },
+      {
+        "label": "FAQ: sino ang wali ko?",
+        "href": "/faq#faq-lif-032"
+      },
+      {
+        "label": "Maghanap ng masjid",
+        "href": "/resources/find-masjid"
+      },
+      {
+        "label": "Mga anak at buhay pamilya",
+        "href": "/guides/children-and-family-life"
+      }
+    ]
+  },
+  {
+    "id": "young-converts",
+    "group": "family-and-relationships",
+    "title": "Kung wala ka pang 18",
+    "description": "Bilang ang Shahada mo. Ano ang gagawin sa ngayon, paano pakikitunguhan ang mga magulang mo, ang mga karapatan mo sa Ontario, at paano mananatiling ligtas.",
+    "intro": "Kung teenager ka at naging Muslim ka na, o gusto mong maging Muslim, balido ang Shahada mo. Hindi mo kailangan ng masjid o sertipiko para mabilang ito. Para sa iyo ang pahinang ito, at para sa mga nasa hustong gulang na makakakilala sa iyo.",
+    "summary": [
+      "Balido ang Shahada mo. Gawin ang kaya mo nang tahimik at matuto ayon sa sarili mong bilis.",
+      "Maging mabait at tapat sa mga magulang mo. Huwag lumayas sa bahay.",
+      "Babalang senyales ang nasa hustong gulang na gustong maglihim ka sa mga magulang mo.",
+      "Kung hindi ligtas ang bahay, tumawag sa Kids Help Phone sa 1-800-668-6868 o i-text ang CONNECT sa 686868. Kapag nasa panganib, tumawag sa 911."
+    ],
+    "sections": [
+      {
+        "heading": "Ano ang gagawin sa ngayon",
+        "body": "Sinagot ng isang guro ng SeekersGuidance ang isang 13 taong gulang na gustong maging Muslim (2023). Sinabi niyang ang Shahada lang ang kailangan. Sinabi rin niya, \"Sa ngayon, huwag mong alalahanin kung hindi ka makapagtakip, makapag-ayuno, o makapunta sa masjid,\" at ipinayo niyang samantalahin ang bawat pagkakataong makapagsabuhay na dumarating sa iyo.\n\nKaya maniwala, mag-dua, magdasal kung saan kaya mo, at matuto mula sa kurso o gurong pinagkakatiwalaan mo. Makakapaghintay ang malalaking pagbabago hanggang mas matanda ka na at pinapayagan na ng sitwasyon mo.",
+        "items": [
+          "Magsimula sa mga unang hakbang sa roadmap ng site na ito.",
+          "Kung hindi ka pa makapagdasal, patuloy na matuto at patuloy na mag-dua.",
+          "Kapag may tanong ka tungkol sa isang hatol, magtanong sa isang kwalipikadong guro."
+        ]
+      },
+      {
+        "heading": "Ang mga magulang mo",
+        "body": "Hinihiling ng Islam na pakitunguhan mo ang mga magulang mo nang may pagmamahal at mabuting ugali, kahit hindi sila Muslim. Ipinapaliwanag ng isang guro ng SeekersGuidance (2010) na sinusunod mo ang mga magulang mo sa lahat maliban sa mangangahulugan ng pagsuway sa Diyos.\n\nSa praktika, ibig sabihin nito ay pagtulong sa bahay, hindi pagsisinungaling sa kanila nang walang tunay na pangangailangan, at hindi pagsisimula ng pagtatalo tungkol sa relihiyon. Bigyan sila ng panahon."
+      },
+      {
+        "heading": "Ang mga karapatan mo sa Ontario",
+        "body": "Pangkalahatang impormasyon ito tungkol sa batas ng Ontario, hindi payong legal. May ibang patakaran ang ibang probinsya. Galing ito sa Justice for Children and Youth, isang legal clinic para sa kabataan sa Ontario, hindi sa pahina ng pamahalaan.\n\nKung 15 taong gulang ka o mas bata, ang mga magulang o tagapag-alaga mo ang nagpapasya kung saan ka nakatira. Kung hindi ka ligtas sa bahay, makakatulong ang isang Children's Aid Society.\n\nKung 16 o 17 ka, puwede kang umalis sa kontrol ng mga magulang mo nang walang utos ng korte. Seryosong hakbang iyon na may kahihinatnan sa batas, pera at tirahan, kaya kausapin ang Justice for Children and Youth o ang Kids Help Phone bago ka magpasya ng kahit ano.\n\nMaaaring makasuhan ng krimen ang nasa hustong gulang na tumutulong sa isang kabataan na umalis ng bahay. Kaya walang masjid, mentor o online na kaibigan ang dapat mag-alok na tulungan kang umalis ng bahay."
+      },
+      {
+        "heading": "Mga babalang palatandaan",
+        "body": "Hindi ka hinihiling ng mabubuting guro at masjid na magtago ng mga bagay. Kung may gumawa ng alinman dito, itigil ang pakikipag-usap sa kanila at sabihin sa isang pinagkakatiwalaang nasa hustong gulang o tumawag sa Kids Help Phone.",
+        "items": [
+          "May nasa hustong gulang na humihiling na ilihim mo sa mga magulang mo ang mga chat o pagkikita ninyo.",
+          "May nagsasalita tungkol sa pagpapakasal sa iyo, o nag-aalok na mag-ayos ng lihim na nikah.",
+          "May nag-aalok sa iyo ng matitirhan, o pera, para makaalis ka ng bahay.",
+          "Hindi ka komportable sa mga pribadong mensahe, o may humihingi sa iyo ng mga litrato."
+        ]
+      },
+      {
+        "heading": "Para sa mga mentor at masjid",
+        "body": "Kung may makilala kang batang balik-Islam, isama ang mga magulang kung ligtas, magkita sa mga pampublikong lugar na may ibang nasa hustong gulang sa paligid, at huwag kailanman hikayatin ang menor de edad na umalis ng bahay. Kung nag-aalala ka sa kaligtasan ng isang kabataan, makipag-ugnayan sa isang Children's Aid Society, o tumawag sa 911 kapag emergency."
+      }
+    ],
+    "scripts": [
+      {
+        "title": "Mahinahong pagsasabi sa isang magulang",
+        "body": "Nag-aaral ako tungkol sa Islam at mahalaga ito sa akin. Hindi ko tinatanggihan ang pamilya natin. Gusto kong patuloy na pag-usapan ito kasama kayo."
+      },
+      {
+        "title": "Pagtanggi sa paglilihim",
+        "body": "Hindi ako naglilihim sa mga magulang ko tungkol sa mga kinakausap ko. Kung gusto mo akong tulungan, dapat hayag ito."
+      }
+    ],
+    "scenarios": [
+      {
+        "title": "May nasa group chat na nag-aalok sa iyo ng matutuluyan sa isang pamilyang Muslim.",
+        "response": "Huwag pumunta. Itigil ang pagsagot at sabihin sa isang pinagkakatiwalaang nasa hustong gulang. Kung hindi ligtas ang bahay, tumawag sa Kids Help Phone o 911, hindi sa estranghero mula sa group chat."
+      },
+      {
+        "title": "Sinasabi ng mga magulang mo na hindi ka puwedeng magdasal sa bahay.",
+        "response": "Manatiling kalmado at mabait. Mag-dua, magdasal nang tahimik kung saan kaya mo, at samantalahin ang mga pagkakataong dumarating. Kung makaramdam ka ng hindi pagiging ligtas, tumawag sa Kids Help Phone, o 911 kapag nasa panganib."
+      }
+    ],
+    "relatedLinks": [
+      {
+        "label": "Mga babalang palatandaan at pananatiling ligtas",
+        "href": "/guides/red-flags-and-staying-safe"
+      },
+      {
+        "label": "Humingi ng tulong",
+        "href": "/get-help"
+      },
+      {
+        "label": "Suporta sa kalusugan ng isip",
+        "href": "/mental-health"
+      },
+      {
+        "label": "Paano gumagana ang mentoring",
+        "href": "/guides/how-mentoring-works"
+      },
+      {
+        "label": "Gabay sa pamilya at mga kaibigan",
+        "href": "/guides/family-and-friends"
+      }
+    ]
+  },
+  {
+    "id": "children-and-family-life",
+    "group": "family-and-relationships",
+    "title": "Mga anak at buhay pamilya",
+    "description": "Pagpapalaki ng mga anak kapag hindi Muslim ang isa pang magulang, pagsasabi sa mga anak mo, paaralan at weekend school, mga teenager, at pag-aalaga sa mga magulang mo habang tumatanda sila.",
+    "intro": "Binabago ng pagiging Muslim ang buhay pamilya sa mga paraang bihirang pag-usapan. Nagsisimula ang gabay na ito sa mga anak mo at nagtatapos sa sarili mong mga magulang habang tumatanda sila. Isa-isahin ito.",
+    "summary": [
+      "Magturo sa pamamagitan ng halimbawa at nang may awa. Huwag kailanman gamitin ang relihiyon para pilitin ang isang bata.",
+      "Kung hiwalay kayo, kumuha ng legal na payo bago mo baguhin ang paaralan, pangalan o panrelihiyong routine ng isang bata.",
+      "Sa Ontario, puwede mong hilingin bawat school year na ma-exempt ang anak mo sa mga aralin tungkol sa sexual health sa Grade 1 hanggang 8.",
+      "Bahagi ng pananampalataya mo ang pag-aalaga sa mga magulang na hindi Muslim."
+    ],
+    "sections": [
+      {
+        "heading": "Kapag hindi Muslim ang isa pang magulang",
+        "body": "Hinihiling ng Quran sa mga mananampalataya na protektahan ang sarili at ang pamilya nila (66:6). Kapag hindi Muslim ang kasama mong magulang, ipinapayo ng isang guro ng SeekersGuidance (2025) ang bukas na pakikipag-usap sa isa pang magulang, pagdarasal at pagsasabuhay habang kasama mo ang bata, pag-aayos ng guro sa Quran, pagpapanatili ng Islamikong asal nang may awa, at pag-dua.\n\nPinananatili ng mga anak mo ang relasyon nila sa isa pang magulang at sa mga lolo't lola nila. Hinihiling ng Islam na panatilihin mo ang ugnayang pampamilya, hindi putulin ito. Walang natutulungan ang pagsasabi sa bata na mapupunta sa Impiyerno ang isang magulang."
+      },
+      {
+        "heading": "Ang tinitingnan ng batas ng Canada",
+        "body": "Pangkalahatang impormasyon ito, hindi payong legal.\n\nKapag naghiwalay ang mga kasal na magulang at dumulog sa korte, sinasabi ng Divorce Act na ang pinakamabuting interes lamang ng bata ang mahalaga, at nauuna ang pisikal, emosyonal at sikolohikal na kaligtasan ng bata (seksyon 16). Tinitimbang din ng korte ang pananaw ng bata, nang may angkop na timbang ayon sa edad at pagkahinog niya, at ang pangkultura, pangwika, panrelihiyon at espiritwal na pagpapalaki at pamana ng bata. Ipinapaliwanag ng Justice Canada na maaaring magbigay ang relihiyon ng dagdag na suporta sa bata, at na maaaring mahalaga ang kakayahan ng magulang na panatilihin ang ugnayan ng bata sa pamana nitong panrelihiyon.\n\nMula noong 2021, parenting arrangements at decision-making responsibility na ang ginagamit ng batas sa halip na custody at access. Maaaring bahagi ng parenting plan ang mga desisyon tungkol sa relihiyon. Kung hindi kayo kailanman ikinasal, ibang patakaran ng probinsya ang nalalapat, kaya magtanong sa abogado.\n\nHindi inilalapat ng korte sa Canada ang mga klasikong Islamikong patakaran sa pag-aalaga ng anak, na nakalatag halimbawa sa Family Code ng AMJA (artikulo 206 hanggang 211).",
+        "items": [
+          "Kung hiwalay kayo, kumausap ng family lawyer bago mo baguhin ang paaralan, pangalan o panrelihiyong gawain ng isang bata.",
+          "Magtago ng mahinahon at nakasulat na tala ng pinagkakasunduan ninyo ng isa pang magulang.",
+          "Sa Ontario, tinutulungan ng Legal Aid Ontario ang mga kwalipikado sa mga usapin ng pagpapalaki ng anak: 1-800-668-8258."
+        ]
+      },
+      {
+        "heading": "Pagsasabi sa mga anak mo",
+        "body": "Panatilihin itong maikli at malambing. Sabihin sa kanila kung ano ang hindi magbabago: mahal mo sila, magulang ka pa rin nila, at tuloy ang mga routine ng pamilya. Hayaan silang magtanong at sumagot ayon sa antas nila. Huwag silang hilingin na pumili sa pagitan mo at ng isa pang magulang."
+      },
+      {
+        "heading": "Paaralan",
+        "body": "Maraming kaganapan sa paaralan ang puwedeng salihan nang isinasaalang-alang ang ugnayang pampamilya at kabaitan, nang hindi nakikilahok sa pagsamba ng ibang relihiyon. Ipinapaliwanag ng gabay tungkol sa mga holiday at okasyon ng pamilya kung saan nagkakaiba ang mga iskolar. Kausapin nang maaga ang guro tungkol sa mga konsiyerto, class party at pagkain.\n\nSa Ontario, puwedeng hilingin ng mga magulang na ma-exempt ang anak nila sa mga inaasahan sa Human Development and Sexual Health sa Grade 1 hanggang 8 (Policy/Program Memorandum 162). Dapat abisuhan ng mga paaralan ang mga magulang kahit 20 araw ng pasok bago ang mga araling iyon, at ginagamit ang karaniwang form bawat school year. May sariling patakaran ang ibang probinsya. Pangkalahatang impormasyon ito, hindi payong legal.",
+        "items": [
+          "Basahin ang exemption form ng school board mo tuwing Setyembre.",
+          "Huwag hilahin nang sabay-sabay ang mga anak mo mula sa lahat. Kausapin muna ang guro."
+        ]
+      },
+      {
+        "heading": "Weekend school at mga teenager",
+        "body": "Maraming masjid ang may weekend school o programa para sa kabataan. Sa masjid finder, piliin ang filter na Weekend school para makita ang mga masjid na naglilista nito, at tumawag muna, dahil nagbabago ang mga programa.\n\nSa mga teenager, mag-anyaya at huwag pilitin. Asahan na unti-unti nilang gagawin ang mga gawain, hindi nang sabay-sabay. Patuloy silang kausapin, at hayaan silang dalhin ang sarili nilang mga tanong sa gurong pinagkakatiwalaan nila."
+      },
+      {
+        "heading": "Kapag tumatanda na ang mga magulang mo",
+        "body": "Hinihiling ng Quran ang kabaitan sa mga magulang sa katandaan: kahit isang salita ng pagkainip ay wala, kababaang-loob dahil sa awa, at panalanging kaawaan sila ng Diyos (17:23 hanggang 24). Nalalapat din ito sa mga magulang na hindi Muslim (31:15). Sinabihan ng isang guro ng SeekersGuidance (2017) ang isang babae na dapat niyang alagaan ang ina niyang hindi Muslim at panatilihin ang ugnayang pampamilya, at ipinayo niyang magtabi ng pera bawat buwan mula sa sarili niyang kita bilang kawanggawa (sadaqah) at bumisita bawat linggo.\n\nKanila ang relihiyon nila, at hindi ka sumasali sa pagsamba nila. Pinagkakaiba ng mga iskolar ang direktang pagtulong sa isang ritwal panrelihiyon, na hindi pinapayagan, at ang hindi direktang tulong, na hindi kasalanan. Nagbibigay ang isang guro ng SeekersGuidance (2021) ng paghawak sa sanggol para sa binyag bilang halimbawa ng una, at ng pagsasabi sa isang tao kung nasaan ang simbahan bilang halimbawa ng pangalawa. Tungkol sa paghahatid sa magulang sa simbahan, sinasabi ng isang Hanafi na mufti (Darul Uloom Trinidad and Tobago) na mas mabuting hindi ikaw ang maging daan, pero hindi ito kasalanan kapag walang ibang maaasahan ang magulang. Nagkakaiba ang mga iskolar dito, kaya magtanong sa isang kwalipikadong guro tungkol sa mga kahilingang inaasahan mo bago pa dumating ang mga ito.\n\nSa care home o ospital, hayaang bumisita ang sarili nilang pari o ministro. Mahalaga ang presensya at pag-aalaga mo. Kapag namatay ang isang magulang na hindi Muslim, magagabayan ka ng isang iskolar sa mga tanong tungkol sa libing at pagdarasal, at tinatalakay ng gabay tungkol sa mga holiday at okasyon ng pamilya ang pagdalo sa libing.",
+        "items": [
+          "Planuhin nang maaga ang pag-aalaga kasama ang mga kapatid mo.",
+          "Magtanong sa isang imam tungkol sa mga partikular na kahilingan bago pa lumitaw ang mga ito.",
+          "Huwag tanggihan ang lahat ng tulong sa paraang maiiwang mag-isa ang mahinang magulang."
+        ]
+      }
+    ],
+    "scripts": [
+      {
+        "title": "Pakikipag-usap sa isa pang magulang",
+        "body": "Gusto kong makilala ng anak natin ang dalawa nating pamilya at ang dalawa nating tradisyon. Kapag kasama ko siya, magdarasal ako at magtuturo ng kaunting Quran. Puwede ba nating pagkasunduan kung paano natin pag-uusapan ang relihiyon para hindi niya maramdaman kailanman na naiipit siya sa gitna?"
+      },
+      {
+        "title": "Pagtatanong sa paaralan",
+        "body": "Muslim ang anak ko. Puwede po ba ninyo akong abisuhan nang maaga tungkol sa mga class party, konsiyerto at aralin sa kalusugan, para makapagplano tayo nang magkasama?"
+      },
+      {
+        "title": "Pag-aalok ng tulong sa magulang",
+        "body": "Nandito ako para sa inyo. Kaya ko kayong samahan sa mga appointment ninyo at tulungan sa pamimili bawat linggo."
+      }
+    ],
+    "scenarios": [
+      {
+        "title": "Gustong pabinyagan ng dati mong partner ang bata.",
+        "response": "Huwag kumilos nang mag-isa. Kumausap ng family lawyer tungkol sa decision-making responsibility, at ng kwalipikadong guro tungkol sa sarili mong bahagi rito."
+      },
+      {
+        "title": "Sinasabi ng teenager mo na ayaw niyang magdasal.",
+        "response": "Manatiling malapit at panatilihing bukas ang pinto. Mag-anyaya, huwag pilitin, patuloy kang magdasal, at hayaan siyang magtanong sa gurong pinagkakatiwalaan niya."
+      },
+      {
+        "title": "Hinihiling ng nanay mo na ihatid mo siya sa simbahan.",
+        "response": "Nagkakaiba ang mga iskolar dito. Sinasabi ng isang Hanafi na mufti na hindi ito kasalanan kapag wala siyang ibang maaasahan, bagaman mas mabuting iwasan. Magtanong sa isang kwalipikadong guro, at patuloy siyang alagaan anuman ang mangyari."
+      }
+    ],
+    "relatedLinks": [
+      {
+        "label": "Maghanap ng masjid na may weekend school",
+        "href": "/resources/find-masjid"
+      },
+      {
+        "label": "Mga pista opisyal at okasyon ng pamilya",
+        "href": "/guides/holidays-and-family-occasions"
+      },
+      {
+        "label": "Gabay sa pamilya at mga kaibigan",
+        "href": "/guides/family-and-friends"
+      },
+      {
+        "label": "Mga batayan sa relasyon at kasal",
+        "href": "/guides/relationships-and-marriage-basics"
+      },
+      {
+        "label": "Kung wala ka pang 18",
+        "href": "/guides/young-converts"
+      }
+    ]
+  },
+  {
+    "id": "travelling-as-a-muslim",
+    "group": "everyday-life",
+    "title": "Paglalakbay bilang Muslim",
+    "description": "Pagdarasal sa eroplano at road trip, paghahanap ng tahimik na lugar sa airport o hotel, at pagkain ng halal habang nasa biyahe.",
+    "intro": "Binabago ng paglalakbay ang oras ng pagdarasal mo at ang mga pagpipilian mong pagkain, pero sumasama sa iyo ang pagdarasal mo. Pinasisimple ng kaunting pagpaplano bago ka umalis ang karamihan nito.",
+    "summary": [
+      "Alamin ang oras ng pagdarasal sa daraanan at destinasyon mo bago ka umalis.",
+      "Sa eroplano, idasal ang obligadong pagdarasal sa oras nito. Tumayo kung makatwirang kaya mo, o umupo kung hindi.",
+      "Puwedeng pagdasalan ang malinis na tuwalya o jacket. Hindi mo kailangan ng prayer mat.",
+      "Magbaon ng pagkaing alam mong halal, at umasa sa isda at mga pagkaing vegetarian habang nasa biyahe.",
+      "Ipinapaliwanag ng paksa tungkol sa pagdarasal ang pinaikling pagdarasal para sa naglalakbay."
+    ],
+    "sections": [
+      {
+        "heading": "Bago ka umalis",
+        "items": [
+          "Alamin ang oras ng pagdarasal sa destinasyon mo, at sa anumang mahabang stopover, para malaman mo kung aling pagdarasal ang tatapat sa biyahe.",
+          "Magdala ng maliit na prayer mat, o magplanong gumamit ng malinis na tuwalya.",
+          "Alamin kung may chapel o lugar para magdasal ang airport na aalisan mo, at kung nasaan ito.",
+          "Para sa mahabang biyahe sa kotse, magbaon ng meryenda at pagkaing alam mong halal.",
+          "Kung nakasuot ka ng medyas o bota buong araw, basahin ang FAQ tungkol sa pagpupunas sa medyas bago ka umalis."
+        ]
+      },
+      {
+        "heading": "Pagdarasal sa eroplano",
+        "body": "Sinasabi ng isang sagot na Hanafi ni Shaykh Faraz Rabbani sa SeekersGuidance na dinadasal mo pa rin ang obligadong pagdarasal sa eroplano kapag dumating ang oras nito. Kung makatwirang kaya mo, tumayo, halimbawa malapit sa galley o exit, at yumuko at magpatirapa gaya ng dati. Kung hindi mo kaya, magdasal sa upuan mo, at gumawa ng tunay na pagpapatirapa kung posible. Kalkulahin ang oras ng pagdarasal mula sa oras ng pag-alis, oras ng pagdating at ruta mo.\n\nNagkakaiba ang mga mazhab sa pagdarasal nang nakaupo sa eroplano at kung kailangang ulitin kalaunan ang pagdarasal na dinasal sa ganoong paraan. Hanafi ang sagot sa itaas, kaya tanungin ang guro mo kung ano ang sinasabi ng mazhab mo.",
+        "items": [
+          "Huwag laktawan ang pagdarasal dahil gumagalaw ang eroplano.",
+          "Huwag hintayin ang paglapag kung matatapos ang oras ng pagdarasal bago ka makarating."
+        ]
+      },
+      {
+        "heading": "Sa airport",
+        "body": "May ilang airport sa Canada na may multi-faith chapel. Sa Toronto Pearson, ang chapel ng Terminal 1 ay bago ang security, sa Level 1 Arrivals, at bukas sa sinumang nasa airport. Interfaith na espasyo ito, hindi prayer room para sa mga Muslim. Pearson pa lang ang nasuri namin, kaya alamin ang sa sarili mong airport bago ka lumipad. Puwede rin ang tahimik na sulok malapit sa gate, basta wala ka sa daanan."
+      },
+      {
+        "heading": "Sa hotel",
+        "body": "Gamitin ang qibla finder para makuha ang direksyon mula sa kuwarto mo. Sapat nang pagdasalan ang malinis na tuwalya o jacket na inilatag sa sahig. Kaginhawahan lang ang prayer mat, hindi obligasyon."
+      },
+      {
+        "heading": "Halal na pagkain habang nasa biyahe",
+        "body": "Maaaring walang halal na butcher o restaurant sa maliliit na bayan. Madaling alternatibo halos kahit saan ang isda at mga pagkaing vegetarian. Sinasabi ng isang sagot mula sa SeekersGuidance para sa bagong Muslim, na sinuri ni Shaykh Abdul-Rahim Reasat, na makatwirang opsyon ang pagiging pescatarian nang ilang panahon kapag mahirap humanap ng halal na karne. Idinadagdag nito na hindi mo kailangang imbestigahan ang bawat posibleng cross-contamination, at na ang pritong pagkain ang pangunahing dapat itanong, dahil madalas pinagsasaluhan ang mantika sa fryer.\n\nPagkakaiba ng mazhab ang kosher na karne. Ipinapaliwanag ng isang sagot na Hanafi sa SeekersGuidance na hinihingi ng mga mazhab na Hanafi at Hanbali na sabihin ang pangalan ng Diyos sa bawat hayop. Itinuturing iyon ng mazhab na Shafi'i na inirerekomenda, at sinasabi ng ilang Maliki na kondisyon lamang ito para sa mga Muslim. Nagtatapos ang sagot na puwedeng kainin ang kosher na karne, gaya ng hatol ng karamihan ng kontemporaryong iskolar. Tanungin ang guro mo kung alternatibo para sa iyo ang kosher."
+      }
+    ],
+    "scripts": [
+      {
+        "title": "Pagtatanong sa cabin crew",
+        "body": "Kailangan kong magdasal nang sandali. May lugar ba malapit sa galley o exit kung saan puwede akong tumayo nang limang minuto nang hindi nakakaharang?"
+      },
+      {
+        "title": "Pagtatanong tungkol sa fryer",
+        "body": "Mabilis na tanong lang po: sa parehong mantika po ba niluluto ang fries at ang manok o bacon?"
+      }
+    ],
+    "scenarios": [
+      {
+        "title": "Matatapos ang oras ng pagdarasal bago ka lumapag.",
+        "response": "Magdasal sa eroplano. Tumayo kung mabibigyan ka ng crew ng puwesto, at magdasal sa upuan mo kung hindi. Tanungin ang guro mo kalaunan kung hinihiling ng mazhab mo na ulitin ito."
+      },
+      {
+        "title": "Burger at hot dog lang ang pagkain sa rest stop.",
+        "response": "Pumili ng isda o opsyong vegetarian, o kainin ang halal na meryendang binaon mo. Hindi krisis ang isang pagkaing hindi natuloy ayon sa plano."
+      },
+      {
+        "title": "Walang chapel ang airport mo.",
+        "response": "Humanap ng tahimik na sulok na malayo sa mga daanan, maglatag ng malinis na tela, at magdasal. Karamihan ng mga biyahero ay hindi man lang ito mapapansin."
+      }
+    ],
+    "relatedLinks": [
+      {
+        "label": "Paksa tungkol sa pagdarasal, kasama ang pagdarasal habang naglalakbay",
+        "href": "/topics/prayer"
+      },
+      {
+        "label": "Paghahanap ng Qibla",
+        "href": "/qibla"
+      },
+      {
+        "label": "Oras ng pagdarasal",
+        "href": "/prayer-times"
+      },
+      {
+        "label": "Halal na pamumuhay sa araw-araw",
+        "href": "/guides/halal-living-in-daily-life"
+      },
+      {
+        "label": "Mga tanong at sagot",
+        "href": "/faq"
+      }
+    ]
+  },
+  {
+    "id": "when-someone-dies",
+    "group": "life-events",
+    "title": "Kapag may namatay: ano ang gagawin at sino ang tatawagan",
+    "description": "Ano ang nangyayari kapag may Muslim na namatay sa Canada, sino ang unang tatawagan, ang mga papeles na Ontario ang halimbawa, at paano mapoprotektahan ng isang balik-Islam ang sarili niyang mga kagustuhan.",
+    "intro": "Mabilis na inililibing ng mga Muslim ang kanilang patay, kaya mahalaga ang mga unang oras. Kadalasang natututuhan ng mga ipinanganak na Muslim ang mga hakbang mula sa pamilya. Maaaring ikaw lang ang Muslim sa sambahayan mo, kaya inilalatag ng gabay na ito kung ano ang nangyayari, sino ang tatawagan at ano ang sasabihin. Nagtatapos ito sa maikling checklist para protektahan ang sarili mong mga kagustuhan. Pangkalahatang impormasyon ito, hindi payong legal, at dapat tiyakin sa imam mo ang mga detalye ng paghuhugas, pagbabalot at pagdarasal para sa patay.",
+    "summary": [
+      "I-save na ngayon sa phone mo ang contact ng masjid mo para sa libing, bago mo pa ito kailanganin.",
+      "Kung inaasahan ang kamatayan, kinukumpirma ito ng doktor o nurse. Kung biglaan, tumawag sa 911.",
+      "Sabihin kaagad sa ospital o sa coroner na gusto ng pamilya ng libing na Muslim at na mahalaga ang oras.",
+      "Kadalasan, ang serbisyo ng masjid para sa libing ang humahawak sa paghuhugas, sa balot, sa mga papeles at sa paglilibing.",
+      "Maaaring ang pamilya mong hindi Muslim ang magpasya pagkamatay mo, kaya isulat ang mga kagustuhan mo at pangalanan ang isang executor na susunod sa mga ito."
+    ],
+    "sections": [
+      {
+        "heading": "Mag-save ng isang numero ngayon",
+        "body": "Tanungin ang masjid mo kung may komite ito para sa libing o nakikipagtulungan sa isang Muslim na funeral service, at i-save ang numerong iyon sa phone mo. Maraming masjid ang may ganito. Inililista ng Scarborough Muslim Association sa Toronto, halimbawa, ang paglalabas ng bangkay, paghuhugas at pagbabalot, cold storage, ang pagpaparehistro ng kamatayan, ang burial permit at paglilibing sa sementeryong Muslim. Isang halimbawa iyon ng uri ng serbisyong dapat hanapin, hindi rekomendasyon.\n\nKung wala nito ang masjid mo, itanong kung aling serbisyo ang ginagamit nila. Maaaring hindi alam ng karaniwang funeral home ang kailangan ng libing na Muslim, kaya ang contact ng masjid ang unang tatawagan."
+      },
+      {
+        "heading": "Ano ang gagawin sa mga unang oras",
+        "items": [
+          "Kung inaasahan ang kamatayan, sa bahay man o sa ospital, kinukumpirma ito ng doktor o nurse.",
+          "Kung biglaan o hindi inaasahan ang kamatayan, tumawag sa 911.",
+          "Sabihin agad sa staff ng ospital o sa coroner na gusto ng pamilya ng libing na Muslim at kung bakit mahalaga ang oras.",
+          "Tawagan ang contact ng masjid para sa libing. Ipapaliwanag nila ang mga susunod na hakbang, ang mga papeles at ang sementeryo.",
+          "Kung hindi ikaw ang pinakamalapit na kamag-anak, manatiling malapit at mag-alok na ikaw ang tatawag. Ang pamilya ang magpapasya."
+        ]
+      },
+      {
+        "heading": "Ang mga hakbang na Islamiko sa simpleng salita",
+        "body": "Una, hinuhugasan ang bangkay (ghusl para sa patay), kadalasan ng mga sinanay na boluntaryo mula sa masjid. Pagkatapos, binabalot ito sa simpleng tela (ang balot, kafan). Idinadasal ng komunidad ang pagdarasal para sa patay (salat al-janazah), at sumusunod ang paglilibing sa lalong madaling maisaayos. Hindi nagsusunog ng patay (cremation) ang mga Muslim.\n\nMaikli ang pagdarasal para sa patay. Nakatayo ang lahat nang nakahanay sa likod ng imam at walang pagyuko o pagpapatirapa. May apat na takbir (pagsasabi ng Allahu Akbar). Sa paraang itinuturo ng IslamQA, binibigkas mo ang Al-Fatihah pagkatapos ng una, nagpapadala ng pagpapala sa Propeta pagkatapos ng ikalawa, nagdu-dua para sa pumanaw pagkatapos ng ikatlo, pagkatapos ay sinasabi ang ikaapat na takbir at nagtatapos sa salam. Nagkakaiba ang mga mazhab sa mga salita pagkatapos ng unang takbir at sa bilang ng salam, kaya sundan ang imam at tanungin siya tungkol sa mazhab mo.\n\nNagkakaiba rin sa pagitan ng mga mazhab ang mga detalye ng paghuhugas at pagbabalot. Alam ito ng team ng masjid, at hindi mo kailangang pag-aralan ang mga ito bago ka tumulong."
+      },
+      {
+        "heading": "Ang mga papeles, na Ontario ang halimbawa",
+        "body": "May sariling mga opisina at form ang bawat probinsya. Sa Ontario, inilalatag ng gabay ng probinsya ang mga hakbang na ito. Kinukumpleto ng doktor o nurse practitioner ang Medical Certificate of Death. Pinupunan ang Statement of Death ng mga detalye ng tao. Ipinaparehistro ang kamatayan sa munisipyo, na nagbibigay ng burial permit. Sinasabi rin ng probinsya na puwedeng ayusin ng mga pamilya ang mga kaayusan nang walang funeral service provider, bagaman karamihan ng tao ay gumagamit ng serbisyo ng masjid o funeral home.\n\nSa ibang probinsya, tanungin ang serbisyo ng masjid o ang ospital kung aling mga form ang nalalapat. May checklist ang Government of Canada para sa mga susunod, gaya ng pagsasabi sa mga pederal na programa tungkol sa kamatayan, mga benepisyo, at mga ari-arian at will."
+      },
+      {
+        "heading": "Biglaang kamatayan at ang coroner",
+        "body": "Sinisiyasat ng coroner ang mga kamatayang biglaan o hindi inaasahan. Hinihiling ng coroner service ng Ontario sa mga pamilya na sabihin agad kung may pangangailangan silang panrelihiyon o pangkultura tungkol sa oras, at isinasaalang-alang ng coroner ang mga alalahaning iyon. Sa coroner ang desisyon kung magsasagawa ng autopsy, at sa Ontario ay legal at may-bisa ito.\n\nMaaaring maantala ng autopsy ang libing, pero nangyayari pa rin ang paghuhugas, pagdarasal para sa patay at paglilibing kapag nailabas na ang bangkay. Magsalita nang maaga at mahinahon, at hayaang makipag-usap ang serbisyo ng masjid sa opisina ng coroner kung makakatulong iyon."
+      },
+      {
+        "heading": "Mga sementeryo at gastos",
+        "body": "May mga lugar na may sementeryong Muslim at may mga lugar na may bahagi para sa mga Muslim sa sementeryo ng munisipyo. Tanungin ang masjid mo kung alin ang ginagamit nila at magkano ang lote at ang serbisyo, dahil malaki ang pagkakaiba ng presyo sa bawat lungsod. Kung inaalala mo ang pera, sabihin mo. Maraming masjid ang nakakaalam kung saan makakahanap ng tulong para sa pamilyang hindi makakabayad."
+      },
+      {
+        "heading": "Kababaihan at ang libing",
+        "body": "Puwedeng dumalo ang kababaihan sa pagdarasal para sa patay. Magkakaiba ang pagtalakay ng mga mazhab kung sasama ang kababaihan sa prusisyon at dadalo sa paglilibing, at may sariling kaugalian ang mga masjid. May episode tungkol sa pagdarasal ng kababaihan para sa patay at pagbisita sa mga libingan ang serye ng Yaqeen Institute na For Those Left Behind. Tanungin ang masjid mo kung ano ang ginagawa nila, at tanungin ang imam mo tungkol sa mazhab mo."
+      },
+      {
+        "heading": "Protektahan ang mga kagustuhan mo: checklist para sa mga balik-Islam",
+        "body": "Pagkamatay mo, maaaring hindi Muslim ang legal na pinakamalapit mong kamag-anak. Sa karamihan ng probinsya, sila, o ang executor ng will mo, ang nagpapasya tungkol sa bangkay mo at sa libing mo. Kung walang nakasulat na kagustuhan at executor na pumayag na sundin ang mga ito, maaaring hindi matuloy ang libing na Muslim. Sulit itong gawin nang tahimik, ngayon, kahit bata ka pa at malusog.",
+        "items": [
+          "Sumulat ng isang maikling talata na nagsasabing Muslim ka at gusto mo ng libing na Muslim. May halimbawa sa mga script sa ibaba.",
+          "Gumawa ng will na nagpapangalan ng executor (tinatawag na estate trustee sa Ontario) na pumayag na mag-ayos ng libing na Muslim. Tanungin muna sila.",
+          "Sabihin sa isang Muslim na kaibigan at sa isang kapamilya kung nasaan ang will mo at ang nakasulat mong mga kagustuhan.",
+          "Ilagay ang contact ng masjid mo para sa libing sa phone mo at sa sulat.",
+          "Sabihin nang mahinahon sa pamilya mo, kapag ligtas na ang pakiramdam, para hindi ito maging sorpresa."
+        ]
+      },
+      {
+        "heading": "Sino ang nagpapasya sa probinsya mo",
+        "body": "Nakadepende ito sa batas ng probinsya, at nagkakaiba ang mga patakaran.\n\nSa British Columbia, ibinibigay ng Cremation, Interment and Funeral Services Act ang unang karapatang magpasya sa executor na pinangalanan sa will, pagkatapos ay sa asawa, sa anak na nasa hustong gulang at sa ibang kamag-anak ayon sa pagkakasunod-sunod (seksyon 5). May-bisa ang nakasulat na kagustuhan sa will o sa preneed funeral contract maliban kung hindi ito makatwiran, hindi praktikal o nagdudulot ng kahirapan (seksyon 6).\n\nSa Ontario, hindi sinasabi ng gabay ng probinsya kung sino ang may kontrol sa libing. Karaniwang inilalarawan ng mga abogado ang estate trustee bilang taong may karapatang iyon at ang nakasulat na kagustuhan sa libing bilang gabay na hindi may-bisa. Hindi pa namin ito nakumpirma mula sa isang pangunahing legal na sanggunian, kaya magtanong sa isang abogado sa Ontario. Kung tama ito, mas mahalaga ang pagpapangalan ng estate trustee na gagalang sa libing na Muslim kaysa sa nakasulat na tala.\n\nSa ibang probinsya, tanungin ang isang abogado kung paano ito gumagana sa lugar mo. May higit pa tungkol sa paggawa ng will ang paksa namin tungkol sa mga habilin at mana."
+      },
+      {
+        "heading": "Kung hindi masunod ang mga kagustuhan mo",
+        "body": "May ilang balik-Islam na nag-aalalang susunugin (cremate) sila ng pamilya nila. Sinasabi ng isang sagot mula sa fatwa centre ng IslamWeb sa isang balik-Islam na may ganitong takot na dapat niyang isulat ang mga kagustuhan niya at ibigay ito sa mga Muslim na tutupad dito, at na wala siyang kasalanan kung susunugin siya ng pamilya niya nang labag sa kalooban niya. Gawin ang kaya mo, pagkatapos ay ipaubaya ang natitira sa Allah.\n\nKung pribado pa ang pagyakap mo sa Islam, itago ang sulat sa isang ligtas na lugar o sa isang Muslim na kaibigan. May seksyon tungkol sa pagpapanatiling pribado ng pagyakap mo sa Islam ang gabay namin tungkol sa mga babalang senyales at pananatiling ligtas."
+      }
+    ],
+    "scripts": [
+      {
+        "title": "Pagtawag sa masjid",
+        "body": "Assalamu alaikum. Ako po si ___. May namatay po sa pamilya ko sa ___ (ospital o address). Gusto po namin ng libing na Muslim. Puwede po ba ninyong sabihin kung ano ang susunod naming gagawin at sino ang hahawak sa paghuhugas at sa mga papeles?"
+      },
+      {
+        "title": "Pagsasabi sa ospital o sa coroner",
+        "body": "Gusto po ng pamilya ng libing na Muslim. Sa pananampalataya namin, nangyayari ang libing sa lalong madaling panahon, kaya pakisabi po sa amin nang maaga ang anumang hakbang na maaaring magpaantala. Ito po ang numero ng telepono ng serbisyo ng masjid namin para sa libing."
+      },
+      {
+        "title": "Ang nakasulat mong mga kagustuhan",
+        "body": "Muslim ako. Kapag namatay ako, nais kong hugasan, balutin at ilibing ayon sa kaugaliang Islamiko, at hindi sunugin. Pakitawagan si ___ (masjid at numero ng telepono), na tutulong sa mga kaayusan. Nilagdaan ni ___, petsa ___."
+      },
+      {
+        "title": "Pagsasabi sa pamilya mo",
+        "body": "Hindi ito dahil may problema. Gusto ko lang malaman ninyo na kung may mangyari sa akin, gusto ko ng libing na Muslim. Kayang asikasuhin ng masjid ang mga detalye. Isinulat ko ito para walang manghuhula."
+      }
+    ],
+    "scenarios": [
+      {
+        "title": "Biglang namatay sa bahay ang asawa mong Muslim.",
+        "response": "Tumawag muna sa 911. Pagdating ng pulis o paramedics, sabihing gusto mo ng libing na Muslim. Pagkatapos, tawagan ang contact ng masjid para sa libing. Maaaring may kinalaman ang coroner, kaya sabihin agad sa opisina ng coroner ang tungkol sa oras."
+      },
+      {
+        "title": "Nag-utos ang coroner ng autopsy.",
+        "response": "Nananatili ang desisyon ng coroner, at tuloy pa rin pagkatapos ang libing na Muslim. Itanong kung gaano ito katagal, at hayaang manatiling nakikipag-ugnayan ang serbisyo ng masjid sa opisina ng coroner."
+      },
+      {
+        "title": "Wala ka pang masjid.",
+        "response": "Gamitin ang masjid finder namin para mahanap ang pinakamalapit at tawagan ang opisina. Kahit hindi ka pa kailanman nakabisita, tutulong sila o sasabihin sa iyo kung sino ang tatawagan."
+      },
+      {
+        "title": "Tinanong ka ng mga magulang mo kung ano ang gusto mo kung mamatay ka.",
+        "response": "Tanggapin ang tanong bilang pagmamalasakit. Sabihin sa kanila nang simple na gusto mo ng libing na Muslim, at sabihin kung nasaan ang nakasulat mong mga kagustuhan."
+      }
+    ],
+    "relatedLinks": [
+      {
+        "label": "Pagdadalamhati at pagkawala",
+        "href": "/topics/grief-and-loss"
+      },
+      {
+        "label": "Mga habilin (will) at mana",
+        "href": "/topics/wills-and-inheritance"
+      },
+      {
+        "label": "Mga desisyon sa katapusan ng buhay",
+        "href": "/topics/end-of-life-decisions"
+      },
+      {
+        "label": "Maghanap ng masjid",
+        "href": "/resources/find-masjid"
+      },
+      {
+        "label": "Paano humingi ng tulong",
+        "href": "/guides/how-to-ask-for-help"
+      },
+      {
+        "label": "Mga babalang palatandaan at pananatiling ligtas",
+        "href": "/guides/red-flags-and-staying-safe"
+      }
+    ]
+  },
+  {
+    "id": "having-a-baby",
+    "group": "life-events",
+    "title": "Pagkakaroon ng sanggol bilang bagong Muslim",
+    "description": "Ano ang ginagawa ng mga Muslim kapag ipinanganak ang isang sanggol, ano ang sunnah at ano ang kaugalian ng pamilya, mga pangalan, aqiqah, pagtutuli ayon sa gabay medikal sa Canada, at ang mood mo pagkatapos manganak.",
+    "intro": "Maraming payo ang dala ng bagong sanggol, ang ilan ay panrelihiyon at ang ilan ay kaugalian ng pamilya. Inilalatag ng gabay na ito ang mga gawaing sinusunod ng mga Muslim pagkatapos ng panganganak, gaano kalakas ang rekomendasyon sa bawat isa, at kung saan pumapasok ang gabay pangkalusugan sa Canada. Hindi kailangang perpekto ang alinman dito. Tanungin ang imam mo tungkol sa mazhab mo, at ang doktor o midwife mo tungkol sa kalusugan mo at ng sanggol mo.",
+    "summary": [
+      "Sunnah ang mga inirerekomendang gawain pagkatapos ng panganganak, hindi kondisyon para maging Muslim ang anak mo.",
+      "Kumpirmadong sunnah ang aqiqah para sa may kakayahan. Hindi ito utang kung hindi mo kaya.",
+      "Mahalaga ang magandang pangalan. Hindi ito kailangang Arabic.",
+      "Kung gusto mong ipatuli ang anak mong lalaki, magtanong nang maaga sa doktor mo. Hindi ito binabayaran ng mga plano ng probinsya kapag ginawa dahil sa relihiyon.",
+      "Karaniwan at nagagamot ang mababang mood o pagkabalisa pagkatapos manganak. Hindi ito problema sa pananampalataya."
+    ],
+    "sections": [
+      {
+        "heading": "Sunnah, kaugalian at ang makakapaghintay",
+        "body": "Maaaring ilahad ng mga kamag-anak at biyenan ang kanilang mga kaugalian bilang tungkuling panrelihiyon. Sunnah ang ilan, kultura ang ilan, at pareho ang ilan. Ayos lang na magtanong nang mabait, \"Galing ba ito sa relihiyon o sa pamilya?\" at tiyakin sa isang guro. Malaki ang pagkakaiba-iba sa pagitan ng mga pamilya at bansa ng mga kaugalian gaya ng apatnapung araw na pahinga ng ina."
+      },
+      {
+        "heading": "Ang mga unang araw: mga gawaing sinusunod ng mga Muslim",
+        "body": "Inililista ng SeekersGuidance, na sumasagot mula sa mazhab na Shafi'i, ang mga inirerekomendang gawaing ito. Mabuting gawin ang mga ito, at walang nagiging hindi balido kapag may nalampasan kang isa.",
+        "items": [
+          "Ang panawagan sa pagdarasal (adhan) sa kanang tainga ng sanggol, at ang iqamah sa kaliwa.",
+          "Paglalagay ng kaunting pinalambot na datiles sa bibig ng sanggol (tahnik). Tiyakin muna sa midwife o doktor mo bago bigyan ng anumang pagkain ang bagong silang.",
+          "Pagpili ng magandang pangalan.",
+          "Sa ikapitong araw, pag-ahit sa ulo ng sanggol at pagbibigay ng kawanggawa.",
+          "Ang aqiqah, isang pag-aalay ng hayop para pasalamatan ang Allah para sa bata."
+        ]
+      },
+      {
+        "heading": "Gaano katibay ang hadith tungkol sa adhan?",
+        "body": "Nasa Sunan Abi Dawud 5105 ang ulat na ibinigay ng Propeta ang panawagan sa pagdarasal sa tainga ng apo niya, graded Hasan ni Al-Albani. Isinalaysay din ito ni at-Tirmidhi (Jami' at-Tirmidhi 1514) at tinawag itong hasan sahih, habang Da'if ang grado ng Darussalam sa Sunnah.com. Kaya pinagtatalunan ang tibay ng ulat, at hindi pare-pareho ang pagtingin ng mga mazhab sa gawain. Sinasabi rin ng parehong sagot mula sa SeekersGuidance na hindi matatag na sunnah ang pagbulong ng pangalan ng sanggol sa tainga. Tanungin ang imam mo kung ano ang pinanghahawakan ng mazhab mo."
+      },
+      {
+        "heading": "Ang aqiqah",
+        "body": "Tinatawag ng fatwa centre ng IslamWeb ang aqiqah na kumpirmadong sunnah para sa may kakayahan: dalawang tupa para sa lalaki at isa para sa babae, sa ikapitong araw, o kung hindi ay sa ikalabing-apat o ikadalawampu't isa, o anumang oras bago magbinata o magdalaga ang bata. Nagkakaiba ang mga mazhab kung gaano ito kalakas na inirerekomenda. Hindi ito obligasyon, at walang dapat mangutang para gawin ito.\n\nMay ilang charity at halal na butcher na makakapag-ayos ng aqiqah para sa iyo. Tanungin ang masjid mo kung sino ang pinagkakatiwalaan nila."
+      },
+      {
+        "heading": "Pagpili ng pangalan",
+        "body": "Pumili ng pangalang may magandang kahulugan. Hindi ito kailangang Arabic, sa parehong paraan na kadalasang pinananatili ng mga balik-Islam ang sarili nilang pangalan maliban kung problema ang kahulugan. Kung gusto mo ang isang pangalan pero hindi ka sigurado sa kahulugan nito, magtanong sa taong nakakaalam ng wika bago ka magpasya."
+      },
+      {
+        "heading": "Pagtutuli sa mga sanggol na lalaki",
+        "body": "Nagkakaiba ang mga paaralan ng batas Islamiko sa pagtutuli sa lalaki: itinuturing ito ng ilan na mariing inirerekomenda at ng iba na obligado. Tinatalakay ng pahina namin ng mga tanong kung ano ang ibig sabihin nito para sa mga nasa hustong gulang.\n\nPara sa mga sanggol, sinasabi ng handout para sa magulang ng Canadian Paediatric Society (huling in-update noong Pebrero 2021) na hindi inirerekomenda ng CPS ang pagtutuli sa bawat bagong silang na lalaki bilang karaniwang pangangalaga, at na maraming magulang ang pumipili nito dahil sa relihiyon. Dapat itong gawin ng isang sinanay at may karanasang practitioner na may local anaesthetic para sa sakit. Walang health plan ng probinsya o teritoryo na nagbabayad nito kapag ginawa dahil sa hindi medikal na dahilan. Nairetiro na ang CPS position statement na pinagbatayan ng handout, kaya magtanong sa doktor mo para sa kasalukuyang payo.\n\nKung gusto mo itong ipagawa, banggitin ito nang maaga sa doktor o midwife mo, at tanungin ang masjid mo kung aling lokal na klinika ang ginagamit ng mga pamilya."
+      },
+      {
+        "heading": "Pagkatapos manganak: pagdurugo at pagsamba",
+        "body": "Sinusunod ng pagdurugo pagkatapos manganak (nifas) ang parehong patakaran sa pagsamba gaya ng regla: hindi ka nagdarasal o nag-aayuno habang nagpapatuloy ito, at binabayaran mo kalaunan ang mga hindi naayunuhang araw ng Ramadan. Ipinapaliwanag ng paksa namin tungkol sa regla at pagsamba ang mga detalye at kung saan nagkakaiba ang mga mazhab. Sundin din ang payo ng doktor o midwife mo tungkol sa paggaling mo."
+      },
+      {
+        "heading": "Ang mood mo pagkatapos manganak",
+        "body": "Iniuulat ng Health Canada na 23% ng mga inang kamakailan lang nanganak sa Canada ang naglarawan ng mga damdaming tugma sa postpartum depression o anxiety disorder, isang numero mula sa Survey on Maternal Health noong 2018/2019.\n\nHindi mahinang pananampalataya at hindi kawalan ng pasasalamat ang pakiramdam na malungkot, balisa o manhid pagkatapos manganak. Sabihin sa doktor, midwife o public health nurse mo. May tulong na makukuha, at naglathala ang Health Canada ng mga alituntunin sa paggamot para sa mga kondisyong ito.\n\nKung ikaw o ang ibang tao ay nasa agarang panganib, tumawag sa 911. Kung may iniisip kang pagpapakamatay o nag-aalala ka para sa isang bagong magulang, tumawag o mag-text sa 9-8-8."
+      }
+    ],
+    "scripts": [
+      {
+        "title": "Kapag nagpupumilit ang isang kamag-anak sa isang kaugalian",
+        "body": "Salamat po, alam kong malaki ang kahulugan nito sa inyo. Inaalam ko pa kung aling mga bagay ang galing sa relihiyon at alin ang kaugalian ng pamilya, kaya itatanong ko muna ito sa guro ko."
+      },
+      {
+        "title": "Pagtatanong sa doktor mo tungkol sa pagtutuli",
+        "body": "Muslim po kami, at gusto naming ipatuli ang anak naming lalaki dahil sa relihiyon. Sino po ang inirerekomenda ninyo, anong pampawala ng sakit ang ginagamit, at magkano po ito?"
+      },
+      {
+        "title": "Pagsasabi sa care provider mo kung ano ang nararamdaman mo",
+        "body": "Mula nang dumating ang sanggol, malungkot (o balisa) ako halos araw-araw, at hindi ito gumagaling. Gusto ko sanang pag-usapan kung anong tulong ang makukuha."
+      }
+    ],
+    "scenarios": [
+      {
+        "title": "Hindi mo kaya ang gastos ng aqiqah.",
+        "response": "Kung gayon ay hindi ito hinihingi sa iyo ngayon. Puwede mo itong gawin kalaunan kung magbago ang sitwasyon mo, bago magbinata o magdalaga ang bata, o hayaan na lang."
+      },
+      {
+        "title": "Sinasabi ng mga biyenan mo na dapat Arabic ang pangalan ng sanggol.",
+        "response": "Ang magandang kahulugan ang mahalaga. Puwede kayong pumili ng pangalang pareho ninyong gusto, Arabic man o hindi, at ipaliwanag nang mahinahon kung bakit."
+      },
+      {
+        "title": "May nagsabi sa iyo na ang lungkot pagkatapos manganak ay nangangahulugang mahina ang pananampalataya mo.",
+        "response": "Hindi. Kausapin ang doktor o midwife mo, at sumandal sa mga taong sumusuporta sa iyo."
+      }
+    ],
+    "relatedLinks": [
+      {
+        "label": "Regla at pagsamba",
+        "href": "/topics/menstruation-and-worship"
+      },
+      {
+        "label": "Suporta sa kalusugan ng isip",
+        "href": "/mental-health"
+      },
+      {
+        "label": "Mga batayan sa relasyon at kasal",
+        "href": "/guides/relationships-and-marriage-basics"
+      },
+      {
+        "label": "Mga habilin (will) at mana",
+        "href": "/topics/wills-and-inheritance"
+      }
+    ]
+  },
+  {
+    "id": "facing-hate-and-harassment",
+    "group": "community-and-safety",
+    "title": "Pagharap sa pagkapoot at panliligalig",
+    "description": "Ano ang gagawin kung may tumarget sa iyo dahil Muslim ka: pagpunta sa ligtas na lugar, pagtatago ng tala, kung saan magre-report sa Canada, at pag-aalaga sa sarili pagkatapos.",
+    "intro": "Karamihan ng araw ay lumilipas nang walang gulo. May ilang Muslim sa Canada, lalo na ang mga halatang Muslim sa itsura, na nakakaranas ng poot: isang sigaw sa bus, isang kamay na humahablot sa hijab, pang-aabuso online. Kung mangyari ito sa iyo, hindi mo ito kasalanan at hindi mo kailangang harapin ito nang mag-isa. Ipinapaliwanag ng gabay na ito kung ano ang itinuturing na hate crime, paano magtago ng tala, kung saan ka makakapag-report, at ano ang nakakatulong pagkatapos. Pangkalahatang impormasyon ito, hindi payong legal.",
+    "summary": [
+      "Kung nasaktan ka o nasa panganib ka pa, tumawag sa 911.",
+      "Isulat ang nangyari sa araw ding iyon, at i-save ang mga screenshot at litrato bago ka mag-block o magbura ng kahit ano.",
+      "Puwede kang mag-report sa lokal mong pulis, nang anonymous sa Crime Stoppers sa 1-800-222-8477, at sa National Council of Canadian Muslims (NCCM). Puwede mong gawin ang isa, dalawa o lahat ng tatlo.",
+      "Puwedeng dalhin sa ahensya ng karapatang pantao ng probinsya o teritoryo mo ang diskriminasyon sa pabahay, sa tindahan o paaralan, o sa karamihan ng lugar ng trabaho.",
+      "Karaniwan ang takot at hindi magandang tulog pagkatapos. Makakatulong ang victim services, at puwede kang tumawag o mag-text sa 9-8-8 kung sumobra na ito."
+    ],
+    "sections": [
+      {
+        "heading": "Hate crime o hate incident?",
+        "body": "Ipinapaliwanag ng RCMP ang pagkakaiba. Ang hate crime ay isang krimen, gaya ng pananakit, pagbabanta o pagsira ng ari-arian, na ginawa dahil sa poot o pagkiling laban sa isang grupo, halimbawa isang relihiyon. Ang hate incident ay mapoot na asal na hindi krimen, gaya ng panlalait o panunuya ng isang tao sa relihiyon mo sa social media.\n\nSulit i-report ang dalawa. Sinasabi ng RCMP na nakakatulong sa pulis na pigilan ang mga ito ang pag-report ng mga insidente, gaano man kaliit. Noong 2024, nagtala ang pulis sa Canada ng 229 na hate crime laban sa mga Muslim, ayon sa Statistics Canada."
+      },
+      {
+        "heading": "Ngayon mismo: pumunta sa ligtas na lugar",
+        "items": [
+          "Lumayo sa tao at lumapit sa ibang tao, sa driver, sa staff o sa isang tindahan.",
+          "Kung may nasaktan, o nagbabanta pa rin ang tao sa iyo, tumawag sa 911.",
+          "Huwag komprontahin nang pisikal ang tao. Nauuna ang kaligtasan mo.",
+          "Kung may nakakita sa nangyari, hingin ang pangalan at numero ng telepono niya."
+        ]
+      },
+      {
+        "heading": "Magtago ng tala",
+        "body": "Simple ang pagkakasabi ng mga may-akda ng Yaqeen Institute na sina Imam Khalid Latif, Dr. Salman Khan at Mazin Awad: mahalaga ang dokumentasyon. Nakakatulong ang tala sa pulis, sa NCCM o sa isang ahensya ng karapatang pantao, kahit ilang linggo na ang lumipas. Subukang isulat ito sa araw ding iyon.",
+        "items": [
+          "Ang petsa, oras at lugar.",
+          "Ano ang sinabi o ginawa, sa mismong mga salita ng tao kung naaalala mo pa.",
+          "Ano ang itsura ng tao, anumang sasakyan, at ang mga pangalan ng mga saksi.",
+          "Mga screenshot ng pang-aabuso online, na makikita ang pangalan ng account at ang petsa. Kunin ang mga ito bago mo i-block o i-report ang account.",
+          "Mga litrato ng anumang pinsala o sira. Itago ang mga nasirang gamit, gaya ng napunit na hijab."
+        ]
+      },
+      {
+        "heading": "Kung saan ka makakapag-report",
+        "body": "Ikaw ang pipili kung magre-report ka, at puwede kang mag-report sa higit sa isang lugar.",
+        "items": [
+          "Ang lokal mong pulis. Sa emergency, tumawag sa 911. Kung hindi, gamitin ang non-emergency line o online reporting ng lokal mong pulis, o ang detachment ng RCMP kung RCMP ang nagpupulis sa lugar mo.",
+          "Crime Stoppers, kung gusto mong manatiling anonymous. Tumawag sa 1-800-222-8477 (1-800-222-TIPS) o gamitin ang secure na online form nito. Hindi nito hinihingi ang pangalan mo at wala itong caller ID. Hindi pulis ang Crime Stoppers at hindi ito nag-aalok ng suporta sa biktima.",
+          "Ang National Council of Canadian Muslims (NCCM). Ang sinumang nakaranas o nakakita ng diskriminasyon, panliligalig o hate crime ay puwedeng magsagot ng incident form nito. Kinukumpirma ng NCCM na natanggap nito ang report mo sa loob ng pitong araw, kinokontak ka kung kaso itong kaya nilang hawakan, at hindi nito ibinabahagi ang impormasyon mo nang walang pahintulot mo. Advocacy group ang NCCM, hindi pulis o legal na serbisyo.",
+          "Ang ahensya ng karapatang pantao ng probinsya o teritoryo mo, para sa diskriminasyon sa pabahay, sa tindahan o restaurant, sa paaralan o sa pangangalagang pangkalusugan, o sa lugar ng trabaho na hindi pederal na nireregula. May link ang Canadian Human Rights Commission sa bawat ahensya. Sa Ontario, halimbawa, saklaw ng Human Rights Code ang pag-upa ng bahay at ang pagsisilbi sa mga tindahan, paaralan at pampublikong sasakyan.",
+          "Sa college o unibersidad, tanungin ang dean of students o ang student union kung aling opisina ang tumatanggap ng report tungkol sa panliligalig at diskriminasyon. I-report din sa pulis ang krimen."
+        ]
+      },
+      {
+        "heading": "Kung bakit nakakatulong pa rin ang pag-report",
+        "body": "Maraming tao ang hindi kailanman nagre-report. Sa isang survey ng Statistics Canada noong 2019, 22% lamang ng mga insidenteng itinuring ng mga tao na dahil sa poot ang nai-report sa pulis. Inililista ng Statistics Canada ang hadlang sa wika, tiwala sa pulis at takot na mangyari ulit ito sa mga dahilan kung bakit nananahimik ang mga tao. May saysay ang mga dahilang iyon. Bilang pa rin ang report: sa ganito nakikita ng pulis at pamahalaan kung saan nangyayari ang poot."
+      },
+      {
+        "heading": "Pagkatapos itong mangyari",
+        "body": "Sinasabi ng Justice Canada na kadalasang hindi gaanong ligtas ang pakiramdam ng mga taong tinarget ng poot pagkatapos, at may ilang nakakaranas ng pagkabalisa, mababang mood o hirap sa pagtulog. Puwede rin nitong yanigin ang pamilya at komunidad mo. Karaniwang reaksyon ang mga ito sa isang bagay na hindi dapat nangyari.\n\nHinahanap ng Victim Services Directory ng Justice Canada ang victim services na malapit sa iyo gamit ang postal code. Sabihin sa isang taong pinagkakatiwalaan mo ang nangyari. Kung hindi pa humuhupa ang takot o hindi magandang tulog pagkalipas ng ilang linggo, kausapin ang doktor mo o isang counsellor. Kung may iniisip kang pagpapakamatay, tumawag o mag-text sa 9-8-8 anumang oras."
+      },
+      {
+        "heading": "Kung nagsusuot ka ng hijab",
+        "body": "Kadalasan, ang mga babaeng halatang Muslim, kasama ang mga balik-Islam, ang pinag-iinitan. Nakapanayam ni Dr. Naved Bakali ng University of Windsor ang mga babaeng Muslim tungkol dito, kasama ang isang balik-Islam na inabuso nang magsimula siyang magsuot ng hijab. Walang sinasabing mali tungkol sa iyo, sa pananampalataya mo o sa hijab mo ang pagiging target.\n\nMay ilang babae na nagtatanong kung puwede nilang baguhin o alisin ang hijab nila sa lugar kung saan natatakot sila para sa kaligtasan nila. Tanong iyon ng batas Islamiko, at hindi ito sinasagot ng gabay na ito. Magtanong sa isang kwalipikadong iskolar na pinagkakatiwalaan mo."
+      },
+      {
+        "heading": "Pananampalataya kasabay ng praktikal na tulong",
+        "body": "Maraming Muslim ang nakakahanap ng ginhawa sa dua kapag nayanig sila, at may seksyon ang pahina ng dua para sa kapag nababalisa o nalulula ka. Puwedeng magkasabay ang pag-dua at ang pag-report ng nangyari."
+      }
+    ],
+    "scripts": [
+      {
+        "title": "Paghingi ng tulong sa isang saksi",
+        "body": "Excuse me po, nakita po ba ninyo ang nangyari? Puwede ko po bang makuha ang pangalan at numero ninyo kung sakaling kailanganin ng pulis ang saksi?"
+      },
+      {
+        "title": "Pagsisimula ng police report",
+        "body": "Gusto kong mag-report ng hate incident. Noong [petsa] sa [lugar], may isang tao na [ang ginawa o sinabi niya]. Sa tingin ko ay dahil Muslim ako. May mga litrato ako at isang saksi."
+      },
+      {
+        "title": "Pagsasabi sa taong pinagkakatiwalaan mo",
+        "body": "May nakakatakot na nangyari sa akin ngayong araw. Hindi ko kailangang ayusin mo ito. Puwede ko bang ikuwento sa iyo?"
+      }
+    ],
+    "scenarios": [
+      {
+        "title": "May sumigaw sa iyo tungkol sa relihiyon mo sa bus, at pagkatapos ay bumaba.",
+        "response": "Lumapit sa driver o sa ibang pasahero. Kapag ligtas ka na, isulat ang oras, ang ruta at ang sinabi. Puwede mo itong i-report sa pulis at sa NCCM."
+      },
+      {
+        "title": "Hinablot ng isang estranghero ang hijab mo sa isang tindahan.",
+        "response": "Maaaring krimen ito. Pumunta sa ligtas na lugar, at tumawag sa 911 kung nasaktan ka o naroon pa ang tao. Hilingin sa staff na itago ang anumang security video, at isulat ang nangyari."
+      },
+      {
+        "title": "May nag-post ng pang-aabuso tungkol sa iyo online.",
+        "response": "Kumuha ng mga screenshot na nagpapakita ng account, ng mga salita at ng petsa bago mo ito i-block o i-report. I-report ito sa platform, sa pulis kung may kasamang pagbabanta, at sa NCCM."
+      },
+      {
+        "title": "Ayaw kang paupahan ng isang landlord matapos kang makitang nagdarasal.",
+        "response": "Maaaring diskriminasyon iyon sa pabahay. Isulat ang sinabi at itago ang anumang mensahe. Makipag-ugnayan sa ahensya ng karapatang pantao ng probinsya o teritoryo mo."
+      }
+    ],
+    "relatedLinks": [
+      {
+        "label": "Humingi ng tulong o mag-ulat ng alalahanin",
+        "href": "/get-help"
+      },
+      {
+        "label": "Mga babalang palatandaan at pananatiling ligtas",
+        "href": "/guides/red-flags-and-staying-safe"
+      },
+      {
+        "label": "Gabay sa trabaho at paaralan",
+        "href": "/guides/work-and-school"
+      },
+      {
+        "label": "Gabay sa kahinhinan at pananamit",
+        "href": "/guides/modesty-and-clothing"
+      },
+      {
+        "label": "Pag-aalaga sa isip mo",
+        "href": "/mental-health"
+      },
+      {
+        "label": "Dua at dhikr",
+        "href": "/dua-dhikr"
+      }
+    ]
+  },
+  {
+    "id": "coming-back",
+    "group": "starting-out",
+    "title": "Pagbabalik pagkatapos ng pagkawala",
+    "description": "Kung tumigil ka sa pagdarasal o lumayo sa Islam nang ilang panahon: paano bumalik, ano ang sinasabi ng mga iskolar tungkol sa mga nalampasang pagdarasal, at ang muling pagpasok sa masjid.",
+    "intro": "Maraming Muslim, balik-Islam man o lumaki sa pananampalataya, ang dumadaan sa panahong tumitigil sila sa pagdarasal o lumalayo. Laging posible ang pagbabalik, at puwede itong magsimula sa susunod na pagdarasal. Tinatalakay ng gabay na ito ang unang araw ng pagbabalik, ang sinasabi ng mga iskolar tungkol sa mga nalampasang pagdarasal, at ang muling pagpasok sa masjid nang walang utang na paliwanag sa kahit sino.",
+    "summary": [
+      "Sinasabi ng Allah na huwag mawalan ng pag-asa sa Kanyang awa, dahil pinatatawad Niya ang lahat ng kasalanan (Quran 39:53).",
+      "Magsimula sa susunod na pagdarasal. Hindi mo kailangang maramdamang handa ka muna.",
+      "Hindi utang ang mga pagdarasal mula bago mo nalamang obligado ang pagdarasal.",
+      "Para sa mga pagdarasal na nalampasan pagkatapos noon, hinihingi ng mga pinanghahawakang posisyon ng apat na mazhab na bayaran ang mga ito, sa iskedyul na kaya mong panatilihin. May ilang iskolar na nagkaiba ng pananaw tungkol sa mga sinadyang hindi idasal. Hilingin sa isang guro na tulungan kang magplano.",
+      "Walang sinuman sa masjid ang may karapatang humingi ng paliwanag kung saan ka nanggaling."
+    ],
+    "sections": [
+      {
+        "heading": "Bukas ang pinto",
+        "body": "Sinasabi ng Allah, \"O Aking mga alipin na lumampas sa hangganan laban sa kanilang sarili! Huwag kayong mawalan ng pag-asa sa awa ng Allah, dahil tiyak na pinatatawad ng Allah ang lahat ng kasalanan\" (Quran 39:53, salin ng kahulugan ni Dr. Mustafa Khattab). Sinabi ng Propeta na kung hindi nagkakasala ang mga tao, papalitan sila ng Allah ng mga taong nagkakasala at pagkatapos ay humihingi ng Kanyang kapatawaran, at patatawarin Niya sila (Sahih Muslim 2749).\n\nIsinusulat ni Roohi Tahir ng Yaqeen Institute na paraan ng pamumuhay ang pagsisisi. Bumabalik ka sa Allah tuwing nadudulas ka, kahit matapos bumagsak ulit, at isa ang kawalan ng pag-asa sa pangunahing pumipigil sa mga tao na bumalik."
+      },
+      {
+        "heading": "Ang unang araw ng pagbabalik mo",
+        "items": [
+          "Mag-wudu at idasal ang susunod na pagdarasal na nakatakda.",
+          "Magsabi ng maikling pagsisisi gamit ang sarili mong mga salita, sa anumang wika.",
+          "Huwag hintaying maramdaman mong handa ka na. Magdasal muna.",
+          "Kung gusto mo, sabihin sa isang taong pinagkakatiwalaan mo na bumalik ka na."
+        ]
+      },
+      {
+        "heading": "Mga nalampasang pagdarasal",
+        "body": "Hindi utang ang mga pagdarasal mula bago ka naging Muslim. Sinasabi rin ng isang sagot mula sa SeekersGuidance ni Ustadha Shaista Maqbool na hindi mananagot ang isang balik-Islam sa bansang hindi Muslim para sa mga pagdarasal mula sa panahong hindi pa niya alam na obligado ang pagdarasal.\n\nPara sa mga pagdarasal na nalampasan pagkatapos noon, sinasabi ng isang sagot mula sa SeekersGuidance ni Shaykh Dr. Muhammad Fayez Awad na obligado ang pagbabayad sa mga ito, kasama ang taos-pusong pagsisisi. Sinisipi nito ang mga iskolar na Hanafi, Shafi'i at Hanbali, at si Ibn Rushd para sa pananaw ng karamihan. Sinisipi rin ng parehong sagot si Ibn Rushd na nagsasabing nagkaiba ang mga iskolar tungkol sa taong sinadyang hindi magdasal, at binabanggit na may ilang iskolar na nagkaiba kung nalalapat ang pagbabayad sa mga sinadyang hindi idasal. Kung umalis ka sa Islam nang ilang panahon at bumalik na, tanungin ang isang guro kung paano ito nalalapat sa iyo.\n\nKung magbabayad ka ng mga pagdarasal, dahan-dahan lang. Iminumungkahi ni Ustadha Maqbool ang iskedyul na kaya mong panatilihin, gaya ng pagbabayad ng isang araw ng pagdarasal bawat araw, kahit abutin ito ng isang taon o higit pa.",
+        "items": [
+          "Tantiyahin ang bilang nang magaspang. Huwag hayaang pigilan ka ng bilang na magdasal ngayong araw.",
+          "Idagdag ang mga pagdarasal na binabayaran kasabay ng pang-araw-araw mong pagdarasal, o sundin ang iskedyul na itatakda ng guro mo.",
+          "Huwag subukang bayaran ang ilang buwan sa loob ng ilang araw. Mas tumatagal ang matatag na plano."
+        ]
+      },
+      {
+        "heading": "Pagbabalik sa masjid",
+        "body": "Wala kang utang na paliwanag sa kahit sino kung saan ka nanggaling. Pumasok, magdasal, at umalis kung iyon lang ang kaya mo ngayong araw. Kung may magtanong, sapat na ang maikling sagot. Kung dati kang nakaramdam na hindi ka tinatanggap sa isang masjid, subukan ang iba, o isang klase para sa bagong Muslim."
+      },
+      {
+        "heading": "Ano ang naglayo sa iyo?",
+        "body": "Makakatulong na pangalanan kung ano ang nagpalayo sa iyo, dahil may sariling uri ng tulong ang bawat dahilan.",
+        "items": [
+          "Pagsabak sa sobrang dami nang sabay-sabay: tingnan ang plano para sa mahihirap na linggo sa pahina ng mga batayan para sa bagong Muslim.",
+          "Pag-iisa: tingnan ang gabay tungkol sa pag-iisa at pagkakabilang.",
+          "Mga pag-aalinlangan o pananampalatayang parang matamlay: tingnan ang paksa tungkol sa mga tanong at pag-aalinlangan.",
+          "Mababang mood na hindi umaangat, o alak at droga: tingnan ang pahina tungkol sa kalusugan ng isip."
+        ]
+      }
+    ],
+    "scripts": [
+      {
+        "title": "Isang maikling pagsisisi",
+        "body": "O Allah, lumayo ako at nagsisisi ako. Bumabalik ako sa Iyo. Patawarin Mo ako at tulungan Mo akong magpatuloy."
+      },
+      {
+        "title": "Kung may magtanong sa masjid",
+        "body": "Matagal-tagal akong nawala. Masarap bumalik."
+      },
+      {
+        "title": "Paghiling sa isang kaibigan na mangumusta",
+        "body": "Tumigil ako sa pagdarasal nang ilang panahon, at magsisimula ulit ako ngayong linggo. Puwede mo ba akong kumustahin paminsan-minsan?"
+      }
+    ],
+    "scenarios": [
+      {
+        "title": "Anim na buwan ka nang hindi nagdarasal at sobrang hiya mo para magsimula.",
+        "response": "Magsimula sa susunod na pagdarasal, iyon lang. Magsisi gamit ang sarili mong mga salita. Pagkatapos, hilingin sa isang guro na tulungan kang planuhin ang anumang pagdarasal na babayaran."
+      },
+      {
+        "title": "Sinubukan mong bayaran ang lahat sa isang weekend at naubos ang lakas mo.",
+        "response": "Bagalan. Mas mabisa ang iskedyul na kaya mong panatilihin, gaya ng isang araw na bayad bawat araw, kaysa sa biglang dami na hindi mo mauulit."
+      },
+      {
+        "title": "May nagsabi sa masjid na matagal ka na nilang hindi nakikita.",
+        "response": "Sapat na ang maikli at magiliw na sagot. Wala kang utang na kuwento sa kahit sino."
+      }
+    ],
+    "relatedLinks": [
+      {
+        "label": "Hakbang: unti-unting pagsisimula sa pagdarasal",
+        "href": "/roadmap/week-1/prayer-on-ramp"
+      },
+      {
+        "label": "Mga batayan para sa bagong Muslim",
+        "href": "/topics/new-muslim-basics"
+      },
+      {
+        "label": "Gabay tungkol sa pag-iisa at pagkakabilang",
+        "href": "/guides/loneliness-and-belonging"
+      },
+      {
+        "label": "Paksa tungkol sa mga tanong at pag-aalinlangan",
+        "href": "/topics/questions-and-doubts"
+      },
+      {
+        "label": "Pag-aalaga sa isip mo",
+        "href": "/mental-health"
+      },
+      {
+        "label": "Dua at dhikr",
+        "href": "/dua-dhikr"
       }
     ]
   }
