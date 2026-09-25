@@ -2,64 +2,59 @@
   "id": "halal-eating-practical",
   "slug": "halal-eating-practical",
   "stageId": "month-1-2",
-  "title": "Manger Halal dans la vie quotidienne",
-  "whyMatters": "L’alimentation halal est l’un des premiers changements de mode de vie auxquels de nombreux nouveaux musulmans sont confrontés. Le but n’est pas la panique ; il s'agit d'apprendre des bases claires, de faire de meilleurs choix et de se demander quand un détail n'est vraiment pas clair.",
+  "title": "Manger halal au quotidien",
+  "whyMatters": "La nourriture est souvent la première partie de la vie quotidienne qui change pour un nouveau musulman. Inutile de paniquer. Apprenez les bases claires, faites de meilleurs choix au fur et à mesure, et demandez à quelqu'un quand un détail n'est vraiment pas clair.",
   "exactActions": [
     {
       "text": "Commencez par les bases claires",
       "subSteps": [
         "Évitez le porc et l'alcool.",
-        "Choisissez de la viande certifiée halal lorsqu'elle est disponible.",
-        "Les fruits de mer, les repas végétariens, les œufs et les produits laitiers peuvent simplifier les premiers choix, tout en répondant aux préoccupations évidentes."
+        "Achetez de la viande certifiée halal quand vous en trouvez.",
+        "Les fruits de mer, les repas végétariens, les œufs et les produits laitiers simplifient les premières semaines, même s'il vaut la peine de jeter un œil aux ingrédients évidents."
       ]
     },
     {
-      "text": "Facilitez les courses",
+      "text": "Simplifiez l'épicerie",
       "subSteps": [
-        "Créez une courte liste d’agrafes sûres.",
-        "Recherchez les étiquettes halal provenant de certificateurs locaux reconnaissables.",
-        "Ne passez pas des heures à vérifier chaque ingrédient mineur au début."
+        "Faites une courte liste d'aliments de base que vous savez acceptables.",
+        "Cherchez les logos halal d'organismes de certification que vous connaissez dans votre région.",
+        "Au début, ne passez pas des heures à vérifier chaque petit ingrédient."
       ]
     },
     {
-      "text": "Planifiez des repas sociaux",
+      "text": "Prévoyez les repas avec d'autres personnes",
       "subSteps": [
-        "Dites aux hôtes une ligne diététique simple avant le repas.",
-        "Proposez d’apporter quelque chose que vous pouvez manger.",
-        "Au restaurant, choisissez des options claires et demandez poliment en cas de besoin."
+        "Dites en une phrase simple à votre hôte ce que vous mangez, avant le repas plutôt qu'à table.",
+        "Proposez d'apporter quelque chose que vous pouvez manger.",
+        "Au restaurant, commandez un plat clairement acceptable, et posez des questions au besoin."
       ]
     },
     {
-      "text": "Renseignez-vous localement sur des détails peu clairs",
+      "text": "Renseignez-vous localement sur les points flous",
       "subSteps": [
-        "La gélatine, les enzymes, la contamination croisée et les normes de certification peuvent varier.",
-        "Demandez à un imam local ou à une autorité halal fiable lorsque la réponse vous concerne souvent.",
-        "Évitez de devenir obsédé par les cas extrêmes rares."
+        "La gélatine, les enzymes, la contamination croisée et les normes de certification varient toutes.",
+        "Demandez à un imam de votre région ou à un organisme halal fiable quand la question revient souvent dans votre vie.",
+        "Essayez de ne pas rester bloqué sur des cas rares."
       ]
     }
   ],
-  "timeEstimate": "1 sortie épicerie pour préparer les bases",
+  "timeEstimate": "Une visite à l'épicerie pour mettre en place les bases",
   "obstacles": [
     {
       "problem": "Ma famille cuisine avec du porc ou de l'alcool",
-      "solution": "Commencez par des demandes respectueuses et des alternatives pratiques. Si la nourriture est liée à un conflit, demandez à un mentor local comment gérer votre situation familiale avec douceur."
+      "solution": "Commencez par une demande respectueuse et une solution de rechange concrète. Si la nourriture est devenue une source de conflit à la maison, demandez à un mentor de votre région comment gérer la situation sans l'envenimer."
     },
     {
-      "problem": "Les restaurants semblent impossibles",
-      "solution": "Choisissez des cuisines plus simples ou des options végétariennes/fruits de mer pendant que vous découvrez les lieux halal locaux. Cela devient plus facile avec une courte liste de confiance."
+      "problem": "Les restaurants me semblent impossibles",
+      "solution": "Tenez-vous-en à des cuisines plus simples ou à des plats végétariens et de fruits de mer, le temps de découvrir quels endroits près de chez vous sont halal. Une fois que vous avez une courte liste d'adresses de confiance, ce n'est plus un problème."
     }
   ],
-  "tinyVersion": "Pour votre prochain repas, évitez le porc et l’alcool et choisissez l’option halal la plus claire disponible.",
-  "unlocksNext": "La confiance pratique en matière d'alimentation vous aide à comprendre les bases plus larges du halal et du haram sans vous laisser submerger.",
-  "resourceIds": ["halal-living-guide", "new-muslim-guide-site"],
-  "relatedGlossaryIds": ["halal", "haram"],
-  "relatedTopicIds": ["halal-living", "new-muslim-basics"],
+  "tinyVersion": "À votre prochain repas, évitez le porc et l'alcool et choisissez l'option halal la plus claire devant vous.",
+  "unlocksNext": "Une fois que la nourriture vous semble gérable, les bases plus larges du halal et du haram sont beaucoup plus faciles à assimiler.",
   "gentleScripts": [
     {
       "title": "Pour un hôte",
-      "body": "Merci de m'avoir invité. Je mange halal maintenant, donc j'évite le porc et l'alcool. Je me ferai un plaisir d'apporter un plat pour que ce soit plus facile."
+      "body": "Merci de m'avoir invité. Je mange halal maintenant, donc j'évite le porc et l'alcool. Je peux volontiers apporter un plat pour vous simplifier la tâche."
     }
-  ],
-  "sourceIds": ["new-muslim-guide", "seekersguidance"],
-  "reviewStatus": "review-needed"
+  ]
 }

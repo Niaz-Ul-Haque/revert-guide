@@ -2,70 +2,85 @@
   "id": "prayer-on-ramp",
   "slug": "prayer-on-ramp",
   "stageId": "week-1",
-  "title": "Construisez la prière progressivement sans honte",
-  "whyMatters": "La prière est au cœur de la vie musulmane, mais l’apprendre peut être difficile au début. Une rampe d'accès douce vous aide à continuer d'avancer sans transformer chaque erreur en raison d'arrêter.",
+  "title": "Commencer la prière en douceur, sans honte",
+  "whyMatters": "La prière est au centre de la vie d'un musulman, et l'apprendre est vraiment difficile au début. Y aller en douceur vous permet de continuer sans voir chaque erreur comme une raison d'abandonner.",
   "exactActions": [
     {
       "text": "Apprenez la forme avant les détails",
       "subSteps": [
-        "Apprenez les cinq noms et heures de prière.",
-        "Regardez ou lisez un guide simple des mouvements de base.",
-        "Gardez une courte référence à proximité pendant la pratique."
+        "Apprenez le nom des cinq prières et à peu près à quel moment elles tombent.",
+        "Regardez ou lisez un guide simple des mouvements.",
+        "Gardez un petit aide-mémoire près de vous pendant que vous pratiquez."
       ]
     },
     {
-      "text": "Choisissez une prière d'ancrage",
+      "text": "Protégez une prière d'ancrage",
       "subSteps": [
-        "Choisissez une prière que vous êtes le plus susceptible d’entendre quotidiennement.",
-        "Renforcez la cohérence avant d’en ajouter davantage.",
-        "Si vous le manquez, recommencez à la prière suivante sans vous emballer."
+        "Choisissez la prière que vous avez le plus de chances de faire chaque jour.",
+        "Faites-en la prière que vous ne laissez jamais tomber, tout en faisant les autres sous leur forme simple du mieux que vous pouvez.",
+        "Si vous en manquez une, reprenez à la prière suivante au lieu de vous laisser aller au découragement."
       ]
     },
     {
-      "text": "Utilisez ce que vous savez en apprenant l'arabe",
+      "text": "Utilisez ce que vous savez pendant que vous apprenez l'arabe",
       "subSteps": [
-        "Commencez à mémoriser Al-Fatiha par petits morceaux.",
-        "Lisez sur un papier ou un téléphone tout en apprenant si nécessaire.",
-        "Demandez à un enseignant quelle récitation minimale pour débutant utiliser dans votre situation."
+        "Commencez à mémoriser Al-Fatiha une ligne à la fois.",
+        "En attendant de la connaître, le compagnon de prière explique les options que donnent les écoles, comme de courtes formules de rappel en arabe.",
+        "Demandez à un enseignant quelle option suit votre communauté."
       ]
     },
     {
-      "text": "Reliez la prière à la miséricorde",
+      "text": "Progressez un échelon à la fois",
       "subSteps": [
-        "Ne mesurez pas votre foi à la perfection.",
-        "Notez que chaque tentative renforce la familiarité.",
-        "Demandez à Allah de faire de la prière votre bien-aimée et stable."
+        "Échelon 1 : apprenez la forme d'une unité (rak'ah). Tenez-vous debout, dites « Allahu akbar », dites ce que vous connaissez (les formules de rappel si vous ne connaissez pas encore Al-Fatiha), inclinez-vous, redressez-vous, puis prosternez-vous deux fois avec une courte position assise entre les deux.",
+        "Échelon 2 : faites le Fajr en deux unités avec les mots que vous connaissez, en terminant par la position assise et la salutation finale (salam).",
+        "Échelon 3 : ajoutez le tashahhud après la deuxième unité, puis apprenez comment le Maghrib continue avec une troisième unité.",
+        "Échelon 4 : apprenez les prières de quatre unités, le Dhuhr, l'Asr et l'Isha.",
+        "Remplacez les formules de rappel par Al-Fatiha et une courte sourate à mesure que vous les mémorisez.",
+        "Faites les cinq prières quotidiennes sous leur forme simple pendant votre progression. Les échelons portent sur ce que vous dites et ajoutez, pas sur les prières que vous faites."
+      ]
+    },
+    {
+      "text": "Gardez la prière liée à la miséricorde",
+      "subSteps": [
+        "Ne mesurez pas votre foi à l'allure plus ou moins parfaite de votre prière.",
+        "Chaque essai rend le suivant moins étrange.",
+        "Demandez à Allah de vous faire aimer la prière et de vous y rendre constant."
       ]
     }
   ],
   "timeEstimate": "1 à 2 semaines pour une première routine",
   "obstacles": [
     {
-      "problem": "Je manque toujours de prières",
-      "solution": "Il est courant de manquer des prières pendant l’apprentissage. Utilisez des rappels, commencez par une prière d'ancrage et demandez à un enseignant qualifié comment rattraper les prières manquées dans votre situation."
+      "problem": "Je manque souvent des prières",
+      "solution": "Manquer des prières pendant l'apprentissage est courant. Réglez des rappels, commencez par une prière d'ancrage et demandez à un enseignant qualifié comment rattraper ce que vous avez manqué dans votre situation."
     },
     {
-      "problem": "Je me sens gêné de mal prier",
-      "solution": "Apprendre en privé, c’est bien. Allah voit vos efforts, et chaque musulman a dû apprendre les mouvements et les mots à un moment donné."
+      "problem": "J'ai honte de mal prier",
+      "solution": "Apprendre en privé est tout à fait correct. Allah voit vos efforts, et chaque musulman que vous connaissez a dû apprendre ces mots et ces mouvements à partir de zéro."
     }
   ],
-  "tinyVersion": "Choisissez une prière à protéger aujourd’hui, même si vous avez besoin d’un guide à vos côtés.",
-  "unlocksNext": "Une fois que vous avez une rampe d'accès, l'étape de prière complète ressemble moins à un mur qu'à un chemin.",
-  "resourceIds": ["learn-salah-guide", "muslim-pro-app", "being-muslim-book"],
-  "relatedGlossaryIds": ["salah", "wudu", "qiblah", "al-fatiha"],
-  "relatedTopicIds": ["prayer", "new-muslim-basics", "dua-and-dhikr"],
+  "tinyVersion": "Choisissez une prière à protéger aujourd'hui, même si vous avez besoin d'un guide ouvert à côté de vous.",
+  "unlocksNext": "Une fois que vous avez trouvé une porte d'entrée, l'étape complète sur la prière ne ressemble plus à un mur.",
   "commonQuestions": [
     {
-      "problem": "Puis-je prier en lisant un guide ?",
-      "solution": "De nombreux débutants utilisent un guide écrit pendant leur apprentissage. Demandez des détails à un enseignant local, surtout une fois que vous êtes prêt à affiner votre prière."
+      "problem": "Puis-je prier en lisant un guide?",
+      "solution": "Les écoles divergent. L'école hanafite considère comme fortement déconseillé (makruh) de tenir un Coran et d'y lire pendant la prière, tandis que l'école chaféite permet à une personne qui apprend de lire Al-Fatiha dans un exemplaire du Coran (mushaf). S'exercer avec une carte avant et après la prière convient selon tous les avis. Demandez à un enseignant de votre région ce que suit votre communauté."
     }
   ],
   "contextNotes": [
     {
       "title": "Au travail ou à l'école",
-      "body": "Commencez par identifier des espaces calmes et des fenêtres de prière réalistes. Si un accommodement est nécessaire, parlez calmement et gardez la demande pratique."
+      "body": "Repérez les endroits calmes que vous pouvez utiliser et les plages de prière qui sont réalistes. Si vous avez besoin d'un accommodement, demandez-le calmement et gardez une demande concrète."
     }
   ],
-  "sourceIds": ["new-muslim-guide", "seekersguidance"],
-  "reviewStatus": "review-needed"
+  "videos": [
+    {
+      "videoId": "Fpa-c_M_V7Q",
+      "title": "Chaque formule d'une unité (rak'ah)",
+      "channel": "Islamwise",
+      "duration": "10:29",
+      "sourceIds": ["video-islamwise-rakah-recap"]
+    }
+  ]
 }

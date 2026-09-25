@@ -2,41 +2,41 @@
   "id": "ghusl",
   "slug": "ghusl",
   "stageId": "day-0-1",
-  "title": "Effectuer le bain de purification (Ghusl)",
-  "whyMatters": "Le Ghusl est un rituel de purification de tout le corps qui symbolise le fait de laver votre ancienne vie et de repartir à zéro. Il est recommandé aux nouveaux musulmans après avoir pris la Shahada. Considérez-le comme une douche spirituelle – un acte physique qui représente la table rase que vous avez maintenant avec Allah.",
+  "title": "Faire le lavage complet du corps (ghusl)",
+  "whyMatters": "Le ghusl est un lavage rituel de tout le corps. Pour un nouveau musulman, il symbolise le fait de laisser l'ancienne vie derrière soi et de repartir à neuf, et c'est pourquoi il est recommandé après avoir prononcé la Shahada. Voyez-le comme un bain spirituel : un geste physique qui accompagne la page blanche que vous avez déjà auprès d'Allah.",
   "exactActions": [
     {
-      "text": "Définissez votre intention (niyyah)",
+      "text": "Formulez votre intention (niyyah)",
       "subSteps": [
-        "Dans votre cœur, ayez l’intention d’effectuer le Ghusl pour la purification.",
-        "Vous n’avez pas besoin de dire quoi que ce soit à voix haute : l’intention de votre cœur suffit."
+        "Dans votre cœur, ayez l'intention que ce lavage soit une purification.",
+        "Vous n'avez rien à dire à voix haute. L'intention dans votre cœur suffit."
       ]
     },
     {
       "text": "Lavez-vous les mains trois fois"
     },
     {
-      "text": "Effectuer le wudu (ablutions)",
+      "text": "Faites les ablutions (wudu)",
       "subSteps": [
         "Lavez-vous le visage trois fois.",
         "Lavez-vous les bras jusqu'aux coudes trois fois.",
-        "Essuyez-vous la tête avec les mains mouillées.",
+        "Passez vos mains mouillées sur votre tête.",
         "Lavez-vous les pieds jusqu'aux chevilles trois fois."
       ]
     },
     {
       "text": "Versez de l'eau sur tout votre corps",
       "subSteps": [
-        "Commencez par le côté droit de votre corps, puis le gauche.",
-        "Assurez-vous que l'eau atteint votre cuir chevelu et toutes les parties de votre corps.",
-        "Pour celles qui ont les cheveux longs, l’eau doit atteindre les racines."
+        "Commencez par le côté droit, puis le côté gauche.",
+        "Assurez-vous que l'eau atteint votre cuir chevelu et chaque partie de votre corps.",
+        "Si vous avez les cheveux longs, l'eau doit atteindre les racines."
       ]
     },
     {
-      "text": "Vous êtes maintenant dans un état de pureté",
+      "text": "Vous êtes maintenant en état de pureté",
       "subSteps": [
-        "Vous pouvez maintenant effectuer votre première prière lorsque vous êtes prêt.",
-        "Aucune prière spéciale n’est requise immédiatement après le Ghusl."
+        "Vous pouvez faire votre première prière (salah) dès que vous vous sentez prêt.",
+        "Aucune prière particulière n'est exigée juste après le ghusl."
       ]
     }
   ],
@@ -44,26 +44,17 @@
   "obstacles": [
     {
       "problem": "Je ne suis pas sûr des étapes exactes",
-      "solution": "L’exigence de base est que l’eau atteigne tout votre corps dans le but de le purifier. Les étapes détaillées sont la voie recommandée (sunnah), mais même une simple douche avec une intention sincère compte."
+      "solution": "Ce qui est obligatoire, c'est que l'eau atteigne tout votre corps et que vous ayez l'intention de vous purifier. L'ordre ci-dessus est la manière recommandée (sunna), mais un simple lavage de tout le corps fait avec une intention sincère est valide."
     },
     {
       "problem": "J'ai des limitations physiques",
-      "solution": "L’Islam s’adapte aux limitations physiques. Si vous ne pouvez pas prendre un bain complet, faites ce que vous pouvez. Le Tayammum (purification à sec utilisant de la terre propre) est une alternative lorsque l'eau n'est pas accessible ou utilisable."
+      "solution": "L'islam en tient compte. Si un lavage complet n'est pas possible, faites ce que votre corps permet. Quand l'eau n'est pas disponible ou ne peut pas être utilisée, les ablutions sèches (tayammum, avec de la terre propre) la remplacent."
     },
     {
-      "problem": "Dois-je le faire dans une mosquée ?",
-      "solution": "Non, vous pouvez effectuer le Ghusl dans votre propre salle de bain. C'est un acte privé de purification. Utilisez votre douche ou votre baignoire habituelle."
+      "problem": "Dois-je faire cela à la mosquée?",
+      "solution": "Non, votre propre salle de bain convient très bien. C'est un acte de purification privé, alors utilisez votre douche ou votre baignoire habituelle."
     }
   ],
-  "tinyVersion": "Prenez une douche avec l'intention sincère de vous purifier pour votre nouveau départ dans l'Islam. C'est l'essence du Ghusl.",
-  "unlocksNext": "Une fois votre purification terminée, vous êtes prêt à passer à la semaine 1 et à commencer à vous renseigner sur les cinq prières quotidiennes.",
-  "resourceIds": [
-    "purification-fiqh-guide",
-    "wudu-tutorial",
-    "new-muslim-guide-site"
-  ],
-  "relatedGlossaryIds": ["ghusl", "wudu", "niyyah", "taharah", "tayammum"],
-  "relatedTopicIds": ["purification", "prayer", "new-muslim-basics"],
-  "sourceIds": ["new-muslim-guide", "seekersguidance"],
-  "reviewStatus": "review-needed"
+  "tinyVersion": "Lavez tout votre corps avec l'intention de vous purifier pour votre nouveau départ dans l'islam. C'est le ghusl dans sa forme la plus simple.",
+  "unlocksNext": "Une fois le lavage fait, vous êtes prêt à passer à la semaine 1 et à commencer à apprendre les cinq prières quotidiennes."
 }
