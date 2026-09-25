@@ -1,4 +1,5 @@
 {
+  "reviewStatus": "review-needed",
   "wuduSteps": [
     {
       "title": "Faça a sua intenção",
@@ -59,7 +60,7 @@
     },
     {
       "title": "Lave a cabeça e as raízes do cabelo",
-      "body": "Faça a água chegar ao couro cabeludo e às raízes do cabelo da melhor forma que conseguir. Se você tem tranças, um curativo médico ou um cabelo que dificulte isso, pergunte a alguém qualificado.",
+      "body": "Faça a água chegar ao couro cabeludo e à raiz do cabelo da melhor forma que puder. A mulher com o cabelo bem trançado não precisa desfazer as tranças: jogue água sobre a cabeça três vezes para que ela chegue às raízes (Sahih Muslim 330a, onde uma narração também menciona o banho depois da menstruação). Para apliques, dreads, perucas, cabelo colado ou um curativo médico, pergunte a alguém qualificado.",
       "icon": "info"
     },
     {
@@ -77,7 +78,8 @@
   "ghuslNeeded": [
     "Depois de relações íntimas ou de uma emissão sexual, incluindo a polução noturna.",
     "Quando termina a menstruação ou o sangramento pós-parto.",
-    "Ao se tornar muçulmano. As escolas divergem sobre se isso é obrigatório ou recomendado. Veja a nota abaixo."
+    "Ao se tornar muçulmano. As escolas divergem sobre se isso é obrigatório ou recomendado. Veja a nota abaixo.",
+    "Recomendado, não obrigatório: um banho completo antes da oração de sexta-feira e na manhã de cada Eid. Veja abaixo o cartão sobre os banhos de sexta-feira e do Eid."
   ],
   "commonCorrections": [
     {
@@ -103,7 +105,9 @@
     "channel": "Green Lane Masjid",
     "duration": "6:08",
     "note": "Este vídeo tem música de fundo no começo e nenhuma fala em inglês. Ele mostra um método; pequenos detalhes variam entre as escolas.",
-    "sourceIds": ["video-greenlane-wudu"]
+    "sourceIds": [
+      "video-greenlane-wudu"
+    ]
   },
   "ghuslVideo": {
     "videoId": "iWFMlUyB73A",
@@ -111,7 +115,9 @@
     "channel": "Green Lane Masjid",
     "duration": "3:17",
     "note": "Mostra uma forma simples e a forma mais completa da suna. As escolas divergem sobre se enxaguar a boca e o nariz é obrigatório no ghusl.",
-    "sourceIds": ["video-greenlane-ghusl"]
+    "sourceIds": [
+      "video-greenlane-ghusl"
+    ]
   },
   "wuduBreaksDiffer": [
     "Sangramento e vômito. Na escola hanafi, uma boca cheia de vômito anula o wudu, e também o sangue da boca que for igual ou maior que a saliva. Outros ensinamentos, como o livreto da Islamic Foundation of Ireland, dizem que sangramento e vômito não o anulam.",
@@ -182,7 +188,9 @@
       "channel": "Green Lane Masjid",
       "duration": "3:57",
       "note": "Os nomes dos capítulos vêm do YouTube e podem não aparecer para todos, mas os links para as partes funcionam.",
-      "sourceIds": ["video-greenlane-tayammum"],
+      "sourceIds": [
+        "video-greenlane-tayammum"
+      ],
       "chapters": [
         {
           "label": "Os passos",
@@ -207,12 +215,17 @@
     {
       "question": "No inverno, posso passar a mão molhada sobre as meias em vez de lavar os pés?",
       "answer": "Muitos estudiosos permitem passar a mão sobre calçados de couro (khuffs) ou meias adequadas, com condições. Você precisa tê-los calçado depois de um wudu completo, e a permissão dura um dia e uma noite em casa, ou três dias e três noites em viagem. No ghusl você continua lavando os pés. As escolas divergem sobre quais meias valem. Na resposta hanafi que indicamos, elas precisam ser firmes o bastante para andar cerca de 3,5 milhas (5,5 km) sem rasgar, e a água não pode atravessá-las, então meias sociais comuns normalmente não servem, enquanto meias de trilha muitas vezes servem. Outros ensinamentos permitem meias comuns. Pergunte ao imã da sua região qual opinião a sua comunidade segue.",
-      "sourceIds": ["new-muslim-guide-wudu", "seekersguidance-thick-socks"]
+      "sourceIds": [
+        "new-muslim-guide-wudu",
+        "seekersguidance-thick-socks"
+      ]
     },
     {
       "question": "Posso fazer o wudu usando esmalte?",
       "answer": "O esmalte comum impede a água de chegar às unhas, então o wudu feito por cima dele não vale. Se você fez o wudu primeiro e depois passou o esmalte, pode orar com esse wudu. Tire o esmalte antes do próximo wudu. Se tiver dúvida sobre um produto específico, pergunte a um professor local.",
-      "sourceIds": ["seekersguidance-nail-polish"]
+      "sourceIds": [
+        "seekersguidance-nail-polish"
+      ]
     },
     {
       "question": "Estou com gesso ou curativo. Como faço o wudu?",
@@ -221,6 +234,197 @@
         "seekersguidance-cast-hanafi",
         "seekersguidance-cast-shafii"
       ]
+    },
+    {
+      "question": "Eu uso lenço na cabeça. Preciso tirá-lo para passar a mão molhada na cabeça no trabalho?",
+      "answer": "Na resposta hanafi que indicamos, você precisa passar a mão molhada em pelo menos um quarto da própria cabeça, e passar sobre o lenço não conta. Uma forma prática é afrouxar a frente do lenço numa cabine reservada e deslizar a mão molhada por baixo. A escola hanbali permite passar a mão sobre um lenço preso debaixo do queixo, desde que você o tenha colocado estando com wudu, por um dia e uma noite (três quando estiver viajando). Uma resposta da SeekersGuidance diz que você pode seguir a opinião hanbali nisso, desde que o seu wudu e a sua oração sejam válidos nessa escola. Fazer o wudu em casa e mantê-lo, e passar a mão molhada sobre meias adequadas nos pés, também diminuem as lavagens no trabalho. Pergunte ao seu professor qual opção combina com você.",
+      "sourceIds": [
+        "seekersguidance-headscarf-wipe-hanafi",
+        "seekersguidance-working-woman-wudu"
+      ]
+    },
+    {
+      "question": "Com que frequência devo cortar as unhas e tirar os pelos do corpo?",
+      "answer": "Um hadith em Sahih Muslim (258) diz que aparar o bigode, cortar as unhas e tirar os pelos das axilas e os pelos púbicos não devem ficar por mais de quarenta noites. Um dia semanal de cuidados, muitas vezes a sexta-feira, deixa você bem dentro desse limite. O tema do recato fala desses hábitos de cuidado pessoal (fitrah) e das diferenças entre as escolas sobre a barba.",
+      "sourceIds": [
+        "sunnah-muslim-258"
+      ]
     }
-  ]
+  ],
+  "moreCards": [
+    {
+      "id": "friday-eid-ghusl",
+      "title": "Os banhos de sexta-feira e do Eid, e o cabelo trançado",
+      "summary": "Alguns banhos completos são recomendados, não obrigatórios. Os mais conhecidos são o banho antes da oração de sexta-feira e o banho na manhã de cada Eid.",
+      "points": [
+        "As palavras dos hadiths sobre o banho de sexta-feira são fortes. Um relato o chama de obrigatório para todo homem que chegou à puberdade (Sahih al-Bukhari 879), e outro diz a quem vai à oração de sexta-feira que tome banho (Sahih al-Bukhari 877).",
+        "Outro hadith diz que só o wudu na sexta-feira basta, e que o banho é melhor (Sunan Abi Dawud 354, classificado como Hasan por al-Albani). A sua oração de sexta-feira é válida com o wudu.",
+        "Na resposta hanafi que indicamos, o banho de sexta-feira é uma sunnah da oração. Quem precisar, como uma pessoa que trabalha às sextas, pode seguir a opinião de que ele é uma sunnah do dia. Então um banho antes do trabalho, com essa intenção, conta.",
+        "A resposta hanafi sobre o Eid lista um banho na manhã do Eid entre as sunnahs do dia.",
+        "O banho em si é igual a qualquer ghusl: água sobre o corpo inteiro, com a intenção.",
+        "Tranças: a mulher não precisa desfazer o cabelo bem trançado para o ghusl. Jogar água sobre a cabeça três vezes basta (Sahih Muslim 330a). Pergunte a alguém qualificado sobre apliques, dreads, perucas ou cabelo colado."
+      ],
+      "differencesTitle": "Onde as escolas divergem",
+      "differences": [
+        "Como as palavras de Sahih al-Bukhari 879 são fortes, os estudiosos discutem o quanto o banho de sexta-feira é firme. A resposta hanafi que indicamos o trata como sunnah. Pergunte ao seu professor o que diz a sua escola."
+      ],
+      "links": [
+        {
+          "label": "Vá à sua primeira oração de sexta-feira",
+          "href": "/roadmap/week-1/first-jumuah"
+        }
+      ],
+      "sourceIds": [
+        "sunnah-bukhari-877",
+        "sunnah-bukhari-879",
+        "sunnah-abudawud-354",
+        "seekersguidance-friday-ghusl-hanafi",
+        "seekersguidance-eid-fiqh",
+        "sunnah-muslim-330a"
+      ]
+    },
+    {
+      "id": "clean-clothes",
+      "title": "Roupas limpas e um lugar limpo (najasah)",
+      "summary": "O seu corpo, as suas roupas e o lugar onde você ora devem estar livres de impureza, como urina, fezes ou sangue. Lave até que a substância, a cor e o cheiro tenham saído, tanto quanto for razoável.",
+      "points": [
+        "Uma dúvida não torna algo impuro. O que você sabe que está limpo continua limpo até você ter certeza de que não está.",
+        "Animais de estimação, a roupa molhada de um bebê, o álcool no perfume e a roupa lavada pela família têm respostas tranquilas no tema da purificação.",
+        "Se estiver em dúvida, siga o que você sabe com certeza e pergunte a um professor depois, em vez de deixar de orar."
+      ],
+      "links": [
+        {
+          "label": "Roupas limpas e um lugar limpo",
+          "href": "/topics/purification"
+        }
+      ],
+      "sourceIds": [
+        "quran-74-4-purify-garments",
+        "seekersguidance-shafii-filth-categories",
+        "sunnah-bukhari-doubt-wind"
+      ]
+    },
+    {
+      "id": "excused-person",
+      "title": "Se uma condição de saúde fica anulando o seu wudu",
+      "summary": "Algumas condições ficam anulando o wudu: gases constantes com a síndrome do intestino irritável, perda de urina, sangramento fora da menstruação, ou uma bolsa de ostomia ou uma sonda. Continue orando. Uma mulher cujo sangramento não parava recebeu a orientação de continuar orando e de fazer o wudu para cada oração (Sahih al-Bukhari 228).",
+      "points": [
+        "Na resposta hanafi que indicamos, você conta como pessoa dispensada quando a condição não deixa tempo suficiente, dentro do horário de uma oração, para fazer o wudu e a oração obrigatória sem que ela aconteça.",
+        "Depois que você é considerado dispensado, faça o wudu depois que o horário da oração começar. A condição não anula esse wudu até o horário da oração terminar, mesmo enquanto continua.",
+        "Se você não é dispensado, mesmo assim uma dúvida não anula o seu wudu. O Profeta disse para não sair da oração, a menos que você ouça um som ou sinta um cheiro (Sahih al-Bukhari 137).",
+        "No hospital, ore do jeito que o seu corpo permitir, sentado ou deitado se precisar, e use o tayammum se a água for prejudicar você. Você pode perguntar às enfermeiras se o hospital tem uma equipe de assistência espiritual.",
+        "Se você usa uma bolsa de ostomia ou uma sonda, pergunte a um imã da sua região como essas regras se aplicam a você, e continue orando enquanto espera a resposta."
+      ],
+      "differencesTitle": "Onde as escolas divergem",
+      "differences": [
+        "A regra acima é a hanafi. As outras escolas explicam a pessoa dispensada de outra forma, e ainda não verificamos as fontes dessas escolas, então pergunte ao seu professor."
+      ],
+      "referral": "Descreva uma vez o seu padrão a um imã e receba uma resposta clara para a sua situação. Ninguém está pedindo que você refaça o wudu a cada poucos minutos.",
+      "links": [
+        {
+          "label": "Orar sentado ou deitado",
+          "href": "/tools/salah-companion#seated-prayer"
+        },
+        {
+          "label": "Sangramento e adoração",
+          "href": "/topics/menstruation-and-worship"
+        }
+      ],
+      "sourceIds": [
+        "sunnah-bukhari-228",
+        "seekersguidance-what-is-the-ruling-regarding",
+        "sunnah-bukhari-doubt-wind"
+      ]
+    }
+  ],
+  "istinja": {
+    "id": "istinja",
+    "title": "Antes do wudu: a limpeza depois do banheiro (istinja)",
+    "summary": "Pouca gente explica isto, e é constrangedor perguntar pessoalmente. Os muçulmanos limpam as partes íntimas depois de usar o banheiro, e essa limpeza (istinja) é um passo próprio, separado do wudu. O Profeta (que a paz esteja com ele) usava água para isso (Sahih al-Bukhari 150), e um hadith trata o descuido com a urina no corpo como algo sério (Sahih al-Bukhari 218).",
+    "points": [
+      "Limpe-se primeiro com papel higiênico, depois lave com água de uma garrafa, de uma jarra ou de uma ducha higiênica, se puder.",
+      "Use a mão esquerda para a limpeza. O Profeta ensinou a não se limpar com a mão direita (Sahih Muslim 262a).",
+      "Se só houver papel, limpe até ficar limpo. Nas respostas hanafi que indicamos, só o papel cumpre a sunnah básica enquanto a sujeira fica na saída. Quando ela se espalha além da saída e da área logo em volta, lavar com água é obrigatório.",
+      "Seque com papel. Se uma mancha caiu na roupa íntima, enxágue-a ou troque de roupa antes de orar.",
+      "Muitos banheiros canadenses não têm ducha higiênica. Uma garrafinha recarregável na bolsa ou no trabalho resolve.",
+      "Você não precisa tomar banho depois de cada ida ao banheiro. Limpe-se e depois faça o wudu.",
+      "Limpe uma vez, direito, e depois deixe para lá. Uma resposta hanafi sobre os escrúpulos diz que as dúvidas depois de uma istinja bem feita devem ser ignoradas, e indica ajuda para as dúvidas obsessivas (TOC) a quem fica sendo puxado de volta."
+    ],
+    "differencesTitle": "Onde as escolas divergem",
+    "differences": [
+      "Ficar de frente para a qibla: o hadith proíbe ficar de frente para a qibla enquanto se faz as necessidades (Sahih Muslim 262a). As escolas divergem sobre se isso vale dentro de um prédio, então pergunte ao seu professor. Quando puder, organize as coisas para não ficar de frente para ela.",
+      "Quando só limpar com papel basta: a regra acima é a hanafi. Ainda não verificamos as condições das outras escolas nas fontes delas, então pergunte ao seu professor."
+    ],
+    "referral": "Se uma deficiência ou um dispositivo médico torna isso difícil, pergunte a um imã da sua região como lidar com a situação.",
+    "links": [
+      {
+        "label": "Perguntas sobre a purificação",
+        "href": "/faq#faq-purification"
+      }
+    ],
+    "sourceIds": [
+      "sunnah-bukhari-150",
+      "sunnah-bukhari-218",
+      "sunnah-muslim-262a",
+      "seekersguidance-istinja-best-way",
+      "seekersguidance-toilet-paper-sufficient",
+      "seekersguidance-istinja-misgivings"
+    ]
+  },
+  "doubts": {
+    "intro": "Querer fazer o wudu e a oração direito é um bom sinal. Para algumas pessoas, esse cuidado vira uma dúvida que não larga: lavar um braço cinco vezes, recomeçar uma oração ou ter pensamentos sobre Allah que você detesta e não consegue parar. Isso costuma ser chamado de waswas (sussurro). O Profeta deu uma orientação clara para isso. Quando toma conta do dia de uma pessoa, também pode ser uma forma de transtorno obsessivo-compulsivo (TOC), que tem tratamento.",
+    "teachings": [
+      {
+        "title": "Continue na sua oração, a menos que tenha certeza",
+        "body": "O Profeta disse a um homem que achava ter soltado gases durante a oração que não a interrompesse, a menos que ouvisse um som ou sentisse um cheiro (Sahih al-Bukhari 137). Os estudiosos tiram disso uma regra geral: a certeza não é removida por uma dúvida. Se você fez o wudu e não tem certeza se ele foi anulado, ele não foi.",
+        "sourceIds": [
+          "sunnah-bukhari-doubt-wind",
+          "seekersguidance-certainty-doubt-waswasa"
+        ]
+      },
+      {
+        "title": "Detestar um pensamento ruim é sinal de fé",
+        "body": "Alguns companheiros contaram ao Profeta que tinham pensamentos terríveis demais para dizer em voz alta. Ele disse: \"Isso é a fé evidente\" (Sahih Muslim 132a). Outro homem disse que preferia ser queimado até virar carvão a dizer os seus pensamentos, e o Profeta louvou Allah, que reduziu a trama do demônio a um sussurro (Sunan Abi Dawud 5112, classificado como sahih por al-Albani).",
+        "sourceIds": [
+          "sunnah-muslim-132a",
+          "sunnah-abudawud-5112"
+        ]
+      },
+      {
+        "title": "Os pensamentos em que você não age são relevados",
+        "body": "O Profeta disse que Allah releva os maus pensamentos que surgem na mente das pessoas, desde que elas não ajam de acordo com eles nem os digam (Sahih al-Bukhari 5269). O Dr. Jibran Khokhar, pesquisador canadense que escreve para o Yaqeen Institute, cita esse hadith para os pensamentos intrusivos indesejados.",
+        "sourceIds": [
+          "sunnah-bukhari-5269",
+          "yaqeen-khokhar-religious-ocd"
+        ]
+      }
+    ],
+    "schoolNote": "A regra de que uma dúvida não remove a certeza é ensinada em todas as escolas. Os detalhes mudam, por exemplo para uma dúvida durante o wudu em comparação com depois dele, ou uma dúvida sobre quantas unidades (rak'ahs) você orou. A resposta que indicamos é da escola hanafi, então pergunte ao seu professor os detalhes da sua escola.",
+    "steps": [
+      "Faça o wudu uma vez, com atenção, e depois pare.",
+      "Se não tiver certeza se o seu wudu foi anulado, siga como se não tivesse sido, a menos que tenha certeza.",
+      "Não discuta com um pensamento indesejado. Diga \"a'udhu billah\" (busco refúgio em Allah) e volte ao que estava fazendo.",
+      "Peça a um só professor um padrão simples e fique com ele.",
+      "Se isso tomar conta do seu dia, converse com um médico ou um profissional de saúde mental."
+    ],
+    "mistakes": [
+      "Fazer a mesma pergunta a muitas pessoas. A psicoterapeuta Najwa Awad explica que buscar garantias repetidas alimenta a dúvida, e aprender a regra uma vez ajuda mais.",
+      "Escolher a opinião mais rígida em cada detalhe.",
+      "Tomar um pensamento indesejado como prova de que você saiu do Islã.",
+      "Tratar isso só como um problema espiritual e nunca procurar um profissional de saúde."
+    ],
+    "clinical": "O CAMH, o maior hospital universitário de saúde mental do Canadá, diz que o TOC afeta cerca de 1 em cada 40 adultos. As obsessões comuns incluem dúvidas repetidas e medo de ter pensamentos blasfemos. As compulsões comuns incluem lavar demais, conferir e rituais mentais, como orar. O tratamento costuma ser a terapia cognitivo-comportamental (TCC), muitas vezes com medicação.\n\nNajwa Awad escreve que o waswas \"não é uma doença muçulmana\", mas uma apresentação religiosa do TOC nos muçulmanos. Ela diz que uma forma de TCC chamada exposição e prevenção de resposta (EPR) mostrou ser bastante eficaz, e que um imã e um profissional de saúde podem trabalhar juntos. O Dr. Khokhar escreve que procurar um profissional qualificado não é sinal de fé fraca, mas um meio de cura.",
+    "signs": [
+      "Lavar, conferir ou repetir ocupa uma grande parte do seu dia.",
+      "Você evita a oração ou o wudu por medo de errar.",
+      "A angústia não diminui, mesmo depois que um professor respondeu à sua pergunta.",
+      "A conferência se espalha para outras partes da sua vida."
+    ],
+    "signsNote": "Estes sinais são uma orientação aproximada, não um diagnóstico, e um profissional de saúde é a pessoa certa para avaliar. O CAMH descreve o TOC como obsessões e compulsões que atrapalham a vida diária.",
+    "sourceIds": [
+      "camh-ocd",
+      "yaqeen-awad-clinicians-imams-waswas",
+      "yaqeen-khokhar-religious-ocd"
+    ]
+  }
 }

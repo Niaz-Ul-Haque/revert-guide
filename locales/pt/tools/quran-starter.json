@@ -1,4 +1,5 @@
 {
+  "reviewStatus": "review-needed",
   "vocabulary": [
     {
       "term": "Alcorão em árabe",
@@ -45,7 +46,11 @@
       "title": "Misericórdia e esperança",
       "time": "Uma leitura tranquila",
       "body": "Leia isto quando a vergonha ou o medo falarem mais alto que a esperança. Fique com o que estes versículos dizem sobre o quanto Allah está perto e pronto para perdoar, antes de acrescentar qualquer outra coisa.",
-      "readings": ["Alcorão 39:53", "Alcorão 2:186", "Alcorão 23:109"],
+      "readings": [
+        "Alcorão 39:53",
+        "Alcorão 2:186",
+        "Alcorão 23:109"
+      ],
       "sourceIds": [
         "quran-39-53-mercy",
         "quran-2-186-dua-nearness",
@@ -56,14 +61,22 @@
       "title": "Profetas e propósito",
       "time": "Várias leituras curtas",
       "body": "Leia a Surata Yusuf algumas páginas de cada vez. Ela é uma história contínua: uma família que se volta contra ele, uma longa paciência, tentação, prisão e o perdão no fim.",
-      "readings": ["Surata Yusuf, capítulo 12"],
-      "sourceIds": ["quran-yusuf-12"]
+      "readings": [
+        "Surata Yusuf, capítulo 12"
+      ],
+      "sourceIds": [
+        "quran-yusuf-12"
+      ]
     },
     {
       "title": "Oração e adoração",
       "time": "15 minutos",
       "body": "Ligue a sua leitura à sua oração. Estes trechos colocam a oração no seu lugar: lembrança de Allah, um pedido de orientação e um lugar para onde ir quando você precisa de paciência.",
-      "readings": ["Al-Fatihah, capítulo 1", "Alcorão 20:14", "Alcorão 2:153"],
+      "readings": [
+        "Al-Fatihah, capítulo 1",
+        "Alcorão 20:14",
+        "Alcorão 2:153"
+      ],
       "sourceIds": [
         "quran-al-fatihah-1",
         "quran-20-14-prayer-remembrance",
@@ -74,8 +87,14 @@
       "title": "Caráter e paciência",
       "time": "10 minutos",
       "body": "Mantenha esta leitura prática. Depois de ler, pergunte-se o que ela mudaria na forma como você fala, na sua paciência e na forma como trata as pessoas hoje.",
-      "readings": ["Al-'Asr, capítulo 103", "Alcorão 2:153"],
-      "sourceIds": ["quran-al-asr-103", "quran-2-153-patience-prayer"]
+      "readings": [
+        "Al-'Asr, capítulo 103",
+        "Alcorão 2:153"
+      ],
+      "sourceIds": [
+        "quran-al-asr-103",
+        "quran-2-153-patience-prayer"
+      ]
     }
   ],
   "weekPlan": [
@@ -83,7 +102,9 @@
       "day": "Dia 1",
       "title": "Comece com a Al-Fatihah",
       "body": "Leia o sentido da Al-Fatihah e depois ouça-a uma vez. Leve com você ao longo do dia a linha sobre a orientação.",
-      "sourceIds": ["quran-al-fatihah-1"]
+      "sourceIds": [
+        "quran-al-fatihah-1"
+      ]
     },
     {
       "day": "Dia 2",
@@ -99,31 +120,45 @@
       "day": "Dia 3",
       "title": "Leia para ter esperança",
       "body": "Leia Alcorão 39:53 devagar. Depois escreva uma frase, com suas próprias palavras, sobre o que a misericórdia de Allah significa na sua situação.",
-      "sourceIds": ["quran-39-53-mercy"]
+      "sourceIds": [
+        "quran-39-53-mercy"
+      ]
     },
     {
       "day": "Dia 4",
       "title": "Faça a sua própria dua",
       "body": "Leia Alcorão 2:186 e 23:109. Depois faça uma dua curta em português, com suas próprias palavras.",
-      "sourceIds": ["quran-2-186-dua-nearness", "quran-23-109-forgiveness"]
+      "sourceIds": [
+        "quran-2-186-dua-nearness",
+        "quran-23-109-forgiveness"
+      ]
     },
     {
       "day": "Dia 5",
       "title": "Ligue o Alcorão à oração",
       "body": "Leia Alcorão 20:14 e ouça a Al-Fatihah de novo. A oração é antes de tudo lembrança de Allah. A perfeição vem depois.",
-      "sourceIds": ["quran-20-14-prayer-remembrance", "quran-al-fatihah-1"]
+      "sourceIds": [
+        "quran-20-14-prayer-remembrance",
+        "quran-al-fatihah-1"
+      ]
     },
     {
       "day": "Dia 6",
       "title": "Pratique a paciência",
       "body": "Leia Alcorão 2:153 e Al-'Asr. Escolha hoje uma pequena coisa em que você vai ter paciência, ou dizer a verdade quando seria mais fácil não dizer.",
-      "sourceIds": ["quran-2-153-patience-prayer", "quran-al-asr-103"]
+      "sourceIds": [
+        "quran-2-153-patience-prayer",
+        "quran-al-asr-103"
+      ]
     },
     {
       "day": "Dia 7",
       "title": "Revise e faça uma pergunta",
       "body": "Volte ao trecho que ficou com você. Se algo confundiu você, anote o versículo exato e leve-o a um professor de confiança.",
-      "sourceIds": ["quran-com", "seekersguidance"]
+      "sourceIds": [
+        "quran-com",
+        "seekersguidance"
+      ]
     }
   ],
   "resourceLinks": [
@@ -131,28 +166,36 @@
       "title": "Site Quran.com",
       "body": "Leia, ouça, compare traduções e abra as páginas dos recitadores no navegador, sem precisar instalar nada.",
       "href": "https://quran.com/",
-      "sourceIds": ["quran-com"],
+      "sourceIds": [
+        "quran-com"
+      ],
       "icon": "book"
     },
     {
       "title": "The Clear Quran",
       "body": "Uma tradução do sentido para o inglês fácil de ler. Use-a para entender, e tenha o árabe como o Alcorão em si.",
       "href": "https://theclearquran.org/",
-      "sourceIds": ["clear-quran"],
+      "sourceIds": [
+        "clear-quran"
+      ],
       "icon": "file-text"
     },
     {
       "title": "New Muslim Academy",
       "body": "Aulas para iniciantes e ajuda com o Alcorão, feitas para quem é novo no Islã.",
       "href": "https://www.newmuslimacademy.org/",
-      "sourceIds": ["new-muslim-academy"],
+      "sourceIds": [
+        "new-muslim-academy"
+      ],
       "icon": "users"
     },
     {
       "title": "Mishari Rashid al-Afasy no Quran.com",
       "body": "Um recitador claro para acompanhar. Ouça tudo primeiro e depois repita um trecho curto.",
       "href": "https://quran.com/reciters/7",
-      "sourceIds": ["quran-reciter-mishary"],
+      "sourceIds": [
+        "quran-reciter-mishary"
+      ],
       "icon": "play"
     }
   ],
@@ -165,9 +208,29 @@
     },
     "stages": [
       "Semana 1: uma linha da Al-Fatihah por dia. Ouça, repita e leia o sentido das palavras abaixo. Essa é a única tarefa.",
-      "Semanas 2 a 4: continue orando com o que sabe, termine a Al-Fatihah e acrescente uma surata curta, como a Al-Ikhlas.",
-      "Depois disso, quando se sentir pronto: comece as letras árabes ou pergunte à mesquita da sua região sobre uma aula de leitura do Alcorão para iniciantes."
+      "Mês 1: termine Al-Fatihah e acrescente uma surah curta, como Al-Ikhlas. Continue orando com o que você sabe e aprenda na página Aprenda a orar o que cada frase da oração significa.",
+      "Mês 3: comece as letras árabes e as vogais curtas em algumas sessões curtas por semana, e acrescente mais duas ou três surahs curtas, como Al-Asr, Al-Kawthar, Al-Falaq e An-Nas. É uma boa hora para encontrar um professor, porque um professor ouve sons que você não consegue ouvir em si mesmo.",
+      "Mês 6: leia surahs curtas devagar, direto da página, com um professor conferindo, e aprenda o significado de tudo o que você diz na oração.",
+      "Mês 12: leia com firmeza, com as regras básicas do tajweed, e, se quiser, comece a aprender as palavras mais comuns do Alcorão. Algumas pessoas levam mais tempo, e tudo bem."
     ],
+    "plan": {
+      "title": "Como fazer o plano funcionar",
+      "notes": [
+        "Ler e entender são dois objetivos diferentes. Ler e recitar (as letras, depois o tajweed) é o que você precisa para a oração. Entender o árabe (vocabulário, depois gramática) é um projeto mais longo, que você pode levar com calma.",
+        "Dez a quinze minutos por dia funcionam melhor do que uma sessão longa por semana. O Profeta disse que as ações que Allah mais ama são as constantes, mesmo que sejam pequenas.",
+        "Comece pelas opções gratuitas: uma aula para iniciantes na sua mesquita, as aulas gratuitas de Alcorão da New Muslim Academy ou as aulas gratuitas de árabe de Medina com link abaixo.",
+        "Aulas particulares pagas não têm problema se você as escolher livremente. Faça uma aula experimental antes de pagar qualquer pacote, e afaste-se de pressão, pacotes longos pagos antecipadamente, um professor sem nome ou pedidos para passar a um chat privado.",
+        "Escolha um aplicativo ou um curso de cada vez. Começar três aplicativos e dois cursos ao mesmo tempo normalmente termina em nenhum.",
+        "Você não é menos muçulmano enquanto não souber ler árabe, e não deve pausar as suas orações até a sua recitação ficar perfeita. O Profeta disse que quem recita com dificuldade recebe uma recompensa dobrada."
+      ],
+      "sourceIds": [
+        "sunnah-bukhari-6464",
+        "new-muslim-academy-quran-classes",
+        "madinah-arabic-free-content",
+        "sunnah-muslim-798a",
+        "quran-73-4"
+      ]
+    },
     "fatihahWords": [
       {
         "verse": 1,
@@ -350,31 +413,108 @@
         ]
       }
     ],
-    "fatihahSourceIds": ["quran-al-fatihah-1", "quranic-arabic-corpus-fatihah"],
+    "fatihahSourceIds": [
+      "quran-al-fatihah-1",
+      "quranic-arabic-corpus-fatihah"
+    ],
+    "sounds": {
+      "title": "Sons para prestar atenção",
+      "intro": "A escrita em letras latinas usa as mesmas letras para sons que são diferentes em árabe. Estes são os que mais costumam ser difíceis para quem fala português. Ouça um recitador claro para cada um, em vez de confiar na escrita. Um professor de tajweed pode conferir os exemplos com você.",
+      "sounds": [
+        {
+          "letter": "ع",
+          "name": "Ayn",
+          "tip": "Um aperto no fundo da garganta. A transliteração muitas vezes o marca com um apóstrofo, como em na'budu (nós adoramos)."
+        },
+        {
+          "letter": "ح",
+          "name": "H pesado (ha)",
+          "tip": "Um h soprado do meio da garganta, como quando você bafeja num vidro frio. O h de al-hamdu é esta letra, não o h leve do inglês \"hat\"."
+        },
+        {
+          "letter": "خ",
+          "name": "Kha",
+          "tip": "Parecido com o \"j\" espanhol de \"jota\"."
+        },
+        {
+          "letter": "غ",
+          "name": "Ghayn",
+          "tip": "Parecido com o r francês, como em ghayril-maghdubi."
+        },
+        {
+          "letter": "ق",
+          "name": "Qaf",
+          "tip": "Um k pronunciado mais no fundo da garganta, como em al-mustaqim."
+        },
+        {
+          "letter": "ص ض ط ظ",
+          "name": "As letras pesadas",
+          "tip": "Pronunciadas com a parte de trás da língua levantada, o que escurece a vogal ao lado delas. Preste atenção nelas em as-sirat e wa lad-dallin."
+        },
+        {
+          "letter": "ث ذ",
+          "name": "Dois tipos de th",
+          "tip": "Um é o th do inglês \"thin\" (um s com a língua entre os dentes), o outro é o th do inglês \"this\" (um d com a língua entre os dentes), como em alladhina."
+        },
+        {
+          "letter": "ـّـ",
+          "name": "Letras dobradas (shaddah)",
+          "tip": "Segure a letra um pouco mais, como em iyyaka e rabbil."
+        }
+      ],
+      "mistakesTitle": "E se eu errar uma letra?",
+      "mistakes": [
+        "Todo aprendiz erra, e o Profeta disse que quem recita com dificuldade recebe uma recompensa dobrada. Na escola shafi'i, o erro numa letra estraga aquela palavra, então você repete a palavra uma vez, corretamente. A própria oração só é inválida quando o erro muda o significado e foi feito de propósito.",
+        "Uma resposta hanafi, citando Ibn Abidin, diz que trocar letras como saad e seen sem querer não invalida a oração, e que o aprendiz deve continuar fazendo um esforço razoável. Pergunte a um professor sobre os detalhes maliki e hanbali.",
+        "Repetir uma palavra várias vezes, ou recomeçar a oração inteira por causa de uma letra incerta, não é obrigatório. Esse tipo de dúvida (waswasa) é algo para deixar ir."
+      ],
+      "practiceTitle": "Como praticar",
+      "practice": [
+        "Escolha um som difícil por semana e pratique-o numa palavra que você já diz na oração.",
+        "Uma vez por semana, grave-se no celular recitando Al-Fatihah e compare com o áudio do Quran.com.",
+        "Peça a um professor da sua mesquita que escute por cinco minutos e confira só essas letras. A maioria vai ficar feliz em ajudar.",
+        "Aprenda ouvindo. A transliteração é um lembrete, não substitui ouvir a palavra."
+      ],
+      "sourceIds": [
+        "seekersguidance-mispronunciation-fatiha",
+        "seekersguidance-saad-seen-hanafi",
+        "sunnah-muslim-798a",
+        "quran-73-4"
+      ]
+    },
     "links": [
       {
         "label": "Ouça a Al-Fatihah no Quran.com",
         "body": "Aperte o play na página do Quran.com para ouvir cada versículo. Mishary al-Afasy é um recitador claro para começar.",
         "href": "https://quran.com/1",
-        "sourceIds": ["quran-al-fatihah-1", "quran-reciter-mishary"]
+        "sourceIds": [
+          "quran-al-fatihah-1",
+          "quran-reciter-mishary"
+        ]
       },
       {
         "label": "Sete dias, sete versículos (Quran.com)",
         "body": "Um versículo da Al-Fatihah por dia, com menos de 10 minutos cada, com as palavras explicadas uma a uma. Gratuito, e dá para ler sem conta.",
         "href": "https://quran.com/learning-plans/seven-days-seven-verses-living-the-message-of-al-fatihah",
-        "sourceIds": ["quran-com-seven-days-seven-verses"]
+        "sourceIds": [
+          "quran-com-seven-days-seven-verses"
+        ]
       },
       {
         "label": "A série frase por frase do Islamwise",
         "body": "Aulas curtas no YouTube sobre cada frase da oração. Os episódios 11 a 18 passam pela Al-Fatihah versículo por versículo.",
         "href": "https://www.youtube.com/playlist?list=PLW9v5fexkmD_8i507k8oL2x9n0vJeP1BT",
-        "sourceIds": ["video-islamwise-prayer-series"]
+        "sourceIds": [
+          "video-islamwise-prayer-series"
+        ]
       },
       {
         "label": "Letras árabes: curso de leitura Madinah Arabic",
         "body": "Não custa nada e não exige conta para as aulas gratuitas. O site também vende aulas individuais pagas, e o autor do curso não é identificado.",
         "href": "https://madinaharabic.com/free-content",
-        "sourceIds": ["madinah-arabic-free-content"]
+        "sourceIds": [
+          "madinah-arabic-free-content"
+        ]
       }
     ],
     "fatihahVideo": {
@@ -382,7 +522,9 @@
       "title": "Alhamdu lillahi Rabbil-'alamin, frase por frase",
       "channel": "Islamwise",
       "duration": "2:27",
-      "sourceIds": ["video-islamwise-fatihah-alhamdu"]
+      "sourceIds": [
+        "video-islamwise-fatihah-alhamdu"
+      ]
     },
     "alphabetVideo": {
       "videoId": "c-7SVieC_04",
@@ -390,7 +532,9 @@
       "channel": "Arabic 101",
       "duration": "13:57",
       "note": "O Arabic 101 também vende aulas ao vivo. Esta primeira aula é gratuita.",
-      "sourceIds": ["video-arabic101-alphabet-lesson-1"]
+      "sourceIds": [
+        "video-arabic101-alphabet-lesson-1"
+      ]
     }
   }
 }
