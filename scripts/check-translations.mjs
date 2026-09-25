@@ -167,9 +167,11 @@ function identicalAllowed(value) {
   if (/^(https?:\/\/|mailto:|tel:|\/)/.test(bare)) return true;
   if (/^[\w.+-]+@[\w.-]+$/.test(bare)) return true;
   if (/^[+\d][\d\s().-]*$/.test(bare)) return true;
+  if (PROPER.has(bare.toLowerCase())) return true;
   const words = bare
-    .replace(/[“”"'‘’(),.:;!?/]+/g, " ")
+    .replace(/[“”"'‘’(),:;!?/]+/g, " ")
     .split(/\s+/)
+    .map((w) => w.replace(/\.+$/, ""))
     .filter(Boolean);
   if (words.length > 6) return false;
   return words.every(
