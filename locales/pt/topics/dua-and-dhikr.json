@@ -20,9 +20,21 @@
       "content": "A dua e o dhikr trazem um conforto real, mas não substituem a ajuda profissional numa crise. Se você tem pensamentos de se machucar, não se sente seguro ou não consegue dar conta do dia, ligue para o 9-1-1, ligue ou mande mensagem para o 9-8-8, ou procure um profissional de saúde qualificado. A fé e a ajuda prática andam juntas."
     }
   ],
-  "relatedStepIds": ["daily-dua-dhikr", "prayer-on-ramp", "prayer"],
-  "relatedGlossaryIds": ["dua", "dhikr", "sunnah", "salah"],
-  "relatedResourceIds": ["fortress-muslim-dua-book", "quran-com"],
+  "relatedStepIds": [
+    "daily-dua-dhikr",
+    "prayer-on-ramp",
+    "prayer"
+  ],
+  "relatedGlossaryIds": [
+    "dua",
+    "dhikr",
+    "sunnah",
+    "salah"
+  ],
+  "relatedResourceIds": [
+    "fortress-muslim-dua-book",
+    "quran-com"
+  ],
   "sourceIds": [
     "quran-com",
     "sunnah-com",
@@ -30,5 +42,12 @@
     "emergency-911-canada",
     "988-canada"
   ],
-  "reviewStatus": "review-needed"
+  "reviewStatus": "review-needed",
+  "linkCards": [
+    {
+      "label": "Luto e perda",
+      "href": "/topics/grief-and-loss",
+      "body": "O que dizer diante de uma perda e duas por alguém que faleceu."
+    }
+  ]
 }
