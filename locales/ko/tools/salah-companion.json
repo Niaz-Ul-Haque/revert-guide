@@ -1,25 +1,33 @@
 {
+  "reviewStatus": "review-needed",
   "prayerSequence": [
     {
       "title": "차분하게 준비하기",
       "posture": "기도 전",
       "body": "우두를 하고, 깨끗한 곳을 찾고, 끼블라를 향하고, 어떤 기도를 드리는지 마음속으로 정하세요. 의도를 소리 내어 말할 필요는 없어요.",
       "icon": "check",
-      "sourceIds": ["new-muslim-guide-prayer"]
+      "sourceIds": [
+        "new-muslim-guide-prayer"
+      ]
     },
     {
       "title": "서서 시작하기",
       "posture": "여는 타크비르",
       "body": "손을 들고 알라후 아크바르라고 말하세요. 이 말로 기도가 열리고, 그 순간부터 일상의 대화에서 벗어나 예배로 들어가요.",
       "icon": "star",
-      "sourceIds": ["new-muslim-guide-prayer"]
+      "sourceIds": [
+        "new-muslim-guide-prayer"
+      ]
     },
     {
       "title": "첫 번째 라카의 암송",
       "posture": "서기",
       "body": "알파티하를 암송하고, 짧은 장이나 익히고 있는 몇 구절을 암송하세요. 아직 암송하지 못한다면, 아래의 '아직 아랍어로 암송하지 못한다면' 부분에서 그동안 학파들이 허용하는 것을 설명해요.",
       "icon": "book",
-      "sourceIds": ["quran-al-fatihah-1", "quran-al-ikhlas-112"]
+      "sourceIds": [
+        "quran-al-fatihah-1",
+        "quran-al-ikhlas-112"
+      ]
     },
     {
       "title": "허리 굽혔다가 일어서기",
@@ -48,7 +56,9 @@
       "posture": "두 번째 단위",
       "body": "다시 일어서서 같은 흐름을 되풀이하세요. 알파티하, 짧은 암송, 루쿠, 다시 일어서기, 그리고 두 번 엎드리기예요.",
       "icon": "chevron-right",
-      "sourceIds": ["new-muslim-guide-prayer"]
+      "sourceIds": [
+        "new-muslim-guide-prayer"
+      ]
     },
     {
       "title": "마지막 말을 위해 앉기",
@@ -65,7 +75,9 @@
       "posture": "타슬림",
       "body": "고개를 오른쪽으로, 그다음 왼쪽으로 돌리며 매번 평화의 인사를 하세요. 이것으로 기도가 끝나요. 일어나 하루로 돌아가기 전에 잠시 앉아 있으세요.",
       "icon": "star",
-      "sourceIds": ["sunnah-abudawud-taslim"]
+      "sourceIds": [
+        "sunnah-abudawud-taslim"
+      ]
     }
   ],
   "recitations": [
@@ -76,7 +88,9 @@
       "transliteration": "Allahu akbar",
       "meaning": "알라는 가장 위대하십니다.",
       "beginnerNote": "가장 먼저 배울 문구예요. 서두르지 말고 또렷하게 말하세요. 발음은 저절로 따라와요.",
-      "sourceIds": ["new-muslim-guide-prayer"]
+      "sourceIds": [
+        "new-muslim-guide-prayer"
+      ]
     },
     {
       "title": "알파티하",
@@ -84,8 +98,12 @@
       "arabic": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ\nالْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينَ\nالرَّحْمَٰنِ الرَّحِيمِ\nمَالِكِ يَوْمِ الدِّينِ\nإِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ\nاهْدِنَا الصِّرَاطَ الْمُسْتَقِيمَ\nصِرَاطَ الَّذِينَ أَنْعَمْتَ عَلَيْهِمْ غَيْرِ الْمَغْضُوبِ عَلَيْهِمْ وَلَا الضَّالِّينَ",
       "transliteration": "Bismillahir-Rahmanir-Rahim. Alhamdu lillahi Rabbil-'alamin. Ar-Rahmanir-Rahim. Maliki yawmid-din. Iyyaka na'budu wa iyyaka nasta'in. Ihdinas-siratal-mustaqim. Siratal-ladhina an'amta 'alayhim ghayril-maghdubi 'alayhim wa lad-dallin.",
       "meaning": "뜻의 번역: 찬미와 경배와 도움은 알라께 속하며, 우리는 그분께 곧은 길로 인도해 달라고 구합니다.",
-      "beginnerNote": "알파티하가 첫 번째 진짜 암기 목표예요. 한 구절씩 익히고, 아직 배우는 동안 무엇을 암송할지 선생님께 물어보세요.",
-      "sourceIds": ["quran-al-fatihah-1"]
+      "beginnerNote": "알파티하는 처음으로 외워 볼 진짜 목표예요. 한 구절씩 익히고, 아직 배우는 동안 무엇을 낭송하면 되는지 선생님께 물어보세요. 합동 기도에서 이맘이 알파티하를 마치고 아민(오 알라, 들어주소서)이라고 말하면 함께 아민이라고 말하세요. 혼자 기도할 때 말하는 것에 대해 궁금하다면 선생님께 물어보세요.",
+      "sourceIds": [
+        "quran-al-fatihah-1",
+        "sunnah-bukhari-780",
+        "sunnah-muslim-410a"
+      ]
     },
     {
       "title": "짧은 장의 예: 알이클라스",
@@ -94,7 +112,9 @@
       "transliteration": "Qul huwa Allahu ahad. Allahus-samad. Lam yalid wa lam yulad. Wa lam yakun lahu kufuwan ahad.",
       "meaning": "뜻의 번역: 알라는 한 분이시고, 스스로 충족하시며, 피조물과 다르시고, 그분과 견줄 것은 아무것도 없습니다.",
       "beginnerNote": "대부분의 입문자가 여기서 시작해요. 짧고, 네 줄로 알라의 유일하심을 말해요.",
-      "sourceIds": ["quran-al-ikhlas-112"]
+      "sourceIds": [
+        "quran-al-ikhlas-112"
+      ]
     },
     {
       "title": "짧은 장의 예: 알아스르",
@@ -103,7 +123,9 @@
       "transliteration": "Wal-'asr. Innal-insana lafi khusr. Illal-ladhina amanu wa 'amilus-salihat, wa tawasaw bil-haqqi wa tawasaw bis-sabr.",
       "meaning": "뜻의 번역: 사람은 손실 속에 있으나, 믿고, 선을 행하고, 진리와 인내를 서로 권하는 이들은 예외입니다.",
       "beginnerNote": "한 번에 짧은 장 하나씩 익히세요. 여러 장을 서둘러 넘기기보다 믿을 만한 낭송자의 소리를 먼저 듣는 게 더 도움이 돼요.",
-      "sourceIds": ["quran-al-asr-103"]
+      "sourceIds": [
+        "quran-al-asr-103"
+      ]
     },
     {
       "title": "루쿠의 문구",
@@ -112,7 +134,9 @@
       "transliteration": "Subhana Rabbiyal-'Azim",
       "meaning": "위대하신 나의 주님께 영광을 드립니다.",
       "beginnerNote": "대부분의 안내서는 세 번 말하라고 가르쳐요. 배우는 동안에는 또렷하게 한 번 말하는 것으로 시작해도 괜찮아요. 세부 사항은 선생님께 물어보세요.",
-      "sourceIds": ["hisn-ruku-dhikr"]
+      "sourceIds": [
+        "hisn-ruku-dhikr"
+      ]
     },
     {
       "title": "허리 굽힌 자세에서 일어서며",
@@ -121,7 +145,9 @@
       "transliteration": "Sami'a Allahu liman hamidah. Rabbana wa lakal-hamd.",
       "meaning": "알라께서는 그분을 찬미하는 이의 말을 들으십니다. 우리 주님, 모든 찬미는 당신께 있나이다.",
       "beginnerNote": "첫 줄은 일어서면서, 둘째 줄은 똑바로 선 뒤에 말하세요. '와' 없이 '랍바나 라칼 함드'라고 하는 것도 듣게 될 거예요. 두 문구 모두 하디스에 있어요.",
-      "sourceIds": ["sunnah-bukhari-rising-from-ruku"]
+      "sourceIds": [
+        "sunnah-bukhari-rising-from-ruku"
+      ]
     },
     {
       "title": "수주드의 문구",
@@ -130,7 +156,9 @@
       "transliteration": "Subhana Rabbiyal-A'la",
       "meaning": "가장 높으신 나의 주님께 영광을 드립니다.",
       "beginnerNote": "처음 몇 번은 수주드가 낯설게 느껴져요. 몸이 편한 속도로 움직이고, 엎드린 뒤 잠시 머무르며 문구를 익히세요. 느린 건 잘못이 아니에요.",
-      "sourceIds": ["hisn-sujud-dhikr"]
+      "sourceIds": [
+        "hisn-sujud-dhikr"
+      ]
     },
     {
       "title": "두 번 엎드리는 사이에 앉아서",
@@ -151,7 +179,9 @@
       "transliteration": "At-tahiyyatu lillahi was-salawatu wat-tayyibat. As-salamu 'alayka ayyuhan-Nabiyyu wa rahmatullahi wa barakatuh. As-salamu 'alayna wa 'ala 'ibadillahis-salihin. Ash-hadu an la ilaha illallah, wa ash-hadu anna Muhammadan 'abduhu wa rasuluh.",
       "meaning": "모든 경의와 기도와 좋은 것은 알라께 속합니다. 예언자여, 당신께 평안과 알라의 자비와 축복이 있기를. 우리와 알라의 바른 종들에게 평안이 있기를. 나는 알라 외에 신이 없음을 증언하며, 무함마드가 그분의 종이자 사도임을 증언합니다.",
       "beginnerNote": "이븐 마스우드가 전한 문구예요. 다른 믿을 만한(사히) 전승에서 조금 다른 문구를 들을 수도 있으니 선생님을 따르세요. 한 줄씩 익히세요.",
-      "sourceIds": ["sunnah-bukhari-tashahhud"]
+      "sourceIds": [
+        "sunnah-bukhari-tashahhud"
+      ]
     },
     {
       "title": "예언자께 드리는 축복 (살라와트)",
@@ -160,7 +190,9 @@
       "transliteration": "Allahumma salli 'ala Muhammadin wa 'ala ali Muhammad, kama sallayta 'ala Ibrahima wa 'ala ali Ibrahim, innaka Hamidun Majid. Allahumma barik 'ala Muhammadin wa 'ala ali Muhammad, kama barakta 'ala Ibrahima wa 'ala ali Ibrahim, innaka Hamidun Majid.",
       "meaning": "알라여, 이브라힘과 이브라힘의 가족에게 자비를 내리셨듯이 무함마드와 무함마드의 가족에게 자비를 내리소서. 당신은 찬미받으시고 영광스러우신 분이십니다. 알라여, 이브라힘과 이브라힘의 가족에게 축복을 내리셨듯이 무함마드와 무함마드의 가족에게 축복을 내리소서. 당신은 찬미받으시고 영광스러우신 분이십니다.",
       "beginnerNote": "마지막 앉은 자세에서 타샤후드 다음, 살람 전에 말하세요. 더 긴 기도의 첫 앉은 자세에서도 말하는지는 학파마다 다르니 선생님께 물어보세요.",
-      "sourceIds": ["sunnah-bukhari-salawat-ibrahimiyyah"]
+      "sourceIds": [
+        "sunnah-bukhari-salawat-ibrahimiyyah"
+      ]
     },
     {
       "title": "살람",
@@ -169,7 +201,9 @@
       "transliteration": "As-salamu 'alaykum wa rahmatullah",
       "meaning": "여러분에게 평안과 알라의 자비가 있기를 바랍니다.",
       "beginnerNote": "이 말로 기도를 마쳐요. 양쪽으로 고개를 부드럽게 돌리세요. 크게 움직일 필요는 없어요.",
-      "sourceIds": ["sunnah-abudawud-taslim"]
+      "sourceIds": [
+        "sunnah-abudawud-taslim"
+      ]
     }
   ],
   "cannotReciteYet": [
@@ -188,7 +222,7 @@
     "기도 중에 일부러 먹거나, 마시거나, 관계없는 말을 하는 것.",
     "의무라는 것을 알면서 필수 자세, 조건, 암송을 빠뜨리는 것.",
     "아무 이유 없이 일부러 기도를 끝내거나 기도에서 돌아서는 것.",
-    "실수, 잊음, 질병, 생리, 여행, 장애에는 모두 자격을 갖춘 선생님과 살펴볼 만한 세부 사항이 있어요."
+    "실수, 잊음, 질병, 생리, 여행, 장애에는 모두 자격을 갖춘 선생님과 함께 살펴볼 만한 세부 사항이 있어요. 아래 목록은 이 사이트에서 이미 다루는 내용을 안내해요."
   ],
   "commonCorrections": [
     {
@@ -214,7 +248,9 @@
     "channel": "Green Lane Masjid",
     "duration": "33:57",
     "note": "아스르는 두흐르와 같은 방식으로 드리기 때문에 아스르 부분은 짧아요. 영상은 한 학파의 실천을 따르며, 학파 간의 작은 차이는 자연스러운 거예요. 자막은 자동 생성된 것이에요.",
-    "sourceIds": ["video-greenlane-five-prayers"],
+    "sourceIds": [
+      "video-greenlane-five-prayers"
+    ],
     "chapters": [
       {
         "label": "기도 전에",
@@ -256,7 +292,9 @@
       "title": "한 라카의 모든 문구",
       "channel": "Islamwise",
       "duration": "10:29",
-      "sourceIds": ["video-islamwise-rakah-recap"]
+      "sourceIds": [
+        "video-islamwise-rakah-recap"
+      ]
     },
     {
       "videoId": "n0aGnzSY_hs",
@@ -264,14 +302,18 @@
       "channel": "Islamwise",
       "duration": "7:01",
       "note": "배우는 동안 이 문구를 쓰는 것은 학파들 사이의 한 가지 견해예요. 암송하기 전의 기도에 관한 부분을 참고하세요.",
-      "sourceIds": ["video-islamwise-comprehensive-remembrance"]
+      "sourceIds": [
+        "video-islamwise-comprehensive-remembrance"
+      ]
     }
   ],
   "phraseSeries": {
     "label": "YouTube의 Islamwise 전체 시리즈",
     "body": "한 번에 한 문구씩 익히는 짧은 강의 29개로, 알파티하를 한 구절씩, 그리고 타샤후드와 살라와트를 담고 있어요.",
     "href": "https://www.youtube.com/playlist?list=PLW9v5fexkmD_8i507k8oL2x9n0vJeP1BT",
-    "sourceIds": ["video-islamwise-prayer-series"]
+    "sourceIds": [
+      "video-islamwise-prayer-series"
+    ]
   },
   "shapeImage": {
     "src": "/graphics/rakah-steps.svg",
@@ -369,7 +411,7 @@
       "앉을 수 없다면 할 수 있는 만큼 끼블라를 향해 누워서 기도하세요.",
       "짧은 병과 오래가는 상태는 조금 다르게 다루고, 의자를 쓰는 사람이 어떻게 허리를 굽히는지, 줄에서 의자를 어디에 두는지 같은 세부 사항은 학파마다 달라요."
     ],
-    "referral": "지역 이맘이나 선생님이 한 번 기도하는 모습을 보고 내 몸에 맞는 방법을 정하도록 도와줄 수 있어요. 기도가 인정받으려고 통증을 참고 버틸 필요는 전혀 없어요.",
+    "referral": "지역 이맘이나 선생님이 내가 기도하는 모습을 한 번 보고, 내 몸에 맞는 방법을 정하도록 도와줄 수 있어요. 기도를 인정받으려고 통증을 참고 버틸 필요는 전혀 없어요. 병원에서는 할 수 있는 만큼 침대에서 기도하고, 병원에 영적 돌봄 팀이 있는지 간호사에게 물어보세요.",
     "sourceIds": [
       "sunnah-bukhari-pray-standing-sitting",
       "seekersguidance-praying-sitting",
@@ -381,7 +423,9 @@
       "channel": "Green Lane Masjid",
       "duration": "6:06",
       "note": "바닥에서, 의자에서, 허리를 굽히지 않고 서서, 침대에 누워서 기도하는 모습을 보여 줘요.",
-      "sourceIds": ["video-greenlane-physical-disability"],
+      "sourceIds": [
+        "video-greenlane-physical-disability"
+      ],
       "chapters": [
         {
           "label": "바닥에 앉아서",
@@ -405,7 +449,9 @@
       "label": "의자에 앉아 기도하는 법 (샤이크 아심 알하킴, 3:25)",
       "body": "모스크의 기도 줄에서 의자로 기도하는 모습을 포함한 짧은 두 번째 시연이에요.",
       "href": "https://www.youtube.com/watch?v=nNKUwHi99Qo",
-      "sourceIds": ["video-assim-chair-prayer"]
+      "sourceIds": [
+        "video-assim-chair-prayer"
+      ]
     }
   },
   "cannotReciteSourceIds": [
@@ -414,5 +460,166 @@
     "seekersguidance-reading-from-mushaf",
     "dar-alifta-new-muslim-fatiha",
     "sunnah-muslim-two-rewards"
-  ]
+  ],
+  "moreCards": [
+    {
+      "id": "behind-imam",
+      "title": "이맘 뒤에서 기도하기 (늦게 합류하기)",
+      "summary": "기도가 이미 시작된 모스크에 들어가는 일은 누구에게나 있어요. 예언자(그분께 평안이 있기를)께서는 차분히 와서 따라잡은 만큼 기도하고 놓친 것은 채우라고 말씀하셨어요 (Sahih al-Bukhari 636).",
+      "points": [
+        "뛰지 말고 걸어서 가장 가까운 줄에 합류하세요.",
+        "서서 손을 올리고 알라후 아크바르라고 말한 다음, 이맘이 엎드려 있더라도 이맘이 있는 자세로 바로 들어가세요 (Sunan Abi Dawud 893, 알알바니가 Hasan으로 평가).",
+        "이맘이 허리 숙임에서 일어나기 전에 함께 허리를 숙였다면 그 라카를 따라잡은 거예요. 그 뒤에 합류했다면 그래도 이맘을 따르되, 그 라카는 내 것으로 세지 않아요. 우리가 연결해 둔 하나피와 샤피이 학파 답변이 이 점에서 일치해요.",
+        "이맘보다 먼저가 아니라 언제나 이맘 뒤에 움직이세요.",
+        "이맘이 알파티하를 마치면 뒤에 선 사람들은 이맘과 함께 아민이라고 말해요 (Sahih al-Bukhari 780).",
+        "이맘이 살람으로 마쳤는데 아직 채울 라카가 남아 있다면 살람을 하지 마세요. 일어나서 놓친 것을 혼자 마저 하세요. 우리가 연결해 둔 샤피이 학파 답변은 이맘이 살람을 두 번 다 마칠 때까지 기다렸다가 일어나라고 권해요.",
+        "줄에서는 어깨와 어깨, 발과 발을 맞대고 가까이 서세요 (Sahih al-Bukhari 725). 그래서 옆 사람이 내 발 옆으로 자기 발을 옮길 수도 있어요.",
+        "이맘 뒤에서 실수했다면 이맘을 따르고, 내 잊음의 엎드림을 따로 더하지 마세요.",
+        "처음 몇 번의 합동 기도에서는 앞사람들이 보이는 줄 끝 가까이에 서세요. 어디까지 했는지 놓치면 맞다고 생각하는 대로 마치고, 나중에 누군가에게 물어보세요."
+      ],
+      "differencesTitle": "학파마다 다른 점",
+      "differences": [
+        "이맘 뒤에서 무엇을 낭송하는지는 학파마다 달라요. 내 공동체가 어느 방식을 따르는지 선생님께 물어보세요.",
+        "금요 합동 예배 따라잡기: 우리가 연결해 둔 하나피 학파 답변에서는 이맘의 마지막 살람 전에 합류하면 주마를 따라잡은 것으로 보고, 그다음 일어나 두 라카를 채워요. 샤피이 학파는 이맘과 함께 적어도 한 라카를 따라잡아야 주마를 따라잡은 것으로 보고, 그렇지 않으면 두흐르를 기도해요. 이것은 \"주마의 한 라카를 따라잡은 사람은 주마를 따라잡은 것이다\" 같은 하디스에 근거해요 (Sunan an-Nasa'i 1425, Darussalam이 Sahih로 평가).",
+        "도착해서 드리는 두 라카: 예언자께서는 모스크에 앉기 전에 두 라카를 기도하라고 하셨어요 (Sahih al-Bukhari 444). 이맘이 금요 설교를 하러 올라간 뒤에는, 하나피와 말리키 학파는 기도하지 말고 앉아서 들으라고 해요. 샤피이와 한발리 학파는 설교 중에도 짧은 두 라카를 가르쳐요. 예언자께서 설교 중에 들어온 사람에게 일어나 두 라카를 기도하라고 하셨기 때문이에요 (Sahih Muslim 875c)."
+      ],
+      "referral": "지역 이맘에게 늦게 합류하는 법을 한 번 보여 달라고 부탁하세요. 5분이면 되고 걱정을 많이 덜어 줘요.",
+      "links": [
+        {
+          "label": "첫 금요 합동 예배에 가기",
+          "href": "/roadmap/week-1/first-jumuah"
+        }
+      ],
+      "sourceIds": [
+        "sunnah-bukhari-636",
+        "sunnah-abudawud-893",
+        "sunnah-bukhari-780",
+        "sunnah-bukhari-725",
+        "sunnah-bukhari-444",
+        "sunnah-muslim-875c",
+        "sunnah-nasai-1425",
+        "seekersguidance-latecomer-hanafi",
+        "seekersguidance-latecomer-shafii",
+        "seekersguidance-friday-prayer-rulings",
+        "seekersguidance-maliki-voluntary-prayers"
+      ]
+    },
+    {
+      "id": "prayer-kit",
+      "title": "나의 기도 준비물, 그리고 기도할 수 있는 곳",
+      "summary": "깨끗한 곳이라면 거의 어디서든 기도할 수 있어요. 가방에 작은 물건 몇 가지를 넣어 두면 직장, 학교, 이동 중에 더 쉬워져요.",
+      "points": [
+        "작은 수건이나 여행용 매트. 기도 매트가 꼭 필요하지는 않아요. 깨끗한 바닥이면 어디든 괜찮아요.",
+        "자매님들은 스카프나 한 벌로 된 기도복. 사춘기가 지난 여성은 기도할 때 머리카락을 가려요 (Sunan Abi Dawud 641, 알알바니가 Sahih로 평가).",
+        "화장실을 쓴 뒤 씻을 작은 물병.",
+        "신발: 예언자께서는 샌들을 신은 채 기도하셨고, 먼저 더러운 것이 묻었는지 확인하라고 하셨어요 (Sunan Abi Dawud 650, 알알바니가 Sahih로 평가). 모스크 안에서는 다른 사람들이 벗는 곳에서 신발을 벗으세요.",
+        "야외나 공공장소에서는 공원, 조용한 계단참, 주차된 차 안도 괜찮아요. 벽 가까이에서 기도하거나 가방을 앞에 두어 표시(수트라)로 삼고, 그 가까이에 서세요 (Sunan Abi Dawud 695, 알알바니가 Sahih로 평가).",
+        "끼블라: 할 수 있는 만큼 카바를 향하세요 (꾸란 2:144). 정확히 알 수 없을 때는 대략적인 방향이면 충분해요 (Jami at-Tirmidhi 344). 나침반이 몇 도 벗어났다고 다시 기도할 이유는 없어요.",
+        "참지 말고 기도 전에 화장실에 다녀오세요. 예언자께서는 용변이 급할 때 기도하지 말라고 하셨어요 (Sahih Muslim 560a).",
+        "예배에 맞게 입으세요. \"예배하는 곳마다 너희의 단장을 하라\"(꾸란 7:31). 내 학파가 요구하는 부분을 가리는 깨끗한 작업복이면 괜찮아요."
+      ],
+      "links": [
+        {
+          "label": "끼블라 찾기",
+          "href": "/qibla"
+        },
+        {
+          "label": "기도할 때 가려야 하는 곳",
+          "href": "/topics/prayer"
+        }
+      ],
+      "sourceIds": [
+        "quran-7-31-adornment-masjid",
+        "sunnah-abudawud-641",
+        "sunnah-abudawud-650",
+        "sunnah-abudawud-695",
+        "quran-2-144-qibla",
+        "sunnah-tirmidhi-344",
+        "sunnah-muslim-560a"
+      ]
+    },
+    {
+      "id": "funeral-prayer",
+      "title": "장례 기도 (자나자)",
+      "summary": "장례 기도는 이맘 뒤에 서서 드리고, 허리 숙임도 엎드림도 없어요. 짧아서 보통 몇 분이면 끝나요. 참석하면 상이 있고, 매장까지 함께하면 더 큰 상이 있어요 (Sahih al-Bukhari 1325).",
+      "points": [
+        "가기 전에 우두를 하고, 이맘 뒤의 줄에 서세요.",
+        "타크비르가 네 번 있어요 (Sahih al-Bukhari 1333). 이맘이 매번 알라후 아크바르라고 말하면, 뒤따라 조용히 말하세요.",
+        "IslamQA가 정리한 흔한 방법 하나를 소개하면 이래요. 첫 번째 타크비르 뒤에 알파티하를 낭송해요. 두 번째 뒤에 예언자께 축복을 보내요(마지막 앉은 자세에서 하는 것과 같은 살라와트). 세 번째 뒤에 돌아가신 분을 위해 두아를 해요. 네 번째 뒤에 살람으로 마쳐요.",
+        "아직 정해진 두아를 모른다면, 내 말로 조용히 알라께 그분을 용서하시고 자비를 베풀어 달라고 구하세요.",
+        "처음부터 끝까지 서 있으세요. 허리를 숙이거나 엎드리지 마세요.",
+        "늦게 도착했다면 합류해서 이맘을 따르고, 나중에 무엇을 놓쳤는지 누군가에게 물어보세요."
+      ],
+      "differencesTitle": "학파마다 다른 점",
+      "differences": [
+        "첫 번째 타크비르 뒤에 무엇을 말하는지, 살람을 한 번 하는지 두 번 하는지 같은 세부 사항은 학파마다 달라요. 위의 방법은 한 가지 방식을 따른 거예요. 이맘을 따르고, 내 공동체가 어떻게 기도하는지 선생님께 물어보세요."
+      ],
+      "referral": "아는 사람이 세상을 떠났다면, 지역 모스크에서 장례 기도가 언제 어디서 있는지 알려 줄 수 있어요.",
+      "links": [
+        {
+          "label": "이드 기도",
+          "href": "/seasonal/eid-al-fitr"
+        }
+      ],
+      "sourceIds": [
+        "sunnah-bukhari-1333",
+        "sunnah-bukhari-1325",
+        "islamqa-12363-janazah"
+      ]
+    }
+  ],
+  "situationIndex": {
+    "title": "이런 일이 생겼을 때",
+    "intro": "실제 생활은 기도를 방해하곤 해요. 여기서 내 상황을 찾아 바로 답으로 가세요.",
+    "items": [
+      {
+        "label": "도착했을 때 기도가 이미 시작됐어요",
+        "href": "/tools/salah-companion#behind-imam"
+      },
+      {
+        "label": "횟수를 잊었거나 실수했어요",
+        "href": "/tools/salah-companion#sujud-al-sahw"
+      },
+      {
+        "label": "여행 중이거나, 멀리 운전하거나, 비행기를 타요",
+        "href": "/topics/prayer"
+      },
+      {
+        "label": "파즈르에 잠들어 버렸거나 기도를 놓쳤어요",
+        "href": "/faq#faq-pry-037"
+      },
+      {
+        "label": "근무 시간이 기도 시간 전체를 덮어요",
+        "href": "/faq#faq-pry-038"
+      },
+      {
+        "label": "직장, 야외, 이동 중에 기도해야 해요",
+        "href": "/tools/salah-companion#prayer-kit"
+      },
+      {
+        "label": "옷에 뭔가 묻었어요",
+        "href": "/topics/purification"
+      },
+      {
+        "label": "건강 문제 때문에 우두가 자꾸 깨져요",
+        "href": "/tools/wudu-ghusl#excused-person"
+      },
+      {
+        "label": "통증, 질병, 입원 중이에요",
+        "href": "/tools/salah-companion#seated-prayer"
+      },
+      {
+        "label": "생리가 시작됐어요",
+        "href": "/topics/menstruation-and-worship"
+      },
+      {
+        "label": "장례 기도에 가요",
+        "href": "/tools/salah-companion#funeral-prayer"
+      },
+      {
+        "label": "이드 기도에 가요",
+        "href": "/seasonal/eid-al-fitr"
+      }
+    ]
+  }
 }

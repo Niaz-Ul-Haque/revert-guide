@@ -1,4 +1,5 @@
 {
+  "reviewStatus": "review-needed",
   "vocabulary": [
     {
       "term": "아랍어 꾸란",
@@ -45,7 +46,11 @@
       "title": "자비와 희망",
       "time": "조용한 한 시간",
       "body": "부끄러움이나 두려움이 희망보다 크게 느껴질 때 읽어 보세요. 다른 것을 더하기 전에, 알라께서 얼마나 가까이 계시고 얼마나 기꺼이 용서하시는지 이 구절들이 말하는 것을 곱씹어 보세요.",
-      "readings": ["Quran 39:53", "Quran 2:186", "Quran 23:109"],
+      "readings": [
+        "Quran 39:53",
+        "Quran 2:186",
+        "Quran 23:109"
+      ],
       "sourceIds": [
         "quran-39-53-mercy",
         "quran-2-186-dua-nearness",
@@ -56,14 +61,22 @@
       "title": "예언자들과 삶의 목적",
       "time": "짧게 여러 번",
       "body": "유수프 장을 몇 쪽씩 읽어 보세요. 하나로 이어지는 이야기예요. 그에게 등을 돌린 가족, 오랜 인내, 유혹, 감옥, 그리고 마지막의 용서가 담겨 있어요.",
-      "readings": ["유수프 장, 12장"],
-      "sourceIds": ["quran-yusuf-12"]
+      "readings": [
+        "유수프 장, 12장"
+      ],
+      "sourceIds": [
+        "quran-yusuf-12"
+      ]
     },
     {
       "title": "기도와 예배",
       "time": "15분",
       "body": "읽기를 기도와 이어 보세요. 이 구절들은 기도의 자리를 알려 줘요. 기억이고, 인도를 구하는 것이고, 인내가 필요할 때 찾아갈 곳이에요.",
-      "readings": ["알파티하, 1장", "Quran 20:14", "Quran 2:153"],
+      "readings": [
+        "알파티하, 1장",
+        "Quran 20:14",
+        "Quran 2:153"
+      ],
       "sourceIds": [
         "quran-al-fatihah-1",
         "quran-20-14-prayer-remembrance",
@@ -74,8 +87,14 @@
       "title": "성품과 인내",
       "time": "10분",
       "body": "이것은 실용적으로 읽으세요. 읽은 뒤, 오늘 내가 말하는 방식, 인내, 사람을 대하는 방식에서 무엇이 달라질지 스스로 물어보세요.",
-      "readings": ["알아스르, 103장", "Quran 2:153"],
-      "sourceIds": ["quran-al-asr-103", "quran-2-153-patience-prayer"]
+      "readings": [
+        "알아스르, 103장",
+        "Quran 2:153"
+      ],
+      "sourceIds": [
+        "quran-al-asr-103",
+        "quran-2-153-patience-prayer"
+      ]
     }
   ],
   "weekPlan": [
@@ -83,7 +102,9 @@
       "day": "1일째",
       "title": "알파티하로 열기",
       "body": "알파티하의 뜻을 읽고 한 번 들어 보세요. 인도에 관한 구절을 하루 동안 마음에 품고 다니세요.",
-      "sourceIds": ["quran-al-fatihah-1"]
+      "sourceIds": [
+        "quran-al-fatihah-1"
+      ]
     },
     {
       "day": "2일째",
@@ -99,31 +120,45 @@
       "day": "3일째",
       "title": "희망을 위해 읽기",
       "body": "Quran 39:53을 천천히 읽으세요. 그다음 알라의 자비가 나의 상황에 어떤 의미인지 내 말로 한 문장을 적어 보세요.",
-      "sourceIds": ["quran-39-53-mercy"]
+      "sourceIds": [
+        "quran-39-53-mercy"
+      ]
     },
     {
       "day": "4일째",
       "title": "나만의 두아 하기",
       "body": "Quran 2:186과 23:109를 읽으세요. 그다음 내 말로 짧은 두아를 해 보세요.",
-      "sourceIds": ["quran-2-186-dua-nearness", "quran-23-109-forgiveness"]
+      "sourceIds": [
+        "quran-2-186-dua-nearness",
+        "quran-23-109-forgiveness"
+      ]
     },
     {
       "day": "5일째",
       "title": "꾸란과 기도 잇기",
       "body": "Quran 20:14를 읽고 알파티하를 다시 들어 보세요. 기도는 먼저 기억이에요. 완벽하게 하는 건 나중 일이에요.",
-      "sourceIds": ["quran-20-14-prayer-remembrance", "quran-al-fatihah-1"]
+      "sourceIds": [
+        "quran-20-14-prayer-remembrance",
+        "quran-al-fatihah-1"
+      ]
     },
     {
       "day": "6일째",
       "title": "인내 연습하기",
       "body": "Quran 2:153과 알아스르를 읽으세요. 오늘 인내할 작은 일 하나, 또는 말하지 않는 편이 쉬울 때 진실을 말할 일 하나를 고르세요.",
-      "sourceIds": ["quran-2-153-patience-prayer", "quran-al-asr-103"]
+      "sourceIds": [
+        "quran-2-153-patience-prayer",
+        "quran-al-asr-103"
+      ]
     },
     {
       "day": "7일째",
       "title": "돌아보고 질문 하나 하기",
       "body": "마음에 남은 구절로 돌아가 보세요. 헷갈린 게 있다면 정확한 구절을 적어 믿을 수 있는 선생님께 가져가세요.",
-      "sourceIds": ["quran-com", "seekersguidance"]
+      "sourceIds": [
+        "quran-com",
+        "seekersguidance"
+      ]
     }
   ],
   "resourceLinks": [
@@ -131,28 +166,36 @@
       "title": "Quran.com 웹사이트",
       "body": "브라우저에서 읽고, 듣고, 번역을 비교하고, 낭송자 페이지를 열 수 있어서 설치할 게 없어요.",
       "href": "https://quran.com/",
-      "sourceIds": ["quran-com"],
+      "sourceIds": [
+        "quran-com"
+      ],
       "icon": "book"
     },
     {
       "title": "The Clear Quran",
       "body": "읽기 쉬운 뜻의 번역이에요. 이해하는 데 쓰고, 꾸란 자체는 아랍어로 두세요.",
       "href": "https://theclearquran.org/",
-      "sourceIds": ["clear-quran"],
+      "sourceIds": [
+        "clear-quran"
+      ],
       "icon": "file-text"
     },
     {
       "title": "New Muslim Academy",
       "body": "이슬람이 처음인 사람들을 위해 만든 입문 강좌와 꾸란 도움이에요.",
       "href": "https://www.newmuslimacademy.org/",
-      "sourceIds": ["new-muslim-academy"],
+      "sourceIds": [
+        "new-muslim-academy"
+      ],
       "icon": "users"
     },
     {
       "title": "Quran.com의 미샤리 라시드 알아파시",
       "body": "함께 따라 듣기 좋은 또렷한 낭송자예요. 먼저 끝까지 듣고, 그다음 짧은 부분 하나를 따라 해 보세요.",
       "href": "https://quran.com/reciters/7",
-      "sourceIds": ["quran-reciter-mishary"],
+      "sourceIds": [
+        "quran-reciter-mishary"
+      ],
       "icon": "play"
     }
   ],
@@ -165,9 +208,29 @@
     },
     "stages": [
       "1주째: 하루에 알파티하 한 줄. 듣고, 따라 하고, 아래의 단어 뜻을 읽어요. 할 일은 그게 전부예요.",
-      "2~4주째: 아는 것으로 계속 기도하고, 알파티하를 마치고, 알이클라스 같은 짧은 장 하나를 더해요.",
-      "그 뒤, 준비가 되었다고 느낄 때: 아랍어 글자를 시작하거나, 지역 모스크에 입문자 꾸란 읽기 강좌가 있는지 물어보세요."
+      "1개월째: 알파티하를 마치고 알이클라스 같은 짧은 장(수라) 하나를 더해요. 아는 것으로 계속 기도하고, 기도 배우기 도구에서 기도의 구절마다 무슨 뜻인지 익혀요.",
+      "3개월째: 일주일에 몇 번 짧게 아랍어 글자와 짧은 모음을 시작하고, 알아스르, 알카우사르, 알팔라끄, 안나스 같은 짧은 장을 두세 개 더해요. 선생님을 찾기 좋은 때예요. 내가 스스로는 듣지 못하는 소리를 선생님은 들을 수 있으니까요.",
+      "6개월째: 선생님의 확인을 받으며 짧은 장을 글자를 보고 천천히 읽고, 기도에서 말하는 모든 것의 뜻을 익혀요.",
+      "12개월째: 타즈위드의 기본 규칙에 따라 꾸준히 읽고, 원한다면 꾸란에 자주 나오는 단어를 배우기 시작해요. 더 오래 걸리는 사람도 있고, 그래도 괜찮아요."
     ],
+    "plan": {
+      "title": "계획이 잘 굴러가게 하려면",
+      "notes": [
+        "읽기와 이해하기는 서로 다른 목표예요. 기도에 필요한 것은 읽기와 낭송(글자, 그다음 타즈위드)이에요. 아랍어를 이해하는 것(어휘, 그다음 문법)은 천천히 해도 되는 더 긴 과제예요.",
+        "일주일에 한 번 길게 하는 것보다 하루 10분에서 15분이 더 효과가 있어요. 예언자께서는 알라께서 가장 사랑하시는 행위는 작더라도 꾸준한 행위라고 말씀하셨어요.",
+        "무료로 시작하세요. 모스크의 입문자 강좌, 무료 New Muslim Academy 꾸란 강좌, 아래에 연결된 무료 마디나 아랍어 강좌가 있어요.",
+        "유료 개인 교습도 스스로 원해서 고른다면 괜찮아요. 어떤 패키지든 돈을 내기 전에 체험 수업 한 번을 먼저 예약하고, 압박하거나, 긴 선불 묶음을 권하거나, 이름을 밝히지 않거나, 개인 채팅으로 옮기자고 하는 선생님은 피하세요.",
+        "한 번에 앱이나 강좌 하나만 고르세요. 앱 세 개와 강좌 두 개를 한꺼번에 시작하면 보통 하나도 남지 않아요.",
+        "아랍어를 읽을 수 있을 때까지 덜 무슬림인 것도 아니고, 낭송이 완벽해질 때까지 기도를 미루는 것도 아니에요. 예언자께서는 어렵게 더듬으며 낭송하는 사람은 두 배의 상을 받는다고 말씀하셨어요."
+      ],
+      "sourceIds": [
+        "sunnah-bukhari-6464",
+        "new-muslim-academy-quran-classes",
+        "madinah-arabic-free-content",
+        "sunnah-muslim-798a",
+        "quran-73-4"
+      ]
+    },
     "fatihahWords": [
       {
         "verse": 1,
@@ -350,31 +413,108 @@
         ]
       }
     ],
-    "fatihahSourceIds": ["quran-al-fatihah-1", "quranic-arabic-corpus-fatihah"],
+    "fatihahSourceIds": [
+      "quran-al-fatihah-1",
+      "quranic-arabic-corpus-fatihah"
+    ],
+    "sounds": {
+      "title": "귀 기울여 들어 볼 소리",
+      "intro": "로마자 표기는 아랍어에서 서로 다른 소리를 같은 글자로 적어요. 아래는 처음 배우는 사람이 가장 어려워하는 소리예요. 철자에 기대지 말고, 소리마다 또렷한 낭송자의 소리를 들어 보세요. 타즈위드 선생님이 예시를 함께 확인해 줄 수 있어요.",
+      "sounds": [
+        {
+          "letter": "ع",
+          "name": "아인 (Ayn)",
+          "tip": "목 깊은 곳을 조이는 소리예요. 로마자 표기에서는 흔히 아포스트로피로 나타내요. na'budu(우리는 경배합니다)가 그 예예요."
+        },
+        {
+          "letter": "ح",
+          "name": "무거운 h (하)",
+          "tip": "차가운 유리에 입김을 불듯 목 가운데에서 내는 숨소리 섞인 h예요. al-hamdu의 h가 이 글자이고, 가벼운 'ㅎ' 소리가 아니에요."
+        },
+        {
+          "letter": "خ",
+          "name": "카 (Kha)",
+          "tip": "스코틀랜드어 \"loch\"의 끝소리예요. 목에서 긁듯이 내는 소리예요."
+        },
+        {
+          "letter": "غ",
+          "name": "가인 (Ghayn)",
+          "tip": "프랑스어 r에 가까워요. ghayril-maghdubi가 그 예예요."
+        },
+        {
+          "letter": "ق",
+          "name": "까프 (Qaf)",
+          "tip": "목구멍 더 안쪽에서 내는 k 소리예요. al-mustaqim이 그 예예요."
+        },
+        {
+          "letter": "ص ض ط ظ",
+          "name": "무거운 글자들",
+          "tip": "혀 뒤쪽을 들어 올리고 내는 소리라서, 옆에 있는 모음이 어둡게 들려요. as-sirat와 wa lad-dallin에서 들어 보세요."
+        },
+        {
+          "letter": "ث ذ",
+          "name": "두 가지 th",
+          "tip": "하나는 영어 \"thin\"의 th이고, 다른 하나는 영어 \"this\"의 th예요. alladhina가 그 예예요."
+        },
+        {
+          "letter": "ـّـ",
+          "name": "겹친 글자 (샷다)",
+          "tip": "그 글자를 조금 더 길게 끌어요. iyyaka와 rabbil이 그 예예요."
+        }
+      ],
+      "mistakesTitle": "글자를 잘못 발음하면 어떻게 되나요?",
+      "mistakes": [
+        "배우는 사람은 누구나 실수하고, 예언자께서는 어렵게 더듬으며 낭송하는 사람은 두 배의 상을 받는다고 말씀하셨어요. 샤피이 학파에서는 글자를 잘못 발음하면 그 단어가 무효가 되니, 그 단어를 한 번 바르게 다시 말하면 돼요. 기도 자체는 실수가 뜻을 바꾸고 일부러 한 경우에만 무효가 돼요.",
+        "이븐 아비딘을 인용한 하나피 학파 답변은 싸드와 신 같은 글자를 모르고 헷갈려도 기도가 무효가 되지 않으며, 배우는 사람은 계속 적당한 노력을 기울이면 된다고 말해요. 말리키와 한발리 학파의 세부 내용은 선생님께 물어보세요.",
+        "한 단어를 몇 번이고 되풀이하거나, 확실하지 않은 글자 하나 때문에 기도 전체를 다시 시작할 필요는 없어요. 그런 종류의 의심(와스와사)은 흘려보내야 할 것이에요."
+      ],
+      "practiceTitle": "연습하는 법",
+      "practice": [
+        "일주일에 어려운 소리 하나를 골라, 기도에서 이미 말하는 단어로 연습하세요.",
+        "일주일에 한 번 휴대폰으로 알파티하를 낭송하는 내 목소리를 녹음해서 Quran.com의 음성과 비교해 보세요.",
+        "모스크의 선생님께 5분만 들으면서 이 글자들만 확인해 달라고 부탁해 보세요. 대부분 기꺼이 해 줄 거예요.",
+        "들으면서 배우세요. 로마자 표기는 기억을 돕는 것이지, 단어를 직접 듣는 것을 대신하지 못해요."
+      ],
+      "sourceIds": [
+        "seekersguidance-mispronunciation-fatiha",
+        "seekersguidance-saad-seen-hanafi",
+        "sunnah-muslim-798a",
+        "quran-73-4"
+      ]
+    },
     "links": [
       {
         "label": "Quran.com에서 알파티하 듣기",
         "body": "Quran.com 페이지에서 재생 버튼을 누르면 구절마다 들을 수 있어요. 미샤리 알아파시가 시작하기 좋은 또렷한 낭송자예요.",
         "href": "https://quran.com/1",
-        "sourceIds": ["quran-al-fatihah-1", "quran-reciter-mishary"]
+        "sourceIds": [
+          "quran-al-fatihah-1",
+          "quran-reciter-mishary"
+        ]
       },
       {
         "label": "7일, 7구절 (Quran.com)",
         "body": "하루에 알파티하 한 구절, 한 번에 10분이 안 되게, 단어별로 풀어 줘요. 무료이고 계정 없이 읽을 수 있어요.",
         "href": "https://quran.com/learning-plans/seven-days-seven-verses-living-the-message-of-al-fatihah",
-        "sourceIds": ["quran-com-seven-days-seven-verses"]
+        "sourceIds": [
+          "quran-com-seven-days-seven-verses"
+        ]
       },
       {
         "label": "Islamwise의 문구별 시리즈",
         "body": "기도의 모든 문구에 관한 짧은 YouTube 강의예요. 11화부터 18화까지 알파티하를 한 구절씩 다뤄요.",
         "href": "https://www.youtube.com/playlist?list=PLW9v5fexkmD_8i507k8oL2x9n0vJeP1BT",
-        "sourceIds": ["video-islamwise-prayer-series"]
+        "sourceIds": [
+          "video-islamwise-prayer-series"
+        ]
       },
       {
         "label": "아랍어 글자: Madinah Arabic 읽기 강좌",
         "body": "무료 강의는 비용도 계정도 필요 없어요. 사이트에서 유료 일대일 수업도 팔고, 강좌 저자는 밝혀져 있지 않아요.",
         "href": "https://madinaharabic.com/free-content",
-        "sourceIds": ["madinah-arabic-free-content"]
+        "sourceIds": [
+          "madinah-arabic-free-content"
+        ]
       }
     ],
     "fatihahVideo": {
@@ -382,7 +522,9 @@
       "title": "알함두 릴라히 랍빌 알라민, 한 구절씩",
       "channel": "Islamwise",
       "duration": "2:27",
-      "sourceIds": ["video-islamwise-fatihah-alhamdu"]
+      "sourceIds": [
+        "video-islamwise-fatihah-alhamdu"
+      ]
     },
     "alphabetVideo": {
       "videoId": "c-7SVieC_04",
@@ -390,7 +532,9 @@
       "channel": "Arabic 101",
       "duration": "13:57",
       "note": "Arabic 101은 실시간 강좌도 판매해요. 이 첫 강의는 무료로 볼 수 있어요.",
-      "sourceIds": ["video-arabic101-alphabet-lesson-1"]
+      "sourceIds": [
+        "video-arabic101-alphabet-lesson-1"
+      ]
     }
   }
 }
