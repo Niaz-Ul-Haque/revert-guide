@@ -1,0 +1,396 @@
+{
+  "vocabulary": [
+    {
+      "term": "আরবি কুরআন",
+      "body": "নাজিল হওয়া আরবি পাঠ। এই পৃষ্ঠা কোনো আয়াতের লিংক দিলে আরবিটাই কুরআন, আর বাকি সব বোঝার জন্য সাহায্য।"
+    },
+    {
+      "term": "অর্থের অনুবাদ",
+      "body": "অর্থটা পৌঁছে দেওয়া একটি রূপান্তর। এটি বুঝতে সাহায্য করে, কিন্তু নিজে কুরআন নয়।"
+    },
+    {
+      "term": "উচ্চারণ-লিপি",
+      "body": "অন্য লিপিতে লেখা আরবি আওয়াজ। অনুশীলনে কাজে আসে, যদিও কোনো শিক্ষক বা নির্ভরযোগ্য কারির কাছ থেকে আপনার কান বেশি শিখবে।"
+    },
+    {
+      "term": "তাফসির",
+      "body": "আলেমদের ব্যাখ্যা, একটি আয়াতের অর্থ কী, কখন নাজিল হয়েছিল, আর আপনার কাছে কী চায়। কোনো আয়াত কঠিন লাগলে এর সাহায্য নিন।"
+    }
+  ],
+  "translationTips": [
+    "এমন অনুবাদ বেছে নিন যার অনুবাদক কে, প্রকাশক কে, আর কীভাবে কাজ করেছেন তা জানা যায়।",
+    "নামহীন PDF বা কারও পোস্ট করা স্ক্রিনশটের চেয়ে পাদটীকাসহ সহজপাঠ্য অনুবাদ ভালো।",
+    "পড়াশোনার সময় দুটি অনুবাদ মিলিয়ে দেখুন। মেলাতে গিয়ে দুশ্চিন্তা হতে শুরু করলে একটিতে ফিরে যান।",
+    "কোনো আয়াত যখন বিশ্বাস, ইবাদত, পরিবার, নিরাপত্তা বা সামনের কোনো সিদ্ধান্তের সাথে জড়িত, তখন একজন যোগ্য শিক্ষককে জিজ্ঞেস করুন।"
+  ],
+  "readingPaths": [
+    {
+      "title": "প্রথম বসা",
+      "time": "10 থেকে 20 মিনিট",
+      "body": "এমন ছোট সূরা দিয়ে শুরু করুন যা নামাজের অনুশীলনও। ধীরে অর্থ পড়ুন, তারপর একবার শুনুন। উচ্চারণ আপাতত থাক।",
+      "readings": [
+        "আল-ফাতিহা, সূরা 1",
+        "আল-ইখলাস, সূরা 112",
+        "আল-ফালাক, সূরা 113",
+        "আন-নাস, সূরা 114"
+      ],
+      "sourceIds": [
+        "quran-al-fatihah-1",
+        "quran-al-ikhlas-112",
+        "quran-al-falaq-113",
+        "quran-an-nas-114"
+      ]
+    },
+    {
+      "title": "দয়া আর আশা",
+      "time": "একটি নিরিবিলি বসা",
+      "body": "যখন লজ্জা বা ভয় আশার চেয়ে জোরে বাজে, তখন এটি পড়ুন। আর কিছু যোগ করার আগে আল্লাহ কত কাছে আর ক্ষমা করতে কত প্রস্তুত, এই আয়াতগুলো তা নিয়ে কী বলে তা নিয়ে একটু বসুন।",
+      "readings": ["Quran 39:53", "Quran 2:186", "Quran 23:109"],
+      "sourceIds": [
+        "quran-39-53-mercy",
+        "quran-2-186-dua-nearness",
+        "quran-23-109-forgiveness"
+      ]
+    },
+    {
+      "title": "নবীরা আর উদ্দেশ্য",
+      "time": "কয়েকটি ছোট বসা",
+      "body": "সূরা ইউসুফ এক এক বসায় কয়েক পৃষ্ঠা করে পড়ুন। এটি একটানা একটি কাহিনি: যে পরিবার তাঁর বিরুদ্ধে যায়, দীর্ঘ ধৈর্য, প্রলোভন, কারাগার, আর শেষে ক্ষমা।",
+      "readings": ["সূরা ইউসুফ, সূরা 12"],
+      "sourceIds": ["quran-yusuf-12"]
+    },
+    {
+      "title": "নামাজ আর ইবাদত",
+      "time": "15 মিনিট",
+      "body": "পড়াকে নামাজের সাথে বেঁধে দিন। এই অংশগুলো নামাজকে তার জায়গায় রাখে: স্মরণ, পথনির্দেশ চাওয়া, আর ধৈর্যের দরকার হলে যাওয়ার একটি জায়গা।",
+      "readings": ["আল-ফাতিহা, সূরা 1", "Quran 20:14", "Quran 2:153"],
+      "sourceIds": [
+        "quran-al-fatihah-1",
+        "quran-20-14-prayer-remembrance",
+        "quran-2-153-patience-prayer"
+      ]
+    },
+    {
+      "title": "চরিত্র আর ধৈর্য",
+      "time": "10 মিনিট",
+      "body": "এটিকে ব্যবহারিক রাখুন। পড়ার পরে নিজেকে জিজ্ঞেস করুন, আজ এটি আপনার কথা বলা, ধৈর্য আর মানুষের সাথে আচরণে কী বদলাবে।",
+      "readings": ["আল-আসর, সূরা 103", "Quran 2:153"],
+      "sourceIds": ["quran-al-asr-103", "quran-2-153-patience-prayer"]
+    }
+  ],
+  "weekPlan": [
+    {
+      "day": "দিন 1",
+      "title": "সূরা আল-ফাতিহা দিয়ে শুরু",
+      "body": "সূরা আল-ফাতিহার অর্থ পড়ুন, তারপর একবার শুনুন। পথনির্দেশের লাইনটি সারাদিন মনে রাখুন।",
+      "sourceIds": ["quran-al-fatihah-1"]
+    },
+    {
+      "day": "দিন 2",
+      "title": "আশ্রয়ের তিনটি ছোট সূরা জানুন",
+      "body": "আল-ইখলাস, আল-ফালাক আর আন-নাস পড়ুন। খেয়াল করুন এগুলো আল্লাহর একত্ব আর আশ্রয় চাওয়া নিয়ে কী বলে। আজ মুখস্থের চেষ্টা করবেন না।",
+      "sourceIds": [
+        "quran-al-ikhlas-112",
+        "quran-al-falaq-113",
+        "quran-an-nas-114"
+      ]
+    },
+    {
+      "day": "দিন 3",
+      "title": "আশার জন্য পড়ুন",
+      "body": "ধীরে ধীরে Quran 39:53 পড়ুন। তারপর নিজের ভাষায় একটি বাক্য লিখুন, আপনার অবস্থায় আল্লাহর দয়ার অর্থ কী।",
+      "sourceIds": ["quran-39-53-mercy"]
+    },
+    {
+      "day": "দিন 4",
+      "title": "নিজের দোয়া করুন",
+      "body": "Quran 2:186 আর 23:109 পড়ুন। তারপর নিজের ভাষায়, নিজের কথায় একটি ছোট দোয়া করুন।",
+      "sourceIds": ["quran-2-186-dua-nearness", "quran-23-109-forgiveness"]
+    },
+    {
+      "day": "দিন 5",
+      "title": "কুরআনকে নামাজের সাথে যুক্ত করুন",
+      "body": "Quran 20:14 পড়ুন আর আবার সূরা আল-ফাতিহা শুনুন। নামাজ আগে স্মরণ। নিখুঁত হওয়া আসে পরে।",
+      "sourceIds": ["quran-20-14-prayer-remembrance", "quran-al-fatihah-1"]
+    },
+    {
+      "day": "দিন 6",
+      "title": "ধৈর্য অনুশীলন করুন",
+      "body": "Quran 2:153 আর সূরা আল-আসর পড়ুন। আজ একটি ছোট বিষয় বেছে নিন যেখানে ধৈর্য ধরবেন, বা না বলাটা সহজ হলেও সত্য বলবেন।",
+      "sourceIds": ["quran-2-153-patience-prayer", "quran-al-asr-103"]
+    },
+    {
+      "day": "দিন 7",
+      "title": "ফিরে দেখুন আর একটি প্রশ্ন করুন",
+      "body": "যে অংশটি মনে গেঁথে আছে সেখানে ফিরে যান। কিছু বিভ্রান্ত করে থাকলে সঠিক আয়াতটি লিখে রেখে বিশ্বস্ত কোনো শিক্ষকের কাছে নিয়ে যান।",
+      "sourceIds": ["quran-com", "seekersguidance"]
+    }
+  ],
+  "resourceLinks": [
+    {
+      "title": "Quran.com",
+      "body": "ব্রাউজার থেকেই পড়ুন, শুনুন, অনুবাদ মিলিয়ে দেখুন আর কারিদের পাতা খুলুন, তাই কিছু ইনস্টল করতে হয় না।",
+      "href": "https://quran.com/",
+      "sourceIds": ["quran-com"],
+      "icon": "book"
+    },
+    {
+      "title": "The Clear Quran",
+      "body": "অর্থের একটি সহজপাঠ্য ইংরেজি অনুবাদ। বুঝতে এটি ব্যবহার করুন, আর আরবিকেই কুরআন হিসেবে রাখুন।",
+      "href": "https://theclearquran.org/",
+      "sourceIds": ["clear-quran"],
+      "icon": "file-text"
+    },
+    {
+      "title": "New Muslim Academy",
+      "body": "নতুনদের ক্লাস আর কুরআনে সাহায্য, যারা ইসলামে নতুন তাদের জন্য লেখা।",
+      "href": "https://www.newmuslimacademy.org/",
+      "sourceIds": ["new-muslim-academy"],
+      "icon": "users"
+    },
+    {
+      "title": "Quran.com-এ মিশারি রাশিদ আল-আফাসি",
+      "body": "সাথে সাথে শোনার মতো একজন স্পষ্ট কারি। আগে পুরোটা শুনুন, তারপর একটি ছোট অংশ বারবার বলুন।",
+      "href": "https://quran.com/reciters/7",
+      "sourceIds": ["quran-reciter-mishary"],
+      "icon": "play"
+    }
+  ],
+  "learnArabic": {
+    "image": {
+      "src": "/graphics/al-fatihah-card.svg",
+      "alt": "সূরা আল-ফাতিহার সাতটি লাইনসহ একটি কার্ড, প্রতিটিতে আরবি, উচ্চারণ-লিপি আর অর্থের অনুবাদ।",
+      "caption": "সূরা আল-ফাতিহা, এক এক লাইন করে।",
+      "credit": "চিত্র: Revert Guide।"
+    },
+    "stages": [
+      "সপ্তাহ 1: দিনে সূরা আল-ফাতিহার এক লাইন। শুনুন, বারবার বলুন, আর নিচের শব্দার্থ পড়ুন। এটুকুই কাজ।",
+      "সপ্তাহ 2 থেকে 4: যা জানেন তা দিয়ে নামাজ চালিয়ে যান, সূরা আল-ফাতিহা শেষ করুন, আর আল-ইখলাসের মতো একটি ছোট সূরা যোগ করুন।",
+      "এরপর যখন প্রস্তুত মনে হবে: আরবি বর্ণমালা শুরু করুন, বা স্থানীয় মসজিদে নতুনদের কুরআন পড়ার ক্লাস নিয়ে জিজ্ঞেস করুন।"
+    ],
+    "fatihahWords": [
+      {
+        "verse": 1,
+        "words": [
+          {
+            "arabic": "بِسْمِ",
+            "transliteration": "bismi",
+            "meaning": "নামে"
+          },
+          {
+            "arabic": "اللَّهِ",
+            "transliteration": "Allahi",
+            "meaning": "আল্লাহর"
+          },
+          {
+            "arabic": "الرَّحْمَٰنِ",
+            "transliteration": "ar-Rahmani",
+            "meaning": "পরম করুণাময়"
+          },
+          {
+            "arabic": "الرَّحِيمِ",
+            "transliteration": "ar-Rahim",
+            "meaning": "অসীম দয়ালু"
+          }
+        ]
+      },
+      {
+        "verse": 2,
+        "words": [
+          {
+            "arabic": "الْحَمْدُ",
+            "transliteration": "al-hamdu",
+            "meaning": "সব প্রশংসা"
+          },
+          {
+            "arabic": "لِلَّهِ",
+            "transliteration": "lillahi",
+            "meaning": "আল্লাহর জন্য"
+          },
+          {
+            "arabic": "رَبِّ",
+            "transliteration": "Rabbi",
+            "meaning": "রব"
+          },
+          {
+            "arabic": "الْعَالَمِينَ",
+            "transliteration": "al-'alamin",
+            "meaning": "সমস্ত জগতের"
+          }
+        ]
+      },
+      {
+        "verse": 3,
+        "words": [
+          {
+            "arabic": "الرَّحْمَٰنِ",
+            "transliteration": "ar-Rahmani",
+            "meaning": "পরম করুণাময়"
+          },
+          {
+            "arabic": "الرَّحِيمِ",
+            "transliteration": "ar-Rahim",
+            "meaning": "অসীম দয়ালু"
+          }
+        ]
+      },
+      {
+        "verse": 4,
+        "words": [
+          {
+            "arabic": "مَالِكِ",
+            "transliteration": "Maliki",
+            "meaning": "মালিক"
+          },
+          {
+            "arabic": "يَوْمِ",
+            "transliteration": "yawmi",
+            "meaning": "দিনের"
+          },
+          {
+            "arabic": "الدِّينِ",
+            "transliteration": "ad-din",
+            "meaning": "বিচারের"
+          }
+        ]
+      },
+      {
+        "verse": 5,
+        "words": [
+          {
+            "arabic": "إِيَّاكَ",
+            "transliteration": "iyyaka",
+            "meaning": "শুধু তোমারই"
+          },
+          {
+            "arabic": "نَعْبُدُ",
+            "transliteration": "na'budu",
+            "meaning": "আমরা ইবাদত করি"
+          },
+          {
+            "arabic": "وَإِيَّاكَ",
+            "transliteration": "wa iyyaka",
+            "meaning": "আর শুধু তোমারই কাছে"
+          },
+          {
+            "arabic": "نَسْتَعِينُ",
+            "transliteration": "nasta'in",
+            "meaning": "আমরা সাহায্য চাই"
+          }
+        ]
+      },
+      {
+        "verse": 6,
+        "words": [
+          {
+            "arabic": "اهْدِنَا",
+            "transliteration": "ihdina",
+            "meaning": "আমাদের পথ দেখাও"
+          },
+          {
+            "arabic": "الصِّرَاطَ",
+            "transliteration": "as-sirata",
+            "meaning": "পথে"
+          },
+          {
+            "arabic": "الْمُسْتَقِيمَ",
+            "transliteration": "al-mustaqim",
+            "meaning": "সরল"
+          }
+        ]
+      },
+      {
+        "verse": 7,
+        "words": [
+          {
+            "arabic": "صِرَاطَ",
+            "transliteration": "sirata",
+            "meaning": "পথ"
+          },
+          {
+            "arabic": "الَّذِينَ",
+            "transliteration": "alladhina",
+            "meaning": "তাদের"
+          },
+          {
+            "arabic": "أَنْعَمْتَ",
+            "transliteration": "an'amta",
+            "meaning": "তুমি অনুগ্রহ করেছ"
+          },
+          {
+            "arabic": "عَلَيْهِمْ",
+            "transliteration": "'alayhim",
+            "meaning": "যাদের ওপর"
+          },
+          {
+            "arabic": "غَيْرِ",
+            "transliteration": "ghayri",
+            "meaning": "নয়"
+          },
+          {
+            "arabic": "الْمَغْضُوبِ",
+            "transliteration": "al-maghdubi",
+            "meaning": "যারা ক্রোধের পাত্র হয়েছে"
+          },
+          {
+            "arabic": "عَلَيْهِمْ",
+            "transliteration": "'alayhim",
+            "meaning": "তাদের ওপর"
+          },
+          {
+            "arabic": "وَلَا",
+            "transliteration": "wa la",
+            "meaning": "আর না"
+          },
+          {
+            "arabic": "الضَّالِّينَ",
+            "transliteration": "ad-dallin",
+            "meaning": "যারা পথভ্রষ্ট হয়েছে"
+          }
+        ]
+      }
+    ],
+    "fatihahSourceIds": ["quran-al-fatihah-1", "quranic-arabic-corpus-fatihah"],
+    "links": [
+      {
+        "label": "Quran.com-এ সূরা আল-ফাতিহা শুনুন",
+        "body": "প্রতিটি আয়াত শুনতে Quran.com পাতায় প্লে চাপুন। শুরু করার জন্য মিশারি আল-আফাসি একজন স্পষ্ট কারি।",
+        "href": "https://quran.com/1",
+        "sourceIds": ["quran-al-fatihah-1", "quran-reciter-mishary"]
+      },
+      {
+        "label": "Seven Days, Seven Verses (Quran.com, সাত দিনে সাত আয়াত)",
+        "body": "দিনে সূরা আল-ফাতিহার একটি আয়াত, প্রতিটি 10 মিনিটেরও কম, শব্দগুলো ভেঙে বোঝানো। বিনামূল্যে, আর অ্যাকাউন্ট ছাড়াই পড়া যায়।",
+        "href": "https://quran.com/learning-plans/seven-days-seven-verses-living-the-message-of-al-fatihah",
+        "sourceIds": ["quran-com-seven-days-seven-verses"]
+      },
+      {
+        "label": "Islamwise-এর বাক্যে বাক্যে সিরিজ",
+        "body": "নামাজের প্রতিটি বাক্য নিয়ে YouTube-এ ছোট পাঠ। 11 থেকে 18 নম্বর পর্বে আয়াতে আয়াতে সূরা আল-ফাতিহা আছে।",
+        "href": "https://www.youtube.com/playlist?list=PLW9v5fexkmD_8i507k8oL2x9n0vJeP1BT",
+        "sourceIds": ["video-islamwise-prayer-series"]
+      },
+      {
+        "label": "আরবি বর্ণমালা: Madinah Arabic পড়ার কোর্স",
+        "body": "বিনামূল্যের পাঠগুলোর জন্য কোনো খরচ নেই, অ্যাকাউন্টও লাগে না। সাইটটি টাকা দিয়ে একান্ত পাঠও বিক্রি করে, আর কোর্সের লেখকের নাম দেওয়া নেই।",
+        "href": "https://madinaharabic.com/free-content",
+        "sourceIds": ["madinah-arabic-free-content"]
+      }
+    ],
+    "fatihahVideo": {
+      "videoId": "Rdhcd8452-I",
+      "title": "আলহামদু লিল্লাহি রাব্বিল আলামিন, বাক্যে বাক্যে",
+      "channel": "Islamwise",
+      "duration": "2:27",
+      "sourceIds": ["video-islamwise-fatihah-alhamdu"]
+    },
+    "alphabetVideo": {
+      "videoId": "c-7SVieC_04",
+      "title": "আরবি পড়া, পাঠ 1: প্রথম অক্ষরগুলো",
+      "channel": "Arabic 101",
+      "duration": "13:57",
+      "note": "Arabic 101 লাইভ ক্লাসও বিক্রি করে। এই প্রথম পাঠটি বিনামূল্যে দেখা যায়।",
+      "sourceIds": ["video-arabic101-alphabet-lesson-1"]
+    }
+  }
+}
