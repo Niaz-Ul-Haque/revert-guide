@@ -24,6 +24,14 @@ export interface GuideLink {
   href: string;
 }
 
+export type LifeGuideGroup =
+  | "starting-out"
+  | "family-and-relationships"
+  | "everyday-life"
+  | "community-and-safety"
+  | "life-events"
+  | "mentoring";
+
 export interface LifeGuide {
   id: string;
   slug: string;
@@ -38,6 +46,9 @@ export interface LifeGuide {
   relatedLinks: GuideLink[];
   reviewStatus: "source-checked" | "review-needed";
   videos?: VideoRef[];
+  /** Section of the /guides index; guides without one show under
+   *  "everyday-life". */
+  group?: LifeGuideGroup;
 }
 
 type LifeGuideTranslation = Partial<Omit<LifeGuide, "id" | "slug">> &
@@ -110,6 +121,7 @@ function mergeLifeGuide(
     slug: guide.slug,
     sourceIds: guide.sourceIds,
     reviewStatus: guide.reviewStatus,
+    group: guide.group,
     sections: translation.sections ?? guide.sections,
     scripts: translation.scripts ?? guide.scripts,
     scenarios: translation.scenarios ?? guide.scenarios,

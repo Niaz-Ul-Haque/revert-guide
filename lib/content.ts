@@ -299,7 +299,20 @@ export interface SourceCategoryContent {
 export function getSourceCategoryContent(
   locale: Locale = DEFAULT_LOCALE,
 ): SourceCategoryContent {
-  return readJsonFile<SourceCategoryContent>(locale, "source-categories.json");
+  const content = readJsonFile<SourceCategoryContent>(
+    locale,
+    "source-categories.json",
+  );
+  if (locale === DEFAULT_LOCALE) return content;
+
+  // A category added in English still gets its section before it is
+  // translated, so no source drops off the Sources page.
+  const english = readJsonFile<SourceCategoryContent>(
+    DEFAULT_LOCALE,
+    "source-categories.json",
+  );
+  const groups = mergeLocalizedCollectionById(english.groups, content.groups);
+  return { ...content, groups };
 }
 
 export interface ResourceCollection {

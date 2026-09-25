@@ -58,6 +58,9 @@ export interface Step {
   sourceIds?: string[];
   reviewStatus?: ContentReviewStatus;
   videos?: VideoRef[];
+  /** Guides, tools, seasonal guides or help pages shown as "Where to go
+   *  next". Internal routes, localised on render. */
+  relatedLinks?: { label: string; href: string }[];
 }
 
 /* Topics */
@@ -200,7 +203,8 @@ export type SourceCategory =
   | "tools-data"
   | "masjid-community"
   | "zakat-financial-education"
-  | "resource-publisher";
+  | "resource-publisher"
+  | "public-health";
 
 export interface SourceEntry {
   id: string;
