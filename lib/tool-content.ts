@@ -71,8 +71,36 @@ export interface DuaSection {
   entries: DuaEntry[];
 }
 
+export interface PhraseEntry {
+  phrase: string;
+  arabic?: string;
+  meaning: string;
+  when: string;
+  reply?: string;
+  // "text" when the reply wording comes from the Quran or a hadith,
+  // "custom" when it is common courtesy.
+  replySource?: "text" | "custom";
+  note?: string;
+  sourceIds: string[];
+}
+
+export interface EverydayPhrases {
+  id: string;
+  title: string;
+  intro: string;
+  tips: string[];
+  entries: PhraseEntry[];
+  otherWords: {
+    title: string;
+    intro: string;
+    items: { word: string; meaning: string }[];
+  };
+}
+
 export interface DuaDhikrContent {
   sections: DuaSection[];
+  // Optional so locale files written before this section still load.
+  phrases?: EverydayPhrases;
 }
 
 export function getDuaDhikrContent(

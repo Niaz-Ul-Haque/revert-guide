@@ -197,5 +197,210 @@
         }
       ]
     }
-  ]
+  ],
+  "phrases": {
+    "id": "everyday-phrases",
+    "title": "Everyday phrases: what they mean and how to reply",
+    "intro": "Muslims around you will use these short Arabic phrases in ordinary conversation. Each card gives the meaning, when people say it, and the reply if there is one. Where the reply is common courtesy rather than wording from a hadith, the card says so.",
+    "tips": [
+      "Learn three this week: the greeting and its reply, Bismillah, and Jazak Allahu khayran.",
+      "Add the sneeze reply and inna lillahi next. They come with a set reply or a sensitive moment.",
+      "If you forget the Arabic, say the meaning in English. It is still a kind and right thing to say.",
+      "Print this page or keep it open on your phone until the phrases come naturally."
+    ],
+    "entries": [
+      {
+        "phrase": "As-salamu alaykum",
+        "arabic": "السَّلَامُ عَلَيْكُمْ",
+        "meaning": "Peace be upon you.",
+        "when": "When you meet a Muslim, arrive at the masjid, enter a home or start a phone call.",
+        "reply": "Wa alaykum as-salam (and upon you be peace). You can add wa rahmatullahi wa barakatuh (and the mercy of Allah and His blessings).",
+        "replySource": "text",
+        "note": "The Quran asks you to answer a greeting with a better one or at least the same. A hadith in Abu Dawud gives more reward for each fuller form.",
+        "sourceIds": ["quran-4-86", "sunnah-abudawud-5195"]
+      },
+      {
+        "phrase": "Bismillah",
+        "arabic": "بِسْمِ اللَّهِ",
+        "meaning": "In the name of Allah.",
+        "when": "Before eating, before wudu, and before starting a task.",
+        "note": "The Prophet told a boy at his table to mention Allah's name before eating. If you forget at the start, say it when you remember.",
+        "sourceIds": ["sunnah-bukhari-5376"]
+      },
+      {
+        "phrase": "In sha Allah",
+        "arabic": "إِنْ شَاءَ اللَّهُ",
+        "meaning": "If Allah wills.",
+        "when": "When you speak about something you plan to do: \"See you tomorrow, in sha Allah.\"",
+        "note": "The Quran teaches it for plans. It is recommended, not required, and if you forget you can say it when you remember. Some people use it as a soft \"maybe\". That is a habit, not its meaning, so say it when you really intend to do the thing.",
+        "sourceIds": [
+          "quran-18-23-24",
+          "seekersguidance-etiquette-in-sha-allah"
+        ]
+      },
+      {
+        "phrase": "Ma sha Allah",
+        "arabic": "مَا شَاءَ اللَّهُ",
+        "meaning": "This is what Allah has willed.",
+        "when": "When you see or hear something good: a new baby, a new home, someone's progress.",
+        "note": "The words come from Quran 18:39, which goes on: la quwwata illa billah (there is no power except with Allah). For bad news, use inna lillahi instead.",
+        "sourceIds": ["quran-18-39"]
+      },
+      {
+        "phrase": "Alhamdulillah",
+        "arabic": "الْحَمْدُ لِلَّهِ",
+        "meaning": "All praise belongs to Allah.",
+        "when": "To give thanks, to answer \"How are you?\", and after you sneeze.",
+        "sourceIds": ["sunnah-muslim-after-prayer-dhikr", "sunnah-bukhari-6224"]
+      },
+      {
+        "phrase": "SubhanAllah",
+        "arabic": "سُبْحَانَ اللَّهِ",
+        "meaning": "Glory be to Allah.",
+        "when": "As remembrance at any time, including after prayer. Many people also say it when something amazes them.",
+        "sourceIds": ["sunnah-muslim-after-prayer-dhikr"]
+      },
+      {
+        "phrase": "Astaghfirullah",
+        "arabic": "أَسْتَغْفِرُ اللَّهَ",
+        "meaning": "I ask Allah's forgiveness.",
+        "when": "After a slip, when you realise you did something wrong, or as daily remembrance.",
+        "note": "The Prophet asked for forgiveness more than seventy times a day, so saying it is a normal habit, not an admission of something terrible.",
+        "sourceIds": ["sunnah-bukhari-6307"]
+      },
+      {
+        "phrase": "Jazak Allahu khayran",
+        "arabic": "جَزَاكَ اللَّهُ خَيْرًا",
+        "meaning": "May Allah reward you with good.",
+        "when": "To thank someone who has helped you or done you a favour.",
+        "reply": "Wa iyyak or wa iyyakum (and you too), or wa antum fa jazakumullahu khayran (and may Allah reward you too).",
+        "replySource": "custom",
+        "note": "A hadith in at-Tirmidhi calls these words the fullest way to thank someone. It is graded hasan.",
+        "sourceIds": ["sunnah-tirmidhi-2035"]
+      },
+      {
+        "phrase": "Barak Allahu fik",
+        "arabic": "بَارَكَ اللَّهُ فِيكَ",
+        "meaning": "May Allah bless you.",
+        "when": "To thank or encourage someone.",
+        "reply": "Wa fik (and you).",
+        "replySource": "custom",
+        "note": "The words are close to the blessing the Prophet gave at weddings (see the wedding card below). The short reply is common courtesy.",
+        "sourceIds": ["sunnah-abudawud-2130"]
+      },
+      {
+        "phrase": "Yarhamuk Allah (after a sneeze)",
+        "arabic": "يَرْحَمُكَ اللَّهُ",
+        "meaning": "May Allah have mercy on you.",
+        "when": "When someone near you sneezes and says Alhamdulillah.",
+        "reply": "The person who sneezed answers: Yahdikumullah wa yuslihu balakum (may Allah guide you and set your affairs right).",
+        "replySource": "text",
+        "note": "All three lines come from one hadith in Sahih al-Bukhari.",
+        "sourceIds": ["sunnah-bukhari-6224"]
+      },
+      {
+        "phrase": "Ameen",
+        "arabic": "آمِين",
+        "meaning": "O Allah, answer.",
+        "when": "After someone makes a dua, and in congregational prayer when the imam finishes Al-Fatihah and says Ameen.",
+        "note": "Two hadith in Sahih al-Bukhari and Sahih Muslim tell people praying behind the imam to say Ameen when he says it. If you have questions about saying it in your own prayer, ask a teacher.",
+        "sourceIds": ["sunnah-bukhari-780", "sunnah-muslim-410a"]
+      },
+      {
+        "phrase": "Inna lillahi wa inna ilayhi raji'un",
+        "arabic": "إِنَّا لِلَّهِ وَإِنَّا إِلَيْهِ رَاجِعُونَ",
+        "meaning": "Surely to Allah we belong and to Him we will return.",
+        "when": "When you hear of a death or any loss, large or small.",
+        "note": "The words are from Quran 2:156. A hadith in Sahih Muslim adds a short dua: Allahumma'jurni fi musibati wa akhlif li khayran minha (O Allah, reward me for my loss and give me something better).",
+        "sourceIds": ["quran-2-156", "sunnah-muslim-918a"]
+      },
+      {
+        "phrase": "Inna lillahi ma akhadha (comforting someone who is grieving)",
+        "arabic": "إِنَّ لِلَّهِ مَا أَخَذَ وَلَهُ مَا أَعْطَى",
+        "meaning": "What Allah takes is His, and what He gives is His. Everything with Him has its set time.",
+        "when": "To comfort someone after a death.",
+        "note": "The Prophet sent these words to his daughter when her child was dying, with the advice to be patient and hope for reward. He wept himself, and called his tears mercy. Saying \"I am so sorry\" and sitting with the family is also right.",
+        "sourceIds": ["sunnah-bukhari-1284"]
+      },
+      {
+        "phrase": "La ba's, tahurun in sha Allah (visiting someone who is ill)",
+        "arabic": "لَا بَأْسَ طَهُورٌ إِنْ شَاءَ اللَّهُ",
+        "meaning": "No harm, it is a purification, if Allah wills. This is a literal rendering; Sunnah.com's translation reads \"No harm will befall you! May Allah cure you!\"",
+        "when": "When you visit someone who is sick.",
+        "sourceIds": ["sunnah-bukhari-3616"]
+      },
+      {
+        "phrase": "Astawdi'ullaha dinaka (saying goodbye to a traveller)",
+        "arabic": "أَسْتَوْدِعُ اللَّهَ دِينَكَ وَأَمَانَتَكَ وَخَوَاتِيمَ عَمَلِكَ",
+        "meaning": "I entrust to Allah your religion, what you are trusted with, and the last of your deeds.",
+        "when": "When someone is setting off on a journey.",
+        "note": "The full phrase is Astawdi'ullaha dinaka wa amanataka wa khawatima 'amalik. A hadith in at-Tirmidhi, graded hasan, reports the Prophet saying it.",
+        "sourceIds": ["sunnah-tirmidhi-3443"]
+      },
+      {
+        "phrase": "Barak Allahu laka wa baraka 'alayka (at a wedding)",
+        "arabic": "بَارَكَ اللَّهُ لَكَ وَبَارَكَ عَلَيْكَ وَجَمَعَ بَيْنَكُمَا فِي خَيْرٍ",
+        "meaning": "May Allah bless you, send blessings on you, and bring the two of you together in goodness.",
+        "when": "To congratulate someone who has just married.",
+        "note": "The full phrase ends wa jama'a baynakuma fi khayr. It is the Prophet's own congratulation, in a hadith in Abu Dawud graded sahih.",
+        "sourceIds": ["sunnah-abudawud-2130"]
+      },
+      {
+        "phrase": "Eid mubarak, or Taqabbal Allahu minna wa minkum",
+        "arabic": "تَقَبَّلَ اللَّهُ مِنَّا وَمِنْكُمْ",
+        "meaning": "Blessed Eid. May Allah accept from us and from you.",
+        "when": "On the days of Eid.",
+        "reply": "The same words back, or Eid mubarak.",
+        "replySource": "custom",
+        "note": "The Companions greeted each other on Eid with \"May Allah accept from us and from you\", and any good greeting, including Eid mubarak, is fine. People also say taqabbal Allah (may Allah accept) after someone prays, fasts or gives charity, as a kind wish.",
+        "sourceIds": ["islamqa-36442-eid-etiquette"]
+      },
+      {
+        "phrase": "Sallallahu 'alayhi wa sallam",
+        "arabic": "صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ",
+        "meaning": "May Allah send blessings and peace on him. In English, \"peace be upon him\".",
+        "when": "When you say, hear or read the name of the Prophet Muhammad.",
+        "note": "The Quran tells believers to send blessings and peace on the Prophet. Saying it quietly to yourself is enough. The questions and answers page explains the short forms such as SAW and PBUH.",
+        "sourceIds": ["quran-33-56", "sunnah-tirmidhi-3546"]
+      }
+    ],
+    "otherWords": {
+      "title": "Words you may hear from other languages",
+      "intro": "Many Muslims in Canada grew up speaking Urdu, Bengali, Persian, Turkish or Arabic at home, and a few everyday words carry over. They are not religious terms, and nobody expects you to use them.",
+      "items": [
+        {
+          "word": "Namaz",
+          "meaning": "the prayer (salah), in Persian, Urdu, Turkish and Bengali"
+        },
+        {
+          "word": "Roza",
+          "meaning": "a fast (sawm), in Persian and Urdu"
+        },
+        {
+          "word": "Abbu or abi",
+          "meaning": "dad"
+        },
+        {
+          "word": "Ammi",
+          "meaning": "mum, in Urdu and other South Asian languages"
+        },
+        {
+          "word": "Akhi",
+          "meaning": "my brother, in Arabic, a friendly word between men"
+        },
+        {
+          "word": "Ukhti",
+          "meaning": "my sister, in Arabic, a friendly word between women"
+        },
+        {
+          "word": "Habibi",
+          "meaning": "my dear, in Arabic (habibti for a woman), everyday affection"
+        },
+        {
+          "word": "Bhai",
+          "meaning": "brother, in Urdu, Hindi and Bengali, often added after a name"
+        }
+      ]
+    }
+  }
 }

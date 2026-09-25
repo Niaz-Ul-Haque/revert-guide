@@ -5,7 +5,11 @@ import { AnimateIn } from "@/components/AnimateIn";
 import { PrintButton } from "@/components/PrintButton";
 import { SourceTags, SourcesPanel } from "@/components/SourceTags";
 import { getSourcesByIds } from "@/lib/content";
-import { getDuaDhikrContent, type DuaEntry } from "@/lib/tool-content";
+import {
+  getDuaDhikrContent,
+  type DuaEntry,
+  type PhraseEntry,
+} from "@/lib/tool-content";
 import { localizeHref, type Locale } from "@/lib/i18n";
 import { getTranslator } from "@/lib/messages";
 import { buildPageMetadata } from "@/lib/metadata";
@@ -34,6 +38,11 @@ interface DuaDhikrCopy {
   prayerTopicButton: string;
   mentalHealthButton: string;
   questionsButton: string;
+  phrasesButton: string;
+  whenLabel: string;
+  replyLabel: string;
+  replyTextTag: string;
+  replyCustomTag: string;
 }
 
 const pageSourceIds = [
@@ -144,6 +153,70 @@ function EntryCard({
   );
 }
 
+function PhraseCard({
+  entry,
+  locale,
+  copy,
+}: {
+  entry: PhraseEntry;
+  locale: Locale;
+  copy: DuaDhikrCopy;
+}) {
+  const sources = getSourcesByIds(entry.sourceIds, locale);
+
+  return (
+    <article className="page-break-avoid flex flex-col rounded-2xl border border-border/60 bg-white p-5 shadow-card">
+      <h3 className="mb-2 mt-0 text-lg font-semibold text-textPrimary">
+        {entry.phrase}
+      </h3>
+      {entry.arabic && (
+        <p
+          className="mb-3 text-right font-arabic text-2xl leading-loose text-textPrimary"
+          lang="ar"
+          dir="rtl"
+        >
+          {entry.arabic}
+        </p>
+      )}
+      <p className="mb-1 text-xs font-semibold uppercase tracking-wider text-textMuted">
+        {copy.meaningLabel}
+      </p>
+      <p className="mb-3 text-sm leading-relaxed text-textSecondary">
+        {entry.meaning}
+      </p>
+      <p className="mb-1 text-xs font-semibold uppercase tracking-wider text-textMuted">
+        {copy.whenLabel}
+      </p>
+      <p className="mb-3 text-sm leading-relaxed text-textSecondary">
+        {entry.when}
+      </p>
+      {entry.reply && (
+        <>
+          <p className="mb-1 flex flex-wrap items-center gap-2 text-xs font-semibold uppercase tracking-wider text-textMuted">
+            {copy.replyLabel}
+            {entry.replySource && (
+              <span className="rounded-full bg-surfaceElevated px-2 py-0.5 text-[11px] font-medium normal-case tracking-normal text-textSecondary">
+                {entry.replySource === "custom"
+                  ? copy.replyCustomTag
+                  : copy.replyTextTag}
+              </span>
+            )}
+          </p>
+          <p className="mb-3 text-sm leading-relaxed text-textSecondary">
+            {entry.reply}
+          </p>
+        </>
+      )}
+      {entry.note && (
+        <p className="mb-3 text-sm leading-relaxed text-textSecondary">
+          {entry.note}
+        </p>
+      )}
+      <SourceTags sources={sources} compact className="mt-auto" />
+    </article>
+  );
+}
+
 export default function DuaDhikrPage({
   params,
 }: {
@@ -152,7 +225,7 @@ export default function DuaDhikrPage({
   const locale = params.locale;
   const t = getTranslator(locale);
   const copy = t<DuaDhikrCopy>("pages.duaDhikr");
-  const { sections } = getDuaDhikrContent(locale);
+  const { sections, phrases } = getDuaDhikrContent(locale);
   const pageSources = getSourcesByIds(pageSourceIds, locale);
   const totalEntries = sections.reduce(
     (count, section) => count + section.entries.length,
@@ -204,6 +277,12 @@ export default function DuaDhikrPage({
               {copy.salahCompanionButton}
               <Icon name="chevron-right" size="sm" />
             </Button>
+            {phrases && (
+              <Button href={`#${phrases.id}`} variant="outline">
+                {copy.phrasesButton}
+                <Icon name="chevron-right" size="sm" />
+              </Button>
+            )}
           </div>
         </header>
       </AnimateIn>
@@ -281,6 +360,69 @@ export default function DuaDhikrPage({
           </section>
         </AnimateIn>
       ))}
+
+      {phrases && (
+        <section
+          id={phrases.id}
+          className="mb-12 scroll-mt-24"
+          aria-labelledby={`${phrases.id}-heading`}
+        >
+          <div className="mb-5 max-w-3xl">
+            <h2
+              id={`${phrases.id}-heading`}
+              className="mb-2 font-display text-2xl font-semibold tracking-tight text-textPrimary"
+            >
+              {phrases.title}
+            </h2>
+            <p className="mb-4 text-sm leading-relaxed text-textSecondary">
+              {phrases.intro}
+            </p>
+            <ul className="mb-0 flex flex-col gap-2 pl-0">
+              {phrases.tips.map((tip) => (
+                <li
+                  key={tip}
+                  className="flex items-start gap-2.5 text-sm leading-relaxed text-textSecondary"
+                >
+                  <Icon
+                    name="check"
+                    size="sm"
+                    className="mt-0.5 shrink-0 text-primary"
+                  />
+                  <span>{tip}</span>
+                </li>
+              ))}
+            </ul>
+          </div>
+          <div className="grid gap-5 md:grid-cols-2">
+            {phrases.entries.map((entry) => (
+              <PhraseCard
+                key={entry.phrase}
+                entry={entry}
+                locale={locale}
+                copy={copy}
+              />
+            ))}
+          </div>
+          <div className="page-break-avoid mt-6 rounded-2xl border border-border/60 bg-surfaceElevated/50 p-5">
+            <h3 className="mb-2 mt-0 text-base font-semibold text-textPrimary">
+              {phrases.otherWords.title}
+            </h3>
+            <p className="mb-3 text-sm leading-relaxed text-textSecondary">
+              {phrases.otherWords.intro}
+            </p>
+            <dl className="mb-0 grid gap-x-6 gap-y-2 sm:grid-cols-2">
+              {phrases.otherWords.items.map((item) => (
+                <div key={item.word} className="text-sm">
+                  <dt className="inline font-semibold text-textPrimary">
+                    {item.word}:
+                  </dt>{" "}
+                  <dd className="inline text-textSecondary">{item.meaning}</dd>
+                </div>
+              ))}
+            </dl>
+          </div>
+        </section>
+      )}
 
       <AnimateIn>
         <section
