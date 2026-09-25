@@ -38,14 +38,15 @@
     "terms": "Mga tuntunin sa paggamit",
     "sources": "Mga sanggunian",
     "ramadan": "Gabay sa Ramadan",
+    "seasonal": "Mga gabay sa bawat panahon (Ramadan, Eid, Hajj)",
     "mentalHealth": "Kalusugan ng isip",
     "tools": "Mga tool",
     "prayerTimes": "Oras ng pagdarasal",
-    "qibla": "Paghahanap ng direksyon ng Qibla",
+    "qibla": "Direksyon ng pagdarasal (qibla)",
     "wuduGhusl": "Paghuhugas bago magdasal (wudu at ghusl)",
     "salahCompanion": "Matutong magdasal (salah)",
     "quranStarter": "Panimula sa Quran",
-    "duaDhikr": "Dua at dhikr",
+    "duaDhikr": "Panalangin at pag-alaala (dua at dhikr)",
     "asmaAlHusna": "99 na pangalan ng Allah",
     "help": "Tulong",
     "getHelp": "Humingi ng tulong",
@@ -95,7 +96,16 @@
     "sourceLabel": "Sanggunian:",
     "bestForLabel": "Pinakaangkop para sa:",
     "loadingPage": "Naglo-load…",
-    "sourcesUsed": "Mga sangguniang ginamit"
+    "sourcesUsed": "Mga sangguniang ginamit",
+    "emailPending": "Inihahanda pa ang email address na ito at hindi pa ito gumagana.",
+    "linkPending": "Inihahanda pa ang link na ito at hindi pa ito gumagana.",
+    "reviewBadge": "Naghihintay ng pagsusuri ng iskolar",
+    "comingUp": {
+      "title": "Paparating",
+      "now": "Ngayon: {name}. Inaasahang tatakbo mula mga {start} hanggang {end}.",
+      "soon": "Susunod: {name}. Inaasahang magsisimula bandang {start}.",
+      "link": "Basahin ang gabay para sa panahong ito ng taon"
+    }
   },
   "search": {
     "placeholder": "Maghanap sa mga gabay, glosaryo, paksa, mapagkukunan...",
@@ -114,7 +124,8 @@
       "topics": "Mga paksa",
       "glossary": "Glosaryo",
       "resources": "Mga mapagkukunan",
-      "faq": "Mga tanong"
+      "faq": "Mga tanong",
+      "pages": "Mga gabay at tool"
     },
     "seeAll": "Tingnan ang lahat ng {count} resulta",
     "tips": {
@@ -225,7 +236,7 @@
       "description": "Ang limang oras ng pagdarasal ngayong araw para sa anumang lungsod o address sa Canada, gamit ang paraan ng ISNA, sa lokal na oras. Kumpirmahin sa masjid."
     },
     "qibla": {
-      "title": "Paghahanap ng Qibla - Revert Guide",
+      "title": "Direksyon ng pagdarasal (qibla) - Revert Guide",
       "description": "Hanapin ang direksyon ng Kaaba sa Makkah para sa pagdarasal gamit ang lokasyon mo o ang coordinates na ita-type mo. Gamitin ang compass ng telepono mo."
     },
     "asmaAlHusna": {
@@ -260,7 +271,33 @@
         "openGuide": "Buksan ang gabay",
         "noteTitle": "Gamitin ang mga ito bilang panimula",
         "noteBody": "Pangkalahatang edukasyon ang mga gabay na ito. Para sa personal na hatol, alalahanin sa kaligtasan, anumang legal, kasal, presyon ng pamilya o kalusugan ng isip, magtanong sa isang kwalipikadong imam, iskolar, clinician o propesyonal sa inyong lugar.",
-        "roadmapButton": "Bumalik sa roadmap"
+        "roadmapButton": "Bumalik sa roadmap",
+        "groups": {
+          "starting-out": {
+            "title": "Pagsisimula",
+            "intro": "Para sa mga unang linggo: ang una mong pagbisita sa masjid, kung sino ka na ngayon, at paano humingi ng tulong."
+          },
+          "family-and-relationships": {
+            "title": "Pamilya at mga relasyon",
+            "intro": "Pagsasabi sa mga mahal mo, mga okasyon ng pamilya, at ang mga batayan ng relasyon at kasal."
+          },
+          "everyday-life": {
+            "title": "Pang-araw-araw na buhay",
+            "intro": "Trabaho, paaralan, pagkain at pananamit: ang mga karaniwang araw kung saan nagtatagpo ang pananampalataya mo at ang iba pang bahagi ng buhay."
+          },
+          "community-and-safety": {
+            "title": "Komunidad at kaligtasan",
+            "intro": "Paghahanap ng mga taong mabuti para sa iyo, pagbawas ng pakiramdam na nag-iisa, at pagpansin kapag may mali."
+          },
+          "life-events": {
+            "title": "Malalaking pangyayari sa buhay",
+            "intro": "Ang malalaking sandaling hindi kayang saklawin ng roadmap dahil dumarating ang mga ito sa sarili nilang oras: kasal, mga anak, sakit, kamatayan at mga habilin (will)."
+          },
+          "mentoring": {
+            "title": "Mentoring",
+            "intro": "Paano gumagana ang mentoring sa site na ito, at isang gabay para sa mga nagme-mentor ng bagong Muslim."
+          }
+        }
       },
       "detail": {
         "notFoundTitle": "Hindi makita ang gabay",
@@ -339,6 +376,10 @@
         {
           "title": "May partikular kang hinahanap?",
           "body": "Basahin nang hiwalay ang tungkol sa pagdarasal, pag-aayuno, paniniwala o komunidad. Nariyan ang glosaryo tuwing may bagong salita."
+        },
+        {
+          "title": "Pinag-iisipan mo ba ang Islam?",
+          "body": "Hindi ka pa Muslim? Magbasa ayon sa sarili mong bilis, nang walang pressure at walang deadline, at humanap ng makakausap kapag gusto mo na."
         }
       ],
       "intro": "Libreng kasama ang Revert Guide, hakbang-hakbang, para sa sinumang kayayakap lang sa Islam. Nag-aaral ka pa man magdasal o naghahanda para sa una mong Ramadan, nagsisimula ito kung nasaan ka talaga. Praktikal na hakbang ang laman nito, walang sermon at walang panghuhusga.",
@@ -365,12 +406,18 @@
       "quickLinkFaq": {
         "title": "Mga tanong at sagot",
         "body": "Maiikling sagot sa mga tanong ng bagong Muslim"
+      },
+      "quickLinkSeasonal": {
+        "title": "Mga gabay sa bawat panahon (Ramadan, Eid, Hajj)",
+        "body": "Ano ang gagawin pagdating ng Eid, ng panahon ng Hajj o ng oras ng zakat"
       }
     },
     "about": {
       "title": "Tungkol sa Revert Guide",
       "missionTitle": "Ang aming misyon",
       "mission": "Tinutulungan ng Revert Guide ang mga tao sa unang taon nila bilang Muslim. Maraming tanong sa unang taong iyon, at karamihan ay karaniwang tanong na ayaw ng sinumang mapahiya sa pagtatanong. Kaya narito ang mga sagot sa iisang lugar, gumagana offline, at libre.",
+      "nameTitle": "Bakit Revert Guide ang pangalan",
+      "nameBody": "Dalawang salita ang ginagamit ng mga Muslim para sa taong naging Muslim: revert at convert. Galing ang \"revert\" sa turo na bawat bata ay ipinapanganak sa fitrah, isang likas na hilig na kilalanin ang Diyos (Sahih al-Bukhari 1385, at Quran 30:30), kaya itinuturing ang pagyakap sa Islam na isang pagbabalik dito. Mas gusto ng ilang Muslim na yumakap sa Islam bilang adulto ang \"convert\", dahil pinangangalanan nito ang pinili nilang desisyon. Ang unang salita ang kinuha namin para sa pangalan, at pareho naming ginagamit ang dalawa sa site. Tawagin mo ang sarili mo sa alinmang sa tingin mo ay tama para sa iyo.",
       "approachTitle": "Ang aming paraan",
       "approachItems": [
         {
@@ -701,6 +748,8 @@
       "focusNow": "Pagtuunan ngayon",
       "canWait": "Ano ang puwedeng maghintay",
       "askHelpIf": "Humingi ng tulong kung",
+      "askHelpLink": "Humingi ng tulong sa isang tao",
+      "safetyLink": "Kung may pakiramdam kang hindi ligtas: mga babalang senyales at pananatiling ligtas",
       "goodNextQuestions": "Magagandang susunod na tanong"
     },
     "step": {
@@ -719,7 +768,10 @@
       "watchTitle": "Manood at matuto",
       "commonQuestions": "Mga karaniwang tanong",
       "workSchoolFamily": "Para sa trabaho, paaralan o pamilya",
-      "gentleScripts": "Mga mahinahong masasabi"
+      "gentleScripts": "Mga mahinahong masasabi",
+      "whereToGoNext": "Saan susunod na pupunta",
+      "askHelpPrompt": "Naipit ka, o may pakiramdam kang hindi tama?",
+      "askHelpLink": "Humingi ng tulong sa isang tao"
     },
     "topics": {
       "description": "Mga gabay na tig-iisang paksa, buo ang bawat isa. Magsimula sa kung alin ang kailangan mo.",
@@ -766,13 +818,14 @@
       "subtitle": "Ang una mong Ramadan bilang Muslim.",
       "whatIsRamadan": {
         "title": "Ano ang Ramadan?",
-        "body": "Ang Ramadan ang ikasiyam na buwan ng kalendaryong Islamiko at ang buwan ng pag-aayuno ng mga Muslim. Mula madaling-araw hanggang paglubog ng araw, walang pagkain, walang inumin at walang pagtatalik. Ang pag-aayuno ang nakikitang bahagi, pero tungkol din ang buwan sa pagdarasal, pagbabasa ng Quran, pagbibigay, at mas maingat na pagtingin sa pakikitungo mo sa kapwa. Sa Ramadan dumating ang unang pahayag ng Quran, at bahagi iyon ng dahilan kung bakit napakahalaga ng buwang ito."
+        "body": "Ang Ramadan ay ang ikasiyam na buwan ng kalendaryong Islamiko at ang buwan ng pag-aayuno ng mga Muslim. Mula madaling-araw hanggang paglubog ng araw, hindi ka kumakain, hindi umiinom, at walang pagtatalik. Ang pag-aayuno ang nakikitang bahagi, pero tungkol din ang buwan sa pagdarasal, pagbabasa ng Quran, pagbibigay, at mas maingat na pagtingin sa kung paano mo tinatrato ang kapwa. Sa Ramadan dumating ang unang pahayag ng Quran, at bahagi iyon ng dahilan kung bakit ganoon kabigat ang buwang ito."
       },
       "forNewMuslims": {
         "title": "Para sa mga bagong Muslim",
         "calloutTitle": "Hindi ka nag-iisa",
         "calloutBody": "Kung ito ang una mong Ramadan, normal lang na kabahan o hindi sigurado. May halaga ang anumang pag-aayunong kaya mo, at puwede kang magsimula roon. Maging mabait sa sarili mo. Kahit ang mga Muslim na nag-ayuno buong buhay nila ay nahihirapan pa rin sa ilang araw.",
-        "body": "Maghanap ng kasama sa pag-aayuno, mentor o grupo sa komunidad para hindi mo pagdaanan nang mag-isa ang buwan. Maraming masjid ang may programa para sa bagong Muslim tuwing Ramadan, at karamihan ng tao ay natutuwang matanong."
+        "body": "Maghanap ng kasama sa pag-aayuno, mentor o grupo sa komunidad para hindi mo pagdaanan nang mag-isa ang buwan. Maraming masjid ang may programa para sa bagong Muslim tuwing Ramadan, at karamihan ng tao ay natutuwang matanong.",
+        "convertedLinkLabel": "Naging Muslim sa gitna ng Ramadan? Ano ang dapat mong bayaran at ano ang hindi"
       },
       "fastingBasics": {
         "title": "Mga batayan ng pag-aayuno",
@@ -787,7 +840,7 @@
           },
           {
             "term": "Ano ang iiwasan",
-            "desc": "ang pagkain, inumin at pagtatalik mula madaling-araw hanggang paglubog ng araw. Kung nakakain o nakainom ka nang hindi sinasadya, buo pa rin ang ayuno mo. Huminto lang at magpatuloy."
+            "desc": "ay pagkain, inumin at pagtatalik mula madaling-araw hanggang paglubog ng araw. Sa mazhab na Hanafi, nakakasira rin ng ayuno ang paghalik o paghawak na nauuwi sa paglabas ng semilya, pero hindi ang halik na hindi na lumalampas doon: hinahalikan ng Propeta (sumakanya nawa ang kapayapaan) ang mga asawa niya habang nag-aayuno siya (Sahih al-Bukhari 1927). Kung nakakain o nakainom ka nang hindi sinasadya, buo pa rin ang ayuno mo. Tumigil ka lang at magpatuloy."
           },
           {
             "term": "Sino ang hindi obligado",
@@ -810,7 +863,8 @@
           "Magpasya nang maaga sa simpleng suhoor at iftar, bago ka pa mapagod at magutom.",
           "Sabihin sa employer o paaralan mo kung makakatulong ito. Makatwiran ang karamihan ng tao pagdating sa pagsasagawa ng relihiyon.",
           "Matutuhan ang dalawang maikling dua: ang intensyon sa pag-aayuno, at ang dua sa pagbubukas nito.",
-          "Pumili ng isa o dalawang layunin para sa buwan, gaya ng mas maraming pagbabasa ng Quran, regular na pagbibigay, o pag-aayos ng isang relasyon."
+          "Pumili ng isa o dalawang layunin para sa buwan, gaya ng mas maraming pagbabasa ng Quran, regular na pagbibigay, o pag-aayos ng isang relasyon.",
+          "Magtabi nang maaga ng kaunting pera para sa Eid, sa zakat al-fitr at sa mga regalo, para hindi mapunta sa credit card ang katapusan ng buwan."
         ]
       },
       "duringRamadan": {
@@ -833,7 +887,7 @@
         ]
       },
       "tarawihAndCommunity": {
-        "title": "Tarawih at komunidad",
+        "title": "Mga pagdarasal sa gabi at komunidad (tarawih)",
         "tarawihBodyBeforeIsha": "Ang Tarawih ay mga dagdag na pagdarasal sa gabi tuwing Ramadan, pagkatapos ng ",
         "tarawihBodyAfterIsha": " (Isha) sa masjid. Matagal ito, at ayos lang umalis sa kalagitnaan. Subukang dumalo kahit minsan, dahil kailangan mong maranasan mismo ang pakiramdam sa loob ng masjid tuwing Tarawih para maunawaan ito.",
         "iftarBody": "Madaling paraan ang mga salu-salong iftar sa masjid at community centre para magbukas ng ayuno kasama ang ibang tao. Kadalasan, mas marami ang pagkain kaysa inaasahan ng sinuman, at may taong lalapit para magpakilala. Para sa maraming balik-Islam, sa mga gabing ito nagsisimula ang mga unang tunay na pagkakaibigan.",
@@ -842,10 +896,10 @@
       },
       "laylatAlQadr": {
         "title": "Laylat al-Qadr (ang Gabi ng Kapangyarihan)",
-        "body": "Sa huling sampung gabi ng Ramadan, hinahanap ng mga Muslim ang Laylat al-Qadr, ang Gabi ng Kapangyarihan. Sinasabi ng Quran na mas mabuti ito kaysa isang libong buwan. Walang nakakaalam ng eksaktong petsa, kaya ayon sa tradisyon ay hinahanap ito sa mga gabing gansal sa sampung iyon: ika-21, ika-23, ika-25, ika-27 o ika-29. Marami ang mas nagdarasal, mas nagbabasa ng Quran at mas napupuyat sa panahong ito."
+        "body": "Sa huling sampung gabi ng Ramadan, hinahanap ng mga Muslim ang Laylat al-Qadr, ang Gabi ng Kapangyarihan. Sinasabi ng Quran na mas mabuti ito kaysa sa isang libong buwan. Walang nakakaalam ng eksaktong petsa, kaya nakaugalian itong hanapin sa mga gabing gansal sa sampung iyon: ang ika-21, ika-23, ika-25, ika-27 o ika-29. Maraming tao ang mas nagdarasal, mas nagbabasa ng Quran at mas nagpupuyat sa panahong ito. May ilan na namamalagi sa masjid para sa pagsamba sa huling sampung araw, na tinatawag na i'tikaf. Ginawa ito ng Propeta (sumakanya nawa ang kapayapaan) tuwing Ramadan hanggang sa pumanaw siya (Sahih al-Bukhari 2026). Boluntaryo ito. Karaniwang pinapa-register ka ng mga masjid na nagho-host nito at may sarili silang mga patakaran, kasama na para sa kababaihan at para sa mas maikling pananatili, kaya magtanong muna. Kung hindi ka makakapamalagi, magandang paraan para makilahok ang isang gabi ng dagdag na pagsamba."
       },
       "eidAlFitr": {
-        "title": "Eid al-Fitr",
+        "title": "Ang pagdiriwang pagkatapos ng Ramadan (Eid al-Fitr)",
         "body": "Ang Eid al-Fitr ang pagdiriwang sa pagtatapos ng Ramadan. Nagsisimula ito sa pagdarasal ng Eid sa umaga, karaniwang sa malaking pagtitipon sa masjid o sa bukas na lugar.",
         "items": [
           "Isuot ang pinakamaganda mong damit at batiin ang mga tao ng \"Eid Mubarak\", na ang ibig sabihin ay pinagpalang Eid.",
@@ -869,7 +923,7 @@
       "firstEidButton": "Gabay sa unang Eid",
       "zakatButton": "Gabay sa zakat para sa baguhan",
       "sourcesNote": "Nakasandig sa mga sanggunian sa Quran at hadith ang mga materyal tungkol sa pagsamba rito, at galing sa mga sanggunian sa edukasyon para sa baguhan ang praktikal na paliwanag. Magtanong sa isang kwalipikadong imam sa inyong lugar tungkol sa sakit, paglalakbay, regla, gamot, fidyah o mga nalampasang ayuno.",
-      "checklistAlt": "Ang una kong Ramadan, isang checklist na may mga kahong walang tsek. Bago mag-Ramadan: itanong sa masjid mo kung paano nila inaanunsyo ang simula; alamin ang mga batayan, walang pagkain, inumin o pagtatalik mula madaling-araw hanggang paglubog ng araw; alamin kung sino ang pinapahintulutang hindi mag-ayuno at magtanong tungkol sa sarili mong kaso. Araw-araw: kumain ng kahit kaunti sa suhoor bago mag-madaling-araw; buksan ang ayuno pagkalubog ng araw gamit ang tubig o datiles; pumili ng isang maliit na gawain ng pagsamba na kaya mong ipagpatuloy. Habang tumatagal: subukan ang taraweeh kahit minsan kung gusto mo, opsyonal ito; sabihin sa isang tao kung kumusta ka. Hindi nabubura ang Ramadan mo kapag may araw na nalampasan mo o nahirapan ka. Kaginhawahan ang nais ng Allah para sa iyo.",
+      "checklistAlt": "Ang una kong Ramadan, isang checklist na may mga blangkong kahon. Bago ang Ramadan: itanong sa masjid mo kung paano nila inaanunsyo ang simula; alamin ang mga batayan, walang pagkain, inumin o pagtatalik mula madaling-araw hanggang paglubog ng araw; alamin kung sino ang exempted at itanong ang tungkol sa sarili mong kaso. Bawat araw: kumain ng kahit ano sa suhoor bago mag-madaling-araw; mag-break ng ayuno agad pagkalubog ng araw gamit ang tubig o datiles; pumili ng isang maliit na gawain ng pagsamba na kaya mong panatilihin. Habang tumatagal: subukan ang taraweeh minsan kung gusto mo, opsyonal ito; kuwentuhan ang isang tao kung kumusta ka. Hindi nabubura ang Ramadan mo dahil sa isang araw na hindi mo naayunuhan o sa hirap na pinagdaanan mo. Kaginhawahan ang nais ng Allah para sa iyo.",
       "checklistCaption": "Isang checklist na puwedeng i-print para sa una mong Ramadan. Tsekan ang nakakatulong at iwan ang iba.",
       "sistersLinkLabel": "Para sa kababaihan: ano ang nagbabago kapag may regla ka"
     },
@@ -913,7 +967,66 @@
           {
             "title": "Mga pag-aalinlangan sa pananampalataya",
             "body": "Maaaring may pag-aalinlangan ka tungkol sa Islam, o pinagdududahan mo ang buong desisyon. Tumataas at bumababa ang pananampalataya, at kasama ng anumang seryosong pangako ang mga tanong.",
-            "help": "Sinasabi ng Islam na hanapin mo ang kaalaman. Kausapin ang isang mentor na may alam, magbasa ng mapagkakatiwalaang libro, o umupo sa isang study circle. Huwag kimkimin ang mga tanong. Kadalasan, mas tumitibay ang pananampalataya kapag tapat mong hinarap ang mga ito. Mag-dua para sa patnubay, at bigyan ang sarili mo ng panahon."
+            "help": "Sinasabi ng Islam na hanapin mo ang kaalaman. Kausapin ang isang mentor na may alam, magbasa ng mapagkakatiwalaang libro, o umupo sa isang study circle. Huwag kimkimin ang mga tanong. Kadalasan, mas tumitibay ang pananampalataya kapag tapat mong hinarap ang mga ito. Mag-dua para sa patnubay, at bigyan ang sarili mo ng panahon.",
+            "href": "/topics/questions-and-doubts",
+            "linkLabel": "Basahin: mga tanong at pag-aalinlangan"
+          },
+          {
+            "title": "Pagbabalik pagkatapos ng pagkawala",
+            "body": "Tumigil ka sa pagdarasal nang ilang panahon, o unti-unti kang lumayo, at ngayon ay sobrang hiya mo para bumalik.",
+            "help": "Magsimula sa susunod na pagdarasal at sa maikling pagsisisi gamit ang sarili mong mga salita. Wala kang utang na paliwanag sa kahit sino sa masjid.",
+            "href": "/guides/coming-back",
+            "linkLabel": "Basahin: pagbabalik pagkatapos ng pagkawala"
+          },
+          {
+            "title": "Alak at droga",
+            "body": "Mahirap iwan ang pag-inom o paggamit ng droga mula bago ka nag-Islam, at karaniwan ang pagkadulas sa proseso ng paggaling.",
+            "help": "Kausapin ang doktor mo, lalo na bago mo itigil ang mabigat na pag-inom, at tawagan ang addiction line ng probinsya mo. Dahilan ang pagkadulas para magsimulang muli, hindi para sumuko.",
+            "href": "/mental-health#recovery",
+            "linkLabel": "Basahin: alak, droga at paggaling"
+          },
+          {
+            "title": "Pagkatapos ng isang insidente ng pagkapoot",
+            "body": "Ang masigawan, mahablot o maabuso online dahil Muslim ka ay puwedeng mag-iwan sa iyo na nanginginig nang ilang linggo.",
+            "help": "Magtago ng tala, i-report ito kung gusto mo, at sabihin sa isang taong pinagkakatiwalaan mo. Makakatulong ang victim services.",
+            "href": "/guides/facing-hate-and-harassment",
+            "linkLabel": "Basahin: pagharap sa pagkapoot at panliligalig"
+          },
+          {
+            "title": "Pagdadalamhati sa mga taong nawala sa iyo",
+            "body": "Kapag tumahimik ang pamilya o huminto sa pagtawag ang mga dating kaibigan, puwede itong maramdaman na parang pagdadalamhati kahit walang namatay.",
+            "help": "Hindi mahinang pananampalataya ang pagdadalamhati. Panatilihin ang ligtas na ugnayan kung kaya mo, maghanda para sa mahihirap na petsa, at magpatingin sa counsellor kung mabigat pa rin ito pagkalipas ng ilang buwan.",
+            "href": "/guides/family-and-friends",
+            "linkLabel": "Basahin: pagdadalamhati sa mga taong nawala sa iyo"
+          },
+          {
+            "title": "Madilim na taglamig at mababang mood",
+            "body": "May mga taong bumabagsak ang loob tuwing Nobyembre. Gabi na dumarating ang Isha, madilim pa sa Fajr, at mahirap bumangon. Inilalarawan ng CAMH ang seasonal affective disorder (SAD) bilang depresyong bumabalik tuwing taglagas o taglamig. Mas karaniwan ito sa mga lugar na malayo sa ekwador, gaya ng Canada.",
+            "help": "Magpaaraw sa umaga, maglaan ng oras sa labas at manatiling aktibo, na sabi ng CAMH ay maaaring makatulong. Kung bumabalik ang mababang mood tuwing taglamig, kausapin ang doktor mo. Nakalista sa CAMH ang light therapy bilang pangunahing lunas, kasama ang gamot at talk therapy. Hindi pagkukulang sa pananampalataya ang kawalan ng lakas sa taglamig. Para sa gabing Isha at maagang Fajr, itanong sa masjid mo kung aling timetable ang sinusunod nila.",
+            "href": "/faq#faq-pry-005",
+            "linkLabel": "Basahin: gabing Isha at maagang Fajr sa malayong hilaga"
+          },
+          {
+            "title": "Mga pag-aalinlangang hindi tumitigil",
+            "body": "Paulit-ulit na pag-uulit ng wudu, pagsisimulang muli ng pagdarasal, o mga hindi gustong isip tungkol sa Allah na kinamumuhian mo. Madalas itong tinatawag na waswas, at para sa ilang tao ay isang anyo ito ng OCD.",
+            "help": "Ipinapaliwanag ng pahina ng wudu ang itinuro ng Propeta tungkol sa pag-aalinlangan, at kung kailan dapat magpatingin sa clinician. Nagagamot ang OCD.",
+            "href": "/tools/wudu-ghusl#doubts",
+            "linkLabel": "Basahin: kapag hindi tumitigil ang pag-aalinlangan"
+          },
+          {
+            "title": "Mga pag-aalinlangan sa pananampalataya",
+            "body": "Maaaring may pag-aalinlangan ka tungkol sa Islam, o pinagdududahan mo ang buong desisyon. Tumataas at bumababa ang pananampalataya, at kasama ng anumang seryosong pangako ang mga tanong.",
+            "help": "Sinasabi ng Islam na hanapin mo ang kaalaman. Kausapin ang isang mentor na may alam sa paksa, magbasa ng mapagkakatiwalaang mga libro, o makiupo sa isang study circle. Huwag kimkimin ang mga tanong. Kadalasan, mas pinatitibay ng tapat na pagharap sa mga ito ang pananampalataya kaysa dati. Mag-dua para sa patnubay, at bigyan ang sarili ng panahon. Kung natatakot kang may isang isip o kasalanan na naglabas sa iyo sa Islam, basahin ang \"Muslim pa ba ako?\" sa pahina ng paksang mga tanong at pag-aalinlangan."
+          },
+          {
+            "title": "Takot sa masamang mata (evil eye) o sa jinn",
+            "body": "May mga taong isinisisi ang mababang mood o malas nila sa masamang mata o sa jinn, o sinasabihan ng iba na gawin iyon. Minsan ginagamit ng mga bayarang manggagamot ang takot na iyon.",
+            "help": "Ituloy ang pang-araw-araw na pag-alaala at magpatingin sa doktor o counsellor para sa mga sintomas na tumatagal. Magkasamang gumagana ang pananampalataya at ang lunas. Ipinapaliwanag ng paksa tungkol sa mga pangunahing paniniwala ang sinasabi ng mga pangunahing sanggunian at inililista ang mga babalang senyales ng bayarang manggagamot."
+          },
+          {
+            "title": "Ramadan at eating disorder",
+            "body": "Kung may eating disorder ka, o nagpapagaling ka mula rito, puwedeng maging mahirap na buwan ang Ramadan. Maaaring gawing mukhang normal ng pag-aayuno ang paghihigpit sa pagkain, itago ang pagbabalik ng sakit, o mauwi sa sobrang pagkain sa iftar. Sakit ang eating disorder, at saklaw ito ng exemption sa pag-aayuno dahil sa sakit.",
+            "help": "Kausapin ang treatment team mo bago ka magpasya ng kahit ano tungkol sa pag-aayuno, at magtanong nang pribado sa isang iskolar tungkol sa sarili mong kaso. Hindi mo kailangang patunayan ang pananampalataya mo sa pag-aayuno nang labag sa payo ng doktor. Makakalahok ka sa Ramadan sa pamamagitan ng pagdarasal, Quran, dua, pagbibigay at pagtulong sa iftar. Nakalista sa ibaba, sa mga mapagkukunan ng suporta, ang helpline ng NEDIC."
           }
         ]
       },
@@ -927,7 +1040,9 @@
           "Isulat ang nararamdaman mo, o sabihin ito sa dua. Gumagaan ang bigat kapag nailabas mo ito sa isip mo.",
           "Magtakda ng hangganan sa mga tao at sitwasyong umuubos sa lakas mo. Hindi pagkamakasarili ang pagprotekta sa kapayapaan mo.",
           "Bagalan ang paghinga. Mabisa rito ang dhikr, dahil ang pag-uulit ng \"SubhanAllah\" sa mahahabang hininga ay sabay na nagpapakalma sa katawan at sa puso.",
-          "Maghanap ng komunidad o mentor na nakakaunawa sa karanasan ng pagyakap sa Islam. Hindi mo ito dapat pagdaanan nang mag-isa."
+          "Maghanap ng komunidad o mentor na nakakaunawa sa karanasan ng pagyakap sa Islam. Hindi mo ito dapat pagdaanan nang mag-isa.",
+          "Sa linggong pagod na pagod ka, panatilihin ang obligado at ipahinga muna ang mga dagdag. May plano para sa mahihirap na linggo sa pahina ng mga batayan para sa bagong Muslim.",
+          "Sa taglamig, lumabas sa liwanag ng araw tuwing umaga kung kaya mo, at iplano ang tulog mo ayon sa timetable ng pagdarasal ng masjid mo."
         ]
       },
       "seekHelp": {
@@ -942,7 +1057,7 @@
           "Paggamit ng alak o droga para makaraos sa araw"
         ],
         "calloutTitle": "Kung nasa agarang panganib ka",
-        "calloutBody": "Kung iniisip mong saktan ang sarili mo, tumawag o mag-text sa 9-8-8 anumang oras. Kung nasa agarang panganib ka, tumawag sa 9-1-1 o pumunta ngayon din sa pinakamalapit na emergency department. Mahalaga ang buhay mo."
+        "calloutBody": "Kung nasa agarang panganib ka, tumawag sa 9-1-1 o pumunta ngayon sa pinakamalapit na emergency department. Kung may iniisip kang pagpapakamatay, tumawag o mag-text sa 9-8-8 anumang oras. Mahalaga ang buhay mo."
       },
       "disclaimer": {
         "label": "Paalala:",
@@ -1018,6 +1133,13 @@
                 ],
                 "officialHref": "https://www.hopeforwellness.ca/",
                 "checked": "Nasuri noong 23 Setyembre 2026"
+              },
+              {
+                "name": "Mga sexual assault centre (ESVA Canada)",
+                "desc": "Inililista ng Ending Sexual Violence Association of Canada ang mga sexual assault centre, crisis line at shelter sa bawat probinsya at teritoryo. Kung nasa agarang panganib ka, tumawag sa 9-1-1.",
+                "contacts": [],
+                "officialHref": "https://endingviolencecanada.org/getting-help/",
+                "checked": "Nasuri noong 25 Setyembre 2026"
               }
             ]
           },
@@ -1091,6 +1213,111 @@
             "warningLinkHref": "https://www.canada.ca/en/public-health/services/health-promotion/stop-family-violence/plan-your-safety.html"
           },
           {
+            "id": "addiction",
+            "title": "Alak, droga at adiksyon",
+            "intro": "Libreng linya para sa mga gumagamit ng alak o droga, at para sa kanilang pamilya. Sa emergency o overdose, tumawag sa 9-1-1. Nasa CCSA ang kumpletong listahan ng mga linya ng probinsya at teritoryo.",
+            "linkLabel": "Tingnan ang lahat ng linya ng probinsya at teritoryo",
+            "linkHref": "https://www.ccsa.ca/en/contact-us/addictions-treatment-helplines-canada",
+            "items": [
+              {
+                "name": "Mga addiction line ng probinsya",
+                "desc": "May sariling linya ang bawat probinsya at teritoryo. Sa Ontario, gamitin ang ConnexOntario, na nakalista sa ibaba.",
+                "contacts": [
+                  {
+                    "label": "Alberta:",
+                    "value": "1-866-332-2322",
+                    "href": "tel:18663322322"
+                  },
+                  {
+                    "label": "British Columbia:",
+                    "value": "1-800-663-1441",
+                    "href": "tel:18006631441"
+                  },
+                  {
+                    "label": "Quebec:",
+                    "value": "1-800-265-2626",
+                    "href": "tel:18002652626"
+                  },
+                  {
+                    "label": "Nova Scotia:",
+                    "value": "1-888-429-8167",
+                    "href": "tel:18884298167"
+                  }
+                ],
+                "officialHref": "https://www.ccsa.ca/en/contact-us/addictions-treatment-helplines-canada",
+                "checked": "Nasuri noong 25 Setyembre 2026"
+              },
+              {
+                "name": "Narcotics Anonymous",
+                "desc": "Pambansang linya ng Narcotics Anonymous, isang samahan ng suporta mula sa kapwa. Hindi ito nakabatay sa pananampalataya.",
+                "contacts": [
+                  {
+                    "label": "Tumawag:",
+                    "value": "1-855-562-2262",
+                    "href": "tel:18555622262"
+                  }
+                ],
+                "officialHref": "https://www.canada.ca/en/health-canada/services/substance-use/get-help-with-substance-use.html",
+                "checked": "Nasuri noong 25 Setyembre 2026"
+              },
+              {
+                "name": "National Overdose Response Service",
+                "desc": "Linya para sa pagtugon sa overdose sa buong Canada, na nakalista ng Health Canada.",
+                "contacts": [
+                  {
+                    "label": "Tumawag:",
+                    "value": "1-888-688-6677",
+                    "href": "tel:18886886677"
+                  }
+                ],
+                "officialHref": "https://www.canada.ca/en/health-canada/services/substance-use/get-help-with-substance-use.html",
+                "checked": "Nasuri noong 25 Setyembre 2026"
+              },
+              {
+                "name": "Families for Addiction Recovery",
+                "desc": "Suporta para sa mga magulang at kapamilya ng taong may adiksyon. Tuwing weekday, 1 hanggang 3 PM Eastern time.",
+                "contacts": [
+                  {
+                    "label": "Tumawag:",
+                    "value": "1-855-377-6677",
+                    "href": "tel:18553776677"
+                  }
+                ],
+                "officialHref": "https://www.canada.ca/en/health-canada/services/substance-use/get-help-with-substance-use.html",
+                "checked": "Nasuri noong 25 Setyembre 2026"
+              }
+            ]
+          },
+          {
+            "id": "eating-disorders",
+            "title": "Mga eating disorder",
+            "items": [
+              {
+                "name": "NEDIC (National Eating Disorder Information Centre)",
+                "desc": "Ang pambansang helpline ng Canada para sa eating disorder, pinapatakbo ng University Health Network. Libreng suporta sa telepono, email at live chat. Nagbabago ang oras, kaya tingnan muna ang website bago ka tumawag.",
+                "contacts": [
+                  {
+                    "label": "Tumawag nang libre:",
+                    "value": "1-866-633-4220",
+                    "href": "tel:18666334220"
+                  },
+                  {
+                    "label": "Toronto:",
+                    "value": "416-340-4156",
+                    "href": "tel:4163404156"
+                  },
+                  {
+                    "label": "Email:",
+                    "value": "nedic@uhn.ca",
+                    "href": "mailto:nedic@uhn.ca"
+                  }
+                ],
+                "officialHref": "https://nedic.ca/contact/",
+                "checked": "Nasuri noong 25 Setyembre 2026"
+              }
+            ]
+          },
+          {
             "id": "ontario",
             "title": "Paghahanap ng serbisyo sa Ontario",
             "intro": "Tinutulungan ka ng mga linyang ito na makahanap ng lokal na serbisyong hindi pang-emergency. Sa labas ng Ontario, may listahan ang Government of Canada ng mga serbisyo sa bawat probinsya at teritoryo.",
@@ -1135,7 +1362,7 @@
         "directories": [
           {
             "name": "Khalil Center",
-            "desc": "Therapy at mga support group para sa mga Muslim, mula sa mga clinician na isinasama ang pananampalataya sa halip na iniiwasan ito.",
+            "desc": "Therapy at mga support group para sa mga Muslim, mula sa mga clinician na isinasama ang pananampalataya sa trabaho nila sa halip na iwasan ito. Online lang ang mga serbisyo. Sinasagot ang linya ng telepono, 416-901-2244, tuwing Lunes, Miyerkules, Biyernes at Linggo, 11 AM hanggang 3 PM Eastern time. Magtanong tungkol sa bayad at insurance.",
             "linkLabel": "Bisitahin ang website"
           },
           {
@@ -1155,11 +1382,40 @@
             "linkLabel": "Basahin ang ulat",
             "href": "https://yaqeeninstitute.org/read/data/reports/becoming-muslim-lives-of-american-converts-to-islam"
           }
-        ]
+        ],
+        "therapist": {
+          "title": "Pagpili ng therapist",
+          "intro": "Kahit sino ay puwedeng tumawag sa sarili na counsellor o life coach, at hindi lisensyadong therapist ang imam. Makakatulong ang ilang pagsusuri bago ka mag-book. Magkakaiba sa bawat probinsya ang mga patakaran kung sino ang puwedeng mag-alok ng therapy, at sa ngayon ay ang sa Ontario pa lang ang nasuri namin.",
+          "items": [
+            "Hingin ang registration number ng therapist at kung aling regulatory college ang kinabibilangan niya.",
+            "Hanapin siya sa pampublikong rehistro ng college na iyon. Sa Ontario, may ganitong rehistro ang College of Registered Psychotherapists (CRPO).",
+            "Para makahanap ng psychologist, subukan ang psychological association ng probinsya o teritoryo mo, na madalas may referral service. Inililista sila ng Canadian Psychological Association. Hindi regulator ang association, kaya suriin pa rin ang lisensya sa college.",
+            "Itanong kung paano nila isinasaalang-alang ang pananampalataya ng kliyente.",
+            "Magtanong tungkol sa bayad, sliding scale at insurance bago ang unang session."
+          ]
+        }
       },
       "crossLink": {
         "prompt": "Naghahanap ng suporta mula sa komunidad?",
         "linkLabel": "Basahin: pagbuo ng iyong Muslim na komunidad"
+      },
+      "recovery": {
+        "title": "Alak, droga at paggaling",
+        "paragraphs": [
+          "Maraming balik-Islam ang galing sa buhay kung saan normal ang pag-inom, at may ilang nahihirapang tumigil. Isinusulat ni Dr. Jibran Khokhar, isang mananaliksik sa adiksyon sa Western University, na chronic ang mga substance use disorder at madalas bumabalik, at na pinipigilan ng stigma ang maraming Muslim na humingi ng tulong. Karaniwan ang pagkadulas sa paggaling. Hindi ito nangangahulugang nabigo ka.",
+          "Kung araw-araw kang umiinom nang mabigat, magtanong sa doktor bago ka tumigil. Sinasabi ng CAMH na puwedeng magdulot ng seizure ang alcohol withdrawal, at na puwedeng ikamatay ang malubhang anyo nito kung hindi gagamutin.",
+          "Sa Islam, hindi rin tinatapos ng pagkadulas ang pananampalataya mo. May isang kasamahan ng Propeta na paulit-ulit na dinadala sa kanya dahil sa pag-inom. Nang may sumumpa sa lalaki, sinabi ng Propeta, \"Huwag ninyo siyang sumpain, dahil sumpa man sa Allah, alam kong mahal niya ang Allah at ang Kanyang Sugo\" (Sahih al-Bukhari 6780). Pagkatapos ng pagkadulas, magsisi at magsimulang muli sa araw ding iyon.",
+          "Inilalarawan ni Dr. Zohair Abdul-Rahman ng Yaqeen Institute ang isang programa ng paggaling na hango sa iskolar na si Ibn al-Qayyim, at isinusulat niyang nakadaragdag ang Islamikong pamamaraang ito sa modernong pananaliksik sa adiksyon. Puwedeng magkatabing gumana ang pananampalataya at ang lunas."
+        ],
+        "stepsTitle": "Mga hakbang na nakakatulong",
+        "steps": [
+          "Sabihin nang tapat sa doktor mo kung gaano karami ang iniinom o ginagamit mo.",
+          "Tawagan ang addiction line ng probinsya o teritoryo mo, na nakalista sa ibaba, para malaman kung anong tulong ang malapit sa iyo.",
+          "Alisin ang alak sa bahay mo, at planuhin ang mga gabing dati mong ginugugol sa pag-inom.",
+          "Pumili ng isang kaibigan o mentor na hindi umiinom na puwede mong i-message sa mahihirap na gabi.",
+          "Pagkatapos ng pagkadulas, magsisi at magsimulang muli sa araw ding iyon. Welcome ka pa rin sa masjid."
+        ],
+        "groupsNote": "Hindi nakabatay sa pananampalataya ang Alcoholics Anonymous at Narcotics Anonymous, at marami ang nakakakitang kapaki-pakinabang ang mga ito. Ang Millati Islami ay isang Muslim na 12-step fellowship. Naglilista ang directory nito ng mga online na pagtitipon at grupo sa United States, at walang grupo sa Canada."
       }
     },
     "resourcesPage": {
@@ -1252,7 +1508,8 @@
         "youth-programs": "Mga programa para sa kabataan",
         "weekend-school": "Paaralan tuwing Sabado at Linggo",
         "library": "Aklatan",
-        "interfaith-outreach": "Pakikipag-ugnayan sa ibang pananampalataya"
+        "interfaith-outreach": "Pakikipag-ugnayan sa ibang pananampalataya",
+        "funeral-services": "Serbisyo para sa libing"
       },
       "liveRegion": {
         "one": "masjid ang nakita",
@@ -1311,7 +1568,24 @@
       "emptyTitle": "Walang nakitang termino",
       "emptyPrefix": "Subukan ang ibang salita, o",
       "emptyAction": "burahin ang hinahanap",
-      "seeAlso": "Tingnan din:"
+      "seeAlso": "Tingnan din:",
+      "sayItLabel": "Bigkasin:",
+      "pronunciationKey": {
+        "title": "Paano basahin ang gabay na \"bigkasin\"",
+        "items": [
+          "Ipinapakita ng malalaking titik ang bahagi ng salitang may diin. Sa a-DHAAN, idiniriin mo ang DHAAN.",
+          "Mahaba ang dobleng patinig: ang aa ay gaya sa \"father\", ang ee ay gaya sa \"see\", ang oo ay gaya sa \"moon\" sa Ingles.",
+          "Ang dh ay ang \"th\" sa Ingles na \"this\". Sa Dhuhr at Hafiz, kumakatawan ito sa mas mabigat na bersyon ng parehong tunog.",
+          "Ang th ay ang \"th\" sa Ingles na \"thin\", gaya sa ha-DEETH.",
+          "Ang q ay isang k na binibigkas nang mas malalim sa lalamunan, gaya sa qur-AAN.",
+          "Ang kh ay ang tunog sa dulo ng Scottish na \"loch\". Malapit ang gh sa r ng Pranses.",
+          "Nagmamarka ang apostrophe ng saglit na pagpigil sa lalamunan, gaya sa KA'-bah. Kumakatawan ito sa isang titik na wala sa Ingles.",
+          "Gabay ito para sa pagbasa nang malakas, hindi akademikong transliterasyon. Ang pinakasiguradong paraan para matutuhan ang isang salita ay marinig ito mula sa guro o sa isang pagbigkas ng Quran."
+        ]
+      },
+      "sourcesLabel": "Mga sanggunian:",
+      "phrasesPrompt": "Naghahanap ka ba ng mga pariralang gaya ng in sha Allah o jazak Allahu khayran, at kung paano sumagot?",
+      "phrasesLink": "Tingnan ang mga pang-araw-araw na parirala"
     },
     "offline": {
       "title": "Offline ka",
@@ -1365,7 +1639,7 @@
       "errorTitle": "May problema"
     },
     "qibla": {
-      "title": "Paghahanap ng Qibla",
+      "title": "Hanapin ang direksyon ng pagdarasal (qibla)",
       "subtitle": "Hanapin ang direksyon ng Kaaba sa Makkah para sa pagdarasal.",
       "directionLabel": "Direksyon ng Qibla",
       "degrees": "digri mula sa hilaga",
@@ -1413,10 +1687,10 @@
       "errorTitle": "May problema"
     },
     "duaDhikr": {
-      "metadataTitle": "Sanggunian sa dua at dhikr",
+      "metadataTitle": "Panalangin at pag-alaala (dua at dhikr)",
       "metadataDescription": "Sanggunian para sa baguhan tungkol sa mga dua mula sa Quran at hadith, mga pariralang dhikr, at kung saan akma ang sarili mong mga salita.",
       "eyebrow": "Sanggunian para sa baguhan",
-      "title": "Sanggunian sa dua at dhikr",
+      "title": "Panalangin at pag-alaala (dua at dhikr)",
       "subtitle": "Maikling koleksyon ng mga dua at pariralang pag-alaala sa Allah na may tag ng sanggunian, para may masimulan ka. Matutuhan nang maayos ang ilan bago magdagdag.",
       "duaTopicButton": "Paksa tungkol sa dua",
       "salahCompanionButton": "Kasama sa salah",
@@ -1450,7 +1724,12 @@
       "sourcesNote": "Nasuri na ang mga sangguniang nakalista rito. Kailangan pa ring suriin ng isang kwalipikado ang mga salita ng hadith, ang transliterasyon at anumang personal.",
       "prayerTopicButton": "Paksa tungkol sa pagdarasal",
       "mentalHealthButton": "Suporta sa kalusugan ng isip",
-      "questionsButton": "Mga tanong at pag-aalinlangan"
+      "questionsButton": "Mga tanong at pag-aalinlangan",
+      "phrasesButton": "Mga pang-araw-araw na parirala",
+      "whenLabel": "Kailan ito sasabihin",
+      "replyLabel": "Ang sagot",
+      "replyTextTag": "Salita mula sa Quran o hadith",
+      "replyCustomTag": "Karaniwang paggalang, hindi teksto ng Sunnah"
     },
     "quranStarter": {
       "metadataTitle": "Panimulang landas sa Quran",
@@ -1614,7 +1893,15 @@
       "menstruationLink": "Regla, pagdurugo pagkapanganak at ang pagsamba",
       "tayammumTitle": "Kapag hindi ka makagamit ng tubig (tayammum)",
       "tayammumStepsTitle": "Paano ito gawin",
-      "questionsTitle": "Medyas sa taglamig, nail polish at cast"
+      "questionsTitle": "Medyas sa taglamig, nail polish at cast",
+      "doubtsTitle": "Kapag hindi tumitigil ang pag-aalinlangan (waswas)",
+      "doubtsTeachingsTitle": "Ang itinuro ng Propeta",
+      "doubtsStepsTitle": "Ano ang gagawin",
+      "doubtsMistakesTitle": "Mga karaniwang pagkakamali",
+      "doubtsClinicalTitle": "Waswas at OCD",
+      "doubtsSignsTitle": "Kailan dapat magpatingin sa clinician",
+      "doubtsMentalHealthLink": "Suporta sa kalusugan ng isip at kung saan magsisimula",
+      "doubtsSahwLink": "Kung nawala ka sa bilang sa pagdarasal: ang pagpapatirapa dahil sa pagkalimot (sujud al-sahw)"
     },
     "video": {
       "playAria": "I-play ang video: {title}",
@@ -1653,6 +1940,7 @@
         "hajj": "Paglalakbay sa Makkah (Hajj at Umrah)",
         "menstruation": "Regla at pagsamba",
         "family": "Pamilya at kasal",
+        "relationships-and-intimacy": "Mga relasyon at intimacy",
         "holidays": "Mga pista opisyal at okasyon ng pamilya",
         "everyday-life": "Pagkain, trabaho at pang-araw-araw na buhay",
         "community": "Komunidad at pakikibahagi",
@@ -1714,7 +2002,8 @@
         "title": "Sino ang nagbabasa nito",
         "body": "Isa o dalawang boluntaryong coordinator ang nagbabasa ng bawat kahilingan mula sa iisang shared inbox. Wala nang iba pang nakakakita nito. Kung humingi ka ng mentor, sasabihin muna sa iyo ng coordinator ang tungkol sa napiling mentor at ipapasa lamang ang kailangan ng mentor kapag pumayag ka.",
         "responseTitle": "Kailan kami sasagot",
-        "response": "Sinisikap naming sumagot sa loob ng 48 hanggang 72 oras. Layunin iyon, hindi pangako. Maaaring mas matagal ang sagot tuwing pista opisyal at sa Ramadan."
+        "response": "Sinisikap naming sumagot sa loob ng 48 hanggang 72 oras. Layunin iyon, hindi pangako. Maaaring mas matagal ang sagot tuwing pista opisyal at sa Ramadan.",
+        "mentoringLinkLabel": "Paano gumagana ang paggabay at ang aming pamantayan sa asal"
       },
       "privacy": {
         "title": "Ang privacy mo",
@@ -1732,7 +2021,8 @@
         "body": "Sabihin sa amin kung humingi sa iyo ng pera ang isang mentor, miyembro ng grupo o admin, nag-alok ng kasal, pinilit kang sumali sa isang bagay, o pinaramdam sa iyong hindi ka ligtas. Napupunta ang ulat mo sa mga coordinator, hindi kailanman sa taong inuulat mo.",
         "emailLabel": "Email",
         "scamNote": "Kung may humingi sa iyo ng pera o sa tingin mo ay naloko ka, puwede mo rin itong iulat sa Canadian Anti-Fraud Centre sa 1-888-495-8501.",
-        "redFlagsLabel": "Mga red flag at paano manatiling ligtas"
+        "redFlagsLabel": "Mga red flag at paano manatiling ligtas",
+        "hateLabel": "Kung nakaranas ka ng pagkapoot o panliligalig"
       },
       "contact": {
         "title": "Mas gusto mo bang mag-email?",
