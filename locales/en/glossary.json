@@ -1114,7 +1114,7 @@
     "arabicText": "صلوات",
     "transliteration": "sa-la-WAAT",
     "definition": "Asking Allah to send blessings and peace on the Prophet Muhammad, for example by saying sallallahu alayhi wa sallam (peace be upon him) when his name is mentioned. The Quran tells believers to do this.",
-    "seeAlso": ["muhammad", "dhikr"],
+    "seeAlso": ["muhammad", "dhikr", "honorifics"],
     "sourceIds": ["quran-33-56", "sunnah-tirmidhi-3546"]
   },
   {
@@ -1486,5 +1486,12 @@
     "definition": "The words pilgrims repeat in ihram, beginning Labbayk Allahumma labbayk (here I am, O Allah, here I am).",
     "seeAlso": ["hajj", "ihram", "umrah"],
     "sourceIds": ["sunnah-bukhari-1549"]
+  },
+  {
+    "id": "honorifics",
+    "term": "Honorifics (SAW, PBUH, SWT, RA, AS)",
+    "definition": "Short blessings Muslims say or write after certain names: sallallahu alayhi wa sallam (peace be upon him) after the Prophet Muhammad, subhanahu wa ta'ala (glorified and exalted is He) after Allah, alayhis-salam (peace be upon him) after other prophets and angels, and radiyallahu anhu (may Allah be pleased with him) after the Companions. The letters are abbreviations of these phrases.",
+    "seeAlso": ["salawat", "muhammad", "allah"],
+    "sourceIds": ["quran-33-56", "quran-9-100"]
   }
 ]
