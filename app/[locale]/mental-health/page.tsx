@@ -54,6 +54,7 @@ export default function MentalHealthPage({
       "millati-islami-groups",
       "crpo-public-register",
       "cpa-provincial-associations",
+      "camh-seasonal-affective-disorder",
     ],
     locale,
   );
