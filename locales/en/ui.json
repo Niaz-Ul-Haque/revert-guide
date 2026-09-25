@@ -1266,7 +1266,7 @@
         "directories": [
           {
             "name": "Khalil Center",
-            "desc": "Therapy and support groups for Muslims, from clinicians who work with faith rather than around it.",
+            "desc": "Therapy and support groups for Muslims, from clinicians who work with faith rather than around it. Services are online only. The phone line, 416-901-2244, is answered Monday, Wednesday, Friday and Sunday, 11 AM to 3 PM Eastern time. Ask about fees and insurance.",
             "linkLabel": "Visit website"
           },
           {
@@ -1286,7 +1286,18 @@
             "linkLabel": "Read the report",
             "href": "https://yaqeeninstitute.org/read/data/reports/becoming-muslim-lives-of-american-converts-to-islam"
           }
-        ]
+        ],
+        "therapist": {
+          "title": "Choosing a therapist",
+          "intro": "Anyone can call themselves a counsellor or a life coach, and an imam is not a licensed therapist. A few checks before you book help. Rules on who may offer therapy differ between provinces, and so far we have only checked Ontario's.",
+          "items": [
+            "Ask for the therapist's registration number and which regulatory college they belong to.",
+            "Look them up on that college's public register. In Ontario, the College of Registered Psychotherapists (CRPO) keeps one.",
+            "To find a psychologist, try your provincial or territorial psychological association, which often runs a referral service. The Canadian Psychological Association lists them. An association is not a regulator, so still check the licence with the college.",
+            "Ask how they work with a client's faith.",
+            "Ask about fees, a sliding scale and insurance before the first session."
+          ]
+        }
       },
       "crossLink": {
         "prompt": "Looking for community support?",

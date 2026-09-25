@@ -52,6 +52,8 @@ export default function MentalHealthPage({
       "health-canada-get-help-substance-use",
       "ccsa-addictions-helplines",
       "millati-islami-groups",
+      "crpo-public-register",
+      "cpa-provincial-associations",
     ],
     locale,
   );
@@ -409,6 +411,35 @@ export default function MentalHealthPage({
                 ) : null}
               </div>
             ))}
+          </div>
+
+          {/* Choosing a therapist */}
+          <div className="mb-8 rounded-2xl border border-border/60 bg-surfaceElevated/50 p-5">
+            <h3
+              id="choosing-a-therapist"
+              className="mb-2 mt-0 scroll-mt-24 font-display text-lg font-semibold text-textPrimary"
+            >
+              {copy.resources.therapist.title}
+            </h3>
+            <p className="mb-3 text-sm leading-relaxed text-textSecondary">
+              {copy.resources.therapist.intro}
+            </p>
+            <ol className="mb-0 flex flex-col gap-2 pl-0">
+              {copy.resources.therapist.items.map((text, index) => (
+                <li
+                  key={text}
+                  className="flex items-start gap-3 text-sm leading-relaxed text-textSecondary"
+                >
+                  <span
+                    className="flex h-7 w-7 shrink-0 items-center justify-center rounded-lg bg-primary/10 text-xs font-bold text-primary"
+                    aria-hidden="true"
+                  >
+                    {index + 1}
+                  </span>
+                  <span>{text}</span>
+                </li>
+              ))}
+            </ol>
           </div>
 
           {/* Educational */}
