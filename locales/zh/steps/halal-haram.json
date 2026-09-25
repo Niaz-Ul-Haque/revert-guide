@@ -9,8 +9,8 @@
       "text": "了解主要的饮食规定",
       "subSteps": [
         "猪肉和猪肉制品（培根、火腿、猪源明胶）是禁止的。",
-        "酒和其他致醉物是禁止的，包括饮品、料酒以及用酒制作的食物。",
-        "肉必须按伊斯兰方式宰牲，也就是以仁慈的方式宰杀动物，并念诵安拉的名字。",
+        "酒精饮料和其他致醉物是禁止的。在香精里作为溶剂使用的微量非葡萄酒酒精，比如香草精，是一个确实存在意见分歧的问题：哈乃斐学派在分量不足以致醉时允许，而其他学者避开任何添加的酒精。这项允许不包括葡萄酒，所以料酒是不行的。在你还是新人的时候，选择不含酒精的版本是稳妥的做法。",
+        "许多学者和加拿大的清真认证机构只接受按伊斯兰方式宰杀的肉（zabiha），也就是以人道方式宰杀、并念了安拉之名的动物的肉。另一些学者依据古兰经5:5，也接受基督徒和犹太人（有经人）的肉。你不需要在第一天就解决这个问题：按伊斯兰方式宰杀的肉、鱼和素食能让事情变得简单，你当地的伊玛目可以告诉你，你所在的社区遵循哪种观点。",
         "各学派都认为鱼是清真的。至于虾等其他海鲜，各学派看法不一，不确定时可以问一问。",
         "水果、蔬菜、谷物、乳制品和鸡蛋都是清真的。",
         "大多数加工食品是清真的，不过值得检查一下有没有明胶、猪油或含酒精的调味料。"
@@ -19,7 +19,7 @@
     {
       "text": "学会看食品标签",
       "subSteps": [
-        "留意包装上的清真认证标志。加拿大常见的有 IFANCC、ISNA 和 HMA。",
+        "在包装上找认证机构的名称。在加拿大，标签上的清真声明必须写明是谁认证的。你常会看到的两个名称是 Halal Monitoring Authority（HMA）和 ISNA Canada Halal，它们的标准并不相同，所以请问你当地的清真寺信任哪些机构。",
         "查看配料表中有没有明胶（常来自猪）、猪油、动物起酥油、酒精，以及可能含酒精的香草精。",
         "不确定时，上网查一下这个产品，或者选择有清真认证的替代品。",
         "很多主流品牌都没有问题，你很快就会知道是哪些。"
@@ -80,7 +80,7 @@
     }
   ],
   "tinyVersion": "先从两条规定开始：不吃猪肉，不喝酒。其余的可以一步一步学。你现在吃的大部分东西本来可能就是清真的。",
-  "unlocksNext": "掌握了清真与禁止，你就可以开始学习斋戒了，它让你的身体和心一起参与到功修中来。",
+  "unlocksNext": "掌握了清真与禁止，你就可以准备在吃饭时付诸实践了，先从你自己厨房里的食物开始。",
   "resourceIds": [
     "halal-living-guide",
     "new-muslim-guide-site",
@@ -95,6 +95,20 @@
     "tayyib"
   ],
   "relatedTopicIds": ["fasting", "halal-living"],
-  "sourceIds": ["new-muslim-guide", "seekersguidance"],
-  "reviewStatus": "review-needed"
+  "sourceIds": [
+    "new-muslim-guide",
+    "seekersguidance",
+    "quran-5-5",
+    "amja-eating-the-meat-of-the",
+    "seekersguidance-is-vanilla-extract-permissible-if",
+    "hma-what-is-halal",
+    "cfia-method-production-claims"
+  ],
+  "reviewStatus": "review-needed",
+  "relatedLinks": [
+    {
+      "label": "日常生活中的清真",
+      "href": "/guides/halal-living-in-daily-life"
+    }
+  ]
 }

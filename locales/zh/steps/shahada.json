@@ -2,7 +2,7 @@
   "id": "shahada",
   "slug": "shahada",
   "stageId": "day-0-1",
-  "title": "念清真言",
+  "title": "宣告你的信仰（清真言）",
   "whyMatters": "念清真言是你正式进入伊斯兰的方式。它是其他一切所依托的那一步：宣告除安拉外别无神灵，穆罕默德是祂的使者。念出它，就抹去了之前的一切，给你一个全新的开始。问问身边的人，你会发现很多穆斯林对念清真言那一刻的记忆，几乎比任何事情都清晰。",
   "exactActions": [
     {
@@ -44,7 +44,7 @@
     },
     {
       "problem": "我不确定自己准备好了没有",
-      "solution": "如果你心里相信只有一位神，而穆罕默德是祂的使者，你就准备好了。感到紧张是正常的。你不需要先了解伊斯兰的一切，那部分会在之后慢慢到来。"
+      "solution": "如果你心里相信只有一位神，并且穆罕默德是祂的使者，你就准备好了。感到紧张很正常。你不需要先了解伊斯兰的一切，那部分是之后的事。如果你还在考虑，没有任何期限。下面链接的“正在了解伊斯兰教？”页面就是为你写的。"
     },
     {
       "problem": "我没有人可以做见证",
@@ -59,7 +59,50 @@
   "unlocksNext": "现在你已经宣告了信仰，可以学习全身清洗（大净），开始你作为穆斯林的生活了。",
   "resourceIds": ["whyislam", "welcome-to-islam-book", "new-muslim-academy"],
   "relatedGlossaryIds": ["shahada", "allah", "muhammad", "dua", "masjid"],
-  "relatedTopicIds": ["beliefs", "new-muslim-basics"],
-  "sourceIds": ["whyislam", "new-muslim-academy", "sunnah-com"],
-  "reviewStatus": "review-needed"
+  "relatedTopicIds": ["beliefs", "new-muslim-basics", "thinking-about-islam"],
+  "sourceIds": [
+    "whyislam",
+    "new-muslim-academy",
+    "sunnah-com",
+    "seekersguidance-convert-shahada-publicly",
+    "seekersguidance-shahada-online",
+    "seekersguidance-do-i-need-to-say-ashhadu"
+  ],
+  "relatedLinks": [
+    {
+      "label": "在斋月期间成为穆斯林？你需要补什么",
+      "href": "/faq#faq-wor-031"
+    },
+    {
+      "label": "正在了解伊斯兰教？写给还不是穆斯林的人的一页",
+      "href": "/topics/thinking-about-islam"
+    },
+    {
+      "label": "伊斯兰五功",
+      "href": "/topics/five-pillars"
+    },
+    {
+      "label": "问与答",
+      "href": "/faq"
+    }
+  ],
+  "reviewStatus": "review-needed",
+  "contextNotes": [
+    {
+      "title": "私下、在清真寺或在网上：由你选择",
+      "body": "只要真诚地念，清真言在哪里念都算数。Ustadha Shireen Ahmed（SeekersGuidance）写道，她听说在别人面前念更好，哪怕只有几个人，但如果这让你紧张，也不是非这样不可。把这当作一个建议，而不是一条规定。让别人知道的理由是实际的：你的社区知道你是穆斯林，比如在结婚或按穆斯林方式安葬的时候。"
+    },
+    {
+      "title": "在清真寺念",
+      "body": "给清真寺办公室打电话，请求和伊玛目以及一两个人一起安静地念清真言。问问他们是否发证书，以及需要你提供什么。如果你不想被拍照或录像，在到达之前说清楚。没有你明确的许可，任何人都不应该录下你念清真言的过程或发到网上，而且当天你也可以说不。"
+    },
+    {
+      "title": "在网上或视频通话中念",
+      "body": "Shaykh Abdurragmaan Khan 在 SeekersGuidance 上的一份回答说，通过线上服务念的清真言是有效的。不要求再和当地伊玛目重念一次，不过这份回答称之为“无疑是可取的”。它还建议你和当地社区建立联系，并向其中一位负责人介绍你自己。这是一位学者的回答，所以如果你不确定，请问当地的伊玛目。"
+    },
+    {
+      "title": "用你自己的话还是用阿拉伯语",
+      "body": "Imam Yama Niazi（SeekersGuidance）说，加上“ashhadu”（我作证）更谨慎，而不加它的清真言也是可以接受的。如果你第一次是用自己的话念的，以后可以再念阿拉伯语的版本。不需要因为担心而一遍遍地重复。"
+    }
+  ]
 }

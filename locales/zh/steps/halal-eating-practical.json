@@ -50,7 +50,7 @@
     }
   ],
   "tinyVersion": "下一顿饭，不吃猪肉、不喝酒，选择眼前最明确的清真选项。",
-  "unlocksNext": "一旦饮食方面感觉可以应付了，更广泛的清真与禁止的基础知识就容易理解得多。",
+  "unlocksNext": "等饮食上觉得能应付了，你就可以准备了解斋戒，它让你的身体和心一起参与功修。",
   "resourceIds": ["halal-living-guide", "new-muslim-guide-site"],
   "relatedGlossaryIds": ["halal", "haram"],
   "relatedTopicIds": ["halal-living", "new-muslim-basics"],
@@ -61,5 +61,11 @@
     }
   ],
   "sourceIds": ["new-muslim-guide", "seekersguidance"],
-  "reviewStatus": "review-needed"
+  "reviewStatus": "review-needed",
+  "relatedLinks": [
+    {
+      "label": "日常生活中的清真",
+      "href": "/guides/halal-living-in-daily-life"
+    }
+  ]
 }

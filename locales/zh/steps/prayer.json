@@ -53,7 +53,7 @@
         "晡礼：4拜。",
         "昏礼：3拜。",
         "宵礼：4拜。",
-        "从主命拜开始。之后可以再加上副功拜（圣行拜）。"
+        "从主命（fard）拜开始。你在清真寺看到的额外自愿（圣行）拜可以以后再加，一次一项。“认识礼拜”主题对此有讲解。"
       ]
     },
     {
@@ -83,7 +83,7 @@
     },
     {
       "problem": "我没法在工作单位或学校礼拜",
-      "solution": "你有礼拜的权利。穆斯林会在安静的角落、空着的会议室和停着的车里礼拜。一次礼拜只需要五到十分钟。如果时间很难安排，在某些情况下有些礼拜可以合并，请就你的情况请教老师。如果你觉得合适，可以跟同事或上司提一下，大多数人其实都很通情达理。"
+      "solution": "你有礼拜的权利。穆斯林会在安静的角落、空的会议室和停着的车里礼拜。一次礼拜只需要五到十分钟。如果时间安排有困难，各学派对能否因工作而并礼意见不同，所以请阅读关于轮班工作的问与答，并就你的情况问问老师。如果你觉得自在，可以和同事或主管提一下，大多数人对此都会通情达理。"
     },
     {
       "problem": "做这些动作让我很不自在",
@@ -109,8 +109,9 @@
     "maghrib",
     "isha",
     "al-fatiha",
-    "sujud",
-    "ruku"
+    "sajdah",
+    "ruku",
+    "rawatib"
   ],
   "relatedTopicIds": ["prayer", "purification", "dua-and-dhikr"],
   "sourceIds": [
@@ -118,7 +119,9 @@
     "sunnah-com",
     "seekersguidance",
     "sunnah-abudawud-dhikr-instead",
-    "seekersguidance-recite-in-english"
+    "seekersguidance-recite-in-english",
+    "amja-combining-for-job",
+    "seekersguidance-combining-hanafi"
   ],
   "reviewStatus": "review-needed",
   "videos": [
@@ -130,6 +133,32 @@
       "start": 228,
       "note": "从晨礼开始，也就是两拜的礼拜。各学派之间有细小的差别是正常的。",
       "sourceIds": ["video-greenlane-five-prayers"]
+    }
+  ],
+  "relatedLinks": [
+    {
+      "label": "你会看到的额外礼拜，以及什么时候加上它们",
+      "href": "/topics/prayer"
+    },
+    {
+      "label": "轮班工作和并礼",
+      "href": "/faq#faq-pry-038"
+    },
+    {
+      "label": "学习礼拜工具",
+      "href": "/tools/salah-companion"
+    },
+    {
+      "label": "礼拜时间",
+      "href": "/prayer-times"
+    },
+    {
+      "label": "工作和学校指南",
+      "href": "/guides/work-and-school"
+    },
+    {
+      "label": "月经与功修",
+      "href": "/topics/menstruation-and-worship"
     }
   ]
 }
