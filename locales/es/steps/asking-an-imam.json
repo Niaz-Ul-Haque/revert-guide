@@ -2,51 +2,51 @@
   "id": "asking-an-imam",
   "slug": "asking-an-imam",
   "stageId": "month-3-6",
-  "title": "Pregúntale bien a un imán o maestro",
-  "whyMatters": "Las buenas preguntas suelen recibir mejores respuestas. Aprender a preguntarle a un imán o a un maestro calificado le ayudará a evitar confusiones, obtener orientación relevante y saber cuándo un asunto necesita una revisión personal.",
+  "title": "Hágale una buena pregunta a un imam",
+  "whyMatters": "Una pregunta clara recibe una mejor respuesta. Si aprende a plantearle un asunto a un imam o a un maestro calificado, se ahorra confusiones, recibe una orientación que se ajusta a su vida real y sabe reconocer cuándo un tema necesita revisarse con calma y no de pasada.",
   "exactActions": [
     {
-      "text": "Escribe la situación claramente.",
+      "text": "Escriba la situación con palabras sencillas",
       "subSteps": [
-        "Indique qué sucedió, qué decisión debe tomar y dónde vive.",
-        "Mencione fechas límite, presión familiar, problemas de salud o detalles financieros si son importantes.",
-        "Omita detalles privados que no afecten la pregunta."
+        "Explique qué pasó, qué necesita decidir y dónde vive.",
+        "Mencione plazos, presión de la familia, problemas de salud o asuntos de dinero si influyen en el caso.",
+        "Deje fuera los detalles privados que no cambian la respuesta."
       ]
     },
     {
-      "text": "Pregunta por la prioridad principiante.",
+      "text": "Pregunte qué va primero",
       "subSteps": [
-        "Di que eres un nuevo musulmán y necesitas el siguiente paso práctico.",
-        "Pregunte qué se debe hacer ahora y qué puede esperar.",
-        "Pregunte si existen diferencias de opinión que deba conocer sin detalles profundos."
+        "Diga que es nuevo musulmán o nueva musulmana y que busca el siguiente paso práctico.",
+        "Pregunte qué debe hacerse ahora y qué puede esperar.",
+        "Pregunte si hay diferencias de opinión que convenga conocer, sin necesidad de entrar en todos los detalles."
       ]
     },
     {
-      "text": "Verifique la respuesta antes de actuar sobre asuntos delicados",
+      "text": "Confirme antes de actuar en los asuntos importantes",
       "subSteps": [
-        "El matrimonio, el divorcio, la herencia, el zakat, los abusos, las cuestiones médicas y las cuestiones legales necesitan una revisión cuidadosa.",
-        "No confíe en comentarios anónimos para tomar decisiones importantes en la vida.",
-        "Busque ayuda profesional cuando el problema sea médico, legal o financiero."
+        "El matrimonio, el divorcio, la herencia, el zakat, el abuso, los problemas médicos y todo lo legal necesitan una revisión cuidadosa.",
+        "Procure no tomar una decisión importante de su vida basándose en comentarios anónimos.",
+        "Busque ayuda profesional cuando el asunto sea médico, legal o financiero."
       ]
     }
   ],
-  "timeEstimate": "10-20 minutos para preparar una pregunta clara",
+  "timeEstimate": "De 10 a 20 minutos para preparar una pregunta clara",
   "obstacles": [
     {
-      "problem": "Me da vergüenza hacer preguntas básicas.",
-      "solution": "Las preguntas básicas son exactamente lo que los profesores esperan de los principiantes. La humildad clara es mejor que la confusión silenciosa."
+      "problem": "Me da vergüenza hacer preguntas básicas",
+      "solution": "Las preguntas básicas son justo lo que un maestro espera de alguien que empieza. Preguntar con sencillez es mejor que quedarse en silencio con la duda."
     },
     {
-      "problem": "Recibí diferentes respuestas",
-      "solution": "Pídele al profesor que te explique qué se aplica a tu situación y qué puede esperar. Si es necesario, pregúntele a un académico local calificado que conozca su contexto."
+      "problem": "Me dieron respuestas distintas",
+      "solution": "Pregúntele al maestro cuál de las respuestas se aplica a su situación y qué partes pueden esperar. Si necesita más, lleve el asunto a un erudito local calificado que conozca su contexto."
     }
   ],
-  "tinyVersion": "Escribe: qué pasó, qué debes decidir y que eres un nuevo musulmán.",
-  "unlocksNext": "Las buenas preguntas le ayudan a seguir aprendiendo con confianza y a evitar seguir consejos poco fiables.",
+  "tinyVersion": "Anote tres cosas: qué pasó, qué necesita decidir y que usted es nuevo en el islam.",
+  "unlocksNext": "Las buenas preguntas le permiten seguir aprendiendo con confianza y le evitan actuar según malos consejos.",
   "gentleScripts": [
     {
-      "title": "Pidiendo una respuesta para principiantes",
-      "body": "Soy un musulmán nuevo y estoy tratando de hacer esto correctamente sin sentirme abrumado. ¿Cuál es el siguiente paso práctico para mi situación y qué puede esperar?"
+      "title": "Pedir una respuesta para principiantes",
+      "body": "Soy nuevo en el islam y quiero hacer esto bien sin agobiarme. ¿Cuál es el siguiente paso práctico en mi situación y qué puede esperar?"
     }
   ]
 }
