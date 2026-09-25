@@ -283,6 +283,27 @@ export default function StagePage({
                       </li>
                     ))}
                   </ul>
+                  <div className="mt-4 flex flex-wrap gap-x-5 gap-y-1">
+                    <Link
+                      href={localizeHref(locale, "/get-help")}
+                      prefetch={false}
+                      className="inline-flex min-h-[44px] items-center gap-1.5 text-sm font-semibold text-primary hover:text-primaryHover"
+                    >
+                      {copy.askHelpLink}
+                      <Icon name="chevron-right" size="sm" />
+                    </Link>
+                    <Link
+                      href={localizeHref(
+                        locale,
+                        "/guides/red-flags-and-staying-safe",
+                      )}
+                      prefetch={false}
+                      className="inline-flex min-h-[44px] items-center gap-1.5 text-sm font-semibold text-primary hover:text-primaryHover"
+                    >
+                      {copy.safetyLink}
+                      <Icon name="chevron-right" size="sm" />
+                    </Link>
+                  </div>
                 </div>
               ) : null}
             </div>

@@ -479,6 +479,20 @@ export default function StepPage({
         </AnimateIn>
       )}
 
+      <AnimateIn>
+        <p className="mb-8 flex flex-wrap items-center gap-x-2 text-base text-textSecondary">
+          {copy.askHelpPrompt}
+          <Link
+            href={localizeHref(locale, "/get-help")}
+            prefetch={false}
+            className="inline-flex min-h-[44px] items-center gap-1 font-semibold text-primary hover:text-primaryHover"
+          >
+            {copy.askHelpLink}
+            <Icon name="chevron-right" size="sm" />
+          </Link>
+        </p>
+      </AnimateIn>
+
       <nav
         className="flex flex-col gap-3 border-t border-border/40 pt-10 sm:flex-row sm:justify-between"
         aria-label={copy.navigationAriaLabel}
