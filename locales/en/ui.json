@@ -41,11 +41,11 @@
     "mentalHealth": "Mental health",
     "tools": "Tools",
     "prayerTimes": "Prayer times",
-    "qibla": "Qibla direction finder",
+    "qibla": "Prayer direction (qibla)",
     "wuduGhusl": "Washing before prayer (wudu and ghusl)",
     "salahCompanion": "Learn to pray (salah)",
     "quranStarter": "Quran starter",
-    "duaDhikr": "Dua and dhikr",
+    "duaDhikr": "Supplication and remembrance (dua and dhikr)",
     "asmaAlHusna": "99 names of Allah",
     "help": "Help",
     "getHelp": "Get help",
@@ -225,7 +225,7 @@
       "description": "Today's five daily prayer times for any city or address in Canada, worked out with the ISNA method and shown in local time. Confirm with your local masjid."
     },
     "qibla": {
-      "title": "Qibla finder - Revert Guide",
+      "title": "Prayer direction (qibla) - Revert Guide",
       "description": "Find the direction of the Kaaba in Mecca for prayer, using your location or coordinates you type in. Turn your phone's compass or face the bearing shown."
     },
     "asmaAlHusna": {
@@ -833,7 +833,7 @@
         ]
       },
       "tarawihAndCommunity": {
-        "title": "Tarawih and community",
+        "title": "Night prayers and community (tarawih)",
         "tarawihBodyBeforeIsha": "Tarawih are the extra evening prayers held during Ramadan, after ",
         "tarawihBodyAfterIsha": " (Isha) prayer at the mosque. They run long, and leaving partway through is fine. Try to go at least once, because the room during Tarawih is something you have to be in to understand.",
         "iftarBody": "Iftar gatherings at mosques and community centers are an easy way to break your fast with other people. There is usually far more food than anyone expects and someone who will introduce themselves. For a lot of converts these evenings are where the first real friendships start.",
@@ -845,7 +845,7 @@
         "body": "Through the last ten nights of Ramadan, Muslims look for Laylat al-Qadr, the Night of Power. The Quran calls it better than a thousand months. Nobody knows the exact date, so it is traditionally sought on the odd nights of those ten: the 21st, 23rd, 25th, 27th, or 29th. Many people pray more, read more Quran, and stay up later during this stretch."
       },
       "eidAlFitr": {
-        "title": "Eid al-Fitr",
+        "title": "The festival after Ramadan (Eid al-Fitr)",
         "body": "Eid al-Fitr is the celebration at the end of Ramadan. It starts with the Eid prayer in the morning, usually in a large gathering at a mosque or in an open space.",
         "items": [
           "Wear your best clothes and greet people with \"Eid Mubarak\", meaning blessed Eid.",
@@ -1365,7 +1365,7 @@
       "errorTitle": "Error"
     },
     "qibla": {
-      "title": "Qibla finder",
+      "title": "Find the prayer direction (qibla)",
       "subtitle": "Find the direction of the Kaaba in Mecca for prayer.",
       "directionLabel": "Qibla direction",
       "degrees": "degrees from north",
@@ -1413,10 +1413,10 @@
       "errorTitle": "Error"
     },
     "duaDhikr": {
-      "metadataTitle": "Dua and dhikr reference",
+      "metadataTitle": "Supplication and remembrance (dua and dhikr)",
       "metadataDescription": "A beginner's reference in English to Quranic duas, hadith duas, dhikr phrases, and where your own wording fits.",
       "eyebrow": "Beginner reference",
-      "title": "Dua and dhikr reference",
+      "title": "Supplication and remembrance (dua and dhikr)",
       "subtitle": "A short, source-tagged set of duas and remembrance phrases to start from. Learn a few of them properly before you add more.",
       "duaTopicButton": "Dua topic",
       "salahCompanionButton": "Salah companion",
