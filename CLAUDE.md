@@ -153,6 +153,13 @@ This is the authoritative project context document for the **Revert Guide** appl
 - Labels and headings lead with plain English and put the Arabic term in brackets, for example "Washing before prayer (wudu)" and "Learn to pray (salah)".
 - Ghusl is described as a full-body wash, never as a shower.
 
+**Suicide-safe writing:**
+- Say "died by suicide" and "thoughts of suicide". Never write "committed suicide", "failed attempt" or "completed suicide" (Public Health Agency of Canada, 988.ca).
+- Wherever suicide or self-harm comes up, give 911 first for immediate danger, then 9-8-8 (call or text).
+- Never frame suicidal thoughts as a sin, and avoid blame, shame, guilt and fear. Do not apply hadith about intrusive thoughts, such as Bukhari 5269 (which sits in the Book of Divorce), to thoughts of suicide.
+- Do not discuss the afterlife of people who died by suicide. Point grieving relatives to a scholar and a bereavement service.
+- Keep clinical and religious guidance in separate sentences.
+
 **Review states:**
 - Every step, topic, guide, masjid and source carries a `reviewStatus` (`ContentReviewStatus` in lib/types.ts): `draft`, `source-checked`, `review-needed` or `approved`.
 - `source-checked` means the sources were verified. `review-needed` is for anything touching rulings, mental health, safety, legal, financial or sensitive family matters that still needs a qualified reviewer. Only a qualified reviewer moves content to `approved`.
