@@ -6,7 +6,7 @@
     "url": "https://www.theclearquran.org/",
     "description": "A modern English translation of the Quran's meaning, written in plain language a first-time reader can follow.",
     "relatedStepIds": ["quran"],
-    "relatedTopicIds": ["quran", "prophet-muhammad"],
+    "relatedTopicIds": ["quran", "prophet-muhammad", "thinking-about-islam"],
     "organization": "The Clear Quran",
     "bestFor": "Reading Quran meanings in clear English",
     "trustNote": "Use translations as meanings, not as a replacement for the Arabic Quran.",
@@ -66,7 +66,12 @@
     "url": "https://yaqeeninstitute.org/",
     "description": "Articles, videos, and infographics that answer faith questions, doubts, and spirituality with sourced research.",
     "relatedStepIds": ["knowledge", "questions-and-doubts"],
-    "relatedTopicIds": ["beliefs", "questions-and-doubts", "prophet-muhammad"],
+    "relatedTopicIds": [
+      "beliefs",
+      "questions-and-doubts",
+      "prophet-muhammad",
+      "thinking-about-islam"
+    ],
     "organization": "Yaqeen Institute",
     "bestFor": "Faith questions and deeper reflection",
     "trustNote": "Helpful for learning context without turning early Islam into debate overload.",
@@ -112,7 +117,8 @@
       "beliefs",
       "community",
       "new-muslim-basics",
-      "family-and-identity"
+      "family-and-identity",
+      "thinking-about-islam"
     ],
     "organization": "WhyIslam",
     "bestFor": "Simple explanations for you or family members",
