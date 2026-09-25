@@ -475,6 +475,72 @@ export default function QuranStarterPage({
             />
           </div>
 
+          {learnArabic.sounds && (
+            <section
+              id="sounds-to-listen-for"
+              className="mb-8 scroll-mt-24 rounded-2xl border border-border/60 bg-surfaceElevated/50 p-5"
+              aria-labelledby="sounds-heading"
+            >
+              <h3
+                id="sounds-heading"
+                className="mb-2 mt-0 text-lg font-semibold text-textPrimary"
+              >
+                {learnArabic.sounds.title}
+              </h3>
+              <p className="mb-4 max-w-3xl text-sm leading-relaxed text-textSecondary">
+                {learnArabic.sounds.intro}
+              </p>
+              <ul className="mb-6 grid gap-3 pl-0 md:grid-cols-2">
+                {learnArabic.sounds.sounds.map((sound) => (
+                  <li
+                    key={sound.name}
+                    className="page-break-avoid flex gap-3 rounded-xl border border-border/50 bg-white p-4"
+                  >
+                    <span
+                      className="w-14 shrink-0 text-center font-arabic text-2xl leading-loose text-textPrimary"
+                      lang="ar"
+                      dir="rtl"
+                    >
+                      {sound.letter}
+                    </span>
+                    <span className="min-w-0 text-sm leading-relaxed text-textSecondary">
+                      <span className="block font-semibold text-textPrimary">
+                        {sound.name}
+                      </span>
+                      {sound.tip}
+                    </span>
+                  </li>
+                ))}
+              </ul>
+              <div className="grid gap-6 md:grid-cols-2">
+                <div>
+                  <h4 className="mb-2 mt-0 text-base font-semibold text-textPrimary">
+                    {learnArabic.sounds.mistakesTitle}
+                  </h4>
+                  {learnArabic.sounds.mistakes.map((paragraph) => (
+                    <p
+                      key={paragraph}
+                      className="mb-3 text-sm leading-relaxed text-textSecondary"
+                    >
+                      {paragraph}
+                    </p>
+                  ))}
+                </div>
+                <div>
+                  <h4 className="mb-2 mt-0 text-base font-semibold text-textPrimary">
+                    {learnArabic.sounds.practiceTitle}
+                  </h4>
+                  <SimpleList items={learnArabic.sounds.practice} />
+                </div>
+              </div>
+              <SourceTags
+                sources={getSourcesByIds(learnArabic.sounds.sourceIds, locale)}
+                compact
+                className="mt-4"
+              />
+            </section>
+          )}
+
           <div className="mb-8 grid gap-6 md:grid-cols-2">
             <VideoEmbed {...learnArabic.fatihahVideo} />
             <VideoEmbed {...learnArabic.alphabetVideo} />

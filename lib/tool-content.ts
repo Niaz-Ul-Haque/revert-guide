@@ -145,9 +145,22 @@ export interface FatihahWord {
   meaning: string;
 }
 
+export interface SoundsToListenFor {
+  title: string;
+  intro: string;
+  sounds: { letter: string; name: string; tip: string }[];
+  mistakesTitle: string;
+  mistakes: string[];
+  practiceTitle: string;
+  practice: string[];
+  sourceIds: string[];
+}
+
 export interface LearnArabicContent {
   image: TopicImage;
   stages: string[];
+  // Optional so locale files written before these blocks still load.
+  sounds?: SoundsToListenFor;
   fatihahWords: { verse: number; words: FatihahWord[] }[];
   fatihahSourceIds: string[];
   links: ExternalLink[];

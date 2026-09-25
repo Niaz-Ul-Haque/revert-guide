@@ -351,6 +351,71 @@
       }
     ],
     "fatihahSourceIds": ["quran-al-fatihah-1", "quranic-arabic-corpus-fatihah"],
+    "sounds": {
+      "title": "Sounds to listen for",
+      "intro": "English spelling uses the same letters for sounds that are different in Arabic. These are the ones English speakers most often find hard. Listen to a clear reciter for each one rather than relying on the spelling. A tajweed teacher can check the examples with you.",
+      "sounds": [
+        {
+          "letter": "ع",
+          "name": "ayn",
+          "tip": "A squeeze deep in the throat. Transliteration often marks it with an apostrophe, as in na'budu (we worship)."
+        },
+        {
+          "letter": "ح",
+          "name": "Heavy h (ha)",
+          "tip": "A breathy h from the middle of the throat, like breathing on cold glass. The h in al-hamdu is this letter, not the light h of \"hat\"."
+        },
+        {
+          "letter": "خ",
+          "name": "kha",
+          "tip": "The sound at the end of the Scottish \"loch\"."
+        },
+        {
+          "letter": "غ",
+          "name": "ghayn",
+          "tip": "Close to a French r, as in ghayril-maghdubi."
+        },
+        {
+          "letter": "ق",
+          "name": "qaf",
+          "tip": "A k said further back in the throat, as in al-mustaqim."
+        },
+        {
+          "letter": "ص ض ط ظ",
+          "name": "The heavy letters",
+          "tip": "Said with the back of the tongue raised, which darkens the vowel next to them. Listen for them in as-sirat and wa lad-dallin."
+        },
+        {
+          "letter": "ث ذ",
+          "name": "Two kinds of th",
+          "tip": "One is the th in \"thin\", the other is the th in \"this\", as in alladhina."
+        },
+        {
+          "letter": "ـّـ",
+          "name": "Doubled letters (shaddah)",
+          "tip": "Hold the letter a little longer, as in iyyaka and rabbil."
+        }
+      ],
+      "mistakesTitle": "What if I get a letter wrong?",
+      "mistakes": [
+        "Every learner makes mistakes, and the Prophet said the one who recites with difficulty gets a double reward. In the Shafi'i school, a letter mistake spoils that word, so you say the word again once, correctly. The prayer itself is only invalid when a mistake changes the meaning and was made on purpose.",
+        "A Hanafi answer, citing Ibn Abidin, says that mixing up letters such as saad and seen by accident does not invalidate the prayer, and that a learner should keep making a reasonable effort. Ask a teacher for the Maliki and Hanbali details.",
+        "Repeating a word again and again, or restarting the whole prayer over one uncertain letter, is not required. That kind of doubt (waswasa) is something to let go of."
+      ],
+      "practiceTitle": "How to practise",
+      "practice": [
+        "Pick one hard sound a week and practise it in a word you already say in prayer.",
+        "Once a week, record yourself reciting Al-Fatihah on your phone and compare it with the Quran.com audio.",
+        "Ask a teacher at your masjid to listen for five minutes and check just these letters. Most will be glad to.",
+        "Learn by listening. Transliteration is a reminder, not a replacement for hearing the word."
+      ],
+      "sourceIds": [
+        "seekersguidance-mispronunciation-fatiha",
+        "seekersguidance-saad-seen-hanafi",
+        "sunnah-muslim-798a",
+        "quran-73-4"
+      ]
+    },
     "links": [
       {
         "label": "Listen to Al-Fatihah on Quran.com",
