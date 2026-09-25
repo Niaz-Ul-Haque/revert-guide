@@ -51,8 +51,17 @@
   ],
   "tinyVersion": "আজ: একটি সহজ দোয়া করুন, সাহায্যের জন্য যোগাযোগ করা যায় এমন একজন মানুষ বেছে নিন, আর এটুকুতেই থামুন।",
   "unlocksNext": "একটি শান্ত প্রথম দিন গোসল আর নামাজের প্রথম অনুশীলনে ঢোকাকে অনেক সহজ করে।",
-  "resourceIds": ["new-muslim-academy", "whyislam", "welcome-to-islam-book"],
-  "relatedGlossaryIds": ["shahada", "dua", "masjid", "imam"],
+  "resourceIds": [
+    "new-muslim-academy",
+    "whyislam",
+    "welcome-to-islam-book"
+  ],
+  "relatedGlossaryIds": [
+    "shahada",
+    "dua",
+    "masjid",
+    "imam"
+  ],
   "relatedTopicIds": [
     "new-muslim-basics",
     "family-and-identity",
@@ -78,8 +87,34 @@
     {
       "title": "কোনো মেন্টর বা মসজিদকে",
       "body": "আমি সম্প্রতি মুসলিম হয়েছি, আর গোসল, নামাজ আর কমিউনিটির সহায়তা নিয়ে নতুনদের উপযোগী সাহায্য খুঁজছি। কথা বলার মতো কেউ কি আছেন?"
+    },
+    {
+      "title": "কেউ আপনার শাহাদার ভিডিও করতে চাইলে",
+      "body": "দয়া করে কোনো ছবি বা ভিডিও নয়। আপাতত বিষয়টা ব্যক্তিগত রাখতে চাই।"
     }
   ],
-  "sourceIds": ["new-muslim-academy", "whyislam", "new-muslim-guide"],
-  "reviewStatus": "source-checked"
+  "sourceIds": [
+    "new-muslim-academy",
+    "whyislam",
+    "new-muslim-guide"
+  ],
+  "reviewStatus": "source-checked",
+  "relatedLinks": [
+    {
+      "label": "এখনো মুসলিম হননি? ইসলাম নিয়ে ভাবছেন",
+      "href": "/topics/thinking-about-islam"
+    },
+    {
+      "label": "সতর্কসংকেত ও নিরাপদ থাকা",
+      "href": "/guides/red-flags-and-staying-safe"
+    },
+    {
+      "label": "সাহায্য নিন",
+      "href": "/get-help"
+    },
+    {
+      "label": "ইসলামের পাঁচ স্তম্ভ",
+      "href": "/topics/five-pillars"
+    }
+  ]
 }

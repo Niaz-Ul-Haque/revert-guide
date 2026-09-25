@@ -2,7 +2,7 @@
   "id": "zakat-hajj",
   "slug": "zakat-hajj",
   "stageId": "month-6-plus",
-  "title": "যাকাত আর হজ সম্পর্কে জানুন",
+  "title": "দান (যাকাত) আর হজযাত্রা (হজ)",
   "whyMatters": "যাকাত (দান) আর হজ (মক্কায় হজযাত্রা) পাঁচ স্তম্ভের দুটি, আর এগুলো বুঝলে মুসলিম হওয়ার পুরো ভিত্তিটা আপনার সামনে থাকে। যাকাত আপনার সম্পদকে পবিত্র করে আর সমাজকে অভাবী মানুষের দেখাশোনায় রাখে। হজ হলো মক্কায় আল্লাহর ঘরে জীবনে একবারের যাত্রা, যেখানে পৃথিবীর সব প্রান্তের লাখ লাখ মুসলিম একসাথে দাঁড়ান, আর এটি সাধারণত মানুষকে বদলে দেয়। দুটোই দীর্ঘমেয়াদি দায়িত্ব, কোনোটিই জরুরি নয়। এখন এগুলো সম্পর্কে জানা পরের জন্য ভিত তৈরি করে।",
   "exactActions": [
     {
@@ -99,10 +99,14 @@
     "kaabah",
     "ihram",
     "tawaf",
-    "eid-al-adha",
+    "eid",
     "dhul-hijjah"
   ],
-  "relatedTopicIds": ["beliefs", "fasting", "halal-living"],
+  "relatedTopicIds": [
+    "beliefs",
+    "fasting",
+    "halal-living"
+  ],
   "sourceIds": [
     "quran-zakat-9-60",
     "irc-nisab",
@@ -115,5 +119,23 @@
     "travel-gc-saudi-arabia",
     "nusuk-hajj"
   ],
-  "reviewStatus": "review-needed"
+  "reviewStatus": "review-needed",
+  "relatedLinks": [
+    {
+      "label": "উইল আর উত্তরাধিকার",
+      "href": "/topics/wills-and-inheritance"
+    },
+    {
+      "label": "কেউ মারা গেলে",
+      "href": "/guides/when-someone-dies"
+    },
+    {
+      "label": "নতুনদের জন্য যাকাত গাইড",
+      "href": "/seasonal/zakat"
+    },
+    {
+      "label": "যিলহজ, হজ ও উমরাহর গাইড",
+      "href": "/seasonal/dhul-hijjah-hajj-umrah"
+    }
+  ]
 }

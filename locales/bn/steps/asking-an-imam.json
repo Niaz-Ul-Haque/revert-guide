@@ -38,7 +38,7 @@
     },
     {
       "problem": "আমি ভিন্ন ভিন্ন উত্তর পেয়েছি",
-      "solution": "শিক্ষককে জিজ্ঞেস করুন কোন উত্তরটি আপনার অবস্থায় খাটে আর কোন অংশ অপেক্ষা করতে পারে। এর বেশি দরকার হলে আপনার প্রেক্ষাপট জানেন এমন একজন যোগ্য স্থানীয় আলেমের কাছে নিয়ে যান।"
+      "solution": "শিক্ষককে জিজ্ঞেস করুন কোন উত্তরটি আপনার পরিস্থিতিতে প্রযোজ্য আর কোন অংশগুলো অপেক্ষা করতে পারে। এর বেশি দরকার হলে বিষয়টি এমন একজন যোগ্য স্থানীয় আলেমের কাছে নিয়ে যান যিনি আপনার প্রেক্ষাপট জানেন। অনলাইনের উত্তরগুলো প্রায়ই আলাদা হয়, কারণ সেগুলো ভিন্ন মাযহাব অনুসরণ করে বা অন্য কারও পরিস্থিতির উত্তর দেয়, তাই জিজ্ঞেস করার আগে প্রতিটির সূত্র আর মাযহাব লিখে রাখুন।"
     }
   ],
   "tinyVersion": "তিনটি কথা লিখে ফেলুন: কী ঘটেছে, কী সিদ্ধান্ত নিতে হবে, আর আপনি একজন নতুন মুসলিম।",
@@ -48,7 +48,12 @@
     "new-muslim-academy",
     "new-muslim-guide-icna"
   ],
-  "relatedGlossaryIds": ["imam", "sunnah", "halal", "haram"],
+  "relatedGlossaryIds": [
+    "imam",
+    "sunnah",
+    "halal",
+    "haram"
+  ],
   "relatedTopicIds": [
     "questions-and-doubts",
     "masjid-and-community",
@@ -60,6 +65,28 @@
       "body": "আমি একজন নতুন মুসলিম, আর হাঁপিয়ে না উঠে কাজটা ঠিকভাবে করার চেষ্টা করছি। আমার অবস্থায় ব্যবহারিক পরের ধাপ কী, আর কী অপেক্ষা করতে পারে?"
     }
   ],
-  "sourceIds": ["seekersguidance", "new-muslim-academy", "whyislam"],
-  "reviewStatus": "source-checked"
+  "sourceIds": [
+    "seekersguidance",
+    "new-muslim-academy",
+    "whyislam"
+  ],
+  "reviewStatus": "source-checked",
+  "relatedLinks": [
+    {
+      "label": "মুসলিমদের মধ্যে কেন ভিন্নতা",
+      "href": "/topics/why-muslims-differ"
+    },
+    {
+      "label": "কাকে শায়খ বা মুফতি বলা যায়",
+      "href": "/faq#faq-fnd-025"
+    },
+    {
+      "label": "কীভাবে সাহায্য চাইবেন",
+      "href": "/guides/how-to-ask-for-help"
+    },
+    {
+      "label": "সাহায্য নিন",
+      "href": "/get-help"
+    }
+  ]
 }

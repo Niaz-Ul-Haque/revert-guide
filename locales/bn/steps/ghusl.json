@@ -2,7 +2,7 @@
   "id": "ghusl",
   "slug": "ghusl",
   "stageId": "day-0-1",
-  "title": "পুরো শরীর ধুয়ে নিন (গোসল)",
+  "title": "পুরো শরীর ধোয়া (গোসল) করুন",
   "whyMatters": "গোসল হলো পুরো শরীরের আনুষ্ঠানিক ধোয়া। একজন নতুন মুসলিমের কাছে এটি পুরোনো জীবন পেছনে ফেলে পরিষ্কারভাবে শুরু করার প্রতীক, আর এ কারণেই শাহাদা পড়ার পর এটি করার পরামর্শ দেওয়া হয়। একে ভাবুন আল্লাহর কাছে আপনার আগে থেকেই থাকা পরিষ্কার পাতার জন্য একটি শারীরিক কাজ হিসেবে।",
   "exactActions": [
     {
@@ -62,8 +62,31 @@
     "wudu-tutorial",
     "new-muslim-guide-site"
   ],
-  "relatedGlossaryIds": ["ghusl", "wudu", "niyyah", "taharah", "tayammum"],
-  "relatedTopicIds": ["purification", "prayer", "new-muslim-basics"],
-  "sourceIds": ["new-muslim-guide", "seekersguidance"],
-  "reviewStatus": "review-needed"
+  "relatedGlossaryIds": [
+    "ghusl",
+    "wudu",
+    "niyyah",
+    "taharah",
+    "tayammum"
+  ],
+  "relatedTopicIds": [
+    "purification",
+    "prayer",
+    "new-muslim-basics"
+  ],
+  "sourceIds": [
+    "new-muslim-guide",
+    "seekersguidance"
+  ],
+  "reviewStatus": "review-needed",
+  "relatedLinks": [
+    {
+      "label": "নামাজের আগে ধোয়া (ওযু ও গোসল) টুল",
+      "href": "/tools/wudu-ghusl#convert-ghusl-heading"
+    },
+    {
+      "label": "মাসিক ও ইবাদত",
+      "href": "/topics/menstruation-and-worship"
+    }
+  ]
 }

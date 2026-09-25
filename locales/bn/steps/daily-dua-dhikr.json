@@ -2,7 +2,7 @@
   "id": "daily-dua-dhikr",
   "slug": "daily-dua-dhikr",
   "stageId": "week-1",
-  "title": "প্রতিদিনের সহজ দোয়া আর জিকির শুরু করুন",
+  "title": "প্রতিদিন স্মরণের অভ্যাস (দোয়া ও জিকির)",
   "whyMatters": "বেশি আরবি জানার অনেক আগে থেকেই দোয়া আর জিকির আপনাকে আল্লাহর সাথে যুক্ত রাখে। চাপের সময়, কৃতজ্ঞতার সময় আর একটি সাধারণ দিনের মাঝখানে তাঁকে স্মরণ করার ছোট, সাথে বয়ে বেড়ানো যায় এমন উপায় এগুলো।",
   "exactActions": [
     {
@@ -48,14 +48,33 @@
     "quran-com",
     "new-muslim-academy"
   ],
-  "relatedGlossaryIds": ["dua", "dhikr", "sunnah", "salah"],
-  "relatedTopicIds": ["dua-and-dhikr", "prayer", "new-muslim-basics"],
+  "relatedGlossaryIds": [
+    "dua",
+    "dhikr",
+    "sunnah",
+    "salah"
+  ],
+  "relatedTopicIds": [
+    "dua-and-dhikr",
+    "prayer",
+    "new-muslim-basics"
+  ],
   "commonQuestions": [
     {
       "problem": "আমার কি এখনই অনেক দোয়া মুখস্থ করা উচিত?",
       "solution": "না। কয়েকটি নির্ভরযোগ্য দোয়া বা জিকির দিয়ে শুরু করুন, সেগুলো বুঝুন, আর ধীরে ধীরে যোগ করুন।"
     }
   ],
-  "sourceIds": ["quran-com", "sunnah-com", "darussalam"],
-  "reviewStatus": "review-needed"
+  "sourceIds": [
+    "quran-com",
+    "sunnah-com",
+    "darussalam"
+  ],
+  "reviewStatus": "review-needed",
+  "relatedLinks": [
+    {
+      "label": "দোয়া ও জিকির",
+      "href": "/dua-dhikr"
+    }
+  ]
 }

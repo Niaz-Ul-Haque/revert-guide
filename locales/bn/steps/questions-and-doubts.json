@@ -39,19 +39,55 @@
     {
       "problem": "অনলাইনের উত্তরগুলো একটি আরেকটির বিরোধী",
       "solution": "এমন প্রায়ই হয়। একজন যোগ্য শিক্ষককে জিজ্ঞেস করুন কোন উত্তরটি আপনার জন্য খাটে, আর কোন খুঁটিনাটি পরে দেখলেও চলে।"
+    },
+    {
+      "problem": "শুরুর অনুভূতি মিলিয়ে গেছে, আর ভাবছি আমি কখনো আন্তরিক ছিলাম কিনা",
+      "solution": "নবীর সাহাবিরাও এমন অনুভব করেছেন। হানযালা ভয় পেয়েছিলেন যে তিনি মুনাফিক, কারণ ঘরে গেলে তাঁর ঈমানের অনুভূতি মিলিয়ে যেত, আর নবী (সা.) তাঁকে আশ্বস্ত করেছিলেন (Sahih Muslim 2750a)। নামাজ নিস্তেজ লাগলেও ধরে রাখুন, ধরে রাখতে পারবেন এমন একটি ছোট আমল যোগ করুন, আর প্রশ্ন ও সংশয় বিষয়ক পৃষ্ঠায় ঈমান নিস্তেজ লাগলে অংশটি পড়ুন।"
     }
   ],
   "tinyVersion": "একটি প্রশ্ন একটি স্পষ্ট বাক্যে লিখুন, আর উত্তর দিতে পারেন এমন একজনকে পাঠান।",
   "unlocksNext": "প্রশ্ন করতে জানলে আপনার ঈমান চাপা পড়ে না, আর স্থির গতিতে জ্ঞান গড়ে তুলতে পারেন।",
-  "resourceIds": ["yaqeen-institute", "seekers-guidance", "new-muslim-academy"],
-  "relatedGlossaryIds": ["iman", "imam", "fitrah", "tawhid"],
-  "relatedTopicIds": ["questions-and-doubts", "beliefs", "new-muslim-basics"],
+  "resourceIds": [
+    "yaqeen-institute",
+    "seekers-guidance",
+    "new-muslim-academy"
+  ],
+  "relatedGlossaryIds": [
+    "iman",
+    "imam",
+    "fitrah",
+    "tawhid"
+  ],
+  "relatedTopicIds": [
+    "questions-and-doubts",
+    "beliefs",
+    "new-muslim-basics"
+  ],
   "commonQuestions": [
     {
       "problem": "সঙ্গে সঙ্গে উত্তর না পেলে কী হবে?",
       "solution": "অপেক্ষার সময় মূল আমলগুলো চালিয়ে যান। নামাজ পড়া, দোয়া করা বা শেখা চালিয়ে যাওয়ার আগে প্রতিটি প্রশ্নের মীমাংসা হতে হবে না।"
     }
   ],
-  "sourceIds": ["yaqeen-institute", "seekersguidance", "new-muslim-academy"],
-  "reviewStatus": "source-checked"
+  "sourceIds": [
+    "yaqeen-institute",
+    "seekersguidance",
+    "new-muslim-academy",
+    "sunnah-muslim-2750a"
+  ],
+  "reviewStatus": "review-needed",
+  "relatedLinks": [
+    {
+      "label": "প্রশ্ন ও উত্তর",
+      "href": "/faq"
+    },
+    {
+      "label": "সাহায্য নিন",
+      "href": "/get-help"
+    },
+    {
+      "label": "কীভাবে সাহায্য চাইবেন",
+      "href": "/guides/how-to-ask-for-help"
+    }
+  ]
 }

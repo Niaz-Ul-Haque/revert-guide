@@ -9,6 +9,7 @@
       "text": "পোশাকের আগে উদ্দেশ্য বুঝুন",
       "subSteps": [
         "শালীনতার মধ্যে আছে পোশাক, কথা, দৃষ্টি কোথায় যেতে দেন, আচরণ, আর আপনি নিজেকে কীভাবে বহন করেন।",
+        "ন্যূনতম সীমা জেনে নিন: পুরুষরা নাভি থেকে হাঁটু পর্যন্ত ঢাকেন, আর নারীরা ঘনিষ্ঠ আত্মীয় নন এমন পুরুষদের সামনে মুখ আর হাত ছাড়া সব ঢাকেন। এটি শুধু নামাজে নয়, সারাদিন প্রযোজ্য, আর শালীনতা বিষয়ক পৃষ্ঠায় তা ব্যাখ্যা করা আছে।",
         "পুরো বিষয়টিকে একটি পোশাক বা একটি সংস্কৃতির ধরনে ছোট করে ফেলবেন না।",
         "আপনার অবস্থায় কী খাটে, একজন যোগ্য শিক্ষককে জিজ্ঞেস করুন।"
       ]
@@ -48,14 +49,38 @@
     "seekers-guidance",
     "being-muslim-book"
   ],
-  "relatedGlossaryIds": ["hijab", "halal", "haram"],
-  "relatedTopicIds": ["modesty", "family-and-identity", "halal-living"],
+  "relatedGlossaryIds": [
+    "hijab",
+    "halal",
+    "haram"
+  ],
+  "relatedTopicIds": [
+    "modesty",
+    "family-and-identity",
+    "halal-living"
+  ],
   "contextNotes": [
     {
       "title": "পরিবারের মধ্যে নিরাপত্তা",
       "body": "চোখে দেখা কোনো পরিবর্তন বাড়িতে বিরোধিতা উসকে দিতে পারে মনে হলে তা করার আগে বিশ্বস্ত একজন স্থানীয় মেন্টরের সাথে কথা বলুন।"
     }
   ],
-  "sourceIds": ["new-muslim-guide", "seekersguidance"],
+  "relatedLinks": [
+    {
+      "label": "শালীনতা ও পোশাকের গাইড",
+      "href": "/guides/modesty-and-clothing"
+    },
+    {
+      "label": "কাজ ও পড়াশোনার গাইড",
+      "href": "/guides/work-and-school"
+    }
+  ],
+  "sourceIds": [
+    "new-muslim-guide",
+    "seekersguidance",
+    "seekersguidance-awra-for-men",
+    "seekersguidance-interacting-with-opposite-sex",
+    "quran-24-30-31"
+  ],
   "reviewStatus": "review-needed"
 }

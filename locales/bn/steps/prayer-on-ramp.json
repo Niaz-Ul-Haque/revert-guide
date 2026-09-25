@@ -62,9 +62,22 @@
   ],
   "tinyVersion": "আজ ধরে রাখার জন্য একটি নামাজ বেছে নিন, পাশে একটি গাইড খুলে রাখতে হলেও।",
   "unlocksNext": "একবার ঢোকার পথ পেয়ে গেলে পুরো নামাজের ধাপ আর দেয়ালের মতো মনে হয় না।",
-  "resourceIds": ["learn-salah-guide", "pillars-app", "being-muslim-book"],
-  "relatedGlossaryIds": ["salah", "wudu", "qiblah", "al-fatiha"],
-  "relatedTopicIds": ["prayer", "new-muslim-basics", "dua-and-dhikr"],
+  "resourceIds": [
+    "learn-salah-guide",
+    "pillars-app",
+    "being-muslim-book"
+  ],
+  "relatedGlossaryIds": [
+    "salah",
+    "wudu",
+    "qiblah",
+    "al-fatiha"
+  ],
+  "relatedTopicIds": [
+    "prayer",
+    "new-muslim-basics",
+    "dua-and-dhikr"
+  ],
   "commonQuestions": [
     {
       "problem": "গাইড দেখে দেখে কি নামাজ পড়তে পারি?",
@@ -93,7 +106,27 @@
       "title": "এক রাকাতের প্রতিটি বাক্য",
       "channel": "Islamwise",
       "duration": "10:29",
-      "sourceIds": ["video-islamwise-rakah-recap"]
+      "sourceIds": [
+        "video-islamwise-rakah-recap"
+      ]
+    }
+  ],
+  "relatedLinks": [
+    {
+      "label": "বিরতির পর ফিরে আসা",
+      "href": "/guides/coming-back"
+    },
+    {
+      "label": "নামাজ শিখুন (সালাহ): নামাজের সঙ্গী",
+      "href": "/tools/salah-companion"
+    },
+    {
+      "label": "নামাজের সময়",
+      "href": "/prayer-times"
+    },
+    {
+      "label": "কাজ ও পড়াশোনার গাইড",
+      "href": "/guides/work-and-school"
     }
   ]
 }
