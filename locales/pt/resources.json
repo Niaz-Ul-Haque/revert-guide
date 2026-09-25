@@ -1,475 +1,289 @@
 [
   {
     "id": "clear-quran-translation",
-    "title": "The Clear Quran by Dr. Mustafa Khattab",
-    "type": "book",
-    "url": "https://www.theclearquran.org/",
-    "description": "Uma tradução legível e moderna para o inglês do significado do Alcorão, com linguagem clara para iniciantes.",
-    "relatedStepIds": ["quran"],
-    "relatedTopicIds": ["quran", "prophet-muhammad"],
-    "organization": "The Clear Quran",
-    "bestFor": "Lendo os significados do Alcorão em inglês claro",
-    "trustNote": "Use as traduções como significados, não como um substituto para o Alcorão árabe.",
-    "sourceIds": ["clear-quran"],
-    "reviewStatus": "source-checked"
+    "title": "The Clear Quran, do Dr. Mustafa Khattab",
+    "description": "Uma tradução moderna do sentido do Alcorão para o inglês, escrita numa linguagem simples que um leitor de primeira viagem consegue acompanhar.",
+    "bestFor": "Ler os sentidos do Alcorão num inglês claro",
+    "trustNote": "Use as traduções como sentidos, não como substitutas do Alcorão em árabe."
   },
   {
     "id": "welcome-to-islam-book",
-    "title": "Welcome to Islam",
-    "type": "community",
-    "url": "https://welcometoislam.net/",
-    "description": "Um novo site de apoio muçulmano com aprendizagem introdutória e material prático para os próximos passos.",
-    "relatedStepIds": ["shahada", "first-24-hours", "prayer-on-ramp"],
-    "relatedTopicIds": ["new-muslim-basics", "beliefs"],
-    "organization": "Welcome to Islam",
-    "bestFor": "Primeira orientação após Shahada",
-    "trustNote": "A atribuição do livro anterior não era clara, então agora aponta para o site oficial identificável.",
-    "sourceIds": ["welcome-to-islam"],
-    "reviewStatus": "source-checked"
+    "title": "Welcome to Islam: A Step-by-Step Guide for New Muslims",
+    "description": "Um guia curto de Mustafa Umar para o seu primeiro mês como muçulmano, com o básico e as dificuldades que novos muçulmanos costumam enfrentar.",
+    "bestFor": "Seus primeiros dias e semanas depois da Shahada",
+    "trustNote": "32 páginas, gratuito para ler online. O autor é imã e membro do Fiqh Council of North America."
   },
   {
     "id": "quran-com",
     "title": "Quran.com",
-    "type": "app",
-    "url": "https://quran.com/",
-    "description": "Acesso gratuito ao Alcorão na web e em dispositivos móveis com traduções, transliteração e recitação de áudio.",
-    "relatedStepIds": ["quran", "daily-dua-dhikr"],
-    "relatedTopicIds": ["quran", "dua-and-dhikr"],
-    "organization": "Quran Foundation",
+    "description": "Acesso gratuito ao Alcorão na web e no celular, com traduções, transliteração e recitação em áudio.",
     "bestFor": "Ouvir, ler e comparar traduções",
-    "trustNote": "Útil para links de estudo; o texto da tradução ainda deve ser rotulado como significado.",
-    "sourceIds": ["quran-com"],
-    "reviewStatus": "source-checked"
+    "trustNote": "Mantido pela Quran.Foundation, uma organização sem fins lucrativos, sem anúncios. Você não precisa de conta. O site usa o Google Analytics."
   },
   {
     "id": "new-muslim-academy",
     "title": "New Muslim Academy",
-    "type": "article",
-    "url": "https://www.newmuslimacademy.org/",
-    "description": "Educação focada no iniciante, projetada especificamente para pessoas que ingressaram recentemente no Islã.",
-    "relatedStepIds": [
-      "first-24-hours",
-      "questions-and-doubts",
-      "asking-an-imam"
-    ],
-    "relatedTopicIds": ["new-muslim-basics", "questions-and-doubts"],
-    "organization": "New Muslim Academy",
-    "bestFor": "Aprendizagem estruturada para iniciantes",
-    "trustNote": "Bom para fundações; peça decisões pessoais a professores qualificados.",
-    "sourceIds": ["new-muslim-academy"],
-    "reviewStatus": "source-checked"
+    "description": "Cursos e artigos para iniciantes escritos especificamente para quem se tornou muçulmano há pouco tempo.",
+    "bestFor": "Aprendizado estruturado para iniciantes",
+    "trustNote": "Bom para a base. Leve decisões pessoais a um professor qualificado."
   },
   {
     "id": "yaqeen-institute",
     "title": "Yaqeen Institute for Islamic Research",
-    "type": "video",
-    "url": "https://yaqeeninstitute.org/",
-    "description": "Artigos, vídeos e infográficos baseados em pesquisas sobre questões de fé, espiritualidade e questões contemporâneas.",
-    "relatedStepIds": ["knowledge", "questions-and-doubts"],
-    "relatedTopicIds": ["beliefs", "questions-and-doubts", "prophet-muhammad"],
-    "organization": "Yaqeen Institute",
+    "description": "Artigos, vídeos e infográficos que respondem a perguntas de fé, dúvidas e questões de espiritualidade com pesquisa e fontes.",
     "bestFor": "Perguntas de fé e reflexão mais profunda",
-    "trustNote": "Útil para aprender o contexto sem transformar o Islã inicial em uma sobrecarga de debate.",
-    "sourceIds": ["yaqeen-institute"],
-    "reviewStatus": "source-checked"
+    "trustNote": "Útil para aprender o contexto sem transformar o começo no Islã numa sobrecarga de debates."
   },
   {
     "id": "bayyinah-tv",
     "title": "Bayyinah TV",
-    "type": "video",
-    "url": "https://www.bayyinah.tv/",
-    "description": "Cursos de Alcorão e Árabe projetados para alunos de vários níveis, incluindo iniciantes.",
-    "relatedStepIds": ["quran", "knowledge"],
-    "relatedTopicIds": ["quran"],
-    "organization": "Bayyinah",
-    "bestFor": "Motivação da linguagem do Alcorão",
-    "trustNote": "Use como auxílio de aprendizagem junto com professores locais, quando possível.",
-    "sourceIds": ["bayyinah"],
-    "reviewStatus": "source-checked"
+    "description": "Cursos de Alcorão e árabe que começam pelo alfabeto, então um iniciante completo consegue usá-los.",
+    "bestFor": "Motivação para a língua do Alcorão",
+    "trustNote": "Assinatura paga (11 dólares por mês quando conferido em 23 de setembro de 2026). Você pode pedir uma assinatura gratuita de um ano se não puder pagar. Use junto com professores locais quando possível."
   },
   {
     "id": "new-muslim-guide-icna",
-    "title": "ICNA New Muslim Support",
-    "type": "community",
-    "url": "https://www.icna.org/",
-    "description": "Uma organização muçulmana norte-americana com educação, divulgação e conexões com a comunidade local.",
-    "relatedStepIds": ["community", "first-masjid-visit", "asking-an-imam"],
-    "relatedTopicIds": ["community", "masjid-and-community"],
-    "organization": "Islamic Circle of North America",
-    "bestFor": "Encontrando apoio comunitário na América do Norte",
-    "trustNote": "Os programas locais variam, portanto, confirme os detalhes com o capítulo ou masjid mais próximo.",
-    "sourceIds": ["icna"],
-    "reviewStatus": "source-checked"
+    "title": "Apoio a novos muçulmanos da ICNA",
+    "description": "Uma organização muçulmana dos Estados Unidos cujo site lista programas para novos muçulmanos, como Embrace, WhyIslam e um encontro regular para convertidos.",
+    "bestFor": "Encontrar apoio da comunidade na América do Norte",
+    "trustNote": "As páginas focam nos Estados Unidos. Para programas no Canadá, pergunte na mesquita mais próxima."
   },
   {
     "id": "whyislam",
     "title": "WhyIslam",
-    "type": "community",
-    "url": "https://www.whyislam.org/",
-    "description": "Recursos introdutórios ao Islã, conversas individuais e novo material de apoio muçulmano.",
-    "relatedStepIds": ["shahada", "first-24-hours", "family-and-friends"],
-    "relatedTopicIds": [
-      "beliefs",
-      "community",
-      "new-muslim-basics",
-      "family-and-identity"
-    ],
-    "organization": "WhyIslam",
-    "bestFor": "Explicações simples para você ou familiares",
-    "trustNote": "Útil para educação pública suave e primeiras perguntas.",
-    "sourceIds": ["whyislam"],
-    "reviewStatus": "source-checked"
+    "description": "Introduções simples ao Islã, conversas individuais e material de apoio para novos muçulmanos.",
+    "bestFor": "Explicações simples para você ou para a família",
+    "trustNote": "Útil para uma educação pública tranquila e para as primeiras perguntas."
   },
   {
     "id": "learn-salah-guide",
-    "title": "New Muslim Guide - Prayer",
-    "type": "article",
-    "url": "https://newmuslimguide.com/en/categories/your-prayer",
-    "description": "Explicações de oração para iniciantes, incluindo preparação, momentos de oração e noções básicas de aprendizagem.",
-    "relatedStepIds": ["prayer", "prayer-on-ramp", "first-jumuah"],
-    "relatedTopicIds": ["prayer", "purification"],
-    "organization": "New Muslim Guide",
-    "bestFor": "Aprendendo o básico da oração passo a passo",
-    "trustNote": "Podem existir diferenças de opinião; use-o como um guia para iniciantes e peça detalhes localmente.",
-    "sourceIds": ["new-muslim-guide"],
-    "reviewStatus": "source-checked"
+    "title": "New Muslim Guide: oração",
+    "description": "Explicações para iniciantes sobre a oração: como se preparar, quando cada oração acontece e o que aprender primeiro.",
+    "bestFor": "Aprender o básico da oração passo a passo",
+    "trustNote": "Os estudiosos divergem em alguns detalhes. Use como guia para iniciantes e pergunte na sua região sobre o resto."
   },
   {
     "id": "new-muslim-guide-site",
     "title": "New Muslim Guide",
-    "type": "article",
-    "url": "https://newmuslimguide.com/en",
-    "description": "Um amplo guia on-line que cobre adoração, crenças, costumes e fundamentos da vida cotidiana.",
-    "relatedStepIds": [
-      "shahada",
-      "ghusl",
-      "prayer",
-      "halal-eating-practical",
-      "modesty-and-clothing"
-    ],
-    "relatedTopicIds": [
-      "beliefs",
-      "purification",
-      "prayer",
-      "halal-living",
-      "modesty"
-    ],
-    "organization": "New Muslim Guide",
-    "bestFor": "Referência completa para iniciantes",
-    "trustNote": "Melhor usado para fundações, não como fonte de fatwa personalizada.",
-    "sourceIds": ["new-muslim-guide"],
-    "reviewStatus": "source-checked"
+    "description": "Um guia online amplo que cobre a adoração, as crenças, as boas maneiras e o básico do dia a dia.",
+    "bestFor": "Uma referência completa para iniciantes",
+    "trustNote": "Melhor para a base, não como fonte de fatwa personalizada."
   },
   {
     "id": "quran-recitation-mishary",
-    "title": "Quran Recitation by Mishary Rashid Alafasy",
-    "type": "video",
-    "url": "https://quran.com/reciters/7",
-    "description": "Recitação clara do Alcorão, útil para praticar a audição e familiarizar-se com o som do Alcorão.",
-    "relatedStepIds": ["quran"],
-    "relatedTopicIds": ["quran"],
-    "organization": "Quran.com",
-    "bestFor": "Exposição de audição e pronúncia",
-    "trustNote": "Ouça devagar e combine a recitação com um professor ao aprender a recitar.",
-    "sourceIds": ["quran-com"],
-    "reviewStatus": "source-checked"
+    "title": "Recitação do Alcorão por Mishary Rashid Alafasy",
+    "description": "Uma recitação clara e sem pressa para ouvir enquanto você se acostuma com o som do Alcorão.",
+    "bestFor": "Ouvir e se familiarizar com a pronúncia",
+    "trustNote": "Ouça com calma e combine a recitação com um professor quando estiver aprendendo a recitar."
   },
   {
     "id": "ramadan-guide-yaqeen",
-    "title": "Ramadan Resources by Yaqeen Institute",
-    "type": "article",
-    "url": "https://yaqeeninstitute.org/ramadan",
-    "description": "Artigos do Ramadã, reflexões espirituais e lembretes práticos para adoração e preparação.",
-    "relatedStepIds": ["fasting"],
-    "relatedTopicIds": ["fasting"],
-    "organization": "Yaqeen Institute",
-    "bestFor": "Preparando-se espiritualmente para o Ramadã",
-    "trustNote": "As exceções de jejum pessoal devem ser analisadas com um estudioso local qualificado.",
-    "sourceIds": ["yaqeen-institute"],
-    "reviewStatus": "source-checked"
+    "title": "Recursos do Yaqeen Institute para o Ramadã",
+    "description": "Artigos e reflexões sobre o Ramadã, com lembretes práticos para se preparar e manter a adoração.",
+    "bestFor": "Preparar-se espiritualmente para o Ramadã",
+    "trustNote": "Exceções pessoais ao jejum devem ser analisadas com um estudioso qualificado da sua região."
   },
   {
     "id": "khalil-center",
-    "title": "Khalil Center - Muslim Mental Health",
-    "type": "community",
-    "url": "https://khalilcenter.com/",
-    "description": "Terapia sensível à fé e serviços de apoio para muçulmanos.",
-    "relatedStepIds": ["community", "family-and-friends"],
-    "relatedTopicIds": ["community", "family-and-identity"],
-    "organization": "Khalil Center",
-    "bestFor": "Apoio à saúde mental sensível à fé",
-    "trustNote": "Isto não é atendimento de emergência; use serviços de crise se houver perigo imediato.",
-    "sourceIds": ["khalil-center"],
-    "reviewStatus": "source-checked"
+    "title": "Khalil Center: saúde mental muçulmana",
+    "description": "Terapia e serviços de apoio para muçulmanos, com profissionais que levam a sério o lado da fé.",
+    "bestFor": "Apoio em saúde mental que respeita a fé",
+    "trustNote": "Não é atendimento de emergência. Se houver perigo imediato, use os serviços de crise."
+  },
+  {
+    "id": "becoming-muslim-report",
+    "title": "Becoming Muslim: The Lives of American Converts to Islam",
+    "description": "Um relatório de 2025 do Yaqeen Institute baseado numa pesquisa com 618 convertidos nos Estados Unidos. Ele mostra o que os ajudou depois da conversão, como mesquitas, imãs e amigos muçulmanos, e por que o apoio precisa continuar muito depois dos primeiros meses.",
+    "bestFor": "Ver como outros convertidos se adaptaram e que apoio acharam útil",
+    "trustNote": "Um relatório de pesquisa sobre convertidos nos Estados Unidos, não um guia de saúde mental. Numa crise ou num sofrimento contínuo, procure ajuda clínica."
   },
   {
     "id": "seekers-guidance",
     "title": "SeekersGuidance",
-    "type": "article",
-    "url": "https://seekersguidance.org/",
-    "description": "Cursos gratuitos e perguntas e respostas sobre ciências islâmicas ministrados por acadêmicos qualificados.",
-    "relatedStepIds": [
-      "knowledge",
-      "prayer",
-      "asking-an-imam",
-      "questions-and-doubts"
-    ],
-    "relatedTopicIds": ["beliefs", "prayer", "questions-and-doubts", "modesty"],
-    "organization": "SeekersGuidance",
-    "bestFor": "Aprendendo com professores qualificados",
-    "trustNote": "Bom para conhecimento estruturado; pergunte localmente sobre suas circunstâncias exatas.",
-    "sourceIds": ["seekersguidance"],
-    "reviewStatus": "source-checked"
+    "description": "Cursos gratuitos e um serviço de perguntas e respostas sobre as ciências islâmicas, com estudiosos qualificados.",
+    "bestFor": "Aprender com professores qualificados",
+    "trustNote": "Bom para um conhecimento estruturado. Pergunte na sua região sobre as suas circunstâncias."
   },
   {
     "id": "being-muslim-book",
-    "title": "Being Muslim: A Practical Guide by Asad Tarsin",
-    "type": "book",
-    "url": "https://www.sandalapress.com/being-muslim",
-    "description": "Um manual prático que cobre adoração, espiritualidade e vida comunitária para muçulmanos novos e antigos.",
-    "relatedStepIds": [
-      "prayer",
-      "fasting",
-      "knowledge",
-      "modesty-and-clothing"
-    ],
-    "relatedTopicIds": ["beliefs", "prayer", "fasting", "new-muslim-basics"],
-    "organization": "Sandala Press",
-    "bestFor": "Um livro físico calmo para fundações",
-    "trustNote": "Use como educação geral e combine-o com um professor local para perguntas pessoais.",
-    "sourceIds": ["sandala-press"],
-    "reviewStatus": "source-checked"
+    "title": "Being Muslim: A Practical Guide",
+    "description": "Um manual prático sobre adoração, espiritualidade e vida em comunidade, escrito para muçulmanos novos e para quem está voltando à prática.",
+    "bestFor": "Um livro físico tranquilo para a base",
+    "trustNote": "Use como educação geral e combine com um professor local para perguntas pessoais."
   },
   {
     "id": "halal-living-guide",
-    "title": "New Muslim Guide - Food and Drink",
-    "type": "article",
-    "url": "https://newmuslimguide.com/en/categories/your-food-and-drink",
-    "description": "Orientações claras para iniciantes sobre comida halal, alimentação fora de casa, ingredientes e como evitar verificações excessivas obsessivas.",
-    "relatedStepIds": ["halal-haram", "halal-eating-practical"],
-    "relatedTopicIds": ["halal-living"],
-    "organization": "New Muslim Guide",
-    "bestFor": "Noções básicas de mercearia e restaurante",
-    "trustNote": "Os detalhes dos ingredientes e da certificação variam de acordo com o país; pergunte localmente quando não tiver certeza.",
-    "sourceIds": ["new-muslim-guide-food-drink"],
-    "reviewStatus": "source-checked"
+    "title": "New Muslim Guide: comida e bebida",
+    "description": "Orientações para iniciantes sobre comida halal: ler ingredientes, comer fora e saber quando você já conferiu o suficiente.",
+    "bestFor": "O básico de mercado e restaurante",
+    "trustNote": "Os detalhes de ingredientes e certificação variam conforme o país, então pergunte na sua região quando tiver dúvida."
   },
   {
     "id": "seerah-podcast",
-    "title": "Seerah Series by Yasir Qadhi",
-    "type": "video",
-    "url": "https://www.youtube.com/playlist?list=PLAEA99D24CA2F9A8F",
-    "description": "Uma série de palestras detalhadas sobre a vida do Profeta Muhammad, que a paz esteja com ele.",
-    "relatedStepIds": ["knowledge"],
-    "relatedTopicIds": ["beliefs", "prophet-muhammad"],
-    "organization": "Yasir Qadhi",
-    "bestFor": "Escuta seerah de formato longo",
-    "trustNote": "Isto é mais profundo do que um recurso da primeira semana; vá devagar.",
-    "sourceIds": [],
-    "reviewStatus": "source-checked"
+    "title": "Série sobre a seerah de Yasir Qadhi",
+    "description": "Uma série longa e detalhada de palestras sobre a vida do Profeta Muhammad, que a paz esteja com ele.",
+    "bestFor": "Ouvir a seerah em formato longo",
+    "trustNote": "Vai mais fundo do que um recurso para a primeira semana. Vá com calma."
   },
   {
     "id": "wudu-tutorial",
-    "title": "New Muslim Guide - Purification",
-    "type": "article",
-    "url": "https://newmuslimguide.com/en/categories/your-purification",
-    "description": "Um guia para iniciantes sobre noções básicas de wudu, ghusl e purificação ritual.",
-    "relatedStepIds": ["ghusl", "prayer"],
-    "relatedTopicIds": ["purification", "prayer"],
-    "organization": "New Muslim Guide",
-    "bestFor": "Aprendendo wudu e ghusl sem pressão de vídeo",
-    "trustNote": "Detalhes delicados devem ser discutidos com um professor de confiança se você não tiver certeza.",
-    "sourceIds": ["new-muslim-guide"],
-    "reviewStatus": "source-checked"
+    "title": "New Muslim Guide: purificação",
+    "description": "Um guia escrito sobre o wudu, o ghusl e o básico da purificação ritual.",
+    "bestFor": "Aprender o wudu e o ghusl sem a pressão de um vídeo",
+    "trustNote": "Detalhes delicados devem ser conversados com um professor de confiança se você tiver dúvida."
   },
   {
     "id": "convert-story-videos",
-    "title": "Convert Stories - The Deen Show",
-    "type": "video",
-    "url": "https://www.youtube.com/c/TheDeenShowTV",
-    "description": "Entrevistas em vídeo com pessoas que abraçaram o Islã, úteis para encorajamento e para se sentirem menos sozinhas.",
-    "relatedStepIds": ["shahada", "community", "family-and-friends"],
-    "relatedTopicIds": ["community", "family-and-identity"],
-    "organization": "The Deen Show",
-    "bestFor": "Encorajamento emocional por meio de histórias",
-    "trustNote": "As histórias são experiências pessoais, não fontes de decisões.",
-    "sourceIds": [],
-    "reviewStatus": "source-checked"
+    "title": "Histórias de convertidos: The Deen Show",
+    "description": "Entrevistas em vídeo com pessoas que se tornaram muçulmanas. Boas para os dias em que você se sente o único.",
+    "bestFor": "Incentivo emocional por meio de histórias",
+    "trustNote": "As histórias são experiências pessoais, não fontes de decisões religiosas."
   },
   {
     "id": "fortress-muslim-dua-book",
-    "title": "Fortress of the Muslim",
-    "type": "book",
-    "url": "https://darussalam.com/fortress-of-the-muslim-pocket-size/",
-    "description": "Uma coleção dua e dhikr amplamente utilizada, extraída de referências do Alcorão e da Sunnah.",
-    "relatedStepIds": ["prayer", "character", "daily-dua-dhikr"],
-    "relatedTopicIds": ["prayer", "dua-and-dhikr"],
-    "organization": "Darussalam",
-    "bestFor": "Referência diária dua e dhikr",
-    "trustNote": "Isso substitui um espelho PDF anônimo por uma página de editor identificável.",
-    "sourceIds": ["darussalam"],
-    "reviewStatus": "source-checked"
+    "title": "Fortaleza do Muçulmano (Fortress of the Muslim)",
+    "description": "Uma coleção muito usada de duas e dhikrs, cada um com a sua fonte no Alcorão ou na suna.",
+    "bestFor": "Referência diária de dua e dhikr",
+    "trustNote": "Substitui uma cópia anônima em PDF por uma página de editora identificável."
   },
   {
     "id": "aboutislam-new-muslims",
-    "title": "AboutIslam - New Muslims",
-    "type": "article",
-    "url": "https://aboutislam.net/reading-islam/new-muslims/",
-    "description": "Artigos e perguntas frequentes para novos muçulmanos que navegam pela fé, identidade, família e comunidade.",
-    "relatedStepIds": ["shahada", "community", "family-and-friends"],
-    "relatedTopicIds": ["beliefs", "community", "family-and-identity"],
-    "organization": "AboutIslam",
+    "title": "AboutIslam: novos muçulmanos",
+    "description": "Artigos curtos e perguntas frequentes para novos muçulmanos que estão lidando com questões de fé, identidade, família e comunidade.",
     "bestFor": "Artigos curtos para iniciantes",
-    "trustNote": "Use como leitura de apoio e confirme decisões detalhadas com estudiosos qualificados.",
-    "sourceIds": ["aboutislam"],
-    "reviewStatus": "source-checked"
+    "trustNote": "Use como leitura de apoio e confirme decisões detalhadas com estudiosos qualificados."
   },
   {
     "id": "tarteel-ai-app",
-    "title": "Tarteel AI - Quran Recitation Helper",
-    "type": "app",
-    "url": "https://www.tarteel.ai/",
-    "description": "Um aplicativo que suporta a memorização e prática de recitação do Alcorão com ferramentas de feedback.",
-    "relatedStepIds": ["quran"],
-    "relatedTopicIds": ["quran"],
-    "organization": "Tarteel AI",
-    "bestFor": "Prática de recitação do Alcorão entre as aulas",
-    "trustNote": "O feedback do aplicativo é um auxílio prático, não um substituto para um professor.",
-    "sourceIds": ["tarteel"],
-    "reviewStatus": "source-checked"
+    "title": "Tarteel AI: ajuda para a recitação do Alcorão",
+    "description": "Um aplicativo que ouve enquanto você recita e aponta onde você errou, para treinar a memorização e a recitação.",
+    "bestFor": "Praticar a recitação do Alcorão entre as aulas",
+    "trustNote": "O retorno do aplicativo é uma ajuda para praticar, não substitui um professor. A política de privacidade do Tarteel (atualizada pela última vez em 26 de maio de 2023) diz que as gravações de voz são guardadas nos Estados Unidos e usadas para treinar a sua IA, algumas são ouvidas por pessoas, e o aplicativo usa ferramentas de análise e cookies do Google. Usuários gratuitos podem apagar as gravações; só usuários Premium podem recusar o uso no treino da IA. Leia a política antes de gravar."
   },
   {
     "id": "purification-fiqh-guide",
-    "title": "New Muslim Guide - Purification",
-    "type": "article",
-    "url": "https://newmuslimguide.com/en/categories/your-purification",
-    "description": "Explicações passo a passo sobre wudu, ghusl e purificação para iniciantes.",
-    "relatedStepIds": ["ghusl"],
-    "relatedTopicIds": ["purification"],
-    "organization": "New Muslim Guide",
-    "bestFor": "Noções básicas de purificação",
-    "trustNote": "Existem diferenças de opinião em alguns detalhes, por isso pergunte localmente sobre casos pessoais.",
-    "sourceIds": ["new-muslim-guide"],
-    "reviewStatus": "source-checked"
+    "title": "New Muslim Guide: purificação",
+    "description": "Explicações passo a passo sobre o wudu, o ghusl e as regras mais amplas de pureza, escritas para iniciantes.",
+    "bestFor": "O básico da purificação",
+    "trustNote": "Há divergências de opinião em alguns detalhes, então pergunte na sua região sobre casos pessoais."
   },
   {
     "id": "naseeha-mental-health",
-    "title": "Naseeha Mental Health",
-    "type": "community",
-    "url": "https://www.naseeha.org/",
-    "description": "Uma linha de ajuda e organização de apoio à saúde mental muçulmana para pessoas que precisam de alguém com quem conversar.",
-    "relatedStepIds": [
-      "community",
-      "family-and-friends",
-      "questions-and-doubts"
-    ],
-    "relatedTopicIds": [
-      "community",
-      "family-and-identity",
-      "questions-and-doubts"
-    ],
-    "organization": "Naseeha",
-    "bestFor": "Apoio à saúde mental muçulmana e encaminhamento de linhas de apoio",
-    "trustNote": "Utilize imediatamente os serviços de emergência ou linhas de crise se houver perigo ou risco de automutilação.",
-    "sourceIds": ["naseeha"],
-    "reviewStatus": "source-checked"
+    "title": "Linha de apoio Naseeha",
+    "description": "Uma linha de apoio 24 horas para jovens muçulmanos no Canadá, mantida pela Naseeha Mental Health, para quando você precisar conversar com alguém.",
+    "bestFor": "Apoio muçulmano em saúde mental e encaminhamento por linha de apoio",
+    "trustNote": "Use imediatamente os serviços de emergência ou as linhas de crise se houver perigo ou risco de autolesão."
   },
   {
     "id": "launchgood-zakat-policy",
-    "title": "LaunchGood Zakat Policy",
-    "type": "article",
-    "url": "https://www.launchgood.com/zakatpolicy",
-    "description": "Um exemplo de política pública do zakat que explica como uma plataforma de doação trata as campanhas elegíveis para o zakat.",
-    "relatedStepIds": ["zakat-hajj"],
-    "relatedTopicIds": ["halal-living"],
-    "organization": "LaunchGood",
-    "bestFor": "Vendo como uma plataforma documenta a elegibilidade do zakat",
-    "trustNote": "As políticas da plataforma não substituem a revisão pessoal do fiqh para suas próprias finanças.",
-    "sourceIds": ["launchgood-zakat"],
-    "reviewStatus": "review-needed"
+    "title": "Política de zakat da LaunchGood",
+    "description": "A política publicada por uma plataforma de doações sobre quais campanhas podem receber zakat, e por quê.",
+    "bestFor": "Ver como uma plataforma documenta o que pode receber zakat",
+    "trustNote": "As políticas das plataformas não substituem uma análise pessoal de fiqh sobre as suas finanças."
   },
   {
     "id": "yaqeen-dhul-hijjah-resources",
-    "title": "Yaqeen Institute - Dhul Hijjah Resources",
-    "type": "article",
-    "url": "https://yaqeeninstitute.org/series/dhul-hijjah-playlist",
-    "description": "Uma coleção selecionada de Dhul Hijjah com reflexões, lembretes e ideias de adoração para iniciantes.",
-    "relatedStepIds": ["fasting", "zakat-hajj"],
-    "relatedTopicIds": ["fasting", "prophet-muhammad"],
-    "organization": "Yaqeen Institute",
-    "bestFor": "Preparando-se para os primeiros dez dias de Dhul Hijjah",
-    "trustNote": "Use-o para preparação espiritual e pergunte a uma pessoa qualificada sobre decisões pessoais.",
-    "sourceIds": ["yaqeen-dhul-hijjah"],
-    "reviewStatus": "source-checked"
+    "title": "Yaqeen Institute: recursos para Dhul Hijjah",
+    "description": "Uma coleção de reflexões e lembretes para Dhul Hijjah, com ideias simples de adoração para os primeiros dez dias.",
+    "bestFor": "Preparar-se para os primeiros dez dias de Dhul Hijjah",
+    "trustNote": "Use para a preparação espiritual e pergunte a uma pessoa qualificada sobre decisões pessoais."
   },
   {
     "id": "nusuk-hajj-official",
-    "title": "Nusuk Hajj Official Platform",
-    "type": "app",
-    "url": "https://hajj.nusuk.sa/",
-    "description": "Plataforma oficial do Hajj sob a supervisão do Ministério Saudita do Hajj e Umrah para peregrinos elegíveis.",
-    "relatedStepIds": ["zakat-hajj"],
-    "relatedTopicIds": ["halal-living"],
-    "organization": "Nusuk Hajj / Ministry of Hajj and Umrah",
-    "bestFor": "Verificando o registro oficial do Hajj e as rotas de viagem",
-    "trustNote": "As regras de viagem do Hajj mudam; confirme os requisitos atuais através de fontes oficiais antes de gastar dinheiro.",
-    "sourceIds": ["nusuk-hajj", "travel-state-hajj-umrah"],
-    "reviewStatus": "source-checked"
+    "title": "Plataforma oficial Nusuk Hajj",
+    "description": "A plataforma oficial saudita do hajj, sob o Ministério do Hajj e da Umrah, onde peregrinos dos países atendidos escolhem pacotes de fornecedores autorizados.",
+    "bestFor": "Conferir a inscrição oficial do hajj e o encaminhamento da viagem",
+    "trustNote": "Confira se a Nusuk atende o Canadá no ano que você planeja e leia antes os avisos de viagem do Governo do Canadá para a Arábia Saudita. Inscrever-se não garante uma vaga no hajj."
   },
   {
     "id": "new-muslim-academy-quran-etiquette",
-    "title": "New Muslim Academy - Quran Etiquette",
-    "type": "article",
-    "url": "https://www.newmuslimacademy.org/etiquettes-of-touching-reading-the-quran-in-arabic-written-form/",
-    "description": "Orientação para iniciantes sobre como respeitar o mushaf, ler traduções e aprender a etiqueta do Alcorão sem pânico.",
-    "relatedStepIds": ["quran"],
-    "relatedTopicIds": ["quran"],
-    "organization": "New Muslim Academy",
-    "bestFor": "Noções básicas de manuseio respeitoso do Alcorão",
-    "trustNote": "Questões detalhadas sobre pureza ainda devem ser analisadas com um professor local qualificado.",
-    "sourceIds": ["new-muslim-academy-quran-etiquette"],
-    "reviewStatus": "review-needed"
+    "title": "New Muslim Academy: etiqueta com o Alcorão",
+    "description": "Orientações sobre como manusear o mushaf, ler traduções e a etiqueta com o Alcorão, escritas para você não entrar em pânico com medo de errar.",
+    "bestFor": "O básico do manuseio respeitoso do Alcorão",
+    "trustNote": "Perguntas detalhadas sobre pureza ainda devem ser analisadas com um professor qualificado da sua região."
   },
   {
     "id": "yaqeen-seerah-collection",
-    "title": "Yaqeen Institute - Life of the Prophet",
-    "type": "video",
-    "url": "https://yaqeeninstitute.org/topic/life-of-the-prophet-seerah?filter=videos",
-    "description": "Uma grande coleção de personagens seerah e proféticos de um instituto de educação islâmica identificável.",
-    "relatedStepIds": ["knowledge", "character"],
-    "relatedTopicIds": ["prophet-muhammad", "character"],
-    "organization": "Yaqeen Institute",
-    "bestFor": "Escuta seerah gradual e reflexão do caráter",
-    "trustNote": "Use devagar; os iniciantes não precisam consumir longas séries de uma só vez.",
-    "sourceIds": ["yaqeen-seerah"],
-    "reviewStatus": "source-checked"
+    "title": "Yaqeen Institute: a vida do Profeta",
+    "description": "Um grande conjunto de vídeos e artigos sobre a vida e o caráter do Profeta, de um instituto de pesquisa identificado.",
+    "bestFor": "Ouvir a seerah aos poucos e refletir sobre o caráter",
+    "trustNote": "Vá com calma. Não é preciso atravessar uma série longa de uma vez."
   },
   {
     "id": "seekersguidance-seerah",
-    "title": "SeekersGuidance - Study the Life of the Prophet",
-    "type": "article",
-    "url": "https://seekersguidance.org/articles/general-artices/life-of-the-prophet/",
-    "description": "Uma breve orientação para aprender seerah através de cursos estruturados e professores confiáveis.",
-    "relatedStepIds": ["knowledge"],
-    "relatedTopicIds": ["prophet-muhammad"],
-    "organization": "SeekersGuidance",
-    "bestFor": "Encontrando um estudo seerah estruturado",
-    "trustNote": "Bom para caminhos de aprendizagem; pergunte a professores qualificados sobre questões religiosas pessoais.",
-    "sourceIds": ["seekersguidance-seerah"],
-    "reviewStatus": "source-checked"
+    "title": "SeekersGuidance: estude a vida do Profeta",
+    "description": "Um texto curto sobre como estudar a seerah do jeito certo, com cursos estruturados e professores confiáveis.",
+    "bestFor": "Encontrar um estudo estruturado da seerah",
+    "trustNote": "Bom para caminhos de estudo estruturados. Leve perguntas religiosas pessoais a um professor qualificado."
   },
   {
     "id": "new-muslim-academy-prophet-example",
-    "title": "New Muslim Academy - Following the Messenger",
-    "type": "article",
-    "url": "https://www.newmuslimacademy.org/the-messenger-muhammad-following-his-example/",
+    "title": "New Muslim Academy: seguir o Mensageiro",
     "description": "Uma introdução para iniciantes sobre por que os muçulmanos seguem o exemplo do Profeta Muhammad, que a paz esteja com ele.",
-    "relatedStepIds": ["knowledge", "character"],
-    "relatedTopicIds": ["prophet-muhammad", "new-muslim-basics"],
-    "organization": "New Muslim Academy",
-    "bestFor": "Nova orientação muçulmana ao exemplo do Profeta",
-    "trustNote": "Use como enquadramento para iniciantes e continue com professores qualificados para uma seerah mais profunda.",
-    "sourceIds": ["new-muslim-academy-prophet-example"],
-    "reviewStatus": "source-checked"
+    "bestFor": "Orientação para novos muçulmanos sobre o exemplo do Profeta",
+    "trustNote": "Use como introdução e continue com professores qualificados para uma seerah mais profunda."
+  },
+  {
+    "id": "quran-com-al-fatihah-plan",
+    "title": "Sete dias, sete versículos (Al-Fatihah)",
+    "description": "Um versículo da Al-Fatihah por dia durante uma semana, palavra por palavra e com o sentido, em aulas de menos de dez minutos.",
+    "bestFor": "Entender o que você diz em toda oração",
+    "trustNote": "Gratuito e pode ser lido sem conta. Aulas do Shaykh Hammad Fahim."
+  },
+  {
+    "id": "new-muslim-academy-quran-classes",
+    "title": "Aulas de Alcorão ao vivo da New Muslim Academy",
+    "description": "Aulas gratuitas online em grupos pequenos sobre a recitação da Al-Fatihah e das suratas curtas, à noite, no horário do Leste.",
+    "bestFor": "Aprender a recitar com um professor ao vivo",
+    "trustNote": "Irmãos e irmãs têm aulas separadas. Você preenche um formulário de inscrição, e o site usa ferramentas de análise e um pixel de publicidade."
+  },
+  {
+    "id": "seekersguidance-essentials-course",
+    "title": "Essentials of Faith, Worship, and Spirituality",
+    "description": "Um curso gratuito ao vivo de nível um sobre o básico da crença, da adoração e da espiritualidade, aos sábados às 10h, horário do Leste.",
+    "bestFor": "Um primeiro curso estruturado, depois de um ou dois meses",
+    "trustNote": "Ministrado pelo Shaykh Faraz Rabbani. A SeekersGuidance diz que todos os seus cursos são gratuitos."
+  },
+  {
+    "id": "yaqeen-quran-30-for-30",
+    "title": "Qur'an 30 for 30: tafsir temático",
+    "description": "Um e-book gratuito com uma visão geral curta de cada uma das 30 partes do Alcorão.",
+    "bestFor": "Ver o panorama do Alcorão",
+    "trustNote": "Do Dr. Omar Suleiman e do Sh. Ismail Kamdar. Download gratuito."
+  },
+  {
+    "id": "mac-elearning",
+    "title": "MAC eLearning",
+    "description": "Cursos online gratuitos da Muslim Association of Canada sobre o Alcorão, as ciências islâmicas, família e história.",
+    "bestFor": "Aprofundar no seu ritmo depois de seis meses",
+    "trustNote": "Uma instituição beneficente canadense. Confira o nível de cada curso antes de começar."
+  },
+  {
+    "id": "tafsir-ibn-kathir-juz-amma",
+    "title": "Tafsir Ibn Kathir, resumido: a 30ª parte",
+    "description": "Uma explicação clássica das suratas curtas da última parte do Alcorão.",
+    "bestFor": "Para quem quer o sentido clássico das suratas que recita",
+    "trustNote": "Livro impresso pago. Melhor lido com um professor."
+  },
+  {
+    "id": "pillars-app",
+    "title": "Pillars",
+    "description": "Um aplicativo de horários de oração com a Qibla, widgets e vários métodos de cálculo, entre eles o método ISNA que este site usa.",
+    "bestFor": "Lembretes de oração no celular",
+    "trustNote": "Sem anúncios e sem conta. Sua localização fica no seu celular. Usa análises anônimas, que você pode desligar nas configurações."
+  },
+  {
+    "id": "cra-list-of-charities",
+    "title": "Lista de instituições beneficentes da CRA",
+    "description": "A lista da Canada Revenue Agency, onde você pode conferir se uma instituição beneficente está registrada antes de dar zakat ou sadaqah.",
+    "bestFor": "Conferir uma instituição antes de doar",
+    "trustNote": "Lista oficial do Governo do Canadá."
+  },
+  {
+    "id": "cafc-charity-fraud",
+    "title": "Fraude com doações e instituições beneficentes",
+    "description": "Sinais de alerta de golpes de caridade, inclusive pedidos para causas religiosas, e como conferir um número de registro.",
+    "bestFor": "Identificar um pedido falso",
+    "trustNote": "Página oficial do Governo do Canadá."
   }
 ]
