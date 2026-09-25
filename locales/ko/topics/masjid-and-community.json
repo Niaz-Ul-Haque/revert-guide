@@ -18,6 +18,10 @@
     {
       "heading": "건강한 공동체의 신호",
       "content": "건강한 공동체는 이슬람을 더 살아 내기 쉽게 만들어요. 기도, 자비, 정직, 가족 관계, 꾸준한 배움을 격려하는 사람들을 찾으세요. 나를 고립시키거나, 늘 부끄럽게 하거나, 비밀을 요구하거나, 결혼 쪽으로 압박하거나, 자기 문화를 종교의 전부처럼 여기는 사람들은 조심하세요."
+    },
+    {
+      "heading": "모스크는 누가 운영하고, 의견은 어떻게 전하나요",
+      "content": "캐나다의 많은 모스크는 자원봉사자 이사회가 운영하는 등록 자선단체나 비영리 단체예요. 이사회는 보통 연례 회의에서 회원들이 뽑고, 이맘은 기도를 인도하고 가르치도록 이사회가 고용해요. 그래서 이맘이 예산, 건물, 여성 공간의 크기를 혼자 정하는 경우는 드물어요. 운영 방식은 곳마다 다르니, 내 모스크는 어떻게 운영되는지 물어보세요.\n\n모스크가 등록 자선단체라면 캐나다 국세청(Canada Revenue Agency)의 자선단체 목록에서 찾아볼 수 있어요. 목록에는 등록 상태, 연락처, 일반적인 활동, 재정 정보가 나와요.\n\n의견을 전하려면 사무실부터 시작해, 그 문제를 맡은 위원회(많은 모스크에 여성, 청소년, 새 무슬림 위원회가 있어요), 그다음 이사회 순으로 가세요. 서면으로 짧게 쓰고, 제안을 함께 가져가세요. 돕겠다고 나서면 큰 차이를 만들어요. 예를 들면 이렇게요. \"저는 새 무슬림이고 이곳에 오는 게 정말 좋아요. 금요 설교(쿠트바)에 영어 요약을 넣어 주실 수 있을까요? 준비하는 걸 기꺼이 돕고 싶어요.\"\n\n온라인에서 공개적으로 불평하는 것부터 시작하지 않도록 해 보세요. 달라지는 것은 거의 없고, 오히려 문이 닫힐 수 있어요.\n\n어떤 일은 의견 이상의 문제예요. 캐나다 국세청은 자선단체 자금의 오용에 대한 신고를 받지만, 일상적인 분쟁은 다루지 않고 신고한 사람에게 진행 상황을 알려 주지도 않아요. 학대, 위협, 그 밖의 피해는 경찰과 경고 신호 가이드에 나온 경로로 가져가세요. 모스크 운영에 목소리를 내고 싶다면 연례 회의에서 투표하는 회원 제도가 있는지, 어떻게 가입하는지 물어보세요."
     }
   ],
   "relatedStepIds": [
@@ -26,8 +30,30 @@
     "community",
     "asking-an-imam"
   ],
-  "relatedGlossaryIds": ["masjid", "imam", "jumuah", "ummah", "halaqa"],
-  "relatedResourceIds": ["new-muslim-guide-icna", "whyislam"],
-  "sourceIds": ["whyislam", "icna", "new-muslim-guide"],
-  "reviewStatus": "source-checked"
+  "relatedGlossaryIds": [
+    "masjid",
+    "imam",
+    "jumuah",
+    "ummah",
+    "halaqa"
+  ],
+  "relatedResourceIds": [
+    "new-muslim-guide-icna",
+    "whyislam"
+  ],
+  "sourceIds": [
+    "whyislam",
+    "icna",
+    "new-muslim-guide",
+    "cra-charities-listing",
+    "cra-report-suspected-donation-scams-non"
+  ],
+  "reviewStatus": "source-checked",
+  "linkCards": [
+    {
+      "label": "경고 신호와 안전하게 지내기",
+      "href": "/guides/red-flags-and-staying-safe",
+      "body": "학대, 위협, 자선단체 자금 오용을 신고할 곳."
+    }
+  ]
 }

@@ -20,9 +20,21 @@
       "content": "두아와 디크르는 진정한 위로가 되지만, 위기에 처했을 때 전문가의 도움을 대신하지는 않아요. 스스로를 해칠 생각이 들거나, 안전하지 않다고 느끼거나, 일상을 해낼 수 없다면 9-1-1에 전화하거나, 9-8-8로 전화나 문자를 보내거나, 자격을 갖춘 의료인에게 연락하세요. 믿음과 현실적인 도움은 함께 가요."
     }
   ],
-  "relatedStepIds": ["daily-dua-dhikr", "prayer-on-ramp", "prayer"],
-  "relatedGlossaryIds": ["dua", "dhikr", "sunnah", "salah"],
-  "relatedResourceIds": ["fortress-muslim-dua-book", "quran-com"],
+  "relatedStepIds": [
+    "daily-dua-dhikr",
+    "prayer-on-ramp",
+    "prayer"
+  ],
+  "relatedGlossaryIds": [
+    "dua",
+    "dhikr",
+    "sunnah",
+    "salah"
+  ],
+  "relatedResourceIds": [
+    "fortress-muslim-dua-book",
+    "quran-com"
+  ],
   "sourceIds": [
     "quran-com",
     "sunnah-com",
@@ -30,5 +42,12 @@
     "emergency-911-canada",
     "988-canada"
   ],
-  "reviewStatus": "review-needed"
+  "reviewStatus": "review-needed",
+  "linkCards": [
+    {
+      "label": "슬픔과 상실",
+      "href": "/topics/grief-and-loss",
+      "body": "상실을 겪었을 때 할 말과, 세상을 떠난 사람을 위한 두아."
+    }
+  ]
 }
