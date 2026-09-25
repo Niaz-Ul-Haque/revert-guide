@@ -22,6 +22,15 @@ function getLocaleDir(locale: Locale) {
   return path.join(localeRoot, locale);
 }
 
+function resolveLocaleFile(locale: Locale, relativePath: string) {
+  const localizedPath = path.join(getLocaleDir(locale), relativePath);
+  if (fs.existsSync(localizedPath)) {
+    return localizedPath;
+  }
+
+  return path.join(getLocaleDir(DEFAULT_LOCALE), relativePath);
+}
+
 // Top-level keys added to the English file before their translation lands
 // still render, in English, instead of breaking the page.
 function readJsonFile<T>(locale: Locale, relativePath: string): T {
