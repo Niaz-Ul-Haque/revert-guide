@@ -242,7 +242,7 @@
   {
     "id": "jumuah",
     "term": "Jumu'ah",
-    "definition": "Ang sama-samang pagdarasal tuwing Biyernes, na pumapalit sa Dhuhr tuwing Biyernes. May kasama itong sermon, ang khutbah, at ito ang pangunahing lingguhang pagtitipon ng Muslim na komunidad. Ito rin ang pinakamadaling paraan para makakilala ng ibang Muslim na malapit sa iyo."
+    "definition": "Ang sama-samang pagdarasal tuwing Biyernes, na pumapalit sa Dhuhr tuwing Biyernes. May kasama itong sermon, ang khutbah. Obligado ito sa mga lalaking nasa hustong gulang; hindi obligadong dumalo ang kababaihan, mga bata, maysakit at naglalakbay pero malugod silang tinatanggap, at kung dumalo sila, pumapalit ito sa kanilang Dhuhr. Ito rin ang pangunahing lingguhang pagtitipon at ang pinakamadaling paraan para makilala ang ibang Muslim na malapit sa iyo."
   },
   {
     "id": "kaabah",
@@ -543,5 +543,400 @@
     "id": "rahmah",
     "term": "Rahmah",
     "definition": "Awa, habag at mapagmahal na pag-aalaga. Madalas gamitin ng mga Muslim ang salitang ito kapag nagsasalita tungkol sa awa ng Allah at sa maawaing ugaling itinuro ni Propeta Muhammad, sumakanya nawa ang kapayapaan."
+  },
+  {
+    "id": "akhirah",
+    "term": "Akhirah",
+    "definition": "Ang susunod na buhay, pagkatapos ng kamatayan at ng Araw ng Paghuhukom. Bahagi ng pananampalatayang Islam ang paniniwala rito."
+  },
+  {
+    "id": "al-fatiha",
+    "term": "Al-Fatihah",
+    "definition": "Ang Pambungad, ang unang kabanata ng Quran. May pitong talata ito at binibigkas sa bawat yunit (rak'ah) ng bawat pagdarasal, kaya ito ang unang kabanatang natututunan ng karamihan sa mga bagong Muslim."
+  },
+  {
+    "id": "alim",
+    "term": "Alim (alimah)",
+    "definition": "Isang iskolar; ang maramihan nito ay ulama. Sa mga komunidad mula sa Timog Asya, tumutukoy rin ito sa nagtapos ng alim course na tumatagal nang ilang taon; alimah ang tawag sa babae."
+  },
+  {
+    "id": "aqiqah",
+    "term": "Aqiqah",
+    "definition": "Hayop na kinakatay bilang pagdiriwang sa isang bagong silang na sanggol, at ipinamamahagi ang karne. Itanong sa isang guro ang mga detalye para sa batang lalaki at batang babae."
+  },
+  {
+    "id": "ashura",
+    "term": "Ashura",
+    "definition": "Ang ikasampung araw ng Muharram, ang unang buwan ng taong Islamiko. Sunnah ang pag-aayuno rito, at sinabi ng Propeta na pinapawi nito ang mga kasalanan ng nakaraang taon."
+  },
+  {
+    "id": "barzakh",
+    "term": "Barzakh",
+    "definition": "Ang harang o ang pagitang yugto mula sa kamatayan hanggang sa Araw ng Muling Pagkabuhay."
+  },
+  {
+    "id": "bismillah",
+    "term": "Bismillah",
+    "definition": "'Sa ngalan ng Allah.' Sinasabi ito ng mga Muslim bago kumain, bago mag-wudu at bago magsimula ng isang gawain. Ang buong anyo nito, Bismillahir-Rahmanir-Rahim, ang pambungad ng Al-Fatihah."
+  },
+  {
+    "id": "jam",
+    "term": "Pagsasama ng dalawang pagdarasal (jam')",
+    "definition": "Ang pagdarasal ng Dhuhr kasama ang Asr, o ng Maghrib kasama ang Isha, nang magkasunod sa oras ng isa sa mga ito. Pinahihintulutan ito ng paaralang Shafi'i sa paglalakbay, may mga kondisyon; pinahihintulutan lamang ito ng paaralang Hanafi sa Arafah at Muzdalifah sa panahon ng Hajj."
+  },
+  {
+    "id": "daif",
+    "term": "Da'if",
+    "definition": "Mahina: hadith na may problema sa kawing ng mga nagsalaysay o sa teksto nito. Hindi ito ginagamit nang mag-isa para magtakda ng isang hatol."
+  },
+  {
+    "id": "dhul-hijjah",
+    "term": "Dhul-Hijjah",
+    "definition": "Ang ikalabindalawang buwan ng kalendaryong Islamiko. Dito ginagawa ang Hajj, sa ikasampung araw nito pumapatak ang Eid al-Adha, at hinikayat ng Propeta ang pag-aayuno sa Araw ng Arafah, ang ikasiyam na araw nito."
+  },
+  {
+    "id": "dunya",
+    "term": "Dunya",
+    "definition": "Ang mundong ito at ang buhay rito. Buo ang pamumuhay ng mga Muslim dito, nagtatrabaho at tinatamasa ang mabuti, habang inaalala na pansamantala lamang ito."
+  },
+  {
+    "id": "fidyah",
+    "term": "Fidyah",
+    "definition": "Pagpapakain sa isang nangangailangan para sa bawat pag-aayuno sa Ramadan na hindi kayang gawin ng isang tao at hindi rin kayang bayaran sa ibang araw, halimbawa dahil sa katandaan o pangmatagalang sakit. Magkakaiba ang mga paaralan sa mga detalye, kaya itanong sa isang guro ang sarili mong sitwasyon."
+  },
+  {
+    "id": "fiqh",
+    "term": "Fiqh",
+    "definition": "Ang pag-unawa at pag-aaral ng batas Islamiko: kung paano magdasal, mag-ayuno, magbayad ng zakat, mag-asawa, bumili at magbenta. Faqih ang tawag sa iskolar ng fiqh."
+  },
+  {
+    "id": "duha",
+    "term": "Pagdarasal sa kalagitnaan ng umaga (duha)",
+    "definition": "Kusang-loob na pagdarasal na hindi bababa sa dalawang rak'ah sa umaga, pagkatapos sumikat ang araw."
+  },
+  {
+    "id": "hafiz",
+    "term": "Hafiz",
+    "definition": "Taong nakasaulo ng buong Quran. Isa itong karangalan, pero ang hafiz ay hindi kailangang iskolar na makapagbibigay ng mga hatol."
+  },
+  {
+    "id": "halaqa",
+    "term": "Halaqa",
+    "definition": "Isang bilog ng pag-aaral. Umuupo ang isang maliit na grupo kasama ang isang guro, kadalasan sa masjid, para magbasa at mag-usap tungkol sa Quran, hadith o isang aklat. Maraming masjid ang may halaqa para sa mga bagong Muslim."
+  },
+  {
+    "id": "hasan",
+    "term": "Hasan",
+    "definition": "Mabuti: antas ng hadith na kasunod lamang ng sahih. Tinatanggap bilang ebidensya ang hadith na hasan."
+  },
+  {
+    "id": "hawl",
+    "term": "Hawl",
+    "definition": "Isang buong taon ayon sa buwan (lunar). Kailangang magbayad ng zakat sa yamang umaabot o lumalampas sa nisab kapag hawak mo na ito nang isang hawl."
+  },
+  {
+    "id": "hayd",
+    "term": "Hayd",
+    "definition": "Regla, ang buwanang dalaw. Hindi nagdarasal o nag-aayuno ang babae habang may regla, at hindi niya binabayaran ang mga pagdarasal na hindi nagawa."
+  },
+  {
+    "id": "hijri",
+    "term": "Kalendaryong Hijri",
+    "definition": "Ang kalendaryong Islamiko na batay sa buwan (lunar), na may labindalawang buwan, binibilang mula sa paglipat (hijrah) ng Propeta sa Madinah. Nagsisimula ang bawat buwan sa bagong buwan, kaya napapaaga nang mga 11 araw ang Ramadan at Eid bawat taon."
+  },
+  {
+    "id": "honorifics",
+    "term": "Mga pananalitang paggalang (SAW, PBUH, SWT, RA, AS)",
+    "definition": "Maiikling pagpapala na sinasabi o isinusulat ng mga Muslim pagkatapos ng ilang pangalan: sallallahu alayhi wa sallam (sumakanya nawa ang kapayapaan) pagkatapos ng Propeta Muhammad, subhanahu wa ta'ala (luwalhati sa Kanya, ang Kataas-taasan) pagkatapos ng Allah, alayhis-salam (sumakanya nawa ang kapayapaan) pagkatapos ng ibang mga propeta at anghel, at radiyallahu anhu (kalugdan nawa siya ng Allah) pagkatapos ng mga Kasamahan. Ang mga titik ay mga pinaikling anyo ng mga pariralang ito."
+  },
+  {
+    "id": "itikaf",
+    "term": "I'tikaf",
+    "definition": "Pananatili sa masjid nang ilang panahon para sumamba, kadalasan sa huling sampung gabi ng Ramadan. Maraming masjid ang pumapayag na sumali ang mga tao nang isang gabi o ilang oras."
+  },
+  {
+    "id": "iddah",
+    "term": "Iddah",
+    "definition": "Ang panahon ng paghihintay ng isang babae pagkatapos ng diborsyo o ng pagkamatay ng kanyang asawa bago siya muling makapag-asawa. Nakadepende ang haba nito sa sitwasyon, kaya magtanong sa isang kwalipikadong imam."
+  },
+  {
+    "id": "ijazah",
+    "term": "Ijazah",
+    "definition": "Pahintulot na ibinibigay ng guro sa estudyante para magturo o bumigkas ng isang teksto, gaya ng Quran o isang koleksyon ng hadith. Isa itong paraan para matiyak na natuto ang isang guro mula sa isang kwalipikado."
+  },
+  {
+    "id": "ikhlas",
+    "term": "Ikhlas",
+    "definition": "Katapatan ng layunin: paggawa ng pagsamba o mabuting gawa para sa Allah lamang, hindi para makita o purihin ng mga tao. Al-Ikhlas din ang pangalan ng kabanata 112 ng Quran."
+  },
+  {
+    "id": "iqamah",
+    "term": "Iqamah",
+    "definition": "Ang ikalawang panawagan, na sinasabi bago magsimula ang pagdarasal nang sama-sama. Malapit ang mga salita nito sa adhan, at sinasabihan nito ang mga tao na tumayo nang nakahanay."
+  },
+  {
+    "id": "isnad",
+    "term": "Isnad",
+    "definition": "Ang kawing ng mga nagsalaysay na nagdadala ng hadith pabalik sa Propeta. Pangunahing sinusukat ng mga iskolar ang tibay ng isang hadith batay sa isnad nito."
+  },
+  {
+    "id": "isra-and-miraj",
+    "term": "Isra at Mi'raj",
+    "definition": "Ang Paglalakbay sa Gabi: ang paglalakbay ng Propeta sa gabi mula Makkah hanggang Jerusalem (ang Isra) at ang kanyang pag-akyat sa mga langit (ang Mi'raj)."
+  },
+  {
+    "id": "istighfar",
+    "term": "Istighfar",
+    "definition": "Paghingi ng kapatawaran sa Allah, sa pinakasimpleng paraan sa pagsasabi ng astaghfirullah (humihingi ako ng kapatawaran sa Allah). Humihingi ng kapatawaran ang Propeta nang higit sa pitumpung beses sa isang araw, kaya pang-araw-araw na gawi ito, hindi lamang para sa malalaking pagkakamali."
+  },
+  {
+    "id": "istihadah",
+    "term": "Istihadah",
+    "definition": "Pagdurugo sa labas ng karaniwang regla, gaya ng spotting o napakatagal na pagdurugo. Nagdarasal at nag-aayuno pa rin ang babaeng nasa istihadah. Magkakaiba ang mga paaralan sa mga detalye, kaya magtanong sa isang guro."
+  },
+  {
+    "id": "istinja",
+    "term": "Istinja",
+    "definition": "Paglilinis ng sarili gamit ang tubig pagkatapos gumamit ng kubeta. Puwedeng gumamit muna ng toilet paper, at maraming Muslim ang may maliit na bote ng tubig o bidet sa banyo."
+  },
+  {
+    "id": "janabah",
+    "term": "Janabah",
+    "definition": "Ang kalagayan pagkatapos ng pakikipagtalik o ng paglabas ng semilya o likidong sekswal. Kailangan ng taong nasa janabah ang paghuhugas ng buong katawan (ghusl) bago magdasal."
+  },
+  {
+    "id": "juz",
+    "term": "Juz",
+    "definition": "Isa sa 30 halos magkakasinhabang bahagi ng Quran (maramihan: ajza). Kapag nagbasa ka ng isang juz bawat araw, matatapos mo ang Quran sa loob ng isang buwan, kaya ito ginagawa ng maraming tao sa Ramadan."
+  },
+  {
+    "id": "kafan",
+    "term": "Kafan",
+    "definition": "Ang simpleng puting tela na ibinabalot sa isang Muslim para sa paglilibing. Ibinalot ang Propeta sa tatlong puting telang koton."
+  },
+  {
+    "id": "kaffarah",
+    "term": "Kaffarah",
+    "definition": "Pagbabayad-sala: isang takdang gawain para mabayaran ang isang partikular na pagkakamali, gaya ng sadyang paglabag sa isang panunumpa. Para sa panunumpa, itinakda ng Quran ang pagpapakain o pagbibihis sa sampung mahirap, o pag-aayuno nang tatlong araw kung hindi ito kaya."
+  },
+  {
+    "id": "khalwa",
+    "term": "Khalwa",
+    "definition": "Pagiging mag-isa nang pribado kasama ang isang taong kasalungat ang kasarian na hindi mo asawa o mahram. Sinabi ng Propeta na hindi dapat mag-isa ang lalaki kasama ang babae maliban kung may kasamang mahram, kaya kadalasan may kasamang kapamilya o sa pampublikong lugar ginagawa ang mga pagkikita bago ang kasal."
+  },
+  {
+    "id": "khatm",
+    "term": "Khatm",
+    "definition": "Pagtatapos ng buong pagbasa ng Quran mula simula hanggang wakas. Minsan hinahati ito ng mga pamilya at masjid, at isang juz ang binabasa ng bawat tao."
+  },
+  {
+    "id": "khimar",
+    "term": "Khimar",
+    "definition": "Pantakip sa ulo na bumababa hanggang dibdib. Ginagamit ng Quran ang maramihan ng salitang ito nang sabihin nito sa mga babaeng mananampalataya na ilaylay ang kanilang mga pantakip sa kanilang dibdib."
+  },
+  {
+    "id": "khuff",
+    "term": "Khuff",
+    "definition": "Medyas o botang gawa sa katad na puwedeng pahiran sa wudu sa halip na hugasan ang mga paa, kung isinuot ito pagkatapos mag-wudu. Magkakaiba ang mga paaralan kung aling ibang medyas ang kasama rito, kaya magtanong sa isang guro bago ka umasa rito."
+  },
+  {
+    "id": "khula",
+    "term": "Khul'",
+    "definition": "Diborsyong hinihiling ng asawang babae, kadalasan sa pagbabalik ng mahr. Noong panahon ng Propeta, may babaeng humiling na umalis sa kanyang kasal sa ganitong paraan at pumayag siya. Makipag-usap sa isang kwalipikadong imam, at sa isang abogado tungkol sa batas ng Canada."
+  },
+  {
+    "id": "laylat-al-qadr",
+    "term": "Laylat al-Qadr",
+    "definition": "Ang Gabi ng Kaluwalhatian, nang unang ibaba ang Quran. Sinasabi ng Surah al-Qadr na mas mabuti ito kaysa sa isang libong buwan, at hinahanap ito ng mga Muslim sa huling sampung gabi ng Ramadan."
+  },
+  {
+    "id": "madhab",
+    "term": "Mazhab",
+    "definition": "Isang paaralan ng batas Islamiko. Apat ang sinusunod ng mga Sunni na Muslim: Hanafi, Maliki, Shafi'i at Hanbali. Nagkakasundo sila sa mga pundasyon at nagkakaiba sa mga detalye, at inilalahad ng site na ito ang mga pagkakaibang iyon nang hindi pumipili sa pagitan nila."
+  },
+  {
+    "id": "mahram",
+    "term": "Mahram",
+    "definition": "Malapit na kapamilya: kamag-anak na hinding-hindi mo puwedeng pakasalan, gaya ng magulang, anak, kapatid, tiyuhin, tiyahin, pamangkin, at ilang biyenan gaya ng biyenang lalaki o biyenang babae. Puwede mong luwagan ang iyong pantakip sa harap ng mahram. Hindi ito binabago ng relihiyon, kaya mahram pa rin ang ama o kapatid na lalaki na hindi Muslim. Hindi mahram ang mga pinsan at bayaw."
+  },
+  {
+    "id": "masbuq",
+    "term": "Masbuq",
+    "definition": "Taong sumasali sa sama-samang pagdarasal pagkatapos itong magsimula. Ipagpatuloy mo ang pagdarasal kasama ang imam, pagkatapos ay tumayo ka pagkatapos ng kanyang salam at tapusin ang hindi mo naabutan."
+  },
+  {
+    "id": "mashbooh",
+    "term": "Mashbooh",
+    "definition": "Kaduda-duda: pagkain o produkto na hindi malinaw kung halal, halimbawa dahil sa sangkap na hindi pinangalanan gaya ng gelatin. Sinabi ng Propeta na sa pagitan ng malinaw na pinahihintulutan at malinaw na ipinagbabawal ay may mga kaduda-dudang bagay, at ang paglayo sa mga ito ay nagpoprotekta sa iyong relihiyon."
+  },
+  {
+    "id": "mawlana",
+    "term": "Mawlana (molvi)",
+    "definition": "Titulo para sa iskolar ng relihiyon o imam, na karaniwang ginagamit sa mga komunidad mula sa Timog Asya. Gaya ng ibang titulo, walang nagreregula nito."
+  },
+  {
+    "id": "mawlid",
+    "term": "Mawlid",
+    "definition": "Ang kaarawan ng Propeta Muhammad, na ginugunita ng maraming Muslim sa buwan ng Rabi al-Awwal. Magkakaiba ang mga iskolar kung ipagdiriwang ito at kung paano. Kung lumitaw ang tanong, magtanong sa isang gurong pinagkakatiwalaan mo sa halip na lutasin ito sa isang pagtatalo online."
+  },
+  {
+    "id": "mufti",
+    "term": "Mufti",
+    "definition": "Iskolar na sinanay at binigyan ng lisensya para magbigay ng pormal na mga hatol (fatwa). Sinasagot ng fatwa ang isang partikular na tanong, kaya itanong ang sarili mong sitwasyon sa halip na humiram ng sagot na para sa iba."
+  },
+  {
+    "id": "nafs",
+    "term": "Nafs",
+    "definition": "Ang sarili o ego, kasama ang mga pagnanasa nito. Malaking bahagi ng pag-uugaling Islamiko ay ang dahan-dahan at mahinahong pagsasanay sa nafs sa paglipas ng panahon."
+  },
+  {
+    "id": "najasah",
+    "term": "Najasah",
+    "definition": "Mga maruming bagay, gaya ng ihi at dumi, na hinuhugasan mula sa katawan, damit o lugar ng pagdarasal bago magdasal. Iba ito sa pagiging walang wudu."
+  },
+  {
+    "id": "nifas",
+    "term": "Nifas",
+    "definition": "Ang pagdurugo pagkatapos manganak. Malapit ang mga patakaran nito sa mga patakaran ng buwanang regla."
+  },
+  {
+    "id": "nisab",
+    "term": "Nisab",
+    "definition": "Ang pinakamababang halaga ng yaman na dapat hawak ng isang tao bago siya kailangang magbayad ng zakat. Sinusukat ito batay sa halaga ng ginto o pilak, kaya nagbabago ang halaga nito sa dolyar kasabay ng kanilang presyo."
+  },
+  {
+    "id": "qari",
+    "term": "Qari",
+    "definition": "Isang mahusay na tagabigkas ng Quran. Hindi nagiging iskolar na makapagbibigay ng mga hatol ang isang tao dahil lamang sa magandang boses at mahusay na tajweed."
+  },
+  {
+    "id": "rawatib",
+    "term": "Mga regular na sunnah na pagdarasal (rawatib)",
+    "definition": "Ang mga kusang-loob na rak'ah na dinadasal bago o pagkatapos ng mga obligadong pagdarasal, gaya ng dalawa bago ang Fajr. Hindi bahagi ng obligadong pagdarasal ang mga ito, at medyo magkakaiba ang pagbilang ng mga paaralan sa mga ito."
+  },
+  {
+    "id": "revert",
+    "term": "Balik-Islam at convert",
+    "definition": "Dalawang salita para sa taong naging Muslim sa mas huling bahagi ng buhay. Nagmula ang \"revert\" (balik-Islam) sa aral na ipinanganganak ang bawat bata sa fitrah, isang likas na hilig na kilalanin ang Diyos (Sahih al-Bukhari 1385), kaya itinuturing na pagbabalik ang pagyakap sa Islam. Mas gusto ng ilang Muslim na yumakap sa Islam noong nasa hustong gulang na ang \"convert\", dahil tumutukoy ito sa isang desisyong ginawa nila. Parehong ginagamit ang dalawang salita. Tawagin mo ang sarili mo sa alinmang sa tingin mo ay tama, at hindi mo kailangang itama ang sinumang gumagamit ng kabila."
+  },
+  {
+    "id": "riya",
+    "term": "Riya",
+    "definition": "Pagpapakitang-tao: paggawa ng pagsamba o mabubuting gawa para makita at purihin ka ng mga tao. Ito ang kabaligtaran ng katapatan ng layunin (ikhlas). Ang pag-aalala na baka nagpapakitang-tao ka ay hindi katulad ng aktuwal na paggawa nito."
+  },
+  {
+    "id": "sai",
+    "term": "Sa'i",
+    "definition": "Paglalakad nang pitong beses sa pagitan ng mga burol ng Safa at Marwah, bahagi ng Hajj at Umrah."
+  },
+  {
+    "id": "sahih",
+    "term": "Sahih",
+    "definition": "Tunay: ang pinakamataas na antas ng hadith, na may maayos at tuloy-tuloy na kawing ng mga mapagkakatiwalaang nagsalaysay. Ang Sahih al-Bukhari at Sahih Muslim ang dalawang pinakakilalang koleksyon."
+  },
+  {
+    "id": "salawat",
+    "term": "Salawat",
+    "definition": "Paghiling sa Allah na magpadala ng pagpapala at kapayapaan sa Propeta Muhammad, halimbawa sa pagsasabi ng sallallahu alayhi wa sallam (sumakanya nawa ang kapayapaan) kapag binanggit ang kanyang pangalan. Inuutos ito ng Quran sa mga mananampalataya."
+  },
+  {
+    "id": "shaykh",
+    "term": "Shaykh (shaykha)",
+    "definition": "Titulo para sa iskolar na may maraming taon ng pormal na pag-aaral at pagtuturo; shaykha ang anyo para sa babae. Ginagamit din ito bilang paggalang sa matatandang lalaki. Walang nagreregula sa mga titulo, kaya ayos lang na itanong kung saan nag-aral ang isang tao."
+  },
+  {
+    "id": "qasr",
+    "term": "Pagpapaikli ng pagdarasal (qasr)",
+    "definition": "Ang pagdarasal ng mga pagdarasal na may apat na rak'ah (Dhuhr, Asr at Isha) bilang dalawang rak'ah habang naglalakbay. Hindi pinaiikli ang Fajr at Maghrib. Magkakaiba ang mga paaralan kung gaano kalayo at gaano katagal dapat ang biyahe."
+  },
+  {
+    "id": "sutrah",
+    "term": "Sutrah",
+    "definition": "Bagay na inilalagay sa harap ng nagdarasal, gaya ng pader, upuan o bag, para makadaan ang mga tao sa lampas nito. Ilagay ito nang malapit sa harap mo."
+  },
+  {
+    "id": "taziyah",
+    "term": "Ta'ziyah",
+    "definition": "Pakikiramay sa isang nagdadalamhating pamilya: pagdalaw, pagdadala ng pagkain at pagsasabi ng mga salitang nakapagpapagaan ng loob. Ito ang mga salita ng Propeta sa kanyang nagdadalamhating anak na babae: sa Allah ang Kanyang kinukuha, at sa Allah ang Kanyang ibinibigay."
+  },
+  {
+    "id": "tahajjud",
+    "term": "Tahajjud",
+    "definition": "Kusang-loob na pagdarasal sa gabi, kadalasan pagkatapos matulog nang kaunti at bago ang Fajr. Dagdag ito, hindi obligado, at kahit dalawang yunit ay may halaga."
+  },
+  {
+    "id": "talaq",
+    "term": "Talaq",
+    "definition": "Diborsyong sinimulan ng asawang lalaki. May ilang yugto ang mga patakaran at magkakaiba ang mga ito sa mga paaralan, kaya ang sinumang humaharap sa diborsyo ay dapat makipag-usap sa isang kwalipikadong imam, at sa isang abogado tungkol sa batas ng Canada."
+  },
+  {
+    "id": "talbiyah",
+    "term": "Talbiyah",
+    "definition": "Ang mga salitang paulit-ulit na sinasabi ng mga peregrino habang nasa ihram, na nagsisimula sa Labbayk Allahumma labbayk (narito ako, O Allah, narito ako)."
+  },
+  {
+    "id": "tarawih",
+    "term": "Tarawih",
+    "definition": "Kusang-loob na mga pagdarasal sa gabi sa Ramadan, na dinadasal pagkatapos ng Isha at madalas nang sama-sama sa masjid. Magkakaiba ang mga masjid sa bilang ng yunit na dinadasal nila, at puwede kang sumali sa bahagi lamang nito at umuwi."
+  },
+  {
+    "id": "tasbih",
+    "term": "Tasbih",
+    "definition": "Pagluwalhati sa Allah sa pagsasabi ng SubhanAllah (luwalhati sa Allah). Ginagamit din ang salitang ito para sa butil-dasalan (prayer beads) na ginagamit ng ilang tao sa pagbilang ng kanilang dhikr."
+  },
+  {
+    "id": "tawaf",
+    "term": "Tawaf",
+    "definition": "Paglalakad nang pitong beses paikot sa Ka'bah bilang pagsamba, bahagi ng Hajj at Umrah."
+  },
+  {
+    "id": "tawakkul",
+    "term": "Tawakkul",
+    "definition": "Pagtitiwala sa Allah. Ginagawa mo ang mga praktikal na hakbang na kaya mo, pagkatapos ay ipinauubaya mo sa Allah ang resulta."
+  },
+  {
+    "id": "tayammum",
+    "term": "Tayammum",
+    "definition": "Tuyong paglilinis gamit ang malinis na lupa, na ginagamit sa halip na wudu o paghuhugas ng buong katawan (ghusl) kapag walang tubig o makasasama ang tubig. Inilalarawan ito ng Quran sa 5:6."
+  },
+  {
+    "id": "tayyib",
+    "term": "Tayyib",
+    "definition": "Mabuti, dalisay at kapaki-pakinabang. Ipinapares ng Quran ang pinahihintulutan sa mabuti, kaya dapat parehong halal at tayyib ang pagkain."
+  },
+  {
+    "id": "udhiyah",
+    "term": "Udhiyah (qurbani)",
+    "definition": "Ang pagkakatay ng hayop sa Eid al-Adha, na tinatawag na qurbani sa mga komunidad mula sa Timog Asya. Maraming tao sa Canada ang nag-aayos nito sa pamamagitan ng isang charity o halal na magkakarne, at ipinamamahagi ang karne sa pamilya, mga kaibigan at mga nangangailangan."
+  },
+  {
+    "id": "ulama",
+    "term": "Ulama",
+    "definition": "Mga iskolar: mga taong may matagal at kinikilalang pagsasanay sa kaalamang Islamiko. Alim ang isahan nito."
+  },
+  {
+    "id": "ustadh",
+    "term": "Ustadh (ustadha)",
+    "definition": "Guro. Madalas gamitin para sa taong nakatapos ng pag-aaral sa Islam at nagsisimula nang magturo, o dalubhasa sa isang paksa gaya ng pagbigkas ng Quran."
+  },
+  {
+    "id": "wali",
+    "term": "Wali",
+    "definition": "Tagapag-alaga (guardian), kadalasan ang ama ng nobya o ibang malapit na kamag-anak na lalaki, na nakikibahagi sa kanyang kontrata ng kasal. Magkakaiba ang mga paaralan kung kailangan ang wali, kaya magtanong sa isang kwalipikadong imam tungkol sa iyong sitwasyon."
+  },
+  {
+    "id": "walimah",
+    "term": "Walimah",
+    "definition": "Ang handaan sa kasal na ibinibigay para ipagdiwang ang pag-aasawa. Sinabihan ng Propeta ang isang kasamahan na maghanda nito kahit isang tupa lamang, kaya puwede itong maging simple."
+  },
+  {
+    "id": "zabiha",
+    "term": "Zabiha (dhabihah)",
+    "definition": "Karne mula sa hayop na kinatay sa paraang Islamiko, na binabanggit ang pangalan ng Allah sa oras ng pagkakatay. Magkakaiba ang mga iskolar sa ilang tanong, gaya ng karneng kinatay ng mga Kristiyano at Hudyo, kaya magtanong sa isang guro kung aling pananaw ang susundin."
+  },
+  {
+    "id": "zina",
+    "term": "Zina",
+    "definition": "Pakikipagtalik sa labas ng kasal. Sinasabi ng Quran na huwag man lang itong lapitan."
   }
 ]
