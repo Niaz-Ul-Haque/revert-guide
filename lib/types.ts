@@ -141,7 +141,8 @@ export type MasjidServiceId =
   | "youth-programs"
   | "weekend-school"
   | "library"
-  | "interfaith-outreach";
+  | "interfaith-outreach"
+  | "funeral-services";
 
 export interface Masjid {
   id: string;
