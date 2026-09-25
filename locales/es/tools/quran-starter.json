@@ -1,0 +1,396 @@
+{
+  "vocabulary": [
+    {
+      "term": "El Corán en árabe",
+      "body": "El texto árabe revelado. Cuando esta página enlaza a un versículo, el árabe es el Corán, y todo lo demás es una ayuda para entenderlo."
+    },
+    {
+      "term": "Traducción del significado",
+      "body": "Una versión en otro idioma que transmite el sentido. Le ayuda a entender, pero no es el Corán en sí."
+    },
+    {
+      "term": "Transliteración",
+      "body": "Los sonidos del árabe escritos con letras latinas. Es práctica para ensayar, aunque su oído aprenderá más de un maestro o de un recitador confiable."
+    },
+    {
+      "term": "Tafsir",
+      "body": "La explicación de los eruditos sobre lo que significa un versículo, cuándo fue revelado y qué le pide a usted. Recurra a ella cuando un versículo le resulte difícil."
+    }
+  ],
+  "translationTips": [
+    "Elija una traducción en la que pueda saber quién la tradujo, quién la publicó y cómo trabajaron.",
+    "Una traducción clara con notas al pie es mejor que un PDF anónimo o una captura de pantalla que alguien publicó.",
+    "Compare dos traducciones cuando estudie. Si compararlas empieza a causarle ansiedad, vuelva a una sola.",
+    "Cuando un versículo toque la creencia, la adoración, su familia, su seguridad o una decisión que está por tomar, pregunte a un maestro cualificado."
+  ],
+  "readingPaths": [
+    {
+      "title": "Primera sesión",
+      "time": "De 10 a 20 minutos",
+      "body": "Empiece con capítulos cortos que también le sirven para practicar la oración. Lea el significado despacio y luego escúchelos una vez. Por ahora no se preocupe por la pronunciación.",
+      "readings": [
+        "Al-Fatiha, capítulo 1",
+        "Al-Ikhlas, capítulo 112",
+        "Al-Falaq, capítulo 113",
+        "An-Nas, capítulo 114"
+      ],
+      "sourceIds": [
+        "quran-al-fatihah-1",
+        "quran-al-ikhlas-112",
+        "quran-al-falaq-113",
+        "quran-an-nas-114"
+      ]
+    },
+    {
+      "title": "Misericordia y esperanza",
+      "time": "Una sesión tranquila",
+      "body": "Lea esto cuando la vergüenza o el miedo hablen más fuerte que la esperanza. Deténgase en lo que dicen estos versículos sobre lo cerca que está Allah y lo dispuesto que está a perdonar, antes de añadir nada más.",
+      "readings": ["Quran 39:53", "Quran 2:186", "Quran 23:109"],
+      "sourceIds": [
+        "quran-39-53-mercy",
+        "quran-2-186-dua-nearness",
+        "quran-23-109-forgiveness"
+      ]
+    },
+    {
+      "title": "Profetas y propósito",
+      "time": "Varias sesiones cortas",
+      "body": "Lea la sura Yusuf unas pocas páginas cada vez. Es una sola historia continua: una familia que se vuelve contra él, una larga paciencia, la tentación, la cárcel y, al final, el perdón.",
+      "readings": ["Sura Yusuf, capítulo 12"],
+      "sourceIds": ["quran-yusuf-12"]
+    },
+    {
+      "title": "Oración y adoración",
+      "time": "15 minutos",
+      "body": "Una su lectura a su oración. Estos pasajes ponen la oración en su lugar: recuerdo de Allah, una petición de guía y un refugio cuando necesita paciencia.",
+      "readings": ["Al-Fatiha, capítulo 1", "Quran 20:14", "Quran 2:153"],
+      "sourceIds": [
+        "quran-al-fatihah-1",
+        "quran-20-14-prayer-remembrance",
+        "quran-2-153-patience-prayer"
+      ]
+    },
+    {
+      "title": "Carácter y paciencia",
+      "time": "10 minutos",
+      "body": "Hágalo práctico. Después de leer, pregúntese qué cambiaría hoy en su forma de hablar, en su paciencia y en su trato con la gente.",
+      "readings": ["Al-'Asr, capítulo 103", "Quran 2:153"],
+      "sourceIds": ["quran-al-asr-103", "quran-2-153-patience-prayer"]
+    }
+  ],
+  "weekPlan": [
+    {
+      "day": "Día 1",
+      "title": "Empiece con Al-Fatiha",
+      "body": "Lea el significado de Al-Fatiha y luego escúchela una vez. Lleve consigo durante el día la frase sobre la guía.",
+      "sourceIds": ["quran-al-fatihah-1"]
+    },
+    {
+      "day": "Día 2",
+      "title": "Conozca las tres suras cortas de protección",
+      "body": "Lea Al-Ikhlas, Al-Falaq y An-Nas. Fíjese en lo que dicen sobre la unicidad de Allah y sobre pedir protección. No intente memorizarlas hoy.",
+      "sourceIds": [
+        "quran-al-ikhlas-112",
+        "quran-al-falaq-113",
+        "quran-an-nas-114"
+      ]
+    },
+    {
+      "day": "Día 3",
+      "title": "Lea para tener esperanza",
+      "body": "Lea Quran 39:53 despacio. Luego escriba una frase, con sus propias palabras, sobre lo que la misericordia de Allah significa en su situación.",
+      "sourceIds": ["quran-39-53-mercy"]
+    },
+    {
+      "day": "Día 4",
+      "title": "Haga su propia dua",
+      "body": "Lea Quran 2:186 y 23:109. Luego haga una dua corta en español, con sus propias palabras.",
+      "sourceIds": ["quran-2-186-dua-nearness", "quran-23-109-forgiveness"]
+    },
+    {
+      "day": "Día 5",
+      "title": "Relacione el Corán con la oración",
+      "body": "Lea Quran 20:14 y vuelva a escuchar Al-Fatiha. La oración es ante todo recuerdo de Allah. Hacerla a la perfección llega después.",
+      "sourceIds": ["quran-20-14-prayer-remembrance", "quran-al-fatihah-1"]
+    },
+    {
+      "day": "Día 6",
+      "title": "Practique la paciencia",
+      "body": "Lea Quran 2:153 y Al-'Asr. Elija hoy una cosa pequeña en la que vaya a tener paciencia, o en la que dirá la verdad aunque sería más fácil no hacerlo.",
+      "sourceIds": ["quran-2-153-patience-prayer", "quran-al-asr-103"]
+    },
+    {
+      "day": "Día 7",
+      "title": "Repase y haga una pregunta",
+      "body": "Vuelva al pasaje que más se le quedó. Si algo le confundió, anote el versículo exacto y lléveselo a un maestro de confianza.",
+      "sourceIds": ["quran-com", "seekersguidance"]
+    }
+  ],
+  "resourceLinks": [
+    {
+      "title": "Quran.com (el Corán en línea)",
+      "body": "Lea, escuche, compare traducciones y abra las páginas de los recitadores desde el navegador, sin instalar nada.",
+      "href": "https://quran.com/",
+      "sourceIds": ["quran-com"],
+      "icon": "book"
+    },
+    {
+      "title": "The Clear Quran",
+      "body": "Una traducción clara del significado al inglés. Úsela para entender y recuerde que el Corán en sí es el árabe.",
+      "href": "https://theclearquran.org/",
+      "sourceIds": ["clear-quran"],
+      "icon": "file-text"
+    },
+    {
+      "title": "New Muslim Academy",
+      "body": "Clases para principiantes y ayuda con el Corán, pensadas para personas que acaban de llegar al islam (en inglés).",
+      "href": "https://www.newmuslimacademy.org/",
+      "sourceIds": ["new-muslim-academy"],
+      "icon": "users"
+    },
+    {
+      "title": "Mishari Rashid al-Afasy en Quran.com",
+      "body": "Un recitador claro para escuchar mientras lee. Escuche primero todo y luego repita un fragmento corto.",
+      "href": "https://quran.com/reciters/7",
+      "sourceIds": ["quran-reciter-mishary"],
+      "icon": "play"
+    }
+  ],
+  "learnArabic": {
+    "image": {
+      "src": "/graphics/al-fatihah-card.svg",
+      "alt": "Una tarjeta con las siete líneas de Al-Fatihah, cada una con el árabe, una transliteración y una traducción del significado.",
+      "caption": "Al-Fatihah, línea por línea.",
+      "credit": "Ilustración: Revert Guide."
+    },
+    "stages": [
+      "Semana 1: una línea de Al-Fatihah al día. Escuche, repita y lea el significado de las palabras más abajo. Esa es la única tarea.",
+      "Semanas 2 a 4: siga rezando con lo que sabe, termine Al-Fatihah y añada una sura corta como Al-Ikhlas.",
+      "Después, cuando se sienta preparado: empiece con las letras árabes o pregunte en su mezquita local por una clase de lectura del Corán para principiantes."
+    ],
+    "fatihahWords": [
+      {
+        "verse": 1,
+        "words": [
+          {
+            "arabic": "بِسْمِ",
+            "transliteration": "bismi",
+            "meaning": "En el nombre"
+          },
+          {
+            "arabic": "اللَّهِ",
+            "transliteration": "Allahi",
+            "meaning": "de Allah"
+          },
+          {
+            "arabic": "الرَّحْمَٰنِ",
+            "transliteration": "ar-Rahmani",
+            "meaning": "el Compasivo"
+          },
+          {
+            "arabic": "الرَّحِيمِ",
+            "transliteration": "ar-Rahim",
+            "meaning": "el Misericordioso"
+          }
+        ]
+      },
+      {
+        "verse": 2,
+        "words": [
+          {
+            "arabic": "الْحَمْدُ",
+            "transliteration": "al-hamdu",
+            "meaning": "Toda alabanza"
+          },
+          {
+            "arabic": "لِلَّهِ",
+            "transliteration": "lillahi",
+            "meaning": "es para Allah"
+          },
+          {
+            "arabic": "رَبِّ",
+            "transliteration": "Rabbi",
+            "meaning": "Señor"
+          },
+          {
+            "arabic": "الْعَالَمِينَ",
+            "transliteration": "al-'alamin",
+            "meaning": "de todos los mundos"
+          }
+        ]
+      },
+      {
+        "verse": 3,
+        "words": [
+          {
+            "arabic": "الرَّحْمَٰنِ",
+            "transliteration": "ar-Rahmani",
+            "meaning": "el Compasivo"
+          },
+          {
+            "arabic": "الرَّحِيمِ",
+            "transliteration": "ar-Rahim",
+            "meaning": "el Misericordioso"
+          }
+        ]
+      },
+      {
+        "verse": 4,
+        "words": [
+          {
+            "arabic": "مَالِكِ",
+            "transliteration": "Maliki",
+            "meaning": "Soberano"
+          },
+          {
+            "arabic": "يَوْمِ",
+            "transliteration": "yawmi",
+            "meaning": "del Día"
+          },
+          {
+            "arabic": "الدِّينِ",
+            "transliteration": "ad-din",
+            "meaning": "del Juicio"
+          }
+        ]
+      },
+      {
+        "verse": 5,
+        "words": [
+          {
+            "arabic": "إِيَّاكَ",
+            "transliteration": "iyyaka",
+            "meaning": "Solo a Ti"
+          },
+          {
+            "arabic": "نَعْبُدُ",
+            "transliteration": "na'budu",
+            "meaning": "adoramos"
+          },
+          {
+            "arabic": "وَإِيَّاكَ",
+            "transliteration": "wa iyyaka",
+            "meaning": "y solo a Ti"
+          },
+          {
+            "arabic": "نَسْتَعِينُ",
+            "transliteration": "nasta'in",
+            "meaning": "pedimos ayuda"
+          }
+        ]
+      },
+      {
+        "verse": 6,
+        "words": [
+          {
+            "arabic": "اهْدِنَا",
+            "transliteration": "ihdina",
+            "meaning": "Guíanos"
+          },
+          {
+            "arabic": "الصِّرَاطَ",
+            "transliteration": "as-sirata",
+            "meaning": "al camino"
+          },
+          {
+            "arabic": "الْمُسْتَقِيمَ",
+            "transliteration": "al-mustaqim",
+            "meaning": "recto"
+          }
+        ]
+      },
+      {
+        "verse": 7,
+        "words": [
+          {
+            "arabic": "صِرَاطَ",
+            "transliteration": "sirata",
+            "meaning": "el camino"
+          },
+          {
+            "arabic": "الَّذِينَ",
+            "transliteration": "alladhina",
+            "meaning": "de aquellos"
+          },
+          {
+            "arabic": "أَنْعَمْتَ",
+            "transliteration": "an'amta",
+            "meaning": "Tú has bendecido"
+          },
+          {
+            "arabic": "عَلَيْهِمْ",
+            "transliteration": "'alayhim",
+            "meaning": "a quienes"
+          },
+          {
+            "arabic": "غَيْرِ",
+            "transliteration": "ghayri",
+            "meaning": "no"
+          },
+          {
+            "arabic": "الْمَغْضُوبِ",
+            "transliteration": "al-maghdubi",
+            "meaning": "los que merecieron la ira"
+          },
+          {
+            "arabic": "عَلَيْهِمْ",
+            "transliteration": "'alayhim",
+            "meaning": "sobre ellos"
+          },
+          {
+            "arabic": "وَلَا",
+            "transliteration": "wa la",
+            "meaning": "ni"
+          },
+          {
+            "arabic": "الضَّالِّينَ",
+            "transliteration": "ad-dallin",
+            "meaning": "los extraviados"
+          }
+        ]
+      }
+    ],
+    "fatihahSourceIds": ["quran-al-fatihah-1", "quranic-arabic-corpus-fatihah"],
+    "links": [
+      {
+        "label": "Escuche Al-Fatihah en Quran.com",
+        "body": "Pulse reproducir en la página de Quran.com para oír cada versículo. Mishary al-Afasy es un recitador claro para empezar.",
+        "href": "https://quran.com/1",
+        "sourceIds": ["quran-al-fatihah-1", "quran-reciter-mishary"]
+      },
+      {
+        "label": "Siete días, siete versículos (Quran.com)",
+        "body": "Un versículo de Al-Fatihah al día, menos de 10 minutos cada uno, con las palabras explicadas. Es gratis, se puede leer sin cuenta y está en inglés.",
+        "href": "https://quran.com/learning-plans/seven-days-seven-verses-living-the-message-of-al-fatihah",
+        "sourceIds": ["quran-com-seven-days-seven-verses"]
+      },
+      {
+        "label": "La serie de Islamwise frase por frase",
+        "body": "Lecciones cortas en YouTube sobre cada frase de la oración (en inglés). Los episodios 11 a 18 recorren Al-Fatihah versículo por versículo.",
+        "href": "https://www.youtube.com/playlist?list=PLW9v5fexkmD_8i507k8oL2x9n0vJeP1BT",
+        "sourceIds": ["video-islamwise-prayer-series"]
+      },
+      {
+        "label": "Letras árabes: curso de lectura Madinah Arabic",
+        "body": "Las lecciones gratuitas no cuestan nada y no piden cuenta. El sitio también vende clases individuales de pago y no se indica quién es el autor del curso.",
+        "href": "https://madinaharabic.com/free-content",
+        "sourceIds": ["madinah-arabic-free-content"]
+      }
+    ],
+    "fatihahVideo": {
+      "videoId": "Rdhcd8452-I",
+      "title": "Alhamdu lillahi Rabbil-'alamin, frase por frase",
+      "channel": "Islamwise",
+      "duration": "2:27",
+      "sourceIds": ["video-islamwise-fatihah-alhamdu"]
+    },
+    "alphabetVideo": {
+      "videoId": "c-7SVieC_04",
+      "title": "Leer árabe, lección 1: las primeras letras",
+      "channel": "Arabic 101",
+      "duration": "13:57",
+      "note": "Arabic 101 también vende clases en vivo. Esta primera lección se puede ver gratis.",
+      "sourceIds": ["video-arabic101-alphabet-lesson-1"]
+    }
+  }
+}
