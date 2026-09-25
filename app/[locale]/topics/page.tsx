@@ -33,6 +33,7 @@ const topicIcons: Record<string, IconName> = {
   "why-muslims-differ": "users",
   "grief-and-loss": "users",
   "wills-and-inheritance": "file-text",
+  "end-of-life-decisions": "info",
 };
 
 export function generateMetadata({ params }: { params: { locale: Locale } }) {
