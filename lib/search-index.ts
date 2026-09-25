@@ -40,6 +40,15 @@ export type SearchResource = Pick<
   "id" | "title" | "description" | "type"
 >;
 export type SearchFaqEntry = Pick<FaqEntry, "id" | "question" | "answer">;
+/** A life guide, seasonal guide, tool or help page. `text` is plain text
+ *  (headings and short bodies) joined with " | "; `href` is unlocalised. */
+export interface SearchPage {
+  id: string;
+  href: string;
+  title: string;
+  description: string;
+  text: string;
+}
 
 export interface SearchIndex {
   stages: SearchStage[];
@@ -48,6 +57,7 @@ export interface SearchIndex {
   glossary: SearchGlossaryEntry[];
   resources: SearchResource[];
   faq: SearchFaqEntry[];
+  pages: SearchPage[];
 }
 
 export function searchIndexPath(locale: Locale): string {

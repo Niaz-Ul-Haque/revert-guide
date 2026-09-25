@@ -19,7 +19,7 @@ import { searchIndexPath, type SearchIndex } from "@/lib/search-index";
 
 interface SearchResult {
   id: string;
-  type: "step" | "topic" | "glossary" | "resource" | "faq";
+  type: "step" | "topic" | "glossary" | "resource" | "faq" | "page";
   title: string;
   description: string;
   href: string;
@@ -36,6 +36,7 @@ const EMPTY_INDEX: SearchIndex = {
   glossary: [],
   resources: [],
   faq: [],
+  pages: [],
 };
 const DEBOUNCE_MS = 150;
 
@@ -235,6 +236,11 @@ const CATEGORY_META: Record<
     colorClass: "text-primary",
     bgClass: "bg-primary/10",
   },
+  page: {
+    icon: TopicIcon,
+    colorClass: "text-primary",
+    bgClass: "bg-primary/10",
+  },
 };
 
 /* ─── Main Component ─── */
@@ -269,7 +275,7 @@ export function GlobalSearch() {
     };
   }, [isSearchOpen, index, indexFailed, locale]);
 
-  const { stages, steps, topics, glossary, resources, faq } =
+  const { stages, steps, topics, glossary, resources, faq, pages } =
     index ?? EMPTY_INDEX;
 
   const [query, setQuery] = useState("");
@@ -398,10 +404,25 @@ export function GlobalSearch() {
       }
     }
 
+    for (const page of pages) {
+      const score = bestScore([page.title, page.description, page.text], q);
+      if (score > 0) {
+        all.push({
+          id: `page-${page.id}`,
+          type: "page",
+          title: page.title,
+          description: truncate(page.description, 120),
+          href: localizeHref(locale, page.href),
+          score,
+        });
+      }
+    }
+
     all.sort((a, b) => b.score - a.score);
     return all;
   }, [
     debouncedQuery,
+    pages,
     steps,
     topics,
     glossary,
@@ -417,6 +438,7 @@ export function GlobalSearch() {
       "step",
       "topic",
       "glossary",
+      "page",
       "resource",
       "faq",
     ];
@@ -556,6 +578,7 @@ export function GlobalSearch() {
       glossary: t("search.categories.glossary"),
       resource: t("search.categories.resources"),
       faq: t("search.categories.faq"),
+      page: t("search.categories.pages"),
     };
     return labels[type];
   };
@@ -873,7 +896,9 @@ export function GlobalSearch() {
                                   ? localizeHref(locale, "/glossary")
                                   : group.type === "faq"
                                     ? localizeHref(locale, "/faq")
-                                    : localizeHref(locale, "/resources")
+                                    : group.type === "page"
+                                      ? localizeHref(locale, "/guides")
+                                      : localizeHref(locale, "/resources")
                           }
                           onClick={closeSearch}
                           className={`text-xs font-medium no-underline ${meta.colorClass} hover:underline`}
