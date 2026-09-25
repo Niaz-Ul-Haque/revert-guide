@@ -14,6 +14,7 @@ export const FAQ_CATEGORY_ORDER = [
   "hajj",
   "menstruation",
   "family",
+  "relationships-and-intimacy",
   "holidays",
   "everyday-life",
   "community",
