@@ -27,7 +27,7 @@
     "roadmap": "Roadmap",
     "topics": "Mga paksa",
     "guides": "Mga gabay",
-    "glossary": "Talahuluganan",
+    "glossary": "Glosaryo",
     "resources": "Mga mapagkukunan",
     "allResources": "Lahat ng mapagkukunan",
     "findMasjid": "Maghanap ng masjid",
@@ -99,7 +99,7 @@
     "sourcesUsed": "Mga sangguniang ginamit"
   },
   "search": {
-    "placeholder": "Maghanap sa mga gabay, talahuluganan, paksa, mapagkukunan...",
+    "placeholder": "Maghanap sa mga gabay, glosaryo, paksa, mapagkukunan...",
     "label": "Maghanap sa lahat ng nilalaman",
     "noResults": "Walang nakitang resulta",
     "noResultsHint": "Subukan ang ibang salita, o tumingin ayon sa kategorya",
@@ -113,7 +113,7 @@
     "categories": {
       "steps": "Mga hakbang sa roadmap",
       "topics": "Mga paksa",
-      "glossary": "Talahuluganan",
+      "glossary": "Glosaryo",
       "resources": "Mga mapagkukunan",
       "faq": "Mga tanong"
     },
@@ -174,7 +174,7 @@
       "description": "Paano tinutugunan ng Revert Guide ang accessibility: ang WCAG 2.1 AA at AODA na pamantayan, ang mga feature nito, at ang mga kakulangang alam namin."
     },
     "glossary": {
-      "title": "Talahuluganan - Revert Guide",
+      "title": "Glosaryo - Revert Guide",
       "description": "Mga terminong Islamiko sa simpleng paliwanag, may Arabic, transliterasyon at kaugnay na termino. Hanapin sa listahan kapag bago sa iyo ang isang salita."
     },
     "mentalHealth": {
@@ -187,7 +187,7 @@
     },
     "privacy": {
       "title": "Patakaran sa privacy - Revert Guide",
-      "description": "Ano ang umaalis sa device mo kapag ginagamit ang Revert Guide, aling serbisyo sa labas ang gamit ng bawat tool, at ano ang nangyayari sa kahilingan mo."
+      "description": "Ano ang umaalis sa device mo sa Revert Guide, aling serbisyo sa labas ang gamit ng bawat tool, at ano ang nangyayari sa kahilingan mo para sa tulong."
     },
     "ramadan": {
       "title": "Gabay sa Ramadan - Revert Guide",
@@ -335,11 +335,11 @@
         },
         {
           "title": "Ilang linggo ka na?",
-          "body": "Alamin ang hugis ng pagdarasal, maghanap ng masjid kung saan ka puwedeng magtanong, at bumuo ng pang-araw-araw na gawi na kaya mong panatilihin."
+          "body": "Alamin ang anyo ng pagdarasal, maghanap ng masjid kung saan ka puwedeng magtanong, at bumuo ng pang-araw-araw na gawi na kaya mong panatilihin."
         },
         {
           "title": "May partikular kang hinahanap?",
-          "body": "Basahin nang hiwalay ang tungkol sa pagdarasal, pag-aayuno, paniniwala o komunidad. Nariyan ang talahuluganan tuwing may bagong salita."
+          "body": "Basahin nang hiwalay ang tungkol sa pagdarasal, pag-aayuno, paniniwala o komunidad. Nariyan ang glosaryo tuwing may bagong salita."
         }
       ],
       "intro": "Libreng kasama ang Revert Guide, hakbang-hakbang, para sa sinumang kayayakap lang sa Islam. Nag-aaral ka pa man magdasal o naghahanda para sa una mong Ramadan, nagsisimula ito kung nasaan ka talaga. Praktikal na hakbang ang laman nito, walang sermon at walang panghuhusga.",
@@ -380,7 +380,7 @@
         },
         {
           "title": "Pananaw ng pangunahing Sunni",
-          "body": "Sinusunod ng nilalaman at ng direktoryo ng masjid ang pangunahing Sunni na kaalaman, nang walang pagtatalo ng mga sekta. Kapag nagkakaiba ang apat na Sunni na paaralan ng batas, sinasabi namin ito at hindi kami pumipili para sa iyo."
+          "body": "Sinusunod ng nilalaman at ng direktoryo ng masjid ang pangunahing Sunni na kaalaman, nang walang pagtatalo ng mga sekta. Kapag nagkakaiba ang apat na Sunni na mazhab (paaralan ng fiqh), sinasabi namin ito at hindi kami pumipili para sa iyo."
         },
         {
           "title": "Hindi pampulitika at bukas sa lahat",
@@ -471,7 +471,7 @@
         "emailLabel": "O mag-email sa amin:"
       },
       "lastUpdatedTitle": "Huling na-update",
-      "lastUpdated": "Huling nasuri ang pahayag na ito sa accessibility noong Marso 2026."
+      "lastUpdated": "Huling nasuri ang pahayag na ito sa accessibility noong Setyembre 2026."
     },
     "privacy": {
       "title": "Patakaran sa privacy",
@@ -531,7 +531,7 @@
             },
             {
               "label": "WhatsApp:",
-              "text": "Kung sinusundan mo ang aming WhatsApp Channel, hindi makikita ng ibang tagasunod ang numero ng telepono mo, at ang mga admin lamang na nag-save sa iyo bilang contact ang makakakita nito. Iba ang WhatsApp group. Kapag sumali ka sa isa, makikita ng mga admin ng grupo ang numero mo, at maaari rin itong makita ng ibang miyembro. Ang sariling mga tuntunin ng WhatsApp ang masusunod sa dalawa."
+              "text": "Kung fina-follow mo ang aming WhatsApp Channel, hindi makikita ng ibang follower ang numero ng telepono mo, at ang mga admin lamang na nag-save sa iyo bilang contact ang makakakita nito. Iba ang WhatsApp group. Kapag sumali ka sa isa, makikita ng mga admin ng grupo ang numero mo, at maaari rin itong makita ng ibang miyembro. Ang sariling mga tuntunin ng WhatsApp ang masusunod sa dalawa."
             },
             {
               "label": "Mga link sa ibang website:",
@@ -728,7 +728,7 @@
       "footerPrefix": "Naghahanap ng hakbang-hakbang na landas?",
       "footerRoadmap": "Sundan ang roadmap",
       "footerGlossaryPrefix": "Kailangan ng mabilisang paghahanap ng termino?",
-      "footerGlossary": "Tingnan ang talahuluganan"
+      "footerGlossary": "Tingnan ang glosaryo"
     },
     "topic": {
       "relatedSteps": "Mga kaugnay na hakbang",
@@ -878,7 +878,7 @@
       "title": "Pag-aalaga sa isip mo",
       "subtitle": "Mahalaga kung kumusta ka sa damdamin. Narito ang pahinang ito para roon.",
       "validation": {
-        "title": "May saysay ang nararamdaman mo",
+        "title": "Totoo at mahalaga ang nararamdaman mo",
         "calloutTitle": "Hindi ka nag-iisa",
         "calloutBody": "Maraming bagong Muslim ang nakakaranas ng pag-iisa, pag-aalinlangan, pagkabalisa, mga tanong tungkol sa kung sino na sila ngayon, o alitan sa bahay. Hindi ka nagiging masamang Muslim dahil dito. Tao ka lang.",
         "body": "Isa sa pinakamalalaking desisyong magagawa ng tao ang pagyakap sa Islam. Mabuting desisyon ito, pero malaking pagbabago pa rin sa buhay na may bigat sa damdamin habang nag-aadjust ka. Karaniwan lang na may mga linggong nabibigatan ka o nalilito. Ang mahalaga ay narito ka at patuloy na natututo. Dumaan na sa ganitong yugto ang mga balik-Islam bago ka, at nalampasan nila ito."
@@ -1061,7 +1061,7 @@
               },
               {
                 "name": "Nisa Helpline",
-                "desc": "Libre at kumpidensyal na peer support para sa mga babaeng Muslim na 14 taong gulang pataas, 7 araw bawat linggo mula 8 AM hanggang hatinggabi, oras sa Eastern. Peer support ito, hindi crisis line.",
+                "desc": "Libre at kumpidensyal na peer support para sa mga babaeng Muslim na 14 taong gulang pataas, 7 araw bawat linggo mula 8 AM hanggang hatinggabi, Eastern Time. Peer support ito, hindi crisis line.",
                 "contacts": [
                   {
                     "label": "Tumawag:",
@@ -1151,7 +1151,7 @@
         "furtherReadingTitle": "Karagdagang babasahin",
         "reading": [
           {
-            "name": "Becoming Muslim: The Lives of American Converts to Islam (ulat ng Yaqeen Institute)",
+            "name": "Becoming Muslim: The Lives of American Converts to Islam (ulat sa Ingles)",
             "desc": "Ulat ng Yaqeen Institute noong 2025 tungkol sa 618 balik-Islam sa Estados Unidos. Tinatalakay nito ang nakatulong sa kanila matapos yumakap sa Islam, gaya ng mga masjid, imam at kaibigang Muslim. Pananaliksik ito, hindi gabay sa pagtulong sa sarili.",
             "linkLabel": "Basahin ang ulat",
             "href": "https://yaqeeninstitute.org/read/data/reports/becoming-muslim-lives-of-american-converts-to-islam"
@@ -1304,7 +1304,7 @@
     "glossary": {
       "description": "Mabilisang sanggunian sa mga terminong Islamiko. Maghanap tuwing may bagong salita.",
       "searchPlaceholder": "Maghanap ng termino...",
-      "searchLabel": "Maghanap sa talahuluganan",
+      "searchLabel": "Maghanap sa glosaryo",
       "liveRegion": {
         "one": "termino ang nakita",
         "other": "termino ang nakita"
@@ -1545,17 +1545,17 @@
       "beginnerNoteLabel": "Tala para sa baguhan",
       "cannotReciteTitle": "Kung hindi ka pa makabigkas ng Arabic",
       "invalidatesTitle": "Ano ang nagpapawalang-bisa sa pagdarasal?",
-      "invalidatesBody": "Pangkalahatang-ideya ito para sa baguhan. Nagkakaiba ang mga detalye ayon sa paaralan ng batas at ayon sa kalagayan.",
+      "invalidatesBody": "Pangkalahatang-ideya ito para sa baguhan. Nagkakaiba ang mga detalye ayon sa mazhab (paaralan ng fiqh) at ayon sa kalagayan.",
       "correctionsTitle": "Mga karaniwang alalahanin at ano ang gagawin",
       "askImamTitle": "Magtanong sa imam kung",
       "askImam": [
         "Pinipigilan ka ng sakit, kapansanan, pinsala o trauma na tumayo, yumuko, umupo o magpatirapa.",
         "Hindi mo alam kung ano ang bibigkasin habang pinag-aaralan mo pa ang Arabic.",
         "Madalas kang makaligta ng pagdarasal at kailangan mo ng planong pambawi na kaya mong sundan.",
-        "Nagkakasalungat ang payong nakuha mo mula sa mga video o sa iba't ibang paaralan ng batas.",
+        "Nagkakasalungat ang payong nakuha mo mula sa mga video o sa iba't ibang mazhab.",
         "Binabago ng trabaho, paaralan, paglalakbay, pamilya o sarili mong kaligtasan ang paraan ng pagdarasal mo."
       ],
-      "sourcesNote": "Kasama ito para sa baguhan. Nasuri na ang mga sanggunian. Kailangan pa ring suriin ng isang kwalipikado ang mga personal na hatol sa pagdarasal, mga detalye ng bawat paaralan, mga akomodasyon sa kapansanan at mga di-pangkaraniwang sitwasyon.",
+      "sourcesNote": "Kasama ito para sa baguhan. Nasuri na ang mga sanggunian. Kailangan pa ring suriin ng isang kwalipikado ang mga personal na hatol sa pagdarasal, mga detalye ng bawat mazhab, mga akomodasyon sa kapansanan at mga di-pangkaraniwang sitwasyon.",
       "prayerTopicButton": "Paksa tungkol sa pagdarasal",
       "prayerOnRampButton": "Unti-unting pagsisimula sa pagdarasal",
       "duaDhikrButton": "Dua at dhikr",
@@ -1605,12 +1605,12 @@
         "Pinahihirapan ng trabaho, paaralan, paglalakbay o sitwasyon sa pamilya ang paglilinis.",
         "Pakiramdam mo ay paulit-ulit kang nagwu-wudu o nagghu-ghusl dahil sa pagkabalisa."
       ],
-      "sourcesNote": "Tool ito para sa baguhan. Nagkakaiba ang ilang detalye ng paglilinis ayon sa paaralan ng batas, at mabuting pag-usapan ang sarili mong sitwasyon kasama ang isang kwalipikadong imam o iskolar sa inyong lugar.",
+      "sourcesNote": "Tool ito para sa baguhan. Nagkakaiba ang ilang detalye ng paglilinis ayon sa mazhab (paaralan ng fiqh), at mabuting pag-usapan ang sarili mong sitwasyon kasama ang isang kwalipikadong imam o iskolar sa inyong lugar.",
       "ghuslRoadmapButton": "Pumunta sa hakbang sa roadmap tungkol sa ghusl",
       "prayerTopicButton": "Paksa tungkol sa pagdarasal",
       "watchTitle": "Panoorin itong gawin nang isang beses",
-      "breaksAgreedTitle": "Itinuturo ng lahat ng paaralan",
-      "breaksDifferTitle": "Kung saan nagkakaiba ang mga paaralan",
+      "breaksAgreedTitle": "Itinuturo ng lahat ng mazhab",
+      "breaksDifferTitle": "Kung saan nagkakaiba ang mga mazhab",
       "convertGhuslTitle": "Kung kayayakap mo pa lang sa Islam",
       "menstruationLink": "Regla, pagdurugo pagkapanganak at ang pagsamba",
       "tayammumTitle": "Kapag hindi ka makagamit ng tubig (tayammum)",
@@ -1690,7 +1690,7 @@
           },
           {
             "title": "Mag-ulat ng alalahanin",
-            "body": "May kinalaman sa isang mentor, grupo o admin na hindi tama ang pakiramdam."
+            "body": "May ginawa ang isang mentor, grupo o admin na hindi naging maganda sa pakiramdam mo."
           }
         ]
       },
@@ -1733,7 +1733,7 @@
         "body": "Sabihin sa amin kung humingi sa iyo ng pera ang isang mentor, miyembro ng grupo o admin, nag-alok ng kasal, pinilit kang sumali sa isang bagay, o pinaramdam sa iyong hindi ka ligtas. Napupunta ang ulat mo sa mga coordinator, hindi kailanman sa taong inuulat mo.",
         "emailLabel": "Email",
         "scamNote": "Kung may humingi sa iyo ng pera o sa tingin mo ay naloko ka, puwede mo rin itong iulat sa Canadian Anti-Fraud Centre sa 1-888-495-8501.",
-        "redFlagsLabel": "Mga babalang palatandaan na dapat bantayan"
+        "redFlagsLabel": "Mga red flag at paano manatiling ligtas"
       },
       "contact": {
         "title": "Mas gusto mo bang mag-email?",
@@ -1741,7 +1741,7 @@
         "emailLabel": "Email"
       },
       "guideLink": {
-        "prompt": "Hindi sigurado kung para sa amin, sa imam o sa counsellor ang tanong mo?",
+        "prompt": "Hindi ka sigurado kung para sa amin, sa imam o sa counsellor ang tanong mo?",
         "label": "Paano humingi ng tulong"
       },
       "sourcesTitle": "Mga sangguniang ginamit",
@@ -1770,7 +1770,7 @@
         "items": [
           {
             "name": "Channel",
-            "body": "Nananatiling pribado ang numero mo. Makikita lamang ito ng admin kung naka-save ka na bilang contact niya. Ikaw lamang ang nakakakita kung aling mga channel ang sinusundan mo, at hindi puwedeng magmensahe sa isa't isa ang mga tagasunod doon."
+            "body": "Nananatiling pribado ang numero mo. Makikita lamang ito ng admin kung naka-save ka na bilang contact niya. Ikaw lamang ang nakakakita kung aling mga channel ang fina-follow mo, at hindi puwedeng magmensahe sa isa't isa ang mga follower doon."
           },
           {
             "name": "Grupo",
@@ -1785,7 +1785,7 @@
       },
       "safety": {
         "title": "Kung pinananatili mong pribado ang pagyakap mo sa Islam",
-        "body": "Sundan ang channel sa halip na sumali sa grupo, dahil itinatago ng channel ang numero mo. Maaaring lumabas sa mga notification mo ang pangalan ng grupo at ang mga mensahe, kaya isipin kung sino ang nakakakita ng telepono mo bago ka sumali sa anuman."
+        "body": "I-follow ang channel sa halip na sumali sa grupo, dahil itinatago ng channel ang numero mo. Maaaring lumabas sa mga notification mo ang pangalan ng grupo at ang mga mensahe, kaya isipin kung sino ang nakakakita ng telepono mo bago ka sumali sa anuman."
       },
       "rules": {
         "title": "Mga patakaran ng grupo",
@@ -1808,7 +1808,7 @@
       },
       "redFlags": {
         "prompt": "Alamin ang mga babalang palatandaan ng scam at pamimilit sa mga espasyo ng komunidad.",
-        "label": "Mga babalang palatandaan at pananatiling ligtas"
+        "label": "Mga red flag at paano manatiling ligtas"
       },
       "sourcesTitle": "Mga sangguniang ginamit",
       "sourcesNote": "Galing sa sariling mga help page ng WhatsApp ang ipinapakita ng bawat opsyon. Maaaring baguhin ng WhatsApp kung paano gumagana ang mga feature na ito, kaya tingnan ang help centre nito kung hindi ka sigurado."
