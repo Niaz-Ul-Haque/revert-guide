@@ -250,12 +250,20 @@ export default function GetHelpPage({
           <p className="mb-4 text-sm leading-relaxed text-textSecondary">
             {copy.report.scamNote}
           </p>
-          <Link
-            href={localizeHref(locale, "/guides/red-flags-and-staying-safe")}
-            className={`${linkClass} text-sm`}
-          >
-            {copy.report.redFlagsLabel}
-          </Link>
+          <p className="mb-0 flex flex-wrap gap-x-6 gap-y-2">
+            <Link
+              href={localizeHref(locale, "/guides/red-flags-and-staying-safe")}
+              className={`${linkClass} text-sm`}
+            >
+              {copy.report.redFlagsLabel}
+            </Link>
+            <Link
+              href={localizeHref(locale, "/guides/facing-hate-and-harassment")}
+              className={`${linkClass} text-sm`}
+            >
+              {copy.report.hateLabel}
+            </Link>
+          </p>
         </section>
       </AnimateIn>
 
