@@ -1,6 +1,6 @@
 {
   "id": "dua-and-dhikr",
-  "title": "L'invocation (dua) et le rappel d'Allah (dhikr)",
+  "title": "Invocations et rappel d'Allah (dua et dhikr)",
   "description": "Des formules simples de rappel et d'invocation pour débutants, centrées sur le sens et sur des sources que vous pouvez vraiment vérifier.",
   "sections": [
     {
@@ -20,9 +20,21 @@
       "content": "L'invocation et le rappel d'Allah apportent un vrai réconfort, mais ils ne remplacent pas l'aide professionnelle en cas de crise. Si vous avez des pensées de vous faire du mal, ne vous sentez pas en sécurité ou n'arrivez plus à fonctionner, composez le 9-1-1, appelez ou textez le 9-8-8, ou contactez un clinicien qualifié. La foi et l'aide concrète vont ensemble."
     }
   ],
-  "relatedStepIds": ["daily-dua-dhikr", "prayer-on-ramp", "prayer"],
-  "relatedGlossaryIds": ["dua", "dhikr", "sunnah", "salah"],
-  "relatedResourceIds": ["fortress-muslim-dua-book", "quran-com"],
+  "relatedStepIds": [
+    "daily-dua-dhikr",
+    "prayer-on-ramp",
+    "prayer"
+  ],
+  "relatedGlossaryIds": [
+    "dua",
+    "dhikr",
+    "sunnah",
+    "salah"
+  ],
+  "relatedResourceIds": [
+    "fortress-muslim-dua-book",
+    "quran-com"
+  ],
   "sourceIds": [
     "quran-com",
     "sunnah-com",
@@ -30,5 +42,12 @@
     "emergency-911-canada",
     "988-canada"
   ],
-  "reviewStatus": "review-needed"
+  "reviewStatus": "review-needed",
+  "linkCards": [
+    {
+      "label": "Le deuil et la perte",
+      "href": "/topics/grief-and-loss",
+      "body": "Quoi dire lors d'une perte, et des invocations pour une personne décédée."
+    }
+  ]
 }
