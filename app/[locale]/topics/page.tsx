@@ -30,6 +30,7 @@ const topicIcons: Record<string, IconName> = {
   "prophet-muhammad": "book",
   "five-pillars": "star",
   "menstruation-and-worship": "check",
+  "why-muslims-differ": "users",
 };
 
 export function generateMetadata({ params }: { params: { locale: Locale } }) {
