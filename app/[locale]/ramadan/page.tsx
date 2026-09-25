@@ -48,6 +48,7 @@ export default function RamadanPage({
       "sunnah-bukhari-suhoor-blessing",
       "sunnah-bukhari-hasten-iftar",
       "sunnah-abudawud-iftar-dates-water",
+      "seekersguidance-shafii-fasting-ramadan",
     ],
     locale,
   );
@@ -129,6 +130,14 @@ export default function RamadanPage({
           </Callout>
           <p className="text-base leading-relaxed text-textSecondary">
             {copy.forNewMuslims.body}
+          </p>
+          <p className="mb-0 mt-3 text-sm">
+            <Link
+              href={localizeHref(locale, "/faq#faq-wor-031")}
+              className="font-medium text-primary underline hover:text-primaryHover"
+            >
+              {copy.forNewMuslims.convertedLinkLabel}
+            </Link>
           </p>
         </section>
       </AnimateIn>
