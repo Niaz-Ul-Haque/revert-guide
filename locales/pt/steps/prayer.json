@@ -53,7 +53,7 @@
         "Asr: 4 unidades (rak'at).",
         "Maghrib: 3 unidades (rak'at).",
         "Isha: 4 unidades (rak'at).",
-        "Comece pelas orações obrigatórias (fard). Você pode acrescentar as voluntárias (suna) depois."
+        "Comece pelas orações obrigatórias (fard). As rak'ahs voluntárias extras (sunnah) que você vê na mesquita podem vir depois, uma de cada vez. O tema da oração explica essas orações."
       ]
     },
     {
@@ -83,7 +83,7 @@
     },
     {
       "problem": "Não consigo orar no trabalho ou na escola",
-      "solution": "Você tem o direito de orar. Os muçulmanos dão um jeito em cantos tranquilos, salas de reunião vazias e carros estacionados. Uma oração leva de cinco a dez minutos. Se o horário for difícil, algumas orações podem ser juntadas em certas situações, então pergunte a um professor sobre a sua. Comente com um colega ou supervisor se você se sentir à vontade, e a maioria das pessoas se mostra compreensiva."
+      "solution": "Você tem o direito de orar. Os muçulmanos dão um jeito em cantos tranquilos, salas de reunião vazias e carros estacionados. Uma oração leva de cinco a dez minutos. Se o horário for difícil, as escolas divergem sobre se você pode juntar orações por causa do trabalho, então leia a pergunta sobre trabalho em turnos e pergunte a um professor sobre a sua situação. Comente com um colega ou supervisor, se você se sentir à vontade, e a maioria das pessoas acaba sendo razoável."
     },
     {
       "problem": "Fico sem graça com os movimentos",
@@ -109,16 +109,23 @@
     "maghrib",
     "isha",
     "al-fatiha",
-    "sujud",
-    "ruku"
+    "sajdah",
+    "ruku",
+    "rawatib"
   ],
-  "relatedTopicIds": ["prayer", "purification", "dua-and-dhikr"],
+  "relatedTopicIds": [
+    "prayer",
+    "purification",
+    "dua-and-dhikr"
+  ],
   "sourceIds": [
     "new-muslim-guide",
     "sunnah-com",
     "seekersguidance",
     "sunnah-abudawud-dhikr-instead",
-    "seekersguidance-recite-in-english"
+    "seekersguidance-recite-in-english",
+    "amja-combining-for-job",
+    "seekersguidance-combining-hanafi"
   ],
   "reviewStatus": "review-needed",
   "videos": [
@@ -129,7 +136,35 @@
       "duration": "33:57",
       "start": 228,
       "note": "Começa pelo Fajr, a oração de duas rak'ahs. Pequenas diferenças entre as escolas são normais.",
-      "sourceIds": ["video-greenlane-five-prayers"]
+      "sourceIds": [
+        "video-greenlane-five-prayers"
+      ]
+    }
+  ],
+  "relatedLinks": [
+    {
+      "label": "Orações extras que você vai ver e quando acrescentá-las",
+      "href": "/topics/prayer"
+    },
+    {
+      "label": "Trabalho em turnos e juntar orações",
+      "href": "/faq#faq-pry-038"
+    },
+    {
+      "label": "Aprenda a orar (salah)",
+      "href": "/tools/salah-companion"
+    },
+    {
+      "label": "Horários de oração",
+      "href": "/prayer-times"
+    },
+    {
+      "label": "Guia de trabalho e escola",
+      "href": "/guides/work-and-school"
+    },
+    {
+      "label": "Menstruação e adoração",
+      "href": "/topics/menstruation-and-worship"
     }
   ]
 }

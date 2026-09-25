@@ -2,7 +2,7 @@
   "id": "zakat-hajj",
   "slug": "zakat-hajj",
   "stageId": "month-6-plus",
-  "title": "Conheça o zakat e o hajj",
+  "title": "A caridade (zakat) e a peregrinação (Hajj)",
   "whyMatters": "O zakat (caridade obrigatória) e o hajj (peregrinação a Meca) são dois dos cinco pilares, e quando você os entende, tem toda a base do que significa ser muçulmano. O zakat purifica sua riqueza e mantém a comunidade cuidando de quem precisa. O hajj é uma viagem, uma vez na vida, à Casa de Allah em Meca, onde milhões de muçulmanos de todas as partes do mundo ficam lado a lado, e costuma transformar as pessoas. Os dois são compromissos de longo prazo e nenhum é urgente. Conhecê-los agora é preparar o terreno para depois.",
   "exactActions": [
     {
@@ -99,10 +99,14 @@
     "kaabah",
     "ihram",
     "tawaf",
-    "eid-al-adha",
+    "eid",
     "dhul-hijjah"
   ],
-  "relatedTopicIds": ["beliefs", "fasting", "halal-living"],
+  "relatedTopicIds": [
+    "beliefs",
+    "fasting",
+    "halal-living"
+  ],
   "sourceIds": [
     "quran-zakat-9-60",
     "irc-nisab",
@@ -115,5 +119,23 @@
     "travel-gc-saudi-arabia",
     "nusuk-hajj"
   ],
-  "reviewStatus": "review-needed"
+  "reviewStatus": "review-needed",
+  "relatedLinks": [
+    {
+      "label": "Testamentos e herança",
+      "href": "/topics/wills-and-inheritance"
+    },
+    {
+      "label": "Quando alguém morre",
+      "href": "/guides/when-someone-dies"
+    },
+    {
+      "label": "Guia do zakat para iniciantes",
+      "href": "/seasonal/zakat"
+    },
+    {
+      "label": "Guia de Dhul Hijjah, Hajj e Umrah",
+      "href": "/seasonal/dhul-hijjah-hajj-umrah"
+    }
+  ]
 }

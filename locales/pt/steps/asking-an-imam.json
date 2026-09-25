@@ -38,7 +38,7 @@
     },
     {
       "problem": "Recebi respostas diferentes",
-      "solution": "Pergunte ao professor qual resposta se aplica à sua situação e quais partes podem esperar. Se precisar de mais do que isso, leve a questão a um estudioso qualificado da sua região que conheça o seu contexto."
+      "solution": "Pergunte ao professor qual resposta se aplica à sua situação e quais partes podem esperar. Se precisar de mais do que isso, leve a questão a um estudioso qualificado da sua região que conheça o seu contexto. As respostas na internet muitas vezes divergem porque seguem escolas diferentes ou respondem à situação de outra pessoa, então anote a fonte e a escola de cada uma antes de perguntar."
     }
   ],
   "tinyVersion": "Anote três coisas: o que aconteceu, o que você precisa decidir e que você é um novo muçulmano.",
@@ -48,7 +48,12 @@
     "new-muslim-academy",
     "new-muslim-guide-icna"
   ],
-  "relatedGlossaryIds": ["imam", "sunnah", "halal", "haram"],
+  "relatedGlossaryIds": [
+    "imam",
+    "sunnah",
+    "halal",
+    "haram"
+  ],
   "relatedTopicIds": [
     "questions-and-doubts",
     "masjid-and-community",
@@ -60,6 +65,28 @@
       "body": "Sou um novo muçulmano e estou tentando fazer isso direito sem me sobrecarregar. Qual é o próximo passo prático para a minha situação, e o que pode esperar?"
     }
   ],
-  "sourceIds": ["seekersguidance", "new-muslim-academy", "whyislam"],
-  "reviewStatus": "source-checked"
+  "sourceIds": [
+    "seekersguidance",
+    "new-muslim-academy",
+    "whyislam"
+  ],
+  "reviewStatus": "source-checked",
+  "relatedLinks": [
+    {
+      "label": "Por que os muçulmanos divergem",
+      "href": "/topics/why-muslims-differ"
+    },
+    {
+      "label": "Quem conta como shaykh ou mufti",
+      "href": "/faq#faq-fnd-025"
+    },
+    {
+      "label": "Como pedir ajuda",
+      "href": "/guides/how-to-ask-for-help"
+    },
+    {
+      "label": "Pedir ajuda",
+      "href": "/get-help"
+    }
+  ]
 }

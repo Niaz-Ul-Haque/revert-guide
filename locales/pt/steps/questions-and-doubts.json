@@ -39,19 +39,55 @@
     {
       "problem": "As respostas na internet se contradizem",
       "solution": "Isso acontece muito. Pergunte a um professor qualificado qual resposta se aplica a você e quais detalhes podem ficar para depois."
+    },
+    {
+      "problem": "O sentimento do começo passou, e fico me perguntando se algum dia fui sincero",
+      "solution": "Os companheiros do Profeta também sentiram isso. Hanzala teve medo de ser um hipócrita porque o seu sentimento de fé sumia em casa, e o Profeta o tranquilizou (Sahih Muslim 2750a). Mantenha as suas orações mesmo quando parecerem sem sabor, acrescente um pequeno ato que você consiga manter e leia a parte sobre quando a fé parece sem sabor no tema perguntas e dúvidas."
     }
   ],
   "tinyVersion": "Escreva uma pergunta numa frase clara e mande para uma pessoa que possa respondê-la.",
   "unlocksNext": "Saber fazer uma pergunta evita que sua fé fique soterrada e permite construir conhecimento num ritmo estável.",
-  "resourceIds": ["yaqeen-institute", "seekers-guidance", "new-muslim-academy"],
-  "relatedGlossaryIds": ["iman", "imam", "fitrah", "tawhid"],
-  "relatedTopicIds": ["questions-and-doubts", "beliefs", "new-muslim-basics"],
+  "resourceIds": [
+    "yaqeen-institute",
+    "seekers-guidance",
+    "new-muslim-academy"
+  ],
+  "relatedGlossaryIds": [
+    "iman",
+    "imam",
+    "fitrah",
+    "tawhid"
+  ],
+  "relatedTopicIds": [
+    "questions-and-doubts",
+    "beliefs",
+    "new-muslim-basics"
+  ],
   "commonQuestions": [
     {
       "problem": "E se eu não receber uma resposta na hora?",
       "solution": "Continue fazendo o básico enquanto espera. Nem toda pergunta precisa estar resolvida antes de você orar, fazer dua ou continuar aprendendo."
     }
   ],
-  "sourceIds": ["yaqeen-institute", "seekersguidance", "new-muslim-academy"],
-  "reviewStatus": "source-checked"
+  "sourceIds": [
+    "yaqeen-institute",
+    "seekersguidance",
+    "new-muslim-academy",
+    "sunnah-muslim-2750a"
+  ],
+  "reviewStatus": "review-needed",
+  "relatedLinks": [
+    {
+      "label": "Perguntas e respostas",
+      "href": "/faq"
+    },
+    {
+      "label": "Pedir ajuda",
+      "href": "/get-help"
+    },
+    {
+      "label": "Como pedir ajuda",
+      "href": "/guides/how-to-ask-for-help"
+    }
+  ]
 }

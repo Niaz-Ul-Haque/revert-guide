@@ -51,8 +51,17 @@
   ],
   "tinyVersion": "Hoje: faça uma dua simples, escolha uma pessoa a quem possa pedir ajuda e pare por aí.",
   "unlocksNext": "Um primeiro dia tranquilo deixa muito mais fácil começar o ghusl e a prática inicial da oração.",
-  "resourceIds": ["new-muslim-academy", "whyislam", "welcome-to-islam-book"],
-  "relatedGlossaryIds": ["shahada", "dua", "masjid", "imam"],
+  "resourceIds": [
+    "new-muslim-academy",
+    "whyislam",
+    "welcome-to-islam-book"
+  ],
+  "relatedGlossaryIds": [
+    "shahada",
+    "dua",
+    "masjid",
+    "imam"
+  ],
   "relatedTopicIds": [
     "new-muslim-basics",
     "family-and-identity",
@@ -78,8 +87,34 @@
     {
       "title": "Para um mentor ou uma mesquita",
       "body": "Eu me tornei muçulmano recentemente e procuro ajuda para iniciantes com o ghusl, a oração e o apoio da comunidade. Há alguém com quem eu possa conversar?"
+    },
+    {
+      "title": "Se alguém quiser filmar a sua Shahada",
+      "body": "Por favor, sem fotos nem vídeo. Prefiro manter isso em particular por enquanto."
     }
   ],
-  "sourceIds": ["new-muslim-academy", "whyislam", "new-muslim-guide"],
-  "reviewStatus": "source-checked"
+  "sourceIds": [
+    "new-muslim-academy",
+    "whyislam",
+    "new-muslim-guide"
+  ],
+  "reviewStatus": "source-checked",
+  "relatedLinks": [
+    {
+      "label": "Ainda não é muçulmano? Pensando no Islã",
+      "href": "/topics/thinking-about-islam"
+    },
+    {
+      "label": "Sinais de alerta e segurança",
+      "href": "/guides/red-flags-and-staying-safe"
+    },
+    {
+      "label": "Pedir ajuda",
+      "href": "/get-help"
+    },
+    {
+      "label": "Os cinco pilares do Islã",
+      "href": "/topics/five-pillars"
+    }
+  ]
 }

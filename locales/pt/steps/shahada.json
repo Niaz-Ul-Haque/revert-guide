@@ -2,7 +2,7 @@
   "id": "shahada",
   "slug": "shahada",
   "stageId": "day-0-1",
-  "title": "Diga a Shahada",
+  "title": "Declare a sua fé (Shahada)",
   "whyMatters": "Fazer a Shahada é como você entra formalmente no Islã. É o passo sobre o qual tudo o mais se apoia: a declaração de que não há divindade além de Allah e de que Muhammad é o Seu mensageiro. Dizê-la apaga o que veio antes e entrega a você uma página em branco. Pergunte por aí e você vai encontrar muitos muçulmanos que se lembram do momento em que a disseram com mais clareza do que de quase qualquer outra coisa.",
   "exactActions": [
     {
@@ -44,7 +44,7 @@
     },
     {
       "problem": "Não tenho certeza se estou pronto",
-      "solution": "Se você crê no coração que há um só Deus e que Muhammad é o Seu mensageiro, você está pronto. Ficar nervoso é normal. Você não precisa saber tudo sobre o Islã antes, porque essa parte vem depois."
+      "solution": "Se você acredita no seu coração que existe um só Deus e que Muhammad é o Seu mensageiro, você está pronto. Sentir nervosismo é normal. Você não precisa saber tudo sobre o Islã antes, porque essa parte vem depois. Se você ainda está pensando, não há prazo. A página \"Pensando no Islã?\", com link abaixo, foi escrita para você."
     },
     {
       "problem": "Não tenho ninguém para testemunhar",
@@ -57,9 +57,66 @@
   ],
   "tinyVersion": "Se isso parecer demais, diga com suas próprias palavras por enquanto: \"Eu creio que há um só Deus e que Muhammad é o Seu mensageiro.\" A forma em árabe pode vir depois.",
   "unlocksNext": "Agora que você declarou a sua fé, está pronto para aprender o banho completo (ghusl) e começar sua vida como muçulmano.",
-  "resourceIds": ["whyislam", "welcome-to-islam-book", "new-muslim-academy"],
-  "relatedGlossaryIds": ["shahada", "allah", "muhammad", "dua", "masjid"],
-  "relatedTopicIds": ["beliefs", "new-muslim-basics"],
-  "sourceIds": ["whyislam", "new-muslim-academy", "sunnah-com"],
-  "reviewStatus": "review-needed"
+  "resourceIds": [
+    "whyislam",
+    "welcome-to-islam-book",
+    "new-muslim-academy"
+  ],
+  "relatedGlossaryIds": [
+    "shahada",
+    "allah",
+    "muhammad",
+    "dua",
+    "masjid"
+  ],
+  "relatedTopicIds": [
+    "beliefs",
+    "new-muslim-basics",
+    "thinking-about-islam"
+  ],
+  "sourceIds": [
+    "whyislam",
+    "new-muslim-academy",
+    "sunnah-com",
+    "seekersguidance-convert-shahada-publicly",
+    "seekersguidance-shahada-online",
+    "seekersguidance-do-i-need-to-say-ashhadu"
+  ],
+  "relatedLinks": [
+    {
+      "label": "Tornou-se muçulmano durante o Ramadã? O que você deve",
+      "href": "/faq#faq-wor-031"
+    },
+    {
+      "label": "Pensando no Islã? Uma página para quem ainda não é muçulmano",
+      "href": "/topics/thinking-about-islam"
+    },
+    {
+      "label": "Os cinco pilares do Islã",
+      "href": "/topics/five-pillars"
+    },
+    {
+      "label": "Perguntas e respostas",
+      "href": "/faq"
+    }
+  ],
+  "reviewStatus": "review-needed",
+  "contextNotes": [
+    {
+      "title": "Em particular, numa mesquita ou online: você escolhe",
+      "body": "Dita com sinceridade, a Shahada vale onde quer que você a diga. A Ustadha Shireen Ahmed (SeekersGuidance) escreve que ouviu dizer que é melhor dizê-la diante de outras pessoas, mesmo que sejam poucas, mas que isso não é estritamente necessário se deixar você ansioso. Tome isso como uma sugestão, não como uma regra. O motivo para outras pessoas saberem é prático: a sua comunidade sabe que você é muçulmano, por exemplo na hora de um casamento ou de um enterro muçulmano."
+    },
+    {
+      "title": "Dizê-la numa mesquita",
+      "body": "Ligue para a secretaria da mesquita e peça uma Shahada tranquila com o imã e uma ou duas pessoas. Pergunte se eles dão um certificado e o que precisam de você. Se você não quiser fotos nem vídeos, diga isso antes de chegar. Ninguém deve gravar a sua Shahada nem publicá-la na internet sem a sua permissão clara, e você pode dizer não no próprio dia."
+    },
+    {
+      "title": "Dizê-la online ou numa chamada de vídeo",
+      "body": "Uma resposta da SeekersGuidance do Shaykh Abdurragmaan Khan diz que uma Shahada dita por meio de um serviço online é válida. Dizê-la de novo com um imã local não é obrigatório, embora a resposta diga que isso é \"sem dúvida desejável\". Ela também aconselha você a se aproximar de uma comunidade local e a se apresentar a um dos seus líderes. Essa é a resposta de um estudioso, então pergunte a um imã da sua região se tiver dúvida."
+    },
+    {
+      "title": "Com as suas palavras ou em árabe",
+      "body": "O Imam Yama Niazi (SeekersGuidance) diz que é mais cauteloso incluir \"ashhadu\" (eu testemunho), e que a Shahada também é aceita sem essa palavra. Se você a disse primeiro com as suas próprias palavras, pode dizer a forma em árabe mais tarde. Não há necessidade de ficar repetindo por preocupação."
+    }
+  ]
 }

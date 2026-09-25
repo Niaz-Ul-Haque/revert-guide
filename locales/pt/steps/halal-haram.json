@@ -9,8 +9,8 @@
       "text": "Aprenda as principais regras alimentares",
       "subSteps": [
         "A carne de porco e os produtos de porco (bacon, presunto, gelatina de porco) são haram.",
-        "O álcool e outras substâncias que embriagam são haram, e isso inclui bebidas, vinho de cozinha e comida feita com álcool.",
-        "A carne precisa ser de abate halal (zabiha), ou seja, o animal é abatido de forma humana, com o nome de Allah mencionado.",
+        "As bebidas alcoólicas e outras substâncias que embriagam são haram. Pequenas quantidades de álcool que não vem do vinho, usado como solvente em aromatizantes, como o extrato de baunilha, são uma divergência real de opinião: a escola hanafi as permite quando a quantidade não pode embriagar, e outros estudiosos evitam qualquer álcool adicionado. Essa permissão não inclui o vinho, então o vinho de cozinha está fora. Enquanto você é novo, as versões sem álcool são a escolha cuidadosa.",
+        "Muitos estudiosos e certificadores halal canadenses aceitam só a carne zabiha, de um animal abatido de forma humanitária com o nome de Allah mencionado. Outros estudiosos também aceitam a carne dos cristãos e dos judeus (o Povo do Livro), com base no Alcorão 5:5. Você não precisa resolver isso no primeiro dia: carne zabiha, peixe e comida vegetariana deixam as coisas simples, e o imã da sua região pode dizer qual opinião a sua comunidade segue.",
         "O peixe é halal em todas as escolas. Outros frutos do mar, como o camarão, são tema de divergência entre as escolas, então pergunte se tiver dúvida.",
         "Frutas, verduras, grãos, laticínios e ovos são halal.",
         "A maioria dos alimentos industrializados é halal, embora valha conferir se há gelatina, banha ou aromatizantes à base de álcool."
@@ -19,7 +19,7 @@
     {
       "text": "Aprenda a ler os rótulos",
       "subSteps": [
-        "Procure selos de certificação halal na embalagem. Os mais comuns no Canadá são IFANCC, ISNA e HMA.",
+        "Procure o nome do certificador na embalagem. No Canadá, uma alegação halal no rótulo precisa dizer quem a certificou. Dois nomes que você vai ver com frequência são a Halal Monitoring Authority (HMA) e a ISNA Canada Halal, e os padrões delas não são idênticos, então pergunte à mesquita da sua região em quais ela confia.",
         "Confira nos ingredientes se há gelatina (muitas vezes de porco), banha, gordura animal, álcool e extrato de baunilha, que pode conter álcool.",
         "Quando tiver dúvida, pesquise o produto na internet ou escolha uma alternativa com certificação halal.",
         "Muitas marcas comuns não têm problema, e você vai aprender rápido quais são."
@@ -80,7 +80,7 @@
     }
   ],
   "tinyVersion": "Duas regras para começar: sem carne de porco, sem álcool. O resto você aprende passo a passo. A maior parte do que você já come provavelmente é halal.",
-  "unlocksNext": "Com halal e haram em mãos, você está pronto para aprender sobre o jejum, que traz o corpo para a prática junto com o coração.",
+  "unlocksNext": "Com o halal e o haram em mãos, você está pronto para colocar isso em prática nas refeições, começando pela comida da sua própria cozinha.",
   "resourceIds": [
     "halal-living-guide",
     "new-muslim-guide-site",
@@ -94,7 +94,24 @@
     "bismillah",
     "tayyib"
   ],
-  "relatedTopicIds": ["fasting", "halal-living"],
-  "sourceIds": ["new-muslim-guide", "seekersguidance"],
-  "reviewStatus": "review-needed"
+  "relatedTopicIds": [
+    "fasting",
+    "halal-living"
+  ],
+  "sourceIds": [
+    "new-muslim-guide",
+    "seekersguidance",
+    "quran-5-5",
+    "amja-eating-the-meat-of-the",
+    "seekersguidance-is-vanilla-extract-permissible-if",
+    "hma-what-is-halal",
+    "cfia-method-production-claims"
+  ],
+  "reviewStatus": "review-needed",
+  "relatedLinks": [
+    {
+      "label": "A vida halal no dia a dia",
+      "href": "/guides/halal-living-in-daily-life"
+    }
+  ]
 }

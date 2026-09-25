@@ -50,16 +50,34 @@
     }
   ],
   "tinyVersion": "Na sua próxima refeição, deixe de lado a carne de porco e o álcool e escolha a opção halal mais clara que tiver à sua frente.",
-  "unlocksNext": "Quando a comida parecer administrável, o básico mais amplo sobre halal e haram fica muito mais fácil de absorver.",
-  "resourceIds": ["halal-living-guide", "new-muslim-guide-site"],
-  "relatedGlossaryIds": ["halal", "haram"],
-  "relatedTopicIds": ["halal-living", "new-muslim-basics"],
+  "unlocksNext": "Quando a comida parecer administrável, você estará pronto para aprender sobre o jejum, que traz o seu corpo para a prática junto com o seu coração.",
+  "resourceIds": [
+    "halal-living-guide",
+    "new-muslim-guide-site"
+  ],
+  "relatedGlossaryIds": [
+    "halal",
+    "haram"
+  ],
+  "relatedTopicIds": [
+    "halal-living",
+    "new-muslim-basics"
+  ],
   "gentleScripts": [
     {
       "title": "Para um anfitrião",
       "body": "Obrigado pelo convite. Agora eu como halal, então evito carne de porco e álcool. Posso levar um prato para facilitar."
     }
   ],
-  "sourceIds": ["new-muslim-guide", "seekersguidance"],
-  "reviewStatus": "review-needed"
+  "sourceIds": [
+    "new-muslim-guide",
+    "seekersguidance"
+  ],
+  "reviewStatus": "review-needed",
+  "relatedLinks": [
+    {
+      "label": "A vida halal no dia a dia",
+      "href": "/guides/halal-living-in-daily-life"
+    }
+  ]
 }

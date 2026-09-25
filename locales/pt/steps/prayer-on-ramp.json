@@ -62,9 +62,22 @@
   ],
   "tinyVersion": "Escolha uma oração para proteger hoje, mesmo que precise de um guia aberto ao seu lado.",
   "unlocksNext": "Quando você tem um caminho de entrada, a etapa completa da oração deixa de parecer um muro.",
-  "resourceIds": ["learn-salah-guide", "pillars-app", "being-muslim-book"],
-  "relatedGlossaryIds": ["salah", "wudu", "qiblah", "al-fatiha"],
-  "relatedTopicIds": ["prayer", "new-muslim-basics", "dua-and-dhikr"],
+  "resourceIds": [
+    "learn-salah-guide",
+    "pillars-app",
+    "being-muslim-book"
+  ],
+  "relatedGlossaryIds": [
+    "salah",
+    "wudu",
+    "qiblah",
+    "al-fatiha"
+  ],
+  "relatedTopicIds": [
+    "prayer",
+    "new-muslim-basics",
+    "dua-and-dhikr"
+  ],
   "commonQuestions": [
     {
       "problem": "Posso orar lendo um guia?",
@@ -93,7 +106,27 @@
       "title": "Cada frase de uma rak'ah",
       "channel": "Islamwise",
       "duration": "10:29",
-      "sourceIds": ["video-islamwise-rakah-recap"]
+      "sourceIds": [
+        "video-islamwise-rakah-recap"
+      ]
+    }
+  ],
+  "relatedLinks": [
+    {
+      "label": "Voltar depois de uma pausa",
+      "href": "/guides/coming-back"
+    },
+    {
+      "label": "Aprenda a orar (salah)",
+      "href": "/tools/salah-companion"
+    },
+    {
+      "label": "Horários de oração",
+      "href": "/prayer-times"
+    },
+    {
+      "label": "Guia de trabalho e escola",
+      "href": "/guides/work-and-school"
     }
   ]
 }

@@ -6,33 +6,44 @@
   "whyMatters": "Uma mesquita dá a você um lugar para orar, pessoas a quem perguntar, aulas e companhia. Sua primeira visita não precisa ser perfeita. Só precisa ser pequena o bastante para você realmente ir.",
   "exactActions": [
     {
-      "text": "Escolha um horário tranquilo",
+      "text": "Escolha uma mesquita e um horário tranquilo",
       "subSteps": [
+        "Use o localizador de mesquitas deste aplicativo para encontrar mesquitas perto de você no Canadá.",
         "Uma oração diária comum é muito mais fácil do que uma sexta-feira lotada.",
         "Confira o site da mesquita ou ligue antes se tiver dúvida.",
-        "Pergunte se eles têm algo para novos muçulmanos ou para visitantes."
+        "Pergunte se eles têm algo para novos muçulmanos ou para visitantes.",
+        "Alguns programas para convertidos, como o Convert Care no Islam Care Centre, em Ottawa, ou o Convert Connect na MAC Masjid Toronto, podem arranjar alguém para acompanhar a sua primeira visita.",
+        "Se houver algumas por perto, visite mais de uma e veja onde você se sente mais bem recebido."
       ]
     },
     {
       "text": "Vista-se de forma simples e recatada",
       "subSteps": [
         "Use roupas limpas e largas que cubram você com conforto.",
+        "Os homens normalmente usam calça comprida e camisa com manga.",
         "As mulheres podem levar um lenço se pretendem entrar na área de oração.",
+        "Muitas mesquitas deixam lenços de reserva perto da porta.",
         "Não entre em pânico se você não estiver vestido como todo mundo."
       ]
     },
     {
       "text": "Siga a etiqueta básica",
       "subSteps": [
+        "Chegue alguns minutos antes.",
         "Tire os sapatos onde vir os outros tirando.",
         "Deixe o celular no silencioso.",
-        "Se não souber para onde ir, pergunte a alguém perto da entrada."
+        "Se não souber para onde ir, pergunte a alguém perto da entrada.",
+        "Quando soa o chamado para a oração (adhan), as pessoas costumam ficar em silêncio e repeti-lo baixinho. A página de dua e dhikr traz as palavras e a resposta.",
+        "Não passe na frente de alguém que está orando. Passe por trás.",
+        "Homens e mulheres normalmente oram em áreas separadas.",
+        "Se você entrar numa oração, faça o que todos estão fazendo. Fique de pé quando eles ficam, curve-se quando eles se curvam. Ninguém espera que você saiba tudo.",
+        "Se alguém corrigir você, agradeça e pergunte depois ao seu professor se aquilo era uma regra ou um costume do lugar."
       ]
     },
     {
       "text": "Apresente-se a uma pessoa",
       "subSteps": [
-        "Dizer que você é um novo muçulmano e que é a sua primeira vez ali basta.",
+        "Dizer que você é um novo muçulmano e que é a sua primeira vez ali basta. 'As-salamu alaykum, sou novo no Islã' abre muitas portas.",
         "Pergunte quem cuida do apoio a convertidos ou das aulas para iniciantes.",
         "Se ficar demais, vá embora. Você pode voltar outro dia."
       ]
@@ -51,9 +62,22 @@
   ],
   "tinyVersion": "Ligue ou mande mensagem para uma mesquita e pergunte quando um iniciante pode passar por lá.",
   "unlocksNext": "Depois que você passou pela porta uma vez, a jumuah, as aulas e a busca por um mentor ficam mais fáceis.",
-  "resourceIds": ["new-muslim-guide-icna", "whyislam", "new-muslim-guide-site"],
-  "relatedGlossaryIds": ["masjid", "imam", "salah", "ummah"],
-  "relatedTopicIds": ["masjid-and-community", "community", "new-muslim-basics"],
+  "resourceIds": [
+    "new-muslim-guide-icna",
+    "whyislam",
+    "new-muslim-guide-site"
+  ],
+  "relatedGlossaryIds": [
+    "masjid",
+    "imam",
+    "salah",
+    "ummah"
+  ],
+  "relatedTopicIds": [
+    "masjid-and-community",
+    "community",
+    "new-muslim-basics"
+  ],
   "commonQuestions": [
     {
       "problem": "Posso visitar se ainda não sei orar direito?",
@@ -66,6 +90,32 @@
       "body": "Assalamu alaykum. Sou um novo muçulmano e esta é a minha primeira vez aqui. Você poderia me mostrar para onde ir?"
     }
   ],
-  "sourceIds": ["whyislam", "icna", "new-muslim-guide"],
-  "reviewStatus": "source-checked"
+  "sourceIds": [
+    "whyislam",
+    "icna",
+    "new-muslim-guide",
+    "islam-care-centre-convert-care",
+    "masjid-toronto-programs",
+    "sunnah-bukhari-510",
+    "sunnah-muslim-384"
+  ],
+  "reviewStatus": "source-checked",
+  "relatedLinks": [
+    {
+      "label": "Guia da primeira visita à mesquita",
+      "href": "/guides/first-masjid-visit"
+    },
+    {
+      "label": "Encontrar uma mesquita",
+      "href": "/resources/find-masjid"
+    },
+    {
+      "label": "Expressões do dia a dia e como responder",
+      "href": "/dua-dhikr#everyday-phrases"
+    },
+    {
+      "label": "Quando você ouve o adhan",
+      "href": "/dua-dhikr"
+    }
+  ]
 }
