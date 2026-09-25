@@ -12,7 +12,6 @@
       "ਤੁਰੰਤ ਹਰ ਚੀਜ਼ ਦਾ ਐਲਾਨ ਕਰਨ ਬਾਰੇ ਚਿੰਤਾ ਨਾ ਕਰੋ.",
       "ਹਰ ਨਿਯਮ ਨੂੰ ਜਾਣ ਕੇ ਚਿੰਤਾ ਨਾ ਕਰੋ; ਸਿੱਖਣਾ ਹੌਲੀ-ਹੌਲੀ ਹੈ।"
     ],
-    "stepIds": ["shahada", "first-24-hours", "ghusl"],
     "duration": "1-2 ਦਿਨ",
     "focusNow": [
       "ਸ਼ਾਹਦਾ ਦੇ ਅਰਥਾਂ ਨੂੰ ਫੜੋ।",
@@ -39,7 +38,23 @@
         "href": "/topics/family-and-identity"
       }
     ],
-    "sourceIds": ["new-muslim-academy", "whyislam", "new-muslim-guide"]
+    "learningPath": {
+      "main": {
+        "title": "Welcome to Islam: ਨਵੇਂ ਮੁਸਲਮਾਨਾਂ ਲਈ ਕਦਮ-ਦਰ-ਕਦਮ ਗਾਈਡ",
+        "body": "ਆਲਿਮ ਅਤੇ ਇਮਾਮ Mustafa Umar ਦੀ 32 ਪੰਨਿਆਂ ਦੀ ਗਾਈਡ, ਜੋ ਤੁਹਾਡੇ ਪਹਿਲੇ ਮਹੀਨੇ ਲਈ ਲਿਖੀ ਗਈ ਹੈ। ਤੁਸੀਂ ਪੂਰੀ ਗਾਈਡ ਉਨ੍ਹਾਂ ਦੀ ਵੈੱਬਸਾਈਟ 'ਤੇ ਮੁਫ਼ਤ ਪੜ੍ਹ ਸਕਦੇ ਹੋ (ਅੰਗਰੇਜ਼ੀ ਵਿੱਚ)।",
+        "href": "https://mustafaumar.com/downloads/welcome-to-islam/",
+        "resourceId": "welcome-to-islam-book"
+      },
+      "optional": {
+        "title": "ਤੁਹਾਡੇ ਪਹਿਲੇ 24 ਘੰਟੇ",
+        "body": "ਜੇ ਤੁਸੀਂ ਕੁਝ ਛੋਟਾ ਪੜ੍ਹਨਾ ਚਾਹੁੰਦੇ ਹੋ, ਤਾਂ ਇਹ ਕਦਮ ਦੱਸਦਾ ਹੈ ਕਿ ਅੱਜ ਕੀ ਅਹਿਮ ਹੈ ਅਤੇ ਕੀ ਉਡੀਕ ਕਰ ਸਕਦਾ ਹੈ।",
+        "href": "/roadmap/day-0-1/first-24-hours"
+      },
+      "guardrails": [
+        "ਅੱਜ ਕਿਸੇ ਕੋਰਸ, ਐਪ ਜਾਂ ਅਰਬੀ ਦੀ ਪੜ੍ਹਾਈ ਦੀ ਲੋੜ ਨਹੀਂ।",
+        "ਆਰਾਮ ਇਸ ਪੜਾਅ ਦਾ ਹਿੱਸਾ ਹੈ। ਤੁਹਾਨੂੰ ਇਸੇ ਹਫ਼ਤੇ ਸਭ ਕੁਝ ਸਿੱਖਣ ਦੀ ਲੋੜ ਨਹੀਂ।"
+      ]
+    }
   },
   {
     "id": "week-1",
@@ -53,14 +68,6 @@
       "ਚਿੰਤਾ ਨਾ ਕਰੋ ਜੇਕਰ ਤੁਸੀਂ ਸਿੱਖਣ ਦੌਰਾਨ ਪ੍ਰਾਰਥਨਾਵਾਂ ਗੁਆ ਦਿੰਦੇ ਹੋ.",
       "ਫੌਰਨ ਮਸਜਿਦ ਵਿਚ ਫਿਟ ਕਰਨ ਬਾਰੇ ਚਿੰਤਾ ਨਾ ਕਰੋ.",
       "ਹਰ ਵਿਕਲਪਿਕ ਅਭਿਆਸ ਕਰਨ ਬਾਰੇ ਚਿੰਤਾ ਨਾ ਕਰੋ."
-    ],
-    "stepIds": [
-      "prayer-on-ramp",
-      "prayer",
-      "first-masjid-visit",
-      "first-jumuah",
-      "community",
-      "daily-dua-dhikr"
     ],
     "duration": "ਲਗਭਗ 1 ਹਫ਼ਤਾ",
     "focusNow": [
@@ -88,7 +95,24 @@
         "href": "/topics/prayer"
       }
     ],
-    "sourceIds": ["new-muslim-guide", "seekersguidance", "whyislam"]
+    "learningPath": {
+      "main": {
+        "title": "ਸੱਤ ਦਿਨ, ਸੱਤ ਆਇਤਾਂ (ਸੂਰਤ ਅਲ-ਫ਼ਾਤਿਹਾ)",
+        "body": "Quran.com ਦੀ ਇੱਕ ਮੁਫ਼ਤ ਯੋਜਨਾ ਜੋ ਰੋਜ਼ ਸੂਰਤ ਅਲ-ਫ਼ਾਤਿਹਾ ਦੀ ਇੱਕ ਆਇਤ ਲੈਂਦੀ ਹੈ, ਸ਼ਬਦ-ਦਰ-ਸ਼ਬਦ ਅਰਥ ਸਮੇਤ, ਦਸ ਮਿੰਟ ਤੋਂ ਘੱਟ ਵਿੱਚ। ਤੁਸੀਂ ਇਸ ਨੂੰ ਬਿਨਾਂ ਖਾਤੇ ਦੇ ਪੜ੍ਹ ਸਕਦੇ ਹੋ। ਕਿਸੇ ਸਾਫ਼ ਆਵਾਜ਼ ਵਾਲੇ ਕਾਰੀ ਨੂੰ ਸੁਣੋ ਅਤੇ ਪਿੱਛੇ-ਪਿੱਛੇ ਦੁਹਰਾਓ।",
+        "href": "https://quran.com/learning-plans/seven-days-seven-verses-living-the-message-of-al-fatihah",
+        "resourceId": "quran-com-al-fatihah-plan"
+      },
+      "optional": {
+        "title": "New Muslim Academy ਦਾ ਨਮਾਜ਼ ਕੋਰਸ",
+        "body": "ਇੱਕ ਮੁਫ਼ਤ ਕੋਰਸ ਜੋ ਵੁਜ਼ੂ ਅਤੇ ਨਮਾਜ਼ ਦੀਆਂ ਵੀਡੀਓਆਂ ਅਤੇ ਛੋਟੇ ਕੁਇਜ਼ਾਂ ਨਾਲ ਸ਼ੁਰੂ ਹੁੰਦਾ ਹੈ। ਤੁਹਾਨੂੰ ਖਾਤਾ ਚਾਹੀਦਾ ਹੈ, ਅਤੇ ਸਾਈਟ ਐਨਾਲਿਟਿਕਸ ਅਤੇ ਇਸ਼ਤਿਹਾਰੀ ਪਿਕਸਲ ਵਰਤਦੀ ਹੈ।",
+        "href": "https://www.newmuslimacademy.org/",
+        "resourceId": "new-muslim-academy"
+      },
+      "guardrails": [
+        "ਪਹਿਲਾਂ ਨਮਾਜ਼ ਦਾ ਢਾਂਚਾ ਸਿੱਖੋ। ਯਾਦ ਕਰਨ ਵਿੱਚ ਹਫ਼ਤੇ ਲੱਗਦੇ ਹਨ, ਅਤੇ ਇਹ ਆਮ ਗੱਲ ਹੈ।",
+        "ਇੱਕ ਵੇਲੇ ਇੱਕ ਕੋਰਸ ਕਾਫ਼ੀ ਹੈ।"
+      ]
+    }
   },
   {
     "id": "week-2-3",
@@ -103,7 +127,6 @@
       "ਚਿੰਤਾ ਨਾ ਕਰੋ ਜੇਕਰ ਵਿਸ਼ਵਾਸ ਉੱਪਰ ਅਤੇ ਹੇਠਾਂ ਮਹਿਸੂਸ ਹੁੰਦਾ ਹੈ.",
       "ਦਲੀਲਾਂ ਜਿੱਤਣ ਦੀ ਚਿੰਤਾ ਨਾ ਕਰੋ।"
     ],
-    "stepIds": ["quran", "family-and-friends", "questions-and-doubts"],
     "duration": "2-3 ਹਫ਼ਤੇ",
     "focusNow": [
       "ਨਿਯਮਿਤ ਤੌਰ 'ਤੇ ਥੋੜ੍ਹਾ ਜਿਹਾ ਕੁਰਾਨ ਸੁਣੋ ਜਾਂ ਪੜ੍ਹੋ।",
@@ -130,7 +153,23 @@
         "href": "/topics/family-and-identity"
       }
     ],
-    "sourceIds": ["quran-com", "yaqeen-institute", "seekersguidance"]
+    "learningPath": {
+      "main": {
+        "title": "ਮਸਜਿਦ ਵਿੱਚ ਸ਼ੁਰੂਆਤ ਕਰਨ ਵਾਲਿਆਂ ਲਈ ਕੁਰਆਨ ਪੜ੍ਹਨ ਦੀ ਕਲਾਸ",
+        "body": "ਆਪਣੀ ਸਥਾਨਕ ਮਸਜਿਦ ਤੋਂ ਪੁੱਛੋ ਕਿ ਕੀ ਉਹ ਅਰਬੀ ਪੜ੍ਹਨਾ ਸਿੱਖਣ ਦੀ ਕਲਾਸ ਚਲਾਉਂਦੀ ਹੈ। ਜ਼ਿਆਦਾਤਰ ਕਲਾਸਾਂ ਅੱਖਰਾਂ ਤੋਂ ਸ਼ੁਰੂ ਹੁੰਦੀਆਂ ਹਨ, ਫਿਰ ਲਗਾਂ-ਮਾਤਰਾਂ, ਫਿਰ ਅੱਖਰ ਜੋੜਨਾ, ਫਿਰ ਛੋਟੀਆਂ ਸੂਰਤਾਂ। ਨਾਲ ਹੀ ਇੱਕ ਅਨੁਵਾਦ ਚੁਣੋ, ਜਿਵੇਂ The Clear Quran ਜਾਂ Abdel Haleem ਵਾਲਾ, ਅਤੇ ਰੋਜ਼ ਥੋੜ੍ਹਾ ਪੜ੍ਹੋ।",
+        "href": "/resources/find-masjid"
+      },
+      "optional": {
+        "title": "New Muslim Academy ਦੀਆਂ ਲਾਈਵ ਕੁਰਆਨ ਕਲਾਸਾਂ",
+        "body": "ਸ਼ਾਮ ਨੂੰ, ਈਸਟਰਨ ਸਮੇਂ ਅਨੁਸਾਰ, ਮੁਫ਼ਤ ਛੋਟੇ-ਗਰੁੱਪ ਆਨਲਾਈਨ ਕਲਾਸਾਂ, ਭਰਾਵਾਂ ਅਤੇ ਭੈਣਾਂ ਲਈ ਵੱਖਰੀਆਂ। ਇਨ੍ਹਾਂ ਵਿੱਚ ਸੂਰਤ ਅਲ-ਫ਼ਾਤਿਹਾ ਅਤੇ ਛੋਟੀਆਂ ਸੂਰਤਾਂ ਹਨ। ਪਹਿਲਾਂ ਤੁਸੀਂ ਇੱਕ ਸਾਈਨ-ਅੱਪ ਫ਼ਾਰਮ ਭਰਦੇ ਹੋ।",
+        "href": "https://www.newmuslimacademy.org/sisters-quran-classes/",
+        "resourceId": "new-muslim-academy-quran-classes"
+      },
+      "guardrails": [
+        "ਪਹਿਲਾਂ ਮੁਫ਼ਤ, ਫਿਰ ਪੈਸੇ ਵਾਲਾ। ਸ਼ੁਰੂ ਕਰਨ ਲਈ ਤੁਹਾਨੂੰ ਪੈਸੇ ਵਾਲੇ ਆਨਲਾਈਨ ਟਿਊਟਰ ਦੀ ਲੋੜ ਨਹੀਂ।",
+        "ਅਜਿਹੀਆਂ ਅਕੈਡਮੀਆਂ ਦੀ ਇੱਕ-ਇੱਕ ਟਿਊਸ਼ਨ ਤੋਂ ਸਾਵਧਾਨ ਰਹੋ ਜਿਨ੍ਹਾਂ ਨੂੰ ਤੁਸੀਂ ਜਾਂਚ ਨਹੀਂ ਸਕਦੇ।"
+      ]
+    }
   },
   {
     "id": "month-1-2",
@@ -144,12 +183,6 @@
       "ਹਰ ਸਮੱਗਰੀ ਦੇ ਸਵਾਲ ਨੂੰ ਐਮਰਜੈਂਸੀ ਨਾ ਸਮਝੋ।",
       "ਆਪਣੇ ਕੱਪੜਿਆਂ ਦੀ ਯਾਤਰਾ ਦੀ ਤੁਲਨਾ ਕਿਸੇ ਹੋਰ ਵਿਅਕਤੀ ਨਾਲ ਨਾ ਕਰੋ।",
       "ਬੇਤਰਤੀਬੇ ਔਨਲਾਈਨ ਟਿੱਪਣੀਆਂ ਤੋਂ ਵਰਤ ਰੱਖਣ ਵਾਲੇ ਮੁਸ਼ਕਲ ਸਵਾਲਾਂ ਨੂੰ ਨਾ ਲਓ."
-    ],
-    "stepIds": [
-      "halal-eating-practical",
-      "halal-haram",
-      "fasting",
-      "modesty-and-clothing"
     ],
     "duration": "1-2 ਮਹੀਨੇ",
     "focusNow": [
@@ -177,7 +210,24 @@
         "href": "/topics/modesty"
       }
     ],
-    "sourceIds": ["new-muslim-guide", "seekersguidance"]
+    "learningPath": {
+      "main": {
+        "title": "ਇੱਕ ਤਰਤੀਬਵਾਰ ਕੋਰਸ",
+        "body": "New Muslim Academy ਦੇ ਮੁੱਖ ਕੋਰਸ ਪੂਰੇ ਕਰੋ, ਜਾਂ SeekersGuidance ਦਾ ਮੁਫ਼ਤ ਲਾਈਵ ਕੋਰਸ Essentials of Faith, Worship, and Spirituality ਲਵੋ, ਜੋ ਸ਼ਨੀਵਾਰ ਨੂੰ ਈਸਟਰਨ ਸਮੇਂ ਅਨੁਸਾਰ 10:00 ਵਜੇ ਹੁੰਦਾ ਹੈ। ਇੱਕ ਚੁਣੋ, ਦੋਵੇਂ ਨਹੀਂ।",
+        "href": "https://seekersguidance.org/live",
+        "resourceId": "seekersguidance-essentials-course"
+      },
+      "optional": {
+        "title": "ਛੋਟੀਆਂ ਸੂਰਤਾਂ ਲਈ Quran.com ਦੀਆਂ ਸਿੱਖਣ ਯੋਜਨਾਵਾਂ",
+        "body": "ਉਨ੍ਹਾਂ ਛੋਟੀਆਂ ਸੂਰਤਾਂ ਬਾਰੇ ਮੁਫ਼ਤ ਯੋਜਨਾਵਾਂ ਜੋ ਬਹੁਤ ਸਾਰੇ ਲੋਕ ਨਮਾਜ਼ ਵਿੱਚ ਪੜ੍ਹਦੇ ਹਨ, ਜਿਵੇਂ ਅਲ-ਇਖ਼ਲਾਸ, ਅਲ-ਫ਼ਲਕ ਅਤੇ ਅਨ-ਨਾਸ, ਤਾਂ ਜੋ ਤੁਹਾਨੂੰ ਪਤਾ ਹੋਵੇ ਕਿ ਤੁਸੀਂ ਕੀ ਕਹਿ ਰਹੇ ਹੋ।",
+        "href": "https://quran.com/learning-plans",
+        "resourceId": "quran-com"
+      },
+      "guardrails": [
+        "ਇੱਕ ਵੇਲੇ ਸਿਰਫ਼ ਇੱਕ ਕੋਰਸ।",
+        "ਜੇ ਤੁਸੀਂ ਨਮਾਜ਼ ਦੇ ਸਮਿਆਂ ਦੀ ਐਪ ਚਾਹੁੰਦੇ ਹੋ, ਤਾਂ ਅਜਿਹੀ ਚੁਣੋ ਜੋ ਤੁਹਾਡੀ ਲੋਕੇਸ਼ਨ ਤੁਹਾਡੇ ਫ਼ੋਨ 'ਤੇ ਰੱਖੇ ਅਤੇ ਜਿਸ ਵਿੱਚ ਇਸ਼ਤਿਹਾਰ ਨਾ ਹੋਣ।"
+      ]
+    }
   },
   {
     "id": "month-3-6",
@@ -192,7 +242,6 @@
       "ਚਿੰਤਾ ਨਾ ਕਰੋ ਜੇਕਰ ਸਵਾਲ ਅਜੇ ਵੀ ਆਉਂਦੇ ਹਨ।",
       "ਇਸਲਾਮ ਨੂੰ ਲਗਾਤਾਰ ਸਵੈ-ਆਲੋਚਨਾ ਵਾਂਗ ਮਹਿਸੂਸ ਨਾ ਕਰੋ।"
     ],
-    "stepIds": ["character", "asking-an-imam", "knowledge"],
     "duration": "2-3 ਮਹੀਨੇ",
     "focusNow": [
       "ਇਮਾਨਦਾਰੀ, ਧੀਰਜ, ਪ੍ਰਾਰਥਨਾ ਅਤੇ ਚੰਗੇ ਵਿਵਹਾਰ ਦਾ ਅਭਿਆਸ ਕਰੋ।",
@@ -219,7 +268,23 @@
         "href": "/topics/prophet-muhammad"
       }
     ],
-    "sourceIds": ["seekersguidance", "yaqeen-institute", "sunnah-com"]
+    "learningPath": {
+      "main": {
+        "title": "ਸਥਾਨਕ ਹਲਕਾ ਜਾਂ ਮਸਜਿਦ ਦੀ ਕਲਾਸ",
+        "body": "ਕਿਸੇ ਅਜਿਹੇ ਉਸਤਾਦ ਨਾਲ ਨੇਮ ਵਾਲਾ ਪੜ੍ਹਾਈ ਦਾ ਹਲਕਾ ਜਿਸ ਨੂੰ ਤੁਸੀਂ ਮਿਲ ਸਕੋ ਅਤੇ ਸਵਾਲ ਪੁੱਛ ਸਕੋ। ਆਪਣੀ ਮਸਜਿਦ ਤੋਂ ਪੁੱਛੋ ਕਿ ਹਰ ਹਫ਼ਤੇ ਕੀ ਹੁੰਦਾ ਹੈ ਅਤੇ ਕੀ ਉਹ ਸ਼ੁਰੂਆਤ ਕਰਨ ਵਾਲਿਆਂ ਲਈ ਢੁਕਵਾਂ ਹੈ।",
+        "href": "/resources/find-masjid"
+      },
+      "optional": {
+        "title": "Qur'an 30 for 30: ਵਿਸ਼ਿਆਂ ਮੁਤਾਬਕ ਤਫ਼ਸੀਰ",
+        "body": "Yaqeen Institute ਦੀ Dr. Omar Suleiman ਅਤੇ Sh. Ismail Kamdar ਵੱਲੋਂ ਇੱਕ ਮੁਫ਼ਤ ਈ-ਕਿਤਾਬ। ਇਹ ਕੁਰਆਨ ਦੇ 30 ਪਾਰਿਆਂ ਵਿੱਚੋਂ ਹਰ ਇੱਕ ਦੀ ਝਾਤ ਦਿੰਦੀ ਹੈ।",
+        "href": "https://yaqeeninstitute.ca/read/books/quran-30-for-30-thematic-tafsir",
+        "resourceId": "yaqeen-quran-30-for-30"
+      },
+      "guardrails": [
+        "ਆਨਲਾਈਨ ਕਿਸੇ ਅਜਨਬੀ ਤੋਂ ਪਹਿਲਾਂ ਅਜਿਹੇ ਉਸਤਾਦ ਤੋਂ ਸਿੱਖੋ ਜਿਸ ਨੂੰ ਤੁਸੀਂ ਮਿਲ ਸਕੋ ਜਾਂ ਜਾਂਚ ਸਕੋ।",
+        "ਇਨ੍ਹਾਂ ਪਹਿਲੇ ਮਹੀਨਿਆਂ ਵਿੱਚ ਬਹਿਸ ਵਾਲੇ ਚੈਨਲਾਂ ਤੋਂ ਦੂਰ ਰਹੋ।"
+      ]
+    }
   },
   {
     "id": "month-6-plus",
@@ -233,7 +298,6 @@
       "ਜੇ ਤੁਸੀਂ ਥ੍ਰੈਸ਼ਹੋਲਡ ਨੂੰ ਪੂਰਾ ਨਹੀਂ ਕਰਦੇ ਹੋ ਤਾਂ ਜ਼ਕਾਤ ਬਾਰੇ ਚਿੰਤਾ ਨਾ ਕਰੋ।",
       "ਪੂਰੇ ਧਰਮ ਨੂੰ ਖਤਮ ਕਰਨ ਦੀ ਚਿੰਤਾ ਨਾ ਕਰੋ; ਵਿਕਾਸ ਜੀਵਨ ਲਈ ਜਾਰੀ ਰਹਿੰਦਾ ਹੈ।"
     ],
-    "stepIds": ["zakat-hajj"],
     "duration": "ਜਾਰੀ ਹੈ",
     "focusNow": [
       "ਪ੍ਰਾਰਥਨਾ ਅਤੇ ਚਰਿੱਤਰ ਨੂੰ ਸਥਿਰ ਰੱਖੋ।",
@@ -260,6 +324,23 @@
         "href": "/topics/questions-and-doubts"
       }
     ],
-    "sourceIds": ["irusa-zakat", "launchgood-zakat", "seekersguidance"]
+    "learningPath": {
+      "main": {
+        "title": "MAC eLearning: ਆਨਲਾਈਨ ਕੋਰਸ",
+        "body": "Muslim Association of Canada ਦੇ ਕੁਰਆਨ, ਇਸਲਾਮੀ ਇਲਮਾਂ, ਪਰਿਵਾਰ ਅਤੇ ਇਤਿਹਾਸ ਬਾਰੇ ਮੁਫ਼ਤ ਆਨਲਾਈਨ ਕੋਰਸ। ਆਪਣੀ ਰਫ਼ਤਾਰ ਨਾਲ ਚੱਲੋ।",
+        "href": "https://elearning.macnet.ca/",
+        "resourceId": "mac-elearning"
+      },
+      "optional": {
+        "title": "ਤਫ਼ਸੀਰ ਇਬਨ ਕਸੀਰ, ਸੰਖੇਪ: ਤੀਹਵਾਂ ਪਾਰਾ",
+        "body": "ਕੁਰਆਨ ਦੇ ਆਖ਼ਰੀ ਪਾਰੇ ਦੀਆਂ ਛੋਟੀਆਂ ਸੂਰਤਾਂ ਦੀ ਇੱਕ ਕਲਾਸਿਕ ਵਿਆਖਿਆ, ਉਹ ਸੂਰਤਾਂ ਜੋ ਤੁਸੀਂ ਸ਼ਾਇਦ ਪਹਿਲਾਂ ਹੀ ਪੜ੍ਹਦੇ ਹੋ। ਇਹ Darussalam ਦੀ ਪੈਸੇ ਵਾਲੀ ਛਪੀ ਕਿਤਾਬ ਹੈ।",
+        "href": "https://darussalam.com/tafsir-ibn-kathir-abridged-30th-part/",
+        "resourceId": "tafsir-ibn-kathir-juz-amma"
+      },
+      "guardrails": [
+        "ਕੁਝ ਹਫ਼ਤਿਆਂ ਲਈ ਰੁਕ ਕੇ ਵਾਪਸ ਆਉਣਾ ਠੀਕ ਹੈ।",
+        "ਇੱਕ ਵੇਲੇ ਇੱਕ ਵਿਸ਼ੇ ਵਿੱਚ ਡੂੰਘੇ ਜਾਓ, ਜਦੋਂ ਹੋ ਸਕੇ ਕਿਸੇ ਉਸਤਾਦ ਨਾਲ।"
+      ]
+    }
   }
 ]
