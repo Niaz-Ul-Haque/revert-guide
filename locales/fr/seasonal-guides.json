@@ -1,7 +1,7 @@
 [
   {
     "id": "eid-al-fitr",
-    "title": "Guide de l'Aïd al-Fitr",
+    "title": "La fête après le Ramadan (Aïd al-Fitr)",
     "description": "Ce qu'est la prière de l'Aïd, comment se passe la matinée, et comment vivre l'Aïd quand vous êtes nouveau ou seul.",
     "badge": "Adoration de saison",
     "intro": "L'Aïd al-Fitr est la fête de la fin du Ramadan. Gardez votre premier Aïd simple : vérifiez l'heure de la prière près de chez vous, venez propre et habillé avec pudeur, saluez les gens, et demandez à votre mosquée si la Zakat al-Fitr s'applique à vous.",
@@ -58,6 +58,10 @@
       {
         "heading": "La Zakat al-Fitr en bref",
         "body": "Beaucoup de musulmans donnent la Zakat al-Fitr avant la prière de l'Aïd, comme une aumône liée au Ramadan. Le montant, qui doit la payer et la façon dont elle est recueillie dépendent tous des avis des savants locaux. Demandez à votre mosquée à l'avance plutôt que d'essayer de tout régler dans le stationnement."
+      },
+      {
+        "heading": "Après l'Aïd : six jours de Shawwal",
+        "body": "Le jour de l'Aïd lui-même n'est pas un jour de jeûne. Après, beaucoup de musulmans jeûnent six jours de Shawwal, le mois qui suit le Ramadan. Le Prophète (paix et bénédictions sur lui) a dit que jeûner le Ramadan puis six jours de Shawwal, c'est comme jeûner toute l'année (Sahih Muslim 1164). Si vous avez des jours à rattraper, demandez à un enseignant lesquels faire en premier."
       }
     ],
     "scripts": [
@@ -76,6 +80,10 @@
     ],
     "relatedLinks": [
       {
+        "label": "Les vœux de l'Aïd et d'autres expressions de tous les jours",
+        "href": "/dua-dhikr#everyday-phrases"
+      },
+      {
         "label": "Guide du Ramadan",
         "href": "/ramadan"
       },
@@ -91,7 +99,7 @@
   },
   {
     "id": "dhul-hijjah-hajj-umrah",
-    "title": "Guide de Dhul Hijjah, du hajj et de la omra (umrah)",
+    "title": "La saison du pèlerinage (hajj et Dhul Hijjah)",
     "description": "Les dix premiers jours de Dhul Hijjah, l'Aïd al-Adha et les bases du pèlerinage, sans les règles avancées.",
     "badge": "Saison sacrée",
     "intro": "Dhul Hijjah contient les jours du hajj et l'Aïd al-Adha. La plupart des nouveaux musulmans ne partiront pas au hajj cette année, et vous pouvez quand même tirer beaucoup de cette saison par la prière, le jeûne si vous le pouvez, l'aumône, le rappel d'Allah (dhikr) et en comprenant comment tout cela s'articule.",
@@ -139,6 +147,16 @@
         "body": "La omra (umrah) est un pèlerinage à La Mecque en dehors de la saison du hajj. C'est un acte d'adoration, et c'est aussi une affaire de visas, de santé, d'argent, de sécurité et de planification soignée. Utilisez les plateformes officielles et les consignes gouvernementales à jour avant de réserver."
       },
       {
+        "heading": "Se préparer physiquement et côté papiers",
+        "items": [
+          "La page de voyage du gouvernement du Canada prévoit le prochain hajj vers le 14 au 19 mai 2027. Elle avertit que la chaleur en Arabie saoudite dépasse largement 40 degrés Celsius, que la déshydratation et le coup de chaleur peuvent être mortels, et que la foule comporte un risque de bousculades.",
+          "Commencez à marcher régulièrement des mois avant de partir. Le hajj et la omra (umrah) demandent beaucoup de marche, souvent sous la chaleur.",
+          "Prenez rendez-vous dans une clinique santé-voyage bien à l'avance. Les règles sanitaires officielles du hajj se trouvent sur Nusuk, et la clinique peut vérifier quels vaccins s'appliquent à vous. La page de voyage.gc.ca indique que la preuve de vaccination contre la fièvre jaune n'est exigée que si vous arrivez d'un pays où sévit la fièvre jaune ou y transitez.",
+          "Demandez tôt à votre mosquée un certificat de conversion. Il peut être exigé pour les demandes de hajj ou de omra, et il faut du temps pour l'obtenir.",
+          "Relisez l'avertissement aux voyageurs avant de payer qui que ce soit. Si un forfait ressemble à une arnaque, signalez-le au Centre antifraude du Canada, dont la page sur la fraude liée aux vacances décrit les faux voyages bon marché et les demandes de dépôt."
+        ]
+      },
+      {
         "heading": "Vérifier la voie officielle",
         "items": [
           "Consultez l'avis aux voyageurs actuel du gouvernement du Canada pour l'Arabie saoudite avant de faire des plans. Lors de notre vérification en septembre 2026, il recommandait d'éviter les voyages non essentiels, avec des avis plus stricts pour certaines régions. Les avis changent, alors lisez la page à jour sur travel.gc.ca.",
@@ -165,22 +183,34 @@
     ],
     "relatedLinks": [
       {
+        "label": "Les vœux de l'Aïd et d'autres expressions de tous les jours",
+        "href": "/dua-dhikr#everyday-phrases"
+      },
+      {
         "label": "Étape sur la zakat et le hajj",
         "href": "/roadmap/month-6-plus/zakat-hajj"
       },
       {
-        "label": "Guide de la zakat",
+        "label": "L'aumône annuelle (zakat) pour les débutants",
         "href": "/seasonal/zakat"
       },
       {
         "label": "Étape : consulter un imam",
         "href": "/roadmap/month-3-6/asking-an-imam"
+      },
+      {
+        "label": "Ai-je besoin d'un certificat de Shahada?",
+        "href": "/faq#faq-fnd-003"
+      },
+      {
+        "label": "Prier en voyage",
+        "href": "/topics/prayer"
       }
     ]
   },
   {
     "id": "zakat",
-    "title": "Guide de la zakat pour débutants",
+    "title": "L'aumône annuelle (zakat) pour les débutants",
     "description": "Ce qu'est la zakat, comment se mesure le nisab, comment vérifier un organisme de bienfaisance canadien, et quand faire examiner vos propres chiffres par une personne qualifiée.",
     "badge": "Guide du don",
     "intro": "La zakat est une obligation pour les musulmans dont les biens remplissent certaines conditions. Cette page présente le vocabulaire et les points de décision. Ce n'est pas un calculateur, et ce n'est pas un avis religieux sur vos finances.",
@@ -213,6 +243,16 @@
         "body": "À un niveau débutant, la zakat peut s'appliquer si vous possédez des biens soumis à la zakat au-dessus du seuil du nisab pendant une année lunaire. Les détails se compliquent vite, alors ne paniquez pas si vous ne savez pas. Demandez à un savant qualifié ou à une institution de zakat en qui vous avez confiance."
       },
       {
+        "heading": "Si vous êtes nouveau en islam",
+        "items": [
+          "Vous ne devez aucune zakat pour les années avant votre conversion.",
+          "Une réponse chaféite de SeekersGuidance (cheikh Irshaad Sedick, 2022) dit que la première zakat d'un nouveau musulman n'est pas due avant qu'une année lunaire complète se soit écoulée depuis le jour de sa conversion. D'autres écoles peuvent compter autrement : demandez à un enseignant.",
+          "Notez la date de votre Shahada, aussi selon le calendrier de l'hégire si vous le pouvez. Comparez vos économies au nisab à cette date, puis de nouveau une année lunaire plus tard.",
+          "Votre date de zakat vous est propre. Si elle tombe avant le Ramadan, vous n'avez pas à attendre le Ramadan pour payer.",
+          "National Zakat Foundation Canada dit que la plupart des savants permettent de payer la zakat à l'avance, par exemple un montant fixe chaque mois, pourvu que vous possédiez déjà le nisab et que le montant total soit payé à votre date de zakat. Vous soustrayez alors ce que vous avez déjà payé en calculant le total. NZF décrit une limite de deux ans à l'avance comme une précaution que certains savants ajoutent."
+        ]
+      },
+      {
         "heading": "Le nisab, le hawl et les 2,5 pour cent",
         "items": [
           "Le nisab est le minimum de biens à partir duquel la zakat devient due. Il se mesure au poids : Islamic Relief Canada l'établit à 87,48 grammes d'or ou 612,36 grammes d'argent.",
@@ -228,8 +268,12 @@
         "body": "L'épargne en argent comptant, l'or, l'argent, les stocks d'une entreprise, les placements, l'argent qu'on vous doit, les dettes et les comptes canadiens comme un REER, un CELI ou un REEE soulèvent chacun leurs propres questions. National Zakat Foundation Canada, par exemple, dit de compter l'argent d'un REER ou d'un CELI auquel vous avez accès à sa valeur à votre date de zakat, et que vous pouvez soustraire l'impôt retenu sur un retrait d'un REER. Le calculateur de Muslim Welfare Canada ne soustrait que les paiements de l'année à venir sur les dettes à long terme. Les savants ne sont pas tous d'accord, alors voyez-y des exemples des questions à poser, pas votre réponse."
       },
       {
+        "heading": "Les bijoux en or et en argent",
+        "body": "Les bijoux en or et en argent sont l'une des différences les plus nettes. La page de recherche de National Zakat Foundation Canada (cheikh Nabil Khan, 2022) dit que les écoles malikite, chaféite et hanbalite n'exigent pas de zakat sur les bijoux portés par les femmes, alors que l'avis officiel hanafite est que la zakat est due sur tout l'or et tout l'argent, portés ou non. NZF encourage à payer, par prudence. Sa page explique aussi comment compter les objets qui mélangent l'or ou l'argent avec d'autres métaux. Demandez quel avis suit votre enseignant."
+      },
+      {
         "heading": "Les huit catégories de bénéficiaires",
-        "body": "Coran 9:60 nomme huit catégories de personnes qui peuvent recevoir la zakat. Appliquer ces catégories demande de connaître les besoins locaux, la politique de l'organisme et l'interprétation des savants, alors passez par un organisme de zakat de confiance ou demandez à une personne qualifiée."
+        "body": "Le Coran 9:60 nomme huit catégories de personnes qui peuvent recevoir la zakat. Appliquer ces catégories demande de connaître les besoins locaux, les politiques des organismes et l'interprétation des savants : passez donc par un organisme de zakat de confiance ou demandez à une personne qualifiée. La plupart des savants disent que la zakat va aux musulmans. Si votre famille n'est pas musulmane et a des difficultés, aidez-la avec votre autre argent ou par l'aumône volontaire (sadaqah), qui est permise et encouragée. La FAQ sur la zakat et la famille non musulmane explique les différences."
       },
       {
         "heading": "Si c'est vous qui avez besoin d'aide",
@@ -253,7 +297,8 @@
           "Vérifiez qu'ils expliquent qui a le droit de la recevoir et quelle part va aux frais de fonctionnement.",
           "Donnez à l'organisme lui-même, pas à une personne qui recueille de l'argent en son nom, et ne donnez pas sous la pression. Les organismes enregistrés ne demandent pas de cartes-cadeaux.",
           "Demandez à votre mosquée locale à qui elle fait confiance pour distribuer la zakat.",
-          "Gardez vos propres dossiers. N'enregistrez pas de renseignements financiers personnels dans cette application."
+          "Gardez vos propres dossiers. N'enregistrez pas de renseignements financiers personnels dans cette application.",
+          "Si vous donnez à un organisme de bienfaisance enregistré, demandez un reçu officiel de don. L'Agence du revenu du Canada accorde des crédits d'impôt fédéraux et provinciaux pour les dons aux organismes de bienfaisance enregistrés et aux autres donataires reconnus, demandés à la ligne 34900 de votre déclaration. L'argent remis directement à une personne ne compte pas. Qu'un organisme remette un reçu pour l'aumône de fin de Ramadan (zakat al-fitr) ou la compensation (fidyah) dépend de l'organisme : demandez."
         ]
       }
     ],
@@ -363,18 +408,34 @@
         "href": "/ramadan"
       },
       {
-        "label": "Guide de l'Aïd al-Fitr",
+        "label": "La fête après le Ramadan (Aïd al-Fitr)",
         "href": "/seasonal/eid-al-fitr"
       },
       {
         "label": "Trouver une mosquée",
         "href": "/resources/find-masjid"
+      },
+      {
+        "label": "Le premier mois et Ashura (Muharram)",
+        "href": "/seasonal/muharram-ashura"
+      },
+      {
+        "label": "Le mois de la naissance du Prophète (Rabi al-Awwal)",
+        "href": "/seasonal/rabi-al-awwal-seerah"
+      },
+      {
+        "label": "Les mois avant le Ramadan (Rajab et Sha'ban)",
+        "href": "/seasonal/rajab-shaban-preparation"
+      },
+      {
+        "label": "L'aumône et le service toute l'année",
+        "href": "/seasonal/year-round-charity-service"
       }
     ]
   },
   {
     "id": "muharram-ashura",
-    "title": "Guide de Muharram et d'Achoura pour débutants",
+    "title": "Le premier mois et Ashura (Muharram)",
     "description": "Ce que sont Muharram et Achoura, la place du jeûne volontaire, et quoi demander localement.",
     "badge": "Mois sacré",
     "intro": "Muharram est le premier mois de l'année islamique et l'un des mois sacrés. Achoura est son dixième jour. Pour commencer, gardez cette période simple : apprenez ce qu'elle signifie, confirmez la date locale, et jeûnez si vous le pouvez et que vous avez été bien guidé.",
@@ -443,7 +504,7 @@
         "href": "/seasonal/islamic-calendar"
       },
       {
-        "label": "Invocations (dua) et rappels d'Allah (dhikr)",
+        "label": "Invocations et rappel d'Allah (dua et dhikr)",
         "href": "/dua-dhikr"
       },
       {
@@ -454,7 +515,7 @@
   },
   {
     "id": "rabi-al-awwal-seerah",
-    "title": "Rabi al-Awwal et l'apprentissage de la sira",
+    "title": "Le mois de la naissance du Prophète (Rabi al-Awwal)",
     "description": "Laissez Rabi al-Awwal vous rappeler d'apprendre la vie et le caractère du Prophète, sans vous laisser entraîner dans les disputes.",
     "badge": "Apprendre la sira",
     "intro": "Pendant Rabi al-Awwal, les musulmans parlent souvent davantage du Prophète Muhammad, paix et bénédictions sur lui. Gardez cela à la mesure d'un débutant : apprenez sa miséricorde, son caractère, le message qu'il a apporté et la sunna du quotidien, auprès d'enseignants fiables, et restez en dehors des disputes.",
@@ -535,7 +596,7 @@
   },
   {
     "id": "rajab-shaban-preparation",
-    "title": "Rajab et Cha'ban : se préparer",
+    "title": "Les mois avant le Ramadan (Rajab et Sha'ban)",
     "description": "Préparez-vous au Ramadan avec soin, et vérifiez les sources des pratiques liées à Rajab et à Cha'ban.",
     "badge": "Préparer le Ramadan",
     "intro": "Rajab et Cha'ban arrivent juste avant le Ramadan, et ils apportent avec eux un flot de rappels en ligne. Cette page vous aide à vous préparer sans prendre des affirmations mal sourcées pour une adoration établie.",
@@ -682,7 +743,7 @@
     ],
     "relatedLinks": [
       {
-        "label": "Guide de la zakat pour débutants",
+        "label": "L'aumône annuelle (zakat) pour les débutants",
         "href": "/seasonal/zakat"
       },
       {
