@@ -51,6 +51,16 @@ To add a new language:
 
 The language switcher stores the selected locale in local storage so the root entry page can redirect users back to their last-used language in the static export.
 
+## Checking content references
+
+Steps, topics and other content files point at each other by id: `relatedGlossaryIds`, `relatedTopicIds`, `relatedStepIds`, `resourceIds` and every `sourceIds`. The pages drop an id they cannot find without any warning, so run this after editing content:
+
+```bash
+node scripts/check-content-refs.mjs
+```
+
+It reads every JSON file under `locales/en` and exits 1 with a list of each id that does not resolve. It prints `clean` when every reference points at a real glossary entry, topic, step, resource or source.
+
 ## Learn more
 
 Useful Next.js references:
