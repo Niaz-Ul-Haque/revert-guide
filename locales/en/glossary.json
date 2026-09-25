@@ -876,8 +876,9 @@
     "term": "Khalwa",
     "arabicText": "خلوة",
     "transliteration": "KHAL-wah",
-    "definition": "Seclusion: a man and a woman who are not closely related, alone together in a closed place where nobody else can see in or come in. Scholars ask Muslims to avoid it. Working or studying together in open, shared spaces is not khalwa.",
-    "seeAlso": ["awrah", "hijab"]
+    "definition": "Being alone in private with someone of the opposite sex who is not your spouse or a mahram. The Prophet said a man should not be alone with a woman unless a mahram is present, which is why meetings before marriage usually include a family member or happen in a public place.",
+    "seeAlso": ["awrah", "hijab", "mahram", "nikah", "zina"],
+    "sourceIds": ["sunnah-bukhari-5233"]
   },
   {
     "id": "mahram",
@@ -885,7 +886,8 @@
     "arabicText": "محرم",
     "transliteration": "MAH-ram",
     "definition": "Close family: a relative you may never marry, such as a parent, child, sibling, uncle, aunt, niece or nephew, and some in-laws such as a father-in-law or mother-in-law. You may relax your covering in front of a mahram. Religion does not change it, so a non-Muslim father or brother is still mahram. Cousins and brothers-in-law are not.",
-    "seeAlso": ["awrah", "hijab", "nikah"]
+    "seeAlso": ["awrah", "hijab", "nikah"],
+    "sourceIds": ["quran-4-23"]
   },
   {
     "id": "revert",
@@ -1276,24 +1278,6 @@
     "transliteration": "WA-lee",
     "definition": "A guardian, usually a bride's father or another close male relative, who takes part in her marriage contract. The schools differ on whether a wali is required, so ask a qualified imam about your situation.",
     "seeAlso": ["nikah", "mahr", "mahram"]
-  },
-  {
-    "id": "mahram-2",
-    "term": "Mahram",
-    "arabicText": "محرم",
-    "transliteration": "MAH-ram",
-    "definition": "A close relative a person can never marry, such as a parent, child, sibling, aunt or uncle. The rules on covering and travelling are different around a mahram.",
-    "seeAlso": ["nikah", "hijab", "awrah"],
-    "sourceIds": ["quran-4-23"]
-  },
-  {
-    "id": "khalwa-2",
-    "term": "Khalwa",
-    "arabicText": "خلوة",
-    "transliteration": "KHAL-wah",
-    "definition": "Being alone in private with someone of the opposite sex who is not your spouse or a mahram. The Prophet said a man should not be alone with a woman unless a mahram is present, which is why meetings before marriage usually include a family member or happen in a public place.",
-    "seeAlso": ["mahram", "nikah", "zina"],
-    "sourceIds": ["sunnah-bukhari-5233"]
   },
   {
     "id": "zina",
