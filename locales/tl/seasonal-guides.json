@@ -1,7 +1,7 @@
 [
   {
     "id": "eid-al-fitr",
-    "title": "Gabay sa Eid al-Fitr",
+    "title": "Ang pagdiriwang pagkatapos ng Ramadan (Eid al-Fitr)",
     "description": "Ano ang pagdarasal ng Eid, ano ang hitsura ng umaga, at paano haharapin ang Eid kapag bago ka o mag-isa.",
     "badge": "Pagsamba ayon sa panahon",
     "intro": "Ang Eid al-Fitr ay ang pagdiriwang sa pagtatapos ng Ramadan. Panatilihing simple ang una mo: alamin ang lokal na oras ng pagdarasal, dumating nang malinis at disente ang pananamit, batiin ang mga tao, at itanong sa masjid mo ang tungkol sa Zakat al-Fitr kung sakaling para sa iyo ito.",
@@ -58,6 +58,10 @@
       {
         "heading": "Maikling paliwanag tungkol sa Zakat al-Fitr",
         "body": "Maraming Muslim ang nagbibigay ng Zakat al-Fitr bago ang pagdarasal ng Eid bilang kawanggawang nakaugnay sa Ramadan. Nakadepende sa lokal na gabay ng mga iskolar ang halaga, kung sino ang dapat magbayad, at kung paano ito kinokolekta. Magtanong nang maaga sa masjid mo sa halip na kuwentahin ito sa parking lot."
+      },
+      {
+        "heading": "Pagkatapos ng Eid: anim na araw ng Shawwal",
+        "body": "Hindi araw para sa pag-aayuno ang mismong araw ng Eid. Pagkatapos nito, maraming Muslim ang nag-aayuno ng anim na araw sa Shawwal, ang buwang kasunod ng Ramadan. Sinabi ng Propeta (sumakanya nawa ang kapayapaan) na ang pag-aayuno sa Ramadan at pagkatapos ay anim na araw ng Shawwal ay parang walang tigil na pag-aayuno (Sahih Muslim 1164). Kung may utang kang mga araw na babayaran, tanungin ang isang guro kung alin ang uunahin."
       }
     ],
     "scripts": [
@@ -76,6 +80,10 @@
     ],
     "relatedLinks": [
       {
+        "label": "Mga pagbati sa Eid at iba pang pang-araw-araw na parirala",
+        "href": "/dua-dhikr#everyday-phrases"
+      },
+      {
         "label": "Gabay sa Ramadan",
         "href": "/ramadan"
       },
@@ -91,7 +99,7 @@
   },
   {
     "id": "dhul-hijjah-hajj-umrah",
-    "title": "Gabay sa Dhul Hijjah, Hajj at Umrah",
+    "title": "Panahon ng peregrinasyon (Hajj at Dhul Hijjah)",
     "description": "Ang unang sampung araw ng Dhul Hijjah, ang Eid al-Adha, at ang mga batayan ng paglalakbay sa Makkah, nang walang malalalim na hatol.",
     "badge": "Banal na panahon",
     "intro": "Nasa Dhul Hijjah ang mga araw ng Hajj at Eid al-Adha. Hindi pupunta sa Hajj ngayong taon ang karamihan ng bagong Muslim, pero marami ka pa ring makukuha sa panahong ito sa pamamagitan ng pagdarasal, pag-aayuno kung kaya mo, kawanggawa, pag-alaala sa Allah, at pag-aaral kung paano nagkakaugnay ang lahat.",
@@ -139,6 +147,16 @@
         "body": "Ang Umrah ay paglalakbay sa Makkah sa labas ng panahon ng Hajj. Pagsamba ito, at kasama rin ang visa, kalusugan, pera, kaligtasan at maingat na pagpaplano ng biyahe. Gamitin ang mga opisyal na plataporma at kasalukuyang gabay ng pamahalaan bago mag-book."
       },
       {
+        "heading": "Paghahanda ng katawan at ng mga papeles",
+        "items": [
+          "Inaasahan ng travel page ng Government of Canada ang susunod na Hajj bandang 14 hanggang 19 Mayo 2027. Nagbababala ito na umaabot nang higit sa 40 degrees Celsius ang init sa Saudi Arabia, na puwedeng ikamatay ang dehydration at heatstroke, at na may panganib ng pagkakaipit sa siksikan dahil sa dami ng tao.",
+          "Magsimulang maglakad nang regular ilang buwan bago ka umalis. Maraming paglalakad ang Hajj at Umrah, kadalasan sa init.",
+          "Mag-book nang maaga ng pagbisita sa travel clinic. Nasa Nusuk ang opisyal na patakaran sa kalusugan para sa Hajj, at masusuri ng clinic kung aling mga bakuna ang nalalapat sa iyo. Sinasabi ng pahina ng travel.gc.ca na kailangan lamang ang patunay ng bakuna laban sa yellow fever kung manggagaling ka o dadaan sa bansang may yellow fever.",
+          "Humingi nang maaga sa masjid mo ng sertipiko ng pagyakap mo sa Islam. Maaari itong kailanganin sa aplikasyon para sa Hajj o Umrah, at natatagalan bago ito maisaayos.",
+          "Basahin ulit ang travel advisory bago ka magbayad sa kahit sino. Kung mukhang scam ang isang package, i-report ito sa Canadian Anti-Fraud Centre, na inilalarawan sa pahina nito tungkol sa vacation fraud ang pekeng murang biyahe at paghingi ng deposito."
+        ]
+      },
+      {
         "heading": "Pagsusuri sa opisyal na daan",
         "items": [
           "Tingnan ang kasalukuyang abiso sa paglalakbay ng Government of Canada para sa Saudi Arabia bago magplano. Nang tingnan namin noong Setyembre 2026, sinasabi nitong iwasan ang hindi mahalagang paglalakbay, na may mas mahigpit na abiso para sa ilang rehiyon. Nagbabago ang mga abiso, kaya basahin ang live na pahina sa travel.gc.ca.",
@@ -165,22 +183,34 @@
     ],
     "relatedLinks": [
       {
+        "label": "Mga pagbati sa Eid at iba pang pang-araw-araw na parirala",
+        "href": "/dua-dhikr#everyday-phrases"
+      },
+      {
         "label": "Hakbang tungkol sa Zakat at Hajj",
         "href": "/roadmap/month-6-plus/zakat-hajj"
       },
       {
-        "label": "Gabay sa zakat",
+        "label": "Taunang kawanggawa (zakat) para sa nagsisimula",
         "href": "/seasonal/zakat"
       },
       {
         "label": "Hakbang tungkol sa pagtatanong sa imam",
         "href": "/roadmap/month-3-6/asking-an-imam"
+      },
+      {
+        "label": "Kailangan ko ba ng sertipiko ng Shahada?",
+        "href": "/faq#faq-fnd-003"
+      },
+      {
+        "label": "Pagdarasal habang naglalakbay",
+        "href": "/topics/prayer"
       }
     ]
   },
   {
     "id": "zakat",
-    "title": "Gabay sa zakat para sa baguhan",
+    "title": "Taunang kawanggawa (zakat) para sa nagsisimula",
     "description": "Ano ang zakat, paano sinusukat ang nisab, paano susuriin ang isang charity sa Canada, at kailan kailangang ipasuri sa isang kwalipikado ang sarili mong kuwenta.",
     "badge": "Gabay sa pagbibigay",
     "intro": "Obligasyon ang zakat para sa mga Muslim na ang yaman ay tumutugon sa ilang kondisyon. Tinatalakay ng pahinang ito ang mga termino at ang mga punto ng pagpapasya. Hindi ito calculator, at hindi ito hatol sa pananalapi mo.",
@@ -213,6 +243,16 @@
         "body": "Sa antas ng baguhan, maaaring para sa iyo ang zakat kung may-ari ka ng yamang saklaw ng zakat na lampas sa nisab sa loob ng isang taong lunar. Mabilis na nagiging kumplikado ang mga detalye, kaya huwag mataranta kung hindi mo matukoy. Magtanong sa isang kwalipikadong iskolar o sa isang institusyon ng zakat na pinagkakatiwalaan mo."
       },
       {
+        "heading": "Kung bago ka sa Islam",
+        "items": [
+          "Wala kang utang na zakat para sa mga taon bago ka naging Muslim.",
+          "Sinasabi ng isang sagot na Shafi'i mula sa SeekersGuidance (Shaykh Irshaad Sedick, 2022) na hindi pa dapat bayaran ang unang zakat ng bagong Muslim hangga't hindi lumilipas ang isang buong taong lunar mula sa araw na naging Muslim siya. Maaaring iba ang pagbilang ng ibang mazhab, kaya magtanong sa isang guro.",
+          "Isulat ang petsa ng Shahada mo, pati sa kalendaryong Hijri kung kaya mo. Ihambing ang ipon mo sa nisab sa petsang iyon, at muli makalipas ang isang taong lunar.",
+          "Sa iyo ang petsa ng zakat mo. Kung tumapat ito bago ang Ramadan, hindi mo kailangang hintayin ang Ramadan para magbayad.",
+          "Sinasabi ng National Zakat Foundation Canada na pinapayagan ng karamihan ng iskolar ang maagang pagbabayad ng zakat, halimbawa isang takdang halaga bawat buwan, basta pag-aari mo na ang nisab at nabayaran ang buong halaga pagdating ng petsa ng zakat mo. Pagkatapos, ibabawas mo ang nabayaran mo na kapag kinakalkula mo ang kabuuan. Inilalarawan ng NZF ang limitasyong dalawang taon nang maaga bilang pag-iingat na idinadagdag ng ilang iskolar."
+        ]
+      },
+      {
         "heading": "Nisab, hawl at 2.5 porsiyento",
         "items": [
           "Ang nisab ay ang pinakamababang yaman kung saan nagiging obligado ang zakat. Sinusukat ito ayon sa timbang: ayon sa Islamic Relief Canada, 87.48 gramo ng ginto o 612.36 gramo ng pilak ito.",
@@ -228,8 +268,12 @@
         "body": "May kanya-kanyang tanong ang cash na ipon, ginto, pilak, imbentaryo ng negosyo, pamumuhunan, perang utang sa iyo, utang mo, at mga account sa Canada gaya ng RRSP, TFSA o RESP. Halimbawa, sinasabi ng National Zakat Foundation Canada na bilangin ang perang maaabot mo sa RRSP o TFSA ayon sa halaga nito sa araw ng zakat mo, at puwede mong ibawas ang buwis na kinakaltas kapag naglabas ka mula sa RRSP. Ibinabawas lamang ng calculator ng Muslim Welfare Canada ang mga bayarin sa darating na taon para sa pangmatagalang utang. Hindi nagkakasundo ang lahat ng iskolar, kaya gamitin ang mga ito bilang halimbawa ng mga tanong na itatanong, hindi bilang sagot mo."
       },
       {
+        "heading": "Alahas na ginto at pilak",
+        "body": "Isa sa pinakamalinaw na pagkakaiba ang alahas na ginto at pilak. Sinasabi ng research page ng National Zakat Foundation Canada (Sheikh Nabil Khan, 2022) na hindi hinihingi ng mga mazhab na Maliki, Shafi'i at Hanbali ang zakat sa alahas ng kababaihan na isinusuot, habang ang opisyal na pananaw ng Hanafi ay may zakat ang lahat ng ginto at pilak, isinusuot man o hindi. Hinihikayat ng NZF ang pagbabayad bilang maingat na pagpili. Ipinapaliwanag din ng pahina nito kung paano bibilangin ang mga bagay na pinaghalong ginto o pilak at ibang metal. Itanong kung aling pananaw ang sinusunod ng guro mo."
+      },
+      {
         "heading": "Ang walong kategorya ng tatanggap",
-        "body": "Pinangangalanan ng Quran 9:60 ang walong kategorya ng tao na puwedeng tumanggap ng zakat. Nangangailangan ng kaalaman sa lokal na pangangailangan, patakaran ng organisasyon at interpretasyon ng mga iskolar ang paglalapat ng mga kategoryang iyon, kaya dumaan sa isang mapagkakatiwalaang organisasyon ng zakat o magtanong sa isang kwalipikado."
+        "body": "Pinapangalanan ng Quran 9:60 ang walong kategorya ng mga taong puwedeng tumanggap ng zakat. Nangangailangan ng kaalaman sa lokal na pangangailangan, patakaran ng organisasyon at interpretasyon ng mga iskolar ang paglalapat ng mga kategoryang iyon, kaya dumaan sa isang mapagkakatiwalaang organisasyon ng zakat o magtanong sa isang kwalipikadong tao. Sinasabi ng karamihan ng iskolar na sa mga Muslim napupunta ang zakat. Kung hindi Muslim ang pamilya mo at naghihirap sila, tulungan sila mula sa iba mong pera o sa pamamagitan ng boluntaryong kawanggawa (sadaqah), na pinapayagan at hinihikayat. Ipinapaliwanag ng FAQ tungkol sa zakat at pamilyang hindi Muslim ang mga pagkakaiba."
       },
       {
         "heading": "Kung ikaw ang nangangailangan ng tulong",
@@ -253,7 +297,8 @@
           "Tiyaking ipinapaliwanag nila kung sino ang karapat-dapat tumanggap at kung gaano kalaking bahagi ang napupunta sa gastos sa pagpapatakbo.",
           "Ibigay sa mismong charity, hindi sa taong nangongolekta para dito, at huwag magbigay nang pinipilit. Hindi humihingi ng gift card ang mga rehistradong charity.",
           "Itanong sa masjid sa inyong lugar kung sino ang pinagkakatiwalaan nila sa pamamahagi ng zakat.",
-          "Magtabi ng sarili mong talaan. Huwag mag-imbak ng personal na detalye sa pananalapi sa app na ito."
+          "Magtabi ng sarili mong talaan. Huwag mag-imbak ng personal na detalye sa pananalapi sa app na ito.",
+          "Kung magbibigay ka sa rehistradong charity, humingi ng opisyal na resibo ng donasyon. Nagbibigay ang Canada Revenue Agency ng pederal at panlalawigang tax credit para sa mga regalo sa rehistradong charity at iba pang kwalipikadong tatanggap, na kine-claim sa line 34900 ng tax return mo. Hindi bilang ang perang direktang ibinigay sa isang tao. Nakadepende sa charity kung magbibigay ito ng resibo para sa zakat al-fitr o fidyah, kaya magtanong."
         ]
       }
     ],
@@ -363,18 +408,34 @@
         "href": "/ramadan"
       },
       {
-        "label": "Gabay sa Eid al-Fitr",
+        "label": "Ang pagdiriwang pagkatapos ng Ramadan (Eid al-Fitr)",
         "href": "/seasonal/eid-al-fitr"
       },
       {
         "label": "Maghanap ng masjid",
         "href": "/resources/find-masjid"
+      },
+      {
+        "label": "Ang unang buwan at Ashura (Muharram)",
+        "href": "/seasonal/muharram-ashura"
+      },
+      {
+        "label": "Ang buwan ng kapanganakan ng Propeta (Rabi al-Awwal)",
+        "href": "/seasonal/rabi-al-awwal-seerah"
+      },
+      {
+        "label": "Ang mga buwan bago ang Ramadan (Rajab at Sha'ban)",
+        "href": "/seasonal/rajab-shaban-preparation"
+      },
+      {
+        "label": "Kawanggawa at paglilingkod sa buong taon",
+        "href": "/seasonal/year-round-charity-service"
       }
     ]
   },
   {
     "id": "muharram-ashura",
-    "title": "Gabay sa Muharram at Ashura para sa baguhan",
+    "title": "Ang unang buwan at Ashura (Muharram)",
     "description": "Ano ang Muharram at Ashura, saan pumapasok ang kusang pag-aayuno, at ano ang itatanong sa inyong lugar.",
     "badge": "Banal na buwan",
     "intro": "Ang Muharram ang unang buwan ng taong Islamiko at isa sa mga banal na buwan. Ang Ashura ang ikasampung araw nito. Panatilihin munang simple ang panahong ito: alamin ang kahulugan nito, kumpirmahin ang lokal na petsa, at mag-ayuno kung kaya mo at nagabayan ka nang maayos.",
@@ -443,7 +504,7 @@
         "href": "/seasonal/islamic-calendar"
       },
       {
-        "label": "Sanggunian sa dua at dhikr",
+        "label": "Panalangin at pag-alaala (dua at dhikr)",
         "href": "/dua-dhikr"
       },
       {
@@ -454,7 +515,7 @@
   },
   {
     "id": "rabi-al-awwal-seerah",
-    "title": "Tala tungkol sa Rabi al-Awwal at pag-aaral ng seerah",
+    "title": "Ang buwan ng kapanganakan ng Propeta (Rabi al-Awwal)",
     "description": "Hayaang ipaalala sa iyo ng Rabi al-Awwal na pag-aralan ang buhay at ugali ng Propeta, nang hindi nahihila sa mga pagtatalo.",
     "badge": "Pag-aaral ng seerah",
     "intro": "Sa Rabi al-Awwal kadalasang mas pinag-uusapan ng mga Muslim si Propeta Muhammad, sumakanya nawa ang kapayapaan at pagpapala. Panatilihin itong akma sa baguhan: pag-aralan ang kanyang awa, ugali, ang dala niyang mensahe, at ang pang-araw-araw na Sunnah, mula sa mga gurong maaasahan mo, at lumayo sa mga away.",
@@ -535,7 +596,7 @@
   },
   {
     "id": "rajab-shaban-preparation",
-    "title": "Tala sa paghahanda sa Rajab at Sha'ban",
+    "title": "Ang mga buwan bago ang Ramadan (Rajab at Sha'ban)",
     "description": "Maghanda nang maingat para sa Ramadan, at suriin ang sanggunian ng mga gawain sa Rajab at Sha'ban.",
     "badge": "Paghahanda sa Ramadan",
     "intro": "Dumarating ang Rajab at Sha'ban bago mismo ang Ramadan, at may kasamang baha ng mga paalala online. Tinutulungan ka ng pahinang ito na maghanda nang hindi itinuturing na itinatag na pagsamba ang mga pahayag na mahina ang sanggunian.",
@@ -682,7 +743,7 @@
     ],
     "relatedLinks": [
       {
-        "label": "Gabay sa zakat para sa baguhan",
+        "label": "Taunang kawanggawa (zakat) para sa nagsisimula",
         "href": "/seasonal/zakat"
       },
       {
