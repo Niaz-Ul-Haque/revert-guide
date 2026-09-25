@@ -1,0 +1,396 @@
+{
+  "vocabulary": [
+    {
+      "term": "अरबी क़ुरआन",
+      "body": "उतारा गया अरबी पाठ। जब यह पेज किसी आयत का लिंक देता है, तो अरबी ही क़ुरआन है, और बाक़ी सब उसे समझने में मदद है।"
+    },
+    {
+      "term": "अर्थ का अनुवाद",
+      "body": "किसी दूसरी भाषा में किया गया रूपांतर, जो मतलब तक पहुँचाता है। यह समझने में मदद करता है, पर ख़ुद क़ुरआन नहीं है।"
+    },
+    {
+      "term": "उच्चारण (लिप्यंतरण)",
+      "body": "अरबी आवाज़ें दूसरी लिपि के अक्षरों में लिखी हुई। अभ्यास के लिए काम की हैं, हालाँकि आपके कान किसी शिक्षक या भरोसेमंद क़ारी से ज़्यादा सीखेंगे।"
+    },
+    {
+      "term": "तफ़सीर",
+      "body": "उलमा की व्याख्या कि किसी आयत का मतलब क्या है, वह कब उतरी, और आपसे क्या चाहती है। जब कोई आयत मुश्किल लगे, तब इसकी मदद लें।"
+    }
+  ],
+  "translationTips": [
+    "ऐसा अनुवाद चुनें जिसमें पता चल सके कि अनुवाद किसने किया, किसने छापा, और किस तरीक़े से काम किया।",
+    "फ़ुटनोट वाला पढ़ने में आसान अनुवाद बिना नाम वाली PDF या किसी के डाले स्क्रीनशॉट से बेहतर है।",
+    "पढ़ाई करते समय दो अनुवादों की तुलना करें। अगर तुलना से बेचैनी होने लगे, तो एक पर लौट आएँ।",
+    "जब कोई आयत अक़ीदे, इबादत, आपके परिवार, आपकी सुरक्षा, या किसी ऐसे फ़ैसले से जुड़ी हो जो आप लेने वाले हैं, तो किसी योग्य शिक्षक से पूछें।"
+  ],
+  "readingPaths": [
+    {
+      "title": "पहली बैठक",
+      "time": "10 से 20 मिनट",
+      "body": "छोटी सूरहों से शुरू करें, जो नमाज़ का अभ्यास भी बन जाती हैं। अर्थ धीरे-धीरे पढ़ें, फिर एक बार सुनें। उच्चारण की चिंता अभी छोड़ दें।",
+      "readings": [
+        "अल-फ़ातिहा, सूरह 1",
+        "अल-इख़लास, सूरह 112",
+        "अल-फ़लक़, सूरह 113",
+        "अन-नास, सूरह 114"
+      ],
+      "sourceIds": [
+        "quran-al-fatihah-1",
+        "quran-al-ikhlas-112",
+        "quran-al-falaq-113",
+        "quran-an-nas-114"
+      ]
+    },
+    {
+      "title": "रहमत और उम्मीद",
+      "time": "एक शांत बैठक",
+      "body": "इसे तब पढ़ें जब शर्म या डर उम्मीद से ज़्यादा ज़ोर से बोल रहे हों। कुछ और जोड़ने से पहले इन आयतों के साथ ठहरें, जो बताती हैं कि अल्लाह कितना क़रीब है और माफ़ करने को कितना तैयार।",
+      "readings": ["Quran 39:53", "Quran 2:186", "Quran 23:109"],
+      "sourceIds": [
+        "quran-39-53-mercy",
+        "quran-2-186-dua-nearness",
+        "quran-23-109-forgiveness"
+      ]
+    },
+    {
+      "title": "पैग़ंबर और ज़िंदगी का मक़सद",
+      "time": "कई छोटी बैठकें",
+      "body": "सूरह यूसुफ़ एक बार में कुछ पन्ने पढ़ें। यह एक लगातार चलती कहानी है: अपने ही परिवार का ख़िलाफ़ हो जाना, लंबा सब्र, आज़माइश, जेल, और आख़िर में माफ़ी।",
+      "readings": ["सूरह यूसुफ़, सूरह 12"],
+      "sourceIds": ["quran-yusuf-12"]
+    },
+    {
+      "title": "नमाज़ और इबादत",
+      "time": "15 मिनट",
+      "body": "अपनी पढ़ाई को अपनी नमाज़ से जोड़ें। ये हिस्से नमाज़ को उसकी सही जगह पर रखते हैं: अल्लाह की याद, हिदायत की माँग, और सब्र की ज़रूरत होने पर जाने की जगह।",
+      "readings": ["अल-फ़ातिहा, सूरह 1", "Quran 20:14", "Quran 2:153"],
+      "sourceIds": [
+        "quran-al-fatihah-1",
+        "quran-20-14-prayer-remembrance",
+        "quran-2-153-patience-prayer"
+      ]
+    },
+    {
+      "title": "अख़लाक़ और सब्र",
+      "time": "10 मिनट",
+      "body": "इसे व्यावहारिक रखें। पढ़ने के बाद ख़ुद से पूछें कि इससे आज आपके बोलने, आपके सब्र, और लोगों के साथ आपके बर्ताव में क्या बदलेगा।",
+      "readings": ["अल-अस्र, सूरह 103", "Quran 2:153"],
+      "sourceIds": ["quran-al-asr-103", "quran-2-153-patience-prayer"]
+    }
+  ],
+  "weekPlan": [
+    {
+      "day": "दिन 1",
+      "title": "सूरह अल-फ़ातिहा से शुरुआत",
+      "body": "सूरह अल-फ़ातिहा का अर्थ पढ़ें, फिर उसे एक बार सुनें। हिदायत वाली पंक्ति को दिन भर अपने साथ रखें।",
+      "sourceIds": ["quran-al-fatihah-1"]
+    },
+    {
+      "day": "दिन 2",
+      "title": "हिफ़ाज़त वाली तीन छोटी सूरहें जानें",
+      "body": "अल-इख़लास, अल-फ़लक़ और अन-नास पढ़ें। ध्यान दें कि वे अल्लाह के एक होने और हिफ़ाज़त माँगने के बारे में क्या कहती हैं। आज इन्हें याद करने की कोशिश न करें।",
+      "sourceIds": [
+        "quran-al-ikhlas-112",
+        "quran-al-falaq-113",
+        "quran-an-nas-114"
+      ]
+    },
+    {
+      "day": "दिन 3",
+      "title": "उम्मीद के लिए पढ़ें",
+      "body": "Quran 39:53 धीरे-धीरे पढ़ें। फिर अपने शब्दों में एक वाक्य लिखें कि आपकी स्थिति में अल्लाह की रहमत का क्या मतलब है।",
+      "sourceIds": ["quran-39-53-mercy"]
+    },
+    {
+      "day": "दिन 4",
+      "title": "अपनी दुआ करें",
+      "body": "Quran 2:186 और 23:109 पढ़ें। फिर अपनी भाषा में, अपने शब्दों में एक छोटी दुआ करें।",
+      "sourceIds": ["quran-2-186-dua-nearness", "quran-23-109-forgiveness"]
+    },
+    {
+      "day": "दिन 5",
+      "title": "क़ुरआन को नमाज़ से जोड़ें",
+      "body": "Quran 20:14 पढ़ें और सूरह अल-फ़ातिहा फिर से सुनें। नमाज़ सबसे पहले अल्लाह की याद है। उसे पूरी तरह सही करना बाद में आता है।",
+      "sourceIds": ["quran-20-14-prayer-remembrance", "quran-al-fatihah-1"]
+    },
+    {
+      "day": "दिन 6",
+      "title": "सब्र का अभ्यास करें",
+      "body": "Quran 2:153 और सूरह अल-अस्र पढ़ें। आज कोई एक छोटी बात चुनें जिसमें आप सब्र करेंगे, या सच बोलेंगे जब न बोलना आसान होता।",
+      "sourceIds": ["quran-2-153-patience-prayer", "quran-al-asr-103"]
+    },
+    {
+      "day": "दिन 7",
+      "title": "दोहराएँ और एक सवाल पूछें",
+      "body": "जो हिस्सा आपके मन में रह गया, उस पर लौटें। अगर किसी बात ने उलझाया, तो सही आयत लिख लें और किसी भरोसेमंद शिक्षक के पास ले जाएँ।",
+      "sourceIds": ["quran-com", "seekersguidance"]
+    }
+  ],
+  "resourceLinks": [
+    {
+      "title": "Quran.com वेबसाइट",
+      "body": "ब्राउज़र से ही पढ़ें, सुनें, अनुवादों की तुलना करें और क़ारियों के पेज खोलें, कुछ भी इंस्टॉल करने की ज़रूरत नहीं।",
+      "href": "https://quran.com/",
+      "sourceIds": ["quran-com"],
+      "icon": "book"
+    },
+    {
+      "title": "The Clear Quran",
+      "body": "अर्थ का पढ़ने में आसान अंग्रेज़ी अनुवाद। इसे समझने के लिए इस्तेमाल करें, और अरबी को ही क़ुरआन मानें।",
+      "href": "https://theclearquran.org/",
+      "sourceIds": ["clear-quran"],
+      "icon": "file-text"
+    },
+    {
+      "title": "New Muslim Academy",
+      "body": "इस्लाम में नए लोगों के लिए बनाई गई शुरुआती क्लासें और क़ुरआन में मदद।",
+      "href": "https://www.newmuslimacademy.org/",
+      "sourceIds": ["new-muslim-academy"],
+      "icon": "users"
+    },
+    {
+      "title": "Quran.com पर मिशारी राशिद अल-अफ़ासी",
+      "body": "साथ-साथ सुनने के लिए साफ़ आवाज़ वाले क़ारी। पहले पूरा सुनें, फिर एक छोटा हिस्सा दोहराएँ।",
+      "href": "https://quran.com/reciters/7",
+      "sourceIds": ["quran-reciter-mishary"],
+      "icon": "play"
+    }
+  ],
+  "learnArabic": {
+    "image": {
+      "src": "/graphics/al-fatihah-card.svg",
+      "alt": "सूरह अल-फ़ातिहा की सात पंक्तियों वाला एक कार्ड, हर पंक्ति के साथ अरबी, उच्चारण और अर्थ का अनुवाद।",
+      "caption": "सूरह अल-फ़ातिहा, एक बार में एक पंक्ति।",
+      "credit": "चित्र: Revert Guide।"
+    },
+    "stages": [
+      "हफ़्ता 1: रोज़ सूरह अल-फ़ातिहा की एक पंक्ति। सुनें, दोहराएँ, और नीचे शब्दों के अर्थ पढ़ें। बस यही एक काम है।",
+      "हफ़्ते 2 से 4: जो आता है उससे नमाज़ पढ़ते रहें, सूरह अल-फ़ातिहा पूरी करें, और अल-इख़लास जैसी एक छोटी सूरह जोड़ें।",
+      "उसके बाद, जब तैयार महसूस करें: अरबी के अक्षर शुरू करें, या अपनी स्थानीय मस्जिद से शुरुआत करने वालों की क़ुरआन पढ़ने की क्लास के बारे में पूछें।"
+    ],
+    "fatihahWords": [
+      {
+        "verse": 1,
+        "words": [
+          {
+            "arabic": "بِسْمِ",
+            "transliteration": "bismi",
+            "meaning": "नाम से"
+          },
+          {
+            "arabic": "اللَّهِ",
+            "transliteration": "Allahi",
+            "meaning": "अल्लाह के"
+          },
+          {
+            "arabic": "الرَّحْمَٰنِ",
+            "transliteration": "ar-Rahmani",
+            "meaning": "बहुत मेहरबान"
+          },
+          {
+            "arabic": "الرَّحِيمِ",
+            "transliteration": "ar-Rahim",
+            "meaning": "बड़ा रहम करने वाला"
+          }
+        ]
+      },
+      {
+        "verse": 2,
+        "words": [
+          {
+            "arabic": "الْحَمْدُ",
+            "transliteration": "al-hamdu",
+            "meaning": "सारी तारीफ़"
+          },
+          {
+            "arabic": "لِلَّهِ",
+            "transliteration": "lillahi",
+            "meaning": "अल्लाह के लिए है"
+          },
+          {
+            "arabic": "رَبِّ",
+            "transliteration": "Rabbi",
+            "meaning": "रब"
+          },
+          {
+            "arabic": "الْعَالَمِينَ",
+            "transliteration": "al-'alamin",
+            "meaning": "सारे जहानों का"
+          }
+        ]
+      },
+      {
+        "verse": 3,
+        "words": [
+          {
+            "arabic": "الرَّحْمَٰنِ",
+            "transliteration": "ar-Rahmani",
+            "meaning": "बहुत मेहरबान"
+          },
+          {
+            "arabic": "الرَّحِيمِ",
+            "transliteration": "ar-Rahim",
+            "meaning": "बड़ा रहम करने वाला"
+          }
+        ]
+      },
+      {
+        "verse": 4,
+        "words": [
+          {
+            "arabic": "مَالِكِ",
+            "transliteration": "Maliki",
+            "meaning": "मालिक"
+          },
+          {
+            "arabic": "يَوْمِ",
+            "transliteration": "yawmi",
+            "meaning": "दिन का"
+          },
+          {
+            "arabic": "الدِّينِ",
+            "transliteration": "ad-din",
+            "meaning": "बदले के"
+          }
+        ]
+      },
+      {
+        "verse": 5,
+        "words": [
+          {
+            "arabic": "إِيَّاكَ",
+            "transliteration": "iyyaka",
+            "meaning": "सिर्फ़ तेरी ही"
+          },
+          {
+            "arabic": "نَعْبُدُ",
+            "transliteration": "na'budu",
+            "meaning": "हम इबादत करते हैं"
+          },
+          {
+            "arabic": "وَإِيَّاكَ",
+            "transliteration": "wa iyyaka",
+            "meaning": "और सिर्फ़ तुझी से"
+          },
+          {
+            "arabic": "نَسْتَعِينُ",
+            "transliteration": "nasta'in",
+            "meaning": "हम मदद माँगते हैं"
+          }
+        ]
+      },
+      {
+        "verse": 6,
+        "words": [
+          {
+            "arabic": "اهْدِنَا",
+            "transliteration": "ihdina",
+            "meaning": "हमें चला"
+          },
+          {
+            "arabic": "الصِّرَاطَ",
+            "transliteration": "as-sirata",
+            "meaning": "रास्ते पर"
+          },
+          {
+            "arabic": "الْمُسْتَقِيمَ",
+            "transliteration": "al-mustaqim",
+            "meaning": "सीधे"
+          }
+        ]
+      },
+      {
+        "verse": 7,
+        "words": [
+          {
+            "arabic": "صِرَاطَ",
+            "transliteration": "sirata",
+            "meaning": "रास्ता"
+          },
+          {
+            "arabic": "الَّذِينَ",
+            "transliteration": "alladhina",
+            "meaning": "उन लोगों का"
+          },
+          {
+            "arabic": "أَنْعَمْتَ",
+            "transliteration": "an'amta",
+            "meaning": "तूने इनाम किया"
+          },
+          {
+            "arabic": "عَلَيْهِمْ",
+            "transliteration": "'alayhim",
+            "meaning": "उन पर"
+          },
+          {
+            "arabic": "غَيْرِ",
+            "transliteration": "ghayri",
+            "meaning": "न"
+          },
+          {
+            "arabic": "الْمَغْضُوبِ",
+            "transliteration": "al-maghdubi",
+            "meaning": "जिन पर ग़ज़ब हुआ"
+          },
+          {
+            "arabic": "عَلَيْهِمْ",
+            "transliteration": "'alayhim",
+            "meaning": "उन पर"
+          },
+          {
+            "arabic": "وَلَا",
+            "transliteration": "wa la",
+            "meaning": "और न"
+          },
+          {
+            "arabic": "الضَّالِّينَ",
+            "transliteration": "ad-dallin",
+            "meaning": "जो भटक गए"
+          }
+        ]
+      }
+    ],
+    "fatihahSourceIds": ["quran-al-fatihah-1", "quranic-arabic-corpus-fatihah"],
+    "links": [
+      {
+        "label": "Quran.com पर सूरह अल-फ़ातिहा सुनें",
+        "body": "हर आयत सुनने के लिए Quran.com के पेज पर प्ले दबाएँ। शुरुआत के लिए मिशारी अल-अफ़ासी साफ़ आवाज़ वाले क़ारी हैं।",
+        "href": "https://quran.com/1",
+        "sourceIds": ["quran-al-fatihah-1", "quran-reciter-mishary"]
+      },
+      {
+        "label": "सात दिन, सात आयतें (Quran.com)",
+        "body": "रोज़ सूरह अल-फ़ातिहा की एक आयत, हर बार 10 मिनट से कम, शब्द-दर-शब्द समझाई हुई। मुफ़्त, और बिना खाते के पढ़ सकते हैं।",
+        "href": "https://quran.com/learning-plans/seven-days-seven-verses-living-the-message-of-al-fatihah",
+        "sourceIds": ["quran-com-seven-days-seven-verses"]
+      },
+      {
+        "label": "Islamwise की वाक्य-दर-वाक्य सीरीज़",
+        "body": "नमाज़ के हर वाक्य पर YouTube के छोटे पाठ। एपिसोड 11 से 18 सूरह अल-फ़ातिहा को आयत-दर-आयत समझाते हैं।",
+        "href": "https://www.youtube.com/playlist?list=PLW9v5fexkmD_8i507k8oL2x9n0vJeP1BT",
+        "sourceIds": ["video-islamwise-prayer-series"]
+      },
+      {
+        "label": "अरबी अक्षर: Madinah Arabic का पढ़ने का कोर्स",
+        "body": "मुफ़्त पाठों के लिए न कोई ख़र्च है न खाते की ज़रूरत। साइट पैसे वाले आमने-सामने के पाठ भी बेचती है, और कोर्स बनाने वाले का नाम नहीं दिया गया।",
+        "href": "https://madinaharabic.com/free-content",
+        "sourceIds": ["madinah-arabic-free-content"]
+      }
+    ],
+    "fatihahVideo": {
+      "videoId": "Rdhcd8452-I",
+      "title": "अल्हम्दु लिल्लाहि रब्बिल आलमीन, वाक्य-दर-वाक्य",
+      "channel": "Islamwise",
+      "duration": "2:27",
+      "sourceIds": ["video-islamwise-fatihah-alhamdu"]
+    },
+    "alphabetVideo": {
+      "videoId": "c-7SVieC_04",
+      "title": "अरबी पढ़ना, पाठ 1: पहले अक्षर",
+      "channel": "Arabic 101",
+      "duration": "13:57",
+      "note": "Arabic 101 लाइव क्लासें भी बेचता है। यह पहला पाठ मुफ़्त देखा जा सकता है।",
+      "sourceIds": ["video-arabic101-alphabet-lesson-1"]
+    }
+  }
+}
