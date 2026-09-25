@@ -42,7 +42,7 @@
     "tools": "Ferramentas",
     "prayerTimes": "Horários de oração",
     "qibla": "Direção da Qibla",
-    "wuduGhusl": "Lavar-se antes da oração (wudu e ghusl)",
+    "wuduGhusl": "Ablução e banho completo (wudu e ghusl)",
     "salahCompanion": "Aprenda a orar (salah)",
     "quranStarter": "Primeiros passos no Alcorão",
     "duaDhikr": "Súplicas e lembrança de Allah (dua e dhikr)",
@@ -76,7 +76,7 @@
     "crisisCall911": "Ligue para o 911.",
     "crisisMentalHealth": "Crise de saúde mental?",
     "crisisCall988": "Ligue ou mande mensagem para o 9-8-8.",
-    "orientation": "Seguimos a erudição sunita tradicional e mostramos onde os estudiosos divergem."
+    "orientation": "Seguimos o entendimento sunita majoritário e mostramos onde os estudiosos divergem."
   },
   "common": {
     "beginJourney": "Comece aqui",
@@ -314,7 +314,7 @@
     },
     "home": {
       "badge": "Gratuito e feito para funcionar offline",
-      "title": "Bem-vindo",
+      "title": "Boas-vindas",
       "titleHighlight": "à família",
       "subtitle": "Você está no lugar certo. Este guia acompanha você nos primeiros passos, no ritmo que você escolher, com respostas simples e sem ninguém apressando você.",
       "logoAlt": "Logotipo do Revert Guide",
@@ -322,7 +322,7 @@
       "firstStepsLabel": "Primeiros passos",
       "firstSteps": [
         "Aprenda a orar (salah)",
-        "Lavar-se antes da oração (wudu e ghusl)",
+        "Ablução e banho completo (wudu e ghusl)",
         "Horários de oração",
         "Pedir ajuda"
       ],
@@ -740,7 +740,7 @@
           "body": "Escolha uma tradução, comece com trechos curtos, ouça sem pressão e imprima um ritmo de leitura para a primeira semana."
         },
         "salahCompanion": {
-          "label": "Abrir Aprenda a orar (salah)",
+          "label": "Abrir a ferramenta Aprenda a orar (salah)",
           "body": "Veja a estrutura de uma oração de duas rak'ahs, com o que recitar e o que fazer quando você se perder."
         },
         "duaDhikr": {
@@ -1028,7 +1028,7 @@
             "items": [
               {
                 "name": "Linha de apoio Naseeha",
-                "desc": "Uma linha de apoio 24 horas para jovens muçulmanos, mantida por uma instituição beneficente muçulmana canadense. Não é serviço de emergência. Se sua vida estiver em perigo, ligue antes para o 9-1-1 ou o 9-8-8.",
+                "desc": "Uma linha de apoio que funciona 24 horas por dia, 7 dias por semana, para jovens muçulmanos, mantida por uma instituição beneficente muçulmana canadense. Não é serviço de emergência. Se sua vida estiver em perigo, ligue antes para o 9-1-1 ou o 9-8-8.",
                 "contacts": [
                   {
                     "label": "Ligue:",
@@ -1048,7 +1048,7 @@
             "items": [
               {
                 "name": "Linha de emergência da Sakeenah Canada",
-                "desc": "Uma linha de emergência 24 horas para mulheres e crianças que fogem de violência doméstica, mantida por uma instituição beneficente muçulmana canadense. A Sakeenah também mantém casas de acolhimento temporário em várias cidades do Canadá.",
+                "desc": "Uma linha de emergência que funciona 24 horas por dia, 7 dias por semana, para mulheres e crianças que fogem de violência doméstica, mantida por uma instituição beneficente muçulmana canadense. A Sakeenah também mantém casas de acolhimento temporário em várias cidades do Canadá.",
                 "contacts": [
                   {
                     "label": "Ligue:",
@@ -1100,7 +1100,7 @@
             "items": [
               {
                 "name": "211 Ontario",
-                "desc": "Ajuda para encontrar serviços comunitários, sociais e de saúde perto de você. Atendimento por pessoas 24 horas por dia, em mais de 150 idiomas.",
+                "desc": "Ajuda para encontrar serviços comunitários, sociais e de saúde perto de você. Atendimento por pessoas 24 horas por dia, 7 dias por semana, em mais de 150 idiomas.",
                 "contacts": [
                   {
                     "label": "Ligue ou mande mensagem:",
@@ -1113,7 +1113,7 @@
               },
               {
                 "name": "ConnexOntario",
-                "desc": "Ajuda gratuita 24 horas por dia para encontrar serviços de saúde mental, dependência e jogo compulsivo em Ontário.",
+                "desc": "Ajuda gratuita 24 horas por dia, 7 dias por semana, para encontrar serviços de saúde mental, dependência e jogo compulsivo em Ontário.",
                 "contacts": [
                   {
                     "label": "Ligue:",
@@ -1527,7 +1527,7 @@
       "eyebrow": "Ferramenta para aprender a adoração",
       "title": "Aprenda a orar (salah)",
       "subtitle": "Um passo a passo tranquilo de uma oração simples de duas unidades, com as recitações de que um iniciante precisa e notas honestas sobre quando perguntar a alguém.",
-      "wuduButton": "Lavar-se antes da oração (wudu)",
+      "wuduButton": "Ablução (wudu)",
       "prayerTimesButton": "Horários de oração",
       "mattersMostTitle": "O que mais importa agora",
       "mattersMost": [
@@ -1545,14 +1545,14 @@
       "beginnerNoteLabel": "Nota para iniciantes",
       "cannotReciteTitle": "Se você ainda não consegue recitar em árabe",
       "invalidatesTitle": "O que invalida uma oração?",
-      "invalidatesBody": "Isto é uma visão geral para iniciantes. Os detalhes variam entre as escolas de direito e conforme a situação.",
+      "invalidatesBody": "Isto é uma visão geral para iniciantes. Os detalhes variam entre as escolas de jurisprudência islâmica (madhhabs) e conforme a situação.",
       "correctionsTitle": "Preocupações comuns e o que fazer",
       "askImamTitle": "Pergunte a um imã se",
       "askImam": [
         "Dor, deficiência, lesão ou trauma impedem você de ficar em pé, se curvar, sentar ou se prostrar.",
         "Você não sabe o que recitar enquanto seu árabe ainda está em progresso.",
         "Você continua perdendo orações e precisa de um plano para repô-las que consiga seguir de verdade.",
-        "Vídeos ou escolas de direito diferentes deixaram você com conselhos que se contradizem.",
+        "Vídeos ou escolas de jurisprudência islâmica (madhhabs) diferentes deixaram você com conselhos que se contradizem.",
         "Trabalho, escola, viagem, família ou sua própria segurança mudam a forma como você consegue orar."
       ],
       "sourcesNote": "Este é um companheiro para iniciantes. As referências foram conferidas. Decisões pessoais sobre a oração, detalhes de cada escola, adaptações para deficiência e situações incomuns ainda precisam da revisão de alguém qualificado.",
@@ -1578,10 +1578,10 @@
       "menstruationLink": "Menstruação, sangramento pós-parto e oração"
     },
     "wuduGhusl": {
-      "metadataTitle": "Lavar-se antes da oração (wudu e ghusl)",
+      "metadataTitle": "Ablução e banho completo (wudu e ghusl)",
       "metadataDescription": "Um guia para iniciantes, fácil de imprimir, sobre como se lavar antes da oração: wudu, ghusl (banho completo), tayammum e quando consultar alguém.",
       "eyebrow": "Ferramenta para aprender a adoração",
-      "title": "Lavar-se antes da oração (wudu e ghusl)",
+      "title": "Ablução e banho completo (wudu e ghusl)",
       "subtitle": "Um guia simples sobre como se lavar antes da oração, feito para imprimir. Aprenda primeiro o essencial e leve a um professor qualificado tudo o que depender da sua situação.",
       "purificationTopicButton": "Tema purificação",
       "mattersMostTitle": "O que mais importa",
@@ -1590,7 +1590,7 @@
         "Você se lava por Allah, não por pânico.",
         "Você pergunta a alguém quando uma questão médica, de trabalho ou de família complica isso."
       ],
-      "wuduTitle": "Lavar-se antes da oração (wudu), passo a passo",
+      "wuduTitle": "Ablução (wudu), passo a passo",
       "wuduBody": "O wudu é a lavagem parcial que normalmente se faz antes da oração. Alcorão 5:6 diz quais partes são lavadas e quais são passadas com a mão molhada, e os guias para iniciantes explicam a ordem prática.",
       "ghuslTitle": "O banho completo (ghusl), passo a passo",
       "ghuslBody": "O ghusl é o banho completo do corpo. Faça-o com recato e de forma simples: tenha a intenção, limpe o que precisa ser limpo e garanta que a água chegue ao corpo inteiro.",
@@ -1605,7 +1605,7 @@
         "Seu trabalho, escola, viagem ou situação familiar dificultam a purificação.",
         "Você sente que não consegue parar de repetir o wudu ou o ghusl por causa da ansiedade."
       ],
-      "sourcesNote": "Esta é uma ferramenta para iniciantes. Alguns detalhes da purificação variam entre as escolas de direito, e vale conversar sobre a sua situação com um imã ou estudioso qualificado da sua região.",
+      "sourcesNote": "Esta é uma ferramenta para iniciantes. Alguns detalhes da purificação variam entre as escolas de jurisprudência islâmica (madhhabs), e vale conversar sobre a sua situação com um imã ou estudioso qualificado da sua região.",
       "ghuslRoadmapButton": "Ir para a etapa do roteiro sobre o ghusl",
       "prayerTopicButton": "Tema oração",
       "watchTitle": "Veja como se faz uma vez",
@@ -1647,7 +1647,7 @@
       "categories": {
         "foundations": "Crença e tornar-se muçulmano",
         "prayer": "Oração (salah)",
-        "purification": "Lavar-se antes da oração (wudu) e o banho completo (ghusl)",
+        "purification": "Ablução (wudu) e banho completo (ghusl)",
         "quran": "Ler o Alcorão",
         "ramadan": "Jejum e Ramadã",
         "zakat": "Caridade obrigatória (zakat)",
