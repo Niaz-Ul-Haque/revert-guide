@@ -1,6 +1,6 @@
 {
   "id": "dua-and-dhikr",
-  "title": "Дуа и зикр",
+  "title": "Мольба и поминание Аллаха (дуа и зикр)",
   "description": "Простое поминание Аллаха и мольба для начинающих, с упором на смысл и источники, которые можно проверить.",
   "sections": [
     {
@@ -20,9 +20,21 @@
       "content": "Дуа и зикр приносят настоящее утешение, но не заменяют профессиональную помощь в кризисе. Если у вас есть мысли о том, чтобы причинить себе вред, вы чувствуете себя в опасности или не можете справляться с обычными делами, звоните 9-1-1, звоните или пишите на 9-8-8 или обратитесь к квалифицированному специалисту. Вера и практическая помощь идут вместе."
     }
   ],
-  "relatedStepIds": ["daily-dua-dhikr", "prayer-on-ramp", "prayer"],
-  "relatedGlossaryIds": ["dua", "dhikr", "sunnah", "salah"],
-  "relatedResourceIds": ["fortress-muslim-dua-book", "quran-com"],
+  "relatedStepIds": [
+    "daily-dua-dhikr",
+    "prayer-on-ramp",
+    "prayer"
+  ],
+  "relatedGlossaryIds": [
+    "dua",
+    "dhikr",
+    "sunnah",
+    "salah"
+  ],
+  "relatedResourceIds": [
+    "fortress-muslim-dua-book",
+    "quran-com"
+  ],
   "sourceIds": [
     "quran-com",
     "sunnah-com",
@@ -30,5 +42,12 @@
     "emergency-911-canada",
     "988-canada"
   ],
-  "reviewStatus": "review-needed"
+  "reviewStatus": "review-needed",
+  "linkCards": [
+    {
+      "label": "Горе и утрата",
+      "href": "/topics/grief-and-loss",
+      "body": "Что сказать при утрате и дуа за умершего."
+    }
+  ]
 }

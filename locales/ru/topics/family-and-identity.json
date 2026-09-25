@@ -20,13 +20,63 @@
       "content": "Здоровые границы могут быть мягкими. Можно отказаться от алкоголя, свинины, враждебных споров или слишком личных вопросов, никого не оскорбляя.\n\nПопробуйте сказать так: **Я тебя люблю и хочу, чтобы мы оставались близки. Я ещё учусь и не хочу, чтобы это превратилось в спор.**\n\nЕсли давление семьи становится опасным, обратитесь за помощью к надёжным местным мусульманам, специалистам или в соответствующие службы."
     }
   ],
-  "relatedStepIds": ["family-and-friends", "first-24-hours", "community"],
-  "relatedGlossaryIds": ["ummah", "dua", "fitrah", "salam"],
+  "relatedStepIds": [
+    "family-and-friends",
+    "first-24-hours",
+    "community"
+  ],
+  "relatedGlossaryIds": [
+    "ummah",
+    "dua",
+    "fitrah",
+    "salam"
+  ],
   "relatedResourceIds": [
     "whyislam",
     "aboutislam-new-muslims",
     "becoming-muslim-report"
   ],
-  "sourceIds": ["whyislam", "yaqeen-becoming-muslim", "khalil-center"],
-  "reviewStatus": "review-needed"
+  "sourceIds": [
+    "whyislam",
+    "yaqeen-becoming-muslim",
+    "khalil-center"
+  ],
+  "reviewStatus": "review-needed",
+  "linkCards": [
+    {
+      "label": "Основы отношений и брака",
+      "href": "/guides/relationships-and-marriage-basics",
+      "body": "Если ваш партнёр не мусульманин, если вы живёте вместе или у вас есть дети, и если брак распадается."
+    },
+    {
+      "label": "Как женятся мусульмане",
+      "href": "/guides/how-muslims-marry",
+      "body": "Никах, опекун невесты (вали) и брачный дар (махр), юридическая сторона в вашей провинции и поиск супруга."
+    },
+    {
+      "label": "Дети и семейная жизнь",
+      "href": "/guides/children-and-family-life",
+      "body": "Дети, когда второй родитель не мусульманин, школа, школа выходного дня и забота о пожилых родителях."
+    },
+    {
+      "label": "Если вам меньше 18 лет",
+      "href": "/guides/young-converts",
+      "body": "Для подростков, принявших ислам: что делать пока, ваши родители, ваши права в Онтарио и безопасность."
+    },
+    {
+      "label": "Рождение ребёнка",
+      "href": "/guides/having-a-baby",
+      "body": "Что после рождения ребёнка относится к сунне, а что к обычаю."
+    },
+    {
+      "label": "Завещание и наследство",
+      "href": "/topics/wills-and-inheritance",
+      "body": "Правило одной трети, законы провинции и родственники, которые не мусульмане."
+    },
+    {
+      "label": "Когда кто-то умирает",
+      "href": "/guides/when-someone-dies",
+      "body": "Кому звонить и как защитить ваши собственные пожелания о погребении."
+    }
+  ]
 }

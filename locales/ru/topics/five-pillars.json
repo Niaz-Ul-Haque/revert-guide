@@ -59,7 +59,7 @@
       "body": "Порядок намаза, слова и что делать, пока вы учитесь."
     },
     {
-      "label": "Руководство по закяту",
+      "label": "Ежегодная обязательная милостыня (закят) для начинающих",
       "href": "/seasonal/zakat",
       "body": "Когда закят обязателен и как его рассчитать."
     },
@@ -69,13 +69,23 @@
       "body": "Подготовка к первому посту."
     },
     {
-      "label": "Руководство по хаджу и умре",
+      "label": "Сезон паломничества (хадж и Зуль-хиджа)",
       "href": "/seasonal/dhul-hijjah-hajj-umrah",
       "body": "Паломничество и связанные с ним дни."
     }
   ],
-  "relatedStepIds": ["shahada", "prayer-on-ramp", "prayer"],
-  "relatedGlossaryIds": ["shahada", "salah", "zakat", "sawm", "hajj"],
+  "relatedStepIds": [
+    "shahada",
+    "prayer-on-ramp",
+    "prayer"
+  ],
+  "relatedGlossaryIds": [
+    "shahada",
+    "salah",
+    "zakat",
+    "sawm",
+    "hajj"
+  ],
   "sourceIds": [
     "sunnah-bukhari-five-pillars",
     "sunnah-muslim-five-pillars",
