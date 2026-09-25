@@ -1,6 +1,6 @@
 {
   "id": "dua-and-dhikr",
-  "title": "دعا و ذکر",
+  "title": "دعا و یاد الله (دعا و ذکر)",
   "description": "یاد خدا و دعای ساده برای مبتدیان، بر پایه فهم معنا و منابعی که واقعاً می‌توانید بررسی کنید.",
   "sections": [
     {
@@ -20,9 +20,21 @@
       "content": "دعا و ذکر آرامش واقعی می‌آورند، اما در بحران جای کمک حرفه‌ای را نمی‌گیرند. اگر فکر آسیب زدن به خود دارید، احساس ناامنی می‌کنید یا نمی‌توانید کارهای روزانه را انجام دهید، با 9-1-1 تماس بگیرید، با 9-8-8 تماس بگیرید یا پیامک بزنید، یا با درمانگری واجد شرایط تماس بگیرید. ایمان و کمک عملی با هم‌اند."
     }
   ],
-  "relatedStepIds": ["daily-dua-dhikr", "prayer-on-ramp", "prayer"],
-  "relatedGlossaryIds": ["dua", "dhikr", "sunnah", "salah"],
-  "relatedResourceIds": ["fortress-muslim-dua-book", "quran-com"],
+  "relatedStepIds": [
+    "daily-dua-dhikr",
+    "prayer-on-ramp",
+    "prayer"
+  ],
+  "relatedGlossaryIds": [
+    "dua",
+    "dhikr",
+    "sunnah",
+    "salah"
+  ],
+  "relatedResourceIds": [
+    "fortress-muslim-dua-book",
+    "quran-com"
+  ],
   "sourceIds": [
     "quran-com",
     "sunnah-com",
@@ -30,5 +42,12 @@
     "emergency-911-canada",
     "988-canada"
   ],
-  "reviewStatus": "review-needed"
+  "reviewStatus": "review-needed",
+  "linkCards": [
+    {
+      "label": "سوگ و از دست دادن",
+      "href": "/topics/grief-and-loss",
+      "body": "هنگام مرگ عزیزی چه بگویید و دعاهایی برای کسی که از دنیا رفته است."
+    }
+  ]
 }

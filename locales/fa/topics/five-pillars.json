@@ -59,7 +59,7 @@
       "body": "شکل نماز، کلمات آن و کارهایی که در دوران یادگیری انجام می‌دهید."
     },
     {
-      "label": "راهنمای زکات",
+      "label": "صدقه واجب سالانه (زکات) برای تازه‌کارها",
       "href": "/seasonal/zakat",
       "body": "زکات کی واجب می‌شود و چگونه آن را محاسبه کنید."
     },
@@ -69,13 +69,23 @@
       "body": "آماده شدن برای نخستین روزه."
     },
     {
-      "label": "راهنمای حج و عمره",
+      "label": "فصل زیارت (حج و ذی‌الحجه)",
       "href": "/seasonal/dhul-hijjah-hajj-umrah",
       "body": "حج و مناسبت‌های پیرامون آن."
     }
   ],
-  "relatedStepIds": ["shahada", "prayer-on-ramp", "prayer"],
-  "relatedGlossaryIds": ["shahada", "salah", "zakat", "sawm", "hajj"],
+  "relatedStepIds": [
+    "shahada",
+    "prayer-on-ramp",
+    "prayer"
+  ],
+  "relatedGlossaryIds": [
+    "shahada",
+    "salah",
+    "zakat",
+    "sawm",
+    "hajj"
+  ],
   "sourceIds": [
     "sunnah-bukhari-five-pillars",
     "sunnah-muslim-five-pillars",
