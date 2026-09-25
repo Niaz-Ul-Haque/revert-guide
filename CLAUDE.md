@@ -113,7 +113,7 @@ This is the authoritative project context document for the **Revert Guide** appl
 
 **Definition of Done (MVP):**
 - All 6 timeline stages implemented with descriptions and all 20 steps with full content.
-- Topics hub with 15 topic pages before the research expansion, plus the new five pillars (`/topics/five-pillars`) and menstruation and worship (`/topics/menstruation-and-worship`) topics. Ramadan guide and Mental health pages. Glossary with 109 entries. Resources page with curated resources. Sources page listing 112 sources before the expansion. Guides hub with 11 life guides plus the new holidays and family occasions, red flags and staying safe, and how mentoring works guides. Masjid Finder: Canada-wide directory, see locales/en/masjids.json.
+- Topics hub with 22 topic pages (the original 15, the five pillars and menstruation topics from the first expansion, and five from the second round: thinking about Islam, why Muslims differ, wills and inheritance, grief and loss, end-of-life decisions). Ramadan guide and Mental health pages. Glossary with 188 entries. Resources page with curated resources. Sources page listing 1506 entries. Guides hub with 22 life guides grouped into starting out, family and relationships, everyday life, community and safety, life events and mentoring; 8 seasonal guides under /seasonal. FAQ with 222 answers in 16 categories. Masjid Finder: Canada-wide Sunni directory of 459 records, see locales/en/masjids.json.
 - Static info pages: "About", "Accessibility Statement", "Privacy Policy", "Terms of Use".
 - No mobile bottom nav. On small screens the Navbar opens a hamburger menu with every link, with Get help and Find a masjid as the two prominent entries. Desktop top nav with dropdowns (Resources, Tools, Help, About) keyboard accessible. The same items show in every locale. Breadcrumbs on all content pages.
 - Skip link functional on all pages.
@@ -176,7 +176,7 @@ This is the authoritative project context document for the **Revert Guide** appl
 
 **Help and community pages:**
 - `/get-help`: how to ask for a mentor, an answer to a question, events or community, through the help form in lib/site.ts, with Canadian crisis lines first.
-- `/faq`: questions and answers for new Muslims. Each answer has its sources, and the answers are included in the site search.
+- `/faq`: questions and answers for new Muslims in 16 categories, including a private 'Relationships and intimacy' category. Each answer has its sources, and the answers are included in the site search. Merged or retired FAQ ids stay reachable through `FAQ_ID_ALIASES` in components/FaqPageClient.tsx.
 - `/events`: upcoming events and how to hear about them. The site collects no personal data for events.
 - `/community-groups`: the WhatsApp Channel and moderated groups from lib/site.ts, and the privacy difference between the two.
 - `/guides/how-mentoring-works` explains mentoring. The hidden dawah guide under `app/[locale]/(hidden)` stays unlinked and noindexed.
@@ -184,6 +184,7 @@ This is the authoritative project context document for the **Revert Guide** appl
 **CI checks:**
 - `npm run test` runs scripts/axe-check.mjs, an axe-core check over key pages in `out/`, after the build. It fails on serious or critical violations.
 - `npm run check:links` runs scripts/check-links.mjs over the URLs in sources.json, resources.json and masjids.json. A weekly workflow runs it and uploads a JSON report.
+- `node scripts/check-content-refs.mjs` fails on unresolved glossary, topic, step, resource and source ids under locales/en, and `npm run check:placeholders` fails when a PLACEHOLDER value from lib/site.ts is rendered as a link in `out/`.
 - `node scripts/check-translations.mjs [--locale xx] [--details N]` compares every locale with English: missing ui.json keys, missing ids and text fields in the merged collections, missing step, topic and whole-file translations, text identical to English where a translation is expected, changed placeholders, drift in ids, urls and numbers, and metadata lengths. It exits 1 when any locale is not clean.
 
 **Checklist Before Commit/PR:**
