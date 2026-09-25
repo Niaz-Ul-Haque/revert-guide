@@ -1059,5 +1059,429 @@
     "definition": "The twelfth month of the Islamic calendar. Hajj takes place in it, Eid al-Adha falls on its tenth day, and the Prophet encouraged fasting the Day of Arafah, its ninth day.",
     "seeAlso": ["hajj", "eid", "umrah"],
     "sourceIds": ["yaqeen-dhul-hijjah", "sunnah-muslim-arafah-fast"]
+  },
+  {
+    "id": "iqamah",
+    "term": "Iqamah",
+    "arabicText": "إقامة",
+    "transliteration": "i-QAA-mah",
+    "definition": "The second call, said just before a congregational prayer begins. Its words are close to the adhan's, and it tells people to stand in rows.",
+    "seeAlso": ["adhan", "salah", "imam"],
+    "sourceIds": ["sunnah-bukhari-605"]
+  },
+  {
+    "id": "masbuq",
+    "term": "Masbuq",
+    "arabicText": "مسبوق",
+    "transliteration": "mas-BOOQ",
+    "definition": "Someone who joins a congregational prayer after it has started. You pray the rest with the imam, then stand after his salam and complete what you missed.",
+    "seeAlso": ["salah", "rakah", "imam"],
+    "sourceIds": ["sunnah-bukhari-636"]
+  },
+  {
+    "id": "sutrah",
+    "term": "Sutrah",
+    "arabicText": "سترة",
+    "transliteration": "SUT-rah",
+    "definition": "An object placed in front of someone praying, such as a wall, a chair or a bag, so people can walk past beyond it. Keep it close in front of you.",
+    "seeAlso": ["salah", "masjid"],
+    "sourceIds": ["sunnah-abudawud-695"]
+  },
+  {
+    "id": "tahajjud",
+    "term": "Tahajjud",
+    "arabicText": "تهجد",
+    "transliteration": "ta-HAJ-jud",
+    "definition": "A voluntary prayer in the night, usually after some sleep and before Fajr. It is extra, not required, and even two units count.",
+    "seeAlso": ["nafl", "witr", "qiyam"],
+    "sourceIds": ["quran-17-79"]
+  },
+  {
+    "id": "tasbih",
+    "term": "Tasbih",
+    "arabicText": "تسبيح",
+    "transliteration": "tas-BEEH",
+    "definition": "Glorifying Allah by saying SubhanAllah (glory be to Allah). The word is also used for prayer beads that some people use to count their dhikr.",
+    "seeAlso": ["dhikr", "dua"],
+    "sourceIds": ["sunnah-muslim-after-prayer-dhikr"]
+  },
+  {
+    "id": "salawat",
+    "term": "Salawat",
+    "arabicText": "صلوات",
+    "transliteration": "sa-la-WAAT",
+    "definition": "Asking Allah to send blessings and peace on the Prophet Muhammad, for example by saying sallallahu alayhi wa sallam (peace be upon him) when his name is mentioned. The Quran tells believers to do this.",
+    "seeAlso": ["muhammad", "dhikr"],
+    "sourceIds": ["quran-33-56", "sunnah-tirmidhi-3546"]
+  },
+  {
+    "id": "janabah",
+    "term": "Janabah",
+    "arabicText": "جنابة",
+    "transliteration": "ja-NAA-bah",
+    "definition": "The state after sexual intercourse or a sexual discharge. A person in janabah needs the full-body wash (ghusl) before praying.",
+    "seeAlso": ["ghusl", "taharah", "wudu"],
+    "sourceIds": ["quran-5-6-wudu-tayammum"]
+  },
+  {
+    "id": "istinja",
+    "term": "Istinja",
+    "arabicText": "استنجاء",
+    "transliteration": "is-tin-JAA'",
+    "definition": "Cleaning yourself with water after using the toilet. Toilet paper can be used first, and many Muslims keep a small water bottle or bidet in the bathroom.",
+    "seeAlso": ["taharah", "najasah", "wudu"],
+    "sourceIds": ["sunnah-bukhari-150"]
+  },
+  {
+    "id": "najasah",
+    "term": "Najasah",
+    "arabicText": "نجاسة",
+    "transliteration": "na-JAA-sah",
+    "definition": "Impure substances, such as urine and stool, that are washed off the body, clothes or place of prayer before praying. It is a different thing from being without wudu.",
+    "seeAlso": ["taharah", "istinja", "wudu"],
+    "sourceIds": ["new-muslim-guide-hadath"]
+  },
+  {
+    "id": "khuff",
+    "term": "Khuff",
+    "arabicText": "خف",
+    "transliteration": "KHUFF",
+    "definition": "A leather sock or boot that can be wiped over in wudu instead of washing the feet, if it was put on after wudu. The schools differ on which other socks count, so ask a teacher before you rely on it.",
+    "seeAlso": ["wudu", "taharah"],
+    "sourceIds": ["seekersguidance-thick-socks"]
+  },
+  {
+    "id": "hayd",
+    "term": "Hayd",
+    "arabicText": "حيض",
+    "transliteration": "HAYD",
+    "definition": "Menstruation, the monthly period. A woman does not pray or fast during it and does not make up the missed prayers.",
+    "seeAlso": ["nifas", "istihadah", "ghusl"],
+    "sourceIds": ["newmuslims-menstruation"]
+  },
+  {
+    "id": "nifas",
+    "term": "Nifas",
+    "arabicText": "نفاس",
+    "transliteration": "ni-FAAS",
+    "definition": "The bleeding after giving birth. Its rules are close to those of the monthly period.",
+    "seeAlso": ["hayd", "istihadah", "ghusl"],
+    "sourceIds": ["sunnah-abudawud-311"]
+  },
+  {
+    "id": "istihadah",
+    "term": "Istihadah",
+    "arabicText": "استحاضة",
+    "transliteration": "is-ti-HAA-dah",
+    "definition": "Bleeding outside the normal period, such as spotting or very long bleeding. A woman in istihadah still prays and fasts. The schools differ on the details, so ask a teacher.",
+    "seeAlso": ["hayd", "nifas", "wudu"],
+    "sourceIds": ["sunnah-bukhari-306"]
+  },
+  {
+    "id": "itikaf",
+    "term": "I'tikaf",
+    "arabicText": "اعتكاف",
+    "transliteration": "i'-ti-KAAF",
+    "definition": "Staying in the masjid for a period to worship, most often in the last ten nights of Ramadan. Many masjids let people join for a night or a few hours.",
+    "seeAlso": ["ramadan", "laylat-al-qadr", "masjid"],
+    "sourceIds": ["quran-fasting-2-187"]
+  },
+  {
+    "id": "laylat-al-qadr",
+    "term": "Laylat al-Qadr",
+    "arabicText": "ليلة القدر",
+    "transliteration": "LAY-lat al-QAD-r",
+    "definition": "The Night of Glory, when the Quran was first revealed. Surah al-Qadr says it is better than a thousand months, and Muslims look for it in the last ten nights of Ramadan.",
+    "seeAlso": ["ramadan", "itikaf", "quran"],
+    "sourceIds": ["quran-laylat-al-qadr-97"]
+  },
+  {
+    "id": "kaffarah",
+    "term": "Kaffarah",
+    "arabicText": "كفارة",
+    "transliteration": "kaf-FAA-rah",
+    "definition": "Expiation: a set act to make up for a specific wrong, such as breaking a deliberate oath. For an oath, the Quran sets feeding or clothing ten poor people, or fasting three days if that is not possible.",
+    "seeAlso": ["fidyah", "tawbah", "sawm"],
+    "sourceIds": ["quran-5-89"]
+  },
+  {
+    "id": "hijri",
+    "term": "Hijri calendar",
+    "arabicText": "التقويم الهجري",
+    "transliteration": "HIJ-ree",
+    "definition": "The Islamic lunar calendar of twelve months, counted from the Prophet's migration (hijrah) to Madinah. Each month starts with the new moon, so Ramadan and Eid move about 11 days earlier each year.",
+    "seeAlso": ["hijrah", "ramadan", "dhul-hijjah"],
+    "sourceIds": ["quran-sacred-months-9-36"]
+  },
+  {
+    "id": "ashura",
+    "term": "Ashura",
+    "arabicText": "عاشوراء",
+    "transliteration": "aa-shoo-RAA'",
+    "definition": "The tenth day of Muharram, the first month of the Islamic year. Fasting on it is a Sunnah, and the Prophet said it expiates the sins of the year before.",
+    "seeAlso": ["hijri", "sawm"],
+    "sourceIds": ["sunnah-muslim-arafah-fast"]
+  },
+  {
+    "id": "isra-and-miraj",
+    "term": "Isra and Mi'raj",
+    "arabicText": "الإسراء والمعراج",
+    "transliteration": "is-RAA' wal-mi'-RAAJ",
+    "definition": "The Night Journey: the Prophet's journey by night from Makkah to Jerusalem (the Isra) and his ascent through the heavens (the Mi'raj).",
+    "seeAlso": ["muhammad", "salah", "sirah"],
+    "sourceIds": ["quran-17-1"]
+  },
+  {
+    "id": "mawlid",
+    "term": "Mawlid",
+    "arabicText": "مولد",
+    "transliteration": "MAW-lid",
+    "definition": "The birthday of the Prophet Muhammad, which many Muslims mark in the month of Rabi al-Awwal. Scholars differ on whether and how to celebrate it. If the question comes up, ask a teacher you trust rather than settling it in an online argument.",
+    "seeAlso": ["muhammad", "sirah"]
+  },
+  {
+    "id": "udhiyah",
+    "term": "Udhiyah (qurbani)",
+    "arabicText": "أضحية",
+    "transliteration": "ud-HEE-yah",
+    "definition": "The animal sacrifice of Eid al-Adha, called qurbani in South Asian communities. Many people in Canada arrange it through a charity or a halal butcher, and the meat is shared with family, friends and people in need.",
+    "seeAlso": ["eid", "dhul-hijjah", "sadaqah"],
+    "sourceIds": ["quran-22-36"]
+  },
+  {
+    "id": "aqiqah",
+    "term": "Aqiqah",
+    "arabicText": "عقيقة",
+    "transliteration": "a-QEE-qah",
+    "definition": "An animal sacrificed to celebrate a newborn, with the meat shared. The details for boys and girls are something to ask a teacher about.",
+    "seeAlso": ["udhiyah", "sadaqah"],
+    "sourceIds": ["sunnah-bukhari-5472"]
+  },
+  {
+    "id": "walimah",
+    "term": "Walimah",
+    "arabicText": "وليمة",
+    "transliteration": "wa-LEE-mah",
+    "definition": "The wedding meal given to celebrate a marriage. The Prophet told a companion to give one even if it was only one sheep, so it can be simple.",
+    "seeAlso": ["nikah", "mahr"],
+    "sourceIds": ["sunnah-bukhari-5167"]
+  },
+  {
+    "id": "wali",
+    "term": "Wali",
+    "arabicText": "ولي",
+    "transliteration": "WA-lee",
+    "definition": "A guardian, usually a bride's father or another close male relative, who takes part in her marriage contract. The schools differ on whether a wali is required, so ask a qualified imam about your situation.",
+    "seeAlso": ["nikah", "mahr", "mahram"]
+  },
+  {
+    "id": "mahram",
+    "term": "Mahram",
+    "arabicText": "محرم",
+    "transliteration": "MAH-ram",
+    "definition": "A close relative a person can never marry, such as a parent, child, sibling, aunt or uncle. The rules on covering and travelling are different around a mahram.",
+    "seeAlso": ["nikah", "hijab", "awrah"],
+    "sourceIds": ["quran-4-23"]
+  },
+  {
+    "id": "khalwa",
+    "term": "Khalwa",
+    "arabicText": "خلوة",
+    "transliteration": "KHAL-wah",
+    "definition": "Being alone in private with someone of the opposite sex who is not your spouse or a mahram. The Prophet said a man should not be alone with a woman unless a mahram is present, which is why meetings before marriage usually include a family member or happen in a public place.",
+    "seeAlso": ["mahram", "nikah", "zina"],
+    "sourceIds": ["sunnah-bukhari-5233"]
+  },
+  {
+    "id": "zina",
+    "term": "Zina",
+    "arabicText": "زنا",
+    "transliteration": "ZI-naa",
+    "definition": "Sexual relations outside marriage. The Quran says not even to go near it.",
+    "seeAlso": ["nikah", "tawbah", "khalwa"],
+    "sourceIds": ["quran-17-32"]
+  },
+  {
+    "id": "talaq",
+    "term": "Talaq",
+    "arabicText": "طلاق",
+    "transliteration": "ta-LAAQ",
+    "definition": "Divorce started by the husband. The rules have several stages and differ between the schools, so anyone facing divorce should speak to a qualified imam, and to a lawyer about Canadian law.",
+    "seeAlso": ["nikah", "iddah", "khula"]
+  },
+  {
+    "id": "khula",
+    "term": "Khul'",
+    "arabicText": "خلع",
+    "transliteration": "KHUL'",
+    "definition": "Divorce that the wife asks for, usually by returning the mahr. In the time of the Prophet a woman asked to leave her marriage this way and he agreed. Speak to a qualified imam and to a lawyer about Canadian law.",
+    "seeAlso": ["talaq", "nikah", "mahr"],
+    "sourceIds": ["sunnah-bukhari-5273"]
+  },
+  {
+    "id": "iddah",
+    "term": "Iddah",
+    "arabicText": "عدة",
+    "transliteration": "ID-dah",
+    "definition": "The waiting period a woman keeps after a divorce or her husband's death before she can remarry. Its length depends on the situation, so ask a qualified imam.",
+    "seeAlso": ["talaq", "khula", "nikah"],
+    "sourceIds": ["quran-2-228"]
+  },
+  {
+    "id": "kafan",
+    "term": "Kafan",
+    "arabicText": "كفن",
+    "transliteration": "KA-fan",
+    "definition": "The simple white cloth a Muslim is wrapped in for burial. The Prophet was shrouded in three white cotton cloths.",
+    "seeAlso": ["janazah", "taziyah"],
+    "sourceIds": ["sunnah-bukhari-1264"]
+  },
+  {
+    "id": "taziyah",
+    "term": "Ta'ziyah",
+    "arabicText": "تعزية",
+    "transliteration": "ta'-ZEE-yah",
+    "definition": "Offering condolences to a grieving family: visiting, bringing food, and saying words of comfort. The Prophet's words to his grieving daughter were: what Allah takes is His, and what He gives is His.",
+    "seeAlso": ["janazah", "kafan", "sabr"],
+    "sourceIds": ["sunnah-bukhari-1284"]
+  },
+  {
+    "id": "hawl",
+    "term": "Hawl",
+    "arabicText": "حول",
+    "transliteration": "HAWL",
+    "definition": "One full lunar year. Zakat is due on wealth at or above the nisab once you have held it for a hawl.",
+    "seeAlso": ["zakat", "nisab", "hijri"],
+    "sourceIds": ["islamic-relief-canada-nisab"]
+  },
+  {
+    "id": "khimar",
+    "term": "Khimar",
+    "arabicText": "خمار",
+    "transliteration": "khi-MAAR",
+    "definition": "A head covering that falls over the chest. The Quran uses the plural of this word when it tells believing women to draw their coverings over their chests.",
+    "seeAlso": ["hijab", "awrah", "burqa-niqab"],
+    "sourceIds": ["quran-24-31"]
+  },
+  {
+    "id": "ijazah",
+    "term": "Ijazah",
+    "arabicText": "إجازة",
+    "transliteration": "i-JAA-zah",
+    "definition": "A licence a teacher gives a student to teach or recite a text, such as the Quran or a hadith collection. It is one way to check that a teacher learned from someone qualified.",
+    "seeAlso": ["ulama", "isnad", "hafiz"]
+  },
+  {
+    "id": "isnad",
+    "term": "Isnad",
+    "arabicText": "إسناد",
+    "transliteration": "is-NAAD",
+    "definition": "The chain of narrators that carries a hadith back to the Prophet. Scholars judge a hadith's strength mainly by its isnad.",
+    "seeAlso": ["hadith", "sahih", "daif"],
+    "sourceIds": ["new-muslim-academy-arabic-terminology"]
+  },
+  {
+    "id": "sahih",
+    "term": "Sahih",
+    "arabicText": "صحيح",
+    "transliteration": "sa-HEEH",
+    "definition": "Authentic: the highest grade of hadith, with a sound, connected chain of reliable narrators. Sahih al-Bukhari and Sahih Muslim are the two best-known collections.",
+    "seeAlso": ["hadith", "isnad", "hasan"],
+    "sourceIds": ["new-muslim-academy-arabic-terminology"]
+  },
+  {
+    "id": "hasan",
+    "term": "Hasan",
+    "arabicText": "حسن",
+    "transliteration": "HA-san",
+    "definition": "Good: a hadith grade just below sahih. A hasan hadith is accepted as evidence.",
+    "seeAlso": ["hadith", "sahih", "daif"]
+  },
+  {
+    "id": "daif",
+    "term": "Da'if",
+    "arabicText": "ضعيف",
+    "transliteration": "da-'EEF",
+    "definition": "Weak: a hadith with a problem in its chain or text. It is not used on its own to establish a ruling.",
+    "seeAlso": ["hadith", "sahih", "hasan"],
+    "sourceIds": ["new-muslim-academy-arabic-terminology"]
+  },
+  {
+    "id": "khatm",
+    "term": "Khatm",
+    "arabicText": "ختم",
+    "transliteration": "KHAT-m",
+    "definition": "Completing a full reading of the Quran from beginning to end. Families and masjids sometimes share one out, each person reading a juz.",
+    "seeAlso": ["quran", "juz"]
+  },
+  {
+    "id": "riya",
+    "term": "Riya",
+    "arabicText": "رياء",
+    "transliteration": "ri-YAA'",
+    "definition": "Showing off: doing worship or good deeds so that people will see and praise you. It is the opposite of sincerity (ikhlas). Worrying that you might be showing off is not the same as doing it.",
+    "seeAlso": ["ikhlas", "niyyah"],
+    "sourceIds": ["quran-107-6", "sunnah-muslim-2985"]
+  },
+  {
+    "id": "tawakkul",
+    "term": "Tawakkul",
+    "arabicText": "توكل",
+    "transliteration": "ta-WAK-kul",
+    "definition": "Trust in Allah. You take the practical steps you can, then leave the result to Allah.",
+    "seeAlso": ["iman", "sabr", "dua"],
+    "sourceIds": ["quran-3-159"]
+  },
+  {
+    "id": "nafs",
+    "term": "Nafs",
+    "arabicText": "نفس",
+    "transliteration": "NAFS",
+    "definition": "The self or ego, including its desires. Much of Islamic character is about training the nafs gently over time.",
+    "seeAlso": ["akhlaq", "taqwa"],
+    "sourceIds": ["quran-91-9"]
+  },
+  {
+    "id": "dunya",
+    "term": "Dunya",
+    "arabicText": "دنيا",
+    "transliteration": "DUN-yaa",
+    "definition": "This world and its life. Muslims live fully in it, work and enjoy what is good, while remembering it is temporary.",
+    "seeAlso": ["akhirah", "barzakh"]
+  },
+  {
+    "id": "akhirah",
+    "term": "Akhirah",
+    "arabicText": "آخرة",
+    "transliteration": "AA-khi-rah",
+    "definition": "The next life, after death and the Day of Judgment. Belief in it is part of Islamic faith.",
+    "seeAlso": ["dunya", "barzakh", "jannah"]
+  },
+  {
+    "id": "barzakh",
+    "term": "Barzakh",
+    "arabicText": "برزخ",
+    "transliteration": "BAR-zakh",
+    "definition": "The barrier or in-between stage from death until the Day of Resurrection.",
+    "seeAlso": ["akhirah", "dunya", "janazah"],
+    "sourceIds": ["quran-23-100"]
+  },
+  {
+    "id": "sai",
+    "term": "Sa'i",
+    "arabicText": "سعي",
+    "transliteration": "SA'-ee",
+    "definition": "Walking seven times between the hills of Safa and Marwah, part of Hajj and Umrah.",
+    "seeAlso": ["hajj", "umrah", "tawaf"],
+    "sourceIds": ["quran-2-158"]
+  },
+  {
+    "id": "talbiyah",
+    "term": "Talbiyah",
+    "arabicText": "تلبية",
+    "transliteration": "tal-BEE-yah",
+    "definition": "The words pilgrims repeat in ihram, beginning Labbayk Allahumma labbayk (here I am, O Allah, here I am).",
+    "seeAlso": ["hajj", "ihram", "umrah"],
+    "sourceIds": ["sunnah-bukhari-1549"]
   }
 ]
