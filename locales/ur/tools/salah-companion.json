@@ -1,25 +1,33 @@
 {
+  "reviewStatus": "review-needed",
   "prayerSequence": [
     {
       "title": "سکون سے تیاری کریں",
       "posture": "نماز سے پہلے",
       "body": "وضو کریں، کوئی صاف جگہ تلاش کریں، قبلہ رخ ہوں، اور دل میں طے کریں کہ یہ کون سی نماز ہے۔ نیت بلند آواز سے کہنا ضروری نہیں۔",
       "icon": "check",
-      "sourceIds": ["new-muslim-guide-prayer"]
+      "sourceIds": [
+        "new-muslim-guide-prayer"
+      ]
     },
     {
       "title": "کھڑے ہو کر شروع کریں",
       "posture": "تکبیرِ تحریمہ",
       "body": "ہاتھ اٹھائیں اور اللہ اکبر کہیں۔ اس سے نماز شروع ہوتی ہے، اور اس لمحے سے آپ عام گفتگو سے نکل کر عبادت میں داخل ہو جاتے ہیں۔",
       "icon": "star",
-      "sourceIds": ["new-muslim-guide-prayer"]
+      "sourceIds": [
+        "new-muslim-guide-prayer"
+      ]
     },
     {
       "title": "پہلی رکعت میں تلاوت کریں",
       "posture": "قیام",
       "body": "سورۂ فاتحہ پڑھیں، پھر کوئی چھوٹی سورت یا وہ چند آیات جن پر آپ کام کر رہے ہیں۔ اگر ابھی تلاوت نہیں کر سکتے تو نیچے \"اگر آپ ابھی عربی میں نہیں پڑھ سکتے\" والا حصہ بتاتا ہے کہ اس دوران فقہی مسالک کیا اجازت دیتے ہیں۔",
       "icon": "book",
-      "sourceIds": ["quran-al-fatihah-1", "quran-al-ikhlas-112"]
+      "sourceIds": [
+        "quran-al-fatihah-1",
+        "quran-al-ikhlas-112"
+      ]
     },
     {
       "title": "رکوع کریں اور اٹھیں",
@@ -48,7 +56,9 @@
       "posture": "دوسری رکعت",
       "body": "دوبارہ کھڑے ہوں اور وہی طریقہ دہرائیں: سورۂ فاتحہ، مختصر تلاوت، رکوع، پھر کھڑے ہونا، پھر دو سجدے۔",
       "icon": "chevron-right",
-      "sourceIds": ["new-muslim-guide-prayer"]
+      "sourceIds": [
+        "new-muslim-guide-prayer"
+      ]
     },
     {
       "title": "آخری کلمات کے لیے بیٹھیں",
@@ -65,7 +75,9 @@
       "posture": "سلام",
       "body": "پہلے دائیں، پھر بائیں طرف سر پھیریں، ہر بار سلام کہتے ہوئے۔ اس سے نماز ختم ہو جاتی ہے۔ اٹھ کر اپنے دن میں واپس جانے سے پہلے ایک لمحہ بیٹھیں۔",
       "icon": "star",
-      "sourceIds": ["sunnah-abudawud-taslim"]
+      "sourceIds": [
+        "sunnah-abudawud-taslim"
+      ]
     }
   ],
   "recitations": [
@@ -76,7 +88,9 @@
       "transliteration": "Allahu akbar",
       "meaning": "اللہ سب سے بڑا ہے۔",
       "beginnerNote": "یہ وہ کلمہ ہے جو سب سے پہلے سیکھنا ہے۔ اسے صاف اور بغیر جلدی کے کہیں۔ آپ کا لہجہ خود ہی بہتر ہوتا جائے گا۔",
-      "sourceIds": ["new-muslim-guide-prayer"]
+      "sourceIds": [
+        "new-muslim-guide-prayer"
+      ]
     },
     {
       "title": "سورۂ فاتحہ",
@@ -84,8 +98,12 @@
       "arabic": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ\nالْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينَ\nالرَّحْمَٰنِ الرَّحِيمِ\nمَالِكِ يَوْمِ الدِّينِ\nإِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ\nاهْدِنَا الصِّرَاطَ الْمُسْتَقِيمَ\nصِرَاطَ الَّذِينَ أَنْعَمْتَ عَلَيْهِمْ غَيْرِ الْمَغْضُوبِ عَلَيْهِمْ وَلَا الضَّالِّينَ",
       "transliteration": "Bismillahir-Rahmanir-Rahim. Alhamdu lillahi Rabbil-'alamin. Ar-Rahmanir-Rahim. Maliki yawmid-din. Iyyaka na'budu wa iyyaka nasta'in. Ihdinas-siratal-mustaqim. Siratal-ladhina an'amta 'alayhim ghayril-maghdubi 'alayhim wa lad-dallin.",
       "meaning": "معنی کا ترجمہ: تعریف، عبادت اور مدد اللہ ہی کے لیے ہیں، اور ہم اس سے سیدھے راستے کی ہدایت مانگتے ہیں۔",
-      "beginnerNote": "سورۂ فاتحہ یاد کرنے کا پہلا حقیقی ہدف ہے۔ ایک وقت میں ایک جملہ لیں، اور کسی استاد سے پوچھیں کہ جب تک سیکھ رہے ہیں تب تک کیا پڑھیں۔",
-      "sourceIds": ["quran-al-fatihah-1"]
+      "beginnerNote": "الفاتحہ یاد کرنے کا پہلا حقیقی ہدف ہے۔ ایک وقت میں ایک جملہ لیں، اور جب تک سیکھ رہے ہیں کسی استاد سے پوچھیں کہ کیا پڑھیں۔ جماعت میں جب امام الفاتحہ ختم کر کے آمین (اے اللہ، قبول فرما) کہے تو اس کے ساتھ آمین کہیں۔ اکیلے نماز میں اسے کہنے کے بارے میں سوالات ہوں تو کسی استاد سے پوچھیں۔",
+      "sourceIds": [
+        "quran-al-fatihah-1",
+        "sunnah-bukhari-780",
+        "sunnah-muslim-410a"
+      ]
     },
     {
       "title": "چھوٹی سورت کی مثال: سورۂ اخلاص",
@@ -94,7 +112,9 @@
       "transliteration": "Qul huwa Allahu ahad. Allahus-samad. Lam yalid wa lam yulad. Wa lam yakun lahu kufuwan ahad.",
       "meaning": "معنی کا ترجمہ: اللہ ایک ہے، بے نیاز ہے، مخلوق جیسا نہیں، اور کوئی چیز اس کے برابر نہیں۔",
       "beginnerNote": "زیادہ تر ابتدائی افراد یہیں سے شروع کرتے ہیں۔ یہ مختصر ہے، اور چار سطروں میں اللہ کی وحدانیت بیان کرتی ہے۔",
-      "sourceIds": ["quran-al-ikhlas-112"]
+      "sourceIds": [
+        "quran-al-ikhlas-112"
+      ]
     },
     {
       "title": "چھوٹی سورت کی مثال: سورۂ عصر",
@@ -103,7 +123,9 @@
       "transliteration": "Wal-'asr. Innal-insana lafi khusr. Illal-ladhina amanu wa 'amilus-salihat, wa tawasaw bil-haqqi wa tawasaw bis-sabr.",
       "meaning": "معنی کا ترجمہ: انسان خسارے میں ہیں سوائے ان کے جو ایمان لائیں، نیک عمل کریں، اور ایک دوسرے کو حق اور صبر کی تلقین کریں۔",
       "beginnerNote": "ایک وقت میں ایک چھوٹی سورت پر کام کریں۔ کئی سورتوں کو جلدی جلدی پڑھنے سے پہلے کسی قابلِ اعتماد قاری کو سننا آپ کے لیے زیادہ مفید ہے۔",
-      "sourceIds": ["quran-al-asr-103"]
+      "sourceIds": [
+        "quran-al-asr-103"
+      ]
     },
     {
       "title": "رکوع کی تسبیح",
@@ -112,7 +134,9 @@
       "transliteration": "Subhana Rabbiyal-'Azim",
       "meaning": "پاک ہے میرا رب جو عظمت والا ہے۔",
       "beginnerNote": "زیادہ تر گائیڈز اسے تین بار کہنا سکھاتی ہیں۔ سیکھتے ہوئے ایک بار صاف کہنا بھی شروع کرنے کے لیے ٹھیک ہے۔ تفصیلات کسی استاد سے پوچھیں۔",
-      "sourceIds": ["hisn-ruku-dhikr"]
+      "sourceIds": [
+        "hisn-ruku-dhikr"
+      ]
     },
     {
       "title": "رکوع سے اٹھنا",
@@ -121,7 +145,9 @@
       "transliteration": "Sami'a Allahu liman hamidah. Rabbana wa lakal-hamd.",
       "meaning": "اللہ نے اس کی سن لی جس نے اس کی تعریف کی۔ اے ہمارے رب، اور تیرے ہی لیے سب تعریف ہے۔",
       "beginnerNote": "پہلی سطر اٹھتے ہوئے کہیں اور دوسری سیدھے کھڑے ہو کر۔ آپ \"ربنا لک الحمد\" بغیر \"و\" کے بھی سنیں گے۔ دونوں الفاظ حدیث میں آئے ہیں۔",
-      "sourceIds": ["sunnah-bukhari-rising-from-ruku"]
+      "sourceIds": [
+        "sunnah-bukhari-rising-from-ruku"
+      ]
     },
     {
       "title": "سجدے کی تسبیح",
@@ -130,7 +156,9 @@
       "transliteration": "Subhana Rabbiyal-A'la",
       "meaning": "پاک ہے میرا رب جو سب سے بلند ہے۔",
       "beginnerNote": "پہلی چند بار سجدہ عجیب لگتا ہے۔ اس رفتار سے جائیں جو آپ کے جسم کو ٹھیک لگے، نیچے پہنچ کر رکیں، اور تسبیح سیکھیں۔ آہستہ ہونا کوئی کمی نہیں۔",
-      "sourceIds": ["hisn-sujud-dhikr"]
+      "sourceIds": [
+        "hisn-sujud-dhikr"
+      ]
     },
     {
       "title": "دو سجدوں کے درمیان بیٹھنا",
@@ -151,7 +179,9 @@
       "transliteration": "At-tahiyyatu lillahi was-salawatu wat-tayyibat. As-salamu 'alayka ayyuhan-Nabiyyu wa rahmatullahi wa barakatuh. As-salamu 'alayna wa 'ala 'ibadillahis-salihin. Ash-hadu an la ilaha illallah, wa ash-hadu anna Muhammadan 'abduhu wa rasuluh.",
       "meaning": "تمام تعظیمی کلمات، نمازیں اور پاکیزہ چیزیں اللہ کے لیے ہیں۔ اے نبی، آپ پر سلام ہو اور اللہ کی رحمت اور برکتیں۔ ہم پر اور اللہ کے نیک بندوں پر سلام ہو۔ میں گواہی دیتا ہوں کہ اللہ کے سوا کوئی معبود نہیں، اور میں گواہی دیتا ہوں کہ محمد اس کے بندے اور رسول ہیں۔",
       "beginnerNote": "یہ حضرت ابن مسعودؓ کی روایت کردہ الفاظ ہیں۔ آپ دوسری صحیح روایات سے تھوڑے مختلف الفاظ بھی سن سکتے ہیں، اس لیے اپنے استاد کی پیروی کریں۔ اسے ایک ایک سطر کر کے سیکھیں۔",
-      "sourceIds": ["sunnah-bukhari-tashahhud"]
+      "sourceIds": [
+        "sunnah-bukhari-tashahhud"
+      ]
     },
     {
       "title": "نبی ﷺ پر درود",
@@ -160,7 +190,9 @@
       "transliteration": "Allahumma salli 'ala Muhammadin wa 'ala ali Muhammad, kama sallayta 'ala Ibrahima wa 'ala ali Ibrahim, innaka Hamidun Majid. Allahumma barik 'ala Muhammadin wa 'ala ali Muhammad, kama barakta 'ala Ibrahima wa 'ala ali Ibrahim, innaka Hamidun Majid.",
       "meaning": "اے اللہ، محمد اور آلِ محمد پر رحمت نازل فرما، جیسے تو نے ابراہیم اور آلِ ابراہیم پر رحمت نازل فرمائی۔ بے شک تو تعریف والا، بزرگی والا ہے۔ اے اللہ، محمد اور آلِ محمد پر برکت نازل فرما، جیسے تو نے ابراہیم اور آلِ ابراہیم پر برکت نازل فرمائی۔ بے شک تو تعریف والا، بزرگی والا ہے۔",
       "beginnerNote": "اسے آخری بیٹھک میں، تشہد کے بعد اور سلام سے پہلے پڑھیں۔ کیا لمبی نماز کی پہلی بیٹھک میں بھی پڑھا جائے، اس پر فقہی مسالک میں اختلاف ہے، اس لیے اپنے استاد سے پوچھیں۔",
-      "sourceIds": ["sunnah-bukhari-salawat-ibrahimiyyah"]
+      "sourceIds": [
+        "sunnah-bukhari-salawat-ibrahimiyyah"
+      ]
     },
     {
       "title": "سلام",
@@ -169,7 +201,9 @@
       "transliteration": "As-salamu 'alaykum wa rahmatullah",
       "meaning": "آپ پر سلامتی اور اللہ کی رحمت ہو۔",
       "beginnerNote": "اس سے نماز ختم ہوتی ہے۔ ہر طرف نرمی سے سر پھیریں۔ بڑی حرکت کرنے کی ضرورت نہیں۔",
-      "sourceIds": ["sunnah-abudawud-taslim"]
+      "sourceIds": [
+        "sunnah-abudawud-taslim"
+      ]
     }
   ],
   "cannotReciteYet": [
@@ -188,7 +222,7 @@
     "نماز کے دوران جان بوجھ کر کھانا، پینا یا غیر متعلقہ بات کرنا۔",
     "کسی لازمی حالت، شرط یا تلاوت کو چھوڑ دینا جب آپ جانتے ہوں کہ وہ لازم ہے۔",
     "بغیر کسی وجہ کے جان بوجھ کر نماز ختم کرنا یا اس سے منہ موڑ لینا۔",
-    "غلطیوں، بھول، بیماری، ماہواری، سفر اور معذوری، سب کی تفصیلات ہیں جنہیں کسی مستند استاد کے ساتھ دیکھنا مفید ہے۔"
+    "غلطیوں، بھول، بیماری، ماہواری، سفر اور معذوری، سب کی تفصیلات ہیں جو کسی مستند استاد کے ساتھ دیکھنے کے قابل ہیں۔ نیچے کی فہرست بتاتی ہے کہ یہ سائٹ پہلے ہی کن باتوں کا احاطہ کرتی ہے۔"
   ],
   "commonCorrections": [
     {
@@ -214,7 +248,9 @@
     "channel": "Green Lane Masjid",
     "duration": "33:57",
     "note": "عصر کا حصہ مختصر ہے کیونکہ عصر ظہر ہی کی طرح پڑھی جاتی ہے۔ ویڈیو ایک فقہی مسلک کے طریقے پر ہے، اور فقہی مسالک میں چھوٹے فرق عام بات ہیں۔ سب ٹائٹل خود کار بنائے گئے ہیں۔",
-    "sourceIds": ["video-greenlane-five-prayers"],
+    "sourceIds": [
+      "video-greenlane-five-prayers"
+    ],
     "chapters": [
       {
         "label": "نماز سے پہلے",
@@ -256,7 +292,9 @@
       "title": "ایک رکعت کا ہر کلمہ",
       "channel": "Islamwise",
       "duration": "10:29",
-      "sourceIds": ["video-islamwise-rakah-recap"]
+      "sourceIds": [
+        "video-islamwise-rakah-recap"
+      ]
     },
     {
       "videoId": "n0aGnzSY_hs",
@@ -264,14 +302,18 @@
       "channel": "Islamwise",
       "duration": "7:01",
       "note": "سیکھتے ہوئے یہ کلمات استعمال کرنا فقہی مسالک کی آرا میں سے ایک ہے۔ تلاوت سیکھنے سے پہلے نماز پڑھنے والا حصہ دیکھیں۔",
-      "sourceIds": ["video-islamwise-comprehensive-remembrance"]
+      "sourceIds": [
+        "video-islamwise-comprehensive-remembrance"
+      ]
     }
   ],
   "phraseSeries": {
     "label": "یوٹیوب پر Islamwise کا مکمل سلسلہ",
     "body": "29 مختصر اسباق، ایک وقت میں ایک جملہ، جن میں سورۂ فاتحہ آیت بہ آیت، تشہد اور درود شامل ہیں۔",
     "href": "https://www.youtube.com/playlist?list=PLW9v5fexkmD_8i507k8oL2x9n0vJeP1BT",
-    "sourceIds": ["video-islamwise-prayer-series"]
+    "sourceIds": [
+      "video-islamwise-prayer-series"
+    ]
   },
   "shapeImage": {
     "src": "/graphics/rakah-steps.svg",
@@ -369,7 +411,7 @@
       "اگر آپ بیٹھ نہیں سکتے تو لیٹ کر نماز پڑھیں، جتنا ہو سکے قبلہ رخ ہو کر۔",
       "مختصر بیماریوں اور طویل مدتی حالتوں کا حکم تھوڑا مختلف ہے، اور فقہی مسالک تفصیلات میں مختلف ہیں، جیسے کرسی استعمال کرنے والا رکوع کیسے کرے اور صف میں کرسی کہاں رکھی جائے۔"
     ],
-    "referral": "کوئی مقامی امام یا استاد ایک بار آپ کو نماز پڑھتے دیکھ کر یہ طے کرنے میں مدد دے سکتا ہے کہ آپ کے جسم کے لیے کیا ٹھیک ہے۔ نماز کو شمار کروانے کے لیے آپ کو کبھی درد سہنے کی ضرورت نہیں۔",
+    "referral": "کوئی مقامی امام یا استاد ایک بار آپ کو نماز پڑھتے دیکھ کر یہ طے کرنے میں مدد کر سکتا ہے کہ آپ کے جسم کے لیے کیا مناسب ہے۔ نماز قبول کروانے کے لیے آپ کو کبھی درد برداشت کرنے کی ضرورت نہیں۔ ہسپتال میں جیسے ہو سکے بستر پر نماز پڑھیں، اور نرسوں سے پوچھیں کہ کیا ہسپتال میں روحانی دیکھ بھال کی ٹیم ہے۔",
     "sourceIds": [
       "sunnah-bukhari-pray-standing-sitting",
       "seekersguidance-praying-sitting",
@@ -381,7 +423,9 @@
       "channel": "Green Lane Masjid",
       "duration": "6:06",
       "note": "فرش پر، کرسی پر، رکوع کے بغیر کھڑے ہو کر، اور بستر پر لیٹ کر نماز پڑھنا دکھاتی ہے۔",
-      "sourceIds": ["video-greenlane-physical-disability"],
+      "sourceIds": [
+        "video-greenlane-physical-disability"
+      ],
       "chapters": [
         {
           "label": "فرش پر بیٹھ کر",
@@ -405,7 +449,9 @@
       "label": "کرسی پر بیٹھ کر نماز کیسے پڑھیں (شیخ عاصم الحکیم، 3:25)",
       "body": "ایک مختصر دوسرا مظاہرہ، جس میں مسجد کی صف میں کرسی پر نماز پڑھنا بھی شامل ہے۔",
       "href": "https://www.youtube.com/watch?v=nNKUwHi99Qo",
-      "sourceIds": ["video-assim-chair-prayer"]
+      "sourceIds": [
+        "video-assim-chair-prayer"
+      ]
     }
   },
   "cannotReciteSourceIds": [
@@ -414,5 +460,166 @@
     "seekersguidance-reading-from-mushaf",
     "dar-alifta-new-muslim-fatiha",
     "sunnah-muslim-two-rewards"
-  ]
+  ],
+  "moreCards": [
+    {
+      "id": "behind-imam",
+      "title": "Praying behind an imam (and joining late)",
+      "summary": "Walking into a masjid while the prayer is already under way happens to everyone. The Prophet (peace be upon him) said to come calmly, pray what you catch and complete what you missed (Sahih al-Bukhari 636).",
+      "points": [
+        "Walk, do not run, and join the nearest row.",
+        "Stand, raise your hands and say Allahu akbar, then go straight into whatever position the imam is in, even if he is prostrating (Sunan Abi Dawud 893, graded Hasan by al-Albani).",
+        "If you bowed with the imam before he rose from bowing, you have caught that rak'ah. If you joined after that, follow him anyway, but that rak'ah does not count for you. The Hanafi and Shafi'i answers we link agree on this.",
+        "Move after the imam, never before him.",
+        "When the imam finishes Al-Fatihah, the people behind him say Ameen with him (Sahih al-Bukhari 780).",
+        "When the imam ends with salam and you still owe rak'ahs, do not say salam. Stand up and complete what you missed on your own. The Shafi'i answer we link recommends waiting until the imam has said both salams before you stand.",
+        "Stand close in the row, shoulder to shoulder and foot to foot (Sahih al-Bukhari 725). That is why the person beside you may move his foot next to yours.",
+        "If you make a mistake behind the imam, follow the imam and do not add your own prostrations of forgetfulness.",
+        "For your first few congregational prayers, stand near the end of a row where you can see people ahead of you. If you lose track, finish what you think is right and ask someone afterwards."
+      ],
+      "differencesTitle": "Where the schools differ",
+      "differences": [
+        "What you recite behind the imam differs between the schools. Ask your teacher which way your community follows.",
+        "Catching Friday prayer: in the Hanafi answer we link, joining before the imam's final salam counts as catching Jumu'ah, and you then stand and make up two rak'ahs. The Shafi'i school counts Jumu'ah as caught only if you catch at least one rak'ah with the imam, and otherwise you pray Dhuhr. It relies on hadith such as \"Whoever catches a rak'ah of Jumu'ah has caught it\" (Sunan an-Nasa'i 1425, graded Sahih by Darussalam).",
+        "Two rak'ahs on arrival: the Prophet told people to pray two rak'ahs before sitting in a masjid (Sahih al-Bukhari 444). Once the imam goes up for the Friday sermon, the Hanafi and Maliki schools say not to pray, and to sit and listen. The Shafi'i and Hanbali schools teach two short rak'ahs even during the sermon, because the Prophet told a man who came in during the sermon to stand and pray two rak'ahs (Sahih Muslim 875c)."
+      ],
+      "referral": "Ask a local imam to walk you through joining late once. It takes five minutes and saves a lot of worry.",
+      "links": [
+        {
+          "label": "Go to your first Friday prayer",
+          "href": "/roadmap/week-1/first-jumuah"
+        }
+      ],
+      "sourceIds": [
+        "sunnah-bukhari-636",
+        "sunnah-abudawud-893",
+        "sunnah-bukhari-780",
+        "sunnah-bukhari-725",
+        "sunnah-bukhari-444",
+        "sunnah-muslim-875c",
+        "sunnah-nasai-1425",
+        "seekersguidance-latecomer-hanafi",
+        "seekersguidance-latecomer-shafii",
+        "seekersguidance-friday-prayer-rulings",
+        "seekersguidance-maliki-voluntary-prayers"
+      ]
+    },
+    {
+      "id": "prayer-kit",
+      "title": "Your prayer kit, and where you can pray",
+      "summary": "You can pray almost anywhere that is clean. A few small things in your bag make it easier at work, at school or on the road.",
+      "points": [
+        "A small towel or travel mat. A prayer mat is not required: any clean surface works.",
+        "For sisters, a scarf or a one-piece prayer garment. A woman past puberty covers her hair in prayer (Sunan Abi Dawud 641, graded Sahih by al-Albani).",
+        "A small water bottle for cleaning after the toilet.",
+        "Shoes: the Prophet prayed in his sandals and told people to check them for dirt first (Sunan Abi Dawud 650, graded Sahih by al-Albani). Inside a masjid, take your shoes off where others do.",
+        "Outdoors or in public, a park, a quiet stairwell or a parked car can work. Pray near a wall or put your bag in front of you as a marker (sutrah), and keep close to it (Sunan Abi Dawud 695, graded Sahih by al-Albani).",
+        "Qibla: face the Ka'bah as best you can (Quran 2:144). When you cannot be exact, the general direction is enough (Jami at-Tirmidhi 344). A few degrees off on your compass is no reason to pray again.",
+        "Use the toilet before you pray rather than holding it in. The Prophet said not to pray while the call of nature presses on you (Sahih Muslim 560a).",
+        "Dress for worship: \"take your adornment at every place of prayer\" (Quran 7:31). Clean work clothes that cover what your school requires are fine."
+      ],
+      "links": [
+        {
+          "label": "Find the qibla",
+          "href": "/qibla"
+        },
+        {
+          "label": "What to cover in prayer",
+          "href": "/topics/prayer"
+        }
+      ],
+      "sourceIds": [
+        "quran-7-31-adornment-masjid",
+        "sunnah-abudawud-641",
+        "sunnah-abudawud-650",
+        "sunnah-abudawud-695",
+        "quran-2-144-qibla",
+        "sunnah-tirmidhi-344",
+        "sunnah-muslim-560a"
+      ]
+    },
+    {
+      "id": "funeral-prayer",
+      "title": "Funeral prayer (janazah)",
+      "summary": "The funeral prayer is prayed standing, behind an imam, with no bowing and no prostration. It is short, usually a few minutes. Attending it carries a reward, and staying for the burial carries more (Sahih al-Bukhari 1325).",
+      "points": [
+        "Make wudu before you go, then stand in the rows behind the imam.",
+        "There are four takbirs (Sahih al-Bukhari 1333). The imam says Allahu akbar each time, and you say it quietly after him.",
+        "One common method, as IslamQA sets it out: after the first takbir, recite Al-Fatihah. After the second, say the blessings on the Prophet (the same salawat as in the final sitting). After the third, make a dua for the person who has died. After the fourth, end with salam.",
+        "If you do not know a set dua yet, ask Allah quietly in your own words to forgive the person and have mercy on them.",
+        "Stay standing the whole time. Do not bow or prostrate.",
+        "If you arrive late, join and follow the imam, then ask someone afterwards what you missed."
+      ],
+      "differencesTitle": "Where the schools differ",
+      "differences": [
+        "The schools differ in the details, such as what is said after the first takbir and whether there are one or two salams. The method above follows one approach. Follow the imam, and ask your teacher how your community prays it."
+      ],
+      "referral": "If someone you know has died, the local masjid can tell you when the funeral prayer is and where.",
+      "links": [
+        {
+          "label": "Eid prayer",
+          "href": "/seasonal/eid-al-fitr"
+        }
+      ],
+      "sourceIds": [
+        "sunnah-bukhari-1333",
+        "sunnah-bukhari-1325",
+        "islamqa-12363-janazah"
+      ]
+    }
+  ],
+  "situationIndex": {
+    "title": "جب کوئی صورتِ حال پیش آئے",
+    "intro": "حقیقی زندگی نماز کے راستے میں آ جاتی ہے۔ یہاں اپنی صورتِ حال تلاش کریں اور سیدھے جواب پر جائیں۔",
+    "items": [
+      {
+        "label": "آپ کے پہنچنے پر نماز شروع ہو چکی ہے",
+        "href": "/tools/salah-companion#behind-imam"
+      },
+      {
+        "label": "آپ گنتی بھول گئے یا غلطی ہو گئی",
+        "href": "/tools/salah-companion#sujud-al-sahw"
+      },
+      {
+        "label": "آپ سفر میں ہیں، دور گاڑی چلا رہے ہیں یا ہوائی سفر کر رہے ہیں",
+        "href": "/topics/prayer"
+      },
+      {
+        "label": "آپ فجر میں سوتے رہ گئے یا کوئی نماز چھوٹ گئی",
+        "href": "/faq#faq-pry-037"
+      },
+      {
+        "label": "آپ کی شفٹ نماز کا پورا وقت گھیر لیتی ہے",
+        "href": "/faq#faq-pry-038"
+      },
+      {
+        "label": "آپ کو کام پر، باہر یا سفر میں نماز پڑھنی ہے",
+        "href": "/tools/salah-companion#prayer-kit"
+      },
+      {
+        "label": "آپ کے کپڑوں پر کچھ لگ گیا",
+        "href": "/topics/purification"
+      },
+      {
+        "label": "کسی بیماری کی وجہ سے آپ کا وضو بار بار ٹوٹتا ہے",
+        "href": "/tools/wudu-ghusl#excused-person"
+      },
+      {
+        "label": "درد، بیماری یا ہسپتال میں قیام",
+        "href": "/tools/salah-companion#seated-prayer"
+      },
+      {
+        "label": "آپ کی ماہواری شروع ہو گئی ہے",
+        "href": "/topics/menstruation-and-worship"
+      },
+      {
+        "label": "آپ نمازِ جنازہ میں جا رہے ہیں",
+        "href": "/tools/salah-companion#funeral-prayer"
+      },
+      {
+        "label": "آپ عید کی نماز میں جا رہے ہیں",
+        "href": "/seasonal/eid-al-fitr"
+      }
+    ]
+  }
 }
