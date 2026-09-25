@@ -1,256 +1,1268 @@
 [
   {
     "id": "islamic-society-of-toronto-dundas",
-    "name": "Islamic Society of Toronto - Masjid Darus Salaam",
-    "address": "20 Overlea Boulevard",
-    "city": "Toronto",
-    "stateProvince": "Ontario",
-    "country": "Canada",
-    "postalCode": "M4H 1A4",
-    "coordinates": {
-      "lat": 43.7046555,
-      "lng": -79.3514705
-    },
-    "phone": "(416) 467-0786",
-    "email": "info@islamicsocietyoftoronto.com",
-    "website": "https://www.islamicsocietyoftoronto.com/",
-    "notes": "इसे मस्जिद दारुस सलाम के नाम से भी जाना जाता है। आधिकारिक साइट दैनिक प्रार्थनाओं और इस्लामी शिक्षा कार्यक्रमों को सूचीबद्ध करती है।",
-    "visitorNotes": "आधिकारिक साइट का उपयोग करें या जाने से पहले कार्यालय से संपर्क करें क्योंकि प्रार्थना के समय, पार्किंग नोट्स और कार्यक्रम बदल सकते हैं।",
-    "jumuahNote": "आधिकारिक साइट जुमुआ पंक्तियाँ और प्रार्थना-समय अपडेट पोस्ट करती है; भाग लेने से पहले वर्तमान कार्यक्रम की पुष्टि करें।",
-    "classSupportNote": "आधिकारिक तौर पर सूचीबद्ध कार्यक्रमों में शाम की कुरान कक्षा, रविवार मदरसा, हिफ़्ज़, आलिम/आलिमा और इस्लामी आवश्यक अध्ययन शामिल हैं।",
-    "parkingNote": "आधिकारिक साइट में पास की निजी पार्किंग के लिए एक विशिष्ट पार्किंग चेतावनी शामिल है; जाने से पहले वर्तमान निर्देश जांचें।",
-    "serviceIds": ["quran-classes", "weekend-school", "community-events"],
-    "sourceIds": ["masjid-ist-darus-salaam"],
-    "reviewStatus": "source-checked"
+    "notes": "दूसरा नाम: Masjid Darus Salaam। आधिकारिक साइट पर रोज़ की नमाज़ें और इस्लामी शिक्षा के कार्यक्रम दिए गए हैं।",
+    "visitorNotes": "जाने से पहले आधिकारिक साइट देख लें या दफ़्तर में फ़ोन कर लें। नमाज़ के समय, पार्किंग की जानकारी और कार्यक्रम, सब बदलते रहते हैं।",
+    "jumuahNote": "आधिकारिक साइट पर जुमे के समय और नमाज़ के समय में बदलाव की जानकारी दी जाती है। जाने से पहले समय-सारणी पक्की कर लें।",
+    "classSupportNote": "दिए गए कार्यक्रमों में शाम की क़ुरआन क्लास, रविवार का मदरसा, हिफ़्ज़, आलिम और आलिमा की पढ़ाई, और इस्लाम की बुनियादी पढ़ाई शामिल हैं।",
+    "parkingNote": "आधिकारिक साइट आसपास की निजी पार्किंग के बारे में चेतावनी देती है। गाड़ी खड़ी करने से पहले मौजूदा निर्देश पढ़ लें।"
   },
   {
     "id": "taric-islamic-centre",
-    "name": "TARIC Islamic Centre",
-    "address": "99 Beverly Hills Drive",
-    "city": "North York",
-    "stateProvince": "Ontario",
-    "country": "Canada",
-    "postalCode": "M3L 1A2",
-    "coordinates": {
-      "lat": 43.7179655,
-      "lng": -79.5159803
-    },
-    "phone": "(416) 245-5675",
-    "email": "admin@taric.org",
-    "website": "https://taric.org/",
-    "notes": "सार्वजनिक कार्यक्रम कार्यक्रम और सामुदायिक प्रोग्रामिंग के साथ एक लंबे समय से चलने वाला इस्लामी केंद्र।",
-    "visitorNotes": "वर्तमान जुमे के समय, घटनाओं और आगंतुक सहायता के लिए आधिकारिक साइट का उपयोग करें या केंद्र से संपर्क करें।",
-    "classSupportNote": "आधिकारिक कार्यक्रम सामग्री में पारिवारिक सेमिनार, रमज़ान गतिविधियाँ, ईद कार्यक्रम, सामुदायिक आउटरीच और युवा/पारिवारिक प्रोग्रामिंग की सूची है।",
-    "serviceIds": ["community-events", "youth-programs"],
-    "sourceIds": ["masjid-taric"],
-    "reviewStatus": "source-checked"
+    "notes": "लंबे समय से चल रहा एक इस्लामी केंद्र, जो अपने कार्यक्रमों की समय-सारणी सबके लिए प्रकाशित करता है और समुदाय के लिए नियमित कार्यक्रम चलाता है।",
+    "visitorNotes": "जुमे के मौजूदा समय, कार्यक्रमों और मेहमानों के लिए मदद के बारे में आधिकारिक साइट देखें या केंद्र में फ़ोन करें।",
+    "classSupportNote": "प्रकाशित कार्यक्रम सामग्री में परिवार के लिए सेमिनार, रमज़ान की गतिविधियाँ, ईद के कार्यक्रम, समुदाय तक पहुँच, और युवाओं और परिवारों के कार्यक्रम दिए गए हैं।"
   },
   {
     "id": "masjid-toronto-adelaide",
-    "name": "Masjid Toronto (Dundas)",
-    "address": "168 Dundas Street West",
-    "city": "Toronto",
-    "stateProvince": "Ontario",
-    "country": "Canada",
-    "postalCode": "M5G 1C6",
-    "coordinates": {
-      "lat": 43.6536,
-      "lng": -79.3849
-    },
-    "phone": "(416) 596-0507",
-    "website": "https://centres.macnet.ca/masjidtoronto/venue/toronto-dundas/",
-    "notes": "डाउनटाउन मस्जिद स्थान मैक मस्जिद टोरंटो द्वारा संचालित है। यह रिकॉर्ड अब डंडास स्थल के पते से मेल खाता है।",
-    "visitorNotes": "जुमुआ के आसपास शहर के स्थान व्यस्त हो सकते हैं। यात्रा से पहले वर्तमान समय और प्रवेश विवरण की पुष्टि करें।",
-    "jumuahNote": "वर्तमान प्रार्थना और जुमुआ विवरण के लिए आधिकारिक मस्जिद टोरंटो साइट का उपयोग करें।",
-    "sourceIds": ["masjid-toronto-dundas"],
-    "reviewStatus": "source-checked"
+    "notes": "MAC Masjid Toronto की Dundas वाली जगह। दूसरी जगह Adelaide Street East पर है।",
+    "visitorNotes": "जुमे के आसपास डाउनटाउन में भीड़ रहती है, इसलिए थोड़ा ज़्यादा समय लेकर चलें। जाने से पहले मौजूदा समय और कौन सा दरवाज़ा इस्तेमाल करना है, यह देख लें।",
+    "womenSpaceNote": "बहनों की नमाज़ की जगह तक एक सीढ़ी से पहुँचा जाता है, जिस पर \"बहनों का दरवाज़ा\" लिखा है।",
+    "newMuslimSupportNote": "After the Shahadah क्लास यहाँ हर महीने के दूसरे और चौथे रविवार को दोपहर में होती है। आधिकारिक पेज पर शुरू होने के दो अलग-अलग समय दिए गए हैं, इसलिए पक्का करने के लिए convertconnect@masjidtoronto.com पर ईमेल करें। Convert Connect Group हर महीने के पहले और तीसरे रविवार को ज़ुहर के बाद मिलता है, और आप कह सकते हैं कि आपकी पहली बार की मुलाक़ात पर कोई आपसे मिले।",
+    "accessibilityNote": "भाइयों की नमाज़ की जगह के पीछे एक लिफ़्ट है।",
+    "jumuahNote": "जुमे की तीन नमाज़ें (सितंबर 2026 में दोपहर 12:10, 1:10 और 2:10 बजे)। इस हफ़्ते का समय साइट पर देख लें।",
+    "classSupportNote": "कार्यक्रमों वाले पेज पर हर महीने के दूसरे और चौथे रविवार को सांकेतिक भाषा में इस्लामी शिक्षा भी दी गई है।"
   },
   {
     "id": "islamic-foundation-of-toronto",
-    "name": "Islamic Foundation of Toronto",
-    "address": "441 Nugget Avenue",
-    "city": "Scarborough",
-    "stateProvince": "Ontario",
-    "country": "Canada",
-    "postalCode": "M1S 5E1",
-    "coordinates": {
-      "lat": 43.7874,
-      "lng": -79.2636
-    },
-    "phone": "(416) 321-0909",
-    "email": "info@islamicfoundation.ca",
-    "website": "https://www.islamicfoundation.ca/",
-    "notes": "पूजा, शिक्षा और सार्वजनिक प्रोग्रामिंग के साथ बड़ी सामुदायिक सुविधा।",
-    "visitorNotes": "भाग लेने से पहले सीधे वर्तमान कार्यक्रमों, कक्षा पंजीकरण और आगंतुक सहायता की पुष्टि करें।",
-    "classSupportNote": "आधिकारिक और स्रोत-लिंक्ड लिस्टिंग हिफ़्ज़, संडे स्कूल और सामुदायिक सेवाओं जैसे शिक्षा कार्यक्रम दिखाती हैं।",
-    "serviceIds": ["quran-classes", "weekend-school", "community-events"],
-    "sourceIds": ["masjid-islamic-foundation-toronto"],
-    "reviewStatus": "source-checked"
+    "notes": "एक बड़ी इमारत, जिसमें नमाज़ का हॉल, क्लासें और सबके लिए कार्यक्रम हैं।",
+    "visitorNotes": "जाने से पहले दफ़्तर से संपर्क करें और कार्यक्रम, क्लास में दाख़िला और मेहमानों के लिए मिलने वाली मदद के बारे में पक्का कर लें।",
+    "classSupportNote": "प्रकाशित जानकारी में हिफ़्ज़ और रविवार के स्कूल समेत शिक्षा के कार्यक्रम, और समुदाय की सेवाएँ दिखती हैं।"
   },
   {
     "id": "khalid-bin-al-walid-mosque",
-    "name": "Khalid Bin Al-Walid Mosque",
-    "address": "16 Bethridge Road",
-    "city": "Etobicoke",
-    "stateProvince": "Ontario",
-    "country": "Canada",
-    "postalCode": "M9W 1N1",
-    "coordinates": {
-      "lat": 43.7087605,
-      "lng": -79.5687599
-    },
-    "phone": "(416) 745-2888",
-    "email": "info@khalidmosque.com",
-    "website": "https://www.khalidmosque.com/",
-    "notes": "आधिकारिक संपर्क जानकारी और सामुदायिक प्रोग्रामिंग अपडेट के साथ एटोबिकोक मस्जिद।",
-    "visitorNotes": "जाने से पहले कार्यालय से संपर्क करें या आधिकारिक साइट देखें; पुरानी पता सूचियाँ पुरानी हो सकती हैं।",
-    "jumuahNote": "वर्तमान जुमुआ और प्रार्थना के समय की सीधे मस्जिद से पुष्टि करें।",
-    "sourceIds": ["masjid-khalid-bin-al-walid"],
-    "reviewStatus": "source-checked"
+    "notes": "Etobicoke की एक मस्जिद, जो अपनी वेबसाइट पर संपर्क की जानकारी और कार्यक्रमों की ख़बरें ताज़ा रखती है।",
+    "visitorNotes": "जाने से पहले दफ़्तर में फ़ोन करें या आधिकारिक साइट देखें। दूसरी जगहों की कुछ पुरानी सूचियों में अब भी पुराना पता दिया है।",
+    "jumuahNote": "जुमे और नमाज़ के मौजूदा समय सीधे मस्जिद से पक्के कर लें।"
   },
   {
     "id": "imdadul-islamic-centre",
-    "name": "Imdadul Islamic Centre",
-    "address": "26 Le Page Court",
-    "city": "North York",
-    "stateProvince": "Ontario",
-    "country": "Canada",
-    "postalCode": "M3J 1Z9",
-    "coordinates": {
-      "lat": 43.759028,
-      "lng": -79.4869955
-    },
-    "phone": "(416) 636-0044",
-    "email": "imdaduljamat@gmail.com",
-    "website": "https://www.imdadulcentre.ca/",
-    "notes": "पूजा, परिवार, युवा, स्वयंसेवक और आउटरीच प्रोग्रामिंग के साथ सामुदायिक मस्जिद।",
-    "visitorNotes": "आधिकारिक साइट आगंतुकों से प्रश्न, समर्थन या भागीदारी के लिए मस्जिद से संपर्क करने के लिए कहती है।",
-    "jumuahNote": "आधिकारिक साइट दो जुमुआ प्रार्थनाओं को सूचीबद्ध करती है; भाग लेने से पहले वर्तमान समय की पुष्टि करें।",
-    "classSupportNote": "आधिकारिक विवरण में प्रार्थना सेवाओं, सामुदायिक आउटरीच, स्वयंसेवी अवसरों और पारिवारिक प्रोग्रामिंग का उल्लेख है।",
-    "parkingNote": "जुमुआ के लिए जल्दी पहुंचें और सीधे पार्किंग निर्देशों की पुष्टि करें।",
-    "serviceIds": ["community-events", "youth-programs"],
-    "sourceIds": ["masjid-imdadul-islamic-centre"],
-    "reviewStatus": "source-checked"
+    "notes": "समुदाय की एक मस्जिद, जो इबादत, परिवार, युवाओं, स्वयंसेवकों और समुदाय तक पहुँच के कार्यक्रम चलाती है।",
+    "visitorNotes": "आधिकारिक साइट मेहमानों से कहती है कि सवालों, मदद या हाथ बँटाने के तरीक़ों के लिए मस्जिद से संपर्क करें।",
+    "jumuahNote": "आधिकारिक साइट पर जुमे की दो नमाज़ें दी गई हैं। जाने से पहले मौजूदा समय पक्का कर लें।",
+    "classSupportNote": "प्रकाशित जानकारी में नमाज़ की सेवाओं, समुदाय तक पहुँच, स्वयंसेवा के मौक़ों और परिवार के कार्यक्रमों का ज़िक्र है।",
+    "parkingNote": "जुमे के लिए जल्दी पहुँचें, और गाड़ी कहाँ खड़ी करनी है, यह मस्जिद से पूछ लें।"
   },
   {
     "id": "masjid-el-noor",
-    "name": "Masjid El Noor",
-    "address": "277 Scott Road",
-    "city": "Toronto",
-    "stateProvince": "Ontario",
-    "country": "Canada",
-    "postalCode": "M6M 3V3",
-    "coordinates": {
-      "lat": 43.689655,
-      "lng": -79.4719435
-    },
-    "phone": "(416) 658-6667",
-    "email": "info@masjidelnoor.ca",
-    "website": "https://masjidelnoor.ca/",
-    "notes": "प्रार्थना, कक्षाओं और सामुदायिक सेवाओं के साथ टोरंटो मस्जिद की स्थापना की गई।",
-    "visitorNotes": "आधिकारिक साइट जुमुआ, पार्किंग और कार्यक्रम अपडेट पोस्ट करती है; यात्रा करने से पहले वर्तमान विवरण की पुष्टि करें।",
-    "womenSpaceNote": "आधिकारिक पेज के बारे में भाइयों और बहनों के लिए प्रार्थना कक्षों का वर्णन किया गया है।",
-    "accessibilityNote": "पेज के बारे में अधिकारी में रैंप और निर्दिष्ट पार्किंग स्थानों का उल्लेख है।",
-    "jumuahNote": "आधिकारिक साइट अरबी खुतबा से पहले एक अंग्रेजी व्याख्यान के साथ एक जुमुआ प्रार्थना को सूचीबद्ध करती है; वर्तमान समय की पुष्टि करें.",
-    "classSupportNote": "आधिकारिक तौर पर सूचीबद्ध कार्यक्रमों में शाम का मकतब और कुरान से संबंधित शिक्षा शामिल है।",
-    "parkingNote": "आधिकारिक साइट केवल जुमुआ पार्किंग मार्गदर्शन पोस्ट करती है और आगंतुकों से हाइड्रेंट, क्रॉसवॉक या ड्राइववे को अवरुद्ध न करने के लिए कहती है।",
-    "serviceIds": ["quran-classes", "community-events"],
-    "womenFriendly": true,
-    "parking": true,
-    "accessibility": true,
-    "sourceIds": ["masjid-el-noor"],
-    "reviewStatus": "source-checked"
+    "notes": "Toronto की एक जमी हुई मस्जिद, जहाँ रोज़ की नमाज़, क्लासें और समुदाय की सेवाएँ हैं।",
+    "visitorNotes": "आधिकारिक साइट पर जुमे, पार्किंग और कार्यक्रमों की ताज़ा जानकारी दी जाती है। जाने से पहले मौजूदा जानकारी देख लें।",
+    "womenSpaceNote": "परिचय वाले पेज के मुताबिक़ भाइयों और बहनों के लिए नमाज़ के अलग-अलग हॉल हैं।",
+    "accessibilityNote": "परिचय वाले पेज पर रैंप और तय पार्किंग जगहों का ज़िक्र है।",
+    "jumuahNote": "आधिकारिक साइट पर जुमे की एक नमाज़ दी गई है, जिसमें अरबी ख़ुतबे से पहले अंग्रेज़ी में बयान होता है। मौजूदा समय पक्का कर लें।",
+    "classSupportNote": "दिए गए कार्यक्रमों में शाम का मकतब और क़ुरआन की क्लासें शामिल हैं।",
+    "parkingNote": "आधिकारिक साइट पर जुमे के लिए पार्किंग के निर्देश दिए जाते हैं, और मेहमानों से कहा गया है कि फ़ायर हाइड्रेंट, पैदल पार करने की जगह या ड्राइववे न रोकें।"
   },
   {
     "id": "islamic-institute-of-toronto",
-    "name": "Islamic Institute of Toronto",
-    "address": "1630 Neilson Road",
-    "city": "Scarborough",
-    "stateProvince": "Ontario",
-    "country": "Canada",
-    "postalCode": "M1X 1S3",
-    "coordinates": {
-      "lat": 43.7903,
-      "lng": -79.2141
-    },
-    "phone": "(416) 335-9173",
-    "email": "iit@islam.ca",
-    "website": "https://islam.ca/contact-us/",
-    "notes": "आधिकारिक संपर्क और निर्देशों के साथ शैक्षणिक संस्थान और सामुदायिक केंद्र।",
-    "visitorNotes": "वर्तमान दिशा-निर्देशों, कक्षा की जानकारी और आगंतुकों के प्रश्नों के लिए आधिकारिक संपर्क पृष्ठ का उपयोग करें।",
-    "classSupportNote": "आधिकारिक साइट आईआईटी को एक गैर-लाभकारी शैक्षणिक संस्थान के रूप में वर्णित करती है और कार्यक्रम/न्यूज़लेटर अपडेट को सूचीबद्ध करती है।",
-    "serviceIds": ["quran-classes", "community-events"],
-    "sourceIds": ["masjid-islamic-institute-toronto"],
-    "reviewStatus": "source-checked"
+    "notes": "एक शिक्षा संस्थान और सामुदायिक केंद्र। संपर्क की जानकारी और रास्ता उसकी अपनी साइट पर है।",
+    "visitorNotes": "रास्ते, क्लासों की जानकारी और मेहमानों के किसी भी सवाल के लिए आधिकारिक संपर्क पेज इस्तेमाल करें।",
+    "newMuslimSupportNote": "New Muslim Corner 25 रिकॉर्ड किए गए पाठों का एक मुफ़्त कोर्स है। कोर्स वाले पेज पर नए मुसलमानों के लिए शुक्रवार शाम 7:00 बजे की एक क्लास का भी ज़िक्र है, लेकिन यह पक्का नहीं है कि वह अब भी आमने-सामने चलती है, इसलिए दफ़्तर से पूछ लें।",
+    "classSupportNote": "आधिकारिक साइट IIT को एक ग़ैर-मुनाफ़ा शिक्षा संस्थान बताती है और कार्यक्रमों और न्यूज़लेटर की ताज़ा जानकारी देती है।"
   },
   {
     "id": "jami-mosque",
-    "name": "Jami Mosque Toronto | ISNA Canada",
-    "address": "56 Boustead Avenue",
-    "city": "Toronto",
-    "stateProvince": "Ontario",
-    "country": "Canada",
-    "postalCode": "M6R 1Y9",
-    "coordinates": {
-      "lat": 43.6474,
-      "lng": -79.4446
-    },
-    "phone": "(416) 769-1192",
-    "website": "https://www.isnacanada.com/locations/jami-mosque-toronto",
-    "notes": "ऐतिहासिक टोरंटो मस्जिद अब ISNA कनाडा के माध्यम से सूचीबद्ध है।",
-    "visitorNotes": "यात्रा से पहले ISNA कनाडा के माध्यम से वर्तमान समय, जुमुआ के समय और कार्यक्रम तक पहुंच की पुष्टि करें।",
-    "sourceIds": ["masjid-jami-mosque-isna"],
-    "reviewStatus": "source-checked"
+    "notes": "Toronto की एक ऐतिहासिक मस्जिद, जो अब ISNA Canada के तहत दी गई है।",
+    "visitorNotes": "जाने से पहले खुलने का समय, जुमे के समय और कार्यक्रमों में जाने के बारे में ISNA Canada से पक्का कर लें।"
   },
   {
     "id": "abu-huraira-center",
-    "name": "Abu Huraira Center",
-    "address": "270 Yorkland Boulevard",
-    "city": "North York",
-    "stateProvince": "Ontario",
-    "country": "Canada",
-    "postalCode": "M2J 5C9",
-    "coordinates": {
-      "lat": 43.77282,
-      "lng": -79.33454
-    },
-    "phone": "(416) 752-1200",
-    "email": "info@abuhuraira.org",
-    "website": "https://www.abuhuraira.org/",
-    "notes": "प्रार्थना, शिक्षा, परामर्श, युवा और नए मुस्लिम सहायता सेवाओं वाला बड़ा GTA सामुदायिक केंद्र।",
-    "visitorNotes": "आधिकारिक साइट कार्यक्रमों और संपर्क जानकारी को सूचीबद्ध करती है; भाग लेने से पहले वर्तमान आगंतुक सहायता और कक्षा पंजीकरण की पुष्टि करें।",
-    "newMuslimSupportNote": "आधिकारिक साइट अपनी सेवाओं में नए मुस्लिम समर्थन को सूचीबद्ध करती है।",
-    "classSupportNote": "आधिकारिक तौर पर सूचीबद्ध कार्यक्रमों में कुरान से संबंधित शिक्षा, सप्ताहांत स्कूल, हिफ्ध, युवा और नियमित हलाका शामिल हैं।",
-    "serviceIds": [
-      "quran-classes",
-      "community-events",
-      "new-muslim-support",
-      "youth-programs",
-      "weekend-school"
-    ],
-    "convertSupport": true,
-    "sourceIds": ["masjid-abu-huraira-center"],
-    "reviewStatus": "source-checked"
+    "notes": "GTA का एक बड़ा सामुदायिक केंद्र। नमाज़, क्लासें, काउंसलिंग, युवाओं का काम और नए मुसलमानों की मदद, सब एक ही इमारत में होते हैं।",
+    "visitorNotes": "आधिकारिक साइट पर कार्यक्रम और संपर्क की जानकारी दी गई है। जाने से पहले मेहमानों के लिए मदद और क्लास में दाख़िले के बारे में पक्का कर लें।",
+    "newMuslimSupportNote": "आधिकारिक साइट पर दी गई सेवाओं में नए मुसलमानों की मदद भी है।",
+    "classSupportNote": "दिए गए कार्यक्रमों में क़ुरआन की क्लासें, वीकेंड स्कूल, हिफ़्ज़, युवाओं की गतिविधियाँ और नियमित हल्क़े शामिल हैं।"
   },
   {
     "id": "isna-islamic-centre-of-canada",
-    "name": "Islamic Centre of Canada (ISNA)",
-    "address": "2200 South Sheridan Way",
-    "city": "Mississauga",
-    "stateProvince": "Ontario",
-    "country": "Canada",
-    "postalCode": "L5J 2M4",
-    "coordinates": {
-      "lat": 43.5063,
-      "lng": -79.6505
-    },
-    "phone": "(905) 403-8406",
-    "website": "https://www.isnacanada.com/our-spaces/islamic-centre-of-canada/",
-    "notes": "ISNA कनाडा मुख्यालय और मुसल्लाह, युवा, शिक्षा और कार्यक्रम स्थलों के साथ स्थानीय सामुदायिक केंद्र।",
-    "visitorNotes": "जाने से पहले ISNA कनाडा के माध्यम से वर्तमान प्रार्थना समय, कक्षाएं, कार्यक्रम में पहुंच और आगंतुक सहायता की पुष्टि करें।",
-    "classSupportNote": "आधिकारिक पृष्ठ एक शिक्षा केंद्र, युवा केंद्र, मुसल्लाह और बुक करने योग्य सामुदायिक स्थानों का वर्णन करता है।",
-    "serviceIds": ["quran-classes", "community-events", "youth-programs"],
-    "sourceIds": ["masjid-isna-islamic-centre-canada"],
-    "reviewStatus": "source-checked"
+    "notes": "ISNA Canada का मुख्यालय, और अपने आप में एक सामुदायिक केंद्र भी, जिसमें मुसल्ला, युवाओं की जगह, पढ़ाई के कमरे और कार्यक्रमों के लिए जगह है।",
+    "visitorNotes": "जाने से पहले नमाज़ के समय, क्लासें, कार्यक्रमों में जाने और मेहमानों के लिए मदद के बारे में ISNA Canada से पक्का कर लें।",
+    "newMuslimSupportNote": "ISNA Canada का New Muslims and Convert Care हर हफ़्ते क्लासें, हर महीने मिलने-जुलने के कार्यक्रम, और एक Being Muslim बॉक्स देता है, जिसमें क़ुरआन का अनुवाद, किताबें और जानमाज़ होती है। क्लास का दिन, समय और जगह प्रकाशित नहीं की गई, इसलिए दफ़्तर में फ़ोन करें या संपर्क फ़ॉर्म इस्तेमाल करें।",
+    "classSupportNote": "आधिकारिक पेज पर एक शिक्षा केंद्र, युवाओं की जगह, एक मुसल्ला और बुक की जा सकने वाली सामुदायिक जगहों का ज़िक्र है।"
+  },
+  {
+    "id": "masjid-quba-islamic-society-of-ajax",
+    "notes": "दूसरा नाम: Ajax Masjid।",
+    "jumuahNote": "जुमे की तीन नमाज़ें (2026-09-23 की सूची के मुताबिक़ ख़ुतबा दोपहर 2:00, 3:15 और 4:15 बजे)।",
+    "parkingNote": "होमपेज पर लोगों से गुज़ारिश है कि 'जुमे की नमाज़ के लिए आते समय गाड़ी तमीज़ से खड़ी करें'।"
+  },
+  {
+    "id": "barrie-mosque",
+    "notes": "दूसरे नाम: Barrie Mosque; Noor Ul Islam।",
+    "newMuslimSupportNote": "Reverts to Islam पेज पर मार्गदर्शन (मेंटरशिप) और हर महीने के पहले शनिवार को Reverts to Islam Social Circle and Study दिया गया है।"
+  },
+  {
+    "id": "islamic-society-of-belleville",
+    "notes": "दूसरे नाम: Belleville Masjid; Belleville Mosque।",
+    "jumuahNote": "परिचय वाले पेज पर \"जुमे की नमाज़\" दी गई है; होमपेज की एक पुरानी सूचना कहती है \"जुमे का ख़ुतबा: दोपहर 1:45 बजे, नमाज़: 2:00 बजे (सिर्फ़ एक नमाज़)\" (यह पुरानी हो सकती है)।",
+    "parkingNote": "होमपेज की सूचना: जुमे की नमाज़ के बाद Moira St की ओर निकलने के निर्देश, और \"पार्किंग में तय की गई ख़ास जगहों पर या जहाँ पार्किंग मना लिखा है, वहाँ गाड़ी बिल्कुल न खड़ी करें।\""
+  },
+  {
+    "id": "brampton-islamic-centre",
+    "notes": "दूसरे नाम: BIC/BSIA; Brampton Society for Islamic Awareness।",
+    "jumuahNote": "होमपेज: \"पहला जुमा: ख़ुतबा: दोपहर 1:45 बजे, इक़ामत: 2:10 बजे। दूसरा जुमा: ख़ुतबा: 2:55 बजे, इक़ामत: 3:15 बजे\"।"
+  },
+  {
+    "id": "jame-makki-masjid-brampton",
+    "notes": "दूसरा नाम: Brampton Makki Masjid।",
+    "womenSpaceNote": "महिलाओं के लिए तय जगह है (परिचय वाला पेज)।",
+    "jumuahNote": "जुमे की इक़ामत दोपहर 1:45, 2:30 और 3:30 बजे (होमपेज)।"
+  },
+  {
+    "id": "jamiat-ul-ansar-brampton",
+    "notes": "दूसरा नाम: Ansar Mosque Brampton।",
+    "womenSpaceNote": "बहनों वाला पेज: हर महीने एक बयान, \"हर महीने का पहला बुधवार ... शाम 6:30 से 7:30 बजे तक\", \"सभी बहनों का स्वागत है\", \"चाहे आप समुदाय में नई हों या बरसों से हमारे साथ हों, यह जगह हर बहन के लिए बनी है ताकि वह यहाँ अपनापन महसूस करे\"।",
+    "newMuslimSupportNote": "सेवाओं वाले पेज पर New Muslim Outreach समिति का ज़िक्र है, जो \"नए मुसलमानों को सहारा, सलाह और शिक्षा\" देती है। जानकारी के लिए केंद्र को ईमेल करें।"
+  },
+  {
+    "id": "muslim-association-of-brantford",
+    "notes": "दूसरे नाम: MAB; Brantford Mosque।",
+    "womenSpaceNote": "नमाज़ वाला पेज: 'भाइयों और बहनों, दोनों के लिए इंतज़ाम'; महिलाओं की अलग जगह 'Mussallah-UL-Nissah' का ज़िक्र है।",
+    "parkingNote": "नमाज़ वाला पेज: 'सिर्फ़ तय पार्किंग जगहें इस्तेमाल करें'; शुक्रवार को पार्किंग 'जल्दी भर जाती है'।"
+  },
+  {
+    "id": "halton-islamic-association-halton-masjid-burlington",
+    "notes": "दूसरा नाम: Masjid Halton।",
+    "womenSpaceNote": "बहनों की समिति और बहनों के कार्यक्रम; महिलाओं के जिम का ज़िक्र है।",
+    "jumuahNote": "Halton Masjid: ख़ुतबा दोपहर 1:30, 2:30 और 3:20 बजे; इसके अलावा East Plains Church (375 Plains Rd E) और एक सामुदायिक केंद्र में भी जुमा होता है।"
+  },
+  {
+    "id": "galt-islamic-center-cambridge",
+    "notes": "इलाक़ा: Galt। दूसरा नाम: Galt Islamic Centre।",
+    "womenSpaceNote": "परिचय वाला पेज: \"बहनों के लिए ख़ास कार्यक्रम, सिर्फ़ हमारी माँओं और बहनों के लिए\"।"
+  },
+  {
+    "id": "hespeler-masjid-a-mac-community-centre-cambridge",
+    "jumuahNote": "पहली नमाज़ दोपहर 1:30 बजे; 2:00 बजे की दूसरी नमाज़ भी दी गई है।"
+  },
+  {
+    "id": "islamic-centre-of-cambridge",
+    "notes": "दूसरा नाम: ICC।",
+    "jumuahNote": "दो ख़ुतबे: दोपहर 1:30 बजे और 2:45 बजे।"
+  },
+  {
+    "id": "townline-muslim-centre-cambridge",
+    "notes": "दूसरा नाम: TMC।",
+    "jumuahNote": "जुमे की दो जमाअतें; हर इक़ामत से 30 मिनट पहले अज़ान (समय साइट पर)।"
+  },
+  {
+    "id": "cornwall-islamic-centre",
+    "womenSpaceNote": "\"बहनों का दरवाज़ा इमारत की दाईं ओर है\" (परिचय वाला पेज)।"
+  },
+  {
+    "id": "the-ottawa-valley-islamic-centre-deep-river"
+  },
+  {
+    "id": "islamic-association-of-sudbury-greater-sudbury",
+    "notes": "दूसरा नाम: Sudbury Mosque।",
+    "jumuahNote": "'जुमे की नमाज़ का ख़ुतबा दोपहर 12:30 बजे शुरू होता है'।"
+  },
+  {
+    "id": "islamic-centre-of-northern-ontario-greater-sudbury",
+    "notes": "दूसरा नाम: ICONO।",
+    "jumuahNote": "ख़ुतबों की रिकॉर्डिंग का पेज है; समय नहीं दिखाया गया।"
+  },
+  {
+    "id": "islamic-society-of-guelph",
+    "notes": "दूसरा नाम: Masjid Abu Bakr As-Siddique।",
+    "jumuahNote": "हर शुक्रवार जुमा (समय नहीं बताया गया)।"
+  },
+  {
+    "id": "masjid-aisha-a-mac-community-centre-guelph",
+    "jumuahNote": "होमपेज पर 'जल्द आ रहा है' लिखा है (समय नहीं दिए गए)।"
+  },
+  {
+    "id": "muslim-society-of-guelph",
+    "notes": "दूसरा नाम: MSOG।",
+    "jumuahNote": "जुमे की कई नमाज़ें, जैसे दोपहर 1:35 और 3:35 बजे इक़ामत; 'मेहरबानी करके शुरू होने से 10 से 15 मिनट पहले पहुँचें'।"
+  },
+  {
+    "id": "alkhairia-islamic-centre-hamilton",
+    "notes": "इलाक़ा: Ancaster। दूसरा नाम: AIC Ancaster।",
+    "newMuslimSupportNote": "होमपेज पर दी गई सेवाओं में Revert Outreach Programs (इस्लाम अपनाने वालों तक पहुँच के कार्यक्रम) भी हैं। किसी पेज पर इनका विस्तार से ब्योरा नहीं है, इसलिए केंद्र से पूछ लें।",
+    "jumuahNote": "होमपेज पर सेवाओं में \"जुमे की नमाज़\" दी गई है; समय नहीं बताया गया।"
+  },
+  {
+    "id": "bosnian-islamic-centre-of-hamilton",
+    "notes": "इलाक़ा: Stoney Creek। दूसरा नाम: BIC Hamilton।",
+    "visitorNotes": "भाषाएँ: साइट ज़्यादातर बोस्नियाई में है, और उसमें अंग्रेज़ी का एक हिस्सा है (हमारे बारे में, संपर्क की जानकारी, ख़बरें (अंग्रेज़ी))। ख़ुतबे की भाषा नहीं बताई गई।",
+    "jumuahNote": "संपर्क पेज: \"जुमा: शुक्रवार, दोपहर 1:30 बजे EST\"; होमपेज के नमाज़ बॉक्स में: \"जुमा: शुक्रवार, दोपहर 1:25 और 3:00 बजे\"।"
+  },
+  {
+    "id": "hamilton-downtown-mosque",
+    "notes": "दूसरा नाम: HDM।",
+    "jumuahNote": "'जुमे का ख़ुतबा और नमाज़ (नमाज़ के समय वाला पेज देखें)'।"
+  },
+  {
+    "id": "hamilton-mountain-mosque",
+    "notes": "दूसरे नाम: MAH, Mountain Mosque।",
+    "accessibilityNote": "MAH ने AODA के तहत सुगम्यता नीति प्रकाशित की है और जिन्हें किसी ख़ास इंतज़ाम की ज़रूरत है, उनसे contactus@hamiltonmosque.com पर संपर्क करने को कहा है; इमारत की सुविधाएँ नहीं बताई गईं।"
+  },
+  {
+    "id": "umar-mosque-hamilton",
+    "notes": "दूसरा नाम: MAH Umar Mosque।",
+    "accessibilityNote": "MAH का परिचय वाला पेज (पूरी संस्था के लिए): \"Accessibility for Ontarians with Disabilities Act के मुताबिक़ काम करते हैं। MAH परिसर तक पूरी पहुँच देने और हर संभावित रुकावट को हटाने के लिए प्रतिबद्ध है\"। इस जगह की अपनी सुविधाएँ नहीं बताई गईं।"
+  },
+  {
+    "id": "islamic-society-of-kingston",
+    "notes": "दूसरे नाम: ISK; ICK।",
+    "accessibilityNote": "कार्यक्रमों वाले पेज पर सीखने में ख़ास ज़रूरतों वाले बच्चों के लिए एक विशेष शिक्षा क्लास का ज़िक्र है; इमारत की सुगम्यता नहीं बताई गई।",
+    "jumuahNote": "जुमे की दो नमाज़ें: पहला ख़ुतबा दोपहर 1:00 बजे (इक़ामत 1:45 बजे), दूसरा 2:30 बजे (इक़ामत 2:45 से 3:00 बजे के बीच)।",
+    "parkingNote": "नमाज़ के समय वाला पेज: \"जुमे की नमाज़ के दौरान ISK में पार्किंग अब भी मुश्किल रहती है, इसलिए शहर में जुमे की इन दूसरी जगहों में से किसी पर जाने के बारे में सोचें\" (CFB Kingston, Crossroads United Church, Queen's University, सब दोपहर 1:30 बजे)।"
+  },
+  {
+    "id": "al-salaam-islamic-centre-kitchener",
+    "jumuahNote": "होमपेज: \"जुमे की नमाज़ 1:30\"।"
+  },
+  {
+    "id": "kitchener-masjid-a-mac-community-centre",
+    "notes": "दूसरा नाम: Kitchener Masjid।",
+    "jumuahNote": "तीन नमाज़ें: दोपहर 12:15, 1:15 और 2:15 बजे (तीसरी अरबी में)।"
+  },
+  {
+    "id": "north-london-islamic-centre-komoka"
+  },
+  {
+    "id": "hyde-park-masjid-london",
+    "jumuahNote": "पहली नमाज़ दोपहर 12:30 बजे, दूसरी नमाज़ 1:30 बजे।"
+  },
+  {
+    "id": "islamic-centre-of-southwest-ontario-london",
+    "notes": "दूसरा नाम: ICSWO।",
+    "jumuahNote": "पूरे साल एक ही समय: अज़ान दोपहर 1:30 बजे, ख़ुतबा 1:35 बजे, इक़ामत 1:55 बजे।"
+  },
+  {
+    "id": "london-muslim-mosque",
+    "notes": "दूसरा नाम: LMM।",
+    "newMuslimSupportNote": "लेक्चर वाले पेज पर हर महीने के पहले और तीसरे शनिवार को एक मुफ़्त New Muslim Family Meet Up, और इस्लाम अपनाने वालों और नए मुसलमानों के लिए Diploma of Essential Islamic Knowledge का ज़िक्र है। पंजीकरण ज़रूरी है।",
+    "jumuahNote": "होमपेज पर जुमे की दो नमाज़ें दी गई हैं: दोपहर 12:00 और 1:15 बजे (मौजूदा समय साइट पर देख लें)।"
+  },
+  {
+    "id": "mac-noor-gardens-a-mac-community-centre-london",
+    "notes": "दूसरा नाम: Noor Gardens। केंद्र ने 28 अगस्त 2026 को अपने उद्घाटन की घोषणा की थी।",
+    "jumuahNote": "पहली नमाज़: दोपहर 12:00 बजे, दूसरी नमाज़: 1:30 बजे।"
+  },
+  {
+    "id": "muslim-association-of-canada-masonville-centre-london",
+    "notes": "दूसरा नाम: MAC Masonville।",
+    "jumuahNote": "शुक्रवार दोपहर 12:00 बजे।"
+  },
+  {
+    "id": "westmount-masjid-a-mac-community-centre-london",
+    "notes": "दूसरे नाम: MAC Westmount Centre; MAC London का मुख्य दफ़्तर।",
+    "jumuahNote": "पहली नमाज़ दोपहर 12:15 बजे, दूसरी नमाज़ 1:30 बजे।"
+  },
+  {
+    "id": "islamic-centre-of-markham",
+    "parkingNote": "मार्च 2026 में पार्किंग की मरम्मत के लिए चंदे की अपील डाली गई थी; पार्किंग की कोई जानकारी नहीं दी गई।"
+  },
+  {
+    "id": "islamic-society-of-markham",
+    "newMuslimSupportNote": "New Muslim Care Program वाले पेज पर इस्लाम, समुदाय के कार्यक्रमों और पढ़ाई से जुड़े सवालों के लिए संयोजक दिए गए हैं। कोई समय-सारणी नहीं दी गई।"
+  },
+  {
+    "id": "islamic-community-centre-of-milton",
+    "notes": "दूसरा नाम: ICNA Milton।",
+    "womenSpaceNote": "कार्यक्रमों वाला पेज: \"महिलाओं के लिए इस्लामी इल्म सीखने की एक ख़ास जगह (मंगलवार से गुरुवार)।\"",
+    "jumuahNote": "होमपेज का नमाज़ विजेट: \"पहला जुमा 01:30 pm, दूसरा जुमा 02:45 pm, तीसरा जुमा 03:45 pm\"।"
+  },
+  {
+    "id": "966-icna-masjid-youth-centre-mississauga",
+    "notes": "दूसरा नाम: 966 Community Centre।",
+    "jumuahNote": "होमपेज का नमाज़ विजेट: \"पहला जुमा 01:30 pm, दूसरा जुमा 02:30 pm\"।"
+  },
+  {
+    "id": "anatolia-islamic-centre-mississauga",
+    "visitorNotes": "भाषाएँ: तुर्की में हल्क़ा दिया गया है; साइट से लगता है कि अंग्रेज़ी भी इस्तेमाल होती है, लेकिन सेवाओं की भाषा नहीं बताई गई।"
+  },
+  {
+    "id": "dar-al-tawheed-islamic-centre-mississauga"
+  },
+  {
+    "id": "islamic-community-centre-of-ontario-mississauga",
+    "notes": "दूसरा नाम: MAC ICCO।",
+    "jumuahNote": "जुमे की नमाज़ के समय दोपहर 12:00, 1:15, 2:30 और 3:30 बजे दिए गए हैं; भाषा नहीं बताई गई।"
+  },
+  {
+    "id": "masjid-al-farooq-mississauga",
+    "womenSpaceNote": "बहनों के लिए शरीअत डिप्लोमा के कार्यक्रम दिए गए हैं; नमाज़ की अलग जगह के बारे में कुछ नहीं बताया गया।",
+    "accessibilityNote": "साइट पर सुगम्यता नीति, सूचनाओं और अनुपालन रिपोर्ट के पेज हैं; इमारत की सुगम्यता की जानकारी नहीं दी गई।",
+    "jumuahNote": "जुमे की कई जमाअतें दी गई हैं, जिनमें दोपहर 3:30 बजे का चौथा जुमा भी है; भाषा नहीं बताई गई।"
+  },
+  {
+    "id": "sayeda-khadija-centre-mississauga",
+    "notes": "दूसरा नाम: Faith of Life Network।",
+    "jumuahNote": "'हर हफ़्ते जमाअत से नमाज़' का ज़िक्र है; समय नहीं बताया गया।"
+  },
+  {
+    "id": "newmarket-islamic-centre",
+    "womenSpaceNote": "होमपेज: \"हर हफ़्ते जुमे की नमाज़ में 1,200 से ज़्यादा मर्द और औरतें आते हैं।\" महिलाओं की जगह के बारे में कुछ नहीं बताया गया।",
+    "jumuahNote": "होमपेज: \"पहली नमाज़: ख़ुतबा दोपहर 1:15 बजे, नमाज़ 1:45 बजे; दूसरी नमाज़: ख़ुतबा 2:15 बजे, नमाज़ 2:45 बजे\"; सूचनाओं में मस्जिद में और बाहर के हॉलों (Lions Hall, Ray Twinney Recreation Complex) में अलग-अलग समय पर जुमे का ज़िक्र है।"
+  },
+  {
+    "id": "islamic-society-of-niagara-peninsula-niagara-falls",
+    "jumuahNote": "हर शुक्रवार दोपहर 1:30 बजे जुमा।"
+  },
+  {
+    "id": "masjid-alsalam-niagara-falls-islamic-center",
+    "jumuahNote": "जुमे की तीन नमाज़ें दोपहर 1:30, 2:30 और 3:30 बजे।"
+  },
+  {
+    "id": "al-falah-islamic-centre-oakville",
+    "notes": "दूसरे नाम: Al Falah Center Oakville; ICNA Canada का मुख्य दफ़्तर।",
+    "womenSpaceNote": "कार्यक्रमों वाले पेज पर बहनों की हर हफ़्ते की एक बैठक दी गई है; नमाज़ की जगह के बारे में कुछ नहीं बताया गया।",
+    "jumuahNote": "होमपेज का नमाज़ विजेट: \"पहला जुमा ... 12:15 pm, दूसरा जुमा ... 1:25 pm, तीसरा जुमा ... 2:35 pm\"।"
+  },
+  {
+    "id": "muslim-association-of-milton-oakville",
+    "notes": "दूसरे नाम: MAM, HICC Masjid।",
+    "jumuahNote": "जुमा Milton Sports Centre और दूसरी जगहों पर होता है; होमपेज पर दिया पर्चा देखें।"
+  },
+  {
+    "id": "islamic-centre-of-oshawa",
+    "notes": "दूसरा नाम: Oshawa Mosque।",
+    "visitorNotes": "अंग्रेज़ी में सेवाएँ पक्की हैं: (जुमे की समय-सारणी में पहली और दूसरी नमाज़ से पहले \"अंग्रेज़ी में बयान\" दिया गया है)।",
+    "jumuahNote": "होमपेज: \"पहली नमाज़: अंग्रेज़ी में बयान दोपहर 1:15 बजे ... ख़ुतबा और नमाज़ 1:45 बजे। दूसरी नमाज़: अंग्रेज़ी में बयान 2:30 बजे, ख़ुतबा और नमाज़ 2:45 बजे। तीसरी नमाज़: ख़ुतबा और नमाज़ 4:30 बजे\"।"
+  },
+  {
+    "id": "al-farooq-al-azam-mosque-ottawa",
+    "notes": "इलाक़ा: Old Ottawa South। दूसरे नाम: Jamia Masjid Farooq-e-Azam; Masjid Farooq Azam।",
+    "womenSpaceNote": "\"बहनों के लिए हर हफ़्ते क़ुरआन की तजवीद का सत्र\", हर शनिवार सुबह 11:00 बजे से दोपहर 1:00 बजे तक; नमाज़ की जगह की बनावट के बारे में कुछ नहीं बताया गया।",
+    "jumuahNote": "पहली जमाअत दोपहर 2:00 बजे, दूसरी 2:45 बजे (होमपेज)।"
+  },
+  {
+    "id": "bukhari-community-centre-masjid-ottawa",
+    "notes": "इलाक़ा: Overbrook / St. Laurent Blvd। दूसरे नाम: Bukhari Centre; Bukhari Masjid & Community Centre।",
+    "womenSpaceNote": "शुक्रवार वाला पेज: \"दूसरा जुमा: दोपहर 2 बजे (भाइयों और बहनों, दोनों के लिए)\"; पहला जुमा सिर्फ़ भाइयों के लिए है। महिलाओं की अलग जगह के बारे में कुछ नहीं बताया गया।",
+    "accessibilityNote": "परिचय वाले पेज पर नए आगे और पीछे के दरवाज़ों का ज़िक्र है, जो \"सुरक्षा और सुगम्यता, दोनों को बेहतर बनाते हैं\"; सुगम्यता की कोई ख़ास सुविधा नहीं बताई गई।",
+    "jumuahNote": "\"पहला जुमा: दोपहर 1 बजे (भाइयों के लिए), दूसरा जुमा: दोपहर 2 बजे (भाइयों और बहनों, दोनों के लिए)\"।"
+  },
+  {
+    "id": "centretown-mosque-ottawa",
+    "notes": "इलाक़ा: Centretown। साइट के मुताबिक़ समुदाय अब भी 397 Kent Street पर एक स्थायी जगह पाने की कोशिश कर रहा है, इसलिए जाने से पहले जगह पक्की कर लें।",
+    "womenSpaceNote": "'बहनों की अरबी क्लास' (हर शनिवार दोपहर 12:00 बजे, बड़ी उम्र की बहनों के लिए) दी गई है; नमाज़ की जगह की बनावट के बारे में कुछ नहीं बताया गया।",
+    "newMuslimSupportNote": "साइट पर New Muslim Seminars दिए गए हैं, \"इस्लाम के बुनियादी उसूल सीखने की एक अपनापन भरी जगह\"। कोई समय-सारणी नहीं दी गई।",
+    "jumuahNote": "\"हर शुक्रवार दोपहर 1:00 और 2:00 बजे ख़ुतबे और जमाअत की नमाज़ के लिए हमारे समुदाय के साथ शामिल हों।\""
+  },
+  {
+    "id": "darul-arqum-ottawa",
+    "notes": "इलाक़ा: Riverside South। दूसरा नाम: Darul Arqum Riverside South।",
+    "jumuahNote": "\"जुमा दोपहर 1:30 और 2:30 बजे\" (होमपेज); नमाज़ के समय वाला पेज: \"पहला ख़ुतबा दोपहर 1:30 बजे और दूसरा ख़ुतबा 2:30 बजे\"।",
+    "parkingNote": "संपर्क पेज: \"पार्किंग परिसर में ही है। रात भर गाड़ी खड़ी करने के लिए पहले बोर्ड से इजाज़त लेनी होगी।\""
+  },
+  {
+    "id": "darul-uloom-ottawa",
+    "notes": "इलाक़ा: Orleans। दूसरा नाम: Darul-Uloom Mosque।",
+    "jumuahNote": "होमपेज पर बाहर की जगहों पर होने वाला जुमा दिया गया है: \"Navan 1:15, Aqsa Centre में जुमा\" और \"Blackburn 1:15, Quba Centre में जुमा\"। परिचय वाले पेज के मुताबिक़ केंद्र जुमे के ख़ुतबे समेत रोज़ की नमाज़ों का इंतज़ाम करता है।"
+  },
+  {
+    "id": "east-ottawa-masjid-and-community-center",
+    "notes": "इलाक़ा: Vanier / Overbrook के आसपास।",
+    "jumuahNote": "होमपेज: \"जुमा: पहला: दोपहर 1:15 बजे | दूसरा: 2:15 बजे\"।"
+  },
+  {
+    "id": "islam-care-centre-ottawa",
+    "newMuslimSupportNote": "Convert Care इस्लाम की बुनियादी बातों पर हर हफ़्ते की एक मुफ़्त क्लास है, जो हर बुधवार शाम 6:00 बजे केंद्र में होती है।",
+    "jumuahNote": "होमपेज: जुमा \"12:30 और 1:15 बजे\", Knox Presbyterian Church के तहख़ाने में, 120 Lisgar St, Ottawa, ON K2P 2L7 (मस्जिद से बाहर की जगह)।"
+  },
+  {
+    "id": "jami-omar-ottawa",
+    "notes": "इलाक़ा: Bells Corners / Nepean। दूसरे नाम: Masjid Jami Omar; JMOC।",
+    "jumuahNote": "होमपेज: \"जुमे की नमाज़ दोपहर 12 से 3 बजे तक\"।",
+    "parkingNote": "होमपेज: गाड़ी सिर्फ़ मंज़ूर की गई जगहों पर खड़ी करें; D.A. Moodie School में पार्किंग मिल जाती है।"
+  },
+  {
+    "id": "kanata-muslim-association-ottawa",
+    "notes": "इलाक़ा: Kanata। दूसरा नाम: KMA।",
+    "jumuahNote": "\"शुक्रवार की 3 नमाज़ें: 1 pm / 2.15 pm / 3.45 pm\" (तीसरी नमाज़ का समय बदलता रहता है)।"
+  },
+  {
+    "id": "mac-barrhaven-islamic-centre-ottawa",
+    "notes": "इलाक़ा: Barrhaven। दूसरा नाम: BIC।",
+    "jumuahNote": "\"पहला ख़ुतबा: दोपहर 1:00 बजे\" और \"दूसरा ख़ुतबा: 2:30 बजे\"।"
+  },
+  {
+    "id": "mac-islamic-centre-ottawa",
+    "notes": "इलाक़ा: Nepean / Grenon Ave। दूसरा नाम: MAC Grenon; यह Abraar School की इमारत में है।"
+  },
+  {
+    "id": "mac-qurtuba-islamic-centre-ottawa",
+    "notes": "इलाक़ा: Nepean / Merivale। दूसरे नाम: MAC Qurtuba; QIC।"
+  },
+  {
+    "id": "markaz-at-tawheed-ottawa",
+    "notes": "इलाक़ा: Bayshore / Dumaurier। दूसरा नाम: Markaz At-Tawheed Ottawa।",
+    "visitorNotes": "होमपेज के मुताबिक़ कुछ बयान \"अरबी में होते हैं, अंग्रेज़ी अनुवाद के लिए बीच-बीच में रुककर\"; बाक़ी सामग्री अंग्रेज़ी में है।",
+    "womenSpaceNote": "रमज़ान की सूचना: \"जुमे का ख़ुतबा और नमाज़ सिर्फ़ भाइयों के लिए है (जगह की कमी की वजह से)\"; इशा और तरावीह के लिए \"हर रात ज़्यादा से ज़्यादा 12 बहनें\"।",
+    "jumuahNote": "होमपेज पर एक जगह \"ख़ुतबा दोपहर 12:30 बजे शुरू होता है\" और रमज़ान की एक सूचना में \"ख़ुतबा दोपहर 1:15 बजे शुरू होता है\" लिखा है; सिर्फ़ भाइयों के लिए।"
+  },
+  {
+    "id": "masjid-bilal-ottawa",
+    "notes": "इलाक़ा: Orleans। दूसरे नाम: Bilal Masjid; Islamic Society of Cumberland।",
+    "visitorNotes": "होमपेज पर ख़ुतबे से पहले के बयान को \"भाषण (अंग्रेज़ी में बयान)\" कहा गया है।",
+    "womenSpaceNote": "मस्जिद देखने आने वालों का पेज: \"मर्द और औरतें नमाज़ के अलग-अलग हॉल में नमाज़ पढ़ते हैं\"।",
+    "jumuahNote": "पहला जुमा: अंग्रेज़ी बयान दोपहर 12:45 बजे, ख़ुतबा 1:15 बजे; दूसरा जुमा: कोई बयान नहीं, ख़ुतबा 2:20 बजे; तीसरा जुमा: अंग्रेज़ी बयान 3:00 बजे, ख़ुतबा 3:10 बजे।"
+  },
+  {
+    "id": "masjid-ar-rahmah-ottawa",
+    "notes": "इलाक़ा: Gloucester / South Keys। दूसरे नाम: Mosque of Mercy; AMA; AMA Community Centre।",
+    "visitorNotes": "इस्लाम अपनाने वालों के सवाल-जवाब सत्र के लिए अंग्रेज़ी पक्की है ('भाषा: सिर्फ़ अंग्रेज़ी'); साइट अंग्रेज़ी में है, और अरबी साइट का लिंक भी है।",
+    "newMuslimSupportNote": "Revert Corner पेज पर नए मुसलमानों के लिए मुफ़्त सामग्री है, और Muslim's Basics अंग्रेज़ी में 37 हिस्सों का एक रिकॉर्ड किया हुआ कोर्स है। साइट पर इस्लाम अपनाने वालों के कार्यक्रम 2021 और 2022 के हैं, इसलिए पूछ लें कि अभी क्या चल रहा है।"
+  },
+  {
+    "id": "ottawa-muslim-association",
+    "notes": "दूसरे नाम: Ottawa Main Mosque; OMA।",
+    "womenSpaceNote": "सवाल-जवाब वाला पेज: \"हम महिलाओं के लिए नमाज़ की एक तय जगह, और परिवारों के लिए आरामदेह जगहें भी देते हैं\"।",
+    "jumuahNote": "सवाल-जवाब वाले पेज के मुताबिक़ मस्जिद में जुमे की नमाज़ होती है; समय वेबसाइट पर प्रकाशित नहीं किए गए।"
+  },
+  {
+    "id": "ottawa-uyghur-centre",
+    "notes": "इलाक़ा: Orleans।",
+    "jumuahNote": "सेवाओं वाला पेज: \"जुमे के ख़ुतबों के लिए हमारे साथ शामिल हों\"; समय नहीं बताया गया।"
+  },
+  {
+    "id": "richmond-islamic-community-ottawa",
+    "notes": "इलाक़ा: Richmond। दूसरा नाम: RICO।",
+    "womenSpaceNote": "कार्यक्रमों वाले पेज पर किशोर और बड़ी उम्र की बहनों के लिए क़ुरआन का हल्क़ा दिया गया है; महिलाओं की नमाज़ की जगह के बारे में कुछ नहीं बताया गया।",
+    "jumuahNote": "होमपेज: \"जुमा, सिर्फ़ शुक्रवार: पहला जुमा दोपहर 1:15 बजे, दूसरा जुमा 2:30 बजे\"। सेवाएँ: \"सर्दियों में हम इशा की नमाज़, गर्मियों में अस्र, मग़रिब और इशा, और शुक्रवार को जुमे की नमाज़ करवाते हैं।\""
+  },
+  {
+    "id": "siraj-institute-ottawa",
+    "notes": "इलाक़ा: Nepean।"
+  },
+  {
+    "id": "south-nepean-muslim-community-ottawa",
+    "notes": "इलाक़ा: Nepean / Barrhaven। दूसरा नाम: SNMC Center & Masjid।",
+    "womenSpaceNote": "बहनों के कार्यक्रम (हल्क़ा और दूसरे कार्यक्रम), और बहनों के कार्यक्रमों के लिए एक ईमेल sisters@snmc.ca; नमाज़ की जगह की बनावट के बारे में कुछ नहीं बताया गया।",
+    "newMuslimSupportNote": "Reverts पेज आपको जानकारी, सवालों, शहादा के प्रमाणपत्र या मस्जिद घूमने के लिए संपर्क करने का न्योता देता है। किसी क्लास या मार्गदर्शन कार्यक्रम का ज़िक्र नहीं है।"
+  },
+  {
+    "id": "stittsville-muslim-association-ottawa",
+    "notes": "इलाक़ा: Stittsville। आधिकारिक साइट पर दो पोस्टल कोड दिखते हैं (K2S 1E3 और K2S 0T9)। जाने से पहले पक्का कर लें।",
+    "jumuahNote": "होमपेज: दोपहर 1:15, 2:15 और 3:45 बजे।"
+  },
+  {
+    "id": "the-islamic-society-of-gloucester-ottawa",
+    "notes": "इलाक़ा: Gloucester। दूसरा नाम: ISG Masjid।",
+    "jumuahNote": "होमपेज: \"जुमे की नमाज़ के समय: ख़ुतबा दोपहर 1.30 बजे, इक़ामत 2:00 बजे\"।",
+    "parkingNote": "होमपेज पर ईद की सूचना: \"चर्च की पार्किंग उपलब्ध नहीं है; इसकी जगह आप Costco की पार्किंग और Rona, 1880 innes Road पर गाड़ी खड़ी कर सकते हैं\"; \"मस्जिद के दरवाज़े के ठीक सामने गाड़ी खड़ी करना मना है\"। आम दिनों की पार्किंग के बारे में नहीं बताया गया।"
+  },
+  {
+    "id": "the-ottawa-islamic-centre-assalam-mosque",
+    "notes": "इलाक़ा: Ottawa South / St. Laurent Blvd। दूसरे नाम: Assalam Mosque; Masjid Assalam।",
+    "womenSpaceNote": "होमपेज: \"रोज़ की नमाज़ और जुमे के लिए, मर्दों और औरतों के लिए हमारे पास Ottawa के सबसे बड़े नमाज़ हॉलों में से एक है।\""
+  },
+  {
+    "id": "owen-sound-muslim-association",
+    "notes": "दूसरा नाम: Owen Sound Masjid।",
+    "newMuslimSupportNote": "सेवाओं वाले पेज पर शहादा को एक सेवा के रूप में दिया गया है। नए मुसलमानों के लिए आगे के किसी कार्यक्रम का ज़िक्र नहीं है।"
+  },
+  {
+    "id": "kawartha-muslim-religious-association-masjid-al-salaam-peterborough",
+    "notes": "दूसरे नाम: KMRA; Al-Salaam Mosque।",
+    "womenSpaceNote": "महिलाओं के लिए नमाज़ का कमरा, 60 लोगों की जगह, और महिलाओं के लिए वुज़ू का कमरा।",
+    "jumuahNote": "होमपेज पर शुक्रवार 25 सितंबर 2026 के लिए जुमे की दो नमाज़ें: दोपहर 1:30 और 2:45 बजे।"
+  },
+  {
+    "id": "pickering-islamic-centre",
+    "notes": "दूसरे नाम: Masjid Usman, PIC।",
+    "womenSpaceNote": "बहनों की समिति, शुक्रवार का लड़कियों का स्कूल और बहनों की क़ुरआन क्लास दी गई है।",
+    "newMuslimSupportNote": "केंद्र समय-समय पर Fortify My Deen: Reverts Meet and Greet कार्यक्रम करता है, पिछली बार 23 अगस्त 2026 को। घोषणा वाले पेज पर अपनी हाज़िरी बताएँ या दफ़्तर से पूछें।",
+    "jumuahNote": "ख़ुतबा दोपहर 2:00, 3:45 और 4:45 बजे, साथ ही मस्जिद से बाहर की एक जगह पर 3:00 बजे जुमा।"
+  },
+  {
+    "id": "al-nadwa-educational-islamic-centre-richmond-hill",
+    "notes": "दूसरा नाम: Al Nadwa Centre।",
+    "womenSpaceNote": "सेवाओं वाला पेज: \"बड़ी उम्र की बहनों का कार्यक्रम: हर महीने के पहले रविवार को ज़ुहर की नमाज़ के बाद शुरू। यह सिर्फ़ बहनों के लिए है\"।",
+    "jumuahNote": "होमपेज: \"पहला जुमा: बयान दोपहर 12:30 बजे, अरबी ख़ुतबा 12:45 बजे। दूसरा जुमा: बयान 1:15 बजे, अरबी ख़ुतबा 1:30 बजे\", 2 Levendale Rd पर; एक और जुमा Bayview Hill Community Centre, 114 Spadina Rd पर (दोपहर 1:25 बजे शुरू)।",
+    "parkingNote": "होमपेज: \"मेहरबानी करके प्लाज़ा के सामने गाड़ी न खड़ी करें। पार्किंग सिर्फ़ No-frills प्लाज़ा में है।\""
+  },
+  {
+    "id": "islamic-society-of-york-region-richmond-hill",
+    "womenSpaceNote": "होमपेज पर बहनों की अरबी क्लासें दी गई हैं; महिलाओं की नमाज़ की जगह के बारे में कुछ नहीं बताया गया।",
+    "jumuahNote": "होमपेज: \"जुमे की नमाज़: बयान दोपहर 1:45 बजे; नमाज़ 2:15 बजे। ध्यान दें, ISYR में जुमे की सिर्फ़ एक ही नमाज़ होती है।\"",
+    "parkingNote": "होमपेज पर सुविधाओं की सूची: \"पार्किंग की भरपूर जगह\"।"
+  },
+  {
+    "id": "richmond-hill-muslim-association"
+  },
+  {
+    "id": "sarnia-muslim-association"
+  },
+  {
+    "id": "islamic-association-of-sault-ste-marie",
+    "notes": "दूसरा नाम: IASSM।",
+    "jumuahNote": "'ख़ुतबा दोपहर 2 बजे शुरू होता है और नमाज़ 2:30 बजे' (डेलाइट सेविंग के हिसाब से बदला गया)।"
+  },
+  {
+    "id": "masjid-an-noor-st-catharines",
+    "notes": "दूसरा नाम: Masjid Al Noor।",
+    "accessibilityNote": "परमिट वालों के लिए विकलांगों की पार्किंग जगहें आरक्षित हैं।",
+    "parkingNote": "नक़्शे और नियमों के साथ पार्किंग: रात भर गाड़ी खड़ी करना मना है, जुमे के दिन दूसरी गाड़ियों का रास्ता न रोकें, पड़ोस के कारोबारों की पार्किंग इस्तेमाल न करें।"
+  },
+  {
+    "id": "stratford-mosque",
+    "jumuahNote": "शुक्रवार दोपहर 1:45 बजे; 'पाँचों नमाज़ें मस्जिद में होती हैं'; 'चौबीसों घंटे, सातों दिन खुली'।"
+  },
+  {
+    "id": "thunder-bay-masjid",
+    "notes": "दूसरा नाम: Thunder Bay Masjid।",
+    "jumuahNote": "जुमे की दो नमाज़ें: दोपहर 2:00 और 3:15 बजे।",
+    "parkingNote": "होमपेज: 'मेहरबानी करके ज़िम्मेदारी से गाड़ी खड़ी करें ताकि सबको आसानी से रास्ता मिले'; कुछ जगहें पार्किंग के लिए नहीं हैं।"
+  },
+  {
+    "id": "muslim-association-of-tillsonburg",
+    "womenSpaceNote": "होमपेज के मुताबिक़ मुसल्ले में \"मर्दों और औरतों का स्वागत है\"; महिलाओं की जगह के बारे में कुछ नहीं बताया गया।",
+    "jumuahNote": "होमपेज: \"शुक्रवार को ख़ुतबा दोपहर 1:30 बजे और नमाज़ 1:45 बजे\" (आख़िरी बार 1 नवंबर 2025 को बदला गया)।"
+  },
+  {
+    "id": "mac-masjid-toronto-adelaide",
+    "notes": "दूसरा नाम: Masjid Toronto Adelaide।",
+    "newMuslimSupportNote": "Masjid Toronto आपकी पहली बार की मुलाक़ात पर \"हमारी जमाअत के किसी भाई या बहन\" से मिलवाने का इंतज़ाम कर सकती है। After the Shahadah क्लास Dundas वाली जगह पर होती है, और Convert Connect Group हर महीने के पहले और तीसरे रविवार को ज़ुहर के बाद मिलता है।",
+    "jumuahNote": "जुमा दोपहर 12:10, 1:10 और 2:10 बजे (2026-09-18 वाला हफ़्ता)।"
+  },
+  {
+    "id": "madinah-masjid-jamiatul-muslemin-of-toronto",
+    "accessibilityNote": "'सार्वजनिक परिवहन से आसानी से पहुँचा जा सकता है।' इमारत की सुगम्यता नहीं बताई गई।",
+    "jumuahNote": "जुमे और ईद की नमाज़ें होती हैं; समय नहीं बताया गया।"
+  },
+  {
+    "id": "masjid-omar-farooq-toronto",
+    "notes": "इलाक़ा: Scarborough। दूसरा नाम: Masjid Omar Al-Farooq।",
+    "visitorNotes": "अंग्रेज़ी में सेवाएँ पक्की हैं: (जुमे में हर अरबी ख़ुतबे से पहले \"अंग्रेज़ी में बयान\" होता है)।",
+    "jumuahNote": "होमपेज: \"पहला जुमा: अंग्रेज़ी बयान दोपहर 1:30 बजे, अरबी ख़ुतबा 2:10 बजे। दूसरा जुमा: अंग्रेज़ी बयान 2:45 बजे, अरबी ख़ुतबा 3:10 बजे\"।"
+  },
+  {
+    "id": "scarborough-muslim-association-jame-abu-bakr-siddique-toronto",
+    "notes": "इलाक़ा: Scarborough। दूसरे नाम: SMA; Jame Abu Bakr Siddique Masjid।",
+    "parkingNote": "परिचय वाले पेज के मुताबिक़ विस्तार से पहले नमाज़ियों को \"अक्सर बाहर पार्किंग में नमाज़ पढ़नी पड़ती थी\"; पार्किंग की सुविधा विस्तार की योजना का हिस्सा है। पार्किंग का मौजूदा इंतज़ाम नहीं बताया गया।"
+  },
+  {
+    "id": "toronto-islamic-centre",
+    "newMuslimSupportNote": "New Muslim Support वाले पेज पर नए मुसलमानों के लिए एक स्वागत गिफ़्ट बॉक्स और 27 भाषाओं में क़ुरआन के अनुवाद दिए जाते हैं, ब्रेल समेत। कोई समय-सारणी नहीं दी गई।",
+    "accessibilityNote": "ब्रेल में क़ुरआन मिलते हैं; इमारत की सुगम्यता नहीं बताई गई।"
+  },
+  {
+    "id": "islamic-society-of-vaughan",
+    "womenSpaceNote": "शुक्रवार की समय-सारणी: \"तीसरा जुमा (भाई और बहनें): दोपहर 3:15 बजे, चौथा जुमा (भाई और बहनें): 4:00 बजे\"; पहले दो सिर्फ़ भाइयों के लिए हैं। बहनों की क्लासें भी दी गई हैं।",
+    "jumuahNote": "होमपेज: \"पहला जुमा (सिर्फ़ भाई): दोपहर 1:30 बजे, दूसरा जुमा (सिर्फ़ भाई): 2:30 बजे, तीसरा जुमा (भाई और बहनें): 3:15 बजे, चौथा जुमा (भाई और बहनें): 4:00 बजे\"।"
+  },
+  {
+    "id": "masjid-vaughan",
+    "notes": "इलाक़ा: Maple।",
+    "jumuahNote": "परिचय वाला पेज: \"जुमे के समय पूरे साल एक जैसे रहते हैं: अज़ान दोपहर 1:30 बजे, ख़ुतबा 1:35 बजे और नमाज़ 2:00 बजे।\"",
+    "parkingNote": "परिचय वाला पेज: \"शुक्रवार को दोपहर 1:00 से 3:00 बजे के बीच Vaughan City Hall (पश्चिमी तरफ़ की पार्किंग) में भरपूर पार्किंग मिलती है। इसके अलावा मस्जिद के आसपास सड़क किनारे भी पार्किंग की काफ़ी जगहें हैं।\""
+  },
+  {
+    "id": "vaughan-islamic-community-centre"
+  },
+  {
+    "id": "islamic-centre-of-waterloo-a-mac-community-centre",
+    "notes": "दूसरा नाम: ICW।",
+    "jumuahNote": "पहला दोपहर 1:30 बजे, दूसरा (अरबी में) 2:30 बजे, तीसरा 3:30 बजे।"
+  },
+  {
+    "id": "muslim-society-of-waterloo-wellington-counties",
+    "notes": "दूसरा नाम: Waterloo Masjid।",
+    "jumuahNote": "जुमा हर शुक्रवार दोपहर 1:40 बजे लाइव दिखाया जाता है।",
+    "parkingNote": "होमपेज: 'मेहरबानी करके Westmount Plaza में गाड़ी न खड़ी करें, और पड़ोस की सड़कों पर गाड़ी खड़ी करते समय सभी स्थानीय नियमों का पालन करें'।"
+  },
+  {
+    "id": "masjid-e-ayesha-whitby",
+    "notes": "दूसरा नाम: Whitby Masjid।",
+    "jumuahNote": "जुमे की तीन नमाज़ें: ख़ुतबा दोपहर 1:45, 2:45 और 3:45 बजे।",
+    "parkingNote": "पार्किंग कम है। 1 नवंबर 2024 से Kendalwood Plaza की पार्किंग जुमे के लिए उपलब्ध नहीं है; शुक्रवार को वहाँ नगर निगम के अधिकारी चालान काटते हैं। ज़्यादा भीड़ के लिए लगाए जाने वाले तंबू अगली सूचना तक बंद हैं (होमपेज की सूचना)।"
+  },
+  {
+    "id": "al-hijra-academy-windsor",
+    "notes": "इलाक़ा: Oldcastle, LaSalle की सीमा पर। दूसरा नाम: Al-Hijra Academy - Masjid and Islamic School।",
+    "womenSpaceNote": "इतिहास वाला पेज: मस्जिद \"मर्दों और औरतों के लिए दो हिस्सों में बँटी है\" (यह पुराने समय का ब्योरा है)।"
+  },
+  {
+    "id": "islamic-society-of-windsor"
+  },
+  {
+    "id": "rose-city-islamic-centre-windsor",
+    "notes": "दूसरा नाम: RCIC।",
+    "jumuahNote": "शुक्रवार दोपहर 1:30 बजे।"
+  },
+  {
+    "id": "windsor-islamic-association",
+    "notes": "दूसरे नाम: Windsor Mosque; Windsor Central Mosque।",
+    "newMuslimSupportNote": "संपर्क पेज पर इस्लाम अपनाने वालों के लिए धार्मिक मामलों के प्रशासक (Administrator of Religious Affairs) को संपर्क व्यक्ति बताया गया है (519-966-2355 ext. 4)। यह संपर्क का ज़रिया है, कोई क्लास नहीं।"
+  },
+  {
+    "id": "islamic-center-of-west-island-dollard-des-ormeaux",
+    "notes": "इलाक़ा: West Island। दूसरा नाम: Centre Islamique du West Island।"
+  },
+  {
+    "id": "centre-islamique-de-l-outaouais-la-mosquee-de-gatineau",
+    "notes": "इलाक़ा: Hull। दूसरे नाम: Outaouais Islamic Centre; Mosquée de Gatineau। सितंबर 2026 में आधिकारिक साइट पर डोमेन की मियाद ख़त्म होने की सूचना दिख रही थी। अगर साइट न खुले तो पहले फ़ोन कर लें।",
+    "jumuahNote": "जुमे की दो नमाज़ें (11 फ़रवरी से, साल नहीं बताया गया); समय सिर्फ़ https://cio-oic.ca/horaire-des-jumuahs/ पर एक तस्वीर में दिए गए हैं।"
+  },
+  {
+    "id": "masjid-meriam-gatineau",
+    "notes": "इलाक़ा: Gatineau सेक्टर। दूसरे नाम: Mosquée Mariam; CIOIC - Meriam।",
+    "visitorNotes": "भाषाएँ: CIO की साइट ज़्यादातर फ़्रेंच में है; कुछ घोषणाएँ फ़्रेंच और अंग्रेज़ी, दोनों में हैं।"
+  },
+  {
+    "id": "the-mosque-of-aylmer-gatineau",
+    "notes": "इलाक़ा: Aylmer।",
+    "visitorNotes": "साइट की सामग्री अंग्रेज़ी और फ़्रेंच, दोनों में है; ख़ुतबे की भाषा नहीं बताई गई।",
+    "womenSpaceNote": "सेवाओं वाले पेज पर \"महिलाओं के कार्यक्रम\" दिए गए हैं: \"महिलाओं के लिए ख़ास बैठकें, पढ़ाई के ग्रुप और गतिविधियाँ\"; नमाज़ की जगह की बनावट के बारे में कुछ नहीं बताया गया।",
+    "jumuahNote": "\"हर हफ़्ते योग्य वक्ताओं का ख़ुतबा\"; समय प्रकाशित नहीं किए गए।"
+  },
+  {
+    "id": "association-islamique-al-ihssane-de-laval",
+    "notes": "इलाक़ा: Pont-Viau। दूसरे नाम: AIIL; Mosquée Al-Itissam।"
+  },
+  {
+    "id": "centre-al-iman-laval",
+    "notes": "इलाक़ा: Auteuil। दूसरा नाम: CCVA।"
+  },
+  {
+    "id": "centre-communautaire-musulman-iqra-laval",
+    "notes": "इलाक़ा: Chomedey। दूसरा नाम: Centre IQRA।"
+  },
+  {
+    "id": "centre-communautaire-musulman-de-longueuil"
+  },
+  {
+    "id": "aisha-islamic-center-montreal",
+    "notes": "इलाक़ा: Griffintown। दूसरा नाम: AIC।"
+  },
+  {
+    "id": "al-madinah-center-montreal",
+    "notes": "इलाक़ा: डाउनटाउन। दूसरा नाम: Centre Al-Madinah।",
+    "visitorNotes": "अंग्रेज़ी में सेवाएँ पक्की हैं: (तजवीद के कोर्स \"अरबी और अंग्रेज़ी, दोनों में\" होते हैं)।",
+    "womenSpaceNote": "बड़ों के क़ुरआन हल्क़े \"भाइयों और बहनों\" के लिए हैं; महिलाओं की नमाज़ की जगह के बारे में कुछ नहीं बताया गया।"
+  },
+  {
+    "id": "assuna-annabawiyah-mosque-montreal",
+    "notes": "इलाक़ा: Parc-Extension। दूसरे नाम: Mosquée Assuna Annabawiyah; Masjid Assuna।",
+    "visitorNotes": "भाषाएँ: साइट पर फ़्रेंच, अंग्रेज़ी और अरबी मिली-जुली हैं; सेवाओं की भाषा नहीं बताई गई।"
+  },
+  {
+    "id": "canadian-institute-of-islamic-civilization-a-mac-community-centre-montreal",
+    "notes": "इलाक़ा: डाउनटाउन। दूसरा नाम: CIIC।",
+    "womenSpaceNote": "बहनों का हर हफ़्ते का हल्क़ा दिया गया है (हर शुक्रवार शाम 6:30 से 8:00 बजे तक); नमाज़ की जगह के बारे में कुछ नहीं बताया गया।",
+    "jumuahNote": "जुमे की तीन नमाज़ें: सुबह 11:45 बजे, दोपहर 12:30 और 1:15 बजे।"
+  },
+  {
+    "id": "centre-bel-agir-montreal",
+    "notes": "इलाक़ा: Villeray और Saint-Michel के आसपास। दूसरा नाम: Bel Agir - Al-Ihsane।",
+    "jumuahNote": "'Prières du Vendredi' (जुमे की नमाज़ें) होती हैं; होमपेज पर समय नहीं दिए गए।"
+  },
+  {
+    "id": "centre-communautaire-fath-montreal",
+    "notes": "इलाक़ा: Rivière-des-Prairies। दूसरा नाम: Mosquée Elfath - RDP।",
+    "parkingNote": "'38 Places de Stationnement' (38 गाड़ियों की पार्किंग)।"
+  },
+  {
+    "id": "centre-communautaire-villeray-mosquee-aboubakr-montreal",
+    "notes": "इलाक़ा: Villeray। दूसरा नाम: CCV।",
+    "jumuahNote": "जुमा '12:00 pm | 1:00 pm'।"
+  },
+  {
+    "id": "centre-islamique-de-verdun-montreal",
+    "notes": "इलाक़ा: Verdun। दूसरा नाम: CIV।",
+    "womenSpaceNote": "महिलाओं और लड़कियों के कार्यक्रमों का ज़िक्र है (जैसे 'Iftar spécial pour les filles, leurs mères et les enseignantes', यानी लड़कियों, उनकी माँओं और शिक्षिकाओं के लिए ख़ास इफ़्तार); नमाज़ की जगह के बारे में कुछ नहीं बताया गया।",
+    "newMuslimSupportNote": "कार्यक्रमों वाले पेज पर इस्लाम अपनाने वाली महिलाओं (Nouvelles converties) और पुरुषों (Nouveaux convertis) के ग्रुप दिए गए हैं। कोई समय-सारणी नहीं दी गई।",
+    "jumuahNote": "जुमा दोपहर 12:00 और 1:15 बजे।"
+  },
+  {
+    "id": "islamic-centre-of-quebec-montreal",
+    "notes": "इलाक़ा: Saint-Laurent। दूसरा नाम: Centre Islamique du Québec।",
+    "jumuahNote": "होमपेज: 'Jumu'ah 1 (13:30), Jumu'ah 2 (14:30)'; 'ख़ुतबे से 15 मिनट पहले अनुवाद होगा।' अनुवाद की भाषा नहीं बताई गई।",
+    "parkingNote": "परिसर में पार्किंग है।"
+  },
+  {
+    "id": "masjid-makkah-al-mukarramah-montreal",
+    "notes": "इलाक़ा: Pierrefonds-Roxboro, West Island। दूसरे नाम: Makkah-al-Mukarramah Mosque; Masjid Makkah।",
+    "visitorNotes": "भाषाएँ: साप्ताहिक दर्स उर्दू में होते हैं; वेबसाइट अंग्रेज़ी में है।",
+    "womenSpaceNote": "\"हर शनिवार ज़ुहर की नमाज़ के बाद महिलाओं का हल्क़ा होता है\"; महिलाओं की नमाज़ की जगह के बारे में कुछ नहीं बताया गया।"
+  },
+  {
+    "id": "mosquee-al-rawdah-montreal",
+    "notes": "इलाक़ा: Cartierville। बगल में 12265 Boul. Laurentien पर Centre Communautaire Laurentien भी है, फ़ोन वही है।",
+    "jumuahNote": "जुमा दोपहर 12:00 और 1:00 बजे।"
+  },
+  {
+    "id": "muslim-community-of-quebec-montreal",
+    "notes": "इलाक़ा: Notre-Dame-de-Grâce।",
+    "womenSpaceNote": "कार्यक्रमों वाले पेज पर 'महिलाओं के सहारे और सशक्तिकरण के कार्यक्रम' दिए गए हैं; नमाज़ की जगह के बारे में कुछ नहीं बताया गया।",
+    "jumuahNote": "कार्यक्रमों वाले पेज पर 'जुमे की नमाज़ (सलातुल जुमा)' दी गई है; नमाज़ के समय वाले पेज पर समय नहीं दिखाया गया।"
+  },
+  {
+    "id": "centre-communautaire-de-quebec-quebec-city",
+    "notes": "इलाक़ा: Saint-Roch। दूसरे नाम: MAC Québec; Masjid Al-Rahma।",
+    "jumuahNote": "होमपेज पर जुमे के दो अलग-अलग समय दिखते हैं जो आपस में मेल नहीं खाते: 12:15 और 12:45 PM, और 12:00 और 12:45 PM।"
+  },
+  {
+    "id": "centre-culturel-islamique-luqman-de-quebec-quebec-city",
+    "notes": "इलाक़ा: Les Saules। दूसरा नाम: Centre Luqman।",
+    "jumuahNote": "नमाज़ के समय साइट पर दिए Mawaqit लिंक से मिलते हैं।"
+  },
+  {
+    "id": "centre-culturel-islamique-de-quebec-grande-mosquee-de-quebec-quebec-city",
+    "notes": "इलाक़ा: Sainte-Foy। दूसरे नाम: CCIQ; GMQ। CCIQ, Mosquée Annour और Charlesbourg और Portneuf में नमाज़ की जगहें भी चलाता है।",
+    "womenSpaceNote": "Conseil de la femme musulmane de Québec (CFMQ) को CCIQ की एक इकाई बताया गया है और महिलाओं की गतिविधियाँ दी गई हैं; नमाज़ की जगह के बारे में कुछ नहीं बताया गया।",
+    "jumuahNote": "जुमे की नमाज़ होती है ('Prières quotidiennes et la prière de vendredi', यानी रोज़ की नमाज़ें और जुमे की नमाज़); समय mosqueprayertimes.com/cciq पर।"
+  },
+  {
+    "id": "mosquee-de-la-capitale-quebec-city",
+    "notes": "इलाक़ा: Vanier। दूसरा नाम: Association Mosquée de la Capitale।"
+  },
+  {
+    "id": "centre-culturel-islamique-de-lanaudiere-repentigny",
+    "notes": "इलाक़ा: Lanaudière। दूसरा नाम: Masjid Atassamouh।",
+    "jumuahNote": "होमपेज: \"Jumu'ah 1ère 12:00 2ème 13:00\" (पहला जुमा 12:00, दूसरा 13:00)।"
+  },
+  {
+    "id": "association-islamique-du-saguenay-lac-st-jean",
+    "notes": "इलाक़ा: Chicoutimi। दूसरा नाम: Mosquée Chicoutimi।",
+    "visitorNotes": "भाषाएँ: साइट फ़्रेंच में है, अंग्रेज़ी और अरबी में बदलने के विकल्प के साथ; सेवाओं की भाषा नहीं बताई गई।"
+  },
+  {
+    "id": "centre-islamique-maskoutain-saint-hyacinthe",
+    "jumuahNote": "होमपेज: \"il y'a deux prières de Jumu'a: la première débute à 12h10 et la deuxième à 12h45.\" (जुमे की दो नमाज़ें होती हैं: पहली 12:10 पर और दूसरी 12:45 पर)।"
+  },
+  {
+    "id": "centre-rayan-sainte-therese",
+    "notes": "इलाक़ा: Basses-Laurentides। दूसरा नाम: Mosque Rayane।"
+  },
+  {
+    "id": "association-culturelle-islamique-de-l-estrie-mosquee-a-rahmane-sherbrooke",
+    "notes": "दूसरा नाम: ACIE; यह 1239 Rue Denault पर Centre Horizon भी चलाता है।",
+    "jumuahNote": "दो जमाअतें: '12h15 et 13h00' (12:15 और 13:00)।",
+    "parkingNote": "मेहमानों से गुज़ारिश है: 'Merci de ne pas utiliser les stationnements privés de notre voisinage' (कृपया पड़ोसियों की निजी पार्किंग इस्तेमाल न करें)।"
+  },
+  {
+    "id": "centre-culturel-islamique-de-sherbrooke-mosquee-annour",
+    "notes": "दूसरा नाम: CCIS Annour।"
+  },
+  {
+    "id": "centre-culturel-islamique-de-la-mauricie-trois-rivieres",
+    "notes": "दूसरा नाम: Islamic Cultural Center of Mauricie।",
+    "newMuslimSupportNote": "सेवाओं वाले पेज पर इस्लाम अपनाना चाहने वालों के लिए CCIM के किसी प्रतिनिधि से मुलाक़ात और इस्लाम अपनाने का आधिकारिक प्रमाणपत्र दिया गया है। यह आपके सवालों के जवाब गोपनीय रखने का वादा करता है। यह कोई लगातार चलने वाली क्लास नहीं है।"
+  },
+  {
+    "id": "vaudreuil-islamic-community-centre-masjid-attakwa-vaudreuil-dorion",
+    "notes": "दूसरे नाम: Centre Culturel Islamique de Vaudreuil Soulanges; ICCVS।",
+    "jumuahNote": "सेवाओं वाले पेज पर \"जुमा (जुमे की नमाज़)\" दिया गया है; समय नहीं बताया गया।"
+  },
+  {
+    "id": "bcma-abbotsford-branch",
+    "notes": "दूसरा नाम: Abbotsford Islamic Centre।",
+    "newMuslimSupportNote": "पूरे प्रांत का New Muslim Care कार्यक्रम BC Muslim Association चलाती है; इस शाखा का अपना कोई कार्यक्रम नहीं दिया गया। BCMA के पंजीकरण फ़ॉर्म में आप यह शाखा चुन सकते हैं।"
+  },
+  {
+    "id": "bcma-burnaby-branch",
+    "notes": "दूसरा नाम: Masjid al Salaam & Education Centre।",
+    "newMuslimSupportNote": "पूरे प्रांत का New Muslim Care कार्यक्रम BC Muslim Association चलाती है; इस शाखा का अपना कोई कार्यक्रम नहीं दिया गया। BCMA के पंजीकरण फ़ॉर्म में आप यह शाखा चुन सकते हैं।",
+    "jumuahNote": "शाखा का पेज: जुमा दोपहर 1:30 बजे शुरू, इक़ामत 2:30 बजे।"
+  },
+  {
+    "id": "bcma-castlegar-branch",
+    "notes": "दूसरा नाम: Islamic Centre of Castlegar।",
+    "newMuslimSupportNote": "पूरे प्रांत का New Muslim Care कार्यक्रम BC Muslim Association चलाती है; इस शाखा का अपना कोई कार्यक्रम नहीं दिया गया। BCMA के पंजीकरण फ़ॉर्म में आप यह शाखा चुन सकते हैं।"
+  },
+  {
+    "id": "bcma-chilliwack-branch",
+    "notes": "दूसरा नाम: Chilliwack Islamic Centre।",
+    "newMuslimSupportNote": "पूरे प्रांत का New Muslim Care कार्यक्रम BC Muslim Association चलाती है; इस शाखा का अपना कोई कार्यक्रम नहीं दिया गया। BCMA के पंजीकरण फ़ॉर्म में आप यह शाखा चुन सकते हैं।"
+  },
+  {
+    "id": "bcma-dawson-creek-islamic-center",
+    "newMuslimSupportNote": "पूरे प्रांत का New Muslim Care कार्यक्रम BC Muslim Association चलाती है; इस शाखा का अपना कोई कार्यक्रम नहीं दिया गया। BCMA के पंजीकरण फ़ॉर्म में आप यह शाखा चुन सकते हैं।"
+  },
+  {
+    "id": "bcma-delta-islamic-center",
+    "notes": "दूसरा नाम: Delta Islamic Centre।",
+    "newMuslimSupportNote": "पूरे प्रांत का New Muslim Care कार्यक्रम BC Muslim Association चलाती है; इस शाखा का अपना कोई कार्यक्रम नहीं दिया गया। BCMA के पंजीकरण फ़ॉर्म में आप यह शाखा चुन सकते हैं।"
+  },
+  {
+    "id": "kamloops-ayesha-mosque",
+    "notes": "इलाक़ा: Knutsford। दूसरे नाम: Ayesha Mosque; Kamloops Islamic Association।",
+    "accessibilityNote": "होमपेज के मुताबिक़ Knutsford वाली मौजूदा जगह पर \"शहर का पानी नहीं | सार्वजनिक परिवहन नहीं | जगह कम\" है, और संस्था Kamloops शहर की सीमा में \"किसी सुगम जगह पर जाने\" के लिए चंदा इकट्ठा कर रही है।",
+    "jumuahNote": "होमपेज: जुमे का ख़ुतबा दोपहर 1:30 बजे।",
+    "parkingNote": "होमपेज: जगह कम होने की वजह से कुछ कार्यक्रम \"कहीं और, यहाँ तक कि पार्किंग में भी\" होते हैं।"
+  },
+  {
+    "id": "bcma-kelowna-branch",
+    "notes": "दूसरा नाम: Kelowna Islamic Centre।",
+    "newMuslimSupportNote": "पूरे प्रांत का New Muslim Care कार्यक्रम BC Muslim Association चलाती है; इस शाखा का अपना कोई कार्यक्रम नहीं दिया गया। BCMA के पंजीकरण फ़ॉर्म में आप यह शाखा चुन सकते हैं।"
+  },
+  {
+    "id": "bcma-kitimat-islamic-center",
+    "newMuslimSupportNote": "पूरे प्रांत का New Muslim Care कार्यक्रम BC Muslim Association चलाती है; इस शाखा का अपना कोई कार्यक्रम नहीं दिया गया। BCMA के पंजीकरण फ़ॉर्म में आप यह शाखा चुन सकते हैं।"
+  },
+  {
+    "id": "masjid-al-sahaba-langley",
+    "notes": "दूसरे नाम: Langley Islamic Centre; Langley Musalla।",
+    "womenSpaceNote": "आधिकारिक पेज: \"महिलाओं के लिए नमाज़ की जगह शामिल है\"।"
+  },
+  {
+    "id": "jamia-riyadhul-jannah-maple-ridge",
+    "notes": "दूसरा नाम: Riyadhul Jannah Mosque।",
+    "jumuahNote": "होमपेज: जुमे का ख़ुतबा 13:30 बजे।"
+  },
+  {
+    "id": "bcma-nanaimo-chapter",
+    "newMuslimSupportNote": "पूरे प्रांत का New Muslim Care कार्यक्रम BC Muslim Association चलाती है; इस शाखा का अपना कोई कार्यक्रम नहीं दिया गया। BCMA के पंजीकरण फ़ॉर्म में आप यह शाखा चुन सकते हैं।"
+  },
+  {
+    "id": "bcma-north-shore-chapter-north-vancouver",
+    "newMuslimSupportNote": "पूरे प्रांत का New Muslim Care कार्यक्रम BC Muslim Association चलाती है; इस शाखा का अपना कोई कार्यक्रम नहीं दिया गया। BCMA के पंजीकरण फ़ॉर्म में आप यह शाखा चुन सकते हैं।"
+  },
+  {
+    "id": "masjid-ar-rahman-north-vancouver",
+    "notes": "दूसरा नाम: Masjid Ar-Rahman Foundation of North Vancouver।",
+    "womenSpaceNote": "कार्यक्रमों वाले पेज पर बहनों और महिलाओं की क्लासें दी गई हैं; महिलाओं की नमाज़ की जगह के बारे में कुछ नहीं बताया गया।",
+    "jumuahNote": "जुमे वाला पेज: डेलाइट सेविंग टाइम में (मार्च के बीच से नवंबर तक) ख़ुतबा दोपहर 1:30 बजे, स्टैंडर्ड टाइम में 12:30 बजे।"
+  },
+  {
+    "id": "bcma-penticton-branch",
+    "newMuslimSupportNote": "पूरे प्रांत का New Muslim Care कार्यक्रम BC Muslim Association चलाती है; इस शाखा का अपना कोई कार्यक्रम नहीं दिया गया। BCMA के पंजीकरण फ़ॉर्म में आप यह शाखा चुन सकते हैं।"
+  },
+  {
+    "id": "islamic-society-of-british-columbia-port-coquitlam",
+    "notes": "दूसरे नाम: Masjid Al-Hidayah & Islamic Cultural Centre; ISBC।",
+    "womenSpaceNote": "कार्यक्रमों वाले पेज पर महिलाओं की साप्ताहिक महफ़िल दी गई है; नमाज़ की जगह नहीं बताई गई; जुमे की नमाज़ पुरुषों और महिलाओं दोनों के लिए खुली है; महिलाओं के लिए निजी सलाह-मशविरा भी होता है।",
+    "jumuahNote": "ख़ुतबा दोपहर 1:40 बजे शुरू होता है।",
+    "parkingNote": "मस्जिद की अंडरग्राउंड पार्किंग; ज़्यादा भीड़ में ECBC की पार्किंग (पैसे देकर) या Legion की शहर वाली पार्किंग; Kingsway Ave पर गाड़ी न खड़ी करें।"
+  },
+  {
+    "id": "al-ihsan-islamic-centre-port-moody"
+  },
+  {
+    "id": "bcma-prince-george-branch",
+    "notes": "दूसरा नाम: BCMA Prince George Chapter।",
+    "newMuslimSupportNote": "पूरे प्रांत का New Muslim Care कार्यक्रम BC Muslim Association चलाती है; इस शाखा का अपना कोई कार्यक्रम नहीं दिया गया। BCMA के पंजीकरण फ़ॉर्म में आप यह शाखा चुन सकते हैं।"
+  },
+  {
+    "id": "bcma-richmond-branch",
+    "notes": "दूसरा नाम: Richmond Jamia Masjid; BCMA के मुख्य दफ़्तर की जगह।",
+    "newMuslimSupportNote": "पूरे प्रांत का New Muslim Care कार्यक्रम BC Muslim Association चलाती है; इस शाखा का अपना कोई कार्यक्रम नहीं दिया गया। BCMA के पंजीकरण फ़ॉर्म में आप यह शाखा चुन सकते हैं।",
+    "jumuahNote": "शाखा के पेज पर पहला ख़ुतबा दोपहर 1:30 बजे और दूसरा 3:00 बजे दिया गया है (मौसम के हिसाब से बदल सकता है)।"
+  },
+  {
+    "id": "abu-bakr-islamic-centre-surrey",
+    "notes": "दूसरा नाम: Masjid Abu Bakr।",
+    "womenSpaceNote": "दूसरे जुमे में बहनों का स्वागत है।",
+    "jumuahNote": "पहला जुमा 1:40 pm, दूसरा 2:40 pm, तीसरा 3:30 pm।"
+  },
+  {
+    "id": "bcma-surrey-delta-branch",
+    "notes": "दूसरा नाम: Surrey Jamia Masjid।",
+    "newMuslimSupportNote": "पूरे प्रांत का New Muslim Care कार्यक्रम BC Muslim Association चलाती है; इस शाखा का अपना कोई कार्यक्रम नहीं दिया गया। BCMA के पंजीकरण फ़ॉर्म में आप यह शाखा चुन सकते हैं।"
+  },
+  {
+    "id": "bcma-surrey-east-branch",
+    "newMuslimSupportNote": "पूरे प्रांत का New Muslim Care कार्यक्रम BC Muslim Association चलाती है; इस शाखा का अपना कोई कार्यक्रम नहीं दिया गया। BCMA के पंजीकरण फ़ॉर्म में आप यह शाखा चुन सकते हैं।"
+  },
+  {
+    "id": "cloverdale-islamic-society-surrey",
+    "notes": "इलाक़ा: Cloverdale। दूसरा नाम: Cloverdale Islamic Center।"
+  },
+  {
+    "id": "guildford-islamic-cultural-center-surrey",
+    "notes": "इलाक़ा: Guildford। दूसरा नाम: Guildford Musullah।",
+    "womenSpaceNote": "दूसरा और तीसरा जुमा बहनों के लिए खुला है; मस्जिद में बहनों का कमरा है।",
+    "jumuahNote": "जुमे की तीन जमाअतें; पहली सिर्फ़ भाइयों के लिए; समय awqat.net पर।"
+  },
+  {
+    "id": "white-rock-muslim-association-surrey",
+    "notes": "इलाक़ा: South Surrey / White Rock। दूसरा नाम: WRMA Musallah।",
+    "womenSpaceNote": "नमाज़ की सेवाओं वाला पेज: \"भाइयों (मुख्य हिस्सा) और बहनों (ऊपरी मंज़िल) के लिए नमाज़ की अलग जगहें\"।",
+    "accessibilityNote": "नमाज़ की सेवाओं वाला पेज: \"सुगम्यता और नमाज़ के समय की ज़्यादा जानकारी के लिए हमसे संपर्क करें\"।",
+    "jumuahNote": "पहला जुमा दोपहर 1:35 बजे, दूसरा 2:15 बजे (गर्मियों का समय, बदल सकता है); सर्दियों में 12:35 और 1:15 बजे।",
+    "parkingNote": "नमाज़ की सेवाओं वाला पेज: \"सार्वजनिक जगह पर गाड़ी खड़ी करें, दूसरी दुकानों के बाहर या आरक्षित जगहों पर नहीं। गाड़ियाँ मालिक के ख़र्च पर उठवा दी जाएँगी।\"।"
+  },
+  {
+    "id": "ajyal-islamic-society-vancouver",
+    "notes": "दूसरा नाम: Ajyal Islamic Centre Vancouver Mosque।",
+    "visitorNotes": "भाषाएँ: साइट के मुताबिक़ कार्यक्रम अंग्रेज़ी, तुर्की, अरबी और दूसरी भाषाओं में होते हैं।",
+    "womenSpaceNote": "बहनों के कार्यक्रम दिए गए हैं (हल्क़ा, क़ुरआन की क्लास, नए मुसलमानों की मदद); महिलाओं की नमाज़ की जगह के बारे में कुछ नहीं बताया गया।",
+    "jumuahNote": "जुमे वाला पेज (8 मार्च 2026 से लागू): तीन जमाअतें, ख़ुतबे दोपहर 1:30 बजे (सिर्फ़ भाई), 2:10 बजे और 2:45 बजे।"
+  },
+  {
+    "id": "al-masjid-al-jamia-vancouver",
+    "notes": "दूसरे नाम: Al-Jamia Masjid; Vancouver Jamia Masjid।",
+    "jumuahNote": "संचालक का पेज: जुमे की दो जमाअतें, 1:30 pm और 2:15 pm पर।"
+  },
+  {
+    "id": "bcma-vancouver-branch",
+    "notes": "दूसरा नाम: Masjid ul-Haqq।",
+    "newMuslimSupportNote": "पूरे प्रांत का New Muslim Care कार्यक्रम BC Muslim Association चलाती है; इस शाखा का अपना कोई कार्यक्रम नहीं दिया गया। BCMA के पंजीकरण फ़ॉर्म में आप यह शाखा चुन सकते हैं।",
+    "jumuahNote": "शाखा का पेज: जुमा दोपहर 1:30 बजे शुरू, इक़ामत 2:00 बजे।"
+  },
+  {
+    "id": "mac-vancouver-centre",
+    "notes": "दूसरा नाम: Muslim Association of Canada, Vancouver।",
+    "jumuahNote": "केंद्र का पेज: ख़ुतबा दोपहर 1:30 बजे, नमाज़ 2:00 बजे।"
+  },
+  {
+    "id": "masjid-omar-al-farooq-vancouver",
+    "notes": "दूसरा नाम: Othman Bin Affan Islamic Society।"
+  },
+  {
+    "id": "vernon-islamic-centre",
+    "notes": "दूसरा नाम: Vernon Mosque।"
+  },
+  {
+    "id": "bcma-victoria-branch",
+    "notes": "दूसरा नाम: Victoria Masjid।",
+    "newMuslimSupportNote": "पूरे प्रांत का New Muslim Care कार्यक्रम BC Muslim Association चलाती है; इस शाखा का अपना कोई कार्यक्रम नहीं दिया गया। BCMA के पंजीकरण फ़ॉर्म में आप यह शाखा चुन सकते हैं।"
+  },
+  {
+    "id": "bcma-westshore-branch",
+    "newMuslimSupportNote": "पूरे प्रांत का New Muslim Care कार्यक्रम BC Muslim Association चलाती है; इस शाखा का अपना कोई कार्यक्रम नहीं दिया गया। BCMA के पंजीकरण फ़ॉर्म में आप यह शाखा चुन सकते हैं।"
+  },
+  {
+    "id": "bcma-central-cariboo-islamic-center-williams-lake",
+    "notes": "दूसरा नाम: Williams Lake Muslim Committee।",
+    "newMuslimSupportNote": "पूरे प्रांत का New Muslim Care कार्यक्रम BC Muslim Association चलाती है; इस शाखा का अपना कोई कार्यक्रम नहीं दिया गया। BCMA के पंजीकरण फ़ॉर्म में आप यह शाखा चुन सकते हैं।"
+  },
+  {
+    "id": "akram-jomaa-islamic-centre-calgary",
+    "womenSpaceNote": "परिचय वाले पेज पर महिलाओं की एक समिति दी गई है; नमाज़ की जगह के बारे में कुछ नहीं बताया गया।",
+    "newMuslimSupportNote": "इस्लाम में नए वाला पेज आपको इमाम से समय लेने, जगह घूमकर देखने, और एडमिन दफ़्तर से किताबों वाला शहादा पैकेज लेने को कहता है। उस पेज पर सहायता ग्रुप का फ़ॉर्म शायद अभी काम न करे, इसलिए सीधे दफ़्तर से संपर्क करें।",
+    "accessibilityNote": "परिचय वाला पेज: MUHSEN प्रमाणित; विकलांगता समिति यह \"पक्का करने के लिए काम करती है कि हर किसी को पूरी भागीदारी का बराबर मौक़ा मिले\"।"
+  },
+  {
+    "id": "al-hedaya-islamic-centre-of-north-east-calgary",
+    "notes": "दूसरा नाम: Islamic Center NE।",
+    "womenSpaceNote": "13 से 19 साल की लड़कियों के लिए Rising Muslimah कार्यक्रम (शनिवार सुबह 9:00 बजे); महिलाओं की नमाज़ की जगह के बारे में कुछ नहीं बताया गया।",
+    "jumuahNote": "\"जुमे की नमाज़ सिर्फ़ Genesis Centre के Multi-Purpose Room A & B में होती है\", दोपहर 2:00, 2:30 और 3:00 बजे।"
+  },
+  {
+    "id": "al-madinah-calgary-islamic-assembly",
+    "notes": "दूसरा नाम: Green Dome Mosque।"
+  },
+  {
+    "id": "al-salam-centre-calgary",
+    "notes": "दूसरे नाम: MAC Calgary; Masjid Al-Salam।",
+    "jumuahNote": "Al-Salam Centre में \"1:00 PM और 2:00 PM\"; MAC Islamic School और Marlborough Community Association में 1:30 PM।"
+  },
+  {
+    "id": "hazrat-bilal-islamic-centre-calgary",
+    "notes": "दूसरा नाम: Masjid Bilal।",
+    "jumuahNote": "\"पहला ख़ुतबा 1:45 PM। दूसरा ख़ुतबा 2:30 PM। पहले जुमे के लिए दरवाज़े 2:00 PM पर बंद हो जाते हैं।\"",
+    "parkingNote": "होमपेज: \"कृपया पड़ोसियों के ड्राइववे न रोकें और स्वयंसेवकों के निर्देश मानें।\""
+  },
+  {
+    "id": "islamic-association-of-north-west-calgary",
+    "notes": "दूसरे नाम: IANWC; Northwest Islamic Centre।",
+    "newMuslimSupportNote": "होमपेज के मुताबिक़ अगर आपके कोई सवाल हैं या आप शहादा के लिए तैयार हैं, तो मस्जिद के इमाम मदद के लिए मौजूद हैं। किसी क्लास या मार्गदर्शन का ज़िक्र नहीं है।",
+    "jumuahNote": "Ranchland में और 183 Beddington Drive NW पर Maryam Masjid में 1:15, 2:00 और 2:45 PM।",
+    "parkingNote": "सड़क पर और पार्किंग लॉट में पार्किंग; जगह कम है, जल्दी पहुँचें; भर जाने पर लॉट गाड़ियों के लिए बंद हो जाता है।"
+  },
+  {
+    "id": "islamic-centre-of-south-calgary",
+    "notes": "दूसरे नाम: ICSC; Islamic Center SE।",
+    "jumuahNote": "Legacy Musallah: 1:15, 2:00, 2:45, 3:30 PM; McKenzie Towne Hall: 1:00, 1:45 PM।"
+  },
+  {
+    "id": "islamic-centre-of-southwest-calgary",
+    "notes": "दूसरे नाम: SW Masjid; Calgary Islamic Centre SW।",
+    "jumuahNote": "जुमे की दो नमाज़ें; समय मौसम के हिसाब से बदलता है (26 सितंबर 2026 से 1:45 PM और 3:00 PM); होमपेज का विजेट देखें।"
+  },
+  {
+    "id": "muslim-council-of-calgary",
+    "notes": "दूसरा नाम: MCC। यह Muslim Council of Calgary का दफ़्तर है, जो पूरे शहर की मस्जिदों की सेवा करता है।",
+    "newMuslimSupportNote": "नए मुसलमानों वाला पेज New Muslim Circle नाम के सहायता ग्रुप, इमाम से जुड़ने (Connect with an Imam) और नए मुसलमानों की गाइड किताब के बारे में बताता है। यह किसी साथी, मार्गदर्शक या इमाम से आमने-सामने सहारा भी देता है।"
+  },
+  {
+    "id": "mac-cold-lake-mosque",
+    "jumuahNote": "दोपहर 1:30 बजे।"
+  },
+  {
+    "id": "ahl-al-athar-islamic-center-edmonton",
+    "womenSpaceNote": "होमपेज पर महिलाओं के लिए अलग \"Ladies Entrance\" (महिलाओं का दरवाज़ा) दिया गया है (नक्शे का लिंक)।"
+  },
+  {
+    "id": "al-ameen-masjid-edmonton",
+    "notes": "दूसरा नाम: Al-Ameen Mosque।",
+    "womenSpaceNote": "होमपेज: \"भाइयों और बहनों दोनों के लिए खुले नमाज़ हॉल\"; सेवाओं की सूची में \"बहनों की नमाज़ की जगह\" शामिल है।",
+    "jumuahNote": "होमपेज: जुमे का पहला ख़ुतबा 12:45 pm, दूसरा ख़ुतबा 1:40 pm (मौसम के हिसाब से बदल सकता है)।",
+    "parkingNote": "सेवाओं की सूची में \"पार्किंग\" है (कोई और जानकारी नहीं)।"
+  },
+  {
+    "id": "al-rashid-mosque-edmonton",
+    "womenSpaceNote": "बहनों के कार्यक्रम दिए गए हैं (महिलाओं का हल्क़ा शुक्रवार शाम 7 बजे; बुज़ुर्ग महिलाओं का कार्यक्रम बुधवार दोपहर 12 से 2 बजे); नमाज़ की जगह के बारे में कुछ नहीं बताया गया।",
+    "jumuahNote": "Al Rashid Mosque में दोपहर 1:45 बजे; ARCA में 2:00 बजे।"
+  },
+  {
+    "id": "alfalah-islamic-centre-edmonton",
+    "notes": "दूसरे नाम: Alfalah Center; ICNA Edmonton।",
+    "womenSpaceNote": "कार्यक्रमों वाला पेज: \"पूरी सुविधाओं वाली मस्जिद (पुरुष और महिलाएँ)। हमारे केंद्र में पुरुषों और महिलाओं दोनों के लिए नमाज़ की अलग और सबको शामिल करने वाली जगह है\"; महिलाओं के कार्यक्रम दिए गए हैं।",
+    "jumuahNote": "होमपेज: पहला जुमा दोपहर 1:30 बजे और दूसरा जुमा 2:30 बजे; \"जुमे की नमाज़ की इक़ामत तय समय के 30 मिनट बाद होती है।\""
+  },
+  {
+    "id": "assiddiq-islamic-foundation-edmonton",
+    "notes": "दूसरा नाम: Assiddiq Islamic Center।",
+    "visitorNotes": "अंग्रेज़ी में सेवाओं की पुष्टि: शनिवार को लड़कियों (17+) का हल्क़ा \"अंग्रेज़ी में\"।",
+    "womenSpaceNote": "सेवाओं वाले पेज पर बहनों का हल्क़ा दिया गया है; महिलाओं की नमाज़ की जगह के बारे में कुछ नहीं बताया गया।",
+    "newMuslimSupportNote": "सेवाओं वाले पेज पर बड़ों की क्लासों में नए मुसलमानों के सत्र भी दिए गए हैं, साइन अप के लिंक के साथ। समय-सारणी और ख़र्च नहीं बताया गया।",
+    "jumuahNote": "होमपेज की नमाज़ तालिका: पहला जुमा दोपहर 2:00 बजे, दूसरा 3:30 बजे (गर्मियाँ); सेवाओं वाले हिस्से में यह भी लिखा है \"हर शुक्रवार दोपहर 1 बजे जुमा\" (शायद सर्दियों का समय)। पक्का कर लें।"
+  },
+  {
+    "id": "dar-al-sunnah-edmonton",
+    "notes": "दूसरा नाम: Dar-Al-Sunnah।",
+    "visitorNotes": "अंग्रेज़ी में सेवाओं की पुष्टि: होमपेज पर \"जुमे का पहला ख़ुतबा (अंग्रेज़ी), 01:45 PM\" दिया गया है।",
+    "jumuahNote": "होमपेज: पहला ख़ुतबा (अंग्रेज़ी) 1:45 PM; दूसरा ख़ुतबा (अरबी) 2:45 PM।"
+  },
+  {
+    "id": "darul-ilmi-masjid-edmonton",
+    "notes": "दूसरे नाम: Masjid Daril Ilmi; Darul Ilmi Quran School।",
+    "jumuahNote": "होमपेज: \"जुमे का ख़ुतबा दोपहर 1 बजे शुरू होता है\"।"
+  },
+  {
+    "id": "mas-islamic-centre-edmonton",
+    "notes": "दूसरा नाम: Masjid Al-Salaam।",
+    "jumuahNote": "\"हर शुक्रवार दोपहर 2:00 बजे\"।"
+  },
+  {
+    "id": "markaz-al-imam-malik-edmonton"
+  },
+  {
+    "id": "markaz-ul-islam-edmonton",
+    "visitorNotes": "भाषाएँ: लाइब्रेरी की किताबें अंग्रेज़ी, उर्दू और अरबी में।",
+    "womenSpaceNote": "महीने के पहले और तीसरे शनिवार को सिर्फ़ बहनों के लिए क़ुरआन और हदीस का कार्यक्रम।",
+    "jumuahNote": "पहला जुमा दोपहर 2:00 बजे, दूसरा जुमा 3:00 बजे (इक़ामत), होमपेज के मुताबिक़।"
+  },
+  {
+    "id": "masjid-al-ansar-edmonton"
+  },
+  {
+    "id": "masjid-al-omari-edmonton",
+    "notes": "दूसरा नाम: Edmonton Islamic Centre।",
+    "jumuahNote": "होमपेज: पहला जुमा 12:30 pm; दूसरा जुमा 1:30 pm (दूसरा ख़ुतबा 1:30 pm, इक़ामत 1:50 pm)। समय मौसम के हिसाब से बदल सकता है।"
+  },
+  {
+    "id": "masjid-at-taqwa-edmonton"
+  },
+  {
+    "id": "masjid-quba-jama-masjid-edmonton",
+    "notes": "दूसरा नाम: Islamic Missionary Association Edmonton।",
+    "jumuahNote": "पहला जुमा दोपहर 2:00 बजे; दूसरा जुमा 3:00 बजे।"
+  },
+  {
+    "id": "medina-mosque-society-of-edmonton",
+    "notes": "दूसरा नाम: Medina Mosque।"
+  },
+  {
+    "id": "muslim-community-of-edmonton-mosque",
+    "jumuahNote": "जुमे की नमाज़ नियमित रूप से होती है; होमपेज पर समय नहीं दिया गया।"
+  },
+  {
+    "id": "rahma-mosque-edmonton",
+    "notes": "दूसरा नाम: MAC Islamic Centre Edmonton।",
+    "jumuahNote": "जुमे की तीन नमाज़ें: दोपहर 1:00, 2:00, 3:00 बजे; हर नमाज़ में 400 लोग हो जाने पर दरवाज़े बंद हो जाते हैं; \"12 साल से छोटे बच्चे नहीं\"।"
+  },
+  {
+    "id": "ruh-a-ruh-mosque-edmonton",
+    "notes": "दूसरे नाम: Soul Community Center; Ruh a Ruh Mosque।",
+    "womenSpaceNote": "होमपेज पर बुक किया जा सकने वाला \"Women's Space\" हॉल दिया गया है (\"महिलाओं की बड़ी महफ़िलों के लिए\"); महिलाओं की नमाज़ की अलग जगह के बारे में कुछ नहीं बताया गया।",
+    "jumuahNote": "होमपेज: \"जुमा: जुमे की नमाज़ अज़ान के 10 मिनट बाद। ख़ुतबे के बाद जमाअत से नमाज़\"।",
+    "parkingNote": "होमपेज पर \"मेहमानों के लिए पार्किंग सूचना\": मेहमानों से ज़िम्मेदारी से गाड़ी खड़ी करने और पड़ोस की दुकानों का रास्ता न रोकने को कहा गया है।"
+  },
+  {
+    "id": "sahaba-mosque-edmonton"
+  },
+  {
+    "id": "markaz-ul-islam-fort-mcmurray",
+    "newMuslimSupportNote": "नए मुसलमान (शहादा) सहायता पेज पर शहादा का इंतज़ाम, नमाज़, वुज़ू और बुनियादी अक़ीदों का परिचय, समुदाय से एक साथी, और परिवार के दबाव में मदद दी गई है। एक फ़ॉर्म में आप फ़ोन, मैसेज, ईमेल, आमने-सामने या ऑनलाइन सहारा चुन सकते हैं।"
+  },
+  {
+    "id": "islamic-association-of-grande-prairie",
+    "notes": "दूसरा नाम: IAGP।"
+  },
+  {
+    "id": "lethbridge-muslim-association",
+    "newMuslimSupportNote": "सेवाओं वाले पेज पर \"ख़ास तौर पर हाल ही में इस्लाम अपनाने वालों के लिए क्लासें और कार्यक्रम\" दिए गए हैं। होमपेज की सबसे नई घोषणा मार्च 2025 की है, इसलिए पूछ लें कि क्लासें अब भी चल रही हैं या नहीं।",
+    "jumuahNote": "जुमा दोपहर 1:30 बजे।"
+  },
+  {
+    "id": "islamic-association-of-medicine-hat",
+    "notes": "दूसरा नाम: IAMH।",
+    "jumuahNote": "पहला जुमा दोपहर 1:30 बजे; दूसरा जुमा 2:00 बजे।"
+  },
+  {
+    "id": "red-deer-islamic-centre",
+    "jumuahNote": "केंद्र में जुमे की दो नमाज़ें; समय नहीं पढ़ा गया।"
+  },
+  {
+    "id": "masjid-in-the-park-sherwood-park",
+    "womenSpaceNote": "भाइयों और बहनों के लिए नमाज़ के अलग हॉल और अलग दरवाज़े; माँओं के लिए एक कमरा, जिसमें लाइव आवाज़ आती है।",
+    "accessibilityNote": "पूरी तरह सुगम: व्हीलचेयर रैंप, सुगम शौचालय, और पूरी इमारत में लिफ़्ट।",
+    "jumuahNote": "होमपेज पर जुमे की नमाज़ और 250 से ज़्यादा लोगों की जगह का ज़िक्र है; समय नहीं बताया गया।"
+  },
+  {
+    "id": "muslim-association-of-st-albert",
+    "notes": "दूसरे नाम: MASA; St. Albert Mosque।",
+    "womenSpaceNote": "होमपेज: \"मुख्य मंज़िल और जिम वाला हिस्सा भाइयों के लिए है, जबकि दूसरी मंज़िल बहनों के लिए है\"।"
+  },
+  {
+    "id": "abu-bakr-al-siddiq-masjid-moose-jaw"
+  },
+  {
+    "id": "prince-albert-masjid"
+  },
+  {
+    "id": "darul-falah-islamic-centre-regina",
+    "jumuahNote": "जुमे की तीन नमाज़ें: ख़ुतबा दोपहर 1:00, 1:30 और 2:00 बजे (होमपेज)।"
+  },
+  {
+    "id": "iaos-regina-east-musallah",
+    "notes": "दूसरे नाम: East Regina Mosque; East Regina Musalla।",
+    "newMuslimSupportNote": "IAOS Regina पूरे शहर के लिए Converts Committee चलाता है, जिसमें साथियों का मार्गदर्शन, मस्जिद साथी कार्यक्रम और काउंसलिंग है। इस मुसल्ले का अपना कोई कार्यक्रम नहीं दिया गया।"
+  },
+  {
+    "id": "islamic-association-of-saskatchewan-inc-iaos-regina-mosque",
+    "womenSpaceNote": "परिचय वाला पेज: केंद्र में भाइयों और बहनों के लिए नमाज़ की अलग जगहें हैं।",
+    "newMuslimSupportNote": "IAOS Regina की Converts Committee साथियों का मार्गदर्शन, मस्जिद साथी कार्यक्रम, काउंसलिंग, किताबें और व्याख्यान देती है। होमपेज की समय-सारणी में शनिवार को इशा के बाद नए मुसलमानों की क्लास दी गई है।",
+    "jumuahNote": "पहला जुमा दोपहर 1:15 बजे, दूसरा जुमा 2:00 बजे (होमपेज)।"
+  },
+  {
+    "id": "islamic-society-of-regina-masjid",
+    "notes": "दूसरा नाम: ISR।",
+    "jumuahNote": "होमपेज: जुमा 1:15 pm | 1:45 pm।"
+  },
+  {
+    "id": "madni-islamic-center-mosque-inc-regina",
+    "jumuahNote": "होमपेज: जुमा दोपहर 1:30 बजे।"
+  },
+  {
+    "id": "regina-city-jamia-masjid",
+    "notes": "दूसरा नाम: RCJM।",
+    "womenSpaceNote": "संपर्क पेज: \"Regina City Jamia Masjid में पुरुषों और महिलाओं दोनों के लिए नमाज़ की सुविधा है।\"",
+    "newMuslimSupportNote": "इस्लाम में नए वाले पेज पर नए मुसलमानों के लिए \"शैक्षिक क्लासें, मार्गदर्शन के कार्यक्रम और आमने-सामने मार्गदर्शन के सत्र\" बताए गए हैं। साइन अप का तरीक़ा नहीं बताया गया, इसलिए फ़ोन या ईमेल करें।",
+    "jumuahNote": "होमपेज: जुमे का ख़ुतबा 1:10 pm, इक़ामत 1:30 pm।"
+  },
+  {
+    "id": "jamia-riyadhul-jannah-saskatoon",
+    "jumuahNote": "जुमा दोपहर 1:35 और 2:30 बजे (होमपेज)।"
+  },
+  {
+    "id": "prairie-muslim-association-saskatoon-masjid"
+  },
+  {
+    "id": "the-islamic-association-of-saskatchewan-inc-ias-masjid-saskatoon",
+    "jumuahNote": "पहला जुमा 1:00 pm (इक़ामत 1:30 pm); दूसरा जुमा 2:05 pm (इक़ामत 2:30 pm), होमपेज 2026-09-23।"
+  },
+  {
+    "id": "brandon-islamic-centre-inc",
+    "jumuahNote": "शुक्रवार का पहला ख़ुतबा 2:00 pm, दूसरा 3:00 pm।"
+  },
+  {
+    "id": "mia-steinbach-mussallah"
+  },
+  {
+    "id": "mia-pembina-valley-mussallah-winkler"
+  },
+  {
+    "id": "alhaqq-prayer-group-of-canada-inc-winnipeg",
+    "notes": "दूसरे नाम: Al-Haqq Canada; Al-Haqq Masjid। साइट पर हर रविवार की जमाअत वाली इबादत बताई गई है। रोज़ की और जुमे की नमाज़ों के बारे में पूछ लें।"
+  },
+  {
+    "id": "beit-naballa-mosque-winnipeg",
+    "jumuahNote": "होमपेज: \"हम पाँचों वक़्त की नमाज़ों और जुमे की नमाज़ के लिए खुले हैं\"।"
+  },
+  {
+    "id": "manitoba-dawah-center-winnipeg",
+    "womenSpaceNote": "दूसरा जुमा \"पुरुषों और महिलाओं दोनों के लिए\"; पहला जुमा सिर्फ़ पुरुषों के लिए।",
+    "jumuahNote": "होमपेज के मुताबिक़ जुमा दोपहर 1:35 बजे (सिर्फ़ पुरुष) और 2:25 बजे (पुरुष और महिलाएँ)।"
+  },
+  {
+    "id": "pioneer-mosque-winnipeg",
+    "notes": "दूसरे नाम: St. Vital Mosque; Hazelwood Mosque।",
+    "newMuslimSupportNote": "Manitoba Islamic Association की Converts Committee \"इस्लाम अपनाने वालों के द्वारा, इस्लाम अपनाने वालों के लिए\" चलाई जाती है। इसमें किताबों का पैकेज, मुलाक़ातें, सेमिनार और साथी व्यवस्था दी गई है। यह समिति किसी एक इमारत की नहीं, पूरी संस्था की सेवा करती है।",
+    "jumuahNote": "MIA: पाँचों वक़्त की नमाज़ों और जुमे की नमाज़ के लिए खुला; इस जगह के जुमे का समय नहीं बताया गया।"
+  },
+  {
+    "id": "winnipeg-central-mosque",
+    "womenSpaceNote": "सवाल-जवाब: \"WCM में पुरुषों और महिलाओं के बीच कोई दीवार या पर्दा नहीं है\"; आगे और पीछे के दोनों दरवाज़े परिवारों के लिए हैं।",
+    "accessibilityNote": "पीछे की पार्किंग में विकलांगों के लिए जगहें; इसके अलावा कुछ नहीं बताया गया।",
+    "jumuahNote": "जुमा: ख़ुतबा दोपहर 1:45 बजे, नमाज़ 2:15 बजे ख़त्म (होमपेज, 2026-09-23)।",
+    "parkingNote": "Toronto Street की तरफ़ मस्जिद से लगी पार्किंग में और मस्जिद के पीछे की पार्किंग में जगह है। पीछे वाली पार्किंग में विकलांगों के लिए कुछ जगहें हैं।"
+  },
+  {
+    "id": "winnipeg-grand-mosque-and-community-centre",
+    "notes": "दूसरे नाम: Waverley Mosque; MIA Grand Mosque।",
+    "newMuslimSupportNote": "Manitoba Islamic Association की Converts Committee \"इस्लाम अपनाने वालों के द्वारा, इस्लाम अपनाने वालों के लिए\" चलाई जाती है। इसमें किताबों का पैकेज, मुलाक़ातें, सेमिनार और साथी व्यवस्था दी गई है। यह समिति किसी एक इमारत की नहीं, पूरी संस्था की सेवा करती है।",
+    "jumuahNote": "MIA होमपेज: जुमा \"1:45 pm और 3:30 pm\"। MIA का मस्जिदों वाला पेज: \"दोनों मस्जिदें पाँचों वक़्त की नमाज़ों और जुमे की नमाज़ के लिए खुली हैं।\""
+  },
+  {
+    "id": "nova-scotia-islamic-community-centre-kearney-lake-masjid-bedford",
+    "notes": "इलाक़ा: Halifax Regional Municipality। दूसरे नाम: NSICC; Kearney Lake Masjid; Halifax Jamia Masjid।",
+    "womenSpaceNote": "संपर्क पेज पर बहनों की समिति और मुसलमान महिलाओं का सहायता ग्रुप दिया गया है; महिलाओं की नमाज़ की जगह के बारे में कुछ नहीं बताया गया।",
+    "jumuahNote": "होमपेज: \"शुक्रवार/जुमा (ख़ुतबा) 1:30 PM\"।"
+  },
+  {
+    "id": "dartmouth-masjid",
+    "notes": "दूसरा नाम: IANS Dartmouth Masjid।",
+    "jumuahNote": "दोपहर 1:30 बजे।"
+  },
+  {
+    "id": "the-centre-for-islamic-development-halifax",
+    "notes": "दूसरा नाम: CID।"
+  },
+  {
+    "id": "truro-masjid",
+    "jumuahNote": "13:30 बजे।"
+  },
+  {
+    "id": "fredericton-islamic-association-fia",
+    "womenSpaceNote": "महिलाओं के दरवाज़े का ज़िक्र है; नमाज़ की जगह के बारे में कोई जानकारी नहीं।",
+    "accessibilityNote": "महिलाओं के दरवाज़े के पास की पार्किंग विकलांग मेहमानों या बहनों के लिए आरक्षित है (होमपेज)।",
+    "jumuahNote": "होमपेज: \"12:30 PM और 1:30 PM\" (जुमे की दो नमाज़ें)।",
+    "parkingNote": "होमपेज पर पार्किंग के विकल्प दिए गए हैं: मुख्य पार्किंग, Princess Margaret Bridge के नीचे, और सड़क के किनारे, भीड़ के समय के लिए सलाह के साथ।"
+  },
+  {
+    "id": "masjid-yusuf-moncton",
+    "notes": "दूसरा नाम: Masjid Yusuf Islamic Center।"
+  },
+  {
+    "id": "moncton-muslim-association"
+  },
+  {
+    "id": "al-falah-islamic-center-st-john-s",
+    "notes": "दूसरा नाम: ICNA NewFoundLand।",
+    "visitorNotes": "अंग्रेज़ी में सेवाओं की पुष्टि: (शुक्रवार के हल्क़े पर \"भाषा अंग्रेज़ी\" लिखा है)।",
+    "jumuahNote": "होमपेज: \"जुमा 12:45 Farmers' Market में पहला, 1:15 Farmers' Market में दूसरा\" (मस्जिद से बाहर)।",
+    "parkingNote": "होमपेज पर पार्किंग के नियम: मस्जिद की तय पार्किंग इस्तेमाल करें; \"अगर मस्जिद की पार्किंग भर जाए, तो आप सड़क के उसी तरफ़ गाड़ी खड़ी कर सकते हैं जिस तरफ़ मस्जिद है।\""
+  },
+  {
+    "id": "masjid-al-noor-st-john-s",
+    "notes": "दूसरे नाम: Masjid An-Noor; MANAL।",
+    "jumuahNote": "गतिविधियों वाला पेज: हर शुक्रवार Masjid Suleman Dawood में एक जुमा, 12:50 pm से 1:20 pm तक (Al-Noor में नहीं)।"
+  },
+  {
+    "id": "masjid-suleman-dawood-st-john-s",
+    "womenSpaceNote": "ईद की सूचना: बहनों का आना-जाना पीछे के दरवाज़े से।",
+    "jumuahNote": "\"हर शुक्रवार Masjid Suleman Dawood में जुमे की एक नमाज़, 12:50 pm से शुरू होकर 1:20 pm पर ख़त्म\" (MANAL)।",
+    "parkingNote": "ईद की सूचनाएँ: सिर्फ़ तय पार्किंग में गाड़ी खड़ी करें, स्वयंसेवकों के निर्देश मानें।"
+  },
+  {
+    "id": "muslim-society-of-prince-edward-island-masjid-dar-as-salam-charlottetown",
+    "notes": "दूसरे नाम: Dar As-Salam Mosque; Muslim Society of PEI।",
+    "jumuahNote": "होमपेज: पहला जुमा दोपहर 1:20 बजे, दूसरा जुमा 2:00 बजे।"
+  },
+  {
+    "id": "yukon-muslim-society-inc-whitehorse",
+    "notes": "दूसरे नाम: Yukon Muslims Society; Whitehorse Mosque।",
+    "visitorNotes": "अंग्रेज़ी में सेवाओं की पुष्टि: जुमे का ख़ुतबा अंग्रेज़ी में होता है।",
+    "womenSpaceNote": "दौरे वाला पेज: \"नमाज़ हॉल में जाने से पहले महिलाओं से सिर ढकने को कहा जाएगा।\" आधिकारिक पेजों पर महिलाओं की अलग जगह के बारे में नहीं बताया गया।",
+    "newMuslimSupportNote": "शहादा वाले पेज पर लिखा है \"नए मुसलमानों को इस्लाम सीखने और उस पर अमल करने के लिए हमारे पास आने का न्योता है।\" जुमे का ख़ुतबा अंग्रेज़ी में होता है।",
+    "accessibilityNote": "व्हीलचेयर से पहुँचा जा सकता है।",
+    "parkingNote": "मस्जिद की पार्किंग है; एक सुगम जगह।"
+  },
+  {
+    "id": "midnight-sun-mosque-inuvik"
+  },
+  {
+    "id": "iqaluit-masjid",
+    "jumuahNote": "परिचय वाले पेज पर \"क्या हर शुक्रवार जुमे की नमाज़ होती है?\" का जवाब हाँ है; समय नहीं बताया गया।"
   }
 ]
