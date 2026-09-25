@@ -1,475 +1,289 @@
 [
   {
     "id": "clear-quran-translation",
-    "title": "The Clear Quran by Dr. Mustafa Khattab",
-    "type": "book",
-    "url": "https://www.theclearquran.org/",
-    "description": "《古兰经》含义的可读现代英语翻译，语言清晰，适合初学者。",
-    "relatedStepIds": ["quran"],
-    "relatedTopicIds": ["quran", "prophet-muhammad"],
-    "organization": "The Clear Quran",
-    "bestFor": "用清晰的英语阅读《古兰经》的含义",
-    "trustNote": "使用翻译作为意义，而不是作为阿拉伯古兰经的替代品。",
-    "sourceIds": ["clear-quran"],
-    "reviewStatus": "source-checked"
+    "title": "The Clear Quran（Dr. Mustafa Khattab 译）",
+    "description": "一部现代英文古兰经含义译本，用浅显的语言写成，第一次读古兰经的人也能看懂。",
+    "bestFor": "用清楚的英文阅读古兰经的含义",
+    "trustNote": "请把译本当作含义来读，而不是阿拉伯语古兰经的替代品。"
   },
   {
     "id": "welcome-to-islam-book",
-    "title": "Welcome to Islam",
-    "type": "community",
-    "url": "https://welcometoislam.net/",
-    "description": "一个新的穆斯林支持网站，提供介绍性学习和实用的后续材料。",
-    "relatedStepIds": ["shahada", "first-24-hours", "prayer-on-ramp"],
-    "relatedTopicIds": ["new-muslim-basics", "beliefs"],
-    "organization": "Welcome to Islam",
-    "bestFor": "清真言后的第一次定向",
-    "trustNote": "早期的书籍归属尚不清楚，因此现在指向可识别的官方网站。",
-    "sourceIds": ["welcome-to-islam"],
-    "reviewStatus": "source-checked"
+    "title": "Welcome to Islam: A Step-by-Step Guide for New Muslims",
+    "description": "Mustafa Umar 为你作为穆斯林的第一个月写的一本简短指南，涵盖基础知识以及新穆斯林常遇到的困难。",
+    "bestFor": "念清真言之后的最初几天和几周",
+    "trustNote": "共32页，可以在网上免费阅读。作者是一位伊玛目，也是北美教法委员会（Fiqh Council of North America）的成员。"
   },
   {
     "id": "quran-com",
     "title": "Quran.com",
-    "type": "app",
-    "url": "https://quran.com/",
-    "description": "免费的网络和移动古兰经访问，包括翻译、音译和音频朗诵。",
-    "relatedStepIds": ["quran", "daily-dua-dhikr"],
-    "relatedTopicIds": ["quran", "dua-and-dhikr"],
-    "organization": "Quran Foundation",
-    "bestFor": "听力、阅读和比较翻译",
-    "trustNote": "对于学习链接很有用；翻译措辞仍应标注含义。",
-    "sourceIds": ["quran-com"],
-    "reviewStatus": "source-checked"
+    "description": "在网页和手机上免费阅读古兰经，附有译文、拉丁字母转写和诵读音频。",
+    "bestFor": "聆听、阅读和比较不同译本",
+    "trustNote": "由非营利机构 Quran.Foundation 运营，没有广告。你不需要注册账户。该网站使用 Google Analytics。"
   },
   {
     "id": "new-muslim-academy",
     "title": "New Muslim Academy",
-    "type": "article",
-    "url": "https://www.newmuslimacademy.org/",
-    "description": "以初学者为中心的教育，专门为最近进入伊斯兰教的人设计。",
-    "relatedStepIds": [
-      "first-24-hours",
-      "questions-and-doubts",
-      "asking-an-imam"
-    ],
-    "relatedTopicIds": ["new-muslim-basics", "questions-and-doubts"],
-    "organization": "New Muslim Academy",
-    "bestFor": "结构化的初学者学习",
-    "trustNote": "适合打基础；向合格的老师询问个人裁决。",
-    "sourceIds": ["new-muslim-academy"],
-    "reviewStatus": "source-checked"
+    "description": "专门为最近成为穆斯林的人编写的初学者课程和文章。",
+    "bestFor": "系统的初学者学习",
+    "trustNote": "适合打基础。个人的教法判断请向有资质的老师请教。"
   },
   {
     "id": "yaqeen-institute",
     "title": "Yaqeen Institute for Islamic Research",
-    "type": "video",
-    "url": "https://yaqeeninstitute.org/",
-    "description": "关于信仰问题、灵性和当代问题的基于研究的文章、视频和信息图表。",
-    "relatedStepIds": ["knowledge", "questions-and-doubts"],
-    "relatedTopicIds": ["beliefs", "questions-and-doubts", "prophet-muhammad"],
-    "organization": "Yaqeen Institute",
-    "bestFor": "信仰问题和更深入的反思",
-    "trustNote": "有助于了解背景，而不会将早期伊斯兰教变成辩论过多。",
-    "sourceIds": ["yaqeen-institute"],
-    "reviewStatus": "source-checked"
+    "description": "用有资料来源的研究来回答信仰问题、疑惑和灵性问题的文章、视频和信息图。",
+    "bestFor": "信仰问题与深入思考",
+    "trustNote": "有助于了解背景知识，又不会让刚入教的你陷入过多的辩论。"
   },
   {
     "id": "bayyinah-tv",
     "title": "Bayyinah TV",
-    "type": "video",
-    "url": "https://www.bayyinah.tv/",
-    "description": "《古兰经》和阿拉伯语课程专为各个级别的学习者（包括完全初学者）而设计。",
-    "relatedStepIds": ["quran", "knowledge"],
-    "relatedTopicIds": ["quran"],
-    "organization": "Bayyinah",
-    "bestFor": "古兰经语言动机",
-    "trustNote": "尽可能与当地教师一起用作学习辅助工具。",
-    "sourceIds": ["bayyinah"],
-    "reviewStatus": "source-checked"
+    "description": "从字母开始教的古兰经和阿拉伯语课程，完全的初学者也能使用。",
+    "bestFor": "激发学习古兰经语言的兴趣",
+    "trustNote": "需要付费订阅（2026年9月23日查看时为每月11美元）。如果负担不起，可以申请一年的免费会员资格。可能的话，请与当地的老师配合使用。"
   },
   {
     "id": "new-muslim-guide-icna",
     "title": "ICNA New Muslim Support",
-    "type": "community",
-    "url": "https://www.icna.org/",
-    "description": "一个北美穆斯林组织，拥有教育、外展和当地社区联系。",
-    "relatedStepIds": ["community", "first-masjid-visit", "asking-an-imam"],
-    "relatedTopicIds": ["community", "masjid-and-community"],
-    "organization": "Islamic Circle of North America",
+    "description": "一个总部在美国的穆斯林组织，它的网站列出了为新穆斯林开设的项目，比如 Embrace、WhyIslam 以及定期的归信者聚会。",
     "bestFor": "在北美寻找社区支持",
-    "trustNote": "当地的活动有所不同，因此请与最近的分会或清真寺确认详细信息。",
-    "sourceIds": ["icna"],
-    "reviewStatus": "source-checked"
+    "trustNote": "它的页面主要面向美国。关于加拿大的项目，请问问离你最近的清真寺。"
   },
   {
     "id": "whyislam",
     "title": "WhyIslam",
-    "type": "community",
-    "url": "https://www.whyislam.org/",
-    "description": "介绍性伊斯兰教资源、一对一对话和新的穆斯林支持材料。",
-    "relatedStepIds": ["shahada", "first-24-hours", "family-and-friends"],
-    "relatedTopicIds": [
-      "beliefs",
-      "community",
-      "new-muslim-basics",
-      "family-and-identity"
-    ],
-    "organization": "WhyIslam",
-    "bestFor": "为您或家人提供简单的解释",
-    "trustNote": "对于温和的公共教育和第一个问题很有用。",
-    "sourceIds": ["whyislam"],
-    "reviewStatus": "source-checked"
+    "description": "对伊斯兰的浅显介绍、一对一的交谈，以及给新穆斯林的支持材料。",
+    "bestFor": "为你自己或家人提供简单的解释",
+    "trustNote": "适合温和的公众教育和最初的问题。"
   },
   {
     "id": "learn-salah-guide",
-    "title": "New Muslim Guide - Prayer",
-    "type": "article",
-    "url": "https://newmuslimguide.com/en/categories/your-prayer",
-    "description": "适合初学者的祷告解释，包括准备、祷告时间和学习基础知识。",
-    "relatedStepIds": ["prayer", "prayer-on-ramp", "first-jumuah"],
-    "relatedTopicIds": ["prayer", "purification"],
-    "organization": "New Muslim Guide",
-    "bestFor": "逐步学习祈祷基础知识",
-    "trustNote": "可能存在意见分歧；将其用作初学者指南并在当地询问详细信息。",
-    "sourceIds": ["new-muslim-guide"],
-    "reviewStatus": "source-checked"
+    "title": "New Muslim Guide：礼拜",
+    "description": "为初学者讲解礼拜：如何准备，每次礼拜在什么时间，以及先学什么。",
+    "bestFor": "一步一步学习礼拜的基础",
+    "trustNote": "学者们在一些细节上有分歧。把它当作初学者指南来用，其余的在当地请教。"
   },
   {
     "id": "new-muslim-guide-site",
     "title": "New Muslim Guide",
-    "type": "article",
-    "url": "https://newmuslimguide.com/en",
-    "description": "内容广泛的在线指南，涵盖崇拜、信仰、礼仪和日常生活必需品。",
-    "relatedStepIds": [
-      "shahada",
-      "ghusl",
-      "prayer",
-      "halal-eating-practical",
-      "modesty-and-clothing"
-    ],
-    "relatedTopicIds": [
-      "beliefs",
-      "purification",
-      "prayer",
-      "halal-living",
-      "modesty"
-    ],
-    "organization": "New Muslim Guide",
-    "bestFor": "一站式初学者参考",
-    "trustNote": "最适合用于基金会，而不是作为个性化的追杀令来源。",
-    "sourceIds": ["new-muslim-guide"],
-    "reviewStatus": "source-checked"
+    "description": "一份内容广泛的网上指南，涵盖崇拜、信仰、礼节和日常基础知识。",
+    "bestFor": "一站式的初学者参考",
+    "trustNote": "最适合用来打基础，而不是作为个人法特瓦的来源。"
   },
   {
     "id": "quran-recitation-mishary",
-    "title": "Quran Recitation by Mishary Rashid Alafasy",
-    "type": "video",
-    "url": "https://quran.com/reciters/7",
-    "description": "清晰的古兰经背诵对于听力练习和熟悉古兰经声音很有帮助。",
-    "relatedStepIds": ["quran"],
-    "relatedTopicIds": ["quran"],
-    "organization": "Quran.com",
-    "bestFor": "听力和发音暴露",
-    "trustNote": "学习背诵时，慢慢地听，并与老师配对背诵。",
-    "sourceIds": ["quran-com"],
-    "reviewStatus": "source-checked"
+    "title": "Mishary Rashid Alafasy 的古兰经诵读",
+    "description": "清晰、从容的诵读，适合在你熟悉古兰经的声音时聆听。",
+    "bestFor": "多听，熟悉发音",
+    "trustNote": "慢慢听；学习诵读时，请配合一位老师。"
   },
   {
     "id": "ramadan-guide-yaqeen",
-    "title": "Ramadan Resources by Yaqeen Institute",
-    "type": "article",
-    "url": "https://yaqeeninstitute.org/ramadan",
-    "description": "斋月文章、精神反思以及礼拜和准备的实用提醒。",
-    "relatedStepIds": ["fasting"],
-    "relatedTopicIds": ["fasting"],
-    "organization": "Yaqeen Institute",
-    "bestFor": "为斋月做好精神准备",
-    "trustNote": "个人禁食例外情况应由合格的当地学者审查。",
-    "sourceIds": ["yaqeen-institute"],
-    "reviewStatus": "source-checked"
+    "title": "Yaqeen Institute 斋月资源",
+    "description": "关于斋月的文章和感想，还有为斋月做准备、坚持功修的实用提醒。",
+    "bestFor": "在灵性上为斋月做准备",
+    "trustNote": "个人的斋戒豁免情况，应该和当地有资质的学者一起审视。"
   },
   {
     "id": "khalil-center",
-    "title": "Khalil Center - Muslim Mental Health",
-    "type": "community",
-    "url": "https://khalilcenter.com/",
-    "description": "为穆斯林提供信仰敏感的治疗和支持服务。",
-    "relatedStepIds": ["community", "family-and-friends"],
-    "relatedTopicIds": ["community", "family-and-identity"],
-    "organization": "Khalil Center",
-    "bestFor": "信仰敏感的心理健康支持",
-    "trustNote": "这不是紧急护理；而是紧急护理。如果存在直接危险，请使用危机服务。",
-    "sourceIds": ["khalil-center"],
-    "reviewStatus": "source-checked"
+    "title": "Khalil Center：穆斯林心理健康",
+    "description": "为穆斯林提供的心理治疗和支持服务，由认真对待信仰层面的临床医生提供。",
+    "bestFor": "尊重信仰的心理健康支持",
+    "trustNote": "这不是急救服务。如果有紧急危险，请使用危机服务。"
+  },
+  {
+    "id": "becoming-muslim-report",
+    "title": "Becoming Muslim: The Lives of American Converts to Islam",
+    "description": "Yaqeen Institute 2025年的一份报告，基于对美国618名归信者的调查。它探讨了归信之后哪些东西帮助了他们，包括清真寺、伊玛目和穆斯林朋友，以及为什么支持需要在最初几个月之后长期持续下去。",
+    "bestFor": "了解其他归信者如何适应，以及他们觉得哪些支持有帮助",
+    "trustNote": "这是一份关于美国归信者的研究报告，不是心理健康指南。如果遇到危机或持续的痛苦，请寻求临床帮助。"
   },
   {
     "id": "seekers-guidance",
     "title": "SeekersGuidance",
-    "type": "article",
-    "url": "https://seekersguidance.org/",
-    "description": "由合格学者教授的关于伊斯兰科学的免费课程和问答。",
-    "relatedStepIds": [
-      "knowledge",
-      "prayer",
-      "asking-an-imam",
-      "questions-and-doubts"
-    ],
-    "relatedTopicIds": ["beliefs", "prayer", "questions-and-doubts", "modesty"],
-    "organization": "SeekersGuidance",
-    "bestFor": "与合格的老师一起学习",
-    "trustNote": "适合结构化知识；询问当地的具体情况。",
-    "sourceIds": ["seekersguidance"],
-    "reviewStatus": "source-checked"
+    "description": "由有资质的学者讲授的伊斯兰学科免费课程和问答服务。",
+    "bestFor": "跟着有资质的老师学习",
+    "trustNote": "适合系统地学习知识。关于你自己的情况，请在当地请教。"
   },
   {
     "id": "being-muslim-book",
-    "title": "Being Muslim: A Practical Guide by Asad Tarsin",
-    "type": "book",
-    "url": "https://www.sandalapress.com/being-muslim",
-    "description": "一本实用手册，涵盖新穆斯林和回归穆斯林的崇拜、灵性和社区生活。",
-    "relatedStepIds": [
-      "prayer",
-      "fasting",
-      "knowledge",
-      "modesty-and-clothing"
-    ],
-    "relatedTopicIds": ["beliefs", "prayer", "fasting", "new-muslim-basics"],
-    "organization": "Sandala Press",
-    "bestFor": "一本冷静的基础实体书",
-    "trustNote": "用作一般教育，并与当地教师配对解决个人问题。",
-    "sourceIds": ["sandala-press"],
-    "reviewStatus": "source-checked"
+    "title": "Being Muslim: A Practical Guide",
+    "description": "一本关于崇拜、灵性和社区生活的实用手册，为新穆斯林和重新回归的穆斯林而写。",
+    "bestFor": "一本适合打基础的、让人平静的纸质书",
+    "trustNote": "作为一般性的知识介绍来用；个人问题请配合当地的老师。"
   },
   {
     "id": "halal-living-guide",
-    "title": "New Muslim Guide - Food and Drink",
-    "type": "article",
-    "url": "https://newmuslimguide.com/en/categories/your-food-and-drink",
-    "description": "关于清真食品、外出就餐、成分的清晰初学者指南，并避免过度检查。",
-    "relatedStepIds": ["halal-haram", "halal-eating-practical"],
-    "relatedTopicIds": ["halal-living"],
-    "organization": "New Muslim Guide",
-    "bestFor": "杂货店和餐厅基础知识",
-    "trustNote": "成分和认证详细信息因国家/地区而异；不确定时询问当地。",
-    "sourceIds": ["new-muslim-guide-food-drink"],
-    "reviewStatus": "source-checked"
+    "title": "New Muslim Guide：饮食",
+    "description": "关于清真食品的初学者指导：阅读配料表，在外就餐，以及知道查到什么程度就够了。",
+    "bestFor": "买菜和下馆子的基础知识",
+    "trustNote": "配料和认证的细节因国家而异，所以不确定时请在当地询问。"
   },
   {
     "id": "seerah-podcast",
-    "title": "Seerah Series by Yasir Qadhi",
-    "type": "video",
-    "url": "https://www.youtube.com/playlist?list=PLAEA99D24CA2F9A8F",
-    "description": "关于先知穆罕默德生平的详细讲座系列，愿他安息。",
-    "relatedStepIds": ["knowledge"],
-    "relatedTopicIds": ["beliefs", "prophet-muhammad"],
-    "organization": "Yasir Qadhi",
-    "bestFor": "长篇seerah听力",
-    "trustNote": "这比第一周的资源更深；慢慢来。",
-    "sourceIds": [],
-    "reviewStatus": "source-checked"
+    "title": "Yasir Qadhi 的先知传记系列讲座",
+    "description": "一套关于先知穆罕默德（愿主福安之）生平的长篇详细讲座。",
+    "bestFor": "长篇的先知传记收听",
+    "trustNote": "这比第一周需要的资源深入得多。慢慢来。"
   },
   {
     "id": "wudu-tutorial",
-    "title": "New Muslim Guide - Purification",
-    "type": "article",
-    "url": "https://newmuslimguide.com/en/categories/your-purification",
-    "description": "适合初学者的小净、大净和仪式净化基础知识指南。",
-    "relatedStepIds": ["ghusl", "prayer"],
-    "relatedTopicIds": ["purification", "prayer"],
-    "organization": "New Muslim Guide",
-    "bestFor": "无视频压力学习小净和大净",
-    "trustNote": "如果您不确定，应与值得信赖的老师讨论敏感细节。",
-    "sourceIds": ["new-muslim-guide"],
-    "reviewStatus": "source-checked"
+    "title": "New Muslim Guide：洁净",
+    "description": "一份关于小净、大净和仪式洁净基础的文字指南。",
+    "bestFor": "不用看视频也能学会小净和大净",
+    "trustNote": "如果不确定，敏感的细节应该和你信任的老师讨论。"
   },
   {
     "id": "convert-story-videos",
-    "title": "Convert Stories - The Deen Show",
-    "type": "video",
-    "url": "https://www.youtube.com/c/TheDeenShowTV",
-    "description": "对皈依伊斯兰教的人进行视频采访，有助于鼓励和减少孤独感。",
-    "relatedStepIds": ["shahada", "community", "family-and-friends"],
-    "relatedTopicIds": ["community", "family-and-identity"],
-    "organization": "The Deen Show",
-    "bestFor": "通过故事进行情感鼓励",
-    "trustNote": "故事是个人经历，而不是裁决的来源。",
-    "sourceIds": [],
-    "reviewStatus": "source-checked"
+    "title": "The Deen Show 的归信者故事",
+    "description": "对成为穆斯林的人的视频访谈。在你觉得自己是唯一一个的时候，很适合看看。",
+    "bestFor": "通过故事获得情感上的鼓励",
+    "trustNote": "这些故事是个人经历，不是教法判断的来源。"
   },
   {
     "id": "fortress-muslim-dua-book",
-    "title": "Fortress of the Muslim",
-    "type": "book",
-    "url": "https://darussalam.com/fortress-of-the-muslim-pocket-size/",
-    "description": "广泛使用的 dua 和 dhikr 合集，取自《古兰经》和《圣行》参考文献。",
-    "relatedStepIds": ["prayer", "character", "daily-dua-dhikr"],
-    "relatedTopicIds": ["prayer", "dua-and-dhikr"],
-    "organization": "Darussalam",
-    "bestFor": "每日 dua 和 dhikr 参考",
-    "trustNote": "这用可识别的发布者页面取代了匿名 PDF 镜像。",
-    "sourceIds": ["darussalam"],
-    "reviewStatus": "source-checked"
+    "title": "Fortress of the Muslim（《穆斯林的堡垒》）",
+    "description": "一本被广泛使用的祈祷词和记主词句合集，每一条都注明了古兰经或圣行的出处。",
+    "bestFor": "日常祈祷和记主的参考",
+    "trustNote": "这里用一个可以确认身份的出版方页面，代替了来源不明的 PDF 镜像。"
   },
   {
     "id": "aboutislam-new-muslims",
-    "title": "AboutIslam - New Muslims",
-    "type": "article",
-    "url": "https://aboutislam.net/reading-islam/new-muslims/",
-    "description": "为新穆斯林提供关于信仰、身份、家庭和社区的文章和常见问题解答。",
-    "relatedStepIds": ["shahada", "community", "family-and-friends"],
-    "relatedTopicIds": ["beliefs", "community", "family-and-identity"],
-    "organization": "AboutIslam",
+    "title": "AboutIslam：新穆斯林",
+    "description": "为正在思考信仰、身份、家庭和社区问题的新穆斯林准备的简短文章和常见问题。",
     "bestFor": "简短的初学者文章",
-    "trustNote": "用作支持性读物，并与合格的学者确认详细的裁决。",
-    "sourceIds": ["aboutislam"],
-    "reviewStatus": "source-checked"
+    "trustNote": "作为支持性的阅读材料使用；详细的教法判断请向有资质的学者确认。"
   },
   {
     "id": "tarteel-ai-app",
-    "title": "Tarteel AI - Quran Recitation Helper",
-    "type": "app",
-    "url": "https://www.tarteel.ai/",
-    "description": "一款支持古兰经记忆和背诵练习并带有反馈工具的应用程序。",
-    "relatedStepIds": ["quran"],
-    "relatedTopicIds": ["quran"],
-    "organization": "Tarteel AI",
-    "bestFor": "课间诵读《古兰经》练习",
-    "trustNote": "应用程序反馈是一种练习辅助工具，不能替代老师。",
-    "sourceIds": ["tarteel"],
-    "reviewStatus": "source-checked"
+    "title": "Tarteel AI：古兰经诵读助手",
+    "description": "一款在你诵读时聆听、并标出你念错之处的应用，用于背诵和诵读练习。",
+    "bestFor": "两次课之间练习古兰经诵读",
+    "trustNote": "应用的反馈只是练习的辅助，不能代替老师。Tarteel 的隐私政策（最近更新于2023年5月26日）说，语音录音存储在美国，并用于训练它的人工智能，其中一些会由人工审听，这款应用还使用分析工具和 Google Cookie。免费用户可以删除录音；只有高级版用户可以选择不参与人工智能训练。录音之前请先阅读这份政策。"
   },
   {
     "id": "purification-fiqh-guide",
-    "title": "New Muslim Guide - Purification",
-    "type": "article",
-    "url": "https://newmuslimguide.com/en/categories/your-purification",
-    "description": "为初学者逐步解释小净、大净和净化。",
-    "relatedStepIds": ["ghusl"],
-    "relatedTopicIds": ["purification"],
-    "organization": "New Muslim Guide",
-    "bestFor": "纯化基础知识",
-    "trustNote": "一些细节上存在意见分歧，请当地询问个人情况。",
-    "sourceIds": ["new-muslim-guide"],
-    "reviewStatus": "source-checked"
+    "title": "New Muslim Guide：洁净",
+    "description": "为初学者编写的关于小净、大净以及更广泛的洁净规定的分步讲解。",
+    "bestFor": "洁净的基础知识",
+    "trustNote": "一些细节上存在意见分歧，所以个人情况请在当地请教。"
   },
   {
     "id": "naseeha-mental-health",
-    "title": "Naseeha Mental Health",
-    "type": "community",
-    "url": "https://www.naseeha.org/",
-    "description": "穆斯林心理健康热线和支持组织，为需要倾诉的人提供服务。",
-    "relatedStepIds": [
-      "community",
-      "family-and-friends",
-      "questions-and-doubts"
-    ],
-    "relatedTopicIds": [
-      "community",
-      "family-and-identity",
-      "questions-and-doubts"
-    ],
-    "organization": "Naseeha",
-    "bestFor": "穆斯林心理健康支持和帮助热线路由",
-    "trustNote": "如果存在危险或自残风险，请立即使用紧急服务或危机热线。",
-    "sourceIds": ["naseeha"],
-    "reviewStatus": "source-checked"
+    "title": "Naseeha 求助热线",
+    "description": "由 Naseeha Mental Health 运营的、面向加拿大穆斯林青少年的全天候求助热线，在你需要找人倾诉时可以拨打。",
+    "bestFor": "穆斯林心理健康支持和求助热线转介",
+    "trustNote": "如果有危险或自我伤害的风险，请立即使用紧急服务或危机热线。"
   },
   {
     "id": "launchgood-zakat-policy",
-    "title": "LaunchGood Zakat Policy",
-    "type": "article",
-    "url": "https://www.launchgood.com/zakatpolicy",
-    "description": "公共天课政策示例，解释了一个捐赠平台如何对待符合天课资格的活动。",
-    "relatedStepIds": ["zakat-hajj"],
-    "relatedTopicIds": ["halal-living"],
-    "organization": "LaunchGood",
-    "bestFor": "查看平台如何记录天课资格",
-    "trustNote": "平台政策并不能取代对您自身财务状况的个人 Fiqh 审查。",
-    "sourceIds": ["launchgood-zakat"],
-    "reviewStatus": "review-needed"
+    "title": "LaunchGood 天课政策",
+    "description": "一个捐赠平台公开发布的政策，说明哪些募捐活动符合天课条件，以及原因。",
+    "bestFor": "了解一个平台如何说明天课的资格",
+    "trustNote": "平台的政策不能代替针对你个人财务的教法审核。"
   },
   {
     "id": "yaqeen-dhul-hijjah-resources",
-    "title": "Yaqeen Institute - Dhul Hijjah Resources",
-    "type": "article",
-    "url": "https://yaqeeninstitute.org/series/dhul-hijjah-playlist",
-    "description": "精心策划的 Dhul Hijjah 合集，包含反思、提醒和适合初学者的崇拜理念。",
-    "relatedStepIds": ["fasting", "zakat-hajj"],
-    "relatedTopicIds": ["fasting", "prophet-muhammad"],
-    "organization": "Yaqeen Institute",
-    "bestFor": "为回历的前十天做准备",
-    "trustNote": "用它来进行精神准备，并向有资格的人询问个人规则。",
-    "sourceIds": ["yaqeen-dhul-hijjah"],
-    "reviewStatus": "source-checked"
+    "title": "Yaqeen Institute：朝觐月资源",
+    "description": "一组关于朝觐月的感想和提醒，附有前十天里简单的功修建议。",
+    "bestFor": "为朝觐月的前十天做准备",
+    "trustNote": "用它来做灵性上的准备；个人的教法判断请询问有资质的人。"
   },
   {
     "id": "nusuk-hajj-official",
-    "title": "Nusuk Hajj Official Platform",
-    "type": "app",
-    "url": "https://hajj.nusuk.sa/",
-    "description": "沙特朝觐部和副朝监督下为符合条件的朝觐者提供的官方朝觐平台。",
-    "relatedStepIds": ["zakat-hajj"],
-    "relatedTopicIds": ["halal-living"],
-    "organization": "Nusuk Hajj / Ministry of Hajj and Umrah",
-    "bestFor": "检查官方朝觐登记和旅行路线",
-    "trustNote": "朝觐旅行规则发生变化；在花钱之前通过官方渠道确认当前的要求。",
-    "sourceIds": ["nusuk-hajj", "travel-state-hajj-umrah"],
-    "reviewStatus": "source-checked"
+    "title": "Nusuk 朝觐官方平台",
+    "description": "沙特官方的朝觐平台，由朝觐与副朝部管理，来自服务范围内国家的朝觐者可以在这里从授权服务商那里选择套餐。",
+    "bestFor": "查看官方的朝觐登记和出行安排",
+    "trustNote": "请先确认 Nusuk 在你计划的那一年是否为加拿大提供服务，并先阅读加拿大政府关于沙特阿拉伯的旅行建议。登记并不保证你能获得朝觐名额。"
   },
   {
     "id": "new-muslim-academy-quran-etiquette",
-    "title": "New Muslim Academy - Quran Etiquette",
-    "type": "article",
-    "url": "https://www.newmuslimacademy.org/etiquettes-of-touching-reading-the-quran-in-arabic-written-form/",
-    "description": "针对初学者的尊重穆沙夫、阅读翻译和学习《古兰经》礼仪的指导，无需惊慌。",
-    "relatedStepIds": ["quran"],
-    "relatedTopicIds": ["quran"],
-    "organization": "New Muslim Academy",
-    "bestFor": "尊重《古兰经》的处理基础知识",
-    "trustNote": "详细的纯度问题仍应由合格的当地教师进行审查。",
-    "sourceIds": ["new-muslim-academy-quran-etiquette"],
-    "reviewStatus": "review-needed"
+    "title": "New Muslim Academy：对待古兰经的礼节",
+    "description": "关于如何对待古兰经经本、阅读译本以及古兰经礼节的指导，写法让你不必为做错而慌张。",
+    "bestFor": "恭敬对待古兰经的基础知识",
+    "trustNote": "详细的洁净问题，仍然应该和当地有资质的老师一起审视。"
   },
   {
     "id": "yaqeen-seerah-collection",
-    "title": "Yaqeen Institute - Life of the Prophet",
-    "type": "video",
-    "url": "https://yaqeeninstitute.org/topic/life-of-the-prophet-seerah?filter=videos",
-    "description": "来自可识别的伊斯兰教育机构的大量西拉和先知人物收藏。",
-    "relatedStepIds": ["knowledge", "character"],
-    "relatedTopicIds": ["prophet-muhammad", "character"],
-    "organization": "Yaqeen Institute",
-    "bestFor": "循序渐进的聆听和性格反思",
-    "trustNote": "慢慢使用；初学者不需要一次消耗长系列。",
-    "sourceIds": ["yaqeen-seerah"],
-    "reviewStatus": "source-checked"
+    "title": "Yaqeen Institute：先知的一生",
+    "description": "一家有名有姓的研究机构制作的大量关于先知生平和品德的视频和文章。",
+    "bestFor": "循序渐进地收听先知传记，思考品德",
+    "trustNote": "慢慢来。没有必要一口气看完一个长系列。"
   },
   {
     "id": "seekersguidance-seerah",
-    "title": "SeekersGuidance - Study the Life of the Prophet",
-    "type": "article",
-    "url": "https://seekersguidance.org/articles/general-artices/life-of-the-prophet/",
-    "description": "通过结构化课程和可靠的教师学习 seerah 的简短指导。",
-    "relatedStepIds": ["knowledge"],
-    "relatedTopicIds": ["prophet-muhammad"],
-    "organization": "SeekersGuidance",
-    "bestFor": "寻找结构化的serah研究",
-    "trustNote": "适合学习路径；向合格的老师询问个人宗教问题。",
-    "sourceIds": ["seekersguidance-seerah"],
-    "reviewStatus": "source-checked"
+    "title": "SeekersGuidance：学习先知的一生",
+    "description": "一篇短文，讲如何通过系统的课程和可靠的老师正确地学习先知传记。",
+    "bestFor": "寻找系统的先知传记学习",
+    "trustNote": "适合系统的学习路线。个人的宗教问题请向有资质的老师请教。"
   },
   {
     "id": "new-muslim-academy-prophet-example",
-    "title": "New Muslim Academy - Following the Messenger",
-    "type": "article",
-    "url": "https://www.newmuslimacademy.org/the-messenger-muhammad-following-his-example/",
-    "description": "初学者介绍为什么穆斯林要效仿先知穆罕默德（愿主福安之）的榜样。",
-    "relatedStepIds": ["knowledge", "character"],
-    "relatedTopicIds": ["prophet-muhammad", "new-muslim-basics"],
-    "organization": "New Muslim Academy",
-    "bestFor": "穆斯林对先知榜样的新认识",
-    "trustNote": "用作初学者框架，并继续与合格的教师一起进行更深入的学习。",
-    "sourceIds": ["new-muslim-academy-prophet-example"],
-    "reviewStatus": "source-checked"
+    "title": "New Muslim Academy：追随使者",
+    "description": "一篇面向初学者的介绍，讲穆斯林为什么要效仿先知穆罕默德（愿主福安之）的榜样。",
+    "bestFor": "帮助新穆斯林了解先知的榜样",
+    "trustNote": "作为初学者的入门框架来用；更深入的先知传记请继续跟着有资质的老师学习。"
+  },
+  {
+    "id": "quran-com-al-fatihah-plan",
+    "title": "七天，七节经文（开端章）",
+    "description": "一周内每天学开端章的一节经文，逐词学习并了解含义，每课不到十分钟。",
+    "bestFor": "理解你在每一次礼拜中念的是什么",
+    "trustNote": "免费，不需要账户就能阅读。课程由 Shaykh Hammad Fahim 讲授。"
+  },
+  {
+    "id": "new-muslim-academy-quran-classes",
+    "title": "New Muslim Academy 古兰经直播课",
+    "description": "免费的网上小班课，学习诵读开端章和短章，在美东时间晚上上课。",
+    "bestFor": "跟着直播老师学习诵读",
+    "trustNote": "兄弟和姐妹分开授课。你需要填写一份报名表，而且这个网站使用分析工具和广告像素追踪。"
+  },
+  {
+    "id": "seekersguidance-essentials-course",
+    "title": "Essentials of Faith, Worship, and Spirituality",
+    "description": "一门免费的一级直播课程，讲信仰、崇拜和灵性的基础，每周六美东时间10:00上课。",
+    "bestFor": "入教一两个月后的第一门系统课程",
+    "trustNote": "由 Shaykh Faraz Rabbani 讲授。SeekersGuidance 表示它的所有课程都是免费的。"
+  },
+  {
+    "id": "yaqeen-quran-30-for-30",
+    "title": "Qur'an 30 for 30: Thematic Tafsir",
+    "description": "一本免费电子书，对古兰经30卷中的每一卷做简短的概述。",
+    "bestFor": "了解古兰经的全貌",
+    "trustNote": "作者是 Dr. Omar Suleiman 和 Sh. Ismail Kamdar。免费下载。"
+  },
+  {
+    "id": "mac-elearning",
+    "title": "MAC eLearning",
+    "description": "加拿大穆斯林协会（Muslim Association of Canada）提供的免费网上课程，内容涵盖古兰经、伊斯兰学科、家庭和历史。",
+    "bestFor": "六个月后按自己的节奏深入学习",
+    "trustNote": "一家加拿大慈善机构。开始之前请查看每门课程的程度。"
+  },
+  {
+    "id": "tafsir-ibn-kathir-juz-amma",
+    "title": "《伊本·凯西尔经注》节选本：第30卷",
+    "description": "对古兰经最后一卷中短章的经典注释。",
+    "bestFor": "想了解自己所诵读的章节的经典含义的读者",
+    "trustNote": "付费的纸质书。最好跟着老师一起读。"
+  },
+  {
+    "id": "pillars-app",
+    "title": "Pillars",
+    "description": "一款礼拜时间应用，有朝向、桌面小组件和多种计算方法，包括本网站使用的 ISNA 方法。",
+    "bestFor": "在手机上接收礼拜提醒",
+    "trustNote": "没有广告，不需要账户。你的位置信息保留在手机上。它使用匿名的分析工具，你可以在设置中关闭。"
+  },
+  {
+    "id": "cra-list-of-charities",
+    "title": "加拿大税务局（CRA）慈善机构名单",
+    "description": "加拿大税务局的名单，你可以在交天课或施舍之前，在这里查看一家慈善机构是否已经注册。",
+    "bestFor": "捐款前查看慈善机构",
+    "trustNote": "加拿大政府的官方名单。"
+  },
+  {
+    "id": "cafc-charity-fraud",
+    "title": "慈善和捐款诈骗",
+    "description": "慈善诈骗的警示信号，包括以宗教事业为名的募捐，以及如何查验注册号码。",
+    "bestFor": "识别虚假的募捐",
+    "trustNote": "加拿大政府的官方页面。"
   }
 ]
