@@ -4,7 +4,7 @@ import { Icon } from "@/components/Icon";
 import { AnimateIn } from "@/components/AnimateIn";
 import { PrintButton } from "@/components/PrintButton";
 import { SourceTags, SourcesPanel } from "@/components/SourceTags";
-import { getSourcesByIds } from "@/lib/content";
+import { getSourcesByIds, getStepById } from "@/lib/content";
 import {
   getDuaDhikrContent,
   type DuaEntry,
@@ -487,7 +487,11 @@ export default function DuaDhikrPage({
             <Icon name="chevron-right" size="sm" />
           </Button>
           <Button
-            href={localizeHref(locale, "/roadmap/week-1/questions-and-doubts")}
+            href={localizeHref(
+              locale,
+              // Built from the step's stage so a stage move cannot break it.
+              `/roadmap/${getStepById("questions-and-doubts", locale)?.stageId ?? "week-2-3"}/questions-and-doubts`,
+            )}
             variant="outline"
           >
             {copy.questionsButton}
