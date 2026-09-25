@@ -37,6 +37,16 @@ export default function HomePage({ params }: { params: { locale: Locale } }) {
       accent:
         "border-l-4 border-l-primary bg-gradient-to-br from-surfaceElevated to-primaryGreen/20",
     },
+    {
+      // Other locales may not have the fourth card translated yet, and arrays
+      // do not fall back to English per item.
+      ...(copy.paths[3] ??
+        getTranslator("en")<Messages["pages"]["home"]>("pages.home").paths[3]),
+      href: "/topics/thinking-about-islam",
+      icon: "lightbulb" as const,
+      accent:
+        "border-l-4 border-l-accentYellow bg-gradient-to-br from-surfaceElevated to-accentYellow/30",
+    },
   ];
   const firstSteps = [
     {
