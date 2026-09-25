@@ -1,256 +1,1268 @@
 [
   {
     "id": "islamic-society-of-toronto-dundas",
-    "name": "Islamic Society of Toronto - Masjid Darus Salaam",
-    "address": "20 Overlea Boulevard",
-    "city": "Toronto",
-    "stateProvince": "Ontario",
-    "country": "Canada",
-    "postalCode": "M4H 1A4",
-    "coordinates": {
-      "lat": 43.7046555,
-      "lng": -79.3514705
-    },
-    "phone": "(416) 467-0786",
-    "email": "info@islamicsocietyoftoronto.com",
-    "website": "https://www.islamicsocietyoftoronto.com/",
-    "notes": "Также известна как Масджид Дарус Салам. На официальном сайте перечислены ежедневные молитвы и программы исламского образования.",
-    "visitorNotes": "Воспользуйтесь официальным сайтом или свяжитесь с офисом перед посещением, поскольку время молитв, правила парковки и программы могут измениться.",
-    "jumuahNote": "На официальном сайте публикуются строки Джума и обновления времени молитвы; перед посещением подтвердите текущее расписание.",
-    "classSupportNote": "Официально перечисленные программы включают вечерние занятия по Корану, воскресное медресе, Хифз, Алим/Алима и основные изучения ислама.",
-    "parkingNote": "На официальном сайте есть специальное предупреждение о близлежащей частной парковке; перед поездкой проверьте текущие инструкции.",
-    "serviceIds": ["quran-classes", "weekend-school", "community-events"],
-    "sourceIds": ["masjid-ist-darus-salaam"],
-    "reviewStatus": "source-checked"
+    "notes": "Также известна как Masjid Darus Salaam. На официальном сайте указаны ежедневные намазы и программы исламского образования.",
+    "visitorNotes": "Перед визитом загляните на официальный сайт или позвоните в офис. Время намазов, сведения о парковке и программы меняются.",
+    "jumuahNote": "На официальном сайте публикуется время пятничной молитвы и обновления времени намазов. Уточните расписание перед визитом.",
+    "classSupportNote": "Среди программ: вечернее занятие по Корану, воскресное медресе, заучивание Корана (хифз), курсы алима и алимы и основы исламских знаний.",
+    "parkingNote": "Официальный сайт предупреждает о частной парковке поблизости. Прежде чем парковаться, прочитайте актуальные указания."
   },
   {
     "id": "taric-islamic-centre",
-    "name": "TARIC Islamic Centre",
-    "address": "99 Beverly Hills Drive",
-    "city": "North York",
-    "stateProvince": "Ontario",
-    "country": "Canada",
-    "postalCode": "M3L 1A2",
-    "coordinates": {
-      "lat": 43.7179655,
-      "lng": -79.5159803
-    },
-    "phone": "(416) 245-5675",
-    "email": "admin@taric.org",
-    "website": "https://taric.org/",
-    "notes": "Давно действующий исламский центр с расписанием общественных мероприятий и общественными программами.",
-    "visitorNotes": "Используйте официальный сайт или свяжитесь с центром, чтобы узнать текущее время Джума, мероприятия и поддержку посетителей.",
-    "classSupportNote": "В официальных материалах мероприятия перечислены семейные семинары, мероприятия Рамадана, праздник Ид, работа с населением и молодежные/семейные программы.",
-    "serviceIds": ["community-events", "youth-programs"],
-    "sourceIds": ["masjid-taric"],
-    "reviewStatus": "source-checked"
+    "notes": "Давно работающий исламский центр, который публикует расписание мероприятий и регулярно проводит программы для общины.",
+    "visitorNotes": "Уточните актуальное время пятничной молитвы, мероприятия и помощь для гостей на официальном сайте или по телефону центра.",
+    "classSupportNote": "В опубликованных материалах о мероприятиях указаны семейные семинары, мероприятия в Рамадан, праздники Ида, работа с общественностью и программы для молодёжи и семей."
   },
   {
     "id": "masjid-toronto-adelaide",
-    "name": "Masjid Toronto (Dundas)",
-    "address": "168 Dundas Street West",
-    "city": "Toronto",
-    "stateProvince": "Ontario",
-    "country": "Canada",
-    "postalCode": "M5G 1C6",
-    "coordinates": {
-      "lat": 43.6536,
-      "lng": -79.3849
-    },
-    "phone": "(416) 596-0507",
-    "website": "https://centres.macnet.ca/masjidtoronto/venue/toronto-dundas/",
-    "notes": "Мечеть в центре города, которой управляет MAC Masjid Toronto. Эта запись теперь соответствует адресу места проведения Дандаса.",
-    "visitorNotes": "В центре города вокруг Джумуа может быть многолюдно. Перед посещением подтвердите текущее время и информацию о входе.",
-    "jumuahNote": "Используйте официальный сайт Масджид Торонто для получения информации о текущей молитве и Джумуа.",
-    "sourceIds": ["masjid-toronto-dundas"],
-    "reviewStatus": "source-checked"
+    "notes": "Здание MAC Masjid Toronto на Dundas. Второе здание находится на Adelaide Street East.",
+    "visitorNotes": "В центре города во время пятничной молитвы бывает оживлённо, поэтому заложите больше времени. Перед визитом уточните расписание и нужный вход.",
+    "womenSpaceNote": "В молитвенный зал для сестёр ведёт лестница с табличкой Sister's Entrance.",
+    "newMuslimSupportNote": "Занятие After the Shahadah проходит здесь во 2-е и 4-е воскресенье после обеда. На официальной странице указаны два разных времени начала, поэтому напишите на convertconnect@masjidtoronto.com, чтобы уточнить. Группа Convert Connect Group встречается в 1-е и 3-е воскресенье после зухра, и можно попросить, чтобы вас встретили при первом визите.",
+    "accessibilityNote": "За молитвенным залом для братьев есть лифт.",
+    "jumuahNote": "Три пятничные молитвы (12:10, 13:10 и 14:10 в сентябре 2026 года). Расписание на текущую неделю смотрите на сайте.",
+    "classSupportNote": "На странице программ также указано исламское образование на языке жестов во 2-е и 4-е воскресенье."
   },
   {
     "id": "islamic-foundation-of-toronto",
-    "name": "Islamic Foundation of Toronto",
-    "address": "441 Nugget Avenue",
-    "city": "Scarborough",
-    "stateProvince": "Ontario",
-    "country": "Canada",
-    "postalCode": "M1S 5E1",
-    "coordinates": {
-      "lat": 43.7874,
-      "lng": -79.2636
-    },
-    "phone": "(416) 321-0909",
-    "email": "info@islamicfoundation.ca",
-    "website": "https://www.islamicfoundation.ca/",
-    "notes": "Большой общественный комплекс с богослужениями, образованием и общественными программами.",
-    "visitorNotes": "Подтвердите текущие программы, регистрацию на занятия и поддержку посетителей непосредственно перед посещением.",
-    "classSupportNote": "В официальных списках и списках, связанных с источниками, показаны образовательные программы, такие как Hifz, воскресная школа и общественные работы.",
-    "serviceIds": ["quran-classes", "weekend-school", "community-events"],
-    "sourceIds": ["masjid-islamic-foundation-toronto"],
-    "reviewStatus": "source-checked"
+    "notes": "Большой центр с молитвенным залом, занятиями и открытыми программами.",
+    "visitorNotes": "Перед визитом свяжитесь с офисом, чтобы уточнить программы, запись на занятия и какая помощь доступна гостям.",
+    "classSupportNote": "В опубликованных списках есть образовательные программы, включая заучивание Корана (хифз) и воскресную школу, а также услуги для общины."
   },
   {
     "id": "khalid-bin-al-walid-mosque",
-    "name": "Khalid Bin Al-Walid Mosque",
-    "address": "16 Bethridge Road",
-    "city": "Etobicoke",
-    "stateProvince": "Ontario",
-    "country": "Canada",
-    "postalCode": "M9W 1N1",
-    "coordinates": {
-      "lat": 43.7087605,
-      "lng": -79.5687599
-    },
-    "phone": "(416) 745-2888",
-    "email": "info@khalidmosque.com",
-    "website": "https://www.khalidmosque.com/",
-    "notes": "Мечеть Этобико с официальной контактной информацией и обновлениями программ сообщества.",
-    "visitorNotes": "Перед посещением свяжитесь с офисом или проверьте официальный сайт; старые списки адресов могут быть устаревшими.",
-    "jumuahNote": "Уточняйте текущее время Джумуа и молитв непосредственно в мечети.",
-    "sourceIds": ["masjid-khalid-bin-al-walid"],
-    "reviewStatus": "source-checked"
+    "notes": "Мечеть в Этобико, которая поддерживает актуальные контакты и новости о программах на своём сайте.",
+    "visitorNotes": "Перед визитом позвоните в офис или загляните на официальный сайт. В старых справочниках в других местах всё ещё указан устаревший адрес.",
+    "jumuahNote": "Уточняйте актуальное время пятничной молитвы и других намазов напрямую в мечети."
   },
   {
     "id": "imdadul-islamic-centre",
-    "name": "Imdadul Islamic Centre",
-    "address": "26 Le Page Court",
-    "city": "North York",
-    "stateProvince": "Ontario",
-    "country": "Canada",
-    "postalCode": "M3J 1Z9",
-    "coordinates": {
-      "lat": 43.759028,
-      "lng": -79.4869955
-    },
-    "phone": "(416) 636-0044",
-    "email": "imdaduljamat@gmail.com",
-    "website": "https://www.imdadulcentre.ca/",
-    "notes": "Общественная мечеть с программами поклонения, семьи, молодежи, волонтеров и информационно-пропагандистской деятельности.",
-    "visitorNotes": "Официальный сайт просит посетителей обращаться в мечеть с вопросами, поддержкой или участием.",
-    "jumuahNote": "На официальном сайте перечислены две молитвы Джума; перед посещением подтвердите текущее время.",
-    "classSupportNote": "В официальных описаниях упоминаются молитвенные службы, работа с населением, возможности волонтерства и семейные программы.",
-    "parkingNote": "Прибудьте пораньше в Джуму и сразу подтвердите инструкции по парковке.",
-    "serviceIds": ["community-events", "youth-programs"],
-    "sourceIds": ["masjid-imdadul-islamic-centre"],
-    "reviewStatus": "source-checked"
+    "notes": "Общинная мечеть с программами поклонения, для семей, молодёжи, волонтёров и работы с общественностью.",
+    "visitorNotes": "Официальный сайт просит гостей связываться с мечетью с вопросами, за поддержкой или чтобы узнать, чем помочь.",
+    "jumuahNote": "На официальном сайте указаны две пятничные молитвы. Перед визитом уточните актуальное время.",
+    "classSupportNote": "В опубликованных описаниях упоминаются намазы, работа с общественностью, волонтёрские вакансии и программы для семей.",
+    "parkingNote": "На пятничную молитву приходите заранее и спросите в мечети, где парковаться."
   },
   {
     "id": "masjid-el-noor",
-    "name": "Masjid El Noor",
-    "address": "277 Scott Road",
-    "city": "Toronto",
-    "stateProvince": "Ontario",
-    "country": "Canada",
-    "postalCode": "M6M 3V3",
-    "coordinates": {
-      "lat": 43.689655,
-      "lng": -79.4719435
-    },
-    "phone": "(416) 658-6667",
-    "email": "info@masjidelnoor.ca",
-    "website": "https://masjidelnoor.ca/",
-    "notes": "Основана мечеть в Торонто с молитвами, занятиями и общественными службами.",
-    "visitorNotes": "На официальном сайте публикуются обновления Джумуа, парковки и программ; перед посещением подтвердите текущие детали.",
-    "womenSpaceNote": "На официальной странице описаны молитвенные залы для братьев и сестер.",
-    "accessibilityNote": "На официальной странице упоминаются пандусы и выделенные парковочные места.",
-    "jumuahNote": "На официальном сайте указана одна джума-молитва с лекцией на английском языке перед арабской хутбой; подтвердите текущее время.",
-    "classSupportNote": "Официально перечисленные программы включают «Вечерний мактааб» и обучение, связанное с Кораном.",
-    "parkingNote": "На официальном сайте публикуются инструкции по парковке только для Джумуа и просят посетителей не блокировать гидранты, пешеходные переходы или подъездные пути.",
-    "serviceIds": ["quran-classes", "community-events"],
-    "womenFriendly": true,
-    "parking": true,
-    "accessibility": true,
-    "sourceIds": ["masjid-el-noor"],
-    "reviewStatus": "source-checked"
+    "notes": "Давно известная мечеть Торонто с ежедневными намазами, занятиями и услугами для общины.",
+    "visitorNotes": "На официальном сайте публикуются новости о пятничной молитве, парковке и программах. Перед визитом уточните актуальные сведения.",
+    "womenSpaceNote": "На странице о мечети описаны отдельные молитвенные залы для братьев и сестёр.",
+    "accessibilityNote": "На странице о мечети упоминаются пандусы и выделенные парковочные места.",
+    "jumuahNote": "На официальном сайте указана одна пятничная молитва с лекцией на английском перед арабской хутбой. Уточните актуальное время.",
+    "classSupportNote": "Среди программ вечерний мактаб и занятия по Корану.",
+    "parkingNote": "На официальном сайте есть указания по парковке во время пятничной молитвы и просьба не загораживать гидранты, пешеходные переходы и въезды."
   },
   {
     "id": "islamic-institute-of-toronto",
-    "name": "Islamic Institute of Toronto",
-    "address": "1630 Neilson Road",
-    "city": "Scarborough",
-    "stateProvince": "Ontario",
-    "country": "Canada",
-    "postalCode": "M1X 1S3",
-    "coordinates": {
-      "lat": 43.7903,
-      "lng": -79.2141
-    },
-    "phone": "(416) 335-9173",
-    "email": "iit@islam.ca",
-    "website": "https://islam.ca/contact-us/",
-    "notes": "Образовательный институт и общественный центр с официальными контактами и направлениями.",
-    "visitorNotes": "Используйте официальную страницу контактов, чтобы узнать текущие направления, информацию о классах и задать вопросы посетителям.",
-    "classSupportNote": "На официальном сайте ИИТ описан как некоммерческое образовательное учреждение и перечислены обновления программы и информационного бюллетеня.",
-    "serviceIds": ["quran-classes", "community-events"],
-    "sourceIds": ["masjid-islamic-institute-toronto"],
-    "reviewStatus": "source-checked"
+    "notes": "Образовательный институт и общинный центр. Контакты и схема проезда есть на его сайте.",
+    "visitorNotes": "Пользуйтесь официальной страницей контактов, чтобы узнать, как добраться, получить сведения о занятиях и задать вопросы как гость.",
+    "newMuslimSupportNote": "The New Muslim Corner это бесплатный курс из 25 записанных уроков. На странице курса также упоминается занятие для новых мусульман по пятницам в 19:00, но не подтверждено, что оно всё ещё проходит вживую, поэтому спросите в офисе.",
+    "classSupportNote": "Официальный сайт описывает IIT как некоммерческий образовательный институт и публикует новости о программах и рассылку."
   },
   {
     "id": "jami-mosque",
-    "name": "Jami Mosque Toronto | ISNA Canada",
-    "address": "56 Boustead Avenue",
-    "city": "Toronto",
-    "stateProvince": "Ontario",
-    "country": "Canada",
-    "postalCode": "M6R 1Y9",
-    "coordinates": {
-      "lat": 43.6474,
-      "lng": -79.4446
-    },
-    "phone": "(416) 769-1192",
-    "website": "https://www.isnacanada.com/locations/jami-mosque-toronto",
-    "notes": "Историческая мечеть Торонто теперь внесена в список ISNA Canada.",
-    "visitorNotes": "Перед посещением подтвердите текущие часы, время Джума и доступ к мероприятиям через ISNA Canada.",
-    "sourceIds": ["masjid-jami-mosque-isna"],
-    "reviewStatus": "source-checked"
+    "notes": "Историческая мечеть Торонто, сейчас относится к ISNA Canada.",
+    "visitorNotes": "Перед визитом уточните в ISNA Canada часы работы, время пятничной молитвы и доступ на мероприятия."
   },
   {
     "id": "abu-huraira-center",
-    "name": "Abu Huraira Center",
-    "address": "270 Yorkland Boulevard",
-    "city": "North York",
-    "stateProvince": "Ontario",
-    "country": "Canada",
-    "postalCode": "M2J 5C9",
-    "coordinates": {
-      "lat": 43.77282,
-      "lng": -79.33454
-    },
-    "phone": "(416) 752-1200",
-    "email": "info@abuhuraira.org",
-    "website": "https://www.abuhuraira.org/",
-    "notes": "Крупный общественный центр GTA с молитвенными, учебными, консультационными службами, молодежью и службами поддержки новых мусульман.",
-    "visitorNotes": "На официальном сайте перечислены программы и контактная информация; перед посещением подтвердите текущую поддержку посетителей и регистрацию на занятия.",
-    "newMuslimSupportNote": "На официальном сайте среди своих услуг указана поддержка «Новых мусульман».",
-    "classSupportNote": "Официально перечисленные программы включают образование, связанное с Кораном, школы выходного дня, Хифд, молодежь и регулярные халаки.",
-    "serviceIds": [
-      "quran-classes",
-      "community-events",
-      "new-muslim-support",
-      "youth-programs",
-      "weekend-school"
-    ],
-    "convertSupport": true,
-    "sourceIds": ["masjid-abu-huraira-center"],
-    "reviewStatus": "source-checked"
+    "notes": "Большой общинный центр в Большом Торонто. Намаз, занятия, консультации, работа с молодёжью и поддержка новых мусульман проходят в одном здании.",
+    "visitorNotes": "На официальном сайте указаны программы и контакты. Перед визитом уточните помощь для гостей и запись на занятия.",
+    "newMuslimSupportNote": "Официальный сайт называет поддержку новых мусульман среди своих услуг.",
+    "classSupportNote": "Среди программ занятия по Корану, школа выходного дня, заучивание Корана, мероприятия для молодёжи и регулярные учебные кружки (халяка)."
   },
   {
     "id": "isna-islamic-centre-of-canada",
-    "name": "Islamic Centre of Canada (ISNA)",
-    "address": "2200 South Sheridan Way",
-    "city": "Mississauga",
-    "stateProvince": "Ontario",
-    "country": "Canada",
-    "postalCode": "L5J 2M4",
-    "coordinates": {
-      "lat": 43.5063,
-      "lng": -79.6505
-    },
-    "phone": "(905) 403-8406",
-    "website": "https://www.isnacanada.com/our-spaces/islamic-centre-of-canada/",
-    "notes": "Штаб-квартира ISNA Canada и местный общественный центр с помещениями для мусульман, молодежи, образования и проведения мероприятий.",
-    "visitorNotes": "Перед поездкой подтвердите текущее время молитв, занятия, доступ к мероприятиям и поддержку посетителей через ISNA Canada.",
-    "classSupportNote": "На официальной странице описан образовательный центр, молодежный центр, Мусалла и общественные места, которые можно забронировать.",
-    "serviceIds": ["quran-classes", "community-events", "youth-programs"],
-    "sourceIds": ["masjid-isna-islamic-centre-canada"],
-    "reviewStatus": "source-checked"
+    "notes": "Штаб-квартира ISNA Canada и самостоятельный общинный центр с молитвенным залом, молодёжным пространством, учебными классами и залом для мероприятий.",
+    "visitorNotes": "Перед визитом уточните в ISNA Canada время намазов, занятия, доступ на мероприятия и помощь для гостей.",
+    "newMuslimSupportNote": "Программа ISNA Canada New Muslims and Convert Care предлагает еженедельные занятия, ежемесячные встречи и набор Being Muslim с переводом Корана, книгами и молитвенным ковриком. День, время и место занятий не опубликованы, поэтому позвоните в офис или воспользуйтесь формой связи.",
+    "classSupportNote": "Официальная страница описывает образовательный центр, молодёжный центр, молитвенный зал и помещения для общины, которые можно забронировать."
+  },
+  {
+    "id": "masjid-quba-islamic-society-of-ajax",
+    "notes": "Также известна как Ajax Masjid.",
+    "jumuahNote": "Три пятничные молитвы (хутба в 14:00, 15:15, 16:15 по расписанию на 2026-09-23).",
+    "parkingNote": "На главной странице просят «парковаться вежливо, приходя на пятничный намаз»."
+  },
+  {
+    "id": "barrie-mosque",
+    "notes": "Также известна как Barrie Mosque; Noor Ul Islam.",
+    "newMuslimSupportNote": "Страница Reverts to Islam предлагает наставничество, а также встречу и занятие Reverts to Islam Social Circle and Study в первую субботу каждого месяца."
+  },
+  {
+    "id": "islamic-society-of-belleville",
+    "notes": "Также известна как Belleville Masjid; Belleville Mosque.",
+    "jumuahNote": "На странице о мечети указана «пятничная джума»; в более старом объявлении на главной странице сказано: «Пятничная хутба: 13:45, намаз: 14:00 (только один намаз)» (может быть устаревшим).",
+    "parkingNote": "Объявление на главной странице: указания по выезду на Moira St после пятничной молитвы и «Пожалуйста, НЕ паркуйтесь на выделенных местах на парковке или там, где парковка запрещена»."
+  },
+  {
+    "id": "brampton-islamic-centre",
+    "notes": "Также известна как BIC/BSIA; Brampton Society for Islamic Awareness.",
+    "jumuahNote": "Главная страница: «Джума 1: хутба 13:45, икама 14:10. Джума 2: хутба 14:55, икама 15:15»."
+  },
+  {
+    "id": "jame-makki-masjid-brampton",
+    "notes": "Также известна как Brampton Makki Masjid.",
+    "womenSpaceNote": "Отдельная женская зона (страница о мечети).",
+    "jumuahNote": "Икама пятничной молитвы в 13:45, 14:30, 15:30 (главная страница)."
+  },
+  {
+    "id": "jamiat-ul-ansar-brampton",
+    "notes": "Также известна как Ansar Mosque Brampton.",
+    "womenSpaceNote": "Страница для сестёр: ежемесячная лекция «в первую среду каждого месяца ... с 18:30 до 19:30», «приглашаются все сёстры», «новенькая вы в общине или с нами уже много лет, это пространство создано, чтобы каждая сестра чувствовала себя желанной».",
+    "newMuslimSupportNote": "Страница услуг описывает комитет New Muslim Outreach, который даёт «поддержку, советы и знания новым мусульманам». За подробностями напишите в центр."
+  },
+  {
+    "id": "muslim-association-of-brantford",
+    "notes": "Также известна как MAB; Brantford Mosque.",
+    "womenSpaceNote": "Страница о намазах: «места для братьев и сестёр»; упоминается отдельное женское помещение «Mussallah-UL-Nissah».",
+    "parkingNote": "Страница о намазах: «пользуйтесь только выделенными местами для парковки»; по пятницам парковка «быстро заполняется»."
+  },
+  {
+    "id": "halton-islamic-association-halton-masjid-burlington",
+    "notes": "Также известна как Masjid Halton.",
+    "womenSpaceNote": "Есть комитет сестёр и мероприятия для сестёр; упоминается женский спортзал.",
+    "jumuahNote": "Halton Masjid: хутба в 13:30, 14:30, 15:20; дополнительная пятничная молитва в East Plains Church (375 Plains Rd E) и в общинном центре."
+  },
+  {
+    "id": "galt-islamic-center-cambridge",
+    "notes": "Район: Galt. Также известна как Galt Islamic Centre.",
+    "womenSpaceNote": "Страница о центре: «особые программы для сестёр, отдельные программы для наших матерей и сестёр»."
+  },
+  {
+    "id": "hespeler-masjid-a-mac-community-centre-cambridge",
+    "jumuahNote": "Первый намаз в 13:30; указан и второй намаз в 14:00."
+  },
+  {
+    "id": "islamic-centre-of-cambridge",
+    "notes": "Также известна как ICC.",
+    "jumuahNote": "Две хутбы: в 13:30 и 14:45."
+  },
+  {
+    "id": "townline-muslim-centre-cambridge",
+    "notes": "Также известна как TMC.",
+    "jumuahNote": "Две пятничные молитвы; азан за 30 минут до каждой икамы (время на сайте)."
+  },
+  {
+    "id": "cornwall-islamic-centre",
+    "womenSpaceNote": "«Вход для сестёр справа от здания» (страница о центре)."
+  },
+  {
+    "id": "the-ottawa-valley-islamic-centre-deep-river"
+  },
+  {
+    "id": "islamic-association-of-sudbury-greater-sudbury",
+    "notes": "Также известна как Sudbury Mosque.",
+    "jumuahNote": "«ПЯТНИЧНАЯ ХУТБА У НАС НАЧИНАЕТСЯ В 12:30»."
+  },
+  {
+    "id": "islamic-centre-of-northern-ontario-greater-sudbury",
+    "notes": "Также известна как ICONO.",
+    "jumuahNote": "Есть страница с записями хутб; время не указано."
+  },
+  {
+    "id": "islamic-society-of-guelph",
+    "notes": "Также известна как Masjid Abu Bakr As-Siddique.",
+    "jumuahNote": "Пятничная молитва каждую пятницу (время не указано)."
+  },
+  {
+    "id": "masjid-aisha-a-mac-community-centre-guelph",
+    "jumuahNote": "На главной странице отмечена как «скоро» (время не указано)."
+  },
+  {
+    "id": "muslim-society-of-guelph",
+    "notes": "Также известна как MSOG.",
+    "jumuahNote": "Несколько пятничных молитв, например икама в 13:35 и 15:35; «Пожалуйста, приходите за 10-15 минут до начала»."
+  },
+  {
+    "id": "alkhairia-islamic-centre-hamilton",
+    "notes": "Район: Ancaster. Также известна как AIC Ancaster.",
+    "newMuslimSupportNote": "На главной странице среди услуг указаны программы Revert Outreach Programs для принявших ислам. Подробного описания нет ни на одной странице, поэтому спросите в центре.",
+    "jumuahNote": "На главной странице «пятничные намазы» указаны среди услуг; время не указано."
+  },
+  {
+    "id": "bosnian-islamic-centre-of-hamilton",
+    "notes": "Район: Stoney Creek. Также известна как BIC Hamilton.",
+    "visitorNotes": "Языки: сайт в основном на боснийском, с разделом на английском (About Us, Contact Info, News (English)). Язык хутбы не указан.",
+    "jumuahNote": "Страница контактов: «Джума: по пятницам, 13:30 EST»; блок намазов на главной странице: «Джума: по пятницам, 13:25, 15:00»."
+  },
+  {
+    "id": "hamilton-downtown-mosque",
+    "notes": "Также известна как HDM.",
+    "jumuahNote": "«Пятничная проповедь и намаз (смотрите страницу времени намазов)»."
+  },
+  {
+    "id": "hamilton-mountain-mosque",
+    "notes": "Также известна как MAH, Mountain Mosque.",
+    "accessibilityNote": "MAH публикует политику доступности по AODA и просит тех, кому нужно приспособление, писать на contactus@hamiltonmosque.com; физические особенности здания не указаны."
+  },
+  {
+    "id": "umar-mosque-hamilton",
+    "notes": "Также известна как MAH Umar Mosque.",
+    "accessibilityNote": "Страница MAH о нас (для всей ассоциации): «работаем в соответствии с Законом о доступности для жителей Онтарио с инвалидностью. MAH стремится обеспечить полный доступ в помещения и устранить любые возможные препятствия». Особенности конкретного здания не указаны."
+  },
+  {
+    "id": "islamic-society-of-kingston",
+    "notes": "Также известна как ISK; ICK.",
+    "accessibilityNote": "На странице программ упоминается специальный класс для детей с особыми образовательными потребностями; доступность здания не указана.",
+    "jumuahNote": "Две пятничные молитвы: первая хутба в 13:00 (икама 13:45), вторая в 14:30 (икама с 14:45 до 15:00).",
+    "parkingNote": "Страница времени намазов: «Поскольку во время пятничной молитвы с парковкой в ISK по-прежнему трудно, подумайте о других вариантах джумы в городе» (CFB Kingston, Crossroads United Church, Queen's University, везде в 13:30)."
+  },
+  {
+    "id": "al-salaam-islamic-centre-kitchener",
+    "jumuahNote": "Главная страница: «Пятничный намаз 1:30»."
+  },
+  {
+    "id": "kitchener-masjid-a-mac-community-centre",
+    "notes": "Также известна как Kitchener Masjid.",
+    "jumuahNote": "Три намаза: 12:15, 13:15, 14:15 (третий на арабском)."
+  },
+  {
+    "id": "north-london-islamic-centre-komoka"
+  },
+  {
+    "id": "hyde-park-masjid-london",
+    "jumuahNote": "Первый намаз в 12:30, второй в 13:30."
+  },
+  {
+    "id": "islamic-centre-of-southwest-ontario-london",
+    "notes": "Также известна как ICSWO.",
+    "jumuahNote": "Круглый год: азан в 13:30, проповедь в 13:35, икама в 13:55."
+  },
+  {
+    "id": "london-muslim-mosque",
+    "notes": "Также известна как LMM.",
+    "newMuslimSupportNote": "Страница лекций описывает бесплатную встречу New Muslim Family Meet Up в первую и третью субботу месяца и диплом по основам исламских знаний для принявших ислам и новых мусульман. Нужна регистрация.",
+    "jumuahNote": "На главной странице указаны две пятничные молитвы: в 12:00 и 13:15 (актуальное время смотрите на сайте)."
+  },
+  {
+    "id": "mac-noor-gardens-a-mac-community-centre-london",
+    "notes": "Также известна как Noor Gardens. Центр объявил о торжественном открытии 28 августа 2026 года.",
+    "jumuahNote": "Намаз 1: 12:00, намаз 2: 13:30."
+  },
+  {
+    "id": "muslim-association-of-canada-masonville-centre-london",
+    "notes": "Также известна как MAC Masonville.",
+    "jumuahNote": "Пятница, 12:00."
+  },
+  {
+    "id": "westmount-masjid-a-mac-community-centre-london",
+    "notes": "Также известна как MAC Westmount Centre; MAC London main office.",
+    "jumuahNote": "1-й намаз в 12:15, 2-й намаз в 13:30."
+  },
+  {
+    "id": "islamic-centre-of-markham",
+    "parkingNote": "В марте 2026 года был опубликован сбор средств на ремонт парковки; подробностей о парковке нет."
+  },
+  {
+    "id": "islamic-society-of-markham",
+    "newMuslimSupportNote": "Страница New Muslim Care Program предлагает координаторов для вопросов об исламе, мероприятий общины и обучения. Расписание не указано."
+  },
+  {
+    "id": "islamic-community-centre-of-milton",
+    "notes": "Также известна как ICNA Milton.",
+    "womenSpaceNote": "Страница программ: «Отдельное пространство для женщин, чтобы изучать исламские знания (со вторника по четверг)».",
+    "jumuahNote": "Блок намазов на главной странице: «Джума 1 13:30, джума 2 14:45, джума 3 15:45»."
+  },
+  {
+    "id": "966-icna-masjid-youth-centre-mississauga",
+    "notes": "Также известна как 966 Community Centre.",
+    "jumuahNote": "Блок намазов на главной странице: «Джума 1 13:30, джума 2 14:30»."
+  },
+  {
+    "id": "anatolia-islamic-centre-mississauga",
+    "visitorNotes": "Языки: указана халяка на турецком; сайт подразумевает использование английского, но язык служб не указан."
+  },
+  {
+    "id": "dar-al-tawheed-islamic-centre-mississauga"
+  },
+  {
+    "id": "islamic-community-centre-of-ontario-mississauga",
+    "notes": "Также известна как MAC ICCO.",
+    "jumuahNote": "Пятничные намазы указаны в 12:00, 13:15, 14:30 и 15:30; язык не указан."
+  },
+  {
+    "id": "masjid-al-farooq-mississauga",
+    "womenSpaceNote": "Указаны программы диплома по шариату для сестёр; отдельное молитвенное место не описано.",
+    "accessibilityNote": "На сайте есть страницы политики доступности, уведомлений и отчёта о соответствии; физическая доступность не описана.",
+    "jumuahNote": "Указано несколько пятничных молитв, в том числе 4-я джума в 15:30; язык не указан."
+  },
+  {
+    "id": "sayeda-khadija-centre-mississauga",
+    "notes": "Также известна как Faith of Life Network.",
+    "jumuahNote": "Упоминаются «еженедельные общие намазы»; время не указано."
+  },
+  {
+    "id": "newmarket-islamic-centre",
+    "womenSpaceNote": "Главная страница: «Более 1200 мужчин и женщин приходят на еженедельную пятничную молитву». Женская зона не описана.",
+    "jumuahNote": "Главная страница: «Намаз 1: хутба 13:15, намаз 13:45; намаз 2: хутба 14:15, намаз 14:45»; в объявлениях упоминается пятничная молитва в мечети и в других залах (Lions Hall, Ray Twinney Recreation Complex) в разное время."
+  },
+  {
+    "id": "islamic-society-of-niagara-peninsula-niagara-falls",
+    "jumuahNote": "Пятничная молитва каждую пятницу в 13:30."
+  },
+  {
+    "id": "masjid-alsalam-niagara-falls-islamic-center",
+    "jumuahNote": "Три пятничные молитвы в 13:30, 14:30 и 15:30."
+  },
+  {
+    "id": "al-falah-islamic-centre-oakville",
+    "notes": "Также известна как Al Falah Center Oakville; ICNA Canada head office.",
+    "womenSpaceNote": "На странице программ указана еженедельная встреча для сестёр; молитвенное место не описано.",
+    "jumuahNote": "Блок намазов на главной странице: «Джума 1 ... 12:15, джума 2 ... 13:25, джума 3 ... 14:35»."
+  },
+  {
+    "id": "muslim-association-of-milton-oakville",
+    "notes": "Также известна как MAM, HICC Masjid.",
+    "jumuahNote": "Пятничная молитва проходит в Milton Sports Centre и других местах; смотрите листовку на главной странице."
+  },
+  {
+    "id": "islamic-centre-of-oshawa",
+    "notes": "Также известна как Oshawa Mosque.",
+    "visitorNotes": "Службы на английском подтверждены: (в расписании пятничной молитвы перед первым и вторым намазом указана «беседа на английском»).",
+    "jumuahNote": "Главная страница: «1-й намаз: беседа на английском 13:15 ... хутба и намаз 13:45; 2-й намаз: беседа на английском 14:30, хутба и намаз 14:45; 3-й намаз: хутба и намаз 16:30»."
+  },
+  {
+    "id": "al-farooq-al-azam-mosque-ottawa",
+    "notes": "Район: Old Ottawa South. Также известна как Jamia Masjid Farooq-e-Azam; Masjid Farooq Azam.",
+    "womenSpaceNote": "«Еженедельное занятие по таджвиду Корана (для сестёр)» по субботам с 11:00 до 13:00; устройство молитвенного места не описано.",
+    "jumuahNote": "Первая молитва в 14:00, вторая в 14:45 (главная страница)."
+  },
+  {
+    "id": "bukhari-community-centre-masjid-ottawa",
+    "notes": "Район: Overbrook / St. Laurent Blvd. Также известна как Bukhari Centre; Bukhari Masjid & Community Centre.",
+    "womenSpaceNote": "Страница о пятнице: «2-я джума: 14:00 (для братьев и сестёр)»; первая джума только для братьев. Отдельная женская зона не описана.",
+    "accessibilityNote": "На странице о центре упоминаются новые передние и задние двери, «повышающие и безопасность, и доступность»; конкретные особенности доступности не указаны.",
+    "jumuahNote": "«1-я джума: 13:00 (для братьев). 2-я джума: 14:00 (для братьев и сестёр)»."
+  },
+  {
+    "id": "centretown-mosque-ottawa",
+    "notes": "Район: Centretown. На сайте сказано, что община ещё добивается постоянного помещения по адресу 397 Kent Street, поэтому уточните место перед визитом.",
+    "womenSpaceNote": "Указано «занятие по арабскому для сестёр» (по субботам в 12:00, для взрослых сестёр); устройство молитвенного места не описано.",
+    "newMuslimSupportNote": "На сайте указаны семинары для новых мусульман, «приветливое место, чтобы изучить основополагающие принципы ислама». Расписание не указано.",
+    "jumuahNote": "«Присоединяйтесь к нашей общине каждую пятницу на хутбу и общий намаз в 13:00 и 14:00»."
+  },
+  {
+    "id": "darul-arqum-ottawa",
+    "notes": "Район: Riverside South. Также известна как Darul Arqum Riverside South.",
+    "jumuahNote": "«Джума в 13:30 и 14:30» (главная страница); страница времени намазов: «1-я хутба в 13:30 и 2-я хутба в 14:30».",
+    "parkingNote": "Страница контактов: «Парковка на территории. Для ночной парковки сначала нужно разрешение правления»."
+  },
+  {
+    "id": "darul-uloom-ottawa",
+    "notes": "Район: Orleans. Также известна как Darul-Uloom Mosque.",
+    "jumuahNote": "На главной странице указаны пятничные молитвы в других местах: «Navan 1:15, джума в Aqsa Centre» и «Blackburn 1:15, джума в Quba Centre». На странице о центре сказано, что центр организует ежедневные намазы, включая пятничную проповедь."
+  },
+  {
+    "id": "east-ottawa-masjid-and-community-center",
+    "notes": "Район: Vanier / Overbrook area.",
+    "jumuahNote": "Главная страница: «Джума: 1-я в 13:15 | 2-я в 14:15»."
+  },
+  {
+    "id": "islam-care-centre-ottawa",
+    "newMuslimSupportNote": "Convert Care это бесплатное еженедельное занятие об основах ислама каждую среду в 18:00 в центре.",
+    "jumuahNote": "Главная страница: джума «в 12:30 и 13:15» в подвале Knox Presbyterian Church, 120 Lisgar St, Ottawa, ON K2P 2L7 (вне центра)."
+  },
+  {
+    "id": "jami-omar-ottawa",
+    "notes": "Район: Bells Corners / Nepean. Также известна как Masjid Jami Omar; JMOC.",
+    "jumuahNote": "Главная страница: «Пятничный намаз с 12:00 до 15:00».",
+    "parkingNote": "Главная страница: паркуйтесь только в разрешённых местах; есть парковка у школы D.A. Moodie School."
+  },
+  {
+    "id": "kanata-muslim-association-ottawa",
+    "notes": "Район: Kanata. Также известна как KMA.",
+    "jumuahNote": "«3 пятничных намаза: 13:00 / 14:15 / 15:45» (время третьего меняется)."
+  },
+  {
+    "id": "mac-barrhaven-islamic-centre-ottawa",
+    "notes": "Район: Barrhaven. Также известна как BIC.",
+    "jumuahNote": "«1-я хутба: 13:00» и «2-я хутба: 14:30»."
+  },
+  {
+    "id": "mac-islamic-centre-ottawa",
+    "notes": "Район: Nepean / Grenon Ave. Также известна как MAC Grenon; located in the Abraar School building."
+  },
+  {
+    "id": "mac-qurtuba-islamic-centre-ottawa",
+    "notes": "Район: Nepean / Merivale. Также известна как MAC Qurtuba; QIC."
+  },
+  {
+    "id": "markaz-at-tawheed-ottawa",
+    "notes": "Район: Bayshore / Dumaurier. Также известна как Markaz At-Tawheed Ottawa.",
+    "visitorNotes": "На главной странице отмечено, что некоторые лекции проходят «на арабском, с паузами для перевода на английский»; остальное на английском.",
+    "womenSpaceNote": "Объявление на Рамадан: «Хутба и пятничный намаз только для братьев (из-за нехватки места)»; «Максимум 12 сестёр за вечер» на ишу и таравих.",
+    "jumuahNote": "На главной странице в одном блоке указано «Хутба начинается в 12:30», а в обновлении на Рамадан «Хутба начинается в 13:15»; только для братьев."
+  },
+  {
+    "id": "masjid-bilal-ottawa",
+    "notes": "Район: Orleans. Также известна как Bilal Masjid; Islamic Society of Cumberland.",
+    "visitorNotes": "На главной странице беседа перед хутбой названа «речь (беседа на английском)».",
+    "womenSpaceNote": "Страница о посещении мечети: «мужчины и женщины молятся в отдельных молитвенных залах».",
+    "jumuahNote": "Джума 1: беседа на английском в 12:45, хутба в 13:15; джума 2: без беседы, хутба в 14:20; джума 3: беседа на английском в 15:00, хутба в 15:10."
+  },
+  {
+    "id": "masjid-ar-rahmah-ottawa",
+    "notes": "Район: Gloucester / South Keys. Также известна как Mosque of Mercy; AMA; AMA Community Centre.",
+    "visitorNotes": "Подтверждён английский для сессии вопросов и ответов для принявших ислам («Язык: только английский»); сайт на английском со ссылкой на арабскую версию.",
+    "newMuslimSupportNote": "На странице Revert Corner есть бесплатные ресурсы для новых мусульман, а Muslim's Basics это записанный курс на английском из 37 выпусков. Мероприятия для принявших ислам на сайте датированы 2021 и 2022 годами, поэтому спросите, что проходит сейчас."
+  },
+  {
+    "id": "ottawa-muslim-association",
+    "notes": "Также известна как Ottawa Main Mosque; OMA.",
+    "womenSpaceNote": "Раздел вопросов: «У нас есть отдельное молитвенное место для женщин, а также пространства для семей».",
+    "jumuahNote": "В разделе вопросов сказано, что в мечети проходит пятничная молитва (джума); время на сайте не опубликовано."
+  },
+  {
+    "id": "ottawa-uyghur-centre",
+    "notes": "Район: Orleans.",
+    "jumuahNote": "Страница услуг: «Приходите на пятничные хутбы»; время не указано."
+  },
+  {
+    "id": "richmond-islamic-community-ottawa",
+    "notes": "Район: Richmond. Также известна как RICO.",
+    "womenSpaceNote": "На странице программ указана халяка по Корану для девушек и взрослых сестёр; молитвенное место для женщин не указано.",
+    "jumuahNote": "Главная страница: «Джума только по пятницам: 13:15 джума 1, 14:30 джума 2». Услуги: «Зимой у нас проходит иша, летом аср, магриб и иша, а также пятничная молитва»."
+  },
+  {
+    "id": "siraj-institute-ottawa",
+    "notes": "Район: Nepean."
+  },
+  {
+    "id": "south-nepean-muslim-community-ottawa",
+    "notes": "Район: Nepean / Barrhaven. Также известна как SNMC Center & Masjid.",
+    "womenSpaceNote": "Программы для сестёр (халяка и другие) с адресом для сестёр sisters@snmc.ca; устройство молитвенного места не описано.",
+    "newMuslimSupportNote": "Страница Reverts приглашает связаться, чтобы получить информацию, задать вопросы, получить сертификат о шахаде или пройти экскурсию. Занятия или программа наставничества не описаны."
+  },
+  {
+    "id": "stittsville-muslim-association-ottawa",
+    "notes": "Район: Stittsville. На официальном сайте указаны два почтовых индекса (K2S 1E3 и K2S 0T9). Уточните перед визитом.",
+    "jumuahNote": "Главная страница: 13:15, 14:15, 15:45."
+  },
+  {
+    "id": "the-islamic-society-of-gloucester-ottawa",
+    "notes": "Район: Gloucester. Также известна как ISG Masjid.",
+    "jumuahNote": "Главная страница: «Пятничный намаз: хутба 13:30, икама 14:00».",
+    "parkingNote": "Объявление на Ид на главной странице: «Парковка у церкви недоступна; вместо этого можно парковаться у Costco и Rona, 1880 Innes Road»; «Парковаться прямо перед входом в мечеть нельзя». О парковке в обычные дни не сказано."
+  },
+  {
+    "id": "the-ottawa-islamic-centre-assalam-mosque",
+    "notes": "Район: Ottawa South / St. Laurent Blvd. Также известна как Assalam Mosque; Masjid Assalam.",
+    "womenSpaceNote": "Главная страница: «У нас один из крупнейших в Оттаве молитвенных залов для мужчин и женщин для ежедневных намазов и пятничной молитвы»."
+  },
+  {
+    "id": "owen-sound-muslim-association",
+    "notes": "Также известна как Owen Sound Masjid.",
+    "newMuslimSupportNote": "На странице услуг указана шахада. Дальнейшая программа для новых мусульман не описана."
+  },
+  {
+    "id": "kawartha-muslim-religious-association-masjid-al-salaam-peterborough",
+    "notes": "Также известна как KMRA; Al-Salaam Mosque.",
+    "womenSpaceNote": "Женская молитвенная комната на 60 человек с женской комнатой для омовения.",
+    "jumuahNote": "Две пятничные молитвы на главной странице на пятницу 25 сентября 2026 года: 13:30 и 14:45."
+  },
+  {
+    "id": "pickering-islamic-centre",
+    "notes": "Также известна как Masjid Usman, PIC.",
+    "womenSpaceNote": "Указаны комитет сестёр, пятничная школа для девочек и занятия по Корану для сестёр.",
+    "newMuslimSupportNote": "Центр регулярно проводит встречи Fortify My Deen: Reverts Meet and Greet для принявших ислам, последняя была 23 августа 2026 года. Запишитесь на странице объявления или спросите в офисе.",
+    "jumuahNote": "Хутба в 14:00, 15:45 и 16:45, а также пятничная молитва в другом месте в 15:00."
+  },
+  {
+    "id": "al-nadwa-educational-islamic-centre-richmond-hill",
+    "notes": "Также известна как Al Nadwa Centre.",
+    "womenSpaceNote": "Страница услуг: «Программа для взрослых сестёр: каждое 1-е воскресенье месяца после зухра. Только для сестёр».",
+    "jumuahNote": "Главная страница: «Первая джума: беседа 12:30, арабская хутба 12:45. Вторая джума: беседа 13:15, арабская хутба 13:30» по адресу 2 Levendale Rd; ещё одна джума в Bayview Hill Community Centre, 114 Spadina Rd (начало в 13:25).",
+    "parkingNote": "Главная страница: «Пожалуйста, не паркуйтесь перед торговым центром. Парковаться можно только на площадке торгового центра No-frills»."
+  },
+  {
+    "id": "islamic-society-of-york-region-richmond-hill",
+    "womenSpaceNote": "На главной странице указаны занятия по арабскому для сестёр; молитвенное место для женщин не описано.",
+    "jumuahNote": "Главная страница: «ПЯТНИЧНЫЙ НАМАЗ: беседа 13:45; намаз 14:15. Обратите внимание, в ISYR только ОДИН пятничный намаз».",
+    "parkingNote": "Список удобств на главной странице: «Просторная парковка»."
+  },
+  {
+    "id": "richmond-hill-muslim-association"
+  },
+  {
+    "id": "sarnia-muslim-association"
+  },
+  {
+    "id": "islamic-association-of-sault-ste-marie",
+    "notes": "Также известна как IASSM.",
+    "jumuahNote": "«Хутба начинается в 14:00, намаз в 14:30» (с поправкой на летнее время)."
+  },
+  {
+    "id": "masjid-an-noor-st-catharines",
+    "notes": "Также известна как Masjid Al Noor.",
+    "accessibilityNote": "Места для людей с инвалидностью зарезервированы для владельцев разрешений.",
+    "parkingNote": "Парковка со схемой и правилами: нельзя оставлять машину на ночь, нельзя загораживать машины во время пятничной молитвы, нельзя пользоваться парковками соседних предприятий."
+  },
+  {
+    "id": "stratford-mosque",
+    "jumuahNote": "Пятница, 13:45; «Все 5 намазов совершаются в мечети»; «Открыта круглосуточно»."
+  },
+  {
+    "id": "thunder-bay-masjid",
+    "notes": "Также известна как Thunder Bay Masjid.",
+    "jumuahNote": "Две пятничные молитвы: 14:00 и 15:15.",
+    "parkingNote": "Главная страница: «Пожалуйста, паркуйтесь ответственно, чтобы всем было удобно проехать»; некоторые места не являются парковочными."
+  },
+  {
+    "id": "muslim-association-of-tillsonburg",
+    "womenSpaceNote": "На главной странице сказано, что молитвенный зал «рад мужчинам и женщинам»; женская зона не описана.",
+    "jumuahNote": "Главная страница: «Пятничная хутба в 13:30, намаз в 13:45» (последнее обновление 1 ноября 2025 года)."
+  },
+  {
+    "id": "mac-masjid-toronto-adelaide",
+    "notes": "Также известна как Masjid Toronto Adelaide.",
+    "newMuslimSupportNote": "Masjid Toronto может организовать, чтобы при первом визите вас встретил «брат или сестра из нашей общины». Занятие After the Shahadah проходит в здании на Dundas, а группа Convert Connect Group встречается в 1-е и 3-е воскресенье после зухра.",
+    "jumuahNote": "Пятничная молитва в 12:10, 13:10 и 14:10 (неделя 2026-09-18)."
+  },
+  {
+    "id": "madinah-masjid-jamiatul-muslemin-of-toronto",
+    "accessibilityNote": "«Легко добраться на общественном транспорте». Доступность здания не указана.",
+    "jumuahNote": "Проходят пятничные и праздничные намазы; время не указано."
+  },
+  {
+    "id": "masjid-omar-farooq-toronto",
+    "notes": "Район: Scarborough. Также известна как Masjid Omar Al-Farooq.",
+    "visitorNotes": "Службы на английском подтверждены: (перед каждой арабской хутбой на пятничной молитве есть «беседа на английском»).",
+    "jumuahNote": "Главная страница: «1-я джума: беседа на английском в 13:30, арабская хутба в 14:10; 2-я джума: беседа на английском в 14:45, арабская хутба в 15:10»."
+  },
+  {
+    "id": "scarborough-muslim-association-jame-abu-bakr-siddique-toronto",
+    "notes": "Район: Scarborough. Также известна как SMA; Jame Abu Bakr Siddique Masjid.",
+    "parkingNote": "На странице о мечети сказано, что до расширения молящимся «часто приходилось молиться на открытой парковке»; парковка входит в план расширения. Нынешние условия парковки не указаны."
+  },
+  {
+    "id": "toronto-islamic-centre",
+    "newMuslimSupportNote": "Страница New Muslim Support предлагает приветственный подарочный набор для новых мусульман и переводы Корана на 27 языках, в том числе шрифтом Брайля. Расписание не указано.",
+    "accessibilityNote": "Предлагаются Кораны шрифтом Брайля; доступность здания не указана."
+  },
+  {
+    "id": "islamic-society-of-vaughan",
+    "womenSpaceNote": "Пятничное расписание: «3-я джума (братья и сёстры): 15:15, 4-я джума (братья и сёстры): 16:00»; первые две только для братьев. Указаны занятия для сестёр.",
+    "jumuahNote": "Главная страница: «1-я джума (только братья): 13:30, 2-я джума (только братья): 14:30, 3-я джума (братья и сёстры): 15:15, 4-я джума (братья и сёстры): 16:00»."
+  },
+  {
+    "id": "masjid-vaughan",
+    "notes": "Район: Maple.",
+    "jumuahNote": "Страница о мечети: «Время джумы не меняется весь год: азан в 13:30, хутба в 13:35 и намаз в 14:00».",
+    "parkingNote": "Страница о мечети: «По пятницам с 13:00 до 15:00 есть просторная парковка у мэрии Vaughan (западная парковка). Кроме того, вокруг мечети много мест для парковки на улице»."
+  },
+  {
+    "id": "vaughan-islamic-community-centre"
+  },
+  {
+    "id": "islamic-centre-of-waterloo-a-mac-community-centre",
+    "notes": "Также известна как ICW.",
+    "jumuahNote": "1-я в 13:30, 2-я (на арабском) в 14:30, 3-я в 15:30."
+  },
+  {
+    "id": "muslim-society-of-waterloo-wellington-counties",
+    "notes": "Также известна как Waterloo Masjid.",
+    "jumuahNote": "Пятничная молитва транслируется онлайн по пятницам в 13:40.",
+    "parkingNote": "Главная страница: «пожалуйста, не паркуйтесь у Westmount Plaza и соблюдайте все местные правила при парковке на соседних улицах»."
+  },
+  {
+    "id": "masjid-e-ayesha-whitby",
+    "notes": "Также известна как Whitby Masjid.",
+    "jumuahNote": "Три пятничные молитвы: хутба в 13:45, 14:45 и 15:45.",
+    "parkingNote": "Парковка ограничена. С 1 ноября 2024 года парковка Kendalwood Plaza недоступна во время пятничной молитвы; по пятницам там выписывают штрафы. Дополнительные шатры закрыты до особого распоряжения (объявление на главной странице)."
+  },
+  {
+    "id": "al-hijra-academy-windsor",
+    "notes": "Район: Oldcastle, at the LaSalle border. Также известна как Al-Hijra Academy - Masjid and Islamic School.",
+    "womenSpaceNote": "Страница истории: мечеть «разделена на две части для мужчин и женщин» (историческое описание)."
+  },
+  {
+    "id": "islamic-society-of-windsor"
+  },
+  {
+    "id": "rose-city-islamic-centre-windsor",
+    "notes": "Также известна как RCIC.",
+    "jumuahNote": "Пятница, 13:30."
+  },
+  {
+    "id": "windsor-islamic-association",
+    "notes": "Также известна как Windsor Mosque; Windsor Central Mosque.",
+    "newMuslimSupportNote": "На странице контактов контактным лицом для принявших ислам назван администратор по религиозным вопросам (519-966-2355, добавочный 4). Это контакт, а не занятия."
+  },
+  {
+    "id": "islamic-center-of-west-island-dollard-des-ormeaux",
+    "notes": "Район: West Island. Также известна как Centre Islamique du West Island."
+  },
+  {
+    "id": "centre-islamique-de-l-outaouais-la-mosquee-de-gatineau",
+    "notes": "Район: Hull. Также известна как Outaouais Islamic Centre; Mosquée de Gatineau. В сентябре 2026 года на официальном сайте было уведомление об истечении срока домена. Если сайт не загружается, позвоните заранее.",
+    "jumuahNote": "Две пятничные молитвы (с 11 февраля неуказанного года); время есть только на картинке на https://cio-oic.ca/horaire-des-jumuahs/."
+  },
+  {
+    "id": "masjid-meriam-gatineau",
+    "notes": "Район: Gatineau sector. Также известна как Mosquée Mariam; CIOIC - Meriam.",
+    "visitorNotes": "Языки: сайт CIO в основном на французском; некоторые объявления на французском и английском."
+  },
+  {
+    "id": "the-mosque-of-aylmer-gatineau",
+    "notes": "Район: Aylmer.",
+    "visitorNotes": "Материалы сайта на английском и французском; язык хутбы не указан.",
+    "womenSpaceNote": "На странице услуг указаны «программы для женщин»: «отдельные встречи, учебные группы и мероприятия ... для женщин»; устройство молитвенного места не описано.",
+    "jumuahNote": "«Еженедельную хутбу читают квалифицированные проповедники»; время не опубликовано."
+  },
+  {
+    "id": "association-islamique-al-ihssane-de-laval",
+    "notes": "Район: Pont-Viau. Также известна как AIIL; Mosquée Al-Itissam."
+  },
+  {
+    "id": "centre-al-iman-laval",
+    "notes": "Район: Auteuil. Также известна как CCVA."
+  },
+  {
+    "id": "centre-communautaire-musulman-iqra-laval",
+    "notes": "Район: Chomedey. Также известна как Centre IQRA."
+  },
+  {
+    "id": "centre-communautaire-musulman-de-longueuil"
+  },
+  {
+    "id": "aisha-islamic-center-montreal",
+    "notes": "Район: Griffintown. Также известна как AIC."
+  },
+  {
+    "id": "al-madinah-center-montreal",
+    "notes": "Район: Downtown. Также известна как Centre Al-Madinah.",
+    "visitorNotes": "Службы на английском подтверждены: (курсы таджвида проходят «и на арабском, и на английском»).",
+    "womenSpaceNote": "Халяка по Корану для взрослых предназначена для «братьев и сестёр»; молитвенное место для женщин не описано."
+  },
+  {
+    "id": "assuna-annabawiyah-mosque-montreal",
+    "notes": "Район: Parc-Extension. Также известна как Mosquée Assuna Annabawiyah; Masjid Assuna.",
+    "visitorNotes": "Языки: на сайте французский, английский и арабский вперемешку; язык служб не указан."
+  },
+  {
+    "id": "canadian-institute-of-islamic-civilization-a-mac-community-centre-montreal",
+    "notes": "Район: Downtown. Также известна как CIIC.",
+    "womenSpaceNote": "Указана еженедельная халяка для сестёр (по пятницам с 18:30 до 20:00); молитвенное место не описано.",
+    "jumuahNote": "Три пятничные молитвы: 11:45, 12:30, 13:15."
+  },
+  {
+    "id": "centre-bel-agir-montreal",
+    "notes": "Район: Villeray and Saint-Michel area. Также известна как Bel Agir - Al-Ihsane.",
+    "jumuahNote": "Проводятся пятничные молитвы (Prières du Vendredi); время на главной странице не указано."
+  },
+  {
+    "id": "centre-communautaire-fath-montreal",
+    "notes": "Район: Rivière-des-Prairies. Также известна как Mosquée Elfath - RDP.",
+    "parkingNote": "«38 Places de Stationnement» (38 парковочных мест)."
+  },
+  {
+    "id": "centre-communautaire-villeray-mosquee-aboubakr-montreal",
+    "notes": "Район: Villeray. Также известна как CCV.",
+    "jumuahNote": "Пятничная молитва «12:00 | 13:00»."
+  },
+  {
+    "id": "centre-islamique-de-verdun-montreal",
+    "notes": "Район: Verdun. Также известна как CIV.",
+    "womenSpaceNote": "Упоминаются мероприятия для женщин и девочек (например, «Iftar spécial pour les filles, leurs mères et les enseignantes», особый ифтар для девочек, их мам и учительниц); молитвенное место не описано.",
+    "newMuslimSupportNote": "На странице программ указаны группы для недавно принявших ислам женщин (Nouvelles converties) и мужчин (Nouveaux convertis). Расписание не указано.",
+    "jumuahNote": "Пятничная молитва в 12:00 и 13:15."
+  },
+  {
+    "id": "islamic-centre-of-quebec-montreal",
+    "notes": "Район: Saint-Laurent. Также известна как Centre Islamique du Québec.",
+    "jumuahNote": "Главная страница: «Джума 1 (13:30), джума 2 (14:30)»; «Перевод будет за 15 минут до хутбы». Язык перевода не указан.",
+    "parkingNote": "Парковка на территории."
+  },
+  {
+    "id": "masjid-makkah-al-mukarramah-montreal",
+    "notes": "Район: Pierrefonds-Roxboro, West Island. Также известна как Makkah-al-Mukarramah Mosque; Masjid Makkah.",
+    "visitorNotes": "Языки: еженедельные уроки (дарс) на урду; сайт на английском.",
+    "womenSpaceNote": "«Каждую субботу после зухра у нас проходит женская халяка»; молитвенное место для женщин не описано."
+  },
+  {
+    "id": "mosquee-al-rawdah-montreal",
+    "notes": "Район: Cartierville. Также известна как Centre Communautaire Laurentien, соседнее здание по адресу 12265 Boul. Laurentien, тот же телефон.",
+    "jumuahNote": "Пятничная молитва в 12:00 и 13:00."
+  },
+  {
+    "id": "muslim-community-of-quebec-montreal",
+    "notes": "Район: Notre-Dame-de-Grâce.",
+    "womenSpaceNote": "На странице программ указаны «программы поддержки и расширения возможностей женщин»; молитвенное место не описано.",
+    "jumuahNote": "На странице программ указан «пятничный намаз (салятуль-джума)»; на странице времени намазов время не показано."
+  },
+  {
+    "id": "centre-communautaire-de-quebec-quebec-city",
+    "notes": "Район: Saint-Roch. Также известна как MAC Québec; Masjid Al-Rahma.",
+    "jumuahNote": "На главной странице два противоречащих блока пятничной молитвы: 12:15 и 12:45, а также 12:00 и 12:45."
+  },
+  {
+    "id": "centre-culturel-islamique-luqman-de-quebec-quebec-city",
+    "notes": "Район: Les Saules. Также известна как Centre Luqman.",
+    "jumuahNote": "Время намазов по ссылке на Mawaqit на сайте."
+  },
+  {
+    "id": "centre-culturel-islamique-de-quebec-grande-mosquee-de-quebec-quebec-city",
+    "notes": "Район: Sainte-Foy. Также известна как CCIQ; GMQ; CCIQ also runs Mosquée Annour and prayer places in Charlesbourg and Portneuf.",
+    "womenSpaceNote": "Conseil de la femme musulmane de Québec (CFMQ) указан как подразделение CCIQ, и перечислены мероприятия для женщин; молитвенное место не описано.",
+    "jumuahNote": "Проводится пятничная молитва («Prières quotidiennes et la prière de vendredi», ежедневные намазы и пятничная молитва); время на mosqueprayertimes.com/cciq."
+  },
+  {
+    "id": "mosquee-de-la-capitale-quebec-city",
+    "notes": "Район: Vanier. Также известна как Association Mosquée de la Capitale."
+  },
+  {
+    "id": "centre-culturel-islamique-de-lanaudiere-repentigny",
+    "notes": "Район: Lanaudière. Также известна как Masjid Atassamouh.",
+    "jumuahNote": "Главная страница: «Джума: 1-я 12:00, 2-я 13:00»."
+  },
+  {
+    "id": "association-islamique-du-saguenay-lac-st-jean",
+    "notes": "Район: Chicoutimi. Также известна как Mosquée Chicoutimi.",
+    "visitorNotes": "Языки: сайт на французском с переключением на английский и арабский; язык служб не указан."
+  },
+  {
+    "id": "centre-islamique-maskoutain-saint-hyacinthe",
+    "jumuahNote": "Главная страница: «Пятничных намазов два: первый начинается в 12:10, второй в 12:45»."
+  },
+  {
+    "id": "centre-rayan-sainte-therese",
+    "notes": "Район: Basses-Laurentides. Также известна как Mosque Rayane."
+  },
+  {
+    "id": "association-culturelle-islamique-de-l-estrie-mosquee-a-rahmane-sherbrooke",
+    "notes": "Также известна как ACIE; also runs Centre Horizon at 1239 Rue Denault.",
+    "jumuahNote": "Две группы: «12:15 и 13:00».",
+    "parkingNote": "Просит гостей: «Merci de ne pas utiliser les stationnements privés de notre voisinage» (пожалуйста, не пользуйтесь частными парковками соседей)."
+  },
+  {
+    "id": "centre-culturel-islamique-de-sherbrooke-mosquee-annour",
+    "notes": "Также известна как CCIS Annour."
+  },
+  {
+    "id": "centre-culturel-islamique-de-la-mauricie-trois-rivieres",
+    "notes": "Также известна как Islamic Cultural Center of Mauricie.",
+    "newMuslimSupportNote": "Страница услуг предлагает встречу с представителем CCIM, если вы хотите принять ислам, и официальный сертификат о принятии ислама. Там обещают конфиденциально ответить на ваши вопросы. Это не постоянные занятия."
+  },
+  {
+    "id": "vaudreuil-islamic-community-centre-masjid-attakwa-vaudreuil-dorion",
+    "notes": "Также известна как Centre Culturel Islamique de Vaudreuil Soulanges; ICCVS.",
+    "jumuahNote": "На странице услуг указана «джума (пятничный намаз)»; время не указано."
+  },
+  {
+    "id": "bcma-abbotsford-branch",
+    "notes": "Также известна как Abbotsford Islamic Centre.",
+    "newMuslimSupportNote": "Программу New Muslim Care для всей провинции ведёт BC Muslim Association; у этого отделения своей программы нет. В регистрационной форме BCMA можно выбрать это отделение."
+  },
+  {
+    "id": "bcma-burnaby-branch",
+    "notes": "Также известна как Masjid al Salaam & Education Centre.",
+    "newMuslimSupportNote": "Программу New Muslim Care для всей провинции ведёт BC Muslim Association; у этого отделения своей программы нет. В регистрационной форме BCMA можно выбрать это отделение.",
+    "jumuahNote": "Страница отделения: пятничная молитва начинается в 13:30, икама в 14:30."
+  },
+  {
+    "id": "bcma-castlegar-branch",
+    "notes": "Также известна как Islamic Centre of Castlegar.",
+    "newMuslimSupportNote": "Программу New Muslim Care для всей провинции ведёт BC Muslim Association; у этого отделения своей программы нет. В регистрационной форме BCMA можно выбрать это отделение."
+  },
+  {
+    "id": "bcma-chilliwack-branch",
+    "notes": "Также известна как Chilliwack Islamic Centre.",
+    "newMuslimSupportNote": "Программу New Muslim Care для всей провинции ведёт BC Muslim Association; у этого отделения своей программы нет. В регистрационной форме BCMA можно выбрать это отделение."
+  },
+  {
+    "id": "bcma-dawson-creek-islamic-center",
+    "newMuslimSupportNote": "Программу New Muslim Care для всей провинции ведёт BC Muslim Association; у этого отделения своей программы нет. В регистрационной форме BCMA можно выбрать это отделение."
+  },
+  {
+    "id": "bcma-delta-islamic-center",
+    "notes": "Также известна как Delta Islamic Centre.",
+    "newMuslimSupportNote": "Программу New Muslim Care для всей провинции ведёт BC Muslim Association; у этого отделения своей программы нет. В регистрационной форме BCMA можно выбрать это отделение."
+  },
+  {
+    "id": "kamloops-ayesha-mosque",
+    "notes": "Район: Knutsford. Также известна как Ayesha Mosque; Kamloops Islamic Association.",
+    "accessibilityNote": "На главной странице сказано, что в нынешнем здании в Knutsford «нет городского водопровода, нет общественного транспорта, мало места», и ассоциация собирает средства, чтобы «переехать в доступное место» в черте Камлупса.",
+    "jumuahNote": "Главная страница: пятничная хутба в 13:30.",
+    "parkingNote": "Главная страница: из-за нехватки места некоторые мероприятия «проводятся в другом месте, даже на парковке»."
+  },
+  {
+    "id": "bcma-kelowna-branch",
+    "notes": "Также известна как Kelowna Islamic Centre.",
+    "newMuslimSupportNote": "Программу New Muslim Care для всей провинции ведёт BC Muslim Association; у этого отделения своей программы нет. В регистрационной форме BCMA можно выбрать это отделение."
+  },
+  {
+    "id": "bcma-kitimat-islamic-center",
+    "newMuslimSupportNote": "Программу New Muslim Care для всей провинции ведёт BC Muslim Association; у этого отделения своей программы нет. В регистрационной форме BCMA можно выбрать это отделение."
+  },
+  {
+    "id": "masjid-al-sahaba-langley",
+    "notes": "Также известна как Langley Islamic Centre; Langley Musalla.",
+    "womenSpaceNote": "Официальная страница: «есть женское молитвенное место»."
+  },
+  {
+    "id": "jamia-riyadhul-jannah-maple-ridge",
+    "notes": "Также известна как Riyadhul Jannah Mosque.",
+    "jumuahNote": "Главная страница: пятничная хутба в 13:30."
+  },
+  {
+    "id": "bcma-nanaimo-chapter",
+    "newMuslimSupportNote": "Программу New Muslim Care для всей провинции ведёт BC Muslim Association; у этого отделения своей программы нет. В регистрационной форме BCMA можно выбрать это отделение."
+  },
+  {
+    "id": "bcma-north-shore-chapter-north-vancouver",
+    "newMuslimSupportNote": "Программу New Muslim Care для всей провинции ведёт BC Muslim Association; у этого отделения своей программы нет. В регистрационной форме BCMA можно выбрать это отделение."
+  },
+  {
+    "id": "masjid-ar-rahman-north-vancouver",
+    "notes": "Также известна как Masjid Ar-Rahman Foundation of North Vancouver.",
+    "womenSpaceNote": "На странице программ указаны занятия для сестёр и женщин; женское молитвенное место не описано.",
+    "jumuahNote": "Страница о джуме: хутба в 13:30 в период летнего времени (с середины марта до ноября) и в 12:30 в период стандартного времени."
+  },
+  {
+    "id": "bcma-penticton-branch",
+    "newMuslimSupportNote": "Программу New Muslim Care для всей провинции ведёт BC Muslim Association; у этого отделения своей программы нет. В регистрационной форме BCMA можно выбрать это отделение."
+  },
+  {
+    "id": "islamic-society-of-british-columbia-port-coquitlam",
+    "notes": "Также известна как Masjid Al-Hidayah & Islamic Cultural Centre; ISBC.",
+    "womenSpaceNote": "На странице программ указана еженедельная встреча для женщин; молитвенное место не указано; пятничные намазы открыты для мужчин и женщин; есть личные консультации для женщин.",
+    "jumuahNote": "Хутба начинается в 13:40.",
+    "parkingNote": "Подземная парковка мечети; дополнительно парковка ECBC (платная) или городская парковка Legion; не паркуйтесь на Kingsway Ave."
+  },
+  {
+    "id": "al-ihsan-islamic-centre-port-moody"
+  },
+  {
+    "id": "bcma-prince-george-branch",
+    "notes": "Также известна как BCMA Prince George Chapter.",
+    "newMuslimSupportNote": "Программу New Muslim Care для всей провинции ведёт BC Muslim Association; у этого отделения своей программы нет. В регистрационной форме BCMA можно выбрать это отделение."
+  },
+  {
+    "id": "bcma-richmond-branch",
+    "notes": "Также известна как Richmond Jamia Masjid; BCMA head office site.",
+    "newMuslimSupportNote": "Программу New Muslim Care для всей провинции ведёт BC Muslim Association; у этого отделения своей программы нет. В регистрационной форме BCMA можно выбрать это отделение.",
+    "jumuahNote": "На странице отделения указаны первая хутба в 13:30 и вторая в 15:00 (может меняться по сезонам)."
+  },
+  {
+    "id": "abu-bakr-islamic-centre-surrey",
+    "notes": "Также известна как Masjid Abu Bakr.",
+    "womenSpaceNote": "Сёстрам рады на 2-й пятничной молитве.",
+    "jumuahNote": "1-я джума в 13:40, 2-я в 14:40, 3-я в 15:30."
+  },
+  {
+    "id": "bcma-surrey-delta-branch",
+    "notes": "Также известна как Surrey Jamia Masjid.",
+    "newMuslimSupportNote": "Программу New Muslim Care для всей провинции ведёт BC Muslim Association; у этого отделения своей программы нет. В регистрационной форме BCMA можно выбрать это отделение."
+  },
+  {
+    "id": "bcma-surrey-east-branch",
+    "newMuslimSupportNote": "Программу New Muslim Care для всей провинции ведёт BC Muslim Association; у этого отделения своей программы нет. В регистрационной форме BCMA можно выбрать это отделение."
+  },
+  {
+    "id": "cloverdale-islamic-society-surrey",
+    "notes": "Район: Cloverdale. Также известна как Cloverdale Islamic Center."
+  },
+  {
+    "id": "guildford-islamic-cultural-center-surrey",
+    "notes": "Район: Guildford. Также известна как Guildford Musullah.",
+    "womenSpaceNote": "2-я и 3-я пятничные молитвы открыты для сестёр; в мечети есть комната для сестёр.",
+    "jumuahNote": "Три пятничные молитвы; первая только для братьев; время на awqat.net."
+  },
+  {
+    "id": "white-rock-muslim-association-surrey",
+    "notes": "Район: South Surrey / White Rock. Также известна как WRMA Musallah.",
+    "womenSpaceNote": "Страница о намазах: «Отдельные молитвенные места для братьев (основной зал) и сестёр (верхний этаж)».",
+    "accessibilityNote": "Страница о намазах: «Чтобы узнать больше о доступности и времени намазов, свяжитесь с нами».",
+    "jumuahNote": "Первая джума в 13:35, вторая в 14:15 (летнее расписание, может меняться); зимнее расписание 12:35 и 13:15.",
+    "parkingNote": "Страница о намазах: «Паркуйтесь на общественных местах, а не у других предприятий или на зарезервированных местах. Машины будут эвакуированы за счёт владельца»."
+  },
+  {
+    "id": "ajyal-islamic-society-vancouver",
+    "notes": "Также известна как Ajyal Islamic Centre Vancouver Mosque.",
+    "visitorNotes": "Языки: на сайте сказано, что программы проходят на английском, турецком, арабском и других языках.",
+    "womenSpaceNote": "Указаны программы для сестёр (халяка, занятия по Корану, поддержка новых мусульман); женское молитвенное место не описано.",
+    "jumuahNote": "Страница о пятнице (действует с 8 марта 2026 года): три молитвы, хутбы в 13:30 (только братья), 14:10 и 14:45."
+  },
+  {
+    "id": "al-masjid-al-jamia-vancouver",
+    "notes": "Также известна как Al-Jamia Masjid; Vancouver Jamia Masjid.",
+    "jumuahNote": "Страница организатора: два пятничных намаза в 13:30 и 14:15."
+  },
+  {
+    "id": "bcma-vancouver-branch",
+    "notes": "Также известна как Masjid ul-Haqq.",
+    "newMuslimSupportNote": "Программу New Muslim Care для всей провинции ведёт BC Muslim Association; у этого отделения своей программы нет. В регистрационной форме BCMA можно выбрать это отделение.",
+    "jumuahNote": "Страница отделения: пятничная молитва начинается в 13:30, икама в 14:00."
+  },
+  {
+    "id": "mac-vancouver-centre",
+    "notes": "Также известна как Muslim Association of Canada, Vancouver.",
+    "jumuahNote": "Страница центра: хутба в 13:30, намаз в 14:00."
+  },
+  {
+    "id": "masjid-omar-al-farooq-vancouver",
+    "notes": "Также известна как Othman Bin Affan Islamic Society."
+  },
+  {
+    "id": "vernon-islamic-centre",
+    "notes": "Также известна как Vernon Mosque."
+  },
+  {
+    "id": "bcma-victoria-branch",
+    "notes": "Также известна как Victoria Masjid.",
+    "newMuslimSupportNote": "Программу New Muslim Care для всей провинции ведёт BC Muslim Association; у этого отделения своей программы нет. В регистрационной форме BCMA можно выбрать это отделение."
+  },
+  {
+    "id": "bcma-westshore-branch",
+    "newMuslimSupportNote": "Программу New Muslim Care для всей провинции ведёт BC Muslim Association; у этого отделения своей программы нет. В регистрационной форме BCMA можно выбрать это отделение."
+  },
+  {
+    "id": "bcma-central-cariboo-islamic-center-williams-lake",
+    "notes": "Также известна как Williams Lake Muslim Committee.",
+    "newMuslimSupportNote": "Программу New Muslim Care для всей провинции ведёт BC Muslim Association; у этого отделения своей программы нет. В регистрационной форме BCMA можно выбрать это отделение."
+  },
+  {
+    "id": "akram-jomaa-islamic-centre-calgary",
+    "womenSpaceNote": "На странице о центре указан женский комитет; молитвенное место не описано.",
+    "newMuslimSupportNote": "Страница New to Islam приглашает записаться на встречу с имамом, пройти экскурсию и забрать в офисе набор книг к шахаде. Форма группы поддержки на этой странице может пока не работать, поэтому лучше свяжитесь с офисом.",
+    "accessibilityNote": "Страница о центре: сертификат MUHSEN; комитет по инвалидности работает, чтобы «у всех были равные возможности полноценно участвовать»."
+  },
+  {
+    "id": "al-hedaya-islamic-centre-of-north-east-calgary",
+    "notes": "Также известна как Islamic Center NE.",
+    "womenSpaceNote": "Программа Rising Muslimah для девушек от 13 до 19 лет (по субботам в 9:00); женское молитвенное место не описано.",
+    "jumuahNote": "«Пятничный намаз проходит только в Genesis Centre в залах Multi-Purpose Room A и B» в 14:00, 14:30 и 15:00."
+  },
+  {
+    "id": "al-madinah-calgary-islamic-assembly",
+    "notes": "Также известна как Green Dome Mosque."
+  },
+  {
+    "id": "al-salam-centre-calgary",
+    "notes": "Также известна как MAC Calgary; Masjid Al-Salam.",
+    "jumuahNote": "«13:00 и 14:00» в Al-Salam Centre; 13:30 в MAC Islamic School и Marlborough Community Association."
+  },
+  {
+    "id": "hazrat-bilal-islamic-centre-calgary",
+    "notes": "Также известна как Masjid Bilal.",
+    "jumuahNote": "«Первая хутба в 13:45. Вторая хутба в 14:30. Двери закрываются в 14:00 для первой пятничной молитвы».",
+    "parkingNote": "Главная страница: «Пожалуйста, не загораживайте соседские въезды и следуйте указаниям волонтёров»."
+  },
+  {
+    "id": "islamic-association-of-north-west-calgary",
+    "notes": "Также известна как IANWC; Northwest Islamic Centre.",
+    "newMuslimSupportNote": "На главной странице сказано, что имам мечети поможет, если у вас есть вопросы или вы готовы произнести шахаду. Занятия или наставничество не описаны.",
+    "jumuahNote": "13:15, 14:00 и 14:45 в Ranchland и в Maryam Masjid, 183 Beddington Drive NW.",
+    "parkingNote": "Парковка на улице и на площадке; мест мало, приходите заранее; когда площадка заполнена, въезд закрывают."
+  },
+  {
+    "id": "islamic-centre-of-south-calgary",
+    "notes": "Также известна как ICSC; Islamic Center SE.",
+    "jumuahNote": "Legacy Musallah: 13:15, 14:00, 14:45, 15:30; McKenzie Towne Hall: 13:00, 13:45."
+  },
+  {
+    "id": "islamic-centre-of-southwest-calgary",
+    "notes": "Также известна как SW Masjid; Calgary Islamic Centre SW.",
+    "jumuahNote": "Две пятничные молитвы; время меняется по сезонам (13:45 и 15:00 с 26 сентября 2026 года); смотрите блок на главной странице."
+  },
+  {
+    "id": "muslim-council-of-calgary",
+    "notes": "Также известен как MCC. Это офис Muslim Council of Calgary, который обслуживает мечети по всему городу.",
+    "newMuslimSupportNote": "Страница New Muslim описывает группу поддержки New Muslim Circle, а также Connect with an Imam и книгу-руководство для новых мусульман. Там также предлагают личную поддержку от сверстника, наставника или имама."
+  },
+  {
+    "id": "mac-cold-lake-mosque",
+    "jumuahNote": "13:30."
+  },
+  {
+    "id": "ahl-al-athar-islamic-center-edmonton",
+    "womenSpaceNote": "На главной странице указан отдельный «женский вход» (ссылка на карту)."
+  },
+  {
+    "id": "al-ameen-masjid-edmonton",
+    "notes": "Также известна как Al-Ameen Mosque.",
+    "womenSpaceNote": "Главная страница: «просторные молитвенные залы и для братьев, и для сестёр»; в списке услуг есть «молитвенное место для сестёр».",
+    "jumuahNote": "Главная страница: 1-я хутба пятничной молитвы в 12:45, 2-я хутба в 13:40 (может меняться по сезонам).",
+    "parkingNote": "В списке услуг есть «парковка» (без подробностей)."
+  },
+  {
+    "id": "al-rashid-mosque-edmonton",
+    "womenSpaceNote": "Указаны программы для сестёр (женская халяка по пятницам в 19:00; программа для пожилых женщин по средам с 12:00 до 14:00); молитвенное место не описано.",
+    "jumuahNote": "Al Rashid Mosque в 13:45; ARCA в 14:00."
+  },
+  {
+    "id": "alfalah-islamic-centre-edmonton",
+    "notes": "Также известна как Alfalah Center; ICNA Edmonton.",
+    "womenSpaceNote": "Страница программ: «Полноценная мечеть (мужчины и женщины). Наш центр предоставляет отдельное и открытое для всех молитвенное место и для мужчин, и для женщин»; указаны программы для женщин.",
+    "jumuahNote": "Главная страница: джума в 13:30 и джума II в 14:30; «Икама пятничного намаза через 30 минут после указанного времени»."
+  },
+  {
+    "id": "assiddiq-islamic-foundation-edmonton",
+    "notes": "Также известна как Assiddiq Islamic Center.",
+    "visitorNotes": "Службы на английском подтверждены: субботняя халяка для девушек (от 17 лет) «на английском».",
+    "womenSpaceNote": "На странице услуг указана халяка для сестёр; женское молитвенное место не описано.",
+    "newMuslimSupportNote": "На странице услуг среди занятий для взрослых указаны занятия для новых мусульман со ссылкой на запись. Расписание и стоимость не указаны.",
+    "jumuahNote": "Таблица намазов на главной странице: 1-я джума в 14:00, 2-я в 15:30 (летом); в разделе услуг также сказано «джума каждую пятницу в 13:00» (вероятно, зимнее время). Уточните."
+  },
+  {
+    "id": "dar-al-sunnah-edmonton",
+    "notes": "Также известна как Dar-Al-Sunnah.",
+    "visitorNotes": "Службы на английском подтверждены: на главной странице указано «1-я хутба пятничной молитвы (на английском) в 13:45».",
+    "jumuahNote": "Главная страница: 1-я хутба (на английском) в 13:45; 2-я хутба (на арабском) в 14:45."
+  },
+  {
+    "id": "darul-ilmi-masjid-edmonton",
+    "notes": "Также известна как Masjid Daril Ilmi; Darul Ilmi Quran School.",
+    "jumuahNote": "Главная страница: «Пятничная хутба начинается в 13:00»."
+  },
+  {
+    "id": "mas-islamic-centre-edmonton",
+    "notes": "Также известна как Masjid Al-Salaam.",
+    "jumuahNote": "«Каждую пятницу в 14:00»."
+  },
+  {
+    "id": "markaz-al-imam-malik-edmonton"
+  },
+  {
+    "id": "markaz-ul-islam-edmonton",
+    "visitorNotes": "Языки: книги в библиотеке на английском, урду и арабском.",
+    "womenSpaceNote": "Программа по Корану и хадисам только для сестёр в 1-ю и 3-ю субботу месяца.",
+    "jumuahNote": "1-я джума в 14:00, 2-я джума в 15:00 (икама), главная страница."
+  },
+  {
+    "id": "masjid-al-ansar-edmonton"
+  },
+  {
+    "id": "masjid-al-omari-edmonton",
+    "notes": "Также известна как Edmonton Islamic Centre.",
+    "jumuahNote": "Главная страница: первая джума в 12:30; вторая джума в 13:30 (вторая хутба в 13:30, икама в 13:50). Время может меняться по сезонам."
+  },
+  {
+    "id": "masjid-at-taqwa-edmonton"
+  },
+  {
+    "id": "masjid-quba-jama-masjid-edmonton",
+    "notes": "Также известна как Islamic Missionary Association Edmonton.",
+    "jumuahNote": "Первая джума в 14:00; вторая джума в 15:00."
+  },
+  {
+    "id": "medina-mosque-society-of-edmonton",
+    "notes": "Также известна как Medina Mosque."
+  },
+  {
+    "id": "muslim-community-of-edmonton-mosque",
+    "jumuahNote": "Проводятся регулярные пятничные намазы; время на главной странице не указано."
+  },
+  {
+    "id": "rahma-mosque-edmonton",
+    "notes": "Также известна как MAC Islamic Centre Edmonton.",
+    "jumuahNote": "Три пятничных намаза: 13:00, 14:00, 15:00; двери закрываются, когда на намаз пришли 400 человек; «Детям до 12 лет нельзя»."
+  },
+  {
+    "id": "ruh-a-ruh-mosque-edmonton",
+    "notes": "Также известна как Soul Community Center; Ruh a Ruh Mosque.",
+    "womenSpaceNote": "На главной странице указан зал «Women's Space», который можно забронировать («для больших женских собраний»); отдельное женское молитвенное место не описано.",
+    "jumuahNote": "Главная страница: «Пятничная джума: намаз через 10 минут после азана. Хутба, а затем общий намаз».",
+    "parkingNote": "«Объявление о парковке для гостей» на главной странице: просит парковаться ответственно и не загораживать соседние предприятия."
+  },
+  {
+    "id": "sahaba-mosque-edmonton"
+  },
+  {
+    "id": "markaz-ul-islam-fort-mcmurray",
+    "newMuslimSupportNote": "Страница New Muslim (Shahada) Support предлагает организацию шахады, вводное занятие о намазе, вуду и основах веры, напарника из общины и помощь при давлении семьи. В анкете можно выбрать поддержку по телефону, сообщениями, по почте, лично или онлайн."
+  },
+  {
+    "id": "islamic-association-of-grande-prairie",
+    "notes": "Также известна как IAGP."
+  },
+  {
+    "id": "lethbridge-muslim-association",
+    "newMuslimSupportNote": "На странице услуг указаны «занятия и программы специально для тех, кто недавно принял ислам». Последнее объявление на главной странице датировано мартом 2025 года, поэтому спросите, проходят ли занятия.",
+    "jumuahNote": "Джума в 13:30."
+  },
+  {
+    "id": "islamic-association-of-medicine-hat",
+    "notes": "Также известна как IAMH.",
+    "jumuahNote": "1-я джума в 13:30; 2-я джума в 14:00."
+  },
+  {
+    "id": "red-deer-islamic-centre",
+    "jumuahNote": "В центре две пятничные молитвы; время не прочитано."
+  },
+  {
+    "id": "masjid-in-the-park-sherwood-park",
+    "womenSpaceNote": "Отдельные молитвенные залы и отдельные входы для братьев и сестёр; комната для мам с живой аудиотрансляцией.",
+    "accessibilityNote": "Полностью доступна: пандусы для инвалидных колясок, доступные туалеты и лифт по всему зданию.",
+    "jumuahNote": "На главной странице упоминаются пятничные молитвы и вместимость более 250 человек; время не указано."
+  },
+  {
+    "id": "muslim-association-of-st-albert",
+    "notes": "Также известна как MASA; St. Albert Mosque.",
+    "womenSpaceNote": "Главная страница: «основной этаж и спортзал отведены для братьев, а второй этаж для сестёр»."
+  },
+  {
+    "id": "abu-bakr-al-siddiq-masjid-moose-jaw"
+  },
+  {
+    "id": "prince-albert-masjid"
+  },
+  {
+    "id": "darul-falah-islamic-centre-regina",
+    "jumuahNote": "Три пятничные молитвы: хутба в 13:00, 13:30 и 14:00 (главная страница)."
+  },
+  {
+    "id": "iaos-regina-east-musallah",
+    "notes": "Также известна как East Regina Mosque; East Regina Musalla.",
+    "newMuslimSupportNote": "IAOS Regina ведёт комитет для принявших ислам на весь город с наставничеством равных, программой напарников в мечети и консультациями. У этого молитвенного зала своей программы нет."
+  },
+  {
+    "id": "islamic-association-of-saskatchewan-inc-iaos-regina-mosque",
+    "womenSpaceNote": "Страница о центре: в центре есть отдельные молитвенные места для братьев и сестёр.",
+    "newMuslimSupportNote": "Комитет IAOS Regina для принявших ислам предлагает наставничество равных, программу напарников в мечети, консультации, книги и лекции. В расписании на главной странице указано субботнее занятие для новых мусульман после иши.",
+    "jumuahNote": "Джума 1 в 13:15, джума 2 в 14:00 (главная страница)."
+  },
+  {
+    "id": "islamic-society-of-regina-masjid",
+    "notes": "Также известна как ISR.",
+    "jumuahNote": "Главная страница: джума 13:15 | 13:45."
+  },
+  {
+    "id": "madni-islamic-center-mosque-inc-regina",
+    "jumuahNote": "Главная страница: джума в 13:30."
+  },
+  {
+    "id": "regina-city-jamia-masjid",
+    "notes": "Также известна как RCJM.",
+    "womenSpaceNote": "Страница контактов: «В Regina City Jamia Masjid есть места для намаза для мужчин и женщин».",
+    "newMuslimSupportNote": "Страница New to Islam описывает для новых мусульман «образовательные занятия, программы наставничества и личные консультации». Как записаться, не сказано, поэтому позвоните или напишите.",
+    "jumuahNote": "Главная страница: пятничная хутба в 13:10, икама в 13:30."
+  },
+  {
+    "id": "jamia-riyadhul-jannah-saskatoon",
+    "jumuahNote": "Джума в 13:35 и 14:30 (главная страница)."
+  },
+  {
+    "id": "prairie-muslim-association-saskatoon-masjid"
+  },
+  {
+    "id": "the-islamic-association-of-saskatchewan-inc-ias-masjid-saskatoon",
+    "jumuahNote": "Джума 1 в 13:00 (икама в 13:30); джума 2 в 14:05 (икама в 14:30), главная страница 2026-09-23."
+  },
+  {
+    "id": "brandon-islamic-centre-inc",
+    "jumuahNote": "1-я пятничная хутба в 14:00, 2-я в 15:00."
+  },
+  {
+    "id": "mia-steinbach-mussallah"
+  },
+  {
+    "id": "mia-pembina-valley-mussallah-winkler"
+  },
+  {
+    "id": "alhaqq-prayer-group-of-canada-inc-winnipeg",
+    "notes": "Также известна как Al-Haqq Canada; Al-Haqq Masjid. Сайт описывает еженедельное общее поклонение по воскресеньям. Спросите о ежедневных и пятничных намазах."
+  },
+  {
+    "id": "beit-naballa-mosque-winnipeg",
+    "jumuahNote": "Главная страница: «Мы открыты для пяти ежедневных намазов и пятничной молитвы (джумы)»."
+  },
+  {
+    "id": "manitoba-dawah-center-winnipeg",
+    "womenSpaceNote": "Вторая джума «для мужчин и женщин»; первая джума только для мужчин.",
+    "jumuahNote": "Джума в 13:35 (только мужчины) и 14:25 (мужчины и женщины), по данным главной страницы."
+  },
+  {
+    "id": "pioneer-mosque-winnipeg",
+    "notes": "Также известна как St. Vital Mosque; Hazelwood Mosque.",
+    "newMuslimSupportNote": "Комитет Manitoba Islamic Association для принявших ислам «ведут принявшие ислам для принявших ислам». Он предлагает набор книг, встречи, семинары и систему напарников. Комитет обслуживает всю ассоциацию, а не одно здание.",
+    "jumuahNote": "MIA: открыта для всех 5 ежедневных намазов и пятничной молитвы; время джумы в этом здании не указано."
+  },
+  {
+    "id": "winnipeg-central-mosque",
+    "womenSpaceNote": "Раздел вопросов: «В WCM нет физической перегородки между мужчинами и женщинами»; передний и задний входы оба семейные.",
+    "accessibilityNote": "Места для людей с инвалидностью на задней парковке; больше ничего не указано.",
+    "jumuahNote": "Джума: хутба в 13:45, намаз заканчивается в 14:15 (главная страница, 2026-09-23).",
+    "parkingNote": "Парковка есть на площадке рядом с мечетью со стороны Toronto Street и на площадке за мечетью. На площадке за мечетью есть несколько мест для людей с инвалидностью."
+  },
+  {
+    "id": "winnipeg-grand-mosque-and-community-centre",
+    "notes": "Также известна как Waverley Mosque; MIA Grand Mosque.",
+    "newMuslimSupportNote": "Комитет Manitoba Islamic Association для принявших ислам «ведут принявшие ислам для принявших ислам». Он предлагает набор книг, встречи, семинары и систему напарников. Комитет обслуживает всю ассоциацию, а не одно здание.",
+    "jumuahNote": "Главная страница MIA: джума «в 13:45 и 15:30». Страница мечетей MIA: «Обе мечети открыты для всех 5 ежедневных намазов и пятничной молитвы»."
+  },
+  {
+    "id": "nova-scotia-islamic-community-centre-kearney-lake-masjid-bedford",
+    "notes": "Район: Halifax Regional Municipality. Также известна как NSICC; Kearney Lake Masjid; Halifax Jamia Masjid.",
+    "womenSpaceNote": "На странице контактов указаны комитет сестёр и группа поддержки мусульманок; молитвенное место для женщин не описано.",
+    "jumuahNote": "Главная страница: «Пятница/джума (хутба) в 13:30»."
+  },
+  {
+    "id": "dartmouth-masjid",
+    "notes": "Также известна как IANS Dartmouth Masjid.",
+    "jumuahNote": "13:30."
+  },
+  {
+    "id": "the-centre-for-islamic-development-halifax",
+    "notes": "Также известна как CID."
+  },
+  {
+    "id": "truro-masjid",
+    "jumuahNote": "13:30."
+  },
+  {
+    "id": "fredericton-islamic-association-fia",
+    "womenSpaceNote": "Упоминается женский вход; подробностей о молитвенном месте нет.",
+    "accessibilityNote": "Парковка у женского входа зарезервирована для гостей с инвалидностью или сестёр (главная страница).",
+    "jumuahNote": "Главная страница: «12:30 и 13:30» (две пятничные молитвы).",
+    "parkingNote": "На главной странице указаны варианты парковки: основная площадка, под мостом Princess Margaret Bridge и у дороги, с советами на часы пик."
+  },
+  {
+    "id": "masjid-yusuf-moncton",
+    "notes": "Также известна как Masjid Yusuf Islamic Center."
+  },
+  {
+    "id": "moncton-muslim-association"
+  },
+  {
+    "id": "al-falah-islamic-center-st-john-s",
+    "notes": "Также известна как ICNA NewFoundLand.",
+    "visitorNotes": "Службы на английском подтверждены: (пятничная халяка отмечена как «язык английский»).",
+    "jumuahNote": "Главная страница: «Джума в 12:45 в Farmers' Market (1-я), в 13:15 в Farmers' Market (2-я)» (вне мечети).",
+    "parkingNote": "Правила парковки на главной странице: пользуйтесь парковкой мечети; «Если парковка мечети заполнена, можно парковаться на той же стороне улицы, что и мечеть»."
+  },
+  {
+    "id": "masjid-al-noor-st-john-s",
+    "notes": "Также известна как Masjid An-Noor; MANAL.",
+    "jumuahNote": "Страница мероприятий: одна пятничная молитва каждую пятницу в Masjid Suleman Dawood с 12:50 до 13:20 (не в Al-Noor)."
+  },
+  {
+    "id": "masjid-suleman-dawood-st-john-s",
+    "womenSpaceNote": "Объявление на Ид: вход и выход для сестёр через задний вход.",
+    "jumuahNote": "«одна пятничная молитва каждую пятницу в Masjid Suleman Dawood, начало в 12:50, окончание в 13:20» (MANAL).",
+    "parkingNote": "Объявления на Ид: паркуйтесь только на выделенных площадках, следуйте указаниям волонтёров."
+  },
+  {
+    "id": "muslim-society-of-prince-edward-island-masjid-dar-as-salam-charlottetown",
+    "notes": "Также известна как Dar As-Salam Mosque; Muslim Society of PEI.",
+    "jumuahNote": "Главная страница: 1-я джума в 13:20, 2-я джума в 14:00."
+  },
+  {
+    "id": "yukon-muslim-society-inc-whitehorse",
+    "notes": "Также известна как Yukon Muslims Society; Whitehorse Mosque.",
+    "visitorNotes": "Службы на английском подтверждены: пятничная проповедь на английском.",
+    "womenSpaceNote": "Страница экскурсий: «Женщин попросят покрыть голову перед входом в молитвенный зал». Отдельная женская зона на официальных страницах не указана.",
+    "newMuslimSupportNote": "На странице о шахадах сказано: «Новых мусульман приглашаем приходить к нам, чтобы узнавать об исламе и практиковать его». Пятничная проповедь на английском.",
+    "accessibilityNote": "Доступно для инвалидных колясок.",
+    "parkingNote": "Есть парковка мечети; одно место для людей с инвалидностью."
+  },
+  {
+    "id": "midnight-sun-mosque-inuvik"
+  },
+  {
+    "id": "iqaluit-masjid",
+    "jumuahNote": "На вопрос «Проводится ли пятничная молитва каждую пятницу?» на странице о мечети ответ «да»; время не указано."
   }
 ]
