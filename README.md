@@ -38,7 +38,9 @@ Structured content also lives in that same locale folder, for example:
 - `locales/en/tools/*.json` and `locales/en/pages/*.json`
 - `locales/en/dawah-guides/*.json`
 
-The content loader reads from `locales/{locale}/...` and falls back to English when a translated file is missing.
+The content loader reads from `locales/{locale}/...` and falls back to English when a translated file is missing. All thirteen locales are complete, so the fallback only covers content added before its translation lands. Run `node scripts/check-translations.mjs` to list anything a locale is missing; it prints `clean` per locale when nothing is.
+
+Collections merged by id (sources, resources, glossary, stages, masjids, FAQ, life guides and seasonal guides) hold only the id and the translated text fields in each locale file. Steps and topics need a file per English file with every text field. The tools, the Ramadan planning page, the dawah guide, events, source categories and resource collections are whole-file translations.
 
 To add a new language:
 

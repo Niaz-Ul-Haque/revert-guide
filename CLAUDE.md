@@ -83,7 +83,7 @@ This is the authoritative project context document for the **Revert Guide** appl
 **i18n (Internationalization) Rules:**
 - **Default Language:** English (US) is the default.
 - **UI Strings:** Stored in locale JSON (e.g., `locales/en/ui.json`). Do not hard-code English in components; use a lookup like `t('nav.home')`.
-- **Translations:** 13 locales are wired in lib/i18n.ts (en, fr, es, hi, ur, zh, tl, pa, pt, ko, fa, ru, bn). Missing UI strings and content fall back to English by key, id and field. Non-English pages show a short translation notice; English pages do not. Menus show the same items in every locale.
+- **Translations:** 13 locales are wired in lib/i18n.ts (en, fr, es, hi, ur, zh, tl, pa, pt, ko, fa, ru, bn). Every locale is fully translated (September 2026). The fallback to English by key, id and field stays as a safety net for content added before its translation lands, and `node scripts/check-translations.mjs` must print `clean` for every locale before a content change merges. There is no translation notice. Menus show the same items in every locale.
 - **RTL Support:** Arabic requires right-to-left layout. Use `dir="rtl"` on Arabic text segments and RTL fonts. Use logical CSS properties (margin-inline-start vs margin-left).
 - **Proper Nouns:** Do not translate "Allah", "Ramadan", "Shahada", etc.
 - **Locale Switching:** The language switcher changes the URL prefix and stores the choice in localStorage (`revert-guide-locale`).
@@ -177,6 +177,7 @@ This is the authoritative project context document for the **Revert Guide** appl
 **CI checks:**
 - `npm run test` runs scripts/axe-check.mjs, an axe-core check over key pages in `out/`, after the build. It fails on serious or critical violations.
 - `npm run check:links` runs scripts/check-links.mjs over the URLs in sources.json, resources.json and masjids.json. A weekly workflow runs it and uploads a JSON report.
+- `node scripts/check-translations.mjs [--locale xx] [--details N]` compares every locale with English: missing ui.json keys, missing ids and text fields in the merged collections, missing step, topic and whole-file translations, text identical to English where a translation is expected, changed placeholders, drift in ids, urls and numbers, and metadata lengths. It exits 1 when any locale is not clean.
 
 **Checklist Before Commit/PR:**
 1. Run lint and types: `npm run lint && npx tsc --noEmit`
@@ -236,7 +237,7 @@ This is the authoritative project context document for the **Revert Guide** appl
 **Internationalization (i18n):**
 - Built with future translation in mind.
 - All UI labels/static text in locale JSON (e.g., `locales/en/ui.json`). Components use lookup like `t('nav.home')`.
-- English is complete. Other locales are partly translated and fall back to English.
+- English is the source of truth and every locale carries a complete translation of it. When English content changes, the same fields change in all twelve locale folders in the same pull request; the coverage checker cannot see stale text, only missing or identical text.
 - Content files organized by locale (`locales/en/`, `locales/fr/`, etc.). Default is English.
 - **RTL Support:** Arabic requires right-to-left layout. Use dir="rtl" on Arabic text spans. RTL fonts (Amiri for Arabic).
 - **Logical CSS:** Use logical properties (margin-inline-start vs margin-left) where possible.
