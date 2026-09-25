@@ -24,13 +24,17 @@ export interface GuideLink {
   href: string;
 }
 
-export type LifeGuideGroup =
-  | "starting-out"
-  | "family-and-relationships"
-  | "everyday-life"
-  | "community-and-safety"
-  | "life-events"
-  | "mentoring";
+/** Sections of the /guides index, in display order. */
+export const LIFE_GUIDE_GROUPS = [
+  "starting-out",
+  "family-and-relationships",
+  "everyday-life",
+  "community-and-safety",
+  "life-events",
+  "mentoring",
+] as const;
+
+export type LifeGuideGroup = (typeof LIFE_GUIDE_GROUPS)[number];
 
 export interface LifeGuide {
   id: string;

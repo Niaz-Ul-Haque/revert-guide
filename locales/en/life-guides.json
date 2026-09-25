@@ -2,6 +2,7 @@
   {
     "id": "family-and-friends",
     "slug": "family-and-friends",
+    "group": "family-and-relationships",
     "title": "Family and friends guide",
     "description": "Plan a calm conversation, keep yourself safe, and hold on to family ties where you can.",
     "intro": "You do not have to tell everyone at once. This page helps you work out who actually needs to know, what to say in the first minute, and how to stop the conversation turning into a debate.",
@@ -163,6 +164,7 @@
   {
     "id": "first-masjid-visit",
     "slug": "first-masjid-visit",
+    "group": "starting-out",
     "title": "First masjid visit guide",
     "description": "What to expect the first time you walk into a masjid: what to wear, where your shoes go, who to ask for help, and how Friday prayer is different.",
     "intro": "Every masjid runs a little differently. The visit gets easier once you know who to ask, what to wear, and what to do when you cannot tell what is happening.",
@@ -306,6 +308,7 @@
   {
     "id": "work-and-school",
     "slug": "work-and-school",
+    "group": "everyday-life",
     "title": "Work and school guide",
     "description": "Practical wording for prayer, fasting and food at work or school, and which accommodation rules apply where you are in Canada.",
     "intro": "Most of this gets easier if you ask early and keep the request small and specific. You do not owe anyone your whole life story to get a few minutes for prayer.",
@@ -523,6 +526,7 @@
   {
     "id": "identity-and-culture",
     "slug": "identity-and-culture",
+    "group": "starting-out",
     "title": "Identity and culture guide",
     "description": "Be Muslim without feeling you have to take on somebody else's culture.",
     "intro": "Islam changes how you worship and what you value. It does not wipe out your personality, your ethnicity, your language, or the good parts of where you come from.",
@@ -639,6 +643,7 @@
   {
     "id": "relationships-and-marriage-basics",
     "slug": "relationships-and-marriage-basics",
+    "group": "family-and-relationships",
     "title": "Relationships and marriage basics",
     "description": "Slow the big decisions down, ask the right people, and protect your safety and your dignity.",
     "intro": "Relationships get complicated after the Shahada, especially where family, a dating history, marriage pressure, or a partner's expectations are in the mix. The first step here is simple: do not make a rushed decision about your life on your own.",
@@ -842,6 +847,7 @@
   {
     "id": "loneliness-and-belonging",
     "slug": "loneliness-and-belonging",
+    "group": "community-and-safety",
     "title": "Loneliness and belonging",
     "description": "Build one steady connection, and know when it is time for professional help.",
     "intro": "A lot of new Muslims feel caught between two worlds for a while. Loneliness is not proof that your faith is weak. It usually means your friendships, your routines, and the places you belong are all changing at once.",
@@ -977,6 +983,7 @@
   {
     "id": "healthy-community-signs",
     "slug": "healthy-community-signs",
+    "group": "community-and-safety",
     "title": "Signs of a healthy community",
     "description": "Tell the difference between support that helps you grow and pressure dressed up as help.",
     "intro": "A good Muslim community makes the basics easier to carry. This page lists what decent support looks like, and the warning signs that mean you should step back or get qualified help.",
@@ -1103,6 +1110,7 @@
   {
     "id": "halal-living-in-daily-life",
     "slug": "halal-living-in-daily-life",
+    "group": "everyday-life",
     "title": "Halal living in daily life",
     "description": "Start with the clear basics of halal food, handle family meals, social events and work calmly, and know when a detail needs local help.",
     "intro": "You learn halal living one ordinary decision at a time. Start with the clear basics, try not to slide into checking every label twice, and ask qualified local help when the details get complicated.",
@@ -1245,6 +1253,7 @@
   {
     "id": "modesty-and-clothing",
     "slug": "modesty-and-clothing",
+    "group": "everyday-life",
     "title": "Modesty and clothing",
     "description": "Take clothing steps you can keep, around work, school, family, safety, and the weather.",
     "intro": "Modesty covers more than clothes, and a change of clothes is still the part everyone notices. This page helps you take it seriously without panic and without dressing up as somebody else's culture.",
@@ -1380,6 +1389,7 @@
   {
     "id": "how-to-ask-for-help",
     "slug": "how-to-ask-for-help",
+    "group": "starting-out",
     "title": "How to ask for help",
     "description": "Pick the right person, explain the situation clearly, and know when something needs urgent help.",
     "intro": "You do not need to know the right door before you knock. This page helps you work out whether your question belongs with an imam, a teacher, a counselor, a masjid administrator, a rights office, or an emergency service. If you would like to ask our own team, or ask for a mentor, use the Get help page.",
@@ -1488,6 +1498,7 @@
   {
     "id": "guide-for-mentors",
     "slug": "guide-for-mentors",
+    "group": "mentoring",
     "title": "Guide for mentors of new Muslims",
     "description": "How to welcome a new Muslim with calm priorities, clear boundaries, and honest referrals.",
     "intro": "A mentor does not have to answer everything. The best early support is steady, private, and practical, and it hands the sensitive questions to people who are qualified for them.",
@@ -1632,6 +1643,7 @@
   {
     "id": "holidays-and-family-occasions",
     "slug": "holidays-and-family-occasions",
+    "group": "family-and-relationships",
     "title": "Holidays and family occasions",
     "description": "What you can join at Christmas, Thanksgiving, birthdays and other family occasions, and how to keep family ties.",
     "intro": "Holidays can be the hardest part of the first year. Your family wants you there, and you want to keep your faith. Scholars agree on two things: keeping ties with your family is part of Islam, and a Muslim does not join in another religion's worship. Between those two points they differ, and this guide shows the range of views without choosing for you.",
@@ -1807,6 +1819,7 @@
   {
     "id": "red-flags-and-staying-safe",
     "slug": "red-flags-and-staying-safe",
+    "group": "community-and-safety",
     "title": "Red flags and staying safe",
     "description": "How to spot pressure, money requests and scams in a community, and where to report them in Canada.",
     "intro": "Most people you meet at a masjid or in a convert group are kind and want to help. A few are not. This guide lists the warning signs that come up most for new Muslims, what to do about them, and where to report in Canada. Being targeted is never your fault.",
@@ -1976,6 +1989,7 @@
   {
     "id": "how-mentoring-works",
     "slug": "how-mentoring-works",
+    "group": "mentoring",
     "title": "How mentoring works and our conduct standards",
     "description": "How mentors are vetted and trained, what they promise, how matching and check-ins work, and how to report a concern.",
     "intro": "A mentor is a volunteer who helps you with the basics and keeps you company through the first months. This page sets out how we choose mentors, what they promise, and what to do if something goes wrong. It does not name anyone. The standards follow published benchmarks from MENTOR and Volunteer Canada, adapted for adult volunteers.",
