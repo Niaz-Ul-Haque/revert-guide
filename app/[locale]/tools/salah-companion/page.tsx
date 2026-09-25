@@ -285,7 +285,7 @@ export default function SalahCompanionPage({
             {copy.tableTitle}
           </h2>
           <div className="grid items-start gap-6 lg:grid-cols-[1.2fr_0.8fr]">
-            <div>
+            <div className="min-w-0">
               <div className="overflow-x-auto rounded-2xl border border-border/60 bg-white shadow-card">
                 <table className="w-full border-collapse text-left text-sm">
                   <caption className="sr-only">{copy.tableCaption}</caption>
