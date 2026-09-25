@@ -1,256 +1,1268 @@
 [
   {
     "id": "islamic-society-of-toronto-dundas",
-    "name": "Islamic Society of Toronto - Masjid Darus Salaam",
-    "address": "20 Overlea Boulevard",
-    "city": "Toronto",
-    "stateProvince": "Ontario",
-    "country": "Canada",
-    "postalCode": "M4H 1A4",
-    "coordinates": {
-      "lat": 43.7046555,
-      "lng": -79.3514705
-    },
-    "phone": "(416) 467-0786",
-    "email": "info@islamicsocietyoftoronto.com",
-    "website": "https://www.islamicsocietyoftoronto.com/",
-    "notes": "به مسجد دروس سلام نیز معروف است. سایت رسمی نمازهای یومیه و برنامه های آموزش اسلامی را فهرست می کند.",
-    "visitorNotes": "قبل از مراجعه از سایت رسمی استفاده کنید یا با دفتر تماس بگیرید زیرا اوقات نماز، یادداشت های پارکینگ و برنامه ها می توانند تغییر کنند.",
-    "jumuahNote": "سایت رسمی ردیف های جمعه و به روز رسانی وقت نماز را پست می کند. قبل از حضور، برنامه فعلی را تأیید کنید.",
-    "classSupportNote": "برنامه‌های فهرست‌شده رسمی شامل کلاس شب قرآن، مدرسه یکشنبه، حفظ، علیم/علیما، و مطالعات ضروری اسلامی است.",
-    "parkingNote": "سایت رسمی شامل یک هشدار پارکینگ خاص برای پارکینگ خصوصی نزدیک است. قبل از رفتن، دستورالعمل های فعلی را بررسی کنید.",
-    "serviceIds": ["quran-classes", "weekend-school", "community-events"],
-    "sourceIds": ["masjid-ist-darus-salaam"],
-    "reviewStatus": "source-checked"
+    "notes": "با نام Masjid Darus Salaam هم شناخته می‌شود. وب‌سایت رسمی نمازهای روزانه و برنامه‌های آموزش اسلامی را فهرست می‌کند.",
+    "visitorNotes": "پیش از رفتن وب‌سایت رسمی را ببینید یا با دفتر تماس بگیرید. وقت‌های نماز، نکته‌های پارکینگ و برنامه‌ها همه تغییر می‌کنند.",
+    "jumuahNote": "وب‌سایت رسمی وقت نماز جمعه و به‌روزرسانی وقت‌های نماز را منتشر می‌کند. پیش از رفتن برنامه را بررسی کنید.",
+    "classSupportNote": "برنامه‌های فهرست‌شده شامل کلاس عصرگاهی قرآن، مدرسه یکشنبه، حفظ قرآن، دوره‌های عالم و عالمه و دوره مبانی اسلامی است.",
+    "parkingNote": "وب‌سایت رسمی درباره پارکینگ خصوصی نزدیک هشدار می‌دهد. پیش از پارک کردن، دستورالعمل کنونی را بخوانید."
   },
   {
     "id": "taric-islamic-centre",
-    "name": "TARIC Islamic Centre",
-    "address": "99 Beverly Hills Drive",
-    "city": "North York",
-    "stateProvince": "Ontario",
-    "country": "Canada",
-    "postalCode": "M3L 1A2",
-    "coordinates": {
-      "lat": 43.7179655,
-      "lng": -79.5159803
-    },
-    "phone": "(416) 245-5675",
-    "email": "admin@taric.org",
-    "website": "https://taric.org/",
-    "notes": "یک مرکز اسلامی قدیمی با برنامه‌های رویدادهای عمومی و برنامه‌های اجتماعی.",
-    "visitorNotes": "از سایت رسمی استفاده کنید یا برای زمان های جاری جمعه، رویدادها و پشتیبانی بازدیدکنندگان با مرکز تماس بگیرید.",
-    "classSupportNote": "مطالب رویداد رسمی، سمینارهای خانوادگی، فعالیت های ماه رمضان، رویدادهای عید، اطلاع رسانی به جامعه، و برنامه های جوانان/خانواده را فهرست می کند.",
-    "serviceIds": ["community-events", "youth-programs"],
-    "sourceIds": ["masjid-taric"],
-    "reviewStatus": "source-checked"
+    "notes": "مرکز اسلامی باسابقه‌ای که برنامه رویدادهایش را به‌طور عمومی منتشر می‌کند و برنامه‌های منظم اجتماعی دارد.",
+    "visitorNotes": "برای وقت کنونی نماز جمعه، رویدادها و پشتیبانی از بازدیدکنندگان، وب‌سایت رسمی را ببینید یا با مرکز تماس بگیرید.",
+    "classSupportNote": "مطالب منتشرشده درباره رویدادها از سمینارهای خانواده، فعالیت‌های رمضان، رویدادهای عید، ارتباط با جامعه و برنامه‌های جوانان و خانواده نام می‌برد."
   },
   {
     "id": "masjid-toronto-adelaide",
-    "name": "Masjid Toronto (Dundas)",
-    "address": "168 Dundas Street West",
-    "city": "Toronto",
-    "stateProvince": "Ontario",
-    "country": "Canada",
-    "postalCode": "M5G 1C6",
-    "coordinates": {
-      "lat": 43.6536,
-      "lng": -79.3849
-    },
-    "phone": "(416) 596-0507",
-    "website": "https://centres.macnet.ca/masjidtoronto/venue/toronto-dundas/",
-    "notes": "مکان مسجد در مرکز شهر که توسط MAC مسجد تورنتو اداره می شود. این رکورد اکنون با آدرس محل برگزاری Dundas مطابقت دارد.",
-    "visitorNotes": "مکان‌های مرکز شهر می‌توانند در اطراف جمعه شلوغ باشند. قبل از بازدید، زمان‌بندی فعلی و جزئیات ورودی را تأیید کنید.",
-    "jumuahNote": "برای اطلاع از جزئیات نماز و جمعه از سایت رسمی مسجد تورنتو استفاده کنید.",
-    "sourceIds": ["masjid-toronto-dundas"],
-    "reviewStatus": "source-checked"
+    "notes": "شعبه خیابان Dundas از MAC Masjid Toronto. شعبه دوم در خیابان Adelaide Street East است.",
+    "visitorNotes": "مرکز شهر نزدیک نماز جمعه شلوغ می‌شود، پس وقت بیشتری بگذارید. پیش از رفتن وقت‌های کنونی و در ورودی مناسب را بررسی کنید.",
+    "jumuahNote": "سه نوبت نماز جمعه (12:10، 1:10 و 2:10 بعدازظهر در سپتامبر 2026). برای هفته جاری وب‌سایت را ببینید.",
+    "womenSpaceNote": "نمازخانه خواهران از راه پله‌ای با تابلوی «ورودی خواهران» (Sister's Entrance) در دسترس است.",
+    "newMuslimSupportNote": "کلاس «پس از شهادتین» (After the Shahadah) در یکشنبه‌های دوم و چهارم ماه، بعدازظهر، اینجا برگزار می‌شود. صفحه رسمی دو ساعت شروع متفاوت آورده است، پس برای اطمینان به convertconnect@masjidtoronto.com ایمیل بزنید. گروه Convert Connect در یکشنبه‌های اول و سوم پس از نماز ظهر دیدار دارد و می‌توانید بخواهید در نخستین دیدارتان کسی به استقبالتان بیاید.",
+    "accessibilityNote": "پشت نمازخانه برادران آسانسور هست.",
+    "classSupportNote": "صفحه برنامه‌ها همچنین از آموزش اسلامی به زبان اشاره در یکشنبه‌های دوم و چهارم نام می‌برد."
   },
   {
     "id": "islamic-foundation-of-toronto",
-    "name": "Islamic Foundation of Toronto",
-    "address": "441 Nugget Avenue",
-    "city": "Scarborough",
-    "stateProvince": "Ontario",
-    "country": "Canada",
-    "postalCode": "M1S 5E1",
-    "coordinates": {
-      "lat": 43.7874,
-      "lng": -79.2636
-    },
-    "phone": "(416) 321-0909",
-    "email": "info@islamicfoundation.ca",
-    "website": "https://www.islamicfoundation.ca/",
-    "notes": "تسهیلات اجتماعی بزرگ با عبادت، آموزش، و برنامه‌های عمومی.",
-    "visitorNotes": "برنامه های جاری، ثبت نام کلاس و پشتیبانی بازدیدکنندگان را مستقیماً قبل از حضور تأیید کنید.",
-    "classSupportNote": "فهرست‌های رسمی و مرتبط با منبع، برنامه‌های آموزشی مانند Hifz، یکشنبه مدرسه و خدمات اجتماعی را نشان می‌دهند.",
-    "serviceIds": ["quran-classes", "weekend-school", "community-events"],
-    "sourceIds": ["masjid-islamic-foundation-toronto"],
-    "reviewStatus": "source-checked"
+    "notes": "مجموعه‌ای بزرگ با نمازخانه، کلاس‌ها و برنامه‌های عمومی.",
+    "visitorNotes": "پیش از حضور با دفتر تماس بگیرید تا برنامه‌ها، ثبت‌نام کلاس‌ها و پشتیبانی موجود برای بازدیدکنندگان را بررسی کنید.",
+    "classSupportNote": "فهرست‌های منتشرشده برنامه‌های آموزشی از جمله حفظ قرآن و مدرسه یکشنبه، و نیز خدمات اجتماعی را نشان می‌دهند."
   },
   {
     "id": "khalid-bin-al-walid-mosque",
-    "name": "Khalid Bin Al-Walid Mosque",
-    "address": "16 Bethridge Road",
-    "city": "Etobicoke",
-    "stateProvince": "Ontario",
-    "country": "Canada",
-    "postalCode": "M9W 1N1",
-    "coordinates": {
-      "lat": 43.7087605,
-      "lng": -79.5687599
-    },
-    "phone": "(416) 745-2888",
-    "email": "info@khalidmosque.com",
-    "website": "https://www.khalidmosque.com/",
-    "notes": "مسجد Etobicoke با اطلاعات تماس رسمی و به روز رسانی برنامه های جامعه.",
-    "visitorNotes": "قبل از بازدید با دفتر تماس بگیرید یا سایت رسمی را بررسی کنید. لیست آدرس های قدیمی ممکن است قدیمی باشد.",
-    "jumuahNote": "زمان جاری جمعه و نماز را مستقیماً با مسجد تأیید کنید.",
-    "sourceIds": ["masjid-khalid-bin-al-walid"],
-    "reviewStatus": "source-checked"
+    "notes": "مسجدی در اتوبیکوک (Etobicoke) که اطلاعات تماس و برنامه‌هایش را در وب‌سایت خودش به‌روز نگه می‌دارد.",
+    "visitorNotes": "پیش از رفتن با دفتر تماس بگیرید یا وب‌سایت رسمی را ببینید. برخی فهرست‌های قدیمی‌تر در جاهای دیگر هنوز نشانی کهنه را دارند.",
+    "jumuahNote": "وقت کنونی نماز جمعه و نمازها را مستقیم از مسجد بپرسید."
   },
   {
     "id": "imdadul-islamic-centre",
-    "name": "Imdadul Islamic Centre",
-    "address": "26 Le Page Court",
-    "city": "North York",
-    "stateProvince": "Ontario",
-    "country": "Canada",
-    "postalCode": "M3J 1Z9",
-    "coordinates": {
-      "lat": 43.759028,
-      "lng": -79.4869955
-    },
-    "phone": "(416) 636-0044",
-    "email": "imdaduljamat@gmail.com",
-    "website": "https://www.imdadulcentre.ca/",
-    "notes": "مسجد جامعه با برنامه های عبادت، خانواده، جوانان، داوطلبان، و برنامه های ترویجی.",
-    "visitorNotes": "سایت رسمی از بازدیدکنندگان می خواهد که برای سؤال، پشتیبانی یا مشارکت با مسجد تماس بگیرند.",
-    "jumuahNote": "سایت رسمی دو نماز جمعه را فهرست کرده است. قبل از حضور، زمان فعلی را تأیید کنید.",
-    "classSupportNote": "توضیحات رسمی به خدمات نماز، اطلاع رسانی جامعه، فرصت های داوطلبانه و برنامه های خانواده اشاره می کند.",
-    "parkingNote": "برای جمعه زودتر برسید و دستورالعمل های پارک را مستقیماً تأیید کنید.",
-    "serviceIds": ["community-events", "youth-programs"],
-    "sourceIds": ["masjid-imdadul-islamic-centre"],
-    "reviewStatus": "source-checked"
+    "notes": "مسجد محله‌ای با برنامه‌های عبادت، خانواده، جوانان، داوطلبی و ارتباط با جامعه.",
+    "visitorNotes": "وب‌سایت رسمی از بازدیدکنندگان می‌خواهد برای پرسش، پشتیبانی یا راه‌های کمک کردن با مسجد تماس بگیرند.",
+    "jumuahNote": "وب‌سایت رسمی دو نوبت نماز جمعه را فهرست می‌کند. پیش از رفتن وقت‌های کنونی را بررسی کنید.",
+    "classSupportNote": "توضیحات منتشرشده از خدمات نماز، ارتباط با جامعه، فرصت‌های داوطلبی و برنامه‌های خانواده نام می‌برند.",
+    "parkingNote": "برای نماز جمعه زود برسید و از مسجد بپرسید کجا پارک کنید."
   },
   {
     "id": "masjid-el-noor",
-    "name": "Masjid El Noor",
-    "address": "277 Scott Road",
-    "city": "Toronto",
-    "stateProvince": "Ontario",
-    "country": "Canada",
-    "postalCode": "M6M 3V3",
-    "coordinates": {
-      "lat": 43.689655,
-      "lng": -79.4719435
-    },
-    "phone": "(416) 658-6667",
-    "email": "info@masjidelnoor.ca",
-    "website": "https://masjidelnoor.ca/",
-    "notes": "مسجد تورنتو را با نماز، کلاس‌ها و خدمات اجتماعی تأسیس کرد.",
-    "visitorNotes": "سایت رسمی جمعه، پارکینگ، و به روز رسانی برنامه را پست می کند. قبل از بازدید، جزئیات فعلی را تأیید کنید.",
-    "womenSpaceNote": "صفحه رسمی درباره نمازخانه های برادران و خواهران را تشریح می کند.",
-    "accessibilityNote": "صفحه رسمی درباره رمپ ها و پارکینگ های تعیین شده را ذکر می کند.",
-    "jumuahNote": "سایت رسمی یک نماز جمعه را با یک سخنرانی انگلیسی قبل از خطبه عربی فهرست کرده است. زمان های فعلی را تایید کنید",
-    "classSupportNote": "برنامه هایی که به طور رسمی فهرست شده اند شامل عصر مکتب و آموزش مرتبط با قرآن است.",
-    "parkingNote": "سایت رسمی راهنمای پارکینگ فقط برای جمعه را منتشر می کند و از بازدیدکنندگان می خواهد که شیر آب، گذرگاه ها، یا مسیرهای رانندگی را مسدود نکنند.",
-    "serviceIds": ["quran-classes", "community-events"],
-    "womenFriendly": true,
-    "parking": true,
-    "accessibility": true,
-    "sourceIds": ["masjid-el-noor"],
-    "reviewStatus": "source-checked"
+    "notes": "مسجدی جاافتاده در تورنتو با نماز روزانه، کلاس‌ها و خدمات اجتماعی.",
+    "visitorNotes": "وب‌سایت رسمی به‌روزرسانی‌های نماز جمعه، پارکینگ و برنامه‌ها را منتشر می‌کند. پیش از دیدار جزئیات کنونی را بررسی کنید.",
+    "womenSpaceNote": "صفحه «درباره ما» از نمازخانه‌های جداگانه برای برادران و خواهران می‌گوید.",
+    "accessibilityNote": "صفحه «درباره ما» از سطح شیب‌دار و جای پارک ویژه نام می‌برد.",
+    "jumuahNote": "وب‌سایت رسمی یک نوبت نماز جمعه را فهرست می‌کند که پیش از خطبه عربی سخنرانی‌ای به انگلیسی دارد. وقت‌های کنونی را بررسی کنید.",
+    "classSupportNote": "برنامه‌های فهرست‌شده شامل مکتب عصرگاهی و کلاس‌های قرآن است.",
+    "parkingNote": "وب‌سایت رسمی راهنمای پارکینگ برای نماز جمعه را منتشر می‌کند و از بازدیدکنندگان می‌خواهد جلوی شیرهای آتش‌نشانی، گذرگاه‌های عابر پیاده یا ورودی خانه‌ها را نبندند."
   },
   {
     "id": "islamic-institute-of-toronto",
-    "name": "Islamic Institute of Toronto",
-    "address": "1630 Neilson Road",
-    "city": "Scarborough",
-    "stateProvince": "Ontario",
-    "country": "Canada",
-    "postalCode": "M1X 1S3",
-    "coordinates": {
-      "lat": 43.7903,
-      "lng": -79.2141
-    },
-    "phone": "(416) 335-9173",
-    "email": "iit@islam.ca",
-    "website": "https://islam.ca/contact-us/",
-    "notes": "موسسه آموزشی و مرکز اجتماعی با تماس و راهنمایی رسمی.",
-    "visitorNotes": "از صفحه تماس رسمی برای مسیرهای فعلی، اطلاعات کلاس و سوالات بازدیدکنندگان استفاده کنید.",
-    "classSupportNote": "سایت رسمی IIT را به عنوان یک مؤسسه آموزشی غیرانتفاعی توصیف می کند و به روز رسانی برنامه/خبرنامه را فهرست می کند.",
-    "serviceIds": ["quran-classes", "community-events"],
-    "sourceIds": ["masjid-islamic-institute-toronto"],
-    "reviewStatus": "source-checked"
+    "notes": "مؤسسه‌ای آموزشی و مرکزی اجتماعی. اطلاعات تماس و مسیر در وب‌سایت خودش آمده است.",
+    "visitorNotes": "برای مسیر، اطلاعات کلاس‌ها و هر پرسشی درباره بازدید، از صفحه تماس رسمی استفاده کنید.",
+    "classSupportNote": "وب‌سایت رسمی IIT را مؤسسه آموزشی غیرانتفاعی توصیف می‌کند و به‌روزرسانی‌های برنامه‌ها و خبرنامه را منتشر می‌کند.",
+    "newMuslimSupportNote": "«گوشه تازه‌مسلمانان» (New Muslim Corner) دوره‌ای رایگان با 25 درس ضبط‌شده است. صفحه دوره از کلاسی برای تازه‌مسلمانان در جمعه‌ها ساعت 7:00 عصر هم نام می‌برد، اما معلوم نیست هنوز به‌طور زنده برگزار شود، پس از دفتر بپرسید."
   },
   {
     "id": "jami-mosque",
-    "name": "Jami Mosque Toronto | ISNA Canada",
-    "address": "56 Boustead Avenue",
-    "city": "Toronto",
-    "stateProvince": "Ontario",
-    "country": "Canada",
-    "postalCode": "M6R 1Y9",
-    "coordinates": {
-      "lat": 43.6474,
-      "lng": -79.4446
-    },
-    "phone": "(416) 769-1192",
-    "website": "https://www.isnacanada.com/locations/jami-mosque-toronto",
-    "notes": "مسجد تاریخی تورنتو اکنون از طریق ایسنا کانادا فهرست شده است.",
-    "visitorNotes": "قبل از بازدید، ساعات فعلی، زمان جمعه و دسترسی رویدادها را از طریق ایسنا کانادا تأیید کنید.",
-    "sourceIds": ["masjid-jami-mosque-isna"],
-    "reviewStatus": "source-checked"
+    "notes": "مسجدی تاریخی در تورنتو که اکنون زیر نام ISNA Canada فهرست شده است.",
+    "visitorNotes": "پیش از رفتن ساعت‌ها، وقت نماز جمعه و امکان حضور در رویدادها را از ISNA Canada بپرسید."
   },
   {
     "id": "abu-huraira-center",
-    "name": "Abu Huraira Center",
-    "address": "270 Yorkland Boulevard",
-    "city": "North York",
-    "stateProvince": "Ontario",
-    "country": "Canada",
-    "postalCode": "M2J 5C9",
-    "coordinates": {
-      "lat": 43.77282,
-      "lng": -79.33454
-    },
-    "phone": "(416) 752-1200",
-    "email": "info@abuhuraira.org",
-    "website": "https://www.abuhuraira.org/",
-    "notes": "مرکز اجتماعی بزرگ GTA با خدمات پشتیبانی دعا، یادگیری، مشاوره، جوانان و تازه مسلمانان.",
-    "visitorNotes": "سایت رسمی برنامه ها و اطلاعات تماس را لیست می کند. قبل از حضور، پشتیبانی بازدیدکنندگان فعلی و ثبت نام کلاس را تأیید کنید.",
-    "newMuslimSupportNote": "سایت رسمی پشتیبانی از مسلمانان جدید را در میان خدمات خود فهرست کرده است.",
-    "classSupportNote": "برنامه های فهرست شده رسمی شامل آموزش مرتبط با قرآن، مدرسه آخر هفته، هفده، جوانان و حلقات منظم است.",
-    "serviceIds": [
-      "quran-classes",
-      "community-events",
-      "new-muslim-support",
-      "youth-programs",
-      "weekend-school"
-    ],
-    "convertSupport": true,
-    "sourceIds": ["masjid-abu-huraira-center"],
-    "reviewStatus": "source-checked"
+    "notes": "مرکز اجتماعی بزرگی در منطقه تورنتو بزرگ. نماز، کلاس‌ها، مشاوره، کار با جوانان و پشتیبانی از تازه‌مسلمانان همه در همین ساختمان انجام می‌شود.",
+    "visitorNotes": "وب‌سایت رسمی برنامه‌ها و اطلاعات تماس را فهرست می‌کند. پیش از حضور پشتیبانی از بازدیدکنندگان و ثبت‌نام کلاس‌ها را بررسی کنید.",
+    "newMuslimSupportNote": "وب‌سایت رسمی پشتیبانی از تازه‌مسلمانان را در میان خدماتش فهرست می‌کند.",
+    "classSupportNote": "برنامه‌های فهرست‌شده شامل کلاس‌های قرآن، مدرسه آخر هفته، حفظ قرآن، فعالیت‌های جوانان و حلقه‌های درس منظم است."
   },
   {
     "id": "isna-islamic-centre-of-canada",
-    "name": "Islamic Centre of Canada (ISNA)",
-    "address": "2200 South Sheridan Way",
-    "city": "Mississauga",
-    "stateProvince": "Ontario",
-    "country": "Canada",
-    "postalCode": "L5J 2M4",
-    "coordinates": {
-      "lat": 43.5063,
-      "lng": -79.6505
-    },
-    "phone": "(905) 403-8406",
-    "website": "https://www.isnacanada.com/our-spaces/islamic-centre-of-canada/",
-    "notes": "دفتر مرکزی ایسنا کانادا و مرکز اجتماعی محلی با فضاهای مصلی، جوانان، آموزش و رویدادها.",
-    "visitorNotes": "قبل از رفتن، اوقات نماز، کلاس‌ها، دسترسی رویدادها و پشتیبانی بازدیدکنندگان را از طریق ایسنا کانادا تأیید کنید.",
-    "classSupportNote": "صفحه رسمی یک مرکز آموزشی، مرکز جوانان، مصلی، و فضاهای اجتماعی قابل رزرو را توصیف می کند.",
-    "serviceIds": ["quran-classes", "community-events", "youth-programs"],
-    "sourceIds": ["masjid-isna-islamic-centre-canada"],
-    "reviewStatus": "source-checked"
+    "notes": "دفتر مرکزی ISNA Canada و خود نیز مرکزی اجتماعی با نمازخانه، فضای جوانان، کلاس‌های آموزشی و فضای برگزاری رویداد.",
+    "visitorNotes": "پیش از رفتن وقت‌های نماز، کلاس‌ها، امکان حضور در رویدادها و پشتیبانی از بازدیدکنندگان را از ISNA Canada بپرسید.",
+    "classSupportNote": "صفحه رسمی از مرکز آموزشی، کانون جوانان، نمازخانه و فضاهای اجتماعی قابل رزرو می‌گوید.",
+    "newMuslimSupportNote": "بخش تازه‌مسلمانان ISNA Canada (New Muslims and Convert Care) کلاس‌های هفتگی، دورهمی‌های ماهانه و جعبه «مسلمان بودن» (Being Muslim) با ترجمه قرآن، کتاب و سجاده ارائه می‌دهد. روز، ساعت و مکان کلاس منتشر نشده است، پس با دفتر تماس بگیرید یا از فرم تماس استفاده کنید."
+  },
+  {
+    "id": "masjid-quba-islamic-society-of-ajax",
+    "notes": "با نام Ajax Masjid هم شناخته می‌شود.",
+    "jumuahNote": "سه نوبت نماز جمعه (خطبه در ساعت‌های 2:00، 3:15 و 4:15 بعدازظهر بر پایه فهرست 2026-09-23).",
+    "parkingNote": "صفحه اصلی از مردم می‌خواهد «هنگام حضور در نماز جمعه با ملاحظه پارک کنند»."
+  },
+  {
+    "id": "barrie-mosque",
+    "notes": "با نام‌های Barrie Mosque و Noor Ul Islam هم شناخته می‌شود.",
+    "newMuslimSupportNote": "صفحه Reverts to Islam راهنمایی و حلقه دوستی و مطالعه تازه‌مسلمانان را در شنبه اول هر ماه ارائه می‌دهد."
+  },
+  {
+    "id": "islamic-society-of-belleville",
+    "notes": "با نام‌های Belleville Masjid و Belleville Mosque هم شناخته می‌شود.",
+    "jumuahNote": "صفحه «درباره ما» از «نماز جمعه» نام می‌برد؛ یک اطلاعیه قدیمی‌تر در صفحه اصلی می‌گوید «خطبه جمعه: 1:45 بعدازظهر، نماز: 2:00 بعدازظهر (فقط یک نوبت)» (شاید کهنه باشد).",
+    "parkingNote": "اطلاعیه صفحه اصلی: راهنمای خروج به سمت خیابان Moira St پس از نماز جمعه و «لطفاً در جاهای پارک ویژه در پارکینگ یا جاهایی که پارک ممنوع است پارک نکنید.»"
+  },
+  {
+    "id": "brampton-islamic-centre",
+    "notes": "با نام‌های BIC/BSIA و Brampton Society for Islamic Awareness هم شناخته می‌شود.",
+    "jumuahNote": "صفحه اصلی: «نماز جمعه 1: خطبه 1:45 بعدازظهر، اقامه 2:10 بعدازظهر؛ نماز جمعه 2: خطبه 2:55 بعدازظهر، اقامه 3:15 بعدازظهر»."
+  },
+  {
+    "id": "jame-makki-masjid-brampton",
+    "notes": "با نام Brampton Makki Masjid هم شناخته می‌شود.",
+    "womenSpaceNote": "بخش ویژه بانوان (صفحه «درباره ما»).",
+    "jumuahNote": "اقامه نماز جمعه 1:45، 2:30 و 3:30 بعدازظهر (صفحه اصلی)."
+  },
+  {
+    "id": "jamiat-ul-ansar-brampton",
+    "notes": "با نام Ansar Mosque Brampton هم شناخته می‌شود.",
+    "womenSpaceNote": "صفحه خواهران: سخنرانی ماهانه، «چهارشنبه اول هر ماه ... 6:30 تا 7:30 عصر»، «همه خواهران خوش آمدند»، «چه تازه به جامعه آمده باشید و چه سال‌ها با ما بوده باشید، این فضایی است که ساخته شده تا هر خواهری احساس کند خوش‌آمده است».",
+    "newMuslimSupportNote": "صفحه خدمات از کمیته ارتباط با تازه‌مسلمانان می‌گوید که «پشتیبانی، راهنمایی و آموزش برای تازه‌مسلمانان» فراهم می‌کند. برای جزئیات به مرکز ایمیل بزنید."
+  },
+  {
+    "id": "muslim-association-of-brantford",
+    "notes": "با نام‌های MAB و Brantford Mosque هم شناخته می‌شود.",
+    "womenSpaceNote": "صفحه نمازها: «امکانات برای برادران و خواهران»؛ از فضای جداگانه بانوان به نام «Mussallah-UL-Nissah» نام می‌برد.",
+    "parkingNote": "صفحه نمازها: «فقط در جاهای پارک تعیین‌شده پارک کنید»؛ پارکینگ در روزهای جمعه «زود پر می‌شود»."
+  },
+  {
+    "id": "halton-islamic-association-halton-masjid-burlington",
+    "notes": "با نام Masjid Halton هم شناخته می‌شود.",
+    "womenSpaceNote": "کمیته خواهران و رویدادهای خواهران؛ از امکانات باشگاه ورزشی بانوان هم نام برده شده است.",
+    "jumuahNote": "مسجد هالتون: خطبه 1:30، 2:30 و 3:20 بعدازظهر؛ نماز جمعه اضافه در East Plains Church (375 Plains Rd E) و یک مرکز اجتماعی."
+  },
+  {
+    "id": "galt-islamic-center-cambridge",
+    "notes": "منطقه: گالت (Galt). با نام Galt Islamic Centre هم شناخته می‌شود.",
+    "womenSpaceNote": "صفحه «درباره ما»: «برنامه‌های ویژه خواهران؛ برنامه‌های اختصاصی برای مادران و خواهرانمان»."
+  },
+  {
+    "id": "hespeler-masjid-a-mac-community-centre-cambridge",
+    "jumuahNote": "نوبت اول 1:30 بعدازظهر؛ نوبت دوم در 2:00 بعدازظهر هم فهرست شده است."
+  },
+  {
+    "id": "islamic-centre-of-cambridge",
+    "notes": "با نام ICC هم شناخته می‌شود.",
+    "jumuahNote": "دو خطبه: 1:30 و 2:45 بعدازظهر."
+  },
+  {
+    "id": "townline-muslim-centre-cambridge",
+    "notes": "با نام TMC هم شناخته می‌شود.",
+    "jumuahNote": "دو نوبت نماز جمعه؛ اذان 30 دقیقه پیش از هر اقامه (وقت‌ها در وب‌سایت)."
+  },
+  {
+    "id": "cornwall-islamic-centre",
+    "womenSpaceNote": "«ورودی خواهران در سمت راست ساختمان است» (صفحه «درباره ما»)."
+  },
+  {
+    "id": "the-ottawa-valley-islamic-centre-deep-river"
+  },
+  {
+    "id": "islamic-association-of-sudbury-greater-sudbury",
+    "notes": "با نام Sudbury Mosque هم شناخته می‌شود.",
+    "jumuahNote": "«خطبه نماز جمعه از ساعت 12:30 بعدازظهر آغاز می‌شود»."
+  },
+  {
+    "id": "islamic-centre-of-northern-ontario-greater-sudbury",
+    "notes": "با نام ICONO هم شناخته می‌شود.",
+    "jumuahNote": "صفحه‌ای برای ضبط خطبه‌ها هست؛ وقت‌ها نیامده است."
+  },
+  {
+    "id": "islamic-society-of-guelph",
+    "notes": "با نام Masjid Abu Bakr As-Siddique هم شناخته می‌شود.",
+    "jumuahNote": "نماز جمعه هر جمعه (وقت‌ها ذکر نشده است)."
+  },
+  {
+    "id": "masjid-aisha-a-mac-community-centre-guelph",
+    "jumuahNote": "در صفحه اصلی «به‌زودی» آمده است (بدون وقت)."
+  },
+  {
+    "id": "muslim-society-of-guelph",
+    "notes": "با نام MSOG هم شناخته می‌شود.",
+    "jumuahNote": "چند نوبت نماز جمعه، برای نمونه اقامه در 1:35 و 3:35 بعدازظهر؛ «لطفاً 10 تا 15 دقیقه پیش از زمان شروع برسید»."
+  },
+  {
+    "id": "alkhairia-islamic-centre-hamilton",
+    "notes": "منطقه: انکستر (Ancaster). با نام AIC Ancaster هم شناخته می‌شود.",
+    "jumuahNote": "صفحه اصلی «نمازهای جمعه» را در میان خدمات فهرست می‌کند؛ وقت ذکر نشده است.",
+    "newMuslimSupportNote": "صفحه اصلی «برنامه‌های ارتباط با تازه‌مسلمانان» را در میان خدمات فهرست می‌کند. هیچ صفحه‌ای جزئیات آن را توضیح نمی‌دهد، پس از مرکز بپرسید."
+  },
+  {
+    "id": "bosnian-islamic-centre-of-hamilton",
+    "notes": "منطقه: استونی کریک (Stoney Creek). با نام BIC Hamilton هم شناخته می‌شود.",
+    "visitorNotes": "زبان‌ها: وب‌سایت بیشتر به زبان بوسنیایی است و بخشی انگلیسی دارد (درباره ما، اطلاعات تماس، اخبار به انگلیسی). زبان خطبه ذکر نشده است.",
+    "jumuahNote": "صفحه تماس: «نماز جمعه: جمعه‌ها، 1:30 بعدازظهر به وقت شرقی»؛ کادر وقت‌های نماز در صفحه اصلی: «نماز جمعه: جمعه‌ها، 1:25 و 3:00 بعدازظهر»."
+  },
+  {
+    "id": "hamilton-downtown-mosque",
+    "notes": "با نام HDM هم شناخته می‌شود.",
+    "jumuahNote": "«خطبه و نماز جمعه (صفحه وقت‌های نماز را ببینید)»."
+  },
+  {
+    "id": "hamilton-mountain-mosque",
+    "notes": "با نام‌های MAH و Mountain Mosque هم شناخته می‌شود.",
+    "accessibilityNote": "MAH سیاست دسترس‌پذیری بر پایه AODA منتشر کرده و از کسانی که به تسهیلات نیاز دارند می‌خواهد با contactus@hamiltonmosque.com تماس بگیرند؛ ویژگی‌های فیزیکی ذکر نشده است."
+  },
+  {
+    "id": "umar-mosque-hamilton",
+    "notes": "با نام MAH Umar Mosque هم شناخته می‌شود.",
+    "accessibilityNote": "صفحه «درباره ما»ی MAH (برای کل انجمن): «بر پایه قانون دسترس‌پذیری برای ساکنان دارای معلولیت انتاریو فعالیت می‌کنیم. MAH متعهد است دسترسی کامل به ساختمان فراهم کند و هر مانع احتمالی را بردارد». ویژگی‌های ویژه این مکان ذکر نشده است."
+  },
+  {
+    "id": "islamic-society-of-kingston",
+    "notes": "با نام‌های ISK و ICK هم شناخته می‌شود.",
+    "accessibilityNote": "صفحه برنامه‌ها از کلاس آموزش ویژه برای کودکان با نیازهای یادگیری نام می‌برد؛ دسترس‌پذیری ساختمان ذکر نشده است.",
+    "jumuahNote": "دو نوبت نماز جمعه: خطبه نخست 1:00 بعدازظهر (اقامه 1:45)، دومی 2:30 بعدازظهر (اقامه 2:45 تا 3:00).",
+    "parkingNote": "صفحه وقت‌های نماز: «چون پارکینگ در ISK هنگام نماز جمعه همچنان دشوار است، لطفاً یکی از این گزینه‌های دیگر نماز جمعه در شهر را در نظر بگیرید» (CFB Kingston، Crossroads United Church، Queen's University، همه ساعت 1:30 بعدازظهر)."
+  },
+  {
+    "id": "al-salaam-islamic-centre-kitchener",
+    "jumuahNote": "صفحه اصلی: «نماز جمعه 1:30»."
+  },
+  {
+    "id": "kitchener-masjid-a-mac-community-centre",
+    "notes": "با نام Kitchener Masjid هم شناخته می‌شود.",
+    "jumuahNote": "سه نوبت: 12:15، 1:15 و 2:15 بعدازظهر (نوبت سوم به عربی)."
+  },
+  {
+    "id": "north-london-islamic-centre-komoka"
+  },
+  {
+    "id": "hyde-park-masjid-london",
+    "jumuahNote": "نوبت اول 12:30 بعدازظهر، نوبت دوم 1:30 بعدازظهر."
+  },
+  {
+    "id": "islamic-centre-of-southwest-ontario-london",
+    "notes": "با نام ICSWO هم شناخته می‌شود.",
+    "jumuahNote": "در تمام سال: اذان 1:30، خطبه 1:35 و اقامه 1:55 بعدازظهر."
+  },
+  {
+    "id": "london-muslim-mosque",
+    "notes": "با نام LMM هم شناخته می‌شود.",
+    "jumuahNote": "دو نوبت نماز جمعه در صفحه اصلی: 12:00 و 1:15 بعدازظهر (وقت‌های کنونی را در وب‌سایت ببینید).",
+    "newMuslimSupportNote": "صفحه سخنرانی‌ها از دیدار خانوادگی رایگان تازه‌مسلمانان در شنبه اول و سوم هر ماه و دوره دیپلم دانش پایه اسلامی برای تازه‌مسلمانان می‌گوید. ثبت‌نام لازم است."
+  },
+  {
+    "id": "mac-noor-gardens-a-mac-community-centre-london",
+    "notes": "با نام Noor Gardens هم شناخته می‌شود. مرکز افتتاح رسمی خود را برای 28 اوت 2026 اعلام کرده بود.",
+    "jumuahNote": "نوبت 1: 12:00 بعدازظهر، نوبت 2: 1:30 بعدازظهر."
+  },
+  {
+    "id": "muslim-association-of-canada-masonville-centre-london",
+    "notes": "با نام MAC Masonville هم شناخته می‌شود.",
+    "jumuahNote": "جمعه 12:00 بعدازظهر."
+  },
+  {
+    "id": "westmount-masjid-a-mac-community-centre-london",
+    "notes": "با نام‌های MAC Westmount Centre و دفتر اصلی MAC London هم شناخته می‌شود.",
+    "jumuahNote": "نوبت اول 12:15 بعدازظهر، نوبت دوم 1:30 بعدازظهر."
+  },
+  {
+    "id": "islamic-centre-of-markham",
+    "parkingNote": "درخواست کمک برای بازسازی پارکینگ در مارس 2026 منتشر شد؛ جزئیاتی درباره پارکینگ نیست."
+  },
+  {
+    "id": "islamic-society-of-markham",
+    "newMuslimSupportNote": "صفحه برنامه مراقبت از تازه‌مسلمانان هماهنگ‌کنندگانی برای پرسش درباره اسلام، رویدادهای اجتماعی و آموزش معرفی می‌کند. برنامه زمانی ذکر نشده است."
+  },
+  {
+    "id": "islamic-community-centre-of-milton",
+    "notes": "با نام ICNA Milton هم شناخته می‌شود.",
+    "womenSpaceNote": "صفحه برنامه‌ها: «فضایی ویژه برای بانوان برای آموختن دانش اسلامی (سه‌شنبه تا پنجشنبه)».",
+    "jumuahNote": "کادر وقت‌های نماز در صفحه اصلی: «نماز جمعه 1: 01:30 بعدازظهر، نماز جمعه 2: 02:45 بعدازظهر، نماز جمعه 3: 03:45 بعدازظهر»."
+  },
+  {
+    "id": "966-icna-masjid-youth-centre-mississauga",
+    "notes": "با نام 966 Community Centre هم شناخته می‌شود.",
+    "jumuahNote": "کادر وقت‌های نماز در صفحه اصلی: «نماز جمعه 1: 01:30 بعدازظهر، نماز جمعه 2: 02:30 بعدازظهر»."
+  },
+  {
+    "id": "anatolia-islamic-centre-mississauga",
+    "visitorNotes": "زبان‌ها: حلقه درس به ترکی فهرست شده است؛ وب‌سایت کاربرد انگلیسی را می‌رساند اما زبان برنامه‌ها ذکر نشده است."
+  },
+  {
+    "id": "dar-al-tawheed-islamic-centre-mississauga"
+  },
+  {
+    "id": "islamic-community-centre-of-ontario-mississauga",
+    "notes": "با نام MAC ICCO هم شناخته می‌شود.",
+    "jumuahNote": "نوبت‌های نماز جمعه در 12:00، 1:15، 2:30 و 3:30 بعدازظهر فهرست شده‌اند؛ زبان ذکر نشده است."
+  },
+  {
+    "id": "masjid-al-farooq-mississauga",
+    "womenSpaceNote": "دوره‌های دیپلم شریعت برای خواهران فهرست شده‌اند؛ نمازخانه ویژه توصیف نشده است.",
+    "accessibilityNote": "وب‌سایت صفحه‌های سیاست دسترس‌پذیری، اطلاعیه‌ها و گزارش انطباق دارد؛ جزئیات دسترس‌پذیری فیزیکی ذکر نشده است.",
+    "jumuahNote": "چند نوبت نماز جمعه فهرست شده، از جمله نوبت چهارم در 3:30 بعدازظهر؛ زبان ذکر نشده است."
+  },
+  {
+    "id": "sayeda-khadija-centre-mississauga",
+    "notes": "با نام Faith of Life Network هم شناخته می‌شود.",
+    "jumuahNote": "از «نمازهای جماعت هفتگی» نام برده شده است؛ وقت‌ها ذکر نشده است."
+  },
+  {
+    "id": "newmarket-islamic-centre",
+    "womenSpaceNote": "صفحه اصلی: «بیش از 1,200 مرد و زن در نماز جمعه هفتگی شرکت می‌کنند.» بخش بانوان توصیف نشده است.",
+    "jumuahNote": "صفحه اصلی: «نوبت 1: خطبه 1:15، نماز 1:45 بعدازظهر؛ نوبت 2: خطبه 2:15، نماز 2:45 بعدازظهر»؛ اطلاعیه‌ها از نماز جمعه در مسجد و در سالن‌های بیرونی (Lions Hall، Ray Twinney Recreation Complex) در وقت‌های گوناگون نام می‌برند."
+  },
+  {
+    "id": "islamic-society-of-niagara-peninsula-niagara-falls",
+    "jumuahNote": "نماز جمعه هر جمعه ساعت 1:30 بعدازظهر."
+  },
+  {
+    "id": "masjid-alsalam-niagara-falls-islamic-center",
+    "jumuahNote": "سه نوبت نماز جمعه در 1:30، 2:30 و 3:30 بعدازظهر."
+  },
+  {
+    "id": "al-falah-islamic-centre-oakville",
+    "notes": "با نام Al Falah Center Oakville هم شناخته می‌شود؛ دفتر مرکزی ICNA Canada.",
+    "womenSpaceNote": "صفحه برنامه‌ها از دورهمی هفتگی خواهران نام می‌برد؛ نمازخانه توصیف نشده است.",
+    "jumuahNote": "کادر وقت‌های نماز در صفحه اصلی: «نماز جمعه 1 ... 12:15 بعدازظهر، نماز جمعه 2 ... 1:25 بعدازظهر، نماز جمعه 3 ... 2:35 بعدازظهر»."
+  },
+  {
+    "id": "muslim-association-of-milton-oakville",
+    "notes": "با نام‌های MAM و HICC Masjid هم شناخته می‌شود.",
+    "jumuahNote": "نماز جمعه در Milton Sports Centre و مکان‌های دیگر برگزار می‌شود؛ آگهی صفحه اصلی را ببینید."
+  },
+  {
+    "id": "islamic-centre-of-oshawa",
+    "notes": "با نام Oshawa Mosque هم شناخته می‌شود.",
+    "visitorNotes": "برنامه به انگلیسی تأیید شده است: (برنامه نماز جمعه پیش از نوبت اول و دوم از «سخنرانی انگلیسی» نام می‌برد).",
+    "jumuahNote": "صفحه اصلی: «نوبت 1: سخنرانی انگلیسی 1:15 بعدازظهر ... خطبه و نماز 1:45 بعدازظهر؛ نوبت 2: سخنرانی انگلیسی 2:30 بعدازظهر، خطبه و نماز 2:45 بعدازظهر؛ نوبت 3: خطبه و نماز 4:30 بعدازظهر»."
+  },
+  {
+    "id": "al-farooq-al-azam-mosque-ottawa",
+    "notes": "منطقه: Old Ottawa South. با نام‌های Jamia Masjid Farooq-e-Azam و Masjid Farooq Azam هم شناخته می‌شود.",
+    "womenSpaceNote": "«جلسه هفتگی تجوید قرآن (برای خواهران)» شنبه‌ها از 11:00 صبح تا 1:00 بعدازظهر؛ چیدمان نمازخانه توصیف نشده است.",
+    "jumuahNote": "نوبت اول 2:00 بعدازظهر، نوبت دوم 2:45 بعدازظهر (صفحه اصلی)."
+  },
+  {
+    "id": "bukhari-community-centre-masjid-ottawa",
+    "notes": "منطقه: Overbrook و بلوار St. Laurent. با نام‌های Bukhari Centre و Bukhari Masjid & Community Centre هم شناخته می‌شود.",
+    "womenSpaceNote": "صفحه جمعه: «نماز جمعه دوم: 2 بعدازظهر (برای برادران و خواهران)»؛ نماز جمعه نخست فقط برای برادران است. بخش جداگانه بانوان توصیف نشده است.",
+    "accessibilityNote": "صفحه «درباره ما» از درهای تازه جلو و پشت می‌گوید که «هم امنیت و هم دسترس‌پذیری را بهتر می‌کنند»؛ ویژگی مشخصی برای دسترس‌پذیری ذکر نشده است.",
+    "jumuahNote": "«نماز جمعه اول: 1 بعدازظهر (برای برادران)، نماز جمعه دوم: 2 بعدازظهر (برای برادران و خواهران)»."
+  },
+  {
+    "id": "centretown-mosque-ottawa",
+    "notes": "منطقه: Centretown. وب‌سایت می‌گوید جامعه هنوز در تلاش برای گرفتن جای دائمی در 397 Kent Street است، پس پیش از رفتن مکان را بررسی کنید.",
+    "womenSpaceNote": "«کلاس عربی خواهران» (شنبه‌ها 12:00 ظهر، برای خواهران بزرگسال) فهرست شده است؛ چیدمان نمازخانه توصیف نشده است.",
+    "jumuahNote": "«هر جمعه در ساعت 1:00 و 2:00 بعدازظهر برای خطبه و نماز جماعت به جامعه ما بپیوندید.»",
+    "newMuslimSupportNote": "وب‌سایت از سمینارهای تازه‌مسلمانان نام می‌برد، «فضایی گرم برای آموختن اصول پایه اسلام». برنامه زمانی ذکر نشده است."
+  },
+  {
+    "id": "darul-arqum-ottawa",
+    "notes": "منطقه: Riverside South. با نام Darul Arqum Riverside South هم شناخته می‌شود.",
+    "jumuahNote": "«نماز جمعه 1:30 و 2:30 بعدازظهر» (صفحه اصلی)؛ صفحه وقت‌های نماز: «خطبه اول 1:30 بعدازظهر و خطبه دوم 2:30 بعدازظهر».",
+    "parkingNote": "صفحه تماس: «پارکینگ در محوطه است. پارک شبانه نخست به اجازه هیئت مدیره نیاز دارد.»"
+  },
+  {
+    "id": "darul-uloom-ottawa",
+    "notes": "منطقه: Orleans. با نام Darul-Uloom Mosque هم شناخته می‌شود.",
+    "jumuahNote": "صفحه اصلی نمازهای جمعه بیرون از مرکز را فهرست می‌کند: «Navan ساعت 1:15، نماز جمعه در Aqsa Centre» و «Blackburn ساعت 1:15، نماز جمعه در Quba Centre». صفحه «درباره ما» می‌گوید مرکز نمازهای روزانه، از جمله خطبه جمعه، را برگزار می‌کند."
+  },
+  {
+    "id": "east-ottawa-masjid-and-community-center",
+    "notes": "منطقه: حوالی Vanier و Overbrook.",
+    "jumuahNote": "صفحه اصلی: «نماز جمعه: نوبت اول 1:15 بعدازظهر، نوبت دوم 2:15 بعدازظهر»."
+  },
+  {
+    "id": "islam-care-centre-ottawa",
+    "jumuahNote": "صفحه اصلی: نماز جمعه «12:30 و 1:15 بعدازظهر» در زیرزمین Knox Presbyterian Church، 120 Lisgar St, Ottawa, ON K2P 2L7 (مکانی بیرون از مرکز).",
+    "newMuslimSupportNote": "Convert Care کلاس هفتگی رایگان درباره مبانی اسلام است، هر چهارشنبه ساعت 6:00 عصر در مرکز."
+  },
+  {
+    "id": "jami-omar-ottawa",
+    "notes": "منطقه: Bells Corners و Nepean. با نام‌های Masjid Jami Omar و JMOC هم شناخته می‌شود.",
+    "jumuahNote": "صفحه اصلی: «نماز جمعه 12 ظهر تا 3 بعدازظهر».",
+    "parkingNote": "صفحه اصلی: فقط در جاهای مجاز پارک کنید؛ در D.A. Moodie School جای پارک هست."
+  },
+  {
+    "id": "kanata-muslim-association-ottawa",
+    "notes": "منطقه: Kanata. با نام KMA هم شناخته می‌شود.",
+    "jumuahNote": "«3 نوبت نماز جمعه: 1 بعدازظهر، 2:15 بعدازظهر، 3:45 بعدازظهر» (وقت نوبت سوم تغییر می‌کند)."
+  },
+  {
+    "id": "mac-barrhaven-islamic-centre-ottawa",
+    "notes": "منطقه: Barrhaven. با نام BIC هم شناخته می‌شود.",
+    "jumuahNote": "«خطبه اول: 1:00 بعدازظهر» و «خطبه دوم: 2:30 بعدازظهر»."
+  },
+  {
+    "id": "mac-islamic-centre-ottawa",
+    "notes": "منطقه: Nepean و خیابان Grenon. با نام MAC Grenon هم شناخته می‌شود؛ در ساختمان Abraar School است."
+  },
+  {
+    "id": "mac-qurtuba-islamic-centre-ottawa",
+    "notes": "منطقه: Nepean و Merivale. با نام‌های MAC Qurtuba و QIC هم شناخته می‌شود."
+  },
+  {
+    "id": "markaz-at-tawheed-ottawa",
+    "notes": "منطقه: Bayshore و Dumaurier. با نام Markaz At-Tawheed Ottawa هم شناخته می‌شود.",
+    "visitorNotes": "صفحه اصلی می‌گوید برخی سخنرانی‌ها «به عربی، با مکث برای ترجمه انگلیسی» است؛ باقی مطالب به انگلیسی است.",
+    "womenSpaceNote": "اطلاعیه رمضان: «خطبه و نماز جمعه فقط برای برادران است (به دلیل کمبود جا)»؛ برای نماز عشا و تراویح «حداکثر ظرفیت: 12 خواهر در هر شب».",
+    "jumuahNote": "صفحه اصلی در یک بخش «خطبه ساعت 12:30 بعدازظهر آغاز می‌شود» و در به‌روزرسانی رمضان «آغاز خطبه: 1:15 بعدازظهر» را نشان می‌دهد؛ فقط برای برادران."
+  },
+  {
+    "id": "masjid-bilal-ottawa",
+    "notes": "منطقه: Orleans. با نام‌های Bilal Masjid و Islamic Society of Cumberland هم شناخته می‌شود.",
+    "visitorNotes": "صفحه اصلی سخنرانی پیش از خطبه را «سخنرانی (به انگلیسی)» می‌نامد.",
+    "womenSpaceNote": "صفحه دیدار از مسجد: «مردان و زنان در نمازخانه‌های جداگانه نماز می‌خوانند».",
+    "jumuahNote": "نماز جمعه 1: سخنرانی انگلیسی 12:45 بعدازظهر، خطبه 1:15 بعدازظهر؛ نماز جمعه 2: بدون سخنرانی، خطبه 2:20 بعدازظهر؛ نماز جمعه 3: سخنرانی انگلیسی 3:00 بعدازظهر، خطبه 3:10 بعدازظهر."
+  },
+  {
+    "id": "masjid-ar-rahmah-ottawa",
+    "notes": "منطقه: Gloucester و South Keys. با نام‌های Mosque of Mercy، AMA و AMA Community Centre هم شناخته می‌شود.",
+    "visitorNotes": "زبان انگلیسی برای جلسه پرسش و پاسخ تازه‌مسلمانان تأیید شده است («زبان: فقط انگلیسی»)؛ وب‌سایت به انگلیسی است و پیوندی به نسخه عربی دارد.",
+    "newMuslimSupportNote": "صفحه Revert Corner منابع رایگانی برای تازه‌مسلمانان دارد و Muslim's Basics دوره‌ای ضبط‌شده به انگلیسی در 37 قسمت است. رویدادهای تازه‌مسلمانان در وب‌سایت مربوط به 2021 و 2022 است، پس بپرسید اکنون چه برنامه‌ای برگزار می‌شود."
+  },
+  {
+    "id": "ottawa-muslim-association",
+    "notes": "با نام‌های Ottawa Main Mosque و OMA هم شناخته می‌شود.",
+    "womenSpaceNote": "پرسش‌های رایج: «نمازخانه ویژه بانوان و فضاهای مناسب خانواده فراهم کرده‌ایم».",
+    "jumuahNote": "بخش پرسش‌های رایج می‌گوید مسجد نماز جمعه برگزار می‌کند؛ وقت‌ها در وب‌سایت منتشر نشده است."
+  },
+  {
+    "id": "ottawa-uyghur-centre",
+    "notes": "منطقه: Orleans.",
+    "jumuahNote": "صفحه خدمات: «برای خطبه‌های جمعه به ما بپیوندید»؛ وقت‌ها ذکر نشده است."
+  },
+  {
+    "id": "richmond-islamic-community-ottawa",
+    "notes": "منطقه: Richmond. با نام RICO هم شناخته می‌شود.",
+    "womenSpaceNote": "صفحه برنامه‌ها از حلقه قرآن برای خواهران نوجوان و بزرگسال نام می‌برد؛ نمازخانه بانوان ذکر نشده است.",
+    "jumuahNote": "صفحه اصلی: «نماز جمعه، فقط جمعه‌ها: 1:15 بعدازظهر نوبت 1، 2:30 بعدازظهر نوبت 2». خدمات: «در زمستان نماز عشا، در تابستان نماز عصر، مغرب و عشا، و نماز جمعه برگزار می‌کنیم.»"
+  },
+  {
+    "id": "siraj-institute-ottawa",
+    "notes": "منطقه: Nepean."
+  },
+  {
+    "id": "south-nepean-muslim-community-ottawa",
+    "notes": "منطقه: Nepean و Barrhaven. با نام SNMC Center & Masjid هم شناخته می‌شود.",
+    "womenSpaceNote": "برنامه‌های خواهران (حلقه درس و برنامه‌های دیگر) با ایمیل ویژه برنامه‌های خواهران sisters@snmc.ca؛ چیدمان نمازخانه توصیف نشده است.",
+    "newMuslimSupportNote": "صفحه Reverts از شما دعوت می‌کند برای اطلاعات، پرسش‌ها، گواهی شهادتین یا بازدید تماس بگیرید. کلاس یا برنامه مربی توصیف نشده است."
+  },
+  {
+    "id": "stittsville-muslim-association-ottawa",
+    "notes": "منطقه: Stittsville. وب‌سایت رسمی دو کد پستی نشان می‌دهد (K2S 1E3 و K2S 0T9). پیش از رفتن بررسی کنید.",
+    "jumuahNote": "صفحه اصلی: 1:15، 2:15 و 3:45 بعدازظهر."
+  },
+  {
+    "id": "the-islamic-society-of-gloucester-ottawa",
+    "notes": "منطقه: Gloucester. با نام ISG Masjid هم شناخته می‌شود.",
+    "jumuahNote": "صفحه اصلی: «وقت نماز جمعه: خطبه 1:30 بعدازظهر، اقامه 2:00 بعدازظهر».",
+    "parkingNote": "اطلاعیه عید در صفحه اصلی: «پارکینگ کلیسا در دسترس نیست؛ به جای آن می‌توانید در پارکینگ Costco و Rona در 1880 innes Road پارک کنید»؛ «پارک کردن درست جلوی در ورودی مسجد مجاز نیست». پارکینگ روزهای عادی ذکر نشده است."
+  },
+  {
+    "id": "the-ottawa-islamic-centre-assalam-mosque",
+    "notes": "منطقه: جنوب اتاوا و بلوار St. Laurent. با نام‌های Assalam Mosque و Masjid Assalam هم شناخته می‌شود.",
+    "womenSpaceNote": "صفحه اصلی: «یکی از بزرگ‌ترین نمازخانه‌های اتاوا را برای مردان و زنان برای نمازهای روزانه و نماز جمعه داریم.»"
+  },
+  {
+    "id": "owen-sound-muslim-association",
+    "notes": "با نام Owen Sound Masjid هم شناخته می‌شود.",
+    "newMuslimSupportNote": "صفحه خدمات گفتن شهادتین را به‌عنوان یک خدمت فهرست می‌کند. برنامه پیگیری برای تازه‌مسلمانان توصیف نشده است."
+  },
+  {
+    "id": "kawartha-muslim-religious-association-masjid-al-salaam-peterborough",
+    "notes": "با نام‌های KMRA و Al-Salaam Mosque هم شناخته می‌شود.",
+    "womenSpaceNote": "نمازخانه بانوان با ظرفیت 60 نفر و وضوخانه بانوان.",
+    "jumuahNote": "دو نوبت نماز جمعه در صفحه اصلی برای جمعه 25 سپتامبر 2026: 1:30 و 2:45 بعدازظهر."
+  },
+  {
+    "id": "pickering-islamic-centre",
+    "notes": "با نام‌های Masjid Usman و PIC هم شناخته می‌شود.",
+    "womenSpaceNote": "کمیته خواهران، مدرسه جمعه دختران و کلاس قرآن خواهران فهرست شده‌اند.",
+    "jumuahNote": "خطبه 2:00، 3:45 و 4:45 بعدازظهر، و نیز یک نماز جمعه بیرون از مرکز در 3:00 بعدازظهر.",
+    "newMuslimSupportNote": "مرکز رویدادهای تکرارشونده‌ای به نام Fortify My Deen: Reverts Meet and Greet (دیدار و آشنایی تازه‌مسلمانان) برگزار می‌کند که آخرینش 23 اوت 2026 بود. در صفحه اطلاعیه اعلام حضور کنید یا از دفتر بپرسید."
+  },
+  {
+    "id": "al-nadwa-educational-islamic-centre-richmond-hill",
+    "notes": "با نام Al Nadwa Centre هم شناخته می‌شود.",
+    "womenSpaceNote": "صفحه خدمات: «برنامه خواهران بزرگسال: یکشنبه اول هر ماه، پس از نماز ظهر. این برنامه فقط برای خواهران است».",
+    "jumuahNote": "صفحه اصلی: «نماز جمعه اول: بیان 12:30 بعدازظهر، خطبه عربی 12:45 بعدازظهر؛ نماز جمعه دوم: بیان 1:15 بعدازظهر، خطبه عربی 1:30 بعدازظهر» در 2 Levendale Rd؛ نماز جمعه دیگری در Bayview Hill Community Centre، 114 Spadina Rd (آغاز 1:25 بعدازظهر).",
+    "parkingNote": "صفحه اصلی: «لطفاً جلوی مجتمع تجاری پارک نکنید. پارک کردن فقط در مجتمع No-frills مجاز است.»"
+  },
+  {
+    "id": "islamic-society-of-york-region-richmond-hill",
+    "womenSpaceNote": "صفحه اصلی از کلاس‌های عربی خواهران نام می‌برد؛ نمازخانه بانوان توصیف نشده است.",
+    "jumuahNote": "صفحه اصلی: «نماز جمعه: بیان 1:45 بعدازظهر؛ نماز 2:15 بعدازظهر. لطفاً توجه کنید که در ISYR فقط یک نوبت نماز جمعه برگزار می‌شود.»",
+    "parkingNote": "فهرست امکانات در صفحه اصلی: «پارکینگ بزرگ»."
+  },
+  {
+    "id": "richmond-hill-muslim-association"
+  },
+  {
+    "id": "sarnia-muslim-association"
+  },
+  {
+    "id": "islamic-association-of-sault-ste-marie",
+    "notes": "با نام IASSM هم شناخته می‌شود.",
+    "jumuahNote": "«خطبه ساعت 2 بعدازظهر آغاز می‌شود و نماز در 2:30 است» (با تغییر ساعت تابستانی تنظیم می‌شود)."
+  },
+  {
+    "id": "masjid-an-noor-st-catharines",
+    "notes": "با نام Masjid Al Noor هم شناخته می‌شود.",
+    "accessibilityNote": "جاهای پارک ویژه افراد دارای معلولیت برای دارندگان مجوز کنار گذاشته شده است.",
+    "parkingNote": "پارکینگ با نقشه و قوانین: پارک شبانه ممنوع، در روز جمعه خودروها را محاصره نکنید، از پارکینگ کسب‌وکارهای همسایه استفاده نکنید."
+  },
+  {
+    "id": "stratford-mosque",
+    "jumuahNote": "جمعه 1:45 بعدازظهر؛ «هر 5 نماز در مسجد خوانده می‌شود»؛ «شبانه‌روزی باز است»."
+  },
+  {
+    "id": "thunder-bay-masjid",
+    "notes": "با نام Thunder Bay Masjid هم شناخته می‌شود.",
+    "jumuahNote": "دو نوبت نماز جمعه: 2:00 و 3:15 بعدازظهر.",
+    "parkingNote": "صفحه اصلی: «لطفاً مسئولانه پارک کنید تا دسترسی برای همه آسان بماند»؛ برخی جاها جای پارک نیستند."
+  },
+  {
+    "id": "muslim-association-of-tillsonburg",
+    "womenSpaceNote": "صفحه اصلی می‌گوید نمازخانه «پذیرای مردان و زنان است»؛ بخش بانوان توصیف نشده است.",
+    "jumuahNote": "صفحه اصلی: «خطبه جمعه ساعت 1:30 بعدازظهر و نماز ساعت 1:45 بعدازظهر» (آخرین به‌روزرسانی 1 نوامبر 2025)."
+  },
+  {
+    "id": "mac-masjid-toronto-adelaide",
+    "notes": "با نام Masjid Toronto Adelaide هم شناخته می‌شود.",
+    "jumuahNote": "نماز جمعه 12:10، 1:10 و 2:10 بعدازظهر (هفته 2026-09-18).",
+    "newMuslimSupportNote": "Masjid Toronto می‌تواند ترتیبی بدهد که «یک برادر یا خواهر از جماعت ما» در نخستین دیدارتان به استقبالتان بیاید. کلاس «پس از شهادتین» (After the Shahadah) در شعبه Dundas برگزار می‌شود و گروه Convert Connect در یکشنبه‌های اول و سوم پس از نماز ظهر دیدار دارد."
+  },
+  {
+    "id": "madinah-masjid-jamiatul-muslemin-of-toronto",
+    "accessibilityNote": "«با حمل‌ونقل عمومی به‌آسانی در دسترس است.» دسترس‌پذیری ساختمان ذکر نشده است.",
+    "jumuahNote": "نماز جمعه و نماز عید برگزار می‌شود؛ وقت‌ها ذکر نشده است."
+  },
+  {
+    "id": "masjid-omar-farooq-toronto",
+    "notes": "منطقه: اسکاربرو (Scarborough). با نام Masjid Omar Al-Farooq هم شناخته می‌شود.",
+    "visitorNotes": "برنامه به انگلیسی تأیید شده است: (نماز جمعه پیش از هر خطبه عربی یک «بیان انگلیسی» دارد).",
+    "jumuahNote": "صفحه اصلی: «نماز جمعه اول: بیان انگلیسی 1:30 بعدازظهر، خطبه عربی 2:10 بعدازظهر؛ نماز جمعه دوم: بیان انگلیسی 2:45 بعدازظهر، خطبه عربی 3:10 بعدازظهر»."
+  },
+  {
+    "id": "scarborough-muslim-association-jame-abu-bakr-siddique-toronto",
+    "notes": "منطقه: اسکاربرو (Scarborough). با نام‌های SMA و Jame Abu Bakr Siddique Masjid هم شناخته می‌شود.",
+    "parkingNote": "صفحه «درباره ما» می‌گوید نمازگزاران پیش از گسترش ساختمان «بارها ناچار بودند در پارکینگ روباز نماز بخوانند»؛ امکانات پارکینگ بخشی از طرح گسترش است. ترتیب کنونی پارکینگ ذکر نشده است."
+  },
+  {
+    "id": "toronto-islamic-centre",
+    "accessibilityNote": "قرآن به خط بریل ارائه می‌شود؛ دسترس‌پذیری ساختمان ذکر نشده است.",
+    "newMuslimSupportNote": "صفحه پشتیبانی از تازه‌مسلمانان یک جعبه هدیه خوشامد برای تازه‌مسلمانان و ترجمه‌های قرآن به 27 زبان، از جمله خط بریل، ارائه می‌دهد. برنامه زمانی ذکر نشده است."
+  },
+  {
+    "id": "islamic-society-of-vaughan",
+    "womenSpaceNote": "برنامه جمعه: «نماز جمعه سوم (برادران و خواهران): 3:15 بعدازظهر، نماز جمعه چهارم (برادران و خواهران): 4:00 بعدازظهر»؛ دو نوبت نخست فقط برای برادران است. کلاس‌های خواهران فهرست شده‌اند.",
+    "jumuahNote": "صفحه اصلی: «نماز جمعه اول (فقط برادران): 1:30 بعدازظهر، نماز جمعه دوم (فقط برادران): 2:30 بعدازظهر، نماز جمعه سوم (برادران و خواهران): 3:15 بعدازظهر، نماز جمعه چهارم (برادران و خواهران): 4:00 بعدازظهر»."
+  },
+  {
+    "id": "masjid-vaughan",
+    "notes": "منطقه: Maple.",
+    "jumuahNote": "صفحه «درباره ما»: «وقت‌های نماز جمعه در تمام سال یکسان است: اذان 1:30 بعدازظهر، خطبه 1:35 و نماز 2:00 بعدازظهر.»",
+    "parkingNote": "صفحه «درباره ما»: «جمعه‌ها از 1:00 تا 3:00 بعدازظهر در شهرداری Vaughan (پارکینگ ضلع غربی) جای پارک فراوان هست. افزون بر این، اطراف مسجد جای پارک کنار خیابان زیاد است.»"
+  },
+  {
+    "id": "vaughan-islamic-community-centre"
+  },
+  {
+    "id": "islamic-centre-of-waterloo-a-mac-community-centre",
+    "notes": "با نام ICW هم شناخته می‌شود.",
+    "jumuahNote": "نوبت اول 1:30 بعدازظهر، نوبت دوم (به عربی) 2:30 بعدازظهر، نوبت سوم 3:30 بعدازظهر."
+  },
+  {
+    "id": "muslim-society-of-waterloo-wellington-counties",
+    "notes": "با نام Waterloo Masjid هم شناخته می‌شود.",
+    "jumuahNote": "نماز جمعه جمعه‌ها ساعت 1:40 بعدازظهر به‌طور زنده پخش می‌شود.",
+    "parkingNote": "صفحه اصلی: «لطفاً در Westmount Plaza پارک نکنید و هنگام پارک در خیابان‌های محله همه مقررات شهری را رعایت کنید»."
+  },
+  {
+    "id": "masjid-e-ayesha-whitby",
+    "notes": "با نام Whitby Masjid هم شناخته می‌شود.",
+    "jumuahNote": "سه نوبت نماز جمعه: خطبه 1:45، 2:45 و 3:45 بعدازظهر.",
+    "parkingNote": "جای پارک محدود است. از 1 نوامبر 2024 پارکینگ Kendalwood Plaza برای نماز جمعه در دسترس نیست و مأموران شهرداری جمعه‌ها آنجا جریمه می‌کنند؛ چادرهای اضافه تا اطلاع بعدی بسته‌اند (اطلاعیه صفحه اصلی)."
+  },
+  {
+    "id": "al-hijra-academy-windsor",
+    "notes": "منطقه: Oldcastle، در مرز LaSalle. با نام Al-Hijra Academy - Masjid and Islamic School هم شناخته می‌شود.",
+    "womenSpaceNote": "صفحه تاریخچه: مسجد «به دو بخش برای مردان و زنان تقسیم شده است» (توصیف تاریخی)."
+  },
+  {
+    "id": "islamic-society-of-windsor"
+  },
+  {
+    "id": "rose-city-islamic-centre-windsor",
+    "notes": "با نام RCIC هم شناخته می‌شود.",
+    "jumuahNote": "جمعه 1:30 بعدازظهر."
+  },
+  {
+    "id": "windsor-islamic-association",
+    "notes": "با نام‌های Windsor Mosque و Windsor Central Mosque هم شناخته می‌شود.",
+    "newMuslimSupportNote": "صفحه تماس، مسئول امور دینی را فرد تماس برای تازه‌مسلمانان معرفی می‌کند (519-966-2355 داخلی 4). این یک راه تماس است، نه کلاس."
+  },
+  {
+    "id": "islamic-center-of-west-island-dollard-des-ormeaux",
+    "notes": "منطقه: West Island. با نام Centre Islamique du West Island هم شناخته می‌شود."
+  },
+  {
+    "id": "centre-islamique-de-l-outaouais-la-mosquee-de-gatineau",
+    "notes": "منطقه: Hull. با نام‌های Outaouais Islamic Centre و Mosquée de Gatineau هم شناخته می‌شود. وب‌سایت رسمی در سپتامبر 2026 اطلاعیه انقضای دامنه نشان می‌داد. اگر وب‌سایت باز نشد، پیش از رفتن تماس بگیرید.",
+    "jumuahNote": "دو نوبت نماز جمعه (از 11 فوریه سالی که ذکر نشده)؛ وقت‌ها فقط در تصویری در https://cio-oic.ca/horaire-des-jumuahs/ آمده است."
+  },
+  {
+    "id": "masjid-meriam-gatineau",
+    "notes": "منطقه: بخش Gatineau. با نام‌های Mosquée Mariam و CIOIC - Meriam هم شناخته می‌شود.",
+    "visitorNotes": "زبان‌ها: وب‌سایت CIO بیشتر به فرانسوی است؛ برخی اطلاعیه‌ها دوزبانه فرانسوی و انگلیسی‌اند."
+  },
+  {
+    "id": "the-mosque-of-aylmer-gatineau",
+    "notes": "منطقه: Aylmer.",
+    "visitorNotes": "مطالب وب‌سایت دوزبانه انگلیسی و فرانسوی است؛ زبان خطبه ذکر نشده است.",
+    "womenSpaceNote": "صفحه خدمات «برنامه‌های بانوان» را فهرست می‌کند: «دورهمی‌ها، گروه‌های مطالعه و فعالیت‌های ویژه ... برای بانوان»؛ چیدمان نمازخانه توصیف نشده است.",
+    "jumuahNote": "«خطبه هفتگی توسط سخنرانان واجد شرایط»؛ وقت‌ها منتشر نشده است."
+  },
+  {
+    "id": "association-islamique-al-ihssane-de-laval",
+    "notes": "منطقه: Pont-Viau. با نام‌های AIIL و Mosquée Al-Itissam هم شناخته می‌شود."
+  },
+  {
+    "id": "centre-al-iman-laval",
+    "notes": "منطقه: Auteuil. با نام CCVA هم شناخته می‌شود."
+  },
+  {
+    "id": "centre-communautaire-musulman-iqra-laval",
+    "notes": "منطقه: Chomedey. با نام Centre IQRA هم شناخته می‌شود."
+  },
+  {
+    "id": "centre-communautaire-musulman-de-longueuil"
+  },
+  {
+    "id": "aisha-islamic-center-montreal",
+    "notes": "منطقه: Griffintown. با نام AIC هم شناخته می‌شود."
+  },
+  {
+    "id": "al-madinah-center-montreal",
+    "notes": "منطقه: مرکز شهر. با نام Centre Al-Madinah هم شناخته می‌شود.",
+    "visitorNotes": "برنامه به انگلیسی تأیید شده است: (دوره‌های تجوید «هم به عربی و هم به انگلیسی» برگزار می‌شود).",
+    "womenSpaceNote": "حلقه‌های قرآن بزرگسالان برای «برادران و خواهران» است؛ نمازخانه بانوان توصیف نشده است."
+  },
+  {
+    "id": "assuna-annabawiyah-mosque-montreal",
+    "notes": "منطقه: Parc-Extension. با نام‌های Mosquée Assuna Annabawiyah و Masjid Assuna هم شناخته می‌شود.",
+    "visitorNotes": "زبان‌ها: وب‌سایت آمیزه‌ای از فرانسوی، انگلیسی و عربی است؛ زبان برنامه‌ها ذکر نشده است."
+  },
+  {
+    "id": "canadian-institute-of-islamic-civilization-a-mac-community-centre-montreal",
+    "notes": "منطقه: مرکز شهر. با نام CIIC هم شناخته می‌شود.",
+    "womenSpaceNote": "حلقه درس هفتگی خواهران فهرست شده است (جمعه‌ها 6:30 تا 8:00 عصر)؛ نمازخانه توصیف نشده است.",
+    "jumuahNote": "سه نوبت نماز جمعه: 11:45 صبح، 12:30 و 1:15 بعدازظهر."
+  },
+  {
+    "id": "centre-bel-agir-montreal",
+    "notes": "منطقه: حوالی Villeray و Saint-Michel. با نام Bel Agir - Al-Ihsane هم شناخته می‌شود.",
+    "jumuahNote": "«نمازهای جمعه» (Prières du Vendredi) برگزار می‌شود؛ وقت‌ها در صفحه اصلی نیامده است."
+  },
+  {
+    "id": "centre-communautaire-fath-montreal",
+    "notes": "منطقه: Rivière-des-Prairies. با نام Mosquée Elfath - RDP هم شناخته می‌شود.",
+    "parkingNote": "«38 جای پارک» (38 Places de Stationnement)."
+  },
+  {
+    "id": "centre-communautaire-villeray-mosquee-aboubakr-montreal",
+    "notes": "منطقه: Villeray. با نام CCV هم شناخته می‌شود.",
+    "jumuahNote": "نماز جمعه «12:00 و 1:00 بعدازظهر»."
+  },
+  {
+    "id": "centre-islamique-de-verdun-montreal",
+    "notes": "منطقه: Verdun. با نام CIV هم شناخته می‌شود.",
+    "womenSpaceNote": "از رویدادهایی برای زنان و دختران نام برده شده است (برای نمونه «افطار ویژه دختران، مادرانشان و معلمان»)؛ نمازخانه توصیف نشده است.",
+    "jumuahNote": "نماز جمعه 12:00 و 1:15 بعدازظهر.",
+    "newMuslimSupportNote": "صفحه برنامه‌ها گروه‌های تازه‌مسلمانان برای زنان (Nouvelles converties) و برای مردان (Nouveaux convertis) را فهرست می‌کند. برنامه زمانی ذکر نشده است."
+  },
+  {
+    "id": "islamic-centre-of-quebec-montreal",
+    "notes": "منطقه: Saint-Laurent. با نام Centre Islamique du Québec هم شناخته می‌شود.",
+    "jumuahNote": "صفحه اصلی: «نماز جمعه 1 (13:30)، نماز جمعه 2 (14:30)»؛ «ترجمه 15 دقیقه پیش از خطبه خواهد بود.» زبان ترجمه ذکر نشده است.",
+    "parkingNote": "پارکینگ در محوطه ساختمان."
+  },
+  {
+    "id": "masjid-makkah-al-mukarramah-montreal",
+    "notes": "منطقه: Pierrefonds-Roxboro، West Island. با نام‌های Makkah-al-Mukarramah Mosque و Masjid Makkah هم شناخته می‌شود.",
+    "visitorNotes": "زبان‌ها: درس‌های هفتگی به اردو است؛ وب‌سایت به انگلیسی است.",
+    "womenSpaceNote": "«هر شنبه پس از نماز ظهر حلقه درس بانوان داریم»؛ نمازخانه بانوان توصیف نشده است."
+  },
+  {
+    "id": "mosquee-al-rawdah-montreal",
+    "notes": "منطقه: Cartierville. مرکز اجتماعی Centre Communautaire Laurentien در همسایگی آن در 12265 Boul. Laurentien است، با همان شماره تلفن.",
+    "jumuahNote": "نماز جمعه 12:00 و 1:00 بعدازظهر."
+  },
+  {
+    "id": "muslim-community-of-quebec-montreal",
+    "notes": "منطقه: Notre-Dame-de-Grâce.",
+    "womenSpaceNote": "صفحه برنامه‌ها از «برنامه‌های پشتیبانی و توانمندسازی بانوان» نام می‌برد؛ نمازخانه توصیف نشده است.",
+    "jumuahNote": "صفحه برنامه‌ها «نماز جمعه» را فهرست می‌کند؛ وقت‌ها در صفحه وقت‌های نماز نیامده است."
+  },
+  {
+    "id": "centre-communautaire-de-quebec-quebec-city",
+    "notes": "منطقه: Saint-Roch. با نام‌های MAC Québec و Masjid Al-Rahma هم شناخته می‌شود.",
+    "jumuahNote": "صفحه اصلی دو بخش ناهمخوان برای نماز جمعه نشان می‌دهد: 12:15 و 12:45 بعدازظهر، و 12:00 و 12:45 بعدازظهر."
+  },
+  {
+    "id": "centre-culturel-islamique-luqman-de-quebec-quebec-city",
+    "notes": "منطقه: Les Saules. با نام Centre Luqman هم شناخته می‌شود.",
+    "jumuahNote": "وقت‌های نماز از راه پیوند Mawaqit در وب‌سایت."
+  },
+  {
+    "id": "centre-culturel-islamique-de-quebec-grande-mosquee-de-quebec-quebec-city",
+    "notes": "منطقه: Sainte-Foy. با نام‌های CCIQ و GMQ هم شناخته می‌شود؛ CCIQ همچنین Mosquée Annour و نمازخانه‌هایی در Charlesbourg و Portneuf را اداره می‌کند.",
+    "womenSpaceNote": "Conseil de la femme musulmane de Québec (CFMQ) به‌عنوان بخشی از CCIQ فهرست شده و فعالیت‌های بانوان هم آمده است؛ نمازخانه توصیف نشده است.",
+    "jumuahNote": "نماز جمعه برگزار می‌شود («نمازهای روزانه و نماز جمعه»)؛ وقت‌ها از راه mosqueprayertimes.com/cciq."
+  },
+  {
+    "id": "mosquee-de-la-capitale-quebec-city",
+    "notes": "منطقه: Vanier. با نام Association Mosquée de la Capitale هم شناخته می‌شود."
+  },
+  {
+    "id": "centre-culturel-islamique-de-lanaudiere-repentigny",
+    "notes": "منطقه: Lanaudière. با نام Masjid Atassamouh هم شناخته می‌شود.",
+    "jumuahNote": "صفحه اصلی: «نماز جمعه: نوبت اول 12:00، نوبت دوم 13:00»."
+  },
+  {
+    "id": "association-islamique-du-saguenay-lac-st-jean",
+    "notes": "منطقه: Chicoutimi. با نام Mosquée Chicoutimi هم شناخته می‌شود.",
+    "visitorNotes": "زبان‌ها: وب‌سایت به فرانسوی است و گزینه تغییر زبان به انگلیسی و عربی دارد؛ زبان برنامه‌ها ذکر نشده است."
+  },
+  {
+    "id": "centre-islamique-maskoutain-saint-hyacinthe",
+    "jumuahNote": "صفحه اصلی: «دو نوبت نماز جمعه هست: نخستین در 12:10 و دومی در 12:45 آغاز می‌شود.»"
+  },
+  {
+    "id": "centre-rayan-sainte-therese",
+    "notes": "منطقه: Basses-Laurentides. با نام Mosque Rayane هم شناخته می‌شود."
+  },
+  {
+    "id": "association-culturelle-islamique-de-l-estrie-mosquee-a-rahmane-sherbrooke",
+    "notes": "با نام ACIE هم شناخته می‌شود؛ Centre Horizon در 1239 Rue Denault را هم اداره می‌کند.",
+    "jumuahNote": "دو نوبت: «12:15 و 13:00».",
+    "parkingNote": "از بازدیدکنندگان می‌خواهد: «لطفاً از پارکینگ‌های خصوصی همسایگان ما استفاده نکنید»."
+  },
+  {
+    "id": "centre-culturel-islamique-de-sherbrooke-mosquee-annour",
+    "notes": "با نام CCIS Annour هم شناخته می‌شود."
+  },
+  {
+    "id": "centre-culturel-islamique-de-la-mauricie-trois-rivieres",
+    "notes": "با نام Islamic Cultural Center of Mauricie هم شناخته می‌شود.",
+    "newMuslimSupportNote": "صفحه خدمات، اگر بخواهید اسلام بیاورید، وقت ملاقات با نماینده CCIM و گواهی رسمی مسلمان شدن ارائه می‌دهد. وعده می‌دهد به پرسش‌هایتان محرمانه پاسخ دهد. این کلاس مستمر نیست."
+  },
+  {
+    "id": "vaudreuil-islamic-community-centre-masjid-attakwa-vaudreuil-dorion",
+    "notes": "با نام‌های Centre Culturel Islamique de Vaudreuil Soulanges و ICCVS هم شناخته می‌شود.",
+    "jumuahNote": "صفحه خدمات «نماز جمعه» را فهرست می‌کند؛ وقت ذکر نشده است."
+  },
+  {
+    "id": "bcma-abbotsford-branch",
+    "notes": "با نام Abbotsford Islamic Centre هم شناخته می‌شود.",
+    "newMuslimSupportNote": "برنامه استانی مراقبت از تازه‌مسلمانان را انجمن مسلمانان بریتیش کلمبیا (BC Muslim Association) اداره می‌کند؛ این شعبه برنامه جداگانه‌ای ندارد. در فرم ثبت‌نام BCMA می‌توانید این شعبه را انتخاب کنید."
+  },
+  {
+    "id": "bcma-burnaby-branch",
+    "notes": "با نام Masjid al Salaam & Education Centre هم شناخته می‌شود.",
+    "jumuahNote": "صفحه شعبه: نماز جمعه 1:30 بعدازظهر آغاز می‌شود، اقامه 2:30 بعدازظهر.",
+    "newMuslimSupportNote": "برنامه استانی مراقبت از تازه‌مسلمانان را انجمن مسلمانان بریتیش کلمبیا (BC Muslim Association) اداره می‌کند؛ این شعبه برنامه جداگانه‌ای ندارد. در فرم ثبت‌نام BCMA می‌توانید این شعبه را انتخاب کنید."
+  },
+  {
+    "id": "bcma-castlegar-branch",
+    "notes": "با نام Islamic Centre of Castlegar هم شناخته می‌شود.",
+    "newMuslimSupportNote": "برنامه استانی مراقبت از تازه‌مسلمانان را انجمن مسلمانان بریتیش کلمبیا (BC Muslim Association) اداره می‌کند؛ این شعبه برنامه جداگانه‌ای ندارد. در فرم ثبت‌نام BCMA می‌توانید این شعبه را انتخاب کنید."
+  },
+  {
+    "id": "bcma-chilliwack-branch",
+    "notes": "با نام Chilliwack Islamic Centre هم شناخته می‌شود.",
+    "newMuslimSupportNote": "برنامه استانی مراقبت از تازه‌مسلمانان را انجمن مسلمانان بریتیش کلمبیا (BC Muslim Association) اداره می‌کند؛ این شعبه برنامه جداگانه‌ای ندارد. در فرم ثبت‌نام BCMA می‌توانید این شعبه را انتخاب کنید."
+  },
+  {
+    "id": "bcma-dawson-creek-islamic-center",
+    "newMuslimSupportNote": "برنامه استانی مراقبت از تازه‌مسلمانان را انجمن مسلمانان بریتیش کلمبیا (BC Muslim Association) اداره می‌کند؛ این شعبه برنامه جداگانه‌ای ندارد. در فرم ثبت‌نام BCMA می‌توانید این شعبه را انتخاب کنید."
+  },
+  {
+    "id": "bcma-delta-islamic-center",
+    "notes": "با نام Delta Islamic Centre هم شناخته می‌شود.",
+    "newMuslimSupportNote": "برنامه استانی مراقبت از تازه‌مسلمانان را انجمن مسلمانان بریتیش کلمبیا (BC Muslim Association) اداره می‌کند؛ این شعبه برنامه جداگانه‌ای ندارد. در فرم ثبت‌نام BCMA می‌توانید این شعبه را انتخاب کنید."
+  },
+  {
+    "id": "kamloops-ayesha-mosque",
+    "notes": "منطقه: Knutsford. با نام‌های Ayesha Mosque و Kamloops Islamic Association هم شناخته می‌شود.",
+    "accessibilityNote": "صفحه اصلی می‌گوید مکان کنونی در Knutsford «آب شهری ندارد، حمل‌ونقل عمومی ندارد و جا محدود است» و انجمن برای «انتقال به مکانی دسترس‌پذیر» در محدوده شهر کملوپس (Kamloops) پول جمع می‌کند.",
+    "jumuahNote": "صفحه اصلی: خطبه جمعه 1:30 بعدازظهر.",
+    "parkingNote": "صفحه اصلی: به دلیل کمبود جا برخی رویدادها «بیرون از مسجد، حتی در پارکینگ، برگزار می‌شود»."
+  },
+  {
+    "id": "bcma-kelowna-branch",
+    "notes": "با نام Kelowna Islamic Centre هم شناخته می‌شود.",
+    "newMuslimSupportNote": "برنامه استانی مراقبت از تازه‌مسلمانان را انجمن مسلمانان بریتیش کلمبیا (BC Muslim Association) اداره می‌کند؛ این شعبه برنامه جداگانه‌ای ندارد. در فرم ثبت‌نام BCMA می‌توانید این شعبه را انتخاب کنید."
+  },
+  {
+    "id": "bcma-kitimat-islamic-center",
+    "newMuslimSupportNote": "برنامه استانی مراقبت از تازه‌مسلمانان را انجمن مسلمانان بریتیش کلمبیا (BC Muslim Association) اداره می‌کند؛ این شعبه برنامه جداگانه‌ای ندارد. در فرم ثبت‌نام BCMA می‌توانید این شعبه را انتخاب کنید."
+  },
+  {
+    "id": "masjid-al-sahaba-langley",
+    "notes": "با نام‌های Langley Islamic Centre و Langley Musalla هم شناخته می‌شود.",
+    "womenSpaceNote": "صفحه رسمی: «نمازخانه بانوان دارد»."
+  },
+  {
+    "id": "jamia-riyadhul-jannah-maple-ridge",
+    "notes": "با نام Riyadhul Jannah Mosque هم شناخته می‌شود.",
+    "jumuahNote": "صفحه اصلی: خطبه نماز جمعه 13:30."
+  },
+  {
+    "id": "bcma-nanaimo-chapter",
+    "newMuslimSupportNote": "برنامه استانی مراقبت از تازه‌مسلمانان را انجمن مسلمانان بریتیش کلمبیا (BC Muslim Association) اداره می‌کند؛ این شعبه برنامه جداگانه‌ای ندارد. در فرم ثبت‌نام BCMA می‌توانید این شعبه را انتخاب کنید."
+  },
+  {
+    "id": "bcma-north-shore-chapter-north-vancouver",
+    "newMuslimSupportNote": "برنامه استانی مراقبت از تازه‌مسلمانان را انجمن مسلمانان بریتیش کلمبیا (BC Muslim Association) اداره می‌کند؛ این شعبه برنامه جداگانه‌ای ندارد. در فرم ثبت‌نام BCMA می‌توانید این شعبه را انتخاب کنید."
+  },
+  {
+    "id": "masjid-ar-rahman-north-vancouver",
+    "notes": "با نام Masjid Ar-Rahman Foundation of North Vancouver هم شناخته می‌شود.",
+    "womenSpaceNote": "صفحه برنامه‌ها از کلاس‌های خواهران و بانوان نام می‌برد؛ نمازخانه بانوان توصیف نشده است.",
+    "jumuahNote": "صفحه نماز جمعه: خطبه در دوره ساعت تابستانی (از اواسط مارس تا نوامبر) 1:30 بعدازظهر و در دوره ساعت رسمی 12:30 بعدازظهر."
+  },
+  {
+    "id": "bcma-penticton-branch",
+    "newMuslimSupportNote": "برنامه استانی مراقبت از تازه‌مسلمانان را انجمن مسلمانان بریتیش کلمبیا (BC Muslim Association) اداره می‌کند؛ این شعبه برنامه جداگانه‌ای ندارد. در فرم ثبت‌نام BCMA می‌توانید این شعبه را انتخاب کنید."
+  },
+  {
+    "id": "islamic-society-of-british-columbia-port-coquitlam",
+    "notes": "با نام‌های Masjid Al-Hidayah & Islamic Cultural Centre و ISBC هم شناخته می‌شود.",
+    "womenSpaceNote": "صفحه برنامه‌ها از دورهمی هفتگی بانوان نام می‌برد؛ نمازخانه ذکر نشده است؛ نماز جمعه برای مردان و زنان باز است؛ مشاوره خصوصی برای بانوان.",
+    "jumuahNote": "خطبه 1:40 بعدازظهر آغاز می‌شود.",
+    "parkingNote": "پارکینگ زیرزمینی مسجد؛ جای اضافه در پارکینگ ECBC (پولی) یا پارکینگ شهری Legion؛ در خیابان Kingsway Ave پارک نکنید."
+  },
+  {
+    "id": "al-ihsan-islamic-centre-port-moody"
+  },
+  {
+    "id": "bcma-prince-george-branch",
+    "notes": "با نام BCMA Prince George Chapter هم شناخته می‌شود.",
+    "newMuslimSupportNote": "برنامه استانی مراقبت از تازه‌مسلمانان را انجمن مسلمانان بریتیش کلمبیا (BC Muslim Association) اداره می‌کند؛ این شعبه برنامه جداگانه‌ای ندارد. در فرم ثبت‌نام BCMA می‌توانید این شعبه را انتخاب کنید."
+  },
+  {
+    "id": "bcma-richmond-branch",
+    "notes": "با نام Richmond Jamia Masjid هم شناخته می‌شود؛ محل دفتر مرکزی BCMA.",
+    "jumuahNote": "صفحه شعبه خطبه نخست را 1:30 بعدازظهر و خطبه دوم را 3:00 بعدازظهر فهرست می‌کند (ممکن است با فصل تغییر کند).",
+    "newMuslimSupportNote": "برنامه استانی مراقبت از تازه‌مسلمانان را انجمن مسلمانان بریتیش کلمبیا (BC Muslim Association) اداره می‌کند؛ این شعبه برنامه جداگانه‌ای ندارد. در فرم ثبت‌نام BCMA می‌توانید این شعبه را انتخاب کنید."
+  },
+  {
+    "id": "abu-bakr-islamic-centre-surrey",
+    "notes": "با نام Masjid Abu Bakr هم شناخته می‌شود.",
+    "womenSpaceNote": "خواهران در نوبت دوم نماز جمعه خوش آمدند.",
+    "jumuahNote": "نماز جمعه اول 1:40 بعدازظهر، دوم 2:40 بعدازظهر، سوم 3:30 بعدازظهر."
+  },
+  {
+    "id": "bcma-surrey-delta-branch",
+    "notes": "با نام Surrey Jamia Masjid هم شناخته می‌شود.",
+    "newMuslimSupportNote": "برنامه استانی مراقبت از تازه‌مسلمانان را انجمن مسلمانان بریتیش کلمبیا (BC Muslim Association) اداره می‌کند؛ این شعبه برنامه جداگانه‌ای ندارد. در فرم ثبت‌نام BCMA می‌توانید این شعبه را انتخاب کنید."
+  },
+  {
+    "id": "bcma-surrey-east-branch",
+    "newMuslimSupportNote": "برنامه استانی مراقبت از تازه‌مسلمانان را انجمن مسلمانان بریتیش کلمبیا (BC Muslim Association) اداره می‌کند؛ این شعبه برنامه جداگانه‌ای ندارد. در فرم ثبت‌نام BCMA می‌توانید این شعبه را انتخاب کنید."
+  },
+  {
+    "id": "cloverdale-islamic-society-surrey",
+    "notes": "منطقه: Cloverdale. با نام Cloverdale Islamic Center هم شناخته می‌شود."
+  },
+  {
+    "id": "guildford-islamic-cultural-center-surrey",
+    "notes": "منطقه: Guildford. با نام Guildford Musullah هم شناخته می‌شود.",
+    "womenSpaceNote": "نوبت دوم و سوم نماز جمعه برای خواهران باز است؛ اتاق خواهران در مسجد.",
+    "jumuahNote": "سه نوبت نماز جمعه؛ نوبت نخست فقط برای برادران است؛ وقت‌ها از راه awqat.net."
+  },
+  {
+    "id": "white-rock-muslim-association-surrey",
+    "notes": "منطقه: South Surrey و White Rock. با نام WRMA Musallah هم شناخته می‌شود.",
+    "womenSpaceNote": "صفحه خدمات نماز: «نمازخانه‌های جداگانه برای برادران (طبقه اصلی) و خواهران (طبقه بالا)».",
+    "accessibilityNote": "صفحه خدمات نماز: «برای اطلاعات بیشتر درباره دسترس‌پذیری و وقت‌های نماز، لطفاً با ما تماس بگیرید».",
+    "jumuahNote": "نماز جمعه اول 1:35 بعدازظهر، دوم 2:15 بعدازظهر (وقت تابستانی، ممکن است تغییر کند)؛ وقت زمستانی 12:35 و 1:15 بعدازظهر.",
+    "parkingNote": "صفحه خدمات نماز: «در جای پارک عمومی پارک کنید، نه جلوی کسب‌وکارهای دیگر یا جاهای رزروشده. خودروها با هزینه مالک یدک‌کشی می‌شوند.»"
+  },
+  {
+    "id": "ajyal-islamic-society-vancouver",
+    "notes": "با نام Ajyal Islamic Centre Vancouver Mosque هم شناخته می‌شود.",
+    "visitorNotes": "زبان‌ها: وب‌سایت می‌گوید برنامه‌ها به انگلیسی، ترکی، عربی و زبان‌های دیگر برگزار می‌شود.",
+    "womenSpaceNote": "برنامه‌های خواهران فهرست شده‌اند (حلقه درس، کلاس قرآن، پشتیبانی از تازه‌مسلمانان)؛ نمازخانه بانوان توصیف نشده است.",
+    "jumuahNote": "صفحه جمعه (از 8 مارس 2026): سه نوبت، خطبه‌ها در 1:30 بعدازظهر (فقط برادران)، 2:10 و 2:45 بعدازظهر."
+  },
+  {
+    "id": "al-masjid-al-jamia-vancouver",
+    "notes": "با نام‌های Al-Jamia Masjid و Vancouver Jamia Masjid هم شناخته می‌شود.",
+    "jumuahNote": "صفحه اداره‌کننده: دو نوبت نماز جمعه در 1:30 و 2:15 بعدازظهر."
+  },
+  {
+    "id": "bcma-vancouver-branch",
+    "notes": "با نام Masjid ul-Haqq هم شناخته می‌شود.",
+    "jumuahNote": "صفحه شعبه: نماز جمعه 1:30 بعدازظهر آغاز می‌شود، اقامه 2:00 بعدازظهر.",
+    "newMuslimSupportNote": "برنامه استانی مراقبت از تازه‌مسلمانان را انجمن مسلمانان بریتیش کلمبیا (BC Muslim Association) اداره می‌کند؛ این شعبه برنامه جداگانه‌ای ندارد. در فرم ثبت‌نام BCMA می‌توانید این شعبه را انتخاب کنید."
+  },
+  {
+    "id": "mac-vancouver-centre",
+    "notes": "با نام Muslim Association of Canada, Vancouver هم شناخته می‌شود.",
+    "jumuahNote": "صفحه مرکز: خطبه 1:30 بعدازظهر، نماز 2:00 بعدازظهر."
+  },
+  {
+    "id": "masjid-omar-al-farooq-vancouver",
+    "notes": "با نام Othman Bin Affan Islamic Society هم شناخته می‌شود."
+  },
+  {
+    "id": "vernon-islamic-centre",
+    "notes": "با نام Vernon Mosque هم شناخته می‌شود."
+  },
+  {
+    "id": "bcma-victoria-branch",
+    "notes": "با نام Victoria Masjid هم شناخته می‌شود.",
+    "newMuslimSupportNote": "برنامه استانی مراقبت از تازه‌مسلمانان را انجمن مسلمانان بریتیش کلمبیا (BC Muslim Association) اداره می‌کند؛ این شعبه برنامه جداگانه‌ای ندارد. در فرم ثبت‌نام BCMA می‌توانید این شعبه را انتخاب کنید."
+  },
+  {
+    "id": "bcma-westshore-branch",
+    "newMuslimSupportNote": "برنامه استانی مراقبت از تازه‌مسلمانان را انجمن مسلمانان بریتیش کلمبیا (BC Muslim Association) اداره می‌کند؛ این شعبه برنامه جداگانه‌ای ندارد. در فرم ثبت‌نام BCMA می‌توانید این شعبه را انتخاب کنید."
+  },
+  {
+    "id": "bcma-central-cariboo-islamic-center-williams-lake",
+    "notes": "با نام Williams Lake Muslim Committee هم شناخته می‌شود.",
+    "newMuslimSupportNote": "برنامه استانی مراقبت از تازه‌مسلمانان را انجمن مسلمانان بریتیش کلمبیا (BC Muslim Association) اداره می‌کند؛ این شعبه برنامه جداگانه‌ای ندارد. در فرم ثبت‌نام BCMA می‌توانید این شعبه را انتخاب کنید."
+  },
+  {
+    "id": "akram-jomaa-islamic-centre-calgary",
+    "womenSpaceNote": "صفحه «درباره ما» از کمیته بانوان نام می‌برد؛ نمازخانه توصیف نشده است.",
+    "accessibilityNote": "صفحه «درباره ما»: دارای گواهی MUHSEN؛ کمیته معلولیت تلاش می‌کند «همه برای مشارکت کامل فرصت برابر داشته باشند».",
+    "newMuslimSupportNote": "صفحه New to Islam شما را دعوت می‌کند وقتی با امام بگیرید، از مرکز بازدید کنید و بسته کتاب‌های شهادتین را از دفتر اداری بگیرید. فرم گروه پشتیبانی در آن صفحه شاید هنوز کار نکند، پس به جای آن با دفتر تماس بگیرید."
+  },
+  {
+    "id": "al-hedaya-islamic-centre-of-north-east-calgary",
+    "notes": "با نام Islamic Center NE هم شناخته می‌شود.",
+    "womenSpaceNote": "برنامه Rising Muslimah برای دختران 13 تا 19 ساله (شنبه‌ها 9:00 صبح)؛ نمازخانه بانوان توصیف نشده است.",
+    "jumuahNote": "«نماز جمعه فقط در Genesis Centre، در سالن چندمنظوره A و B برگزار می‌شود» در ساعت‌های 2:00، 2:30 و 3:00 بعدازظهر."
+  },
+  {
+    "id": "al-madinah-calgary-islamic-assembly",
+    "notes": "با نام Green Dome Mosque هم شناخته می‌شود."
+  },
+  {
+    "id": "al-salam-centre-calgary",
+    "notes": "با نام‌های MAC Calgary و Masjid Al-Salam هم شناخته می‌شود.",
+    "jumuahNote": "«1:00 و 2:00 بعدازظهر» در Al-Salam Centre؛ 1:30 بعدازظهر در MAC Islamic School و Marlborough Community Association."
+  },
+  {
+    "id": "hazrat-bilal-islamic-centre-calgary",
+    "notes": "با نام Masjid Bilal هم شناخته می‌شود.",
+    "jumuahNote": "«خطبه نخست 1:45 بعدازظهر. خطبه دوم 2:30 بعدازظهر. درها برای نوبت نخست نماز جمعه ساعت 2:00 بعدازظهر بسته می‌شوند.»",
+    "parkingNote": "صفحه اصلی: «لطفاً جلوی ورودی خانه‌های همسایه را نبندید و از راهنمایی داوطلبان پیروی کنید.»"
+  },
+  {
+    "id": "islamic-association-of-north-west-calgary",
+    "notes": "با نام‌های IANWC و Northwest Islamic Centre هم شناخته می‌شود.",
+    "jumuahNote": "1:15، 2:00 و 2:45 بعدازظهر در Ranchland و در Maryam Masjid، 183 Beddington Drive NW.",
+    "parkingNote": "پارک در خیابان و در پارکینگ؛ جا محدود است، زود برسید؛ پارکینگ پس از پر شدن به روی خودروها بسته می‌شود.",
+    "newMuslimSupportNote": "صفحه اصلی می‌گوید اگر پرسشی دارید یا آماده گفتن شهادتین هستید، امام مسجد برای کمک در دسترس است. کلاس یا راهنمایی مستمری توصیف نشده است."
+  },
+  {
+    "id": "islamic-centre-of-south-calgary",
+    "notes": "با نام‌های ICSC و Islamic Center SE هم شناخته می‌شود.",
+    "jumuahNote": "Legacy Musallah: 1:15، 2:00، 2:45 و 3:30 بعدازظهر؛ McKenzie Towne Hall: 1:00 و 1:45 بعدازظهر."
+  },
+  {
+    "id": "islamic-centre-of-southwest-calgary",
+    "notes": "با نام‌های SW Masjid و Calgary Islamic Centre SW هم شناخته می‌شود.",
+    "jumuahNote": "دو نوبت نماز جمعه؛ وقت‌ها با فصل تغییر می‌کند (از 26 سپتامبر 2026، 1:45 و 3:00 بعدازظهر)؛ کادر وقت‌ها در صفحه اصلی را ببینید."
+  },
+  {
+    "id": "muslim-council-of-calgary",
+    "notes": "با نام MCC هم شناخته می‌شود. این دفتر شورای مسلمانان کلگری (Muslim Council of Calgary) است که به مسجدهای سراسر شهر خدمت می‌کند.",
+    "newMuslimSupportNote": "صفحه New Muslim از «حلقه تازه‌مسلمانان» (New Muslim Circle)، یک گروه پشتیبانی، و نیز «ارتباط با امام» و کتاب راهنمای تازه‌مسلمانان می‌گوید. پشتیبانی فردی از سوی یک همتا، یک مربی یا یک امام هم ارائه می‌دهد."
+  },
+  {
+    "id": "mac-cold-lake-mosque",
+    "jumuahNote": "1:30 بعدازظهر."
+  },
+  {
+    "id": "ahl-al-athar-islamic-center-edmonton",
+    "womenSpaceNote": "صفحه اصلی از «ورودی جداگانه بانوان» نام می‌برد (با پیوند به نقشه)."
+  },
+  {
+    "id": "al-ameen-masjid-edmonton",
+    "notes": "با نام Al-Ameen Mosque هم شناخته می‌شود.",
+    "womenSpaceNote": "صفحه اصلی: «نمازخانه‌های بزرگ برای برادران و خواهران»؛ فهرست خدمات «نمازخانه خواهران» را هم دارد.",
+    "jumuahNote": "صفحه اصلی: نماز جمعه، خطبه اول 12:45 بعدازظهر، خطبه دوم 1:40 بعدازظهر (ممکن است فصلی باشد).",
+    "parkingNote": "فهرست خدمات «پارکینگ» را دارد (بدون جزئیات)."
+  },
+  {
+    "id": "al-rashid-mosque-edmonton",
+    "womenSpaceNote": "برنامه‌های خواهران فهرست شده‌اند (حلقه درس بانوان جمعه‌ها 7 عصر؛ برنامه بانوان سالمند چهارشنبه‌ها 12 ظهر تا 2 بعدازظهر)؛ نمازخانه توصیف نشده است.",
+    "jumuahNote": "Al Rashid Mosque ساعت 1:45 بعدازظهر؛ ARCA ساعت 2:00 بعدازظهر."
+  },
+  {
+    "id": "alfalah-islamic-centre-edmonton",
+    "notes": "با نام‌های Alfalah Center و ICNA Edmonton هم شناخته می‌شود.",
+    "womenSpaceNote": "صفحه برنامه‌ها: «مسجد با همه امکانات (مردان و زنان): مرکز ما نمازخانه‌ای ویژه و فراگیر برای مردان و زنان فراهم کرده است»؛ برنامه‌های بانوان فهرست شده‌اند.",
+    "jumuahNote": "صفحه اصلی: نماز جمعه 1:30 بعدازظهر و نماز جمعه دوم 2:30 بعدازظهر؛ «اقامه نماز جمعه 30 دقیقه پس از وقت اعلام‌شده است.»"
+  },
+  {
+    "id": "assiddiq-islamic-foundation-edmonton",
+    "notes": "با نام Assiddiq Islamic Center هم شناخته می‌شود.",
+    "visitorNotes": "برنامه به انگلیسی تأیید شده است: حلقه درس دختران (17 سال به بالا) در روز شنبه «به انگلیسی».",
+    "womenSpaceNote": "صفحه خدمات از حلقه درس خواهران نام می‌برد؛ نمازخانه بانوان توصیف نشده است.",
+    "jumuahNote": "جدول وقت‌های نماز در صفحه اصلی: نماز جمعه نخست 2:00 بعدازظهر، دوم 3:30 بعدازظهر (تابستان)؛ بخش خدمات هم می‌گوید «نماز جمعه هر جمعه ساعت 1 بعدازظهر» (احتمالاً وقت زمستانی). بررسی کنید.",
+    "newMuslimSupportNote": "صفحه خدمات جلسه‌های تازه‌مسلمانان را در میان کلاس‌های بزرگسالان، با پیوند ثبت‌نام، فهرست می‌کند. برنامه زمانی و هزینه ذکر نشده است."
+  },
+  {
+    "id": "dar-al-sunnah-edmonton",
+    "notes": "با نام Dar-Al-Sunnah هم شناخته می‌شود.",
+    "visitorNotes": "برنامه به انگلیسی تأیید شده است: صفحه اصلی «نماز جمعه، خطبه نخست (انگلیسی) 01:45 بعدازظهر» را فهرست می‌کند.",
+    "jumuahNote": "صفحه اصلی: خطبه نخست (انگلیسی) 1:45 بعدازظهر؛ خطبه دوم (عربی) 2:45 بعدازظهر."
+  },
+  {
+    "id": "darul-ilmi-masjid-edmonton",
+    "notes": "با نام‌های Masjid Daril Ilmi و Darul Ilmi Quran School هم شناخته می‌شود.",
+    "jumuahNote": "صفحه اصلی: «خطبه نماز جمعه ساعت 1 بعدازظهر آغاز می‌شود»."
+  },
+  {
+    "id": "mas-islamic-centre-edmonton",
+    "notes": "با نام Masjid Al-Salaam هم شناخته می‌شود.",
+    "jumuahNote": "«هر جمعه ساعت 2:00 بعدازظهر»."
+  },
+  {
+    "id": "markaz-al-imam-malik-edmonton"
+  },
+  {
+    "id": "markaz-ul-islam-edmonton",
+    "visitorNotes": "زبان‌ها: کتاب‌های کتابخانه به انگلیسی، اردو و عربی است.",
+    "womenSpaceNote": "برنامه قرآن و حدیث ویژه خواهران در شنبه اول و سوم هر ماه.",
+    "jumuahNote": "نماز جمعه اول 2:00 بعدازظهر، دوم 3:00 بعدازظهر (اقامه)، صفحه اصلی."
+  },
+  {
+    "id": "masjid-al-ansar-edmonton"
+  },
+  {
+    "id": "masjid-al-omari-edmonton",
+    "notes": "با نام Edmonton Islamic Centre هم شناخته می‌شود.",
+    "jumuahNote": "صفحه اصلی: نماز جمعه اول 12:30 بعدازظهر؛ نماز جمعه دوم 1:30 بعدازظهر (خطبه دوم 1:30، اقامه 1:50 بعدازظهر). وقت‌ها ممکن است فصلی باشند."
+  },
+  {
+    "id": "masjid-at-taqwa-edmonton"
+  },
+  {
+    "id": "masjid-quba-jama-masjid-edmonton",
+    "notes": "با نام Islamic Missionary Association Edmonton هم شناخته می‌شود.",
+    "jumuahNote": "نماز جمعه اول 2:00 بعدازظهر؛ نماز جمعه دوم 3:00 بعدازظهر."
+  },
+  {
+    "id": "medina-mosque-society-of-edmonton",
+    "notes": "با نام Medina Mosque هم شناخته می‌شود."
+  },
+  {
+    "id": "muslim-community-of-edmonton-mosque",
+    "jumuahNote": "نماز جمعه به‌طور منظم برگزار می‌شود؛ وقت‌ها در صفحه اصلی نیامده است."
+  },
+  {
+    "id": "rahma-mosque-edmonton",
+    "notes": "با نام MAC Islamic Centre Edmonton هم شناخته می‌شود.",
+    "jumuahNote": "سه نوبت نماز جمعه: 1:00، 2:00 و 3:00 بعدازظهر؛ درها در هر نوبت با رسیدن به 400 نفر بسته می‌شوند؛ «کودکان زیر 12 سال پذیرفته نمی‌شوند»."
+  },
+  {
+    "id": "ruh-a-ruh-mosque-edmonton",
+    "notes": "با نام‌های Soul Community Center و Ruh a Ruh Mosque هم شناخته می‌شود.",
+    "womenSpaceNote": "صفحه اصلی از سالن قابل رزرو «فضای بانوان» (برای «دورهمی‌های بزرگ بانوان») نام می‌برد؛ نمازخانه جداگانه بانوان توصیف نشده است.",
+    "jumuahNote": "صفحه اصلی: «نماز جمعه 10 دقیقه پس از اذان. پس از خطبه نماز جماعت خوانده می‌شود».",
+    "parkingNote": "«اطلاعیه پارکینگ برای بازدیدکنندگان» در صفحه اصلی: از بازدیدکنندگان می‌خواهد مسئولانه پارک کنند و جلوی کسب‌وکارهای همسایه را نبندند."
+  },
+  {
+    "id": "sahaba-mosque-edmonton"
+  },
+  {
+    "id": "markaz-ul-islam-fort-mcmurray",
+    "newMuslimSupportNote": "صفحه پشتیبانی از تازه‌مسلمانان (شهادتین) هماهنگی گفتن شهادتین، آشنایی مقدماتی با نماز، وضو و باورهای اصلی، یک همراه از جامعه و کمک در برابر فشار خانواده را ارائه می‌دهد. با فرم پذیرش می‌توانید پشتیبانی تلفنی، پیامکی، ایمیلی، حضوری یا آنلاین را انتخاب کنید."
+  },
+  {
+    "id": "islamic-association-of-grande-prairie",
+    "notes": "با نام IAGP هم شناخته می‌شود."
+  },
+  {
+    "id": "lethbridge-muslim-association",
+    "jumuahNote": "نماز جمعه 1:30 بعدازظهر.",
+    "newMuslimSupportNote": "صفحه خدمات از «کلاس‌ها و برنامه‌هایی ویژه کسانی که به‌تازگی اسلام آورده‌اند» نام می‌برد. آخرین اطلاعیه صفحه اصلی از مارس 2025 است، پس بپرسید کلاس‌ها هنوز برگزار می‌شوند یا نه."
+  },
+  {
+    "id": "islamic-association-of-medicine-hat",
+    "notes": "با نام IAMH هم شناخته می‌شود.",
+    "jumuahNote": "نماز جمعه اول 1:30 بعدازظهر؛ دوم 2:00 بعدازظهر."
+  },
+  {
+    "id": "red-deer-islamic-centre",
+    "jumuahNote": "دو نوبت نماز جمعه در مرکز؛ وقت‌ها خوانده نشد."
+  },
+  {
+    "id": "masjid-in-the-park-sherwood-park",
+    "womenSpaceNote": "نمازخانه‌ها و ورودی‌های جداگانه برای برادران و خواهران؛ اتاق مادران با پخش زنده صدا.",
+    "accessibilityNote": "کاملاً دسترس‌پذیر، با سطح شیب‌دار برای ویلچر، سرویس بهداشتی دسترس‌پذیر و آسانسور در سراسر ساختمان.",
+    "jumuahNote": "صفحه اصلی از نماز جمعه و ظرفیت بیش از 250 نفر نام می‌برد؛ وقت‌ها ذکر نشده است."
+  },
+  {
+    "id": "muslim-association-of-st-albert",
+    "notes": "با نام‌های MASA و St. Albert Mosque هم شناخته می‌شود.",
+    "womenSpaceNote": "صفحه اصلی: «طبقه همکف و سالن ورزش ویژه برادران است و طبقه دوم برای خواهران است»."
+  },
+  {
+    "id": "abu-bakr-al-siddiq-masjid-moose-jaw"
+  },
+  {
+    "id": "prince-albert-masjid"
+  },
+  {
+    "id": "darul-falah-islamic-centre-regina",
+    "jumuahNote": "سه نوبت نماز جمعه: خطبه 1:00، 1:30 و 2:00 بعدازظهر (صفحه اصلی)."
+  },
+  {
+    "id": "iaos-regina-east-musallah",
+    "notes": "با نام‌های East Regina Mosque و East Regina Musalla هم شناخته می‌شود.",
+    "newMuslimSupportNote": "IAOS Regina کمیته تازه‌مسلمانان را برای کل شهر اداره می‌کند، با راهنمایی همتا، برنامه همراه در مسجد و مشاوره. این نمازخانه برنامه جداگانه‌ای فهرست نمی‌کند."
+  },
+  {
+    "id": "islamic-association-of-saskatchewan-inc-iaos-regina-mosque",
+    "womenSpaceNote": "صفحه «درباره ما»: مرکز نمازخانه‌های جداگانه برای برادران و خواهران دارد.",
+    "jumuahNote": "نماز جمعه 1 در 1:15 بعدازظهر، نماز جمعه 2 در 2:00 بعدازظهر (صفحه اصلی).",
+    "newMuslimSupportNote": "کمیته تازه‌مسلمانان IAOS Regina راهنمایی همتا، برنامه همراه در مسجد، مشاوره، کتاب و سخنرانی ارائه می‌دهد. برنامه صفحه اصلی کلاس تازه‌مسلمانان را شنبه‌ها پس از نماز عشا فهرست می‌کند."
+  },
+  {
+    "id": "islamic-society-of-regina-masjid",
+    "notes": "با نام ISR هم شناخته می‌شود.",
+    "jumuahNote": "صفحه اصلی: نماز جمعه 1:15 و 1:45 بعدازظهر."
+  },
+  {
+    "id": "madni-islamic-center-mosque-inc-regina",
+    "jumuahNote": "صفحه اصلی: نماز جمعه 1:30 بعدازظهر."
+  },
+  {
+    "id": "regina-city-jamia-masjid",
+    "notes": "با نام RCJM هم شناخته می‌شود.",
+    "womenSpaceNote": "صفحه تماس: «Regina City Jamia Masjid برای مردان و زنان امکانات نماز دارد.»",
+    "jumuahNote": "صفحه اصلی: خطبه جمعه 1:10 بعدازظهر، اقامه 1:30 بعدازظهر.",
+    "newMuslimSupportNote": "صفحه New to Islam از «کلاس‌های آموزشی، برنامه‌های راهنمایی و جلسه‌های راهنمایی فردی» برای تازه‌مسلمانان می‌گوید. روش ثبت‌نام را نمی‌گوید، پس تماس بگیرید یا ایمیل بزنید."
+  },
+  {
+    "id": "jamia-riyadhul-jannah-saskatoon",
+    "jumuahNote": "نماز جمعه 1:35 و 2:30 بعدازظهر (صفحه اصلی)."
+  },
+  {
+    "id": "prairie-muslim-association-saskatoon-masjid"
+  },
+  {
+    "id": "the-islamic-association-of-saskatchewan-inc-ias-masjid-saskatoon",
+    "jumuahNote": "نماز جمعه 1: ساعت 1:00 بعدازظهر (اقامه 1:30)؛ نماز جمعه 2: ساعت 2:05 بعدازظهر (اقامه 2:30)، صفحه اصلی در 2026-09-23."
+  },
+  {
+    "id": "brandon-islamic-centre-inc",
+    "jumuahNote": "خطبه نخست جمعه 2:00 بعدازظهر، دومی 3:00 بعدازظهر."
+  },
+  {
+    "id": "mia-steinbach-mussallah"
+  },
+  {
+    "id": "mia-pembina-valley-mussallah-winkler"
+  },
+  {
+    "id": "alhaqq-prayer-group-of-canada-inc-winnipeg",
+    "notes": "با نام‌های Al-Haqq Canada و Al-Haqq Masjid هم شناخته می‌شود. وب‌سایت از عبادت جماعت هفتگی در روز یکشنبه می‌گوید. درباره نمازهای روزانه و نماز جمعه بپرسید."
+  },
+  {
+    "id": "beit-naballa-mosque-winnipeg",
+    "jumuahNote": "صفحه اصلی: «برای پنج نماز روزانه و نیز نماز جمعه باز هستیم»."
+  },
+  {
+    "id": "manitoba-dawah-center-winnipeg",
+    "womenSpaceNote": "نوبت دوم نماز جمعه «برای مردان و زنان»؛ نوبت اول فقط برای مردان.",
+    "jumuahNote": "نماز جمعه 1:35 بعدازظهر (فقط مردان) و 2:25 بعدازظهر (مردان و زنان)، بر پایه صفحه اصلی."
+  },
+  {
+    "id": "pioneer-mosque-winnipeg",
+    "notes": "با نام‌های St. Vital Mosque و Hazelwood Mosque هم شناخته می‌شود.",
+    "jumuahNote": "MIA: برای هر 5 نماز روزانه و نماز جمعه باز است؛ وقت نماز جمعه این مکان ذکر نشده است.",
+    "newMuslimSupportNote": "کمیته تازه‌مسلمانان انجمن اسلامی مانیتوبا (Manitoba Islamic Association) را «تازه‌مسلمانان برای تازه‌مسلمانان» اداره می‌کنند. از بسته کتاب، دیدارها، سمینارها و برنامه همراه نام می‌برد. این کمیته به کل انجمن خدمت می‌کند، نه به یک ساختمان."
+  },
+  {
+    "id": "winnipeg-central-mosque",
+    "womenSpaceNote": "پرسش‌های رایج: «WCM جداکننده فیزیکی میان مردان و زنان ندارد»؛ هر دو ورودی جلو و پشت ورودی خانوادگی‌اند.",
+    "accessibilityNote": "جای پارک ویژه افراد دارای معلولیت در پارکینگ پشتی؛ چیز دیگری ذکر نشده است.",
+    "jumuahNote": "نماز جمعه: خطبه 1:45 بعدازظهر، پایان نماز 2:15 بعدازظهر (صفحه اصلی، 2026-09-23).",
+    "parkingNote": "جای پارک در پارکینگ کنار مسجد از سمت Toronto Street و در پارکینگ پشت مسجد هست. پارکینگ پشت مسجد چند جای پارک ویژه افراد دارای معلولیت دارد."
+  },
+  {
+    "id": "winnipeg-grand-mosque-and-community-centre",
+    "notes": "با نام‌های Waverley Mosque و MIA Grand Mosque هم شناخته می‌شود.",
+    "jumuahNote": "صفحه اصلی MIA: نماز جمعه «1:45 و 3:30 بعدازظهر». صفحه مسجدهای MIA: «هر دو مسجد برای هر 5 نماز روزانه و نماز جمعه باز هستند.»",
+    "newMuslimSupportNote": "کمیته تازه‌مسلمانان انجمن اسلامی مانیتوبا (Manitoba Islamic Association) را «تازه‌مسلمانان برای تازه‌مسلمانان» اداره می‌کنند. از بسته کتاب، دیدارها، سمینارها و برنامه همراه نام می‌برد. این کمیته به کل انجمن خدمت می‌کند، نه به یک ساختمان."
+  },
+  {
+    "id": "nova-scotia-islamic-community-centre-kearney-lake-masjid-bedford",
+    "notes": "منطقه: شهرداری منطقه‌ای هالیفاکس. با نام‌های NSICC، Kearney Lake Masjid و Halifax Jamia Masjid هم شناخته می‌شود.",
+    "womenSpaceNote": "صفحه تماس از کمیته خواهران و گروه پشتیبانی زنان مسلمان نام می‌برد؛ نمازخانه بانوان توصیف نشده است.",
+    "jumuahNote": "صفحه اصلی: «جمعه (خطبه) 1:30 بعدازظهر»."
+  },
+  {
+    "id": "dartmouth-masjid",
+    "notes": "با نام IANS Dartmouth Masjid هم شناخته می‌شود.",
+    "jumuahNote": "1:30 بعدازظهر."
+  },
+  {
+    "id": "the-centre-for-islamic-development-halifax",
+    "notes": "با نام CID هم شناخته می‌شود."
+  },
+  {
+    "id": "truro-masjid",
+    "jumuahNote": "13:30."
+  },
+  {
+    "id": "fredericton-islamic-association-fia",
+    "womenSpaceNote": "از ورودی بانوان نام برده شده است؛ جزئیاتی درباره نمازخانه نیست.",
+    "accessibilityNote": "پارکینگ نزدیک ورودی بانوان برای بازدیدکنندگان دارای معلولیت یا خواهران کنار گذاشته شده است (صفحه اصلی).",
+    "jumuahNote": "صفحه اصلی: «12:30 و 1:30 بعدازظهر» (دو نوبت نماز جمعه).",
+    "parkingNote": "صفحه اصلی گزینه‌های پارک را می‌دهد: پارکینگ اصلی، زیر پل Princess Margaret و کنار جاده، با راهنمایی برای ساعت‌های شلوغ."
+  },
+  {
+    "id": "masjid-yusuf-moncton",
+    "notes": "با نام Masjid Yusuf Islamic Center هم شناخته می‌شود."
+  },
+  {
+    "id": "moncton-muslim-association"
+  },
+  {
+    "id": "al-falah-islamic-center-st-john-s",
+    "notes": "با نام ICNA NewFoundLand هم شناخته می‌شود.",
+    "visitorNotes": "برنامه به انگلیسی تأیید شده است: (حلقه درس جمعه با برچسب «زبان: انگلیسی» آمده است).",
+    "jumuahNote": "صفحه اصلی: «نماز جمعه اول 12:45 در Farmers' Market، دوم 1:15 در Farmers' Market» (بیرون از مرکز).",
+    "parkingNote": "راهنمای پارک در صفحه اصلی: از پارکینگ ویژه مسجد استفاده کنید؛ «اگر پارکینگ مسجد پر بود، می‌توانید در همان سمت خیابانی که مسجد هست پارک کنید.»"
+  },
+  {
+    "id": "masjid-al-noor-st-john-s",
+    "notes": "با نام‌های Masjid An-Noor و MANAL هم شناخته می‌شود.",
+    "jumuahNote": "صفحه فعالیت‌ها: یک نوبت نماز جمعه هر جمعه در Masjid Suleman Dawood، از 12:50 تا 1:20 بعدازظهر (نه در Al-Noor)."
+  },
+  {
+    "id": "masjid-suleman-dawood-st-john-s",
+    "womenSpaceNote": "اطلاعیه عید: ورود و خروج خواهران از در پشتی.",
+    "jumuahNote": "«یک نوبت نماز جمعه هر جمعه در Masjid Suleman Dawood، از 12:50 تا 1:20 بعدازظهر» (MANAL).",
+    "parkingNote": "اطلاعیه‌های عید: فقط در پارکینگ‌های تعیین‌شده پارک کنید و از راهنمایی داوطلبان پیروی کنید."
+  },
+  {
+    "id": "muslim-society-of-prince-edward-island-masjid-dar-as-salam-charlottetown",
+    "notes": "با نام‌های Dar As-Salam Mosque و Muslim Society of PEI هم شناخته می‌شود.",
+    "jumuahNote": "صفحه اصلی: نماز جمعه اول 1:20 بعدازظهر، دوم 2:00 بعدازظهر."
+  },
+  {
+    "id": "yukon-muslim-society-inc-whitehorse",
+    "notes": "با نام‌های Yukon Muslims Society و Whitehorse Mosque هم شناخته می‌شود.",
+    "visitorNotes": "برنامه به انگلیسی تأیید شده است: خطبه جمعه به انگلیسی ایراد می‌شود.",
+    "womenSpaceNote": "صفحه بازدیدها: «از بانوان خواسته می‌شود پیش از ورود به نمازخانه سرشان را بپوشانند.» بخش جداگانه بانوان در صفحه‌های رسمی ذکر نشده است.",
+    "accessibilityNote": "برای ویلچر دسترس‌پذیر است.",
+    "parkingNote": "پارکینگ مسجد در دسترس است؛ یک جای پارک دسترس‌پذیر.",
+    "newMuslimSupportNote": "صفحه Shahadas می‌گوید: «تازه‌مسلمانان را تشویق می‌کنیم به ما سر بزنند تا اسلام را بیاموزند و به آن عمل کنند.» خطبه جمعه به انگلیسی است."
+  },
+  {
+    "id": "midnight-sun-mosque-inuvik"
+  },
+  {
+    "id": "iqaluit-masjid",
+    "jumuahNote": "به پرسش «آیا نماز جمعه هر جمعه برگزار می‌شود؟» در صفحه «درباره ما» پاسخ مثبت داده شده است؛ وقت ذکر نشده است."
   }
 ]
