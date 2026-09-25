@@ -48,6 +48,14 @@ interface WuduGhuslCopy {
   tayammumTitle: string;
   tayammumStepsTitle: string;
   questionsTitle: string;
+  doubtsTitle: string;
+  doubtsTeachingsTitle: string;
+  doubtsStepsTitle: string;
+  doubtsMistakesTitle: string;
+  doubtsClinicalTitle: string;
+  doubtsSignsTitle: string;
+  doubtsMentalHealthLink: string;
+  doubtsSahwLink: string;
 }
 
 const sourceIds = [
@@ -76,6 +84,13 @@ const sourceIds = [
   "seekersguidance-cast-hanafi",
   "seekersguidance-cast-shafii",
   "newmuslims-ghusl",
+  "sunnah-muslim-132a",
+  "sunnah-abudawud-5112",
+  "sunnah-bukhari-5269",
+  "seekersguidance-certainty-doubt-waswasa",
+  "yaqeen-khokhar-religious-ocd",
+  "yaqeen-awad-clinicians-imams-waswas",
+  "camh-ocd",
 ];
 
 export function generateMetadata({ params }: { params: { locale: Locale } }) {
@@ -193,6 +208,7 @@ export default function WuduGhuslPage({
     commonQuestions,
     istinja,
     moreCards = [],
+    doubts,
   } = getWuduGhuslContent(locale);
   const sources = getSourcesByIds(
     Array.from(
@@ -522,6 +538,110 @@ export default function WuduGhuslPage({
                 </p>
               </article>
             ))}
+          </div>
+        </section>
+      </AnimateIn>
+
+      <AnimateIn>
+        <section className="mb-12" aria-labelledby="doubts">
+          <h2
+            id="doubts"
+            className="mb-3 scroll-mt-24 font-display text-2xl font-semibold tracking-tight text-textPrimary"
+          >
+            {copy.doubtsTitle}
+          </h2>
+          <p className="mb-6 max-w-3xl text-base leading-relaxed text-textSecondary">
+            {doubts.intro}
+          </p>
+          <h3 className="mb-4 mt-0 text-lg font-semibold text-textPrimary">
+            {copy.doubtsTeachingsTitle}
+          </h3>
+          <div className="mb-4 grid gap-4 md:grid-cols-3">
+            {doubts.teachings.map((item) => (
+              <article
+                key={item.title}
+                className="page-break-avoid rounded-2xl border border-border/60 bg-white p-5 shadow-card"
+              >
+                <h4 className="mb-2 mt-0 text-base font-semibold text-textPrimary">
+                  {item.title}
+                </h4>
+                <p className="mb-3 text-sm leading-relaxed text-textSecondary">
+                  {item.body}
+                </p>
+                <SourceTags
+                  sources={getSourcesByIds(item.sourceIds, locale)}
+                  compact
+                />
+              </article>
+            ))}
+          </div>
+          <p className="mb-2 max-w-3xl text-sm leading-relaxed text-textSecondary">
+            {doubts.schoolNote}
+          </p>
+          <Link
+            href={localizeHref(locale, "/tools/salah-companion#sahw-heading")}
+            className="mb-8 inline-block text-sm font-medium text-primary hover:text-primaryHover"
+          >
+            {copy.doubtsSahwLink}
+          </Link>
+          <div className="mb-8 grid gap-6 md:grid-cols-2">
+            <div>
+              <h3 className="mb-3 mt-0 text-lg font-semibold text-textPrimary">
+                {copy.doubtsStepsTitle}
+              </h3>
+              <ol className="mb-0 flex flex-col gap-2 pl-0">
+                {doubts.steps.map((step, index) => (
+                  <li
+                    key={step}
+                    className="flex items-start gap-3 text-sm leading-relaxed text-textSecondary"
+                  >
+                    <span
+                      className="flex h-7 w-7 shrink-0 items-center justify-center rounded-lg bg-primary/10 text-xs font-bold text-primary"
+                      aria-hidden="true"
+                    >
+                      {index + 1}
+                    </span>
+                    <span>{step}</span>
+                  </li>
+                ))}
+              </ol>
+            </div>
+            <div>
+              <h3 className="mb-3 mt-0 text-lg font-semibold text-textPrimary">
+                {copy.doubtsMistakesTitle}
+              </h3>
+              <SimpleList items={doubts.mistakes} />
+            </div>
+          </div>
+          <div className="page-break-avoid rounded-2xl border border-border/60 bg-surfaceElevated/50 p-5">
+            <h3 className="mb-3 mt-0 text-lg font-semibold text-textPrimary">
+              {copy.doubtsClinicalTitle}
+            </h3>
+            {doubts.clinical.split("\n\n").map((paragraph) => (
+              <p
+                key={paragraph}
+                className="mb-3 text-sm leading-relaxed text-textSecondary"
+              >
+                {paragraph}
+              </p>
+            ))}
+            <h4 className="mb-3 mt-5 text-base font-semibold text-textPrimary">
+              {copy.doubtsSignsTitle}
+            </h4>
+            <SimpleList items={doubts.signs} />
+            <p className="mb-3 mt-3 text-sm leading-relaxed text-textSecondary">
+              {doubts.signsNote}
+            </p>
+            <Link
+              href={localizeHref(locale, "/mental-health")}
+              className="mb-4 inline-block text-sm font-medium text-primary hover:text-primaryHover"
+            >
+              {copy.doubtsMentalHealthLink}
+            </Link>
+            <SourceTags
+              sources={getSourcesByIds(doubts.sourceIds, locale)}
+              compact
+            />
           </div>
         </section>
       </AnimateIn>

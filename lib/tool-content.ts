@@ -296,6 +296,17 @@ export interface WuduGhuslContent {
   wuduImage: TopicImage;
   ghuslImage: TopicImage;
   commonQuestions: { question: string; answer: string; sourceIds: string[] }[];
+  doubts: {
+    intro: string;
+    teachings: { title: string; body: string; sourceIds: string[] }[];
+    schoolNote: string;
+    steps: string[];
+    mistakes: string[];
+    clinical: string;
+    signs: string[];
+    signsNote: string;
+    sourceIds: string[];
+  };
   tayammum: {
     summary: string;
     steps: string[];
