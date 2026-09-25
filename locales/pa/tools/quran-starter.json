@@ -1,0 +1,396 @@
+{
+  "vocabulary": [
+    {
+      "term": "ਅਰਬੀ ਕੁਰਆਨ",
+      "body": "ਨਾਜ਼ਲ ਹੋਇਆ ਅਰਬੀ ਮੂਲ ਪਾਠ। ਜਦੋਂ ਇਹ ਪੰਨਾ ਕਿਸੇ ਆਇਤ ਦਾ ਲਿੰਕ ਦਿੰਦਾ ਹੈ, ਤਾਂ ਅਰਬੀ ਕੁਰਆਨ ਹੈ, ਅਤੇ ਬਾਕੀ ਸਭ ਉਸ ਨੂੰ ਸਮਝਣ ਵਿੱਚ ਮਦਦ ਹੈ।"
+    },
+    {
+      "term": "ਅਰਥਾਂ ਦਾ ਅਨੁਵਾਦ",
+      "body": "ਕਿਸੇ ਹੋਰ ਭਾਸ਼ਾ ਵਿੱਚ ਕੀਤਾ ਰੂਪ ਜੋ ਅਰਥ ਪਹੁੰਚਾਉਂਦਾ ਹੈ। ਇਹ ਸਮਝਣ ਵਿੱਚ ਮਦਦ ਕਰਦਾ ਹੈ, ਪਰ ਆਪ ਕੁਰਆਨ ਨਹੀਂ।"
+    },
+    {
+      "term": "ਲਿਪੀਅੰਤਰਨ",
+      "body": "ਅਰਬੀ ਆਵਾਜ਼ਾਂ ਕਿਸੇ ਹੋਰ ਲਿਪੀ ਦੇ ਅੱਖਰਾਂ ਵਿੱਚ ਲਿਖੀਆਂ ਹੋਈਆਂ। ਅਭਿਆਸ ਲਈ ਕੰਮ ਦੀ ਚੀਜ਼ ਹੈ, ਪਰ ਤੁਹਾਡੇ ਕੰਨ ਕਿਸੇ ਉਸਤਾਦ ਜਾਂ ਭਰੋਸੇਮੰਦ ਕਾਰੀ ਤੋਂ ਵੱਧ ਸਿੱਖਣਗੇ।"
+    },
+    {
+      "term": "ਤਫ਼ਸੀਰ",
+      "body": "ਉਲਮਾ ਵੱਲੋਂ ਵਿਆਖਿਆ ਕਿ ਆਇਤ ਦਾ ਕੀ ਮਤਲਬ ਹੈ, ਇਹ ਕਦੋਂ ਨਾਜ਼ਲ ਹੋਈ, ਅਤੇ ਇਹ ਤੁਹਾਡੇ ਤੋਂ ਕੀ ਮੰਗਦੀ ਹੈ। ਜਦੋਂ ਕੋਈ ਆਇਤ ਔਖੀ ਲੱਗੇ ਤਾਂ ਇਸ ਵੱਲ ਜਾਓ।"
+    }
+  ],
+  "translationTips": [
+    "ਅਜਿਹਾ ਅਨੁਵਾਦ ਚੁਣੋ ਜਿਸ ਬਾਰੇ ਤੁਸੀਂ ਪਤਾ ਕਰ ਸਕੋ ਕਿ ਅਨੁਵਾਦ ਕਿਸ ਨੇ ਕੀਤਾ, ਕਿਸ ਨੇ ਛਾਪਿਆ, ਅਤੇ ਉਨ੍ਹਾਂ ਨੇ ਕਿਵੇਂ ਕੰਮ ਕੀਤਾ।",
+    "ਫੁੱਟਨੋਟਾਂ ਵਾਲਾ ਸੌਖਾ ਪੜ੍ਹਿਆ ਜਾਣ ਵਾਲਾ ਅਨੁਵਾਦ ਕਿਸੇ ਬੇਨਾਮ PDF ਜਾਂ ਕਿਸੇ ਦੇ ਪੋਸਟ ਕੀਤੇ ਸਕਰੀਨਸ਼ਾਟ ਨਾਲੋਂ ਬਿਹਤਰ ਹੈ।",
+    "ਪੜ੍ਹਾਈ ਕਰਦੇ ਹੋਏ ਦੋ ਅਨੁਵਾਦਾਂ ਦੀ ਤੁਲਨਾ ਕਰੋ। ਜੇ ਤੁਲਨਾ ਨਾਲ ਤੁਹਾਨੂੰ ਘਬਰਾਹਟ ਹੋਣ ਲੱਗੇ, ਤਾਂ ਇੱਕ 'ਤੇ ਵਾਪਸ ਆ ਜਾਓ।",
+    "ਜਦੋਂ ਕੋਈ ਆਇਤ ਅਕੀਦੇ, ਇਬਾਦਤ, ਤੁਹਾਡੇ ਪਰਿਵਾਰ, ਤੁਹਾਡੀ ਸੁਰੱਖਿਆ, ਜਾਂ ਤੁਹਾਡੇ ਕਿਸੇ ਆਉਣ ਵਾਲੇ ਫ਼ੈਸਲੇ ਨਾਲ ਜੁੜੀ ਹੋਵੇ, ਤਾਂ ਕਿਸੇ ਯੋਗ ਉਸਤਾਦ ਤੋਂ ਪੁੱਛੋ।"
+  ],
+  "readingPaths": [
+    {
+      "title": "ਪਹਿਲੀ ਬੈਠਕ",
+      "time": "10 ਤੋਂ 20 ਮਿੰਟ",
+      "body": "ਉਨ੍ਹਾਂ ਛੋਟੀਆਂ ਸੂਰਤਾਂ ਨਾਲ ਸ਼ੁਰੂ ਕਰੋ ਜੋ ਨਮਾਜ਼ ਦਾ ਅਭਿਆਸ ਵੀ ਹਨ। ਅਰਥ ਹੌਲੀ-ਹੌਲੀ ਪੜ੍ਹੋ, ਫਿਰ ਇੱਕ ਵਾਰ ਸੁਣੋ। ਅਜੇ ਆਪਣੇ ਉਚਾਰਨ ਦੀ ਫ਼ਿਕਰ ਨਾ ਕਰੋ।",
+      "readings": [
+        "ਅਲ-ਫ਼ਾਤਿਹਾ, ਸੂਰਤ 1",
+        "ਅਲ-ਇਖ਼ਲਾਸ, ਸੂਰਤ 112",
+        "ਅਲ-ਫ਼ਲਕ, ਸੂਰਤ 113",
+        "ਅਨ-ਨਾਸ, ਸੂਰਤ 114"
+      ],
+      "sourceIds": [
+        "quran-al-fatihah-1",
+        "quran-al-ikhlas-112",
+        "quran-al-falaq-113",
+        "quran-an-nas-114"
+      ]
+    },
+    {
+      "title": "ਰਹਿਮਤ ਅਤੇ ਉਮੀਦ",
+      "time": "ਇੱਕ ਸ਼ਾਂਤ ਬੈਠਕ",
+      "body": "ਇਹ ਉਦੋਂ ਪੜ੍ਹੋ ਜਦੋਂ ਸ਼ਰਮ ਜਾਂ ਡਰ ਉਮੀਦ ਨਾਲੋਂ ਉੱਚਾ ਬੋਲ ਰਿਹਾ ਹੋਵੇ। ਕੁਝ ਹੋਰ ਜੋੜਨ ਤੋਂ ਪਹਿਲਾਂ ਇਨ੍ਹਾਂ ਆਇਤਾਂ ਨਾਲ ਬੈਠੋ ਜੋ ਦੱਸਦੀਆਂ ਹਨ ਕਿ ਅੱਲ੍ਹਾ ਕਿੰਨਾ ਨੇੜੇ ਹੈ ਅਤੇ ਮਾਫ਼ ਕਰਨ ਲਈ ਕਿੰਨਾ ਤਿਆਰ ਹੈ।",
+      "readings": ["Quran 39:53", "Quran 2:186", "Quran 23:109"],
+      "sourceIds": [
+        "quran-39-53-mercy",
+        "quran-2-186-dua-nearness",
+        "quran-23-109-forgiveness"
+      ]
+    },
+    {
+      "title": "ਨਬੀ ਅਤੇ ਜ਼ਿੰਦਗੀ ਦਾ ਮਕਸਦ",
+      "time": "ਕਈ ਛੋਟੀਆਂ ਬੈਠਕਾਂ",
+      "body": "ਸੂਰਤ ਯੂਸੁਫ਼ ਇੱਕ ਵਾਰ ਵਿੱਚ ਕੁਝ ਪੰਨੇ ਪੜ੍ਹੋ। ਇਹ ਇੱਕ ਲਗਾਤਾਰ ਕਹਾਣੀ ਹੈ: ਇੱਕ ਪਰਿਵਾਰ ਜੋ ਉਨ੍ਹਾਂ ਦੇ ਖ਼ਿਲਾਫ਼ ਹੋ ਜਾਂਦਾ ਹੈ, ਲੰਮਾ ਸਬਰ, ਪਰਤਾਵਾ, ਕੈਦ, ਅਤੇ ਅੰਤ ਵਿੱਚ ਮਾਫ਼ੀ।",
+      "readings": ["ਸੂਰਤ ਯੂਸੁਫ਼, ਸੂਰਤ 12"],
+      "sourceIds": ["quran-yusuf-12"]
+    },
+    {
+      "title": "ਨਮਾਜ਼ ਅਤੇ ਇਬਾਦਤ",
+      "time": "15 ਮਿੰਟ",
+      "body": "ਆਪਣੇ ਪੜ੍ਹਨ ਨੂੰ ਆਪਣੀ ਨਮਾਜ਼ ਨਾਲ ਜੋੜੋ। ਇਹ ਹਿੱਸੇ ਨਮਾਜ਼ ਦੀ ਥਾਂ ਦੱਸਦੇ ਹਨ: ਅੱਲ੍ਹਾ ਦੀ ਯਾਦ, ਹਿਦਾਇਤ ਦੀ ਮੰਗ, ਅਤੇ ਉਹ ਥਾਂ ਜਿੱਥੇ ਸਬਰ ਦੀ ਲੋੜ ਹੋਵੇ ਤਾਂ ਜਾਇਆ ਜਾਵੇ।",
+      "readings": ["ਅਲ-ਫ਼ਾਤਿਹਾ, ਸੂਰਤ 1", "Quran 20:14", "Quran 2:153"],
+      "sourceIds": [
+        "quran-al-fatihah-1",
+        "quran-20-14-prayer-remembrance",
+        "quran-2-153-patience-prayer"
+      ]
+    },
+    {
+      "title": "ਕਿਰਦਾਰ ਅਤੇ ਸਬਰ",
+      "time": "10 ਮਿੰਟ",
+      "body": "ਇਸ ਨੂੰ ਅਮਲੀ ਰੱਖੋ। ਪੜ੍ਹਨ ਤੋਂ ਬਾਅਦ ਪੁੱਛੋ ਕਿ ਇਹ ਅੱਜ ਤੁਹਾਡੇ ਬੋਲਣ, ਤੁਹਾਡੇ ਸਬਰ, ਅਤੇ ਲੋਕਾਂ ਨਾਲ ਤੁਹਾਡੇ ਸਲੂਕ ਵਿੱਚ ਕੀ ਬਦਲੇਗਾ।",
+      "readings": ["ਅਲ-ਅਸਰ, ਸੂਰਤ 103", "Quran 2:153"],
+      "sourceIds": ["quran-al-asr-103", "quran-2-153-patience-prayer"]
+    }
+  ],
+  "weekPlan": [
+    {
+      "day": "ਦਿਨ 1",
+      "title": "ਅਲ-ਫ਼ਾਤਿਹਾ ਨਾਲ ਸ਼ੁਰੂਆਤ",
+      "body": "ਅਲ-ਫ਼ਾਤਿਹਾ ਦੇ ਅਰਥ ਪੜ੍ਹੋ, ਫਿਰ ਇੱਕ ਵਾਰ ਸੁਣੋ। ਹਿਦਾਇਤ ਵਾਲੀ ਸਤਰ ਸਾਰਾ ਦਿਨ ਆਪਣੇ ਨਾਲ ਰੱਖੋ।",
+      "sourceIds": ["quran-al-fatihah-1"]
+    },
+    {
+      "day": "ਦਿਨ 2",
+      "title": "ਹਿਫ਼ਾਜ਼ਤ ਵਾਲੀਆਂ ਤਿੰਨ ਛੋਟੀਆਂ ਸੂਰਤਾਂ ਸਿੱਖੋ",
+      "body": "ਅਲ-ਇਖ਼ਲਾਸ, ਅਲ-ਫ਼ਲਕ ਅਤੇ ਅਨ-ਨਾਸ ਪੜ੍ਹੋ। ਧਿਆਨ ਦਿਓ ਕਿ ਇਹ ਅੱਲ੍ਹਾ ਦੇ ਇੱਕ ਹੋਣ ਬਾਰੇ ਅਤੇ ਹਿਫ਼ਾਜ਼ਤ ਮੰਗਣ ਬਾਰੇ ਕੀ ਕਹਿੰਦੀਆਂ ਹਨ। ਅੱਜ ਇਨ੍ਹਾਂ ਨੂੰ ਯਾਦ ਕਰਨ ਦੀ ਕੋਸ਼ਿਸ਼ ਨਾ ਕਰੋ।",
+      "sourceIds": [
+        "quran-al-ikhlas-112",
+        "quran-al-falaq-113",
+        "quran-an-nas-114"
+      ]
+    },
+    {
+      "day": "ਦਿਨ 3",
+      "title": "ਉਮੀਦ ਲਈ ਪੜ੍ਹੋ",
+      "body": "Quran 39:53 ਹੌਲੀ-ਹੌਲੀ ਪੜ੍ਹੋ। ਫਿਰ ਆਪਣੇ ਸ਼ਬਦਾਂ ਵਿੱਚ ਇੱਕ ਵਾਕ ਲਿਖੋ ਕਿ ਤੁਹਾਡੀ ਹਾਲਤ ਲਈ ਅੱਲ੍ਹਾ ਦੀ ਰਹਿਮਤ ਦਾ ਕੀ ਮਤਲਬ ਹੈ।",
+      "sourceIds": ["quran-39-53-mercy"]
+    },
+    {
+      "day": "ਦਿਨ 4",
+      "title": "ਆਪਣੀ ਦੁਆ ਕਰੋ",
+      "body": "Quran 2:186 ਅਤੇ 23:109 ਪੜ੍ਹੋ। ਫਿਰ ਆਪਣੀ ਭਾਸ਼ਾ ਵਿੱਚ, ਆਪਣੇ ਸ਼ਬਦਾਂ ਨਾਲ ਇੱਕ ਛੋਟੀ ਦੁਆ ਕਰੋ।",
+      "sourceIds": ["quran-2-186-dua-nearness", "quran-23-109-forgiveness"]
+    },
+    {
+      "day": "ਦਿਨ 5",
+      "title": "ਕੁਰਆਨ ਨੂੰ ਨਮਾਜ਼ ਨਾਲ ਜੋੜੋ",
+      "body": "Quran 20:14 ਪੜ੍ਹੋ ਅਤੇ ਅਲ-ਫ਼ਾਤਿਹਾ ਦੁਬਾਰਾ ਸੁਣੋ। ਨਮਾਜ਼ ਸਭ ਤੋਂ ਪਹਿਲਾਂ ਅੱਲ੍ਹਾ ਦੀ ਯਾਦ ਹੈ। ਇਸ ਨੂੰ ਬਿਲਕੁਲ ਠੀਕ ਕਰਨਾ ਬਾਅਦ ਵਿੱਚ ਆਉਂਦਾ ਹੈ।",
+      "sourceIds": ["quran-20-14-prayer-remembrance", "quran-al-fatihah-1"]
+    },
+    {
+      "day": "ਦਿਨ 6",
+      "title": "ਸਬਰ ਦਾ ਅਭਿਆਸ",
+      "body": "Quran 2:153 ਅਤੇ ਅਲ-ਅਸਰ ਪੜ੍ਹੋ। ਅੱਜ ਕੋਈ ਇੱਕ ਛੋਟੀ ਗੱਲ ਚੁਣੋ ਜਿਸ ਵਿੱਚ ਤੁਸੀਂ ਸਬਰ ਕਰੋਗੇ, ਜਾਂ ਸੱਚ ਬੋਲੋਗੇ ਜਦੋਂ ਨਾ ਬੋਲਣਾ ਸੌਖਾ ਹੋਵੇ।",
+      "sourceIds": ["quran-2-153-patience-prayer", "quran-al-asr-103"]
+    },
+    {
+      "day": "ਦਿਨ 7",
+      "title": "ਦੁਹਰਾਓ ਅਤੇ ਇੱਕ ਸਵਾਲ ਪੁੱਛੋ",
+      "body": "ਉਸ ਹਿੱਸੇ 'ਤੇ ਵਾਪਸ ਜਾਓ ਜੋ ਤੁਹਾਡੇ ਮਨ ਵਿੱਚ ਰਹਿ ਗਿਆ। ਜੇ ਕਿਸੇ ਗੱਲ ਨੇ ਉਲਝਾਇਆ, ਤਾਂ ਉਹ ਆਇਤ ਲਿਖ ਲਓ ਅਤੇ ਕਿਸੇ ਭਰੋਸੇਮੰਦ ਉਸਤਾਦ ਕੋਲ ਲੈ ਜਾਓ।",
+      "sourceIds": ["quran-com", "seekersguidance"]
+    }
+  ],
+  "resourceLinks": [
+    {
+      "title": "Quran.com",
+      "body": "ਬ੍ਰਾਊਜ਼ਰ ਤੋਂ ਹੀ ਪੜ੍ਹੋ, ਸੁਣੋ, ਅਨੁਵਾਦਾਂ ਦੀ ਤੁਲਨਾ ਕਰੋ, ਅਤੇ ਕਾਰੀਆਂ ਦੇ ਪੰਨੇ ਖੋਲ੍ਹੋ, ਇਸ ਲਈ ਕੁਝ ਇੰਸਟਾਲ ਨਹੀਂ ਕਰਨਾ ਪੈਂਦਾ।",
+      "href": "https://quran.com/",
+      "sourceIds": ["quran-com"],
+      "icon": "book"
+    },
+    {
+      "title": "The Clear Quran",
+      "body": "ਅਰਥਾਂ ਦਾ ਸੌਖਾ ਪੜ੍ਹਿਆ ਜਾਣ ਵਾਲਾ ਅੰਗਰੇਜ਼ੀ ਅਨੁਵਾਦ। ਇਸ ਨੂੰ ਸਮਝਣ ਲਈ ਵਰਤੋ, ਅਤੇ ਅਰਬੀ ਨੂੰ ਹੀ ਕੁਰਆਨ ਮੰਨੋ।",
+      "href": "https://theclearquran.org/",
+      "sourceIds": ["clear-quran"],
+      "icon": "file-text"
+    },
+    {
+      "title": "New Muslim Academy",
+      "body": "ਇਸਲਾਮ ਵਿੱਚ ਨਵੇਂ ਲੋਕਾਂ ਲਈ ਲਿਖੀਆਂ ਸ਼ੁਰੂਆਤੀ ਕਲਾਸਾਂ ਅਤੇ ਕੁਰਆਨ ਵਿੱਚ ਮਦਦ।",
+      "href": "https://www.newmuslimacademy.org/",
+      "sourceIds": ["new-muslim-academy"],
+      "icon": "users"
+    },
+    {
+      "title": "Quran.com 'ਤੇ ਮਿਸ਼ਾਰੀ ਰਾਸ਼ਿਦ ਅਲ-ਅਫ਼ਾਸੀ",
+      "body": "ਨਾਲ-ਨਾਲ ਸੁਣਨ ਲਈ ਸਾਫ਼ ਆਵਾਜ਼ ਵਾਲੇ ਕਾਰੀ। ਪਹਿਲਾਂ ਪੂਰਾ ਸੁਣੋ, ਫਿਰ ਇੱਕ ਛੋਟਾ ਹਿੱਸਾ ਦੁਹਰਾਓ।",
+      "href": "https://quran.com/reciters/7",
+      "sourceIds": ["quran-reciter-mishary"],
+      "icon": "play"
+    }
+  ],
+  "learnArabic": {
+    "image": {
+      "src": "/graphics/al-fatihah-card.svg",
+      "alt": "ਇੱਕ ਕਾਰਡ ਜਿਸ 'ਤੇ ਅਲ-ਫ਼ਾਤਿਹਾ ਦੀਆਂ ਸੱਤ ਸਤਰਾਂ ਹਨ, ਹਰ ਇੱਕ ਨਾਲ ਅਰਬੀ, ਲਿਪੀਅੰਤਰਨ ਅਤੇ ਅਰਥਾਂ ਦਾ ਅਨੁਵਾਦ।",
+      "caption": "ਅਲ-ਫ਼ਾਤਿਹਾ, ਇੱਕ ਵੇਲੇ ਇੱਕ ਸਤਰ।",
+      "credit": "ਚਿੱਤਰ: Revert Guide।"
+    },
+    "stages": [
+      "ਹਫ਼ਤਾ 1: ਰੋਜ਼ ਅਲ-ਫ਼ਾਤਿਹਾ ਦੀ ਇੱਕ ਸਤਰ। ਸੁਣੋ, ਦੁਹਰਾਓ, ਅਤੇ ਹੇਠਾਂ ਸ਼ਬਦਾਂ ਦੇ ਅਰਥ ਪੜ੍ਹੋ। ਬੱਸ ਇਹੀ ਕੰਮ ਹੈ।",
+      "ਹਫ਼ਤੇ 2 ਤੋਂ 4: ਜੋ ਜਾਣਦੇ ਹੋ ਉਸ ਨਾਲ ਨਮਾਜ਼ ਪੜ੍ਹਦੇ ਰਹੋ, ਅਲ-ਫ਼ਾਤਿਹਾ ਪੂਰੀ ਕਰੋ, ਅਤੇ ਅਲ-ਇਖ਼ਲਾਸ ਵਰਗੀ ਇੱਕ ਛੋਟੀ ਸੂਰਤ ਜੋੜੋ।",
+      "ਉਸ ਤੋਂ ਬਾਅਦ, ਜਦੋਂ ਤਿਆਰ ਮਹਿਸੂਸ ਕਰੋ: ਅਰਬੀ ਅੱਖਰ ਸ਼ੁਰੂ ਕਰੋ, ਜਾਂ ਆਪਣੀ ਸਥਾਨਕ ਮਸਜਿਦ ਤੋਂ ਸ਼ੁਰੂਆਤੀ ਕੁਰਆਨ ਪੜ੍ਹਨ ਦੀ ਕਲਾਸ ਬਾਰੇ ਪੁੱਛੋ।"
+    ],
+    "fatihahWords": [
+      {
+        "verse": 1,
+        "words": [
+          {
+            "arabic": "بِسْمِ",
+            "transliteration": "bismi",
+            "meaning": "ਨਾਮ ਨਾਲ"
+          },
+          {
+            "arabic": "اللَّهِ",
+            "transliteration": "Allahi",
+            "meaning": "ਅੱਲ੍ਹਾ ਦੇ"
+          },
+          {
+            "arabic": "الرَّحْمَٰنِ",
+            "transliteration": "ar-Rahmani",
+            "meaning": "ਬਹੁਤ ਮਿਹਰਬਾਨ"
+          },
+          {
+            "arabic": "الرَّحِيمِ",
+            "transliteration": "ar-Rahim",
+            "meaning": "ਬੇਹੱਦ ਰਹਿਮ ਵਾਲਾ"
+          }
+        ]
+      },
+      {
+        "verse": 2,
+        "words": [
+          {
+            "arabic": "الْحَمْدُ",
+            "transliteration": "al-hamdu",
+            "meaning": "ਸਾਰੀ ਤਾਰੀਫ਼"
+          },
+          {
+            "arabic": "لِلَّهِ",
+            "transliteration": "lillahi",
+            "meaning": "ਅੱਲ੍ਹਾ ਲਈ ਹੈ"
+          },
+          {
+            "arabic": "رَبِّ",
+            "transliteration": "Rabbi",
+            "meaning": "ਰੱਬ"
+          },
+          {
+            "arabic": "الْعَالَمِينَ",
+            "transliteration": "al-'alamin",
+            "meaning": "ਸਾਰੇ ਜਹਾਨਾਂ ਦਾ"
+          }
+        ]
+      },
+      {
+        "verse": 3,
+        "words": [
+          {
+            "arabic": "الرَّحْمَٰنِ",
+            "transliteration": "ar-Rahmani",
+            "meaning": "ਬਹੁਤ ਮਿਹਰਬਾਨ"
+          },
+          {
+            "arabic": "الرَّحِيمِ",
+            "transliteration": "ar-Rahim",
+            "meaning": "ਬੇਹੱਦ ਰਹਿਮ ਵਾਲਾ"
+          }
+        ]
+      },
+      {
+        "verse": 4,
+        "words": [
+          {
+            "arabic": "مَالِكِ",
+            "transliteration": "Maliki",
+            "meaning": "ਮਾਲਕ"
+          },
+          {
+            "arabic": "يَوْمِ",
+            "transliteration": "yawmi",
+            "meaning": "ਦਿਨ ਦਾ"
+          },
+          {
+            "arabic": "الدِّينِ",
+            "transliteration": "ad-din",
+            "meaning": "ਫ਼ੈਸਲੇ ਦੇ"
+          }
+        ]
+      },
+      {
+        "verse": 5,
+        "words": [
+          {
+            "arabic": "إِيَّاكَ",
+            "transliteration": "iyyaka",
+            "meaning": "ਸਿਰਫ਼ ਤੇਰੀ"
+          },
+          {
+            "arabic": "نَعْبُدُ",
+            "transliteration": "na'budu",
+            "meaning": "ਅਸੀਂ ਇਬਾਦਤ ਕਰਦੇ ਹਾਂ"
+          },
+          {
+            "arabic": "وَإِيَّاكَ",
+            "transliteration": "wa iyyaka",
+            "meaning": "ਅਤੇ ਸਿਰਫ਼ ਤੈਥੋਂ"
+          },
+          {
+            "arabic": "نَسْتَعِينُ",
+            "transliteration": "nasta'in",
+            "meaning": "ਅਸੀਂ ਮਦਦ ਮੰਗਦੇ ਹਾਂ"
+          }
+        ]
+      },
+      {
+        "verse": 6,
+        "words": [
+          {
+            "arabic": "اهْدِنَا",
+            "transliteration": "ihdina",
+            "meaning": "ਸਾਨੂੰ ਵਿਖਾ"
+          },
+          {
+            "arabic": "الصِّرَاطَ",
+            "transliteration": "as-sirata",
+            "meaning": "ਰਾਹ"
+          },
+          {
+            "arabic": "الْمُسْتَقِيمَ",
+            "transliteration": "al-mustaqim",
+            "meaning": "ਸਿੱਧਾ"
+          }
+        ]
+      },
+      {
+        "verse": 7,
+        "words": [
+          {
+            "arabic": "صِرَاطَ",
+            "transliteration": "sirata",
+            "meaning": "ਰਾਹ"
+          },
+          {
+            "arabic": "الَّذِينَ",
+            "transliteration": "alladhina",
+            "meaning": "ਉਨ੍ਹਾਂ ਦਾ"
+          },
+          {
+            "arabic": "أَنْعَمْتَ",
+            "transliteration": "an'amta",
+            "meaning": "ਤੂੰ ਇਨਾਮ ਕੀਤਾ"
+          },
+          {
+            "arabic": "عَلَيْهِمْ",
+            "transliteration": "'alayhim",
+            "meaning": "ਜਿਨ੍ਹਾਂ ਉੱਤੇ"
+          },
+          {
+            "arabic": "غَيْرِ",
+            "transliteration": "ghayri",
+            "meaning": "ਨਾ"
+          },
+          {
+            "arabic": "الْمَغْضُوبِ",
+            "transliteration": "al-maghdubi",
+            "meaning": "ਜਿਨ੍ਹਾਂ 'ਤੇ ਗ਼ਜ਼ਬ ਹੋਇਆ"
+          },
+          {
+            "arabic": "عَلَيْهِمْ",
+            "transliteration": "'alayhim",
+            "meaning": "ਉਨ੍ਹਾਂ ਉੱਤੇ"
+          },
+          {
+            "arabic": "وَلَا",
+            "transliteration": "wa la",
+            "meaning": "ਅਤੇ ਨਾ"
+          },
+          {
+            "arabic": "الضَّالِّينَ",
+            "transliteration": "ad-dallin",
+            "meaning": "ਜੋ ਭਟਕ ਗਏ"
+          }
+        ]
+      }
+    ],
+    "fatihahSourceIds": ["quran-al-fatihah-1", "quranic-arabic-corpus-fatihah"],
+    "links": [
+      {
+        "label": "Quran.com 'ਤੇ ਅਲ-ਫ਼ਾਤਿਹਾ ਸੁਣੋ",
+        "body": "ਹਰ ਆਇਤ ਸੁਣਨ ਲਈ Quran.com ਪੰਨੇ 'ਤੇ ਪਲੇ ਦਬਾਓ। ਮਿਸ਼ਾਰੀ ਅਲ-ਅਫ਼ਾਸੀ ਸ਼ੁਰੂਆਤ ਲਈ ਸਾਫ਼ ਆਵਾਜ਼ ਵਾਲੇ ਕਾਰੀ ਹਨ।",
+        "href": "https://quran.com/1",
+        "sourceIds": ["quran-al-fatihah-1", "quran-reciter-mishary"]
+      },
+      {
+        "label": "Seven Days, Seven Verses (Quran.com)",
+        "body": "ਰੋਜ਼ ਅਲ-ਫ਼ਾਤਿਹਾ ਦੀ ਇੱਕ ਆਇਤ, ਹਰ ਇੱਕ 10 ਮਿੰਟ ਤੋਂ ਘੱਟ, ਸ਼ਬਦਾਂ ਦੀ ਵੰਡ ਨਾਲ। ਮੁਫ਼ਤ ਹੈ, ਅਤੇ ਤੁਸੀਂ ਖਾਤੇ ਤੋਂ ਬਿਨਾਂ ਪੜ੍ਹ ਸਕਦੇ ਹੋ।",
+        "href": "https://quran.com/learning-plans/seven-days-seven-verses-living-the-message-of-al-fatihah",
+        "sourceIds": ["quran-com-seven-days-seven-verses"]
+      },
+      {
+        "label": "Islamwise ਦੀ ਵਾਕ-ਦਰ-ਵਾਕ ਲੜੀ",
+        "body": "ਨਮਾਜ਼ ਦੇ ਹਰ ਵਾਕ ਬਾਰੇ YouTube 'ਤੇ ਛੋਟੇ ਸਬਕ। ਕਿਸ਼ਤਾਂ 11 ਤੋਂ 18 ਅਲ-ਫ਼ਾਤਿਹਾ ਨੂੰ ਆਇਤ-ਦਰ-ਆਇਤ ਸਮਝਾਉਂਦੀਆਂ ਹਨ।",
+        "href": "https://www.youtube.com/playlist?list=PLW9v5fexkmD_8i507k8oL2x9n0vJeP1BT",
+        "sourceIds": ["video-islamwise-prayer-series"]
+      },
+      {
+        "label": "ਅਰਬੀ ਅੱਖਰ: Madinah Arabic ਪੜ੍ਹਨ ਦਾ ਕੋਰਸ",
+        "body": "ਮੁਫ਼ਤ ਸਬਕਾਂ ਲਈ ਕੋਈ ਪੈਸਾ ਨਹੀਂ ਲੱਗਦਾ ਅਤੇ ਖਾਤੇ ਦੀ ਲੋੜ ਨਹੀਂ। ਸਾਈਟ ਪੈਸੇ ਵਾਲੇ ਇੱਕ-ਨਾਲ-ਇੱਕ ਸਬਕ ਵੀ ਵੇਚਦੀ ਹੈ, ਅਤੇ ਕੋਰਸ ਦੇ ਲੇਖਕ ਦਾ ਨਾਮ ਨਹੀਂ ਦਿੱਤਾ ਗਿਆ।",
+        "href": "https://madinaharabic.com/free-content",
+        "sourceIds": ["madinah-arabic-free-content"]
+      }
+    ],
+    "fatihahVideo": {
+      "videoId": "Rdhcd8452-I",
+      "title": "ਅਲਹਮਦੁ ਲਿੱਲਾਹਿ ਰੱਬਿਲ-ਆਲਮੀਨ, ਵਾਕ-ਦਰ-ਵਾਕ",
+      "channel": "Islamwise",
+      "duration": "2:27",
+      "sourceIds": ["video-islamwise-fatihah-alhamdu"]
+    },
+    "alphabetVideo": {
+      "videoId": "c-7SVieC_04",
+      "title": "ਅਰਬੀ ਪੜ੍ਹਨਾ, ਸਬਕ 1: ਪਹਿਲੇ ਅੱਖਰ",
+      "channel": "Arabic 101",
+      "duration": "13:57",
+      "note": "Arabic 101 ਲਾਈਵ ਕਲਾਸਾਂ ਵੀ ਵੇਚਦਾ ਹੈ। ਇਹ ਪਹਿਲਾ ਸਬਕ ਵੇਖਣ ਲਈ ਮੁਫ਼ਤ ਹੈ।",
+      "sourceIds": ["video-arabic101-alphabet-lesson-1"]
+    }
+  }
+}
