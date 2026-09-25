@@ -169,6 +169,7 @@ export function Navbar() {
     navLink("/faq", "nav.faq"),
     navLink("/mental-health", "nav.mentalHealth"),
     navLink("/ramadan", "nav.ramadan"),
+    navLink("/seasonal", "nav.seasonal"),
   ];
   const aboutItems = [
     navLink("/about", "nav.aboutUs"),

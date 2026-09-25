@@ -46,6 +46,7 @@ export function Footer() {
       links: [
         link("/mental-health", "nav.mentalHealth"),
         link("/ramadan", "nav.ramadan"),
+        link("/seasonal", "nav.seasonal"),
       ],
     },
     {

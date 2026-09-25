@@ -83,6 +83,11 @@ export default function HomePage({ params }: { params: { locale: Locale } }) {
       bar: "bg-gradient-to-r from-accentYellow via-secondaryGreen to-primaryGreen",
     },
     {
+      ...copy.quickLinkSeasonal,
+      href: "/seasonal",
+      bar: "bg-gradient-to-r from-secondaryGreen via-accentYellow to-primary",
+    },
+    {
       ...copy.quickLinks[1],
       href: "/mental-health",
       bar: "bg-gradient-to-r from-primaryGreen via-primary to-primaryHover",
