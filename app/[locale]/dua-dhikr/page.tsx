@@ -1,3 +1,4 @@
+import { ReviewBadge } from "@/components/ReviewBadge";
 import { Breadcrumb } from "@/components/Breadcrumb";
 import { Button } from "@/components/Button";
 import { Icon } from "@/components/Icon";
@@ -9,6 +10,7 @@ import {
   getDuaDhikrContent,
   type DuaEntry,
   type PhraseEntry,
+  getToolReviewStatus,
 } from "@/lib/tool-content";
 import { localizeHref, type Locale } from "@/lib/i18n";
 import { getTranslator } from "@/lib/messages";
@@ -268,6 +270,10 @@ export default function DuaDhikrPage({
           <h1 className="mb-4 font-display text-3xl font-semibold tracking-tight text-textPrimary md:text-4xl">
             {copy.title}
           </h1>
+          <ReviewBadge
+            status={getToolReviewStatus("dua-dhikr")}
+            locale={locale}
+          />
           <p className="mb-6 text-lg leading-relaxed text-textSecondary">
             {copy.subtitle}
           </p>

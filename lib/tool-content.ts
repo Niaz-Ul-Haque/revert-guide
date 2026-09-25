@@ -2,7 +2,12 @@ import * as fs from "fs";
 import * as path from "path";
 import type { IconName } from "@/components/Icon";
 import { DEFAULT_LOCALE, type Locale } from "./i18n";
-import type { TopicImage, VideoRef, VideoWithChapters } from "./types";
+import type {
+  ContentReviewStatus,
+  TopicImage,
+  VideoRef,
+  VideoWithChapters,
+} from "./types";
 
 /**
  * Loader for the longer-form content that sits behind the tool pages and the
@@ -42,6 +47,17 @@ function readJsonFile<T>(locale: Locale, relativePath: string): T {
   // Top-level keys added to English before their translation lands fall
   // back to English, so a new section never crashes a translated page.
   return { ...readJson<T>(englishPath), ...readJson<T>(filePath) };
+}
+
+/** Review status of a tool page, read from the English file (the status is
+ *  not translated). `name` is the file name under tools/, without .json. */
+export function getToolReviewStatus(
+  name: "dua-dhikr" | "quran-starter" | "salah-companion" | "wudu-ghusl",
+): ContentReviewStatus | undefined {
+  return readJsonFile<{ reviewStatus?: ContentReviewStatus }>(
+    DEFAULT_LOCALE,
+    `tools/${name}.json`,
+  ).reviewStatus;
 }
 
 /* ── Shared shapes ── */

@@ -1,3 +1,4 @@
+import { ReviewBadge } from "@/components/ReviewBadge";
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import { Breadcrumb } from "@/components/Breadcrumb";
@@ -123,6 +124,7 @@ export default function SeasonalGuideDetailPage({
           <h1 className="mb-4 font-display text-3xl font-semibold tracking-tight text-textPrimary md:text-4xl">
             {guide.title}
           </h1>
+          <ReviewBadge status={guide.reviewStatus} locale={locale} />
           <p className="mb-6 text-lg leading-relaxed text-textSecondary">
             {guide.intro}
           </p>

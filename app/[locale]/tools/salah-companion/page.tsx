@@ -1,3 +1,4 @@
+import { ReviewBadge } from "@/components/ReviewBadge";
 import Image from "next/image";
 import Link from "next/link";
 import { Breadcrumb } from "@/components/Breadcrumb";
@@ -9,7 +10,10 @@ import { VideoEmbed } from "@/components/VideoEmbed";
 import { InfoCardSection } from "@/components/InfoCardSection";
 import { SourceTags, SourcesPanel } from "@/components/SourceTags";
 import { getSourcesByIds } from "@/lib/content";
-import { getSalahCompanionContent } from "@/lib/tool-content";
+import {
+  getSalahCompanionContent,
+  getToolReviewStatus,
+} from "@/lib/tool-content";
 import { localizeHref, type Locale } from "@/lib/i18n";
 import { getTranslator } from "@/lib/messages";
 import { buildPageMetadata } from "@/lib/metadata";
@@ -237,6 +241,10 @@ export default function SalahCompanionPage({
           <h1 className="mb-4 font-display text-3xl font-semibold tracking-tight text-textPrimary md:text-4xl">
             {copy.title}
           </h1>
+          <ReviewBadge
+            status={getToolReviewStatus("salah-companion")}
+            locale={locale}
+          />
           <p className="mb-6 text-lg leading-relaxed text-textSecondary">
             {copy.subtitle}
           </p>

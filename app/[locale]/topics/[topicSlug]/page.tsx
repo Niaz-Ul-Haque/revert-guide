@@ -1,4 +1,5 @@
 import { Fragment, type ReactNode } from "react";
+import { ReviewBadge } from "@/components/ReviewBadge";
 import { notFound } from "next/navigation";
 import Image from "next/image";
 import Link from "next/link";
@@ -150,6 +151,7 @@ export default function TopicPage({
           <h1 className="mb-3 font-display text-3xl font-semibold tracking-tight text-textPrimary md:text-4xl">
             {topic.title}
           </h1>
+          <ReviewBadge status={topic.reviewStatus} locale={locale} />
           <p className="text-lg text-textSecondary">{topic.description}</p>
         </header>
       </AnimateIn>

@@ -1,3 +1,4 @@
+import { ReviewBadge } from "@/components/ReviewBadge";
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import { Accordion } from "@/components/Accordion";
@@ -114,6 +115,7 @@ export default function GuideDetailPage({
           <h1 className="mb-3 font-display text-3xl font-semibold tracking-tight text-textPrimary md:text-4xl">
             {guide.title}
           </h1>
+          <ReviewBadge status={guide.reviewStatus} locale={locale} />
           <p className="mb-0 text-lg leading-relaxed text-textSecondary">
             {guide.intro}
           </p>

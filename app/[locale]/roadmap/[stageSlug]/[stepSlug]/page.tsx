@@ -1,3 +1,4 @@
+import { ReviewBadge } from "@/components/ReviewBadge";
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import { Breadcrumb } from "@/components/Breadcrumb";
@@ -156,6 +157,7 @@ export default function StepPage({
           <h1 className="mb-0 font-display text-3xl font-semibold tracking-tight text-textPrimary md:text-4xl">
             {step.title}
           </h1>
+          <ReviewBadge status={step.reviewStatus} locale={locale} />
         </header>
       </AnimateIn>
 
