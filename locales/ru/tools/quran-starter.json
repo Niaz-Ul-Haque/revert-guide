@@ -1,0 +1,396 @@
+{
+  "vocabulary": [
+    {
+      "term": "Арабский Коран",
+      "body": "Ниспосланный арабский текст. Когда эта страница ссылается на аят, Коран это арабский текст, а всё остальное помощь в понимании."
+    },
+    {
+      "term": "Перевод смыслов",
+      "body": "Передача смысла на другом языке. Помогает понять, но сам по себе Кораном не является."
+    },
+    {
+      "term": "Транслитерация",
+      "body": "Арабские звуки, записанные знакомыми буквами. Удобно для тренировки, хотя ваш слух научится большему у преподавателя или надёжного чтеца."
+    },
+    {
+      "term": "Тафсир",
+      "body": "Научное толкование того, что означает аят, когда он был ниспослан и чего он от вас просит. Обращайтесь к нему, когда аят кажется трудным."
+    }
+  ],
+  "translationTips": [
+    "Выбирайте перевод, у которого можно узнать, кто переводил, кто издал и как работали.",
+    "Понятный перевод со сносками лучше анонимного PDF или чьего-то скриншота.",
+    "Во время учёбы сравнивайте два перевода. Если сравнение начинает вызывать тревогу, вернитесь к одному.",
+    "Когда аят касается веры, поклонения, семьи, безопасности или решения, которое вам предстоит, спросите знающего преподавателя."
+  ],
+  "readingPaths": [
+    {
+      "title": "Первое чтение",
+      "time": "От 10 до 20 минут",
+      "body": "Начните с коротких сур, которые заодно служат тренировкой для намаза. Медленно прочитайте смысл, затем один раз послушайте. Произношением пока не занимайтесь.",
+      "readings": [
+        "Аль-Фатиха, 1-я сура",
+        "Аль-Ихлас, 112-я сура",
+        "Аль-Фаляк, 113-я сура",
+        "Ан-Нас, 114-я сура"
+      ],
+      "sourceIds": [
+        "quran-al-fatihah-1",
+        "quran-al-ikhlas-112",
+        "quran-al-falaq-113",
+        "quran-an-nas-114"
+      ]
+    },
+    {
+      "title": "Милость и надежда",
+      "time": "Одно спокойное чтение",
+      "body": "Читайте это, когда стыд или страх звучат громче надежды. Прежде чем добавлять что-то ещё, побудьте с тем, что эти аяты говорят о том, как близок Аллах и как Он готов прощать.",
+      "readings": ["Quran 39:53", "Quran 2:186", "Quran 23:109"],
+      "sourceIds": [
+        "quran-39-53-mercy",
+        "quran-2-186-dua-nearness",
+        "quran-23-109-forgiveness"
+      ]
+    },
+    {
+      "title": "Пророки и смысл",
+      "time": "Несколько коротких чтений",
+      "body": "Читайте суру Юсуф по несколько страниц. Это одна непрерывная история: семья, которая обратилась против него, долгое терпение, искушение, тюрьма и прощение в конце.",
+      "readings": ["Сура Юсуф, 12-я сура"],
+      "sourceIds": ["quran-yusuf-12"]
+    },
+    {
+      "title": "Намаз и поклонение",
+      "time": "15 минут",
+      "body": "Свяжите чтение с намазом. Эти отрывки показывают место намаза: поминание, просьба о наставлении и опора, когда нужно терпение.",
+      "readings": ["Аль-Фатиха, 1-я сура", "Quran 20:14", "Quran 2:153"],
+      "sourceIds": [
+        "quran-al-fatihah-1",
+        "quran-20-14-prayer-remembrance",
+        "quran-2-153-patience-prayer"
+      ]
+    },
+    {
+      "title": "Нрав и терпение",
+      "time": "10 минут",
+      "body": "Пусть это чтение будет практичным. После него спросите себя, что оно изменит сегодня в том, как вы говорите, насколько терпеливы и как относитесь к людям.",
+      "readings": ["Аль-Аср, 103-я сура", "Quran 2:153"],
+      "sourceIds": ["quran-al-asr-103", "quran-2-153-patience-prayer"]
+    }
+  ],
+  "weekPlan": [
+    {
+      "day": "День 1",
+      "title": "Начните с аль-Фатихи",
+      "body": "Прочитайте смысл аль-Фатихи, затем один раз послушайте её. Пронесите строку о наставлении через весь день.",
+      "sourceIds": ["quran-al-fatihah-1"]
+    },
+    {
+      "day": "День 2",
+      "title": "Три короткие суры-защиты",
+      "body": "Прочитайте аль-Ихлас, аль-Фаляк и ан-Нас. Заметьте, что они говорят о единстве Аллаха и о просьбе о защите. Сегодня не пытайтесь их заучить.",
+      "sourceIds": [
+        "quran-al-ikhlas-112",
+        "quran-al-falaq-113",
+        "quran-an-nas-114"
+      ]
+    },
+    {
+      "day": "День 3",
+      "title": "Чтение ради надежды",
+      "body": "Медленно прочитайте Quran 39:53. Затем своими словами напишите одно предложение о том, что милость Аллаха значит в вашей ситуации.",
+      "sourceIds": ["quran-39-53-mercy"]
+    },
+    {
+      "day": "День 4",
+      "title": "Сделайте своё дуа",
+      "body": "Прочитайте Quran 2:186 и 23:109. Затем сделайте короткое дуа на своём языке, своими словами.",
+      "sourceIds": ["quran-2-186-dua-nearness", "quran-23-109-forgiveness"]
+    },
+    {
+      "day": "День 5",
+      "title": "Свяжите Коран с намазом",
+      "body": "Прочитайте Quran 20:14 и снова послушайте аль-Фатиху. Намаз это прежде всего поминание. Совершенство придёт позже.",
+      "sourceIds": ["quran-20-14-prayer-remembrance", "quran-al-fatihah-1"]
+    },
+    {
+      "day": "День 6",
+      "title": "Упражняйтесь в терпении",
+      "body": "Прочитайте Quran 2:153 и аль-Аср. Выберите сегодня одно маленькое дело, в котором проявите терпение или скажете правду, когда проще было бы промолчать.",
+      "sourceIds": ["quran-2-153-patience-prayer", "quran-al-asr-103"]
+    },
+    {
+      "day": "День 7",
+      "title": "Повторите и задайте один вопрос",
+      "body": "Вернитесь к отрывку, который запомнился. Если что-то смутило, запишите точный аят и отнесите вопрос преподавателю, которому доверяете.",
+      "sourceIds": ["quran-com", "seekersguidance"]
+    }
+  ],
+  "resourceLinks": [
+    {
+      "title": "Quran.com",
+      "body": "Читайте, слушайте, сравнивайте переводы и открывайте страницы чтецов в браузере, ничего не устанавливая.",
+      "href": "https://quran.com/",
+      "sourceIds": ["quran-com"],
+      "icon": "book"
+    },
+    {
+      "title": "The Clear Quran",
+      "body": "Понятный английский перевод смыслов. Используйте его, чтобы понять, а Кораном считайте арабский текст.",
+      "href": "https://theclearquran.org/",
+      "sourceIds": ["clear-quran"],
+      "icon": "file-text"
+    },
+    {
+      "title": "New Muslim Academy",
+      "body": "Занятия для начинающих и помощь с Кораном, написанные для тех, кто недавно пришёл в ислам.",
+      "href": "https://www.newmuslimacademy.org/",
+      "sourceIds": ["new-muslim-academy"],
+      "icon": "users"
+    },
+    {
+      "title": "Мишари Рашид аль-Афаси на Quran.com",
+      "body": "Ясный чтец, которого удобно слушать. Сначала прослушайте целиком, затем повторите один короткий отрывок.",
+      "href": "https://quran.com/reciters/7",
+      "sourceIds": ["quran-reciter-mishary"],
+      "icon": "play"
+    }
+  ],
+  "learnArabic": {
+    "image": {
+      "src": "/graphics/al-fatihah-card.svg",
+      "alt": "Карточка с семью строками аль-Фатихи, у каждой арабский текст, транслитерация и перевод смысла.",
+      "caption": "Аль-Фатиха, по одной строке.",
+      "credit": "Иллюстрация: Revert Guide."
+    },
+    "stages": [
+      "Неделя 1: одна строка аль-Фатихи в день. Слушайте, повторяйте и читайте значения слов ниже. Это единственная задача.",
+      "Недели 2-4: продолжайте молиться с тем, что знаете, закончите аль-Фатиху и добавьте одну короткую суру, например аль-Ихлас.",
+      "После этого, когда почувствуете готовность: начните учить арабские буквы или спросите в местной мечети о занятиях по чтению Корана для начинающих."
+    ],
+    "fatihahWords": [
+      {
+        "verse": 1,
+        "words": [
+          {
+            "arabic": "بِسْمِ",
+            "transliteration": "bismi",
+            "meaning": "С именем"
+          },
+          {
+            "arabic": "اللَّهِ",
+            "transliteration": "Allahi",
+            "meaning": "Аллаха"
+          },
+          {
+            "arabic": "الرَّحْمَٰنِ",
+            "transliteration": "ar-Rahmani",
+            "meaning": "Милостивого"
+          },
+          {
+            "arabic": "الرَّحِيمِ",
+            "transliteration": "ar-Rahim",
+            "meaning": "Милосердного"
+          }
+        ]
+      },
+      {
+        "verse": 2,
+        "words": [
+          {
+            "arabic": "الْحَمْدُ",
+            "transliteration": "al-hamdu",
+            "meaning": "Вся хвала"
+          },
+          {
+            "arabic": "لِلَّهِ",
+            "transliteration": "lillahi",
+            "meaning": "Аллаху"
+          },
+          {
+            "arabic": "رَبِّ",
+            "transliteration": "Rabbi",
+            "meaning": "Господу"
+          },
+          {
+            "arabic": "الْعَالَمِينَ",
+            "transliteration": "al-'alamin",
+            "meaning": "миров"
+          }
+        ]
+      },
+      {
+        "verse": 3,
+        "words": [
+          {
+            "arabic": "الرَّحْمَٰنِ",
+            "transliteration": "ar-Rahmani",
+            "meaning": "Милостивому"
+          },
+          {
+            "arabic": "الرَّحِيمِ",
+            "transliteration": "ar-Rahim",
+            "meaning": "Милосердному"
+          }
+        ]
+      },
+      {
+        "verse": 4,
+        "words": [
+          {
+            "arabic": "مَالِكِ",
+            "transliteration": "Maliki",
+            "meaning": "Властелину"
+          },
+          {
+            "arabic": "يَوْمِ",
+            "transliteration": "yawmi",
+            "meaning": "Дня"
+          },
+          {
+            "arabic": "الدِّينِ",
+            "transliteration": "ad-din",
+            "meaning": "Суда"
+          }
+        ]
+      },
+      {
+        "verse": 5,
+        "words": [
+          {
+            "arabic": "إِيَّاكَ",
+            "transliteration": "iyyaka",
+            "meaning": "Тебе одному"
+          },
+          {
+            "arabic": "نَعْبُدُ",
+            "transliteration": "na'budu",
+            "meaning": "мы поклоняемся"
+          },
+          {
+            "arabic": "وَإِيَّاكَ",
+            "transliteration": "wa iyyaka",
+            "meaning": "и Тебя одного"
+          },
+          {
+            "arabic": "نَسْتَعِينُ",
+            "transliteration": "nasta'in",
+            "meaning": "молим о помощи"
+          }
+        ]
+      },
+      {
+        "verse": 6,
+        "words": [
+          {
+            "arabic": "اهْدِنَا",
+            "transliteration": "ihdina",
+            "meaning": "Веди нас"
+          },
+          {
+            "arabic": "الصِّرَاطَ",
+            "transliteration": "as-sirata",
+            "meaning": "путём"
+          },
+          {
+            "arabic": "الْمُسْتَقِيمَ",
+            "transliteration": "al-mustaqim",
+            "meaning": "прямым"
+          }
+        ]
+      },
+      {
+        "verse": 7,
+        "words": [
+          {
+            "arabic": "صِرَاطَ",
+            "transliteration": "sirata",
+            "meaning": "путём"
+          },
+          {
+            "arabic": "الَّذِينَ",
+            "transliteration": "alladhina",
+            "meaning": "тех"
+          },
+          {
+            "arabic": "أَنْعَمْتَ",
+            "transliteration": "an'amta",
+            "meaning": "кого Ты облагодетельствовал"
+          },
+          {
+            "arabic": "عَلَيْهِمْ",
+            "transliteration": "'alayhim",
+            "meaning": "их"
+          },
+          {
+            "arabic": "غَيْرِ",
+            "transliteration": "ghayri",
+            "meaning": "не"
+          },
+          {
+            "arabic": "الْمَغْضُوبِ",
+            "transliteration": "al-maghdubi",
+            "meaning": "тех, на кого пал гнев"
+          },
+          {
+            "arabic": "عَلَيْهِمْ",
+            "transliteration": "'alayhim",
+            "meaning": "на них"
+          },
+          {
+            "arabic": "وَلَا",
+            "transliteration": "wa la",
+            "meaning": "и не"
+          },
+          {
+            "arabic": "الضَّالِّينَ",
+            "transliteration": "ad-dallin",
+            "meaning": "заблудших"
+          }
+        ]
+      }
+    ],
+    "fatihahSourceIds": ["quran-al-fatihah-1", "quranic-arabic-corpus-fatihah"],
+    "links": [
+      {
+        "label": "Слушать аль-Фатиху на Quran.com",
+        "body": "Нажмите воспроизведение на странице Quran.com, чтобы услышать каждый аят. Мишари аль-Афаси ясный чтец, с которого хорошо начать.",
+        "href": "https://quran.com/1",
+        "sourceIds": ["quran-al-fatihah-1", "quran-reciter-mishary"]
+      },
+      {
+        "label": "Seven Days, Seven Verses (Quran.com)",
+        "body": "По одному аяту аль-Фатихи в день, каждый урок меньше 10 минут, с разбором слов. Бесплатно, читать можно без учётной записи.",
+        "href": "https://quran.com/learning-plans/seven-days-seven-verses-living-the-message-of-al-fatihah",
+        "sourceIds": ["quran-com-seven-days-seven-verses"]
+      },
+      {
+        "label": "Серия Islamwise по фразам",
+        "body": "Короткие уроки на YouTube о каждой фразе намаза. Выпуски с 11 по 18 разбирают аль-Фатиху по аятам.",
+        "href": "https://www.youtube.com/playlist?list=PLW9v5fexkmD_8i507k8oL2x9n0vJeP1BT",
+        "sourceIds": ["video-islamwise-prayer-series"]
+      },
+      {
+        "label": "Арабские буквы: курс чтения Madinah Arabic",
+        "body": "Бесплатные уроки не требуют ни оплаты, ни учётной записи. Сайт также продаёт платные индивидуальные занятия, а автор курса не указан.",
+        "href": "https://madinaharabic.com/free-content",
+        "sourceIds": ["madinah-arabic-free-content"]
+      }
+    ],
+    "fatihahVideo": {
+      "videoId": "Rdhcd8452-I",
+      "title": "«Альхамду лилляхи Раббиль-алямин» по фразам",
+      "channel": "Islamwise",
+      "duration": "2:27",
+      "sourceIds": ["video-islamwise-fatihah-alhamdu"]
+    },
+    "alphabetVideo": {
+      "videoId": "c-7SVieC_04",
+      "title": "Чтение по-арабски, урок 1: первые буквы",
+      "channel": "Arabic 101",
+      "duration": "13:57",
+      "note": "Arabic 101 также продаёт занятия в прямом эфире. Этот первый урок можно смотреть бесплатно.",
+      "sourceIds": ["video-arabic101-alphabet-lesson-1"]
+    }
+  }
+}
