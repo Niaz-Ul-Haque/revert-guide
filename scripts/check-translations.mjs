@@ -266,7 +266,7 @@ function compare(en, loc, ctx, p, report) {
 }
 
 // ui.json holds interface text; only link-like keys are code values there.
-const UI_NEVER = new Set(["href", "url", "email", "phone"]);
+const UI_NEVER = new Set(["id", "href", "url", "email", "phone"]);
 
 function makeCtx(file) {
   return {
