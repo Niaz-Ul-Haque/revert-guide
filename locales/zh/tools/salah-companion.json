@@ -1,0 +1,418 @@
+{
+  "prayerSequence": [
+    {
+      "title": "平静地做准备",
+      "posture": "礼拜之前",
+      "body": "做好小净，找一块干净的地方，面向朝向，并在心里确定这是哪一次礼拜。你不需要大声说出举意。",
+      "icon": "check",
+      "sourceIds": ["new-muslim-guide-prayer"]
+    },
+    {
+      "title": "站立开始",
+      "posture": "开拜大赞词",
+      "body": "举起双手，念 Allahu akbar（安拉至大）。这就开始了礼拜，从这一刻起，你离开了平常的谈话，进入了崇拜。",
+      "icon": "star",
+      "sourceIds": ["new-muslim-guide-prayer"]
+    },
+    {
+      "title": "在第一拜中诵读",
+      "posture": "站立",
+      "body": "诵读开端章，然后诵读一个短章，或你正在学的几节经文。如果你还不会诵读，下面“如果你还不会用阿拉伯语诵读”一节说明了在此期间各学派允许的做法。",
+      "icon": "book",
+      "sourceIds": ["quran-al-fatihah-1", "quran-al-ikhlas-112"]
+    },
+    {
+      "title": "鞠躬并起身",
+      "posture": "鞠躬",
+      "body": "鞠躬时背部保持平直、稳定，念鞠躬时的赞词。起身时念 Sami'a Allahu liman hamidah，站直之后念 Rabbana wa lakal-hamd。在下去之前停一停。不要为了赶快结束而匆忙。",
+      "icon": "check",
+      "sourceIds": [
+        "hisn-ruku-dhikr",
+        "sunnah-bukhari-rising-from-ruku",
+        "sunnah-bukhari-prayed-badly"
+      ]
+    },
+    {
+      "title": "叩头两次",
+      "posture": "叩头",
+      "body": "下去叩头，念叩头时的赞词。坐起来念 Rabbighfir li，然后用同样的赞词再叩一次头。每个姿势都稳定下来之后再做下一个。",
+      "icon": "check",
+      "sourceIds": [
+        "hisn-sujud-dhikr",
+        "sunnah-ibnmajah-between-sujud",
+        "sunnah-bukhari-prayed-badly-long"
+      ]
+    },
+    {
+      "title": "重复做第二拜",
+      "posture": "第二拜",
+      "body": "再次站起来，重复同样的形式：开端章，一段简短的诵读，鞠躬，重新站直，然后叩头两次。",
+      "icon": "chevron-right",
+      "sourceIds": ["new-muslim-guide-prayer"]
+    },
+    {
+      "title": "坐下念最后的词句",
+      "posture": "坐念作证词",
+      "body": "第二拜之后，坐下念作证词。在两拜的礼拜中，这是最后一次坐，所以在出拜道色兰之前再加上为先知的祝福（赞圣词）。在三拜或四拜的礼拜中，这第一次坐比较短，之后你要再站起来。下面的拜数图显示了每次坐的位置。",
+      "icon": "info",
+      "sourceIds": [
+        "sunnah-bukhari-tashahhud",
+        "sunnah-bukhari-salawat-ibrahimiyyah"
+      ]
+    },
+    {
+      "title": "以色兰结束",
+      "posture": "出拜道色兰",
+      "body": "先把头转向右边，再转向左边，每次都道一声平安问候。礼拜就此结束。起身回到日常生活之前，先坐一会儿。",
+      "icon": "star",
+      "sourceIds": ["sunnah-abudawud-taslim"]
+    }
+  ],
+  "recitations": [
+    {
+      "title": "开拜大赞词",
+      "occasion": "礼拜开始时",
+      "arabic": "اللَّهُ أَكْبَرُ",
+      "transliteration": "Allahu akbar",
+      "meaning": "安拉至大。",
+      "beginnerNote": "这是第一个要学的短语。清楚地、不慌不忙地念出来。你的口音会自然而然地慢慢变好。",
+      "sourceIds": ["new-muslim-guide-prayer"]
+    },
+    {
+      "title": "开端章",
+      "occasion": "每一拜",
+      "arabic": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ\nالْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينَ\nالرَّحْمَٰنِ الرَّحِيمِ\nمَالِكِ يَوْمِ الدِّينِ\nإِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ\nاهْدِنَا الصِّرَاطَ الْمُسْتَقِيمَ\nصِرَاطَ الَّذِينَ أَنْعَمْتَ عَلَيْهِمْ غَيْرِ الْمَغْضُوبِ عَلَيْهِمْ وَلَا الضَّالِّينَ",
+      "transliteration": "Bismillahir-Rahmanir-Rahim. Alhamdu lillahi Rabbil-'alamin. Ar-Rahmanir-Rahim. Maliki yawmid-din. Iyyaka na'budu wa iyyaka nasta'in. Ihdinas-siratal-mustaqim. Siratal-ladhina an'amta 'alayhim ghayril-maghdubi 'alayhim wa lad-dallin.",
+      "meaning": "含义译文：赞美、崇拜和求助都归于安拉，我们祈求祂引导我们走正路。",
+      "beginnerNote": "开端章是第一个真正要背诵的目标。一次学一个短语，在还没背会的时候，问问老师该念什么。",
+      "sourceIds": ["quran-al-fatihah-1"]
+    },
+    {
+      "title": "短章示例：忠诚章",
+      "occasion": "在前两拜中，开端章之后",
+      "arabic": "قُلْ هُوَ اللَّهُ أَحَدٌ\nاللَّهُ الصَّمَدُ\nلَمْ يَلِدْ وَلَمْ يُولَدْ\nوَلَمْ يَكُن لَّهُ كُفُوًا أَحَدٌ",
+      "transliteration": "Qul huwa Allahu ahad. Allahus-samad. Lam yalid wa lam yulad. Wa lam yakun lahu kufuwan ahad.",
+      "meaning": "含义译文：安拉是独一的，是万物所依靠的，与受造物不同，没有任何物可以与祂相比。",
+      "beginnerNote": "大多数初学者从这一章开始。它很短，用四行经文讲明了安拉的独一。",
+      "sourceIds": ["quran-al-ikhlas-112"]
+    },
+    {
+      "title": "短章示例：时光章",
+      "occasion": "在前两拜中，开端章之后",
+      "arabic": "وَالْعَصْرِ\nإِنَّ الْإِنسَانَ لَفِي خُسْرٍ\nإِلَّا الَّذِينَ آمَنُوا وَعَمِلُوا الصَّالِحَاتِ وَتَوَاصَوْا بِالْحَقِّ وَتَوَاصَوْا بِالصَّبْرِ",
+      "transliteration": "Wal-'asr. Innal-insana lafi khusr. Illal-ladhina amanu wa 'amilus-salihat, wa tawasaw bil-haqqi wa tawasaw bis-sabr.",
+      "meaning": "含义译文：人类确实在亏折之中，除了那些信道、行善、以真理相劝、以忍耐相勉的人。",
+      "beginnerNote": "一次只学一个短章。先听一位可靠的诵读者念，比匆匆赶着学好几章对你更有帮助。",
+      "sourceIds": ["quran-al-asr-103"]
+    },
+    {
+      "title": "鞠躬时的赞词",
+      "occasion": "鞠躬时",
+      "arabic": "سُبْحَانَ رَبِّيَ الْعَظِيمِ",
+      "transliteration": "Subhana Rabbiyal-'Azim",
+      "meaning": "赞颂我伟大的主超绝万物。",
+      "beginnerNote": "大多数指南教人念三遍。在学习期间，清楚地念一遍就是很好的开始。具体细节请问老师。",
+      "sourceIds": ["hisn-ruku-dhikr"]
+    },
+    {
+      "title": "鞠躬后起身",
+      "occasion": "从鞠躬起身时",
+      "arabic": "سَمِعَ اللَّهُ لِمَنْ حَمِدَهُ\nرَبَّنَا وَلَكَ الْحَمْدُ",
+      "transliteration": "Sami'a Allahu liman hamidah. Rabbana wa lakal-hamd.",
+      "meaning": "安拉听见赞颂祂的人。我们的主啊，一切赞颂都归于你。",
+      "beginnerNote": "起身时念第一句，站直之后念第二句。你也会听到不带“wa”的“Rabbana lakal-hamd”。两种说法都出自圣训。",
+      "sourceIds": ["sunnah-bukhari-rising-from-ruku"]
+    },
+    {
+      "title": "叩头时的赞词",
+      "occasion": "叩头时",
+      "arabic": "سُبْحَانَ رَبِّيَ الْأَعْلَى",
+      "transliteration": "Subhana Rabbiyal-A'la",
+      "meaning": "赞颂我至高的主超绝万物。",
+      "beginnerNote": "最初几次叩头会觉得不习惯。用你身体觉得舒服的速度去做，叩下去后停一停，学会这个赞词。慢并不是失败。",
+      "sourceIds": ["hisn-sujud-dhikr"]
+    },
+    {
+      "title": "两次叩头之间的坐",
+      "occasion": "第一次和第二次叩头之间",
+      "arabic": "رَبِّ اغْفِرْ لِي",
+      "transliteration": "Rabbighfir li",
+      "meaning": "我的主啊，求你饶恕我。",
+      "beginnerNote": "只有两个词，先知会反复念它。念一两遍就好。以后如果你想学，老师可以教你更长的版本。",
+      "sourceIds": [
+        "sunnah-ibnmajah-between-sujud",
+        "sunnah-abudawud-ruku-sujud-dhikr"
+      ]
+    },
+    {
+      "title": "坐念作证词",
+      "occasion": "每一次坐：第二拜之后和最后",
+      "arabic": "التَّحِيَّاتُ لِلَّهِ وَالصَّلَوَاتُ وَالطَّيِّبَاتُ\nالسَّلَامُ عَلَيْكَ أَيُّهَا النَّبِيُّ وَرَحْمَةُ اللَّهِ وَبَرَكَاتُهُ\nالسَّلَامُ عَلَيْنَا وَعَلَى عِبَادِ اللَّهِ الصَّالِحِينَ\nأَشْهَدُ أَنْ لَا إِلَٰهَ إِلَّا اللَّهُ\nوَأَشْهَدُ أَنَّ مُحَمَّدًا عَبْدُهُ وَرَسُولُهُ",
+      "transliteration": "At-tahiyyatu lillahi was-salawatu wat-tayyibat. As-salamu 'alayka ayyuhan-Nabiyyu wa rahmatullahi wa barakatuh. As-salamu 'alayna wa 'ala 'ibadillahis-salihin. Ash-hadu an la ilaha illallah, wa ash-hadu anna Muhammadan 'abduhu wa rasuluh.",
+      "meaning": "一切敬意、祈祷和美好都归于安拉。先知啊，愿你平安，愿安拉的慈悯和吉庆归于你。愿平安归于我们，也归于安拉的清廉仆人。我作证，除安拉外别无神灵；我作证，穆罕默德是祂的仆人和使者。",
+      "beginnerNote": "这是伊本·麦斯欧德传述的措辞。你可能会听到其他可靠传述中略有不同的措辞，请跟随你的老师。一次学一行。",
+      "sourceIds": ["sunnah-bukhari-tashahhud"]
+    },
+    {
+      "title": "为先知祝福（赞圣词）",
+      "occasion": "最后一次坐，作证词之后",
+      "arabic": "اللَّهُمَّ صَلِّ عَلَى مُحَمَّدٍ وَعَلَى آلِ مُحَمَّدٍ\nكَمَا صَلَّيْتَ عَلَى إِبْرَاهِيمَ وَعَلَى آلِ إِبْرَاهِيمَ\nإِنَّكَ حَمِيدٌ مَجِيدٌ\nاللَّهُمَّ بَارِكْ عَلَى مُحَمَّدٍ وَعَلَى آلِ مُحَمَّدٍ\nكَمَا بَارَكْتَ عَلَى إِبْرَاهِيمَ وَعَلَى آلِ إِبْرَاهِيمَ\nإِنَّكَ حَمِيدٌ مَجِيدٌ",
+      "transliteration": "Allahumma salli 'ala Muhammadin wa 'ala ali Muhammad, kama sallayta 'ala Ibrahima wa 'ala ali Ibrahim, innaka Hamidun Majid. Allahumma barik 'ala Muhammadin wa 'ala ali Muhammad, kama barakta 'ala Ibrahima wa 'ala ali Ibrahim, innaka Hamidun Majid.",
+      "meaning": "安拉啊，求你慈悯穆罕默德和穆罕默德的家属，犹如你慈悯了易卜拉欣和易卜拉欣的家属。你确是受赞颂的、光荣的。安拉啊，求你赐福穆罕默德和穆罕默德的家属，犹如你赐福了易卜拉欣和易卜拉欣的家属。你确是受赞颂的、光荣的。",
+      "beginnerNote": "在最后一次坐时念，在作证词之后、出拜道色兰之前。在较长礼拜的第一次坐时是否也念它，各学派有不同看法，请问你的老师。",
+      "sourceIds": ["sunnah-bukhari-salawat-ibrahimiyyah"]
+    },
+    {
+      "title": "色兰",
+      "occasion": "礼拜结束时",
+      "arabic": "السَّلَامُ عَلَيْكُمْ وَرَحْمَةُ اللَّهِ",
+      "transliteration": "As-salamu 'alaykum wa rahmatullah",
+      "meaning": "愿平安和安拉的慈悯归于你们。",
+      "beginnerNote": "这就结束了礼拜。轻轻地把头转向两边，不需要做很大的动作。",
+      "sourceIds": ["sunnah-abudawud-taslim"]
+    }
+  ],
+  "cannotReciteYet": [
+    "一边学习一边继续礼拜。下面资料来源中的学者说，新穆斯林用自己力所能及的方式礼拜，其余的随着时间慢慢学。",
+    "一种广泛传授的做法，是用简短的阿拉伯语记主词句来代替诵读：SubhanAllah（赞颂安拉超绝万物）、Alhamdulillah（一切赞颂全归安拉）、La ilaha illallah（除安拉外别无神灵）、Allahu akbar（安拉至大）和 La hawla wa la quwwata illa billah（无能为力，唯靠安拉）。先知把这些词句教给一个说自己背不下任何古兰经的人（Sunan Abi Dawud 832，al-Albani 评定为良好）。",
+    "SeekersGuidance 认为这些记主词句是更稳妥的选择，因为它们在哈乃斐学派和沙斐仪学派都有效。",
+    "对于还不会用阿拉伯语诵读的人，哈乃斐学派也接受诵读含义的译文。",
+    "沙斐仪学派不接受译文。它允许学习者在礼拜中看着古兰经经本（印刷的古兰经）读开端章。",
+    "马立克学派和罕百里学派不接受用其他语言诵读。",
+    "在礼拜中看着书或屏幕读，本身也是一个有分歧的问题：哈乃斐学派认为在礼拜中拿着古兰经看着读，属于接近禁止的可憎。",
+    "在此期间，一次学一个短语地学会开端章，然后学一个短章。诵读困难的人会得到两份回赐（Sahih Muslim 798a）。",
+    "问问当地的伊玛目，你的社区遵循的是其中哪种做法。"
+  ],
+  "invalidatesPrayer": [
+    "失去小净，比如上了厕所或放了屁。",
+    "在礼拜中故意吃喝，或说与礼拜无关的话。",
+    "在已经知道是必须的情况下，漏掉必须的姿势、条件或诵读。",
+    "没有任何理由，故意结束礼拜或离开礼拜。",
+    "失误、遗忘、疾病、月经、出行和残障，都有一些细节值得和有资质的老师一起弄清楚。"
+  ],
+  "commonCorrections": [
+    {
+      "title": "每出一点小错我就重新开始。",
+      "body": "平静地完成礼拜，事后再去问那个具体的错误。慌张带来的损失，通常比错误本身更大。"
+    },
+    {
+      "title": "我对自己的发音感到难为情。",
+      "body": "发音只能靠反复练习。安拉知道一个不努力的人和一个还在学习的人之间的区别。"
+    },
+    {
+      "title": "不同的视频展示的手的位置不一样。",
+      "body": "这些差异通常都是有效的，没有一个是停止礼拜的理由。学一种可靠的初学者方法，想再换之前先问问老师。"
+    },
+    {
+      "title": "因为觉得别扭，我做得很匆忙。",
+      "body": "放慢速度，直到每个姿势都清清楚楚、各自分明。一次简短平静的礼拜，比一次匆忙焦虑的礼拜教给你的更多。"
+    }
+  ],
+  "mainVideo": {
+    "videoId": "4zr6tNgmKSI",
+    "title": "如何做每日五次礼拜",
+    "channel": "Green Lane Masjid",
+    "duration": "33:57",
+    "note": "晡礼这一部分很短，因为晡礼的做法和晌礼一样。视频遵循的是一个学派的做法，各学派之间的小差异是正常的。字幕是自动生成的。",
+    "sourceIds": ["video-greenlane-five-prayers"],
+    "chapters": [
+      {
+        "label": "礼拜之前",
+        "start": 71
+      },
+      {
+        "label": "五次礼拜",
+        "start": 143
+      },
+      {
+        "label": "词句和拜数概览",
+        "start": 167
+      },
+      {
+        "label": "晨礼",
+        "start": 228
+      },
+      {
+        "label": "晌礼",
+        "start": 687
+      },
+      {
+        "label": "晡礼",
+        "start": 1351
+      },
+      {
+        "label": "昏礼",
+        "start": 1378
+      },
+      {
+        "label": "宵礼",
+        "start": 1979
+      }
+    ]
+  },
+  "phraseVideos": [
+    {
+      "videoId": "Fpa-c_M_V7Q",
+      "title": "一拜中的每一个短语",
+      "channel": "Islamwise",
+      "duration": "10:29",
+      "sourceIds": ["video-islamwise-rakah-recap"]
+    },
+    {
+      "videoId": "n0aGnzSY_hs",
+      "title": "学习开端章期间可以念的短语",
+      "channel": "Islamwise",
+      "duration": "7:01",
+      "note": "在学习期间念这些短语，是各学派中的一种观点。请看关于还不会诵读时如何礼拜的那一节。",
+      "sourceIds": ["video-islamwise-comprehensive-remembrance"]
+    }
+  ],
+  "phraseSeries": {
+    "label": "YouTube 上完整的 Islamwise 系列",
+    "body": "29节简短的课程，一次一个短语，包括逐节讲解开端章、作证词和赞圣词。",
+    "href": "https://www.youtube.com/playlist?list=PLW9v5fexkmD_8i507k8oL2x9n0vJeP1BT",
+    "sourceIds": ["video-islamwise-prayer-series"]
+  },
+  "shapeImage": {
+    "src": "/graphics/rakah-steps.svg",
+    "alt": "七个没有面部的人物按顺序展示一拜：举手站立，站立诵读，鞠躬，站直，叩头，坐，再次叩头，每个姿势都配有简短的词句。",
+    "caption": "一拜，从开拜大赞词到第二次叩头。",
+    "credit": "插图：Revert Guide。"
+  },
+  "tashahhudPlacement": {
+    "items": [
+      "晨礼，2拜：坐一次，在第二拜之后。这是最后一次坐：作证词，赞圣词，然后出拜道色兰。",
+      "昏礼，3拜：第二拜之后第一次坐，念作证词，然后站起来做第三拜。最后一次坐在第三拜之后：作证词，赞圣词，然后出拜道色兰。",
+      "晌礼、晡礼和宵礼，4拜：第二拜之后第一次坐，念作证词，然后站起来做第三拜和第四拜。最后一次坐在第四拜之后。",
+      "在前两拜中，你诵读开端章和一个短章。在第三拜和第四拜中，只诵读开端章。"
+    ],
+    "sourceIds": [
+      "sunnah-bukhari-tashahhud",
+      "islamic-foundation-ireland-prayer-booklet"
+    ],
+    "image": {
+      "src": "/graphics/rakah-map-tashahhud.svg",
+      "alt": "五次礼拜各有一排圆点，每个圆点代表一拜，在第二拜之后和最后各有一个坐着的人形。晨礼2个圆点，晌礼4个，晡礼4个，昏礼3个，宵礼4个。",
+      "caption": "每次礼拜中坐念作证词的位置。",
+      "credit": "插图：Revert Guide。"
+    }
+  },
+  "sujudAlSahw": {
+    "summary": "如果你忘了礼拜的某一部分，误加了什么，或者数不清自己礼了几拜，有一个简单的补救办法：额外做两次叩头，叫作遗忘叩头。很多错误都不需要重新开始礼拜。",
+    "steps": [
+      "如果你不确定自己礼了几拜，就以你确定的那个数字为准，也就是较少的那个，然后从那里把礼拜做完。",
+      "在礼拜快结束时，额外叩头两次，中间短暂地坐一下，叩头的方式和每一拜中一样。",
+      "可靠的传述提到，这两次叩头在最后的色兰之前和之后都有。各学派教的方法略有不同，所以请学你老师所用的那一种。",
+      "如果你是跟着伊玛目礼拜，就跟随伊玛目，不要自己额外加。"
+    ],
+    "referral": "在你刚入教的时候，平静地把礼拜做完，事后再就具体的错误请教老师。没有人指望你在最初几个月就知道每一条规定。",
+    "sourceIds": [
+      "sunnah-muslim-sahw-doubt",
+      "sunnah-bukhari-sahw-after-salam",
+      "seekersguidance-sajda-sahw",
+      "newmuslims-prostration-forgetfulness"
+    ]
+  },
+  "prayerTable": {
+    "rows": [
+      {
+        "name": "黎明的礼拜（晨礼）",
+        "window": "从黎明第一缕光出现到日出。",
+        "units": "2"
+      },
+      {
+        "name": "中午的礼拜（晌礼）",
+        "window": "从正午刚过、太阳经过最高点之后，到晡礼开始。",
+        "units": "4"
+      },
+      {
+        "name": "下午的礼拜（晡礼）",
+        "window": "从下午中段到日落。尽量不要拖到太阳发黄的时候。",
+        "units": "4"
+      },
+      {
+        "name": "日落时的礼拜（昏礼）",
+        "window": "从日落刚过到暮光消失。",
+        "units": "3"
+      },
+      {
+        "name": "夜间的礼拜（宵礼）",
+        "window": "从暮光消失到半夜。",
+        "units": "4"
+      }
+    ],
+    "note": "在时间段内的任何时候礼拜都可以，所以你不需要精确到分钟。各学派对晡礼何时开始（哈乃斐学派开始得较晚）以及宵礼的最晚时间有不同看法。夏天，加拿大的许多地方对晨礼和宵礼采用调整后的规则，所以请使用礼拜时间页面或当地清真寺的时间表。",
+    "sourceIds": [
+      "sunnah-muslim-prayer-times",
+      "quran-4-103-appointed-times",
+      "newmuslims-prayer-for-beginners"
+    ],
+    "image": {
+      "src": "/graphics/prayer-day-timeline.svg",
+      "alt": "一天从黎明到夜晚的时间线，按顺序标出五次礼拜：黎明的晨礼，正午后的晌礼，下午的晡礼，日落后的昏礼和夜间的宵礼，每次都注明拜数。",
+      "caption": "一天中的五次礼拜。具体时间随太阳每天变化。",
+      "credit": "插图：Revert Guide。"
+    }
+  },
+  "notOwed": {
+    "text": "你成为穆斯林之前那些年的礼拜，不是你欠下的。先知说，伊斯兰会抹去之前的一切，所以你从今天开始。有些学者还补充说，一个还不知道礼拜是义务的归信者，也不需要补那段时间的礼拜。如果你不确定这对你意味着什么，请问老师。",
+    "sourceIds": [
+      "sunnah-muslim-islam-wipes-out",
+      "seekersguidance-converts-missed-prayers"
+    ]
+  },
+  "seatedPrayer": {
+    "summary": "如果疼痛、疾病或残障让你难以站立、鞠躬或叩头，就用你身体允许的方式礼拜。先知对一位生病的门弟子说，站着礼拜；如果不能，就坐着；如果还不能，就侧躺着。",
+    "points": [
+      "如果你无法站立，或者站着会带来真正的疼痛或头晕，就坐着礼拜。你可以坐在地上；如果坐地上对你来说很难，也可以坐在椅子上。",
+      "如果你还能叩头，我们链接的哈乃斐学派的回答倾向于坐在地上、正常叩头。如果不能，就用低头来代替：鞠躬时低一点，叩头时再低一些。",
+      "如果你连坐也做不到，就躺着礼拜，尽量面向朝向。",
+      "短期疾病和长期病症的处理方式略有不同，各学派在一些细节上也有分歧，比如坐椅子的人如何鞠躬，以及椅子在礼拜行列中放在什么位置。"
+    ],
+    "referral": "当地的伊玛目或老师可以看你礼拜一次，帮你找到适合你身体的做法。你永远不需要忍着疼痛去礼拜，才能让礼拜有效。",
+    "sourceIds": [
+      "sunnah-bukhari-pray-standing-sitting",
+      "seekersguidance-praying-sitting",
+      "seekersguidance-sick-person-prayer"
+    ],
+    "video": {
+      "videoId": "3geUbODPg5U",
+      "title": "身体有残障时如何礼拜",
+      "channel": "Green Lane Masjid",
+      "duration": "6:06",
+      "note": "演示坐在地上、坐在椅子上、站着但无法鞠躬以及躺在床上礼拜的方法。",
+      "sourceIds": ["video-greenlane-physical-disability"],
+      "chapters": [
+        {
+          "label": "坐在地上",
+          "start": 66
+        },
+        {
+          "label": "坐在椅子上",
+          "start": 171
+        },
+        {
+          "label": "无法鞠躬",
+          "start": 215
+        },
+        {
+          "label": "躺在床上",
+          "start": 279
+        }
+      ]
+    },
+    "extraLink": {
+      "label": "如何坐在椅子上礼拜（Sheikh Assim al-Hakeem，3:25）",
+      "body": "第二段简短演示，包括在清真寺的礼拜行列中坐椅子礼拜。",
+      "href": "https://www.youtube.com/watch?v=nNKUwHi99Qo",
+      "sourceIds": ["video-assim-chair-prayer"]
+    }
+  },
+  "cannotReciteSourceIds": [
+    "sunnah-abudawud-dhikr-instead",
+    "seekersguidance-recite-in-english",
+    "seekersguidance-reading-from-mushaf",
+    "dar-alifta-new-muslim-fatiha",
+    "sunnah-muslim-two-rewards"
+  ]
+}
