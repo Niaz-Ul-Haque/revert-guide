@@ -2,70 +2,98 @@
   "id": "prayer-on-ramp",
   "slug": "prayer-on-ramp",
   "stageId": "week-1",
-  "title": "Construa a oração gradualmente, sem vergonha",
-  "whyMatters": "A oração é fundamental para a vida muçulmana, mas aprendê-la pode ser difícil no início. Uma rampa de acesso suave ajuda você a seguir em frente sem transformar cada erro em um motivo para desistir.",
+  "title": "Comece a orar aos poucos, sem vergonha",
+  "whyMatters": "A oração está no centro da vida muçulmana, e aprendê-la é realmente difícil no começo. Começar aos poucos dá a você um jeito de continuar sem tratar cada erro como motivo para parar.",
   "exactActions": [
     {
-      "text": "Aprenda a forma antes dos detalhes",
+      "text": "Aprenda a estrutura antes dos detalhes",
       "subSteps": [
-        "Aprenda os cinco nomes e horários de oração.",
-        "Assista ou leia um guia simples dos movimentos básicos.",
-        "Mantenha uma breve referência por perto enquanto pratica."
+        "Aprenda os nomes das cinco orações e mais ou menos quando elas acontecem.",
+        "Assista ou leia um guia simples dos movimentos.",
+        "Deixe uma referência curta ao seu lado enquanto pratica."
       ]
     },
     {
-      "text": "Escolha uma oração âncora",
+      "text": "Proteja uma oração âncora",
       "subSteps": [
-        "Escolha uma oração que você provavelmente ouvirá diariamente.",
-        "Crie consistência antes de adicionar mais.",
-        "Se você perder, reinicie na próxima oração sem espiralar."
+        "Escolha a oração que você tem mais chance de fazer todo dia.",
+        "Faça dela a oração que você nunca deixa, enquanto faz as outras na forma simples como puder.",
+        "Se perder uma, retome na oração seguinte em vez de entrar em espiral."
       ]
     },
     {
-      "text": "Use o que você sabe enquanto aprende árabe",
+      "text": "Use o que você sabe enquanto aprende o árabe",
       "subSteps": [
-        "Comece a memorizar Al-Fatiha em pequenos pedaços.",
-        "Leia em um jornal ou telefone enquanto aprende, se necessário.",
-        "Pergunte a um professor qual recitação mínima para iniciantes usar em sua situação."
+        "Comece a memorizar a Al-Fatihah uma linha de cada vez.",
+        "Até sabê-la, a ferramenta Aprenda a orar explica as opções que as escolas dão, como frases curtas de lembrança de Allah em árabe.",
+        "Pergunte a um professor qual opção sua comunidade segue."
       ]
     },
     {
-      "text": "Conecte a oração à misericórdia",
+      "text": "Suba um degrau de cada vez",
       "subSteps": [
-        "Não meça sua fé pela perfeição.",
-        "Observe que cada tentativa cria familiaridade.",
-        "Peça a Allah para tornar a oração amada e constante por você."
+        "Degrau 1: aprenda a estrutura de uma rak'ah. Fique em pé, diga Allahu akbar, diga o que você sabe (as frases de lembrança, se ainda não souber a Al-Fatihah), curve-se, volte a ficar em pé e prostre-se duas vezes, com uma breve pausa sentado entre as duas.",
+        "Degrau 2: faça o Fajr com duas rak'ahs usando as palavras que sabe, terminando sentado e com o salam.",
+        "Degrau 3: acrescente o tashahhud depois da segunda rak'ah e depois aprenda como o Maghrib continua até uma terceira rak'ah.",
+        "Degrau 4: aprenda as orações de quatro rak'ahs, Dhuhr, Asr e Isha.",
+        "Troque as frases de lembrança pela Al-Fatihah e por uma surata curta conforme as for memorizando.",
+        "Faça as cinco orações diárias na forma simples enquanto sobe. Os degraus tratam do que você diz e acrescenta, não de quais orações você faz."
+      ]
+    },
+    {
+      "text": "Mantenha a oração ligada à misericórdia",
+      "subSteps": [
+        "Não meça a sua fé pela perfeição da sua oração.",
+        "Cada tentativa deixa a próxima menos estranha.",
+        "Peça a Allah que torne a oração amada e constante para você."
       ]
     }
   ],
-  "timeEstimate": "1-2 semanas para uma primeira rotina",
+  "timeEstimate": "De 1 a 2 semanas para uma primeira rotina",
   "obstacles": [
     {
-      "problem": "Continuo sentindo falta de orações",
-      "solution": "Perder orações enquanto aprende é comum. Use lembretes, comece com uma oração âncora e pergunte a um professor qualificado como compensar as orações perdidas na sua situação."
+      "problem": "Continuo perdendo orações",
+      "solution": "Perder orações enquanto aprende é comum. Coloque lembretes, comece com uma oração âncora e pergunte a um professor qualificado como repor o que você perdeu na sua situação."
     },
     {
-      "problem": "Sinto-me envergonhado por orar mal",
-      "solution": "Aprender em particular é bom. Allah vê o seu esforço, e todo muçulmano teve que aprender os movimentos e as palavras em algum momento."
+      "problem": "Tenho vergonha de orar mal",
+      "solution": "Aprender em particular não tem problema nenhum. Allah vê o esforço, e todo muçulmano que você conhece teve de aprender essas palavras e movimentos do zero."
     }
   ],
-  "tinyVersion": "Escolha uma oração para proteger hoje, mesmo que precise de um guia ao seu lado.",
-  "unlocksNext": "Depois de ter uma rampa de acesso, toda a etapa de oração parece menos uma parede e mais um caminho.",
-  "resourceIds": ["learn-salah-guide", "muslim-pro-app", "being-muslim-book"],
+  "tinyVersion": "Escolha uma oração para proteger hoje, mesmo que precise de um guia aberto ao seu lado.",
+  "unlocksNext": "Quando você tem um caminho de entrada, a etapa completa da oração deixa de parecer um muro.",
+  "resourceIds": ["learn-salah-guide", "pillars-app", "being-muslim-book"],
   "relatedGlossaryIds": ["salah", "wudu", "qiblah", "al-fatiha"],
   "relatedTopicIds": ["prayer", "new-muslim-basics", "dua-and-dhikr"],
   "commonQuestions": [
     {
-      "problem": "Posso orar enquanto leio um guia?",
-      "solution": "Muitos iniciantes usam um guia escrito enquanto aprendem. Peça detalhes a um professor local, especialmente quando estiver pronto para refinar sua oração."
+      "problem": "Posso orar lendo um guia?",
+      "solution": "As escolas divergem. A escola hanafi considera segurar um Alcorão e ler dele na oração fortemente desaconselhado, enquanto a escola shafi'i permite que quem está aprendendo leia a Al-Fatihah de um mushaf. Treinar com um cartão antes e depois da oração funciona em todas as opiniões. Pergunte a um professor local o que a sua comunidade segue."
     }
   ],
   "contextNotes": [
     {
       "title": "No trabalho ou na escola",
-      "body": "Comece identificando espaços tranquilos e janelas de oração realistas. Se for necessária acomodação, fale com calma e mantenha o pedido prático."
+      "body": "Descubra quais espaços tranquilos você pode usar e quais horários de oração são realistas. Se precisar de uma adaptação, peça com calma e faça um pedido prático."
     }
   ],
-  "sourceIds": ["new-muslim-guide", "seekersguidance"],
-  "reviewStatus": "review-needed"
+  "sourceIds": [
+    "new-muslim-guide",
+    "seekersguidance",
+    "sunnah-bukhari-prayed-badly",
+    "sunnah-abudawud-dhikr-instead",
+    "seekersguidance-recite-in-english",
+    "seekersguidance-reading-from-mushaf",
+    "newmuslims-recent-convert-prayer"
+  ],
+  "reviewStatus": "review-needed",
+  "videos": [
+    {
+      "videoId": "Fpa-c_M_V7Q",
+      "title": "Cada frase de uma rak'ah",
+      "channel": "Islamwise",
+      "duration": "10:29",
+      "sourceIds": ["video-islamwise-rakah-recap"]
+    }
+  ]
 }
