@@ -1493,5 +1493,60 @@
     "definition": "Short blessings Muslims say or write after certain names: sallallahu alayhi wa sallam (peace be upon him) after the Prophet Muhammad, subhanahu wa ta'ala (glorified and exalted is He) after Allah, alayhis-salam (peace be upon him) after other prophets and angels, and radiyallahu anhu (may Allah be pleased with him) after the Companions. The letters are abbreviations of these phrases.",
     "seeAlso": ["salawat", "muhammad", "allah"],
     "sourceIds": ["quran-33-56", "quran-9-100"]
+  },
+  {
+    "id": "shaykh",
+    "term": "Shaykh (shaykha)",
+    "arabicText": "شيخ",
+    "transliteration": "SHAYKH",
+    "definition": "A title for a scholar with years of formal study and teaching; shaykha is the form for a woman. It is also used as a courtesy for older men. Titles are not regulated, so it is fine to ask where someone studied.",
+    "seeAlso": ["ustadh", "mufti", "ulama"],
+    "sourceIds": [
+      "qalam-institute-titles",
+      "muslimmatters-shaykh-ustadh-defined"
+    ]
+  },
+  {
+    "id": "ustadh",
+    "term": "Ustadh (ustadha)",
+    "arabicText": "أستاذ",
+    "transliteration": "us-TAADH",
+    "definition": "Teacher. Often used for someone who has finished Islamic studies and is starting to teach, or who specialises in one subject such as Quran recitation.",
+    "seeAlso": ["shaykh", "halaqa", "ilm"],
+    "sourceIds": ["qalam-institute-titles"]
+  },
+  {
+    "id": "mufti",
+    "term": "Mufti",
+    "arabicText": "مفتي",
+    "transliteration": "MUF-tee",
+    "definition": "A scholar trained and licensed to give formal rulings (fatwas). A fatwa answers a specific question, so ask about your own situation rather than borrowing someone else's answer.",
+    "seeAlso": ["fatwa", "shaykh", "fiqh"],
+    "sourceIds": ["qalam-institute-titles"]
+  },
+  {
+    "id": "qari",
+    "term": "Qari",
+    "arabicText": "قارئ",
+    "transliteration": "QAA-ri'",
+    "definition": "A skilled reciter of the Quran. A beautiful voice and good tajweed do not make someone a scholar who can give rulings.",
+    "seeAlso": ["tajweed", "hafiz", "quran"]
+  },
+  {
+    "id": "alim",
+    "term": "Alim (alimah)",
+    "arabicText": "عالم",
+    "transliteration": "AA-lim",
+    "definition": "A scholar; the plural is ulama. In South Asian communities it also means a graduate of a multi-year alim course; alimah is the form for a woman.",
+    "seeAlso": ["ulama", "mawlana", "shaykh"],
+    "sourceIds": ["muslimmatters-shaykh-ustadh-defined"]
+  },
+  {
+    "id": "mawlana",
+    "term": "Mawlana (molvi)",
+    "arabicText": "مولانا",
+    "transliteration": "maw-LAA-naa",
+    "definition": "A title for a religious scholar or imam, used mostly in South Asian communities. Like other titles, it is not regulated.",
+    "seeAlso": ["alim", "shaykh", "imam"]
   }
 ]
