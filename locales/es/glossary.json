@@ -1,871 +1,547 @@
 [
   {
     "id": "adhan",
-    "term": "adán",
-    "arabicText": "أذان",
-    "transliteration": "ah-THAAN",
-    "definition": "El llamado a la oración anunciado antes de cada salah obligatorio. Recuerda a los musulmanes que ha llegado el momento de la oración y los invita a reunirse para adorar.",
-    "seeAlso": ["salah", "muadhin", "masjid"]
+    "term": "Adhan",
+    "definition": "La llamada a la oración que se oye antes de cada salah obligatoria. Avisa a los musulmanes de que ha empezado la hora de la oración y les llama a reunirse para rezar."
   },
   {
     "id": "akhlaq",
     "term": "Akhlaq",
-    "arabicText": "أخلاق",
-    "transliteration": "akh-LAAQ",
-    "definition": "Buen carácter, modales y ética moldeados por las enseñanzas islámicas. Se nota en honestidad, paciencia, misericordia, humildad y en cómo tratas a las personas.",
-    "seeAlso": ["ihsan", "sabr", "shukr"]
+    "definition": "El buen carácter, los modales y la ética tal como los enseña el islam. Se nota en la honestidad, la paciencia, la misericordia, la humildad y la forma de tratar a la gente."
   },
   {
     "id": "allah",
-    "term": "Alá",
-    "arabicText": "الله",
-    "transliteration": "Allah",
-    "definition": "La palabra árabe para Dios. Los musulmanes usan este nombre para referirse al único Creador y Sustentador de todo lo que existe. Los cristianos y judíos de habla árabe también usan esta palabra para Dios.",
-    "seeAlso": ["islam", "iman", "aqeedah"]
+    "term": "Allah",
+    "definition": "La palabra árabe para Dios. Los musulmanes usan este nombre para el único Creador y Sustentador de todo lo que existe. Los cristianos y judíos de lengua árabe usan la misma palabra para Dios."
   },
   {
     "id": "amanah",
-    "term": "Amaná",
-    "arabicText": "أمانة",
-    "transliteration": "ah-MAA-nah",
-    "definition": "Honestidad y cumplimiento fiel de lo que se le ha confiado, ya sean bienes, secretos, deberes o responsabilidades. También se refiere a la responsabilidad moral ante Allah.",
-    "seeAlso": ["akhlaq", "iman"]
+    "term": "Amanah",
+    "definition": "La confianza, y cuidar con fidelidad todo lo que se ha puesto a su cargo: bienes, un secreto, un deber, una responsabilidad. La palabra también abarca la responsabilidad moral que cada persona tiene ante Allah."
   },
   {
     "id": "aqeedah",
-    "term": "Aqidah",
-    "arabicText": "عقيدة",
-    "transliteration": "ah-KEE-dah",
-    "definition": "Las creencias y el credo fundamentales del Islam, incluida la creencia en un solo Dios, los ángeles, los libros revelados, los profetas, el Día del Juicio y el decreto divino. Piense en ello como el fundamento de lo que creen los musulmanes.",
-    "seeAlso": ["iman", "shahada", "allah"]
+    "term": "Aqeedah",
+    "definition": "Las creencias fundamentales y el credo del islam: un solo Dios, los ángeles, los libros revelados, los profetas, el Día del Juicio y el decreto divino. Es la base sobre la que descansa el resto de la religión."
   },
   {
     "id": "asr",
-    "term": "asr",
-    "arabicText": "العصر",
-    "transliteration": "AHS-r",
-    "definition": "La oración del final de la tarde, que es la tercera de las cinco oraciones diarias. Se realiza entre media tarde y el atardecer.",
-    "seeAlso": ["salah", "fajr", "dhuhr", "maghrib", "isha"]
+    "term": "Asr",
+    "definition": "La oración de media tarde, la tercera de las cinco oraciones diarias. Su margen va desde media tarde hasta la puesta del sol."
   },
   {
     "id": "awrah",
     "term": "Awrah",
-    "arabicText": "عورة",
-    "transliteration": "AW-rah",
-    "definition": "Partes del cuerpo que deben cubrirse delante de los demás según las pautas de modestia islámica. Lo que se considera awrah varía según el contexto y la opinión legal.",
-    "seeAlso": ["hijab", "taharah"]
+    "definition": "Las partes del cuerpo que, según las pautas islámicas de recato, deben cubrirse delante de otras personas. Qué se considera awrah depende de la situación y de la opinión de los sabios que se siga."
   },
   {
     "id": "ayah",
     "term": "Ayah",
-    "arabicText": "آية",
-    "transliteration": "AH-yah",
-    "definition": "Un verso del Corán. La palabra significa literalmente \"señal\" o \"milagro\". El Corán se compone de capítulos (suras) y cada capítulo contiene una serie de aleyas.",
-    "seeAlso": ["quran", "surah", "tafsir"]
+    "definition": "Un versículo del Corán. La palabra significa literalmente 'señal' o 'milagro'. El Corán está formado por capítulos, llamados suras, y cada sura contiene varias ayahs."
   },
   {
     "id": "barakah",
     "term": "Barakah",
-    "arabicText": "بركة",
-    "transliteration": "ba-ra-kah",
-    "definition": "Bendición o aumento divino de Allah. Es la sensación de que el tiempo, la riqueza, el conocimiento o el esfuerzo se vuelven más beneficiosos de lo esperado.",
-    "seeAlso": ["allah", "shukr"]
+    "definition": "La bendición, o el aumento que viene de Allah. Es la sensación de que su tiempo, su dinero, su conocimiento o su esfuerzo rindieron más de lo esperado."
   },
   {
     "id": "bidah",
     "term": "Bid'ah",
-    "arabicText": "بدعة",
-    "transliteration": "BID-ah",
-    "definition": "Una innovación religiosa introducida en el culto o las creencias sin una base sólida en el Corán o la Sunnah. Los musulmanes usan el término con cuidado porque no todas las cosas nuevas del mundo son bid'ah.",
-    "seeAlso": ["sunnah", "hadith"]
+    "definition": "Una innovación religiosa añadida a la adoración o a la creencia sin una base sólida en el Corán o la sunna. Los musulmanes usan la palabra con cuidado, porque no toda novedad de la vida cotidiana es bid'ah."
   },
   {
     "id": "burqa-niqab",
-    "term": "Burka / Niqab",
-    "arabicText": "برقع / نقاب",
-    "transliteration": "BUR-qah / ni-QAAB",
-    "definition": "Términos para prendas que cubren la cara asociados con algunas mujeres musulmanas. Un niqab suele cubrir la cara dejando los ojos visibles, mientras que un burka es una cubierta exterior más completa; Las opiniones sobre ellos difieren según la cultura y la opinión académica.",
-    "seeAlso": ["hijab", "awrah"]
+    "term": "Burqa / Niqab",
+    "definition": "Nombres de las prendas que cubren el rostro y que usan algunas mujeres musulmanas. El niqab suele cubrir la cara y dejar los ojos a la vista, mientras que el burqa es una prenda exterior que cubre más. Las opiniones sobre ambos varían según la cultura y el sabio."
   },
   {
     "id": "dawah",
     "term": "Da'wah",
-    "arabicText": "دعوة",
-    "transliteration": "DA-wah",
-    "definition": "Invitar a otros a comprender el Islam mediante explicaciones claras, buenos modales y conducta sabia. No es sólo predicación pública; Tu personaje también puede ser parte de da'wah.",
-    "seeAlso": ["islam", "akhlaq"]
+    "definition": "Invitar a otras personas a conocer el islam con explicaciones claras, buenos modales y un comportamiento sabio. La predicación pública es una forma de hacerlo, y también lo es su manera de comportarse cada día."
   },
   {
     "id": "dajjal",
     "term": "Dajjal",
-    "arabicText": "الدجال",
-    "transliteration": "daj-JAAL",
-    "definition": "Un gran engañador del que se habla en las enseñanzas islámicas sobre el fin de los tiempos, a veces llamado el falso mesías. A los creyentes se les enseña a buscar la protección de Allah en sus pruebas.",
-    "seeAlso": ["qiyam", "aqeedah"]
+    "definition": "Un gran engañador descrito en las enseñanzas islámicas sobre el final de los tiempos, a veces llamado el falso mesías. A los musulmanes se les enseña a pedir a Allah protección frente a su prueba."
   },
   {
     "id": "deen",
-    "term": "deen",
-    "arabicText": "دين",
-    "transliteration": "DEEN",
-    "definition": "Religión, forma de vida y el camino completo de vivir en obediencia a Allah. Los musulmanes suelen utilizarlo para referirse al Islam como una forma de vida en su conjunto, no sólo como un conjunto de rituales.",
-    "seeAlso": ["islam", "iman"]
+    "term": "Deen",
+    "definition": "La religión y, en un sentido más amplio, toda una forma de vivir en obediencia a Allah. Cuando los musulmanes dicen deen suelen referirse al islam como forma de vida, del que los rituales son una parte."
   },
   {
     "id": "dhikr",
-    "term": "dhikr",
-    "arabicText": "ذكر",
-    "transliteration": "THIK-r",
-    "definition": "La práctica de recordar y mencionar a Allah a través de frases cortas, oraciones o meditación. Se puede hacer en cualquier momento y es una hermosa manera de sentirse más cerca de Dios a lo largo del día.",
-    "seeAlso": ["dua", "salah"]
+    "term": "Dhikr",
+    "definition": "La práctica de recordar a Allah con frases cortas, oraciones fijas o reflexión en silencio. Puede hacerse en cualquier lugar y momento, y es una de las formas más fáciles de tener presente a Allah en un día cualquiera."
   },
   {
     "id": "dhuhr",
     "term": "Dhuhr",
-    "arabicText": "الظهر",
-    "transliteration": "THUHR",
-    "definition": "La oración del mediodía, que es la segunda de las cinco oraciones diarias. Se realiza después de que el sol pasa por su punto más alto en el cielo.",
-    "seeAlso": ["salah", "fajr", "asr", "maghrib", "isha"]
+    "definition": "La oración del mediodía, la segunda de las cinco oraciones diarias. Su margen empieza cuando el sol ha pasado su punto más alto en el cielo."
   },
   {
     "id": "dua",
-    "term": "Duá",
-    "arabicText": "دعاء",
-    "transliteration": "doo-AH",
-    "definition": "Una oración o súplica personal a Allah. A diferencia de las cinco oraciones diarias formales, la dua se puede realizar en cualquier momento, en cualquier idioma y con sus propias palabras. Es simplemente hablar con Dios desde el corazón.",
-    "seeAlso": ["dhikr", "salah"]
+    "term": "Dua",
+    "definition": "Una súplica o petición personal a Allah. A diferencia de las cinco oraciones diarias, la dua no tiene una forma fija: puede hacerla en cualquier momento, en cualquier idioma y con sus propias palabras. Es hablar directamente con Dios."
   },
   {
     "id": "eid",
-    "term": "fiesta",
-    "arabicText": "عيد",
-    "transliteration": "EED",
-    "definition": "Una celebración o festival. Los musulmanes celebran dos Eids importantes cada año: Eid al-Fitr (que marca el final del Ramadán) y Eid al-Adha (durante la temporada del Hajj). Estos son tiempos alegres de oración, reunión y gratitud.",
-    "seeAlso": ["ramadan", "hajj", "salah"]
+    "term": "Eid",
+    "definition": "Una celebración o fiesta. Los musulmanes celebran dos Eid principales cada año: Eid al-Fitr al final de Ramadán y Eid al-Adha en la temporada del hajj. Los dos son días de oración, encuentro y gratitud."
   },
   {
     "id": "fajr",
-    "term": "Fayr",
-    "arabicText": "الفجر",
-    "transliteration": "FAJ-r",
-    "definition": "La oración del alba, que es la primera de las cinco oraciones diarias. Se realiza entre las primeras luces del alba y el amanecer. Muchos musulmanes consideran que esta oración temprana es una manera pacífica de comenzar el día.",
-    "seeAlso": ["salah", "dhuhr", "asr", "maghrib", "isha"]
+    "term": "Fajr",
+    "definition": "La oración del alba, la primera de las cinco oraciones diarias. Su margen va desde la primera luz del alba hasta la salida del sol. Muchos musulmanes encuentran en esta oración temprana una forma serena de empezar el día."
   },
   {
     "id": "fard",
-    "term": "fardo",
-    "arabicText": "فرض",
-    "transliteration": "FARD",
-    "definition": "Un acto obligatorio en el Islam. Hacerlo tiene recompensa y abandonarlo deliberadamente sin excusa es pecado.",
-    "seeAlso": ["salah", "wajib", "islam"]
+    "term": "Fard",
+    "definition": "Un acto obligatorio en el islam. Hacerlo se recompensa, y abandonarlo a propósito sin excusa es pecado."
   },
   {
     "id": "fatwa",
-    "term": "fatua",
-    "arabicText": "فتوى",
-    "transliteration": "FAT-wah",
-    "definition": "Una opinión legal islámica no vinculante dada por un académico calificado en respuesta a una pregunta. Una fatwa explica cómo las enseñanzas islámicas pueden aplicarse a un tema específico.",
-    "seeAlso": ["sharia", "imam", "ijma"]
+    "term": "Fetua (fatwa)",
+    "definition": "Una opinión jurídica no vinculante que da un sabio cualificado para responder a una pregunta. Una fetua explica cómo podrían aplicarse las enseñanzas islámicas a una situación concreta."
   },
   {
     "id": "fitnah",
-    "term": "fitna",
-    "arabicText": "فتنة",
-    "transliteration": "FIT-nah",
-    "definition": "Una prueba, tentación o tribulación que pone a prueba la fe y el carácter de una persona. La palabra también puede describir agitación o confusión social.",
-    "seeAlso": ["sabr", "iman"]
+    "term": "Fitnah",
+    "definition": "Una prueba, tentación o tribulación que pone a prueba la fe y el carácter de una persona. La palabra también puede describir el desorden o la confusión en la sociedad."
   },
   {
     "id": "fitrah",
-    "term": "Fitra",
-    "arabicText": "فطرة",
-    "transliteration": "FIT-rah",
-    "definition": "El estado natural y puro en el que nace todo ser humano, con una inclinación innata a reconocer a Dios. El Islam enseña que aceptar la fe es un retorno a esta naturaleza original, no algo extraño.",
-    "seeAlso": ["iman", "islam", "shahada"]
+    "term": "Fitrah",
+    "definition": "El estado natural y puro en el que nace todo ser humano, ya inclinado a reconocer a Dios. El islam enseña que llegar a la fe es volver a esa naturaleza original, no pasar a algo ajeno."
   },
   {
     "id": "ghusl",
-    "term": "Gusl",
-    "arabicText": "غسل",
-    "transliteration": "GHOO-sl",
-    "definition": "Un lavado ritual de todo el cuerpo necesario en determinadas situaciones, como después de aceptar el Islam, después de la intimidad conyugal o después de la menstruación. Implica lavar todo el cuerpo con intención de purificación.",
-    "seeAlso": ["wudu", "salah"]
+    "term": "Ghusl",
+    "definition": "Un lavado ritual de todo el cuerpo, obligatorio en ciertas situaciones, como después de aceptar el islam, después de las relaciones íntimas en el matrimonio o después de la menstruación. Consiste en lavar todo el cuerpo con la intención de purificarse."
   },
   {
     "id": "hadith",
-    "term": "hadiz",
-    "arabicText": "حديث",
-    "transliteration": "ha-DEETH",
-    "definition": "Un dicho, acción o aprobación registrados del Profeta Muhammad (la paz sea con él). Las colecciones de hadices son una fuente importante de orientación islámica junto con el Corán, y ayudan a los musulmanes a comprender cómo aplicar el Corán en la vida diaria.",
-    "seeAlso": ["sunnah", "quran"]
+    "term": "Hadiz",
+    "definition": "Un dicho, un acto o una aprobación del Profeta Muhammad (la paz sea con él) que quedó registrado. Las colecciones de hadices están junto al Corán como fuente principal de guía, y muestran a los musulmanes cómo se puso en práctica el Corán."
   },
   {
     "id": "hajj",
-    "term": "Hayy",
-    "arabicText": "حج",
-    "transliteration": "HAJJ",
-    "definition": "La peregrinación anual a La Meca (La Meca) que todo musulmán que esté física y económicamente capacitado debería realizar al menos una vez en su vida. Tiene lugar durante un período específico del calendario islámico y es uno de los cinco pilares del Islam.",
-    "seeAlso": ["umrah", "islam", "masjid"]
+    "term": "Hajj",
+    "definition": "La peregrinación anual a La Meca (Makkah) que todo musulmán con capacidad física y económica debe hacer al menos una vez en la vida. Tiene lugar en un periodo concreto del calendario islámico y es uno de los cinco pilares del islam."
   },
   {
     "id": "halal",
-    "term": "halal",
-    "arabicText": "حلال",
-    "transliteration": "ha-LAAL",
-    "definition": "Todo lo que sea permisible o lícito en el Islam. Se utiliza más comúnmente para describir alimentos que cumplen con las pautas dietéticas islámicas, pero se aplica a todos los aspectos de la vida. Si algo es halal, eres libre de disfrutarlo.",
-    "seeAlso": ["haram"]
+    "term": "Halal",
+    "definition": "Todo lo que está permitido o es lícito en el islam. Se usa sobre todo para la comida que cumple las pautas alimentarias islámicas, pero se aplica a todos los ámbitos de la vida. Si algo es halal, puede disfrutarlo con tranquilidad."
   },
   {
     "id": "haram",
-    "term": "haram",
-    "arabicText": "حرام",
-    "transliteration": "ha-RAAM",
-    "definition": "Cualquier cosa que esté prohibida o prohibida en el Islam, como consumir alcohol o carne de cerdo. Estos límites están destinados a proteger su bienestar. Si no está seguro de si algo es haram, siempre está bien preguntar y aprender.",
-    "seeAlso": ["halal"]
+    "term": "Haram",
+    "definition": "Todo lo que está prohibido en el islam, como consumir alcohol o carne de cerdo. Estos límites existen para proteger su bienestar. Si no sabe si algo es haram, siempre está bien preguntar y aprender."
   },
   {
     "id": "haya",
     "term": "Haya",
-    "arabicText": "حياء",
-    "transliteration": "ha-YAA",
-    "definition": "Modestia, timidez y un digno sentido de vergüenza que mantiene a la persona alejada del mal. Influye en la vestimenta, el habla, el comportamiento y la actitud interior.",
-    "seeAlso": ["hijab", "akhlaq"]
+    "definition": "El recato, la timidez y un sentido digno de la vergüenza que aparta a la persona del mal. Influye en la forma de vestir, de hablar, de comportarse y en la actitud interior."
   },
   {
     "id": "hijab",
-    "term": "hiyab",
-    "arabicText": "حجاب",
-    "transliteration": "hih-JAAB",
-    "definition": "Comúnmente se refiere al velo que usan muchas mujeres musulmanas como expresión de modestia y fe. En términos más generales, hijab se refiere al concepto de modestia en la vestimenta y el comportamiento tanto para hombres como para mujeres.",
-    "seeAlso": ["islam", "iman"]
+    "term": "Hijab",
+    "definition": "Suele referirse al pañuelo que muchas mujeres musulmanas llevan en la cabeza como expresión de recato y de fe. En un sentido más amplio, el hijab es la idea del recato en el vestir y en el comportamiento, tanto para hombres como para mujeres."
   },
   {
     "id": "hijrah",
-    "term": "Hégira",
-    "arabicText": "هجرة",
-    "transliteration": "HIJ-rah",
-    "definition": "Migración por motivos de fe, especialmente la migración del profeta Mahoma de La Meca a Medina. En términos más generales, puede significar dejar atrás situaciones dañinas para proteger o fortalecer a tu Din.",
-    "seeAlso": ["muhajir", "deen"]
+    "term": "Hijrah",
+    "definition": "La emigración por causa de la fe, sobre todo la emigración del Profeta Muhammad de La Meca a Medina. En un sentido más amplio, puede significar dejar atrás situaciones dañinas para proteger o fortalecer su deen."
   },
   {
     "id": "ibadah",
-    "term": "Ibada",
-    "arabicText": "عبادة",
-    "transliteration": "ih-BAA-dah",
-    "definition": "Adoración y actos de devoción realizados por Allah. Incluye rituales formales como la oración y el ayuno, así como buenas obras cotidianas realizadas con sincera intención.",
-    "seeAlso": ["salah", "dua", "dhikr"]
+    "term": "Ibadah",
+    "definition": "La adoración y los actos de devoción hechos para Allah. Incluye rituales como la oración y el ayuno, y también las buenas obras de cada día hechas con intención sincera."
   },
   {
     "id": "iftar",
     "term": "Iftar",
-    "arabicText": "إفطار",
-    "transliteration": "if-TAAR",
-    "definition": "La comida con la que una persona que ayuna rompe el ayuno al atardecer en Ramadán u otros ayunos. Se abre tradicionalmente en la hora del Magreb, a menudo con dátiles y agua.",
-    "seeAlso": ["sawm", "ramadan", "suhoor"]
+    "definition": "La comida con la que quien ayuna rompe el ayuno al ponerse el sol, en Ramadán o en otros ayunos. Tradicionalmente se empieza a la hora de Maghrib, a menudo con dátiles y agua."
   },
   {
     "id": "ihram",
-    "term": "ihram",
-    "arabicText": "إحرام",
-    "transliteration": "ih-HRAAM",
-    "definition": "El estado sagrado al que entra un peregrino antes del Hajj o la Umrah, junto con las restricciones e intenciones especiales que lo acompañan. La palabra también se usa comúnmente para las prendas sencillas que se usan durante este estado.",
-    "seeAlso": ["hajj", "umrah", "kaabah"]
+    "term": "Ihram",
+    "definition": "El estado sagrado en el que entra el peregrino antes del hajj o la umrah, con las restricciones e intenciones que lo acompañan. La palabra también se usa mucho para las prendas sencillas que se visten en ese estado."
   },
   {
     "id": "ihsan",
     "term": "Ihsan",
-    "arabicText": "إحسان",
-    "transliteration": "ih-HSAAN",
-    "definition": "Excelencia espiritual: adorar a Allah con profunda sinceridad y conciencia, como si lo vieras, y sabiendo que Él te ve. También significa luchar por la belleza y la excelencia en lo que haces.",
-    "seeAlso": ["iman", "akhlaq", "ibadah"]
+    "definition": "La excelencia en la adoración: rezar con verdadera sinceridad y atención, como si viera a Allah, sabiendo que Él le ve. La palabra también abarca hacer bien y con cuidado el trabajo de cada día."
   },
   {
     "id": "ijma",
     "term": "Ijma'",
-    "arabicText": "إجماع",
-    "transliteration": "ij-MAA",
-    "definition": "Consenso académico sobre una cuestión de ley o creencia islámica. Es uno de los principios importantes utilizados en el razonamiento jurídico islámico.",
-    "seeAlso": ["ijtihad", "fatwa", "maqasid"]
+    "definition": "El consenso de los sabios sobre una cuestión de derecho o de creencia islámica. Es una de las fuentes en las que se apoyan los sabios para establecer dictámenes."
   },
   {
     "id": "ijtihad",
-    "term": "ijtihad",
-    "arabicText": "اجتهاد",
-    "transliteration": "ij-ti-HAAD",
-    "definition": "Razonamiento cuidadoso e independiente utilizado por académicos calificados para derivar decisiones cuando un asunto no se aborda explícitamente. Requiere un conocimiento profundo de las fuentes y del método jurídico.",
-    "seeAlso": ["ijma", "fatwa", "sharia"]
+    "term": "Ijtihad",
+    "definition": "El razonamiento independiente y cuidadoso que usan los sabios cualificados para establecer dictámenes cuando una cuestión no se trata de forma explícita. Requiere un conocimiento profundo de las fuentes y del método jurídico."
   },
   {
     "id": "ilm",
     "term": "Ilm",
-    "arabicText": "علم",
-    "transliteration": "ILM",
-    "definition": "Conocimiento, conocimiento especialmente beneficioso de la fe y la práctica. Buscar ilm es algo muy enfatizado en el Islam.",
-    "seeAlso": ["quran", "hadith", "tafsir"]
+    "definition": "El conocimiento, sobre todo el conocimiento beneficioso de la fe y la práctica. El islam da mucha importancia a buscarlo."
   },
   {
     "id": "imam",
-    "term": "Imán",
-    "arabicText": "إمام",
-    "transliteration": "ih-MAAM",
-    "definition": "Persona que dirige a la congregación en oración en una mezquita. Muchos imanes también actúan como líderes comunitarios, maestros y consejeros. No dude en comunicarse con un imán local si tiene preguntas sobre el Islam.",
-    "seeAlso": ["masjid", "salah", "jumuah"]
+    "term": "Imam",
+    "definition": "La persona que dirige la oración en congregación en una mezquita. Muchos imames también enseñan, aconsejan y se ocupan de asuntos de la comunidad, así que el imam local es una buena persona a quien preguntar cuando tenga dudas sobre el islam."
   },
   {
     "id": "iman",
-    "term": "imán",
-    "arabicText": "إيمان",
-    "transliteration": "ee-MAAN",
-    "definition": "Fe o creencia. En el Islam, iman abarca creer en Alá, Sus ángeles, Sus libros, Sus mensajeros, el Día del Juicio y el decreto divino. Es normal que el iman fluctúe y nutrirlo es un viaje que dura toda la vida.",
-    "seeAlso": ["islam", "aqeedah", "shahada"]
+    "term": "Iman",
+    "definition": "La fe o la creencia. En el islam, el iman abarca creer en Allah, en Sus ángeles, en Sus libros, en Sus mensajeros, en el Día del Juicio y en el decreto divino. Sube y baja en todas las personas, y cuidarlo es un trabajo de toda la vida."
   },
   {
     "id": "isha",
     "term": "Isha",
-    "arabicText": "العشاء",
-    "transliteration": "ih-SHAA",
-    "definition": "La oración de la noche, que es la quinta y última oración diaria. Se realiza después de que ha desaparecido el crepúsculo y se puede rezar hasta la medianoche o justo antes de la oración del Fajr.",
-    "seeAlso": ["salah", "fajr", "dhuhr", "asr", "maghrib"]
+    "definition": "La oración de la noche, la quinta y última del día. Su margen empieza cuando ha desaparecido el crepúsculo, y se puede rezar hasta la medianoche o, si hace falta, hasta justo antes de Fajr."
   },
   {
     "id": "islam",
-    "term": "islam",
-    "arabicText": "إسلام",
-    "transliteration": "is-LAAM",
-    "definition": "La religión de la sumisión y la paz con Dios. La palabra proviene de la raíz árabe que significa \"paz\" y \"sumisión\". El Islam enseña que hay un Dios y que Mahoma es Su último mensajero.",
-    "seeAlso": ["muslim", "allah", "iman", "shahada"]
+    "term": "Islam",
+    "definition": "La religión de la sumisión a Dios y de la paz con Él. La palabra viene de la raíz árabe que significa 'paz' y 'sumisión'. El islam enseña que hay un solo Dios y que Muhammad es Su último mensajero."
   },
   {
     "id": "istikhara",
-    "term": "istikhara",
-    "arabicText": "استخارة",
-    "transliteration": "is-ti-KHAA-rah",
-    "definition": "Una oración y súplica pidiendo a Allah que le guíe a la hora de tomar una decisión. Se hace cuando se elige entre opciones permisibles y se confía el resultado a Allah.",
-    "seeAlso": ["dua", "niyyah"]
+    "term": "Istikhara",
+    "definition": "Una oración y súplica para pedir a Allah guía al tomar una decisión. Se hace al elegir entre opciones permitidas, confiando a Allah el resultado."
   },
   {
     "id": "jahannam",
     "term": "Jahannam",
-    "arabicText": "جهنم",
-    "transliteration": "ja-HAN-nam",
-    "definition": "Hellfire, el lugar de castigo en el más allá para aquellos que rechazan la verdad y persisten en cometer delitos graves. Los musulmanes lo mencionan como una advertencia y un recordatorio de la responsabilidad.",
-    "seeAlso": ["jannah", "iman"]
+    "definition": "El Infierno, el lugar de castigo en la otra vida para quienes rechazan la verdad y persisten en faltas graves. Los musulmanes lo mencionan como advertencia y recordatorio de que habrá que rendir cuentas."
   },
   {
     "id": "janazah",
     "term": "Janazah",
-    "arabicText": "جنازة",
-    "transliteration": "ja-NAA-zah",
-    "definition": "Ritos funerarios de un musulmán fallecido, especialmente la oración fúnebre. También se refiere de manera más amplia a la persona fallecida y al proceso de entierro.",
-    "seeAlso": ["jannah", "jahannam"]
+    "definition": "Los ritos funerarios de un musulmán fallecido, sobre todo la oración fúnebre. En un sentido más amplio, también se refiere a la persona fallecida y al proceso del entierro."
   },
   {
     "id": "jannah",
-    "term": "Janna",
-    "arabicText": "جنة",
-    "transliteration": "JAN-nah",
-    "definition": "El Paraíso, la recompensa eterna que Alá promete a los justos. Se describe como un lugar de paz, alegría y cercanía a Allah.",
-    "seeAlso": ["jahannam", "iman", "qadr"]
+    "term": "Jannah",
+    "definition": "El Paraíso, la recompensa eterna que Allah promete a los justos. Se describe como un lugar de paz, alegría y cercanía a Allah."
   },
   {
     "id": "jihad",
-    "term": "Yihad",
-    "arabicText": "جهاد",
-    "transliteration": "ji-HAAD",
-    "definition": "Esforzarse y luchar en el camino de Allah. Puede referirse a una lucha interna contra el pecado y las dificultades y, en algunos contextos, a una lucha armada regida por estrictas reglas éticas.",
-    "seeAlso": ["sabr", "deen"]
+    "term": "Yihad (jihad)",
+    "definition": "El esfuerzo y la lucha en el camino de Allah. Puede referirse a la lucha interior contra el pecado y las dificultades y, en algunos contextos, a la lucha armada regida por normas éticas estrictas."
   },
   {
     "id": "jinn",
-    "term": "genios",
-    "arabicText": "جن",
-    "transliteration": "JINN",
-    "definition": "Seres invisibles creados a partir de fuego sin humo que, como los humanos, tienen libre albedrío. Algunos creen y otros no.",
-    "seeAlso": ["quran", "aqeedah"]
+    "term": "Jinn",
+    "definition": "Seres invisibles creados de fuego sin humo que, como los humanos, tienen libre albedrío. Algunos son creyentes y otros no."
   },
   {
     "id": "jumuah",
     "term": "Jumu'ah",
-    "arabicText": "جمعة",
-    "transliteration": "JOO-moo-ah",
-    "definition": "La oración congregacional del viernes, que reemplaza a la oración del Dhuhr los viernes. Incluye un sermón (khutbah) y es una reunión semanal importante para la comunidad musulmana. Asistir al Jumu'ah es una manera maravillosa de conectarse con otros musulmanes.",
-    "seeAlso": ["salah", "masjid", "imam", "dhuhr"]
+    "definition": "La oración del viernes en congregación, que ese día ocupa el lugar de Dhuhr. Incluye un sermón, la jutba, y es el principal encuentro semanal de la comunidad musulmana. También es la forma más fácil de conocer a otros musulmanes cerca de usted."
   },
   {
     "id": "kaabah",
     "term": "Kaaba",
-    "arabicText": "الكعبة",
-    "transliteration": "KAH-bah",
-    "definition": "La estructura cúbica sagrada en La Meca hacia la que los musulmanes miran en oración. Es el centro espiritual del culto islámico y un punto focal del Hajj y la Umrah.",
-    "seeAlso": ["qiblah", "hajj", "umrah"]
+    "definition": "La construcción sagrada en forma de cubo en La Meca, hacia la que se orientan los musulmanes al rezar. Es el punto hacia el que se vuelve todo musulmán del mundo, y el hajj y la umrah se hacen a su alrededor."
   },
   {
     "id": "kafir",
-    "term": "cafir",
-    "arabicText": "كافر",
-    "transliteration": "KAA-fir",
-    "definition": "Término que literalmente significa aquel que encubre o rechaza la verdad. En el uso islámico puede referirse a la incredulidad o a un incrédulo, pero debe usarse con cuidado y no como un abuso casual.",
-    "seeAlso": ["iman", "islam"]
+    "term": "Kafir",
+    "definition": "Un término que significa literalmente quien cubre o rechaza la verdad. En el uso islámico puede referirse a la incredulidad o a un incrédulo, pero debe usarse con cuidado y nunca como insulto."
   },
   {
     "id": "khalifah",
-    "term": "Califa",
-    "arabicText": "خليفة",
-    "transliteration": "kha-LEE-fah",
-    "definition": "Mayordomo, sucesor o representante. El término puede referirse a seres humanos como cuidadores de la tierra o a un califa que dirige la comunidad musulmana.",
-    "seeAlso": ["deen", "amanah"]
+    "term": "Khalifah",
+    "definition": "Administrador, sucesor o representante. El término puede referirse a los seres humanos como cuidadores de la tierra o a un califa que dirige la comunidad musulmana."
   },
   {
     "id": "khushoo",
     "term": "Khushoo'",
-    "arabicText": "خشوع",
-    "transliteration": "khu-SHOO",
-    "definition": "Enfoque humilde, calma y reverencia en la oración. Es el estado interior de estar presente con Allah en lugar de orar mecánicamente.",
-    "seeAlso": ["salah", "ihsan", "dhikr"]
+    "definition": "La atención humilde, la calma y la reverencia en la oración. Es el estado interior de estar presente ante Allah en lugar de rezar de forma mecánica."
   },
   {
     "id": "khutbah",
-    "term": "Jutbah",
-    "arabicText": "خطبة",
-    "transliteration": "KHUT-bah",
-    "definition": "Un sermón pronunciado por el imán antes de la oración del viernes o durante las oraciones del Eid. Por lo general, cubre enseñanzas islámicas, recordatorios y asuntos comunitarios. Se recomienda escuchar en silencio durante la jutbah.",
-    "seeAlso": ["jumuah", "imam", "masjid"]
+    "term": "Khutbah",
+    "definition": "Un sermón que da el imam antes de la oración del viernes o durante las oraciones de Eid. Suele tratar enseñanzas islámicas, recordatorios y asuntos de la comunidad. Se anima a escuchar la jutba en silencio."
   },
   {
     "id": "maghrib",
-    "term": "Magreb",
-    "arabicText": "المغرب",
-    "transliteration": "MAGH-rib",
-    "definition": "La oración del atardecer, que es la cuarta de las cinco oraciones diarias. Se realiza justo después de que se ha puesto el sol. La ventana de tiempo para Magreb es relativamente corta y dura hasta que se desvanece el crepúsculo.",
-    "seeAlso": ["salah", "fajr", "dhuhr", "asr", "isha"]
+    "term": "Maghrib",
+    "definition": "La oración de la puesta del sol, la cuarta de las cinco oraciones diarias. Se hace justo después de que el sol se ha puesto. El margen de Maghrib es relativamente corto y dura hasta que se apaga el crepúsculo."
   },
   {
     "id": "mahr",
-    "term": "mahr",
-    "arabicText": "مهر",
-    "transliteration": "MAHR",
-    "definition": "El regalo nupcial que el novio le da a la novia como parte del contrato matrimonial. Es su derecho y le pertenece sólo a ella.",
-    "seeAlso": ["nikah", "amanah"]
+    "term": "Mahr",
+    "definition": "El regalo nupcial que el novio da a la novia como parte del contrato matrimonial. Es un derecho de ella y le pertenece solo a ella."
   },
   {
     "id": "makruh",
-    "term": "makruh",
-    "arabicText": "مكروه",
-    "transliteration": "mak-ROOH",
-    "definition": "Una acción que no es del agrado del Islam pero que no está estrictamente prohibida. Evitarlo puede ser recompensado, mientras que hacerlo no suele ser pecaminoso en sí mismo.",
-    "seeAlso": ["halal", "haram", "mubah"]
+    "term": "Makruh",
+    "definition": "Un acto desaconsejado en el islam, pero no prohibido de forma estricta. Evitarlo puede recompensarse, mientras que hacerlo no suele ser pecado en sí mismo."
   },
   {
     "id": "maqasid",
     "term": "Maqasid",
-    "arabicText": "مقاصد",
-    "transliteration": "ma-QAA-sid",
-    "definition": "Los objetivos y sabidurías más elevados de la ley islámica, como la protección de la fe, la vida, el intelecto, la familia y la propiedad. El concepto ayuda a los académicos a comprender el propósito detrás de las sentencias.",
-    "seeAlso": ["sharia", "ijtihad"]
+    "definition": "Los objetivos y la sabiduría superiores del derecho islámico, como proteger la fe, la vida, el intelecto, la familia y los bienes. El concepto ayuda a los sabios a entender el propósito de los dictámenes."
   },
   {
     "id": "masjid",
-    "term": "Mezquita",
-    "arabicText": "مسجد",
-    "transliteration": "MAS-jid",
-    "definition": "Una mezquita, el lugar donde los musulmanes se reúnen para orar y realizar actividades comunitarias. La palabra significa literalmente \"lugar de postración\". Las mezquitas son espacios acogedores y siempre eres bienvenido a visitar una.",
-    "seeAlso": ["salah", "imam", "jumuah"]
+    "term": "Masjid (mezquita)",
+    "definition": "La mezquita: el lugar donde los musulmanes se reúnen para rezar y para la vida comunitaria. La palabra significa literalmente 'lugar de postración'. No necesita permiso ni invitación para entrar en una."
   },
   {
     "id": "miswak",
     "term": "Miswak",
-    "arabicText": "مسواك",
-    "transliteration": "MIS-waak",
-    "definition": "Stick limpiador dental natural utilizado tradicionalmente para la higiene bucal. Su uso está ampliamente asociado con la Sunnah.",
-    "seeAlso": ["sunnah", "taharah"]
+    "definition": "Un palito natural para limpiar los dientes, usado tradicionalmente para la higiene bucal. Su uso está muy asociado a la sunna."
   },
   {
     "id": "muadhin",
     "term": "Mu'adhin",
-    "arabicText": "مؤذن",
-    "transliteration": "mu-ADH-dhin",
-    "definition": "La persona que llama al adhan. En una mezquita, el mu'adhin anuncia el tiempo de oración a la comunidad.",
-    "seeAlso": ["adhan", "masjid"]
+    "definition": "La persona que hace el adhan. En una mezquita, el mu'adhin anuncia a la comunidad la hora de la oración."
   },
   {
     "id": "mubah",
     "term": "Mubah",
-    "arabicText": "مباح",
-    "transliteration": "moo-BAAH",
-    "definition": "Algo permitido y religiosamente neutral en el Islam. Hacerlo o dejarlo no trae pecado ni recompensa por sí solo a menos que la intención cambie el acto.",
-    "seeAlso": ["halal", "makruh"]
+    "definition": "Algo permitido y neutro en lo religioso. Hacerlo o dejarlo no trae por sí mismo pecado ni recompensa, salvo que la intención cambie el acto."
   },
   {
     "id": "muhajir",
     "term": "Muhajir",
-    "arabicText": "مهاجر",
-    "transliteration": "mu-HAA-jir",
-    "definition": "Quien emigra por la causa de Alá y de la fe. Históricamente, a menudo se refiere a los primeros musulmanes que abandonaron La Meca hacia Medina.",
-    "seeAlso": ["hijrah", "deen"]
+    "definition": "Quien emigra por Allah y por la fe. Históricamente suele referirse a los primeros musulmanes que dejaron La Meca para ir a Medina."
   },
   {
     "id": "muslim",
-    "term": "musulmán",
-    "arabicText": "مسلم",
-    "transliteration": "MUS-lim",
-    "definition": "Una persona que sigue el Islam y se somete a la voluntad de Allah. La palabra proviene de la misma raíz que Islam, que significa alguien que encuentra la paz entregándose a Dios. ¡Bienvenido a la familia!",
-    "seeAlso": ["islam", "shahada", "iman"]
+    "term": "Musulmán",
+    "definition": "La persona que sigue el islam y se somete a la voluntad de Allah. La palabra comparte raíz con islam y significa quien encuentra la paz al entregarse a Dios. Si ha dicho la Shahada, ahora le describe a usted."
   },
   {
     "id": "mustahabb",
-    "term": "Mustahab",
-    "arabicText": "مستحب",
-    "transliteration": "mus-ta-HABB",
-    "definition": "Un acto recomendado y amado en el Islam pero no obligatorio. Hacerlo trae recompensa, mientras que dejarlo no trae pecado.",
-    "seeAlso": ["nafl", "sunnah"]
+    "term": "Mustahabb",
+    "definition": "Un acto recomendado y amado en el islam, pero no obligatorio. Hacerlo trae recompensa, y dejarlo no es pecado."
   },
   {
     "id": "nafl",
-    "term": "nafl",
-    "arabicText": "نفل",
-    "transliteration": "NAF-l",
-    "definition": "Actos voluntarios de adoración más allá de lo requerido. Las oraciones, los ayunos y la caridad nafl ayudan a una persona a acercarse a Allah.",
-    "seeAlso": ["sunnah", "witr", "salah"]
+    "term": "Nafl",
+    "definition": "Actos de adoración voluntarios, más allá de lo obligatorio. Las oraciones, los ayunos y la caridad nafl ayudan a la persona a acercarse a Allah."
   },
   {
     "id": "nikah",
-    "term": "Niká",
-    "arabicText": "نكاح",
-    "transliteration": "ni-KAAH",
-    "definition": "El contrato matrimonial islámico. Hace que el matrimonio sea legal y describe derechos y responsabilidades.",
-    "seeAlso": ["mahr", "deen"]
+    "term": "Nikah",
+    "definition": "El contrato matrimonial islámico. Hace lícito el matrimonio y establece los derechos y las responsabilidades."
   },
   {
     "id": "niyyah",
     "term": "Niyyah",
-    "arabicText": "نية",
-    "transliteration": "NIY-yah",
-    "definition": "Intención. En el Islam, la sinceridad de la intención es lo que da a las acciones su valor espiritual. Antes de actos de adoración como la oración o el ayuno, colocas tu niyyah en tu corazón. No es necesario decirlo en voz alta.",
-    "seeAlso": ["salah", "sawm", "wudu"]
+    "definition": "La intención. En el islam, la sinceridad de la intención es lo que da valor espiritual a los actos. Antes de actos de adoración como la oración o el ayuno, formula su niyyah en el corazón. No hace falta decirla en voz alta."
   },
   {
     "id": "qadr",
     "term": "Qadr",
-    "arabicText": "قدر",
-    "transliteration": "QAD-r",
-    "definition": "Decreto divino y el perfecto conocimiento y determinación de Allah sobre todas las cosas. Creer en qadr incluye confiar en que Allah sabe lo que fue, es y será.",
-    "seeAlso": ["iman", "aqeedah"]
+    "definition": "El decreto divino, y el conocimiento y la determinación perfectos de Allah sobre todas las cosas. Creer en el qadr incluye confiar en que Allah sabe lo que fue, lo que es y lo que será."
   },
   {
     "id": "qiblah",
-    "term": "Alquibla",
-    "arabicText": "قبلة",
-    "transliteration": "QIB-lah",
-    "definition": "La dirección que los musulmanes miran en oración, hacia la Kaaba en La Meca. Encontrar la qiblah ayuda a orientar los actos de adoración como la salah y el entierro.",
-    "seeAlso": ["kaabah", "salah"]
+    "term": "Qiblah",
+    "definition": "La dirección hacia la que se orientan los musulmanes al rezar, hacia la Kaaba en La Meca. Conocer la qiblah ayuda a orientar actos de adoración como la salah y el entierro."
   },
   {
     "id": "qiyam",
-    "term": "qiyam",
-    "arabicText": "قيام",
-    "transliteration": "qi-YAAM",
-    "definition": "De pie en oración. También puede referirse a la oración nocturna, especialmente a las permanencias más prolongadas en el culto, como Qiyam al-Layl.",
-    "seeAlso": ["salah", "witr", "ramadan"]
+    "term": "Qiyam",
+    "definition": "Estar de pie en la oración. También puede referirse a la oración de la noche, sobre todo a permanecer más tiempo de pie en adoración, como en el qiyam al-layl."
   },
   {
     "id": "quran",
     "term": "Corán",
-    "arabicText": "القرآن",
-    "transliteration": "qur-AAN",
-    "definition": "El libro sagrado del Islam, que se cree que es la palabra literal de Dios revelada al profeta Mahoma (la paz sea con él) durante 23 años. Es la principal fuente de orientación para los musulmanes y tradicionalmente se recita en árabe.",
-    "seeAlso": ["ayah", "surah", "tafsir", "tajweed", "hadith"]
+    "definition": "El libro sagrado del islam, que los musulmanes creen que es la palabra literal de Dios revelada al Profeta Muhammad (la paz sea con él) a lo largo de 23 años. Es la fuente principal de guía para los musulmanes y tradicionalmente se recita en árabe."
   },
   {
     "id": "rakah",
     "term": "Rak'ah",
-    "arabicText": "ركعة",
-    "transliteration": "RAK-ah",
-    "definition": "Una sola unidad o ciclo de la oración islámica, que consiste en ponerse de pie, inclinarse y postrarse. Cada una de las cinco oraciones diarias tiene un número determinado de rak'ahs. Aprender los movimientos requiere un poco de práctica y eso es perfectamente normal.",
-    "seeAlso": ["salah", "wudu"]
+    "definition": "Una unidad o ciclo de la oración islámica, formada por estar de pie, inclinarse y postrarse. Cada una de las cinco oraciones diarias tiene un número fijo de rak'ahs. Aprender los movimientos requiere algo de práctica, y es completamente normal."
   },
   {
     "id": "ramadan",
     "term": "Ramadán",
-    "arabicText": "رمضان",
-    "transliteration": "ra-ma-DAAN",
-    "definition": "El noveno mes del calendario islámico, durante el cual los musulmanes ayunan desde el amanecer hasta el atardecer. Es un tiempo profundamente espiritual de reflexión, oración, comunidad y gratitud. Tu primer Ramadán es una experiencia especial y puedes vivirla a tu propio ritmo.",
-    "seeAlso": ["sawm", "eid", "salah"]
+    "definition": "El noveno mes del calendario islámico, en el que los musulmanes ayunan desde el alba hasta la puesta del sol. Buena parte del mes se dedica a más oración, lectura del Corán, gratitud y tiempo con otros musulmanes. Su primer Ramadán tendrá momentos difíciles, y puede ir preparándose a su propio ritmo."
   },
   {
     "id": "riba",
-    "term": "Ribá",
-    "arabicText": "ربا",
-    "transliteration": "ri-BAA",
-    "definition": "Usura o ganancia basada en intereses que la ley islámica prohíbe en determinadas transacciones financieras. Los musulmanes generalmente usan el término para tratos de explotación o que generan intereses que violan la ética islámica.",
-    "seeAlso": ["halal", "haram", "zakat"]
+    "term": "Riba",
+    "definition": "La usura o la ganancia basada en intereses que el derecho islámico prohíbe en ciertas operaciones financieras. Los musulmanes suelen usar el término para los tratos abusivos o con intereses que van contra la ética islámica."
   },
   {
     "id": "ruku",
     "term": "Ruku'",
-    "arabicText": "ركوع",
-    "transliteration": "roo-KOO",
-    "definition": "La posición de reverencia en salah, cuando un devoto se inclina por la cintura con las manos en las rodillas. Es uno de los principales pilares físicos de cada rak'ah.",
-    "seeAlso": ["salah", "rakah", "sajdah"]
+    "definition": "La posición de inclinación en la salah, cuando quien reza se dobla por la cintura con las manos sobre las rodillas. Es uno de los principales pilares físicos de cada rak'ah."
   },
   {
     "id": "sabr",
-    "term": "sabr",
-    "arabicText": "صبر",
-    "transliteration": "SAB-r",
-    "definition": "Paciencia, perseverancia y autocontrol constante por la causa de Allah. Incluye mantenerse firme en la adoración, evitar el pecado y soportar bien las dificultades.",
-    "seeAlso": ["shukr", "iman", "akhlaq"]
+    "term": "Sabr",
+    "definition": "La paciencia, la perseverancia y el autocontrol constante por Allah. Incluye mantenerse firme en la adoración, evitar el pecado y soportar bien las dificultades."
   },
   {
     "id": "sadaqah",
-    "term": "sadaqa",
-    "arabicText": "صدقة",
-    "transliteration": "SA-da-qah",
-    "definition": "Caridad voluntaria o una buena acción realizada por bondad y compasión. A diferencia del zakat, la sadaqah no es obligatoria y puede ser tan simple como sonreír, ayudar a un vecino o compartir comida. Cada acto de bondad cuenta.",
-    "seeAlso": ["zakat"]
+    "term": "Sadaqah",
+    "definition": "La caridad voluntaria, o una buena obra hecha por bondad y compasión. A diferencia del zakat, la sadaqah no es obligatoria y puede ser algo tan sencillo como una sonrisa, ayudar a un vecino o compartir comida. Cada acto de bondad cuenta."
   },
   {
     "id": "sajdah",
     "term": "Sajdah",
-    "arabicText": "سجدة",
-    "transliteration": "SAJ-dah",
-    "definition": "Postración en oración, cuando la frente, la nariz, las manos, las rodillas y los dedos de los pies tocan el suelo. Es uno de los momentos más cercanos de un siervo a Allah.",
-    "seeAlso": ["salah", "rakah", "ruku"]
+    "definition": "La postración en la oración, cuando la frente, la nariz, las manos, las rodillas y los dedos de los pies tocan el suelo. Es uno de los momentos en que el siervo está más cerca de Allah."
   },
   {
     "id": "salaf",
-    "term": "salaf",
-    "arabicText": "سلف",
-    "transliteration": "SA-laf",
-    "definition": "Las primeras generaciones justas de musulmanes, especialmente los compañeros del Profeta, sus estudiantes y la generación posterior a ellos. A menudo se los considera ejemplos importantes de comprensión y práctica.",
-    "seeAlso": ["sunnah", "hadith"]
+    "term": "Salaf",
+    "definition": "Las primeras generaciones justas de musulmanes, sobre todo los compañeros del Profeta, sus alumnos y la generación siguiente. Se les suele tomar como ejemplos importantes de comprensión y de práctica."
   },
   {
     "id": "salah",
-    "term": "salah",
-    "arabicText": "صلاة",
-    "transliteration": "sa-LAAH",
-    "definition": "La oración islámica formal se realiza cinco veces al día. Es uno de los cinco pilares del Islam y una conexión directa entre tú y Allah. Aprender el salah lleva tiempo y está bien empezar poco a poco e ir avanzando.",
-    "seeAlso": ["wudu", "fajr", "dhuhr", "asr", "maghrib", "isha", "rakah"]
+    "term": "Salah",
+    "definition": "La oración islámica formal que se hace cinco veces al día. Es uno de los cinco pilares del islam y una conexión directa entre usted y Allah. Aprender la salah lleva tiempo, y está bien empezar despacio e ir avanzando."
   },
   {
     "id": "salam",
     "term": "Salam",
-    "arabicText": "سلام",
-    "transliteration": "sa-LAAM",
-    "definition": "Paz. El saludo 'As-salamu alaykum' significa 'La paz sea con vosotros' y es la forma estándar en que los musulmanes se saludan entre sí. La respuesta es 'Wa alaykum as-salam' ('Y sobre ti, la paz'). Es una tradición cálida y acogedora.",
-    "seeAlso": ["islam", "muslim"]
+    "definition": "La paz. El saludo 'As-salamu alaykum' significa 'la paz sea con ustedes' y es la forma habitual en que se saludan los musulmanes. La respuesta es 'Wa alaykum as-salam' ('y con ustedes la paz'). Lo oirá constantemente, y puede usarlo con cualquier musulmán que conozca."
   },
   {
     "id": "sawm",
-    "term": "aserrín",
-    "arabicText": "صوم",
-    "transliteration": "SOWM",
-    "definition": "Ayuno, especialmente durante el mes de Ramadán. Los musulmanes se abstienen de comer, beber y otras necesidades físicas desde el amanecer hasta el atardecer. El ayuno es uno de los cinco pilares del Islam y es un momento de crecimiento espiritual y autodisciplina.",
-    "seeAlso": ["ramadan", "niyyah"]
+    "term": "Sawm",
+    "definition": "El ayuno, sobre todo durante el mes de Ramadán. Los musulmanes se abstienen de comida, bebida y otras necesidades físicas desde el alba hasta la puesta del sol. El ayuno es uno de los cinco pilares del islam y un tiempo de crecimiento espiritual y autodisciplina."
   },
   {
     "id": "shahada",
     "term": "Shahada",
-    "arabicText": "شهادة",
-    "transliteration": "sha-HAA-dah",
-    "definition": "La declaración de fe y el primer pilar del Islam: 'Doy testimonio de que no hay más dios que Alá, y Mahoma es Su mensajero'. Decir sinceramente la Shahada es como una persona ingresa al Islam. Es el paso más importante de tu viaje.",
-    "seeAlso": ["islam", "muslim", "iman", "allah"]
+    "definition": "La declaración de fe y el primer pilar del islam: 'Doy testimonio de que no hay divinidad salvo Allah, y de que Muhammad es Su mensajero.' Decirla con sinceridad es como una persona entra en el islam. Todo lo demás viene después."
   },
   {
     "id": "sharia",
     "term": "Sharía",
-    "arabicText": "شريعة",
-    "transliteration": "sha-REE-ah",
-    "definition": "La divina guía moral y legal del Islam extraída del Corán y la Sunnah. Cubre adoración, ética, vida familiar, finanzas, justicia y más.",
-    "seeAlso": ["maqasid", "fatwa", "halal"]
+    "definition": "La guía moral y jurídica divina del islam, tomada del Corán y la sunna. Abarca la adoración, la ética, la vida familiar, las finanzas, la justicia y más."
   },
   {
     "id": "shirk",
-    "term": "Eludir",
-    "arabicText": "شرك",
-    "transliteration": "SHIRK",
-    "definition": "Asociar socios con Allah en la adoración, el señorío o Sus atributos únicos. Se considera el pecado más grave si una persona muere sin arrepentirse de ello.",
-    "seeAlso": ["tawhid", "aqeedah", "allah"]
+    "term": "Shirk",
+    "definition": "Asociar a otros con Allah en la adoración, en el señorío o en Sus atributos únicos. Se considera el pecado más grave si una persona muere sin haberse arrepentido de él."
   },
   {
     "id": "shukr",
     "term": "Shukr",
-    "arabicText": "شكر",
-    "transliteration": "SHOOK-r",
-    "definition": "Gratitud y reconocimiento agradecido de las bendiciones de Allah. El verdadero shukr incluye sentirse agradecido de corazón, hablarlo y utilizar bien las bendiciones.",
-    "seeAlso": ["sabr", "barakah", "allah"]
+    "definition": "La gratitud y el reconocimiento agradecido de las bendiciones de Allah. El verdadero shukr incluye sentir gratitud en el corazón, expresarla con palabras y usar bien las bendiciones."
   },
   {
     "id": "sirah",
-    "term": "sira",
-    "arabicText": "سيرة",
-    "transliteration": "SEE-rah",
-    "definition": "La biografía y la historia de vida del profeta Mahoma. El estudio de la sirah ayuda a los musulmanes a comprender el Corán y el carácter del Profeta.",
-    "seeAlso": ["hadith", "sunnah", "quran"]
+    "term": "Sirah",
+    "definition": "La biografía y la historia de la vida del Profeta Muhammad. Estudiar la sirah ayuda a los musulmanes a entender el Corán y el carácter del Profeta."
   },
   {
     "id": "suhoor",
     "term": "Suhoor",
-    "arabicText": "سحور",
-    "transliteration": "su-HOOR",
-    "definition": "La comida antes del amanecer que se come antes de que comience el ayuno. Es recomendable y ayuda a aportar fuerzas para el día de ayuno.",
-    "seeAlso": ["sawm", "ramadan", "iftar"]
+    "definition": "La comida antes del alba que se toma antes de empezar el ayuno. Es recomendable y ayuda a tener fuerzas durante el día de ayuno."
   },
   {
     "id": "sunnah",
     "term": "Sunna",
-    "arabicText": "سنة",
-    "transliteration": "SOON-nah",
-    "definition": "Las enseñanzas, prácticas y forma de vida del Profeta Muhammad (la paz sea con él). Seguir la Sunnah ayuda a los musulmanes a comprender cómo aplicar el Corán en situaciones cotidianas. Cubre todo, desde la oración hasta la bondad y los hábitos diarios.",
-    "seeAlso": ["hadith", "quran"]
+    "definition": "Las enseñanzas, prácticas y forma de vida del Profeta Muhammad (la paz sea con él). Seguir la sunna muestra a los musulmanes cómo poner en práctica el Corán. Abarca por igual la oración, los modales y los pequeños hábitos de cada día."
   },
   {
     "id": "surah",
     "term": "Sura",
-    "arabicText": "سورة",
-    "transliteration": "SOO-rah",
-    "definition": "Un capítulo del Corán. Hay 114 suras en total, que varían en extensión desde unos pocos versos hasta varias páginas. Muchos nuevos musulmanes comienzan aprendiendo suras más cortas del final del Corán para usarlas en sus oraciones diarias.",
-    "seeAlso": ["quran", "ayah", "tafsir"]
+    "definition": "Un capítulo del Corán. Hay 114 suras en total, desde unos pocos versículos hasta varias páginas. Muchos nuevos musulmanes empiezan aprendiendo suras cortas del final del Corán para usarlas en sus oraciones diarias."
   },
   {
     "id": "tafsir",
-    "term": "tafsir",
-    "arabicText": "تفسير",
-    "transliteration": "taf-SEER",
-    "definition": "La explicación e interpretación académica del Corán. Tafsir te ayuda a comprender el contexto, el significado y las lecciones detrás de cada verso. Leer un tafsir de confianza junto con el Corán puede enriquecer mucho tu estudio.",
-    "seeAlso": ["quran", "ayah", "surah"]
+    "term": "Tafsir",
+    "definition": "La explicación y la interpretación del Corán por parte de los sabios. El tafsir le da el contexto, el significado y las lecciones de un versículo. Leer un tafsir de confianza junto al Corán le ahorrará mucha confusión."
   },
   {
     "id": "taharah",
     "term": "Taharah",
-    "arabicText": "طهارة",
-    "transliteration": "ta-HAA-rah",
-    "definition": "Pureza y limpieza ritual requeridas o fomentadas para el culto. Incluye la purificación a través del wudu, el ghusl y mantener limpio el cuerpo, la ropa y el lugar.",
-    "seeAlso": ["wudu", "ghusl", "salah"]
+    "definition": "La pureza ritual y la limpieza obligatorias o recomendadas para la adoración. Incluye la purificación con el wudu y el ghusl, y mantener limpios el cuerpo, la ropa y el lugar."
   },
   {
     "id": "tajweed",
     "term": "Tajweed",
-    "arabicText": "تجويد",
-    "transliteration": "taj-WEED",
-    "definition": "El conjunto de reglas para pronunciar correctamente las letras y palabras del Corán durante la recitación. Aprender tajweed es un proceso gradual y muchos musulmanes lo estudian con el tiempo. No te preocupes por la perfección al principio.",
-    "seeAlso": ["quran", "surah"]
+    "definition": "El conjunto de reglas para pronunciar correctamente las letras y las palabras del Corán al recitarlo. Aprender tajweed es un proceso gradual, y muchos musulmanes lo estudian con el tiempo. No se preocupe por la perfección al principio."
   },
   {
     "id": "takbir",
-    "term": "takbir",
-    "arabicText": "تكبير",
-    "transliteration": "tak-BEER",
-    "definition": "Decir 'Allahu Akbar' ('Alá es el Más Grande'). Aparece durante la oración y muchos otros actos de adoración.",
-    "seeAlso": ["salah", "eid"]
+    "term": "Takbir",
+    "definition": "Decir 'Allahu Akbar' ('Allah es el más grande'). Aparece a lo largo de la oración y en muchos otros actos de adoración."
   },
   {
     "id": "taqwa",
     "term": "Taqwa",
-    "arabicText": "تقوى",
-    "transliteration": "taq-WAA",
-    "definition": "Conciencia de Dios, atención plena a Allah y conciencia protectora que lleva a la persona a obedecerlo y evitar el pecado. Es uno de los objetivos centrales de la vida espiritual islámica.",
-    "seeAlso": ["iman", "sawm", "ihsan"]
+    "definition": "La conciencia de Dios, tener presente a Allah, una atención protectora que lleva a la persona a obedecerle y a evitar el pecado. Es uno de los objetivos centrales de la vida espiritual islámica."
   },
   {
     "id": "tashahhud",
     "term": "Tashahhud",
-    "arabicText": "تشهد",
-    "transliteration": "ta-shah-HUD",
-    "definition": "El testimonio sentado recitado durante el salah. Incluye palabras de saludo, testimonio de fe y oraciones al Profeta.",
-    "seeAlso": ["salah", "rakah"]
+    "definition": "El testimonio que se recita sentado durante la salah. Incluye palabras de saludo, el testimonio de fe y súplicas por el Profeta."
   },
   {
     "id": "tawbah",
     "term": "Tawbah",
-    "arabicText": "توبة",
-    "transliteration": "TAW-bah",
-    "definition": "Arrepentimiento o volver sinceramente a Allah después de cometer un error. El Islam enseña que Alá siempre está dispuesto a perdonar. Hacer tawbah simplemente significa reconocer el error, sentir un arrepentimiento genuino y tener la intención de no repetirlo.",
-    "seeAlso": ["dua", "allah", "iman"]
+    "definition": "El arrepentimiento, o volver sinceramente a Allah después de un error. El islam enseña que Allah siempre está dispuesto a perdonar. Hacer tawbah significa simplemente reconocer el error, lamentarlo de verdad y tener la intención de no repetirlo."
   },
   {
     "id": "tawhid",
     "term": "Tawhid",
-    "arabicText": "توحيد",
-    "transliteration": "taw-HEED",
-    "definition": "La unidad absoluta de Allah y seleccionarlo solo para la adoración. Es la base de la creencia islámica.",
-    "seeAlso": ["allah", "aqeedah", "shirk"]
+    "definition": "La unicidad absoluta de Allah, y dedicarle solo a Él la adoración. Es la base de la creencia islámica."
   },
   {
     "id": "ummah",
-    "term": "Ummá",
-    "arabicText": "أمة",
-    "transliteration": "UM-mah",
-    "definition": "La comunidad musulmana mundial unida por la fe. El término destaca la responsabilidad compartida, la pertenencia y la hermandad.",
-    "seeAlso": ["muslim", "masjid", "jumuah"]
+    "term": "Ummah",
+    "definition": "La comunidad musulmana mundial, unida por una fe compartida. Vaya donde vaya, los demás musulmanes deben tratarle como a un hermano o una hermana y sentir cierta responsabilidad por usted."
   },
   {
     "id": "umrah",
-    "term": "Umrá",
-    "arabicText": "عمرة",
-    "transliteration": "UM-rah",
-    "definition": "Una peregrinación voluntaria a La Meca que se puede realizar en cualquier época del año, a diferencia del Hajj que tiene fechas fijas. Es una peregrinación más corta y menos elaborada pero es una experiencia profundamente espiritual.",
-    "seeAlso": ["hajj", "masjid"]
+    "term": "Umrah",
+    "definition": "Una peregrinación voluntaria a La Meca que se puede hacer en cualquier época del año, a diferencia del hajj, que tiene fechas fijas. Es más corta y sencilla que el hajj, aunque a muchas personas les conmueve igual."
   },
   {
     "id": "wajib",
-    "term": "wajib",
-    "arabicText": "واجب",
-    "transliteration": "WAA-jib",
-    "definition": "Un acto obligatorio, especialmente en la terminología hanafí. Es similar a una obligación, aunque algunos estudiosos la distinguen del fard por la fuerza de la evidencia.",
-    "seeAlso": ["fard", "salah"]
+    "term": "Wajib",
+    "definition": "Un acto obligatorio, sobre todo en la terminología hanafí. Es parecido a una obligación, aunque algunos sabios lo distinguen del fard por la fuerza de las pruebas."
   },
   {
     "id": "witr",
-    "term": "witr",
-    "arabicText": "وتر",
-    "transliteration": "WIT-r",
-    "definition": "Una oración impar realizada después de Isha, a menudo como oración final de la noche. Es especialmente enfatizado y amado en la práctica islámica.",
-    "seeAlso": ["salah", "isha", "nafl"]
+    "term": "Witr",
+    "definition": "Una oración de número impar de rak'ahs que se hace después de Isha, a menudo como la última oración de la noche. Es muy recomendable, y muchos musulmanes le tienen mucho aprecio."
   },
   {
     "id": "wudu",
-    "term": "Wudú",
-    "arabicText": "وضوء",
-    "transliteration": "woo-DOO",
-    "definition": "El lavado ritual se realiza antes de la oración. Implica lavarse las manos, la boca, la nariz, la cara, los brazos, limpiarse la cabeza y lavarse los pies en un orden específico. Wudu es una preparación calmante que te ayuda a pasar a un estado de oración.",
-    "seeAlso": ["salah", "ghusl", "niyyah"]
+    "term": "Wudu",
+    "definition": "El lavado ritual que se hace antes de la oración. Consiste en lavarse las manos, la boca, la nariz, la cara y los brazos, pasar la mano por la cabeza y lavarse los pies, en ese orden. El propio lavado tranquiliza y le ayuda a serenarse antes de rezar."
   },
   {
     "id": "zakat",
-    "term": "zakat",
-    "arabicText": "زكاة",
-    "transliteration": "za-KAAT",
-    "definition": "Donaciones caritativas anuales obligatorias, calculadas como el 2,5% de la riqueza calificada de un musulmán. Es uno de los cinco pilares del Islam y sirve para purificar la riqueza y al mismo tiempo ayudar a los necesitados. Solo se aplica una vez que se alcanza un umbral mínimo de riqueza.",
-    "seeAlso": ["sadaqah", "islam"]
+    "term": "Zakat",
+    "definition": "La caridad anual obligatoria, calculada como el 2,5% del patrimonio computable de un musulmán. Es uno de los cinco pilares del islam y sirve para purificar los bienes a la vez que ayuda a quienes lo necesitan. Solo se aplica cuando se alcanza un patrimonio mínimo."
   },
   {
     "id": "zamzam",
-    "term": "zamzam",
-    "arabicText": "زمزم",
-    "transliteration": "ZAM-zam",
-    "definition": "El agua bendita del pozo en La Meca, cerca de la Kaaba. Los musulmanes lo beben con gratitud y, a menudo, con súplica personal.",
-    "seeAlso": ["hajj", "umrah", "kaabah"]
+    "term": "Zamzam",
+    "definition": "El agua bendita del pozo de La Meca, cerca de la Kaaba. Los musulmanes la beben con gratitud y a menudo acompañada de una súplica personal."
   },
   {
     "id": "adab",
-    "term": "adab",
-    "transliteration": "AH-dab",
-    "definition": "Hermosos modales, conducta respetuosa y etiqueta adecuada. Adab determina cómo un musulmán aprende, habla, discrepa, hace preguntas y trata a las personas.",
-    "seeAlso": ["akhlaq", "sunnah", "ihsan"]
+    "term": "Adab",
+    "definition": "Los modales, la conducta respetuosa y la etiqueta. El adab da forma a cómo un musulmán aprende, habla, discrepa, pregunta y trata a la gente."
   },
   {
     "id": "muhammad",
-    "term": "Mahoma",
-    "transliteration": "Muhammad",
-    "definition": "El último Profeta y Mensajero de Allah, la paz sea con él. Los musulmanes lo aman, siguen su Sunnah y conocen su vida como el ejemplo humano más claro del Islam en la práctica.",
-    "seeAlso": ["sunnah", "hadith", "sirah"]
+    "term": "Muhammad",
+    "definition": "El último Profeta y Mensajero de Allah, la paz sea con él. Los musulmanes le aman, siguen su sunna y aprenden su vida como el ejemplo humano más claro del islam en la práctica."
   },
   {
     "id": "rahmah",
-    "term": "Rahmá",
-    "transliteration": "RAH-mah",
-    "definition": "Misericordia, compasión y cuidado amoroso. Los musulmanes usan esta palabra a menudo cuando hablan de la misericordia de Alá y el carácter misericordioso enseñado por el Profeta Muhammad, la paz sea con él.",
-    "seeAlso": ["allah", "akhlaq", "sunnah"]
+    "term": "Rahmah",
+    "definition": "La misericordia, la compasión y el cuidado amoroso. Los musulmanes usan mucho esta palabra al hablar de la misericordia de Allah y del carácter misericordioso que enseñó el Profeta Muhammad, la paz sea con él."
   }
 ]
