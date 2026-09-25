@@ -1,6 +1,6 @@
 {
   "id": "dua-and-dhikr",
-  "title": "دعا اور ذکر",
+  "title": "دعا اور اللہ کی یاد (دعا اور ذکر)",
   "description": "ابتدائی افراد کے لیے سادہ ذکر اور دعا، معنی اور ایسے ماخذ کی بنیاد پر جنہیں آپ واقعی جانچ سکیں۔",
   "sections": [
     {
@@ -20,9 +20,21 @@
       "content": "دعا اور ذکر حقیقی سکون دیتے ہیں، لیکن بحران میں پیشہ ورانہ مدد کی جگہ نہیں لیتے۔ اگر آپ کو خود کو نقصان پہنچانے کے خیالات آئیں، آپ غیر محفوظ محسوس کریں، یا روزمرہ کام نہ کر پا رہے ہوں، تو 9-1-1 پر کال کریں، 9-8-8 پر کال یا ٹیکسٹ کریں، یا کسی مستند معالج سے رابطہ کریں۔ ایمان اور عملی مدد ساتھ ساتھ ہیں۔"
     }
   ],
-  "relatedStepIds": ["daily-dua-dhikr", "prayer-on-ramp", "prayer"],
-  "relatedGlossaryIds": ["dua", "dhikr", "sunnah", "salah"],
-  "relatedResourceIds": ["fortress-muslim-dua-book", "quran-com"],
+  "relatedStepIds": [
+    "daily-dua-dhikr",
+    "prayer-on-ramp",
+    "prayer"
+  ],
+  "relatedGlossaryIds": [
+    "dua",
+    "dhikr",
+    "sunnah",
+    "salah"
+  ],
+  "relatedResourceIds": [
+    "fortress-muslim-dua-book",
+    "quran-com"
+  ],
   "sourceIds": [
     "quran-com",
     "sunnah-com",
@@ -30,5 +42,12 @@
     "emergency-911-canada",
     "988-canada"
   ],
-  "reviewStatus": "review-needed"
+  "reviewStatus": "review-needed",
+  "linkCards": [
+    {
+      "label": "غم اور نقصان",
+      "href": "/topics/grief-and-loss",
+      "body": "کسی نقصان پر کیا کہیں، اور فوت ہونے والے کے لیے دعائیں۔"
+    }
+  ]
 }
