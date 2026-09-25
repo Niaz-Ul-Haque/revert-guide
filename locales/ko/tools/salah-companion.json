@@ -1,0 +1,418 @@
+{
+  "prayerSequence": [
+    {
+      "title": "차분하게 준비하기",
+      "posture": "기도 전",
+      "body": "우두를 하고, 깨끗한 곳을 찾고, 끼블라를 향하고, 어떤 기도를 드리는지 마음속으로 정하세요. 의도를 소리 내어 말할 필요는 없어요.",
+      "icon": "check",
+      "sourceIds": ["new-muslim-guide-prayer"]
+    },
+    {
+      "title": "서서 시작하기",
+      "posture": "여는 타크비르",
+      "body": "손을 들고 알라후 아크바르라고 말하세요. 이 말로 기도가 열리고, 그 순간부터 일상의 대화에서 벗어나 예배로 들어가요.",
+      "icon": "star",
+      "sourceIds": ["new-muslim-guide-prayer"]
+    },
+    {
+      "title": "첫 번째 라카의 암송",
+      "posture": "서기",
+      "body": "알파티하를 암송하고, 짧은 장이나 익히고 있는 몇 구절을 암송하세요. 아직 암송하지 못한다면, 아래의 '아직 아랍어로 암송하지 못한다면' 부분에서 그동안 학파들이 허용하는 것을 설명해요.",
+      "icon": "book",
+      "sourceIds": ["quran-al-fatihah-1", "quran-al-ikhlas-112"]
+    },
+    {
+      "title": "허리 굽혔다가 일어서기",
+      "posture": "루쿠",
+      "body": "등을 평평하고 안정되게 하여 허리를 굽히고 루쿠의 문구를 말하세요. 사미알라후 리만 하미다라고 말하며 일어서고, 똑바로 선 뒤 랍바나 와 라칼 함드라고 말하세요. 내려가기 전에 잠시 멈추세요. 빨리 끝내려고 서두르지 마세요.",
+      "icon": "check",
+      "sourceIds": [
+        "hisn-ruku-dhikr",
+        "sunnah-bukhari-rising-from-ruku",
+        "sunnah-bukhari-prayed-badly"
+      ]
+    },
+    {
+      "title": "두 번 엎드리기",
+      "posture": "수주드",
+      "body": "엎드려 수주드의 문구를 말하세요. 일어나 앉아 랍비그피르 리라고 말하고, 같은 문구로 두 번째 엎드리세요. 다음으로 넘어가기 전에 자세마다 차분히 머무르세요.",
+      "icon": "check",
+      "sourceIds": [
+        "hisn-sujud-dhikr",
+        "sunnah-ibnmajah-between-sujud",
+        "sunnah-bukhari-prayed-badly-long"
+      ]
+    },
+    {
+      "title": "두 번째 라카 되풀이하기",
+      "posture": "두 번째 단위",
+      "body": "다시 일어서서 같은 흐름을 되풀이하세요. 알파티하, 짧은 암송, 루쿠, 다시 일어서기, 그리고 두 번 엎드리기예요.",
+      "icon": "chevron-right",
+      "sourceIds": ["new-muslim-guide-prayer"]
+    },
+    {
+      "title": "마지막 말을 위해 앉기",
+      "posture": "타샤후드",
+      "body": "두 번째 라카 뒤에 앉아 타샤후드를 암송하세요. 두 라카 기도에서는 이것이 마지막 앉은 자세이니, 살람 전에 예언자께 드리는 축복(살라와트)을 더하세요. 세 라카나 네 라카 기도에서는 이 첫 앉은 자세가 더 짧고, 그 뒤에 다시 일어서요. 아래의 라카 지도가 앉는 자리를 보여 줘요.",
+      "icon": "info",
+      "sourceIds": [
+        "sunnah-bukhari-tashahhud",
+        "sunnah-bukhari-salawat-ibrahimiyyah"
+      ]
+    },
+    {
+      "title": "살람으로 마치기",
+      "posture": "타슬림",
+      "body": "고개를 오른쪽으로, 그다음 왼쪽으로 돌리며 매번 평화의 인사를 하세요. 이것으로 기도가 끝나요. 일어나 하루로 돌아가기 전에 잠시 앉아 있으세요.",
+      "icon": "star",
+      "sourceIds": ["sunnah-abudawud-taslim"]
+    }
+  ],
+  "recitations": [
+    {
+      "title": "여는 타크비르",
+      "occasion": "기도 시작",
+      "arabic": "اللَّهُ أَكْبَرُ",
+      "transliteration": "Allahu akbar",
+      "meaning": "알라는 가장 위대하시다.",
+      "beginnerNote": "가장 먼저 배울 문구예요. 서두르지 말고 또렷하게 말하세요. 발음은 저절로 따라와요.",
+      "sourceIds": ["new-muslim-guide-prayer"]
+    },
+    {
+      "title": "알파티하",
+      "occasion": "모든 라카",
+      "arabic": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ\nالْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينَ\nالرَّحْمَٰنِ الرَّحِيمِ\nمَالِكِ يَوْمِ الدِّينِ\nإِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ\nاهْدِنَا الصِّرَاطَ الْمُسْتَقِيمَ\nصِرَاطَ الَّذِينَ أَنْعَمْتَ عَلَيْهِمْ غَيْرِ الْمَغْضُوبِ عَلَيْهِمْ وَلَا الضَّالِّينَ",
+      "transliteration": "Bismillahir-Rahmanir-Rahim. Alhamdu lillahi Rabbil-'alamin. Ar-Rahmanir-Rahim. Maliki yawmid-din. Iyyaka na'budu wa iyyaka nasta'in. Ihdinas-siratal-mustaqim. Siratal-ladhina an'amta 'alayhim ghayril-maghdubi 'alayhim wa lad-dallin.",
+      "meaning": "뜻의 번역: 찬미와 경배와 도움은 알라께 속하며, 우리는 그분께 곧은 길로 인도해 달라고 구해요.",
+      "beginnerNote": "알파티하가 첫 번째 진짜 암기 목표예요. 한 구절씩 익히고, 아직 배우는 동안 무엇을 암송할지 선생님께 물어보세요.",
+      "sourceIds": ["quran-al-fatihah-1"]
+    },
+    {
+      "title": "짧은 장의 예: 알이클라스",
+      "occasion": "처음 두 라카에서 알파티하 다음",
+      "arabic": "قُلْ هُوَ اللَّهُ أَحَدٌ\nاللَّهُ الصَّمَدُ\nلَمْ يَلِدْ وَلَمْ يُولَدْ\nوَلَمْ يَكُن لَّهُ كُفُوًا أَحَدٌ",
+      "transliteration": "Qul huwa Allahu ahad. Allahus-samad. Lam yalid wa lam yulad. Wa lam yakun lahu kufuwan ahad.",
+      "meaning": "뜻의 번역: 알라는 한 분이시고, 스스로 충족하시며, 피조물과 다르시고, 그분과 견줄 것은 아무것도 없다.",
+      "beginnerNote": "대부분의 입문자가 여기서 시작해요. 짧고, 네 줄로 알라의 유일하심을 말해요.",
+      "sourceIds": ["quran-al-ikhlas-112"]
+    },
+    {
+      "title": "짧은 장의 예: 알아스르",
+      "occasion": "처음 두 라카에서 알파티하 다음",
+      "arabic": "وَالْعَصْرِ\nإِنَّ الْإِنسَانَ لَفِي خُسْرٍ\nإِلَّا الَّذِينَ آمَنُوا وَعَمِلُوا الصَّالِحَاتِ وَتَوَاصَوْا بِالْحَقِّ وَتَوَاصَوْا بِالصَّبْرِ",
+      "transliteration": "Wal-'asr. Innal-insana lafi khusr. Illal-ladhina amanu wa 'amilus-salihat, wa tawasaw bil-haqqi wa tawasaw bis-sabr.",
+      "meaning": "뜻의 번역: 사람은 손실 속에 있으나, 믿고, 선을 행하고, 진리와 인내를 서로 권하는 이들은 예외이다.",
+      "beginnerNote": "한 번에 짧은 장 하나씩 익히세요. 여러 장을 서둘러 넘기기보다 믿을 만한 낭송자의 소리를 먼저 듣는 게 더 도움이 돼요.",
+      "sourceIds": ["quran-al-asr-103"]
+    },
+    {
+      "title": "루쿠의 문구",
+      "occasion": "허리를 굽혔을 때",
+      "arabic": "سُبْحَانَ رَبِّيَ الْعَظِيمِ",
+      "transliteration": "Subhana Rabbiyal-'Azim",
+      "meaning": "위대하신 나의 주님께 영광을.",
+      "beginnerNote": "대부분의 안내서는 세 번 말하라고 가르쳐요. 배우는 동안에는 또렷하게 한 번 말하는 것으로 시작해도 괜찮아요. 세부 사항은 선생님께 물어보세요.",
+      "sourceIds": ["hisn-ruku-dhikr"]
+    },
+    {
+      "title": "허리 굽힌 자세에서 일어서며",
+      "occasion": "루쿠에서 일어날 때",
+      "arabic": "سَمِعَ اللَّهُ لِمَنْ حَمِدَهُ\nرَبَّنَا وَلَكَ الْحَمْدُ",
+      "transliteration": "Sami'a Allahu liman hamidah. Rabbana wa lakal-hamd.",
+      "meaning": "알라께서는 그분을 찬미하는 이의 말을 들으신다. 우리 주님, 모든 찬미는 당신께 있나이다.",
+      "beginnerNote": "첫 줄은 일어서면서, 둘째 줄은 똑바로 선 뒤에 말하세요. '와' 없이 '랍바나 라칼 함드'라고 하는 것도 듣게 될 거예요. 두 문구 모두 하디스에 있어요.",
+      "sourceIds": ["sunnah-bukhari-rising-from-ruku"]
+    },
+    {
+      "title": "수주드의 문구",
+      "occasion": "엎드렸을 때",
+      "arabic": "سُبْحَانَ رَبِّيَ الْأَعْلَى",
+      "transliteration": "Subhana Rabbiyal-A'la",
+      "meaning": "가장 높으신 나의 주님께 영광을.",
+      "beginnerNote": "처음 몇 번은 수주드가 낯설게 느껴져요. 몸이 편한 속도로 움직이고, 엎드린 뒤 잠시 머무르며 문구를 익히세요. 느린 건 잘못이 아니에요.",
+      "sourceIds": ["hisn-sujud-dhikr"]
+    },
+    {
+      "title": "두 번 엎드리는 사이에 앉아서",
+      "occasion": "첫 번째와 두 번째 수주드 사이",
+      "arabic": "رَبِّ اغْفِرْ لِي",
+      "transliteration": "Rabbighfir li",
+      "meaning": "나의 주님, 저를 용서하소서.",
+      "beginnerNote": "두 단어이고, 예언자께서 되풀이하셨어요. 한두 번 말하세요. 원한다면 나중에 선생님이 더 긴 문구를 보여 줄 수 있어요.",
+      "sourceIds": [
+        "sunnah-ibnmajah-between-sujud",
+        "sunnah-abudawud-ruku-sujud-dhikr"
+      ]
+    },
+    {
+      "title": "타샤후드",
+      "occasion": "앉을 때마다: 두 번째 라카 뒤와 마지막에",
+      "arabic": "التَّحِيَّاتُ لِلَّهِ وَالصَّلَوَاتُ وَالطَّيِّبَاتُ\nالسَّلَامُ عَلَيْكَ أَيُّهَا النَّبِيُّ وَرَحْمَةُ اللَّهِ وَبَرَكَاتُهُ\nالسَّلَامُ عَلَيْنَا وَعَلَى عِبَادِ اللَّهِ الصَّالِحِينَ\nأَشْهَدُ أَنْ لَا إِلَٰهَ إِلَّا اللَّهُ\nوَأَشْهَدُ أَنَّ مُحَمَّدًا عَبْدُهُ وَرَسُولُهُ",
+      "transliteration": "At-tahiyyatu lillahi was-salawatu wat-tayyibat. As-salamu 'alayka ayyuhan-Nabiyyu wa rahmatullahi wa barakatuh. As-salamu 'alayna wa 'ala 'ibadillahis-salihin. Ash-hadu an la ilaha illallah, wa ash-hadu anna Muhammadan 'abduhu wa rasuluh.",
+      "meaning": "모든 경의와 기도와 좋은 것은 알라께 속합니다. 예언자여, 당신께 평안과 알라의 자비와 축복이 있기를. 우리와 알라의 바른 종들에게 평안이 있기를. 나는 알라 외에 신이 없음을 증언하며, 무함마드가 그분의 종이자 사도임을 증언합니다.",
+      "beginnerNote": "이븐 마스우드가 전한 문구예요. 다른 진본 전승에서 조금 다른 문구를 들을 수도 있으니 선생님을 따르세요. 한 줄씩 익히세요.",
+      "sourceIds": ["sunnah-bukhari-tashahhud"]
+    },
+    {
+      "title": "예언자께 드리는 축복 (살라와트)",
+      "occasion": "마지막 앉은 자세, 타샤후드 다음",
+      "arabic": "اللَّهُمَّ صَلِّ عَلَى مُحَمَّدٍ وَعَلَى آلِ مُحَمَّدٍ\nكَمَا صَلَّيْتَ عَلَى إِبْرَاهِيمَ وَعَلَى آلِ إِبْرَاهِيمَ\nإِنَّكَ حَمِيدٌ مَجِيدٌ\nاللَّهُمَّ بَارِكْ عَلَى مُحَمَّدٍ وَعَلَى آلِ مُحَمَّدٍ\nكَمَا بَارَكْتَ عَلَى إِبْرَاهِيمَ وَعَلَى آلِ إِبْرَاهِيمَ\nإِنَّكَ حَمِيدٌ مَجِيدٌ",
+      "transliteration": "Allahumma salli 'ala Muhammadin wa 'ala ali Muhammad, kama sallayta 'ala Ibrahima wa 'ala ali Ibrahim, innaka Hamidun Majid. Allahumma barik 'ala Muhammadin wa 'ala ali Muhammad, kama barakta 'ala Ibrahima wa 'ala ali Ibrahim, innaka Hamidun Majid.",
+      "meaning": "알라여, 이브라힘과 이브라힘의 가족에게 자비를 내리셨듯이 무함마드와 무함마드의 가족에게 자비를 내리소서. 당신은 찬미받으시고 영광스러우신 분이십니다. 알라여, 이브라힘과 이브라힘의 가족에게 축복을 내리셨듯이 무함마드와 무함마드의 가족에게 축복을 내리소서. 당신은 찬미받으시고 영광스러우신 분이십니다.",
+      "beginnerNote": "마지막 앉은 자세에서 타샤후드 다음, 살람 전에 말하세요. 더 긴 기도의 첫 앉은 자세에서도 말하는지는 학파마다 다르니 선생님께 물어보세요.",
+      "sourceIds": ["sunnah-bukhari-salawat-ibrahimiyyah"]
+    },
+    {
+      "title": "살람",
+      "occasion": "기도의 끝",
+      "arabic": "السَّلَامُ عَلَيْكُمْ وَرَحْمَةُ اللَّهِ",
+      "transliteration": "As-salamu 'alaykum wa rahmatullah",
+      "meaning": "그대에게 평안과 알라의 자비가 있기를.",
+      "beginnerNote": "이 말로 기도를 마쳐요. 양쪽으로 고개를 부드럽게 돌리세요. 크게 움직일 필요는 없어요.",
+      "sourceIds": ["sunnah-abudawud-taslim"]
+    }
+  ],
+  "cannotReciteYet": [
+    "배우는 동안에도 계속 기도하세요. 아래 출처의 학자들은 새 무슬림이 할 수 있는 만큼으로 기도하고 나머지는 시간을 두고 배운다고 말해요.",
+    "널리 가르치는 방법 하나는 암송 대신 짧은 아랍어 기억의 문구를 말하는 거예요. 수브하날라(알라께 영광을), 알함두릴라(알라께 찬미를), 라 일라하 일랄라(알라 외에 신은 없다), 알라후 아크바르(알라는 가장 위대하시다), 라 하울라 와 라 꿋와타 일라 빌라(알라 외에는 어떤 힘도 능력도 없다)예요. 예언자께서는 꾸란을 조금도 외우지 못한다고 말한 사람에게 이 말들을 가르치셨어요 (Sunan Abi Dawud 832, 알알바니가 하산으로 평가).",
+    "SeekersGuidance는 이 기억의 문구가 하나피와 샤피이 학파 모두에서 유효하므로 더 신중한 선택이라고 말해요.",
+    "하나피 학파는 아직 아랍어로 암송하지 못하는 사람이 뜻의 번역을 암송하는 것도 인정해요.",
+    "샤피이 학파는 번역을 인정하지 않아요. 배우는 사람이 기도 중에 무스하프(인쇄된 꾸란)를 보고 알파티하를 읽는 것을 허용해요.",
+    "말리키와 한발리 학파는 다른 언어로 하는 암송을 인정하지 않아요.",
+    "기도 중에 책이나 화면을 보고 읽는 것 자체도 견해가 갈리는 부분이에요. 하나피 학파는 기도 중에 꾸란을 들고 읽는 것을 금지에 가깝게 꺼려지는 것(마크루흐 타흐리만)으로 봐요.",
+    "그동안 알파티하를 한 구절씩, 그다음 짧은 장 하나를 익히세요. 힘겹게 암송하는 사람은 두 배의 보상을 받아요 (Sahih Muslim 798a).",
+    "내 공동체가 이 중 어떤 방법을 따르는지 지역 이맘에게 물어보세요."
+  ],
+  "invalidatesPrayer": [
+    "화장실 사용이나 방귀처럼 우두가 깨지는 것.",
+    "기도 중에 일부러 먹거나, 마시거나, 관계없는 말을 하는 것.",
+    "의무라는 것을 알면서 필수 자세, 조건, 암송을 빠뜨리는 것.",
+    "아무 이유 없이 일부러 기도를 끝내거나 기도에서 돌아서는 것.",
+    "실수, 잊음, 질병, 생리, 여행, 장애에는 모두 자격을 갖춘 선생님과 살펴볼 만한 세부 사항이 있어요."
+  ],
+  "commonCorrections": [
+    {
+      "title": "작은 실수를 할 때마다 처음부터 다시 해요.",
+      "body": "기도를 차분하게 마치고, 그 실수에 대해서는 나중에 물어보세요. 대개 실수보다 당황하는 것이 더 큰 대가를 치르게 해요."
+    },
+    {
+      "title": "발음이 부끄러워요.",
+      "body": "발음은 오직 되풀이로만 나아져요. 알라께서는 애쓰지 않는 사람과 아직 배우는 사람의 차이를 아세요."
+    },
+    {
+      "title": "영상마다 손 위치가 달라요.",
+      "body": "그런 차이는 대개 모두 유효하고, 어느 것도 기도를 멈출 이유가 아니에요. 믿을 만한 입문 방법 하나를 배우고, 다시 바꾸기 전에 선생님께 물어보세요."
+    },
+    {
+      "title": "어색해서 서둘러요.",
+      "body": "자세 하나하나가 분명히 구분될 때까지 속도를 늦추세요. 짧고 차분한 기도가 빠르고 불안한 기도보다 더 많은 걸 가르쳐 줘요."
+    }
+  ],
+  "mainVideo": {
+    "videoId": "4zr6tNgmKSI",
+    "title": "하루 다섯 번의 기도를 모두 드리는 법",
+    "channel": "Green Lane Masjid",
+    "duration": "33:57",
+    "note": "아스르는 두흐르와 같은 방식으로 드리기 때문에 아스르 부분은 짧아요. 영상은 한 학파의 실천을 따르며, 학파 간의 작은 차이는 자연스러운 거예요. 자막은 자동 생성된 것이에요.",
+    "sourceIds": ["video-greenlane-five-prayers"],
+    "chapters": [
+      {
+        "label": "기도 전에",
+        "start": 71
+      },
+      {
+        "label": "다섯 번의 기도",
+        "start": 143
+      },
+      {
+        "label": "문구와 라카 개요",
+        "start": 167
+      },
+      {
+        "label": "파즈르",
+        "start": 228
+      },
+      {
+        "label": "두흐르",
+        "start": 687
+      },
+      {
+        "label": "아스르",
+        "start": 1351
+      },
+      {
+        "label": "마그립",
+        "start": 1378
+      },
+      {
+        "label": "이샤",
+        "start": 1979
+      }
+    ]
+  },
+  "phraseVideos": [
+    {
+      "videoId": "Fpa-c_M_V7Q",
+      "title": "한 라카의 모든 문구",
+      "channel": "Islamwise",
+      "duration": "10:29",
+      "sourceIds": ["video-islamwise-rakah-recap"]
+    },
+    {
+      "videoId": "n0aGnzSY_hs",
+      "title": "알파티하를 배우는 동안 말하는 문구",
+      "channel": "Islamwise",
+      "duration": "7:01",
+      "note": "배우는 동안 이 문구를 쓰는 것은 학파들 사이의 한 가지 견해예요. 암송하기 전의 기도에 관한 부분을 참고하세요.",
+      "sourceIds": ["video-islamwise-comprehensive-remembrance"]
+    }
+  ],
+  "phraseSeries": {
+    "label": "YouTube의 Islamwise 전체 시리즈",
+    "body": "한 번에 한 문구씩 익히는 짧은 강의 29개로, 알파티하를 한 구절씩, 그리고 타샤후드와 살라와트를 담고 있어요.",
+    "href": "https://www.youtube.com/playlist?list=PLW9v5fexkmD_8i507k8oL2x9n0vJeP1BT",
+    "sourceIds": ["video-islamwise-prayer-series"]
+  },
+  "shapeImage": {
+    "src": "/graphics/rakah-steps.svg",
+    "alt": "얼굴 없는 일곱 사람이 한 라카를 순서대로 보여 줘요. 손을 들고 서기, 서서 암송하기, 허리 굽히기, 똑바로 서기, 엎드리기, 앉기, 다시 엎드리기이고, 각각 짧은 문구가 적혀 있어요.",
+    "caption": "여는 타크비르부터 두 번째 엎드림까지의 한 라카.",
+    "credit": "그림: Revert Guide."
+  },
+  "tashahhudPlacement": {
+    "items": [
+      "파즈르, 2라카: 두 번째 라카 뒤에 한 번 앉아요. 마지막 앉은 자세예요. 타샤후드, 살라와트, 그다음 살람.",
+      "마그립, 3라카: 두 번째 라카 뒤에 첫 번째로 앉아 타샤후드를 하고, 세 번째 라카를 위해 일어서요. 마지막 앉은 자세는 세 번째 라카 뒤에 와요. 타샤후드, 살라와트, 그다음 살람.",
+      "두흐르, 아스르, 이샤, 4라카: 두 번째 라카 뒤에 첫 번째로 앉아 타샤후드를 하고, 세 번째와 네 번째 라카를 위해 일어서요. 마지막 앉은 자세는 네 번째 라카 뒤에 와요.",
+      "처음 두 라카에서는 알파티하와 짧은 장을 암송해요. 세 번째와 네 번째 라카에서는 알파티하만 암송해요."
+    ],
+    "sourceIds": [
+      "sunnah-bukhari-tashahhud",
+      "islamic-foundation-ireland-prayer-booklet"
+    ],
+    "image": {
+      "src": "/graphics/rakah-map-tashahhud.svg",
+      "alt": "다섯 기도마다 라카 하나에 점 하나씩 찍힌 줄이 있고, 두 번째 라카 뒤와 마지막에 앉은 사람 모양이 있어요. 파즈르는 점 2개, 두흐르 4개, 아스르 4개, 마그립 3개, 이샤 4개예요.",
+      "caption": "기도마다 타샤후드를 위해 앉는 자리.",
+      "credit": "그림: Revert Guide."
+    }
+  },
+  "sujudAlSahw": {
+    "summary": "기도의 일부를 잊었거나, 실수로 무언가를 더했거나, 라카 수를 잊었다면 간단히 바로잡는 방법이 있어요. 잊음의 엎드림이라는 뜻의 수주드 알사후라는 두 번의 추가 엎드림이에요. 많은 실수는 기도를 처음부터 다시 할 필요가 없어요.",
+    "steps": [
+      "몇 라카를 했는지 확실하지 않다면, 확실한 수, 곧 적은 쪽으로 정하고 거기서부터 기도를 마치세요.",
+      "기도 끝 무렵에, 모든 라카에서 엎드리는 것과 같은 방식으로, 사이에 잠깐 앉으며 두 번 더 엎드리세요.",
+      "진본 전승은 이 두 번의 엎드림을 마치는 살람 전과 후 모두에서 언급해요. 학파마다 방법이 조금씩 다르니, 선생님이 쓰는 방법을 배우세요.",
+      "이맘 뒤에서 기도하고 있다면 이맘을 따르고 따로 더하지 마세요."
+    ],
+    "referral": "처음에는 차분하게 기도를 마치고, 그 실수에 대해서는 나중에 선생님께 물어보세요. 처음 몇 달 안에 모든 규칙을 알기를 기대하는 사람은 없어요.",
+    "sourceIds": [
+      "sunnah-muslim-sahw-doubt",
+      "sunnah-bukhari-sahw-after-salam",
+      "seekersguidance-sajda-sahw",
+      "newmuslims-prostration-forgetfulness"
+    ]
+  },
+  "prayerTable": {
+    "rows": [
+      {
+        "name": "새벽 기도 (파즈르)",
+        "window": "새벽의 첫 빛부터 해돋이까지.",
+        "units": "2"
+      },
+      {
+        "name": "한낮 기도 (두흐르)",
+        "window": "정오 직후, 해가 가장 높은 곳을 지난 때부터 아스르가 시작될 때까지.",
+        "units": "4"
+      },
+      {
+        "name": "오후 기도 (아스르)",
+        "window": "오후 중반부터 해 질 때까지. 해가 노랗게 변할 때까지 미루지 않도록 해 보세요.",
+        "units": "4"
+      },
+      {
+        "name": "해 질 녘 기도 (마그립)",
+        "window": "해가 진 직후부터 저녁노을이 사라질 때까지.",
+        "units": "3"
+      },
+      {
+        "name": "밤 기도 (이샤)",
+        "window": "저녁노을이 사라진 때부터 한밤중까지.",
+        "units": "4"
+      }
+    ],
+    "note": "시간대 안이라면 언제든 기도할 수 있으니 분 단위로 정확할 필요는 없어요. 아스르가 시작되는 때(하나피 학파는 더 늦게 시작해요)와 이샤의 가장 늦은 시간은 학파마다 달라요. 여름에는 캐나다 대부분 지역에서 파즈르와 이샤에 조정된 규칙을 쓰니, 기도 시간 페이지나 지역 모스크의 시간표를 이용하세요.",
+    "sourceIds": [
+      "sunnah-muslim-prayer-times",
+      "quran-4-103-appointed-times",
+      "newmuslims-prayer-for-beginners"
+    ],
+    "image": {
+      "src": "/graphics/prayer-day-timeline.svg",
+      "alt": "새벽부터 밤까지 하루의 시간선에 다섯 기도가 순서대로 표시되어 있어요. 새벽의 파즈르, 정오 뒤의 두흐르, 오후의 아스르, 해 진 뒤의 마그립, 밤의 이샤이고, 각각 라카 수가 적혀 있어요.",
+      "caption": "하루에 걸친 다섯 번의 기도. 정확한 시간은 해를 따라 매일 바뀌어요.",
+      "credit": "그림: Revert Guide."
+    }
+  },
+  "notOwed": {
+    "text": "무슬림이 되기 전 여러 해의 기도는 갚아야 할 것이 아니에요. 예언자께서는 이슬람이 그 이전의 것을 지운다고 말씀하셨으니, 오늘부터 시작하면 돼요. 일부 학자는 기도가 의무라는 것을 아직 몰랐던 개종자는 그 기간도 보충할 책임이 없다고 덧붙여요. 이것이 나에게 어떻게 적용되는지 확실하지 않다면 선생님께 물어보세요.",
+    "sourceIds": [
+      "sunnah-muslim-islam-wipes-out",
+      "seekersguidance-converts-missed-prayers"
+    ]
+  },
+  "seatedPrayer": {
+    "summary": "통증, 질병, 장애 때문에 서기, 허리 굽히기, 엎드리기가 어렵다면 몸이 허락하는 방식으로 기도하세요. 예언자께서는 아픈 동료에게 서서 기도하고, 할 수 없으면 앉아서, 그것도 할 수 없으면 옆으로 누워서 기도하라고 하셨어요.",
+    "points": [
+      "설 수 없거나, 서면 실제로 통증이나 어지럼증이 생긴다면 앉아서 기도하세요. 바닥에 앉아도 되고, 바닥이 힘들다면 의자에 앉아도 돼요.",
+      "여전히 엎드릴 수 있다면, 우리가 연결한 하나피 답변은 바닥에 앉아 평소처럼 엎드리는 쪽을 더 좋게 봐요. 엎드릴 수 없다면 대신 고개를 숙이세요. 허리 굽히기에서는 조금, 엎드리기에서는 조금 더요.",
+      "앉을 수 없다면 할 수 있는 만큼 끼블라를 향해 누워서 기도하세요.",
+      "짧은 병과 오래가는 상태는 조금 다르게 다루고, 의자를 쓰는 사람이 어떻게 허리를 굽히는지, 줄에서 의자를 어디에 두는지 같은 세부 사항은 학파마다 달라요."
+    ],
+    "referral": "지역 이맘이나 선생님이 한 번 기도하는 모습을 보고 내 몸에 맞는 방법을 정하도록 도와줄 수 있어요. 기도가 인정받으려고 통증을 참고 버틸 필요는 전혀 없어요.",
+    "sourceIds": [
+      "sunnah-bukhari-pray-standing-sitting",
+      "seekersguidance-praying-sitting",
+      "seekersguidance-sick-person-prayer"
+    ],
+    "video": {
+      "videoId": "3geUbODPg5U",
+      "title": "신체 장애가 있을 때 기도하는 법",
+      "channel": "Green Lane Masjid",
+      "duration": "6:06",
+      "note": "바닥에서, 의자에서, 허리를 굽히지 않고 서서, 침대에 누워서 기도하는 모습을 보여 줘요.",
+      "sourceIds": ["video-greenlane-physical-disability"],
+      "chapters": [
+        {
+          "label": "바닥에 앉아서",
+          "start": 66
+        },
+        {
+          "label": "의자에서",
+          "start": 171
+        },
+        {
+          "label": "허리를 굽힐 수 없을 때",
+          "start": 215
+        },
+        {
+          "label": "침대에 누워서",
+          "start": 279
+        }
+      ]
+    },
+    "extraLink": {
+      "label": "의자에 앉아 기도하는 법 (샤이크 아심 알하킴, 3:25)",
+      "body": "모스크의 기도 줄에서 의자로 기도하는 모습을 포함한 짧은 두 번째 시연이에요.",
+      "href": "https://www.youtube.com/watch?v=nNKUwHi99Qo",
+      "sourceIds": ["video-assim-chair-prayer"]
+    }
+  },
+  "cannotReciteSourceIds": [
+    "sunnah-abudawud-dhikr-instead",
+    "seekersguidance-recite-in-english",
+    "seekersguidance-reading-from-mushaf",
+    "dar-alifta-new-muslim-fatiha",
+    "sunnah-muslim-two-rewards"
+  ]
+}
