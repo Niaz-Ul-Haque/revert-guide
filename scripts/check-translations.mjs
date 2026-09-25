@@ -64,6 +64,7 @@ const NEVER_TRANSLATE = new Set([
   "stepIds",
   "seeAlso",
   "reviewStatus",
+  "group",
   "url",
   "website",
   "email",
