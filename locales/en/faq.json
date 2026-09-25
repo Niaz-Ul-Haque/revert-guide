@@ -2592,5 +2592,17 @@
     ],
     "reviewStatus": "review-needed",
     "askTeacher": true
+  },
+  {
+    "id": "faq-wor-035",
+    "category": "zakat",
+    "question": "Can I claim my zakat on my Canadian tax return?",
+    "answer": "Often, yes, if you give it to a registered charity and get an official donation receipt. The Canada Revenue Agency's line 34900 covers federal and provincial tax credits for gifts to registered charities and other qualified donees. Money you hand straight to a person, or to a group that is not a qualified donee, does not count. Whether a charity issues a receipt for zakat al-fitr or fidyah depends on the charity, so ask. Keep your receipts with your tax papers, not in this app, and ask a tax preparer if you are unsure. This is general tax information, not tax advice.",
+    "readMore": {
+      "label": "Zakat guide for beginners",
+      "href": "/seasonal/zakat"
+    },
+    "sourceIds": ["cra-line-34900-donations", "cra-charities-listing"],
+    "reviewStatus": "source-checked"
   }
 ]
