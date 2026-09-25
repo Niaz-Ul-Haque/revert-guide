@@ -1,3 +1,4 @@
+import { Fragment, type ReactNode } from "react";
 import { notFound } from "next/navigation";
 import Image from "next/image";
 import Link from "next/link";
@@ -7,6 +8,7 @@ import { Icon } from "@/components/Icon";
 import { AnimateIn } from "@/components/AnimateIn";
 import { SourceTags, SourcesPanel } from "@/components/SourceTags";
 import { VideoEmbed } from "@/components/VideoEmbed";
+import { createGlossaryLinker } from "@/components/GlossaryText";
 import {
   getAllTopics,
   getTopicBySlug,
@@ -27,7 +29,10 @@ import { buildPageMetadata } from "@/lib/metadata";
 import { JsonLd, breadcrumbJsonLd } from "@/components/JsonLd";
 import { localeUrl } from "@/lib/site";
 
-function renderContent(content: string) {
+function renderContent(
+  content: string,
+  linkTerms: (text: string) => ReactNode = (text) => text,
+) {
   const parts = content.split(/(\*\*[^*]+\*\*)/g);
   return parts.map((part, index) => {
     if (part.startsWith("**") && part.endsWith("**")) {
@@ -38,7 +43,7 @@ function renderContent(content: string) {
       );
     }
 
-    return part;
+    return <Fragment key={index}>{linkTerms(part)}</Fragment>;
   });
 }
 
@@ -104,6 +109,11 @@ export default function TopicPage({
     .map((id) => getGlossaryEntryById(id, locale))
     .filter((entry): entry is NonNullable<typeof entry> => entry !== undefined);
 
+  const linkTerms = createGlossaryLinker(
+    glossaryTerms,
+    (id) => localizeHref(locale, `/glossary#${id}`),
+    t("nav.glossary"),
+  );
   const resources = getResourcesByTopicId(topic.id, locale);
   const topicSources = getSourcesByIds(topic.sourceIds ?? [], locale);
   // The tool pages build for every locale now, falling back to English
@@ -224,7 +234,10 @@ export default function TopicPage({
                             aria-hidden="true"
                           />
                           <span>
-                            {renderContent(item.replace(/^-\s*/, ""))}
+                            {renderContent(
+                              item.replace(/^-\s*/, ""),
+                              linkTerms,
+                            )}
                           </span>
                         </li>
                       ))}
@@ -250,7 +263,10 @@ export default function TopicPage({
                             {itemIndex + 1}
                           </span>
                           <span>
-                            {renderContent(item.replace(/^\d+\.\s*/, ""))}
+                            {renderContent(
+                              item.replace(/^\d+\.\s*/, ""),
+                              linkTerms,
+                            )}
                           </span>
                         </li>
                       ))}
@@ -260,7 +276,7 @@ export default function TopicPage({
 
                 return (
                   <p key={paragraph} className="mb-0">
-                    {renderContent(paragraph)}
+                    {renderContent(paragraph, linkTerms)}
                   </p>
                 );
               })}

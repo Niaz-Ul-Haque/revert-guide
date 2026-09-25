@@ -9,6 +9,7 @@ import { Icon } from "@/components/Icon";
 import { AnimateIn } from "@/components/AnimateIn";
 import { SourcesPanel } from "@/components/SourceTags";
 import { VideoEmbed } from "@/components/VideoEmbed";
+import { createGlossaryLinker } from "@/components/GlossaryText";
 import {
   getAllStages,
   getStageById,
@@ -107,6 +108,11 @@ export default function StepPage({
     .map((id) => getGlossaryEntryById(id, locale))
     .filter((entry): entry is NonNullable<typeof entry> => entry !== undefined);
   const stepSources = getSourcesByIds(step.sourceIds ?? [], locale);
+  const linkTerms = createGlossaryLinker(
+    glossaryTerms,
+    (id) => localizeHref(locale, `/glossary#${id}`),
+    t("nav.glossary"),
+  );
 
   return (
     <div className="mx-auto max-w-4xl px-5 py-10">
@@ -162,7 +168,7 @@ export default function StepPage({
             {copy.whyThisStepMatters}
           </h2>
           <p className="text-base leading-relaxed text-textSecondary">
-            {step.whyMatters}
+            {linkTerms(step.whyMatters)}
           </p>
         </section>
       </AnimateIn>
@@ -188,7 +194,7 @@ export default function StepPage({
                 </span>
                 <div className="min-w-0 flex-1">
                   <p className="mb-1 text-base font-semibold text-textPrimary">
-                    {action.text}
+                    {linkTerms(action.text)}
                   </p>
                   {action.subSteps && action.subSteps.length > 0 && (
                     <ul className="mb-0 mt-3 flex flex-col gap-2 pl-0">
@@ -201,7 +207,7 @@ export default function StepPage({
                             className="mt-2 block h-1.5 w-1.5 shrink-0 rounded-full bg-primaryGreen"
                             aria-hidden="true"
                           />
-                          <span>{subStep}</span>
+                          <span>{linkTerms(subStep)}</span>
                         </li>
                       ))}
                     </ul>
@@ -252,7 +258,7 @@ export default function StepPage({
               >
                 <Accordion title={obstacle.problem}>
                   <p className="mb-0 text-sm leading-relaxed text-textSecondary">
-                    {obstacle.solution}
+                    {linkTerms(obstacle.solution)}
                   </p>
                 </Accordion>
               </AnimateIn>
@@ -279,7 +285,7 @@ export default function StepPage({
               >
                 <Accordion title={question.problem}>
                   <p className="mb-0 text-sm leading-relaxed text-textSecondary">
-                    {question.solution}
+                    {linkTerms(question.solution)}
                   </p>
                 </Accordion>
               </AnimateIn>
@@ -307,7 +313,7 @@ export default function StepPage({
                     {note.title}
                   </h3>
                   <p className="mb-0 text-sm leading-relaxed text-textSecondary">
-                    {note.body}
+                    {linkTerms(note.body)}
                   </p>
                 </div>
               ))}
@@ -328,7 +334,7 @@ export default function StepPage({
             <div className="flex flex-col gap-3">
               {step.gentleScripts.map((script) => (
                 <Callout key={script.title} variant="info" title={script.title}>
-                  <p>{script.body}</p>
+                  <p>{linkTerms(script.body)}</p>
                 </Callout>
               ))}
             </div>
@@ -338,7 +344,7 @@ export default function StepPage({
 
       <AnimateIn>
         <Callout variant="tip" title={copy.tinyVersion}>
-          <p>{step.tinyVersion}</p>
+          <p>{linkTerms(step.tinyVersion)}</p>
         </Callout>
       </AnimateIn>
 
@@ -351,7 +357,7 @@ export default function StepPage({
             {copy.whatUnlocksNext}
           </h2>
           <p className="text-base leading-relaxed text-textSecondary">
-            {step.unlocksNext}
+            {linkTerms(step.unlocksNext)}
           </p>
         </section>
       </AnimateIn>
