@@ -189,9 +189,7 @@ function identicalAllowed(value) {
 function compare(en, loc, ctx, p, report) {
   const key = p.length ? p[p.length - 1] : "";
   const pathStr = p.join(".");
-  const neverKey =
-    typeof key === "string" &&
-    (NEVER_TRANSLATE.has(key) || ctx.never.has(key));
+  const neverKey = typeof key === "string" && ctx.never.has(key);
 
   if (typeof en === "string") {
     if (neverKey) {
@@ -267,10 +265,16 @@ function compare(en, loc, ctx, p, report) {
   }
 }
 
+// ui.json holds interface text; only link-like keys are code values there.
+const UI_NEVER = new Set(["href", "url", "email", "phone"]);
+
 function makeCtx(file) {
   return {
     file,
-    never: new Set(FILE_NEVER[file] || []),
+    never:
+      file === "ui.json"
+        ? UI_NEVER
+        : new Set([...NEVER_TRANSLATE, ...(FILE_NEVER[file] || [])]),
     identicalOkField: IDENTICAL_OK_FIELD[file] || new Set(),
   };
 }
@@ -384,7 +388,8 @@ function checkLocale(locale) {
     const loc = readJson(locPath);
     const byId = new Map(loc.map((r) => [r.id, r]));
     const enIds = new Set(en.map((r) => r.id));
-    for (const r of loc) if (!enIds.has(r.id)) findings.idExtra.push(`${file}:${r.id}`);
+    for (const r of loc)
+      if (!enIds.has(r.id)) findings.idExtra.push(`${file}:${r.id}`);
     const ctx = makeCtx(file);
     for (const record of en) {
       const lr = byId.get(record.id);
