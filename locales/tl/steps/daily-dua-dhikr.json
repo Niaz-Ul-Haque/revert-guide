@@ -2,60 +2,51 @@
   "id": "daily-dua-dhikr",
   "slug": "daily-dua-dhikr",
   "stageId": "week-1",
-  "title": "Simulan ang Simple Daily Dua at Dhikr",
-  "whyMatters": "Ang Dua at dhikr ay panatilihing konektado ang iyong puso kay Allah kahit na bago mo pa alam ang maraming mga salitang Arabic. Ang mga ito ay mga simpleng paraan upang alalahanin ang Allah sa panahon ng stress, pasasalamat, at mga karaniwang gawain.",
+  "title": "Magsimula ng simpleng pang-araw-araw na panalangin (dua) at pag-alaala sa Allah (dhikr)",
+  "whyMatters": "Pinananatili kang konektado sa Allah ng dua at dhikr bago ka pa man matuto ng maraming Arabic. Maliliit at madadalang paraan ang mga ito para maalala Siya kapag stressed ka, kapag nagpapasalamat ka, at sa gitna ng isang karaniwang araw.",
   "exactActions": [
     {
-      "text": "Gamitin ang iyong sariling mga salita sa dua",
+      "text": "Gamitin ang sarili mong salita sa dua",
       "subSteps": [
-        "Humingi sa Allah ng patnubay, kapatawaran, pasensya, at mabuting pakikisama.",
+        "Humingi sa Allah ng patnubay, kapatawaran, pagtitiis at mabubuting tao sa paligid mo.",
         "Magsalita sa wikang pinakanaiintindihan mo.",
-        "Panatilihin itong sapat na maikli upang ulitin nang madalas."
+        "Panatilihin itong sapat na maikli para madalas mo itong maulit."
       ]
     },
     {
-      "text": "Pumili ng tatlong simpleng alaala",
+      "text": "Pumili ng tatlong simpleng pag-alaala",
       "subSteps": [
-        "Magsimula sa mga pariralang maaari mong matutunan nang tumpak mula sa isang guro o maaasahang gabay.",
-        "Ulitin ang mga ito pagkatapos ng panalangin, habang naglalakad, o bago matulog.",
-        "Huwag magmadali sa mahabang listahan bago mo malaman kung ano ang ibig sabihin ng mga ito."
+        "Kunin ang mga parirala mula sa isang guro o maaasahang gabay para matutuhan mo ang mga ito nang tama.",
+        "Ulitin ang mga ito pagkatapos magdasal, habang naglalakad, o bago matulog.",
+        "Huwag magtambak ng mahahabang listahan bago mo malaman ang kahulugan ng mga salita."
       ]
     },
     {
-      "text": "Gumamit ng isang tunay na koleksyon ng dua nang maingat",
+      "text": "Gumamit nang maingat ng maaasahang koleksyon ng dua",
       "subSteps": [
-        "Pumili ng mga koleksyon na nagbabanggit ng Quran o hadith na pinagmulan.",
-        "Alamin ang kahulugan bago ang dami.",
-        "Markahan ang anumang hindi pinagkunan bilang isang bagay na ibe-verify bago ibahagi."
+        "Pumili ng mga koleksyong nagbabanggit ng kanilang sanggunian sa Quran o hadith.",
+        "Alamin ang kahulugan ng bawat isa bago magdagdag.",
+        "Kung walang kalakip na sanggunian ang isang bagay, suriin muna ito bago mo ipasa."
       ]
     }
   ],
-  "timeEstimate": "5 minuto araw-araw",
+  "timeEstimate": "5 minuto bawat araw",
   "obstacles": [
     {
       "problem": "Hindi ako marunong ng Arabic",
-      "solution": "Maaari kang gumawa ng dua sa iyong sariling wika. Makakatulong ang transliterasyon sa maikling dhikr, ngunit mahalaga ang kahulugan at katapatan."
+      "solution": "Puwede kang mag-dua sa sarili mong wika. Nakakatulong ang transliterasyon sa maiikling dhikr, pero ang nagdadala rito ay ang pag-alam sa kahulugan at ang taos-pusong pagsabi nito."
     },
     {
-      "problem": "Nakakita ako ng sikat na dua online",
-      "solution": "Huwag ipagpalagay na ang bawat nakabahaging larawan o post ay tunay. Gumamit ng mga mapagkakatiwalaang koleksyon at magtanong sa isang guro kapag hindi malinaw ang pinagmulan."
+      "problem": "May nakita akong sikat na dua online",
+      "solution": "Huwag ipagpalagay na tunay ang bawat ibinahaging larawan o post. Manatili sa maaasahang koleksyon, at magtanong sa guro kapag hindi mo makita kung saan galing ang isang bagay."
     }
   ],
-  "tinyVersion": "Humingi ng patnubay sa Allah sa iyong sariling mga salita minsan ngayon.",
-  "unlocksNext": "Sinusuportahan ng simpleng pag-alaala ang panalangin, pagbabasa ng Quran, at emosyonal na katatagan.",
-  "resourceIds": [
-    "fortress-muslim-dua-book",
-    "quran-com",
-    "new-muslim-academy"
-  ],
-  "relatedGlossaryIds": ["dua", "dhikr", "sunnah", "salah"],
-  "relatedTopicIds": ["dua-and-dhikr", "prayer", "new-muslim-basics"],
+  "tinyVersion": "Isang beses ngayong araw, sa sarili mong salita, hilingin sa Allah na gabayan ka.",
+  "unlocksNext": "Sinusuportahan ng maikling pag-alaala ang pagdarasal mo, ang pagbasa mo ng Quran, at ang katatagan mo sa mas mabibigat na araw.",
   "commonQuestions": [
     {
-      "problem": "Dapat ko bang kabisaduhin ang maraming mga duas kaagad?",
-      "solution": "Hindi. Magsimula sa ilang mapagkakatiwalaang duas o mga alaala, unawain ang mga ito, at dahan-dahang buuin."
+      "problem": "Dapat ko bang isaulo agad ang maraming dua?",
+      "solution": "Hindi. Magsimula sa ilang maaasahang dua o pag-alaala, unawain ang mga ito, at dahan-dahang magdagdag."
     }
-  ],
-  "sourceIds": ["quran-com", "sunnah-com", "darussalam"],
-  "reviewStatus": "review-needed"
+  ]
 }
