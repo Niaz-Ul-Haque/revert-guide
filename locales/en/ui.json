@@ -914,6 +914,11 @@
             "title": "Doubts in faith",
             "body": "You may have doubts about Islam, or second-guess the decision entirely. Faith rises and falls, and questions come with any serious commitment.",
             "help": "Islam tells you to go looking for knowledge. Talk to a mentor who knows the material, read reliable books, or sit in on a study circle. Do not bottle the questions up. Working through them honestly usually leaves faith stronger than it was. Make dua for guidance, and give yourself time."
+          },
+          {
+            "title": "Ramadan and eating disorders",
+            "body": "If you have an eating disorder, or are recovering from one, Ramadan can be a hard month. Fasting can make restriction look normal, hide a relapse, or lead to bingeing at iftar. An eating disorder is an illness, and the illness exemption from fasting covers it.",
+            "help": "Talk to your treatment team before you decide anything about fasting, and ask a scholar privately about your own case. You do not have to prove your faith by fasting against medical advice. You can take part in Ramadan through prayer, Quran, dua, giving and helping at iftar. NEDIC's helpline is listed under support resources below."
           }
         ]
       },
@@ -1089,6 +1094,35 @@
             "warningBody": "The Government of Canada warns that an abuser can monitor your online activity and history, and that there is no sure way to delete all of it. If you are worried, look up help on a device somewhere else, such as at a library or a trusted friend's home.",
             "warningLinkLabel": "Government of Canada: plan for your safety",
             "warningLinkHref": "https://www.canada.ca/en/public-health/services/health-promotion/stop-family-violence/plan-your-safety.html"
+          },
+          {
+            "id": "eating-disorders",
+            "title": "Eating disorders",
+            "items": [
+              {
+                "name": "NEDIC (National Eating Disorder Information Centre)",
+                "desc": "Canada's national helpline for eating disorders, run by University Health Network. Free support by phone, email and live chat. Hours change, so check the website before you call.",
+                "contacts": [
+                  {
+                    "label": "Call toll-free:",
+                    "value": "1-866-633-4220",
+                    "href": "tel:18666334220"
+                  },
+                  {
+                    "label": "Toronto:",
+                    "value": "416-340-4156",
+                    "href": "tel:4163404156"
+                  },
+                  {
+                    "label": "Email:",
+                    "value": "nedic@uhn.ca",
+                    "href": "mailto:nedic@uhn.ca"
+                  }
+                ],
+                "officialHref": "https://nedic.ca/contact/",
+                "checked": "Checked 25 September 2026"
+              }
+            ]
           },
           {
             "id": "ontario",

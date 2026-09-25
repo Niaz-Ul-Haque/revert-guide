@@ -40,6 +40,8 @@ export default function MentalHealthPage({
       "sakeenah-canada",
       "nisa-helpline",
       "nisa-homes",
+      "nedic-contact",
+      "bda-ramadan-eating-disorders",
       "canada-safety-planning",
       "khalil-center",
       "yaqeen-becoming-muslim",
