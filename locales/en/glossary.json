@@ -894,5 +894,170 @@
       "quran-30-30",
       "islam21c-am-i-a-convert-or-a-revert"
     ]
+  },
+  {
+    "id": "istighfar",
+    "term": "Istighfar",
+    "arabicText": "استغفار",
+    "transliteration": "is-tigh-FAAR",
+    "definition": "Asking Allah for forgiveness, most simply by saying astaghfirullah (I ask Allah's forgiveness). The Prophet asked for forgiveness more than seventy times a day, so it is a daily habit, not only something for big mistakes.",
+    "seeAlso": ["tawbah", "dhikr", "dua"],
+    "sourceIds": ["sunnah-bukhari-6307"]
+  },
+  {
+    "id": "ikhlas",
+    "term": "Ikhlas",
+    "arabicText": "إخلاص",
+    "transliteration": "ikh-LAAS",
+    "definition": "Sincerity: doing worship or a good deed for Allah alone, not to be seen or praised by people. Al-Ikhlas is also the name of chapter 112 of the Quran.",
+    "seeAlso": ["niyyah", "ihsan", "taqwa"],
+    "sourceIds": ["quran-98-5", "quran-al-ikhlas-112"]
+  },
+  {
+    "id": "halaqa",
+    "term": "Halaqa",
+    "arabicText": "حلقة",
+    "transliteration": "HA-la-qah",
+    "definition": "A study circle. A small group sits with a teacher, often at a masjid, to read and talk about the Quran, hadith or a book. Many masjids run a halaqa for new Muslims.",
+    "seeAlso": ["ilm", "masjid", "ummah"]
+  },
+  {
+    "id": "tarawih",
+    "term": "Tarawih",
+    "arabicText": "تراويح",
+    "transliteration": "ta-RAA-weeh",
+    "definition": "Voluntary night prayers in Ramadan, prayed after Isha and often in congregation at the masjid. Masjids differ in how many units they pray, and you can join for part of it and go home.",
+    "seeAlso": ["ramadan", "isha", "nafl"],
+    "sourceIds": ["yaqeen-ramadan-beginners-guide"]
+  },
+  {
+    "id": "fidyah",
+    "term": "Fidyah",
+    "arabicText": "فدية",
+    "transliteration": "FID-yah",
+    "definition": "Feeding a person in need for each Ramadan fast that someone cannot keep and cannot make up later, for example because of old age or a lasting illness. The schools differ on the details, so ask a teacher about your own case.",
+    "seeAlso": ["sawm", "ramadan", "zakat"],
+    "sourceIds": ["quran-2-184-fidyah"]
+  },
+  {
+    "id": "tayammum",
+    "term": "Tayammum",
+    "arabicText": "تيمم",
+    "transliteration": "ta-YAM-mum",
+    "definition": "Dry purification with clean earth, used instead of wudu or the full-body wash (ghusl) when there is no water or water would cause harm. The Quran describes it in 5:6.",
+    "seeAlso": ["wudu", "ghusl", "taharah"],
+    "sourceIds": ["quran-5-6-wudu-tayammum"]
+  },
+  {
+    "id": "zabiha",
+    "term": "Zabiha (dhabihah)",
+    "arabicText": "ذبيحة",
+    "transliteration": "dha-BEE-hah",
+    "definition": "Meat from an animal slaughtered by the Islamic method, with the name of Allah said at the time of slaughter. Scholars differ on some questions, such as meat slaughtered by Christians and Jews, so ask a teacher which view to follow.",
+    "seeAlso": ["halal", "haram", "bismillah"],
+    "sourceIds": ["amja-eating-the-meat-of-the"]
+  },
+  {
+    "id": "mashbooh",
+    "term": "Mashbooh",
+    "arabicText": "مشبوه",
+    "transliteration": "mash-BOOH",
+    "definition": "Doubtful: food or a product whose halal status is unclear, for example because of an unnamed ingredient such as gelatin. The Prophet said that between the clearly lawful and the clearly unlawful are doubtful things, and keeping away from them protects your religion.",
+    "seeAlso": ["halal", "haram", "tayyib"],
+    "sourceIds": ["sunnah-bukhari-52"]
+  },
+  {
+    "id": "bismillah",
+    "term": "Bismillah",
+    "arabicText": "بسم الله",
+    "transliteration": "bis-MIL-lah",
+    "definition": "'In the name of Allah.' Muslims say it before eating, before wudu and before starting a task. The full form, Bismillahir-Rahmanir-Rahim, opens Al-Fatihah.",
+    "seeAlso": ["al-fatiha", "dhikr", "dua"],
+    "sourceIds": ["sunnah-bukhari-5376", "quran-al-fatihah-1"]
+  },
+  {
+    "id": "tayyib",
+    "term": "Tayyib",
+    "arabicText": "طيب",
+    "transliteration": "TAY-yib",
+    "definition": "Good, pure and wholesome. The Quran pairs lawful with good, so food should be both halal and tayyib.",
+    "seeAlso": ["halal", "mashbooh", "zabiha"],
+    "sourceIds": ["quran-2-168"]
+  },
+  {
+    "id": "fiqh",
+    "term": "Fiqh",
+    "arabicText": "فقه",
+    "transliteration": "FIQ-h",
+    "definition": "The understanding and study of Islamic law: how to pray, fast, pay zakat, marry, buy and sell. A scholar of fiqh is called a faqih.",
+    "seeAlso": ["madhab", "sharia", "ijtihad"]
+  },
+  {
+    "id": "madhab",
+    "term": "Madhhab",
+    "arabicText": "مذهب",
+    "transliteration": "MADH-hab",
+    "definition": "A school of Islamic law. Sunni Muslims follow four: Hanafi, Maliki, Shafi'i and Hanbali. They agree on the foundations and differ on details, and this site presents those differences without choosing between them.",
+    "seeAlso": ["fiqh", "ulama", "ijtihad"]
+  },
+  {
+    "id": "ulama",
+    "term": "Ulama",
+    "arabicText": "علماء",
+    "transliteration": "u-la-MAA'",
+    "definition": "Scholars: people with long, recognised training in Islamic knowledge. The singular is alim.",
+    "seeAlso": ["fiqh", "madhab", "imam"]
+  },
+  {
+    "id": "al-fatiha",
+    "term": "Al-Fatihah",
+    "arabicText": "الفاتحة",
+    "transliteration": "al-FAA-ti-hah",
+    "definition": "The Opening, the first chapter of the Quran. It has seven verses and is recited in every unit (rak'ah) of every prayer, so it is the first chapter most new Muslims learn.",
+    "seeAlso": ["salah", "rakah", "surah"],
+    "sourceIds": ["quran-al-fatihah-1", "sunnah-bukhari-756"]
+  },
+  {
+    "id": "juz",
+    "term": "Juz",
+    "arabicText": "جزء",
+    "transliteration": "JUZ'",
+    "definition": "One of the 30 roughly equal parts of the Quran (plural ajza). Reading one juz a day finishes the Quran in a month, which is why many people do it in Ramadan.",
+    "seeAlso": ["quran", "surah", "ramadan"]
+  },
+  {
+    "id": "hafiz",
+    "term": "Hafiz",
+    "arabicText": "حافظ",
+    "transliteration": "HAA-fidh",
+    "definition": "Someone who has memorised the whole Quran. It is an honour, but a hafiz is not necessarily a scholar who can give rulings.",
+    "seeAlso": ["quran", "ulama", "tajweed"]
+  },
+  {
+    "id": "nisab",
+    "term": "Nisab",
+    "arabicText": "نصاب",
+    "transliteration": "ni-SAAB",
+    "definition": "The minimum amount of wealth a person must hold before zakat is due. It is measured against the value of gold or silver, so the dollar figure changes with their prices.",
+    "seeAlso": ["zakat", "sadaqah"],
+    "sourceIds": ["islamic-relief-canada-nisab"]
+  },
+  {
+    "id": "tawaf",
+    "term": "Tawaf",
+    "arabicText": "طواف",
+    "transliteration": "ta-WAAF",
+    "definition": "Walking around the Ka'bah seven times as an act of worship, part of Hajj and Umrah.",
+    "seeAlso": ["kaabah", "hajj", "umrah"],
+    "sourceIds": ["sunnah-bukhari-1650"]
+  },
+  {
+    "id": "dhul-hijjah",
+    "term": "Dhul-Hijjah",
+    "arabicText": "ذو الحجة",
+    "transliteration": "dhul-HIJ-jah",
+    "definition": "The twelfth month of the Islamic calendar. Hajj takes place in it, Eid al-Adha falls on its tenth day, and the Prophet encouraged fasting the Day of Arafah, its ninth day.",
+    "seeAlso": ["hajj", "eid", "umrah"],
+    "sourceIds": ["yaqeen-dhul-hijjah", "sunnah-muslim-arafah-fast"]
   }
 ]
