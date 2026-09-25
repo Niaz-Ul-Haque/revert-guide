@@ -18,6 +18,17 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 You can start editing the localized routes under [`app/[locale]`](./app/%5Blocale%5D). The page auto-updates as you edit the file.
 
+## Placeholder contact details
+
+The help form, contact and report emails, WhatsApp channel and organisation details live in `lib/site.ts`. While a value is still a placeholder, pages show a short "still being set up" note in place of the link. Before launch, fill in the real values, build, and run:
+
+```bash
+npm run build
+npm run check:placeholders
+```
+
+The check reads every HTML file in `out/` and exits with an error if any link still points to a `PLACEHOLDER` address or URL.
+
 ## Translation workflow
 
 Each language now lives under a single root folder such as [`locales/en`](./locales/en) or [`locales/fr`](./locales/fr).

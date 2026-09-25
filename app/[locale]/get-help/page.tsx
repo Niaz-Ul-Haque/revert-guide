@@ -1,3 +1,4 @@
+import { ContactEmail } from "@/components/ContactEmail";
 import Link from "next/link";
 import { Breadcrumb } from "@/components/Breadcrumb";
 import { Button } from "@/components/Button";
@@ -14,6 +15,7 @@ import {
   HELP_FORM_URL,
   REPORT_EMAIL,
   hasPlaceholderConfig,
+  isPlaceholder,
   localeUrl,
 } from "@/lib/site";
 import { JsonLd, breadcrumbJsonLd } from "@/components/JsonLd";
@@ -137,9 +139,15 @@ export default function GetHelpPage({
           <p className="mb-5 text-base leading-relaxed text-textSecondary">
             {copy.form.body}
           </p>
-          <Button href={HELP_FORM_URL} rel={PLACEHOLDER_LINK_REL} external>
-            {copy.form.buttonLabel}
-          </Button>
+          {isPlaceholder(HELP_FORM_URL) ? (
+            <p className="mb-0 text-sm italic text-textMuted">
+              {t("common.linkPending")}
+            </p>
+          ) : (
+            <Button href={HELP_FORM_URL} rel={PLACEHOLDER_LINK_REL} external>
+              {copy.form.buttonLabel}
+            </Button>
+          )}
 
           <h3 className="mb-3 mt-8 font-display text-lg font-semibold text-textPrimary">
             {copy.form.asksTitle}
@@ -239,13 +247,11 @@ export default function GetHelpPage({
             <span className="font-medium text-textPrimary">
               {copy.report.emailLabel}:
             </span>{" "}
-            <a
-              href={`mailto:${REPORT_EMAIL}`}
-              rel={PLACEHOLDER_LINK_REL}
+            <ContactEmail
+              email={REPORT_EMAIL}
+              locale={locale}
               className={linkClass}
-            >
-              {REPORT_EMAIL}
-            </a>
+            />
           </p>
           <p className="mb-4 text-sm leading-relaxed text-textSecondary">
             {copy.report.scamNote}
@@ -282,13 +288,11 @@ export default function GetHelpPage({
             <span className="font-medium text-textPrimary">
               {copy.contact.emailLabel}:
             </span>{" "}
-            <a
-              href={`mailto:${CONTACT_EMAIL}`}
-              rel={PLACEHOLDER_LINK_REL}
+            <ContactEmail
+              email={CONTACT_EMAIL}
+              locale={locale}
               className={linkClass}
-            >
-              {CONTACT_EMAIL}
-            </a>
+            />
           </p>
         </section>
       </AnimateIn>

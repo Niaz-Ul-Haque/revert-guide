@@ -11,6 +11,7 @@
     "format:check": "prettier --check \"**/*.{ts,tsx,js,jsx,json,css,md}\"",
     "test": "node scripts/axe-check.mjs",
     "check:links": "node scripts/check-links.mjs",
+    "check:placeholders": "node scripts/check-placeholders.mjs",
     "prepare": "husky"
   },
   "lint-staged": {

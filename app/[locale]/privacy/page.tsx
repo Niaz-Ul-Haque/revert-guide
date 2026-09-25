@@ -1,3 +1,4 @@
+import { ContactEmail } from "@/components/ContactEmail";
 import Link from "next/link";
 import { Breadcrumb } from "@/components/Breadcrumb";
 import { AnimateIn } from "@/components/AnimateIn";
@@ -6,7 +7,6 @@ import { getTranslator } from "@/lib/messages";
 import { getPageMetadata } from "@/lib/metadata";
 import { CONTACT_EMAIL, localeUrl } from "@/lib/site";
 import { JsonLd, breadcrumbJsonLd } from "@/components/JsonLd";
-import { PLACEHOLDER_LINK_REL } from "@/lib/link-rel";
 
 export function generateMetadata({ params }: { params: { locale: Locale } }) {
   return getPageMetadata(params.locale, "privacy", "/privacy");
@@ -70,13 +70,11 @@ export default function PrivacyPage({
                 </Link>
                 <span className="inline-flex min-h-[44px] items-center gap-1 text-textSecondary">
                   {copy.contactLinks.emailLabel}{" "}
-                  <a
-                    href={`mailto:${CONTACT_EMAIL}`}
-                    rel={PLACEHOLDER_LINK_REL}
+                  <ContactEmail
+                    email={CONTACT_EMAIL}
+                    locale={locale}
                     className="font-medium text-primary hover:text-primaryHover"
-                  >
-                    {CONTACT_EMAIL}
-                  </a>
+                  />
                 </span>
               </p>
             ) : null}

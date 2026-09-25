@@ -1,3 +1,4 @@
+import { ContactEmail } from "@/components/ContactEmail";
 import Image from "next/image";
 import { Breadcrumb } from "@/components/Breadcrumb";
 import { AnimateIn } from "@/components/AnimateIn";
@@ -14,7 +15,6 @@ import {
   localeUrl,
 } from "@/lib/site";
 import { JsonLd, breadcrumbJsonLd } from "@/components/JsonLd";
-import { PLACEHOLDER_LINK_REL } from "@/lib/link-rel";
 
 export function generateMetadata({ params }: { params: { locale: Locale } }) {
   return getPageMetadata(params.locale, "about", "/about");
@@ -231,13 +231,11 @@ export default function AboutPage({ params }: { params: { locale: Locale } }) {
               <span className="font-medium text-textPrimary">
                 {copy.contactEmailLabel}:
               </span>{" "}
-              <a
-                href={`mailto:${CONTACT_EMAIL}`}
-                rel={PLACEHOLDER_LINK_REL}
+              <ContactEmail
+                email={CONTACT_EMAIL}
+                locale={locale}
                 className="font-semibold text-primary underline-offset-2 hover:text-primaryHover hover:underline"
-              >
-                {CONTACT_EMAIL}
-              </a>
+              />
             </p>
           </div>
         </section>

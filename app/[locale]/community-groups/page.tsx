@@ -1,3 +1,4 @@
+import { ContactEmail } from "@/components/ContactEmail";
 import Link from "next/link";
 import { Breadcrumb } from "@/components/Breadcrumb";
 import { Button } from "@/components/Button";
@@ -14,6 +15,7 @@ import {
   WHATSAPP_CHANNEL_URL,
   WHATSAPP_GROUPS,
   hasPlaceholderConfig,
+  isPlaceholder,
   localeUrl,
 } from "@/lib/site";
 import { JsonLd, breadcrumbJsonLd } from "@/components/JsonLd";
@@ -93,14 +95,20 @@ export default function CommunityGroupsPage({
             <p className="mb-5 flex-1 text-sm leading-relaxed text-textSecondary">
               {copy.channel.body}
             </p>
-            <Button
-              href={WHATSAPP_CHANNEL_URL}
-              rel={PLACEHOLDER_LINK_REL}
-              external
-              className="self-start"
-            >
-              {copy.channel.buttonLabel}
-            </Button>
+            {isPlaceholder(WHATSAPP_CHANNEL_URL) ? (
+              <p className="mb-0 text-sm italic text-textMuted">
+                {t("common.linkPending")}
+              </p>
+            ) : (
+              <Button
+                href={WHATSAPP_CHANNEL_URL}
+                rel={PLACEHOLDER_LINK_REL}
+                external
+                className="self-start"
+              >
+                {copy.channel.buttonLabel}
+              </Button>
+            )}
           </section>
 
           <section
@@ -237,13 +245,11 @@ export default function CommunityGroupsPage({
               <span className="font-medium text-textPrimary">
                 {copy.report.emailLabel}:
               </span>{" "}
-              <a
-                href={`mailto:${REPORT_EMAIL}`}
-                rel={PLACEHOLDER_LINK_REL}
+              <ContactEmail
+                email={REPORT_EMAIL}
+                locale={locale}
                 className={linkClass}
-              >
-                {REPORT_EMAIL}
-              </a>
+              />
             </p>
           </div>
         </section>

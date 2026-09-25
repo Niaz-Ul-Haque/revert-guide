@@ -104,6 +104,12 @@ export const ORGANISATION_LOCATION = "[City, Province to be confirmed]";
  *  PLACEHOLDER: replace with the real address (may equal CONTACT_EMAIL). */
 export const REPORT_EMAIL = "report@PLACEHOLDER.example";
 
+/** True while this value is still a placeholder. Pages render no link for a
+ *  placeholder address or URL (scripts/check-placeholders.mjs checks out/). */
+export function isPlaceholder(value: string): boolean {
+  return value.includes("PLACEHOLDER") || value.includes("[");
+}
+
 /** True while any value above is still a placeholder. Used to show a short
  *  notice on pages that depend on these values. */
 export function hasPlaceholderConfig(): boolean {
@@ -114,5 +120,5 @@ export function hasPlaceholderConfig(): boolean {
     ORGANISATION_NAME,
     ORGANISATION_LOCATION,
     REPORT_EMAIL,
-  ].some((value) => value.includes("PLACEHOLDER") || value.includes("["));
+  ].some(isPlaceholder);
 }
