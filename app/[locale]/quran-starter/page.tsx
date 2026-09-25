@@ -420,6 +420,20 @@ export default function QuranStarterPage({
             </div>
           </div>
 
+          {learnArabic.plan && (
+            <div className="mb-8 rounded-2xl border border-border/60 bg-white p-5 shadow-card">
+              <h3 className="mb-3 mt-0 text-base font-semibold text-textPrimary">
+                {learnArabic.plan.title}
+              </h3>
+              <SimpleList items={learnArabic.plan.notes} />
+              <SourceTags
+                sources={getSourcesByIds(learnArabic.plan.sourceIds, locale)}
+                compact
+                className="mt-4"
+              />
+            </div>
+          )}
+
           <h3 className="mb-2 mt-0 text-lg font-semibold text-textPrimary">
             {copy.wordByWordTitle}
           </h3>

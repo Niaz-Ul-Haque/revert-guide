@@ -161,6 +161,7 @@ export interface LearnArabicContent {
   stages: string[];
   // Optional so locale files written before these blocks still load.
   sounds?: SoundsToListenFor;
+  plan?: { title: string; notes: string[]; sourceIds: string[] };
   fatihahWords: { verse: number; words: FatihahWord[] }[];
   fatihahSourceIds: string[];
   links: ExternalLink[];
