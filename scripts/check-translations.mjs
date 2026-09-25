@@ -141,7 +141,7 @@ const PROPER = new Set(
    ibn majah malik ahmad hanafi maliki shafi'i hanbali amja isna nccm iqra
    yaqeen seekersguidance bayyinah ppt png svg mp3 mp4 https http www
    al ibn bin bint abu umm de la le du des of and the e y da do dos das ul un
-   for a an to in on at or vs`.split(/\s+/),
+   for a an to in on at or vs rak'at rakat rak'ah rakah camh`.split(/\s+/),
 );
 
 function readJson(file) {
