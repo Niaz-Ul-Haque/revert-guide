@@ -852,7 +852,12 @@
     "sourceIds": [
       "new-muslim-guide-food-drink",
       "new-muslim-guide",
-      "seekersguidance"
+      "seekersguidance",
+      "seekersguidance-kosher-meat-gods-name",
+      "seekersguidance-rennet-in-cheese",
+      "seekersguidance-convert-difficulty-finding-halal-meat",
+      "seekersguidance-is-hunting-permissible",
+      "seekersguidance-catch-and-release-fishing"
     ],
     "sections": [
       {
@@ -876,6 +881,17 @@
       {
         "heading": "Work and school",
         "body": "For lunches, catered meetings, and work trips, pick the clear option or bring your own. If an event is built around drinking, decide beforehand how much of it you will attend, and ask someone qualified if you are unsure."
+      },
+      {
+        "heading": "Beyond the basics",
+        "body": "A few questions come up once the basics feel steady. The questions page answers each one with its sources, and the schools differ on several of them.",
+        "items": [
+          "Kosher meat: the Hanafi and Hanbali schools require God's name over each animal, while the Shafi'i school treats it as recommended. Ask your teacher whether kosher is an option for you.",
+          "Cheese: look for microbial enzyme, vegetable rennet or vegetarian on the label. The Hanafi school permits rennet from animals other than pigs, and other schools are stricter.",
+          "Restaurants: ask when contamination is likely, especially shared fryers, rather than about every possible case.",
+          "Hunting and fishing: hunting for food is permitted and for sport is not, and a Hanafi answer calls catch-and-release fishing impermissible. Learn the conditions for game from a teacher.",
+          "Fish and vegetarian dishes are always a calm fallback."
+        ]
       },
       {
         "heading": "When the details need help",
@@ -922,6 +938,10 @@
       {
         "label": "Work and school guide",
         "href": "/guides/work-and-school"
+      },
+      {
+        "label": "Questions and answers",
+        "href": "/faq"
       }
     ],
     "reviewStatus": "review-needed"
