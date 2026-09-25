@@ -187,6 +187,12 @@ export default function GetHelpPage({
               </p>
             </div>
           </div>
+          <Link
+            href={localizeHref(locale, "/guides/how-mentoring-works")}
+            className={`${linkClass} mt-4 inline-block text-sm`}
+          >
+            {copy.whoReads.mentoringLinkLabel}
+          </Link>
         </section>
       </AnimateIn>
 
