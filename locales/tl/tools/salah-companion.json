@@ -1,0 +1,418 @@
+{
+  "prayerSequence": [
+    {
+      "title": "Maghanda nang mahinahon",
+      "posture": "Bago ang pagdarasal",
+      "body": "Mag-wudu, humanap ng malinis na lugar, humarap sa qibla, at itakda sa puso mo kung aling pagdarasal ito. Hindi mo kailangang sabihin nang malakas ang intensyon.",
+      "icon": "check",
+      "sourceIds": ["new-muslim-guide-prayer"]
+    },
+    {
+      "title": "Magsimula nang nakatayo",
+      "posture": "Pambungad na takbir",
+      "body": "Itaas ang mga kamay at sabihin ang Allahu akbar. Iyon ang nagbubukas ng pagdarasal, at mula roon ay lumabas ka na sa karaniwang usapan at pumasok sa pagsamba.",
+      "icon": "star",
+      "sourceIds": ["new-muslim-guide-prayer"]
+    },
+    {
+      "title": "Bumigkas sa unang rak'ah",
+      "posture": "Pagtayo",
+      "body": "Bigkasin ang Al-Fatihah, saka isang maikling surah o ang ilang talatang pinag-aaralan mo. Kung hindi ka pa makabigkas, ipinapaliwanag ng seksyong 'Kung hindi ka pa makabigkas ng Arabic' sa ibaba ang pinapayagan ng mga paaralan sa pansamantala.",
+      "icon": "book",
+      "sourceIds": ["quran-al-fatihah-1", "quran-al-ikhlas-112"]
+    },
+    {
+      "title": "Yumuko at tumayo",
+      "posture": "Ruku",
+      "body": "Yumuko nang patag at matatag ang likod at sabihin ang parirala sa pagyuko. Tumayo habang sinasabi ang Sami'a Allahu liman hamidah, at kapag tuwid ka nang nakatayo, sabihin ang Rabbana wa lakal-hamd. Huminto muna bago bumaba. Huwag itong madaliin para lang matapos.",
+      "icon": "check",
+      "sourceIds": [
+        "hisn-ruku-dhikr",
+        "sunnah-bukhari-rising-from-ruku",
+        "sunnah-bukhari-prayed-badly"
+      ]
+    },
+    {
+      "title": "Magpatirapa nang dalawang beses",
+      "posture": "Sujud",
+      "body": "Bumaba sa pagpapatirapa at sabihin ang parirala sa pagpapatirapa. Umupo at sabihin ang Rabbighfir li, saka magpatirapa sa ikalawang pagkakataon gamit ang parehong parirala. Hayaang mapanatag ang bawat posisyon bago lumipat.",
+      "icon": "check",
+      "sourceIds": [
+        "hisn-sujud-dhikr",
+        "sunnah-ibnmajah-between-sujud",
+        "sunnah-bukhari-prayed-badly-long"
+      ]
+    },
+    {
+      "title": "Ulitin para sa ikalawang rak'ah",
+      "posture": "Ikalawang yunit",
+      "body": "Tumayo ulit at ulitin ang parehong hugis: Al-Fatiha, maikling pagbigkas, ruku, pagtayo ulit, saka dalawang pagpapatirapa.",
+      "icon": "chevron-right",
+      "sourceIds": ["new-muslim-guide-prayer"]
+    },
+    {
+      "title": "Umupo para sa huling mga salita",
+      "posture": "Tashahhud",
+      "body": "Pagkatapos ng ikalawang rak'ah, umupo at bigkasin ang tashahhud. Sa pagdarasal na may dalawang rak'ah, ito ang huling pag-upo, kaya idagdag ang pagpapala sa Propeta (salawat) bago ang salam. Sa pagdarasal na may tatlo o apat na rak'ah, mas maikli ang unang pag-upong ito, at tatayo ka ulit pagkatapos. Ipinapakita ng mapa ng rak'ah sa ibaba kung saan tumatapat ang bawat pag-upo.",
+      "icon": "info",
+      "sourceIds": [
+        "sunnah-bukhari-tashahhud",
+        "sunnah-bukhari-salawat-ibrahimiyyah"
+      ]
+    },
+    {
+      "title": "Tapusin sa salam",
+      "posture": "Taslim",
+      "body": "Lumingon sa kanan, saka sa kaliwa, habang ibinibigay ang pagbati ng kapayapaan sa bawat pagkakataon. Doon natatapos ang pagdarasal. Umupo nang saglit bago tumayo at bumalik sa araw mo.",
+      "icon": "star",
+      "sourceIds": ["sunnah-abudawud-taslim"]
+    }
+  ],
+  "recitations": [
+    {
+      "title": "Pambungad na takbir",
+      "occasion": "Simula ng pagdarasal",
+      "arabic": "اللَّهُ أَكْبَرُ",
+      "transliteration": "Allahu akbar",
+      "meaning": "Ang Allah ay Pinakadakila.",
+      "beginnerNote": "Ito ang unang pariralang pag-aaralan. Sabihin ito nang malinaw at hindi nagmamadali. Kusang gaganda ang punto mo.",
+      "sourceIds": ["new-muslim-guide-prayer"]
+    },
+    {
+      "title": "Al-Fatiha",
+      "occasion": "Bawat rak'ah",
+      "arabic": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ\nالْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينَ\nالرَّحْمَٰنِ الرَّحِيمِ\nمَالِكِ يَوْمِ الدِّينِ\nإِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ\nاهْدِنَا الصِّرَاطَ الْمُسْتَقِيمَ\nصِرَاطَ الَّذِينَ أَنْعَمْتَ عَلَيْهِمْ غَيْرِ الْمَغْضُوبِ عَلَيْهِمْ وَلَا الضَّالِّينَ",
+      "transliteration": "Bismillahir-Rahmanir-Rahim. Alhamdu lillahi Rabbil-'alamin. Ar-Rahmanir-Rahim. Maliki yawmid-din. Iyyaka na'budu wa iyyaka nasta'in. Ihdinas-siratal-mustaqim. Siratal-ladhina an'amta 'alayhim ghayril-maghdubi 'alayhim wa lad-dallin.",
+      "meaning": "Salin ng kahulugan: sa Allah ang papuri, pagsamba at tulong, at hinihiling namin sa Kanya na gabayan kami sa tuwid na landas.",
+      "beginnerNote": "Ang Al-Fatiha ang unang tunay na layunin sa pagsasaulo. Isang parirala sa bawat pagkakataon, at itanong sa isang guro kung ano ang bibigkasin habang pinag-aaralan mo pa ito.",
+      "sourceIds": ["quran-al-fatihah-1"]
+    },
+    {
+      "title": "Halimbawa ng maikling surah: Al-Ikhlas",
+      "occasion": "Pagkatapos ng Al-Fatiha sa unang dalawang rak'ah",
+      "arabic": "قُلْ هُوَ اللَّهُ أَحَدٌ\nاللَّهُ الصَّمَدُ\nلَمْ يَلِدْ وَلَمْ يُولَدْ\nوَلَمْ يَكُن لَّهُ كُفُوًا أَحَدٌ",
+      "transliteration": "Qul huwa Allahu ahad. Allahus-samad. Lam yalid wa lam yulad. Wa lam yakun lahu kufuwan ahad.",
+      "meaning": "Salin ng kahulugan: Iisa ang Allah, sapat sa Kanyang sarili, hindi gaya ng nilikha, at walang anumang maihahambing sa Kanya.",
+      "beginnerNote": "Dito nagsisimula ang karamihan ng baguhan. Maikli ito, at ipinapahayag nito ang kaisahan ng Allah sa apat na linya.",
+      "sourceIds": ["quran-al-ikhlas-112"]
+    },
+    {
+      "title": "Halimbawa ng maikling surah: Al-'Asr",
+      "occasion": "Pagkatapos ng Al-Fatiha sa unang dalawang rak'ah",
+      "arabic": "وَالْعَصْرِ\nإِنَّ الْإِنسَانَ لَفِي خُسْرٍ\nإِلَّا الَّذِينَ آمَنُوا وَعَمِلُوا الصَّالِحَاتِ وَتَوَاصَوْا بِالْحَقِّ وَتَوَاصَوْا بِالصَّبْرِ",
+      "transliteration": "Wal-'asr. Innal-insana lafi khusr. Illal-ladhina amanu wa 'amilus-salihat, wa tawasaw bil-haqqi wa tawasaw bis-sabr.",
+      "meaning": "Salin ng kahulugan: nasa pagkalugi ang mga tao maliban sa mga naniniwala, gumagawa ng mabuti, at naghihikayat sa katotohanan at pagtitiis.",
+      "beginnerNote": "Pag-aralan ang isang maikling surah sa bawat pagkakataon. Mas makakatulong sa iyo ang pakikinig muna sa isang maaasahang qari kaysa pagmamadali sa ilang kabanata.",
+      "sourceIds": ["quran-al-asr-103"]
+    },
+    {
+      "title": "Parirala sa ruku",
+      "occasion": "Habang nakayuko",
+      "arabic": "سُبْحَانَ رَبِّيَ الْعَظِيمِ",
+      "transliteration": "Subhana Rabbiyal-'Azim",
+      "meaning": "Luwalhati sa aking Panginoon, ang Pinakadakila.",
+      "beginnerNote": "Itinuturo ng karamihan ng gabay na sabihin ito nang tatlong beses. Habang natututo ka, magandang simula ang isang malinaw na pag-uulit. Itanong sa guro ang mga detalye.",
+      "sourceIds": ["hisn-ruku-dhikr"]
+    },
+    {
+      "title": "Pagtayo mula sa pagyuko",
+      "occasion": "Pag-angat mula sa ruku",
+      "arabic": "سَمِعَ اللَّهُ لِمَنْ حَمِدَهُ\nرَبَّنَا وَلَكَ الْحَمْدُ",
+      "transliteration": "Sami'a Allahu liman hamidah. Rabbana wa lakal-hamd.",
+      "meaning": "Naririnig ng Allah ang pumupuri sa Kanya. Aming Panginoon, at sa Iyo ang lahat ng papuri.",
+      "beginnerNote": "Sabihin ang unang linya habang tumatayo ka at ang ikalawa kapag tuwid ka nang nakatayo. Maririnig mo rin ang 'Rabbana lakal-hamd' nang walang 'wa'. Parehong nasa hadith ang dalawang pananalita.",
+      "sourceIds": ["sunnah-bukhari-rising-from-ruku"]
+    },
+    {
+      "title": "Parirala sa sujud",
+      "occasion": "Habang nagpapatirapa",
+      "arabic": "سُبْحَانَ رَبِّيَ الْأَعْلَى",
+      "transliteration": "Subhana Rabbiyal-A'la",
+      "meaning": "Luwalhati sa aking Panginoon, ang Pinakamataas.",
+      "beginnerNote": "Kakaiba ang pakiramdam ng sujud sa mga unang ilang beses. Gumalaw sa bilis na komportable sa katawan mo, huminto kapag nakababa ka na, at pag-aralan ang parirala. Hindi pagkukulang ang pagiging mabagal.",
+      "sourceIds": ["hisn-sujud-dhikr"]
+    },
+    {
+      "title": "Pag-upo sa pagitan ng dalawang pagpapatirapa",
+      "occasion": "Sa pagitan ng una at ikalawang sujud",
+      "arabic": "رَبِّ اغْفِرْ لِي",
+      "transliteration": "Rabbighfir li",
+      "meaning": "Panginoon ko, patawarin Mo ako.",
+      "beginnerNote": "Dalawang salita, at inulit ito ng Propeta. Sabihin ito nang isa o dalawang beses. Maipapakita sa iyo ng isang guro ang mas mahabang bersyon sa kalaunan kung gusto mo.",
+      "sourceIds": [
+        "sunnah-ibnmajah-between-sujud",
+        "sunnah-abudawud-ruku-sujud-dhikr"
+      ]
+    },
+    {
+      "title": "Tashahhud",
+      "occasion": "Bawat pag-upo: pagkatapos ng ikalawang rak'ah at sa dulo",
+      "arabic": "التَّحِيَّاتُ لِلَّهِ وَالصَّلَوَاتُ وَالطَّيِّبَاتُ\nالسَّلَامُ عَلَيْكَ أَيُّهَا النَّبِيُّ وَرَحْمَةُ اللَّهِ وَبَرَكَاتُهُ\nالسَّلَامُ عَلَيْنَا وَعَلَى عِبَادِ اللَّهِ الصَّالِحِينَ\nأَشْهَدُ أَنْ لَا إِلَٰهَ إِلَّا اللَّهُ\nوَأَشْهَدُ أَنَّ مُحَمَّدًا عَبْدُهُ وَرَسُولُهُ",
+      "transliteration": "At-tahiyyatu lillahi was-salawatu wat-tayyibat. As-salamu 'alayka ayyuhan-Nabiyyu wa rahmatullahi wa barakatuh. As-salamu 'alayna wa 'ala 'ibadillahis-salihin. Ash-hadu an la ilaha illallah, wa ash-hadu anna Muhammadan 'abduhu wa rasuluh.",
+      "meaning": "Para sa Allah ang lahat ng pagbati, panalangin at mabubuting bagay. Sumaiyo nawa ang kapayapaan, O Propeta, at ang awa at pagpapala ng Allah. Sumaamin nawa ang kapayapaan at sa matutuwid na alipin ng Allah. Sumasaksi ako na walang diyos maliban sa Allah, at sumasaksi ako na si Muhammad ang Kanyang alipin at Sugo.",
+      "beginnerNote": "Ito ang pananalitang isinalaysay ni Ibn Mas'ud. Maaaring makarinig ka ng bahagyang ibang pananalita mula sa ibang tunay na salaysay, kaya sundin ang guro mo. Pag-aralan ito nang isang linya sa bawat pagkakataon.",
+      "sourceIds": ["sunnah-bukhari-tashahhud"]
+    },
+    {
+      "title": "Pagpapala sa Propeta (salawat)",
+      "occasion": "Huling pag-upo, pagkatapos ng tashahhud",
+      "arabic": "اللَّهُمَّ صَلِّ عَلَى مُحَمَّدٍ وَعَلَى آلِ مُحَمَّدٍ\nكَمَا صَلَّيْتَ عَلَى إِبْرَاهِيمَ وَعَلَى آلِ إِبْرَاهِيمَ\nإِنَّكَ حَمِيدٌ مَجِيدٌ\nاللَّهُمَّ بَارِكْ عَلَى مُحَمَّدٍ وَعَلَى آلِ مُحَمَّدٍ\nكَمَا بَارَكْتَ عَلَى إِبْرَاهِيمَ وَعَلَى آلِ إِبْرَاهِيمَ\nإِنَّكَ حَمِيدٌ مَجِيدٌ",
+      "transliteration": "Allahumma salli 'ala Muhammadin wa 'ala ali Muhammad, kama sallayta 'ala Ibrahima wa 'ala ali Ibrahim, innaka Hamidun Majid. Allahumma barik 'ala Muhammadin wa 'ala ali Muhammad, kama barakta 'ala Ibrahima wa 'ala ali Ibrahim, innaka Hamidun Majid.",
+      "meaning": "O Allah, ipadala Mo ang Iyong awa kay Muhammad at sa pamilya ni Muhammad, gaya ng pagpapadala Mo ng Iyong awa kay Ibrahim at sa pamilya ni Ibrahim. Ikaw ay Kapuri-puri at Maluwalhati. O Allah, ipadala Mo ang Iyong pagpapala kay Muhammad at sa pamilya ni Muhammad, gaya ng pagpapadala Mo ng Iyong pagpapala kay Ibrahim at sa pamilya ni Ibrahim. Ikaw ay Kapuri-puri at Maluwalhati.",
+      "beginnerNote": "Sabihin ito sa huling pag-upo, pagkatapos ng tashahhud at bago ang salam. Nagkakaiba ang mga paaralan kung sinasabi rin ito sa unang pag-upo ng mas mahabang pagdarasal, kaya itanong sa guro mo.",
+      "sourceIds": ["sunnah-bukhari-salawat-ibrahimiyyah"]
+    },
+    {
+      "title": "Salam",
+      "occasion": "Pagtatapos ng pagdarasal",
+      "arabic": "السَّلَامُ عَلَيْكُمْ وَرَحْمَةُ اللَّهِ",
+      "transliteration": "As-salamu 'alaykum wa rahmatullah",
+      "meaning": "Sumainyo nawa ang kapayapaan at ang awa ng Allah.",
+      "beginnerNote": "Ito ang nagsasara ng pagdarasal. Lumingon nang marahan sa bawat panig. Hindi mo kailangang gawing malaking galaw ito.",
+      "sourceIds": ["sunnah-abudawud-taslim"]
+    }
+  ],
+  "cannotReciteYet": [
+    "Patuloy na magdasal habang natututo. Sinasabi ng mga iskolar sa mga sanggunian sa ibaba na nagdarasal ang bagong Muslim gamit ang kaya niya at pinag-aaralan ang iba sa paglipas ng panahon.",
+    "Isang malawakang itinuturong opsyon ang pagsabi ng maiikling pariralang Arabic ng pag-alaala sa Allah kapalit ng pagbigkas: SubhanAllah (luwalhati sa Allah), Alhamdulillah (papuri sa Allah), La ilaha illallah (walang diyos maliban sa Allah), Allahu akbar (ang Allah ay Pinakadakila) at La hawla wa la quwwata illa billah (walang lakas at walang kapangyarihan maliban sa Allah). Itinuro ng Propeta ang mga salitang ito sa isang lalaking nagsabing hindi niya kayang magsaulo ng anumang bahagi ng Quran (Sunan Abi Dawud 832, na itinuring na Hasan ni al-Albani).",
+    "Tinatawag ng SeekersGuidance na mas maingat na pagpili ang mga pariralang pag-alaalang ito, dahil balido ang mga ito sa parehong paaralang Hanafi at Shafi'i.",
+    "Tinatanggap din ng paaralang Hanafi ang pagbigkas ng salin ng kahulugan para sa taong hindi pa makabigkas ng Arabic.",
+    "Hindi tinatanggap ng paaralang Shafi'i ang salin. Pinapayagan nito ang nag-aaral na basahin ang Al-Fatihah mula sa mushaf (nakalimbag na Quran) habang nagdarasal.",
+    "Hindi tinatanggap ng mga paaralang Maliki at Hanbali ang pagbigkas sa ibang wika.",
+    "Pinagkakaibahan din ang pagbasa mula sa libro o screen habang nagdarasal: itinuturing ng paaralang Hanafi na mahigpit na kinasusuklaman (makruh tahriman) ang paghawak at pagbasa ng Quran sa loob ng pagdarasal.",
+    "Samantala, pag-aralan ang Al-Fatihah nang isang parirala sa bawat pagkakataon, saka isang maikling surah. Dalawa ang gantimpala ng taong nahihirapang bumigkas (Sahih Muslim 798a).",
+    "Itanong sa imam sa inyong lugar kung alin sa mga opsyong ito ang sinusunod ng komunidad mo."
+  ],
+  "invalidatesPrayer": [
+    "Pagkawala ng wudu, gaya ng paggamit ng palikuran o pag-utot.",
+    "Sinasadyang pagkain, pag-inom o pagsasalita ng walang kaugnayang salita habang nagdarasal.",
+    "Pag-iwan sa isang obligadong tindig, kondisyon o pagbigkas kapag alam mo nang obligado ito.",
+    "Sinasadyang pagtatapos o pagtalikod sa pagdarasal nang walang dahilan.",
+    "May mga detalyeng sulit pag-usapan kasama ang isang kwalipikadong guro ang pagkakamali, pagkalimot, sakit, regla, paglalakbay at kapansanan."
+  ],
+  "commonCorrections": [
+    {
+      "title": "Paulit-ulit akong nagsisimula ulit sa bawat maliit na pagkakamali.",
+      "body": "Tapusin nang mahinahon ang pagdarasal, saka itanong pagkatapos ang partikular na pagkakamaling iyon. Kadalasang mas malaki ang nawawala sa iyo dahil sa pagkataranta kaysa sa mismong pagkakamali."
+    },
+    {
+      "title": "Nahihiya ako sa pagbigkas ko.",
+      "body": "Sa pag-uulit lang gumaganda ang pagbigkas. Alam ng Allah ang pagkakaiba ng taong hindi nagsisikap at ng taong natututo pa."
+    },
+    {
+      "title": "Iba-iba ang posisyon ng kamay na ipinapakita ng iba't ibang video.",
+      "body": "Kadalasang balido ang lahat ng pagkakaibang iyon, at wala sa mga ito ang dahilan para tumigil sa pagdarasal. Matutuhan ang isang maaasahang paraan para sa baguhan, at magtanong sa guro bago lumipat ulit."
+    },
+    {
+      "title": "Nagmamadali ako dahil naiilang ako.",
+      "body": "Bumagal hanggang malinaw na hiwalay ang bawat tindig. Mas marami kang natututuhan sa maikli at mahinahong pagdarasal kaysa sa mabilis at balisang pagdarasal."
+    }
+  ],
+  "mainVideo": {
+    "videoId": "4zr6tNgmKSI",
+    "title": "Paano gawin ang lahat ng limang pang-araw-araw na pagdarasal",
+    "channel": "Green Lane Masjid",
+    "duration": "33:57",
+    "note": "Maikli ang kabanata ng Asr dahil ginagawa ang Asr sa parehong paraan ng Dhuhr. Sinusunod ng video ang gawi ng iisang paaralan, at normal ang maliliit na pagkakaiba ng mga paaralan. Awtomatikong ginawa ang mga caption.",
+    "sourceIds": ["video-greenlane-five-prayers"],
+    "chapters": [
+      {
+        "label": "Bago ka magdasal",
+        "start": 71
+      },
+      {
+        "label": "Ang limang pagdarasal",
+        "start": 143
+      },
+      {
+        "label": "Pangkalahatang-ideya ng mga salita at rak'ah",
+        "start": 167
+      },
+      {
+        "label": "Fajr",
+        "start": 228
+      },
+      {
+        "label": "Dhuhr",
+        "start": 687
+      },
+      {
+        "label": "Asr",
+        "start": 1351
+      },
+      {
+        "label": "Maghrib",
+        "start": 1378
+      },
+      {
+        "label": "Isha",
+        "start": 1979
+      }
+    ]
+  },
+  "phraseVideos": [
+    {
+      "videoId": "Fpa-c_M_V7Q",
+      "title": "Bawat parirala ng isang rak'ah",
+      "channel": "Islamwise",
+      "duration": "10:29",
+      "sourceIds": ["video-islamwise-rakah-recap"]
+    },
+    {
+      "videoId": "n0aGnzSY_hs",
+      "title": "Mga pariralang sasabihin habang pinag-aaralan ang Al-Fatihah",
+      "channel": "Islamwise",
+      "duration": "7:01",
+      "note": "Isang pananaw lamang sa mga paaralan ang paggamit ng mga pariralang ito habang natututo. Tingnan ang seksyon tungkol sa pagdarasal bago ka makabigkas.",
+      "sourceIds": ["video-islamwise-comprehensive-remembrance"]
+    }
+  ],
+  "phraseSeries": {
+    "label": "Ang buong serye ng Islamwise sa YouTube",
+    "body": "29 na maiikling aralin, isang parirala sa bawat pagkakataon, kasama ang Al-Fatihah talata por talata, ang tashahhud at ang salawat.",
+    "href": "https://www.youtube.com/playlist?list=PLW9v5fexkmD_8i507k8oL2x9n0vJeP1BT",
+    "sourceIds": ["video-islamwise-prayer-series"]
+  },
+  "shapeImage": {
+    "src": "/graphics/rakah-steps.svg",
+    "alt": "Pitong pigurang walang mukha na nagpapakita ng isang rak'ah nang sunod-sunod: nakatayo nang nakataas ang mga kamay, nakatayo para bumigkas, nakayuko, nakatayo nang tuwid, nagpapatirapa, nakaupo, at nagpapatirapa ulit, bawat isa ay may maikling parirala.",
+    "caption": "Isang rak'ah, mula sa pambungad na takbir hanggang sa ikalawang pagpapatirapa.",
+    "credit": "Larawan: Revert Guide."
+  },
+  "tashahhudPlacement": {
+    "items": [
+      "Fajr, 2 rak'ah: isang pag-upo, pagkatapos ng ikalawang rak'ah. Ito ang huling pag-upo: tashahhud, salawat, saka salam.",
+      "Maghrib, 3 rak'ah: unang pag-upo pagkatapos ng ikalawang rak'ah na may tashahhud, saka tumayo para sa ikatlo. Darating ang huling pag-upo pagkatapos ng ikatlo: tashahhud, salawat, saka salam.",
+      "Dhuhr, Asr at Isha, 4 na rak'ah: unang pag-upo pagkatapos ng ikalawang rak'ah na may tashahhud, saka tumayo para sa ikatlo at ikaapat. Darating ang huling pag-upo pagkatapos ng ikaapat.",
+      "Sa unang dalawang rak'ah, binibigkas mo ang Al-Fatihah at isang maikling surah. Sa ikatlo at ikaapat, Al-Fatihah lamang ang binibigkas mo."
+    ],
+    "sourceIds": [
+      "sunnah-bukhari-tashahhud",
+      "islamic-foundation-ireland-prayer-booklet"
+    ],
+    "image": {
+      "src": "/graphics/rakah-map-tashahhud.svg",
+      "alt": "Isang hanay ng tuldok para sa bawat isa sa limang pagdarasal, isang tuldok bawat rak'ah, na may nakaupong pigura pagkatapos ng ikalawang rak'ah at sa dulo. May 2 tuldok ang Fajr, 4 ang Dhuhr, 4 ang Asr, 3 ang Maghrib at 4 ang Isha.",
+      "caption": "Kung saan ka uupo para sa tashahhud sa bawat pagdarasal.",
+      "credit": "Larawan: Revert Guide."
+    }
+  },
+  "sujudAlSahw": {
+    "summary": "Kung nakalimutan mo ang isang bahagi ng pagdarasal, nakapagdagdag ka nang hindi sinasadya, o nawala ka sa bilang ng rak'ah, may simpleng lunas: dalawang dagdag na pagpapatirapa na tinatawag na sujud al-sahw, ang pagpapatirapa dahil sa pagkalimot. Para sa maraming pagkakamali, hindi mo kailangang simulan ulit ang pagdarasal.",
+    "steps": [
+      "Kung hindi ka sigurado kung ilang rak'ah na ang nagawa mo, sundin ang bilang na sigurado ka, na siyang mas mababa, at tapusin ang pagdarasal mula roon.",
+      "Malapit sa pagtatapos ng pagdarasal, gumawa ng dalawang dagdag na pagpapatirapa na may maikling pag-upo sa pagitan, sa parehong paraan ng pagpapatirapa mo sa bawat rak'ah.",
+      "Binabanggit ng mga tunay na ulat ang dalawang pagpapatirapang ito bago at pagkatapos ng pangwakas na salam. Bahagyang magkakaiba ang paraang itinuturo ng mga paaralan, kaya pag-aralan ang ginagamit ng guro mo.",
+      "Kung nagdarasal ka sa likod ng imam, sundan ang imam at huwag magdagdag ng sarili mo."
+    ],
+    "referral": "Habang bago ka pa, tapusin nang mahinahon at itanong sa guro ang partikular na pagkakamali pagkatapos. Walang umaasang alam mo na ang bawat tuntunin sa mga unang buwan mo.",
+    "sourceIds": [
+      "sunnah-muslim-sahw-doubt",
+      "sunnah-bukhari-sahw-after-salam",
+      "seekersguidance-sajda-sahw",
+      "newmuslims-prostration-forgetfulness"
+    ]
+  },
+  "prayerTable": {
+    "rows": [
+      {
+        "name": "Pagdarasal sa madaling-araw (Fajr)",
+        "window": "Mula sa unang liwanag ng madaling-araw hanggang pagsikat ng araw.",
+        "units": "2"
+      },
+      {
+        "name": "Pagdarasal sa tanghali (Dhuhr)",
+        "window": "Mula pagkalampas ng tanghali, kapag nalampasan na ng araw ang pinakamataas na punto nito, hanggang magsimula ang Asr.",
+        "units": "4"
+      },
+      {
+        "name": "Pagdarasal sa hapon (Asr)",
+        "window": "Mula kalagitnaan ng hapon hanggang paglubog ng araw. Subukang huwag itong iwan hanggang manilaw ang araw.",
+        "units": "4"
+      },
+      {
+        "name": "Pagdarasal sa paglubog ng araw (Maghrib)",
+        "window": "Mula pagkalubog ng araw hanggang mawala ang takipsilim.",
+        "units": "3"
+      },
+      {
+        "name": "Pagdarasal sa gabi (Isha)",
+        "window": "Mula nang mawala ang takipsilim hanggang hatinggabi.",
+        "units": "4"
+      }
+    ],
+    "note": "Puwede kang magdasal anumang oras sa loob ng saklaw na oras, kaya hindi mo kailangang maging eksakto sa minuto. Nagkakaiba ang mga paaralan kung kailan nagsisimula ang Asr (mas huli ang simula ayon sa Hanafi) at sa pinakahuling oras ng Isha. Tuwing tag-init, gumagamit ang malaking bahagi ng Canada ng iniangkop na tuntunin para sa Fajr at Isha, kaya gamitin ang pahina ng oras ng pagdarasal o ang timetable ng masjid sa inyong lugar.",
+    "sourceIds": [
+      "sunnah-muslim-prayer-times",
+      "quran-4-103-appointed-times",
+      "newmuslims-prayer-for-beginners"
+    ],
+    "image": {
+      "src": "/graphics/prayer-day-timeline.svg",
+      "alt": "Isang timeline ng isang araw mula madaling-araw hanggang gabi na may markang limang pagdarasal nang sunod-sunod: Fajr sa madaling-araw, Dhuhr pagkalampas ng tanghali, Asr sa hapon, Maghrib pagkalubog ng araw at Isha sa gabi, bawat isa ay may bilang ng rak'ah.",
+      "caption": "Ang limang pagdarasal sa isang araw. Nagbabago araw-araw ang eksaktong oras ayon sa araw.",
+      "credit": "Larawan: Revert Guide."
+    }
+  },
+  "notOwed": {
+    "text": "Hindi mo utang ang mga pagdarasal mula sa mga taon bago ka naging Muslim. Sinabi ng Propeta na binubura ng Islam ang nauna rito, kaya magsisimula ka mula ngayon. Idinagdag ng ilang iskolar na hindi rin inaatasang bayaran ang panahong iyon ng balik-Islam na hindi pa alam na obligasyon ang pagdarasal. Kung hindi ka sigurado kung paano ito para sa iyo, magtanong sa isang guro.",
+    "sourceIds": [
+      "sunnah-muslim-islam-wipes-out",
+      "seekersguidance-converts-missed-prayers"
+    ]
+  },
+  "seatedPrayer": {
+    "summary": "Kung pinahihirap ng sakit, karamdaman o kapansanan ang pagtayo, pagyuko o pagpapatirapa, magdasal sa paraang kaya ng katawan mo. Sinabi ng Propeta sa isang kasamahang may sakit na magdasal nang nakatayo, at kung hindi kaya, nang nakaupo, at kung hindi pa rin kaya, nang nakahiga nang patagilid.",
+    "points": [
+      "Kung hindi ka makatayo, o nagdudulot ng tunay na sakit o pagkahilo ang pagtayo, magdasal nang nakaupo. Puwede kang umupo sa sahig, o sa silya kung mahirap sa iyo ang sahig.",
+      "Kung kaya mo pang magpatirapa, mas pinipili ng sagot na Hanafi na naka-link ang pag-upo sa sahig at karaniwang pagpapatirapa. Kung hindi mo kaya, ibaba na lang ang ulo mo: nang kaunti para sa pagyuko at nang mas mababa pa para sa pagpapatirapa.",
+      "Kung hindi ka makaupo, magdasal nang nakahiga, nakaharap sa qibla sa abot ng makakaya mo.",
+      "Bahagyang magkaiba ang pagtrato sa panandaliang sakit at pangmatagalang kondisyon, at nagkakaiba ang mga paaralan sa mga detalye gaya ng paano yumuyuko ang gumagamit ng silya at saan inilalagay ang silya sa hanay."
+    ],
+    "referral": "Maaaring panoorin ka nang minsan ng isang imam o guro sa inyong lugar habang nagdarasal at tulungan kang pumili ng angkop sa katawan mo. Hindi mo kailanman kailangang tiisin ang sakit para magkaroon ng halaga ang pagdarasal mo.",
+    "sourceIds": [
+      "sunnah-bukhari-pray-standing-sitting",
+      "seekersguidance-praying-sitting",
+      "seekersguidance-sick-person-prayer"
+    ],
+    "video": {
+      "videoId": "3geUbODPg5U",
+      "title": "Paano magdasal kapag may pisikal na kapansanan",
+      "channel": "Green Lane Masjid",
+      "duration": "6:06",
+      "note": "Ipinapakita ang pagdarasal sa sahig, sa silya, nang nakatayo nang hindi yumuyuko, at nang nakahiga sa kama.",
+      "sourceIds": ["video-greenlane-physical-disability"],
+      "chapters": [
+        {
+          "label": "Nakaupo sa sahig",
+          "start": 66
+        },
+        {
+          "label": "Sa silya",
+          "start": 171
+        },
+        {
+          "label": "Hindi makayuko",
+          "start": 215
+        },
+        {
+          "label": "Nakahiga sa kama",
+          "start": 279
+        }
+      ]
+    },
+    "extraLink": {
+      "label": "Paano magdasal nang nakaupo sa silya (Sheikh Assim al-Hakeem, 3:25)",
+      "body": "Isang maikling ikalawang pagpapakita, kasama ang pagdarasal sa silya sa hanay ng masjid.",
+      "href": "https://www.youtube.com/watch?v=nNKUwHi99Qo",
+      "sourceIds": ["video-assim-chair-prayer"]
+    }
+  },
+  "cannotReciteSourceIds": [
+    "sunnah-abudawud-dhikr-instead",
+    "seekersguidance-recite-in-english",
+    "seekersguidance-reading-from-mushaf",
+    "dar-alifta-new-muslim-fatiha",
+    "sunnah-muslim-two-rewards"
+  ]
+}
