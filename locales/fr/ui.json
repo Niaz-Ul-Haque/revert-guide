@@ -38,14 +38,15 @@
     "terms": "Conditions d'utilisation",
     "sources": "Sources",
     "ramadan": "Guide du Ramadan",
+    "seasonal": "Guides saisonniers (Ramadan, Aïd, hajj)",
     "mentalHealth": "Santé mentale",
     "tools": "Outils",
     "prayerTimes": "Heures de prière",
-    "qibla": "Trouver la direction de la qibla",
+    "qibla": "Direction de la prière (qibla)",
     "wuduGhusl": "Se laver avant la prière (wudu et ghusl)",
     "salahCompanion": "Apprendre à prier (salah)",
     "quranStarter": "Débuter avec le Coran",
-    "duaDhikr": "Invocations et rappel d'Allah",
+    "duaDhikr": "Invocations et rappel d'Allah (dua et dhikr)",
     "asmaAlHusna": "Les 99 noms d'Allah",
     "help": "Aide",
     "getHelp": "Obtenir de l'aide",
@@ -95,7 +96,16 @@
     "sourceLabel": "Source :",
     "bestForLabel": "Idéal pour :",
     "loadingPage": "Chargement…",
-    "sourcesUsed": "Sources utilisées"
+    "sourcesUsed": "Sources utilisées",
+    "emailPending": "Cette adresse courriel est en cours de création et ne fonctionne pas encore.",
+    "linkPending": "Ce lien est en cours de création et ne fonctionne pas encore.",
+    "reviewBadge": "En attente de révision savante",
+    "comingUp": {
+      "title": "À venir",
+      "now": "En ce moment : {name}. Prévu environ du {start} au {end}.",
+      "soon": "Prochainement : {name}. Début prévu vers le {start}.",
+      "link": "Lire le guide pour cette période de l'année"
+    }
   },
   "search": {
     "placeholder": "Rechercher des guides, le glossaire, des sujets, des ressources...",
@@ -114,7 +124,8 @@
       "topics": "Sujets",
       "glossary": "Glossaire",
       "resources": "Ressources",
-      "faq": "Questions"
+      "faq": "Questions",
+      "pages": "Guides et outils"
     },
     "seeAll": "Voir les {count} résultats",
     "tips": {
@@ -225,7 +236,7 @@
       "description": "Les cinq heures de prière du jour pour toute ville ou adresse au Canada, selon la méthode de l'ISNA, en heure locale. Confirmez avec votre mosquée."
     },
     "qibla": {
-      "title": "Trouver la qibla - Revert Guide",
+      "title": "Direction de la prière (qibla) - Revert Guide",
       "description": "Trouvez la direction de la Kaaba à La Mecque pour la prière, avec votre position ou des coordonnées saisies. Suivez la boussole ou l'angle indiqué."
     },
     "asmaAlHusna": {
@@ -260,7 +271,33 @@
         "openGuide": "Ouvrir le guide",
         "noteTitle": "Des points de départ",
         "noteBody": "Ces guides donnent des informations générales. Pour un avis religieux personnel, une question de sécurité, un sujet juridique, le mariage, une pression familiale ou la santé mentale, adressez-vous à un imam, un savant, un clinicien ou un professionnel qualifié près de chez vous.",
-        "roadmapButton": "Revenir à la feuille de route"
+        "roadmapButton": "Revenir à la feuille de route",
+        "groups": {
+          "starting-out": {
+            "title": "Premiers pas",
+            "intro": "Pour les premières semaines : votre première visite à la mosquée, qui vous êtes maintenant et comment demander de l'aide."
+          },
+          "family-and-relationships": {
+            "title": "Famille et relations",
+            "intro": "L'annoncer aux gens que vous aimez, les occasions familiales, et les bases des relations et du mariage."
+          },
+          "everyday-life": {
+            "title": "Vie quotidienne",
+            "intro": "Le travail, l'école, la nourriture et les vêtements : les journées ordinaires où votre foi rencontre le reste de la vie."
+          },
+          "community-and-safety": {
+            "title": "Communauté et sécurité",
+            "intro": "Trouver des gens qui vous font du bien, vous sentir moins seul et repérer quand quelque chose ne va pas."
+          },
+          "life-events": {
+            "title": "Événements de la vie",
+            "intro": "Les grands moments que la feuille de route ne peut pas contenir, parce qu'ils arrivent à leur propre rythme : le mariage, les enfants, la maladie, la mort et les testaments."
+          },
+          "mentoring": {
+            "title": "Mentorat",
+            "intro": "Comment fonctionne le mentorat sur ce site, et un guide pour les personnes qui accompagnent de nouveaux musulmans."
+          }
+        }
       },
       "detail": {
         "notFoundTitle": "Guide introuvable",
@@ -339,6 +376,10 @@
         {
           "title": "Vous cherchez une chose précise?",
           "body": "Lisez sur la prière, le jeûne, la foi ou la communauté, chaque sujet séparément. Le glossaire est là dès qu'un mot est nouveau."
+        },
+        {
+          "title": "Vous réfléchissez à l'islam?",
+          "body": "Pas encore musulman? Lisez à votre rythme, sans pression et sans échéance, et trouvez quelqu'un à qui parler quand vous le voulez."
         }
       ],
       "intro": "Revert Guide est un compagnon gratuit, étape par étape, pour toute personne devenue musulmane récemment. Que vous appreniez encore à prier ou que vous vous prépariez à votre premier Ramadan, il part de là où vous en êtes vraiment. Il s'en tient à des étapes pratiques, sans sermon ni jugement.",
@@ -365,12 +406,18 @@
       "quickLinkFaq": {
         "title": "Questions et réponses",
         "body": "De courtes réponses aux questions des nouveaux musulmans"
+      },
+      "quickLinkSeasonal": {
+        "title": "Guides saisonniers (Ramadan, Aïd, hajj)",
+        "body": "Quoi faire quand arrivent l'Aïd, la saison du hajj ou le moment de la zakat"
       }
     },
     "about": {
       "title": "À propos de Revert Guide",
       "missionTitle": "Notre mission",
       "mission": "Revert Guide accompagne les gens pendant leur première année de musulman. Cette première année apporte beaucoup de questions, et la plupart sont des questions ordinaires qu'on n'ose pas poser. Les réponses sont donc réunies ici, en un seul endroit. Elles fonctionnent hors ligne et ne coûtent rien.",
+      "nameTitle": "Pourquoi le nom Revert Guide",
+      "nameBody": "Les musulmans utilisent deux mots en anglais pour une personne qui devient musulmane : « revert » et « convert ». « Revert » (celui qui revient) vient de l'enseignement selon lequel chaque enfant naît dans la fitrah, une inclination naturelle à reconnaître Dieu (Sahih al-Bukhari 1385, et Coran 30:30) : venir à l'islam est donc vu comme un retour. Certains musulmans venus à l'islam à l'âge adulte préfèrent « convert » (converti), parce que ce mot nomme le choix qu'ils ont fait. Nous avons pris le premier mot pour le nom, et nous utilisons les deux sur le site. Appelez-vous comme cela vous semble juste.",
       "approachTitle": "Notre approche",
       "approachItems": [
         {
@@ -701,6 +748,8 @@
       "focusNow": "À faire maintenant",
       "canWait": "Ce qui peut attendre",
       "askHelpIf": "Demandez de l'aide si",
+      "askHelpLink": "Obtenir l'aide d'une personne",
+      "safetyLink": "Si quelque chose ne semble pas sûr : signaux d'alarme et sécurité",
       "goodNextQuestions": "Bonnes questions pour la suite"
     },
     "step": {
@@ -719,7 +768,10 @@
       "watchTitle": "Regarder et apprendre",
       "commonQuestions": "Questions fréquentes",
       "workSchoolFamily": "Au travail, à l'école ou en famille",
-      "gentleScripts": "Phrases toutes simples"
+      "gentleScripts": "Phrases toutes simples",
+      "whereToGoNext": "Pour aller plus loin",
+      "askHelpPrompt": "Vous êtes bloqué, ou quelque chose ne vous semble pas correct?",
+      "askHelpLink": "Demander de l'aide à une personne"
     },
     "topics": {
       "description": "Des guides sur un seul sujet chacun, complets en eux-mêmes. Commencez par celui dont vous avez besoin.",
@@ -766,13 +818,14 @@
       "subtitle": "Votre premier Ramadan en tant que musulman.",
       "whatIsRamadan": {
         "title": "Qu'est-ce que le Ramadan?",
-        "body": "Le Ramadan est le neuvième mois du calendrier islamique et le mois où les musulmans jeûnent. De l'aube au coucher du soleil, on ne mange pas, on ne boit pas et on n'a pas de relations intimes. Le jeûne est la partie visible, mais le mois est aussi consacré à la prière, à la lecture du Coran, aux dons et à une attention plus grande à la façon dont on traite les autres. La première révélation du Coran est venue pendant le Ramadan, ce qui explique en partie l'importance de ce mois."
+        "body": "Le Ramadan est le neuvième mois du calendrier islamique, le mois où les musulmans jeûnent. De l'aube au coucher du soleil, on ne prend ni nourriture, ni boisson, et on n'a pas de relations sexuelles. Le jeûne est la partie visible, mais le mois est aussi fait de prière, de lecture du Coran, de dons et d'une attention plus grande à la façon dont on traite les gens. La première révélation du Coran est venue pendant le Ramadan, et c'est une des raisons pour lesquelles ce mois a autant de poids."
       },
       "forNewMuslims": {
         "title": "Pour les nouveaux musulmans",
         "calloutTitle": "Vous n'êtes pas seul ou seule",
         "calloutBody": "Si c'est votre premier Ramadan, il est normal de vous sentir anxieux ou hésitant. Chaque jeûne que vous arrivez à faire compte, et vous pouvez progresser à partir de là. Soyez doux avec vous-même. Des musulmans qui jeûnent depuis toujours trouvent encore certains jours difficiles.",
-        "body": "Trouvez un compagnon de jeûne, un mentor ou un groupe communautaire pour ne pas vivre ce mois seul. Beaucoup de mosquées organisent des programmes pour les nouveaux musulmans pendant le Ramadan, et la plupart des gens sont contents qu'on leur demande."
+        "body": "Trouvez un compagnon de jeûne, un mentor ou un groupe communautaire pour ne pas vivre ce mois seul. Beaucoup de mosquées organisent des programmes pour les nouveaux musulmans pendant le Ramadan, et la plupart des gens sont contents qu'on leur demande.",
+        "convertedLinkLabel": "Devenu musulman pendant le Ramadan? Ce que vous devez rattraper et ce que vous ne devez pas"
       },
       "fastingBasics": {
         "title": "Les bases du jeûne",
@@ -787,7 +840,7 @@
           },
           {
             "term": "Ce qu'on évite",
-            "desc": "c'est la nourriture, la boisson et les relations intimes de l'aube au coucher du soleil. Si vous mangez ou buvez par oubli, le jeûne reste valable. Arrêtez-vous simplement et continuez."
+            "desc": "consiste à s'abstenir de nourriture, de boisson et de relations sexuelles de l'aube au coucher du soleil. Selon l'école hanafite, les baisers ou les caresses qui mènent à l'éjaculation rompent aussi le jeûne, alors qu'un baiser qui ne va pas plus loin ne le rompt pas : le Prophète (paix et bénédictions sur lui) embrassait ses épouses pendant qu'il jeûnait (Sahih al-Bukhari 1927). Si vous mangez ou buvez par oubli, le jeûne reste valide. Arrêtez-vous simplement et continuez."
           },
           {
             "term": "Qui est dispensé",
@@ -810,7 +863,8 @@
           "Choisissez à l'avance des repas simples pour le suhoor et l'iftar, avant d'être fatigué et affamé.",
           "Prévenez votre employeur ou votre école si cela vous aide. La plupart des gens sont compréhensifs face à la pratique religieuse.",
           "Apprenez deux courtes invocations : l'intention du jeûne et l'invocation pour le rompre.",
-          "Choisissez un ou deux objectifs pour le mois, comme lire davantage le Coran, donner régulièrement ou réparer une relation."
+          "Choisissez un ou deux objectifs pour le mois, comme lire davantage le Coran, donner régulièrement ou réparer une relation.",
+          "Mettez un peu d'argent de côté à l'avance pour l'Aïd, l'aumône de fin de Ramadan (zakat al-fitr) et les cadeaux, pour que la fin du mois ne se retrouve pas sur une carte de crédit."
         ]
       },
       "duringRamadan": {
@@ -833,7 +887,7 @@
         ]
       },
       "tarawihAndCommunity": {
-        "title": "Les Tarawih et la communauté",
+        "title": "Prières de nuit et communauté (tarawih)",
         "tarawihBodyBeforeIsha": "Les Tarawih sont les prières supplémentaires du soir pendant le Ramadan, faites à la mosquée après la ",
         "tarawihBodyAfterIsha": " (Isha). Elles sont longues, et partir en cours de route ne pose aucun problème. Essayez d'y aller au moins une fois, car l'ambiance de la salle pendant les Tarawih se vit plus qu'elle ne s'explique.",
         "iftarBody": "Les iftars dans les mosquées et les centres communautaires sont un moyen simple de rompre le jeûne avec d'autres. Il y a en général bien plus de nourriture que prévu et quelqu'un pour venir se présenter. Pour beaucoup de convertis, c'est lors de ces soirées que naissent les premières vraies amitiés.",
@@ -842,10 +896,10 @@
       },
       "laylatAlQadr": {
         "title": "Laylat al-Qadr (la Nuit du destin)",
-        "body": "Pendant les dix dernières nuits du Ramadan, les musulmans recherchent Laylat al-Qadr, la Nuit du destin. Le Coran la décrit comme meilleure que mille mois. Personne ne connaît la date exacte. On la recherche donc traditionnellement pendant les nuits impaires de ces dix nuits : la 21e, la 23e, la 25e, la 27e ou la 29e. Beaucoup prient davantage, lisent plus de Coran et veillent plus tard pendant cette période."
+        "body": "Pendant les dix dernières nuits du Ramadan, les musulmans recherchent Laylat al-Qadr, la Nuit du Destin. Le Coran dit qu'elle est meilleure que mille mois. Personne n'en connaît la date exacte : on la recherche traditionnellement pendant les nuits impaires de ces dix nuits, la 21e, la 23e, la 25e, la 27e ou la 29e. Beaucoup de gens prient davantage, lisent plus de Coran et veillent plus tard pendant cette période. Certains passent les dix derniers jours à rester à la mosquée pour l'adoration, ce qu'on appelle la retraite spirituelle (i'tikaf). Le Prophète (paix et bénédictions sur lui) l'a fait chaque Ramadan jusqu'à sa mort (Sahih al-Bukhari 2026). C'est volontaire. Les mosquées qui l'accueillent demandent habituellement de s'inscrire et ont leurs propres règles, y compris pour les femmes et pour les séjours plus courts : renseignez-vous d'abord. Si vous ne pouvez pas rester, une soirée d'adoration supplémentaire est une belle façon d'y participer."
       },
       "eidAlFitr": {
-        "title": "L'Aïd al-Fitr",
+        "title": "La fête après le Ramadan (Aïd al-Fitr)",
         "body": "L'Aïd al-Fitr est la fête de la fin du Ramadan. Elle commence le matin par la prière de l'Aïd, en général lors d'un grand rassemblement dans une mosquée ou en plein air.",
         "items": [
           "Mettez vos plus beaux vêtements et saluez les gens avec « Eid Mubarak », qui veut dire « bonne fête bénie ».",
@@ -869,7 +923,7 @@
       "firstEidButton": "Guide de votre premier Aïd",
       "zakatButton": "Guide de la zakat pour débutants",
       "sourcesNote": "Le contenu sur le culte repose sur des références du Coran et des hadiths, et le cadre pratique vient de sources éducatives pour débutants. Pour la maladie, le voyage, les règles, les médicaments, la fidya ou les jeûnes manqués, demandez à un imam qualifié près de chez vous.",
-      "checklistAlt": "Mon premier Ramadan, une liste avec des cases vides à cocher. Avant le Ramadan : demandez à votre mosquée comment elle annonce le début du mois; apprenez les bases, pas de nourriture, de boisson ni de relations intimes de l'aube au coucher du soleil; sachez qui est dispensé et posez la question pour votre propre cas. Chaque jour : mangez quelque chose au suhoor avant l'aube; rompez le jeûne peu après le coucher du soleil avec de l'eau ou des dattes; choisissez un petit acte d'adoration que vous pouvez garder. En chemin : essayez les Tarawih une fois si vous le souhaitez, c'est facultatif; dites à une personne comment ça se passe. Manquer un jour ou avoir du mal n'annule pas votre Ramadan. Allah veut pour vous la facilité.",
+      "checklistAlt": "Mon premier Ramadan, une liste de vérification avec des cases vides. Avant le Ramadan : demandez à votre mosquée comment elle annonce le début; apprenez les bases, pas de nourriture, de boisson ni de relations sexuelles de l'aube au coucher du soleil; sachez qui est dispensé et posez la question pour votre propre cas. Chaque jour : mangez quelque chose au repas d'avant l'aube (suhoor); rompez le jeûne peu après le coucher du soleil avec de l'eau ou des dattes; choisissez un petit acte d'adoration que vous pouvez garder. En chemin : essayez les prières du soir (tarawih) une fois si vous le souhaitez, c'est facultatif; dites à une personne comment ça se passe. Manquer une journée ou avoir de la difficulté n'annule pas votre Ramadan. Allah veut la facilité pour vous.",
       "checklistCaption": "Une liste à imprimer pour votre premier Ramadan. Cochez ce qui vous aide et laissez le reste.",
       "sistersLinkLabel": "Pour les sœurs : ce qui change pendant les règles"
     },
@@ -913,7 +967,66 @@
           {
             "title": "Les doutes dans la foi",
             "body": "Vous pouvez avoir des doutes sur l'islam, ou remettre toute votre décision en question. La foi monte et descend, et les questions accompagnent tout engagement sérieux.",
-            "help": "L'islam vous invite à rechercher le savoir. Parlez à un mentor qui connaît le sujet, lisez des livres fiables ou assistez à un cercle d'étude. Ne gardez pas vos questions pour vous. Les traiter honnêtement rend généralement la foi plus forte qu'avant. Demandez à Allah de vous guider, et donnez-vous du temps."
+            "help": "L'islam vous invite à rechercher le savoir. Parlez à un mentor qui connaît le sujet, lisez des livres fiables ou assistez à un cercle d'étude. Ne gardez pas vos questions pour vous. Les traiter honnêtement rend généralement la foi plus forte qu'avant. Demandez à Allah de vous guider, et donnez-vous du temps.",
+            "href": "/topics/questions-and-doubts",
+            "linkLabel": "Lire : questions et doutes"
+          },
+          {
+            "title": "Revenir après une pause",
+            "body": "Vous avez arrêté de prier pendant un temps, ou vous vous êtes éloigné, et maintenant vous avez trop honte pour revenir.",
+            "help": "Commencez par la prochaine prière et un court repentir dans vos propres mots. Vous ne devez d'explication à personne à la mosquée.",
+            "href": "/guides/coming-back",
+            "linkLabel": "Lire : revenir après une pause"
+          },
+          {
+            "title": "L'alcool et les drogues",
+            "body": "Il peut être difficile de laisser l'alcool ou la drogue de votre vie d'avant l'islam, et les rechutes sont fréquentes pendant le rétablissement.",
+            "help": "Parlez à votre médecin, surtout avant d'arrêter une forte consommation d'alcool, et appelez la ligne provinciale en dépendance. Une rechute est une raison de recommencer, pas d'abandonner.",
+            "href": "/mental-health#recovery",
+            "linkLabel": "Lire : l'alcool, les drogues et le rétablissement"
+          },
+          {
+            "title": "Après un incident haineux",
+            "body": "Se faire crier dessus, agripper ou insulter en ligne parce qu'on est musulman peut vous laisser ébranlé pendant des semaines.",
+            "help": "Gardez des traces, signalez-le si vous le choisissez et parlez-en à une personne de confiance. Les services d'aide aux victimes peuvent vous aider.",
+            "href": "/guides/facing-hate-and-harassment",
+            "linkLabel": "Lire : faire face à la haine et au harcèlement"
+          },
+          {
+            "title": "Faire le deuil des personnes perdues",
+            "body": "Quand la famille se tait ou que de vieux amis cessent d'appeler, cela peut ressembler à un deuil, même si personne n'est mort.",
+            "help": "Le deuil n'est pas un signe de foi faible. Gardez un contact sûr quand c'est possible, préparez-vous aux dates difficiles, et consultez un conseiller si le poids reste lourd pendant des mois.",
+            "href": "/guides/family-and-friends",
+            "linkLabel": "Lire : faire le deuil des personnes que vous avez perdues"
+          },
+          {
+            "title": "Hivers sombres et baisse de moral",
+            "body": "Certaines personnes s'effondrent chaque mois de novembre. L'Isha arrive tard, le Fajr se fait dans le noir, et se lever est difficile. Le CAMH décrit le trouble affectif saisonnier (TAS) comme une dépression qui revient à l'automne ou en hiver. Il est plus fréquent dans les endroits éloignés de l'équateur, comme le Canada.",
+            "help": "Exposez-vous à la lumière du jour le matin, passez du temps dehors et restez actif, ce qui peut aider selon le CAMH. Si la baisse de moral revient chaque hiver, parlez-en à votre médecin. Le CAMH cite la luminothérapie comme principal traitement, avec les médicaments et la psychothérapie. Le manque d'énergie en hiver n'est pas un échec de la foi. Pour l'Isha tardif et le Fajr matinal, demandez à votre mosquée quel horaire elle suit.",
+            "href": "/faq#faq-pry-005",
+            "linkLabel": "Lire : Isha tardif et Fajr matinal dans le Grand Nord"
+          },
+          {
+            "title": "Des doutes qui ne s'arrêtent pas",
+            "body": "Refaire les ablutions (wudu) encore et encore, recommencer ses prières, ou avoir sur Allah des pensées non désirées que vous détestez. On appelle souvent cela les insinuations (waswas), et chez certaines personnes, c'est une forme de TOC.",
+            "help": "La page sur les ablutions explique ce que le Prophète a enseigné sur le doute, et quand consulter un clinicien. Le TOC se soigne.",
+            "href": "/tools/wudu-ghusl#doubts",
+            "linkLabel": "Lire : quand les doutes ne s'arrêtent pas"
+          },
+          {
+            "title": "Les doutes dans la foi",
+            "body": "Vous pouvez avoir des doutes sur l'islam, ou remettre toute votre décision en question. La foi monte et descend, et les questions accompagnent tout engagement sérieux.",
+            "help": "L'islam vous invite à rechercher le savoir. Parlez à un mentor qui connaît le sujet, lisez des livres fiables ou assistez à un cercle d'étude. Ne gardez pas vos questions pour vous. Les traiter honnêtement rend généralement la foi plus forte qu'avant. Faites des invocations (dua) pour demander la guidance, et donnez-vous du temps. Si vous avez peur qu'une pensée ou un péché vous ait fait sortir de l'islam, lisez « Suis-je encore musulman? » sur la page du sujet Questions et doutes."
+          },
+          {
+            "title": "La peur du mauvais œil ou des djinns",
+            "body": "Certaines personnes attribuent leur baisse de moral ou leur malchance au mauvais œil ou à un djinn, ou se le font dire par d'autres. Des guérisseurs payants exploitent parfois cette peur.",
+            "help": "Gardez le rappel d'Allah quotidien et consultez un médecin ou un conseiller pour des symptômes qui durent. La foi et le traitement vont ensemble. Le sujet sur les croyances fondamentales explique ce que disent les sources reconnues et énumère les signes d'alerte chez les guérisseurs payants."
+          },
+          {
+            "title": "Le Ramadan et les troubles alimentaires",
+            "body": "Si vous avez un trouble alimentaire, ou si vous vous en remettez, le Ramadan peut être un mois difficile. Le jeûne peut faire paraître la restriction normale, cacher une rechute ou mener à des excès à la rupture du jeûne (iftar). Un trouble alimentaire est une maladie, et la dispense de jeûne pour maladie le couvre.",
+            "help": "Parlez à votre équipe de soins avant de décider quoi que ce soit au sujet du jeûne, et consultez un savant en privé pour votre propre cas. Vous n'avez pas à prouver votre foi en jeûnant contre l'avis médical. Vous pouvez participer au Ramadan par la prière, le Coran, les invocations (dua), les dons et l'aide aux repas de l'iftar. La ligne d'aide du NEDIC figure plus bas dans les ressources de soutien."
           }
         ]
       },
@@ -927,7 +1040,9 @@
           "Écrivez ce que vous ressentez, ou dites-le dans une invocation. Le sortir de votre tête allège la pression.",
           "Posez des limites avec les personnes et les situations qui vous épuisent. Protéger votre paix n'est pas égoïste.",
           "Ralentissez votre respiration. Le dhikr s'y prête bien : répéter « SubhanAllah » sur de longues respirations calme à la fois le corps et le cœur.",
-          "Trouvez une communauté ou un mentor qui comprend ce qu'est une conversion. Vous n'êtes pas censé vivre cela seul."
+          "Trouvez une communauté ou un mentor qui comprend ce qu'est une conversion. Vous n'êtes pas censé vivre cela seul.",
+          "Pendant une semaine où vous êtes épuisé, gardez ce qui est obligatoire et mettez les extras en pause pour un temps. La page Les bases du nouveau musulman propose un plan pour les semaines difficiles.",
+          "En hiver, sortez à la lumière du jour chaque matin si vous le pouvez, et organisez votre sommeil selon l'horaire de prière de votre mosquée."
         ]
       },
       "seekHelp": {
@@ -942,7 +1057,7 @@
           "Consommer des substances pour passer la journée"
         ],
         "calloutTitle": "Si vous êtes en danger immédiat",
-        "calloutBody": "Si vous pensez à vous faire du mal, appelez ou textez le 9-8-8 à toute heure. Si vous êtes en danger immédiat, composez le 9-1-1 ou rendez-vous tout de suite au service d'urgence le plus proche. Votre vie compte."
+        "calloutBody": "Si vous êtes en danger immédiat, composez le 9-1-1 ou rendez-vous tout de suite au service d'urgence le plus proche. Si vous pensez au suicide, appelez ou textez le 9-8-8, à toute heure. Votre vie compte."
       },
       "disclaimer": {
         "label": "Note :",
@@ -1018,6 +1133,13 @@
                 ],
                 "officialHref": "https://www.hopeforwellness.ca/",
                 "checked": "Vérifié le 23 septembre 2026"
+              },
+              {
+                "name": "Centres d'aide contre les agressions sexuelles (ESVA Canada)",
+                "desc": "L'Ending Sexual Violence Association of Canada répertorie les centres d'aide contre les agressions sexuelles, les lignes de crise et les refuges de chaque province et territoire. Si vous êtes en danger immédiat, composez le 9-1-1.",
+                "contacts": [],
+                "officialHref": "https://endingviolencecanada.org/getting-help/",
+                "checked": "Vérifié le 25 septembre 2026"
               }
             ]
           },
@@ -1091,6 +1213,111 @@
             "warningLinkHref": "https://www.canada.ca/en/public-health/services/health-promotion/stop-family-violence/plan-your-safety.html"
           },
           {
+            "id": "addiction",
+            "title": "L'alcool, les drogues et la dépendance",
+            "intro": "Des lignes gratuites pour les personnes qui consomment de l'alcool ou des drogues, et pour leur famille. En cas d'urgence ou de surdose, composez le 9-1-1. Le CCDUS tient la liste complète des lignes provinciales et territoriales.",
+            "linkLabel": "Voir toutes les lignes provinciales et territoriales",
+            "linkHref": "https://www.ccsa.ca/en/contact-us/addictions-treatment-helplines-canada",
+            "items": [
+              {
+                "name": "Lignes provinciales en dépendance",
+                "desc": "Chaque province et territoire a sa propre ligne. En Ontario, utilisez ConnexOntario, indiqué plus bas.",
+                "contacts": [
+                  {
+                    "label": "Alberta :",
+                    "value": "1-866-332-2322",
+                    "href": "tel:18663322322"
+                  },
+                  {
+                    "label": "Colombie-Britannique :",
+                    "value": "1-800-663-1441",
+                    "href": "tel:18006631441"
+                  },
+                  {
+                    "label": "Québec :",
+                    "value": "1-800-265-2626",
+                    "href": "tel:18002652626"
+                  },
+                  {
+                    "label": "Nouvelle-Écosse :",
+                    "value": "1-888-429-8167",
+                    "href": "tel:18884298167"
+                  }
+                ],
+                "officialHref": "https://www.ccsa.ca/en/contact-us/addictions-treatment-helplines-canada",
+                "checked": "Vérifié le 25 septembre 2026"
+              },
+              {
+                "name": "Narcotiques Anonymes",
+                "desc": "Une ligne nationale des Narcotiques Anonymes, un groupe d'entraide entre pairs. Il n'est pas confessionnel.",
+                "contacts": [
+                  {
+                    "label": "Appelez :",
+                    "value": "1-855-562-2262",
+                    "href": "tel:18555622262"
+                  }
+                ],
+                "officialHref": "https://www.canada.ca/en/health-canada/services/substance-use/get-help-with-substance-use.html",
+                "checked": "Vérifié le 25 septembre 2026"
+              },
+              {
+                "name": "Service national d'intervention en cas de surdose",
+                "desc": "Une ligne d'intervention en cas de surdose pour tout le Canada, répertoriée par Santé Canada.",
+                "contacts": [
+                  {
+                    "label": "Appelez :",
+                    "value": "1-888-688-6677",
+                    "href": "tel:18886886677"
+                  }
+                ],
+                "officialHref": "https://www.canada.ca/en/health-canada/services/substance-use/get-help-with-substance-use.html",
+                "checked": "Vérifié le 25 septembre 2026"
+              },
+              {
+                "name": "Families for Addiction Recovery",
+                "desc": "Du soutien pour les parents et les membres de la famille d'une personne aux prises avec une dépendance. En semaine, de 13 h à 15 h, heure de l'Est.",
+                "contacts": [
+                  {
+                    "label": "Appelez :",
+                    "value": "1-855-377-6677",
+                    "href": "tel:18553776677"
+                  }
+                ],
+                "officialHref": "https://www.canada.ca/en/health-canada/services/substance-use/get-help-with-substance-use.html",
+                "checked": "Vérifié le 25 septembre 2026"
+              }
+            ]
+          },
+          {
+            "id": "eating-disorders",
+            "title": "Les troubles alimentaires",
+            "items": [
+              {
+                "name": "NEDIC (National Eating Disorder Information Centre)",
+                "desc": "La ligne d'aide nationale du Canada pour les troubles alimentaires, gérée par le Réseau universitaire de santé (UHN). Soutien gratuit par téléphone, courriel et clavardage. Les heures changent : consultez le site Web avant d'appeler.",
+                "contacts": [
+                  {
+                    "label": "Appelez sans frais :",
+                    "value": "1-866-633-4220",
+                    "href": "tel:18666334220"
+                  },
+                  {
+                    "label": "Toronto :",
+                    "value": "416-340-4156",
+                    "href": "tel:4163404156"
+                  },
+                  {
+                    "label": "Courriel :",
+                    "value": "nedic@uhn.ca",
+                    "href": "mailto:nedic@uhn.ca"
+                  }
+                ],
+                "officialHref": "https://nedic.ca/contact/",
+                "checked": "Vérifié le 25 septembre 2026"
+              }
+            ]
+          },
+          {
             "id": "ontario",
             "title": "Trouver des services en Ontario",
             "intro": "Ces lignes vous aident à trouver des services locaux qui ne sont pas des urgences. Hors de l'Ontario, le gouvernement du Canada tient une liste de services pour chaque province et territoire.",
@@ -1135,7 +1362,7 @@
         "directories": [
           {
             "name": "Khalil Center",
-            "desc": "Thérapie et groupes de soutien pour les musulmans, par des cliniciens qui tiennent compte de la foi plutôt que de la contourner.",
+            "desc": "Thérapie et groupes de soutien pour les musulmans, offerts par des cliniciens qui travaillent avec la foi plutôt qu'en la contournant. Les services sont offerts en ligne seulement. On répond à la ligne téléphonique, 416-901-2244, le lundi, le mercredi, le vendredi et le dimanche, de 11 h à 15 h, heure de l'Est. Renseignez-vous sur les frais et les assurances.",
             "linkLabel": "Visiter le site"
           },
           {
@@ -1155,11 +1382,40 @@
             "linkLabel": "Lire le rapport",
             "href": "https://yaqeeninstitute.org/read/data/reports/becoming-muslim-lives-of-american-converts-to-islam"
           }
-        ]
+        ],
+        "therapist": {
+          "title": "Choisir un thérapeute",
+          "intro": "N'importe qui peut se dire conseiller ou coach de vie, et un imam n'est pas un thérapeute agréé. Quelques vérifications avant de prendre rendez-vous vous aideront. Les règles sur qui peut offrir de la thérapie varient d'une province à l'autre, et jusqu'ici nous n'avons vérifié que celles de l'Ontario.",
+          "items": [
+            "Demandez au thérapeute son numéro d'inscription et l'ordre professionnel dont il fait partie.",
+            "Cherchez-le dans le registre public de cet ordre. En Ontario, l'Ordre des psychothérapeutes autorisés de l'Ontario (CRPO) en tient un.",
+            "Pour trouver un psychologue, essayez l'association de psychologie de votre province ou territoire, qui offre souvent un service de référence. La Société canadienne de psychologie en publie la liste. Une association n'est pas un organisme de réglementation : vérifiez quand même le permis auprès de l'ordre.",
+            "Demandez-lui comment il tient compte de la foi de ses clients.",
+            "Renseignez-vous sur les frais, une échelle mobile et les assurances avant la première séance."
+          ]
+        }
       },
       "crossLink": {
         "prompt": "Vous cherchez du soutien communautaire?",
         "linkLabel": "À lire : bâtir votre communauté musulmane"
+      },
+      "recovery": {
+        "title": "L'alcool, les drogues et le rétablissement",
+        "paragraphs": [
+          "Beaucoup de convertis viennent d'une vie où boire était normal, et certains ont du mal à arrêter. Le Dr Jibran Khokhar, chercheur en dépendances à l'Université Western, écrit que les troubles liés à l'usage de substances sont chroniques et entraînent souvent des rechutes, et que la stigmatisation empêche beaucoup de musulmans de demander de l'aide. Une rechute est fréquente pendant le rétablissement. Elle ne veut pas dire que vous avez échoué.",
+          "Si vous buvez beaucoup tous les jours, consultez un médecin avant d'arrêter. Le CAMH indique que le sevrage d'alcool peut causer des convulsions, et que sa forme grave peut être mortelle si elle n'est pas traitée.",
+          "En islam, une rechute ne met pas fin à votre foi non plus. Un compagnon du Prophète lui a été amené à plusieurs reprises parce qu'il avait bu. Quand quelqu'un a maudit cet homme, le Prophète a dit : « Ne le maudissez pas, car par Allah, je sais qu'il aime Allah et Son Messager » (Sahih al-Bukhari 6780). Après une rechute, repentez-vous et recommencez le jour même.",
+          "Le Dr Zohair Abdul-Rahman, du Yaqeen Institute, décrit un programme de rétablissement tiré du savant Ibn al-Qayyim, et écrit que cette approche islamique complète la recherche moderne sur les dépendances. La foi et le traitement peuvent aller de pair."
+        ],
+        "stepsTitle": "Des étapes qui aident",
+        "steps": [
+          "Dites honnêtement à votre médecin combien vous buvez ou consommez.",
+          "Appelez la ligne en dépendance de votre province ou territoire, indiquée plus bas, pour savoir quelle aide existe près de chez vous.",
+          "Sortez l'alcool de chez vous, et planifiez les soirées que vous passiez à boire.",
+          "Choisissez un ami sobre ou un mentor à qui vous pouvez écrire les soirs difficiles.",
+          "Après une rechute, repentez-vous et recommencez le jour même. Vous êtes toujours le bienvenu à la mosquée."
+        ],
+        "groupsNote": "Les Alcooliques Anonymes et les Narcotiques Anonymes ne sont pas confessionnels, et beaucoup de gens les trouvent utiles. Millati Islami est un groupe musulman en 12 étapes. Son répertoire indique des réunions en ligne et des groupes aux États-Unis, et aucun groupe au Canada."
       }
     },
     "resourcesPage": {
@@ -1252,7 +1508,8 @@
         "youth-programs": "Programmes jeunesse",
         "weekend-school": "École de fin de semaine",
         "library": "Bibliothèque",
-        "interfaith-outreach": "Dialogue interreligieux"
+        "interfaith-outreach": "Dialogue interreligieux",
+        "funeral-services": "Services funéraires"
       },
       "liveRegion": {
         "one": "mosquée trouvée",
@@ -1311,7 +1568,24 @@
       "emptyTitle": "Aucun terme trouvé",
       "emptyPrefix": "Essayez un autre terme, ou",
       "emptyAction": "effacez la recherche",
-      "seeAlso": "Voir aussi :"
+      "seeAlso": "Voir aussi :",
+      "sayItLabel": "Prononciation :",
+      "pronunciationKey": {
+        "title": "Comment lire le guide de prononciation",
+        "items": [
+          "Les majuscules indiquent la partie accentuée du mot. Dans a-DHAAN, on appuie sur DHAAN.",
+          "Les voyelles doublées sont longues : aa comme dans « pâte », ee comme le « i » de « mie », oo comme le « ou » de « loup ».",
+          "dh se prononce comme le « th » anglais de « this ». Dans Dhuhr et Hafiz, il représente une version plus lourde du même son.",
+          "th se prononce comme le « th » anglais de « thin », comme dans ha-DEETH.",
+          "q est un k prononcé plus au fond de la gorge, comme dans qur-AAN.",
+          "kh est le son de la « jota » espagnole ou du « ch » allemand de « Bach ». gh ressemble au r français.",
+          "Une apostrophe marque un arrêt dans la gorge, comme dans KA'-bah. Elle représente une lettre qui n'existe pas en français.",
+          "Ce guide sert à lire à voix haute : ce n'est pas une translittération savante. La meilleure façon d'apprendre un mot est de l'entendre d'un enseignant ou dans une récitation."
+        ]
+      },
+      "sourcesLabel": "Sources :",
+      "phrasesPrompt": "Vous cherchez des expressions comme in sha Allah ou jazak Allahu khayran, et comment y répondre?",
+      "phrasesLink": "Voir les expressions de tous les jours"
     },
     "offline": {
       "title": "Vous êtes hors ligne",
@@ -1365,7 +1639,7 @@
       "errorTitle": "Erreur"
     },
     "qibla": {
-      "title": "Trouver la qibla",
+      "title": "Trouver la direction de la prière (qibla)",
       "subtitle": "Trouvez la direction de la Kaaba à La Mecque pour la prière.",
       "directionLabel": "Direction de la qibla",
       "degrees": "degrés à partir du nord",
@@ -1413,10 +1687,10 @@
       "errorTitle": "Erreur"
     },
     "duaDhikr": {
-      "metadataTitle": "Mémento des invocations et du rappel d'Allah",
+      "metadataTitle": "Invocations et rappel d'Allah (dua et dhikr)",
       "metadataDescription": "Un mémento pour débutants : invocations du Coran et des hadiths, formules de rappel d'Allah (dhikr) et place de vos propres mots.",
       "eyebrow": "Mémento pour débutants",
-      "title": "Mémento des invocations (dua) et du rappel d'Allah (dhikr)",
+      "title": "Invocations et rappel d'Allah (dua et dhikr)",
       "subtitle": "Une courte sélection d'invocations et de formules de rappel, avec leurs sources, pour commencer. Apprenez-en quelques-unes correctement avant d'en ajouter d'autres.",
       "duaTopicButton": "Sujet : l'invocation",
       "salahCompanionButton": "Compagnon de prière",
@@ -1450,7 +1724,12 @@
       "sourcesNote": "Les références listées ici ont été vérifiées. La formulation des hadiths, la translittération et tout ce qui est personnel doivent encore être révisés par une personne qualifiée.",
       "prayerTopicButton": "Sujet : la prière",
       "mentalHealthButton": "Soutien en santé mentale",
-      "questionsButton": "Questions et doutes"
+      "questionsButton": "Questions et doutes",
+      "phrasesButton": "Expressions de tous les jours",
+      "whenLabel": "Quand le dire",
+      "replyLabel": "La réponse",
+      "replyTextTag": "Formule tirée du Coran ou des hadiths",
+      "replyCustomTag": "Politesse courante, pas un texte de la Sunnah"
     },
     "quranStarter": {
       "metadataTitle": "Parcours pour débuter avec le Coran",
@@ -1614,7 +1893,15 @@
       "menstruationLink": "Les règles, les saignements après l'accouchement et le culte",
       "tayammumTitle": "Quand vous ne pouvez pas utiliser d'eau (tayammum)",
       "tayammumStepsTitle": "Comment faire",
-      "questionsTitle": "Bas d'hiver, vernis à ongles et plâtres"
+      "questionsTitle": "Bas d'hiver, vernis à ongles et plâtres",
+      "doubtsTitle": "Quand les doutes ne s'arrêtent pas (waswas)",
+      "doubtsTeachingsTitle": "Ce que le Prophète a enseigné",
+      "doubtsStepsTitle": "Quoi faire",
+      "doubtsMistakesTitle": "Erreurs courantes",
+      "doubtsClinicalTitle": "Les insinuations (waswas) et le TOC",
+      "doubtsSignsTitle": "Quand consulter un clinicien",
+      "doubtsMentalHealthLink": "Soutien en santé mentale et par où commencer",
+      "doubtsSahwLink": "Si vous perdez le compte pendant la prière : la prosternation de l'oubli (sujud al-sahw)"
     },
     "video": {
       "playAria": "Lire la vidéo : {title}",
@@ -1653,6 +1940,7 @@
         "hajj": "Le pèlerinage (hajj et omra)",
         "menstruation": "Les règles et le culte",
         "family": "Famille et mariage",
+        "relationships-and-intimacy": "Relations et intimité",
         "holidays": "Fêtes et occasions familiales",
         "everyday-life": "Nourriture, travail et vie quotidienne",
         "community": "Communauté et appartenance",
@@ -1714,7 +2002,8 @@
         "title": "Qui la lit",
         "body": "Une ou deux personnes bénévoles coordonnatrices lisent chaque demande dans une boîte de réception partagée. Personne d'autre ne la voit. Si vous demandez un mentor, la personne coordonnatrice vous présente d'abord le jumelage et ne transmet au mentor que ce dont il a besoin, une fois que vous êtes d'accord.",
         "responseTitle": "Quand nous répondons",
-        "response": "Nous visons une réponse dans un délai de 48 à 72 heures. C'est un objectif, pas une promesse. Les réponses peuvent être plus lentes pendant les fêtes et le Ramadan."
+        "response": "Nous visons une réponse dans un délai de 48 à 72 heures. C'est un objectif, pas une promesse. Les réponses peuvent être plus lentes pendant les fêtes et le Ramadan.",
+        "mentoringLinkLabel": "Le fonctionnement du mentorat et nos normes de conduite"
       },
       "privacy": {
         "title": "Votre vie privée",
@@ -1732,7 +2021,8 @@
         "body": "Dites-nous si un mentor, un membre d'un groupe ou un administrateur vous demande de l'argent, vous propose le mariage, vous pousse à rejoindre quelque chose ou fait en sorte que vous ne vous sentiez pas en sécurité. Votre signalement va aux personnes coordonnatrices, jamais à la personne que vous signalez.",
         "emailLabel": "Courriel",
         "scamNote": "Si quelqu'un vous a demandé de l'argent ou si vous pensez avoir été victime d'une fraude, vous pouvez aussi le signaler au Centre antifraude du Canada au 1-888-495-8501.",
-        "redFlagsLabel": "Signaux d'alerte à surveiller"
+        "redFlagsLabel": "Signaux d'alerte à surveiller",
+        "hateLabel": "Si vous avez subi de la haine ou du harcèlement"
       },
       "contact": {
         "title": "Vous préférez écrire un courriel?",
