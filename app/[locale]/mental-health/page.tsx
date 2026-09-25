@@ -169,6 +169,15 @@ export default function MentalHealthPage({
                   </strong>{" "}
                   {item.help}
                 </p>
+                {item.href && item.linkLabel ? (
+                  <Link
+                    href={localizeHref(locale, item.href)}
+                    className="mt-3 inline-flex min-h-[44px] items-center gap-1 text-sm font-medium text-primary no-underline transition-colors duration-200 hover:text-primaryHover hover:underline"
+                  >
+                    {item.linkLabel}
+                    <Icon name="chevron-right" size="sm" />
+                  </Link>
+                ) : null}
               </div>
             ))}
           </div>
