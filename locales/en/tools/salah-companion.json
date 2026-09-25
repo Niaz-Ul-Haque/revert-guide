@@ -192,7 +192,7 @@
     "Eating, drinking, or speaking unrelated words on purpose during the prayer.",
     "Leaving out a required posture, condition, or recitation once you know it is required.",
     "Ending the prayer or turning away from it deliberately, with no reason to.",
-    "Mistakes, forgetfulness, illness, menstruation, travel, and disability all carry details worth going over with a qualified teacher."
+    "Mistakes, forgetfulness, illness, menstruation, travel, and disability all carry details worth going over with a qualified teacher. The list below points to what this site already covers."
   ],
   "commonCorrections": [
     {
@@ -525,5 +525,59 @@
         "islamqa-12363-janazah"
       ]
     }
-  ]
+  ],
+  "situationIndex": {
+    "title": "When something comes up",
+    "intro": "Real life gets in the way of prayer. Find your situation here and go straight to the answer.",
+    "items": [
+      {
+        "label": "The prayer has already started when you arrive",
+        "href": "/tools/salah-companion#behind-imam"
+      },
+      {
+        "label": "You lost count or made a mistake",
+        "href": "/tools/salah-companion#sujud-al-sahw"
+      },
+      {
+        "label": "You are travelling, driving far or flying",
+        "href": "/topics/prayer"
+      },
+      {
+        "label": "You slept through Fajr or missed a prayer",
+        "href": "/faq#faq-pry-037"
+      },
+      {
+        "label": "Your shift covers a whole prayer time",
+        "href": "/faq#faq-pry-038"
+      },
+      {
+        "label": "You need to pray at work, outdoors or on the road",
+        "href": "/tools/salah-companion#prayer-kit"
+      },
+      {
+        "label": "Something got on your clothes",
+        "href": "/topics/purification"
+      },
+      {
+        "label": "A health condition keeps breaking your wudu",
+        "href": "/tools/wudu-ghusl#excused-person"
+      },
+      {
+        "label": "Pain, illness or a hospital stay",
+        "href": "/tools/salah-companion#seated-prayer"
+      },
+      {
+        "label": "Your period has started",
+        "href": "/topics/menstruation-and-worship"
+      },
+      {
+        "label": "You are going to a funeral prayer",
+        "href": "/tools/salah-companion#funeral-prayer"
+      },
+      {
+        "label": "You are going to an Eid prayer",
+        "href": "/seasonal/eid-al-fitr"
+      }
+    ]
+  }
 }
