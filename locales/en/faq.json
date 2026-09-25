@@ -3433,5 +3433,54 @@
     ],
     "reviewStatus": "review-needed",
     "askTeacher": true
+  },
+  {
+    "id": "faq-pry-037",
+    "category": "prayer",
+    "question": "I slept through Fajr again. What now?",
+    "answer": "Pray it as soon as you wake up. The Prophet said there is no negligence in sleep, and that the person should pray when they become aware of it (Sahih Muslim 681). A forgotten prayer is prayed when you remember it, with nothing else owed (Sahih Muslim 684a). Oversleeping does not make you a hypocrite. A few tips, not rulings: go to bed earlier, put the alarm on the other side of the room, or ask a friend to call you.",
+    "readMore": {
+      "label": "Start praying five times a day",
+      "href": "/roadmap/week-1/prayer"
+    },
+    "sourceIds": ["sunnah-muslim-681", "sunnah-muslim-684a"],
+    "reviewStatus": "source-checked"
+  },
+  {
+    "id": "faq-pry-038",
+    "category": "prayer",
+    "question": "I work night shifts or long hospital shifts. Can I combine prayers?",
+    "answer": "Start by asking for a short break at the right time; AMJA's answer on night shifts says to arrange to pray on time at work. Two AMJA answers allow combining for real hardship at work, citing the hadith in which the Prophet combined prayers in Madinah without fear or travel (Sahih Muslim 705a). They allow it as a temporary measure, not a daily habit. The Hanafi school does not allow two prayers in one time outside Hajj: a Hanafi can pray one prayer at the end of its time and the next at the start of its time, and may follow another school's combining only if every condition of that school is met. Ask a teacher which option your school gives before you start.",
+    "differences": "AMJA allows temporary combining for hardship. The Hanafi school allows only praying at the end of one time and the start of the next. We have not yet checked the Shafi'i and Maliki answers on work hardship.",
+    "readMore": {
+      "label": "Work and school guide",
+      "href": "/guides/work-and-school"
+    },
+    "sourceIds": [
+      "amja-combining-nightshift",
+      "amja-combining-for-job",
+      "sunnah-muslim-705a",
+      "seekersguidance-combining-hanafi"
+    ],
+    "reviewStatus": "review-needed",
+    "askTeacher": true
+  },
+  {
+    "id": "faq-pry-039",
+    "category": "prayer",
+    "question": "Is it okay to pray at the very end of the prayer time?",
+    "answer": "A prayer prayed anywhere inside its time counts. The Prophet named prayer at its time as the deed Allah loves most (Sahih al-Bukhari 527), so try not to leave it to the last minutes, and do not leave Asr until the sun turns yellow. A prayer prayed before its time has begun does not count, so wait for the time to come in.",
+    "differences": "The schools differ on the best part of each window. The Hanafi school, for example, prefers praying Fajr once the sky has grown light and delaying Isha, so 'as early as possible' is not agreed by everyone.",
+    "readMore": {
+      "label": "Prayer times",
+      "href": "/prayer-times"
+    },
+    "sourceIds": [
+      "sunnah-bukhari-527",
+      "sunnah-muslim-prayer-times",
+      "quran-4-103-appointed-times"
+    ],
+    "reviewStatus": "review-needed",
+    "askTeacher": true
   }
 ]
