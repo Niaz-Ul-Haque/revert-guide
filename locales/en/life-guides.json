@@ -133,9 +133,26 @@
       "You are allowed to phone or email the masjid before you go.",
       "Clean and modest clothes are enough. You do not need cultural clothing.",
       "When you get there, ask one person directly for help.",
-      "Friday prayer is much busier than a regular daily prayer."
+      "Friday prayer is much busier than a regular daily prayer.",
+      "Do not walk in front of someone who is praying, and stay quiet during the Friday sermon."
     ],
-    "sourceIds": ["whyislam-mosque-visit", "new-muslim-guide", "icna"],
+    "sourceIds": [
+      "whyislam-mosque-visit",
+      "new-muslim-guide",
+      "icna",
+      "sunnah-bukhari-510",
+      "sunnah-abudawud-698",
+      "sunnah-muslim-499a",
+      "sunnah-bukhari-444",
+      "sunnah-muslim-875c",
+      "sunnah-muslim-713a",
+      "sunnah-bukhari-934",
+      "sunnah-abudawud-1118",
+      "sunnah-muslim-564a",
+      "sunnah-bukhari-855",
+      "sunnah-bukhari-900",
+      "sunnah-bukhari-707"
+    ],
     "sections": [
       {
         "heading": "Before you go",
@@ -159,6 +176,24 @@
           "Ask where the shoes go and where you should sit.",
           "Ask where people make wudu if you need to.",
           "During prayer, line up with the rows and follow what the group does."
+        ]
+      },
+      {
+        "heading": "Small courtesies",
+        "body": "A few habits make a masjid easier for everyone. People often do not mention them until you get one wrong, so here they are with their sources. If someone corrects you, say \"Thank you, I'm new,\" and ask your teacher later whether the point was a rule or a local habit.",
+        "items": [
+          "Do not walk directly in front of someone who is praying. The Prophet (peace be upon him) said that a person who knew the sin of passing in front of someone praying would rather wait forty (days, months or years) than do it (Sahih al-Bukhari 510). Pass behind them, or beyond the object they have placed in front of them, which is called a barrier (sutrah).",
+          "When you pray on your own, pray facing a wall, a pillar or an object, and stay close to it (Sunan Abi Dawud 698, graded hasan sahih). People can then pass beyond it without disturbing you (Sahih Muslim 499a).",
+          "As you enter, you can say \"Allahumma iftah li abwaba rahmatik\" (O Allah, open for me the doors of Your mercy), and as you leave, \"Allahumma inni as'aluka min fadlik\" (O Allah, I ask You of Your grace) (Sahih Muslim 713a). These are recommended, not required.",
+          "If you can, pray two short units of prayer (rak'ahs) when you arrive, before you sit down (Sahih al-Bukhari 444). If you are unsure whether now is a good time, just sit, and ask your teacher later.",
+          "If you arrive during the Friday sermon (khutbah): the Prophet told a man who came in during the sermon to stand and pray two rak'ahs (Sahih Muslim 875c). Scholars differ on whether to do this while the sermon is going on, so ask your teacher what your masjid follows, and do not argue about it in the row.",
+          "During the sermon, listen and stay quiet, and keep your phone away. The Prophet said that even telling the person next to you to be quiet during the sermon is wrong (Sahih al-Bukhari 934).",
+          "Do not step over people to reach the front. A man who did that during the Friday sermon was told, \"Sit down, you have annoyed people\" (Sunan Abi Dawud 1118, graded sahih). Sit where there is space, even at the back.",
+          "Try not to come straight after eating onion, garlic or leek. The Prophet told people who had eaten onions or leek not to come near the masjid (Sahih Muslim 564a), and another narration names garlic and onion (Sahih al-Bukhari 855).",
+          "Women may attend the masjid. The Prophet said, \"Do not stop Allah's women-slaves from going to Allah's mosques\" (Sahih al-Bukhari 900). Scholars discuss the conditions and where it is better for a woman to pray, so ask your teacher about your situation. If the women's space is closed or too small, see the section on women's space below.",
+          "Children are welcome at many masjids. The Prophet shortened a prayer when he heard a child crying, so the mother would not be troubled (Sahih al-Bukhari 707). Keep young children near you and check the masjid's own rules.",
+          "Copies of the Quran on the shelves are there to read inside the masjid. Put them back when you finish. If you are on your period or need the full-body wash (ghusl), the menstruation and worship topic explains where scholars differ on touching the Quran.",
+          "After a talk, wait for question time or go up to the speaker afterwards. It helps to write your question down first. A private question can go to the masjid office by email."
         ]
       },
       {
@@ -202,6 +237,10 @@
       {
         "title": "The masjid cannot offer convert support.",
         "response": "Ask whether they know another masjid, a chaplain, a class, or a community group nearby. Support can come from a different mosque, an online class, or one steady person."
+      },
+      {
+        "title": "Someone tells you off for walking in front of a person praying.",
+        "response": "Say \"Thank you, I'm new,\" and step behind the person. Passing in front of someone praying is something the Prophet warned against, so the point was right even if the tone was not."
       }
     ],
     "relatedLinks": [
@@ -216,9 +255,13 @@
       {
         "label": "First masjid visit step",
         "href": "/roadmap/week-1/first-masjid-visit"
+      },
+      {
+        "label": "Menstruation and worship topic",
+        "href": "/topics/menstruation-and-worship"
       }
     ],
-    "reviewStatus": "source-checked"
+    "reviewStatus": "review-needed"
   },
   {
     "id": "work-and-school",
