@@ -109,6 +109,7 @@ const FILE_NEVER = {
     "duaId",
     "priority",
     "sourceName",
+    "type",
     "version",
   ],
 };
