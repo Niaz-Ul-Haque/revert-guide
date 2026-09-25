@@ -1,6 +1,7 @@
 "use client";
 
 import { useMemo, useState } from "react";
+import Link from "next/link";
 import { Breadcrumb } from "@/components/Breadcrumb";
 import { useTranslations } from "@/components/LocaleProvider";
 import { SearchBar } from "@/components/SearchBar";
@@ -210,6 +211,16 @@ export function GlossaryPageClient({
           ))}
         </div>
       )}
+
+      <p className="mb-0 mt-10 border-t border-border/40 pt-6 text-sm text-textSecondary">
+        {copy.phrasesPrompt}{" "}
+        <Link
+          href={localizeHref(locale, "/dua-dhikr#everyday-phrases")}
+          className="font-medium text-primary underline hover:text-primaryHover"
+        >
+          {copy.phrasesLink}
+        </Link>
+      </p>
     </div>
   );
 }
