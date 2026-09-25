@@ -2,7 +2,7 @@
   "id": "daily-dua-dhikr",
   "slug": "daily-dua-dhikr",
   "stageId": "week-1",
-  "title": "دعا و ذکر ساده روزانه را شروع کنید",
+  "title": "عادت روزانه یاد خدا (دعا و ذکر)",
   "whyMatters": "دعا و ذکر شما را مدت‌ها پیش از آنکه عربی زیادی بدانید با الله در پیوند نگه می‌دارند. راه‌هایی کوچک و همیشه همراه برای یاد کردن او هستند، وقتی زیر فشارید، وقتی شکرگزارید و در میانه یک روز معمولی.",
   "exactActions": [
     {
@@ -48,14 +48,33 @@
     "quran-com",
     "new-muslim-academy"
   ],
-  "relatedGlossaryIds": ["dua", "dhikr", "sunnah", "salah"],
-  "relatedTopicIds": ["dua-and-dhikr", "prayer", "new-muslim-basics"],
+  "relatedGlossaryIds": [
+    "dua",
+    "dhikr",
+    "sunnah",
+    "salah"
+  ],
+  "relatedTopicIds": [
+    "dua-and-dhikr",
+    "prayer",
+    "new-muslim-basics"
+  ],
   "commonQuestions": [
     {
       "problem": "آیا باید همین حالا دعاهای زیادی حفظ کنم؟",
       "solution": "نه. با چند دعا یا ذکر معتبر شروع کنید، آن‌ها را بفهمید و آرام‌آرام اضافه کنید."
     }
   ],
-  "sourceIds": ["quran-com", "sunnah-com", "darussalam"],
-  "reviewStatus": "review-needed"
+  "sourceIds": [
+    "quran-com",
+    "sunnah-com",
+    "darussalam"
+  ],
+  "reviewStatus": "review-needed",
+  "relatedLinks": [
+    {
+      "label": "دعا و ذکر",
+      "href": "/dua-dhikr"
+    }
+  ]
 }

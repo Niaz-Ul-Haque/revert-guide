@@ -62,9 +62,22 @@
   ],
   "tinyVersion": "امروز یک نماز را برای محافظت انتخاب کنید، حتی اگر لازم است راهنمایی باز کنار دستتان باشد.",
   "unlocksNext": "وقتی راه ورودی پیدا کردید، گام کامل نماز دیگر شبیه دیوار به نظر نمی‌رسد.",
-  "resourceIds": ["learn-salah-guide", "pillars-app", "being-muslim-book"],
-  "relatedGlossaryIds": ["salah", "wudu", "qiblah", "al-fatiha"],
-  "relatedTopicIds": ["prayer", "new-muslim-basics", "dua-and-dhikr"],
+  "resourceIds": [
+    "learn-salah-guide",
+    "pillars-app",
+    "being-muslim-book"
+  ],
+  "relatedGlossaryIds": [
+    "salah",
+    "wudu",
+    "qiblah",
+    "al-fatiha"
+  ],
+  "relatedTopicIds": [
+    "prayer",
+    "new-muslim-basics",
+    "dua-and-dhikr"
+  ],
   "commonQuestions": [
     {
       "problem": "آیا می‌توانم در حال خواندن از روی راهنما نماز بخوانم؟",
@@ -93,7 +106,27 @@
       "title": "همه عبارت‌های یک رکعت",
       "channel": "Islamwise",
       "duration": "10:29",
-      "sourceIds": ["video-islamwise-rakah-recap"]
+      "sourceIds": [
+        "video-islamwise-rakah-recap"
+      ]
+    }
+  ],
+  "relatedLinks": [
+    {
+      "label": "بازگشتن پس از یک وقفه",
+      "href": "/guides/coming-back"
+    },
+    {
+      "label": "همراه یادگیری نماز (صلات)",
+      "href": "/tools/salah-companion"
+    },
+    {
+      "label": "اوقات نماز",
+      "href": "/prayer-times"
+    },
+    {
+      "label": "راهنمای کار و مدرسه",
+      "href": "/guides/work-and-school"
     }
   ]
 }

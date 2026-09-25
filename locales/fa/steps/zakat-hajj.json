@@ -2,7 +2,7 @@
   "id": "zakat-hajj",
   "slug": "zakat-hajj",
   "stageId": "month-6-plus",
-  "title": "درباره زکات و حج یاد بگیرید",
+  "title": "صدقه سالانه (زکات) و زیارت خانه خدا (حج)",
   "whyMatters": "زکات (پرداخت واجب سالانه از پس‌انداز) و حج (سفر به مکه) دو رکن از پنج رکن‌اند و وقتی آن‌ها را بفهمید، همه پایه آنچه مسلمان بودن در بر دارد را در دست دارید. زکات دارایی شما را پاک می‌کند و جامعه را به رسیدگی به نیازمندان پایبند نگه می‌دارد. حج سفری یک‌باره در عمر به خانه الله در مکه است، جایی که میلیون‌ها مسلمان از هر گوشه جهان کنار هم می‌ایستند، و معمولاً آدم‌ها را دگرگون می‌کند. هر دو تعهدهایی بلندمدت‌اند و هیچ‌کدام فوری نیست. یاد گرفتن آن‌ها از حالا زمینه‌سازی برای بعد است.",
   "exactActions": [
     {
@@ -99,10 +99,14 @@
     "kaabah",
     "ihram",
     "tawaf",
-    "eid-al-adha",
+    "eid",
     "dhul-hijjah"
   ],
-  "relatedTopicIds": ["beliefs", "fasting", "halal-living"],
+  "relatedTopicIds": [
+    "beliefs",
+    "fasting",
+    "halal-living"
+  ],
   "sourceIds": [
     "quran-zakat-9-60",
     "irc-nisab",
@@ -115,5 +119,23 @@
     "travel-gc-saudi-arabia",
     "nusuk-hajj"
   ],
-  "reviewStatus": "review-needed"
+  "reviewStatus": "review-needed",
+  "relatedLinks": [
+    {
+      "label": "وصیت‌نامه و ارث",
+      "href": "/topics/wills-and-inheritance"
+    },
+    {
+      "label": "وقتی کسی از دنیا می‌رود",
+      "href": "/guides/when-someone-dies"
+    },
+    {
+      "label": "راهنمای زکات برای مبتدیان",
+      "href": "/seasonal/zakat"
+    },
+    {
+      "label": "راهنمای ذی‌الحجه، حج و عمره",
+      "href": "/seasonal/dhul-hijjah-hajj-umrah"
+    }
+  ]
 }

@@ -50,16 +50,34 @@
     }
   ],
   "tinyVersion": "در وعده غذایی بعدی‌تان، از گوشت خوک و الکل بگذرید و روشن‌ترین گزینه حلالی را که پیش رویتان است بردارید.",
-  "unlocksNext": "وقتی غذا قابل مدیریت شد، یادگیری اصول گسترده‌تر حلال و حرام خیلی آسان‌تر می‌شود.",
-  "resourceIds": ["halal-living-guide", "new-muslim-guide-site"],
-  "relatedGlossaryIds": ["halal", "haram"],
-  "relatedTopicIds": ["halal-living", "new-muslim-basics"],
+  "unlocksNext": "وقتی غذا برایتان قابل مدیریت شد، آماده‌اید درباره روزه یاد بگیرید که بدنتان را در کنار دلتان وارد عبادت می‌کند.",
+  "resourceIds": [
+    "halal-living-guide",
+    "new-muslim-guide-site"
+  ],
+  "relatedGlossaryIds": [
+    "halal",
+    "haram"
+  ],
+  "relatedTopicIds": [
+    "halal-living",
+    "new-muslim-basics"
+  ],
   "gentleScripts": [
     {
       "title": "برای میزبان",
       "body": "ممنون که دعوتم کردی. حالا حلال می‌خورم، برای همین از گوشت خوک و الکل دوری می‌کنم. خوشحال می‌شوم غذایی بیاورم که کار راحت‌تر شود."
     }
   ],
-  "sourceIds": ["new-muslim-guide", "seekersguidance"],
-  "reviewStatus": "review-needed"
+  "sourceIds": [
+    "new-muslim-guide",
+    "seekersguidance"
+  ],
+  "reviewStatus": "review-needed",
+  "relatedLinks": [
+    {
+      "label": "زندگی حلال در زندگی روزمره",
+      "href": "/guides/halal-living-in-daily-life"
+    }
+  ]
 }

@@ -38,7 +38,7 @@
     },
     {
       "problem": "پاسخ‌های متفاوتی گرفتم",
-      "solution": "از استاد بپرسید کدام پاسخ به وضعیت شما مربوط است و کدام بخش‌ها می‌تواند صبر کند. اگر بیش از این لازم دارید، آن را نزد عالمی واجد شرایط در محل خود ببرید که شرایط شما را می‌شناسد."
+      "solution": "از استاد بپرسید کدام پاسخ درباره وضعیت شما صدق می‌کند و کدام بخش‌ها می‌تواند صبر کند. اگر به بیش از این نیاز دارید، موضوع را نزد عالمی واجد شرایط در محل خودتان ببرید که شرایط شما را می‌شناسد. پاسخ‌های اینترنتی اغلب با هم فرق دارند، چون از مذهب‌های مختلفی پیروی می‌کنند یا به وضعیت کس دیگری پاسخ می‌دهند، پس پیش از پرسیدن، منبع و مذهب هر پاسخ را یادداشت کنید."
     }
   ],
   "tinyVersion": "سه چیز را بنویسید: چه رخ داده، درباره چه باید تصمیم بگیرید و اینکه تازه‌مسلمان هستید.",
@@ -48,7 +48,12 @@
     "new-muslim-academy",
     "new-muslim-guide-icna"
   ],
-  "relatedGlossaryIds": ["imam", "sunnah", "halal", "haram"],
+  "relatedGlossaryIds": [
+    "imam",
+    "sunnah",
+    "halal",
+    "haram"
+  ],
   "relatedTopicIds": [
     "questions-and-doubts",
     "masjid-and-community",
@@ -60,6 +65,28 @@
       "body": "من تازه‌مسلمان هستم و می‌خواهم این کار را درست انجام دهم بی‌آنکه زیر بار آن خسته شوم. قدم عملی بعدی در وضعیت من چیست و چه چیزی می‌تواند صبر کند؟"
     }
   ],
-  "sourceIds": ["seekersguidance", "new-muslim-academy", "whyislam"],
-  "reviewStatus": "source-checked"
+  "sourceIds": [
+    "seekersguidance",
+    "new-muslim-academy",
+    "whyislam"
+  ],
+  "reviewStatus": "source-checked",
+  "relatedLinks": [
+    {
+      "label": "چرا مسلمانان با هم فرق دارند",
+      "href": "/topics/why-muslims-differ"
+    },
+    {
+      "label": "چه کسی شیخ یا مفتی به شمار می‌آید",
+      "href": "/faq#faq-fnd-025"
+    },
+    {
+      "label": "چگونه کمک بخواهید",
+      "href": "/guides/how-to-ask-for-help"
+    },
+    {
+      "label": "درخواست کمک",
+      "href": "/get-help"
+    }
+  ]
 }

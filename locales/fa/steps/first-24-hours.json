@@ -51,8 +51,17 @@
   ],
   "tinyVersion": "امروز: یک دعای ساده بکنید، یک نفر را برای کمک خواستن انتخاب کنید و همین‌جا دست نگه دارید.",
   "unlocksNext": "روز نخست آرام، شروع غسل و تمرین‌های نخستین نماز را خیلی آسان‌تر می‌کند.",
-  "resourceIds": ["new-muslim-academy", "whyislam", "welcome-to-islam-book"],
-  "relatedGlossaryIds": ["shahada", "dua", "masjid", "imam"],
+  "resourceIds": [
+    "new-muslim-academy",
+    "whyislam",
+    "welcome-to-islam-book"
+  ],
+  "relatedGlossaryIds": [
+    "shahada",
+    "dua",
+    "masjid",
+    "imam"
+  ],
   "relatedTopicIds": [
     "new-muslim-basics",
     "family-and-identity",
@@ -78,8 +87,34 @@
     {
       "title": "به یک مربی یا مسجد",
       "body": "من به‌تازگی مسلمان شده‌ام و برای غسل، نماز و پشتیبانی جامعه به کمک مقدماتی نیاز دارم. آیا کسی هست که بتوانم با او صحبت کنم؟"
+    },
+    {
+      "title": "اگر کسی بخواهد از شهادتین شما فیلم بگیرد",
+      "body": "لطفاً عکس یا فیلم نگیرید. فعلاً دوست دارم این را خصوصی نگه دارم."
     }
   ],
-  "sourceIds": ["new-muslim-academy", "whyislam", "new-muslim-guide"],
-  "reviewStatus": "source-checked"
+  "sourceIds": [
+    "new-muslim-academy",
+    "whyislam",
+    "new-muslim-guide"
+  ],
+  "reviewStatus": "source-checked",
+  "relatedLinks": [
+    {
+      "label": "هنوز مسلمان نشده‌اید؟ فکر کردن به اسلام",
+      "href": "/topics/thinking-about-islam"
+    },
+    {
+      "label": "نشانه‌های هشدار و حفظ ایمنی",
+      "href": "/guides/red-flags-and-staying-safe"
+    },
+    {
+      "label": "درخواست کمک",
+      "href": "/get-help"
+    },
+    {
+      "label": "پنج رکن اسلام",
+      "href": "/topics/five-pillars"
+    }
+  ]
 }

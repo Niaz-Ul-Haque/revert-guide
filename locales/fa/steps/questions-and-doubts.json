@@ -39,19 +39,55 @@
     {
       "problem": "پاسخ‌های اینترنتی با هم تناقض دارند",
       "solution": "این زیاد پیش می‌آید. از استادی واجد شرایط بپرسید کدام پاسخ به شما مربوط است و کدام جزئیات را می‌توانید برای بعد بگذارید."
+    },
+    {
+      "problem": "آن حس روزهای اول کم‌رنگ شده و نمی‌دانم آیا اصلاً صادق بوده‌ام",
+      "solution": "یاران پیامبر هم این را حس کردند. حنظله ترسید که منافق شده باشد، چون حال ایمانی‌اش در خانه کم‌رنگ می‌شد، و پیامبر به او دلگرمی داد (صحیح مسلم 2750a). حتی وقتی نمازهایتان بی‌حال به نظر می‌رسد آن‌ها را نگه دارید، یک کار کوچک که بتوانید ادامه دهید اضافه کنید و بخش «وقتی ایمان بی‌رمق به نظر می‌رسد» را در صفحه موضوع پرسش‌ها و تردیدها بخوانید."
     }
   ],
   "tinyVersion": "یک پرسش را در یک جمله روشن بنویسید و برای یک نفر که می‌تواند پاسخ دهد بفرستید.",
   "unlocksNext": "دانستن راه پرسیدن نمی‌گذارد ایمانتان زیر بار پرسش‌ها بماند و به شما اجازه می‌دهد با سرعتی پایدار دانش بسازید.",
-  "resourceIds": ["yaqeen-institute", "seekers-guidance", "new-muslim-academy"],
-  "relatedGlossaryIds": ["iman", "imam", "fitrah", "tawhid"],
-  "relatedTopicIds": ["questions-and-doubts", "beliefs", "new-muslim-basics"],
+  "resourceIds": [
+    "yaqeen-institute",
+    "seekers-guidance",
+    "new-muslim-academy"
+  ],
+  "relatedGlossaryIds": [
+    "iman",
+    "imam",
+    "fitrah",
+    "tawhid"
+  ],
+  "relatedTopicIds": [
+    "questions-and-doubts",
+    "beliefs",
+    "new-muslim-basics"
+  ],
   "commonQuestions": [
     {
       "problem": "اگر فوراً پاسخ نگیرم چه؟",
       "solution": "در حالی که منتظرید، اصول را ادامه دهید. لازم نیست هر پرسشی پیش از نماز خواندن، دعا کردن یا ادامه یادگیری حل شود."
     }
   ],
-  "sourceIds": ["yaqeen-institute", "seekersguidance", "new-muslim-academy"],
-  "reviewStatus": "source-checked"
+  "sourceIds": [
+    "yaqeen-institute",
+    "seekersguidance",
+    "new-muslim-academy",
+    "sunnah-muslim-2750a"
+  ],
+  "reviewStatus": "review-needed",
+  "relatedLinks": [
+    {
+      "label": "پرسش و پاسخ",
+      "href": "/faq"
+    },
+    {
+      "label": "درخواست کمک",
+      "href": "/get-help"
+    },
+    {
+      "label": "چگونه کمک بخواهید",
+      "href": "/guides/how-to-ask-for-help"
+    }
+  ]
 }
