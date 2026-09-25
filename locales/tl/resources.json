@@ -1,475 +1,289 @@
 [
   {
     "id": "clear-quran-translation",
-    "title": "The Clear Quran by Dr. Mustafa Khattab",
-    "type": "book",
-    "url": "https://www.theclearquran.org/",
-    "description": "Isang nababasang modernong Ingles na pagsasalin ng kahulugan ng Quran na may malinaw na wika para sa mga nagsisimula.",
-    "relatedStepIds": ["quran"],
-    "relatedTopicIds": ["quran", "prophet-muhammad"],
-    "organization": "The Clear Quran",
-    "bestFor": "Pagbabasa ng mga kahulugan ng Quran sa malinaw na Ingles",
-    "trustNote": "Gamitin ang mga pagsasalin bilang mga kahulugan, hindi bilang kapalit ng Arabic na Quran.",
-    "sourceIds": ["clear-quran"],
-    "reviewStatus": "source-checked"
+    "title": "The Clear Quran ni Dr. Mustafa Khattab",
+    "description": "Isang makabagong salin sa Ingles ng kahulugan ng Quran, nakasulat sa simpleng wikang masusundan ng unang beses na mambabasa.",
+    "bestFor": "Pagbasa ng kahulugan ng Quran sa malinaw na Ingles",
+    "trustNote": "Gamitin ang mga salin bilang kahulugan, hindi kapalit ng Quran sa Arabic."
   },
   {
     "id": "welcome-to-islam-book",
-    "title": "Welcome to Islam",
-    "type": "community",
-    "url": "https://welcometoislam.net/",
-    "description": "Isang bagong site ng suporta sa Muslim na may panimulang pag-aaral at praktikal na susunod na hakbang na materyal.",
-    "relatedStepIds": ["shahada", "first-24-hours", "prayer-on-ramp"],
-    "relatedTopicIds": ["new-muslim-basics", "beliefs"],
-    "organization": "Welcome to Islam",
-    "bestFor": "Unang oryentasyon pagkatapos ng Shahada",
-    "trustNote": "Ang naunang pagpapatungkol sa aklat ay hindi malinaw, kaya ito ngayon ay tumuturo sa makikilalang opisyal na site.",
-    "sourceIds": ["welcome-to-islam"],
-    "reviewStatus": "source-checked"
+    "title": "Welcome to Islam: A Step-by-Step Guide for New Muslims",
+    "description": "Isang maikling gabay ni Mustafa Umar para sa unang buwan mo bilang Muslim, tungkol sa mga batayan at sa mga hirap na madalas harapin ng mga bagong Muslim.",
+    "bestFor": "Ang mga unang araw at linggo mo pagkatapos ng shahada",
+    "trustNote": "32 pahina at libreng mababasa online. Imam at miyembro ng Fiqh Council of North America ang may-akda."
   },
   {
     "id": "quran-com",
     "title": "Quran.com",
-    "type": "app",
-    "url": "https://quran.com/",
-    "description": "Libreng web at mobile na pag-access sa Quran na may mga pagsasalin, transliterasyon, at audio recitation.",
-    "relatedStepIds": ["quran", "daily-dua-dhikr"],
-    "relatedTopicIds": ["quran", "dua-and-dhikr"],
-    "organization": "Quran Foundation",
-    "bestFor": "Pakikinig, pagbabasa, at paghahambing ng mga pagsasalin",
-    "trustNote": "Kapaki-pakinabang para sa mga link sa pag-aaral; ang mga salita sa pagsasalin ay dapat pa ring lagyan ng label bilang kahulugan.",
-    "sourceIds": ["quran-com"],
-    "reviewStatus": "source-checked"
+    "description": "Libreng access sa Quran sa web at mobile, may mga salin, transliterasyon at audio ng pagbigkas.",
+    "bestFor": "Pakikinig, pagbasa at paghahambing ng mga salin",
+    "trustNote": "Pinapatakbo ng Quran.Foundation, isang nonprofit, nang walang patalastas. Hindi mo kailangan ng account. Gumagamit ang site ng Google Analytics."
   },
   {
     "id": "new-muslim-academy",
     "title": "New Muslim Academy",
-    "type": "article",
-    "url": "https://www.newmuslimacademy.org/",
-    "description": "Beginner-focused education na partikular na idinisenyo para sa mga taong kamakailang pumasok sa Islam.",
-    "relatedStepIds": [
-      "first-24-hours",
-      "questions-and-doubts",
-      "asking-an-imam"
-    ],
-    "relatedTopicIds": ["new-muslim-basics", "questions-and-doubts"],
-    "organization": "New Muslim Academy",
-    "bestFor": "Structured beginner learning",
-    "trustNote": "Mabuti para sa mga pundasyon; humingi ng mga kuwalipikadong guro para sa mga personal na desisyon.",
-    "sourceIds": ["new-muslim-academy"],
-    "reviewStatus": "source-checked"
+    "description": "Mga kurso at artikulo para sa baguhan na isinulat mismo para sa mga kamakailang naging Muslim.",
+    "bestFor": "Maayos na pag-aaral para sa baguhan",
+    "trustNote": "Mahusay para sa pundasyon. Dalhin ang mga personal na hatol sa isang kwalipikadong guro."
   },
   {
     "id": "yaqeen-institute",
     "title": "Yaqeen Institute for Islamic Research",
-    "type": "video",
-    "url": "https://yaqeeninstitute.org/",
-    "description": "Mga artikulo, video, at infographic na nakabatay sa pananaliksik tungkol sa mga tanong sa pananampalataya, espirituwalidad, at kontemporaryong isyu.",
-    "relatedStepIds": ["knowledge", "questions-and-doubts"],
-    "relatedTopicIds": ["beliefs", "questions-and-doubts", "prophet-muhammad"],
-    "organization": "Yaqeen Institute",
-    "bestFor": "Mga tanong sa pananampalataya at mas malalim na pagmuni-muni",
-    "trustNote": "Nakatutulong para sa pag-aaral ng konteksto nang hindi ginagawa ang maagang Islam sa sobrang karga ng debate.",
-    "sourceIds": ["yaqeen-institute"],
-    "reviewStatus": "source-checked"
+    "description": "Mga artikulo, video at infographic na sumasagot sa mga tanong sa pananampalataya, pag-aalinlangan at espiritwalidad gamit ang pananaliksik na may sanggunian.",
+    "bestFor": "Mga tanong sa pananampalataya at mas malalim na pagninilay",
+    "trustNote": "Nakakatulong sa pag-unawa sa konteksto nang hindi ginagawang sobrang debate ang maagang Islam."
   },
   {
     "id": "bayyinah-tv",
     "title": "Bayyinah TV",
-    "type": "video",
-    "url": "https://www.bayyinah.tv/",
-    "description": "Mga kursong Quran at Arabic na idinisenyo para sa mga mag-aaral sa maraming antas, kabilang ang mga kumpletong nagsisimula.",
-    "relatedStepIds": ["quran", "knowledge"],
-    "relatedTopicIds": ["quran"],
-    "organization": "Bayyinah",
-    "bestFor": "Pagganyak sa wikang Quran",
-    "trustNote": "Gamitin bilang tulong sa pag-aaral kasama ng mga lokal na guro kung posible.",
-    "sourceIds": ["bayyinah"],
-    "reviewStatus": "source-checked"
+    "description": "Mga kurso sa Quran at Arabic na nagsisimula sa alpabeto, kaya magagamit ito ng ganap na baguhan.",
+    "bestFor": "Sigla sa pag-aaral ng wika ng Quran",
+    "trustNote": "Bayad na subscription ($11 bawat buwan nang suriin noong 23 Setyembre 2026). Puwede kang mag-apply para sa libreng isang-taong membership kung hindi mo kaya ang bayad. Gamitin ito kasabay ng mga lokal na guro kung kaya."
   },
   {
     "id": "new-muslim-guide-icna",
-    "title": "ICNA New Muslim Support",
-    "type": "community",
-    "url": "https://www.icna.org/",
-    "description": "Isang organisasyong Muslim sa Hilagang Amerika na may edukasyon, outreach, at lokal na koneksyon sa komunidad.",
-    "relatedStepIds": ["community", "first-masjid-visit", "asking-an-imam"],
-    "relatedTopicIds": ["community", "masjid-and-community"],
-    "organization": "Islamic Circle of North America",
-    "bestFor": "Paghahanap ng suporta sa komunidad sa North America",
-    "trustNote": "Iba-iba ang mga lokal na programa, kaya kumpirmahin ang mga detalye sa pinakamalapit na kabanata o masjid.",
-    "sourceIds": ["icna"],
-    "reviewStatus": "source-checked"
+    "title": "Suporta ng ICNA para sa bagong Muslim",
+    "description": "Isang Muslim na organisasyong nakabase sa US na naglilista sa site nito ng mga programa para sa bagong Muslim, gaya ng Embrace, WhyIslam at isang regular na pagtitipon para sa balik-Islam.",
+    "bestFor": "Paghahanap ng suporta ng komunidad sa North America",
+    "trustNote": "Nakatuon sa Estados Unidos ang mga pahina nito. Para sa mga programa sa Canada, magtanong sa pinakamalapit na masjid."
   },
   {
     "id": "whyislam",
     "title": "WhyIslam",
-    "type": "community",
-    "url": "https://www.whyislam.org/",
-    "description": "Introductory Islam resources, one-on-one na pag-uusap, at bagong Muslim support material.",
-    "relatedStepIds": ["shahada", "first-24-hours", "family-and-friends"],
-    "relatedTopicIds": [
-      "beliefs",
-      "community",
-      "new-muslim-basics",
-      "family-and-identity"
-    ],
-    "organization": "WhyIslam",
-    "bestFor": "Mga simpleng paliwanag para sa iyo o sa mga miyembro ng pamilya",
-    "trustNote": "Kapaki-pakinabang para sa banayad na pampublikong edukasyon at mga unang tanong.",
-    "sourceIds": ["whyislam"],
-    "reviewStatus": "source-checked"
+    "description": "Simpleng panimula sa Islam, harapang pakikipag-usap, at materyal na pansuporta para sa bagong Muslim.",
+    "bestFor": "Simpleng paliwanag para sa iyo o sa mga kapamilya",
+    "trustNote": "Kapaki-pakinabang sa mahinahong pampublikong edukasyon at mga unang tanong."
   },
   {
     "id": "learn-salah-guide",
-    "title": "New Muslim Guide - Prayer",
-    "type": "article",
-    "url": "https://newmuslimguide.com/en/categories/your-prayer",
-    "description": "Mga paliwanag ng panalangin para sa mga nagsisimula, kabilang ang paghahanda, mga oras ng panalangin, at mga pangunahing kaalaman sa pag-aaral.",
-    "relatedStepIds": ["prayer", "prayer-on-ramp", "first-jumuah"],
-    "relatedTopicIds": ["prayer", "purification"],
-    "organization": "New Muslim Guide",
-    "bestFor": "Pag-aaral ng mga pangunahing kaalaman sa panalangin nang hakbang-hakbang",
-    "trustNote": "Maaaring umiral ang mga pagkakaiba ng opinyon; gamitin ito bilang gabay sa nagsisimula at magtanong nang lokal para sa mga detalye.",
-    "sourceIds": ["new-muslim-guide"],
-    "reviewStatus": "source-checked"
+    "title": "New Muslim Guide: pagdarasal",
+    "description": "Mga paliwanag para sa baguhan tungkol sa pagdarasal: paano maghanda, kailan ang bawat pagdarasal, at ano ang unang pag-aaralan.",
+    "bestFor": "Hakbang-hakbang na pag-aaral ng mga batayan ng pagdarasal",
+    "trustNote": "Nagkakaiba ang mga iskolar sa ilang detalye. Gamitin ito bilang gabay para sa baguhan at magtanong sa inyong lugar tungkol sa iba."
   },
   {
     "id": "new-muslim-guide-site",
     "title": "New Muslim Guide",
-    "type": "article",
-    "url": "https://newmuslimguide.com/en",
-    "description": "Isang malawak na online na gabay na sumasaklaw sa pagsamba, paniniwala, asal, at mga mahahalagang bagay sa pang-araw-araw na buhay.",
-    "relatedStepIds": [
-      "shahada",
-      "ghusl",
-      "prayer",
-      "halal-eating-practical",
-      "modesty-and-clothing"
-    ],
-    "relatedTopicIds": [
-      "beliefs",
-      "purification",
-      "prayer",
-      "halal-living",
-      "modesty"
-    ],
-    "organization": "New Muslim Guide",
-    "bestFor": "One-stop beginner reference",
-    "trustNote": "Pinakamahusay na gamitin para sa mga pundasyon, hindi bilang isang personalized na mapagkukunan ng fatwa.",
-    "sourceIds": ["new-muslim-guide"],
-    "reviewStatus": "source-checked"
+    "description": "Isang malawak na online na gabay tungkol sa pagsamba, paniniwala, asal at mga pang-araw-araw na batayan.",
+    "bestFor": "Iisang sanggunian para sa lahat ng batayan ng baguhan",
+    "trustNote": "Pinakamainam gamitin para sa pundasyon, hindi bilang pinagkukunan ng personal na fatwa."
   },
   {
     "id": "quran-recitation-mishary",
-    "title": "Quran Recitation by Mishary Rashid Alafasy",
-    "type": "video",
-    "url": "https://quran.com/reciters/7",
-    "description": "Ang malinaw na pagbigkas ng Quran ay kapaki-pakinabang para sa pagsasanay sa pakikinig at pagiging pamilyar sa tunog ng Quran.",
-    "relatedStepIds": ["quran"],
-    "relatedTopicIds": ["quran"],
-    "organization": "Quran.com",
-    "bestFor": "Pagkakalantad sa pakikinig at pagbigkas",
-    "trustNote": "Makinig nang dahan-dahan at ipares ang pagbigkas sa isang guro kapag natututong magbigkas.",
-    "sourceIds": ["quran-com"],
-    "reviewStatus": "source-checked"
+    "title": "Pagbigkas ng Quran ni Mishary Rashid Alafasy",
+    "description": "Malinaw at hindi nagmamadaling pagbigkas na mapapakinggan habang nasasanay ka sa tunog ng Quran.",
+    "bestFor": "Pakikinig at pagkasanay sa pagbigkas",
+    "trustNote": "Makinig nang dahan-dahan at samahan ng guro ang pakikinig kapag nag-aaral kang bumigkas."
   },
   {
     "id": "ramadan-guide-yaqeen",
-    "title": "Ramadan Resources by Yaqeen Institute",
-    "type": "article",
-    "url": "https://yaqeeninstitute.org/ramadan",
-    "description": "Mga artikulo sa Ramadan, espirituwal na pagmumuni-muni, at praktikal na paalala para sa pagsamba at paghahanda.",
-    "relatedStepIds": ["fasting"],
-    "relatedTopicIds": ["fasting"],
-    "organization": "Yaqeen Institute",
-    "bestFor": "Paghahanda sa espirituwal para sa Ramadan",
-    "trustNote": "Ang mga personal na pagbubukod sa pag-aayuno ay dapat suriin sa isang kwalipikadong lokal na iskolar.",
-    "sourceIds": ["yaqeen-institute"],
-    "reviewStatus": "source-checked"
+    "title": "Mga mapagkukunan sa Ramadan ng Yaqeen Institute",
+    "description": "Mga artikulo at pagninilay tungkol sa Ramadan, pati praktikal na paalala sa paghahanda at pagpapatuloy ng pagsamba.",
+    "bestFor": "Espirituwal na paghahanda para sa Ramadan",
+    "trustNote": "Dapat suriin kasama ang isang kwalipikadong iskolar sa inyong lugar ang mga personal na eksepsiyon sa pag-aayuno."
   },
   {
     "id": "khalil-center",
-    "title": "Khalil Center - Muslim Mental Health",
-    "type": "community",
-    "url": "https://khalilcenter.com/",
-    "description": "Pananampalataya-sensitive therapy at mga serbisyo ng suporta para sa mga Muslim.",
-    "relatedStepIds": ["community", "family-and-friends"],
-    "relatedTopicIds": ["community", "family-and-identity"],
-    "organization": "Khalil Center",
-    "bestFor": "Suporta sa kalusugan ng isip na sensitibo sa pananampalataya",
-    "trustNote": "Hindi ito emergency na pangangalaga; gumamit ng mga serbisyo sa krisis kung may agarang panganib.",
-    "sourceIds": ["khalil-center"],
-    "reviewStatus": "source-checked"
+    "title": "Khalil Center: kalusugan ng isip ng mga Muslim",
+    "description": "Therapy at mga serbisyo ng suporta para sa mga Muslim, mula sa mga clinician na sineseryoso ang panig ng pananampalataya.",
+    "bestFor": "Suporta sa kalusugan ng isip na may pag-unawa sa pananampalataya",
+    "trustNote": "Hindi ito pangangalagang pang-emergency. Kung may agarang panganib, gamitin ang mga serbisyo para sa krisis."
+  },
+  {
+    "id": "becoming-muslim-report",
+    "title": "Becoming Muslim: The Lives of American Converts to Islam",
+    "description": "Isang ulat ng Yaqeen Institute noong 2025 batay sa survey ng 618 balik-Islam sa Estados Unidos. Tinitingnan nito ang nakatulong sa kanila matapos yumakap sa Islam, kasama ang mga masjid, imam at kaibigang Muslim, at kung bakit kailangang magpatuloy ang suporta nang matagal pagkatapos ng mga unang buwan.",
+    "bestFor": "Pagtingin kung paano nag-adjust ang ibang balik-Islam, at kung anong suporta ang nakatulong sa kanila",
+    "trustNote": "Ulat ng pananaliksik tungkol sa mga balik-Islam sa Amerika, hindi gabay sa kalusugan ng isip. Para sa krisis o tuloy-tuloy na pagkabalisa, humingi ng klinikal na tulong."
   },
   {
     "id": "seekers-guidance",
     "title": "SeekersGuidance",
-    "type": "article",
-    "url": "https://seekersguidance.org/",
-    "description": "Mga libreng kurso at Q&A sa mga agham ng Islam na itinuro ng mga kwalipikadong iskolar.",
-    "relatedStepIds": [
-      "knowledge",
-      "prayer",
-      "asking-an-imam",
-      "questions-and-doubts"
-    ],
-    "relatedTopicIds": ["beliefs", "prayer", "questions-and-doubts", "modesty"],
-    "organization": "SeekersGuidance",
-    "bestFor": "Pag-aaral sa mga kwalipikadong guro",
-    "trustNote": "Mabuti para sa nakabalangkas na kaalaman; magtanong nang lokal para sa iyong eksaktong mga pangyayari.",
-    "sourceIds": ["seekersguidance"],
-    "reviewStatus": "source-checked"
+    "description": "Mga libreng kurso at serbisyo ng tanong at sagot tungkol sa mga agham ng Islam, itinuturo ng mga kwalipikadong iskolar.",
+    "bestFor": "Pag-aaral kasama ang mga kwalipikadong guro",
+    "trustNote": "Mahusay para sa maayos na kaalaman. Magtanong sa inyong lugar tungkol sa sarili mong kalagayan."
   },
   {
     "id": "being-muslim-book",
-    "title": "Being Muslim: A Practical Guide by Asad Tarsin",
-    "type": "book",
-    "url": "https://www.sandalapress.com/being-muslim",
-    "description": "Isang praktikal na handbook na sumasaklaw sa pagsamba, espirituwalidad, at buhay komunidad para sa mga bago at nagbabalik na Muslim.",
-    "relatedStepIds": [
-      "prayer",
-      "fasting",
-      "knowledge",
-      "modesty-and-clothing"
-    ],
-    "relatedTopicIds": ["beliefs", "prayer", "fasting", "new-muslim-basics"],
-    "organization": "Sandala Press",
-    "bestFor": "Isang kalmadong pisikal na libro para sa mga pundasyon",
-    "trustNote": "Gamitin bilang pangkalahatang edukasyon at ipares ito sa isang lokal na guro para sa mga personal na tanong.",
-    "sourceIds": ["sandala-press"],
-    "reviewStatus": "source-checked"
+    "title": "Being Muslim: A Practical Guide",
+    "description": "Isang praktikal na handbook tungkol sa pagsamba, espiritwalidad at buhay-komunidad, isinulat para sa mga bagong Muslim at bumabalik sa pananampalataya.",
+    "bestFor": "Mahinahong pisikal na libro para sa pundasyon",
+    "trustNote": "Gamitin bilang pangkalahatang edukasyon at samahan ng lokal na guro para sa mga personal na tanong."
   },
   {
     "id": "halal-living-guide",
-    "title": "New Muslim Guide - Food and Drink",
-    "type": "article",
-    "url": "https://newmuslimguide.com/en/categories/your-food-and-drink",
-    "description": "Malinaw na gabay ng nagsisimula para sa halal na pagkain, pagkain sa labas, mga sangkap, at pag-iwas sa labis na pag-overcheck.",
-    "relatedStepIds": ["halal-haram", "halal-eating-practical"],
-    "relatedTopicIds": ["halal-living"],
-    "organization": "New Muslim Guide",
-    "bestFor": "Mga pangunahing kaalaman sa grocery at restaurant",
-    "trustNote": "Ang mga detalye ng sangkap at sertipikasyon ay nag-iiba ayon sa bansa; magtanong nang lokal kapag hindi sigurado.",
-    "sourceIds": ["new-muslim-guide-food-drink"],
-    "reviewStatus": "source-checked"
+    "title": "New Muslim Guide: pagkain at inumin",
+    "description": "Gabay para sa baguhan tungkol sa halal na pagkain: pagbasa ng sangkap, pagkain sa labas, at pag-alam kung sapat na ang pagsusuri mo.",
+    "bestFor": "Mga batayan sa grocery at restawran",
+    "trustNote": "Nagkakaiba ayon sa bansa ang detalye ng sangkap at sertipikasyon, kaya magtanong sa inyong lugar kapag hindi ka sigurado."
   },
   {
     "id": "seerah-podcast",
-    "title": "Seerah Series by Yasir Qadhi",
-    "type": "video",
-    "url": "https://www.youtube.com/playlist?list=PLAEA99D24CA2F9A8F",
-    "description": "Isang detalyadong serye ng panayam tungkol sa buhay ni Propeta Muhammad, sumakanya ang kapayapaan.",
-    "relatedStepIds": ["knowledge"],
-    "relatedTopicIds": ["beliefs", "prophet-muhammad"],
-    "organization": "Yasir Qadhi",
-    "bestFor": "Long-form seerah na pakikinig",
-    "trustNote": "Ito ay mas malalim kaysa sa isang mapagkukunan sa unang linggo; dahan dahan.",
-    "sourceIds": [],
-    "reviewStatus": "source-checked"
+    "title": "Seerah Series ni Yasir Qadhi",
+    "description": "Isang mahaba at detalyadong serye ng lektyur tungkol sa buhay ni Propeta Muhammad, sumakanya nawa ang kapayapaan.",
+    "bestFor": "Mahabang pakikinig tungkol sa seerah",
+    "trustNote": "Mas malalim ito kaysa mapagkukunan para sa unang linggo. Dahan-dahan lang."
   },
   {
     "id": "wudu-tutorial",
-    "title": "New Muslim Guide - Purification",
-    "type": "article",
-    "url": "https://newmuslimguide.com/en/categories/your-purification",
-    "description": "Isang gabay para sa baguhan sa wudu, ghusl, at mga pangunahing kaalaman sa paglilinis ng ritwal.",
-    "relatedStepIds": ["ghusl", "prayer"],
-    "relatedTopicIds": ["purification", "prayer"],
-    "organization": "New Muslim Guide",
-    "bestFor": "Pag-aaral ng wudu at ghusl nang walang video pressure",
-    "trustNote": "Ang mga sensitibong detalye ay dapat talakayin sa isang pinagkakatiwalaang guro kung hindi ka sigurado.",
-    "sourceIds": ["new-muslim-guide"],
-    "reviewStatus": "source-checked"
+    "title": "New Muslim Guide: kalinisan",
+    "description": "Isang nakasulat na gabay sa wudu, ghusl at mga batayan ng kalinisang pang-ritwal.",
+    "bestFor": "Pag-aaral ng wudu at ghusl nang walang presyon ng video",
+    "trustNote": "Dapat pag-usapan kasama ang isang mapagkakatiwalaang guro ang mga maselang detalye kung hindi ka sigurado."
   },
   {
     "id": "convert-story-videos",
-    "title": "Convert Stories - The Deen Show",
-    "type": "video",
-    "url": "https://www.youtube.com/c/TheDeenShowTV",
-    "description": "Mga panayam sa video sa mga taong yumakap sa Islam, kapaki-pakinabang para sa paghihikayat at pakiramdam na hindi gaanong nag-iisa.",
-    "relatedStepIds": ["shahada", "community", "family-and-friends"],
-    "relatedTopicIds": ["community", "family-and-identity"],
-    "organization": "The Deen Show",
-    "bestFor": "Emosyonal na panghihikayat sa pamamagitan ng mga kuwento",
-    "trustNote": "Ang mga kwento ay mga personal na karanasan, hindi pinagmumulan ng mga desisyon.",
-    "sourceIds": [],
-    "reviewStatus": "source-checked"
+    "title": "Mga kuwento ng balik-Islam: The Deen Show",
+    "description": "Mga video interview sa mga taong naging Muslim. Maganda sa mga araw na pakiramdam mo ay ikaw lang ang ganito.",
+    "bestFor": "Panghihikayat sa damdamin sa pamamagitan ng mga kuwento",
+    "trustNote": "Personal na karanasan ang mga kuwento, hindi pinagkukunan ng mga hatol."
   },
   {
     "id": "fortress-muslim-dua-book",
     "title": "Fortress of the Muslim",
-    "type": "book",
-    "url": "https://darussalam.com/fortress-of-the-muslim-pocket-size/",
-    "description": "Isang malawakang ginagamit na koleksyon ng dua at dhikr na nakuha mula sa mga sanggunian sa Quran at Sunnah.",
-    "relatedStepIds": ["prayer", "character", "daily-dua-dhikr"],
-    "relatedTopicIds": ["prayer", "dua-and-dhikr"],
-    "organization": "Darussalam",
-    "bestFor": "Pang-araw-araw na dua at dhikr na sanggunian",
-    "trustNote": "Pinapalitan nito ang isang hindi kilalang PDF mirror ng isang makikilalang pahina ng publisher.",
-    "sourceIds": ["darussalam"],
-    "reviewStatus": "source-checked"
+    "description": "Isang malawakang ginagamit na koleksyon ng mga dua at dhikr, bawat isa ay may sanggunian sa Quran o Sunnah.",
+    "bestFor": "Sanggunian sa pang-araw-araw na dua at dhikr",
+    "trustNote": "Pinapalitan nito ang PDF na walang pinagmulan ng pahina ng publisher na makikilala."
   },
   {
     "id": "aboutislam-new-muslims",
-    "title": "AboutIslam - New Muslims",
-    "type": "article",
-    "url": "https://aboutislam.net/reading-islam/new-muslims/",
-    "description": "Mga artikulo at FAQ para sa mga bagong Muslim na nagna-navigate sa pananampalataya, pagkakakilanlan, pamilya, at komunidad.",
-    "relatedStepIds": ["shahada", "community", "family-and-friends"],
-    "relatedTopicIds": ["beliefs", "community", "family-and-identity"],
-    "organization": "AboutIslam",
-    "bestFor": "Maikling panimulang artikulo",
-    "trustNote": "Gamitin bilang pansuportang pagbabasa at kumpirmahin ang mga detalyadong desisyon sa mga kwalipikadong iskolar.",
-    "sourceIds": ["aboutislam"],
-    "reviewStatus": "source-checked"
+    "title": "AboutIslam: para sa bagong Muslim",
+    "description": "Maiikling artikulo at FAQ para sa mga bagong Muslim na humaharap sa mga tanong tungkol sa pananampalataya, pagkakakilanlan, pamilya at komunidad.",
+    "bestFor": "Maiikling artikulo para sa baguhan",
+    "trustNote": "Gamitin bilang pansuportang babasahin at kumpirmahin sa mga kwalipikadong iskolar ang mga detalyadong hatol."
   },
   {
     "id": "tarteel-ai-app",
-    "title": "Tarteel AI - Quran Recitation Helper",
-    "type": "app",
-    "url": "https://www.tarteel.ai/",
-    "description": "Isang app na sumusuporta sa pagsasaulo ng Quran at pagsasanay sa pagbigkas gamit ang mga feedback tool.",
-    "relatedStepIds": ["quran"],
-    "relatedTopicIds": ["quran"],
-    "organization": "Tarteel AI",
+    "title": "Tarteel AI: katulong sa pagbigkas ng Quran",
+    "description": "Isang app na nakikinig habang bumibigkas ka at nagtuturo kung saan ka nagkamali, para sa pagsasanay sa pagsasaulo at pagbigkas.",
     "bestFor": "Pagsasanay sa pagbigkas ng Quran sa pagitan ng mga aralin",
-    "trustNote": "Ang feedback ng app ay isang tulong sa pagsasanay, hindi isang kapalit para sa isang guro.",
-    "sourceIds": ["tarteel"],
-    "reviewStatus": "source-checked"
+    "trustNote": "Pantulong sa pagsasanay ang feedback ng app, hindi kapalit ng guro. Sinasabi ng patakaran sa privacy ng Tarteel (huling in-update noong 26 Mayo 2023) na iniimbak sa Estados Unidos ang mga voice recording at ginagamit para sanayin ang AI nito, sinusuri ng mga tao ang ilan, at gumagamit ang app ng analytics at Google cookies. Puwedeng burahin ng mga libreng user ang mga recording; mga Premium user lamang ang puwedeng tumangging gamitin sa pagsasanay ng AI. Basahin ang patakaran bago ka mag-record."
   },
   {
     "id": "purification-fiqh-guide",
-    "title": "New Muslim Guide - Purification",
-    "type": "article",
-    "url": "https://newmuslimguide.com/en/categories/your-purification",
-    "description": "Mga sunud-sunod na paliwanag ng wudu, ghusl, at purification para sa mga nagsisimula.",
-    "relatedStepIds": ["ghusl"],
-    "relatedTopicIds": ["purification"],
-    "organization": "New Muslim Guide",
-    "bestFor": "Mga pangunahing kaalaman sa paglilinis",
-    "trustNote": "Ang mga pagkakaiba ng opinyon ay umiiral sa ilang mga detalye, kaya magtanong sa lokal para sa mga personal na kaso.",
-    "sourceIds": ["new-muslim-guide"],
-    "reviewStatus": "source-checked"
+    "title": "New Muslim Guide: kalinisan",
+    "description": "Hakbang-hakbang na paliwanag ng wudu, ghusl at ng mas malawak na tuntunin ng kalinisan, isinulat para sa baguhan.",
+    "bestFor": "Mga batayan ng kalinisan",
+    "trustNote": "May pagkakaiba ng pananaw sa ilang detalye, kaya magtanong sa inyong lugar para sa mga personal na kaso."
   },
   {
     "id": "naseeha-mental-health",
-    "title": "Naseeha Mental Health",
-    "type": "community",
-    "url": "https://www.naseeha.org/",
-    "description": "Isang Muslim mental health helpline at support organization para sa mga taong nangangailangan ng kausap.",
-    "relatedStepIds": [
-      "community",
-      "family-and-friends",
-      "questions-and-doubts"
-    ],
-    "relatedTopicIds": [
-      "community",
-      "family-and-identity",
-      "questions-and-doubts"
-    ],
-    "organization": "Naseeha",
-    "bestFor": "Suporta sa kalusugan ng isip ng Muslim at pagruruta ng helpline",
-    "trustNote": "Gumamit kaagad ng mga serbisyong pang-emerhensiya o mga linya ng krisis kung may panganib o panganib na saktan ang sarili.",
-    "sourceIds": ["naseeha"],
-    "reviewStatus": "source-checked"
+    "title": "Helpline ng Naseeha",
+    "description": "Isang helpline 24/7 para sa kabataang Muslim sa Canada, pinapatakbo ng Naseeha Mental Health, para sa mga panahong kailangan mong makipag-usap sa isang tao.",
+    "bestFor": "Suporta sa kalusugan ng isip ng Muslim at pagtuturo sa tamang helpline",
+    "trustNote": "Gamitin agad ang emergency services o crisis line kung may panganib o posibilidad na saktan ang sarili."
   },
   {
     "id": "launchgood-zakat-policy",
-    "title": "LaunchGood Zakat Policy",
-    "type": "article",
-    "url": "https://www.launchgood.com/zakatpolicy",
-    "description": "Isang halimbawa ng patakaran sa pampublikong zakat na nagpapaliwanag kung paano tinatrato ng isang nagbibigay na platform ang mga kampanyang kwalipikado sa zakat.",
-    "relatedStepIds": ["zakat-hajj"],
-    "relatedTopicIds": ["halal-living"],
-    "organization": "LaunchGood",
-    "bestFor": "Nakikita kung paano isinudokumento ng isang platform ang pagiging karapat-dapat sa zakat",
-    "trustNote": "Hindi pinapalitan ng mga patakaran sa platform ang personal na pagsusuri sa fiqh para sa sarili mong pananalapi.",
-    "sourceIds": ["launchgood-zakat"],
-    "reviewStatus": "review-needed"
+    "title": "Patakaran sa zakat ng LaunchGood",
+    "description": "Ang nakalathalang patakaran ng isang plataporma ng pagbibigay tungkol sa kung aling mga kampanya ang maaaring pagbigyan ng zakat, at kung bakit.",
+    "bestFor": "Pagtingin kung paano idinodokumento ng isang plataporma ang pagiging karapat-dapat sa zakat",
+    "trustNote": "Hindi napapalitan ng patakaran ng plataporma ang personal na pagsusuri sa fiqh ng sarili mong pananalapi."
   },
   {
     "id": "yaqeen-dhul-hijjah-resources",
-    "title": "Yaqeen Institute - Dhul Hijjah Resources",
-    "type": "article",
-    "url": "https://yaqeeninstitute.org/series/dhul-hijjah-playlist",
-    "description": "Isang na-curate na koleksyon ng Dhul Hijjah na may mga pagmumuni-muni, paalala, at ideya sa pagsamba para sa mga nagsisimula.",
-    "relatedStepIds": ["fasting", "zakat-hajj"],
-    "relatedTopicIds": ["fasting", "prophet-muhammad"],
-    "organization": "Yaqeen Institute",
+    "title": "Yaqeen Institute: mga mapagkukunan para sa Dhul Hijjah",
+    "description": "Isang koleksyon ng mga pagninilay at paalala para sa Dhul Hijjah, may simpleng ideya sa pagsamba para sa unang sampung araw.",
     "bestFor": "Paghahanda para sa unang sampung araw ng Dhul Hijjah",
-    "trustNote": "Gamitin ito para sa espirituwal na paghahanda at magtanong sa isang kuwalipikadong tao tungkol sa mga personal na pasiya.",
-    "sourceIds": ["yaqeen-dhul-hijjah"],
-    "reviewStatus": "source-checked"
+    "trustNote": "Gamitin ito para sa espirituwal na paghahanda at magtanong sa isang kwalipikado tungkol sa mga personal na hatol."
   },
   {
     "id": "nusuk-hajj-official",
-    "title": "Nusuk Hajj Official Platform",
-    "type": "app",
-    "url": "https://hajj.nusuk.sa/",
-    "description": "Opisyal na platform ng Hajj sa ilalim ng Saudi Ministry of Hajj at pangangasiwa ng Umrah para sa mga karapat-dapat na pilgrim.",
-    "relatedStepIds": ["zakat-hajj"],
-    "relatedTopicIds": ["halal-living"],
-    "organization": "Nusuk Hajj / Ministry of Hajj and Umrah",
-    "bestFor": "Sinusuri ang opisyal na pagpaparehistro ng Hajj at pagruruta ng paglalakbay",
-    "trustNote": "Nagbabago ang mga tuntunin sa paglalakbay sa Hajj; kumpirmahin ang mga kasalukuyang kinakailangan sa pamamagitan ng mga opisyal na mapagkukunan bago gumastos ng pera.",
-    "sourceIds": ["nusuk-hajj", "travel-state-hajj-umrah"],
-    "reviewStatus": "source-checked"
+    "title": "Nusuk Hajj, ang opisyal na plataporma",
+    "description": "Ang opisyal na plataporma ng Saudi para sa Hajj, pinapatakbo sa ilalim ng Ministry of Hajj and Umrah, kung saan pumipili ang mga manlalakbay mula sa mga pinaglilingkurang bansa ng mga package mula sa mga awtorisadong service provider.",
+    "bestFor": "Pagsusuri ng opisyal na pagpaparehistro sa Hajj at ruta ng paglalakbay",
+    "trustNote": "Alamin kung pinaglilingkuran ng Nusuk ang Canada sa taong pinaplano mo, at basahin muna ang payo sa paglalakbay ng Government of Canada para sa Saudi Arabia. Hindi garantiya ng puwesto sa Hajj ang pagpaparehistro."
   },
   {
     "id": "new-muslim-academy-quran-etiquette",
-    "title": "New Muslim Academy - Quran Etiquette",
-    "type": "article",
-    "url": "https://www.newmuslimacademy.org/etiquettes-of-touching-reading-the-quran-in-arabic-written-form/",
-    "description": "Gabay na sensitibo sa baguhan sa paggalang sa mushaf, pagbabasa ng mga pagsasalin, at pag-aaral ng etika ng Quran nang walang gulat.",
-    "relatedStepIds": ["quran"],
-    "relatedTopicIds": ["quran"],
-    "organization": "New Muslim Academy",
-    "bestFor": "Magalang na mga pangunahing kaalaman sa paghawak ng Quran",
-    "trustNote": "Ang mga detalyadong tanong sa kadalisayan ay dapat pa ring suriin sa isang kwalipikadong lokal na guro.",
-    "sourceIds": ["new-muslim-academy-quran-etiquette"],
-    "reviewStatus": "review-needed"
+    "title": "New Muslim Academy: asal sa Quran",
+    "description": "Gabay sa paghawak ng mushaf, pagbasa ng mga salin, at asal sa Quran, isinulat para hindi ka mataranta sa takot na magkamali.",
+    "bestFor": "Mga batayan ng magalang na paghawak sa Quran",
+    "trustNote": "Dapat pa ring suriin kasama ang isang kwalipikadong guro sa inyong lugar ang mga detalyadong tanong tungkol sa kalinisan."
   },
   {
     "id": "yaqeen-seerah-collection",
-    "title": "Yaqeen Institute - Life of the Prophet",
-    "type": "video",
-    "url": "https://yaqeeninstitute.org/topic/life-of-the-prophet-seerah?filter=videos",
-    "description": "Isang malaking koleksyon ng seerah at Propetikong karakter mula sa isang makikilalang institusyong pang-edukasyon sa Islam.",
-    "relatedStepIds": ["knowledge", "character"],
-    "relatedTopicIds": ["prophet-muhammad", "character"],
-    "organization": "Yaqeen Institute",
-    "bestFor": "Unti-unting pakikinig sa seerah at pagmuni-muni ng karakter",
-    "trustNote": "Gamitin nang dahan-dahan; ang mga nagsisimula ay hindi kailangang ubusin ang mahabang serye nang sabay-sabay.",
-    "sourceIds": ["yaqeen-seerah"],
-    "reviewStatus": "source-checked"
+    "title": "Yaqeen Institute: buhay ng Propeta",
+    "description": "Isang malaking koleksyon ng mga video at artikulo tungkol sa buhay at ugali ng Propeta, mula sa isang kilalang research institute.",
+    "bestFor": "Dahan-dahang pakikinig sa seerah at pagninilay sa ugali",
+    "trustNote": "Dahan-dahan lang. Hindi kailangang tapusin ang mahabang serye nang minsanan."
   },
   {
     "id": "seekersguidance-seerah",
-    "title": "SeekersGuidance - Study the Life of the Prophet",
-    "type": "article",
-    "url": "https://seekersguidance.org/articles/general-artices/life-of-the-prophet/",
-    "description": "Isang maikling oryentasyon sa pag-aaral ng seerah sa pamamagitan ng mga structured na kurso at maaasahang guro.",
-    "relatedStepIds": ["knowledge"],
-    "relatedTopicIds": ["prophet-muhammad"],
-    "organization": "SeekersGuidance",
-    "bestFor": "Paghahanap ng structured seerah study",
-    "trustNote": "Mabuti para sa pag-aaral ng mga landas; magtanong sa mga kuwalipikadong guro para sa mga personal na tanong sa relihiyon.",
-    "sourceIds": ["seekersguidance-seerah"],
-    "reviewStatus": "source-checked"
+    "title": "SeekersGuidance: pag-aaral ng buhay ng Propeta",
+    "description": "Isang maikling sulatin tungkol sa tamang pag-aaral ng seerah, sa pamamagitan ng maayos na mga kurso at maaasahang mga guro.",
+    "bestFor": "Paghahanap ng maayos na pag-aaral ng seerah",
+    "trustNote": "Mahusay para sa maayos na landas ng pag-aaral. Dalhin ang mga personal na tanong panrelihiyon sa isang kwalipikadong guro."
   },
   {
     "id": "new-muslim-academy-prophet-example",
-    "title": "New Muslim Academy - Following the Messenger",
-    "type": "article",
-    "url": "https://www.newmuslimacademy.org/the-messenger-muhammad-following-his-example/",
-    "description": "Isang panimulang panimula kung bakit sinusunod ng mga Muslim ang halimbawa ni Propeta Muhammad, sumakanya nawa ang kapayapaan.",
-    "relatedStepIds": ["knowledge", "character"],
-    "relatedTopicIds": ["prophet-muhammad", "new-muslim-basics"],
-    "organization": "New Muslim Academy",
-    "bestFor": "Bagong oryentasyong Muslim sa halimbawa ng Propeta",
-    "trustNote": "Gamitin bilang beginner framing at magpatuloy sa mga kwalipikadong guro para sa mas malalim na seerah.",
-    "sourceIds": ["new-muslim-academy-prophet-example"],
-    "reviewStatus": "source-checked"
+    "title": "New Muslim Academy: pagsunod sa Sugo",
+    "description": "Isang panimula para sa baguhan kung bakit sinusundan ng mga Muslim ang halimbawa ni Propeta Muhammad, sumakanya nawa ang kapayapaan.",
+    "bestFor": "Oryentasyon ng bagong Muslim sa halimbawa ng Propeta",
+    "trustNote": "Gamitin bilang panimula para sa baguhan at magpatuloy kasama ang mga kwalipikadong guro para sa mas malalim na seerah."
+  },
+  {
+    "id": "quran-com-al-fatihah-plan",
+    "title": "Seven Days, Seven Verses (Al-Fatihah)",
+    "description": "Isang talata ng Al-Fatihah bawat araw sa loob ng isang linggo, salita por salita kasama ang kahulugan, sa mga aralin na wala pang sampung minuto.",
+    "bestFor": "Pag-unawa sa sinasabi mo sa bawat pagdarasal",
+    "trustNote": "Libre at mababasa nang walang account. Mga aralin ni Shaykh Hammad Fahim."
+  },
+  {
+    "id": "new-muslim-academy-quran-classes",
+    "title": "Mga live na klase sa Quran ng New Muslim Academy",
+    "description": "Libreng online na klase sa maliliit na grupo tungkol sa pagbigkas ng Al-Fatihah at maiikling surah, tuwing gabi, oras sa Eastern.",
+    "bestFor": "Pag-aaral bumigkas kasama ang live na guro",
+    "trustNote": "Hiwalay ang turo sa kalalakihan at kababaihan. Pupunan mo ang isang sign-up form, at gumagamit ang site ng analytics at advertising pixel."
+  },
+  {
+    "id": "seekersguidance-essentials-course",
+    "title": "Essentials of Faith, Worship, and Spirituality",
+    "description": "Isang libreng live na kurso sa Level One tungkol sa mga batayan ng paniniwala, pagsamba at espiritwalidad, tuwing Sabado nang 10:00, oras sa Eastern.",
+    "bestFor": "Unang maayos na kurso, isa o dalawang buwan mula nang magsimula",
+    "trustNote": "Itinuturo ni Shaykh Faraz Rabbani. Sinasabi ng SeekersGuidance na libre ang lahat ng kurso nila."
+  },
+  {
+    "id": "yaqeen-quran-30-for-30",
+    "title": "Qur'an 30 for 30: Thematic Tafsir",
+    "description": "Isang libreng ebook na may maikling pangkalahatang-ideya ng bawat isa sa 30 bahagi ng Quran.",
+    "bestFor": "Pagtingin sa kabuuang larawan ng Quran",
+    "trustNote": "Nina Dr. Omar Suleiman at Sh. Ismail Kamdar. Libreng i-download."
+  },
+  {
+    "id": "mac-elearning",
+    "title": "MAC eLearning",
+    "description": "Mga libreng online na kurso mula sa Muslim Association of Canada tungkol sa Quran, mga agham ng Islam, pamilya at kasaysayan.",
+    "bestFor": "Paglalim sa sarili mong bilis pagkalipas ng anim na buwan",
+    "trustNote": "Isang Canadian charity. Tingnan ang antas ng bawat kurso bago ka magsimula."
+  },
+  {
+    "id": "tafsir-ibn-kathir-juz-amma",
+    "title": "Tafsir Ibn Kathir, pinaikling bersyon: ang ika-30 bahagi",
+    "description": "Isang klasikong paliwanag ng maiikling surah sa huling bahagi ng Quran.",
+    "bestFor": "Mga mambabasang gustong malaman ang klasikong kahulugan ng mga surah na binibigkas nila",
+    "trustNote": "Bayad na nakalimbag na libro. Pinakamainam basahin kasama ang isang guro."
+  },
+  {
+    "id": "pillars-app",
+    "title": "Pillars",
+    "description": "Isang app sa oras ng pagdarasal na may Qibla, widget at ilang paraan ng pagkuwenta, kasama ang paraan ng ISNA na ginagamit ng site na ito.",
+    "bestFor": "Mga paalala sa pagdarasal sa telepono mo",
+    "trustNote": "Walang patalastas at walang account. Nananatili sa telepono mo ang lokasyon mo. Gumagamit ito ng anonymous na analytics, na puwede mong i-off sa Settings."
+  },
+  {
+    "id": "cra-list-of-charities",
+    "title": "Listahan ng mga charity ng CRA",
+    "description": "Ang listahan ng Canada Revenue Agency, kung saan masusuri mo kung rehistrado ang isang charity bago ka magbigay ng zakat o sadaqah.",
+    "bestFor": "Pagsusuri sa charity bago magbigay",
+    "trustNote": "Opisyal na listahan ng Government of Canada."
+  },
+  {
+    "id": "cafc-charity-fraud",
+    "title": "Panloloko sa charity at donasyon",
+    "description": "Mga babalang palatandaan ng scam sa charity, kasama ang mga panawagan para sa panrelihiyong layunin, at kung paano suriin ang registration number.",
+    "bestFor": "Pagtukoy sa pekeng panawagan",
+    "trustNote": "Opisyal na pahina ng Government of Canada."
   }
 ]
