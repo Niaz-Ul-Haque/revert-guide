@@ -6,33 +6,41 @@
   "whyMatters": "A masjid gives you somewhere to pray, people to ask, classes, and company. Your first visit does not have to go perfectly. It only has to be small enough that you actually go.",
   "exactActions": [
     {
-      "text": "Pick a quiet time",
+      "text": "Pick a masjid and a quiet time",
       "subSteps": [
+        "Use the Masjid Finder in this app to find masjids near you in Canada.",
         "An ordinary daily prayer is much easier than a packed Friday.",
         "Check the masjid website or phone ahead if you are unsure.",
-        "Ask whether they have anything for new Muslims or for visitors."
+        "Ask whether they have anything for new Muslims or for visitors.",
+        "Some convert programmes, such as Convert Care at Islam Care Centre in Ottawa or Convert Connect at MAC Masjid Toronto, can arrange a guide for your first visit.",
+        "If there are a few nearby, visit more than one and see where you feel most welcome."
       ]
     },
     {
       "text": "Dress simply and modestly",
       "subSteps": [
         "Wear clean, loose clothing that covers you comfortably.",
+        "Men usually wear long pants and a shirt with sleeves.",
         "Women can bring a scarf if they plan to enter the prayer area.",
+        "Many masjids keep spare scarves by the door.",
         "Do not panic if you are not dressed like everyone else."
       ]
     },
     {
       "text": "Follow the basic etiquette",
       "subSteps": [
+        "Arrive a few minutes early.",
         "Take your shoes off where you see others taking theirs off.",
         "Keep your phone quiet.",
-        "If you are not sure where to go, ask someone near the entrance."
+        "If you are not sure where to go, ask someone near the entrance.",
+        "Men and women usually pray in separate areas.",
+        "If you join a prayer, follow what everyone else does. Stand when they stand, bow when they bow. Nobody expects you to know it all."
       ]
     },
     {
       "text": "Introduce yourself to one person",
       "subSteps": [
-        "Saying you are a new Muslim and this is your first time here is enough.",
+        "Saying you are a new Muslim and this is your first time here is enough. 'As-salamu alaykum, I'm new to Islam' opens many doors.",
         "Ask who handles convert support or beginner classes.",
         "If it becomes too much, leave. You can come back another day."
       ]
@@ -66,6 +74,12 @@
       "body": "Assalamu alaykum. I am a new Muslim and this is my first time here. Could you show me where to go?"
     }
   ],
-  "sourceIds": ["whyislam", "icna", "new-muslim-guide"],
+  "sourceIds": [
+    "whyislam",
+    "icna",
+    "new-muslim-guide",
+    "islam-care-centre-convert-care",
+    "masjid-toronto-programs"
+  ],
   "reviewStatus": "source-checked"
 }
