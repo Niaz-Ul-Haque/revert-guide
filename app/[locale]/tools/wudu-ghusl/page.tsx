@@ -7,6 +7,7 @@ import { Icon } from "@/components/Icon";
 import { AnimateIn } from "@/components/AnimateIn";
 import { PrintButton } from "@/components/PrintButton";
 import { VideoEmbed } from "@/components/VideoEmbed";
+import { InfoCardSection } from "@/components/InfoCardSection";
 import { SourceTags, SourcesPanel } from "@/components/SourceTags";
 import { getSourcesByIds } from "@/lib/content";
 import { getWuduGhuslContent, type PracticeStep } from "@/lib/tool-content";
@@ -190,8 +191,20 @@ export default function WuduGhuslPage({
     ghuslImage,
     tayammum,
     commonQuestions,
+    istinja,
+    moreCards = [],
   } = getWuduGhuslContent(locale);
-  const sources = getSourcesByIds(sourceIds, locale);
+  const sources = getSourcesByIds(
+    Array.from(
+      new Set([
+        ...sourceIds,
+        ...(istinja?.sourceIds ?? []),
+        ...moreCards.flatMap((card) => card.sourceIds),
+        ...commonQuestions.flatMap((item) => item.sourceIds),
+      ]),
+    ),
+    locale,
+  );
 
   return (
     <div className="mx-auto max-w-5xl px-5 py-10">
@@ -261,6 +274,12 @@ export default function WuduGhuslPage({
           </div>
         </section>
       </AnimateIn>
+
+      {istinja && (
+        <AnimateIn>
+          <InfoCardSection card={istinja} locale={locale} className="mb-12" />
+        </AnimateIn>
+      )}
 
       <AnimateIn>
         <section className="mb-12" aria-labelledby="wudu-heading">
@@ -450,6 +469,12 @@ export default function WuduGhuslPage({
           </div>
         </section>
       </AnimateIn>
+
+      {moreCards.map((card) => (
+        <AnimateIn key={card.id}>
+          <InfoCardSection card={card} locale={locale} />
+        </AnimateIn>
+      ))}
 
       <AnimateIn>
         <section className="mt-12" aria-labelledby="questions-heading">

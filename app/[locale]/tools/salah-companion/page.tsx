@@ -6,6 +6,7 @@ import { Icon } from "@/components/Icon";
 import { AnimateIn } from "@/components/AnimateIn";
 import { PrintButton } from "@/components/PrintButton";
 import { VideoEmbed } from "@/components/VideoEmbed";
+import { InfoCardSection } from "@/components/InfoCardSection";
 import { SourceTags, SourcesPanel } from "@/components/SourceTags";
 import { getSourcesByIds } from "@/lib/content";
 import { getSalahCompanionContent } from "@/lib/tool-content";
@@ -194,8 +195,18 @@ export default function SalahCompanionPage({
     prayerTable,
     notOwed,
     seatedPrayer,
+    situationIndex,
+    moreCards = [],
   } = getSalahCompanionContent(locale);
-  const pageSources = getSourcesByIds(pageSourceIds, locale);
+  const pageSources = getSourcesByIds(
+    Array.from(
+      new Set([
+        ...pageSourceIds,
+        ...moreCards.flatMap((card) => card.sourceIds),
+      ]),
+    ),
+    locale,
+  );
 
   return (
     <div className="mx-auto max-w-5xl px-5 py-10">
@@ -607,9 +618,43 @@ export default function SalahCompanionPage({
         </AnimateIn>
       </div>
 
+      {situationIndex && (
+        <AnimateIn>
+          <section
+            id="when-something-comes-up"
+            className="mt-12 scroll-mt-24 rounded-2xl border border-primaryGreen/40 bg-surfaceElevated/60 p-6"
+            aria-labelledby="situations-heading"
+          >
+            <h2
+              id="situations-heading"
+              className="mb-2 mt-0 font-display text-2xl font-semibold tracking-tight text-textPrimary"
+            >
+              {situationIndex.title}
+            </h2>
+            <p className="mb-4 max-w-3xl text-sm leading-relaxed text-textSecondary">
+              {situationIndex.intro}
+            </p>
+            <ul className="mb-0 grid gap-x-6 pl-0 md:grid-cols-2">
+              {situationIndex.items.map((item) => (
+                <li key={item.label}>
+                  <Link
+                    href={localizeHref(locale, item.href)}
+                    className="inline-flex min-h-[44px] items-center gap-1.5 py-1 text-sm font-semibold text-primary"
+                  >
+                    <Icon name="chevron-right" size="sm" />
+                    {item.label}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </section>
+        </AnimateIn>
+      )}
+
       <AnimateIn>
         <section
-          className="mt-12 rounded-2xl border border-border/60 bg-white p-6 shadow-card"
+          id="sujud-al-sahw"
+          className="mt-12 scroll-mt-24 rounded-2xl border border-border/60 bg-white p-6 shadow-card"
           aria-labelledby="sahw-heading"
         >
           <h2
@@ -632,9 +677,16 @@ export default function SalahCompanionPage({
         </section>
       </AnimateIn>
 
+      {moreCards.map((card) => (
+        <AnimateIn key={card.id}>
+          <InfoCardSection card={card} locale={locale} />
+        </AnimateIn>
+      ))}
+
       <AnimateIn>
         <section
-          className="mt-12 rounded-2xl border border-border/60 bg-white p-6 shadow-card"
+          id="seated-prayer"
+          className="mt-12 scroll-mt-24 rounded-2xl border border-border/60 bg-white p-6 shadow-card"
           aria-labelledby="seated-heading"
         >
           <h2

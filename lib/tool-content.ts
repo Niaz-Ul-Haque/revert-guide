@@ -32,7 +32,14 @@ function resolveLocaleFile(locale: Locale, relativePath: string) {
 }
 
 function readJsonFile<T>(locale: Locale, relativePath: string): T {
-  return readJson<T>(resolveLocaleFile(locale, relativePath));
+  const filePath = resolveLocaleFile(locale, relativePath);
+  const englishPath = path.join(getLocaleDir(DEFAULT_LOCALE), relativePath);
+  if (filePath === englishPath) {
+    return readJson<T>(filePath);
+  }
+  // Top-level keys added to English before their translation lands fall
+  // back to English, so a new section never crashes a translated page.
+  return { ...readJson<T>(englishPath), ...readJson<T>(filePath) };
 }
 
 /* ── Shared shapes ── */
@@ -40,6 +47,20 @@ function readJsonFile<T>(locale: Locale, relativePath: string): T {
 export interface CorrectionNote {
   title: string;
   body: string;
+}
+
+/** A titled card of points with sources, used for the situational sections
+ * on the tool pages (joining late, istinja, the excused person and so on). */
+export interface InfoCard {
+  id: string;
+  title: string;
+  summary?: string;
+  points: string[];
+  differencesTitle?: string;
+  differences?: string[];
+  referral?: string;
+  links?: { label: string; href: string }[];
+  sourceIds: string[];
 }
 
 export interface ExternalLink {
@@ -241,6 +262,12 @@ export interface SalahCompanionContent {
     video: VideoWithChapters;
     extraLink: ExternalLink;
   };
+  situationIndex?: {
+    title: string;
+    intro: string;
+    items: { label: string; href: string }[];
+  };
+  moreCards?: InfoCard[];
 }
 
 export function getSalahCompanionContent(
@@ -285,6 +312,8 @@ export interface WuduGhuslContent {
     sourceIds: string[];
     video: VideoWithChapters;
   };
+  istinja?: InfoCard;
+  moreCards?: InfoCard[];
 }
 
 export function getWuduGhuslContent(
