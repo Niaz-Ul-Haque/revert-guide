@@ -1116,6 +1116,82 @@
             "warningLinkHref": "https://www.canada.ca/en/public-health/services/health-promotion/stop-family-violence/plan-your-safety.html"
           },
           {
+            "id": "addiction",
+            "title": "Alcohol, drugs and addiction",
+            "intro": "Free lines for people who use alcohol or drugs, and for their families. In an emergency or an overdose, call 9-1-1. CCSA keeps the full list of provincial and territorial lines.",
+            "linkLabel": "See every provincial and territorial line",
+            "linkHref": "https://www.ccsa.ca/en/contact-us/addictions-treatment-helplines-canada",
+            "items": [
+              {
+                "name": "Provincial addiction lines",
+                "desc": "Each province and territory has its own line. In Ontario, use ConnexOntario, listed further down.",
+                "contacts": [
+                  {
+                    "label": "Alberta:",
+                    "value": "1-866-332-2322",
+                    "href": "tel:18663322322"
+                  },
+                  {
+                    "label": "British Columbia:",
+                    "value": "1-800-663-1441",
+                    "href": "tel:18006631441"
+                  },
+                  {
+                    "label": "Quebec:",
+                    "value": "1-800-265-2626",
+                    "href": "tel:18002652626"
+                  },
+                  {
+                    "label": "Nova Scotia:",
+                    "value": "1-888-429-8167",
+                    "href": "tel:18884298167"
+                  }
+                ],
+                "officialHref": "https://www.ccsa.ca/en/contact-us/addictions-treatment-helplines-canada",
+                "checked": "Checked 25 September 2026"
+              },
+              {
+                "name": "Narcotics Anonymous",
+                "desc": "A national line for Narcotics Anonymous, a peer support fellowship. It is not faith-based.",
+                "contacts": [
+                  {
+                    "label": "Call:",
+                    "value": "1-855-562-2262",
+                    "href": "tel:18555622262"
+                  }
+                ],
+                "officialHref": "https://www.canada.ca/en/health-canada/services/substance-use/get-help-with-substance-use.html",
+                "checked": "Checked 25 September 2026"
+              },
+              {
+                "name": "National Overdose Response Service",
+                "desc": "A Canada-wide overdose response line listed by Health Canada.",
+                "contacts": [
+                  {
+                    "label": "Call:",
+                    "value": "1-888-688-6677",
+                    "href": "tel:18886886677"
+                  }
+                ],
+                "officialHref": "https://www.canada.ca/en/health-canada/services/substance-use/get-help-with-substance-use.html",
+                "checked": "Checked 25 September 2026"
+              },
+              {
+                "name": "Families for Addiction Recovery",
+                "desc": "Support for parents and family members of someone with an addiction. Weekdays, 1 to 3 PM Eastern time.",
+                "contacts": [
+                  {
+                    "label": "Call:",
+                    "value": "1-855-377-6677",
+                    "href": "tel:18553776677"
+                  }
+                ],
+                "officialHref": "https://www.canada.ca/en/health-canada/services/substance-use/get-help-with-substance-use.html",
+                "checked": "Checked 25 September 2026"
+              }
+            ]
+          },
+          {
             "id": "eating-disorders",
             "title": "Eating disorders",
             "items": [
@@ -1214,6 +1290,24 @@
       "crossLink": {
         "prompt": "Looking for community support?",
         "linkLabel": "Read: building your Muslim community"
+      },
+      "recovery": {
+        "title": "Alcohol, drugs and recovery",
+        "paragraphs": [
+          "Many converts come from a life where drinking was normal, and some find it hard to stop. Dr. Jibran Khokhar, an addiction researcher at Western University, writes that substance use disorders are chronic and often relapse, and that stigma keeps many Muslims from asking for help. A slip is common in recovery. It does not mean you have failed.",
+          "If you have been drinking heavily every day, ask a doctor before you stop. CAMH says alcohol withdrawal can cause seizures, and that its severe form can be fatal if it is not treated.",
+          "In Islam, a slip does not end your faith either. A companion of the Prophet was brought to him again and again for drinking. When someone cursed the man, the Prophet said, \"Do not curse him, for by Allah, I know he loves Allah and His Messenger\" (Sahih al-Bukhari 6780). After a slip, repent and start again the same day.",
+          "Dr. Zohair Abdul-Rahman of the Yaqeen Institute describes a recovery programme drawn from the scholar Ibn al-Qayyim, and writes that this Islamic approach adds to modern addiction research. Faith and treatment can work side by side."
+        ],
+        "stepsTitle": "Steps that help",
+        "steps": [
+          "Tell your doctor honestly how much you drink or use.",
+          "Call your provincial or territorial addiction line, listed below, to hear what help is near you.",
+          "Clear alcohol out of your home, and plan the evenings you used to spend drinking.",
+          "Choose one sober friend or mentor you can message on hard nights.",
+          "After a slip, repent and start again the same day. You are still welcome at the masjid."
+        ],
+        "groupsNote": "Alcoholics Anonymous and Narcotics Anonymous are not faith-based, and many people find them useful. Millati Islami is a Muslim 12-step fellowship. Its directory lists online meetings and groups in the United States, and no group in Canada."
       }
     },
     "resourcesPage": {

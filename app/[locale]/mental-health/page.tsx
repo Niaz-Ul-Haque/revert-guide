@@ -45,6 +45,13 @@ export default function MentalHealthPage({
       "canada-safety-planning",
       "khalil-center",
       "yaqeen-becoming-muslim",
+      "camh-alcohol",
+      "sunnah-bukhari-6780",
+      "yaqeen-khokhar-teens-drugs",
+      "yaqeen-abdul-rahman-addiction-ibn-al-qayyim",
+      "health-canada-get-help-substance-use",
+      "ccsa-addictions-helplines",
+      "millati-islami-groups",
     ],
     locale,
   );
@@ -221,6 +228,46 @@ export default function MentalHealthPage({
           <Callout variant="important" title={copy.seekHelp.calloutTitle}>
             <p>{copy.seekHelp.calloutBody}</p>
           </Callout>
+        </section>
+      </AnimateIn>
+
+      {/* ── Alcohol, drugs and recovery ── */}
+      <AnimateIn>
+        <section className="mb-10" aria-labelledby="recovery">
+          <h2
+            id="recovery"
+            className="mb-3 scroll-mt-24 font-display text-2xl font-semibold tracking-tight text-textPrimary"
+          >
+            {copy.recovery.title}
+          </h2>
+          {copy.recovery.paragraphs.map((paragraph) => (
+            <p
+              key={paragraph}
+              className="mb-3 text-base leading-relaxed text-textSecondary"
+            >
+              {paragraph}
+            </p>
+          ))}
+          <h3 className="mb-3 mt-6 font-display text-lg font-semibold text-textPrimary">
+            {copy.recovery.stepsTitle}
+          </h3>
+          <ul className="mb-4 flex flex-col gap-2.5 pl-0 text-base text-textSecondary">
+            {copy.recovery.steps.map((text) => (
+              <li
+                key={text}
+                className="flex items-start gap-3 rounded-xl bg-surfaceElevated/50 p-3.5"
+              >
+                <span
+                  className="mt-1.5 block h-2 w-2 shrink-0 rounded-full bg-primary"
+                  aria-hidden="true"
+                />
+                <span className="leading-relaxed">{text}</span>
+              </li>
+            ))}
+          </ul>
+          <p className="mb-0 text-base leading-relaxed text-textSecondary">
+            {copy.recovery.groupsNote}
+          </p>
         </section>
       </AnimateIn>
 
