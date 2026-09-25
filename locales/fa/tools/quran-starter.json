@@ -1,0 +1,396 @@
+{
+  "vocabulary": [
+    {
+      "term": "قرآن عربی",
+      "body": "متن عربی وحی‌شده. وقتی این صفحه به آیه‌ای پیوند می‌دهد، متن عربی همان قرآن است و بقیه کمکی برای فهم آن است."
+    },
+    {
+      "term": "ترجمه معنا",
+      "body": "برگردانی که مفهوم را منتقل می‌کند. به فهم شما کمک می‌کند و خودش قرآن نیست."
+    },
+    {
+      "term": "آوانویسی",
+      "body": "صداهای عربی که با حروف لاتین نوشته شده‌اند. برای تمرین به‌دردبخور است، هرچند گوش شما از استاد یا قاری معتبر بیشتر یاد می‌گیرد."
+    },
+    {
+      "term": "تفسیر",
+      "body": "توضیح علمی درباره معنای آیه، زمان نزول آن و آنچه از شما می‌خواهد. وقتی آیه‌ای دشوار به نظر می‌رسد سراغش بروید."
+    }
+  ],
+  "translationTips": [
+    "ترجمه‌ای انتخاب کنید که بتوانید بفهمید چه کسی آن را ترجمه کرده، چه کسی منتشرش کرده و چگونه کار کرده‌اند.",
+    "ترجمه‌ای خوش‌خوان با پانویس بهتر از پی‌دی‌اف بی‌نام یا اسکرین‌شاتی است که کسی منتشر کرده.",
+    "وقتی مطالعه می‌کنید دو ترجمه را مقایسه کنید. اگر مقایسه‌شان شما را مضطرب کرد، به یکی برگردید.",
+    "وقتی آیه‌ای به باور، عبادت، خانواده، ایمنی یا تصمیمی که در پیش دارید مربوط می‌شود، از استادی واجد شرایط بپرسید."
+  ],
+  "readingPaths": [
+    {
+      "title": "نخستین نشست",
+      "time": "10 تا 20 دقیقه",
+      "body": "با سوره‌های کوتاهی شروع کنید که تمرین نماز هم هستند. معنا را آرام بخوانید، سپس یک بار گوش دهید. فعلاً کاری به تلفظتان نداشته باشید.",
+      "readings": [
+        "سوره فاتحه، سوره 1",
+        "سوره اخلاص، سوره 112",
+        "سوره فلق، سوره 113",
+        "سوره ناس، سوره 114"
+      ],
+      "sourceIds": [
+        "quran-al-fatihah-1",
+        "quran-al-ikhlas-112",
+        "quran-al-falaq-113",
+        "quran-an-nas-114"
+      ]
+    },
+    {
+      "title": "رحمت و امید",
+      "time": "یک نشست آرام",
+      "body": "وقتی شرم یا ترس بلندتر از امید است این را بخوانید. پیش از افزودن هر چیز دیگری، با آنچه این آیات درباره نزدیکی الله و آمادگی او برای بخشیدن می‌گویند بمانید.",
+      "readings": ["قرآن 39:53", "قرآن 2:186", "قرآن 23:109"],
+      "sourceIds": [
+        "quran-39-53-mercy",
+        "quran-2-186-dua-nearness",
+        "quran-23-109-forgiveness"
+      ]
+    },
+    {
+      "title": "پیامبران و هدف",
+      "time": "چند نشست کوتاه",
+      "body": "سوره یوسف را هر بار چند صفحه بخوانید. داستانی پیوسته است: خانواده‌ای که علیه او برمی‌خیزند، صبری طولانی، وسوسه، زندان و در پایان بخشش.",
+      "readings": ["سوره یوسف، سوره 12"],
+      "sourceIds": ["quran-yusuf-12"]
+    },
+    {
+      "title": "نماز و عبادت",
+      "time": "15 دقیقه",
+      "body": "خواندنتان را به نمازتان پیوند دهید. این بخش‌ها جایگاه نماز را نشان می‌دهند: یاد خدا، درخواست هدایت و پناهگاهی وقتی به صبر نیاز دارید.",
+      "readings": ["سوره فاتحه، سوره 1", "قرآن 20:14", "قرآن 2:153"],
+      "sourceIds": [
+        "quran-al-fatihah-1",
+        "quran-20-14-prayer-remembrance",
+        "quran-2-153-patience-prayer"
+      ]
+    },
+    {
+      "title": "اخلاق و صبر",
+      "time": "10 دقیقه",
+      "body": "این یکی را عملی نگه دارید. پس از خواندن بپرسید امروز چه چیزی را در سخن گفتن، صبر و رفتارتان با مردم تغییر می‌دهد.",
+      "readings": ["سوره عصر، سوره 103", "قرآن 2:153"],
+      "sourceIds": ["quran-al-asr-103", "quran-2-153-patience-prayer"]
+    }
+  ],
+  "weekPlan": [
+    {
+      "day": "روز 1",
+      "title": "با سوره فاتحه آغاز کنید",
+      "body": "معنای سوره فاتحه را بخوانید، سپس یک بار به آن گوش دهید. سطر مربوط به هدایت را در طول روز با خود داشته باشید.",
+      "sourceIds": ["quran-al-fatihah-1"]
+    },
+    {
+      "day": "روز 2",
+      "title": "سه سوره کوتاه پناه‌جویی را یاد بگیرید",
+      "body": "سوره‌های اخلاص، فلق و ناس را بخوانید. ببینید درباره یگانگی الله و پناه خواستن چه می‌گویند. امروز سعی نکنید حفظشان کنید.",
+      "sourceIds": [
+        "quran-al-ikhlas-112",
+        "quran-al-falaq-113",
+        "quran-an-nas-114"
+      ]
+    },
+    {
+      "day": "روز 3",
+      "title": "برای امید بخوانید",
+      "body": "قرآن 39:53 را آرام بخوانید. سپس یک جمله با کلمات خودتان بنویسید درباره اینکه رحمت الله برای وضعیت شما چه معنایی دارد.",
+      "sourceIds": ["quran-39-53-mercy"]
+    },
+    {
+      "day": "روز 4",
+      "title": "دعای خودتان را بکنید",
+      "body": "قرآن 2:186 و 23:109 را بخوانید. سپس دعایی کوتاه به زبان خودتان و با کلمات خودتان بکنید.",
+      "sourceIds": ["quran-2-186-dua-nearness", "quran-23-109-forgiveness"]
+    },
+    {
+      "day": "روز 5",
+      "title": "قرآن را به نماز پیوند دهید",
+      "body": "قرآن 20:14 را بخوانید و دوباره به سوره فاتحه گوش دهید. نماز پیش از هر چیز یاد خداست. بی‌نقص کردنش بعد می‌آید.",
+      "sourceIds": ["quran-20-14-prayer-remembrance", "quran-al-fatihah-1"]
+    },
+    {
+      "day": "روز 6",
+      "title": "صبر را تمرین کنید",
+      "body": "قرآن 2:153 و سوره عصر را بخوانید. امروز یک چیز کوچک انتخاب کنید که در آن صبور باشید یا راست بگویید، وقتی نگفتن آسان‌تر است.",
+      "sourceIds": ["quran-2-153-patience-prayer", "quran-al-asr-103"]
+    },
+    {
+      "day": "روز 7",
+      "title": "مرور کنید و یک پرسش بپرسید",
+      "body": "به هر بخشی که در ذهنتان ماند برگردید. اگر چیزی گیجتان کرد، آیه دقیق را بنویسید و نزد استادی که به او اعتماد دارید ببرید.",
+      "sourceIds": ["quran-com", "seekersguidance"]
+    }
+  ],
+  "resourceLinks": [
+    {
+      "title": "وب‌سایت Quran.com",
+      "body": "در مرورگر بخوانید، گوش دهید، ترجمه‌ها را مقایسه کنید و صفحه قاریان را باز کنید، بی‌آنکه لازم باشد چیزی نصب کنید.",
+      "href": "https://quran.com/",
+      "sourceIds": ["quran-com"],
+      "icon": "book"
+    },
+    {
+      "title": "The Clear Quran",
+      "body": "ترجمه‌ای خوش‌خوان از معنا به انگلیسی. از آن برای فهم استفاده کنید و متن عربی را خود قرآن بدانید.",
+      "href": "https://theclearquran.org/",
+      "sourceIds": ["clear-quran"],
+      "icon": "file-text"
+    },
+    {
+      "title": "New Muslim Academy",
+      "body": "کلاس‌های مقدماتی و کمک در قرآن، ویژه کسانی که تازه با اسلام آشنا شده‌اند.",
+      "href": "https://www.newmuslimacademy.org/",
+      "sourceIds": ["new-muslim-academy"],
+      "icon": "users"
+    },
+    {
+      "title": "مشاری راشد العفاسی در Quran.com",
+      "body": "قاری‌ای روشن‌خوان برای همراه شدن با او. اول کامل گوش دهید، سپس یک بخش کوتاه را تکرار کنید.",
+      "href": "https://quran.com/reciters/7",
+      "sourceIds": ["quran-reciter-mishary"],
+      "icon": "play"
+    }
+  ],
+  "learnArabic": {
+    "image": {
+      "src": "/graphics/al-fatihah-card.svg",
+      "alt": "کارتی با هفت سطر سوره فاتحه که هر سطر متن عربی، آوانویسی و ترجمه معنا را دارد.",
+      "caption": "سوره فاتحه، سطر به سطر.",
+      "credit": "تصویر: ریورت گاید."
+    },
+    "stages": [
+      "هفته 1: روزی یک سطر از سوره فاتحه. گوش دهید، تکرار کنید و معنای واژه‌ها را در پایین بخوانید. همین تنها کار شماست.",
+      "هفته‌های 2 تا 4: با آنچه می‌دانید نماز را ادامه دهید، سوره فاتحه را کامل کنید و یک سوره کوتاه مانند اخلاص را اضافه کنید.",
+      "پس از آن، هر وقت احساس آمادگی کردید: حروف عربی را شروع کنید یا از مسجد محلی‌تان درباره کلاس مقدماتی قرائت قرآن بپرسید."
+    ],
+    "fatihahWords": [
+      {
+        "verse": 1,
+        "words": [
+          {
+            "arabic": "بِسْمِ",
+            "transliteration": "bismi",
+            "meaning": "به نام"
+          },
+          {
+            "arabic": "اللَّهِ",
+            "transliteration": "Allahi",
+            "meaning": "الله"
+          },
+          {
+            "arabic": "الرَّحْمَٰنِ",
+            "transliteration": "ar-Rahmani",
+            "meaning": "بسیار بخشاینده"
+          },
+          {
+            "arabic": "الرَّحِيمِ",
+            "transliteration": "ar-Rahim",
+            "meaning": "بسیار مهربان"
+          }
+        ]
+      },
+      {
+        "verse": 2,
+        "words": [
+          {
+            "arabic": "الْحَمْدُ",
+            "transliteration": "al-hamdu",
+            "meaning": "همه ستایش"
+          },
+          {
+            "arabic": "لِلَّهِ",
+            "transliteration": "lillahi",
+            "meaning": "از آن الله است"
+          },
+          {
+            "arabic": "رَبِّ",
+            "transliteration": "Rabbi",
+            "meaning": "پروردگار"
+          },
+          {
+            "arabic": "الْعَالَمِينَ",
+            "transliteration": "al-'alamin",
+            "meaning": "جهانیان"
+          }
+        ]
+      },
+      {
+        "verse": 3,
+        "words": [
+          {
+            "arabic": "الرَّحْمَٰنِ",
+            "transliteration": "ar-Rahmani",
+            "meaning": "بسیار بخشاینده"
+          },
+          {
+            "arabic": "الرَّحِيمِ",
+            "transliteration": "ar-Rahim",
+            "meaning": "بسیار مهربان"
+          }
+        ]
+      },
+      {
+        "verse": 4,
+        "words": [
+          {
+            "arabic": "مَالِكِ",
+            "transliteration": "Maliki",
+            "meaning": "فرمانروای"
+          },
+          {
+            "arabic": "يَوْمِ",
+            "transliteration": "yawmi",
+            "meaning": "روز"
+          },
+          {
+            "arabic": "الدِّينِ",
+            "transliteration": "ad-din",
+            "meaning": "جزا"
+          }
+        ]
+      },
+      {
+        "verse": 5,
+        "words": [
+          {
+            "arabic": "إِيَّاكَ",
+            "transliteration": "iyyaka",
+            "meaning": "تنها تو را"
+          },
+          {
+            "arabic": "نَعْبُدُ",
+            "transliteration": "na'budu",
+            "meaning": "می‌پرستیم"
+          },
+          {
+            "arabic": "وَإِيَّاكَ",
+            "transliteration": "wa iyyaka",
+            "meaning": "و تنها از تو"
+          },
+          {
+            "arabic": "نَسْتَعِينُ",
+            "transliteration": "nasta'in",
+            "meaning": "یاری می‌جوییم"
+          }
+        ]
+      },
+      {
+        "verse": 6,
+        "words": [
+          {
+            "arabic": "اهْدِنَا",
+            "transliteration": "ihdina",
+            "meaning": "ما را هدایت کن"
+          },
+          {
+            "arabic": "الصِّرَاطَ",
+            "transliteration": "as-sirata",
+            "meaning": "به راه"
+          },
+          {
+            "arabic": "الْمُسْتَقِيمَ",
+            "transliteration": "al-mustaqim",
+            "meaning": "راست"
+          }
+        ]
+      },
+      {
+        "verse": 7,
+        "words": [
+          {
+            "arabic": "صِرَاطَ",
+            "transliteration": "sirata",
+            "meaning": "راه"
+          },
+          {
+            "arabic": "الَّذِينَ",
+            "transliteration": "alladhina",
+            "meaning": "کسانی که"
+          },
+          {
+            "arabic": "أَنْعَمْتَ",
+            "transliteration": "an'amta",
+            "meaning": "نعمت دادی"
+          },
+          {
+            "arabic": "عَلَيْهِمْ",
+            "transliteration": "'alayhim",
+            "meaning": "به آنان"
+          },
+          {
+            "arabic": "غَيْرِ",
+            "transliteration": "ghayri",
+            "meaning": "نه"
+          },
+          {
+            "arabic": "الْمَغْضُوبِ",
+            "transliteration": "al-maghdubi",
+            "meaning": "خشم‌گرفتگان"
+          },
+          {
+            "arabic": "عَلَيْهِمْ",
+            "transliteration": "'alayhim",
+            "meaning": "بر آنان"
+          },
+          {
+            "arabic": "وَلَا",
+            "transliteration": "wa la",
+            "meaning": "و نه"
+          },
+          {
+            "arabic": "الضَّالِّينَ",
+            "transliteration": "ad-dallin",
+            "meaning": "گمراهان"
+          }
+        ]
+      }
+    ],
+    "fatihahSourceIds": ["quran-al-fatihah-1", "quranic-arabic-corpus-fatihah"],
+    "links": [
+      {
+        "label": "گوش دادن به سوره فاتحه در Quran.com",
+        "body": "در صفحه Quran.com دکمه پخش را بزنید تا هر آیه را بشنوید. مشاری العفاسی قاری‌ای روشن‌خوان برای شروع است.",
+        "href": "https://quran.com/1",
+        "sourceIds": ["quran-al-fatihah-1", "quran-reciter-mishary"]
+      },
+      {
+        "label": "هفت روز، هفت آیه (Quran.com)",
+        "body": "روزی یک آیه از سوره فاتحه، هرکدام کمتر از 10 دقیقه، با تفکیک واژه‌ها. رایگان است و می‌توانید بدون حساب کاربری بخوانید.",
+        "href": "https://quran.com/learning-plans/seven-days-seven-verses-living-the-message-of-al-fatihah",
+        "sourceIds": ["quran-com-seven-days-seven-verses"]
+      },
+      {
+        "label": "مجموعه عبارت به عبارت Islamwise",
+        "body": "درس‌های کوتاه یوتیوب درباره هر عبارت نماز. قسمت‌های 11 تا 18 سوره فاتحه را آیه به آیه پیش می‌برند.",
+        "href": "https://www.youtube.com/playlist?list=PLW9v5fexkmD_8i507k8oL2x9n0vJeP1BT",
+        "sourceIds": ["video-islamwise-prayer-series"]
+      },
+      {
+        "label": "حروف عربی: دوره خواندن عربی Madinah Arabic",
+        "body": "برای درس‌های رایگان هزینه‌ای ندارد و حساب کاربری نمی‌خواهد. این سایت درس‌های خصوصی پولی هم می‌فروشد و نام نویسنده دوره ذکر نشده است.",
+        "href": "https://madinaharabic.com/free-content",
+        "sourceIds": ["madinah-arabic-free-content"]
+      }
+    ],
+    "fatihahVideo": {
+      "videoId": "Rdhcd8452-I",
+      "title": "الحمد لله رب العالمین، عبارت به عبارت",
+      "channel": "Islamwise",
+      "duration": "2:27",
+      "sourceIds": ["video-islamwise-fatihah-alhamdu"]
+    },
+    "alphabetVideo": {
+      "videoId": "c-7SVieC_04",
+      "title": "خواندن عربی، درس 1: نخستین حروف",
+      "channel": "Arabic 101",
+      "duration": "13:57",
+      "note": "Arabic 101 کلاس‌های زنده هم می‌فروشد. تماشای این درس نخست رایگان است.",
+      "sourceIds": ["video-arabic101-alphabet-lesson-1"]
+    }
+  }
+}
