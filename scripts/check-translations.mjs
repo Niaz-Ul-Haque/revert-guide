@@ -77,6 +77,7 @@ const NEVER_TRANSLATE = new Set([
   "fatihahSourceIds",
   "cannotReciteSourceIds",
   "wuduBreaksSourceIds",
+  "replySource",
 ]);
 
 // Per-file additions to NEVER_TRANSLATE (keys that are enums or names there).
@@ -123,6 +124,7 @@ const IDENTICAL_OK_PREFIX = [
 // Fields where the English value may stay (official names, terms).
 const IDENTICAL_OK_FIELD = {
   "sources.json": new Set(["title"]),
+  "tools/dua-dhikr.json": new Set(["phrase"]),
   "resources.json": new Set(["title"]),
   "glossary.json": new Set(["term"]),
   "events.json": new Set(["title", "venue", "organiser", "time"]),
