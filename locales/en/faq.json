@@ -2943,5 +2943,51 @@
     ],
     "reviewStatus": "review-needed",
     "askTeacher": true
+  },
+  {
+    "id": "faq-fnd-028",
+    "category": "foundations",
+    "question": "How do I tell what is Islam and what is someone's culture?",
+    "answer": "When you hear a new rule, ask where it comes from: the Quran, the Sunnah, or one community's custom. Many customs are good, and you are free to enjoy them, but a custom is not an obligation. A teacher can show you the difference and the source. The Prophet told his companions to make things easy for people and not to drive them away (Sahih al-Bukhari 69). Not every fatwa you find online was written for your situation, so bring the question to someone who knows you.",
+    "readMore": {
+      "label": "New Muslim basics: what can wait",
+      "href": "/topics/new-muslim-basics"
+    },
+    "sourceIds": ["sunnah-bukhari-69"],
+    "reviewStatus": "source-checked"
+  },
+  {
+    "id": "faq-fnd-029",
+    "category": "foundations",
+    "question": "Are all sins equally serious?",
+    "answer": "No. The Quran says that if you avoid the major sins you are forbidden, Allah will remove your lesser misdeeds (4:31). The Prophet named seven destructive sins, among them associating partners with Allah, practising magic and killing someone unlawfully (Sahih al-Bukhari 6857). Scholars' lists of major sins differ in length, so this answer uses only that hadith. Treating a missed recommended (Sunnah) act as if it were a major sin is a common early worry. Any sin, even a serious one, is a reason to repent, not proof that you have left Islam.",
+    "readMore": {
+      "label": "How do I repent?",
+      "href": "/faq#faq-fnd-014"
+    },
+    "sourceIds": [
+      "quran-4-31",
+      "sunnah-bukhari-6857",
+      "seekersguidance-misgivings-regarding-apostasy"
+    ],
+    "reviewStatus": "review-needed",
+    "askTeacher": true
+  },
+  {
+    "id": "faq-fnd-030",
+    "category": "foundations",
+    "question": "Talks about punishment frighten me. How do I hold hope and fear together?",
+    "answer": "Hold both, and do not let fear crowd out hope. Allah says, 'My mercy encompasses all things' (7:156), and He tells those who have wronged themselves not to despair of His mercy (39:53). In a hadith qudsi Allah says, 'I am just as My slave thinks I am' (Sahih al-Bukhari 7405). In another, He says that if you came to Him with sins nearly as great as the earth, without associating anything with Him, He would meet you with forgiveness nearly as great (Jami at-Tirmidhi 3540, graded hasan). For every talk you hear about punishment, listen to one about mercy. Bring anxious questions to a teacher rather than a search engine late at night.",
+    "readMore": {
+      "label": "Core beliefs: the afterlife and accountability",
+      "href": "/topics/beliefs"
+    },
+    "sourceIds": [
+      "quran-7-156",
+      "sunnah-bukhari-7405",
+      "sunnah-tirmidhi-3540",
+      "quran-39-53-mercy"
+    ],
+    "reviewStatus": "review-needed"
   }
 ]
