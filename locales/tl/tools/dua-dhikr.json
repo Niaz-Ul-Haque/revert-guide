@@ -13,7 +13,9 @@
           "transliteration": "SubhanAllah",
           "meaning": "Luwalhati sa Allah.",
           "note": "Isang maikling pag-alaala na ibinabalik ang puso mo sa Allah. Kapaki-pakinabang kapag lumilipad ang isip mo.",
-          "sourceIds": ["sunnah-muslim-after-prayer-dhikr"]
+          "sourceIds": [
+            "sunnah-muslim-after-prayer-dhikr"
+          ]
         },
         {
           "title": "Alhamdulillah",
@@ -23,7 +25,9 @@
           "transliteration": "Alhamdulillah",
           "meaning": "Sa Allah ang lahat ng papuri.",
           "note": "Gamitin ito kapag napansin mo ang isang biyaya, malaki man o maliit.",
-          "sourceIds": ["sunnah-muslim-after-prayer-dhikr"]
+          "sourceIds": [
+            "sunnah-muslim-after-prayer-dhikr"
+          ]
         },
         {
           "title": "Allahu Akbar",
@@ -33,7 +37,9 @@
           "transliteration": "Allahu akbar",
           "meaning": "Ang Allah ay Pinakadakila.",
           "note": "Ibinabalik sa tamang sukat ng pagsabi nito ang mga alalahanin mo, at kung sinuman ang ikinababahala mo.",
-          "sourceIds": ["sunnah-muslim-after-prayer-dhikr"]
+          "sourceIds": [
+            "sunnah-muslim-after-prayer-dhikr"
+          ]
         },
         {
           "title": "La ilaha illa Allah (walang diyos maliban sa Allah)",
@@ -43,15 +49,56 @@
           "transliteration": "La ilaha illa Allah",
           "meaning": "Walang diyos na karapat-dapat sambahin maliban sa Allah.",
           "note": "Ito ang puso ng paniniwala ng Islam. Sabihin ito nang may pansin, hindi bilang ingay sa likod.",
-          "sourceIds": ["sunnah-muslim-after-prayer-dhikr"]
+          "sourceIds": [
+            "sunnah-muslim-after-prayer-dhikr"
+          ]
         }
       ]
     },
     {
       "id": "before-after-prayer",
       "title": "Bago at pagkatapos magdasal",
-      "intro": "Nasa loob na ng pagdarasal ang mga duang pinakakailangan ng baguhan. Kapag natapos ka, umupo nang saglit kasama ang isang maikling dhikr bago tumayo.",
+      "intro": "Nasa loob na ng pagdarasal ang mga dua na pinakakailangan ng nagsisimula. Bago ito, puwede mong sagutin ang panawagan sa pagdarasal. Pagkatapos mo, umupo sandali para sa maikling dhikr bago ka tumayo.",
       "entries": [
+        {
+          "title": "Ang panawagan sa pagdarasal (adhan)",
+          "kind": "Dhikr",
+          "occasion": "Bago ang bawat isa sa limang pagdarasal",
+          "arabic": "اللَّهُ أَكْبَرُ اللَّهُ أَكْبَرُ، اللَّهُ أَكْبَرُ اللَّهُ أَكْبَرُ\nأَشْهَدُ أَنْ لَا إِلَٰهَ إِلَّا اللَّهُ، أَشْهَدُ أَنْ لَا إِلَٰهَ إِلَّا اللَّهُ\nأَشْهَدُ أَنَّ مُحَمَّدًا رَسُولُ اللَّهِ، أَشْهَدُ أَنَّ مُحَمَّدًا رَسُولُ اللَّهِ\nحَيَّ عَلَى الصَّلَاةِ، حَيَّ عَلَى الصَّلَاةِ\nحَيَّ عَلَى الْفَلَاحِ، حَيَّ عَلَى الْفَلَاحِ\nاللَّهُ أَكْبَرُ اللَّهُ أَكْبَرُ\nلَا إِلَٰهَ إِلَّا اللَّهُ",
+          "transliteration": "Allahu akbar (four times). Ash-hadu an la ilaha illallah (twice). Ash-hadu anna Muhammadan rasulullah (twice). Hayya 'alas-salah (twice). Hayya 'alal-falah (twice). Allahu akbar (twice). La ilaha illallah.",
+          "meaning": "Ang Allah ang Pinakadakila. Sumasaksi ako na walang diyos maliban sa Allah. Sumasaksi ako na si Muhammad ay Sugo ng Allah. Halina sa pagdarasal. Halina sa tagumpay. Ang Allah ang Pinakadakila. Walang diyos maliban sa Allah.",
+          "note": "Ito ang pananalitang itinuro kay Abdullah ibn Zayd at inaprubahan ng Propeta (Sunan Abi Dawud 499, graded Hasan Sahih ni al-Albani). Ang iqama ay ang mas maikling panawagan na sinasabi bago mismo magsimula ang pagdarasal: parehong mga parirala, na karamihan ay sinasabi nang isang beses, at idinadagdag ang 'Qad qamatis-salah' (nagsimula na ang pagdarasal). Hindi binabago ng maliliit na pagkakaiba sa pananalita sa pagitan ng mga komunidad ang sagot mo.",
+          "sourceIds": [
+            "sunnah-abudawud-499"
+          ]
+        },
+        {
+          "title": "Pagsagot sa adhan",
+          "kind": "Pag-alaala (dhikr)",
+          "occasion": "Habang naririnig mo ang adhan",
+          "arabic": "لَا حَوْلَ وَلَا قُوَّةَ إِلَّا بِاللَّهِ",
+          "transliteration": "La hawla wa la quwwata illa billah",
+          "meaning": "Walang lakas at walang kapangyarihan maliban sa Allah.",
+          "note": "Ulitin nang mahina ang bawat parirala pagkatapos ng tumatawag. Sa 'Hayya 'alas-salah' at 'Hayya 'alal-falah', ang linyang ito ang sabihin sa halip (Sahih Muslim 385). May gantimpala ang pagsagot, pero hindi ito kondisyon ng pagdarasal mo, at hindi mo kailangang itigil ang lahat o gawin itong perpekto. Hindi mo rin kailangang magdasal sa mismong sandaling matapos ang adhan: bilang ang anumang oras sa loob ng saklaw na oras ng pagdarasal.",
+          "sourceIds": [
+            "sunnah-muslim-385",
+            "sunnah-muslim-384"
+          ]
+        },
+        {
+          "title": "Dua pagkatapos ng adhan",
+          "kind": "Dua mula sa hadith",
+          "occasion": "Kapag natapos ang adhan",
+          "arabic": "اللَّهُمَّ رَبَّ هَذِهِ الدَّعْوَةِ التَّامَّةِ وَالصَّلَاةِ الْقَائِمَةِ\nآتِ مُحَمَّدًا الْوَسِيلَةَ وَالْفَضِيلَةَ\nوَابْعَثْهُ مَقَامًا مَحْمُودًا الَّذِي وَعَدْتَهُ",
+          "transliteration": "Allahumma Rabba hadhihid-da'watit-tammah, was-salatil-qa'imah, ati Muhammadanil-wasilata wal-fadilah, wab'athhu maqaman mahmudanil-ladhi wa'adtah.",
+          "meaning": "O Allah, Panginoon ng ganap na panawagang ito at ng pagdarasal na magsisimula na, ipagkaloob Mo kay Muhammad ang lugar ng pagiging malapit at ang natatanging antas, at itaas Mo siya sa kapuri-puring kalagayan na Iyong ipinangako sa kanya.",
+          "note": "Magpadala muna ng pagpapala sa Propeta, pagkatapos ay sabihin ang dua na ito (Sahih Muslim 384; Sahih al-Bukhari 614). Sa Biyernes, hudyat din ang panawagan na iwan ang negosyo at pumunta sa pagdarasal (Quran 62:9).",
+          "sourceIds": [
+            "sunnah-bukhari-614",
+            "sunnah-muslim-384",
+            "quran-62-9-friday-call"
+          ]
+        },
         {
           "title": "Patnubay mula sa Al-Fatiha",
           "kind": "Dua mula sa Quran",
@@ -60,17 +107,33 @@
           "transliteration": "Ihdinas-siratal-mustaqim",
           "meaning": "Gabayan Mo kami sa tuwid na landas.",
           "note": "Sinasabi mo ito sa bawat rak'ah. Kung isang linya ng pagdarasal ang uunahin mong alamin ang kahulugan, gawing ito iyon.",
-          "sourceIds": ["quran-al-fatihah-1"]
+          "sourceIds": [
+            "quran-al-fatihah-1"
+          ]
+        },
+        {
+          "title": "Mga unang salita pagkatapos ng salam",
+          "kind": "Dua mula sa hadith",
+          "occasion": "Kaagad pagkatapos ng salam",
+          "arabic": "أَسْتَغْفِرُ اللَّهَ\nاللَّهُمَّ أَنْتَ السَّلَامُ وَمِنْكَ السَّلَامُ\nتَبَارَكْتَ يَا ذَا الْجَلَالِ وَالْإِكْرَامِ",
+          "transliteration": "Astaghfirullah (three times). Allahumma antas-salam wa minkas-salam, tabarakta ya dhal-jalali wal-ikram.",
+          "meaning": "Humihingi ako ng kapatawaran sa Allah. O Allah, Ikaw ang Kapayapaan at mula sa Iyo ang kapayapaan. Pinagpala Ka, May-ari ng kamahalan at karangalan.",
+          "note": "Sinasabi ito ng Propeta pagkatapos na pagkatapos niyang magdasal (Sahih Muslim 591). Ito ang naririnig mong ibinubulong ng mga tao bago magsimula ang pagbibilang. Dumarating ito pagkatapos ng pagdarasal at hindi bahagi nito, kaya magsimula sa maliit.",
+          "sourceIds": [
+            "sunnah-muslim-591"
+          ]
         },
         {
           "title": "Ayos ng dhikr pagkatapos magdasal",
-          "kind": "Pag-alaala (dhikr)",
+          "kind": "Dhikr",
           "occasion": "Pagkatapos ng obligadong pagdarasal",
           "arabic": "سُبْحَانَ اللَّهِ\nالْحَمْدُ لِلَّهِ\nاللَّهُ أَكْبَرُ",
           "transliteration": "SubhanAllah. Alhamdulillah. Allahu akbar.",
           "meaning": "Luwalhatiin ang Allah, purihin ang Allah, at ipahayag ang kadakilaan ng Allah.",
           "note": "Inuulit ito ng maraming Muslim pagkatapos ng bawat pagdarasal. Magsimula sa ilan sa bawat isa at matutuhan ang buong bilang sa kalaunan.",
-          "sourceIds": ["sunnah-muslim-after-prayer-dhikr"]
+          "sourceIds": [
+            "sunnah-muslim-after-prayer-dhikr"
+          ]
         }
       ]
     },
@@ -87,7 +150,9 @@
           "transliteration": "Rabbana la tuzigh qulubana ba'da idh hadaytana wa hab lana min ladunka rahmah",
           "meaning": "Aming Panginoon, huwag Mong hayaang lumihis ang aming mga puso matapos Mo kaming gabayan, at pagkalooban Mo kami ng awa mula sa Iyo.",
           "note": "Isang dua mula sa Quran para sa mga araw na natatakot kang madulas o maligaw.",
-          "sourceIds": ["quran-3-8-steadfastness"]
+          "sourceIds": [
+            "quran-3-8-steadfastness"
+          ]
         },
         {
           "title": "Kabutihan sa buhay na ito at sa kabilang buhay",
@@ -97,14 +162,16 @@
           "transliteration": "Rabbana atina fid-dunya hasanah wa fil-akhirati hasanah wa qina 'adhaban-nar",
           "meaning": "Aming Panginoon, bigyan Mo kami ng kabutihan sa mundong ito at sa Kabilang Buhay, at iligtas Mo kami mula sa Apoy.",
           "note": "Isang maikling dua mula sa Quran na humihingi ng kabutihan sa buhay na ginagalawan mo ngayon at kabutihan sa buhay na susunod.",
-          "sourceIds": ["quran-2-201-rabbana-atina"]
+          "sourceIds": [
+            "quran-2-201-rabbana-atina"
+          ]
         }
       ]
     },
     {
       "id": "anxious-overwhelmed",
       "title": "Kapag balisa o nabibigatan ka",
-      "intro": "Nagdadala ng tunay na ginhawa ang dua at dhikr. Hindi sila kapalit ng tulong kapag nasa krisis ka, iniisip mong saktan ang sarili mo, inaabuso ka, o hindi mo na kayang lampasan ang araw.",
+      "intro": "Nagdudulot ng tunay na ginhawa ang dua at dhikr. Hindi pamalit ang mga ito sa tulong kapag nasa krisis ka, may iniisip na saktan ang sarili, inaabuso, o hindi makaraos sa araw. Kung paulit-ulit kang hinihila ng pag-aalala na ulitin ang wudu o pagdarasal, may seksyon tungkol sa mga pag-aalinlangang hindi tumitigil ang pahina ng wudu, at nakalista sa pahina tungkol sa kalusugan ng isip kung saan makakakuha ng tulong.",
       "entries": [
         {
           "title": "Para sa pagkabalisa at dalamhati",
@@ -114,7 +181,10 @@
           "transliteration": "Allahumma inni a'udhu bika minal-hammi wal-huzn, wal-'ajzi wal-kasal, wal-bukhli wal-jubn, wa dala'id-dayn wa ghalabatir-rijal",
           "meaning": "O Allah, humihingi ako ng kanlungan sa Iyo mula sa alalahanin, dalamhati, kawalang-kakayahan, katamaran, pagkakuripot, karuwagan, mabigat na utang, at pagkadaig ng iba.",
           "note": "Sabihin ito, at gawin din ang praktikal na hakbang sa harap mo: tumawag, magpatingin sa doktor, magsabi sa isang tao.",
-          "sourceIds": ["sunnah-bukhari-anxiety-grief", "988-canada"]
+          "sourceIds": [
+            "sunnah-bukhari-anxiety-grief",
+            "988-canada"
+          ]
         },
         {
           "title": "Pagtitiis at matatag na hakbang",
@@ -124,7 +194,9 @@
           "transliteration": "Rabbana afrigh 'alayna sabran wa thabbit aqdamana",
           "meaning": "Aming Panginoon, ibuhos Mo sa amin ang pagtitiis at patatagin Mo ang aming mga hakbang.",
           "note": "Isang dua mula sa Quran para sa sandali bago ang isang mahirap na bagay, kapag kailangan mo ng pagtitiis at tapang nang sabay.",
-          "sourceIds": ["quran-2-250-patience"]
+          "sourceIds": [
+            "quran-2-250-patience"
+          ]
         }
       ]
     },
@@ -141,7 +213,9 @@
           "transliteration": "Allahumma anta Rabbi la ilaha illa ant, khalaqtani wa ana 'abduk, wa ana 'ala 'ahdika wa wa'dika mastata't...",
           "meaning": "O Allah, Ikaw ang aking Panginoon. Inaamin ko ang Iyong mga biyaya at ang aking mga kasalanan, kaya patawarin Mo ako, dahil walang nagpapatawad ng mga kasalanan maliban sa Iyo.",
           "note": "Mas mahaba ito kaysa pariralang pansimula. Pag-aralan ito nang isang linya sa bawat pagkakataon at panatilihing nasa harap mo ang kahulugan habang ginagawa mo ito.",
-          "sourceIds": ["sunnah-bukhari-sayyid-istighfar"]
+          "sourceIds": [
+            "sunnah-bukhari-sayyid-istighfar"
+          ]
         },
         {
           "title": "Kapatawaran at awa",
@@ -151,7 +225,9 @@
           "transliteration": "Rabbana amanna faghfir lana warhamna wa anta khayrur-rahimin",
           "meaning": "Aming Panginoon, kami ay naniwala, kaya patawarin Mo kami at kaawaan Mo kami; Ikaw ang pinakamabuti sa mga nagpapakita ng awa.",
           "note": "Isang maikling dua mula sa Quran na pinagsasama sa iisang pangungusap ang pananampalataya, kapatawaran at awa.",
-          "sourceIds": ["quran-23-109-forgiveness"]
+          "sourceIds": [
+            "quran-23-109-forgiveness"
+          ]
         }
       ]
     },
@@ -168,7 +244,9 @@
           "transliteration": "Rabbi ishrah li sadri. Wa yassir li amri. Wahlul 'uqdatan min lisani. Yafqahu qawli.",
           "meaning": "Panginoon ko, buksan Mo ang aking puso, padaliin Mo ang aking gawain, kalagin Mo ang buhol sa aking dila, at hayaan Mong maunawaan ang aking mga salita.",
           "note": "Ito ang dua ni Propeta Musa, sumakanya nawa ang kapayapaan. Maraming bagong Muslim ang nagsasabi nito bago ang isang usapang kinatatakutan nila.",
-          "sourceIds": ["quran-20-25-28-musa-ease"]
+          "sourceIds": [
+            "quran-20-25-28-musa-ease"
+          ]
         },
         {
           "title": "Kapaki-pakinabang na kaalaman",
@@ -178,7 +256,9 @@
           "transliteration": "Allahumma inni as'aluka 'ilman nafi'a, wa rizqan tayyiba, wa 'amalan mutaqabbala",
           "meaning": "O Allah, hinihingi ko sa Iyo ang kapaki-pakinabang na kaalaman, mabuting kabuhayan, at mga gawang tinatanggap.",
           "note": "Kapaki-pakinabang bago ang isang klase tungkol sa Islam, at gayundin bago ang trabaho, paaralan o pag-aaral ng isang kasanayan.",
-          "sourceIds": ["sunnah-ibnmajah-beneficial-knowledge"]
+          "sourceIds": [
+            "sunnah-ibnmajah-beneficial-knowledge"
+          ]
         }
       ]
     },
@@ -193,9 +273,255 @@
           "occasion": "Anumang oras sa labas ng takdang bibigkasin sa pagdarasal",
           "meaning": "Halimbawa: O Allah, gabayan Mo ako, patawarin Mo ako, padaliin Mo para sa akin ang pagdarasal, at maglagay Ka ng mabubuting tao sa buhay ko.",
           "note": "Personal na pananalita ito, hindi duang ipinasa mula sa tradisyon. Hingin sa Allah ang kailangan mo, sa sarili mong wika, sa sarili mong salita.",
-          "sourceIds": ["quran-2-186-dua-nearness"]
+          "sourceIds": [
+            "quran-2-186-dua-nearness"
+          ]
         }
       ]
     }
-  ]
+  ],
+  "phrases": {
+    "id": "everyday-phrases",
+    "title": "Mga pang-araw-araw na parirala: ang kahulugan at paano sumagot",
+    "intro": "Gagamitin ng mga Muslim sa paligid mo ang maiikling pariralang Arabic na ito sa karaniwang usapan. Ibinibigay ng bawat card ang kahulugan, kung kailan ito sinasabi ng mga tao, at ang sagot kung mayroon. Kapag karaniwang paggalang ang sagot at hindi pananalita mula sa hadith, sinasabi iyon ng card.",
+    "tips": [
+      "Matuto ng tatlo ngayong linggo: ang pagbati at ang sagot nito, Bismillah, at Jazak Allahu khayran.",
+      "Idagdag sunod ang sagot sa pagbahing at ang inna lillahi. May kasama itong takdang sagot o maselang sandali.",
+      "Kung makalimutan mo ang Arabic, sabihin ang kahulugan sa Filipino. Mabait at tama pa rin itong sabihin.",
+      "I-print ang pahinang ito o panatilihin itong bukas sa phone mo hanggang maging natural na sa iyo ang mga parirala."
+    ],
+    "entries": [
+      {
+        "phrase": "As-salamu alaykum",
+        "arabic": "السَّلَامُ عَلَيْكُمْ",
+        "meaning": "Sumainyo nawa ang kapayapaan.",
+        "when": "Kapag nakakilala ka ng Muslim, dumating sa masjid, pumasok sa bahay o nagsimula ng tawag sa telepono.",
+        "reply": "Wa alaykum as-salam (at sumainyo rin nawa ang kapayapaan). Puwede mong idagdag ang wa rahmatullahi wa barakatuh (at ang awa ng Allah at ang Kanyang mga pagpapala).",
+        "replySource": "text",
+        "note": "Hinihiling ng Quran na sagutin mo ang pagbati ng mas mabuti o kahit man lang ng katulad. Nagbibigay ang isang hadith sa Abu Dawud ng mas malaking gantimpala para sa bawat mas buong anyo.",
+        "sourceIds": [
+          "quran-4-86",
+          "sunnah-abudawud-5195"
+        ]
+      },
+      {
+        "phrase": "Bismillah",
+        "arabic": "بِسْمِ اللَّهِ",
+        "meaning": "Sa ngalan ng Allah.",
+        "when": "Bago kumain, bago mag-wudu, at bago magsimula ng isang gawain.",
+        "note": "Sinabihan ng Propeta ang isang batang lalaki sa hapag niya na banggitin ang pangalan ng Allah bago kumain.",
+        "sourceIds": [
+          "sunnah-bukhari-5376"
+        ]
+      },
+      {
+        "phrase": "In sha Allah",
+        "arabic": "إِنْ شَاءَ اللَّهُ",
+        "meaning": "Kung loloobin ng Allah.",
+        "when": "Kapag nagsasalita ka tungkol sa isang bagay na balak mong gawin: \"Kita tayo bukas, in sha Allah.\"",
+        "note": "Itinuturo ito ng Quran para sa mga plano. Inirerekomenda ito, hindi obligado, at kung makalimutan mo, puwede mo itong sabihin kapag naalala mo. Ginagamit ito ng ilang tao bilang malambot na \"baka\". Nakagawian iyon, hindi ang kahulugan nito, kaya sabihin ito kapag talagang balak mong gawin ang bagay.",
+        "sourceIds": [
+          "quran-18-23-24",
+          "seekersguidance-etiquette-in-sha-allah"
+        ]
+      },
+      {
+        "phrase": "Ma sha Allah",
+        "arabic": "مَا شَاءَ اللَّهُ",
+        "meaning": "Ito ang niloob ng Allah.",
+        "when": "Kapag nakakita o nakarinig ka ng isang mabuting bagay: bagong sanggol, bagong bahay, pag-unlad ng isang tao.",
+        "note": "Galing ang mga salita sa Quran 18:39, na nagpapatuloy: la quwwata illa billah (walang kapangyarihan maliban sa Allah). Para sa masamang balita, inna lillahi ang gamitin sa halip.",
+        "sourceIds": [
+          "quran-18-39"
+        ]
+      },
+      {
+        "phrase": "Alhamdulillah",
+        "arabic": "الْحَمْدُ لِلَّهِ",
+        "meaning": "Sa Allah ang lahat ng papuri.",
+        "when": "Para magpasalamat, para sagutin ang \"Kumusta ka?\", at pagkatapos mong bumahing.",
+        "sourceIds": [
+          "sunnah-muslim-after-prayer-dhikr",
+          "sunnah-bukhari-6224"
+        ]
+      },
+      {
+        "phrase": "SubhanAllah",
+        "arabic": "سُبْحَانَ اللَّهِ",
+        "meaning": "Luwalhati sa Allah.",
+        "when": "Bilang pag-alaala anumang oras, kasama pagkatapos ng pagdarasal. Marami ring nagsasabi nito kapag may bagay na nakapagpamangha sa kanila.",
+        "sourceIds": [
+          "sunnah-muslim-after-prayer-dhikr"
+        ]
+      },
+      {
+        "phrase": "Astaghfirullah",
+        "arabic": "أَسْتَغْفِرُ اللَّهَ",
+        "meaning": "Humihingi ako ng kapatawaran sa Allah.",
+        "when": "Pagkatapos ng pagkakamali, kapag napagtanto mong may nagawa kang mali, o bilang pang-araw-araw na pag-alaala.",
+        "note": "Humihingi ng kapatawaran ang Propeta nang higit sa pitumpung beses bawat araw, kaya normal na gawi ang pagsasabi nito, hindi pag-amin sa isang kakila-kilabot na bagay.",
+        "sourceIds": [
+          "sunnah-bukhari-6307"
+        ]
+      },
+      {
+        "phrase": "Jazak Allahu khayran",
+        "arabic": "جَزَاكَ اللَّهُ خَيْرًا",
+        "meaning": "Gantimpalaan ka nawa ng Allah ng kabutihan.",
+        "when": "Para pasalamatan ang taong tumulong sa iyo o gumawa ng pabor para sa iyo.",
+        "reply": "Wa iyyak o wa iyyakum (at ikaw rin), o wa antum fa jazakumullahu khayran (at gantimpalaan ka rin nawa ng Allah).",
+        "replySource": "custom",
+        "note": "Tinatawag ng isang hadith sa at-Tirmidhi ang mga salitang ito na pinakabuong paraan ng pagpapasalamat sa isang tao. Graded hasan ito.",
+        "sourceIds": [
+          "sunnah-tirmidhi-2035"
+        ]
+      },
+      {
+        "phrase": "Barak Allahu fik",
+        "arabic": "بَارَكَ اللَّهُ فِيكَ",
+        "meaning": "Pagpalain ka nawa ng Allah.",
+        "when": "Para pasalamatan o palakasin ang loob ng isang tao.",
+        "reply": "Wa fik (at ikaw rin).",
+        "replySource": "custom",
+        "note": "Malapit ang mga salita sa pagpapalang ibinibigay ng Propeta sa mga kasalan (tingnan ang card tungkol sa kasal sa ibaba). Karaniwang paggalang ang maikling sagot.",
+        "sourceIds": [
+          "sunnah-abudawud-2130"
+        ]
+      },
+      {
+        "phrase": "Yarhamuk Allah (pagkatapos ng pagbahing)",
+        "arabic": "يَرْحَمُكَ اللَّهُ",
+        "meaning": "Kaawaan ka nawa ng Allah.",
+        "when": "Kapag may bumahing malapit sa iyo at nagsabi ng Alhamdulillah.",
+        "reply": "Sumasagot ang bumahing: Yahdikumullah wa yuslihu balakum (gabayan ka nawa ng Allah at ayusin ang iyong mga kalagayan).",
+        "replySource": "text",
+        "note": "Galing ang tatlong linya sa iisang hadith sa Sahih al-Bukhari.",
+        "sourceIds": [
+          "sunnah-bukhari-6224"
+        ]
+      },
+      {
+        "phrase": "Ameen",
+        "arabic": "آمِين",
+        "meaning": "O Allah, tugunin Mo.",
+        "when": "Pagkatapos mag-dua ng isang tao, at sa sama-samang pagdarasal kapag natapos ng imam ang Al-Fatihah at nagsabi ng Ameen.",
+        "note": "May dalawang hadith sa Sahih al-Bukhari at Sahih Muslim na nagsasabi sa mga nagdarasal sa likod ng imam na sabihin ang Ameen kapag sinabi niya ito. Kung may tanong ka tungkol sa pagsasabi nito sa sarili mong pagdarasal, magtanong sa isang guro.",
+        "sourceIds": [
+          "sunnah-bukhari-780",
+          "sunnah-muslim-410a"
+        ]
+      },
+      {
+        "phrase": "Inna lillahi wa inna ilayhi raji'un",
+        "arabic": "إِنَّا لِلَّهِ وَإِنَّا إِلَيْهِ رَاجِعُونَ",
+        "meaning": "Tunay na sa Allah kami nabibilang at sa Kanya kami magbabalik.",
+        "when": "Kapag nakarinig ka ng balita ng kamatayan o anumang pagkawala, malaki man o maliit.",
+        "note": "Galing ang mga salita sa Quran 2:156. Nagdaragdag ang isang hadith sa Sahih Muslim ng maikling dua: Allahumma'jurni fi musibati wa akhlif li khayran minha (O Allah, gantimpalaan Mo ako sa aking pagkawala at bigyan Mo ako ng mas mabuti).",
+        "sourceIds": [
+          "quran-2-156",
+          "sunnah-muslim-918a"
+        ]
+      },
+      {
+        "phrase": "Inna lillahi ma akhadha (pag-aliw sa nagdadalamhati)",
+        "arabic": "إِنَّ لِلَّهِ مَا أَخَذَ وَلَهُ مَا أَعْطَى",
+        "meaning": "Sa Allah ang Kanyang kinukuha, at sa Kanya ang Kanyang ibinibigay. Lahat ng nasa Kanya ay may takdang oras.",
+        "when": "Para aliwin ang isang tao pagkatapos ng kamatayan.",
+        "note": "Ipinadala ng Propeta ang mga salitang ito sa anak niyang babae nang naghihingalo ang anak nito, kasama ang payong magtiis at umasa sa gantimpala. Umiyak siya mismo, at tinawag niyang awa ang mga luha niya. Tama rin ang pagsasabing \"Nakikiramay ako\" at ang pag-upo kasama ang pamilya.",
+        "sourceIds": [
+          "sunnah-bukhari-1284"
+        ]
+      },
+      {
+        "phrase": "La ba's, tahurun in sha Allah (pagdalaw sa may sakit)",
+        "arabic": "لَا بَأْسَ طَهُورٌ إِنْ شَاءَ اللَّهُ",
+        "meaning": "Walang masama, ito ay paglilinis, kung loloobin ng Allah. Literal na salin ito; ganito ang salin ng Sunnah.com: \"Walang masamang mangyayari sa iyo! Pagalingin ka nawa ng Allah!\"",
+        "when": "Kapag dinadalaw mo ang isang taong may sakit.",
+        "sourceIds": [
+          "sunnah-bukhari-3616"
+        ]
+      },
+      {
+        "phrase": "Astawdi'ullaha dinaka (pagpapaalam sa naglalakbay)",
+        "arabic": "أَسْتَوْدِعُ اللَّهَ دِينَكَ وَأَمَانَتَكَ وَخَوَاتِيمَ عَمَلِكَ",
+        "meaning": "Ipinagkakatiwala ko sa Allah ang iyong relihiyon, ang mga ipinagkatiwala sa iyo, at ang huli sa iyong mga gawa.",
+        "when": "Kapag may aalis para maglakbay.",
+        "note": "Ang buong parirala ay Astawdi'ullaha dinaka wa amanataka wa khawatima 'amalik. Iniuulat ng isang hadith sa at-Tirmidhi, graded hasan, na sinabi ito ng Propeta.",
+        "sourceIds": [
+          "sunnah-tirmidhi-3443"
+        ]
+      },
+      {
+        "phrase": "Barak Allahu laka wa baraka 'alayka (sa kasalan)",
+        "arabic": "بَارَكَ اللَّهُ لَكَ وَبَارَكَ عَلَيْكَ وَجَمَعَ بَيْنَكُمَا فِي خَيْرٍ",
+        "meaning": "Pagpalain ka nawa ng Allah, magpadala Siya ng pagpapala sa iyo, at pagsamahin kayong dalawa sa kabutihan.",
+        "when": "Para batiin ang isang taong kakakasal lang.",
+        "note": "Nagtatapos ang buong parirala sa wa jama'a baynakuma fi khayr. Ito mismo ang pagbati ng Propeta, sa isang hadith sa Abu Dawud na graded sahih.",
+        "sourceIds": [
+          "sunnah-abudawud-2130"
+        ]
+      },
+      {
+        "phrase": "Eid mubarak, o Taqabbal Allahu minna wa minkum",
+        "arabic": "تَقَبَّلَ اللَّهُ مِنَّا وَمِنْكُمْ",
+        "meaning": "Pinagpalang Eid. Tanggapin nawa ng Allah mula sa amin at mula sa inyo.",
+        "when": "Sa mga araw ng Eid.",
+        "reply": "Ang parehong mga salita pabalik, o Eid mubarak.",
+        "replySource": "custom",
+        "note": "Binabati ng mga Kasamahan ang isa't isa sa Eid ng \"Tanggapin nawa ng Allah mula sa amin at mula sa inyo\", at ayos ang anumang mabuting pagbati, kasama ang Eid mubarak. Sinasabi rin ng mga tao ang taqabbal Allah (tanggapin nawa ng Allah) pagkatapos magdasal, mag-ayuno o magbigay ng kawanggawa ang isang tao, bilang mabuting hiling.",
+        "sourceIds": [
+          "islamqa-36442-eid-etiquette"
+        ]
+      },
+      {
+        "phrase": "Sallallahu 'alayhi wa sallam",
+        "arabic": "صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ",
+        "meaning": "Magpadala nawa ang Allah ng pagpapala at kapayapaan sa kanya. Sa Filipino, \"sumakanya nawa ang kapayapaan\".",
+        "when": "Kapag sinasabi, naririnig o nababasa mo ang pangalan ni Propeta Muhammad.",
+        "note": "Sinasabi ng Quran sa mga mananampalataya na magpadala ng pagpapala at kapayapaan sa Propeta. Ipinapaliwanag ng pahina ng mga tanong at sagot ang maiikling anyo gaya ng SAW at PBUH.",
+        "sourceIds": [
+          "quran-33-56",
+          "sunnah-tirmidhi-3546"
+        ]
+      }
+    ],
+    "otherWords": {
+      "title": "Mga salitang maaari mong marinig mula sa ibang wika",
+      "intro": "Maraming Muslim sa Canada ang lumaking nagsasalita ng Urdu, Bengali, Persian, Turkish o Arabic sa bahay, at may ilang pang-araw-araw na salitang nadadala. Hindi ito mga terminong panrelihiyon, at walang umaasang gagamitin mo ang mga ito.",
+      "items": [
+        {
+          "word": "Namaz",
+          "meaning": "ang pagdarasal (salah), sa Persian, Urdu, Turkish at Bengali"
+        },
+        {
+          "word": "Roza",
+          "meaning": "isang ayuno (sawm), sa Persian at Urdu"
+        },
+        {
+          "word": "Abbu o abi",
+          "meaning": "tatay"
+        },
+        {
+          "word": "Ammi",
+          "meaning": "nanay, sa Urdu at iba pang wika sa Timog Asya"
+        },
+        {
+          "word": "Akhi",
+          "meaning": "kapatid kong lalaki, sa Arabic, magiliw na salita sa pagitan ng kalalakihan"
+        },
+        {
+          "word": "Ukhti",
+          "meaning": "kapatid kong babae, sa Arabic, magiliw na salita sa pagitan ng kababaihan"
+        },
+        {
+          "word": "Habibi",
+          "meaning": "mahal ko, sa Arabic (habibti para sa babae), pang-araw-araw na paglalambing"
+        },
+        {
+          "word": "Bhai",
+          "meaning": "kapatid na lalaki, sa Urdu, Hindi at Bengali, na madalas idinudugtong pagkatapos ng pangalan"
+        }
+      ]
+    }
+  }
 }

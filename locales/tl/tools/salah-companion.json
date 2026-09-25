@@ -5,21 +5,28 @@
       "posture": "Bago ang pagdarasal",
       "body": "Mag-wudu, humanap ng malinis na lugar, humarap sa qibla, at itakda sa puso mo kung aling pagdarasal ito. Hindi mo kailangang sabihin nang malakas ang intensyon.",
       "icon": "check",
-      "sourceIds": ["new-muslim-guide-prayer"]
+      "sourceIds": [
+        "new-muslim-guide-prayer"
+      ]
     },
     {
       "title": "Magsimula nang nakatayo",
       "posture": "Pambungad na takbir",
       "body": "Itaas ang mga kamay at sabihin ang Allahu akbar. Iyon ang nagbubukas ng pagdarasal, at mula roon ay lumabas ka na sa karaniwang usapan at pumasok sa pagsamba.",
       "icon": "star",
-      "sourceIds": ["new-muslim-guide-prayer"]
+      "sourceIds": [
+        "new-muslim-guide-prayer"
+      ]
     },
     {
       "title": "Bumigkas sa unang rak'ah",
       "posture": "Pagtayo",
       "body": "Bigkasin ang Al-Fatihah, saka isang maikling surah o ang ilang talatang pinag-aaralan mo. Kung hindi ka pa makabigkas, ipinapaliwanag ng seksyong 'Kung hindi ka pa makabigkas ng Arabic' sa ibaba ang pinapayagan ng mga mazhab (paaralan ng fiqh) sa pansamantala.",
       "icon": "book",
-      "sourceIds": ["quran-al-fatihah-1", "quran-al-ikhlas-112"]
+      "sourceIds": [
+        "quran-al-fatihah-1",
+        "quran-al-ikhlas-112"
+      ]
     },
     {
       "title": "Yumuko at tumayo",
@@ -48,7 +55,9 @@
       "posture": "Ikalawang yunit",
       "body": "Tumayo ulit at ulitin ang parehong mga galaw: Al-Fatiha, maikling pagbigkas, ruku, pagtayo ulit, saka dalawang pagpapatirapa.",
       "icon": "chevron-right",
-      "sourceIds": ["new-muslim-guide-prayer"]
+      "sourceIds": [
+        "new-muslim-guide-prayer"
+      ]
     },
     {
       "title": "Umupo para sa huling mga salita",
@@ -65,7 +74,9 @@
       "posture": "Taslim",
       "body": "Lumingon sa kanan, saka sa kaliwa, habang ibinibigay ang pagbati ng kapayapaan sa bawat pagkakataon. Doon natatapos ang pagdarasal. Umupo nang saglit bago tumayo at bumalik sa araw mo.",
       "icon": "star",
-      "sourceIds": ["sunnah-abudawud-taslim"]
+      "sourceIds": [
+        "sunnah-abudawud-taslim"
+      ]
     }
   ],
   "recitations": [
@@ -76,7 +87,9 @@
       "transliteration": "Allahu akbar",
       "meaning": "Ang Allah ay Pinakadakila.",
       "beginnerNote": "Ito ang unang pariralang pag-aaralan. Sabihin ito nang malinaw at hindi nagmamadali. Kusang gaganda ang punto mo.",
-      "sourceIds": ["new-muslim-guide-prayer"]
+      "sourceIds": [
+        "new-muslim-guide-prayer"
+      ]
     },
     {
       "title": "Al-Fatiha",
@@ -84,8 +97,12 @@
       "arabic": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ\nالْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينَ\nالرَّحْمَٰنِ الرَّحِيمِ\nمَالِكِ يَوْمِ الدِّينِ\nإِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ\nاهْدِنَا الصِّرَاطَ الْمُسْتَقِيمَ\nصِرَاطَ الَّذِينَ أَنْعَمْتَ عَلَيْهِمْ غَيْرِ الْمَغْضُوبِ عَلَيْهِمْ وَلَا الضَّالِّينَ",
       "transliteration": "Bismillahir-Rahmanir-Rahim. Alhamdu lillahi Rabbil-'alamin. Ar-Rahmanir-Rahim. Maliki yawmid-din. Iyyaka na'budu wa iyyaka nasta'in. Ihdinas-siratal-mustaqim. Siratal-ladhina an'amta 'alayhim ghayril-maghdubi 'alayhim wa lad-dallin.",
       "meaning": "Salin ng kahulugan: sa Allah ang papuri, pagsamba at tulong, at hinihiling namin sa Kanya na gabayan kami sa tuwid na landas.",
-      "beginnerNote": "Ang Al-Fatiha ang unang tunay na layunin sa pagsasaulo. Isang parirala sa bawat pagkakataon, at itanong sa isang guro kung ano ang bibigkasin habang pinag-aaralan mo pa ito.",
-      "sourceIds": ["quran-al-fatihah-1"]
+      "beginnerNote": "Ang Al-Fatiha ang unang tunay na layunin sa pagsasaulo. Isang parirala sa bawat pagkakataon, at tanungin ang isang guro kung ano ang bibigkasin habang pinag-aaralan mo pa ito. Sa sama-samang pagdarasal, kapag natapos ng imam ang Al-Fatihah at nagsabi ng Ameen (O Allah, tugunin Mo), sabihin ang Ameen kasabay niya. Kung may tanong ka tungkol sa pagsasabi nito kapag mag-isa kang nagdarasal, magtanong sa isang guro.",
+      "sourceIds": [
+        "quran-al-fatihah-1",
+        "sunnah-bukhari-780",
+        "sunnah-muslim-410a"
+      ]
     },
     {
       "title": "Halimbawa ng maikling surah: Al-Ikhlas",
@@ -94,7 +111,9 @@
       "transliteration": "Qul huwa Allahu ahad. Allahus-samad. Lam yalid wa lam yulad. Wa lam yakun lahu kufuwan ahad.",
       "meaning": "Salin ng kahulugan: Iisa ang Allah, sapat sa Kanyang sarili, hindi gaya ng nilikha, at walang anumang maihahambing sa Kanya.",
       "beginnerNote": "Dito nagsisimula ang karamihan ng baguhan. Maikli ito, at ipinapahayag nito ang kaisahan ng Allah sa apat na linya.",
-      "sourceIds": ["quran-al-ikhlas-112"]
+      "sourceIds": [
+        "quran-al-ikhlas-112"
+      ]
     },
     {
       "title": "Halimbawa ng maikling surah: Al-'Asr",
@@ -103,7 +122,9 @@
       "transliteration": "Wal-'asr. Innal-insana lafi khusr. Illal-ladhina amanu wa 'amilus-salihat, wa tawasaw bil-haqqi wa tawasaw bis-sabr.",
       "meaning": "Salin ng kahulugan: nasa pagkalugi ang mga tao maliban sa mga naniniwala, gumagawa ng mabuti, at naghihikayat sa katotohanan at pagtitiis.",
       "beginnerNote": "Pag-aralan ang isang maikling surah sa bawat pagkakataon. Mas makakatulong sa iyo ang pakikinig muna sa isang maaasahang tagabigkas (qari) kaysa pagmamadali sa ilang kabanata.",
-      "sourceIds": ["quran-al-asr-103"]
+      "sourceIds": [
+        "quran-al-asr-103"
+      ]
     },
     {
       "title": "Parirala sa ruku",
@@ -112,7 +133,9 @@
       "transliteration": "Subhana Rabbiyal-'Azim",
       "meaning": "Luwalhati sa aking Panginoon, ang Pinakadakila.",
       "beginnerNote": "Itinuturo ng karamihan ng gabay na sabihin ito nang tatlong beses. Habang natututo ka, magandang simula ang isang malinaw na pag-uulit. Itanong sa guro ang mga detalye.",
-      "sourceIds": ["hisn-ruku-dhikr"]
+      "sourceIds": [
+        "hisn-ruku-dhikr"
+      ]
     },
     {
       "title": "Pagtayo mula sa pagyuko",
@@ -121,7 +144,9 @@
       "transliteration": "Sami'a Allahu liman hamidah. Rabbana wa lakal-hamd.",
       "meaning": "Naririnig ng Allah ang pumupuri sa Kanya. Aming Panginoon, at sa Iyo ang lahat ng papuri.",
       "beginnerNote": "Sabihin ang unang linya habang tumatayo ka at ang ikalawa kapag tuwid ka nang nakatayo. Maririnig mo rin ang 'Rabbana lakal-hamd' nang walang 'wa'. Parehong nasa hadith ang dalawang pananalita.",
-      "sourceIds": ["sunnah-bukhari-rising-from-ruku"]
+      "sourceIds": [
+        "sunnah-bukhari-rising-from-ruku"
+      ]
     },
     {
       "title": "Parirala sa sujud",
@@ -130,7 +155,9 @@
       "transliteration": "Subhana Rabbiyal-A'la",
       "meaning": "Luwalhati sa aking Panginoon, ang Pinakamataas.",
       "beginnerNote": "Kakaiba ang pakiramdam ng sujud sa mga unang ilang beses. Gumalaw sa bilis na komportable sa katawan mo, huminto kapag nakababa ka na, at pag-aralan ang parirala. Hindi pagkukulang ang pagiging mabagal.",
-      "sourceIds": ["hisn-sujud-dhikr"]
+      "sourceIds": [
+        "hisn-sujud-dhikr"
+      ]
     },
     {
       "title": "Pag-upo sa pagitan ng dalawang pagpapatirapa",
@@ -151,7 +178,9 @@
       "transliteration": "At-tahiyyatu lillahi was-salawatu wat-tayyibat. As-salamu 'alayka ayyuhan-Nabiyyu wa rahmatullahi wa barakatuh. As-salamu 'alayna wa 'ala 'ibadillahis-salihin. Ash-hadu an la ilaha illallah, wa ash-hadu anna Muhammadan 'abduhu wa rasuluh.",
       "meaning": "Para sa Allah ang lahat ng pagbati, panalangin at mabubuting bagay. Sumaiyo nawa ang kapayapaan, O Propeta, at ang awa at pagpapala ng Allah. Sumaamin nawa ang kapayapaan at sa matutuwid na alipin ng Allah. Sumasaksi ako na walang diyos maliban sa Allah, at sumasaksi ako na si Muhammad ang Kanyang alipin at Sugo.",
       "beginnerNote": "Ito ang pananalitang isinalaysay ni Ibn Mas'ud. Maaaring makarinig ka ng bahagyang ibang pananalita mula sa ibang tunay na salaysay, kaya sundin ang guro mo. Pag-aralan ito nang isang linya sa bawat pagkakataon.",
-      "sourceIds": ["sunnah-bukhari-tashahhud"]
+      "sourceIds": [
+        "sunnah-bukhari-tashahhud"
+      ]
     },
     {
       "title": "Pagpapala sa Propeta (salawat)",
@@ -160,7 +189,9 @@
       "transliteration": "Allahumma salli 'ala Muhammadin wa 'ala ali Muhammad, kama sallayta 'ala Ibrahima wa 'ala ali Ibrahim, innaka Hamidun Majid. Allahumma barik 'ala Muhammadin wa 'ala ali Muhammad, kama barakta 'ala Ibrahima wa 'ala ali Ibrahim, innaka Hamidun Majid.",
       "meaning": "O Allah, ipadala Mo ang Iyong awa kay Muhammad at sa pamilya ni Muhammad, gaya ng pagpapadala Mo ng Iyong awa kay Ibrahim at sa pamilya ni Ibrahim. Ikaw ay Kapuri-puri at Maluwalhati. O Allah, ipadala Mo ang Iyong pagpapala kay Muhammad at sa pamilya ni Muhammad, gaya ng pagpapadala Mo ng Iyong pagpapala kay Ibrahim at sa pamilya ni Ibrahim. Ikaw ay Kapuri-puri at Maluwalhati.",
       "beginnerNote": "Sabihin ito sa huling pag-upo, pagkatapos ng tashahhud at bago ang salam. Nagkakaiba ang mga mazhab kung sinasabi rin ito sa unang pag-upo ng mas mahabang pagdarasal, kaya itanong sa guro mo.",
-      "sourceIds": ["sunnah-bukhari-salawat-ibrahimiyyah"]
+      "sourceIds": [
+        "sunnah-bukhari-salawat-ibrahimiyyah"
+      ]
     },
     {
       "title": "Salam",
@@ -169,7 +200,9 @@
       "transliteration": "As-salamu 'alaykum wa rahmatullah",
       "meaning": "Sumainyo nawa ang kapayapaan at ang awa ng Allah.",
       "beginnerNote": "Ito ang nagsasara ng pagdarasal. Lumingon nang marahan sa bawat panig. Hindi mo kailangang gawing malaking galaw ito.",
-      "sourceIds": ["sunnah-abudawud-taslim"]
+      "sourceIds": [
+        "sunnah-abudawud-taslim"
+      ]
     }
   ],
   "cannotReciteYet": [
@@ -188,7 +221,7 @@
     "Sinasadyang pagkain, pag-inom o pagsasalita ng walang kaugnayang salita habang nagdarasal.",
     "Pag-iwan sa isang obligadong posisyon, kondisyon o pagbigkas kapag alam mo nang obligado ito.",
     "Sinasadyang pagtatapos o pagtalikod sa pagdarasal nang walang dahilan.",
-    "May mga detalyeng sulit pag-usapan kasama ang isang kwalipikadong guro ang pagkakamali, pagkalimot, sakit, regla, paglalakbay at kapansanan."
+    "May mga detalyeng sulit pag-usapan kasama ang isang kwalipikadong guro ang mga pagkakamali, pagkalimot, sakit, regla, paglalakbay at kapansanan. Itinuturo ng listahan sa ibaba ang natatalakay na ng site na ito."
   ],
   "commonCorrections": [
     {
@@ -214,7 +247,9 @@
     "channel": "Green Lane Masjid",
     "duration": "33:57",
     "note": "Maikli ang kabanata ng Asr dahil ginagawa ang Asr sa parehong paraan ng Dhuhr. Sinusunod ng video ang gawi ng iisang mazhab, at normal ang maliliit na pagkakaiba ng mga mazhab. Awtomatikong ginawa ang mga caption.",
-    "sourceIds": ["video-greenlane-five-prayers"],
+    "sourceIds": [
+      "video-greenlane-five-prayers"
+    ],
     "chapters": [
       {
         "label": "Bago ka magdasal",
@@ -256,7 +291,9 @@
       "title": "Bawat parirala ng isang rak'ah",
       "channel": "Islamwise",
       "duration": "10:29",
-      "sourceIds": ["video-islamwise-rakah-recap"]
+      "sourceIds": [
+        "video-islamwise-rakah-recap"
+      ]
     },
     {
       "videoId": "n0aGnzSY_hs",
@@ -264,14 +301,18 @@
       "channel": "Islamwise",
       "duration": "7:01",
       "note": "Isang pananaw lamang sa mga mazhab ang paggamit ng mga pariralang ito habang natututo. Tingnan ang seksyon tungkol sa pagdarasal bago ka makabigkas.",
-      "sourceIds": ["video-islamwise-comprehensive-remembrance"]
+      "sourceIds": [
+        "video-islamwise-comprehensive-remembrance"
+      ]
     }
   ],
   "phraseSeries": {
     "label": "Ang buong serye ng Islamwise sa YouTube",
     "body": "29 na maiikling aralin, isang parirala sa bawat pagkakataon, kasama ang bawat talata ng Al-Fatihah, ang tashahhud at ang salawat.",
     "href": "https://www.youtube.com/playlist?list=PLW9v5fexkmD_8i507k8oL2x9n0vJeP1BT",
-    "sourceIds": ["video-islamwise-prayer-series"]
+    "sourceIds": [
+      "video-islamwise-prayer-series"
+    ]
   },
   "shapeImage": {
     "src": "/graphics/rakah-steps.svg",
@@ -369,7 +410,7 @@
       "Kung hindi ka makaupo, magdasal nang nakahiga, nakaharap sa qibla sa abot ng makakaya mo.",
       "Bahagyang magkaiba ang pagtrato sa panandaliang sakit at pangmatagalang kondisyon, at nagkakaiba ang mga mazhab sa mga detalye gaya ng paano yumuyuko ang gumagamit ng silya at saan inilalagay ang silya sa hanay."
     ],
-    "referral": "Maaaring panoorin ka nang minsan ng isang imam o guro sa inyong lugar habang nagdarasal at tulungan kang pumili ng angkop sa katawan mo. Hindi mo kailanman kailangang tiisin ang sakit para maging balido ang pagdarasal mo.",
+    "referral": "Mapapanood ka ng isang lokal na imam o guro na magdasal nang isang beses at matutulungan kang magpasya kung ano ang gumagana para sa katawan mo. Hindi mo kailanman kailangang tiisin ang sakit para mabilang ang pagdarasal mo. Sa ospital, magdasal sa kama ayon sa makakaya mo, at tanungin ang mga nurse kung may spiritual care team ang ospital.",
     "sourceIds": [
       "sunnah-bukhari-pray-standing-sitting",
       "seekersguidance-praying-sitting",
@@ -381,7 +422,9 @@
       "channel": "Green Lane Masjid",
       "duration": "6:06",
       "note": "Ipinapakita ang pagdarasal sa sahig, sa silya, nang nakatayo nang hindi yumuyuko, at nang nakahiga sa kama.",
-      "sourceIds": ["video-greenlane-physical-disability"],
+      "sourceIds": [
+        "video-greenlane-physical-disability"
+      ],
       "chapters": [
         {
           "label": "Nakaupo sa sahig",
@@ -405,7 +448,9 @@
       "label": "Paano magdasal nang nakaupo sa silya (Sheikh Assim al-Hakeem, 3:25)",
       "body": "Isang maikling ikalawang pagpapakita, kasama ang pagdarasal sa silya sa hanay ng masjid.",
       "href": "https://www.youtube.com/watch?v=nNKUwHi99Qo",
-      "sourceIds": ["video-assim-chair-prayer"]
+      "sourceIds": [
+        "video-assim-chair-prayer"
+      ]
     }
   },
   "cannotReciteSourceIds": [
@@ -414,5 +459,166 @@
     "seekersguidance-reading-from-mushaf",
     "dar-alifta-new-muslim-fatiha",
     "sunnah-muslim-two-rewards"
-  ]
+  ],
+  "moreCards": [
+    {
+      "id": "behind-imam",
+      "title": "Pagdarasal sa likod ng imam (at pagsali nang huli)",
+      "summary": "Nangyayari sa lahat ang pagpasok sa masjid habang nagsimula na ang pagdarasal. Sinabi ng Propeta (sumakanya nawa ang kapayapaan) na dumating nang mahinahon, idasal ang naabutan mo at kumpletuhin ang nalampasan mo (Sahih al-Bukhari 636).",
+      "points": [
+        "Maglakad, huwag tumakbo, at sumali sa pinakamalapit na hanay.",
+        "Tumayo, itaas ang mga kamay at sabihin ang Allahu akbar, pagkatapos ay dumiretso sa anumang posisyon ng imam, kahit nakapatirapa siya (Sunan Abi Dawud 893, graded Hasan ni al-Albani).",
+        "Kung yumuko ka kasabay ng imam bago siya umangat mula sa pagyuko, naabutan mo ang rak'ah na iyon. Kung sumali ka pagkatapos noon, sundan mo pa rin siya, pero hindi bilang sa iyo ang rak'ah na iyon. Sang-ayon dito ang mga sagot na Hanafi at Shafi'i na naka-link namin.",
+        "Gumalaw pagkatapos ng imam, huwag kailanman bago siya.",
+        "Kapag natapos ng imam ang Al-Fatihah, sinasabi ng mga nasa likod niya ang Ameen kasabay niya (Sahih al-Bukhari 780).",
+        "Kapag nagtapos ang imam sa salam at may utang ka pang rak'ah, huwag magsalam. Tumayo at kumpletuhin nang mag-isa ang nalampasan mo. Inirerekomenda ng sagot na Shafi'i na naka-link namin na maghintay hanggang masabi ng imam ang dalawang salam bago ka tumayo.",
+        "Tumayo nang malapit sa hanay, magkadikit ang balikat at magkadikit ang paa (Sahih al-Bukhari 725). Iyan ang dahilan kung bakit maaaring ilapit ng katabi mo ang paa niya sa paa mo.",
+        "Kung magkamali ka habang nasa likod ng imam, sundan ang imam at huwag magdagdag ng sarili mong pagpapatirapa dahil sa pagkalimot.",
+        "Sa mga una mong sama-samang pagdarasal, tumayo malapit sa dulo ng hanay kung saan nakikita mo ang mga tao sa harap mo. Kung mawala ka, tapusin ang sa tingin mo ay tama at magtanong sa isang tao pagkatapos."
+      ],
+      "differencesTitle": "Kung saan nagkakaiba ang mga mazhab",
+      "differences": [
+        "Nagkakaiba ang mga mazhab sa binibigkas mo sa likod ng imam. Tanungin ang guro mo kung aling paraan ang sinusunod ng komunidad mo.",
+        "Pag-abot sa pagdarasal sa Biyernes: sa sagot na Hanafi na naka-link namin, bilang na naabutan mo ang Jumu'ah kapag sumali ka bago ang huling salam ng imam, at pagkatapos ay tatayo ka at babayaran ang dalawang rak'ah. Itinuturing ng mazhab na Shafi'i na naabutan ang Jumu'ah kung nakaabot ka ng kahit isang rak'ah kasama ang imam, at kung hindi ay Dhuhr ang idadasal mo. Umaasa ito sa mga hadith gaya ng \"Ang sinumang nakaabot ng isang rak'ah ng Jumu'ah ay naabutan ito\" (Sunan an-Nasa'i 1425, graded Sahih ng Darussalam).",
+        "Dalawang rak'ah pagdating: sinabihan ng Propeta ang mga tao na magdasal ng dalawang rak'ah bago umupo sa masjid (Sahih al-Bukhari 444). Kapag umakyat na ang imam para sa sermon sa Biyernes, sinasabi ng mga mazhab na Hanafi at Maliki na huwag nang magdasal, at umupo at makinig. Itinuturo ng mga mazhab na Shafi'i at Hanbali ang dalawang maikling rak'ah kahit habang may sermon, dahil sinabihan ng Propeta ang isang lalaking pumasok habang may sermon na tumayo at magdasal ng dalawang rak'ah (Sahih Muslim 875c)."
+      ],
+      "referral": "Hilingin sa isang lokal na imam na ituro sa iyo nang isang beses ang pagsali nang huli. Limang minuto lang ito at malaking pag-aalala ang maiiwasan.",
+      "links": [
+        {
+          "label": "Dumalo sa una mong pagdarasal tuwing Biyernes",
+          "href": "/roadmap/week-1/first-jumuah"
+        }
+      ],
+      "sourceIds": [
+        "sunnah-bukhari-636",
+        "sunnah-abudawud-893",
+        "sunnah-bukhari-780",
+        "sunnah-bukhari-725",
+        "sunnah-bukhari-444",
+        "sunnah-muslim-875c",
+        "sunnah-nasai-1425",
+        "seekersguidance-latecomer-hanafi",
+        "seekersguidance-latecomer-shafii",
+        "seekersguidance-friday-prayer-rulings",
+        "seekersguidance-maliki-voluntary-prayers"
+      ]
+    },
+    {
+      "id": "prayer-kit",
+      "title": "Ang prayer kit mo, at kung saan ka puwedeng magdasal",
+      "summary": "Puwede kang magdasal halos kahit saan basta malinis. Pinadadali ng ilang maliliit na bagay sa bag mo ang pagdarasal sa trabaho, sa paaralan o sa biyahe.",
+      "points": [
+        "Maliit na tuwalya o travel mat. Hindi obligado ang prayer mat: puwede ang anumang malinis na ibabaw.",
+        "Para sa mga kapatid na babae, scarf o isang-pirasong kasuotan sa pagdarasal. Tinatakpan ng babaeng lampas na sa pagdadalaga ang buhok niya sa pagdarasal (Sunan Abi Dawud 641, graded Sahih ni al-Albani).",
+        "Maliit na bote ng tubig para sa paglilinis pagkatapos mag-CR.",
+        "Sapatos: nagdasal ang Propeta na suot ang sandalyas niya at sinabihan ang mga tao na tingnan muna kung may dumi ang mga ito (Sunan Abi Dawud 650, graded Sahih ni al-Albani). Sa loob ng masjid, hubarin ang sapatos kung saan naghuhubad ang iba.",
+        "Sa labas o sa pampublikong lugar, puwede ang parke, tahimik na hagdanan o nakaparadang kotse. Magdasal malapit sa pader o ilagay ang bag mo sa harap mo bilang palatandaan (sutrah), at manatiling malapit dito (Sunan Abi Dawud 695, graded Sahih ni al-Albani).",
+        "Qibla: humarap sa Ka'bah sa abot ng makakaya mo (Quran 2:144). Kapag hindi ka makaeksakto, sapat na ang pangkalahatang direksyon (Jami at-Tirmidhi 344). Hindi dahilan para magdasal ulit ang ilang degree na mali sa compass mo.",
+        "Mag-CR muna bago magdasal sa halip na pigilan ito. Sinabi ng Propeta na huwag magdasal habang pinipilit ka ng pangangailangang mag-CR (Sahih Muslim 560a).",
+        "Magbihis para sa pagsamba: \"isuot ang inyong kagandahan sa bawat lugar ng pagdarasal\" (Quran 7:31). Ayos ang malinis na damit pantrabaho na tumatakip sa hinihingi ng mazhab mo."
+      ],
+      "links": [
+        {
+          "label": "Hanapin ang qibla",
+          "href": "/qibla"
+        },
+        {
+          "label": "Ano ang tatakpan sa pagdarasal",
+          "href": "/topics/prayer"
+        }
+      ],
+      "sourceIds": [
+        "quran-7-31-adornment-masjid",
+        "sunnah-abudawud-641",
+        "sunnah-abudawud-650",
+        "sunnah-abudawud-695",
+        "quran-2-144-qibla",
+        "sunnah-tirmidhi-344",
+        "sunnah-muslim-560a"
+      ]
+    },
+    {
+      "id": "funeral-prayer",
+      "title": "Pagdarasal para sa patay (janazah)",
+      "summary": "Dinadasal nang nakatayo ang pagdarasal para sa patay, sa likod ng imam, nang walang pagyuko at walang pagpapatirapa. Maikli ito, kadalasan ay ilang minuto lang. May gantimpala ang pagdalo rito, at mas malaki pa ang gantimpala ng pananatili hanggang sa libing (Sahih al-Bukhari 1325).",
+      "points": [
+        "Mag-wudu bago ka pumunta, pagkatapos ay tumayo sa mga hanay sa likod ng imam.",
+        "May apat na takbir (Sahih al-Bukhari 1333). Sinasabi ng imam ang Allahu akbar bawat pagkakataon, at sinasabi mo ito nang mahina pagkatapos niya.",
+        "Isang karaniwang paraan, ayon sa paglalatag ng IslamQA: pagkatapos ng unang takbir, bigkasin ang Al-Fatihah. Pagkatapos ng ikalawa, sabihin ang mga pagpapala sa Propeta (ang parehong salawat gaya sa huling pag-upo). Pagkatapos ng ikatlo, mag-dua para sa taong pumanaw. Pagkatapos ng ikaapat, magtapos sa salam.",
+        "Kung hindi mo pa alam ang isang takdang dua, humiling nang tahimik sa Allah gamit ang sarili mong mga salita na patawarin at kaawaan ang tao.",
+        "Manatiling nakatayo sa buong panahon. Huwag yumuko o magpatirapa.",
+        "Kung dumating ka nang huli, sumali at sundan ang imam, pagkatapos ay magtanong sa isang tao kung ano ang nalampasan mo."
+      ],
+      "differencesTitle": "Kung saan nagkakaiba ang mga mazhab",
+      "differences": [
+        "Nagkakaiba ang mga mazhab sa mga detalye, gaya ng kung ano ang sinasabi pagkatapos ng unang takbir at kung isa o dalawa ang salam. Sumusunod sa isang pamamaraan ang paraan sa itaas. Sundan ang imam, at tanungin ang guro mo kung paano ito dinadasal ng komunidad mo."
+      ],
+      "referral": "Kung may kakilala kang namatay, masasabi sa iyo ng lokal na masjid kung kailan at saan ang pagdarasal para sa patay.",
+      "links": [
+        {
+          "label": "Pagdarasal sa Eid",
+          "href": "/seasonal/eid-al-fitr"
+        }
+      ],
+      "sourceIds": [
+        "sunnah-bukhari-1333",
+        "sunnah-bukhari-1325",
+        "islamqa-12363-janazah"
+      ]
+    }
+  ],
+  "situationIndex": {
+    "title": "Kapag may nangyaring hindi inaasahan",
+    "intro": "Sumasagabal ang totoong buhay sa pagdarasal. Hanapin dito ang sitwasyon mo at dumiretso sa sagot.",
+    "items": [
+      {
+        "label": "Nagsimula na ang pagdarasal pagdating mo",
+        "href": "/tools/salah-companion#behind-imam"
+      },
+      {
+        "label": "Nawala ka sa bilang o nagkamali ka",
+        "href": "/tools/salah-companion#sujud-al-sahw"
+      },
+      {
+        "label": "Naglalakbay ka, nagmamaneho nang malayo o sumasakay ng eroplano",
+        "href": "/topics/prayer"
+      },
+      {
+        "label": "Natulugan mo ang Fajr o may nalampasan kang pagdarasal",
+        "href": "/faq#faq-pry-037"
+      },
+      {
+        "label": "Sakop ng shift mo ang buong oras ng isang pagdarasal",
+        "href": "/faq#faq-pry-038"
+      },
+      {
+        "label": "Kailangan mong magdasal sa trabaho, sa labas o sa biyahe",
+        "href": "/tools/salah-companion#prayer-kit"
+      },
+      {
+        "label": "May tumama sa damit mo",
+        "href": "/topics/purification"
+      },
+      {
+        "label": "Paulit-ulit na sinisira ng isang kondisyon sa kalusugan ang wudu mo",
+        "href": "/tools/wudu-ghusl#excused-person"
+      },
+      {
+        "label": "Sakit, karamdaman o pananatili sa ospital",
+        "href": "/tools/salah-companion#seated-prayer"
+      },
+      {
+        "label": "Nagsimula ang regla mo",
+        "href": "/topics/menstruation-and-worship"
+      },
+      {
+        "label": "Pupunta ka sa pagdarasal para sa patay",
+        "href": "/tools/salah-companion#funeral-prayer"
+      },
+      {
+        "label": "Pupunta ka sa pagdarasal sa Eid",
+        "href": "/seasonal/eid-al-fitr"
+      }
+    ]
+  }
 }
