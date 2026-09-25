@@ -61,7 +61,7 @@
     },
     "phone": "(416) 596-0507",
     "website": "https://centres.macnet.ca/masjidtoronto/",
-    "notes": "The Dundas location of MAC Masjid Toronto. A second location is on Adelaide Street East.",
+    "notes": "The Dundas Street West location of MAC Masjid Toronto. The Adelaide Street East location has its own listing.",
     "visitorNotes": "Downtown gets busy around Jumu'ah, so give yourself extra time. Check current timings and which entrance to use before you go.",
     "jumuahNote": "Three Jumu'ah prayers (12:10, 1:10 and 2:10 PM in September 2026). Check the site for the current week.",
     "sourceIds": ["masjid-toronto-dundas", "masjid-toronto-programs"],
@@ -415,7 +415,7 @@
     "phone": "(647) 244-6742",
     "email": "jamiatulansar@protonmail.com",
     "website": "https://jamiatalansar.ca/",
-    "notes": "Also known as Ansar Mosque Brampton.",
+    "notes": "Also known as Ansar Mosque Brampton. The charity register gives 291 Great Lakes Dr, Brampton L6R 2Z4.",
     "womenSpaceNote": "Sisters' page: monthly lecture, \"First Wednesday of every month ... 6:30 PM - 7:30 PM\", \"All sisters are welcome\", \"Whether you're new to the community or have been with us for years, this is a space built for every sister to feel welcome\".",
     "newMuslimSupportNote": "The services page describes a New Muslim Outreach committee that gives \"support, advice, and education to new Muslims\". Email the centre for details.",
     "serviceIds": ["new-muslim-support"],
@@ -841,7 +841,8 @@
     "website": "https://www.alsalaam.ca/",
     "jumuahNote": "Homepage: \"Juma Prayer 1:30\".",
     "sourceIds": ["masjid-al-salaam-islamic-centre-kitchener"],
-    "reviewStatus": "source-checked"
+    "reviewStatus": "source-checked",
+    "notes": "The new masjid at 585 Queen St S opened on 25 June 2026."
   },
   {
     "id": "kitchener-masjid-a-mac-community-centre",
@@ -877,7 +878,8 @@
     "email": "admin@nlic.ca",
     "website": "https://www.northlondonislamiccentre.com/",
     "sourceIds": ["masjid-north-london-islamic-centre-komoka"],
-    "reviewStatus": "review-needed"
+    "reviewStatus": "review-needed",
+    "notes": "A building project that is not open yet. The site says the plans are in the final stages of city approval."
   },
   {
     "id": "hyde-park-masjid-london",
@@ -939,7 +941,7 @@
     "website": "https://www.londonmosque.ca/",
     "notes": "Also known as LMM.",
     "jumuahNote": "Two Jumuah prayers listed on homepage: 12:00 PM and 1:15 PM (check site for current times).",
-    "newMuslimSupportNote": "The lectures page describes a free New Muslim Family Meet Up on the first and third Saturday of the month, and a Diploma of Essential Islamic Knowledge for reverts and new Muslims. Registration is required.",
+    "newMuslimSupportNote": "The lectures page describes a free New Muslim Family Meet Up on the first and third Saturday of the month, and a Diploma of Essential Islamic Knowledge for reverts and new Muslims. Registration is required. New Muslims can also book an appointment with the imam.",
     "serviceIds": ["new-muslim-support"],
     "convertSupport": true,
     "sourceIds": [
@@ -1220,8 +1222,11 @@
     "email": "info@nmic.ca",
     "website": "https://nmic.ca/",
     "womenSpaceNote": "Homepage: \"Over 1,200 men and women attend the weekly Jumma prayer service.\" Women's area not described.",
-    "jumuahNote": "Homepage: \"Prayer 1 Khutbah 1:15 PM Prayer 1:45 PM, Prayer 2 Khutbah 2:15 PM Prayer 2:45 PM\"; notices mention Jumu'ah at the masjid and at off-site halls (Lions Hall, Ray Twinney Recreation Complex) at different times.",
-    "sourceIds": ["masjid-newmarket-islamic-centre"],
+    "jumuahNote": "While the masjid at 700 Mulock Dr is rebuilt, Jumu'ah is held at Ray Twinney Recreation Complex, 100 Eagle St W. Check the rebuilding page for the current schedule.",
+    "sourceIds": [
+      "masjid-newmarket-islamic-centre",
+      "masjid-newmarket-islamic-centre-rebuilding"
+    ],
     "reviewStatus": "source-checked"
   },
   {
@@ -1302,7 +1307,7 @@
     "email": "info@miltonmasjid.com",
     "website": "https://miltonmasjid.com/",
     "notes": "Also known as MAM, HICC Masjid.",
-    "jumuahNote": "Jumuah held at Milton Sports Centre and other venues; see flyer on homepage.",
+    "jumuahNote": "Jumu'ah runs at rented sites, including Milton Sports Centre. Check the homepage flyer for this week's location.",
     "sourceIds": ["masjid-muslim-association-of-milton-oakville"],
     "reviewStatus": "review-needed"
   },
@@ -2087,10 +2092,10 @@
     "country": "Canada",
     "postalCode": "N4G 3P9",
     "coordinates": {
-      "lat": 42.859494,
-      "lng": -80.7265015
+      "lat": 42.8613247,
+      "lng": -80.7288747
     },
-    "coordinatesPrecision": "city-centre",
+    "coordinatesPrecision": "street",
     "phone": "(519) 957-9009",
     "email": "info@muslimassociationtillsonburg.ca",
     "website": "https://muslimassociationtillsonburg.ca/",
@@ -2284,7 +2289,8 @@
     "website": "http://vaughanislamiccentre.com/",
     "serviceIds": ["weekend-school"],
     "sourceIds": ["masjid-vaughan-islamic-community-centre"],
-    "reviewStatus": "review-needed"
+    "reviewStatus": "review-needed",
+    "visitorNotes": "The official website has not been updated since 2015. Phone before you visit to check the centre still meets at this address."
   },
   {
     "id": "islamic-centre-of-waterloo-a-mac-community-centre",
@@ -2421,7 +2427,7 @@
     "email": "info@windsormosque.ca",
     "website": "https://windsorislamicassociation.com/",
     "notes": "Also known as Windsor Mosque; Windsor Central Mosque.",
-    "newMuslimSupportNote": "The contact page names the Administrator of Religious Affairs as the contact for reverts (519-966-2355 ext. 4). This is a contact point, not a class.",
+    "newMuslimSupportNote": "The association has a new converts care role in its religious affairs office. Email religiousaffairs@windsormosque.ca or phone 519-966-2355 ext. 4.",
     "serviceIds": ["new-muslim-support"],
     "convertSupport": true,
     "sourceIds": [
@@ -2482,7 +2488,7 @@
     "phone": "(819) 776-1831",
     "email": "info@cio-oic.ca",
     "website": "https://cio-oic.ca/masjid-meriam/",
-    "notes": "Area: Gatineau sector. Also known as Mosquée Mariam; CIOIC - Meriam.",
+    "notes": "Area: Gatineau sector. Also known as Mosquée Mariam; CIOIC - Meriam. The Masjid Meriam page shows the address of the Centre Islamique de l'Outaouais, so confirm where the masjid itself is before you go.",
     "visitorNotes": "Languages: CIO site is mainly French; some announcements are bilingual French and English.",
     "sourceIds": ["masjid-masjid-meriam-gatineau"],
     "reviewStatus": "review-needed"
@@ -2494,7 +2500,7 @@
     "city": "Gatineau",
     "stateProvince": "Quebec",
     "country": "Canada",
-    "postalCode": "J9H 3M2",
+    "postalCode": "J9H 4J6",
     "coordinates": {
       "lat": 45.3955671,
       "lng": -75.8448069
@@ -2502,7 +2508,7 @@
     "coordinatesPrecision": "street",
     "email": "info@mosque-aylmer.ca",
     "website": "https://www.mosque-aylmer.ca/",
-    "notes": "Area: Aylmer.",
+    "notes": "Area: Aylmer. The official site also shows the postal code J9H 3M2.",
     "visitorNotes": "Site content is bilingual English and French; khutbah language not stated.",
     "womenSpaceNote": "Services page lists \"Women's Programs\": \"Dedicated gatherings, study groups, and activities ... for women\"; prayer-space layout not described.",
     "jumuahNote": "\"Weekly khutbah delivered by qualified speakers\"; times not published.",
@@ -3175,7 +3181,7 @@
     "phone": "(613) 265-5985",
     "email": "Kootenay.Mosque@gmail.com",
     "website": "https://org.thebcma.com/Home/Videos/Castlegar",
-    "notes": "Also known as Islamic Centre of Castlegar.",
+    "notes": "Also known as Islamic Centre of Castlegar. This branch may not be operating yet, and the listed phone number has an Ontario area code. Phone first.",
     "newMuslimSupportNote": "The province-wide New Muslim Care program is run by the BC Muslim Association; this branch does not list its own. The BCMA registration form lets you pick this branch.",
     "serviceIds": ["new-muslim-support"],
     "convertSupport": true,
@@ -3269,7 +3275,7 @@
     "phone": "(250) 461-6599",
     "email": "admin@ayeshamosque.com",
     "website": "https://ayeshamosque.com/",
-    "notes": "Area: Knutsford. Also known as Ayesha Mosque; Kamloops Islamic Association.",
+    "notes": "Area: Knutsford. Also known as Ayesha Mosque; Kamloops Islamic Association. The association has bought land at 992 Fernie Road for a future masjid. Prayers are still held at the Knutsford site.",
     "accessibilityNote": "Home page says the current Knutsford site has \"No City Water | No Public Transport | Limited Space\" and the association is raising funds to \"Move to an Accessible Location\" within Kamloops city limits.",
     "jumuahNote": "Home page: Jumu'ah khutbah 1:30 PM.",
     "parkingNote": "Home page: lack of capacity means some events \"held off-site, even in the parking lot\".",
@@ -3332,7 +3338,7 @@
     "phone": "(778) 776-2141",
     "email": "admin@islamicwaqf.ca",
     "website": "https://www.islamicwaqf.ca/",
-    "notes": "Also known as Langley Islamic Centre; Langley Musalla.",
+    "notes": "Also known as Langley Islamic Centre; Langley Musalla. The official site does not publish a street address. Phone before you go.",
     "womenSpaceNote": "Official page: \"includes a women's prayer area\".",
     "womenFriendly": true,
     "sourceIds": ["masjid-masjid-al-sahaba-langley"],
@@ -3778,7 +3784,7 @@
     "phone": "(250) 545-1910",
     "email": "Vernonmosque@gmail.com",
     "website": "https://vernonmuslimassociation.wordpress.com/",
-    "notes": "Also known as Vernon Mosque.",
+    "notes": "Also known as Vernon Mosque. The charity register gives 3807 21 Avenue, Vernon V1T 6P7, which may be a mailing address.",
     "sourceIds": ["masjid-vernon-islamic-centre"],
     "reviewStatus": "review-needed"
   },
@@ -4033,7 +4039,7 @@
     "phone": "(403) 219-0991",
     "email": "info@muslimscalgary.ca",
     "website": "https://muslimscalgary.ca/",
-    "notes": "Also known as MCC. This is the Muslim Council of Calgary office, which serves masjids across the city.",
+    "notes": "Also known as MCC. This is the office of the Muslim Council of Calgary, an umbrella body for masjids across the city. It is not a prayer space.",
     "newMuslimSupportNote": "The New Muslim page describes the New Muslim Circle, a support group, plus Connect with an Imam and a New Muslim guide book. It also offers one-on-one support from a peer, a mentor or an imam.",
     "serviceIds": ["new-muslim-support"],
     "convertSupport": true,
