@@ -1,475 +1,289 @@
 [
   {
     "id": "clear-quran-translation",
-    "title": "The Clear Quran by Dr. Mustafa Khattab",
-    "type": "book",
-    "url": "https://www.theclearquran.org/",
-    "description": "ابتدائیوں کے لیے واضح زبان کے ساتھ قرآن کے معانی کا پڑھنے کے قابل جدید انگریزی ترجمہ۔",
-    "relatedStepIds": ["quran"],
-    "relatedTopicIds": ["quran", "prophet-muhammad"],
-    "organization": "The Clear Quran",
-    "bestFor": "واضح انگریزی میں قرآن کے معنی پڑھنا",
-    "trustNote": "ترجمہ کو معنی کے طور پر استعمال کریں، عربی قرآن کے متبادل کے طور پر نہیں۔",
-    "sourceIds": ["clear-quran"],
-    "reviewStatus": "source-checked"
+    "title": "ڈاکٹر مصطفیٰ خطاب کا The Clear Quran",
+    "description": "قرآن کے معنی کا جدید انگریزی ترجمہ، ایسی سادہ زبان میں جسے پہلی بار پڑھنے والا سمجھ سکے۔",
+    "bestFor": "قرآن کے معانی واضح انگریزی میں پڑھنا",
+    "trustNote": "ترجموں کو معانی کے طور پر استعمال کریں، عربی قرآن کے متبادل کے طور پر نہیں۔"
   },
   {
     "id": "welcome-to-islam-book",
-    "title": "Welcome to Islam",
-    "type": "community",
-    "url": "https://welcometoislam.net/",
-    "description": "تعارفی سیکھنے اور عملی اگلے مرحلے کے مواد کے ساتھ ایک نئی مسلم سپورٹ سائٹ۔",
-    "relatedStepIds": ["shahada", "first-24-hours", "prayer-on-ramp"],
-    "relatedTopicIds": ["new-muslim-basics", "beliefs"],
-    "organization": "Welcome to Islam",
-    "bestFor": "شہادت کے بعد پہلی واقفیت",
-    "trustNote": "پہلے کتاب کا انتساب واضح نہیں تھا، لہذا اب یہ قابل شناخت سرکاری سائٹ کی طرف اشارہ کرتا ہے۔",
-    "sourceIds": ["welcome-to-islam"],
-    "reviewStatus": "source-checked"
+    "title": "اسلام میں خوش آمدید: نومسلموں کے لیے قدم بہ قدم گائیڈ",
+    "description": "بطور مسلمان آپ کے پہلے مہینے کے لیے مصطفیٰ عمر کی ایک مختصر گائیڈ، جس میں بنیادی باتیں اور وہ مشکلات شامل ہیں جو نومسلموں کو اکثر پیش آتی ہیں۔",
+    "bestFor": "شہادہ کے بعد آپ کے پہلے دن اور ہفتے",
+    "trustNote": "32 صفحات اور آن لائن مفت پڑھی جا سکتی ہے۔ مصنف ایک امام اور فقہ کونسل آف نارتھ امریکہ کے رکن ہیں۔"
   },
   {
     "id": "quran-com",
     "title": "Quran.com",
-    "type": "app",
-    "url": "https://quran.com/",
-    "description": "ترجمے، نقل حرفی اور آڈیو تلاوت کے ساتھ مفت ویب اور موبائل قرآن تک رسائی۔",
-    "relatedStepIds": ["quran", "daily-dua-dhikr"],
-    "relatedTopicIds": ["quran", "dua-and-dhikr"],
-    "organization": "Quran Foundation",
-    "bestFor": "ترجمہ سننا، پڑھنا اور موازنہ کرنا",
-    "trustNote": "مطالعہ کے لنکس کے لیے مفید؛ ترجمہ کے الفاظ کو اب بھی معنی کے طور پر لیبل کیا جانا چاہئے۔",
-    "sourceIds": ["quran-com"],
-    "reviewStatus": "source-checked"
+    "description": "ویب اور موبائل پر مفت قرآن، ترجموں، تلفظ اور آڈیو تلاوت کے ساتھ۔",
+    "bestFor": "سننا، پڑھنا اور ترجموں کا موازنہ کرنا",
+    "trustNote": "Quran.Foundation نامی غیر منافع بخش ادارہ اسے چلاتا ہے، بغیر اشتہارات کے۔ اکاؤنٹ کی ضرورت نہیں۔ سائٹ گوگل اینالیٹکس استعمال کرتی ہے۔"
   },
   {
     "id": "new-muslim-academy",
     "title": "New Muslim Academy",
-    "type": "article",
-    "url": "https://www.newmuslimacademy.org/",
-    "description": "ابتدائی توجہ پر مبنی تعلیم خاص طور پر ان لوگوں کے لیے ڈیزائن کی گئی ہے جو حال ہی میں اسلام میں داخل ہوئے ہیں۔",
-    "relatedStepIds": [
-      "first-24-hours",
-      "questions-and-doubts",
-      "asking-an-imam"
-    ],
-    "relatedTopicIds": ["new-muslim-basics", "questions-and-doubts"],
-    "organization": "New Muslim Academy",
-    "bestFor": "تشکیل شدہ ابتدائی تعلیم",
-    "trustNote": "بنیادوں کے لئے اچھا؛ اہل اساتذہ سے ذاتی احکام طلب کریں۔",
-    "sourceIds": ["new-muslim-academy"],
-    "reviewStatus": "source-checked"
+    "description": "ابتدائی کورسز اور مضامین جو خاص طور پر حال ہی میں مسلمان ہونے والوں کے لیے لکھے گئے ہیں۔",
+    "bestFor": "منظم ابتدائی سیکھنا",
+    "trustNote": "بنیادوں کے لیے اچھا۔ ذاتی احکام کسی مستند استاد سے پوچھیں۔"
   },
   {
     "id": "yaqeen-institute",
-    "title": "Yaqeen Institute for Islamic Research",
-    "type": "video",
-    "url": "https://yaqeeninstitute.org/",
-    "description": "عقیدے کے سوالات، روحانیت اور عصری مسائل پر تحقیق پر مبنی مضامین، ویڈیوز اور انفوگرافکس۔",
-    "relatedStepIds": ["knowledge", "questions-and-doubts"],
-    "relatedTopicIds": ["beliefs", "questions-and-doubts", "prophet-muhammad"],
-    "organization": "Yaqeen Institute",
-    "bestFor": "ایمانی سوالات اور گہرا غور و فکر",
-    "trustNote": "ابتدائی اسلام کو بحث کے زیادہ بوجھ میں تبدیل کیے بغیر سیاق و سباق کو سیکھنے میں مددگار۔",
-    "sourceIds": ["yaqeen-institute"],
-    "reviewStatus": "source-checked"
+    "title": "Yaqeen Institute برائے اسلامی تحقیق",
+    "description": "مضامین، ویڈیوز اور انفوگرافکس جو ایمان کے سوالات، شکوک اور روحانیت کا باحوالہ تحقیق سے جواب دیتے ہیں۔",
+    "bestFor": "ایمان کے سوالات اور گہرا غور و فکر",
+    "trustNote": "ابتدائی اسلام کو بحثوں کی بھرمار بنائے بغیر پس منظر سیکھنے کے لیے مفید۔"
   },
   {
     "id": "bayyinah-tv",
     "title": "Bayyinah TV",
-    "type": "video",
-    "url": "https://www.bayyinah.tv/",
-    "description": "قرآن اور عربی کورسز جو مکمل ابتدائیوں سمیت متعدد سطحوں پر سیکھنے والوں کے لیے بنائے گئے ہیں۔",
-    "relatedStepIds": ["quran", "knowledge"],
-    "relatedTopicIds": ["quran"],
-    "organization": "Bayyinah",
-    "bestFor": "قرآنی زبان کی ترغیب",
-    "trustNote": "جب ممکن ہو مقامی اساتذہ کے ساتھ سیکھنے میں مدد کے طور پر استعمال کریں۔",
-    "sourceIds": ["bayyinah"],
-    "reviewStatus": "source-checked"
+    "description": "قرآن اور عربی کے کورسز جو حروفِ تہجی سے شروع ہوتے ہیں، اس لیے بالکل نیا سیکھنے والا بھی انہیں استعمال کر سکتا ہے۔",
+    "bestFor": "قرآن کی زبان سیکھنے کا شوق",
+    "trustNote": "معاوضے والی رکنیت (23 ستمبر 2026 کو جانچنے پر 11 ڈالر ماہانہ)۔ اگر آپ خرچ نہ اٹھا سکیں تو ایک سال کی مفت رکنیت کے لیے درخواست دے سکتے ہیں۔ جب ممکن ہو، مقامی اساتذہ کے ساتھ ساتھ استعمال کریں۔"
   },
   {
     "id": "new-muslim-guide-icna",
-    "title": "ICNA New Muslim Support",
-    "type": "community",
-    "url": "https://www.icna.org/",
-    "description": "ایک شمالی امریکہ کی مسلم تنظیم جس میں تعلیم، رسائی، اور مقامی کمیونٹی کنکشن ہے۔",
-    "relatedStepIds": ["community", "first-masjid-visit", "asking-an-imam"],
-    "relatedTopicIds": ["community", "masjid-and-community"],
-    "organization": "Islamic Circle of North America",
-    "bestFor": "شمالی امریکہ میں کمیونٹی سپورٹ تلاش کرنا",
-    "trustNote": "مقامی پروگرام مختلف ہوتے ہیں، لہذا قریبی باب یا مسجد سے تفصیلات کی تصدیق کریں۔",
-    "sourceIds": ["icna"],
-    "reviewStatus": "source-checked"
+    "title": "ICNA کی نومسلموں کے لیے مدد",
+    "description": "امریکہ میں قائم ایک مسلم تنظیم جس کی سائٹ نومسلموں کے پروگرام درج کرتی ہے، جیسے Embrace، WhyIslam اور نومسلموں کی ایک باقاعدہ محفل۔",
+    "bestFor": "شمالی امریکہ میں کمیونٹی کا سہارا تلاش کرنا",
+    "trustNote": "اس کے صفحات امریکہ پر مرکوز ہیں۔ کینیڈا کے پروگراموں کے لیے اپنی قریب ترین مسجد سے پوچھیں۔"
   },
   {
     "id": "whyislam",
     "title": "WhyIslam",
-    "type": "community",
-    "url": "https://www.whyislam.org/",
-    "description": "تعارفی اسلام کے وسائل، ون آن ون گفتگو، اور نئے مسلم سپورٹ مواد۔",
-    "relatedStepIds": ["shahada", "first-24-hours", "family-and-friends"],
-    "relatedTopicIds": [
-      "beliefs",
-      "community",
-      "new-muslim-basics",
-      "family-and-identity"
-    ],
-    "organization": "WhyIslam",
-    "bestFor": "آپ یا فیملی ممبرز کے لیے آسان وضاحتیں۔",
-    "trustNote": "نرم عوامی تعلیم اور پہلے سوالات کے لیے مفید ہے۔",
-    "sourceIds": ["whyislam"],
-    "reviewStatus": "source-checked"
+    "description": "اسلام کا سادہ تعارف، ایک سے ایک گفتگو، اور نومسلموں کے لیے مددگار مواد۔",
+    "bestFor": "آپ یا خاندان کے افراد کے لیے سادہ وضاحتیں",
+    "trustNote": "نرم عوامی تعلیم اور پہلے سوالات کے لیے مفید۔"
   },
   {
     "id": "learn-salah-guide",
-    "title": "New Muslim Guide - Prayer",
-    "type": "article",
-    "url": "https://newmuslimguide.com/en/categories/your-prayer",
-    "description": "نماز کی ابتدائی دوستانہ وضاحتیں، بشمول تیاری، نماز کے اوقات، اور سیکھنے کی بنیادی باتیں۔",
-    "relatedStepIds": ["prayer", "prayer-on-ramp", "first-jumuah"],
-    "relatedTopicIds": ["prayer", "purification"],
-    "organization": "New Muslim Guide",
-    "bestFor": "نماز کی بنیادی باتیں مرحلہ وار سیکھنا",
-    "trustNote": "اختلاف رائے ہو سکتا ہے؛ اسے ابتدائی رہنما کے طور پر استعمال کریں اور تفصیلات کے لیے مقامی طور پر پوچھیں۔",
-    "sourceIds": ["new-muslim-guide"],
-    "reviewStatus": "source-checked"
+    "title": "New Muslim Guide - نماز",
+    "description": "نماز کی ابتدائی وضاحتیں: تیاری کیسے کریں، ہر نماز کب ہوتی ہے، اور پہلے کیا سیکھیں۔",
+    "bestFor": "نماز کی بنیادی باتیں قدم بہ قدم سیکھنا",
+    "trustNote": "کچھ تفصیلات میں علما کا اختلاف ہے۔ اسے ابتدائی گائیڈ کے طور پر استعمال کریں اور باقی کے بارے میں مقامی طور پر پوچھیں۔"
   },
   {
     "id": "new-muslim-guide-site",
     "title": "New Muslim Guide",
-    "type": "article",
-    "url": "https://newmuslimguide.com/en",
-    "description": "عبادت، عقائد، آداب اور روزمرہ کی زندگی کے لوازمات کا احاطہ کرنے والی ایک وسیع آن لائن گائیڈ۔",
-    "relatedStepIds": [
-      "shahada",
-      "ghusl",
-      "prayer",
-      "halal-eating-practical",
-      "modesty-and-clothing"
-    ],
-    "relatedTopicIds": [
-      "beliefs",
-      "purification",
-      "prayer",
-      "halal-living",
-      "modesty"
-    ],
-    "organization": "New Muslim Guide",
-    "bestFor": "ایک اسٹاپ ابتدائی حوالہ",
-    "trustNote": "فاؤنڈیشنز کے لیے بہترین استعمال کیا جاتا ہے، نہ کہ ذاتی نوعیت کے فتویٰ ماخذ کے طور پر۔",
-    "sourceIds": ["new-muslim-guide"],
-    "reviewStatus": "source-checked"
+    "description": "ایک وسیع آن لائن گائیڈ جو عبادت، عقائد، آداب اور روزمرہ کی بنیادی باتوں کا احاطہ کرتی ہے۔",
+    "bestFor": "ایک ہی جگہ ابتدائی حوالہ",
+    "trustNote": "بنیادوں کے لیے بہترین، ذاتی فتوے کے ذریعے کے طور پر نہیں۔"
   },
   {
     "id": "quran-recitation-mishary",
-    "title": "Quran Recitation by Mishary Rashid Alafasy",
-    "type": "video",
-    "url": "https://quran.com/reciters/7",
-    "description": "واضح قرآن کی تلاوت سننے کی مشق اور قرآنی آواز سے واقف ہونے کے لیے مفید ہے۔",
-    "relatedStepIds": ["quran"],
-    "relatedTopicIds": ["quran"],
-    "organization": "Quran.com",
-    "bestFor": "سننے اور تلفظ کی نمائش",
-    "trustNote": "آہستہ سے سنیں اور جب تلاوت کرنا سیکھیں تو استاد کے ساتھ جوڑ کر تلاوت کریں۔",
-    "sourceIds": ["quran-com"],
-    "reviewStatus": "source-checked"
+    "title": "مشاری راشد العفاسی کی تلاوت",
+    "description": "واضح اور ٹھہری ہوئی تلاوت، سننے کے لیے جب آپ قرآن کی آواز سے مانوس ہو رہے ہوں۔",
+    "bestFor": "سننا اور تلفظ سے واقفیت",
+    "trustNote": "آہستہ سنیں، اور تلاوت سیکھتے وقت اسے کسی استاد کے ساتھ ملائیں۔"
   },
   {
     "id": "ramadan-guide-yaqeen",
-    "title": "Ramadan Resources by Yaqeen Institute",
-    "type": "article",
-    "url": "https://yaqeeninstitute.org/ramadan",
-    "description": "رمضان کے مضامین، روحانی عکاسی، اور عبادت اور تیاری کے لیے عملی یاددہانی۔",
-    "relatedStepIds": ["fasting"],
-    "relatedTopicIds": ["fasting"],
-    "organization": "Yaqeen Institute",
+    "title": "Yaqeen Institute کے رمضان کے وسائل",
+    "description": "رمضان کے مضامین اور غور و فکر، ساتھ تیاری اور عبادت جاری رکھنے کی عملی یاددہانیاں۔",
     "bestFor": "رمضان کی روحانی تیاری",
-    "trustNote": "ذاتی روزے کی مستثنیات کا جائزہ کسی مستند مقامی اسکالر سے لیا جانا چاہیے۔",
-    "sourceIds": ["yaqeen-institute"],
-    "reviewStatus": "source-checked"
+    "trustNote": "روزے کی ذاتی رخصتوں کا جائزہ کسی مستند مقامی عالم کے ساتھ لیا جانا چاہیے۔"
   },
   {
     "id": "khalil-center",
-    "title": "Khalil Center - Muslim Mental Health",
-    "type": "community",
-    "url": "https://khalilcenter.com/",
-    "description": "مسلمانوں کے لیے ایمان سے متعلق حساس علاج اور معاون خدمات۔",
-    "relatedStepIds": ["community", "family-and-friends"],
-    "relatedTopicIds": ["community", "family-and-identity"],
-    "organization": "Khalil Center",
-    "bestFor": "ایمان سے متعلق حساس ذہنی صحت کی معاونت",
-    "trustNote": "یہ ہنگامی دیکھ بھال نہیں ہے؛ اگر فوری خطرہ ہو تو بحرانی خدمات کا استعمال کریں۔",
-    "sourceIds": ["khalil-center"],
-    "reviewStatus": "source-checked"
+    "title": "Khalil Center - مسلمانوں کی ذہنی صحت",
+    "description": "مسلمانوں کے لیے تھراپی اور مدد کی خدمات، ایسے معالجین کی طرف سے جو ایمان کے پہلو کو سنجیدگی سے لیتے ہیں۔",
+    "bestFor": "ایمان کا لحاظ رکھنے والی ذہنی صحت کی مدد",
+    "trustNote": "یہ ایمرجنسی نگہداشت نہیں۔ فوری خطرے کی صورت میں بحران کی خدمات استعمال کریں۔"
+  },
+  {
+    "id": "becoming-muslim-report",
+    "title": "مسلمان بننا: امریکہ کے نومسلموں کی زندگیاں",
+    "description": "Yaqeen Institute کی 2025 کی ایک رپورٹ جو امریکہ کے 618 نومسلموں کے سروے پر مبنی ہے۔ یہ دیکھتی ہے کہ اسلام قبول کرنے کے بعد ان کے لیے کیا مددگار رہا، جیسے مساجد، امام اور مسلمان دوست، اور یہ کہ سہارا پہلے مہینوں کے بہت بعد تک کیوں جاری رہنا چاہیے۔",
+    "bestFor": "یہ دیکھنا کہ دوسرے نومسلم کیسے ڈھلے، اور کون سا سہارا ان کے لیے مددگار رہا",
+    "trustNote": "امریکی نومسلموں کے بارے میں ایک تحقیقی رپورٹ، ذہنی صحت کی گائیڈ نہیں۔ بحران یا مسلسل پریشانی کے لیے طبی مدد لیں۔"
   },
   {
     "id": "seekers-guidance",
     "title": "SeekersGuidance",
-    "type": "article",
-    "url": "https://seekersguidance.org/",
-    "description": "مستند اسکالرز کے ذریعہ پڑھائے جانے والے اسلامی علوم پر مفت کورسز اور سوال و جواب۔",
-    "relatedStepIds": [
-      "knowledge",
-      "prayer",
-      "asking-an-imam",
-      "questions-and-doubts"
-    ],
-    "relatedTopicIds": ["beliefs", "prayer", "questions-and-doubts", "modesty"],
-    "organization": "SeekersGuidance",
-    "bestFor": "قابل اساتذہ کے ساتھ سیکھنا",
-    "trustNote": "ساختی علم کے لیے اچھا؛ اپنے صحیح حالات کے بارے میں مقامی طور پر پوچھیں۔",
-    "sourceIds": ["seekersguidance"],
-    "reviewStatus": "source-checked"
+    "description": "مستند علما کے پڑھائے ہوئے اسلامی علوم کے مفت کورسز اور سوال و جواب کی خدمت۔",
+    "bestFor": "مستند اساتذہ کے ساتھ سیکھنا",
+    "trustNote": "منظم علم کے لیے اچھا۔ اپنے حالات کے بارے میں مقامی طور پر پوچھیں۔"
   },
   {
     "id": "being-muslim-book",
-    "title": "Being Muslim: A Practical Guide by Asad Tarsin",
-    "type": "book",
-    "url": "https://www.sandalapress.com/being-muslim",
-    "description": "نئے اور واپس آنے والے مسلمانوں کے لیے عبادت، روحانیت اور اجتماعی زندگی کا احاطہ کرنے والی ایک عملی کتاب۔",
-    "relatedStepIds": [
-      "prayer",
-      "fasting",
-      "knowledge",
-      "modesty-and-clothing"
-    ],
-    "relatedTopicIds": ["beliefs", "prayer", "fasting", "new-muslim-basics"],
-    "organization": "Sandala Press",
-    "bestFor": "بنیادوں کے لیے ایک پرسکون جسمانی کتاب",
-    "trustNote": "عام تعلیم کے طور پر استعمال کریں اور ذاتی سوالات کے لیے اسے مقامی استاد کے ساتھ جوڑیں۔",
-    "sourceIds": ["sandala-press"],
-    "reviewStatus": "source-checked"
+    "title": "Being Muslim: A Practical Guide",
+    "description": "عبادت، روحانیت اور کمیونٹی کی زندگی پر ایک عملی کتاب، جو نئے اور دین کی طرف لوٹنے والے مسلمانوں کے لیے لکھی گئی ہے۔",
+    "bestFor": "بنیادوں کے لیے ایک پرسکون چھپی ہوئی کتاب",
+    "trustNote": "اسے عمومی تعلیم کے طور پر استعمال کریں اور ذاتی سوالات کے لیے کسی مقامی استاد کے ساتھ ملائیں۔"
   },
   {
     "id": "halal-living-guide",
-    "title": "New Muslim Guide - Food and Drink",
-    "type": "article",
-    "url": "https://newmuslimguide.com/en/categories/your-food-and-drink",
-    "description": "حلال کھانے، باہر کھانے، اجزاء، اور جنونی حد سے زیادہ چیکنگ سے بچنے کے لیے ابتدائی رہنمائی واضح کریں۔",
-    "relatedStepIds": ["halal-haram", "halal-eating-practical"],
-    "relatedTopicIds": ["halal-living"],
-    "organization": "New Muslim Guide",
-    "bestFor": "گروسری اور ریستوراں کی بنیادی باتیں",
-    "trustNote": "اجزاء اور سرٹیفیکیشن کی تفصیلات ملک کے لحاظ سے مختلف ہوتی ہیں۔ جب یقین نہ ہو تو مقامی طور پر پوچھیں۔",
-    "sourceIds": ["new-muslim-guide-food-drink"],
-    "reviewStatus": "source-checked"
+    "title": "New Muslim Guide - کھانا اور پینا",
+    "description": "حلال کھانے پر ابتدائی رہنمائی: اجزا پڑھنا، باہر کھانا، اور یہ جاننا کہ کب کافی جانچ ہو گئی۔",
+    "bestFor": "سودا سلف اور ریستوران کی بنیادی باتیں",
+    "trustNote": "اجزا اور سرٹیفکیشن کی تفصیلات ملک کے لحاظ سے مختلف ہیں، اس لیے جب یقین نہ ہو تو مقامی طور پر پوچھیں۔"
   },
   {
     "id": "seerah-podcast",
-    "title": "Seerah Series by Yasir Qadhi",
-    "type": "video",
-    "url": "https://www.youtube.com/playlist?list=PLAEA99D24CA2F9A8F",
-    "description": "نبی کریم صلی اللہ علیہ وسلم کی سیرت پر ایک تفصیلی لیکچر سیریز۔",
-    "relatedStepIds": ["knowledge"],
-    "relatedTopicIds": ["beliefs", "prophet-muhammad"],
-    "organization": "Yasir Qadhi",
-    "bestFor": "لمبی شکل والی سیرہ سن رہی ہے۔",
-    "trustNote": "یہ پہلے ہفتے کے وسائل سے زیادہ گہرا ہے۔ اسے آہستہ سے لے لو.",
-    "sourceIds": [],
-    "reviewStatus": "source-checked"
+    "title": "یاسر قاضی کا سیرت سلسلہ",
+    "description": "نبی کریم محمد ﷺ کی زندگی پر ایک طویل اور تفصیلی لیکچر سلسلہ۔",
+    "bestFor": "سیرت کو تفصیل سے سننا",
+    "trustNote": "یہ پہلے ہفتے کے وسیلے سے زیادہ گہرا ہے۔ اسے آہستہ آہستہ لیں۔"
   },
   {
     "id": "wudu-tutorial",
-    "title": "New Muslim Guide - Purification",
-    "type": "article",
-    "url": "https://newmuslimguide.com/en/categories/your-purification",
-    "description": "وضو، غسل اور رسمی طہارت کی بنیادی باتوں کے لیے ایک ابتدائی دوستانہ گائیڈ۔",
-    "relatedStepIds": ["ghusl", "prayer"],
-    "relatedTopicIds": ["purification", "prayer"],
-    "organization": "New Muslim Guide",
-    "bestFor": "بغیر ویڈیو پریشر کے وضو اور غسل سیکھنا",
-    "trustNote": "اگر آپ کو یقین نہ ہو تو حساس تفصیلات پر کسی قابل اعتماد استاد سے بات کرنی چاہیے۔",
-    "sourceIds": ["new-muslim-guide"],
-    "reviewStatus": "source-checked"
+    "title": "New Muslim Guide - پاکی",
+    "description": "وضو، غسل اور پاکی کی بنیادی باتوں پر ایک تحریری گائیڈ۔",
+    "bestFor": "ویڈیو کے دباؤ کے بغیر وضو اور غسل سیکھنا",
+    "trustNote": "اگر یقین نہ ہو تو نازک تفصیلات پر کسی قابلِ اعتماد استاد سے بات کریں۔"
   },
   {
     "id": "convert-story-videos",
-    "title": "Convert Stories - The Deen Show",
-    "type": "video",
-    "url": "https://www.youtube.com/c/TheDeenShowTV",
-    "description": "اسلام قبول کرنے والے لوگوں کے ساتھ ویڈیو انٹرویوز، حوصلہ افزائی کے لیے مفید اور تنہا محسوس کرنے کے لیے۔",
-    "relatedStepIds": ["shahada", "community", "family-and-friends"],
-    "relatedTopicIds": ["community", "family-and-identity"],
-    "organization": "The Deen Show",
-    "bestFor": "کہانیوں کے ذریعے جذباتی حوصلہ افزائی",
-    "trustNote": "کہانیاں ذاتی تجربات ہیں، احکام کے ذرائع نہیں۔",
-    "sourceIds": [],
-    "reviewStatus": "source-checked"
+    "title": "نومسلموں کی کہانیاں - The Deen Show",
+    "description": "ان لوگوں کے ویڈیو انٹرویو جو مسلمان ہوئے۔ ان دنوں کے لیے اچھا جب آپ خود کو اکیلا محسوس کریں۔",
+    "bestFor": "کہانیوں کے ذریعے جذباتی حوصلہ",
+    "trustNote": "کہانیاں ذاتی تجربات ہیں، احکام کا ماخذ نہیں۔"
   },
   {
     "id": "fortress-muslim-dua-book",
-    "title": "Fortress of the Muslim",
-    "type": "book",
-    "url": "https://darussalam.com/fortress-of-the-muslim-pocket-size/",
-    "description": "قرآن اور سنت کے حوالوں سے تیار کردہ دعا اور ذکر کا ایک وسیع پیمانے پر استعمال شدہ مجموعہ۔",
-    "relatedStepIds": ["prayer", "character", "daily-dua-dhikr"],
-    "relatedTopicIds": ["prayer", "dua-and-dhikr"],
-    "organization": "Darussalam",
-    "bestFor": "روزانہ کی دعا اور ذکر کا حوالہ",
-    "trustNote": "یہ ایک گمنام پی ڈی ایف آئینے کو ایک قابل شناخت پبلشر صفحہ سے بدل دیتا ہے۔",
-    "sourceIds": ["darussalam"],
-    "reviewStatus": "source-checked"
+    "title": "حصن المسلم",
+    "description": "دعاؤں اور اذکار کا ایک بہت استعمال ہونے والا مجموعہ، جس میں ہر ایک کا قرآن یا سنت سے حوالہ دیا گیا ہے۔",
+    "bestFor": "روزانہ دعا اور ذکر کا حوالہ",
+    "trustNote": "یہ ایک گمنام پی ڈی ایف نقل کی جگہ ایک قابلِ شناخت ناشر کا صفحہ دیتا ہے۔"
   },
   {
     "id": "aboutislam-new-muslims",
-    "title": "AboutIslam - New Muslims",
-    "type": "article",
-    "url": "https://aboutislam.net/reading-islam/new-muslims/",
-    "description": "نئے مسلمانوں کے عقیدے، شناخت، خاندان، اور برادری کے لیے مضامین اور اکثر پوچھے گئے سوالات۔",
-    "relatedStepIds": ["shahada", "community", "family-and-friends"],
-    "relatedTopicIds": ["beliefs", "community", "family-and-identity"],
-    "organization": "AboutIslam",
-    "bestFor": "مختصر ابتدائی مضامین",
-    "trustNote": "معاون پڑھنے کے طور پر استعمال کریں اور مستند علماء سے تفصیلی احکام کی تصدیق کریں۔",
-    "sourceIds": ["aboutislam"],
-    "reviewStatus": "source-checked"
+    "title": "AboutIslam - نومسلموں کے لیے",
+    "description": "ایمان، پہچان، خاندان اور کمیونٹی کے سوالات سے گزرنے والے نومسلموں کے لیے مختصر مضامین اور سوالات و جوابات۔",
+    "bestFor": "ابتدائی افراد کے لیے مختصر مضامین",
+    "trustNote": "اسے مددگار مطالعے کے طور پر استعمال کریں اور تفصیلی احکام کی مستند علما سے تصدیق کریں۔"
   },
   {
     "id": "tarteel-ai-app",
-    "title": "Tarteel AI - Quran Recitation Helper",
-    "type": "app",
-    "url": "https://www.tarteel.ai/",
-    "description": "ایک ایپ جو فیڈ بیک ٹولز کے ساتھ حفظ قرآن اور تلاوت کی مشق کو سپورٹ کرتی ہے۔",
-    "relatedStepIds": ["quran"],
-    "relatedTopicIds": ["quran"],
-    "organization": "Tarteel AI",
-    "bestFor": "اسباق کے درمیان تلاوت قرآن کی مشق",
-    "trustNote": "ایپ فیڈ بیک ایک مشق امداد ہے، استاد کا متبادل نہیں۔",
-    "sourceIds": ["tarteel"],
-    "reviewStatus": "source-checked"
+    "title": "Tarteel AI - قرآن کی تلاوت میں مددگار",
+    "description": "ایک ایپ جو آپ کی تلاوت سنتی ہے اور بتاتی ہے کہ کہاں غلطی ہوئی، حفظ اور تلاوت کی مشق کے لیے۔",
+    "bestFor": "اسباق کے درمیان قرآن کی تلاوت کی مشق",
+    "trustNote": "ایپ کی رائے مشق میں مدد ہے، استاد کا متبادل نہیں۔ Tarteel کی رازداری پالیسی (آخری تازہ کاری 26 مئی 2023) کہتی ہے کہ آواز کی ریکارڈنگ امریکہ میں محفوظ کی جاتی ہے اور اس کے مصنوعی ذہانت کے نظام کی تربیت کے لیے استعمال ہوتی ہے، کچھ کو انسان سنتے ہیں، اور ایپ اینالیٹکس اور گوگل کوکیز استعمال کرتی ہے۔ مفت صارفین ریکارڈنگ مٹا سکتے ہیں، صرف Premium صارفین تربیت سے باہر رہنے کا انتخاب کر سکتے ہیں۔ ریکارڈ کرنے سے پہلے پالیسی پڑھ لیں۔"
   },
   {
     "id": "purification-fiqh-guide",
-    "title": "New Muslim Guide - Purification",
-    "type": "article",
-    "url": "https://newmuslimguide.com/en/categories/your-purification",
-    "description": "ابتدائی افراد کے لیے وضو، غسل اور طہارت کی مرحلہ وار وضاحت۔",
-    "relatedStepIds": ["ghusl"],
-    "relatedTopicIds": ["purification"],
-    "organization": "New Muslim Guide",
-    "bestFor": "طہارت کی بنیادی باتیں",
-    "trustNote": "کچھ تفصیلات میں رائے کا اختلاف موجود ہے، لہذا ذاتی معاملات کے لیے مقامی طور پر پوچھیں۔",
-    "sourceIds": ["new-muslim-guide"],
-    "reviewStatus": "source-checked"
+    "title": "New Muslim Guide - پاکی",
+    "description": "وضو، غسل اور پاکی کے وسیع احکام کی قدم بہ قدم وضاحت، ابتدائی افراد کے لیے لکھی گئی۔",
+    "bestFor": "پاکی کی بنیادی باتیں",
+    "trustNote": "کچھ تفصیلات میں علمی اختلاف ہے، اس لیے ذاتی معاملات کے لیے مقامی طور پر پوچھیں۔"
   },
   {
     "id": "naseeha-mental-health",
-    "title": "Naseeha Mental Health",
-    "type": "community",
-    "url": "https://www.naseeha.org/",
-    "description": "ایک مسلم ذہنی صحت کی ہیلپ لائن اور ان لوگوں کے لیے امدادی تنظیم جن سے بات کرنے کے لیے کسی کی ضرورت ہے۔",
-    "relatedStepIds": [
-      "community",
-      "family-and-friends",
-      "questions-and-doubts"
-    ],
-    "relatedTopicIds": [
-      "community",
-      "family-and-identity",
-      "questions-and-doubts"
-    ],
-    "organization": "Naseeha",
-    "bestFor": "مسلم دماغی صحت کی مدد اور ہیلپ لائن روٹنگ",
-    "trustNote": "اگر خود کو نقصان پہنچانے کا خطرہ یا خطرہ ہو تو فوری طور پر ہنگامی خدمات یا کرائسز لائنز کا استعمال کریں۔",
-    "sourceIds": ["naseeha"],
-    "reviewStatus": "source-checked"
+    "title": "Naseeha ہیلپ لائن",
+    "description": "کینیڈا میں مسلمان نوجوانوں کے لیے ہر وقت دستیاب ہیلپ لائن، جسے Naseeha Mental Health چلاتا ہے، ان لمحوں کے لیے جب آپ کو کسی سے بات کرنی ہو۔",
+    "bestFor": "مسلمانوں کی ذہنی صحت کی مدد اور ہیلپ لائن کی رہنمائی",
+    "trustNote": "اگر خطرہ ہو یا خود کو نقصان پہنچانے کا اندیشہ ہو تو فوراً ایمرجنسی سروسز یا بحران ہیلپ لائنز استعمال کریں۔"
   },
   {
     "id": "launchgood-zakat-policy",
-    "title": "LaunchGood Zakat Policy",
-    "type": "article",
-    "url": "https://www.launchgood.com/zakatpolicy",
-    "description": "ایک عوامی زکوٰۃ پالیسی کی مثال جو بتاتی ہے کہ ایک پلیٹ فارم دینے والا زکوٰۃ کے اہل مہمات کے ساتھ کس طرح برتاؤ کرتا ہے۔",
-    "relatedStepIds": ["zakat-hajj"],
-    "relatedTopicIds": ["halal-living"],
-    "organization": "LaunchGood",
-    "bestFor": "یہ دیکھنا کہ ایک پلیٹ فارم زکوٰۃ کی اہلیت کو کیسے دستاویز کرتا ہے۔",
-    "trustNote": "پلیٹ فارم کی پالیسیاں آپ کے اپنے مالیات کے لیے ذاتی فقہ کے جائزے کی جگہ نہیں لیتی ہیں۔",
-    "sourceIds": ["launchgood-zakat"],
-    "reviewStatus": "review-needed"
+    "title": "LaunchGood کی زکوٰۃ پالیسی",
+    "description": "عطیات کے ایک پلیٹ فارم کی شائع شدہ پالیسی کہ کون سی مہمات زکوٰۃ کے قابل شمار ہوتی ہیں، اور کیوں۔",
+    "bestFor": "یہ دیکھنا کہ ایک پلیٹ فارم زکوٰۃ کی اہلیت کو کیسے درج کرتا ہے",
+    "trustNote": "پلیٹ فارم کی پالیسیاں آپ کے اپنے مالی معاملات کے لیے ذاتی فقہی جائزے کی جگہ نہیں لیتیں۔"
   },
   {
     "id": "yaqeen-dhul-hijjah-resources",
-    "title": "Yaqeen Institute - Dhul Hijjah Resources",
-    "type": "article",
-    "url": "https://yaqeeninstitute.org/series/dhul-hijjah-playlist",
-    "description": "مظاہر، یاد دہانیوں، اور ابتدائی دوستانہ عبادت کے خیالات کے ساتھ ذوالحجہ کا تیار کردہ مجموعہ۔",
-    "relatedStepIds": ["fasting", "zakat-hajj"],
-    "relatedTopicIds": ["fasting", "prophet-muhammad"],
-    "organization": "Yaqeen Institute",
+    "title": "Yaqeen Institute - ذوالحجہ کے وسائل",
+    "description": "ذوالحجہ کے غور و فکر اور یاددہانیوں کا مجموعہ، پہلے دس دنوں کے لیے عبادت کے سادہ خیالات کے ساتھ۔",
     "bestFor": "ذوالحجہ کے پہلے دس دنوں کی تیاری",
-    "trustNote": "اسے روحانی تیاری کے لیے استعمال کریں اور کسی اہل شخص سے ذاتی احکام کے بارے میں پوچھیں۔",
-    "sourceIds": ["yaqeen-dhul-hijjah"],
-    "reviewStatus": "source-checked"
+    "trustNote": "اسے روحانی تیاری کے لیے استعمال کریں اور ذاتی احکام کسی مستند شخص سے پوچھیں۔"
   },
   {
     "id": "nusuk-hajj-official",
-    "title": "Nusuk Hajj Official Platform",
-    "type": "app",
-    "url": "https://hajj.nusuk.sa/",
-    "description": "اہل عازمین کے لیے سعودی وزارت حج و عمرہ کی نگرانی میں سرکاری حج پلیٹ فارم۔",
-    "relatedStepIds": ["zakat-hajj"],
-    "relatedTopicIds": ["halal-living"],
-    "organization": "Nusuk Hajj / Ministry of Hajj and Umrah",
-    "bestFor": "سرکاری حج رجسٹریشن اور ٹریول روٹنگ چیک کرنا",
-    "trustNote": "حج کے سفری قوانین میں تبدیلی؛ پیسہ خرچ کرنے سے پہلے سرکاری ذرائع سے موجودہ ضروریات کی تصدیق کریں۔",
-    "sourceIds": ["nusuk-hajj", "travel-state-hajj-umrah"],
-    "reviewStatus": "source-checked"
+    "title": "نسک حج کا سرکاری پلیٹ فارم",
+    "description": "حج کے لیے سرکاری سعودی پلیٹ فارم، جو وزارتِ حج و عمرہ کے تحت چلتا ہے، جہاں خدمات پانے والے ممالک کے حاجی منظور شدہ سروس فراہم کنندگان کے پیکج چنتے ہیں۔",
+    "bestFor": "حج کے سرکاری اندراج اور سفر کی رہنمائی دیکھنا",
+    "trustNote": "دیکھیں کہ جس سال آپ منصوبہ بنائیں اس میں نسک کینیڈا کو خدمات دیتا ہے یا نہیں، اور پہلے سعودی عرب کے لیے حکومتِ کینیڈا کی سفری ہدایات پڑھیں۔ اندراج سے حج کی جگہ کی ضمانت نہیں ملتی۔"
   },
   {
     "id": "new-muslim-academy-quran-etiquette",
-    "title": "New Muslim Academy - Quran Etiquette",
-    "type": "article",
-    "url": "https://www.newmuslimacademy.org/etiquettes-of-touching-reading-the-quran-in-arabic-written-form/",
-    "description": "مصحف کا احترام کرنے، ترجمے پڑھنے، اور بغیر گھبرائے قرآن کے آداب سیکھنے کے بارے میں ابتدائی حساس رہنمائی۔",
-    "relatedStepIds": ["quran"],
-    "relatedTopicIds": ["quran"],
-    "organization": "New Muslim Academy",
-    "bestFor": "احترام قرآن سے نمٹنے کی بنیادی باتیں",
-    "trustNote": "تفصیلی طہارت کے سوالات کا اب بھی کسی اہل مقامی استاد کے ساتھ جائزہ لیا جانا چاہیے۔",
-    "sourceIds": ["new-muslim-academy-quran-etiquette"],
-    "reviewStatus": "review-needed"
+    "title": "New Muslim Academy - قرآن کے آداب",
+    "description": "مصحف کو سنبھالنے، ترجمے پڑھنے اور قرآن کے آداب پر رہنمائی، اس طرح لکھی گئی کہ غلطی کے ڈر سے آپ گھبرائیں نہیں۔",
+    "bestFor": "قرآن کو احترام سے سنبھالنے کی بنیادی باتیں",
+    "trustNote": "پاکی کے تفصیلی سوالات کا جائزہ پھر بھی کسی مستند مقامی استاد کے ساتھ لیں۔"
   },
   {
     "id": "yaqeen-seerah-collection",
-    "title": "Yaqeen Institute - Life of the Prophet",
-    "type": "video",
-    "url": "https://yaqeeninstitute.org/topic/life-of-the-prophet-seerah?filter=videos",
-    "description": "ایک قابل شناخت اسلامی تعلیمی ادارے سے سیرت اور پیغمبرانہ کردار کا ایک بڑا مجموعہ۔",
-    "relatedStepIds": ["knowledge", "character"],
-    "relatedTopicIds": ["prophet-muhammad", "character"],
-    "organization": "Yaqeen Institute",
-    "bestFor": "بتدریج سیرت سننا اور کردار کی عکاسی۔",
-    "trustNote": "آہستہ استعمال کریں؛ ابتدائیوں کو ایک ساتھ لمبی سیریز استعمال کرنے کی ضرورت نہیں ہے۔",
-    "sourceIds": ["yaqeen-seerah"],
-    "reviewStatus": "source-checked"
+    "title": "Yaqeen Institute - نبی ﷺ کی زندگی",
+    "description": "نبی ﷺ کی زندگی اور کردار پر ویڈیوز اور مضامین کا بڑا مجموعہ، ایک نامور تحقیقی ادارے کی طرف سے۔",
+    "bestFor": "آہستہ آہستہ سیرت سننا اور کردار پر غور",
+    "trustNote": "اسے آہستہ لیں۔ لمبا سلسلہ ایک ہی بار میں مکمل کرنے کی ضرورت نہیں۔"
   },
   {
     "id": "seekersguidance-seerah",
-    "title": "SeekersGuidance - Study the Life of the Prophet",
-    "type": "article",
-    "url": "https://seekersguidance.org/articles/general-artices/life-of-the-prophet/",
-    "description": "سٹرکچرڈ کورسز اور قابل اعتماد اساتذہ کے ذریعے سیرت سیکھنے کے لیے ایک مختصر واقفیت۔",
-    "relatedStepIds": ["knowledge"],
-    "relatedTopicIds": ["prophet-muhammad"],
-    "organization": "SeekersGuidance",
-    "bestFor": "منظم سیرۃ مطالعہ تلاش کرنا",
-    "trustNote": "سیکھنے کے راستے کے لیے اچھا؛ اہل اساتذہ سے ذاتی مذہبی سوالات پوچھیں۔",
-    "sourceIds": ["seekersguidance-seerah"],
-    "reviewStatus": "source-checked"
+    "title": "SeekersGuidance - نبی ﷺ کی زندگی کا مطالعہ",
+    "description": "ایک مختصر تحریر کہ سیرت کا مطالعہ منظم کورسز اور قابلِ اعتماد اساتذہ کے ذریعے صحیح طریقے سے کیسے کریں۔",
+    "bestFor": "سیرت کا منظم مطالعہ تلاش کرنا",
+    "trustNote": "منظم سیکھنے کے راستوں کے لیے اچھا۔ ذاتی دینی سوالات کسی مستند استاد سے پوچھیں۔"
   },
   {
     "id": "new-muslim-academy-prophet-example",
-    "title": "New Muslim Academy - Following the Messenger",
-    "type": "article",
-    "url": "https://www.newmuslimacademy.org/the-messenger-muhammad-following-his-example/",
-    "description": "مسلمان نبی کریم صلی اللہ علیہ وسلم کی مثال کی پیروی کیوں کرتے ہیں اس کا ایک ابتدائی تعارف۔",
-    "relatedStepIds": ["knowledge", "character"],
-    "relatedTopicIds": ["prophet-muhammad", "new-muslim-basics"],
-    "organization": "New Muslim Academy",
-    "bestFor": "نبی صلی اللہ علیہ وسلم کے نمونے کی طرف نئے مسلمانوں کی واقفیت",
-    "trustNote": "ابتدائی فریمنگ کے طور پر استعمال کریں اور گہری سیر کے لیے اہل اساتذہ کے ساتھ جاری رکھیں۔",
-    "sourceIds": ["new-muslim-academy-prophet-example"],
-    "reviewStatus": "source-checked"
+    "title": "New Muslim Academy - رسول ﷺ کی پیروی",
+    "description": "اس بات کا ابتدائی تعارف کہ مسلمان نبی کریم محمد ﷺ کی مثال کی پیروی کیوں کرتے ہیں۔",
+    "bestFor": "نبی ﷺ کی مثال سے نومسلموں کی واقفیت",
+    "trustNote": "اسے ابتدائی تعارف کے طور پر استعمال کریں اور گہری سیرت کے لیے مستند اساتذہ کے ساتھ جاری رکھیں۔"
+  },
+  {
+    "id": "quran-com-al-fatihah-plan",
+    "title": "سات دن، سات آیات (سورۂ فاتحہ)",
+    "description": "ایک ہفتے تک روزانہ سورۂ فاتحہ کی ایک آیت، لفظ بہ لفظ معنی کے ساتھ، دس منٹ سے کم کے اسباق میں۔",
+    "bestFor": "یہ سمجھنا کہ آپ ہر نماز میں کیا کہتے ہیں",
+    "trustNote": "مفت اور اکاؤنٹ کے بغیر پڑھا جا سکتا ہے۔ اسباق شیخ حماد فہیم کے ہیں۔"
+  },
+  {
+    "id": "new-muslim-academy-quran-classes",
+    "title": "New Muslim Academy کی براہِ راست قرآن کلاسیں",
+    "description": "سورۂ فاتحہ اور چھوٹی سورتوں کی تلاوت پر چھوٹے گروپوں کی مفت آن لائن کلاسیں، شام کے وقت، مشرقی وقت کے مطابق۔",
+    "bestFor": "کسی زندہ استاد کے ساتھ تلاوت سیکھنا",
+    "trustNote": "بھائیوں اور بہنوں کو الگ الگ پڑھایا جاتا ہے۔ آپ اندراج کا فارم بھرتے ہیں، اور سائٹ اینالیٹکس اور اشتہاری پکسل استعمال کرتی ہے۔"
+  },
+  {
+    "id": "seekersguidance-essentials-course",
+    "title": "Essentials of Faith, Worship, and Spirituality",
+    "description": "عقیدے، عبادت اور روحانیت کی بنیادی باتوں پر لیول ون کا مفت براہِ راست کورس، ہر ہفتے کو مشرقی وقت کے مطابق صبح 10:00 بجے۔",
+    "bestFor": "پہلا منظم کورس، ایک دو مہینے بعد",
+    "trustNote": "شیخ فراز ربانی پڑھاتے ہیں۔ SeekersGuidance کہتا ہے کہ اس کے تمام کورسز مفت ہیں۔"
+  },
+  {
+    "id": "yaqeen-quran-30-for-30",
+    "title": "Qur'an 30 for 30 (قرآن کے 30 پاروں کی موضوعاتی تفسیر)",
+    "description": "ایک مفت ای بک جو قرآن کے 30 پاروں میں سے ہر ایک کا مختصر جائزہ دیتی ہے۔",
+    "bestFor": "قرآن کی بڑی تصویر دیکھنا",
+    "trustNote": "ڈاکٹر عمر سلیمان اور شیخ اسماعیل کمدار کی تحریر۔ مفت ڈاؤن لوڈ۔"
+  },
+  {
+    "id": "mac-elearning",
+    "title": "MAC ای لرننگ",
+    "description": "مسلم ایسوسی ایشن آف کینیڈا کے قرآن، اسلامی علوم، خاندان اور تاریخ پر مفت آن لائن کورسز۔",
+    "bestFor": "چھ مہینے بعد اپنی رفتار سے گہرائی میں جانا",
+    "trustNote": "کینیڈا کا ایک خیراتی ادارہ۔ شروع کرنے سے پہلے ہر کورس کی سطح دیکھ لیں۔"
+  },
+  {
+    "id": "tafsir-ibn-kathir-juz-amma",
+    "title": "تفسیر ابن کثیر (مختصر): تیسواں پارہ",
+    "description": "قرآن کے آخری پارے کی چھوٹی سورتوں کی ایک کلاسیکی تفسیر۔",
+    "bestFor": "وہ قاری جو اپنی پڑھی جانے والی سورتوں کا کلاسیکی مطلب جاننا چاہتے ہیں",
+    "trustNote": "خریدنی پڑتی ہے، چھپی ہوئی کتاب۔ کسی استاد کے ساتھ پڑھنا بہتر ہے۔"
+  },
+  {
+    "id": "pillars-app",
+    "title": "Pillars",
+    "description": "نماز کے اوقات کی ایک ایپ جس میں قبلہ، ویجٹس اور حساب کے کئی طریقے ہیں، جن میں ISNA کا وہ طریقہ بھی شامل ہے جو یہ سائٹ استعمال کرتی ہے۔",
+    "bestFor": "فون پر نماز کی یاددہانیاں",
+    "trustNote": "نہ اشتہار، نہ اکاؤنٹ۔ آپ کا مقام آپ کے فون پر رہتا ہے۔ یہ گمنام اینالیٹکس استعمال کرتی ہے، جسے آپ ترتیبات میں بند کر سکتے ہیں۔"
+  },
+  {
+    "id": "cra-list-of-charities",
+    "title": "کینیڈا ریونیو ایجنسی کی خیراتی اداروں کی فہرست",
+    "description": "کینیڈا ریونیو ایجنسی کی فہرست، جہاں آپ زکوٰۃ یا صدقہ دینے سے پہلے دیکھ سکتے ہیں کہ کوئی خیراتی ادارہ رجسٹرڈ ہے۔",
+    "bestFor": "دینے سے پہلے خیراتی ادارے کی جانچ",
+    "trustNote": "حکومتِ کینیڈا کی سرکاری فہرست۔"
+  },
+  {
+    "id": "cafc-charity-fraud",
+    "title": "خیرات اور عطیات کا فراڈ",
+    "description": "خیراتی دھوکوں کی انتباہی علامات، جن میں مذہبی مقاصد کے لیے اپیلیں شامل ہیں، اور رجسٹریشن نمبر جانچنے کا طریقہ۔",
+    "bestFor": "جعلی اپیل پہچاننا",
+    "trustNote": "حکومتِ کینیڈا کا سرکاری صفحہ۔"
   }
 ]
