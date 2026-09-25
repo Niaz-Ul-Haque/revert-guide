@@ -15,6 +15,7 @@ const FAQ_ID_ALIASES: Record<string, string> = {
   "faq-fnd-010": "faq-lif-022",
   "faq-fnd-011": "faq-lif-016",
   "faq-fnd-020": "faq-pry-006",
+  "faq-fnd-021": "faq-lif-014",
   "faq-lrn-001": "faq-pry-006",
   "faq-pry-022": "faq-wor-001",
   "faq-pry-023": "faq-lif-007",
