@@ -226,7 +226,17 @@ export default function DuaDhikrPage({
   const t = getTranslator(locale);
   const copy = t<DuaDhikrCopy>("pages.duaDhikr");
   const { sections, phrases } = getDuaDhikrContent(locale);
-  const pageSources = getSourcesByIds(pageSourceIds, locale);
+  const pageSources = getSourcesByIds(
+    Array.from(
+      new Set([
+        ...pageSourceIds,
+        ...sections.flatMap((section) =>
+          section.entries.flatMap((entry) => entry.sourceIds),
+        ),
+      ]),
+    ),
+    locale,
+  );
   const totalEntries = sections.reduce(
     (count, section) => count + section.entries.length,
     0,

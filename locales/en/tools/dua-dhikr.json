@@ -50,8 +50,42 @@
     {
       "id": "before-after-prayer",
       "title": "Before and after prayer",
-      "intro": "Prayer already holds the duas a beginner most needs. When you finish, sit for a moment with a short dhikr before you get up.",
+      "intro": "Prayer already holds the duas a beginner most needs. Before it, you can reply to the call to prayer. When you finish, sit for a moment with a short dhikr before you get up.",
       "entries": [
+        {
+          "title": "The call to prayer (adhan)",
+          "kind": "Dhikr",
+          "occasion": "Before each of the five prayers",
+          "arabic": "اللَّهُ أَكْبَرُ اللَّهُ أَكْبَرُ، اللَّهُ أَكْبَرُ اللَّهُ أَكْبَرُ\nأَشْهَدُ أَنْ لَا إِلَٰهَ إِلَّا اللَّهُ، أَشْهَدُ أَنْ لَا إِلَٰهَ إِلَّا اللَّهُ\nأَشْهَدُ أَنَّ مُحَمَّدًا رَسُولُ اللَّهِ، أَشْهَدُ أَنَّ مُحَمَّدًا رَسُولُ اللَّهِ\nحَيَّ عَلَى الصَّلَاةِ، حَيَّ عَلَى الصَّلَاةِ\nحَيَّ عَلَى الْفَلَاحِ، حَيَّ عَلَى الْفَلَاحِ\nاللَّهُ أَكْبَرُ اللَّهُ أَكْبَرُ\nلَا إِلَٰهَ إِلَّا اللَّهُ",
+          "transliteration": "Allahu akbar (four times). Ash-hadu an la ilaha illallah (twice). Ash-hadu anna Muhammadan rasulullah (twice). Hayya 'alas-salah (twice). Hayya 'alal-falah (twice). Allahu akbar (twice). La ilaha illallah.",
+          "meaning": "Allah is the Greatest. I bear witness that there is no god but Allah. I bear witness that Muhammad is the Messenger of Allah. Come to prayer. Come to success. Allah is the Greatest. There is no god but Allah.",
+          "note": "This is the wording taught to Abdullah ibn Zayd and approved by the Prophet (Sunan Abi Dawud 499, graded Hasan Sahih by al-Albani). The iqama is the shorter call said just before the prayer starts: the same phrases, most of them said once, with 'Qad qamatis-salah' (the prayer has begun) added. Small differences in wording between communities do not change your reply.",
+          "sourceIds": ["sunnah-abudawud-499"]
+        },
+        {
+          "title": "Replying to the adhan",
+          "kind": "Dhikr",
+          "occasion": "While you hear the adhan",
+          "arabic": "لَا حَوْلَ وَلَا قُوَّةَ إِلَّا بِاللَّهِ",
+          "transliteration": "La hawla wa la quwwata illa billah",
+          "meaning": "There is no might and no power except with Allah.",
+          "note": "Repeat each phrase quietly after the caller. At 'Hayya 'alas-salah' and 'Hayya 'alal-falah', say this line instead (Sahih Muslim 385). Replying is rewarded, but it is not a condition of your prayer, and you do not have to stop everything or get it perfect. You also do not have to pray the moment the adhan ends: any time inside the prayer window counts.",
+          "sourceIds": ["sunnah-muslim-385", "sunnah-muslim-384"]
+        },
+        {
+          "title": "Dua after the adhan",
+          "kind": "Hadith dua",
+          "occasion": "When the adhan ends",
+          "arabic": "اللَّهُمَّ رَبَّ هَذِهِ الدَّعْوَةِ التَّامَّةِ وَالصَّلَاةِ الْقَائِمَةِ\nآتِ مُحَمَّدًا الْوَسِيلَةَ وَالْفَضِيلَةَ\nوَابْعَثْهُ مَقَامًا مَحْمُودًا الَّذِي وَعَدْتَهُ",
+          "transliteration": "Allahumma Rabba hadhihid-da'watit-tammah, was-salatil-qa'imah, ati Muhammadanil-wasilata wal-fadilah, wab'athhu maqaman mahmudanil-ladhi wa'adtah.",
+          "meaning": "O Allah, Lord of this perfect call and of the prayer about to begin, grant Muhammad the place of nearness and the special rank, and raise him to the praised station You promised him.",
+          "note": "Send blessings on the Prophet first, then say this dua (Sahih Muslim 384; Sahih al-Bukhari 614). On a Friday, the call is also the signal to leave business and go to the prayer (Quran 62:9).",
+          "sourceIds": [
+            "sunnah-bukhari-614",
+            "sunnah-muslim-384",
+            "quran-62-9-friday-call"
+          ]
+        },
         {
           "title": "Guidance from Al-Fatiha",
           "kind": "Quranic dua",
