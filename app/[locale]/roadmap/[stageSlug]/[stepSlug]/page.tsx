@@ -186,8 +186,8 @@ export default function StepPage({
         </AnimateIn>
         <ol className="flex flex-col gap-6 pl-0">
           {step.exactActions.map((action, index) => (
-            <AnimateIn key={`${action.text}-${index}`} delay={index * 0.06}>
-              <li className="flex gap-4">
+            <li key={`${action.text}-${index}`}>
+              <AnimateIn className="flex gap-4" delay={index * 0.06}>
                 <span
                   className="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-gradient-to-br from-primary to-primaryHover text-sm font-bold text-white shadow-soft"
                   aria-hidden="true"
@@ -215,8 +215,8 @@ export default function StepPage({
                     </ul>
                   )}
                 </div>
-              </li>
-            </AnimateIn>
+              </AnimateIn>
+            </li>
           ))}
         </ol>
       </section>

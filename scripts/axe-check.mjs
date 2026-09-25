@@ -32,6 +32,7 @@ const PAGES = [
   "/en/community-groups",
   "/en/guides/how-mentoring-works",
   "/en/guides",
+  "/en/topics",
   "/en/guides/when-someone-dies",
   "/en/guides/how-muslims-marry",
   "/en/guides/children-and-family-life",

@@ -92,46 +92,47 @@ export default function GuidesPage({ params }: { params: { locale: Locale } }) {
               {copy.groups[group].intro}
             </p>
           </AnimateIn>
-          <div className="grid gap-5 md:grid-cols-2" role="list">
+          <ul className="grid gap-5 pl-0 md:grid-cols-2">
             {groupGuides.map((guide, index) => (
-              <AnimateIn key={guide.id} delay={index * 0.06}>
-                <Link
-                  href={localizeHref(locale, `/guides/${guide.slug}`)}
-                  className="group flex h-full flex-col rounded-2xl border border-border/60 bg-white p-6 no-underline shadow-card transition-all duration-300 hover:-translate-y-0.5 hover:border-primaryGreen/60 hover:shadow-card-hover focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-borderStrong"
-                  role="listitem"
-                >
-                  <div className="mb-4 flex items-start gap-4">
-                    <span className="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl bg-surfaceElevated text-primary transition-colors duration-300 group-hover:bg-primary group-hover:text-white">
+              <li key={guide.id} className="h-full">
+                <AnimateIn className="h-full" delay={index * 0.06}>
+                  <Link
+                    href={localizeHref(locale, `/guides/${guide.slug}`)}
+                    className="group flex h-full flex-col rounded-2xl border border-border/60 bg-white p-6 no-underline shadow-card transition-all duration-300 hover:-translate-y-0.5 hover:border-primaryGreen/60 hover:shadow-card-hover focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-borderStrong"
+                  >
+                    <div className="mb-4 flex items-start gap-4">
+                      <span className="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl bg-surfaceElevated text-primary transition-colors duration-300 group-hover:bg-primary group-hover:text-white">
+                        <Icon
+                          name={
+                            guide.id === "first-masjid-visit"
+                              ? "map-pin"
+                              : "users"
+                          }
+                          size="md"
+                        />
+                      </span>
+                      <div className="min-w-0">
+                        <h3 className="mb-1 mt-0 text-lg font-semibold text-textPrimary">
+                          {guide.title}
+                        </h3>
+                        <p className="mb-0 text-sm leading-relaxed text-textSecondary">
+                          {guide.description}
+                        </p>
+                      </div>
+                    </div>
+                    <span className="mt-auto inline-flex items-center gap-1.5 text-sm font-semibold text-primary">
+                      {copy.openGuide}
                       <Icon
-                        name={
-                          guide.id === "first-masjid-visit"
-                            ? "map-pin"
-                            : "users"
-                        }
-                        size="md"
+                        name="chevron-right"
+                        size="sm"
+                        className="transition-transform duration-300 group-hover:translate-x-1"
                       />
                     </span>
-                    <div className="min-w-0">
-                      <h3 className="mb-1 mt-0 text-lg font-semibold text-textPrimary">
-                        {guide.title}
-                      </h3>
-                      <p className="mb-0 text-sm leading-relaxed text-textSecondary">
-                        {guide.description}
-                      </p>
-                    </div>
-                  </div>
-                  <span className="mt-auto inline-flex items-center gap-1.5 text-sm font-semibold text-primary">
-                    {copy.openGuide}
-                    <Icon
-                      name="chevron-right"
-                      size="sm"
-                      className="transition-transform duration-300 group-hover:translate-x-1"
-                    />
-                  </span>
-                </Link>
-              </AnimateIn>
+                  </Link>
+                </AnimateIn>
+              </li>
             ))}
-          </div>
+          </ul>
         </section>
       ))}
 

@@ -84,14 +84,13 @@ export default function TopicsPage({ params }: { params: { locale: Locale } }) {
         </div>
       </header>
 
-      <div
-        className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3"
-        role="list"
+      <ul
+        className="grid gap-6 pl-0 sm:grid-cols-2 lg:grid-cols-3"
         aria-label={copy.gridLabel}
       >
         {topics.map((topic, index) => (
-          <AnimateIn key={topic.id} delay={index * 0.07} className="h-full">
-            <div role="listitem" className="h-full">
+          <li key={topic.id} className="h-full">
+            <AnimateIn delay={index * 0.07} className="h-full">
               <TopicCard
                 title={topic.title}
                 description={topic.description}
@@ -102,10 +101,10 @@ export default function TopicsPage({ params }: { params: { locale: Locale } }) {
                   ) : undefined
                 }
               />
-            </div>
-          </AnimateIn>
+            </AnimateIn>
+          </li>
         ))}
-      </div>
+      </ul>
 
       <AnimateIn className="mx-auto mt-12 max-w-2xl text-center">
         <p className="text-sm text-textSecondary">
