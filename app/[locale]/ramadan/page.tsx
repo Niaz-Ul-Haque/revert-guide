@@ -49,6 +49,7 @@ export default function RamadanPage({
       "sunnah-bukhari-hasten-iftar",
       "sunnah-abudawud-iftar-dates-water",
       "seekersguidance-shafii-fasting-ramadan",
+      "sunnah-bukhari-2026",
     ],
     locale,
   );
