@@ -1,4 +1,5 @@
 {
+  "reviewStatus": "review-needed",
   "sections": [
     {
       "id": "daily-basics",
@@ -50,26 +51,70 @@
     {
       "id": "before-after-prayer",
       "title": "礼拜之前和之后",
-      "intro": "礼拜本身就包含了初学者最需要的祈祷。礼拜结束后，起身之前先坐一会儿，念一段简短的记主词。",
+      "intro": "礼拜本身已经包含了初学者最需要的祈祷。礼拜之前，你可以回应宣礼。礼拜结束时，在起身之前坐一会儿，念一段简短的记主词。",
       "entries": [
+        {
+          "title": "礼拜的召唤（宣礼）",
+          "kind": "记主",
+          "occasion": "每日五次礼拜之前",
+          "arabic": "اللَّهُ أَكْبَرُ اللَّهُ أَكْبَرُ، اللَّهُ أَكْبَرُ اللَّهُ أَكْبَرُ\nأَشْهَدُ أَنْ لَا إِلَٰهَ إِلَّا اللَّهُ، أَشْهَدُ أَنْ لَا إِلَٰهَ إِلَّا اللَّهُ\nأَشْهَدُ أَنَّ مُحَمَّدًا رَسُولُ اللَّهِ، أَشْهَدُ أَنَّ مُحَمَّدًا رَسُولُ اللَّهِ\nحَيَّ عَلَى الصَّلَاةِ، حَيَّ عَلَى الصَّلَاةِ\nحَيَّ عَلَى الْفَلَاحِ، حَيَّ عَلَى الْفَلَاحِ\nاللَّهُ أَكْبَرُ اللَّهُ أَكْبَرُ\nلَا إِلَٰهَ إِلَّا اللَّهُ",
+          "transliteration": "Allahu akbar (four times). Ash-hadu an la ilaha illallah (twice). Ash-hadu anna Muhammadan rasulullah (twice). Hayya 'alas-salah (twice). Hayya 'alal-falah (twice). Allahu akbar (twice). La ilaha illallah.",
+          "meaning": "安拉至大。我作证，除安拉外，别无神灵。我作证，穆罕默德是安拉的使者。快来礼拜。快来成功。安拉至大。除安拉外，别无神灵。",
+          "note": "这是教给阿卜杜拉·本·栽德（Abdullah ibn Zayd）并得到先知认可的措辞（Sunan Abi Dawud 499，阿尔巴尼评为良好正确 Hasan Sahih）。成拜词（iqama）是礼拜即将开始前念的较短的召唤：词句相同，大多只念一遍，并加上“Qad qamatis-salah”（礼拜已经开始）。各社区在措辞上的细微差别，不会改变你的回应。",
+          "sourceIds": ["sunnah-abudawud-499"]
+        },
+        {
+          "title": "回应宣礼",
+          "kind": "记主",
+          "occasion": "听到宣礼的时候",
+          "arabic": "لَا حَوْلَ وَلَا قُوَّةَ إِلَّا بِاللَّهِ",
+          "transliteration": "La hawla wa la quwwata illa billah",
+          "meaning": "无法无力，唯凭安拉。",
+          "note": "在宣礼员念完每一句后，轻声跟着重复。念到“Hayya 'alas-salah”和“Hayya 'alal-falah”时，改念这一句（Sahih Muslim 385）。回应宣礼有回赐，但它不是礼拜的条件，你不必停下手头的一切，也不必做得完美。你也不必在宣礼一结束就马上礼拜：在礼拜时间之内的任何时候都算数。",
+          "sourceIds": ["sunnah-muslim-385", "sunnah-muslim-384"]
+        },
+        {
+          "title": "宣礼之后的祈祷",
+          "kind": "圣训中的祈祷",
+          "occasion": "宣礼结束时",
+          "arabic": "اللَّهُمَّ رَبَّ هَذِهِ الدَّعْوَةِ التَّامَّةِ وَالصَّلَاةِ الْقَائِمَةِ\nآتِ مُحَمَّدًا الْوَسِيلَةَ وَالْفَضِيلَةَ\nوَابْعَثْهُ مَقَامًا مَحْمُودًا الَّذِي وَعَدْتَهُ",
+          "transliteration": "Allahumma Rabba hadhihid-da'watit-tammah, was-salatil-qa'imah, ati Muhammadanil-wasilata wal-fadilah, wab'athhu maqaman mahmudanil-ladhi wa'adtah.",
+          "meaning": "主啊，这完美召唤和即将开始的礼拜的主啊，求你赐穆罕默德接近你的位置和特殊的品级，并使他升到你许诺给他的受赞美的地位。",
+          "note": "先为先知祈求祝福，然后念这段祈祷（Sahih Muslim 384；Sahih al-Bukhari 614）。在星期五，宣礼也是放下买卖、前去礼拜的信号（古兰经62:9）。",
+          "sourceIds": [
+            "sunnah-bukhari-614",
+            "sunnah-muslim-384",
+            "quran-62-9-friday-call"
+          ]
+        },
         {
           "title": "开端章中的求引导",
           "kind": "古兰经中的祈祷",
-          "occasion": "每一次礼拜之中",
+          "occasion": "在每一次礼拜之中",
           "arabic": "اهْدِنَا الصِّرَاطَ الْمُسْتَقِيمَ",
           "transliteration": "Ihdinas-siratal-mustaqim",
-          "meaning": "求你引导我们走正路。",
-          "note": "每一拜中你都会念这句话。如果你要先学会礼拜中某一句的意思，就学这一句。",
+          "meaning": "求你引导我们上正路。",
+          "note": "你在每一拜中都会念这句话。如果你要先学礼拜中某一句的意思，就学这一句。",
           "sourceIds": ["quran-al-fatihah-1"]
         },
         {
-          "title": "礼拜后的记主顺序",
+          "title": "出色兰之后的第一句话",
+          "kind": "圣训中的祈祷",
+          "occasion": "出色兰之后马上念",
+          "arabic": "أَسْتَغْفِرُ اللَّهَ\nاللَّهُمَّ أَنْتَ السَّلَامُ وَمِنْكَ السَّلَامُ\nتَبَارَكْتَ يَا ذَا الْجَلَالِ وَالْإِكْرَامِ",
+          "transliteration": "Astaghfirullah (three times). Allahumma antas-salam wa minkas-salam, tabarakta ya dhal-jalali wal-ikram.",
+          "meaning": "我向安拉求饶恕。主啊，你是平安，平安来自你。你是吉庆的，具有威严和尊贵的主。",
+          "note": "先知一做完礼拜就念这句话（Sahih Muslim 591）。在开始计数之前，你听到人们低声念的就是它。它在礼拜之后，不是礼拜的一部分，所以从少量开始。",
+          "sourceIds": ["sunnah-muslim-591"]
+        },
+        {
+          "title": "礼拜后的记主方式",
           "kind": "记主",
           "occasion": "主命拜之后",
           "arabic": "سُبْحَانَ اللَّهِ\nالْحَمْدُ لِلَّهِ\nاللَّهُ أَكْبَرُ",
           "transliteration": "SubhanAllah. Alhamdulillah. Allahu akbar.",
-          "meaning": "赞颂安拉超绝万物，赞美安拉，宣告安拉至大。",
-          "note": "很多穆斯林在每次礼拜后都会重复这些词句。每句先念几遍，以后再学完整的次数。",
+          "meaning": "赞颂安拉超绝，赞美安拉，宣告安拉至大。",
+          "note": "许多穆斯林在每次礼拜之后都会重复念这些。每一句先念几遍，以后再学完整的次数。",
           "sourceIds": ["sunnah-muslim-after-prayer-dhikr"]
         }
       ]
@@ -104,7 +149,7 @@
     {
       "id": "anxious-overwhelmed",
       "title": "当你感到焦虑或不堪重负时",
-      "intro": "祈祷和记主能带来真正的安慰。但当你处于危机中、想要伤害自己、正在遭受虐待，或无法度过这一天时，它们不能代替帮助。",
+      "intro": "祈祷和记主能带来真正的安慰。但当你正处于危机中、有伤害自己的念头、正在遭受虐待，或者连一天都撑不下去时，它们不能代替帮助。如果担忧不断把你拉回去重做小净或礼拜，小净页面有一节讲停不下来的疑虑，心理健康页面列出了可以在哪里获得帮助。",
       "entries": [
         {
           "title": "为焦虑和悲伤而祈祷",
@@ -197,5 +242,210 @@
         }
       ]
     }
-  ]
+  ],
+  "phrases": {
+    "id": "everyday-phrases",
+    "title": "日常用语：意思以及怎样回应",
+    "intro": "你身边的穆斯林会在平常的谈话中使用这些简短的阿拉伯语用语。每张卡片写明了意思、人们什么时候说，以及有没有回应的话。如果回应只是常见的礼貌用语，而不是出自圣训的措辞，卡片上会注明。",
+    "tips": [
+      "这个星期先学三个：问候语和它的回应、Bismillah，以及 Jazak Allahu khayran。",
+      "接下来加上打喷嚏时的回应和 inna lillahi。它们有固定的回应，或者用在敏感的时刻。",
+      "如果你忘了阿拉伯语，就用中文说出它的意思。这仍然是一句友善而正确的话。",
+      "把这一页打印出来，或者在手机上一直开着，直到这些用语自然地脱口而出。"
+    ],
+    "entries": [
+      {
+        "phrase": "As-salamu alaykum（问候）",
+        "arabic": "السَّلَامُ عَلَيْكُمْ",
+        "meaning": "愿你平安。",
+        "when": "见到穆斯林、到达清真寺、进入别人家里或开始打电话的时候。",
+        "reply": "Wa alaykum as-salam（也愿你平安）。你可以再加上 wa rahmatullahi wa barakatuh（以及安拉的慈悯和祂的吉庆）。",
+        "replySource": "text",
+        "note": "古兰经要求你用更好的问候，或者至少用同样的问候来回应别人的问候。Abu Dawud 中的一段圣训说，问候语越完整，回赐越多。",
+        "sourceIds": ["quran-4-86", "sunnah-abudawud-5195"]
+      },
+      {
+        "phrase": "Bismillah（开始时）",
+        "arabic": "بِسْمِ اللَّهِ",
+        "meaning": "奉安拉之名。",
+        "when": "吃饭前、做小净前，以及开始做一件事之前。",
+        "note": "先知告诉他桌边的一个男孩，吃饭前要念安拉的名字。",
+        "sourceIds": ["sunnah-bukhari-5376"]
+      },
+      {
+        "phrase": "In sha Allah（说到计划时）",
+        "arabic": "إِنْ شَاءَ اللَّهُ",
+        "meaning": "如果安拉意欲。",
+        "when": "说到你打算做的事情时：“明天见，in sha Allah。”",
+        "note": "古兰经教导在说到计划时这样说。它是被提倡的，不是必须的，如果忘了，想起来的时候再说也可以。有些人把它当作委婉的“也许吧”。那只是一种习惯，不是它的本意，所以在你真的打算去做的时候才说。",
+        "sourceIds": [
+          "quran-18-23-24",
+          "seekersguidance-etiquette-in-sha-allah"
+        ]
+      },
+      {
+        "phrase": "Ma sha Allah（看到好事时）",
+        "arabic": "مَا شَاءَ اللَّهُ",
+        "meaning": "这是安拉所意欲的。",
+        "when": "看到或听到好事的时候：新生的婴儿、新家、某人的进步。",
+        "note": "这些话出自古兰经18:39，经文接着说：la quwwata illa billah（除安拉外，别无能力）。遇到坏消息时，改说 inna lillahi。",
+        "sourceIds": ["quran-18-39"]
+      },
+      {
+        "phrase": "Alhamdulillah（感谢时）",
+        "arabic": "الْحَمْدُ لِلَّهِ",
+        "meaning": "一切赞美都归于安拉。",
+        "when": "表示感谢、回答“你好吗？”，以及打喷嚏之后。",
+        "sourceIds": ["sunnah-muslim-after-prayer-dhikr", "sunnah-bukhari-6224"]
+      },
+      {
+        "phrase": "SubhanAllah（赞颂时）",
+        "arabic": "سُبْحَانَ اللَّهِ",
+        "meaning": "赞颂安拉超绝。",
+        "when": "任何时候都可以作为记主，包括礼拜之后。很多人在感到惊叹时也会这样说。",
+        "sourceIds": ["sunnah-muslim-after-prayer-dhikr"]
+      },
+      {
+        "phrase": "Astaghfirullah（求饶恕时）",
+        "arabic": "أَسْتَغْفِرُ اللَّهَ",
+        "meaning": "我向安拉求饶恕。",
+        "when": "失足之后、意识到自己做错了事的时候，或者作为每天的记主。",
+        "note": "先知每天求饶恕超过七十次，所以说这句话是一种正常的习惯，而不是承认了什么可怕的事。",
+        "sourceIds": ["sunnah-bukhari-6307"]
+      },
+      {
+        "phrase": "Jazak Allahu khayran（道谢）",
+        "arabic": "جَزَاكَ اللَّهُ خَيْرًا",
+        "meaning": "愿安拉赐你好的回报。",
+        "when": "感谢帮助过你或给你帮了忙的人。",
+        "reply": "Wa iyyak 或 wa iyyakum（你也一样），或者 wa antum fa jazakumullahu khayran（也愿安拉回报你）。",
+        "replySource": "custom",
+        "note": "at-Tirmidhi 中的一段圣训说，这是感谢别人最完整的说法。它的评级为良好（hasan）。",
+        "sourceIds": ["sunnah-tirmidhi-2035"]
+      },
+      {
+        "phrase": "Barak Allahu fik（祝福对方）",
+        "arabic": "بَارَكَ اللَّهُ فِيكَ",
+        "meaning": "愿安拉赐福给你。",
+        "when": "感谢或鼓励别人的时候。",
+        "reply": "Wa fik（你也一样）。",
+        "replySource": "custom",
+        "note": "这些话和先知在婚礼上所做的祝福很接近（见下面的婚礼卡片）。简短的回应是常见的礼貌用语。",
+        "sourceIds": ["sunnah-abudawud-2130"]
+      },
+      {
+        "phrase": "Yarhamuk Allah（别人打喷嚏之后）",
+        "arabic": "يَرْحَمُكَ اللَّهُ",
+        "meaning": "愿安拉慈悯你。",
+        "when": "当你身边有人打喷嚏并说了 Alhamdulillah 的时候。",
+        "reply": "打喷嚏的人回答：Yahdikumullah wa yuslihu balakum（愿安拉引导你，并改善你的状况）。",
+        "replySource": "text",
+        "note": "这三句话都出自 Sahih al-Bukhari 中的同一段圣训。",
+        "sourceIds": ["sunnah-bukhari-6224"]
+      },
+      {
+        "phrase": "Ameen（阿敏）",
+        "arabic": "آمِين",
+        "meaning": "主啊，求你应答。",
+        "when": "别人做完祈祷之后，以及在集体礼拜中伊玛目念完开端章并说 Ameen 的时候。",
+        "note": "Sahih al-Bukhari 和 Sahih Muslim 中的两段圣训告诉跟着伊玛目礼拜的人，在伊玛目说 Ameen 时也说 Ameen。如果你对在自己单独礼拜时说它有疑问，请问老师。",
+        "sourceIds": ["sunnah-bukhari-780", "sunnah-muslim-410a"]
+      },
+      {
+        "phrase": "Inna lillahi wa inna ilayhi raji'un（遇到失去时）",
+        "arabic": "إِنَّا لِلَّهِ وَإِنَّا إِلَيْهِ رَاجِعُونَ",
+        "meaning": "我们确是安拉所有的，我们必定只归依祂。",
+        "when": "听到有人去世，或者遇到任何失去的时候，无论大小。",
+        "note": "这些话出自古兰经2:156。Sahih Muslim 中的一段圣训加上了一段简短的祈祷：Allahumma'jurni fi musibati wa akhlif li khayran minha（主啊，求你因我的失去而回赐我，并赐我更好的）。",
+        "sourceIds": ["quran-2-156", "sunnah-muslim-918a"]
+      },
+      {
+        "phrase": "Inna lillahi ma akhadha（安慰哀伤的人）",
+        "arabic": "إِنَّ لِلَّهِ مَا أَخَذَ وَلَهُ مَا أَعْطَى",
+        "meaning": "安拉所取走的是祂的，祂所赐予的也是祂的。在祂那里，一切都有既定的期限。",
+        "when": "有人去世后安慰别人的时候。",
+        "note": "先知的外孙即将去世时，先知把这些话带给他的女儿，并劝她忍耐、期待回赐。他自己也哭了，并称他的眼泪为慈悯。说一句“我很难过”，陪着这家人坐一坐，也是对的。",
+        "sourceIds": ["sunnah-bukhari-1284"]
+      },
+      {
+        "phrase": "La ba's, tahurun in sha Allah（探望病人）",
+        "arabic": "لَا بَأْسَ طَهُورٌ إِنْ شَاءَ اللَّهُ",
+        "meaning": "没有妨碍，这是一种洁净，如果安拉意欲。这是逐字的翻译；Sunnah.com 的译文是“你不会有事的！愿安拉治愈你！”",
+        "when": "探望生病的人的时候。",
+        "sourceIds": ["sunnah-bukhari-3616"]
+      },
+      {
+        "phrase": "Astawdi'ullaha dinaka（为出远门的人送行）",
+        "arabic": "أَسْتَوْدِعُ اللَّهَ دِينَكَ وَأَمَانَتَكَ وَخَوَاتِيمَ عَمَلِكَ",
+        "meaning": "我把你的宗教、你所受托付的，以及你最后的行为，托付给安拉。",
+        "when": "有人即将出发旅行的时候。",
+        "note": "完整的说法是 Astawdi'ullaha dinaka wa amanataka wa khawatima 'amalik。at-Tirmidhi 中的一段评级为良好（hasan）的圣训记载了先知这样说。",
+        "sourceIds": ["sunnah-tirmidhi-3443"]
+      },
+      {
+        "phrase": "Barak Allahu laka wa baraka 'alayka（在婚礼上）",
+        "arabic": "بَارَكَ اللَّهُ لَكَ وَبَارَكَ عَلَيْكَ وَجَمَعَ بَيْنَكُمَا فِي خَيْرٍ",
+        "meaning": "愿安拉赐福给你，降吉庆于你，并使你们二人在美好中结合。",
+        "when": "祝贺刚结婚的人的时候。",
+        "note": "完整的说法以 wa jama'a baynakuma fi khayr 结尾。这是先知本人的贺词，见于 Abu Dawud 中一段评级为正确（sahih）的圣训。",
+        "sourceIds": ["sunnah-abudawud-2130"]
+      },
+      {
+        "phrase": "Eid mubarak 或 Taqabbal Allahu minna wa minkum（节日问候）",
+        "arabic": "تَقَبَّلَ اللَّهُ مِنَّا وَمِنْكُمْ",
+        "meaning": "节日吉庆。愿安拉接受我们和你们的功修。",
+        "when": "在尔德节的日子里。",
+        "reply": "用同样的话回应，或者说 Eid mubarak。",
+        "replySource": "custom",
+        "note": "门弟子们在节日里互相问候：“愿安拉接受我们和你们的功修”，而任何好的问候，包括 Eid mubarak，都可以。别人礼拜、封斋或施舍之后，人们也会说 taqabbal Allah（愿安拉接受），作为一种善意的祝愿。",
+        "sourceIds": ["islamqa-36442-eid-etiquette"]
+      },
+      {
+        "phrase": "Sallallahu 'alayhi wa sallam（提到先知时）",
+        "arabic": "صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ",
+        "meaning": "愿安拉赐他福祉和平安。中文常说“愿主福安之”。",
+        "when": "说到、听到或读到先知穆罕默德的名字的时候。",
+        "note": "古兰经告诉信道的人要为先知祈求福祉和平安。问与答页面解释了 SAW 和 PBUH 这样的缩写。",
+        "sourceIds": ["quran-33-56", "sunnah-tirmidhi-3546"]
+      }
+    ],
+    "otherWords": {
+      "title": "你可能听到的来自其他语言的词",
+      "intro": "加拿大的许多穆斯林从小在家里说乌尔都语、孟加拉语、波斯语、土耳其语或阿拉伯语，一些日常用词也随之带了过来。它们不是宗教术语，也没有人指望你使用它们。",
+      "items": [
+        {
+          "word": "Namaz",
+          "meaning": "礼拜（salah），在波斯语、乌尔都语、土耳其语和孟加拉语中"
+        },
+        {
+          "word": "Roza",
+          "meaning": "斋戒（sawm），在波斯语和乌尔都语中"
+        },
+        {
+          "word": "Abbu 或 abi",
+          "meaning": "爸爸"
+        },
+        {
+          "word": "Ammi",
+          "meaning": "妈妈，在乌尔都语和其他南亚语言中"
+        },
+        {
+          "word": "Akhi",
+          "meaning": "我的兄弟，阿拉伯语，男性之间的友好称呼"
+        },
+        {
+          "word": "Ukhti",
+          "meaning": "我的姐妹，阿拉伯语，女性之间的友好称呼"
+        },
+        {
+          "word": "Habibi",
+          "meaning": "亲爱的，阿拉伯语（对女性说 habibti），日常的亲昵称呼"
+        },
+        {
+          "word": "Bhai",
+          "meaning": "兄弟，在乌尔都语、印地语和孟加拉语中，常加在名字后面"
+        }
+      ]
+    }
+  }
 }

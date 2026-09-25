@@ -1,4 +1,5 @@
 {
+  "reviewStatus": "review-needed",
   "prayerSequence": [
     {
       "title": "平静地做准备",
@@ -84,8 +85,12 @@
       "arabic": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ\nالْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينَ\nالرَّحْمَٰنِ الرَّحِيمِ\nمَالِكِ يَوْمِ الدِّينِ\nإِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ\nاهْدِنَا الصِّرَاطَ الْمُسْتَقِيمَ\nصِرَاطَ الَّذِينَ أَنْعَمْتَ عَلَيْهِمْ غَيْرِ الْمَغْضُوبِ عَلَيْهِمْ وَلَا الضَّالِّينَ",
       "transliteration": "Bismillahir-Rahmanir-Rahim. Alhamdu lillahi Rabbil-'alamin. Ar-Rahmanir-Rahim. Maliki yawmid-din. Iyyaka na'budu wa iyyaka nasta'in. Ihdinas-siratal-mustaqim. Siratal-ladhina an'amta 'alayhim ghayril-maghdubi 'alayhim wa lad-dallin.",
       "meaning": "含义译文：赞美、崇拜和求助都归于安拉，我们祈求祂引导我们走正路。",
-      "beginnerNote": "开端章是第一个真正要背诵的目标。一次学一个短语，在还没背会的时候，问问老师该念什么。",
-      "sourceIds": ["quran-al-fatihah-1"]
+      "beginnerNote": "开端章是第一个真正的背诵目标。一次学一句，并在你还在学的时候，问老师该念什么。集体礼拜时，伊玛目念完开端章并说 Ameen（主啊，求你应答）时，和他一起说 Ameen。如果你对单独礼拜时说它有疑问，请问老师。",
+      "sourceIds": [
+        "quran-al-fatihah-1",
+        "sunnah-bukhari-780",
+        "sunnah-muslim-410a"
+      ]
     },
     {
       "title": "短章示例：忠诚章",
@@ -188,7 +193,7 @@
     "在礼拜中故意吃喝，或说与礼拜无关的话。",
     "在已经知道是必须的情况下，漏掉必须的姿势、条件或诵读。",
     "没有任何理由，故意结束礼拜或离开礼拜。",
-    "失误、遗忘、疾病、月经、出行和残障，都有一些细节值得和有资质的老师一起弄清楚。"
+    "错误、遗忘、生病、月经、旅行和残障都有一些值得和有资质的老师一起弄清的细节。下面的清单指向本网站已经讲到的内容。"
   ],
   "commonCorrections": [
     {
@@ -369,7 +374,7 @@
       "如果你连坐也做不到，就躺着礼拜，尽量面朝天房方向。",
       "短期疾病和长期病症的处理方式略有不同，各学派在一些细节上也有分歧，比如坐椅子的人如何鞠躬，以及椅子在礼拜行列中放在什么位置。"
     ],
-    "referral": "当地的伊玛目或老师可以看你礼拜一次，帮你找到适合你身体的做法。你永远不需要忍着疼痛去礼拜，才能让礼拜有效。",
+    "referral": "当地的伊玛目或老师可以看你礼拜一次，帮你确定适合你身体的做法。你永远不需要忍着疼痛去让礼拜算数。住院时，尽你所能在床上礼拜，并问问护士医院有没有灵性关怀团队。",
     "sourceIds": [
       "sunnah-bukhari-pray-standing-sitting",
       "seekersguidance-praying-sitting",
@@ -414,5 +419,166 @@
     "seekersguidance-reading-from-mushaf",
     "dar-alifta-new-muslim-fatiha",
     "sunnah-muslim-two-rewards"
-  ]
+  ],
+  "moreCards": [
+    {
+      "id": "behind-imam",
+      "title": "跟着伊玛目礼拜（以及迟到后加入）",
+      "summary": "走进清真寺时礼拜已经开始了，这种事每个人都遇到过。先知（愿主福安之）说，要从容地来，赶上多少就礼多少，错过的再补上（Sahih al-Bukhari 636）。",
+      "points": [
+        "走过去，不要跑，加入最近的一排。",
+        "站好，举起双手念 Allahu akbar，然后直接进入伊玛目当时所在的姿势，即使他正在叩头（Sunan Abi Dawud 893，阿尔巴尼评为良好 Hasan）。",
+        "如果你在伊玛目从鞠躬起身之前和他一起鞠了躬，你就赶上了这一拜。如果你是在那之后加入的，还是照样跟着他做，但这一拜不算你的。我们链接的哈乃斐学派和沙斐仪学派的回答在这一点上是一致的。",
+        "动作在伊玛目之后，永远不要在他之前。",
+        "伊玛目念完开端章时，他后面的人和他一起说 Ameen（Sahih al-Bukhari 780）。",
+        "伊玛目出色兰结束礼拜时，如果你还欠着拜数，不要出色兰。站起来，自己把错过的补完。我们链接的沙斐仪学派回答建议，等伊玛目两次色兰都念完之后再站起来。",
+        "在行列中站得紧密，肩并肩、脚挨脚（Sahih al-Bukhari 725）。这就是为什么你旁边的人可能会把脚挪到你的脚边。",
+        "如果你跟着伊玛目礼拜时出了错，就跟着伊玛目做，不要自己加做遗忘叩头。",
+        "最初几次参加集体礼拜时，站在一排的末端，能看到前面的人的地方。如果跟不上了，按你认为对的做完，之后再找人问。"
+      ],
+      "differencesTitle": "各学派的分歧",
+      "differences": [
+        "跟着伊玛目礼拜时自己念什么，各学派不同。请问你的老师，你所在的社区遵循哪种做法。",
+        "赶上主麻礼拜：按照我们链接的哈乃斐学派回答，在伊玛目最后的色兰之前加入，就算赶上了主麻，之后你站起来补两拜。沙斐仪学派认为，只有和伊玛目一起赶上至少一拜，才算赶上了主麻，否则就做晌礼。它依据的圣训包括“谁赶上了主麻的一拜，谁就赶上了主麻”（Sunan an-Nasa'i 1425，Darussalam 评为正确 Sahih）。",
+        "到达时的两拜：先知告诉人们，在清真寺坐下之前先做两拜（Sahih al-Bukhari 444）。一旦伊玛目登上讲台开始星期五的讲道，哈乃斐学派和马立克学派说不要再礼拜，而是坐下来听。沙斐仪学派和罕百里学派教导即使在讲道期间也做两拜简短的礼拜，因为有一个人在讲道期间进来，先知让他站起来做两拜（Sahih Muslim 875c）。"
+      ],
+      "referral": "请当地的伊玛目带你走一遍迟到后加入的做法。只要五分钟，却能省去很多担心。",
+      "links": [
+        {
+          "label": "参加你的第一次主麻礼拜",
+          "href": "/roadmap/week-1/first-jumuah"
+        }
+      ],
+      "sourceIds": [
+        "sunnah-bukhari-636",
+        "sunnah-abudawud-893",
+        "sunnah-bukhari-780",
+        "sunnah-bukhari-725",
+        "sunnah-bukhari-444",
+        "sunnah-muslim-875c",
+        "sunnah-nasai-1425",
+        "seekersguidance-latecomer-hanafi",
+        "seekersguidance-latecomer-shafii",
+        "seekersguidance-friday-prayer-rulings",
+        "seekersguidance-maliki-voluntary-prayers"
+      ]
+    },
+    {
+      "id": "prayer-kit",
+      "title": "你的礼拜用品包，以及可以在哪里礼拜",
+      "summary": "几乎任何干净的地方都可以礼拜。包里放几样小东西，在工作、上学或路上礼拜时会更方便。",
+      "points": [
+        "一条小毛巾或旅行拜毯。拜毯不是必须的：任何干净的表面都可以。",
+        "对姐妹们来说，一条头巾或一件连体礼拜服。青春期以后的女性礼拜时要遮住头发（Sunan Abi Dawud 641，阿尔巴尼评为正确 Sahih）。",
+        "一个用于便后清洁的小水瓶。",
+        "鞋：先知曾穿着凉鞋礼拜，并告诉人们先检查鞋上有没有污物（Sunan Abi Dawud 650，阿尔巴尼评为正确 Sahih）。在清真寺里，在别人脱鞋的地方脱鞋。",
+        "在户外或公共场所，公园、安静的楼梯间或停着的车都可以。靠近墙礼拜，或者把包放在你前面作为遮挡物（sutrah），并靠近它（Sunan Abi Dawud 695，阿尔巴尼评为正确 Sahih）。",
+        "朝向：尽你所能面向天房（古兰经2:144）。无法做到精确时，大致的方向就够了（Jami at-Tirmidhi 344）。指南针上偏了几度，不是重新礼拜的理由。",
+        "礼拜前先上厕所，不要憋着。先知说，不要在内急的时候礼拜（Sahih Muslim 560a）。",
+        "为功修而穿着得体：“每逢礼拜，你们必须穿着服饰”（古兰经7:31）。能遮住你所遵循的学派所要求部位的干净工作服就可以。"
+      ],
+      "links": [
+        {
+          "label": "找到朝向",
+          "href": "/qibla"
+        },
+        {
+          "label": "礼拜时要遮盖什么",
+          "href": "/topics/prayer"
+        }
+      ],
+      "sourceIds": [
+        "quran-7-31-adornment-masjid",
+        "sunnah-abudawud-641",
+        "sunnah-abudawud-650",
+        "sunnah-abudawud-695",
+        "quran-2-144-qibla",
+        "sunnah-tirmidhi-344",
+        "sunnah-muslim-560a"
+      ]
+    },
+    {
+      "id": "funeral-prayer",
+      "title": "殡礼（janazah）",
+      "summary": "殡礼是站着、跟着伊玛目做的，没有鞠躬，也没有叩头。它很短，通常只有几分钟。参加殡礼有回赐，留下来参加安葬回赐更多（Sahih al-Bukhari 1325）。",
+      "points": [
+        "去之前做好小净，然后站在伊玛目后面的行列里。",
+        "有四次大赞词（Sahih al-Bukhari 1333）。伊玛目每次都念 Allahu akbar，你在他之后轻声跟着念。",
+        "一种常见的做法，按照 IslamQA 的说明：第一次大赞词之后，念开端章。第二次之后，为先知祈求祝福（和最后坐着时念的祝福词一样）。第三次之后，为去世的人祈祷。第四次之后，以色兰结束。",
+        "如果你还不会固定的祈祷词，就用你自己的话轻声祈求安拉饶恕这个人、慈悯他。",
+        "全程保持站立。不要鞠躬或叩头。",
+        "如果你迟到了，就加入并跟着伊玛目做，之后再问别人你错过了什么。"
+      ],
+      "differencesTitle": "各学派的分歧",
+      "differences": [
+        "各学派在细节上有分歧，比如第一次大赞词之后念什么，以及是一次还是两次色兰。上面的做法遵循的是其中一种。跟着伊玛目做，并问问你的老师你所在的社区怎样做殡礼。"
+      ],
+      "referral": "如果你认识的人去世了，当地的清真寺可以告诉你殡礼在什么时间、什么地点。",
+      "links": [
+        {
+          "label": "节日礼拜",
+          "href": "/seasonal/eid-al-fitr"
+        }
+      ],
+      "sourceIds": [
+        "sunnah-bukhari-1333",
+        "sunnah-bukhari-1325",
+        "islamqa-12363-janazah"
+      ]
+    }
+  ],
+  "situationIndex": {
+    "title": "遇到特殊情况时",
+    "intro": "现实生活总会打扰礼拜。在这里找到你的情况，直接跳到答案。",
+    "items": [
+      {
+        "label": "你到的时候礼拜已经开始了",
+        "href": "/tools/salah-companion#behind-imam"
+      },
+      {
+        "label": "你记不清拜数或出了错",
+        "href": "/tools/salah-companion#sujud-al-sahw"
+      },
+      {
+        "label": "你在旅行、长途开车或坐飞机",
+        "href": "/topics/prayer"
+      },
+      {
+        "label": "你睡过了晨礼，或错过了一次礼拜",
+        "href": "/faq#faq-pry-037"
+      },
+      {
+        "label": "你的班次覆盖了一整段礼拜时间",
+        "href": "/faq#faq-pry-038"
+      },
+      {
+        "label": "你需要在工作时、户外或路上礼拜",
+        "href": "/tools/salah-companion#prayer-kit"
+      },
+      {
+        "label": "衣服上沾了东西",
+        "href": "/topics/purification"
+      },
+      {
+        "label": "某种健康状况不断破坏你的小净",
+        "href": "/tools/wudu-ghusl#excused-person"
+      },
+      {
+        "label": "疼痛、生病或住院",
+        "href": "/tools/salah-companion#seated-prayer"
+      },
+      {
+        "label": "你的月经来了",
+        "href": "/topics/menstruation-and-worship"
+      },
+      {
+        "label": "你要去参加殡礼",
+        "href": "/tools/salah-companion#funeral-prayer"
+      },
+      {
+        "label": "你要去参加节日礼拜",
+        "href": "/seasonal/eid-al-fitr"
+      }
+    ]
+  }
 }
