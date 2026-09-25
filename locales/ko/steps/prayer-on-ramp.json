@@ -62,9 +62,22 @@
   ],
   "tinyVersion": "옆에 안내서를 펴 두더라도, 오늘 지킬 기도 하나를 골라 보세요.",
   "unlocksNext": "들어갈 길이 생기면, 온전한 기도 단계가 더는 벽처럼 보이지 않아요.",
-  "resourceIds": ["learn-salah-guide", "pillars-app", "being-muslim-book"],
-  "relatedGlossaryIds": ["salah", "wudu", "qiblah", "al-fatiha"],
-  "relatedTopicIds": ["prayer", "new-muslim-basics", "dua-and-dhikr"],
+  "resourceIds": [
+    "learn-salah-guide",
+    "pillars-app",
+    "being-muslim-book"
+  ],
+  "relatedGlossaryIds": [
+    "salah",
+    "wudu",
+    "qiblah",
+    "al-fatiha"
+  ],
+  "relatedTopicIds": [
+    "prayer",
+    "new-muslim-basics",
+    "dua-and-dhikr"
+  ],
   "commonQuestions": [
     {
       "problem": "안내서를 보면서 기도해도 되나요?",
@@ -93,7 +106,27 @@
       "title": "한 라카의 모든 문구",
       "channel": "Islamwise",
       "duration": "10:29",
-      "sourceIds": ["video-islamwise-rakah-recap"]
+      "sourceIds": [
+        "video-islamwise-rakah-recap"
+      ]
+    }
+  ],
+  "relatedLinks": [
+    {
+      "label": "한동안 멀어졌다가 돌아올 때",
+      "href": "/guides/coming-back"
+    },
+    {
+      "label": "기도 배우기 (살라) 도구",
+      "href": "/tools/salah-companion"
+    },
+    {
+      "label": "기도 시간",
+      "href": "/prayer-times"
+    },
+    {
+      "label": "직장과 학교 가이드",
+      "href": "/guides/work-and-school"
     }
   ]
 }

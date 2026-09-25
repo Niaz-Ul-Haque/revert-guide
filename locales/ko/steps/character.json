@@ -61,7 +61,7 @@
   "obstacles": [
     {
       "problem": "자꾸 오래된 습관으로 돌아가요",
-      "solution": "실패의 표시가 아니라 사람이라서 그래요. 예언자(그분께 평안이 있기를)께서는 모든 사람이 실수하며, 그중 가장 좋은 사람은 회개하는 사람이라고 말씀하셨어요. 넘어진 걸 알아차리고 다시 시도할 때마다 자라고 있는 거예요. 완벽이 아니라 발전을 목표로 하세요. 몇 년에 걸쳐 굳은 습관도 있으니 푸는 데도 시간이 걸려요. 그동안 자신에게 부드럽게 대하세요."
+      "solution": "이것은 실패의 표시가 아니라 사람이라면 누구나 겪는 일이에요. 예언자(그분께 평안이 있기를)께서는 사람들이 죄를 짓지 않는다면 알라께서 죄를 짓고 그분께 용서를 구하는 사람들을 데려오실 것이고, 그분께서 그들을 용서하실 것이라고 말씀하셨어요 (Sahih Muslim 2749). 실수를 알아차리고 다시 해 볼 때마다 나는 자라고 있어요. 완벽이 아니라 나아짐을 목표로 하세요. 어떤 습관은 만드는 데 몇 년이 걸렸고, 풀어내는 데도 시간이 걸려요. 그동안 자신에게 너그러워지세요."
     },
     {
       "problem": "인내가 어려워요",
@@ -77,12 +77,16 @@
     },
     {
       "problem": "행동이 믿음과 맞지 않아서 위선자 같아요",
-      "solution": "그런 긴장을 느낀다는 건 건강한 믿음의 표시예요. 진짜 위선자는 믿는 것과 하는 것 사이의 간격에 신경 쓰지 않아요. 그게 마음에 걸린다는 건 양심이 깨어 제대로 작동하고 있다는 뜻이에요. 한 걸음씩 간격을 좁히고, 진실함(이클라스)을 구하는 두아를 하세요. 알라께서는 점수가 아니라 내 마음과 노력을 보고 계세요."
+      "solution": "그런 긴장을 느끼는 건 건강한 믿음의 표시예요. 진짜 위선자는 자신이 믿는 것과 하는 일 사이의 틈에 신경 쓰지 않아요. 그게 마음에 걸린다는 건 양심이 깨어 제대로 일하고 있다는 뜻이에요. 한 걸음씩 틈을 좁히고, 진실함(이클라스)을 구하는 두아를 하세요. 알라께서는 점수표가 아니라 내 마음과 노력을 보세요. 교우 한잘라는 집에 오면 믿음의 느낌이 흐려진다는 이유로 자신이 위선자가 아닐까 두려워한 적이 있는데, 예언자께서 그를 안심시키셨어요 (Sahih Muslim 2750a)."
     }
   ],
   "tinyVersion": "이번 주에 덕목 하나를 골라 보세요. 조금 더 참거나, 조금 더 정직하거나, 조금 더 감사하는 것. 성품은 움직이는 이슬람이에요.",
   "unlocksNext": "성품이 자랄수록 더 배우고 싶은 마음도 커져요. 다음 단계는 평생 지식을 구하고 이슬람을 더 잘 이해하는 습관을 만드는 것이에요.",
-  "resourceIds": ["being-muslim-book", "yaqeen-institute", "seerah-podcast"],
+  "resourceIds": [
+    "being-muslim-book",
+    "yaqeen-institute",
+    "seerah-podcast"
+  ],
   "relatedGlossaryIds": [
     "akhlaq",
     "sabr",
@@ -95,7 +99,22 @@
     "ikhlas",
     "dawah"
   ],
-  "relatedTopicIds": ["character", "beliefs", "prophet-muhammad"],
-  "sourceIds": ["sunnah-com", "yaqeen-institute"],
-  "reviewStatus": "review-needed"
+  "relatedTopicIds": [
+    "character",
+    "beliefs",
+    "prophet-muhammad"
+  ],
+  "sourceIds": [
+    "sunnah-com",
+    "yaqeen-institute",
+    "sunnah-muslim-2749",
+    "sunnah-muslim-2750a"
+  ],
+  "reviewStatus": "review-needed",
+  "relatedLinks": [
+    {
+      "label": "일 년 내내 나누고 섬기기",
+      "href": "/seasonal/year-round-charity-service"
+    }
+  ]
 }

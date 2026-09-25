@@ -53,7 +53,7 @@
         "아스르: 4라카.",
         "마그립: 3라카.",
         "이샤: 4라카.",
-        "의무(파르드) 기도부터 시작하세요. 자발적인(순나) 기도는 나중에 더해도 돼요."
+        "의무(파르드) 기도부터 시작하세요. 모스크에서 보게 되는 추가 자발적(순나) 라카는 나중에 하나씩 더해도 돼요. 기도 주제 페이지에서 설명해요."
       ]
     },
     {
@@ -83,7 +83,7 @@
     },
     {
       "problem": "직장이나 학교에서 기도할 수 없어요",
-      "solution": "나에게는 기도할 권리가 있어요. 무슬림들은 조용한 구석, 빈 회의실, 주차된 차 안에서도 기도해요. 기도 한 번은 5~10분 걸려요. 시간이 어렵다면 어떤 상황에서는 기도를 합칠 수 있으니 내 경우를 선생님께 물어보세요. 편하다면 동료나 상사에게 말해 두세요. 대부분의 사람은 알고 보면 너그러워요."
+      "solution": "당신에게는 기도할 권리가 있어요. 무슬림들은 조용한 구석, 빈 회의실, 주차된 차 안에서 기도해요. 기도 한 번은 5분에서 10분이면 돼요. 시간 맞추기가 어렵다면, 일 때문에 기도를 합칠 수 있는지는 학파마다 다르니 교대 근무에 관한 질문과 답변을 읽고 내 상황을 선생님께 물어보세요. 편하다면 동료나 상사에게 말해 두세요. 대부분의 사람은 알고 보면 이해해 줘요."
     },
     {
       "problem": "동작이 신경 쓰여요",
@@ -109,16 +109,23 @@
     "maghrib",
     "isha",
     "al-fatiha",
-    "sujud",
-    "ruku"
+    "sajdah",
+    "ruku",
+    "rawatib"
   ],
-  "relatedTopicIds": ["prayer", "purification", "dua-and-dhikr"],
+  "relatedTopicIds": [
+    "prayer",
+    "purification",
+    "dua-and-dhikr"
+  ],
   "sourceIds": [
     "new-muslim-guide",
     "sunnah-com",
     "seekersguidance",
     "sunnah-abudawud-dhikr-instead",
-    "seekersguidance-recite-in-english"
+    "seekersguidance-recite-in-english",
+    "amja-combining-for-job",
+    "seekersguidance-combining-hanafi"
   ],
   "reviewStatus": "review-needed",
   "videos": [
@@ -129,7 +136,35 @@
       "duration": "33:57",
       "start": 228,
       "note": "두 라카 기도인 파즈르부터 시작해요. 학파 간의 작은 차이는 자연스러운 거예요.",
-      "sourceIds": ["video-greenlane-five-prayers"]
+      "sourceIds": [
+        "video-greenlane-five-prayers"
+      ]
+    }
+  ],
+  "relatedLinks": [
+    {
+      "label": "보게 될 추가 기도와 더할 때",
+      "href": "/topics/prayer"
+    },
+    {
+      "label": "교대 근무와 기도 합치기",
+      "href": "/faq#faq-pry-038"
+    },
+    {
+      "label": "기도 배우기 (살라) 도구",
+      "href": "/tools/salah-companion"
+    },
+    {
+      "label": "기도 시간",
+      "href": "/prayer-times"
+    },
+    {
+      "label": "직장과 학교 가이드",
+      "href": "/guides/work-and-school"
+    },
+    {
+      "label": "생리와 예배",
+      "href": "/topics/menstruation-and-worship"
     }
   ]
 }

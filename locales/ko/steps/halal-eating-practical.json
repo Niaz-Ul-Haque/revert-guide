@@ -50,16 +50,34 @@
     }
   ],
   "tinyVersion": "다음 식사에서는 돼지고기와 술을 빼고, 눈앞에서 가장 분명한 할랄 메뉴를 고르세요.",
-  "unlocksNext": "음식이 감당할 만해지면 더 넓은 할랄과 하람의 기본도 훨씬 쉽게 받아들일 수 있어요.",
-  "resourceIds": ["halal-living-guide", "new-muslim-guide-site"],
-  "relatedGlossaryIds": ["halal", "haram"],
-  "relatedTopicIds": ["halal-living", "new-muslim-basics"],
+  "unlocksNext": "음식이 감당할 만하게 느껴지면 단식에 대해 배울 준비가 된 거예요. 단식은 마음과 함께 몸도 실천 안으로 데려와요.",
+  "resourceIds": [
+    "halal-living-guide",
+    "new-muslim-guide-site"
+  ],
+  "relatedGlossaryIds": [
+    "halal",
+    "haram"
+  ],
+  "relatedTopicIds": [
+    "halal-living",
+    "new-muslim-basics"
+  ],
   "gentleScripts": [
     {
       "title": "초대한 사람에게",
       "body": "초대해 주셔서 고마워요. 이제 할랄 음식을 먹어서 돼지고기와 술은 피하고 있어요. 편하시도록 제가 요리 하나를 가져갈게요."
     }
   ],
-  "sourceIds": ["new-muslim-guide", "seekersguidance"],
-  "reviewStatus": "review-needed"
+  "sourceIds": [
+    "new-muslim-guide",
+    "seekersguidance"
+  ],
+  "reviewStatus": "review-needed",
+  "relatedLinks": [
+    {
+      "label": "일상 속 할랄 생활",
+      "href": "/guides/halal-living-in-daily-life"
+    }
+  ]
 }

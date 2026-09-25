@@ -2,7 +2,7 @@
   "id": "daily-dua-dhikr",
   "slug": "daily-dua-dhikr",
   "stageId": "week-1",
-  "title": "간단한 하루의 두아와 디크르 시작하기",
+  "title": "매일의 기억 습관 (두아와 디크르)",
   "whyMatters": "두아와 디크르는 아랍어를 많이 알기 훨씬 전부터 알라와 이어져 있게 해 줘요. 스트레스를 받을 때, 감사할 때, 평범한 하루 한가운데서 그분을 기억하는 작고 어디든 가지고 다닐 수 있는 방법이에요.",
   "exactActions": [
     {
@@ -48,14 +48,33 @@
     "quran-com",
     "new-muslim-academy"
   ],
-  "relatedGlossaryIds": ["dua", "dhikr", "sunnah", "salah"],
-  "relatedTopicIds": ["dua-and-dhikr", "prayer", "new-muslim-basics"],
+  "relatedGlossaryIds": [
+    "dua",
+    "dhikr",
+    "sunnah",
+    "salah"
+  ],
+  "relatedTopicIds": [
+    "dua-and-dhikr",
+    "prayer",
+    "new-muslim-basics"
+  ],
   "commonQuestions": [
     {
       "problem": "당장 두아를 많이 외워야 하나요?",
       "solution": "아니요. 믿을 만한 두아나 디크르 문구 몇 개로 시작해서 뜻을 이해하고 천천히 늘려 가세요."
     }
   ],
-  "sourceIds": ["quran-com", "sunnah-com", "darussalam"],
-  "reviewStatus": "review-needed"
+  "sourceIds": [
+    "quran-com",
+    "sunnah-com",
+    "darussalam"
+  ],
+  "reviewStatus": "review-needed",
+  "relatedLinks": [
+    {
+      "label": "두아와 디크르",
+      "href": "/dua-dhikr"
+    }
+  ]
 }

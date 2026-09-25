@@ -51,8 +51,17 @@
   ],
   "tinyVersion": "오늘은 간단한 두아를 하고, 도움을 청할 사람 한 명을 고르고, 거기서 멈추세요.",
   "unlocksNext": "차분한 첫날을 보내면 구슬과 처음의 기도 연습에 훨씬 쉽게 들어설 수 있어요.",
-  "resourceIds": ["new-muslim-academy", "whyislam", "welcome-to-islam-book"],
-  "relatedGlossaryIds": ["shahada", "dua", "masjid", "imam"],
+  "resourceIds": [
+    "new-muslim-academy",
+    "whyislam",
+    "welcome-to-islam-book"
+  ],
+  "relatedGlossaryIds": [
+    "shahada",
+    "dua",
+    "masjid",
+    "imam"
+  ],
   "relatedTopicIds": [
     "new-muslim-basics",
     "family-and-identity",
@@ -78,8 +87,34 @@
     {
       "title": "멘토나 모스크에게",
       "body": "최근에 무슬림이 되었고, 구슬, 기도, 공동체 지원에 관해 입문자로서 도움을 받고 싶어요. 이야기할 수 있는 분이 계실까요?"
+    },
+    {
+      "title": "누군가 샤하다를 촬영하고 싶어 한다면",
+      "body": "사진이나 영상은 찍지 말아 주세요. 지금은 조용히 간직하고 싶어요."
     }
   ],
-  "sourceIds": ["new-muslim-academy", "whyislam", "new-muslim-guide"],
-  "reviewStatus": "source-checked"
+  "sourceIds": [
+    "new-muslim-academy",
+    "whyislam",
+    "new-muslim-guide"
+  ],
+  "reviewStatus": "source-checked",
+  "relatedLinks": [
+    {
+      "label": "아직 무슬림이 아닌가요? 이슬람에 관심이 있다면",
+      "href": "/topics/thinking-about-islam"
+    },
+    {
+      "label": "경고 신호와 안전하게 지내기",
+      "href": "/guides/red-flags-and-staying-safe"
+    },
+    {
+      "label": "도움 받기",
+      "href": "/get-help"
+    },
+    {
+      "label": "이슬람의 다섯 기둥",
+      "href": "/topics/five-pillars"
+    }
+  ]
 }

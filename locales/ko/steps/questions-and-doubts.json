@@ -39,19 +39,55 @@
     {
       "problem": "온라인의 답들이 서로 달라요",
       "solution": "흔히 있는 일이에요. 어느 답이 나에게 해당하는지, 어떤 세부 사항은 나중으로 미뤄도 되는지 자격을 갖춘 선생님께 물어보세요."
+    },
+    {
+      "problem": "처음의 느낌이 희미해져서, 내가 진심이긴 했는지 궁금해요",
+      "solution": "예언자의 교우들도 이런 느낌을 겪었어요. 한잘라는 집에 오면 믿음의 느낌이 흐려진다는 이유로 자신이 위선자가 아닐까 두려워했고, 예언자께서 그를 안심시키셨어요 (Sahih Muslim 2750a). 밋밋하게 느껴질 때도 기도를 지키고, 꾸준히 할 수 있는 작은 행동 하나를 더하고, 질문과 의심 주제 페이지에서 믿음이 밋밋하게 느껴질 때에 관한 부분을 읽어 보세요."
     }
   ],
   "tinyVersion": "질문 하나를 분명한 한 문장으로 적어, 답해 줄 수 있는 한 사람에게 보내 보세요.",
   "unlocksNext": "질문하는 법을 알면 믿음이 묻혀 버리지 않고, 꾸준한 속도로 지식을 쌓아 갈 수 있어요.",
-  "resourceIds": ["yaqeen-institute", "seekers-guidance", "new-muslim-academy"],
-  "relatedGlossaryIds": ["iman", "imam", "fitrah", "tawhid"],
-  "relatedTopicIds": ["questions-and-doubts", "beliefs", "new-muslim-basics"],
+  "resourceIds": [
+    "yaqeen-institute",
+    "seekers-guidance",
+    "new-muslim-academy"
+  ],
+  "relatedGlossaryIds": [
+    "iman",
+    "imam",
+    "fitrah",
+    "tawhid"
+  ],
+  "relatedTopicIds": [
+    "questions-and-doubts",
+    "beliefs",
+    "new-muslim-basics"
+  ],
   "commonQuestions": [
     {
       "problem": "바로 답을 얻지 못하면 어떡하죠?",
       "solution": "기다리는 동안 기본을 계속하세요. 기도하고, 두아를 하고, 계속 배우기 전에 모든 질문이 해결될 필요는 없어요."
     }
   ],
-  "sourceIds": ["yaqeen-institute", "seekersguidance", "new-muslim-academy"],
-  "reviewStatus": "source-checked"
+  "sourceIds": [
+    "yaqeen-institute",
+    "seekersguidance",
+    "new-muslim-academy",
+    "sunnah-muslim-2750a"
+  ],
+  "reviewStatus": "review-needed",
+  "relatedLinks": [
+    {
+      "label": "질문과 답변",
+      "href": "/faq"
+    },
+    {
+      "label": "도움 받기",
+      "href": "/get-help"
+    },
+    {
+      "label": "도움을 청하는 법",
+      "href": "/guides/how-to-ask-for-help"
+    }
+  ]
 }

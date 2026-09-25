@@ -9,6 +9,7 @@
       "text": "옷장보다 목적을 먼저 배우세요",
       "subSteps": [
         "단정함에는 옷차림, 말, 눈길이 가는 곳, 행동, 처신하는 방식이 모두 들어가요.",
+        "최소한은 알아 두세요. 남성은 배꼽에서 무릎까지 가리고, 여성은 가까운 친척이 아닌 남성 앞에서 얼굴과 손을 뺀 모든 곳을 가려요. 이것은 기도할 때만이 아니라 하루 내내 적용되고, 단정함 주제 페이지에서 설명해요.",
         "이 주제 전체를 옷 한 벌이나 한 문화의 스타일로 좁히지 마세요.",
         "나의 상황에 무엇이 해당하는지 자격을 갖춘 선생님께 물어보세요."
       ]
@@ -48,14 +49,38 @@
     "seekers-guidance",
     "being-muslim-book"
   ],
-  "relatedGlossaryIds": ["hijab", "halal", "haram"],
-  "relatedTopicIds": ["modesty", "family-and-identity", "halal-living"],
+  "relatedGlossaryIds": [
+    "hijab",
+    "halal",
+    "haram"
+  ],
+  "relatedTopicIds": [
+    "modesty",
+    "family-and-identity",
+    "halal-living"
+  ],
   "contextNotes": [
     {
       "title": "가족 안의 안전",
       "body": "눈에 보이는 변화가 집에서 적대감을 부를 것 같다면, 바꾸기 전에 믿을 수 있는 지역 멘토와 이야기하세요."
     }
   ],
-  "sourceIds": ["new-muslim-guide", "seekersguidance"],
+  "relatedLinks": [
+    {
+      "label": "단정함과 옷차림 가이드",
+      "href": "/guides/modesty-and-clothing"
+    },
+    {
+      "label": "직장과 학교 가이드",
+      "href": "/guides/work-and-school"
+    }
+  ],
+  "sourceIds": [
+    "new-muslim-guide",
+    "seekersguidance",
+    "seekersguidance-awra-for-men",
+    "seekersguidance-interacting-with-opposite-sex",
+    "quran-24-30-31"
+  ],
   "reviewStatus": "review-needed"
 }

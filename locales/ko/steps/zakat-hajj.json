@@ -2,7 +2,7 @@
   "id": "zakat-hajj",
   "slug": "zakat-hajj",
   "stageId": "month-6-plus",
-  "title": "자카트와 하지 알아보기",
+  "title": "자선 (자카트)과 순례 (하지)",
   "whyMatters": "자카트(의무 자선)와 하지(메카 순례)는 다섯 기둥 중 두 가지이고, 이 둘을 이해하면 무슬림으로 산다는 것의 기초 전체를 갖추게 돼요. 자카트는 재산을 정결하게 하고, 공동체가 어려운 사람들을 계속 돌보게 해 줘요. 하지는 메카에 있는 알라의 집으로 평생 한 번 떠나는 여정이에요. 세계 곳곳에서 온 수백만 명의 무슬림이 함께 서는 곳이고, 사람을 바꿔 놓곤 해요. 둘 다 긴 호흡의 약속이고, 급한 일은 아니에요. 지금 알아 두는 것은 나중을 위한 준비예요.",
   "exactActions": [
     {
@@ -99,10 +99,14 @@
     "kaabah",
     "ihram",
     "tawaf",
-    "eid-al-adha",
+    "eid",
     "dhul-hijjah"
   ],
-  "relatedTopicIds": ["beliefs", "fasting", "halal-living"],
+  "relatedTopicIds": [
+    "beliefs",
+    "fasting",
+    "halal-living"
+  ],
   "sourceIds": [
     "quran-zakat-9-60",
     "irc-nisab",
@@ -115,5 +119,23 @@
     "travel-gc-saudi-arabia",
     "nusuk-hajj"
   ],
-  "reviewStatus": "review-needed"
+  "reviewStatus": "review-needed",
+  "relatedLinks": [
+    {
+      "label": "유언과 상속",
+      "href": "/topics/wills-and-inheritance"
+    },
+    {
+      "label": "누군가 세상을 떠났을 때",
+      "href": "/guides/when-someone-dies"
+    },
+    {
+      "label": "입문자를 위한 자카트 가이드",
+      "href": "/seasonal/zakat"
+    },
+    {
+      "label": "둘힛자, 하지, 우므라 가이드",
+      "href": "/seasonal/dhul-hijjah-hajj-umrah"
+    }
+  ]
 }

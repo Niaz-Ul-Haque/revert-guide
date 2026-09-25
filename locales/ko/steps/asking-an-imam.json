@@ -38,7 +38,7 @@
     },
     {
       "problem": "서로 다른 답을 들었어요",
-      "solution": "나의 상황에 어느 답이 해당하는지, 어떤 부분은 기다려도 되는지 선생님께 물어보세요. 그 이상이 필요하다면 나의 사정을 아는 자격을 갖춘 지역 학자에게 가져가세요."
+      "solution": "선생님께 어떤 답이 내 상황에 해당하는지, 어떤 부분은 나중으로 미뤄도 되는지 물어보세요. 그 이상이 필요하다면 내 사정을 잘 아는 자격을 갖춘 지역 학자에게 가져가세요. 온라인 답변은 서로 다른 학파를 따르거나 다른 사람의 상황에 대한 답이라서 자주 엇갈려요. 그러니 묻기 전에 각 답의 출처와 학파를 적어 두세요."
     }
   ],
   "tinyVersion": "세 가지를 적어 보세요. 무슨 일이 있었는지, 무엇을 결정해야 하는지, 그리고 내가 새 무슬림이라는 것.",
@@ -48,7 +48,12 @@
     "new-muslim-academy",
     "new-muslim-guide-icna"
   ],
-  "relatedGlossaryIds": ["imam", "sunnah", "halal", "haram"],
+  "relatedGlossaryIds": [
+    "imam",
+    "sunnah",
+    "halal",
+    "haram"
+  ],
   "relatedTopicIds": [
     "questions-and-doubts",
     "masjid-and-community",
@@ -60,6 +65,28 @@
       "body": "저는 새 무슬림이고, 벅차지 않게 제대로 해 보려고 해요. 제 상황에서 실제로 할 수 있는 다음 단계는 무엇이고, 무엇은 기다려도 될까요?"
     }
   ],
-  "sourceIds": ["seekersguidance", "new-muslim-academy", "whyislam"],
-  "reviewStatus": "source-checked"
+  "sourceIds": [
+    "seekersguidance",
+    "new-muslim-academy",
+    "whyislam"
+  ],
+  "reviewStatus": "source-checked",
+  "relatedLinks": [
+    {
+      "label": "무슬림은 왜 서로 다를까",
+      "href": "/topics/why-muslims-differ"
+    },
+    {
+      "label": "누가 샤이크나 무프티인가요",
+      "href": "/faq#faq-fnd-025"
+    },
+    {
+      "label": "도움을 청하는 법",
+      "href": "/guides/how-to-ask-for-help"
+    },
+    {
+      "label": "도움 받기",
+      "href": "/get-help"
+    }
+  ]
 }
