@@ -50,16 +50,34 @@
     }
   ],
   "tinyVersion": "В следующий приём пищи откажитесь от свинины и алкоголя и выберите самый понятный халяльный вариант из доступных.",
-  "unlocksNext": "Когда с едой станет проще, более широкие основы халяля и харама усвоить гораздо легче.",
-  "resourceIds": ["halal-living-guide", "new-muslim-guide-site"],
-  "relatedGlossaryIds": ["halal", "haram"],
-  "relatedTopicIds": ["halal-living", "new-muslim-basics"],
+  "unlocksNext": "Когда с едой станет проще, вы готовы узнать о посте, в котором вместе с сердцем участвует и тело.",
+  "resourceIds": [
+    "halal-living-guide",
+    "new-muslim-guide-site"
+  ],
+  "relatedGlossaryIds": [
+    "halal",
+    "haram"
+  ],
+  "relatedTopicIds": [
+    "halal-living",
+    "new-muslim-basics"
+  ],
   "gentleScripts": [
     {
       "title": "Хозяевам",
       "body": "Спасибо за приглашение. Теперь я ем только халяльное, поэтому не ем свинину и не пью алкоголь. С радостью принесу блюдо, чтобы вам было проще."
     }
   ],
-  "sourceIds": ["new-muslim-guide", "seekersguidance"],
-  "reviewStatus": "review-needed"
+  "sourceIds": [
+    "new-muslim-guide",
+    "seekersguidance"
+  ],
+  "reviewStatus": "review-needed",
+  "relatedLinks": [
+    {
+      "label": "Халяльная жизнь каждый день",
+      "href": "/guides/halal-living-in-daily-life"
+    }
+  ]
 }

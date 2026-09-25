@@ -9,6 +9,7 @@
       "text": "Сначала поймите смысл, потом гардероб",
       "subSteps": [
         "Скромность касается одежды, речи, того, куда вы направляете взгляд, поведения и того, как вы держитесь.",
+        "Знайте минимум: мужчины покрывают тело от пупка до колена, а женщины всё, кроме лица и кистей рук, перед мужчинами, которые не являются близкими родственниками. Это действует весь день, а не только в намазе, и тема о скромности это объясняет.",
         "Не сводите всю тему к одной вещи или стилю одной культуры.",
         "Спросите знающего преподавателя, что относится к вашей ситуации."
       ]
@@ -48,14 +49,38 @@
     "seekers-guidance",
     "being-muslim-book"
   ],
-  "relatedGlossaryIds": ["hijab", "halal", "haram"],
-  "relatedTopicIds": ["modesty", "family-and-identity", "halal-living"],
+  "relatedGlossaryIds": [
+    "hijab",
+    "halal",
+    "haram"
+  ],
+  "relatedTopicIds": [
+    "modesty",
+    "family-and-identity",
+    "halal-living"
+  ],
   "contextNotes": [
     {
       "title": "Безопасность в семье",
       "body": "Если видимая перемена, скорее всего, вызовет враждебность дома, прежде чем что-то менять, поговорите с местным наставником, которому доверяете."
     }
   ],
-  "sourceIds": ["new-muslim-guide", "seekersguidance"],
+  "relatedLinks": [
+    {
+      "label": "Руководство о скромности и одежде",
+      "href": "/guides/modesty-and-clothing"
+    },
+    {
+      "label": "Руководство для работы и учёбы",
+      "href": "/guides/work-and-school"
+    }
+  ],
+  "sourceIds": [
+    "new-muslim-guide",
+    "seekersguidance",
+    "seekersguidance-awra-for-men",
+    "seekersguidance-interacting-with-opposite-sex",
+    "quran-24-30-31"
+  ],
   "reviewStatus": "review-needed"
 }

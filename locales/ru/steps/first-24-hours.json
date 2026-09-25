@@ -51,8 +51,17 @@
   ],
   "tinyVersion": "Сегодня: сделайте простое дуа, выберите одного человека, к которому можно обратиться за помощью, и на этом остановитесь.",
   "unlocksNext": "Спокойный первый день помогает гораздо легче перейти к гуслю и первым шагам в намазе.",
-  "resourceIds": ["new-muslim-academy", "whyislam", "welcome-to-islam-book"],
-  "relatedGlossaryIds": ["shahada", "dua", "masjid", "imam"],
+  "resourceIds": [
+    "new-muslim-academy",
+    "whyislam",
+    "welcome-to-islam-book"
+  ],
+  "relatedGlossaryIds": [
+    "shahada",
+    "dua",
+    "masjid",
+    "imam"
+  ],
   "relatedTopicIds": [
     "new-muslim-basics",
     "family-and-identity",
@@ -78,8 +87,34 @@
     {
       "title": "Наставнику или в мечеть",
       "body": "Я недавно принял(а) ислам и ищу помощь для начинающих с гуслем, намазом и поддержкой общины. Есть ли человек, с которым я могу поговорить?"
+    },
+    {
+      "title": "Если кто-то хочет снять вашу шахаду на видео",
+      "body": "Пожалуйста, без фото и видео. Я бы хотел пока сохранить это в тайне."
     }
   ],
-  "sourceIds": ["new-muslim-academy", "whyislam", "new-muslim-guide"],
-  "reviewStatus": "source-checked"
+  "sourceIds": [
+    "new-muslim-academy",
+    "whyislam",
+    "new-muslim-guide"
+  ],
+  "reviewStatus": "source-checked",
+  "relatedLinks": [
+    {
+      "label": "Ещё не мусульманин? Задумываетесь об исламе",
+      "href": "/topics/thinking-about-islam"
+    },
+    {
+      "label": "Тревожные признаки и безопасность",
+      "href": "/guides/red-flags-and-staying-safe"
+    },
+    {
+      "label": "Получить помощь",
+      "href": "/get-help"
+    },
+    {
+      "label": "Пять столпов ислама",
+      "href": "/topics/five-pillars"
+    }
+  ]
 }

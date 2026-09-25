@@ -39,19 +39,55 @@
     {
       "problem": "Ответы в интернете противоречат друг другу",
       "solution": "Так бывает часто. Спросите знающего преподавателя, какой ответ относится к вам и какие подробности можно оставить на потом."
+    },
+    {
+      "problem": "Первоначальное чувство угасло, и я сомневаюсь, был ли вообще искренен",
+      "solution": "Сподвижники Пророка тоже это чувствовали. Ханзаля боялся, что он лицемер, потому что дома его чувство веры угасало, и Пророк его успокоил (Sahih Muslim 2750a). Сохраняйте намазы, даже когда они кажутся пресными, добавьте одно маленькое дело, которое сможете сохранить, и прочитайте в теме о вопросах и сомнениях раздел о том, что делать, когда вера кажется пресной."
     }
   ],
   "tinyVersion": "Запишите один вопрос одним ясным предложением и отправьте его одному человеку, который может ответить.",
   "unlocksNext": "Умение задавать вопросы не даёт вере оказаться погребённой и позволяет накапливать знания в спокойном темпе.",
-  "resourceIds": ["yaqeen-institute", "seekers-guidance", "new-muslim-academy"],
-  "relatedGlossaryIds": ["iman", "imam", "fitrah", "tawhid"],
-  "relatedTopicIds": ["questions-and-doubts", "beliefs", "new-muslim-basics"],
+  "resourceIds": [
+    "yaqeen-institute",
+    "seekers-guidance",
+    "new-muslim-academy"
+  ],
+  "relatedGlossaryIds": [
+    "iman",
+    "imam",
+    "fitrah",
+    "tawhid"
+  ],
+  "relatedTopicIds": [
+    "questions-and-doubts",
+    "beliefs",
+    "new-muslim-basics"
+  ],
   "commonQuestions": [
     {
       "problem": "Что, если я не получу ответ сразу?",
       "solution": "Пока ждёте, продолжайте соблюдать основы. Не каждый вопрос нужно решить, прежде чем молиться, делать дуа или продолжать учиться."
     }
   ],
-  "sourceIds": ["yaqeen-institute", "seekersguidance", "new-muslim-academy"],
-  "reviewStatus": "source-checked"
+  "sourceIds": [
+    "yaqeen-institute",
+    "seekersguidance",
+    "new-muslim-academy",
+    "sunnah-muslim-2750a"
+  ],
+  "reviewStatus": "review-needed",
+  "relatedLinks": [
+    {
+      "label": "Вопросы и ответы",
+      "href": "/faq"
+    },
+    {
+      "label": "Получить помощь",
+      "href": "/get-help"
+    },
+    {
+      "label": "Как попросить о помощи",
+      "href": "/guides/how-to-ask-for-help"
+    }
+  ]
 }

@@ -62,9 +62,22 @@
   ],
   "tinyVersion": "Выберите сегодня один намаз, который будете беречь, даже если рядом придётся держать открытую памятку.",
   "unlocksNext": "Когда у вас есть вход, полный шаг о намазе перестаёт казаться стеной.",
-  "resourceIds": ["learn-salah-guide", "pillars-app", "being-muslim-book"],
-  "relatedGlossaryIds": ["salah", "wudu", "qiblah", "al-fatiha"],
-  "relatedTopicIds": ["prayer", "new-muslim-basics", "dua-and-dhikr"],
+  "resourceIds": [
+    "learn-salah-guide",
+    "pillars-app",
+    "being-muslim-book"
+  ],
+  "relatedGlossaryIds": [
+    "salah",
+    "wudu",
+    "qiblah",
+    "al-fatiha"
+  ],
+  "relatedTopicIds": [
+    "prayer",
+    "new-muslim-basics",
+    "dua-and-dhikr"
+  ],
   "commonQuestions": [
     {
       "problem": "Можно ли молиться, читая по памятке?",
@@ -93,7 +106,27 @@
       "title": "Каждая фраза одного ракаата",
       "channel": "Islamwise",
       "duration": "10:29",
-      "sourceIds": ["video-islamwise-rakah-recap"]
+      "sourceIds": [
+        "video-islamwise-rakah-recap"
+      ]
+    }
+  ],
+  "relatedLinks": [
+    {
+      "label": "Возвращение после перерыва",
+      "href": "/guides/coming-back"
+    },
+    {
+      "label": "Помощник «Научитесь молиться (намаз)»",
+      "href": "/tools/salah-companion"
+    },
+    {
+      "label": "Время намаза",
+      "href": "/prayer-times"
+    },
+    {
+      "label": "Руководство для работы и учёбы",
+      "href": "/guides/work-and-school"
     }
   ]
 }

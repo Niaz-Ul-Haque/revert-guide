@@ -2,7 +2,7 @@
   "id": "daily-dua-dhikr",
   "slug": "daily-dua-dhikr",
   "stageId": "week-1",
-  "title": "Начните простую ежедневную практику дуа и зикра",
+  "title": "Привычка ежедневного поминания (дуа и зикр)",
   "whyMatters": "Дуа и зикр поддерживают связь с Аллахом задолго до того, как вы выучите арабский. Это маленькие способы помнить о Нём, которые всегда с вами: в стрессе, в благодарности и посреди обычного дня.",
   "exactActions": [
     {
@@ -48,14 +48,33 @@
     "quran-com",
     "new-muslim-academy"
   ],
-  "relatedGlossaryIds": ["dua", "dhikr", "sunnah", "salah"],
-  "relatedTopicIds": ["dua-and-dhikr", "prayer", "new-muslim-basics"],
+  "relatedGlossaryIds": [
+    "dua",
+    "dhikr",
+    "sunnah",
+    "salah"
+  ],
+  "relatedTopicIds": [
+    "dua-and-dhikr",
+    "prayer",
+    "new-muslim-basics"
+  ],
   "commonQuestions": [
     {
       "problem": "Нужно ли сразу выучить много дуа?",
       "solution": "Нет. Начните с нескольких надёжных дуа или поминаний, поймите их и добавляйте постепенно."
     }
   ],
-  "sourceIds": ["quran-com", "sunnah-com", "darussalam"],
-  "reviewStatus": "review-needed"
+  "sourceIds": [
+    "quran-com",
+    "sunnah-com",
+    "darussalam"
+  ],
+  "reviewStatus": "review-needed",
+  "relatedLinks": [
+    {
+      "label": "Дуа и зикр",
+      "href": "/dua-dhikr"
+    }
+  ]
 }

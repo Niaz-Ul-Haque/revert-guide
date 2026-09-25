@@ -2,7 +2,7 @@
   "id": "zakat-hajj",
   "slug": "zakat-hajj",
   "stageId": "month-6-plus",
-  "title": "Узнайте о закяте и хадже",
+  "title": "Обязательная милостыня (закят) и паломничество (хадж)",
   "whyMatters": "Закят (обязательная милостыня) и хадж (паломничество в Мекку) два из пяти столпов, и когда вы их понимаете, перед вами вся основа того, что значит быть мусульманином. Закят очищает имущество и помогает общине заботиться о нуждающихся. Хадж — это поездка раз в жизни к Дому Аллаха в Мекке, где миллионы мусульман со всех концов света стоят вместе, и обычно он меняет людей. Оба обязательства долгосрочные, и ни одно не срочно. Узнать о них сейчас значит подготовить почву на будущее.",
   "exactActions": [
     {
@@ -99,10 +99,14 @@
     "kaabah",
     "ihram",
     "tawaf",
-    "eid-al-adha",
+    "eid",
     "dhul-hijjah"
   ],
-  "relatedTopicIds": ["beliefs", "fasting", "halal-living"],
+  "relatedTopicIds": [
+    "beliefs",
+    "fasting",
+    "halal-living"
+  ],
   "sourceIds": [
     "quran-zakat-9-60",
     "irc-nisab",
@@ -115,5 +119,23 @@
     "travel-gc-saudi-arabia",
     "nusuk-hajj"
   ],
-  "reviewStatus": "review-needed"
+  "reviewStatus": "review-needed",
+  "relatedLinks": [
+    {
+      "label": "Завещание и наследство",
+      "href": "/topics/wills-and-inheritance"
+    },
+    {
+      "label": "Когда кто-то умирает",
+      "href": "/guides/when-someone-dies"
+    },
+    {
+      "label": "Закят для начинающих",
+      "href": "/seasonal/zakat"
+    },
+    {
+      "label": "Руководство о Зуль-хидже, хадже и умре",
+      "href": "/seasonal/dhul-hijjah-hajj-umrah"
+    }
+  ]
 }
