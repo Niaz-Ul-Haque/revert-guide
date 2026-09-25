@@ -1,256 +1,1268 @@
 [
   {
     "id": "islamic-society-of-toronto-dundas",
-    "name": "Islamic Society of Toronto - Masjid Darus Salaam",
-    "address": "20 Overlea Boulevard",
-    "city": "Toronto",
-    "stateProvince": "Ontario",
-    "country": "Canada",
-    "postalCode": "M4H 1A4",
-    "coordinates": {
-      "lat": 43.7046555,
-      "lng": -79.3514705
-    },
-    "phone": "(416) 467-0786",
-    "email": "info@islamicsocietyoftoronto.com",
-    "website": "https://www.islamicsocietyoftoronto.com/",
-    "notes": "Kilala rin bilang Masjid Darus Salaam. Ang opisyal na site ay naglilista ng mga pang-araw-araw na panalangin at mga programa sa edukasyong Islam.",
-    "visitorNotes": "Gamitin ang opisyal na site o makipag-ugnayan sa opisina bago bumisita dahil maaaring magbago ang mga oras ng panalangin, mga tala sa paradahan, at mga programa.",
-    "jumuahNote": "Ang opisyal na site ay nagpo-post ng mga hilera ng Jumu'ah at mga update sa oras ng panalangin; kumpirmahin ang kasalukuyang iskedyul bago dumalo.",
-    "classSupportNote": "Kasama sa mga opisyal na nakalistang programa ang panggabing klase ng Quran, Sunday madrasah, Hifz, Alim/Alima, at mahahalagang pag-aaral ng Islam.",
-    "parkingNote": "Kasama sa opisyal na site ang isang tiyak na babala sa paradahan para sa malapit na pribadong paradahan; suriin ang kasalukuyang mga tagubilin bago pumunta.",
-    "serviceIds": ["quran-classes", "weekend-school", "community-events"],
-    "sourceIds": ["masjid-ist-darus-salaam"],
-    "reviewStatus": "source-checked"
+    "notes": "Kilala rin bilang Masjid Darus Salaam. Inililista ng opisyal na site ang pang-araw-araw na pagdarasal at mga programa sa edukasyong Islamiko.",
+    "visitorNotes": "Tingnan ang opisyal na site o tawagan ang opisina bago ka pumunta. Nagbabago ang oras ng pagdarasal, tala sa paradahan at mga programa.",
+    "jumuahNote": "Naglalagay ang opisyal na site ng oras ng Jumu'ah at update sa oras ng pagdarasal. Kumpirmahin ang iskedyul bago ka pumunta.",
+    "classSupportNote": "Kasama sa mga nakalistang programa ang klase sa Quran sa gabi, madrasah tuwing Linggo, Hifz, pag-aaral para sa Alim at Alima, at pangunahing pag-aaral ng Islam.",
+    "parkingNote": "Nagbababala ang opisyal na site tungkol sa pribadong paradahan sa malapit. Basahin ang kasalukuyang tagubilin bago ka pumarada."
   },
   {
     "id": "taric-islamic-centre",
-    "name": "TARIC Islamic Centre",
-    "address": "99 Beverly Hills Drive",
-    "city": "North York",
-    "stateProvince": "Ontario",
-    "country": "Canada",
-    "postalCode": "M3L 1A2",
-    "coordinates": {
-      "lat": 43.7179655,
-      "lng": -79.5159803
-    },
-    "phone": "(416) 245-5675",
-    "email": "admin@taric.org",
-    "website": "https://taric.org/",
-    "notes": "Isang matagal nang Islamic center na may mga iskedyul ng pampublikong kaganapan at programming sa komunidad.",
-    "visitorNotes": "Gamitin ang opisyal na site o makipag-ugnayan sa center para sa kasalukuyang mga oras ng Jumu'ah, mga kaganapan, at suporta sa bisita.",
-    "classSupportNote": "Ang opisyal na materyal ng kaganapan ay naglilista ng mga seminar ng pamilya, mga aktibidad sa Ramadan, mga kaganapan sa Eid, outreach sa komunidad, at programa ng kabataan/pamilya.",
-    "serviceIds": ["community-events", "youth-programs"],
-    "sourceIds": ["masjid-taric"],
-    "reviewStatus": "source-checked"
+    "notes": "Isang matagal nang Islamic center na naglalathala ng iskedyul ng kaganapan nito at may regular na programa para sa komunidad.",
+    "visitorNotes": "Tingnan ang opisyal na site o tawagan ang center para sa kasalukuyang oras ng Jumu'ah, mga kaganapan at suporta sa bisita.",
+    "classSupportNote": "Inililista ng nakalathalang materyal sa kaganapan ang mga seminar para sa pamilya, aktibidad sa Ramadan, kaganapan sa Eid, pakikipag-ugnayan sa komunidad, at mga programa para sa kabataan at pamilya."
   },
   {
     "id": "masjid-toronto-adelaide",
-    "name": "Masjid Toronto (Dundas)",
-    "address": "168 Dundas Street West",
-    "city": "Toronto",
-    "stateProvince": "Ontario",
-    "country": "Canada",
-    "postalCode": "M5G 1C6",
-    "coordinates": {
-      "lat": 43.6536,
-      "lng": -79.3849
-    },
-    "phone": "(416) 596-0507",
-    "website": "https://centres.macnet.ca/masjidtoronto/venue/toronto-dundas/",
-    "notes": "Lokasyon ng downtown masjid na pinamamahalaan ng MAC Masjid Toronto. Ang record na ito ay tumutugma na ngayon sa Dundas venue address.",
-    "visitorNotes": "Maaaring maging abala ang mga lokasyon sa downtown sa paligid ng Jumu'ah. Kumpirmahin ang mga kasalukuyang timing at mga detalye ng pasukan bago bumisita.",
-    "jumuahNote": "Gamitin ang opisyal na site ng Masjid Toronto para sa kasalukuyang mga detalye ng panalangin at Jumu'ah.",
-    "sourceIds": ["masjid-toronto-dundas"],
-    "reviewStatus": "source-checked"
+    "notes": "Ang lokasyon ng MAC Masjid Toronto sa Dundas. May ikalawang lokasyon sa Adelaide Street East.",
+    "visitorNotes": "Nagiging matao ang downtown sa bandang Jumu'ah, kaya maglaan ng dagdag na oras. Alamin ang kasalukuyang oras at kung aling pasukan ang gagamitin bago ka pumunta.",
+    "womenSpaceNote": "Nararating ang lugar-dasalan ng kababaihan sa hagdanang may markang Sister's Entrance.",
+    "newMuslimSupportNote": "Nagkikita rito ang klaseng After the Shahadah tuwing ika-2 at ika-4 na Linggo ng hapon. Dalawang magkaibang oras ng simula ang ibinibigay ng opisyal na pahina, kaya mag-email sa convertconnect@masjidtoronto.com para kumpirmahin. Nagkikita ang isang Convert Connect Group tuwing ika-1 at ika-3 Linggo pagkatapos ng Dhuhr, at puwede kang humiling na may sumalubong sa iyo sa unang pagbisita mo.",
+    "accessibilityNote": "May elevator sa likod ng lugar-dasalan ng kalalakihan.",
+    "jumuahNote": "Tatlong pagdarasal ng Jumu'ah (12:10, 1:10 at 2:10 PM noong Setyembre 2026). Tingnan ang site para sa kasalukuyang linggo.",
+    "classSupportNote": "Inililista rin ng pahina ng mga programa ang Islamic Education in Sign Language tuwing ika-2 at ika-4 na Linggo."
   },
   {
     "id": "islamic-foundation-of-toronto",
-    "name": "Islamic Foundation of Toronto",
-    "address": "441 Nugget Avenue",
-    "city": "Scarborough",
-    "stateProvince": "Ontario",
-    "country": "Canada",
-    "postalCode": "M1S 5E1",
-    "coordinates": {
-      "lat": 43.7874,
-      "lng": -79.2636
-    },
-    "phone": "(416) 321-0909",
-    "email": "info@islamicfoundation.ca",
-    "website": "https://www.islamicfoundation.ca/",
-    "notes": "Malaking pasilidad ng komunidad na may pagsamba, edukasyon, at pampublikong programa.",
-    "visitorNotes": "Direktang kumpirmahin ang mga kasalukuyang programa, pagpaparehistro ng klase, at suporta sa bisita bago dumalo.",
-    "classSupportNote": "Ang mga opisyal at naka-link na listahan ng pinagmulan ay nagpapakita ng mga programa sa edukasyon gaya ng Hifz, Sunday school, at mga serbisyo sa komunidad.",
-    "serviceIds": ["quran-classes", "weekend-school", "community-events"],
-    "sourceIds": ["masjid-islamic-foundation-toronto"],
-    "reviewStatus": "source-checked"
+    "notes": "Isang malaking pasilidad na may bulwagan ng pagdarasal, mga klase at pampublikong programa.",
+    "visitorNotes": "Makipag-ugnayan sa opisina bago ka dumalo para kumpirmahin ang mga programa, pagpaparehistro sa klase, at kung anong suporta sa bisita ang available.",
+    "classSupportNote": "Ipinapakita ng mga nakalathalang listahan ang mga programa sa edukasyon kasama ang Hifz at Sunday school, pati mga serbisyo sa komunidad."
   },
   {
     "id": "khalid-bin-al-walid-mosque",
-    "name": "Khalid Bin Al-Walid Mosque",
-    "address": "16 Bethridge Road",
-    "city": "Etobicoke",
-    "stateProvince": "Ontario",
-    "country": "Canada",
-    "postalCode": "M9W 1N1",
-    "coordinates": {
-      "lat": 43.7087605,
-      "lng": -79.5687599
-    },
-    "phone": "(416) 745-2888",
-    "email": "info@khalidmosque.com",
-    "website": "https://www.khalidmosque.com/",
-    "notes": "Etobicoke mosque na may opisyal na impormasyon sa pakikipag-ugnayan at mga update sa programming ng komunidad.",
-    "visitorNotes": "Makipag-ugnayan sa opisina o tingnan ang opisyal na site bago bumisita; maaaring luma na ang mga lumang listahan ng address.",
-    "jumuahNote": "Kumpirmahin ang kasalukuyang Jumu'ah at mga oras ng pagdarasal nang direkta sa masjid.",
-    "sourceIds": ["masjid-khalid-bin-al-walid"],
-    "reviewStatus": "source-checked"
+    "notes": "Isang masjid sa Etobicoke na pinananatiling updated sa sarili nitong site ang contact details at mga update sa programa.",
+    "visitorNotes": "Tawagan ang opisina o tingnan ang opisyal na site bago ka pumunta. May lumang address pa rin sa mga mas lumang listahan sa ibang lugar.",
+    "jumuahNote": "Kumpirmahin nang direkta sa masjid ang kasalukuyang oras ng Jumu'ah at pagdarasal."
   },
   {
     "id": "imdadul-islamic-centre",
-    "name": "Imdadul Islamic Centre",
-    "address": "26 Le Page Court",
-    "city": "North York",
-    "stateProvince": "Ontario",
-    "country": "Canada",
-    "postalCode": "M3J 1Z9",
-    "coordinates": {
-      "lat": 43.759028,
-      "lng": -79.4869955
-    },
-    "phone": "(416) 636-0044",
-    "email": "imdaduljamat@gmail.com",
-    "website": "https://www.imdadulcentre.ca/",
-    "notes": "Community mosque na may pagsamba, pamilya, kabataan, volunteer, at outreach programming.",
-    "visitorNotes": "Hinihiling ng opisyal na site ang mga bisita na makipag-ugnayan sa masjid para sa mga tanong, suporta, o pakikilahok.",
-    "jumuahNote": "Ang opisyal na site ay naglilista ng dalawang panalangin sa Jumu'ah; kumpirmahin ang kasalukuyang mga oras bago dumalo.",
-    "classSupportNote": "Binabanggit ng mga opisyal na paglalarawan ang mga serbisyo sa panalangin, pag-abot sa komunidad, mga pagkakataong magboluntaryo, at programa ng pamilya.",
-    "parkingNote": "Dumating nang maaga para sa Jumu'ah at direktang kumpirmahin ang mga tagubilin sa paradahan.",
-    "serviceIds": ["community-events", "youth-programs"],
-    "sourceIds": ["masjid-imdadul-islamic-centre"],
-    "reviewStatus": "source-checked"
+    "notes": "Isang masjid ng komunidad na may mga programa sa pagsamba, pamilya, kabataan, boluntaryo at pakikipag-ugnayan.",
+    "visitorNotes": "Hinihiling ng opisyal na site sa mga bisita na makipag-ugnayan sa masjid para sa mga tanong, suporta o paraan ng pagtulong.",
+    "jumuahNote": "Dalawang pagdarasal ng Jumu'ah ang nakalista sa opisyal na site. Kumpirmahin muna ang kasalukuyang oras bago ka pumunta.",
+    "classSupportNote": "Binabanggit ng mga nakalathalang paglalarawan ang mga serbisyo sa pagdarasal, pakikipag-ugnayan sa komunidad, pagkakataong magboluntaryo at mga programa para sa pamilya.",
+    "parkingNote": "Dumating nang maaga para sa Jumu'ah, at itanong sa masjid kung saan pumarada."
   },
   {
     "id": "masjid-el-noor",
-    "name": "Masjid El Noor",
-    "address": "277 Scott Road",
-    "city": "Toronto",
-    "stateProvince": "Ontario",
-    "country": "Canada",
-    "postalCode": "M6M 3V3",
-    "coordinates": {
-      "lat": 43.689655,
-      "lng": -79.4719435
-    },
-    "phone": "(416) 658-6667",
-    "email": "info@masjidelnoor.ca",
-    "website": "https://masjidelnoor.ca/",
-    "notes": "Itinatag ang Toronto masjid na may panalangin, mga klase, at mga serbisyo sa komunidad.",
-    "visitorNotes": "Ang opisyal na site ay nagpo-post ng Jumu'ah, paradahan, at mga update sa programa; kumpirmahin ang mga kasalukuyang detalye bago bumisita.",
-    "womenSpaceNote": "Ang opisyal tungkol sa pahina ay naglalarawan ng mga bulwagan ng panalangin para sa mga kapatid.",
-    "accessibilityNote": "Ang opisyal tungkol sa page ay nagbanggit ng mga rampa at mga itinalagang parking space.",
-    "jumuahNote": "Ang opisyal na site ay naglilista ng isang Jumu'ah na panalangin na may lektura sa Ingles bago ang Arabic khutbah; kumpirmahin ang kasalukuyang mga oras.",
-    "classSupportNote": "Kasama sa mga opisyal na nakalistang programa ang Evening Maktaab at edukasyon na nauugnay sa Quran.",
-    "parkingNote": "Ang opisyal na site ay nagpo-post ng Jumu'ah-only parking guidance at humihiling sa mga bisita na huwag harangan ang mga hydrant, crosswalk, o driveways.",
-    "serviceIds": ["quran-classes", "community-events"],
-    "womenFriendly": true,
-    "parking": true,
-    "accessibility": true,
-    "sourceIds": ["masjid-el-noor"],
-    "reviewStatus": "source-checked"
+    "notes": "Isang matatag na masjid sa Toronto na may pang-araw-araw na pagdarasal, mga klase at serbisyo sa komunidad.",
+    "visitorNotes": "Naglalagay ang opisyal na site ng mga update sa Jumu'ah, paradahan at programa. Alamin ang kasalukuyang detalye bago ka bumisita.",
+    "womenSpaceNote": "Inilalarawan ng pahinang tungkol sa kanila ang magkahiwalay na bulwagan ng pagdarasal para sa kalalakihan at kababaihan.",
+    "accessibilityNote": "Binabanggit ng pahinang tungkol sa kanila ang mga rampa at nakalaang paradahan.",
+    "jumuahNote": "Isang pagdarasal ng Jumu'ah ang nakalista sa opisyal na site, na may lektyur sa Ingles bago ang khutbah sa Arabic. Kumpirmahin ang kasalukuyang oras.",
+    "classSupportNote": "Kasama sa mga nakalistang programa ang Evening Maktaab at mga klase sa Quran.",
+    "parkingNote": "Naglalagay ang opisyal na site ng gabay sa paradahan para sa Jumu'ah at hinihiling sa mga bisita na huwag harangan ang hydrant, tawiran o daanan ng sasakyan."
   },
   {
     "id": "islamic-institute-of-toronto",
-    "name": "Islamic Institute of Toronto",
-    "address": "1630 Neilson Road",
-    "city": "Scarborough",
-    "stateProvince": "Ontario",
-    "country": "Canada",
-    "postalCode": "M1X 1S3",
-    "coordinates": {
-      "lat": 43.7903,
-      "lng": -79.2141
-    },
-    "phone": "(416) 335-9173",
-    "email": "iit@islam.ca",
-    "website": "https://islam.ca/contact-us/",
-    "notes": "Institusyong pang-edukasyon at sentro ng komunidad na may opisyal na pakikipag-ugnayan at mga direksyon.",
-    "visitorNotes": "Gamitin ang opisyal na pahina ng contact para sa kasalukuyang mga direksyon, impormasyon ng klase, at mga tanong ng bisita.",
-    "classSupportNote": "Inilalarawan ng opisyal na site ang IIT bilang isang non-profit na institusyong pang-edukasyon at naglilista ng mga update sa programa/newsletter.",
-    "serviceIds": ["quran-classes", "community-events"],
-    "sourceIds": ["masjid-islamic-institute-toronto"],
-    "reviewStatus": "source-checked"
+    "notes": "Isang instituto ng edukasyon at community center. Nasa sarili nitong site ang contact details at direksyon.",
+    "visitorNotes": "Gamitin ang opisyal na pahina ng contact para sa direksyon, impormasyon sa klase at anumang tanong ng bisita.",
+    "newMuslimSupportNote": "Ang The New Muslim Corner ay libreng kurso na may 25 recorded na aralin. Binabanggit din ng pahina ng kurso ang klase para sa bagong Muslim tuwing Biyernes nang 7:00 PM, pero hindi pa kumpirmado kung live pa ito, kaya magtanong sa opisina.",
+    "classSupportNote": "Inilalarawan ng opisyal na site ang IIT bilang non-profit na instituto ng edukasyon at naglalagay ito ng update sa programa at newsletter."
   },
   {
     "id": "jami-mosque",
-    "name": "Jami Mosque Toronto | ISNA Canada",
-    "address": "56 Boustead Avenue",
-    "city": "Toronto",
-    "stateProvince": "Ontario",
-    "country": "Canada",
-    "postalCode": "M6R 1Y9",
-    "coordinates": {
-      "lat": 43.6474,
-      "lng": -79.4446
-    },
-    "phone": "(416) 769-1192",
-    "website": "https://www.isnacanada.com/locations/jami-mosque-toronto",
-    "notes": "Ang makasaysayang moske sa Toronto ay nakalista na ngayon sa pamamagitan ng ISNA Canada.",
-    "visitorNotes": "Kumpirmahin ang mga kasalukuyang oras, oras ng Jumu'ah, at access sa kaganapan sa pamamagitan ng ISNA Canada bago bumisita.",
-    "sourceIds": ["masjid-jami-mosque-isna"],
-    "reviewStatus": "source-checked"
+    "notes": "Isang makasaysayang masjid sa Toronto, na nakalista na ngayon sa ilalim ng ISNA Canada.",
+    "visitorNotes": "Alamin sa ISNA Canada ang oras ng pagbubukas, oras ng Jumu'ah at access sa mga kaganapan bago ka pumunta."
   },
   {
     "id": "abu-huraira-center",
-    "name": "Abu Huraira Center",
-    "address": "270 Yorkland Boulevard",
-    "city": "North York",
-    "stateProvince": "Ontario",
-    "country": "Canada",
-    "postalCode": "M2J 5C9",
-    "coordinates": {
-      "lat": 43.77282,
-      "lng": -79.33454
-    },
-    "phone": "(416) 752-1200",
-    "email": "info@abuhuraira.org",
-    "website": "https://www.abuhuraira.org/",
-    "notes": "Malaking sentro ng komunidad ng GTA na may panalangin, pag-aaral, pagpapayo, kabataan, at mga bagong serbisyong suporta sa Muslim.",
-    "visitorNotes": "Ang opisyal na site ay naglilista ng mga programa at impormasyon sa pakikipag-ugnayan; kumpirmahin ang kasalukuyang suporta sa bisita at pagpaparehistro ng klase bago pumasok.",
-    "newMuslimSupportNote": "Inililista ng opisyal na site ang suporta ng Bagong Muslim sa mga serbisyo nito.",
-    "classSupportNote": "Kasama sa mga opisyal na nakalistang programa ang edukasyong nauugnay sa Quran, paaralan sa katapusan ng linggo, Hifdh, kabataan, at regular na halaqas.",
-    "serviceIds": [
-      "quran-classes",
-      "community-events",
-      "new-muslim-support",
-      "youth-programs",
-      "weekend-school"
-    ],
-    "convertSupport": true,
-    "sourceIds": ["masjid-abu-huraira-center"],
-    "reviewStatus": "source-checked"
+    "notes": "Isang malaking community center sa GTA. Nasa iisang gusali ang pagdarasal, mga klase, counselling, gawain para sa kabataan at suporta sa bagong Muslim.",
+    "visitorNotes": "Inililista ng opisyal na site ang mga programa at contact information. Kumpirmahin ang suporta sa bisita at pagpaparehistro sa klase bago ka dumalo.",
+    "newMuslimSupportNote": "Nakalista sa opisyal na site ang suporta sa bagong Muslim sa mga serbisyo nito.",
+    "classSupportNote": "Kasama sa mga nakalistang programa ang mga klase sa Quran, paaralan tuwing Sabado at Linggo, Hifdh, aktibidad para sa kabataan at regular na halaqa."
   },
   {
     "id": "isna-islamic-centre-of-canada",
-    "name": "Islamic Centre of Canada (ISNA)",
-    "address": "2200 South Sheridan Way",
-    "city": "Mississauga",
-    "stateProvince": "Ontario",
-    "country": "Canada",
-    "postalCode": "L5J 2M4",
-    "coordinates": {
-      "lat": 43.5063,
-      "lng": -79.6505
-    },
-    "phone": "(905) 403-8406",
-    "website": "https://www.isnacanada.com/our-spaces/islamic-centre-of-canada/",
-    "notes": "ISNA Canada punong-tanggapan at lokal na sentro ng komunidad na may musallah, kabataan, edukasyon, at mga lugar ng kaganapan.",
-    "visitorNotes": "Kumpirmahin ang kasalukuyang mga oras ng panalangin, mga klase, access sa kaganapan, at suporta sa bisita sa pamamagitan ng ISNA Canada bago pumunta.",
-    "classSupportNote": "Ang opisyal na pahina ay naglalarawan ng isang sentro ng edukasyon, hub ng kabataan, musallah, at mga puwang ng komunidad na maaaring i-book.",
-    "serviceIds": ["quran-classes", "community-events", "youth-programs"],
-    "sourceIds": ["masjid-isna-islamic-centre-canada"],
-    "reviewStatus": "source-checked"
+    "notes": "Ang punong-tanggapan ng ISNA Canada, at isang community center din mismo, na may musallah, espasyo para sa kabataan, silid-aralan at espasyo para sa kaganapan.",
+    "visitorNotes": "Alamin sa ISNA Canada ang oras ng pagdarasal, mga klase, access sa kaganapan at suporta sa bisita bago ka pumunta.",
+    "newMuslimSupportNote": "Nag-aalok ang New Muslims and Convert Care ng ISNA Canada ng lingguhang klase, buwanang pagtitipon, at kahong Being Muslim na may salin ng Quran, mga libro at prayer rug. Hindi nakalathala ang araw, oras at lugar ng klase, kaya tawagan ang opisina o gamitin ang contact form.",
+    "classSupportNote": "Inilalarawan ng opisyal na pahina ang isang education center, youth hub, musallah at mga espasyo ng komunidad na puwedeng i-book."
+  },
+  {
+    "id": "masjid-quba-islamic-society-of-ajax",
+    "notes": "Kilala rin bilang Ajax Masjid.",
+    "jumuahNote": "Tatlong pagdarasal ng Jumah (khutbah 2:00, 3:15, 4:15 PM sa listahan noong 2026-09-23).",
+    "parkingNote": "Hinihiling ng homepage sa mga tao na 'pumarada nang maayos at magalang kapag dumadalo sa Jumah Salah'."
+  },
+  {
+    "id": "barrie-mosque",
+    "notes": "Kilala rin bilang Barrie Mosque; Noor Ul Islam.",
+    "newMuslimSupportNote": "Nag-aalok ang pahinang Reverts to Islam ng paggabay at ng Reverts to Islam Social Circle and Study tuwing unang Sabado ng bawat buwan."
+  },
+  {
+    "id": "islamic-society-of-belleville",
+    "notes": "Kilala rin bilang Belleville Masjid; Belleville Mosque.",
+    "jumuahNote": "Inililista ng pahinang tungkol sa kanila ang \"Juma tuwing Biyernes\"; sinasabi ng mas lumang abiso sa homepage ang \"Khutba tuwing Biyernes: 1:45 PM, Salat 2:00 PM (iisang pagdarasal lamang)\" (maaaring luma na).",
+    "parkingNote": "Abiso sa homepage: gabay sa paglabas sa Moira St pagkatapos ng pagdarasal tuwing Biyernes at \"Pakiusap, HUWAG pumarada sa mga nakalaang puwesto sa parking lot o kung saan may markang bawal pumarada.\""
+  },
+  {
+    "id": "brampton-islamic-centre",
+    "notes": "Kilala rin bilang BIC/BSIA; Brampton Society for Islamic Awareness.",
+    "jumuahNote": "Homepage: \"Jumu'ah 1: Khutba: 1:45 PM, Iqamah: 2:10 PM; Jumu'ah 2: Khutba: 2:55 PM, Iqamah: 3:15 PM\"."
+  },
+  {
+    "id": "jame-makki-masjid-brampton",
+    "notes": "Kilala rin bilang Brampton Makki Masjid.",
+    "womenSpaceNote": "May nakalaang lugar para sa kababaihan (pahinang tungkol sa kanila).",
+    "jumuahNote": "Iqamah ng Jumuah 1:45 pm, 2:30 pm, 3:30 pm (homepage)."
+  },
+  {
+    "id": "jamiat-ul-ansar-brampton",
+    "notes": "Kilala rin bilang Ansar Mosque Brampton.",
+    "womenSpaceNote": "Pahina para sa kababaihan: buwanang lektyur, \"Unang Miyerkules ng bawat buwan ... 6:30 PM hanggang 7:30 PM\", \"Malugod na tinatanggap ang lahat ng kababaihan\", \"Bago ka man sa komunidad o ilang taon ka nang kasama namin, espasyo ito na ginawa para maramdaman ng bawat babae na tinatanggap siya\".",
+    "newMuslimSupportNote": "Inilalarawan ng pahina ng mga serbisyo ang komite ng New Muslim Outreach na nagbibigay ng \"suporta, payo at edukasyon sa mga bagong Muslim\". Mag-email sa centre para sa mga detalye."
+  },
+  {
+    "id": "muslim-association-of-brantford",
+    "notes": "Kilala rin bilang MAB; Brantford Mosque.",
+    "womenSpaceNote": "Pahina ng pagdarasal: 'May lugar para sa kalalakihan at kababaihan'; binabanggit ang hiwalay na pasilidad para sa kababaihan na 'Mussallah-UL-Nissah'.",
+    "parkingNote": "Pahina ng pagdarasal: 'Gamitin lamang ang mga nakalaang lugar ng paradahan'; 'mabilis mapuno' ang paradahan tuwing Biyernes."
+  },
+  {
+    "id": "halton-islamic-association-halton-masjid-burlington",
+    "notes": "Kilala rin bilang Masjid Halton.",
+    "womenSpaceNote": "Komite at mga kaganapan para sa kababaihan; binabanggit ang pasilidad ng gym para sa kababaihan.",
+    "jumuahNote": "Halton Masjid: khutbah 1:30, 2:30, 3:20 PM; may dagdag na Jumuah sa East Plains Church (375 Plains Rd E) at sa isang community centre."
+  },
+  {
+    "id": "galt-islamic-center-cambridge",
+    "notes": "Lugar: Galt. Kilala rin bilang Galt Islamic Centre.",
+    "womenSpaceNote": "Pahinang tungkol sa kanila: \"mga espesyal na programa para sa kababaihan, mga programang para lamang sa aming mga ina at kababaihan\"."
+  },
+  {
+    "id": "hespeler-masjid-a-mac-community-centre-cambridge",
+    "jumuahNote": "Unang pagdarasal 1:30 PM; may nakalista ring ikalawang pagdarasal nang 2:00 PM."
+  },
+  {
+    "id": "islamic-centre-of-cambridge",
+    "notes": "Kilala rin bilang ICC.",
+    "jumuahNote": "Dalawang khutbah: 1:30 PM at 2:45 PM."
+  },
+  {
+    "id": "townline-muslim-centre-cambridge",
+    "notes": "Kilala rin bilang TMC.",
+    "jumuahNote": "Dalawang sesyon ng Jumuah; adhan 30 minuto bago ang bawat iqama (nasa site ang oras)."
+  },
+  {
+    "id": "cornwall-islamic-centre",
+    "womenSpaceNote": "\"Nasa kanang bahagi ng gusali ang pasukan ng kababaihan\" (pahinang tungkol sa kanila)."
+  },
+  {
+    "id": "the-ottawa-valley-islamic-centre-deep-river"
+  },
+  {
+    "id": "islamic-association-of-sudbury-greater-sudbury",
+    "notes": "Kilala rin bilang Sudbury Mosque.",
+    "jumuahNote": "'MAY KHUTBA KAMI SA PAGDARASAL TUWING BIYERNES NA NAGSISIMULA NANG 12:30 PM'."
+  },
+  {
+    "id": "islamic-centre-of-northern-ontario-greater-sudbury",
+    "notes": "Kilala rin bilang ICONO.",
+    "jumuahNote": "May pahina ng recording ng khutbah; walang ipinapakitang oras."
+  },
+  {
+    "id": "islamic-society-of-guelph",
+    "notes": "Kilala rin bilang Masjid Abu Bakr As-Siddique.",
+    "jumuahNote": "Jummah tuwing Biyernes (walang nakasaad na oras)."
+  },
+  {
+    "id": "masjid-aisha-a-mac-community-centre-guelph",
+    "jumuahNote": "Nakalista bilang 'Malapit na' sa homepage (walang oras)."
+  },
+  {
+    "id": "muslim-society-of-guelph",
+    "notes": "Kilala rin bilang MSOG.",
+    "jumuahNote": "Maraming pagdarasal ng Jumuah, halimbawa iqamah nang 1:35 PM at 3:35 PM; 'Pakiusap, dumating nang 10 hanggang 15 minuto bago ang oras ng simula'."
+  },
+  {
+    "id": "alkhairia-islamic-centre-hamilton",
+    "notes": "Lugar: Ancaster. Kilala rin bilang AIC Ancaster.",
+    "newMuslimSupportNote": "Inililista ng homepage ang Revert Outreach Programs sa mga serbisyo nito. Walang pahinang naglalarawan nito nang detalyado, kaya magtanong sa centre.",
+    "jumuahNote": "Inililista ng homepage ang \"Pagdarasal tuwing Biyernes\" bilang serbisyo; walang nakasaad na oras."
+  },
+  {
+    "id": "bosnian-islamic-centre-of-hamilton",
+    "notes": "Lugar: Stoney Creek. Kilala rin bilang BIC Hamilton.",
+    "visitorNotes": "Mga wika: pangunahing nasa Bosnian ang site na may seksyon sa Ingles (About Us, Contact Info, News (English)). Hindi nakasaad ang wika ng khutbah.",
+    "jumuahNote": "Pahina ng contact: \"Jumu'ah: tuwing Biyernes, 1:30PM EST\"; kahon ng pagdarasal sa homepage: \"Jumu'ah: tuwing Biyernes, 1:25PM, 3:00PM\"."
+  },
+  {
+    "id": "hamilton-downtown-mosque",
+    "notes": "Kilala rin bilang HDM.",
+    "jumuahNote": "'Sermon at pagdarasal tuwing Biyernes (tingnan ang pahina ng oras ng pagdarasal)'."
+  },
+  {
+    "id": "hamilton-mountain-mosque",
+    "notes": "Kilala rin bilang MAH, Mountain Mosque.",
+    "accessibilityNote": "Naglalathala ang MAH ng patakaran sa accessibility ayon sa AODA at hinihiling sa mga nangangailangan ng akomodasyon na makipag-ugnayan sa contactus@hamiltonmosque.com; hindi nakasaad ang mga pisikal na katangian."
+  },
+  {
+    "id": "umar-mosque-hamilton",
+    "notes": "Kilala rin bilang MAH Umar Mosque.",
+    "accessibilityNote": "Pahinang tungkol sa MAH (para sa buong samahan): \"tumatakbo alinsunod sa Accessibility for Ontarians with Disabilities Act. Nakatuon ang MAH sa pagbibigay ng ganap na access sa lugar at sa pag-aalis ng anumang posibleng hadlang\". Hindi nakasaad ang mga katangian ng partikular na lugar."
+  },
+  {
+    "id": "islamic-society-of-kingston",
+    "notes": "Kilala rin bilang ISK; ICK.",
+    "accessibilityNote": "Binabanggit ng pahina ng mga programa ang klase sa special education para sa mga batang may pangangailangan sa pag-aaral; hindi nakasaad ang accessibility ng gusali.",
+    "jumuahNote": "Dalawang Jumu'ah: unang khutbah 1:00 PM (iqamah 1:45 PM), ikalawa 2:30 PM (iqamah 2:45 hanggang 3:00 PM).",
+    "parkingNote": "Pahina ng oras ng pagdarasal: \"Dahil nananatiling problema ang paradahan sa ISK tuwing Jummah, pakiisipan ang isa sa iba pang opsyon para sa Jummah sa lungsod\" (CFB Kingston, Crossroads United Church, Queen's University, lahat nang 1:30 PM)."
+  },
+  {
+    "id": "al-salaam-islamic-centre-kitchener",
+    "jumuahNote": "Homepage: \"Pagdarasal ng Juma 1:30\"."
+  },
+  {
+    "id": "kitchener-masjid-a-mac-community-centre",
+    "notes": "Kilala rin bilang Kitchener Masjid.",
+    "jumuahNote": "Tatlong pagdarasal: 12:15 PM, 1:15 PM, 2:15 PM (nasa Arabic ang ikatlo)."
+  },
+  {
+    "id": "north-london-islamic-centre-komoka"
+  },
+  {
+    "id": "hyde-park-masjid-london",
+    "jumuahNote": "Unang pagdarasal 12:30 PM, ikalawang pagdarasal 1:30 PM."
+  },
+  {
+    "id": "islamic-centre-of-southwest-ontario-london",
+    "notes": "Kilala rin bilang ICSWO.",
+    "jumuahNote": "Nakasaad para sa buong taon: athan 1:30 PM, sermon 1:35 PM, iqama 1:55 PM."
+  },
+  {
+    "id": "london-muslim-mosque",
+    "notes": "Kilala rin bilang LMM.",
+    "newMuslimSupportNote": "Inilalarawan ng pahina ng mga lektyur ang libreng New Muslim Family Meet Up tuwing una at ikatlong Sabado ng buwan, at ang Diploma of Essential Islamic Knowledge para sa mga balik-Islam at bagong Muslim. Kailangang magparehistro.",
+    "jumuahNote": "Dalawang pagdarasal ng Jumuah ang nakalista sa homepage: 12:00 PM at 1:15 PM (tingnan ang site para sa kasalukuyang oras)."
+  },
+  {
+    "id": "mac-noor-gardens-a-mac-community-centre-london",
+    "notes": "Kilala rin bilang Noor Gardens. Inanunsyo ng centre ang pormal na pagbubukas sa 28 Agosto 2026.",
+    "jumuahNote": "Pagdarasal 1: 12:00 PM, Pagdarasal 2: 1:30 PM."
+  },
+  {
+    "id": "muslim-association-of-canada-masonville-centre-london",
+    "notes": "Kilala rin bilang MAC Masonville.",
+    "jumuahNote": "Biyernes 12:00 PM."
+  },
+  {
+    "id": "westmount-masjid-a-mac-community-centre-london",
+    "notes": "Kilala rin bilang MAC Westmount Centre; MAC London main office.",
+    "jumuahNote": "Unang pagdarasal 12:15 PM, ikalawang pagdarasal 1:30 PM."
+  },
+  {
+    "id": "islamic-centre-of-markham",
+    "parkingNote": "May inilathalang panawagan para sa pagsasaayos ng parking lot noong Marso 2026; walang detalye tungkol sa paradahan."
+  },
+  {
+    "id": "islamic-society-of-markham",
+    "newMuslimSupportNote": "Nag-aalok ang pahina ng New Muslim Care Program ng mga coordinator para sa mga tanong tungkol sa Islam, kaganapan ng komunidad at edukasyon. Walang ibinigay na iskedyul."
+  },
+  {
+    "id": "islamic-community-centre-of-milton",
+    "notes": "Kilala rin bilang ICNA Milton.",
+    "womenSpaceNote": "Pahina ng mga programa: \"Isang nakalaang espasyo para mag-aral ng kaalamang Islamiko ang kababaihan (Martes hanggang Huwebes).\"",
+    "jumuahNote": "Widget ng pagdarasal sa homepage: \"Jumuah 1 01:30 pm, Jumuah 2 02:45 pm, Jumuah 3 03:45 pm\"."
+  },
+  {
+    "id": "966-icna-masjid-youth-centre-mississauga",
+    "notes": "Kilala rin bilang 966 Community Centre.",
+    "jumuahNote": "Widget ng pagdarasal sa homepage: \"Jumuah 1 01:30 pm, Jumuah 2 02:30 pm\"."
+  },
+  {
+    "id": "anatolia-islamic-centre-mississauga",
+    "visitorNotes": "Mga wika: may nakalistang halaqa sa Turkish; ipinapahiwatig ng site ang paggamit ng Ingles pero hindi nakasaad ang wika ng mga serbisyo."
+  },
+  {
+    "id": "dar-al-tawheed-islamic-centre-mississauga"
+  },
+  {
+    "id": "islamic-community-centre-of-ontario-mississauga",
+    "notes": "Kilala rin bilang MAC ICCO.",
+    "jumuahNote": "Nakalista ang oras ng pagdarasal tuwing Biyernes nang 12:00, 1:15, 2:30 at 3:30 PM; hindi nakasaad ang wika."
+  },
+  {
+    "id": "masjid-al-farooq-mississauga",
+    "womenSpaceNote": "May nakalistang programang diploma sa Shari'ah para sa kababaihan; hindi inilalarawan ang nakalaang lugar-dasalan.",
+    "accessibilityNote": "May mga pahina ang site para sa Accessibility Policy, Notices at Compliance Report; hindi nakasaad ang detalye ng pisikal na accessibility.",
+    "jumuahNote": "Maraming sesyon ng Jumu'ah ang nakalista kasama ang ikaapat na Jumu'ah nang 3:30 pm; hindi nakasaad ang wika."
+  },
+  {
+    "id": "sayeda-khadija-centre-mississauga",
+    "notes": "Kilala rin bilang Faith of Life Network.",
+    "jumuahNote": "Binabanggit ang 'lingguhang sama-samang pagdarasal'; hindi nakasaad ang oras."
+  },
+  {
+    "id": "newmarket-islamic-centre",
+    "womenSpaceNote": "Homepage: \"Mahigit 1,200 lalaki at babae ang dumadalo sa lingguhang pagdarasal ng Jumma.\" Hindi inilalarawan ang lugar para sa kababaihan.",
+    "jumuahNote": "Homepage: \"Pagdarasal 1: Khutbah 1:15 PM, Pagdarasal 1:45 PM; Pagdarasal 2: Khutbah 2:15 PM, Pagdarasal 2:45 PM\"; binabanggit ng mga abiso ang Jumu'ah sa masjid at sa mga bulwagan sa labas (Lions Hall, Ray Twinney Recreation Complex) sa iba't ibang oras."
+  },
+  {
+    "id": "islamic-society-of-niagara-peninsula-niagara-falls",
+    "jumuahNote": "Jumuah tuwing Biyernes nang 1:30 pm."
+  },
+  {
+    "id": "masjid-alsalam-niagara-falls-islamic-center",
+    "jumuahNote": "Tatlong Jumu'ah nang 1:30, 2:30 at 3:30 PM."
+  },
+  {
+    "id": "al-falah-islamic-centre-oakville",
+    "notes": "Kilala rin bilang Al Falah Center Oakville; ICNA Canada head office.",
+    "womenSpaceNote": "Inililista ng pahina ng mga programa ang lingguhang pagtitipon para sa kababaihan; hindi inilalarawan ang lugar-dasalan.",
+    "jumuahNote": "Widget ng pagdarasal sa homepage: \"Jumuah 1 ... 12:15 pm, Jumuah 2 ... 1:25 pm, Jumuah 3 ... 2:35 pm\"."
+  },
+  {
+    "id": "muslim-association-of-milton-oakville",
+    "notes": "Kilala rin bilang MAM, HICC Masjid.",
+    "jumuahNote": "Ginaganap ang Jumuah sa Milton Sports Centre at sa ibang lugar; tingnan ang flyer sa homepage."
+  },
+  {
+    "id": "islamic-centre-of-oshawa",
+    "notes": "Kilala rin bilang Oshawa Mosque.",
+    "visitorNotes": "Nakumpirma ang serbisyo sa Ingles: (inililista ng iskedyul ng Jumu'ah ang \"English Talk\" bago ang una at ikalawang pagdarasal).",
+    "jumuahNote": "Homepage: \"Unang SALAT: English Talk 1:15 PM ... Khutbah at Salat 1:45 PM; Ikalawang SALAT: English Talk 2:30 PM, Khutbah at Salat 2:45 PM; Ikatlong SALAT: Khutbah at Salat 4:30 PM\"."
+  },
+  {
+    "id": "al-farooq-al-azam-mosque-ottawa",
+    "notes": "Lugar: Old Ottawa South. Kilala rin bilang Jamia Masjid Farooq-e-Azam; Masjid Farooq Azam.",
+    "womenSpaceNote": "\"Lingguhang sesyon ng Tajweed ul Qur'an (para sa kababaihan)\" tuwing Sabado 11:00 AM hanggang 1:00 PM; hindi inilalarawan ang ayos ng lugar-dasalan.",
+    "jumuahNote": "Unang sesyon 2:00 PM, ikalawang sesyon 2:45 PM (homepage)."
+  },
+  {
+    "id": "bukhari-community-centre-masjid-ottawa",
+    "notes": "Lugar: Overbrook / St. Laurent Blvd. Kilala rin bilang Bukhari Centre; Bukhari Masjid & Community Centre.",
+    "womenSpaceNote": "Pahina tungkol sa Biyernes: \"Ikalawang Jumu'ah: 2pm (bukas sa kalalakihan at kababaihan)\"; para sa kalalakihan lamang ang unang Jumu'ah. Hindi inilalarawan ang hiwalay na lugar para sa kababaihan.",
+    "accessibilityNote": "Binabanggit ng pahinang tungkol sa kanila ang bagong pinto sa harap at likod na \"nagpapabuti sa seguridad at accessibility\"; walang nakasaad na partikular na katangian sa accessibility.",
+    "jumuahNote": "\"Unang Jumu'ah: 1pm (bukas sa kalalakihan); ikalawang Jumu'ah: 2pm (bukas sa kalalakihan at kababaihan)\"."
+  },
+  {
+    "id": "centretown-mosque-ottawa",
+    "notes": "Lugar: Centretown. Sinasabi ng site na sinisikap pa rin ng komunidad na makakuha ng permanenteng espasyo sa 397 Kent Street, kaya kumpirmahin ang lokasyon bago ka pumunta.",
+    "womenSpaceNote": "May nakalistang 'klase sa Arabic para sa kababaihan' (tuwing Sabado 12:00 PM, kababaihang nasa hustong gulang); hindi inilalarawan ang ayos ng lugar-dasalan.",
+    "newMuslimSupportNote": "Inililista ng site ang New Muslim Seminars, \"isang magiliw na espasyo para matutuhan ang mga pundasyong prinsipyo ng Islam\". Walang ibinigay na iskedyul.",
+    "jumuahNote": "\"Samahan ang aming komunidad tuwing Biyernes para sa Khutbah at sama-samang pagdarasal nang 1:00 PM at 2:00 PM.\""
+  },
+  {
+    "id": "darul-arqum-ottawa",
+    "notes": "Lugar: Riverside South. Kilala rin bilang Darul Arqum Riverside South.",
+    "jumuahNote": "\"Jumu'ah 1:30 PM at 2:30 PM\" (homepage); pahina ng oras ng pagdarasal: \"Unang Khutbah 1:30 PM at ikalawang Khutbah 2:30 PM\".",
+    "parkingNote": "Pahina ng contact: \"Nasa loob ng lugar ang paradahan. Kailangan muna ng pahintulot ng board para sa paradahan nang magdamag.\""
+  },
+  {
+    "id": "darul-uloom-ottawa",
+    "notes": "Lugar: Orleans. Kilala rin bilang Darul-Uloom Mosque.",
+    "jumuahNote": "Inililista ng homepage ang Jumu'ah sa labas: \"Navan 1:15, Juma sa Aqsa Centre\" at \"Blackburn 1:15, Juma sa Quba Centre\". Sinasabi ng pahinang tungkol sa kanila na nag-aayos ang centre ng pang-araw-araw na pagdarasal kasama ang sermon tuwing Biyernes."
+  },
+  {
+    "id": "east-ottawa-masjid-and-community-center",
+    "notes": "Lugar: Vanier / Overbrook area.",
+    "jumuahNote": "Homepage: \"Jumma: una: 1:15 PM | ikalawa: 2:15 PM\"."
+  },
+  {
+    "id": "islam-care-centre-ottawa",
+    "newMuslimSupportNote": "Ang Convert Care ay libreng lingguhang klase tungkol sa mga batayan ng Islam, tuwing Miyerkules nang 6:00 pm sa centre.",
+    "jumuahNote": "Homepage: Jumu'ah \"12:30 at 1:15PM\" sa basement ng Knox Presbyterian Church, 120 Lisgar St, Ottawa, ON K2P 2L7 (lokasyon sa labas)."
+  },
+  {
+    "id": "jami-omar-ottawa",
+    "notes": "Lugar: Bells Corners / Nepean. Kilala rin bilang Masjid Jami Omar; JMOC.",
+    "jumuahNote": "Homepage: \"Pagdarasal ng Jumuah 12pm hanggang 3pm\".",
+    "parkingNote": "Homepage: pumarada lamang sa mga aprubadong lugar; may paradahan sa D.A. Moodie School."
+  },
+  {
+    "id": "kanata-muslim-association-ottawa",
+    "notes": "Lugar: Kanata. Kilala rin bilang KMA.",
+    "jumuahNote": "\"3 pagdarasal tuwing Biyernes: 1 pm / 2.15 pm / 3.45 pm\" (nagbabago ang oras ng ikatlong pagdarasal)."
+  },
+  {
+    "id": "mac-barrhaven-islamic-centre-ottawa",
+    "notes": "Lugar: Barrhaven. Kilala rin bilang BIC.",
+    "jumuahNote": "\"Unang Khotbah: 1:00 PM\" at \"ikalawang Khotbah: 2:30 PM\"."
+  },
+  {
+    "id": "mac-islamic-centre-ottawa",
+    "notes": "Lugar: Nepean / Grenon Ave. Kilala rin bilang MAC Grenon; located in the Abraar School building."
+  },
+  {
+    "id": "mac-qurtuba-islamic-centre-ottawa",
+    "notes": "Lugar: Nepean / Merivale. Kilala rin bilang MAC Qurtuba; QIC."
+  },
+  {
+    "id": "markaz-at-tawheed-ottawa",
+    "notes": "Lugar: Bayshore / Dumaurier. Kilala rin bilang Markaz At-Tawheed Ottawa.",
+    "visitorNotes": "Binabanggit ng homepage na may mga lektyur na \"nasa Arabic, na may paghinto para sa salin sa Ingles\"; nasa Ingles ang ibang nilalaman.",
+    "womenSpaceNote": "Abiso sa Ramadan: \"Para sa kalalakihan lamang ang khutbah at Salah ng Jumu'ah (dahil sa limitadong espasyo)\"; \"Pinakamaraming kaya: 12 babae bawat gabi\" para sa Isha at Tarawih.",
+    "jumuahNote": "Ipinapakita ng homepage ang \"Nagsisimula ang Khutbah nang 12:30 p.m\" sa isang bahagi at \"Nagsisimula ang Khutbah: 1:15 p.m.\" sa update sa Ramadan; para sa kalalakihan lamang."
+  },
+  {
+    "id": "masjid-bilal-ottawa",
+    "notes": "Lugar: Orleans. Kilala rin bilang Bilal Masjid; Islamic Society of Cumberland.",
+    "visitorNotes": "Tinatawag ng homepage ang pananalita bago ang khutbah na \"Speech (English Talk)\".",
+    "womenSpaceNote": "Pahina ng pagbisita sa masjid: \"sa magkahiwalay na bulwagan ng pagdarasal nagdarasal ang kalalakihan at kababaihan\".",
+    "jumuahNote": "Jumu'ah 1: pananalita sa Ingles 12:45 pm, khutbah 1:15 pm; Jumu'ah 2: walang pananalita, khutbah 2:20 pm; Jumu'ah 3: pananalita sa Ingles 3:00 pm, khutbah 3:10 pm."
+  },
+  {
+    "id": "masjid-ar-rahmah-ottawa",
+    "notes": "Lugar: Gloucester / South Keys. Kilala rin bilang Mosque of Mercy; AMA; AMA Community Centre.",
+    "visitorNotes": "Nakumpirmang Ingles ang sesyon ng tanong at sagot para sa mga balik-Islam ('Wika: Ingles lamang'); nasa Ingles ang site na may link sa site sa Arabic.",
+    "newMuslimSupportNote": "May libreng mapagkukunan para sa bagong Muslim ang pahinang Revert Corner, at ang Muslim's Basics ay recorded na kurso sa Ingles na may 37 episode. Galing noong 2021 at 2022 ang mga kaganapan para sa balik-Islam sa site, kaya itanong kung ano ang tumatakbo ngayon."
+  },
+  {
+    "id": "ottawa-muslim-association",
+    "notes": "Kilala rin bilang Ottawa Main Mosque; OMA.",
+    "womenSpaceNote": "FAQ: \"Nagbibigay kami ng nakalaang lugar-dasalan para sa kababaihan, pati mga espasyong angkop sa pamilya\".",
+    "jumuahNote": "Sinasabi ng FAQ na may pagdarasal tuwing Biyernes (Jumu'ah) ang masjid; hindi nakalathala ang oras sa website nito."
+  },
+  {
+    "id": "ottawa-uyghur-centre",
+    "notes": "Lugar: Orleans.",
+    "jumuahNote": "Pahina ng mga serbisyo: \"Samahan kami sa mga khutbah ng Jumu'ah\"; hindi nakasaad ang oras."
+  },
+  {
+    "id": "richmond-islamic-community-ottawa",
+    "notes": "Lugar: Richmond. Kilala rin bilang RICO.",
+    "womenSpaceNote": "Inililista ng pahina ng mga programa ang halaqa sa Qur'an para sa mga dalagita at kababaihang nasa hustong gulang; hindi nakasaad ang lugar-dasalan para sa kababaihan.",
+    "jumuahNote": "Homepage: \"Jumu'ah tuwing Biyernes lamang: 1:15 PM Jumu'ah 1, 2:30 PM Jumu'ah 2\". Mga serbisyo: \"May pagdarasal ng Isha kami tuwing taglamig, Asr, Magrib at Isha tuwing tag-init, at pagdarasal ng Jumu'ah tuwing Biyernes.\""
+  },
+  {
+    "id": "siraj-institute-ottawa",
+    "notes": "Lugar: Nepean."
+  },
+  {
+    "id": "south-nepean-muslim-community-ottawa",
+    "notes": "Lugar: Nepean / Barrhaven. Kilala rin bilang SNMC Center & Masjid.",
+    "womenSpaceNote": "Mga programa para sa kababaihan (halaqa at iba pa) na may email para sa programa ng kababaihan na sisters@snmc.ca; hindi inilalarawan ang ayos ng lugar-dasalan.",
+    "newMuslimSupportNote": "Iniimbitahan ka ng pahinang Reverts na makipag-ugnayan para sa impormasyon, mga tanong, sertipiko ng shahada o paglilibot. Walang inilalarawang klase o programa ng mentor."
+  },
+  {
+    "id": "stittsville-muslim-association-ottawa",
+    "notes": "Lugar: Stittsville. Dalawang postal code ang ipinapakita ng opisyal na site (K2S 1E3 at K2S 0T9). Alamin muna bago ka pumunta.",
+    "jumuahNote": "Ayon sa homepage: 1:15 PM, 2:15 PM, 3:45 PM."
+  },
+  {
+    "id": "the-islamic-society-of-gloucester-ottawa",
+    "notes": "Lugar: Gloucester. Kilala rin bilang ISG Masjid.",
+    "jumuahNote": "Homepage: \"Oras ng pagdarasal tuwing Biyernes: Khutbah 1.30 PM, Iqama 2:00 PM\".",
+    "parkingNote": "Abiso sa Eid sa homepage: \"Hindi available ang paradahan ng simbahan; sa halip, puwede kang pumarada sa parking lot ng Costco at Rona, 1880 innes Road\"; \"Bawal pumarada mismo sa harap ng pasukan ng masjid\". Hindi nakasaad ang paradahan sa karaniwang araw."
+  },
+  {
+    "id": "the-ottawa-islamic-centre-assalam-mosque",
+    "notes": "Lugar: Ottawa South / St. Laurent Blvd. Kilala rin bilang Assalam Mosque; Masjid Assalam.",
+    "womenSpaceNote": "Homepage: \"Mayroon kaming isa sa pinakamalalaking bulwagan ng pagdarasal sa Ottawa para sa kalalakihan at kababaihan para sa pang-araw-araw na salah at Jumuah.\""
+  },
+  {
+    "id": "owen-sound-muslim-association",
+    "notes": "Kilala rin bilang Owen Sound Masjid.",
+    "newMuslimSupportNote": "Inililista ng pahina ng mga serbisyo ang shahada bilang serbisyo. Walang inilalarawang kasunod na programa para sa bagong Muslim."
+  },
+  {
+    "id": "kawartha-muslim-religious-association-masjid-al-salaam-peterborough",
+    "notes": "Kilala rin bilang KMRA; Al-Salaam Mosque.",
+    "womenSpaceNote": "Silid-dasalan para sa kababaihan, kasya ang 60, na may silid-paghuhugas para sa kababaihan.",
+    "jumuahNote": "Dalawang Jumuah sa homepage para sa Biyernes, 25 Setyembre 2026: 1:30 PM at 2:45 PM."
+  },
+  {
+    "id": "pickering-islamic-centre",
+    "notes": "Kilala rin bilang Masjid Usman, PIC.",
+    "womenSpaceNote": "Nakalista ang Sisters Committee, Friday Girls School at klase sa Quran para sa kababaihan.",
+    "newMuslimSupportNote": "Regular na nagdaraos ang centre ng mga kaganapang Fortify My Deen: Reverts Meet and Greet, ang pinakahuli noong 23 Agosto 2026. Mag-RSVP sa pahina ng anunsyo o magtanong sa opisina.",
+    "jumuahNote": "Khutbah 2:00, 3:45 at 4:45 PM, pati Jumuah sa labas nang 3:00 PM."
+  },
+  {
+    "id": "al-nadwa-educational-islamic-centre-richmond-hill",
+    "notes": "Kilala rin bilang Al Nadwa Centre.",
+    "womenSpaceNote": "Pahina ng mga serbisyo: \"Programa para sa kababaihang nasa hustong gulang: tuwing unang Linggo ng buwan, nagsisimula pagkatapos ng dhur salah. Para sa kababaihan lamang ito\".",
+    "jumuahNote": "Homepage: \"Unang Jumu'ah: Bayan 12:30 PM, Khutba sa Arabic 12:45 PM; ikalawang Jumu'ah: Bayan 1:15 PM, Khutbah sa Arabic 1:30 PM\" sa 2 Levendale Rd; may isa pang Jumu'ah sa Bayview Hill Community Centre, 114 Spadina Rd (nagsisimula nang 1:25 PM).",
+    "parkingNote": "Homepage: \"Pakiusap, huwag pumarada sa harap ng plaza. Sa No-frills plaza lamang pinapayagan ang paradahan.\""
+  },
+  {
+    "id": "islamic-society-of-york-region-richmond-hill",
+    "womenSpaceNote": "Inililista ng homepage ang mga klase sa Arabic para sa kababaihan; hindi inilalarawan ang lugar-dasalan para sa kababaihan.",
+    "jumuahNote": "Homepage: \"JUMU'AH SALAT: Bayan 1:45 pm; Salat 2:15 pm. Pakitandaan, IISA lamang ang Jumuah Salat sa ISYR.\"",
+    "parkingNote": "Listahan ng pasilidad sa homepage: \"Maluwag na paradahan\"."
+  },
+  {
+    "id": "richmond-hill-muslim-association"
+  },
+  {
+    "id": "sarnia-muslim-association"
+  },
+  {
+    "id": "islamic-association-of-sault-ste-marie",
+    "notes": "Kilala rin bilang IASSM.",
+    "jumuahNote": "'Nagsisimula ang khutba nang 2 PM at ang salat nang 2:30' (iniaangkop sa daylight saving)."
+  },
+  {
+    "id": "masjid-an-noor-st-catharines",
+    "notes": "Kilala rin bilang Masjid Al Noor.",
+    "accessibilityNote": "May paradahang nakalaan para sa may kapansanan na may permit.",
+    "parkingNote": "Parking lot na may mapa at mga patakaran: bawal pumarada nang magdamag, huwag harangan ang ibang sasakyan tuwing Jumu'ah, huwag gamitin ang paradahan ng mga katabing negosyo."
+  },
+  {
+    "id": "stratford-mosque",
+    "jumuahNote": "Biyernes 1:45 PM; 'Ginagawa sa masjid ang lahat ng 5 pagdarasal'; 'Bukas 24/7'."
+  },
+  {
+    "id": "thunder-bay-masjid",
+    "notes": "Kilala rin bilang Thunder Bay Masjid.",
+    "jumuahNote": "Dalawang Jumuah: 2:00 PM at 3:15 PM.",
+    "parkingNote": "Homepage: 'Pakiusap, pumarada nang responsable para maayos ang daan ng lahat'; may mga lugar na hindi paradahan."
+  },
+  {
+    "id": "muslim-association-of-tillsonburg",
+    "womenSpaceNote": "Sinasabi ng homepage na \"tinatanggap ang kalalakihan at kababaihan\" sa musalla; hindi inilalarawan ang lugar para sa kababaihan.",
+    "jumuahNote": "Homepage: \"Khutbah tuwing Biyernes nang 1:30 PM at Salah nang 1:45 PM\" (huling in-update noong 1 Nobyembre 2025)."
+  },
+  {
+    "id": "mac-masjid-toronto-adelaide",
+    "notes": "Kilala rin bilang Masjid Toronto Adelaide.",
+    "newMuslimSupportNote": "Makakapag-ayos ang Masjid Toronto ng \"isang kapatid na lalaki o babae mula sa aming kongregasyon\" na sasalubong sa iyo sa unang pagbisita mo. Ginaganap sa lokasyon sa Dundas ang klaseng After the Shahadah, at nagkikita ang isang Convert Connect Group tuwing ika-1 at ika-3 Linggo pagkatapos ng Dhuhr.",
+    "jumuahNote": "Jumuah 12:10, 1:10 at 2:10 PM (linggo ng 2026-09-18)."
+  },
+  {
+    "id": "madinah-masjid-jamiatul-muslemin-of-toronto",
+    "accessibilityNote": "'Madaling marating sa pampublikong sasakyan.' Hindi nakasaad ang accessibility ng gusali.",
+    "jumuahNote": "May pagdarasal ng Jumah at Eid; hindi nakasaad ang oras."
+  },
+  {
+    "id": "masjid-omar-farooq-toronto",
+    "notes": "Lugar: Scarborough. Kilala rin bilang Masjid Omar Al-Farooq.",
+    "visitorNotes": "Nakumpirma ang serbisyo sa Ingles: (may \"English Bayaan\" ang Jumu'ah bago ang bawat khutbah sa Arabic).",
+    "jumuahNote": "Homepage: \"Unang Jumuah: English Bayaan 1:30pm, Khutbah sa Arabic 2:10pm; ikalawang Jumuah: English Bayaan 2:45pm, Khutbah sa Arabic 3:10pm\"."
+  },
+  {
+    "id": "scarborough-muslim-association-jame-abu-bakr-siddique-toronto",
+    "notes": "Lugar: Scarborough. Kilala rin bilang SMA; Jame Abu Bakr Siddique Masjid.",
+    "parkingNote": "Binabanggit ng pahinang tungkol sa kanila na \"madalas kinailangang magdasal sa parking lot sa labas\" ng mga sumasamba bago ang pagpapalawak; bahagi ng plano sa pagpapalawak ang mga pasilidad sa paradahan. Hindi nakasaad ang kasalukuyang ayos ng paradahan."
+  },
+  {
+    "id": "toronto-islamic-centre",
+    "newMuslimSupportNote": "Nag-aalok ang pahina ng New Muslim Support ng New Muslim Welcome Gift Box at mga salin ng Quran sa 27 wika, kasama ang Braille. Walang ibinigay na iskedyul.",
+    "accessibilityNote": "May iniaalok na Quran na Braille; hindi nakasaad ang accessibility ng gusali."
+  },
+  {
+    "id": "islamic-society-of-vaughan",
+    "womenSpaceNote": "Iskedyul tuwing Biyernes: \"Ikatlong Jumuah (kalalakihan at kababaihan): 3:15pm, ikaapat na Jumuah (kalalakihan at kababaihan): 4:00pm\"; para sa kalalakihan lamang ang unang dalawa. May nakalistang klase para sa kababaihan.",
+    "jumuahNote": "Homepage: \"Unang Jumuah (kalalakihan lamang): 1:30pm, ikalawang Jumuah (kalalakihan lamang): 2:30pm, ikatlong Jumuah (kalalakihan at kababaihan): 3:15pm, ikaapat na Jumuah (kalalakihan at kababaihan): 4:00pm\"."
+  },
+  {
+    "id": "masjid-vaughan",
+    "notes": "Lugar: Maple.",
+    "jumuahNote": "Pahinang tungkol sa kanila: \"Pareho ang oras ng Jumu'a sa buong taon: Adhan 1:30 PM, Khutbah 1:35 at Salat 2:00 PM.\"",
+    "parkingNote": "Pahinang tungkol sa kanila: \"May maluwag na paradahan sa Vaughan City Hall (parking lot sa kanlurang bahagi) tuwing Biyernes mula 1:00pm hanggang 3:00. Bukod dito, napapaligiran ang masjid ng maraming paradahan sa kalye.\""
+  },
+  {
+    "id": "vaughan-islamic-community-centre"
+  },
+  {
+    "id": "islamic-centre-of-waterloo-a-mac-community-centre",
+    "notes": "Kilala rin bilang ICW.",
+    "jumuahNote": "Una 1:30 PM, ikalawa (Arabic) 2:30 PM, ikatlo 3:30 PM."
+  },
+  {
+    "id": "muslim-society-of-waterloo-wellington-counties",
+    "notes": "Kilala rin bilang Waterloo Masjid.",
+    "jumuahNote": "Naka-live stream ang Jumuah tuwing Biyernes nang 1:40 PM.",
+    "parkingNote": "Homepage: 'pakiusap, huwag pumarada sa Westmount Plaza, at sundin ang lahat ng bylaw kapag pumaparada sa mga kalye sa paligid'."
+  },
+  {
+    "id": "masjid-e-ayesha-whitby",
+    "notes": "Kilala rin bilang Whitby Masjid.",
+    "jumuahNote": "Tatlong Jumu'ah: khutbah 1:45, 2:45 at 3:45 PM.",
+    "parkingNote": "Limitado ang paradahan. Hindi na available para sa Jumu'ah ang lot ng Kendalwood Plaza mula 1 Nobyembre 2024; nagtitiket doon ang mga bylaw officer tuwing Biyernes. Sarado ang mga overflow tent hanggang may bagong abiso (abiso sa homepage)."
+  },
+  {
+    "id": "al-hijra-academy-windsor",
+    "notes": "Lugar: Oldcastle, at the LaSalle border. Kilala rin bilang Al-Hijra Academy - Masjid and Islamic School.",
+    "womenSpaceNote": "Pahina ng kasaysayan: masjid na \"hinati sa dalawang bahagi para sa kalalakihan at kababaihan\" (paglalarawan sa kasaysayan)."
+  },
+  {
+    "id": "islamic-society-of-windsor"
+  },
+  {
+    "id": "rose-city-islamic-centre-windsor",
+    "notes": "Kilala rin bilang RCIC.",
+    "jumuahNote": "Biyernes 1:30 PM."
+  },
+  {
+    "id": "windsor-islamic-association",
+    "notes": "Kilala rin bilang Windsor Mosque; Windsor Central Mosque.",
+    "newMuslimSupportNote": "Pinapangalanan ng pahina ng contact ang Administrator of Religious Affairs bilang contact para sa mga balik-Islam (519-966-2355 ext. 4). Contact point ito, hindi klase."
+  },
+  {
+    "id": "islamic-center-of-west-island-dollard-des-ormeaux",
+    "notes": "Lugar: West Island. Kilala rin bilang Centre Islamique du West Island."
+  },
+  {
+    "id": "centre-islamique-de-l-outaouais-la-mosquee-de-gatineau",
+    "notes": "Lugar: Hull. Kilala rin bilang Outaouais Islamic Centre; Mosquée de Gatineau. Nagpakita ang opisyal na site ng abiso ng pag-expire ng domain noong Setyembre 2026. Tumawag muna kung hindi mag-load ang site.",
+    "jumuahNote": "Dalawang Jumu'ah (mula 11 Pebrero ng hindi nakasaad na taon); nasa isang larawan lamang ang oras sa https://cio-oic.ca/horaire-des-jumuahs/."
+  },
+  {
+    "id": "masjid-meriam-gatineau",
+    "notes": "Lugar: Gatineau sector. Kilala rin bilang Mosquée Mariam; CIOIC - Meriam.",
+    "visitorNotes": "Mga wika: pangunahing nasa Pranses ang site ng CIO; may ilang anunsyo sa Pranses at Ingles."
+  },
+  {
+    "id": "the-mosque-of-aylmer-gatineau",
+    "notes": "Lugar: Aylmer.",
+    "visitorNotes": "Nasa Ingles at Pranses ang nilalaman ng site; hindi nakasaad ang wika ng khutbah.",
+    "womenSpaceNote": "Inililista ng pahina ng mga serbisyo ang \"Mga programa para sa kababaihan\": \"Mga nakalaang pagtitipon, study group at aktibidad ... para sa kababaihan\"; hindi inilalarawan ang ayos ng lugar-dasalan.",
+    "jumuahNote": "\"Lingguhang khutbah na ibinibigay ng mga kwalipikadong tagapagsalita\"; hindi nakalathala ang oras."
+  },
+  {
+    "id": "association-islamique-al-ihssane-de-laval",
+    "notes": "Lugar: Pont-Viau. Kilala rin bilang AIIL; Mosquée Al-Itissam."
+  },
+  {
+    "id": "centre-al-iman-laval",
+    "notes": "Lugar: Auteuil. Kilala rin bilang CCVA."
+  },
+  {
+    "id": "centre-communautaire-musulman-iqra-laval",
+    "notes": "Lugar: Chomedey. Kilala rin bilang Centre IQRA."
+  },
+  {
+    "id": "centre-communautaire-musulman-de-longueuil"
+  },
+  {
+    "id": "aisha-islamic-center-montreal",
+    "notes": "Lugar: Griffintown. Kilala rin bilang AIC."
+  },
+  {
+    "id": "al-madinah-center-montreal",
+    "notes": "Lugar: Downtown. Kilala rin bilang Centre Al-Madinah.",
+    "visitorNotes": "Nakumpirma ang serbisyo sa Ingles: (iniaalok ang mga kurso sa tajweed \"sa Arabic at Ingles\").",
+    "womenSpaceNote": "Para sa \"kalalakihan at kababaihan\" ang mga halaqa sa Quran para sa nasa hustong gulang; hindi inilalarawan ang lugar-dasalan para sa kababaihan."
+  },
+  {
+    "id": "assuna-annabawiyah-mosque-montreal",
+    "notes": "Lugar: Parc-Extension. Kilala rin bilang Mosquée Assuna Annabawiyah; Masjid Assuna.",
+    "visitorNotes": "Mga wika: pinaghahalo ng site ang Pranses, Ingles at Arabic; hindi nakasaad ang wika ng mga serbisyo."
+  },
+  {
+    "id": "canadian-institute-of-islamic-civilization-a-mac-community-centre-montreal",
+    "notes": "Lugar: Downtown. Kilala rin bilang CIIC.",
+    "womenSpaceNote": "May nakalistang lingguhang halaqa para sa kababaihan (tuwing Biyernes 6:30 hanggang 8:00 PM); hindi inilalarawan ang lugar-dasalan.",
+    "jumuahNote": "Tatlong pagdarasal ng Jumuah: 11:45 AM, 12:30 PM, 1:15 PM."
+  },
+  {
+    "id": "centre-bel-agir-montreal",
+    "notes": "Lugar: Villeray and Saint-Michel area. Kilala rin bilang Bel Agir - Al-Ihsane.",
+    "jumuahNote": "May iniaalok na 'Prières du Vendredi' (pagdarasal tuwing Biyernes); walang ibinigay na oras sa homepage."
+  },
+  {
+    "id": "centre-communautaire-fath-montreal",
+    "notes": "Lugar: Rivière-des-Prairies. Kilala rin bilang Mosquée Elfath - RDP.",
+    "parkingNote": "'38 Places de Stationnement' (38 na puwesto sa paradahan)."
+  },
+  {
+    "id": "centre-communautaire-villeray-mosquee-aboubakr-montreal",
+    "notes": "Lugar: Villeray. Kilala rin bilang CCV.",
+    "jumuahNote": "Jumuah nang '12:00 pm at 1:00 pm'."
+  },
+  {
+    "id": "centre-islamique-de-verdun-montreal",
+    "notes": "Lugar: Verdun. Kilala rin bilang CIV.",
+    "womenSpaceNote": "Binabanggit ang mga kaganapan para sa kababaihan at batang babae (halimbawa ang 'Iftar spécial pour les filles, leurs mères et les enseignantes', isang espesyal na iftar para sa mga batang babae, kanilang mga ina at mga guro); hindi inilalarawan ang lugar-dasalan.",
+    "newMuslimSupportNote": "Inililista ng pahina ng mga programa ang mga grupo para sa bagong yakap sa Islam para sa kababaihan (Nouvelles converties) at para sa kalalakihan (Nouveaux convertis). Walang ibinigay na iskedyul.",
+    "jumuahNote": "Jumuah 12:00 PM at 1:15 PM."
+  },
+  {
+    "id": "islamic-centre-of-quebec-montreal",
+    "notes": "Lugar: Saint-Laurent. Kilala rin bilang Centre Islamique du Québec.",
+    "jumuahNote": "Homepage: 'Jumu'ah 1 (13:30), Jumu'ah 2 (14:30)'; 'Magkakaroon ng salin 15 minuto bago ang Khutbah.' Hindi nakasaad ang wika ng salin.",
+    "parkingNote": "May parking lot sa loob ng lugar."
+  },
+  {
+    "id": "masjid-makkah-al-mukarramah-montreal",
+    "notes": "Lugar: Pierrefonds-Roxboro, West Island. Kilala rin bilang Makkah-al-Mukarramah Mosque; Masjid Makkah.",
+    "visitorNotes": "Mga wika: nasa Urdu ang lingguhang sesyon ng dars; nasa Ingles ang site.",
+    "womenSpaceNote": "\"May Halaqa kami para sa kababaihan tuwing Sabado pagkatapos ng Zuhur Salah\"; hindi inilalarawan ang lugar-dasalan para sa kababaihan."
+  },
+  {
+    "id": "mosquee-al-rawdah-montreal",
+    "notes": "Lugar: Cartierville. Kilala rin bilang Centre Communautaire Laurentien sa katabing gusali sa 12265 Boul. Laurentien, parehong telepono.",
+    "jumuahNote": "Jumuah 12:00 PM at 1:00 PM."
+  },
+  {
+    "id": "muslim-community-of-quebec-montreal",
+    "notes": "Lugar: Notre-Dame-de-Grâce.",
+    "womenSpaceNote": "Inililista ng pahina ng mga programa ang 'mga programa sa suporta at pagpapalakas ng kababaihan'; hindi inilalarawan ang lugar-dasalan.",
+    "jumuahNote": "Inililista ng pahina ng mga programa ang 'pagdarasal tuwing Biyernes (Salatul Jummah)'; hindi ipinapakita ang oras sa pahina ng oras ng pagdarasal."
+  },
+  {
+    "id": "centre-communautaire-de-quebec-quebec-city",
+    "notes": "Lugar: Saint-Roch. Kilala rin bilang MAC Québec; Masjid Al-Rahma.",
+    "jumuahNote": "Nagpapakita ang homepage ng dalawang magkasalungat na bahagi ng Jumuah: 12:15 at 12:45 PM, at 12:00 at 12:45 PM."
+  },
+  {
+    "id": "centre-culturel-islamique-luqman-de-quebec-quebec-city",
+    "notes": "Lugar: Les Saules. Kilala rin bilang Centre Luqman.",
+    "jumuahNote": "Nasa link ng Mawaqit sa site ang oras ng pagdarasal."
+  },
+  {
+    "id": "centre-culturel-islamique-de-quebec-grande-mosquee-de-quebec-quebec-city",
+    "notes": "Lugar: Sainte-Foy. Kilala rin bilang CCIQ; GMQ; CCIQ also runs Mosquée Annour and prayer places in Charlesbourg and Portneuf.",
+    "womenSpaceNote": "Nakalista ang Conseil de la femme musulmane de Québec (CFMQ) bilang bahagi ng CCIQ at may nakalistang aktibidad para sa kababaihan; hindi inilalarawan ang lugar-dasalan.",
+    "jumuahNote": "May pagdarasal tuwing Biyernes ('Prières quotidiennes et la prière de vendredi', pang-araw-araw na pagdarasal at pagdarasal tuwing Biyernes); nasa mosqueprayertimes.com/cciq ang oras."
+  },
+  {
+    "id": "mosquee-de-la-capitale-quebec-city",
+    "notes": "Lugar: Vanier. Kilala rin bilang Association Mosquée de la Capitale."
+  },
+  {
+    "id": "centre-culturel-islamique-de-lanaudiere-repentigny",
+    "notes": "Lugar: Lanaudière. Kilala rin bilang Masjid Atassamouh.",
+    "jumuahNote": "Homepage: \"Jumu'ah: una 12:00, ikalawa 13:00\"."
+  },
+  {
+    "id": "association-islamique-du-saguenay-lac-st-jean",
+    "notes": "Lugar: Chicoutimi. Kilala rin bilang Mosquée Chicoutimi.",
+    "visitorNotes": "Mga wika: nasa Pranses ang site na may pagpipilian sa Ingles at Arabic; hindi nakasaad ang wika ng mga serbisyo."
+  },
+  {
+    "id": "centre-islamique-maskoutain-saint-hyacinthe",
+    "jumuahNote": "Homepage: \"il y'a deux prières de Jumu'a: la première débute à 12h10 et la deuxième à 12h45\" (dalawang pagdarasal ng Jumu'a: nagsisimula ang una nang 12h10 at ang ikalawa nang 12h45)."
+  },
+  {
+    "id": "centre-rayan-sainte-therese",
+    "notes": "Lugar: Basses-Laurentides. Kilala rin bilang Mosque Rayane."
+  },
+  {
+    "id": "association-culturelle-islamique-de-l-estrie-mosquee-a-rahmane-sherbrooke",
+    "notes": "Kilala rin bilang ACIE; also runs Centre Horizon at 1239 Rue Denault.",
+    "jumuahNote": "Dalawang grupo: '12h15 at 13h00'.",
+    "parkingNote": "Hinihiling sa mga bisita: 'Merci de ne pas utiliser les stationnements privés de notre voisinage' (pakiusap, huwag gamitin ang pribadong paradahan ng mga kapitbahay)."
+  },
+  {
+    "id": "centre-culturel-islamique-de-sherbrooke-mosquee-annour",
+    "notes": "Kilala rin bilang CCIS Annour."
+  },
+  {
+    "id": "centre-culturel-islamique-de-la-mauricie-trois-rivieres",
+    "notes": "Kilala rin bilang Islamic Cultural Center of Mauricie.",
+    "newMuslimSupportNote": "Nag-aalok ang pahina ng mga serbisyo ng appointment sa isang kinatawan ng CCIM kung gusto mong yakapin ang Islam, at ng opisyal na sertipiko ng pagyakap sa Islam. Nangangako itong sasagutin nang kumpidensyal ang mga tanong mo. Hindi ito tuloy-tuloy na klase."
+  },
+  {
+    "id": "vaudreuil-islamic-community-centre-masjid-attakwa-vaudreuil-dorion",
+    "notes": "Kilala rin bilang Centre Culturel Islamique de Vaudreuil Soulanges; ICCVS.",
+    "jumuahNote": "Inililista ng pahina ng mga serbisyo ang \"Jumu'ah (pagdarasal tuwing Biyernes)\"; hindi nakasaad ang oras."
+  },
+  {
+    "id": "bcma-abbotsford-branch",
+    "notes": "Kilala rin bilang Abbotsford Islamic Centre.",
+    "newMuslimSupportNote": "Pinapatakbo ng BC Muslim Association ang programang New Muslim Care para sa buong probinsya; walang sariling programa na nakalista ang sangay na ito. Pinapayagan ka ng registration form ng BCMA na piliin ang sangay na ito."
+  },
+  {
+    "id": "bcma-burnaby-branch",
+    "notes": "Kilala rin bilang Masjid al Salaam & Education Centre.",
+    "newMuslimSupportNote": "Pinapatakbo ng BC Muslim Association ang programang New Muslim Care para sa buong probinsya; walang sariling programa na nakalista ang sangay na ito. Pinapayagan ka ng registration form ng BCMA na piliin ang sangay na ito.",
+    "jumuahNote": "Pahina ng sangay: nagsisimula ang Jumuah nang 1:30 PM, iqamah 2:30 PM."
+  },
+  {
+    "id": "bcma-castlegar-branch",
+    "notes": "Kilala rin bilang Islamic Centre of Castlegar.",
+    "newMuslimSupportNote": "Pinapatakbo ng BC Muslim Association ang programang New Muslim Care para sa buong probinsya; walang sariling programa na nakalista ang sangay na ito. Pinapayagan ka ng registration form ng BCMA na piliin ang sangay na ito."
+  },
+  {
+    "id": "bcma-chilliwack-branch",
+    "notes": "Kilala rin bilang Chilliwack Islamic Centre.",
+    "newMuslimSupportNote": "Pinapatakbo ng BC Muslim Association ang programang New Muslim Care para sa buong probinsya; walang sariling programa na nakalista ang sangay na ito. Pinapayagan ka ng registration form ng BCMA na piliin ang sangay na ito."
+  },
+  {
+    "id": "bcma-dawson-creek-islamic-center",
+    "newMuslimSupportNote": "Pinapatakbo ng BC Muslim Association ang programang New Muslim Care para sa buong probinsya; walang sariling programa na nakalista ang sangay na ito. Pinapayagan ka ng registration form ng BCMA na piliin ang sangay na ito."
+  },
+  {
+    "id": "bcma-delta-islamic-center",
+    "notes": "Kilala rin bilang Delta Islamic Centre.",
+    "newMuslimSupportNote": "Pinapatakbo ng BC Muslim Association ang programang New Muslim Care para sa buong probinsya; walang sariling programa na nakalista ang sangay na ito. Pinapayagan ka ng registration form ng BCMA na piliin ang sangay na ito."
+  },
+  {
+    "id": "kamloops-ayesha-mosque",
+    "notes": "Lugar: Knutsford. Kilala rin bilang Ayesha Mosque; Kamloops Islamic Association.",
+    "accessibilityNote": "Sinasabi ng home page na \"walang tubig mula sa lungsod, walang pampublikong sasakyan, limitado ang espasyo\" sa kasalukuyang lugar sa Knutsford at nangangalap ng pondo ang samahan para \"lumipat sa lugar na madaling marating\" sa loob ng Kamloops.",
+    "jumuahNote": "Home page: khutbah ng Jumu'ah 1:30 PM.",
+    "parkingNote": "Home page: dahil kulang ang espasyo, may mga kaganapang \"ginaganap sa labas, pati sa parking lot\"."
+  },
+  {
+    "id": "bcma-kelowna-branch",
+    "notes": "Kilala rin bilang Kelowna Islamic Centre.",
+    "newMuslimSupportNote": "Pinapatakbo ng BC Muslim Association ang programang New Muslim Care para sa buong probinsya; walang sariling programa na nakalista ang sangay na ito. Pinapayagan ka ng registration form ng BCMA na piliin ang sangay na ito."
+  },
+  {
+    "id": "bcma-kitimat-islamic-center",
+    "newMuslimSupportNote": "Pinapatakbo ng BC Muslim Association ang programang New Muslim Care para sa buong probinsya; walang sariling programa na nakalista ang sangay na ito. Pinapayagan ka ng registration form ng BCMA na piliin ang sangay na ito."
+  },
+  {
+    "id": "masjid-al-sahaba-langley",
+    "notes": "Kilala rin bilang Langley Islamic Centre; Langley Musalla.",
+    "womenSpaceNote": "Opisyal na pahina: \"may lugar-dasalan para sa kababaihan\"."
+  },
+  {
+    "id": "jamia-riyadhul-jannah-maple-ridge",
+    "notes": "Kilala rin bilang Riyadhul Jannah Mosque.",
+    "jumuahNote": "Home page: khutbah ng Jumma tuwing Biyernes 13:30."
+  },
+  {
+    "id": "bcma-nanaimo-chapter",
+    "newMuslimSupportNote": "Pinapatakbo ng BC Muslim Association ang programang New Muslim Care para sa buong probinsya; walang sariling programa na nakalista ang sangay na ito. Pinapayagan ka ng registration form ng BCMA na piliin ang sangay na ito."
+  },
+  {
+    "id": "bcma-north-shore-chapter-north-vancouver",
+    "newMuslimSupportNote": "Pinapatakbo ng BC Muslim Association ang programang New Muslim Care para sa buong probinsya; walang sariling programa na nakalista ang sangay na ito. Pinapayagan ka ng registration form ng BCMA na piliin ang sangay na ito."
+  },
+  {
+    "id": "masjid-ar-rahman-north-vancouver",
+    "notes": "Kilala rin bilang Masjid Ar-Rahman Foundation of North Vancouver.",
+    "womenSpaceNote": "Inililista ng pahina ng mga programa ang mga klase para sa kababaihan; hindi inilalarawan ang lugar-dasalan para sa kababaihan.",
+    "jumuahNote": "Pahina ng Jumu'ah: khutbah 1:30 p.m. habang daylight saving time (kalagitnaan ng Marso hanggang Nobyembre), 12:30 p.m. habang standard time."
+  },
+  {
+    "id": "bcma-penticton-branch",
+    "newMuslimSupportNote": "Pinapatakbo ng BC Muslim Association ang programang New Muslim Care para sa buong probinsya; walang sariling programa na nakalista ang sangay na ito. Pinapayagan ka ng registration form ng BCMA na piliin ang sangay na ito."
+  },
+  {
+    "id": "islamic-society-of-british-columbia-port-coquitlam",
+    "notes": "Kilala rin bilang Masjid Al-Hidayah & Islamic Cultural Centre; ISBC.",
+    "womenSpaceNote": "Inililista ng pahina ng mga programa ang lingguhang pagtitipon ng kababaihan; hindi nakasaad ang lugar-dasalan; bukas sa kalalakihan at kababaihan ang pagdarasal tuwing Biyernes; may pribadong konsultasyon para sa kababaihan.",
+    "jumuahNote": "Nagsisimula ang khutbah nang 1:40 PM.",
+    "parkingNote": "May paradahan sa ilalim ng masjid; overflow sa lot ng ECBC (may bayad) o sa lot ng lungsod sa Legion; huwag pumarada sa Kingsway Ave."
+  },
+  {
+    "id": "al-ihsan-islamic-centre-port-moody"
+  },
+  {
+    "id": "bcma-prince-george-branch",
+    "notes": "Kilala rin bilang BCMA Prince George Chapter.",
+    "newMuslimSupportNote": "Pinapatakbo ng BC Muslim Association ang programang New Muslim Care para sa buong probinsya; walang sariling programa na nakalista ang sangay na ito. Pinapayagan ka ng registration form ng BCMA na piliin ang sangay na ito."
+  },
+  {
+    "id": "bcma-richmond-branch",
+    "notes": "Kilala rin bilang Richmond Jamia Masjid; BCMA head office site.",
+    "newMuslimSupportNote": "Pinapatakbo ng BC Muslim Association ang programang New Muslim Care para sa buong probinsya; walang sariling programa na nakalista ang sangay na ito. Pinapayagan ka ng registration form ng BCMA na piliin ang sangay na ito.",
+    "jumuahNote": "Inililista ng pahina ng sangay ang unang khutbah nang 1:30 PM at ikalawang khutbah nang 3:00 PM (maaaring magbago ayon sa panahon)."
+  },
+  {
+    "id": "abu-bakr-islamic-centre-surrey",
+    "notes": "Kilala rin bilang Masjid Abu Bakr.",
+    "womenSpaceNote": "Malugod na tinatanggap ang kababaihan sa ikalawang Jumuah.",
+    "jumuahNote": "Unang Jumuah 1:40 pm, ikalawa 2:40 pm, ikatlo 3:30 pm."
+  },
+  {
+    "id": "bcma-surrey-delta-branch",
+    "notes": "Kilala rin bilang Surrey Jamia Masjid.",
+    "newMuslimSupportNote": "Pinapatakbo ng BC Muslim Association ang programang New Muslim Care para sa buong probinsya; walang sariling programa na nakalista ang sangay na ito. Pinapayagan ka ng registration form ng BCMA na piliin ang sangay na ito."
+  },
+  {
+    "id": "bcma-surrey-east-branch",
+    "newMuslimSupportNote": "Pinapatakbo ng BC Muslim Association ang programang New Muslim Care para sa buong probinsya; walang sariling programa na nakalista ang sangay na ito. Pinapayagan ka ng registration form ng BCMA na piliin ang sangay na ito."
+  },
+  {
+    "id": "cloverdale-islamic-society-surrey",
+    "notes": "Lugar: Cloverdale. Kilala rin bilang Cloverdale Islamic Center."
+  },
+  {
+    "id": "guildford-islamic-cultural-center-surrey",
+    "notes": "Lugar: Guildford. Kilala rin bilang Guildford Musullah.",
+    "womenSpaceNote": "Bukas sa kababaihan ang Jumu'ah 2 at 3; may silid para sa kababaihan sa masjid.",
+    "jumuahNote": "Tatlong sesyon ng Jumu'ah; para sa kalalakihan lamang ang una; nasa awqat.net ang oras."
+  },
+  {
+    "id": "white-rock-muslim-association-surrey",
+    "notes": "Lugar: South Surrey / White Rock. Kilala rin bilang WRMA Musallah.",
+    "womenSpaceNote": "Pahina ng serbisyo sa pagdarasal: \"Magkahiwalay na lugar-dasalan para sa kalalakihan (pangunahin) at kababaihan (itaas na palapag)\".",
+    "accessibilityNote": "Pahina ng serbisyo sa pagdarasal: \"Para sa karagdagang impormasyon tungkol sa accessibility at oras ng pagdarasal, makipag-ugnayan sa amin\".",
+    "jumuahNote": "Unang Jumu'ah 1:35 PM, ikalawang Jumu'ah 2:15 PM (oras sa tag-init, maaaring magbago); oras sa taglamig 12:35 PM at 1:15 PM.",
+    "parkingNote": "Pahina ng serbisyo sa pagdarasal: \"Pumarada sa pampublikong puwesto at hindi sa harap ng ibang negosyo o sa mga nakalaang puwesto. Hihilahin ang mga sasakyan at ang may-ari ang magbabayad.\""
+  },
+  {
+    "id": "ajyal-islamic-society-vancouver",
+    "notes": "Kilala rin bilang Ajyal Islamic Centre Vancouver Mosque.",
+    "visitorNotes": "Mga wika: sinasabi ng site na tumatakbo ang mga programa sa Ingles, Turkish, Arabic at iba pa.",
+    "womenSpaceNote": "May nakalistang programa para sa kababaihan (halaqa, klase sa Quran, suporta sa bagong Muslim); hindi inilalarawan ang lugar-dasalan para sa kababaihan.",
+    "jumuahNote": "Pahina tungkol sa Biyernes (may bisa mula 8 Marso 2026): tatlong sesyon, mga khutbah nang 1:30 PM (kalalakihan lamang), 2:10 PM at 2:45 PM."
+  },
+  {
+    "id": "al-masjid-al-jamia-vancouver",
+    "notes": "Kilala rin bilang Al-Jamia Masjid; Vancouver Jamia Masjid.",
+    "jumuahNote": "Pahina ng operator: dalawang sama-samang pagdarasal tuwing Biyernes nang 1:30 pm at 2:15 pm."
+  },
+  {
+    "id": "bcma-vancouver-branch",
+    "notes": "Kilala rin bilang Masjid ul-Haqq.",
+    "newMuslimSupportNote": "Pinapatakbo ng BC Muslim Association ang programang New Muslim Care para sa buong probinsya; walang sariling programa na nakalista ang sangay na ito. Pinapayagan ka ng registration form ng BCMA na piliin ang sangay na ito.",
+    "jumuahNote": "Pahina ng sangay: nagsisimula ang Jumuah nang 1:30 PM, iqamah 2:00 PM."
+  },
+  {
+    "id": "mac-vancouver-centre",
+    "notes": "Kilala rin bilang Muslim Association of Canada, Vancouver.",
+    "jumuahNote": "Pahina ng centre: khutbah 1:30 PM, salah 2:00 PM."
+  },
+  {
+    "id": "masjid-omar-al-farooq-vancouver",
+    "notes": "Kilala rin bilang Othman Bin Affan Islamic Society."
+  },
+  {
+    "id": "vernon-islamic-centre",
+    "notes": "Kilala rin bilang Vernon Mosque."
+  },
+  {
+    "id": "bcma-victoria-branch",
+    "notes": "Kilala rin bilang Victoria Masjid.",
+    "newMuslimSupportNote": "Pinapatakbo ng BC Muslim Association ang programang New Muslim Care para sa buong probinsya; walang sariling programa na nakalista ang sangay na ito. Pinapayagan ka ng registration form ng BCMA na piliin ang sangay na ito."
+  },
+  {
+    "id": "bcma-westshore-branch",
+    "newMuslimSupportNote": "Pinapatakbo ng BC Muslim Association ang programang New Muslim Care para sa buong probinsya; walang sariling programa na nakalista ang sangay na ito. Pinapayagan ka ng registration form ng BCMA na piliin ang sangay na ito."
+  },
+  {
+    "id": "bcma-central-cariboo-islamic-center-williams-lake",
+    "notes": "Kilala rin bilang Williams Lake Muslim Committee.",
+    "newMuslimSupportNote": "Pinapatakbo ng BC Muslim Association ang programang New Muslim Care para sa buong probinsya; walang sariling programa na nakalista ang sangay na ito. Pinapayagan ka ng registration form ng BCMA na piliin ang sangay na ito."
+  },
+  {
+    "id": "akram-jomaa-islamic-centre-calgary",
+    "womenSpaceNote": "Inililista ng pahinang tungkol sa kanila ang komite ng kababaihan; hindi inilalarawan ang lugar-dasalan.",
+    "newMuslimSupportNote": "Iniimbitahan ka ng pahinang New to Islam na mag-book ng oras kasama ang isang imam, maglibot, at kumuha ng shahada package ng mga libro sa opisina. Maaaring hindi pa gumagana ang form ng support group sa pahinang iyon, kaya makipag-ugnayan na lang sa opisina.",
+    "accessibilityNote": "Pahinang tungkol sa kanila: sertipikado ng MUHSEN; nagsisikap ang isang komite para sa may kapansanan na \"matiyak na may pantay na pagkakataon ang lahat na ganap na makibahagi\"."
+  },
+  {
+    "id": "al-hedaya-islamic-centre-of-north-east-calgary",
+    "notes": "Kilala rin bilang Islamic Center NE.",
+    "womenSpaceNote": "Programang Rising Muslimah para sa mga batang babae na 13 hanggang 19 taong gulang (tuwing Sabado 9:00 AM); hindi inilalarawan ang lugar-dasalan para sa kababaihan.",
+    "jumuahNote": "\"Sa Genesis Centre lamang ginaganap ang Jumu'ah salat, sa Multi-Purpose Room A at B\" nang 2:00, 2:30 at 3:00 PM."
+  },
+  {
+    "id": "al-madinah-calgary-islamic-assembly",
+    "notes": "Kilala rin bilang Green Dome Mosque."
+  },
+  {
+    "id": "al-salam-centre-calgary",
+    "notes": "Kilala rin bilang MAC Calgary; Masjid Al-Salam.",
+    "jumuahNote": "\"1:00 PM at 2:00 PM\" sa Al-Salam Centre; 1:30 PM sa MAC Islamic School at Marlborough Community Association."
+  },
+  {
+    "id": "hazrat-bilal-islamic-centre-calgary",
+    "notes": "Kilala rin bilang Masjid Bilal.",
+    "jumuahNote": "\"Unang khutbah 1:45 PM. Ikalawang khutbah 2:30 PM. Nagsasara ang pinto nang 2:00 PM para sa unang pagdarasal ng Jumu'ah.\"",
+    "parkingNote": "Homepage: \"Pakiusap, iwasang harangan ang daanan ng sasakyan ng mga kapitbahay at sundin ang direksyon ng mga boluntaryo.\""
+  },
+  {
+    "id": "islamic-association-of-north-west-calgary",
+    "notes": "Kilala rin bilang IANWC; Northwest Islamic Centre.",
+    "newMuslimSupportNote": "Sinasabi ng homepage na handang tumulong ang imam ng masjid kung may tanong ka o handa ka nang sabihin ang shahada mo. Walang inilalarawang klase o paggabay.",
+    "jumuahNote": "1:15, 2:00 at 2:45 PM sa Ranchland at sa Maryam Masjid, 183 Beddington Drive NW.",
+    "parkingNote": "Paradahan sa kalye at sa lot; limitado, dumating nang maaga; nagsasara ang lot sa sasakyan kapag puno na."
+  },
+  {
+    "id": "islamic-centre-of-south-calgary",
+    "notes": "Kilala rin bilang ICSC; Islamic Center SE.",
+    "jumuahNote": "Sa Legacy Musallah: 1:15, 2:00, 2:45, 3:30 PM; sa McKenzie Towne Hall: 1:00, 1:45 PM."
+  },
+  {
+    "id": "islamic-centre-of-southwest-calgary",
+    "notes": "Kilala rin bilang SW Masjid; Calgary Islamic Centre SW.",
+    "jumuahNote": "Dalawang pagdarasal ng Jumuah; nagbabago ang oras ayon sa panahon (1:45 PM at 3:00 PM mula 26 Setyembre 2026); tingnan ang widget sa homepage."
+  },
+  {
+    "id": "muslim-council-of-calgary",
+    "notes": "Kilala rin bilang MCC. Ito ang opisina ng Muslim Council of Calgary, na naglilingkod sa mga masjid sa buong lungsod.",
+    "newMuslimSupportNote": "Inilalarawan ng pahinang New Muslim ang New Muslim Circle, isang support group, pati ang Connect with an Imam at isang guide book para sa bagong Muslim. Nag-aalok din ito ng harapang suporta mula sa kapwa, mentor o imam."
+  },
+  {
+    "id": "mac-cold-lake-mosque",
+    "jumuahNote": "1:30 PM."
+  },
+  {
+    "id": "ahl-al-athar-islamic-center-edmonton",
+    "womenSpaceNote": "Inililista ng home page ang hiwalay na \"pasukan ng kababaihan\" (link sa mapa)."
+  },
+  {
+    "id": "al-ameen-masjid-edmonton",
+    "notes": "Kilala rin bilang Al-Ameen Mosque.",
+    "womenSpaceNote": "Home page: \"maluluwag na bulwagan ng pagdarasal para sa kalalakihan at kababaihan\"; kasama sa listahan ng serbisyo ang \"lugar-dasalan ng kababaihan\".",
+    "jumuahNote": "Home page: Jumuah, unang Qutbah 12:45 pm, ikalawang Qutbah 1:40 pm (maaaring pana-panahon).",
+    "parkingNote": "Kasama sa listahan ng serbisyo ang \"paradahan\" (walang detalye)."
+  },
+  {
+    "id": "al-rashid-mosque-edmonton",
+    "womenSpaceNote": "May nakalistang programa para sa kababaihan (Halaqa ng kababaihan tuwing Biyernes 7 PM; programa para sa matatandang babae tuwing Miyerkules 12 hanggang 2 PM); hindi inilalarawan ang lugar-dasalan.",
+    "jumuahNote": "Sa Al Rashid Mosque nang 1:45 PM; sa ARCA nang 2:00 PM."
+  },
+  {
+    "id": "alfalah-islamic-centre-edmonton",
+    "notes": "Kilala rin bilang Alfalah Center; ICNA Edmonton.",
+    "womenSpaceNote": "Pahina ng mga programa: \"Masjid na may buong serbisyo (kalalakihan at kababaihan). Nagbibigay ang aming centre ng nakalaan at bukas sa lahat na lugar-dasalan para sa kalalakihan at kababaihan\"; may nakalistang programa para sa kababaihan.",
+    "jumuahNote": "Home page: Jumu'ah 1:30 PM at Jumu'ah II 2:30 PM; \"Ang Iqamah ng Jumu'ah Salah ay 30 minuto pagkatapos ng nakatakdang oras.\""
+  },
+  {
+    "id": "assiddiq-islamic-foundation-edmonton",
+    "notes": "Kilala rin bilang Assiddiq Islamic Center.",
+    "visitorNotes": "Nakumpirma ang serbisyo sa Ingles: halaqa para sa kababaihan tuwing Sabado (17 pataas) \"sa Ingles\".",
+    "womenSpaceNote": "Inililista ng pahina ng mga serbisyo ang Halaqah para sa kababaihan; hindi inilalarawan ang lugar-dasalan para sa kababaihan.",
+    "newMuslimSupportNote": "Inililista ng pahina ng mga serbisyo ang mga sesyon para sa bagong Muslim kasama ng mga klase para sa nasa hustong gulang, na may link para magpatala. Walang ibinigay na iskedyul at halaga.",
+    "jumuahNote": "Talaan ng pagdarasal sa home page: unang Jumu'ah 2:00 PM, ikalawa 3:30 PM (tag-init); sinasabi rin ng bahagi ng mga serbisyo na \"Jumu'ah tuwing Biyernes nang 1 PM\" (malamang oras sa taglamig). Kumpirmahin muna."
+  },
+  {
+    "id": "dar-al-sunnah-edmonton",
+    "notes": "Kilala rin bilang Dar-Al-Sunnah.",
+    "visitorNotes": "Nakumpirma ang serbisyo sa Ingles: inililista ng home page ang \"unang Khutbah ng Jumua (Ingles), 01:45 PM\".",
+    "jumuahNote": "Home page: unang Khutbah (Ingles) 1:45 PM; ikalawang Khutbah (Arabic) 2:45 PM."
+  },
+  {
+    "id": "darul-ilmi-masjid-edmonton",
+    "notes": "Kilala rin bilang Masjid Daril Ilmi; Darul Ilmi Quran School.",
+    "jumuahNote": "Home page: \"Nagsisimula ang Qutba ng Jumuah nang 1pm\"."
+  },
+  {
+    "id": "mas-islamic-centre-edmonton",
+    "notes": "Kilala rin bilang Masjid Al-Salaam.",
+    "jumuahNote": "\"Tuwing Biyernes nang 2:00 PM\"."
+  },
+  {
+    "id": "markaz-al-imam-malik-edmonton"
+  },
+  {
+    "id": "markaz-ul-islam-edmonton",
+    "visitorNotes": "Mga wika: may mga libro sa aklatan sa Ingles, Urdu at Arabic.",
+    "womenSpaceNote": "Programa sa Quran at Hadith para sa kababaihan lamang tuwing una at ikatlong Sabado ng buwan.",
+    "jumuahNote": "Unang Jumu'ah 2:00 PM, ikalawang Jumu'ah 3:00 PM (iqamah), ayon sa homepage."
+  },
+  {
+    "id": "masjid-al-ansar-edmonton"
+  },
+  {
+    "id": "masjid-al-omari-edmonton",
+    "notes": "Kilala rin bilang Edmonton Islamic Centre.",
+    "jumuahNote": "Home page: unang Jumuah 12:30 pm; ikalawang Jumuah 1:30 pm (ikalawang khutbah 1:30 pm, iqamah 1:50 pm). Maaaring pana-panahon ang oras."
+  },
+  {
+    "id": "masjid-at-taqwa-edmonton"
+  },
+  {
+    "id": "masjid-quba-jama-masjid-edmonton",
+    "notes": "Kilala rin bilang Islamic Missionary Association Edmonton.",
+    "jumuahNote": "Unang Jumuah 2:00 PM; ikalawang Jumuah 3:00 PM."
+  },
+  {
+    "id": "medina-mosque-society-of-edmonton",
+    "notes": "Kilala rin bilang Medina Mosque."
+  },
+  {
+    "id": "muslim-community-of-edmonton-mosque",
+    "jumuahNote": "May regular na pagdarasal tuwing Biyernes; walang ibinigay na oras sa homepage."
+  },
+  {
+    "id": "rahma-mosque-edmonton",
+    "notes": "Kilala rin bilang MAC Islamic Centre Edmonton.",
+    "jumuahNote": "Tatlong pagdarasal ng Jummah: 1:00, 2:00, 3:00 PM; nagsasara ang pinto kapag umabot sa 400 katao bawat pagdarasal; \"Bawal ang batang wala pang 12 taong gulang\"."
+  },
+  {
+    "id": "ruh-a-ruh-mosque-edmonton",
+    "notes": "Kilala rin bilang Soul Community Center; Ruh a Ruh Mosque.",
+    "womenSpaceNote": "Inililista ng home page ang bulwagang \"Women's Space\" na puwedeng i-book (\"malalaking pagtitipon ng kababaihan\"); hindi inilalarawan ang hiwalay na lugar-dasalan para sa kababaihan.",
+    "jumuahNote": "Home page: \"Jumu'ah tuwing Biyernes: pagdarasal ng Jummah 10 minuto pagkatapos ng adhan. Khutbah na susundan ng sama-samang pagdarasal\".",
+    "parkingNote": "\"Abiso sa paradahan para sa mga bisita\" sa home page: hinihiling sa mga bisita na pumarada nang maayos at huwag harangan ang mga katabing negosyo."
+  },
+  {
+    "id": "sahaba-mosque-edmonton"
+  },
+  {
+    "id": "markaz-ul-islam-fort-mcmurray",
+    "newMuslimSupportNote": "Nag-aalok ang pahinang New Muslim (Shahada) Support ng tulong sa pag-aayos ng shahada, oryentasyon sa pagdarasal, wudu at pangunahing paniniwala, isang kasama mula sa komunidad, at tulong kapag may presyon mula sa pamilya. Sa isang intake form, puwede kang pumili ng suporta sa telepono, text, email, harapan o online."
+  },
+  {
+    "id": "islamic-association-of-grande-prairie",
+    "notes": "Kilala rin bilang IAGP."
+  },
+  {
+    "id": "lethbridge-muslim-association",
+    "newMuslimSupportNote": "Inililista ng pahina ng mga serbisyo ang \"mga klase at programa na para talaga sa mga kakatanggap pa lang ng Islam\". Mula Marso 2025 ang pinakabagong anunsyo sa homepage, kaya itanong kung tuloy pa ang mga klase.",
+    "jumuahNote": "Jumu'ah nang 1:30 PM."
+  },
+  {
+    "id": "islamic-association-of-medicine-hat",
+    "notes": "Kilala rin bilang IAMH.",
+    "jumuahNote": "Unang Juma 1:30 PM; ikalawang Juma 2:00 PM."
+  },
+  {
+    "id": "red-deer-islamic-centre",
+    "jumuahNote": "Dalawang pagdarasal ng Jumu'ah sa centre; hindi nabasa ang oras."
+  },
+  {
+    "id": "masjid-in-the-park-sherwood-park",
+    "womenSpaceNote": "Magkahiwalay na bulwagan ng pagdarasal at magkahiwalay na pasukan para sa kalalakihan at kababaihan; may silid para sa mga ina na may live na audio.",
+    "accessibilityNote": "Ganap na madaling marating, may rampa para sa wheelchair, banyong madaling gamitin at elevator sa buong gusali.",
+    "jumuahNote": "Binabanggit ng home page ang serbisyo sa Jummah at kapasidad na higit 250; hindi nakasaad ang oras."
+  },
+  {
+    "id": "muslim-association-of-st-albert",
+    "notes": "Kilala rin bilang MASA; St. Albert Mosque.",
+    "womenSpaceNote": "Home page: \"para sa kalalakihan ang pangunahing palapag at ang gym, habang nakalaan sa kababaihan ang ikalawang palapag\"."
+  },
+  {
+    "id": "abu-bakr-al-siddiq-masjid-moose-jaw"
+  },
+  {
+    "id": "prince-albert-masjid"
+  },
+  {
+    "id": "darul-falah-islamic-centre-regina",
+    "jumuahNote": "Tatlong pagdarasal ng Jumu'ah: khutbah 1:00, 1:30 at 2:00 PM (homepage)."
+  },
+  {
+    "id": "iaos-regina-east-musallah",
+    "notes": "Kilala rin bilang East Regina Mosque; East Regina Musalla.",
+    "newMuslimSupportNote": "Pinapatakbo ng IAOS Regina ang Converts Committee para sa buong lungsod, na may paggabay mula sa kapwa, programang kasama sa masjid at counselling. Walang sariling programa na nakalista ang musallah na ito."
+  },
+  {
+    "id": "islamic-association-of-saskatchewan-inc-iaos-regina-mosque",
+    "womenSpaceNote": "Pahinang tungkol sa kanila: may magkahiwalay na lugar-dasalan ang Centre para sa kalalakihan at kababaihan.",
+    "newMuslimSupportNote": "Nag-aalok ang Converts Committee ng IAOS Regina ng paggabay mula sa kapwa, programang kasama sa masjid, counselling, mga libro at lektyur. Inililista ng iskedyul sa homepage ang klase para sa bagong Muslim tuwing Sabado pagkatapos ng Isha.",
+    "jumuahNote": "Jumu'ah 1 nang 1:15 PM, Jumu'ah 2 nang 2:00 PM (homepage)."
+  },
+  {
+    "id": "islamic-society-of-regina-masjid",
+    "notes": "Kilala rin bilang ISR.",
+    "jumuahNote": "Home page: Jumuah 1:15 pm at 1:45 pm."
+  },
+  {
+    "id": "madni-islamic-center-mosque-inc-regina",
+    "jumuahNote": "Ayon sa home page: Jumma nang 1:30 PM."
+  },
+  {
+    "id": "regina-city-jamia-masjid",
+    "notes": "Kilala rin bilang RCJM.",
+    "womenSpaceNote": "Pahina ng contact: \"May pasilidad sa pagdarasal para sa kalalakihan at kababaihan ang Regina City Jamia Masjid.\"",
+    "newMuslimSupportNote": "Inilalarawan ng pahinang New to Islam ang \"mga klase, programa sa paggabay at harapang sesyon ng paggabay\" para sa bagong Muslim. Hindi nito sinasabi kung paano magpatala, kaya tumawag o mag-email.",
+    "jumuahNote": "Home page: khutbah ng Jummah 1:10 pm, iqamah 1:30 pm."
+  },
+  {
+    "id": "jamia-riyadhul-jannah-saskatoon",
+    "jumuahNote": "Jummah 1:35 PM at 2:30 PM (homepage)."
+  },
+  {
+    "id": "prairie-muslim-association-saskatoon-masjid"
+  },
+  {
+    "id": "the-islamic-association-of-saskatchewan-inc-ias-masjid-saskatoon",
+    "jumuahNote": "Unang Jumma 1:00 pm (iqamah 1:30 pm); ikalawang Jumma 2:05 pm (iqamah 2:30 pm), ayon sa homepage noong 2026-09-23."
+  },
+  {
+    "id": "brandon-islamic-centre-inc",
+    "jumuahNote": "Unang khutbah tuwing Biyernes 2:00 pm, ikalawa 3:00 pm."
+  },
+  {
+    "id": "mia-steinbach-mussallah"
+  },
+  {
+    "id": "mia-pembina-valley-mussallah-winkler"
+  },
+  {
+    "id": "alhaqq-prayer-group-of-canada-inc-winnipeg",
+    "notes": "Kilala rin bilang Al-Haqq Canada; Al-Haqq Masjid. Inilalarawan ng site ang lingguhang sama-samang pagsamba tuwing Linggo. Magtanong tungkol sa pang-araw-araw na pagdarasal at pagdarasal tuwing Biyernes."
+  },
+  {
+    "id": "beit-naballa-mosque-winnipeg",
+    "jumuahNote": "Home page: \"Bukas kami para sa limang pang-araw-araw na pagdarasal at sa pagdarasal ng Jummah (Biyernes)\"."
+  },
+  {
+    "id": "manitoba-dawah-center-winnipeg",
+    "womenSpaceNote": "Ang ikalawang Jummah ay \"para sa kalalakihan at kababaihan\"; para sa kalalakihan lamang ang unang Jummah.",
+    "jumuahNote": "Jummah 1:35 PM (kalalakihan lamang) at 2:25 PM (kalalakihan at kababaihan), ayon sa homepage."
+  },
+  {
+    "id": "pioneer-mosque-winnipeg",
+    "notes": "Kilala rin bilang St. Vital Mosque; Hazelwood Mosque.",
+    "newMuslimSupportNote": "Ang Converts Committee ng Manitoba Islamic Association ay \"pinapatakbo ng mga balik-Islam para sa mga balik-Islam\". Nakalista rito ang care package ng mga libro, mga pagkikita, seminar at sistemang may kasama. Naglilingkod ang komite sa buong samahan, hindi sa iisang gusali.",
+    "jumuahNote": "MIA: bukas para sa lahat ng 5 pang-araw-araw na pagdarasal at sa pagdarasal tuwing Biyernes; hindi nakasaad ang oras ng Jumuah sa lugar na ito."
+  },
+  {
+    "id": "winnipeg-central-mosque",
+    "womenSpaceNote": "FAQ: \"Walang pisikal na harang sa pagitan ng kalalakihan at kababaihan ang WCM\"; pasukang pampamilya ang harapan at likurang pasukan.",
+    "accessibilityNote": "May paradahan para sa may kapansanan sa likurang lot; wala nang ibang nakasaad.",
+    "jumuahNote": "Jumaa: khutbah 1:45 PM, natatapos ang salat nang 2:15 PM (homepage, 2026-09-23).",
+    "parkingNote": "May paradahan sa lot na katabi ng masjid sa Toronto Street at sa lot sa likod ng masjid. May ilang puwesto para sa may kapansanan sa lot sa likod ng masjid."
+  },
+  {
+    "id": "winnipeg-grand-mosque-and-community-centre",
+    "notes": "Kilala rin bilang Waverley Mosque; MIA Grand Mosque.",
+    "newMuslimSupportNote": "Ang Converts Committee ng Manitoba Islamic Association ay \"pinapatakbo ng mga balik-Islam para sa mga balik-Islam\". Nakalista rito ang care package ng mga libro, mga pagkikita, seminar at sistemang may kasama. Naglilingkod ang komite sa buong samahan, hindi sa iisang gusali.",
+    "jumuahNote": "Homepage ng MIA: Jumu'ah \"1:45 pm at 3:30 pm\". Pahina ng mga masjid ng MIA: \"Bukas ang dalawang masjid para sa lahat ng 5 pang-araw-araw na pagdarasal at sa pagdarasal tuwing Biyernes.\""
+  },
+  {
+    "id": "nova-scotia-islamic-community-centre-kearney-lake-masjid-bedford",
+    "notes": "Lugar: Halifax Regional Municipality. Kilala rin bilang NSICC; Kearney Lake Masjid; Halifax Jamia Masjid.",
+    "womenSpaceNote": "Inililista ng pahina ng contact ang komite ng kababaihan at isang support group para sa kababaihang Muslim; hindi inilalarawan ang lugar-dasalan para sa kababaihan.",
+    "jumuahNote": "Homepage: \"Biyernes/Jumu'ah (Khutbah) 1:30 PM\"."
+  },
+  {
+    "id": "dartmouth-masjid",
+    "notes": "Kilala rin bilang IANS Dartmouth Masjid.",
+    "jumuahNote": "1:30 PM."
+  },
+  {
+    "id": "the-centre-for-islamic-development-halifax",
+    "notes": "Kilala rin bilang CID."
+  },
+  {
+    "id": "truro-masjid",
+    "jumuahNote": "13:30."
+  },
+  {
+    "id": "fredericton-islamic-association-fia",
+    "womenSpaceNote": "Binabanggit ang pasukan ng kababaihan; walang detalye tungkol sa lugar-dasalan.",
+    "accessibilityNote": "Nakalaan para sa mga bisitang may kapansanan o sa kababaihan ang paradahan malapit sa pasukan ng kababaihan (homepage).",
+    "jumuahNote": "Homepage: \"12:30 PM at 1:30 PM\" (dalawang Jumuah).",
+    "parkingNote": "Nagbibigay ang homepage ng mga mapaparadahan: pangunahing lot, sa ilalim ng Princess Margaret Bridge at sa gilid ng kalsada, na may gabay para sa oras na maraming tao."
+  },
+  {
+    "id": "masjid-yusuf-moncton",
+    "notes": "Kilala rin bilang Masjid Yusuf Islamic Center."
+  },
+  {
+    "id": "moncton-muslim-association"
+  },
+  {
+    "id": "al-falah-islamic-center-st-john-s",
+    "notes": "Kilala rin bilang ICNA NewFoundLand.",
+    "visitorNotes": "Nakumpirma ang serbisyo sa Ingles: (may label na \"Wika: Ingles\" ang halaqa tuwing Biyernes).",
+    "jumuahNote": "Homepage: \"Jumu'ah 12:45 sa Farmers' Market (una), 1:15 sa Farmers' Market (ikalawa)\" (sa labas ng masjid).",
+    "parkingNote": "Gabay sa paradahan sa homepage: gamitin ang nakalaang lot ng masjid; \"Kung puno ang parking lot ng masjid, puwede kang pumarada sa parehong gilid ng kalye kung nasaan ang masjid.\""
+  },
+  {
+    "id": "masjid-al-noor-st-john-s",
+    "notes": "Kilala rin bilang Masjid An-Noor; MANAL.",
+    "jumuahNote": "Pahina ng mga aktibidad: isang Jumuah tuwing Biyernes sa Masjid Suleman Dawood, 12:50 pm hanggang 1:20 pm (hindi sa Al-Noor)."
+  },
+  {
+    "id": "masjid-suleman-dawood-st-john-s",
+    "womenSpaceNote": "Abiso para sa Eid: sa likurang pasukan papasok at lalabas ang kababaihan.",
+    "jumuahNote": "\"isang pagdarasal ng Jumah tuwing Biyernes sa Masjid Suleman Dawood, nagsisimula nang 12:50 pm at natatapos nang 1:20 pm\" (MANAL).",
+    "parkingNote": "Mga abiso para sa Eid: pumarada lamang sa nakalaang lot at sundin ang direksyon ng mga boluntaryo."
+  },
+  {
+    "id": "muslim-society-of-prince-edward-island-masjid-dar-as-salam-charlottetown",
+    "notes": "Kilala rin bilang Dar As-Salam Mosque; Muslim Society of PEI.",
+    "jumuahNote": "Homepage: unang Jumaa 1:20 PM, ikalawang Jumaa 2:00 PM."
+  },
+  {
+    "id": "yukon-muslim-society-inc-whitehorse",
+    "notes": "Kilala rin bilang Yukon Muslims Society; Whitehorse Mosque.",
+    "visitorNotes": "Nakumpirma ang serbisyo sa Ingles: nasa Ingles ang sermon tuwing Biyernes.",
+    "womenSpaceNote": "Pahina ng paglilibot: \"Hihilingin sa kababaihan na takpan ang ulo bago pumasok sa bulwagan ng pagdarasal.\" Walang nakasaad na hiwalay na lugar para sa kababaihan sa mga opisyal na pahina.",
+    "newMuslimSupportNote": "Sinasabi ng pahinang Shahadas na \"Hinihikayat ang mga bagong Muslim na bumisita sa amin para matuto at magsabuhay ng Islam.\" Nasa Ingles ang sermon tuwing Biyernes.",
+    "accessibilityNote": "Madaling marating gamit ang wheelchair.",
+    "parkingNote": "May parking lot ang masjid; may isang puwesto para sa may kapansanan."
+  },
+  {
+    "id": "midnight-sun-mosque-inuvik"
+  },
+  {
+    "id": "iqaluit-masjid",
+    "jumuahNote": "Oo ang sagot sa \"May pagdarasal ba ng Jumu'ah tuwing Biyernes?\" sa pahinang tungkol sa kanila; hindi nakasaad ang oras."
   }
 ]
