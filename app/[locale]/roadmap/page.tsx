@@ -2,6 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { getAllStages } from "@/lib/content";
 import { Breadcrumb } from "@/components/Breadcrumb";
+import { ComingUp } from "@/components/ComingUp";
 import { Icon } from "@/components/Icon";
 import { AnimateIn } from "@/components/AnimateIn";
 import { localizeHref, type Locale, type Messages } from "@/lib/i18n";
@@ -63,6 +64,8 @@ export default function RoadmapPage({
           </p>
         </AnimateIn>
       </header>
+
+      <ComingUp locale={locale} />
 
       <AnimateIn>
         <Link

@@ -1,6 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import { Button } from "@/components/Button";
+import { ComingUp } from "@/components/ComingUp";
 import { Icon } from "@/components/Icon";
 import { AnimateIn } from "@/components/AnimateIn";
 import { localizeHref, type Locale, type Messages } from "@/lib/i18n";
@@ -245,6 +246,8 @@ export default function HomePage({ params }: { params: { locale: Locale } }) {
           </div>
         </AnimateIn>
       </section>
+
+      <ComingUp locale={locale} />
 
       <div className="border-t border-border/30" aria-hidden="true" />
 
