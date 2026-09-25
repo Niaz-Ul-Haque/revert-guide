@@ -1,0 +1,418 @@
+{
+  "prayerSequence": [
+    {
+      "title": "Se préparer calmement",
+      "posture": "Avant la prière",
+      "body": "Faites vos ablutions (wudu), trouvez un endroit propre, tournez-vous vers la qibla et fixez dans votre cœur de quelle prière il s'agit. Vous n'avez pas à prononcer l'intention à voix haute.",
+      "icon": "check",
+      "sourceIds": ["new-muslim-guide-prayer"]
+    },
+    {
+      "title": "Commencer debout",
+      "posture": "Formule d'ouverture (takbir)",
+      "body": "Levez les mains et dites Allahu akbar. Cette formule ouvre la prière. À partir de ce moment, vous quittez les paroles ordinaires pour entrer dans l'adoration.",
+      "icon": "star",
+      "sourceIds": ["new-muslim-guide-prayer"]
+    },
+    {
+      "title": "Réciter dans la première unité de prière (rak'ah)",
+      "posture": "Position debout",
+      "body": "Récitez Al-Fatihah, puis une courte sourate ou les quelques versets que vous êtes en train d'apprendre. Si vous ne savez pas encore réciter, la section « Si vous ne savez pas encore réciter en arabe » plus bas explique ce que les écoles permettent en attendant.",
+      "icon": "book",
+      "sourceIds": ["quran-al-fatihah-1", "quran-al-ikhlas-112"]
+    },
+    {
+      "title": "S'incliner et se relever",
+      "posture": "Inclinaison (ruku)",
+      "body": "Inclinez-vous, le dos plat et stable, et dites la formule de l'inclinaison. Relevez-vous en disant Sami'a Allahu liman hamidah, puis, une fois bien droit, dites Rabbana wa lakal-hamd. Marquez une pause avant de descendre. Ne vous pressez pas pour en finir plus vite.",
+      "icon": "check",
+      "sourceIds": [
+        "hisn-ruku-dhikr",
+        "sunnah-bukhari-rising-from-ruku",
+        "sunnah-bukhari-prayed-badly"
+      ]
+    },
+    {
+      "title": "Se prosterner deux fois",
+      "posture": "Prosternation (sujud)",
+      "body": "Descendez en prosternation et dites la formule de la prosternation. Redressez-vous en position assise et dites Rabbighfir li, puis prosternez-vous une deuxième fois avec la même formule. Laissez chaque position se stabiliser avant de passer à la suivante.",
+      "icon": "check",
+      "sourceIds": [
+        "hisn-sujud-dhikr",
+        "sunnah-ibnmajah-between-sujud",
+        "sunnah-bukhari-prayed-badly-long"
+      ]
+    },
+    {
+      "title": "Recommencer pour la deuxième unité de prière (rak'ah)",
+      "posture": "Deuxième unité",
+      "body": "Relevez-vous et reprenez la même forme : Al-Fatiha, une courte récitation, l'inclinaison (ruku), le retour debout, puis deux prosternations.",
+      "icon": "chevron-right",
+      "sourceIds": ["new-muslim-guide-prayer"]
+    },
+    {
+      "title": "S'asseoir pour les dernières paroles",
+      "posture": "Attestation en position assise (tashahhud)",
+      "body": "Après la deuxième unité de prière (rak'ah), asseyez-vous et récitez le tashahhud. Dans une prière de deux unités, c'est la position assise finale : ajoutez donc les bénédictions sur le Prophète (salawat) avant le salam. Dans une prière de trois ou quatre unités, cette première position assise est plus courte, et vous vous relevez ensuite. Le schéma des unités de prière plus bas montre où se place chaque position assise.",
+      "icon": "info",
+      "sourceIds": [
+        "sunnah-bukhari-tashahhud",
+        "sunnah-bukhari-salawat-ibrahimiyyah"
+      ]
+    },
+    {
+      "title": "Terminer par la salutation de paix (salam)",
+      "posture": "Salutation finale (taslim)",
+      "body": "Tournez la tête vers la droite, puis vers la gauche, en adressant chaque fois la salutation de paix. La prière est alors terminée. Restez assis un moment avant de vous lever et de reprendre votre journée.",
+      "icon": "star",
+      "sourceIds": ["sunnah-abudawud-taslim"]
+    }
+  ],
+  "recitations": [
+    {
+      "title": "Formule d'ouverture (takbir)",
+      "occasion": "Début de la prière",
+      "arabic": "اللَّهُ أَكْبَرُ",
+      "transliteration": "Allahu akbar",
+      "meaning": "Allah est le plus Grand.",
+      "beginnerNote": "C'est la première formule à apprendre. Dites-la clairement, sans vous presser. L'accent viendra tout seul.",
+      "sourceIds": ["new-muslim-guide-prayer"]
+    },
+    {
+      "title": "Al-Fatiha (l'Ouverture)",
+      "occasion": "Chaque unité de prière (rak'ah)",
+      "arabic": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ\nالْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينَ\nالرَّحْمَٰنِ الرَّحِيمِ\nمَالِكِ يَوْمِ الدِّينِ\nإِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ\nاهْدِنَا الصِّرَاطَ الْمُسْتَقِيمَ\nصِرَاطَ الَّذِينَ أَنْعَمْتَ عَلَيْهِمْ غَيْرِ الْمَغْضُوبِ عَلَيْهِمْ وَلَا الضَّالِّينَ",
+      "transliteration": "Bismillahir-Rahmanir-Rahim. Alhamdu lillahi Rabbil-'alamin. Ar-Rahmanir-Rahim. Maliki yawmid-din. Iyyaka na'budu wa iyyaka nasta'in. Ihdinas-siratal-mustaqim. Siratal-ladhina an'amta 'alayhim ghayril-maghdubi 'alayhim wa lad-dallin.",
+      "meaning": "Traduction du sens : la louange, l'adoration et l'aide reviennent à Allah, et nous Lui demandons de nous guider vers le droit chemin.",
+      "beginnerNote": "Al-Fatiha est le premier vrai objectif de mémorisation. Apprenez-la une phrase à la fois, et demandez à un enseignant quoi réciter pendant que vous l'apprenez encore.",
+      "sourceIds": ["quran-al-fatihah-1"]
+    },
+    {
+      "title": "Exemple de courte sourate : Al-Ikhlas",
+      "occasion": "Après Al-Fatiha, dans les deux premières unités de prière",
+      "arabic": "قُلْ هُوَ اللَّهُ أَحَدٌ\nاللَّهُ الصَّمَدُ\nلَمْ يَلِدْ وَلَمْ يُولَدْ\nوَلَمْ يَكُن لَّهُ كُفُوًا أَحَدٌ",
+      "transliteration": "Qul huwa Allahu ahad. Allahus-samad. Lam yalid wa lam yulad. Wa lam yakun lahu kufuwan ahad.",
+      "meaning": "Traduction du sens : Allah est Unique, Il Se suffit à Lui-même, Il ne ressemble en rien à la création, et rien ne Lui est comparable.",
+      "beginnerNote": "La plupart des débutants commencent par celle-ci. Elle est courte et affirme l'unicité d'Allah en quatre lignes.",
+      "sourceIds": ["quran-al-ikhlas-112"]
+    },
+    {
+      "title": "Exemple de courte sourate : Al-'Asr",
+      "occasion": "Après Al-Fatiha, dans les deux premières unités de prière",
+      "arabic": "وَالْعَصْرِ\nإِنَّ الْإِنسَانَ لَفِي خُسْرٍ\nإِلَّا الَّذِينَ آمَنُوا وَعَمِلُوا الصَّالِحَاتِ وَتَوَاصَوْا بِالْحَقِّ وَتَوَاصَوْا بِالصَّبْرِ",
+      "transliteration": "Wal-'asr. Innal-insana lafi khusr. Illal-ladhina amanu wa 'amilus-salihat, wa tawasaw bil-haqqi wa tawasaw bis-sabr.",
+      "meaning": "Traduction du sens : les humains sont en perte, sauf ceux qui croient, font le bien et s'encouragent mutuellement à la vérité et à la patience.",
+      "beginnerNote": "Travaillez une courte sourate à la fois. Écouter d'abord un récitateur fiable vous aidera davantage que de parcourir plusieurs chapitres à toute vitesse.",
+      "sourceIds": ["quran-al-asr-103"]
+    },
+    {
+      "title": "Formule de l'inclinaison (ruku)",
+      "occasion": "Pendant l'inclinaison",
+      "arabic": "سُبْحَانَ رَبِّيَ الْعَظِيمِ",
+      "transliteration": "Subhana Rabbiyal-'Azim",
+      "meaning": "Gloire à mon Seigneur, le Très Grand.",
+      "beginnerNote": "La plupart des guides enseignent de la dire trois fois. Pendant que vous apprenez, une seule répétition claire est un bon point de départ. Demandez les détails à un enseignant.",
+      "sourceIds": ["hisn-ruku-dhikr"]
+    },
+    {
+      "title": "Se relever de l'inclinaison",
+      "occasion": "En se relevant de l'inclinaison (ruku)",
+      "arabic": "سَمِعَ اللَّهُ لِمَنْ حَمِدَهُ\nرَبَّنَا وَلَكَ الْحَمْدُ",
+      "transliteration": "Sami'a Allahu liman hamidah. Rabbana wa lakal-hamd.",
+      "meaning": "Allah entend celui qui Le loue. Notre Seigneur, à Toi appartient toute louange.",
+      "beginnerNote": "Dites la première ligne en vous relevant et la seconde une fois bien droit. Vous entendrez aussi « Rabbana lakal-hamd », sans le « wa ». Les deux formulations se trouvent dans le hadith.",
+      "sourceIds": ["sunnah-bukhari-rising-from-ruku"]
+    },
+    {
+      "title": "Formule de la prosternation (sujud)",
+      "occasion": "Pendant la prosternation",
+      "arabic": "سُبْحَانَ رَبِّيَ الْأَعْلَى",
+      "transliteration": "Subhana Rabbiyal-A'la",
+      "meaning": "Gloire à mon Seigneur, le Très-Haut.",
+      "beginnerNote": "La prosternation (sujud) paraît étrange les premières fois. Descendez au rythme qui convient à votre corps, marquez une pause une fois en bas et apprenez la formule. Aller lentement n'est pas un échec.",
+      "sourceIds": ["hisn-sujud-dhikr"]
+    },
+    {
+      "title": "Position assise entre les deux prosternations",
+      "occasion": "Entre la première et la deuxième prosternation (sujud)",
+      "arabic": "رَبِّ اغْفِرْ لِي",
+      "transliteration": "Rabbighfir li",
+      "meaning": "Mon Seigneur, pardonne-moi.",
+      "beginnerNote": "Deux mots, que le Prophète répétait. Dites-les une ou deux fois. Plus tard, si vous le souhaitez, un enseignant pourra vous montrer une version plus longue.",
+      "sourceIds": [
+        "sunnah-ibnmajah-between-sujud",
+        "sunnah-abudawud-ruku-sujud-dhikr"
+      ]
+    },
+    {
+      "title": "Attestation en position assise (tashahhud)",
+      "occasion": "Chaque position assise : après la deuxième unité de prière (rak'ah) et à la fin",
+      "arabic": "التَّحِيَّاتُ لِلَّهِ وَالصَّلَوَاتُ وَالطَّيِّبَاتُ\nالسَّلَامُ عَلَيْكَ أَيُّهَا النَّبِيُّ وَرَحْمَةُ اللَّهِ وَبَرَكَاتُهُ\nالسَّلَامُ عَلَيْنَا وَعَلَى عِبَادِ اللَّهِ الصَّالِحِينَ\nأَشْهَدُ أَنْ لَا إِلَٰهَ إِلَّا اللَّهُ\nوَأَشْهَدُ أَنَّ مُحَمَّدًا عَبْدُهُ وَرَسُولُهُ",
+      "transliteration": "At-tahiyyatu lillahi was-salawatu wat-tayyibat. As-salamu 'alayka ayyuhan-Nabiyyu wa rahmatullahi wa barakatuh. As-salamu 'alayna wa 'ala 'ibadillahis-salihin. Ash-hadu an la ilaha illallah, wa ash-hadu anna Muhammadan 'abduhu wa rasuluh.",
+      "meaning": "Les salutations, les prières et les bonnes choses sont à Allah. Que la paix soit sur toi, ô Prophète, ainsi que la miséricorde d'Allah et Ses bénédictions. Que la paix soit sur nous et sur les pieux serviteurs d'Allah. J'atteste qu'il n'y a de divinité qu'Allah, et j'atteste que Muhammad est Son serviteur et Son messager.",
+      "beginnerNote": "C'est la formulation rapportée par Ibn Mas'ud. Vous entendrez peut-être des formulations un peu différentes, tirées d'autres récits authentiques : suivez votre enseignant. Apprenez-la une ligne à la fois.",
+      "sourceIds": ["sunnah-bukhari-tashahhud"]
+    },
+    {
+      "title": "Bénédictions sur le Prophète (salawat)",
+      "occasion": "Position assise finale, après le tashahhud",
+      "arabic": "اللَّهُمَّ صَلِّ عَلَى مُحَمَّدٍ وَعَلَى آلِ مُحَمَّدٍ\nكَمَا صَلَّيْتَ عَلَى إِبْرَاهِيمَ وَعَلَى آلِ إِبْرَاهِيمَ\nإِنَّكَ حَمِيدٌ مَجِيدٌ\nاللَّهُمَّ بَارِكْ عَلَى مُحَمَّدٍ وَعَلَى آلِ مُحَمَّدٍ\nكَمَا بَارَكْتَ عَلَى إِبْرَاهِيمَ وَعَلَى آلِ إِبْرَاهِيمَ\nإِنَّكَ حَمِيدٌ مَجِيدٌ",
+      "transliteration": "Allahumma salli 'ala Muhammadin wa 'ala ali Muhammad, kama sallayta 'ala Ibrahima wa 'ala ali Ibrahim, innaka Hamidun Majid. Allahumma barik 'ala Muhammadin wa 'ala ali Muhammad, kama barakta 'ala Ibrahima wa 'ala ali Ibrahim, innaka Hamidun Majid.",
+      "meaning": "Ô Allah, accorde Ta miséricorde à Muhammad et à la famille de Muhammad, comme Tu as accordé Ta miséricorde à Ibrahim et à la famille d'Ibrahim. Tu es Digne de louange et Glorieux. Ô Allah, accorde Tes bénédictions à Muhammad et à la famille de Muhammad, comme Tu as accordé Tes bénédictions à Ibrahim et à la famille d'Ibrahim. Tu es Digne de louange et Glorieux.",
+      "beginnerNote": "Dites-la dans la position assise finale, après le tashahhud et avant le salam. Les écoles divergent sur le fait de la dire aussi dans la première position assise d'une prière plus longue : demandez à votre enseignant.",
+      "sourceIds": ["sunnah-bukhari-salawat-ibrahimiyyah"]
+    },
+    {
+      "title": "Salutation de paix (salam)",
+      "occasion": "Fin de la prière",
+      "arabic": "السَّلَامُ عَلَيْكُمْ وَرَحْمَةُ اللَّهِ",
+      "transliteration": "As-salamu 'alaykum wa rahmatullah",
+      "meaning": "Que la paix et la miséricorde d'Allah soient sur vous.",
+      "beginnerNote": "Cette formule clôt la prière. Tournez doucement la tête de chaque côté. Inutile d'en faire un grand mouvement.",
+      "sourceIds": ["sunnah-abudawud-taslim"]
+    }
+  ],
+  "cannotReciteYet": [
+    "Continuez à prier pendant que vous apprenez. Les savants cités dans les sources ci-dessous disent qu'un nouveau musulman prie avec ce qu'il arrive à faire et apprend le reste avec le temps.",
+    "Une option largement enseignée consiste à dire de courtes formules arabes de rappel d'Allah à la place de la récitation : SubhanAllah (gloire à Allah), Alhamdulillah (louange à Allah), La ilaha illallah (il n'y a de divinité qu'Allah), Allahu akbar (Allah est le plus Grand) et La hawla wa la quwwata illa billah (il n'y a de force ni de puissance qu'en Allah). Le Prophète a enseigné ces paroles à un homme qui disait ne pouvoir mémoriser aucun passage du Coran (Sunan Abi Dawud 832, jugé Hasan par al-Albani).",
+    "SeekersGuidance considère ces formules de rappel comme le choix le plus prudent, car elles sont valides à la fois dans l'école hanafite et dans l'école chaféite.",
+    "L'école hanafite accepte aussi la récitation d'une traduction du sens pour la personne qui ne sait pas encore réciter en arabe.",
+    "L'école chaféite n'accepte pas de traduction. Elle permet à la personne qui apprend de lire Al-Fatihah dans un mushaf (un Coran imprimé) pendant la prière.",
+    "Les écoles malikite et hanbalite n'acceptent pas la récitation dans une autre langue.",
+    "Lire dans un livre ou sur un écran pendant la prière est en soi un point de divergence : l'école hanafite considère le fait de tenir un Coran et d'y lire pendant la prière comme fortement réprouvé, proche de l'interdit (makruh tahriman).",
+    "En attendant, apprenez Al-Fatihah une phrase à la fois, puis une courte sourate. Celui qui récite avec difficulté reçoit une double récompense (Sahih Muslim 798a).",
+    "Demandez à un imam de votre région quelle option votre communauté suit."
+  ],
+  "invalidatesPrayer": [
+    "Perdre ses ablutions (wudu), par exemple en allant aux toilettes ou en laissant échapper des gaz.",
+    "Manger, boire ou prononcer volontairement des paroles sans rapport avec la prière pendant celle-ci.",
+    "Omettre une position, une condition ou une récitation obligatoire alors que vous savez qu'elle est obligatoire.",
+    "Interrompre la prière ou s'en détourner délibérément, sans raison.",
+    "Les erreurs, les oublis, la maladie, les menstruations, les voyages et le handicap comportent tous des détails qui méritent d'être revus avec un enseignant qualifié."
+  ],
+  "commonCorrections": [
+    {
+      "title": "Je recommence à chaque petite erreur.",
+      "body": "Terminez la prière calmement, puis posez votre question sur cette erreur précise après coup. La panique vous coûte généralement plus que l'erreur elle-même."
+    },
+    {
+      "title": "J'ai honte de ma prononciation.",
+      "body": "La prononciation vient avec la répétition, et rien d'autre. Allah connaît la différence entre quelqu'un qui ne fait pas d'effort et quelqu'un qui est encore en train d'apprendre."
+    },
+    {
+      "title": "Les vidéos montrent des positions des mains différentes.",
+      "body": "Ces différences sont généralement toutes valides, et aucune n'est une raison d'arrêter de prier. Apprenez une méthode fiable pour débutants, et demandez à un enseignant avant d'en changer de nouveau."
+    },
+    {
+      "title": "Je me dépêche parce que je me sens mal à l'aise.",
+      "body": "Ralentissez jusqu'à ce que chaque position soit bien distincte. Une prière courte et calme vous apprend davantage qu'une prière rapide et anxieuse."
+    }
+  ],
+  "mainVideo": {
+    "videoId": "4zr6tNgmKSI",
+    "title": "Comment accomplir les cinq prières quotidiennes",
+    "channel": "Green Lane Masjid",
+    "duration": "33:57",
+    "note": "Le chapitre sur Asr est court, car Asr se prie de la même façon que Dhuhr. La vidéo suit la pratique d'une seule école, et de petites différences entre les écoles sont normales. Les sous-titres sont générés automatiquement.",
+    "sourceIds": ["video-greenlane-five-prayers"],
+    "chapters": [
+      {
+        "label": "Avant de prier",
+        "start": 71
+      },
+      {
+        "label": "Les cinq prières",
+        "start": 143
+      },
+      {
+        "label": "Aperçu des paroles et des unités de prière",
+        "start": 167
+      },
+      {
+        "label": "Fajr",
+        "start": 228
+      },
+      {
+        "label": "Dhuhr",
+        "start": 687
+      },
+      {
+        "label": "Asr",
+        "start": 1351
+      },
+      {
+        "label": "Maghrib",
+        "start": 1378
+      },
+      {
+        "label": "Isha",
+        "start": 1979
+      }
+    ]
+  },
+  "phraseVideos": [
+    {
+      "videoId": "Fpa-c_M_V7Q",
+      "title": "Chaque formule d'une unité de prière (rak'ah)",
+      "channel": "Islamwise",
+      "duration": "10:29",
+      "sourceIds": ["video-islamwise-rakah-recap"]
+    },
+    {
+      "videoId": "n0aGnzSY_hs",
+      "title": "Formules à dire pendant que vous apprenez Al-Fatihah",
+      "channel": "Islamwise",
+      "duration": "7:01",
+      "note": "Utiliser ces formules pendant l'apprentissage correspond à l'un des avis des écoles. Consultez la section sur la prière quand on ne sait pas encore réciter.",
+      "sourceIds": ["video-islamwise-comprehensive-remembrance"]
+    }
+  ],
+  "phraseSeries": {
+    "label": "La série complète d'Islamwise sur YouTube",
+    "body": "29 courtes leçons, une formule à la fois, dont Al-Fatihah verset par verset, le tashahhud et les salawat.",
+    "href": "https://www.youtube.com/playlist?list=PLW9v5fexkmD_8i507k8oL2x9n0vJeP1BT",
+    "sourceIds": ["video-islamwise-prayer-series"]
+  },
+  "shapeImage": {
+    "src": "/graphics/rakah-steps.svg",
+    "alt": "Sept silhouettes sans visage montrant une unité de prière (rak'ah) dans l'ordre : debout les mains levées, debout pour réciter, incliné, debout bien droit, prosterné, assis, puis prosterné de nouveau, chacune avec sa courte formule.",
+    "caption": "Une unité de prière (rak'ah), de la formule d'ouverture (takbir) à la deuxième prosternation.",
+    "credit": "Illustration : Revert Guide."
+  },
+  "tashahhudPlacement": {
+    "items": [
+      "Fajr, 2 unités de prière : une seule position assise, après la deuxième unité. C'est la position assise finale : tashahhud, salawat, puis salam.",
+      "Maghrib, 3 unités de prière : une première position assise après la deuxième unité, avec le tashahhud, puis vous vous relevez pour la troisième. La position assise finale vient après la troisième : tashahhud, salawat, puis salam.",
+      "Dhuhr, Asr et Isha, 4 unités de prière : une première position assise après la deuxième unité, avec le tashahhud, puis vous vous relevez pour la troisième et la quatrième. La position assise finale vient après la quatrième.",
+      "Dans les deux premières unités, vous récitez Al-Fatihah et une courte sourate. Dans la troisième et la quatrième, vous récitez seulement Al-Fatihah."
+    ],
+    "sourceIds": [
+      "sunnah-bukhari-tashahhud",
+      "islamic-foundation-ireland-prayer-booklet"
+    ],
+    "image": {
+      "src": "/graphics/rakah-map-tashahhud.svg",
+      "alt": "Une rangée de points pour chacune des cinq prières, un point par unité de prière (rak'ah), avec une silhouette assise après la deuxième unité et à la fin. Fajr a 2 points, Dhuhr 4, Asr 4, Maghrib 3 et Isha 4.",
+      "caption": "Où vous asseoir pour le tashahhud dans chaque prière.",
+      "credit": "Illustration : Revert Guide."
+    }
+  },
+  "sujudAlSahw": {
+    "summary": "Si vous oubliez une partie de la prière, ajoutez quelque chose par erreur ou perdez le compte de vos unités de prière (rak'ahs), il existe une réparation simple : deux prosternations supplémentaires appelées sujud al-sahw, la prosternation de l'oubli. Pour beaucoup d'erreurs, vous n'avez pas besoin de recommencer la prière.",
+    "steps": [
+      "Si vous ne savez plus combien d'unités de prière vous avez accomplies, retenez le nombre dont vous êtes certain, c'est-à-dire le plus petit, et terminez la prière à partir de là.",
+      "Vers la fin de la prière, faites deux prosternations supplémentaires avec une courte position assise entre les deux, de la même façon que vous vous prosternez dans chaque unité de prière.",
+      "Des récits authentiques mentionnent ces deux prosternations aussi bien avant qu'après le salam final. Les écoles enseignent des méthodes un peu différentes : apprenez celle de votre enseignant.",
+      "Si vous priez derrière un imam, suivez l'imam et n'ajoutez pas vos propres prosternations."
+    ],
+    "referral": "Tant que vous débutez, terminez calmement et interrogez un enseignant sur l'erreur précise après coup. Personne ne s'attend à ce que vous connaissiez toutes les règles dès vos premiers mois.",
+    "sourceIds": [
+      "sunnah-muslim-sahw-doubt",
+      "sunnah-bukhari-sahw-after-salam",
+      "seekersguidance-sajda-sahw",
+      "newmuslims-prostration-forgetfulness"
+    ]
+  },
+  "prayerTable": {
+    "rows": [
+      {
+        "name": "Prière de l'aube (Fajr)",
+        "window": "De la première lueur de l'aube jusqu'au lever du soleil.",
+        "units": "2"
+      },
+      {
+        "name": "Prière de midi (Dhuhr)",
+        "window": "De peu après midi, une fois que le soleil a passé son point le plus haut, jusqu'au début de Asr.",
+        "units": "4"
+      },
+      {
+        "name": "Prière de l'après-midi (Asr)",
+        "window": "Du milieu de l'après-midi jusqu'au coucher du soleil. Essayez de ne pas attendre que le soleil jaunisse.",
+        "units": "4"
+      },
+      {
+        "name": "Prière du coucher du soleil (Maghrib)",
+        "window": "De peu après le coucher du soleil jusqu'à la disparition du crépuscule.",
+        "units": "3"
+      },
+      {
+        "name": "Prière de la nuit (Isha)",
+        "window": "De la disparition du crépuscule jusqu'au milieu de la nuit.",
+        "units": "4"
+      }
+    ],
+    "note": "Vous pouvez prier à n'importe quel moment de la plage horaire : inutile d'être précis à la minute près. Les écoles divergent sur le début de Asr (plus tard selon l'école hanafite) et sur l'heure limite de Isha. En été, une grande partie du Canada applique des règles ajustées pour Fajr et Isha : consultez la page des heures de prière ou l'horaire de votre mosquée.",
+    "sourceIds": [
+      "sunnah-muslim-prayer-times",
+      "quran-4-103-appointed-times",
+      "newmuslims-prayer-for-beginners"
+    ],
+    "image": {
+      "src": "/graphics/prayer-day-timeline.svg",
+      "alt": "Une ligne du temps d'une journée, de l'aube à la nuit, où les cinq prières sont marquées dans l'ordre : Fajr à l'aube, Dhuhr après midi, Asr l'après-midi, Maghrib après le coucher du soleil et Isha la nuit, chacune avec son nombre d'unités de prière (rak'ahs).",
+      "caption": "Les cinq prières au fil d'une journée. Les heures exactes changent chaque jour avec le soleil.",
+      "credit": "Illustration : Revert Guide."
+    }
+  },
+  "notOwed": {
+    "text": "Vous ne devez pas les prières des années qui ont précédé votre entrée dans l'islam. Le Prophète a dit que l'islam efface ce qui le précède : vous partez donc d'aujourd'hui. Certains savants ajoutent qu'un converti qui ne savait pas encore que la prière était obligatoire n'est pas tenu de rattraper cette période non plus. Si vous ne savez pas comment cela s'applique à vous, demandez à un enseignant.",
+    "sourceIds": [
+      "sunnah-muslim-islam-wipes-out",
+      "seekersguidance-converts-missed-prayers"
+    ]
+  },
+  "seatedPrayer": {
+    "summary": "Si la douleur, la maladie ou un handicap vous rend difficile de vous tenir debout, de vous incliner ou de vous prosterner, priez de la façon que votre corps permet. Le Prophète a dit à un compagnon malade de prier debout, et s'il ne le pouvait pas, assis, et s'il ne le pouvait pas, couché sur le côté.",
+    "points": [
+      "Si vous ne pouvez pas vous tenir debout, ou si cela vous cause une vraie douleur ou des étourdissements, priez assis. Vous pouvez vous asseoir par terre, ou sur une chaise si le sol vous est difficile.",
+      "Si vous pouvez encore vous prosterner, la réponse hanafite dont nous donnons le lien préfère que vous restiez assis par terre et que vous vous prosterniez normalement. Si vous ne le pouvez pas, baissez plutôt la tête : un peu pour l'inclinaison et un peu plus pour la prosternation.",
+      "Si vous ne pouvez pas vous asseoir, priez couché, tourné vers la qibla du mieux que vous pouvez.",
+      "Les maladies passagères et les problèmes de santé de longue durée sont traités un peu différemment, et les écoles divergent sur des détails comme la façon de s'incliner sur une chaise et l'endroit où placer la chaise dans une rangée."
+    ],
+    "referral": "Un imam ou un enseignant de votre région peut vous regarder prier une fois et vous aider à trouver ce qui convient à votre corps. Vous n'avez jamais à forcer malgré la douleur pour que votre prière compte.",
+    "sourceIds": [
+      "sunnah-bukhari-pray-standing-sitting",
+      "seekersguidance-praying-sitting",
+      "seekersguidance-sick-person-prayer"
+    ],
+    "video": {
+      "videoId": "3geUbODPg5U",
+      "title": "Comment prier avec un handicap physique",
+      "channel": "Green Lane Masjid",
+      "duration": "6:06",
+      "note": "Montre la prière par terre, sur une chaise, debout sans s'incliner et couché dans un lit.",
+      "sourceIds": ["video-greenlane-physical-disability"],
+      "chapters": [
+        {
+          "label": "Assis par terre",
+          "start": 66
+        },
+        {
+          "label": "Sur une chaise",
+          "start": 171
+        },
+        {
+          "label": "Si vous ne pouvez pas vous incliner",
+          "start": 215
+        },
+        {
+          "label": "Couché dans un lit",
+          "start": 279
+        }
+      ]
+    },
+    "extraLink": {
+      "label": "Comment prier assis sur une chaise (Sheikh Assim al-Hakeem, 3:25)",
+      "body": "Une deuxième démonstration, courte, qui montre notamment la prière sur une chaise dans une rangée à la mosquée.",
+      "href": "https://www.youtube.com/watch?v=nNKUwHi99Qo",
+      "sourceIds": ["video-assim-chair-prayer"]
+    }
+  },
+  "cannotReciteSourceIds": [
+    "sunnah-abudawud-dhikr-instead",
+    "seekersguidance-recite-in-english",
+    "seekersguidance-reading-from-mushaf",
+    "dar-alifta-new-muslim-fatiha",
+    "sunnah-muslim-two-rewards"
+  ]
+}
