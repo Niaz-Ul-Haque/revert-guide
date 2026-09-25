@@ -1,256 +1,1268 @@
 [
   {
     "id": "islamic-society-of-toronto-dundas",
-    "name": "Islamic Society of Toronto - Masjid Darus Salaam",
-    "address": "20 Overlea Boulevard",
-    "city": "Toronto",
-    "stateProvince": "Ontario",
-    "country": "Canada",
-    "postalCode": "M4H 1A4",
-    "coordinates": {
-      "lat": 43.7046555,
-      "lng": -79.3514705
-    },
-    "phone": "(416) 467-0786",
-    "email": "info@islamicsocietyoftoronto.com",
-    "website": "https://www.islamicsocietyoftoronto.com/",
-    "notes": "也称为达鲁斯萨拉姆清真寺。官方网站列出了每日祈祷和伊斯兰教育计划。",
-    "visitorNotes": "请在访问前使用官方网站或联系办公室，因为祈祷时间、停车说明和节目可能会发生变化。",
-    "jumuahNote": "官方网站发布 Jumu'ah 行列和祈祷时间更新；在参加之前确认当前的日程安排。",
-    "classSupportNote": "官方列出的课程包括《古兰经》晚间课程、周日伊斯兰教学校、Hifz、Alim/Alima 和伊斯兰基础研究。",
-    "parkingNote": "官方网站包含附近私人停车场的具体停车警告；出发前请检查当前说明。",
-    "serviceIds": ["quran-classes", "weekend-school", "community-events"],
-    "sourceIds": ["masjid-ist-darus-salaam"],
-    "reviewStatus": "source-checked"
+    "notes": "也称为 Masjid Darus Salaam。官方网站列出了每日礼拜和伊斯兰教育课程。",
+    "visitorNotes": "出发前请查看官方网站或致电办公室。礼拜时间、停车说明和课程都会有变化。",
+    "jumuahNote": "官方网站会发布主麻（聚礼）时间和礼拜时间的更新。出发前请确认时间安排。",
+    "classSupportNote": "列出的课程包括古兰经晚间班、星期日经学班、背诵古兰经班、学者（男女）课程，以及伊斯兰基础课程。",
+    "parkingNote": "官方网站提醒附近有私人停车场。停车前请阅读最新说明。"
   },
   {
     "id": "taric-islamic-centre",
-    "name": "TARIC Islamic Centre",
-    "address": "99 Beverly Hills Drive",
-    "city": "North York",
-    "stateProvince": "Ontario",
-    "country": "Canada",
-    "postalCode": "M3L 1A2",
-    "coordinates": {
-      "lat": 43.7179655,
-      "lng": -79.5159803
-    },
-    "phone": "(416) 245-5675",
-    "email": "admin@taric.org",
-    "website": "https://taric.org/",
-    "notes": "一个长期运营的伊斯兰中心，提供公共活动时间表和社区节目。",
-    "visitorNotes": "使用官方网站或联系中心了解当前 Jumu'ah 时间、活动和游客支持。",
-    "classSupportNote": "官方活动材料列出了家庭研讨会、斋月活动、开斋节活动、社区外展和青少年/家庭计划。",
-    "serviceIds": ["community-events", "youth-programs"],
-    "sourceIds": ["masjid-taric"],
-    "reviewStatus": "source-checked"
+    "notes": "一座历史悠久的伊斯兰中心，公开发布活动日程，并定期举办社区活动。",
+    "visitorNotes": "请查看官方网站或致电中心，了解最新的主麻（聚礼）时间、活动和访客接待情况。",
+    "classSupportNote": "公开的活动资料列出了家庭讲座、斋月活动、尔德节活动、社区外展，以及青少年和家庭活动。"
   },
   {
     "id": "masjid-toronto-adelaide",
-    "name": "Masjid Toronto (Dundas)",
-    "address": "168 Dundas Street West",
-    "city": "Toronto",
-    "stateProvince": "Ontario",
-    "country": "Canada",
-    "postalCode": "M5G 1C6",
-    "coordinates": {
-      "lat": 43.6536,
-      "lng": -79.3849
-    },
-    "phone": "(416) 596-0507",
-    "website": "https://centres.macnet.ca/masjidtoronto/venue/toronto-dundas/",
-    "notes": "位于市中心的清真寺位置，由 MAC Masjid Toronto 运营。该记录现在与 Dundas 场地地址相符。",
-    "visitorNotes": "Jumu'ah 周围的市中心位置可能很繁忙。参观前请确认当前时间和入场详情。",
-    "jumuahNote": "使用多伦多清真寺官方网站了解当前祈祷和聚礼的详细信息。",
-    "sourceIds": ["masjid-toronto-dundas"],
-    "reviewStatus": "source-checked"
+    "notes": "MAC Masjid Toronto 的 Dundas 地点。第二个地点位于 Adelaide Street East。",
+    "visitorNotes": "市中心在主麻（聚礼）前后会很拥挤，请多留些时间。出发前请确认最新时间以及该走哪个入口。",
+    "jumuahNote": "三场主麻（聚礼）（2026年9月为 12:10、1:10 和 2:10 PM）。请查看网站了解本周时间。",
+    "womenSpaceNote": "姐妹礼拜区从标有 Sister's Entrance（姐妹入口）的楼梯进入。",
+    "newMuslimSupportNote": "After the Shahadah 课程在每月第二和第四个星期日下午在这里上课。官方页面给出了两个不同的开始时间，请发邮件至 convertconnect@masjidtoronto.com 确认。Convert Connect Group 在每月第一和第三个星期日晌礼后聚会，你可以请求在第一次拜访时有人接待你。",
+    "accessibilityNote": "兄弟礼拜区后面有一部电梯。",
+    "classSupportNote": "课程页面还列出了每月第二和第四个星期日的手语伊斯兰教育课程。"
   },
   {
     "id": "islamic-foundation-of-toronto",
-    "name": "Islamic Foundation of Toronto",
-    "address": "441 Nugget Avenue",
-    "city": "Scarborough",
-    "stateProvince": "Ontario",
-    "country": "Canada",
-    "postalCode": "M1S 5E1",
-    "coordinates": {
-      "lat": 43.7874,
-      "lng": -79.2636
-    },
-    "phone": "(416) 321-0909",
-    "email": "info@islamicfoundation.ca",
-    "website": "https://www.islamicfoundation.ca/",
-    "notes": "大型社区设施，提供礼拜、教育和公共活动。",
-    "visitorNotes": "在参加之前直接确认当前的课程、课程注册和访客支持。",
-    "classSupportNote": "官方和来源链接的列表显示了 Hifz、主日学和社区服务等教育项目。",
-    "serviceIds": ["quran-classes", "weekend-school", "community-events"],
-    "sourceIds": ["masjid-islamic-foundation-toronto"],
-    "reviewStatus": "source-checked"
+    "notes": "一座大型设施，有礼拜大殿、课程和公开活动。",
+    "visitorNotes": "参加之前请联系办公室，确认课程、报名情况以及可提供的访客接待。",
+    "classSupportNote": "公开的信息显示有教育课程，包括背诵古兰经班和星期日学校，另外还有社区服务。"
   },
   {
     "id": "khalid-bin-al-walid-mosque",
-    "name": "Khalid Bin Al-Walid Mosque",
-    "address": "16 Bethridge Road",
-    "city": "Etobicoke",
-    "stateProvince": "Ontario",
-    "country": "Canada",
-    "postalCode": "M9W 1N1",
-    "coordinates": {
-      "lat": 43.7087605,
-      "lng": -79.5687599
-    },
-    "phone": "(416) 745-2888",
-    "email": "info@khalidmosque.com",
-    "website": "https://www.khalidmosque.com/",
-    "notes": "怡陶碧谷清真寺提供官方联系信息和社区节目更新。",
-    "visitorNotes": "访问前联系办公室或查看官方网站；较旧的地址列表可能已过时。",
-    "jumuahNote": "直接与清真寺确认当前的聚礼和祈祷时间。",
-    "sourceIds": ["masjid-khalid-bin-al-walid"],
-    "reviewStatus": "source-checked"
+    "notes": "位于 Etobicoke 的一座清真寺，在自己的网站上及时更新联系方式和活动信息。",
+    "visitorNotes": "出发前请致电办公室或查看官方网站。其他地方一些较旧的信息仍然写着过时的地址。",
+    "jumuahNote": "请直接向清真寺确认最新的主麻（聚礼）和礼拜时间。"
   },
   {
     "id": "imdadul-islamic-centre",
-    "name": "Imdadul Islamic Centre",
-    "address": "26 Le Page Court",
-    "city": "North York",
-    "stateProvince": "Ontario",
-    "country": "Canada",
-    "postalCode": "M3J 1Z9",
-    "coordinates": {
-      "lat": 43.759028,
-      "lng": -79.4869955
-    },
-    "phone": "(416) 636-0044",
-    "email": "imdaduljamat@gmail.com",
-    "website": "https://www.imdadulcentre.ca/",
-    "notes": "社区清真寺提供礼拜、家庭、青年、志愿者和外展活动。",
-    "visitorNotes": "官方网站要求游客联系清真寺寻求问题、支持或参与。",
-    "jumuahNote": "官方网站列出了两个 Jumu'ah 祈祷；参加前确认当前时间。",
-    "classSupportNote": "官方描述提到了祈祷服务、社区外展、志愿者机会和家庭计划。",
-    "parkingNote": "提早到达 Jumu'ah 并直接确认停车说明。",
-    "serviceIds": ["community-events", "youth-programs"],
-    "sourceIds": ["masjid-imdadul-islamic-centre"],
-    "reviewStatus": "source-checked"
+    "notes": "一座社区清真寺，举办礼拜、家庭、青少年、志愿者和外展活动。",
+    "visitorNotes": "官方网站请访客在有问题、需要支持或想帮忙时与清真寺联系。",
+    "jumuahNote": "官方网站列出了两场主麻（聚礼）。出发前请确认最新时间。",
+    "classSupportNote": "公开的介绍提到了礼拜服务、社区外展、志愿者机会和家庭活动。",
+    "parkingNote": "参加主麻（聚礼）请早点到，并向清真寺询问在哪里停车。"
   },
   {
     "id": "masjid-el-noor",
-    "name": "Masjid El Noor",
-    "address": "277 Scott Road",
-    "city": "Toronto",
-    "stateProvince": "Ontario",
-    "country": "Canada",
-    "postalCode": "M6M 3V3",
-    "coordinates": {
-      "lat": 43.689655,
-      "lng": -79.4719435
-    },
-    "phone": "(416) 658-6667",
-    "email": "info@masjidelnoor.ca",
-    "website": "https://masjidelnoor.ca/",
-    "notes": "建立多伦多清真寺，提供祈祷、课程和社区服务。",
-    "visitorNotes": "官方网站发布 Jumu'ah、停车和节目更新；在访问之前确认当前的详细信息。",
-    "womenSpaceNote": "官方的关于页面描述了兄弟姐妹的祈祷室。",
-    "accessibilityNote": "官方页面提到了坡道和指定停车位。",
-    "jumuahNote": "官方网站列出了一项 Jumu'ah 祈祷，在阿拉伯语 khutbah 之前有英语讲座；确认当前时间。",
-    "classSupportNote": "官方列出的项目包括晚间马克塔布和古兰经相关教育。",
-    "parkingNote": "官方网站发布了仅限 Jumu'ah 的停车指南，并要求游客不要堵塞消防栓、人行横道或车道。",
-    "serviceIds": ["quran-classes", "community-events"],
-    "womenFriendly": true,
-    "parking": true,
-    "accessibility": true,
-    "sourceIds": ["masjid-el-noor"],
-    "reviewStatus": "source-checked"
+    "notes": "多伦多一座历史较久的清真寺，有每日礼拜、课程和社区服务。",
+    "visitorNotes": "官方网站会发布主麻（聚礼）、停车和课程的最新信息。拜访前请查看最新详情。",
+    "womenSpaceNote": "“关于我们”页面介绍了兄弟和姐妹各自独立的礼拜大殿。",
+    "accessibilityNote": "“关于我们”页面提到有坡道和指定的停车位。",
+    "jumuahNote": "官方网站列出一场主麻（聚礼），在阿拉伯语讲道之前有一场英语讲座。请确认最新时间。",
+    "classSupportNote": "列出的课程包括晚间经学班和古兰经课程。",
+    "parkingNote": "官方网站发布了主麻（聚礼）时的停车指引，并请访客不要挡住消防栓、人行横道或车道。"
   },
   {
     "id": "islamic-institute-of-toronto",
-    "name": "Islamic Institute of Toronto",
-    "address": "1630 Neilson Road",
-    "city": "Scarborough",
-    "stateProvince": "Ontario",
-    "country": "Canada",
-    "postalCode": "M1X 1S3",
-    "coordinates": {
-      "lat": 43.7903,
-      "lng": -79.2141
-    },
-    "phone": "(416) 335-9173",
-    "email": "iit@islam.ca",
-    "website": "https://islam.ca/contact-us/",
-    "notes": "具有官方联系方式和指导的教育机构和社区中心。",
-    "visitorNotes": "使用官方联系页面了解当前方向、课程信息和访客问题。",
-    "classSupportNote": "官方网站将 IIT 描述为非营利性教育机构，并列出了项目/时事通讯更新。",
-    "serviceIds": ["quran-classes", "community-events"],
-    "sourceIds": ["masjid-islamic-institute-toronto"],
-    "reviewStatus": "source-checked"
+    "notes": "一所教育机构兼社区中心。联系方式和路线都在它自己的网站上。",
+    "visitorNotes": "如需路线、课程信息或有任何访客问题，请使用官方联系页面。",
+    "classSupportNote": "官方网站介绍 IIT 是一所非营利教育机构，并发布课程和简讯更新。",
+    "newMuslimSupportNote": "New Muslim Corner 是一门免费课程，共有25节录播课。课程页面还提到星期五 7:00 PM 有一节新穆斯林课程，但无法确认它是否仍在现场开课，请询问办公室。"
   },
   {
     "id": "jami-mosque",
-    "name": "Jami Mosque Toronto | ISNA Canada",
-    "address": "56 Boustead Avenue",
-    "city": "Toronto",
-    "stateProvince": "Ontario",
-    "country": "Canada",
-    "postalCode": "M6R 1Y9",
-    "coordinates": {
-      "lat": 43.6474,
-      "lng": -79.4446
-    },
-    "phone": "(416) 769-1192",
-    "website": "https://www.isnacanada.com/locations/jami-mosque-toronto",
-    "notes": "历史悠久的多伦多清真寺现已被加拿大 ISNA 列入名单。",
-    "visitorNotes": "参观之前，请通过 ISNA Canada 确认当前营业时间、Jumu'ah 时间以及活动准入。",
-    "sourceIds": ["masjid-jami-mosque-isna"],
-    "reviewStatus": "source-checked"
+    "notes": "多伦多一座历史悠久的清真寺，现归 ISNA Canada 管理。",
+    "visitorNotes": "出发前请向 ISNA Canada 确认开放时间、主麻（聚礼）时间和活动入场安排。"
   },
   {
     "id": "abu-huraira-center",
-    "name": "Abu Huraira Center",
-    "address": "270 Yorkland Boulevard",
-    "city": "North York",
-    "stateProvince": "Ontario",
-    "country": "Canada",
-    "postalCode": "M2J 5C9",
-    "coordinates": {
-      "lat": 43.77282,
-      "lng": -79.33454
-    },
-    "phone": "(416) 752-1200",
-    "email": "info@abuhuraira.org",
-    "website": "https://www.abuhuraira.org/",
-    "notes": "大型 GTA 社区中心，提供祈祷、学习、咨询、青少年和新穆斯林支持服务。",
-    "visitorNotes": "官方网站列出了项目和联系信息；在参加之前确认当前的访客支持和课程注册。",
-    "newMuslimSupportNote": "官方网站列出了其服务中的新穆斯林支持。",
-    "classSupportNote": "官方列出的项目包括古兰经相关教育、周末学校、Hifdh、青年和常规哈拉卡。",
-    "serviceIds": [
-      "quran-classes",
-      "community-events",
-      "new-muslim-support",
-      "youth-programs",
-      "weekend-school"
-    ],
-    "convertSupport": true,
-    "sourceIds": ["masjid-abu-huraira-center"],
-    "reviewStatus": "source-checked"
+    "notes": "大多伦多地区的一座大型社区中心。礼拜、课程、心理咨询、青少年工作和新穆斯林支持都在同一栋楼里进行。",
+    "visitorNotes": "官方网站列出了课程和联系方式。参加之前请确认访客接待和课程报名情况。",
+    "newMuslimSupportNote": "官方网站把新穆斯林支持列为其服务之一。",
+    "classSupportNote": "列出的课程包括古兰经课程、周末学校、背诵古兰经班、青少年活动和定期的学习小组。"
   },
   {
     "id": "isna-islamic-centre-of-canada",
-    "name": "Islamic Centre of Canada (ISNA)",
-    "address": "2200 South Sheridan Way",
-    "city": "Mississauga",
-    "stateProvince": "Ontario",
-    "country": "Canada",
-    "postalCode": "L5J 2M4",
-    "coordinates": {
-      "lat": 43.5063,
-      "lng": -79.6505
-    },
-    "phone": "(905) 403-8406",
-    "website": "https://www.isnacanada.com/our-spaces/islamic-centre-of-canada/",
-    "notes": "ISNA 加拿大总部和当地社区中心，设有穆斯林、青年、教育和活动空间。",
-    "visitorNotes": "出发前通过 ISNA Canada 确认当前的祈祷时间、课程、活动准入和访客支持。",
-    "classSupportNote": "官方页面描述了教育中心、青年中心、穆斯林和可预订的社区空间。",
-    "serviceIds": ["quran-classes", "community-events", "youth-programs"],
-    "sourceIds": ["masjid-isna-islamic-centre-canada"],
-    "reviewStatus": "source-checked"
+    "notes": "ISNA Canada 的总部，本身也是一座社区中心，有礼拜室、青少年活动空间、教室和活动场地。",
+    "visitorNotes": "出发前请向 ISNA Canada 确认礼拜时间、课程、活动入场和访客接待情况。",
+    "classSupportNote": "官方页面介绍了一个教育中心、一个青少年中心、一间礼拜室，以及可预订的社区空间。",
+    "newMuslimSupportNote": "ISNA Canada 的 New Muslims and Convert Care 提供每周课程、每月联谊活动，以及一个 Being Muslim 礼盒，里面有古兰经译本、书籍和一张礼拜毯。课程的日期、时间和地点没有公布，请致电办公室或使用联系表单。"
+  },
+  {
+    "id": "masjid-quba-islamic-society-of-ajax",
+    "notes": "也称为 Ajax Masjid。",
+    "jumuahNote": "三场主麻（聚礼）（根据2026-09-23的信息，讲道时间为 2:00、3:15、4:15 PM）。",
+    "parkingNote": "首页请大家“参加主麻礼拜时文明停车”。"
+  },
+  {
+    "id": "barrie-mosque",
+    "notes": "也称为 Barrie Mosque；Noor Ul Islam。",
+    "newMuslimSupportNote": "Reverts to Islam 页面提供导师辅导，以及在每月第一个星期六举行的 Reverts to Islam 联谊与学习小组。"
+  },
+  {
+    "id": "islamic-society-of-belleville",
+    "notes": "也称为 Belleville Masjid；Belleville Mosque。",
+    "jumuahNote": "“关于我们”页面列出了“星期五主麻（聚礼）”；首页一则较旧的通知写着“星期五讲道：1:45 PM，礼拜：2:00 PM（只有一场）”（可能已过时）。",
+    "parkingNote": "首页通知：星期五礼拜后从 Moira St 离开的指引，以及“请不要把车停在停车场的指定车位，或标明禁止停车的地方。”"
+  },
+  {
+    "id": "brampton-islamic-centre",
+    "notes": "也称为 BIC/BSIA；Brampton Society for Islamic Awareness。",
+    "jumuahNote": "首页：“第一场主麻（聚礼）：讲道 1:45 PM，成拜 2:10 PM；第二场主麻：讲道 2:55 PM，成拜 3:15 PM”。"
+  },
+  {
+    "id": "jame-makki-masjid-brampton",
+    "notes": "也称为 Brampton Makki Masjid。",
+    "womenSpaceNote": "设有指定的女士区域（见“关于我们”页面）。",
+    "jumuahNote": "主麻（聚礼）成拜时间 1:45 pm、2:30 pm、3:30 pm（见首页）。"
+  },
+  {
+    "id": "jamiat-ul-ansar-brampton",
+    "notes": "也称为 Ansar Mosque Brampton。",
+    "womenSpaceNote": "姐妹页面：每月一次讲座，“每月第一个星期三……6:30 PM - 7:30 PM”，“欢迎所有姐妹”，“无论你是刚来到社区，还是已经和我们在一起多年，这都是一个为每一位姐妹打造、让她感到受欢迎的空间”。",
+    "newMuslimSupportNote": "服务页面介绍了一个新穆斯林外展委员会，为新穆斯林提供“支持、建议和教育”。详情请发邮件给中心。"
+  },
+  {
+    "id": "muslim-association-of-brantford",
+    "notes": "也称为 MAB；Brantford Mosque。",
+    "womenSpaceNote": "礼拜页面：“为兄弟和姐妹都提供了场地”；提到有一个独立的女性设施“Mussallah-UL-Nissah”。",
+    "parkingNote": "礼拜页面：“只能使用指定的停车区域”；星期五停车位“很快就会停满”。"
+  },
+  {
+    "id": "halton-islamic-association-halton-masjid-burlington",
+    "notes": "也称为 Masjid Halton。",
+    "womenSpaceNote": "有姐妹委员会和姐妹活动；提到有女性健身设施。",
+    "jumuahNote": "Halton Masjid：讲道时间 1:30、2:30、3:20 PM；另外在 East Plains Church（375 Plains Rd E）和一个社区中心还有主麻（聚礼）。"
+  },
+  {
+    "id": "galt-islamic-center-cambridge",
+    "notes": "地区：Galt。也称为 Galt Islamic Centre。",
+    "womenSpaceNote": "“关于我们”页面：“为姐妹们设有特别课程，专门面向我们的母亲和姐妹”。"
+  },
+  {
+    "id": "hespeler-masjid-a-mac-community-centre-cambridge",
+    "jumuahNote": "第一场主麻（聚礼）1:30 PM；另外还列出了 2:00 PM 的第二场。"
+  },
+  {
+    "id": "islamic-centre-of-cambridge",
+    "notes": "也称为 ICC。",
+    "jumuahNote": "两场讲道：1:30 PM 和 2:45 PM。"
+  },
+  {
+    "id": "townline-muslim-centre-cambridge",
+    "notes": "也称为 TMC。",
+    "jumuahNote": "两场主麻（聚礼）；每场成拜前30分钟宣礼（时间见网站）。"
+  },
+  {
+    "id": "cornwall-islamic-centre",
+    "womenSpaceNote": "“姐妹入口位于建筑物的右侧”（见“关于我们”页面）。"
+  },
+  {
+    "id": "the-ottawa-valley-islamic-centre-deep-river"
+  },
+  {
+    "id": "islamic-association-of-sudbury-greater-sudbury",
+    "notes": "也称为 Sudbury Mosque。",
+    "jumuahNote": "“我们的星期五主麻讲道从 12:30 PM 开始”。"
+  },
+  {
+    "id": "islamic-centre-of-northern-ontario-greater-sudbury",
+    "notes": "也称为 ICONO。",
+    "jumuahNote": "有讲道录音页面；没有显示时间。"
+  },
+  {
+    "id": "islamic-society-of-guelph",
+    "notes": "也称为 Masjid Abu Bakr As-Siddique。",
+    "jumuahNote": "每个星期五都有主麻（聚礼）（未注明时间）。"
+  },
+  {
+    "id": "masjid-aisha-a-mac-community-centre-guelph",
+    "jumuahNote": "首页标注为“即将开放”（没有时间）。"
+  },
+  {
+    "id": "muslim-society-of-guelph",
+    "notes": "也称为 MSOG。",
+    "jumuahNote": "有多场主麻（聚礼），例如成拜时间 1:35 PM 和 3:35 PM；“请在开始时间前10到15分钟到达”。"
+  },
+  {
+    "id": "alkhairia-islamic-centre-hamilton",
+    "notes": "地区：Ancaster。也称为 AIC Ancaster。",
+    "jumuahNote": "首页把“星期五礼拜”列为一项服务；未注明时间。",
+    "newMuslimSupportNote": "首页把归信者外展项目列为其服务之一。没有页面详细介绍这些项目，请询问中心。"
+  },
+  {
+    "id": "bosnian-islamic-centre-of-hamilton",
+    "notes": "地区：Stoney Creek。也称为 BIC Hamilton。",
+    "visitorNotes": "语言：网站主要使用波斯尼亚语，另有英语部分（About Us、Contact Info、News (English)）。未注明讲道使用的语言。",
+    "jumuahNote": "联系页面：“主麻（聚礼）：每星期五 1:30PM EST”；首页礼拜时间框：“主麻：每星期五 1:25PM、3:00PM”。"
+  },
+  {
+    "id": "hamilton-downtown-mosque",
+    "notes": "也称为 HDM。",
+    "jumuahNote": "“星期五讲道和礼拜（见礼拜时间页面）”。"
+  },
+  {
+    "id": "hamilton-mountain-mosque",
+    "notes": "也称为 MAH、Mountain Mosque。",
+    "accessibilityNote": "MAH 发布了一份 AODA 无障碍政策，并请需要便利安排的人联系 contactus@hamiltonmosque.com；未说明具体的设施情况。"
+  },
+  {
+    "id": "umar-mosque-hamilton",
+    "notes": "也称为 MAH Umar Mosque。",
+    "accessibilityNote": "MAH“关于我们”页面（适用于整个协会）：“遵照《安大略省残疾人无障碍法》运营。MAH 致力于提供进入场所的完全通道，并消除任何可能的障碍”。未说明该地点的具体设施。"
+  },
+  {
+    "id": "islamic-society-of-kingston",
+    "notes": "也称为 ISK；ICK。",
+    "accessibilityNote": "课程页面提到为有学习需要的儿童开设的特殊教育班；未说明建筑的无障碍情况。",
+    "jumuahNote": "两场主麻（聚礼）：第一场讲道 1:00 PM（成拜 1:45 PM），第二场 2:30 PM（成拜 2:45 到 3:00 PM）。",
+    "parkingNote": "礼拜时间页面：“由于主麻礼拜期间 ISK 停车依然困难，请考虑市内的其他主麻选择”（CFB Kingston、Crossroads United Church、Queen's University，均为 1:30 PM）。"
+  },
+  {
+    "id": "al-salaam-islamic-centre-kitchener",
+    "jumuahNote": "首页：“主麻礼拜 1:30”。"
+  },
+  {
+    "id": "kitchener-masjid-a-mac-community-centre",
+    "notes": "也称为 Kitchener Masjid。",
+    "jumuahNote": "三场礼拜：12:15 PM、1:15 PM、2:15 PM（第三场用阿拉伯语）。"
+  },
+  {
+    "id": "north-london-islamic-centre-komoka"
+  },
+  {
+    "id": "hyde-park-masjid-london",
+    "jumuahNote": "第一场 12:30 PM，第二场 1:30 PM。"
+  },
+  {
+    "id": "islamic-centre-of-southwest-ontario-london",
+    "notes": "也称为 ICSWO。",
+    "jumuahNote": "全年固定：宣礼 1:30 PM，讲道 1:35 PM，成拜 1:55 PM。"
+  },
+  {
+    "id": "london-muslim-mosque",
+    "notes": "也称为 LMM。",
+    "jumuahNote": "首页列出了两场主麻（聚礼）：12:00 PM 和 1:15 PM（最新时间请查看网站）。",
+    "newMuslimSupportNote": "讲座页面介绍了每月第一和第三个星期六举行的免费新穆斯林家庭聚会，以及一个面向归信者和新穆斯林的伊斯兰基础知识文凭课程。需要报名。"
+  },
+  {
+    "id": "mac-noor-gardens-a-mac-community-centre-london",
+    "notes": "也称为 Noor Gardens。该中心宣布于2026年8月28日隆重开幕。",
+    "jumuahNote": "第一场 12:00 PM，第二场 1:30 PM。"
+  },
+  {
+    "id": "muslim-association-of-canada-masonville-centre-london",
+    "notes": "也称为 MAC Masonville。",
+    "jumuahNote": "星期五 12:00 PM。"
+  },
+  {
+    "id": "westmount-masjid-a-mac-community-centre-london",
+    "notes": "也称为 MAC Westmount Centre；MAC 伦敦总办公室。",
+    "jumuahNote": "第一场 12:15 PM，第二场 1:30 PM。"
+  },
+  {
+    "id": "islamic-centre-of-markham",
+    "parkingNote": "2026年3月发布了停车场翻修的募捐呼吁；没有停车详情。"
+  },
+  {
+    "id": "islamic-society-of-markham",
+    "newMuslimSupportNote": "New Muslim Care Program 页面提供协调人，解答关于伊斯兰的问题，并介绍社区活动和教育。没有给出时间安排。"
+  },
+  {
+    "id": "islamic-community-centre-of-milton",
+    "notes": "也称为 ICNA Milton。",
+    "womenSpaceNote": "课程页面：“专供女性学习伊斯兰知识的空间（星期二至星期四）。”",
+    "jumuahNote": "首页礼拜时间小工具：“第一场主麻 01:30 pm，第二场主麻 02:45 pm，第三场主麻 03:45 pm”。"
+  },
+  {
+    "id": "966-icna-masjid-youth-centre-mississauga",
+    "notes": "也称为 966 Community Centre。",
+    "jumuahNote": "首页礼拜时间小工具：“第一场主麻 01:30 pm，第二场主麻 02:30 pm”。"
+  },
+  {
+    "id": "anatolia-islamic-centre-mississauga",
+    "visitorNotes": "语言：列有土耳其语学习小组；网站暗示使用英语，但未注明礼拜服务使用的语言。"
+  },
+  {
+    "id": "dar-al-tawheed-islamic-centre-mississauga"
+  },
+  {
+    "id": "islamic-community-centre-of-ontario-mississauga",
+    "notes": "也称为 MAC ICCO。",
+    "jumuahNote": "列出的星期五礼拜时段为 12:00、1:15、2:30 和 3:30 PM；未注明语言。"
+  },
+  {
+    "id": "masjid-al-farooq-mississauga",
+    "womenSpaceNote": "列有姐妹教法文凭课程；没有介绍专门的礼拜空间。",
+    "accessibilityNote": "网站有无障碍政策、通知和合规报告页面；未说明实际的无障碍设施情况。",
+    "jumuahNote": "列出了多场主麻（聚礼），包括 3:30 pm 的第四场；未注明语言。"
+  },
+  {
+    "id": "sayeda-khadija-centre-mississauga",
+    "notes": "也称为 Faith of Life Network。",
+    "jumuahNote": "提到“每周集体礼拜”；未注明时间。"
+  },
+  {
+    "id": "newmarket-islamic-centre",
+    "womenSpaceNote": "首页：“每周有超过1,200名男女参加主麻礼拜。”没有介绍女性区域。",
+    "jumuahNote": "首页：“第一场讲道 1:15 PM，礼拜 1:45 PM；第二场讲道 2:15 PM，礼拜 2:45 PM”；通知提到在清真寺以及在其他场地（Lions Hall、Ray Twinney Recreation Complex）也有不同时间的主麻（聚礼）。"
+  },
+  {
+    "id": "islamic-society-of-niagara-peninsula-niagara-falls",
+    "jumuahNote": "每星期五 1:30 pm 举行主麻（聚礼）。"
+  },
+  {
+    "id": "masjid-alsalam-niagara-falls-islamic-center",
+    "jumuahNote": "三场主麻（聚礼），时间为 1:30、2:30 和 3:30 PM。"
+  },
+  {
+    "id": "al-falah-islamic-centre-oakville",
+    "notes": "也称为 Al Falah Center Oakville；ICNA Canada 总办公室。",
+    "womenSpaceNote": "课程页面列出了每周一次的姐妹聚会；没有介绍礼拜空间。",
+    "jumuahNote": "首页礼拜时间小工具：“第一场主麻……12:15 pm，第二场主麻……1:25 pm，第三场主麻……2:35 pm”。"
+  },
+  {
+    "id": "muslim-association-of-milton-oakville",
+    "notes": "也称为 MAM、HICC Masjid。",
+    "jumuahNote": "主麻（聚礼）在 Milton Sports Centre 和其他场地举行；详见首页的传单。"
+  },
+  {
+    "id": "islamic-centre-of-oshawa",
+    "notes": "也称为 Oshawa Mosque。",
+    "visitorNotes": "已确认有英语服务：（主麻时间表列出在第一场和第二场礼拜前有一场“英语讲话”）。",
+    "jumuahNote": "首页：“第一场礼拜：英语讲话 1:15 PM……讲道和礼拜 1:45 PM；第二场礼拜：英语讲话 2:30 PM，讲道和礼拜 2:45 PM；第三场礼拜：讲道和礼拜 4:30 PM”。"
+  },
+  {
+    "id": "al-farooq-al-azam-mosque-ottawa",
+    "notes": "地区：Old Ottawa South。也称为 Jamia Masjid Farooq-e-Azam；Masjid Farooq Azam。",
+    "womenSpaceNote": "“每周古兰经诵读规则课（面向姐妹）”，每星期六 11:00 AM 到 1:00 PM；没有介绍礼拜空间的布局。",
+    "jumuahNote": "第一场 2:00 PM，第二场 2:45 PM（见首页）。"
+  },
+  {
+    "id": "bukhari-community-centre-masjid-ottawa",
+    "notes": "地区：Overbrook / St. Laurent Blvd。也称为 Bukhari Centre；Bukhari Masjid & Community Centre。",
+    "womenSpaceNote": "星期五页面：“第二场主麻（聚礼）：2pm（兄弟姐妹均可参加）”；第一场主麻只限兄弟。没有介绍独立的女性区域。",
+    "accessibilityNote": "“关于我们”页面提到新装的前门和后门“提升了安全性和无障碍程度”；没有说明具体的无障碍设施。",
+    "jumuahNote": "“第一场主麻（聚礼）：1pm（面向兄弟）；第二场主麻：2pm（兄弟姐妹均可参加）”。"
+  },
+  {
+    "id": "centretown-mosque-ottawa",
+    "notes": "地区：Centretown。网站说社区仍在努力争取 397 Kent Street 的永久场地，所以出发前请确认地点。",
+    "womenSpaceNote": "列有一门“姐妹阿拉伯语课”（每星期六 12:00 PM，面向成年姐妹）；没有介绍礼拜空间的布局。",
+    "jumuahNote": "“每个星期五 1:00 PM 和 2:00 PM，欢迎和我们的社区一起聆听讲道、参加集体礼拜。”",
+    "newMuslimSupportNote": "网站列出了新穆斯林研讨会，“一个学习伊斯兰基本原则的温馨空间”。没有给出时间安排。"
+  },
+  {
+    "id": "darul-arqum-ottawa",
+    "notes": "地区：Riverside South。也称为 Darul Arqum Riverside South。",
+    "jumuahNote": "“主麻（聚礼）1:30 PM 和 2:30 PM”（见首页）；礼拜时间页面：“第一场讲道 1:30 PM，第二场讲道 2:30 PM”。",
+    "parkingNote": "联系页面：“场地内可以停车。过夜停车需事先获得理事会批准。”"
+  },
+  {
+    "id": "darul-uloom-ottawa",
+    "notes": "地区：Orleans。也称为 Darul-Uloom Mosque。",
+    "jumuahNote": "首页列出了在其他场地举行的主麻（聚礼）：“Navan 1:15，Aqsa Centre”和“Blackburn 1:15，Quba Centre”。“关于我们”页面说中心组织每日礼拜，包括星期五讲道。"
+  },
+  {
+    "id": "east-ottawa-masjid-and-community-center",
+    "notes": "地区：Vanier / Overbrook 一带。",
+    "jumuahNote": "首页：“主麻（聚礼）：第一场 1:15 PM | 第二场 2:15 PM”。"
+  },
+  {
+    "id": "islam-care-centre-ottawa",
+    "jumuahNote": "首页：主麻（聚礼）“12:30 和 1:15PM”，地点在 Knox Presbyterian Church 地下室，120 Lisgar St, Ottawa, ON K2P 2L7（外部场地）。",
+    "newMuslimSupportNote": "Convert Care 是一门免费的每周课程，讲解伊斯兰的基础知识，每星期三 6:00 pm 在中心上课。"
+  },
+  {
+    "id": "jami-omar-ottawa",
+    "notes": "地区：Bells Corners / Nepean。也称为 Masjid Jami Omar；JMOC。",
+    "jumuahNote": "首页：“主麻礼拜 12pm-3pm”。",
+    "parkingNote": "首页：只能在批准的区域停车；D.A. Moodie School 可以停车。"
+  },
+  {
+    "id": "kanata-muslim-association-ottawa",
+    "notes": "地区：Kanata。也称为 KMA。",
+    "jumuahNote": "“星期五三场礼拜：1 pm / 2.15 pm / 3.45 pm”（第三场时间会调整）。"
+  },
+  {
+    "id": "mac-barrhaven-islamic-centre-ottawa",
+    "notes": "地区：Barrhaven。也称为 BIC。",
+    "jumuahNote": "“第一场讲道：1:00 PM”和“第二场讲道：2:30 PM”。"
+  },
+  {
+    "id": "mac-islamic-centre-ottawa",
+    "notes": "地区：Nepean / Grenon Ave。也称为 MAC Grenon；位于 Abraar School 大楼内。"
+  },
+  {
+    "id": "mac-qurtuba-islamic-centre-ottawa",
+    "notes": "地区：Nepean / Merivale。也称为 MAC Qurtuba；QIC。"
+  },
+  {
+    "id": "markaz-at-tawheed-ottawa",
+    "notes": "地区：Bayshore / Dumaurier。也称为 Markaz At-Tawheed Ottawa。",
+    "visitorNotes": "首页注明有些讲座“用阿拉伯语进行，中间停顿做英语翻译”；其他内容用英语。",
+    "womenSpaceNote": "斋月通知：“主麻（聚礼）讲道和礼拜只限兄弟参加（场地有限）”；宵礼和塔拉威哈拜“每晚最多容纳12位姐妹”。",
+    "jumuahNote": "首页一处写着“讲道 12:30 p.m 开始”，一则斋月更新写着“讲道开始：1:15 p.m.”；只限兄弟参加。"
+  },
+  {
+    "id": "masjid-bilal-ottawa",
+    "notes": "地区：Orleans。也称为 Bilal Masjid；Islamic Society of Cumberland。",
+    "visitorNotes": "首页把讲道前的讲话标注为“讲话（英语讲话）”。",
+    "womenSpaceNote": "清真寺参观页面：“男女在各自独立的礼拜大殿礼拜”。",
+    "jumuahNote": "第一场主麻（聚礼）：英语讲话 12:45 pm，讲道 1:15 pm；第二场：没有讲话，讲道 2:20 pm；第三场：英语讲话 3:00 pm，讲道 3:10 pm。"
+  },
+  {
+    "id": "masjid-ar-rahmah-ottawa",
+    "notes": "地区：Gloucester / South Keys。也称为 Mosque of Mercy；AMA；AMA Community Centre。",
+    "visitorNotes": "已确认归信者问答环节使用英语（“语言：仅限英语”）；网站为英语，并附有阿拉伯语网站的链接。",
+    "newMuslimSupportNote": "Revert Corner 页面为新穆斯林提供免费资源，Muslim's Basics 是一门共37集的英语录播课程。网站上的归信者活动是2021年和2022年的，所以请问问现在有哪些活动。"
+  },
+  {
+    "id": "ottawa-muslim-association",
+    "notes": "也称为 Ottawa Main Mosque；OMA。",
+    "womenSpaceNote": "常见问题：“我们为女性提供了指定的礼拜区域，也有适合家庭的空间”。",
+    "jumuahNote": "常见问题说清真寺有星期五主麻（聚礼）；网站上没有公布时间。"
+  },
+  {
+    "id": "ottawa-uyghur-centre",
+    "notes": "地区：Orleans。",
+    "jumuahNote": "服务页面：“欢迎来参加主麻讲道”；未注明时间。"
+  },
+  {
+    "id": "richmond-islamic-community-ottawa",
+    "notes": "地区：Richmond。也称为 RICO。",
+    "womenSpaceNote": "课程页面列有面向青少年和成年姐妹的古兰经学习小组；没有说明女性的礼拜空间。",
+    "jumuahNote": "首页：“主麻（聚礼）只在星期五：第一场 1:15 PM，第二场 2:30 PM”。服务：“冬季提供宵礼，夏季提供晡礼、昏礼和宵礼，以及星期五主麻礼拜。”"
+  },
+  {
+    "id": "siraj-institute-ottawa",
+    "notes": "地区：Nepean。"
+  },
+  {
+    "id": "south-nepean-muslim-community-ottawa",
+    "notes": "地区：Nepean / Barrhaven。也称为 SNMC Center & Masjid。",
+    "womenSpaceNote": "有姐妹活动（学习小组等），姐妹活动的联系邮箱为 sisters@snmc.ca；没有介绍礼拜空间的布局。",
+    "newMuslimSupportNote": "Reverts 页面欢迎你联系他们，了解信息、提出问题、申请清真言证书或预约参观。没有介绍任何课程或导师项目。"
+  },
+  {
+    "id": "stittsville-muslim-association-ottawa",
+    "notes": "地区：Stittsville。官方网站显示了两个邮政编码（K2S 1E3 和 K2S 0T9）。出发前请确认。",
+    "jumuahNote": "首页：1:15 PM、2:15 PM、3:45 PM。"
+  },
+  {
+    "id": "the-islamic-society-of-gloucester-ottawa",
+    "notes": "地区：Gloucester。也称为 ISG Masjid。",
+    "jumuahNote": "首页：“星期五礼拜时间：讲道 1.30 PM，成拜 2:00 PM”。",
+    "parkingNote": "首页的尔德节通知：“教堂停车场不可使用；你可以停在 Costco 停车场和 Rona 1880 innes Road”；“清真寺入口正前方禁止停车”。未说明平日的停车情况。"
+  },
+  {
+    "id": "the-ottawa-islamic-centre-assalam-mosque",
+    "notes": "地区：Ottawa South / St. Laurent Blvd。也称为 Assalam Mosque；Masjid Assalam。",
+    "womenSpaceNote": "首页：“我们拥有渥太华最大的礼拜大殿之一，供男女进行每日礼拜和主麻礼拜。”"
+  },
+  {
+    "id": "owen-sound-muslim-association",
+    "notes": "也称为 Owen Sound Masjid。",
+    "newMuslimSupportNote": "服务页面把念清真言列为一项服务。没有介绍面向新穆斯林的后续项目。"
+  },
+  {
+    "id": "kawartha-muslim-religious-association-masjid-al-salaam-peterborough",
+    "notes": "也称为 KMRA；Al-Salaam Mosque。",
+    "womenSpaceNote": "有女性礼拜室，可容纳60人，并设有女性小净室。",
+    "jumuahNote": "首页列出2026年9月25日星期五的两场主麻（聚礼）：1:30 PM 和 2:45 PM。"
+  },
+  {
+    "id": "pickering-islamic-centre",
+    "notes": "也称为 Masjid Usman、PIC。",
+    "womenSpaceNote": "列有姐妹委员会、星期五女童学校和姐妹古兰经课程。",
+    "jumuahNote": "讲道时间 2:00、3:45 和 4:45 PM，另外在外部场地 3:00 PM 还有一场主麻（聚礼）。",
+    "newMuslimSupportNote": "中心定期举办 Fortify My Deen: Reverts Meet and Greet 归信者见面会，最近一次是在2026年8月23日。请在公告页面报名，或询问办公室。"
+  },
+  {
+    "id": "al-nadwa-educational-islamic-centre-richmond-hill",
+    "notes": "也称为 Al Nadwa Centre。",
+    "womenSpaceNote": "服务页面：“成年姐妹活动：每月第一个星期日晌礼后开始。只限姐妹参加”。",
+    "jumuahNote": "首页：“第一场主麻（聚礼）讲话：12:30 PM，阿拉伯语讲道：12:45 PM；第二场主麻讲话：1:15 PM，阿拉伯语讲道：1:30 PM”，地点在 2 Levendale Rd；另一场主麻在 Bayview Hill Community Centre, 114 Spadina Rd（1:25 PM 开始）。",
+    "parkingNote": "首页：“请不要把车停在商场前面。只能停在 No-frills 商场。”"
+  },
+  {
+    "id": "islamic-society-of-york-region-richmond-hill",
+    "womenSpaceNote": "首页列有姐妹阿拉伯语课程；没有介绍女性的礼拜空间。",
+    "jumuahNote": "首页：“主麻礼拜：讲话 1:45 pm，礼拜 2:15 pm。请注意，ISYR 只有一场主麻礼拜。”",
+    "parkingNote": "首页设施列表：“停车位充足”。"
+  },
+  {
+    "id": "richmond-hill-muslim-association"
+  },
+  {
+    "id": "sarnia-muslim-association"
+  },
+  {
+    "id": "islamic-association-of-sault-ste-marie",
+    "notes": "也称为 IASSM。",
+    "jumuahNote": "“讲道 2 PM 开始，2:30 礼拜”（随夏令时调整）。"
+  },
+  {
+    "id": "masjid-an-noor-st-catharines",
+    "notes": "也称为 Masjid Al Noor。",
+    "accessibilityNote": "有为持证者保留的残疾人停车位。",
+    "parkingNote": "停车场附有地图和规则：禁止过夜停车，主麻（聚礼）时不要挡住别的车，不要使用邻近商家的停车场。"
+  },
+  {
+    "id": "stratford-mosque",
+    "jumuahNote": "星期五 1:45 PM；“五次礼拜都在清真寺举行”；“全天24小时开放”。"
+  },
+  {
+    "id": "thunder-bay-masjid",
+    "notes": "也称为 Thunder Bay Masjid。",
+    "jumuahNote": "两场主麻（聚礼）：2:00 PM 和 3:15 PM。",
+    "parkingNote": "首页：“请负责任地停车，确保大家都能顺利通行”；有些区域不是停车位。"
+  },
+  {
+    "id": "muslim-association-of-tillsonburg",
+    "womenSpaceNote": "首页说礼拜室“欢迎男士和女士”；没有介绍女性区域。",
+    "jumuahNote": "首页：“星期五讲道 1:30 PM，礼拜 1:45 PM”（最后更新于2025年11月1日）。"
+  },
+  {
+    "id": "mac-masjid-toronto-adelaide",
+    "notes": "也称为 Masjid Toronto Adelaide。",
+    "jumuahNote": "主麻（聚礼）12:10、1:10 和 2:10 PM（2026-09-18 这一周）。",
+    "newMuslimSupportNote": "Masjid Toronto 可以安排“我们会众中的一位兄弟或姐妹”在你第一次拜访时接待你。After the Shahadah 课程在 Dundas 地点上课，Convert Connect Group 在每月第一和第三个星期日晌礼后聚会。"
+  },
+  {
+    "id": "madinah-masjid-jamiatul-muslemin-of-toronto",
+    "accessibilityNote": "“乘坐公共交通很方便到达。”未说明建筑的无障碍情况。",
+    "jumuahNote": "举行主麻（聚礼）和尔德节礼拜；未注明时间。"
+  },
+  {
+    "id": "masjid-omar-farooq-toronto",
+    "notes": "地区：Scarborough。也称为 Masjid Omar Al-Farooq。",
+    "visitorNotes": "已确认有英语服务：（每场阿拉伯语讲道前都有一场主麻“英语讲话”）。",
+    "jumuahNote": "首页：“第一场主麻：英语讲话 1:30pm，阿拉伯语讲道 2:10pm；第二场主麻：英语讲话 2:45pm，阿拉伯语讲道 3:10pm”。"
+  },
+  {
+    "id": "scarborough-muslim-association-jame-abu-bakr-siddique-toronto",
+    "notes": "地区：Scarborough。也称为 SMA；Jame Abu Bakr Siddique Masjid。",
+    "parkingNote": "“关于我们”页面提到，在扩建之前，礼拜者“常常不得不在室外停车场礼拜”；停车设施是扩建计划的一部分。未说明目前的停车安排。"
+  },
+  {
+    "id": "toronto-islamic-centre",
+    "accessibilityNote": "提供盲文古兰经；未说明建筑的无障碍情况。",
+    "newMuslimSupportNote": "新穆斯林支持页面提供新穆斯林欢迎礼盒，以及27种语言的古兰经译本，包括盲文版。没有给出时间安排。"
+  },
+  {
+    "id": "islamic-society-of-vaughan",
+    "womenSpaceNote": "星期五时间表：“第三场主麻（兄弟和姐妹）：3:15pm，第四场主麻（兄弟和姐妹）：4:00pm”；前两场只限兄弟。列有姐妹课程。",
+    "jumuahNote": "首页：“第一场主麻（只限兄弟）：1:30pm，第二场主麻（只限兄弟）：2:30pm，第三场主麻（兄弟和姐妹）：3:15pm，第四场主麻（兄弟和姐妹）：4:00pm”。"
+  },
+  {
+    "id": "masjid-vaughan",
+    "notes": "地区：Maple。",
+    "jumuahNote": "“关于我们”页面：“主麻时间全年不变：1:30 PM 宣礼，1:35 讲道，2:00 PM 礼拜。”",
+    "parkingNote": "“关于我们”页面：“星期五 1:00pm 到 3:00 之间，Vaughan City Hall（西侧停车场）有充足的停车位。此外，清真寺周围也有很多路边停车位。”"
+  },
+  {
+    "id": "vaughan-islamic-community-centre"
+  },
+  {
+    "id": "islamic-centre-of-waterloo-a-mac-community-centre",
+    "notes": "也称为 ICW。",
+    "jumuahNote": "第一场 1:30 PM，第二场（阿拉伯语）2:30 PM，第三场 3:30 PM。"
+  },
+  {
+    "id": "muslim-society-of-waterloo-wellington-counties",
+    "notes": "也称为 Waterloo Masjid。",
+    "jumuahNote": "每星期五 1:40 PM 网上直播主麻（聚礼）。",
+    "parkingNote": "首页：“请不要把车停在 Westmount Plaza，在附近街道停车时请遵守所有市政规定”。"
+  },
+  {
+    "id": "masjid-e-ayesha-whitby",
+    "notes": "也称为 Whitby Masjid。",
+    "jumuahNote": "三场主麻（聚礼）：讲道时间 1:45、2:45 和 3:45 PM。",
+    "parkingNote": "停车位有限。自2024年11月1日起，主麻（聚礼）时不能使用 Kendalwood Plaza 停车场；星期五执法人员会在那里开罚单。临时加设的帐篷在另行通知前关闭（首页通知）。"
+  },
+  {
+    "id": "al-hijra-academy-windsor",
+    "notes": "地区：Oldcastle，位于 LaSalle 交界处。也称为 Al-Hijra Academy - Masjid and Islamic School。",
+    "womenSpaceNote": "历史页面：清真寺“分为男女两个部分”（历史描述）。"
+  },
+  {
+    "id": "islamic-society-of-windsor"
+  },
+  {
+    "id": "rose-city-islamic-centre-windsor",
+    "notes": "也称为 RCIC。",
+    "jumuahNote": "星期五 1:30 PM。"
+  },
+  {
+    "id": "windsor-islamic-association",
+    "notes": "也称为 Windsor Mosque；Windsor Central Mosque。",
+    "newMuslimSupportNote": "联系页面指定宗教事务负责人为归信者的联系人（519-966-2355 转 4）。这是一个联系渠道，不是课程。"
+  },
+  {
+    "id": "islamic-center-of-west-island-dollard-des-ormeaux",
+    "notes": "地区：West Island。也称为 Centre Islamique du West Island。"
+  },
+  {
+    "id": "centre-islamique-de-l-outaouais-la-mosquee-de-gatineau",
+    "notes": "地区：Hull。也称为 Outaouais Islamic Centre；Mosquée de Gatineau。官方网站在2026年9月显示了域名到期通知。如果网站打不开，请提前打电话。",
+    "jumuahNote": "两场主麻（聚礼）（自某年2月11日起，年份未注明）；时间只以图片形式显示在 https://cio-oic.ca/horaire-des-jumuahs/ 上。"
+  },
+  {
+    "id": "masjid-meriam-gatineau",
+    "notes": "地区：Gatineau 区。也称为 Mosquée Mariam；CIOIC - Meriam。",
+    "visitorNotes": "语言：CIO 网站主要使用法语；部分公告为法英双语。"
+  },
+  {
+    "id": "the-mosque-of-aylmer-gatineau",
+    "notes": "地区：Aylmer。",
+    "visitorNotes": "网站内容为英法双语；未注明讲道使用的语言。",
+    "womenSpaceNote": "服务页面列出了“女性活动”：“专门为女性举办的聚会、学习小组和活动”；没有介绍礼拜空间的布局。",
+    "jumuahNote": "“每周由有资质的讲者讲道”；没有公布时间。"
+  },
+  {
+    "id": "association-islamique-al-ihssane-de-laval",
+    "notes": "地区：Pont-Viau。也称为 AIIL；Mosquée Al-Itissam。"
+  },
+  {
+    "id": "centre-al-iman-laval",
+    "notes": "地区：Auteuil。也称为 CCVA。"
+  },
+  {
+    "id": "centre-communautaire-musulman-iqra-laval",
+    "notes": "地区：Chomedey。也称为 Centre IQRA。"
+  },
+  {
+    "id": "centre-communautaire-musulman-de-longueuil"
+  },
+  {
+    "id": "aisha-islamic-center-montreal",
+    "notes": "地区：Griffintown。也称为 AIC。"
+  },
+  {
+    "id": "al-madinah-center-montreal",
+    "notes": "地区：市中心。也称为 Centre Al-Madinah。",
+    "visitorNotes": "已确认有英语服务：（开设的古兰经诵读规则课程“用阿拉伯语和英语两种语言”）。",
+    "womenSpaceNote": "成人古兰经学习小组面向“兄弟和姐妹”；没有介绍女性的礼拜空间。"
+  },
+  {
+    "id": "assuna-annabawiyah-mosque-montreal",
+    "notes": "地区：Parc-Extension。也称为 Mosquée Assuna Annabawiyah；Masjid Assuna。",
+    "visitorNotes": "语言：网站混用法语、英语和阿拉伯语；未注明礼拜服务使用的语言。"
+  },
+  {
+    "id": "canadian-institute-of-islamic-civilization-a-mac-community-centre-montreal",
+    "notes": "地区：市中心。也称为 CIIC。",
+    "womenSpaceNote": "列有每周一次的姐妹学习小组（每星期五 6:30 到 8:00 PM）；没有介绍礼拜空间。",
+    "jumuahNote": "三场主麻（聚礼）：11:45 AM、12:30 PM、1:15 PM。"
+  },
+  {
+    "id": "centre-bel-agir-montreal",
+    "notes": "地区：Villeray 和 Saint-Michel 一带。也称为 Bel Agir - Al-Ihsane。",
+    "jumuahNote": "提供“星期五礼拜”；首页没有给出时间。"
+  },
+  {
+    "id": "centre-communautaire-fath-montreal",
+    "notes": "地区：Rivière-des-Prairies。也称为 Mosquée Elfath - RDP。",
+    "parkingNote": "“38个停车位”。"
+  },
+  {
+    "id": "centre-communautaire-villeray-mosquee-aboubakr-montreal",
+    "notes": "地区：Villeray。也称为 CCV。",
+    "jumuahNote": "主麻（聚礼）“12:00 pm | 1:00 pm”。"
+  },
+  {
+    "id": "centre-islamique-de-verdun-montreal",
+    "notes": "地区：Verdun。也称为 CIV。",
+    "womenSpaceNote": "提到有面向妇女和女孩的活动（例如“为女孩、她们的母亲和女老师举办的特别开斋饭”）；没有介绍礼拜空间。",
+    "jumuahNote": "主麻（聚礼）12:00 PM 和 1:15 PM。",
+    "newMuslimSupportNote": "课程页面列出了面向新归信女性和新归信男性的小组。没有给出时间安排。"
+  },
+  {
+    "id": "islamic-centre-of-quebec-montreal",
+    "notes": "地区：Saint-Laurent。也称为 Centre Islamique du Québec。",
+    "jumuahNote": "首页：“第一场主麻（13:30），第二场主麻（14:30）”；“讲道前15分钟会有翻译。”未注明翻译使用的语言。",
+    "parkingNote": "场地内有停车场。"
+  },
+  {
+    "id": "masjid-makkah-al-mukarramah-montreal",
+    "notes": "地区：Pierrefonds-Roxboro，West Island。也称为 Makkah-al-Mukarramah Mosque；Masjid Makkah。",
+    "visitorNotes": "语言：每周讲学使用乌尔都语；网站为英语。",
+    "womenSpaceNote": "“我们每星期六晌礼后举办女性学习小组”；没有介绍女性的礼拜空间。"
+  },
+  {
+    "id": "mosquee-al-rawdah-montreal",
+    "notes": "地区：Cartierville。隔壁 12265 Boul. Laurentien 的 Centre Communautaire Laurentien 也属于它，电话相同。",
+    "jumuahNote": "主麻（聚礼）12:00 PM 和 1:00 PM。"
+  },
+  {
+    "id": "muslim-community-of-quebec-montreal",
+    "notes": "地区：Notre-Dame-de-Grâce。",
+    "womenSpaceNote": "课程页面列出了“女性支持与赋能项目”；没有介绍礼拜空间。",
+    "jumuahNote": "课程页面列出了“星期五礼拜（主麻）”；礼拜时间页面上没有显示时间。"
+  },
+  {
+    "id": "centre-communautaire-de-quebec-quebec-city",
+    "notes": "地区：Saint-Roch。也称为 MAC Québec；Masjid Al-Rahma。",
+    "jumuahNote": "首页显示了两组相互矛盾的主麻（聚礼）时间：12:15 和 12:45 PM，以及 12:00 和 12:45 PM。"
+  },
+  {
+    "id": "centre-culturel-islamique-luqman-de-quebec-quebec-city",
+    "notes": "地区：Les Saules。也称为 Centre Luqman。",
+    "jumuahNote": "礼拜时间可通过网站上的 Mawaqit 链接查看。"
+  },
+  {
+    "id": "centre-culturel-islamique-de-quebec-grande-mosquee-de-quebec-quebec-city",
+    "notes": "地区：Sainte-Foy。也称为 CCIQ；GMQ；CCIQ 还管理 Mosquée Annour 以及 Charlesbourg 和 Portneuf 的礼拜场所。",
+    "womenSpaceNote": "Conseil de la femme musulmane de Québec（CFMQ）被列为 CCIQ 的下属机构，并列有女性活动；没有介绍礼拜空间。",
+    "jumuahNote": "提供星期五礼拜（“每日礼拜和星期五礼拜”）；时间见 mosqueprayertimes.com/cciq。"
+  },
+  {
+    "id": "mosquee-de-la-capitale-quebec-city",
+    "notes": "地区：Vanier。也称为 Association Mosquée de la Capitale。"
+  },
+  {
+    "id": "centre-culturel-islamique-de-lanaudiere-repentigny",
+    "notes": "地区：Lanaudière。也称为 Masjid Atassamouh。",
+    "jumuahNote": "首页：“主麻（聚礼）第一场 12:00，第二场 13:00”。"
+  },
+  {
+    "id": "association-islamique-du-saguenay-lac-st-jean",
+    "notes": "地区：Chicoutimi。也称为 Mosquée Chicoutimi。",
+    "visitorNotes": "语言：网站为法语，可切换到英语和阿拉伯语；未注明礼拜服务使用的语言。"
+  },
+  {
+    "id": "centre-islamique-maskoutain-saint-hyacinthe",
+    "jumuahNote": "首页：“有两场主麻礼拜：第一场 12h10 开始，第二场 12h45 开始。”"
+  },
+  {
+    "id": "centre-rayan-sainte-therese",
+    "notes": "地区：Basses-Laurentides。也称为 Mosque Rayane。"
+  },
+  {
+    "id": "association-culturelle-islamique-de-l-estrie-mosquee-a-rahmane-sherbrooke",
+    "notes": "也称为 ACIE；还管理位于 1239 Rue Denault 的 Centre Horizon。",
+    "jumuahNote": "两场：“12h15 和 13h00”。",
+    "parkingNote": "请访客“不要使用我们邻居的私人停车位”。"
+  },
+  {
+    "id": "centre-culturel-islamique-de-sherbrooke-mosquee-annour",
+    "notes": "也称为 CCIS Annour。"
+  },
+  {
+    "id": "centre-culturel-islamique-de-la-mauricie-trois-rivieres",
+    "notes": "也称为 Islamic Cultural Center of Mauricie。",
+    "newMuslimSupportNote": "服务页面提供：如果你想加入伊斯兰教，可以预约一位 CCIM 代表见面，并获得正式的归信证书。它承诺会保密地回答你的问题。这不是一门持续的课程。"
+  },
+  {
+    "id": "vaudreuil-islamic-community-centre-masjid-attakwa-vaudreuil-dorion",
+    "notes": "也称为 Centre Culturel Islamique de Vaudreuil Soulanges；ICCVS。",
+    "jumuahNote": "服务页面列出了“主麻（星期五礼拜）”；未注明时间。"
+  },
+  {
+    "id": "bcma-abbotsford-branch",
+    "notes": "也称为 Abbotsford Islamic Centre。",
+    "newMuslimSupportNote": "全省范围的 New Muslim Care 项目由 BC Muslim Association 运营；这个分会没有列出自己的项目。在 BCMA 的报名表上可以选择这个分会。"
+  },
+  {
+    "id": "bcma-burnaby-branch",
+    "notes": "也称为 Masjid al Salaam & Education Centre。",
+    "jumuahNote": "分会页面：主麻（聚礼）1:30 PM 开始，成拜 2:30 PM。",
+    "newMuslimSupportNote": "全省范围的 New Muslim Care 项目由 BC Muslim Association 运营；这个分会没有列出自己的项目。在 BCMA 的报名表上可以选择这个分会。"
+  },
+  {
+    "id": "bcma-castlegar-branch",
+    "notes": "也称为 Islamic Centre of Castlegar。",
+    "newMuslimSupportNote": "全省范围的 New Muslim Care 项目由 BC Muslim Association 运营；这个分会没有列出自己的项目。在 BCMA 的报名表上可以选择这个分会。"
+  },
+  {
+    "id": "bcma-chilliwack-branch",
+    "notes": "也称为 Chilliwack Islamic Centre。",
+    "newMuslimSupportNote": "全省范围的 New Muslim Care 项目由 BC Muslim Association 运营；这个分会没有列出自己的项目。在 BCMA 的报名表上可以选择这个分会。"
+  },
+  {
+    "id": "bcma-dawson-creek-islamic-center",
+    "newMuslimSupportNote": "全省范围的 New Muslim Care 项目由 BC Muslim Association 运营；这个分会没有列出自己的项目。在 BCMA 的报名表上可以选择这个分会。"
+  },
+  {
+    "id": "bcma-delta-islamic-center",
+    "notes": "也称为 Delta Islamic Centre。",
+    "newMuslimSupportNote": "全省范围的 New Muslim Care 项目由 BC Muslim Association 运营；这个分会没有列出自己的项目。在 BCMA 的报名表上可以选择这个分会。"
+  },
+  {
+    "id": "kamloops-ayesha-mosque",
+    "notes": "地区：Knutsford。也称为 Ayesha Mosque；Kamloops Islamic Association。",
+    "accessibilityNote": "首页说目前 Knutsford 的场地“没有市政供水 | 没有公共交通 | 空间有限”，协会正在筹款，准备“迁往一个无障碍的地点”，位于 Kamloops 市区范围内。",
+    "jumuahNote": "首页：主麻（聚礼）讲道 1:30 PM。",
+    "parkingNote": "首页：由于容量不足，一些活动“在场外举行，甚至在停车场里”。"
+  },
+  {
+    "id": "bcma-kelowna-branch",
+    "notes": "也称为 Kelowna Islamic Centre。",
+    "newMuslimSupportNote": "全省范围的 New Muslim Care 项目由 BC Muslim Association 运营；这个分会没有列出自己的项目。在 BCMA 的报名表上可以选择这个分会。"
+  },
+  {
+    "id": "bcma-kitimat-islamic-center",
+    "newMuslimSupportNote": "全省范围的 New Muslim Care 项目由 BC Muslim Association 运营；这个分会没有列出自己的项目。在 BCMA 的报名表上可以选择这个分会。"
+  },
+  {
+    "id": "masjid-al-sahaba-langley",
+    "notes": "也称为 Langley Islamic Centre；Langley Musalla。",
+    "womenSpaceNote": "官方页面：“设有女性礼拜区”。"
+  },
+  {
+    "id": "jamia-riyadhul-jannah-maple-ridge",
+    "notes": "也称为 Riyadhul Jannah Mosque。",
+    "jumuahNote": "首页：星期五主麻讲道 13:30。"
+  },
+  {
+    "id": "bcma-nanaimo-chapter",
+    "newMuslimSupportNote": "全省范围的 New Muslim Care 项目由 BC Muslim Association 运营；这个分会没有列出自己的项目。在 BCMA 的报名表上可以选择这个分会。"
+  },
+  {
+    "id": "bcma-north-shore-chapter-north-vancouver",
+    "newMuslimSupportNote": "全省范围的 New Muslim Care 项目由 BC Muslim Association 运营；这个分会没有列出自己的项目。在 BCMA 的报名表上可以选择这个分会。"
+  },
+  {
+    "id": "masjid-ar-rahman-north-vancouver",
+    "notes": "也称为 Masjid Ar-Rahman Foundation of North Vancouver。",
+    "womenSpaceNote": "课程页面列有姐妹和女士课程；没有介绍女性礼拜区。",
+    "jumuahNote": "主麻（聚礼）页面：夏令时期间（3月中旬到11月）讲道 1:30 p.m.，标准时间期间 12:30 p.m.。"
+  },
+  {
+    "id": "bcma-penticton-branch",
+    "newMuslimSupportNote": "全省范围的 New Muslim Care 项目由 BC Muslim Association 运营；这个分会没有列出自己的项目。在 BCMA 的报名表上可以选择这个分会。"
+  },
+  {
+    "id": "islamic-society-of-british-columbia-port-coquitlam",
+    "notes": "也称为 Masjid Al-Hidayah & Islamic Cultural Centre；ISBC。",
+    "womenSpaceNote": "课程页面列有每周一次的女性聚会；未说明礼拜空间；星期五礼拜对男女开放；为女性提供私人咨询。",
+    "jumuahNote": "讲道 1:40 PM 开始。",
+    "parkingNote": "清真寺有地下停车场；停满后可停在 ECBC 停车场（收费）或 Legion 市政停车场；不要停在 Kingsway Ave 上。"
+  },
+  {
+    "id": "al-ihsan-islamic-centre-port-moody"
+  },
+  {
+    "id": "bcma-prince-george-branch",
+    "notes": "也称为 BCMA Prince George Chapter。",
+    "newMuslimSupportNote": "全省范围的 New Muslim Care 项目由 BC Muslim Association 运营；这个分会没有列出自己的项目。在 BCMA 的报名表上可以选择这个分会。"
+  },
+  {
+    "id": "bcma-richmond-branch",
+    "notes": "也称为 Richmond Jamia Masjid；BCMA 总部所在地。",
+    "jumuahNote": "分会页面列出第一场讲道 1:30 PM，第二场讲道 3:00 PM（可能随季节变化）。",
+    "newMuslimSupportNote": "全省范围的 New Muslim Care 项目由 BC Muslim Association 运营；这个分会没有列出自己的项目。在 BCMA 的报名表上可以选择这个分会。"
+  },
+  {
+    "id": "abu-bakr-islamic-centre-surrey",
+    "notes": "也称为 Masjid Abu Bakr。",
+    "womenSpaceNote": "欢迎姐妹参加第二场主麻（聚礼）。",
+    "jumuahNote": "第一场主麻（聚礼）1:40 pm，第二场 2:40 pm，第三场 3:30 pm。"
+  },
+  {
+    "id": "bcma-surrey-delta-branch",
+    "notes": "也称为 Surrey Jamia Masjid。",
+    "newMuslimSupportNote": "全省范围的 New Muslim Care 项目由 BC Muslim Association 运营；这个分会没有列出自己的项目。在 BCMA 的报名表上可以选择这个分会。"
+  },
+  {
+    "id": "bcma-surrey-east-branch",
+    "newMuslimSupportNote": "全省范围的 New Muslim Care 项目由 BC Muslim Association 运营；这个分会没有列出自己的项目。在 BCMA 的报名表上可以选择这个分会。"
+  },
+  {
+    "id": "cloverdale-islamic-society-surrey",
+    "notes": "地区：Cloverdale。也称为 Cloverdale Islamic Center。"
+  },
+  {
+    "id": "guildford-islamic-cultural-center-surrey",
+    "notes": "地区：Guildford。也称为 Guildford Musullah。",
+    "womenSpaceNote": "第二场和第三场主麻（聚礼）对姐妹开放；清真寺内有姐妹室。",
+    "jumuahNote": "三场主麻（聚礼）；第一场只限兄弟；时间见 awqat.net。"
+  },
+  {
+    "id": "white-rock-muslim-association-surrey",
+    "notes": "地区：South Surrey / White Rock。也称为 WRMA Musallah。",
+    "womenSpaceNote": "礼拜服务页面：“兄弟（主层）和姐妹（上层）有各自独立的礼拜区”。",
+    "accessibilityNote": "礼拜服务页面：“关于无障碍设施和礼拜时间的更多信息，请与我们联系”。",
+    "jumuahNote": "第一场主麻（聚礼）1:35 PM，第二场 2:15 PM（夏季时间，可能变动）；冬季时间为 12:35 PM 和 1:15 PM。",
+    "parkingNote": "礼拜服务页面：“请停在公共车位，不要停在其他商家门外或保留车位上。违者车辆将被拖走，费用由车主承担。”"
+  },
+  {
+    "id": "ajyal-islamic-society-vancouver",
+    "notes": "也称为 Ajyal Islamic Centre Vancouver Mosque。",
+    "visitorNotes": "语言：网站说课程使用英语、土耳其语、阿拉伯语等语言。",
+    "womenSpaceNote": "列有姐妹活动（学习小组、古兰经课程、新穆斯林支持）；没有介绍女性礼拜空间。",
+    "jumuahNote": "星期五页面（2026年3月8日起生效）：三场，讲道时间 1:30 PM（只限兄弟）、2:10 PM 和 2:45 PM。"
+  },
+  {
+    "id": "al-masjid-al-jamia-vancouver",
+    "notes": "也称为 Al-Jamia Masjid；Vancouver Jamia Masjid。",
+    "jumuahNote": "管理方页面：星期五有两场集体礼拜，时间为 1:30 pm 和 2:15 pm。"
+  },
+  {
+    "id": "bcma-vancouver-branch",
+    "notes": "也称为 Masjid ul-Haqq。",
+    "jumuahNote": "分会页面：主麻（聚礼）1:30 PM 开始，成拜 2:00 PM。",
+    "newMuslimSupportNote": "全省范围的 New Muslim Care 项目由 BC Muslim Association 运营；这个分会没有列出自己的项目。在 BCMA 的报名表上可以选择这个分会。"
+  },
+  {
+    "id": "mac-vancouver-centre",
+    "notes": "也称为 Muslim Association of Canada, Vancouver。",
+    "jumuahNote": "中心页面：讲道 1:30 PM，礼拜 2:00 PM。"
+  },
+  {
+    "id": "masjid-omar-al-farooq-vancouver",
+    "notes": "也称为 Othman Bin Affan Islamic Society。"
+  },
+  {
+    "id": "vernon-islamic-centre",
+    "notes": "也称为 Vernon Mosque。"
+  },
+  {
+    "id": "bcma-victoria-branch",
+    "notes": "也称为 Victoria Masjid。",
+    "newMuslimSupportNote": "全省范围的 New Muslim Care 项目由 BC Muslim Association 运营；这个分会没有列出自己的项目。在 BCMA 的报名表上可以选择这个分会。"
+  },
+  {
+    "id": "bcma-westshore-branch",
+    "newMuslimSupportNote": "全省范围的 New Muslim Care 项目由 BC Muslim Association 运营；这个分会没有列出自己的项目。在 BCMA 的报名表上可以选择这个分会。"
+  },
+  {
+    "id": "bcma-central-cariboo-islamic-center-williams-lake",
+    "notes": "也称为 Williams Lake Muslim Committee。",
+    "newMuslimSupportNote": "全省范围的 New Muslim Care 项目由 BC Muslim Association 运营；这个分会没有列出自己的项目。在 BCMA 的报名表上可以选择这个分会。"
+  },
+  {
+    "id": "akram-jomaa-islamic-centre-calgary",
+    "womenSpaceNote": "“关于我们”页面列有一个女性委员会；没有介绍礼拜空间。",
+    "accessibilityNote": "“关于我们”页面：已获得 MUHSEN 认证；一个残障事务委员会致力于“确保每个人都有平等的机会充分参与”。",
+    "newMuslimSupportNote": "New to Islam 页面欢迎你预约与伊玛目见面、参观，并到行政办公室领取一份装有书籍的清真言礼包。该页面上的互助小组表单可能暂时还不能用，请直接联系办公室。"
+  },
+  {
+    "id": "al-hedaya-islamic-centre-of-north-east-calgary",
+    "notes": "也称为 Islamic Center NE。",
+    "womenSpaceNote": "Rising Muslimah 项目面向13到19岁的女孩（每星期六 9:00 AM）；没有介绍女性礼拜空间。",
+    "jumuahNote": "“主麻礼拜只在 Genesis Centre 的多功能厅 A 和 B 举行”，时间为 2:00、2:30 和 3:00 PM。"
+  },
+  {
+    "id": "al-madinah-calgary-islamic-assembly",
+    "notes": "也称为 Green Dome Mosque。"
+  },
+  {
+    "id": "al-salam-centre-calgary",
+    "notes": "也称为 MAC Calgary；Masjid Al-Salam。",
+    "jumuahNote": "Al-Salam Centre：“1:00 PM 和 2:00 PM”；MAC Islamic School 和 Marlborough Community Association：1:30 PM。"
+  },
+  {
+    "id": "hazrat-bilal-islamic-centre-calgary",
+    "notes": "也称为 Masjid Bilal。",
+    "jumuahNote": "“第一场讲道 1:45 PM。第二场讲道 2:30 PM。第一场主麻礼拜 2:00 PM 关门。”",
+    "parkingNote": "首页：“请不要挡住邻居的车道，并听从志愿者的指挥。”"
+  },
+  {
+    "id": "islamic-association-of-north-west-calgary",
+    "notes": "也称为 IANWC；Northwest Islamic Centre。",
+    "jumuahNote": "在 Ranchland 和 Maryam Masjid（183 Beddington Drive NW），时间为 1:15、2:00 和 2:45 PM。",
+    "parkingNote": "可以在路边和停车场停车；车位有限，请早点到；停车场停满后禁止车辆进入。",
+    "newMuslimSupportNote": "首页说，如果你有问题或准备好念清真言，清真寺的伊玛目随时可以帮助你。没有介绍任何课程或导师辅导。"
+  },
+  {
+    "id": "islamic-centre-of-south-calgary",
+    "notes": "也称为 ICSC；Islamic Center SE。",
+    "jumuahNote": "Legacy Musallah 的时间为 1:15、2:00、2:45、3:30 PM；McKenzie Towne Hall 的时间为 1:00、1:45 PM。"
+  },
+  {
+    "id": "islamic-centre-of-southwest-calgary",
+    "notes": "也称为 SW Masjid；Calgary Islamic Centre SW。",
+    "jumuahNote": "两场主麻（聚礼）；时间随季节变化（自2026年9月26日起为 1:45 PM 和 3:00 PM）；见首页小工具。"
+  },
+  {
+    "id": "muslim-council-of-calgary",
+    "notes": "也称为 MCC。这是 Muslim Council of Calgary 的办公室，为全市的清真寺提供服务。",
+    "newMuslimSupportNote": "New Muslim 页面介绍了互助小组 New Muslim Circle，以及 Connect with an Imam 和一本新穆斯林指南书。它还提供来自同伴、导师或伊玛目的一对一支持。"
+  },
+  {
+    "id": "mac-cold-lake-mosque",
+    "jumuahNote": "下午1:30。"
+  },
+  {
+    "id": "ahl-al-athar-islamic-center-edmonton",
+    "womenSpaceNote": "首页列出了一个独立的“女士入口”（附地图链接）。"
+  },
+  {
+    "id": "al-ameen-masjid-edmonton",
+    "notes": "也称为 Al-Ameen Mosque。",
+    "womenSpaceNote": "首页：“为兄弟和姐妹都提供宽敞的礼拜大殿”；服务列表包括“姐妹礼拜区”。",
+    "jumuahNote": "首页：主麻（聚礼）第一场讲道 12:45 pm，第二场讲道 1:40 pm（可能随季节变化）。",
+    "parkingNote": "服务列表中包括“停车”（没有详情）。"
+  },
+  {
+    "id": "al-rashid-mosque-edmonton",
+    "womenSpaceNote": "列有姐妹活动（女士学习小组，每星期五 7 PM；年长女士活动，每星期三 12 到 2 PM）；没有介绍礼拜空间。",
+    "jumuahNote": "Al Rashid Mosque 的时间为 1:45 PM；ARCA 的时间为 2:00 PM。"
+  },
+  {
+    "id": "alfalah-islamic-centre-edmonton",
+    "notes": "也称为 Alfalah Center；ICNA Edmonton。",
+    "womenSpaceNote": "课程页面：“功能齐全的清真寺（男女）：我们的中心为男女都提供了专门的、包容的礼拜空间”；列有女性活动。",
+    "jumuahNote": "首页：第一场主麻（聚礼）1:30 PM，第二场 2:30 PM；“主麻礼拜的成拜在所列时间之后30分钟。”"
+  },
+  {
+    "id": "assiddiq-islamic-foundation-edmonton",
+    "notes": "也称为 Assiddiq Islamic Center。",
+    "visitorNotes": "已确认有英语服务：星期六的女孩学习小组（17岁以上）“用英语进行”。",
+    "womenSpaceNote": "服务页面列有一个姐妹学习小组；没有介绍女性礼拜区。",
+    "jumuahNote": "首页礼拜时间表：第一场主麻（聚礼）2:00 PM，第二场 3:30 PM（夏季）；服务部分又写着“每星期五 1 PM 主麻”（可能是冬季时间）。请确认。",
+    "newMuslimSupportNote": "服务页面在成人课程中列出了新穆斯林课程，并附有报名链接。没有给出时间安排和费用。"
+  },
+  {
+    "id": "dar-al-sunnah-edmonton",
+    "notes": "也称为 Dar-Al-Sunnah。",
+    "visitorNotes": "已确认有英语服务：首页列出“主麻第一场讲道（英语）01:45 PM”。",
+    "jumuahNote": "首页：第一场讲道（英语）1:45 PM；第二场讲道（阿拉伯语）2:45 PM。"
+  },
+  {
+    "id": "darul-ilmi-masjid-edmonton",
+    "notes": "也称为 Masjid Daril Ilmi；Darul Ilmi Quran School。",
+    "jumuahNote": "首页：“主麻讲道 1pm 开始”。"
+  },
+  {
+    "id": "mas-islamic-centre-edmonton",
+    "notes": "也称为 Masjid Al-Salaam。",
+    "jumuahNote": "“每星期五 2:00 PM”。"
+  },
+  {
+    "id": "markaz-al-imam-malik-edmonton"
+  },
+  {
+    "id": "markaz-ul-islam-edmonton",
+    "visitorNotes": "语言：图书馆有英语、乌尔都语和阿拉伯语的书籍。",
+    "womenSpaceNote": "每月第一和第三个星期六有只限姐妹参加的古兰经和圣训课程。",
+    "jumuahNote": "第一场主麻（聚礼）2:00 PM，第二场 3:00 PM（成拜时间），见首页。"
+  },
+  {
+    "id": "masjid-al-ansar-edmonton"
+  },
+  {
+    "id": "masjid-al-omari-edmonton",
+    "notes": "也称为 Edmonton Islamic Centre。",
+    "jumuahNote": "首页：第一场主麻（聚礼）12:30 pm；第二场 1:30 pm（第二场讲道 1:30 pm，成拜 1:50 pm）。时间可能随季节变化。"
+  },
+  {
+    "id": "masjid-at-taqwa-edmonton"
+  },
+  {
+    "id": "masjid-quba-jama-masjid-edmonton",
+    "notes": "也称为 Islamic Missionary Association Edmonton。",
+    "jumuahNote": "第一场主麻（聚礼）2:00 PM；第二场 3:00 PM。"
+  },
+  {
+    "id": "medina-mosque-society-of-edmonton",
+    "notes": "也称为 Medina Mosque。"
+  },
+  {
+    "id": "muslim-community-of-edmonton-mosque",
+    "jumuahNote": "定期举行星期五礼拜；首页没有给出时间。"
+  },
+  {
+    "id": "rahma-mosque-edmonton",
+    "notes": "也称为 MAC Islamic Centre Edmonton。",
+    "jumuahNote": "三场主麻（聚礼）：1:00、2:00、3:00 PM；每场满400人即关门；“12岁以下儿童不得入内”。"
+  },
+  {
+    "id": "ruh-a-ruh-mosque-edmonton",
+    "notes": "也称为 Soul Community Center；Ruh a Ruh Mosque。",
+    "womenSpaceNote": "首页列出了一个可预订的“女性空间”大厅（“大型女性聚会”）；没有介绍独立的女性礼拜区。",
+    "jumuahNote": "首页：“星期五主麻：宣礼后10分钟开始主麻礼拜。先讲道，然后是集体礼拜”。",
+    "parkingNote": "首页“访客停车须知”：请访客负责任地停车，不要挡住邻近的商家。"
+  },
+  {
+    "id": "sahaba-mosque-edmonton"
+  },
+  {
+    "id": "markaz-ul-islam-fort-mcmurray",
+    "newMuslimSupportNote": "New Muslim (Shahada) Support 页面提供念清真言的安排，关于礼拜、小净和核心信仰的入门介绍，一位来自社区的伙伴，以及应对家庭压力的帮助。你可以通过登记表选择电话、短信、电子邮件、当面或网上的支持方式。"
+  },
+  {
+    "id": "islamic-association-of-grande-prairie",
+    "notes": "也称为 IAGP。"
+  },
+  {
+    "id": "lethbridge-muslim-association",
+    "jumuahNote": "主麻（聚礼）1:30 PM。",
+    "newMuslimSupportNote": "服务页面列出了“专门为最近接受伊斯兰教的人开设的课程和项目”。首页最新的公告是2025年3月的，所以请问问这些课程是否还在开。"
+  },
+  {
+    "id": "islamic-association-of-medicine-hat",
+    "notes": "也称为 IAMH。",
+    "jumuahNote": "第一场主麻（聚礼）1:30 PM；第二场 2:00 PM。"
+  },
+  {
+    "id": "red-deer-islamic-centre",
+    "jumuahNote": "中心有两场主麻（聚礼）；未能读取时间。"
+  },
+  {
+    "id": "masjid-in-the-park-sherwood-park",
+    "womenSpaceNote": "兄弟和姐妹有各自独立的礼拜大殿和入口；设有一间可实时收听音频的母亲室。",
+    "accessibilityNote": "完全无障碍，设有轮椅坡道、无障碍洗手间，整栋楼都有电梯可达。",
+    "jumuahNote": "首页提到有主麻（聚礼），可容纳250人以上；未注明时间。"
+  },
+  {
+    "id": "muslim-association-of-st-albert",
+    "notes": "也称为 MASA；St. Albert Mosque。",
+    "womenSpaceNote": "首页：“主楼层和体育馆区域指定给兄弟使用，二楼留给姐妹”。"
+  },
+  {
+    "id": "abu-bakr-al-siddiq-masjid-moose-jaw"
+  },
+  {
+    "id": "prince-albert-masjid"
+  },
+  {
+    "id": "darul-falah-islamic-centre-regina",
+    "jumuahNote": "三场主麻（聚礼）：讲道时间 1:00、1:30 和 2:00 PM（见首页）。"
+  },
+  {
+    "id": "iaos-regina-east-musallah",
+    "notes": "也称为 East Regina Mosque；East Regina Musalla。",
+    "newMuslimSupportNote": "IAOS Regina 为全市运营一个归信者委员会，提供同伴辅导、清真寺伙伴计划和心理咨询。这间礼拜室没有列出自己的项目。"
+  },
+  {
+    "id": "islamic-association-of-saskatchewan-inc-iaos-regina-mosque",
+    "womenSpaceNote": "“关于我们”页面：中心为兄弟和姐妹设有各自独立的礼拜区。",
+    "jumuahNote": "第一场主麻（聚礼）1:15 PM，第二场 2:00 PM（见首页）。",
+    "newMuslimSupportNote": "IAOS Regina 的归信者委员会提供同伴辅导、清真寺伙伴计划、心理咨询、书籍和讲座。首页日程列出了星期六宵礼后的新穆斯林课程。"
+  },
+  {
+    "id": "islamic-society-of-regina-masjid",
+    "notes": "也称为 ISR。",
+    "jumuahNote": "首页：主麻（聚礼）1:15 pm | 1:45 pm。"
+  },
+  {
+    "id": "madni-islamic-center-mosque-inc-regina",
+    "jumuahNote": "首页：主麻（聚礼）1:30 PM。"
+  },
+  {
+    "id": "regina-city-jamia-masjid",
+    "notes": "也称为 RCJM。",
+    "womenSpaceNote": "联系页面：“Regina City Jamia Masjid 为男性和女性都提供礼拜设施。”",
+    "jumuahNote": "首页：主麻（聚礼）讲道 1:10 pm，成拜 1:30 pm。",
+    "newMuslimSupportNote": "New to Islam 页面介绍了为新穆斯林提供的“教育课程、导师项目和一对一指导”。页面没有说明如何报名，请打电话或发邮件询问。"
+  },
+  {
+    "id": "jamia-riyadhul-jannah-saskatoon",
+    "jumuahNote": "主麻（聚礼）1:35 PM 和 2:30 PM（见首页）。"
+  },
+  {
+    "id": "prairie-muslim-association-saskatoon-masjid"
+  },
+  {
+    "id": "the-islamic-association-of-saskatchewan-inc-ias-masjid-saskatoon",
+    "jumuahNote": "第一场主麻（聚礼）1:00 pm（成拜 1:30 pm）；第二场 2:05 pm（成拜 2:30 pm），见2026-09-23的首页。"
+  },
+  {
+    "id": "brandon-islamic-centre-inc",
+    "jumuahNote": "星期五第一场讲道 2:00 pm，第二场 3:00 pm。"
+  },
+  {
+    "id": "mia-steinbach-mussallah"
+  },
+  {
+    "id": "mia-pembina-valley-mussallah-winkler"
+  },
+  {
+    "id": "alhaqq-prayer-group-of-canada-inc-winnipeg",
+    "notes": "也称为 Al-Haqq Canada；Al-Haqq Masjid。网站介绍了每周星期日的集体礼拜。请询问每日礼拜和星期五礼拜的情况。"
+  },
+  {
+    "id": "beit-naballa-mosque-winnipeg",
+    "jumuahNote": "首页：“我们开放每日五次礼拜以及主麻（星期五）礼拜”。"
+  },
+  {
+    "id": "manitoba-dawah-center-winnipeg",
+    "womenSpaceNote": "第二场主麻（聚礼）“男女均可参加”；第一场只限男士。",
+    "jumuahNote": "主麻（聚礼）1:35 PM（只限男士）和 2:25 PM（男女均可），据首页。"
+  },
+  {
+    "id": "pioneer-mosque-winnipeg",
+    "notes": "也称为 St. Vital Mosque；Hazelwood Mosque。",
+    "jumuahNote": "MIA：开放每日五次礼拜和星期五礼拜；未注明此地点的主麻（聚礼）时间。",
+    "newMuslimSupportNote": "Manitoba Islamic Association 的归信者委员会“由归信者为归信者运营”。它列出了一份书籍礼包、聚会、研讨会和伙伴制度。该委员会服务于整个协会，而不是某一栋建筑。"
+  },
+  {
+    "id": "winnipeg-central-mosque",
+    "womenSpaceNote": "常见问题：“WCM 在男女之间没有实体隔断”；前门和后门都是家庭入口。",
+    "accessibilityNote": "后面的停车场有残疾人停车位；没有说明其他情况。",
+    "jumuahNote": "主麻（聚礼）：讲道 1:45 PM，礼拜 2:15 PM 结束（见2026-09-23的首页）。",
+    "parkingNote": "可以停在清真寺旁边、从 Toronto Street 进入的停车场，以及清真寺后面的停车场。清真寺后面的停车场有一些残疾人车位。"
+  },
+  {
+    "id": "winnipeg-grand-mosque-and-community-centre",
+    "notes": "也称为 Waverley Mosque；MIA Grand Mosque。",
+    "jumuahNote": "MIA 首页：主麻（聚礼）“1:45 pm 和 3:30 pm”。MIA 清真寺页面：“两座清真寺都开放每日五次礼拜和星期五礼拜。”",
+    "newMuslimSupportNote": "Manitoba Islamic Association 的归信者委员会“由归信者为归信者运营”。它列出了一份书籍礼包、聚会、研讨会和伙伴制度。该委员会服务于整个协会，而不是某一栋建筑。"
+  },
+  {
+    "id": "nova-scotia-islamic-community-centre-kearney-lake-masjid-bedford",
+    "notes": "地区：Halifax Regional Municipality。也称为 NSICC；Kearney Lake Masjid；Halifax Jamia Masjid。",
+    "womenSpaceNote": "联系页面列出了一个姐妹委员会和一个穆斯林女性互助小组；没有介绍女性的礼拜空间。",
+    "jumuahNote": "首页：“星期五主麻（讲道）1:30 PM”。"
+  },
+  {
+    "id": "dartmouth-masjid",
+    "notes": "也称为 IANS Dartmouth Masjid。",
+    "jumuahNote": "下午1:30。"
+  },
+  {
+    "id": "the-centre-for-islamic-development-halifax",
+    "notes": "也称为 CID。"
+  },
+  {
+    "id": "truro-masjid",
+    "jumuahNote": "13:30。"
+  },
+  {
+    "id": "fredericton-islamic-association-fia",
+    "womenSpaceNote": "提到有一个女士入口；没有关于礼拜区的详情。",
+    "accessibilityNote": "女士入口附近的停车位留给残障访客或姐妹使用（见首页）。",
+    "jumuahNote": "首页：“12:30 PM 和 1:30 PM”（两场主麻）。",
+    "parkingNote": "首页提供了几种停车选择：主停车场、Princess Margaret Bridge 桥下和路边，并附有高峰时段的指引。"
+  },
+  {
+    "id": "masjid-yusuf-moncton",
+    "notes": "也称为 Masjid Yusuf Islamic Center。"
+  },
+  {
+    "id": "moncton-muslim-association"
+  },
+  {
+    "id": "al-falah-islamic-center-st-john-s",
+    "notes": "也称为 ICNA NewFoundLand。",
+    "visitorNotes": "已确认有英语服务：（星期五学习小组标注为“语言：英语”）。",
+    "jumuahNote": "首页：“主麻（聚礼）第一场 12:45，在 Farmers' Market；第二场 1:15，在 Farmers' Market”（外部场地）。",
+    "parkingNote": "首页停车指引：使用清真寺的指定停车场；“如果清真寺停车场满了，可以停在清真寺同一侧的街边。”"
+  },
+  {
+    "id": "masjid-al-noor-st-john-s",
+    "notes": "也称为 Masjid An-Noor；MANAL。",
+    "jumuahNote": "活动页面：每星期五在 Masjid Suleman Dawood 有一场主麻（聚礼），时间为 12:50 pm 到 1:20 pm（不在 Al-Noor）。"
+  },
+  {
+    "id": "masjid-suleman-dawood-st-john-s",
+    "womenSpaceNote": "尔德节通知：姐妹从后门进出。",
+    "jumuahNote": "“每星期五在 Masjid Suleman Dawood 有一场主麻礼拜，12:50 pm 开始，1:20 pm 结束”（MANAL）。",
+    "parkingNote": "尔德节通知：只能停在指定的停车场，并听从志愿者的指挥。"
+  },
+  {
+    "id": "muslim-society-of-prince-edward-island-masjid-dar-as-salam-charlottetown",
+    "notes": "也称为 Dar As-Salam Mosque；Muslim Society of PEI。",
+    "jumuahNote": "首页：第一场主麻（聚礼）1:20 PM，第二场 2:00 PM。"
+  },
+  {
+    "id": "yukon-muslim-society-inc-whitehorse",
+    "notes": "也称为 Yukon Muslims Society；Whitehorse Mosque。",
+    "visitorNotes": "已确认有英语服务：星期五讲道用英语进行。",
+    "womenSpaceNote": "参观页面：“女士进入礼拜大殿前请遮盖头发。”官方页面没有说明是否有独立的女性区域。",
+    "accessibilityNote": "可供轮椅进出。",
+    "parkingNote": "清真寺有停车场；有一个无障碍车位。",
+    "newMuslimSupportNote": "Shahadas 页面说：“欢迎新穆斯林来这里学习和实践伊斯兰。”星期五讲道用英语进行。"
+  },
+  {
+    "id": "midnight-sun-mosque-inuvik"
+  },
+  {
+    "id": "iqaluit-masjid",
+    "jumuahNote": "“每个星期五都有主麻礼拜吗？”在“关于我们”页面上的回答是有；未注明时间。"
   }
 ]
