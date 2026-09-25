@@ -7,8 +7,8 @@ import type { TopicImage, VideoRef, VideoWithChapters } from "./types";
 /**
  * Loader for the longer-form content that sits behind the tool pages and the
  * Ramadan planning sections. Mirrors lib/content.ts: read
- * `locales/<locale>/<path>` when it exists, otherwise fall back to the English
- * file, so a page renders in every locale even before it is translated.
+ * `locales/<locale>/<path>` over the English file, so a page renders in every
+ * locale even before it is translated.
  */
 
 const localeRoot = path.join(process.cwd(), "locales");
@@ -22,15 +22,8 @@ function getLocaleDir(locale: Locale) {
   return path.join(localeRoot, locale);
 }
 
-function resolveLocaleFile(locale: Locale, relativePath: string) {
-  const localizedPath = path.join(getLocaleDir(locale), relativePath);
-  if (fs.existsSync(localizedPath)) {
-    return localizedPath;
-  }
-
-  return path.join(getLocaleDir(DEFAULT_LOCALE), relativePath);
-}
-
+// Top-level keys added to the English file before their translation lands
+// still render, in English, instead of breaking the page.
 function readJsonFile<T>(locale: Locale, relativePath: string): T {
   const filePath = resolveLocaleFile(locale, relativePath);
   const englishPath = path.join(getLocaleDir(DEFAULT_LOCALE), relativePath);
