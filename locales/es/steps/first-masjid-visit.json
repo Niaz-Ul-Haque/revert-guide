@@ -6,33 +6,44 @@
   "whyMatters": "Una mezquita le ofrece un lugar donde rezar, personas a quienes preguntar, clases y compañía. Su primera visita no tiene que salir perfecta. Solo tiene que ser lo bastante pequeña como para que de verdad vaya.",
   "exactActions": [
     {
-      "text": "Elija un momento tranquilo",
+      "text": "Elija una mezquita y un momento tranquilo",
       "subSteps": [
+        "Use el buscador de mezquitas de esta aplicación para encontrar mezquitas cerca de usted en Canadá.",
         "Una oración diaria cualquiera es mucho más fácil que un viernes lleno de gente.",
         "Si tiene dudas, consulte la página web de la mezquita o llame antes.",
-        "Pregunte si tienen algo para nuevos musulmanes o para visitantes."
+        "Pregunte si tienen algo para nuevos musulmanes o para visitantes.",
+        "Algunos programas para conversos, como Convert Care en Islam Care Centre, en Ottawa, o Convert Connect en MAC Masjid Toronto, pueden organizar que alguien le acompañe en su primera visita.",
+        "Si hay varias cerca, visite más de una y vea dónde se siente más a gusto."
       ]
     },
     {
       "text": "Vístase de forma sencilla y modesta",
       "subSteps": [
         "Use ropa limpia y holgada que lo cubra con comodidad.",
+        "Los hombres suelen llevar pantalón largo y una camisa con mangas.",
         "Las mujeres pueden llevar un pañuelo si piensan entrar en la sala de oración.",
+        "Muchas mezquitas tienen pañuelos de sobra junto a la puerta.",
         "No se preocupe si no va vestido como los demás."
       ]
     },
     {
       "text": "Siga las normas básicas de cortesía",
       "subSteps": [
+        "Llegue unos minutos antes.",
         "Quítese los zapatos donde vea que los demás se quitan los suyos.",
         "Mantenga su teléfono en silencio.",
-        "Si no sabe adónde ir, pregúntele a alguien cerca de la entrada."
+        "Si no sabe adónde ir, pregúntele a alguien cerca de la entrada.",
+        "Cuando suena la llamada a la oración (adhan), la gente a menudo se queda en silencio y la repite en voz baja. La página de dua y dhikr tiene las palabras y la respuesta.",
+        "No pase por delante de alguien que está rezando. Pase por detrás.",
+        "Los hombres y las mujeres suelen rezar en espacios separados.",
+        "Si se une a una oración, haga lo que hacen los demás. Póngase de pie cuando ellos se ponen de pie, inclínese cuando ellos se inclinan. Nadie espera que lo sepa todo.",
+        "Si alguien le corrige, dele las gracias, y pregunte después a su maestro si era una norma o una costumbre local."
       ]
     },
     {
       "text": "Preséntese a una persona",
       "subSteps": [
-        "Basta con decir que es nuevo musulmán y que es su primera vez allí.",
+        "Basta con decir que es un nuevo musulmán y que es su primera vez allí. 'As-salamu alaykum, soy nuevo en el islam' abre muchas puertas.",
         "Pregunte quién se ocupa del apoyo a los conversos o de las clases para principiantes.",
         "Si se vuelve demasiado, váyase. Puede volver otro día."
       ]
@@ -61,6 +72,24 @@
     {
       "title": "En la entrada",
       "body": "Assalamu alaykum. Soy nuevo en el islam y es mi primera vez aquí. ¿Me podría indicar adónde ir?"
+    }
+  ],
+  "relatedLinks": [
+    {
+      "label": "Guía para su primera visita a una mezquita",
+      "href": "/guides/first-masjid-visit"
+    },
+    {
+      "label": "Encontrar una mezquita",
+      "href": "/resources/find-masjid"
+    },
+    {
+      "label": "Expresiones de cada día y cómo responder",
+      "href": "/dua-dhikr#everyday-phrases"
+    },
+    {
+      "label": "Cuando oye el adhan",
+      "href": "/dua-dhikr"
     }
   ]
 }
