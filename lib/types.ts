@@ -107,6 +107,8 @@ export interface GlossaryEntry {
   transliteration?: string;
   definition: string;
   seeAlso: string[];
+  // Where a definition rests on a Quran verse or hadith, the sources.json ids.
+  sourceIds?: string[];
 }
 
 /* Resources */

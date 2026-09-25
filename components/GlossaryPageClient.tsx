@@ -5,17 +5,20 @@ import { Breadcrumb } from "@/components/Breadcrumb";
 import { useTranslations } from "@/components/LocaleProvider";
 import { SearchBar } from "@/components/SearchBar";
 import { AnimateIn } from "@/components/AnimateIn";
-import type { GlossaryEntry } from "@/lib/types";
+import { SourceTags } from "@/components/SourceTags";
+import type { GlossaryEntry, SourceEntry } from "@/lib/types";
 import { localizeHref, type Locale, type Messages } from "@/lib/i18n";
 
 interface GlossaryPageClientProps {
   locale: Locale;
   entries: GlossaryEntry[];
+  sources: SourceEntry[];
 }
 
 export function GlossaryPageClient({
   locale,
   entries,
+  sources,
 }: GlossaryPageClientProps) {
   const t = useTranslations();
   const copy = t<Messages["pages"]["glossary"]>("pages.glossary");
@@ -143,6 +146,17 @@ export function GlossaryPageClient({
                       <p className="mb-2 text-sm leading-relaxed text-textSecondary">
                         {entry.definition}
                       </p>
+                      {entry.sourceIds && entry.sourceIds.length > 0 && (
+                        <div className="mb-2 flex flex-wrap items-center gap-1.5 text-xs text-textMuted">
+                          <span>{copy.sourcesLabel}</span>
+                          <SourceTags
+                            sources={sources.filter((source) =>
+                              entry.sourceIds?.includes(source.id),
+                            )}
+                            compact
+                          />
+                        </div>
+                      )}
                       {entry.seeAlso.length > 0 && (
                         <div className="flex flex-wrap items-center gap-1.5 text-xs text-textMuted">
                           <span>{copy.seeAlso}</span>

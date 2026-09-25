@@ -1,5 +1,5 @@
 import { GlossaryPageClient } from "@/components/GlossaryPageClient";
-import { getAllGlossaryEntries } from "@/lib/content";
+import { getAllGlossaryEntries, getSourcesByIds } from "@/lib/content";
 import { type Locale } from "@/lib/i18n";
 import { getPageMetadata } from "@/lib/metadata";
 import { JsonLd, breadcrumbJsonLd } from "@/components/JsonLd";
@@ -17,6 +17,11 @@ export default function GlossaryPage({
 }) {
   const locale = params.locale;
   const t = getTranslator(locale);
+  const entries = getAllGlossaryEntries(locale);
+  const sources = getSourcesByIds(
+    Array.from(new Set(entries.flatMap((entry) => entry.sourceIds ?? []))),
+    locale,
+  );
 
   return (
     <>
@@ -28,7 +33,8 @@ export default function GlossaryPage({
       />
       <GlossaryPageClient
         locale={params.locale}
-        entries={getAllGlossaryEntries(params.locale)}
+        entries={entries}
+        sources={sources}
       />
     </>
   );
