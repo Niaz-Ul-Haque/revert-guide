@@ -417,6 +417,33 @@ export default function StepPage({
         </AnimateIn>
       )}
 
+      {step.relatedLinks && step.relatedLinks.length > 0 && (
+        <AnimateIn>
+          <section className="mb-12" aria-labelledby="where-next-heading">
+            <h2
+              id="where-next-heading"
+              className="mb-4 font-display text-2xl font-semibold tracking-tight text-textPrimary"
+            >
+              {copy.whereToGoNext}
+            </h2>
+            <ul className="mb-0 flex flex-wrap gap-2 pl-0">
+              {step.relatedLinks.map((link) => (
+                <li key={link.href} className="list-none">
+                  <Link
+                    href={localizeHref(locale, link.href)}
+                    prefetch={false}
+                    className="inline-flex min-h-[44px] items-center gap-1.5 rounded-xl border border-border/60 bg-white px-4 py-2 text-sm font-medium text-primary no-underline shadow-card transition-all duration-200 hover:border-primaryGreen/50 hover:bg-surfaceElevated hover:shadow-soft"
+                  >
+                    {link.label}
+                    <Icon name="chevron-right" size="sm" />
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </section>
+        </AnimateIn>
+      )}
+
       {glossaryTerms.length > 0 && (
         <AnimateIn>
           <section className="mb-12" aria-labelledby="glossary-heading">
