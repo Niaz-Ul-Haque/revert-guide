@@ -105,7 +105,8 @@
       "now": "지금: {name}. 대략 {start}부터 {end}까지 이어질 예정이에요.",
       "soon": "다음: {name}. {start} 무렵 시작될 예정이에요.",
       "link": "이 시기를 위한 가이드 읽기"
-    }
+    },
+    "backToTop": "맨 위로"
   },
   "search": {
     "placeholder": "가이드, 용어집, 주제, 자료 검색...",
@@ -712,7 +713,18 @@
       "howToUseTitle": "부담 없이 출처를 활용하는 법",
       "howToUseBody": "출처를 검증하는 전문가가 될 필요는 없어요. 기본부터 시작하고, 믿을 수 있는 선생님에게 배우고, 예배, 가족, 건강, 돈에 관한 질문이 생기면 자격을 갖춘 사람에게 물어보세요. 출처 표시는 우리가 한 일을 확인할 수 있도록 달아 둔 것이에요. 꼭 익혀야 할 또 하나의 숙제가 아니에요.",
       "linkLastChecked": "링크 마지막 확인: {date}.",
-      "endorsementNote": "출처 표시가 있다고 해서 그 단체가 Revert Guide를 보증한다는 뜻은 아니에요. 뒷받침하는 정보를 어디에서 찾았는지, 어디에서 더 읽을 수 있는지 보여 주는 것이에요."
+      "endorsementNote": "출처 표시가 있다고 해서 그 단체가 Revert Guide를 보증한다는 뜻은 아니에요. 뒷받침하는 정보를 어디에서 찾았는지, 어디에서 더 읽을 수 있는지 보여 주는 것이에요.",
+      "indexLabel": "카테고리로 바로 가기",
+      "entryCount": {
+        "one": "개 출처",
+        "other": "개 출처"
+      },
+      "showSources": {
+        "one": "출처 {count}개 보기",
+        "other": "출처 {count}개 보기"
+      },
+      "columnSource": "출처",
+      "columnSupports": "뒷받침하는 내용"
     },
     "roadmap": {
       "badge": "앞으로 걸어갈 길",

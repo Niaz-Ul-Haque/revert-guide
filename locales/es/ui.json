@@ -105,7 +105,8 @@
       "now": "Ahora: {name}. Se espera que dure aproximadamente del {start} al {end}.",
       "soon": "Siguiente: {name}. Se espera que empiece alrededor del {start}.",
       "link": "Lea la guía para esta época del año"
-    }
+    },
+    "backToTop": "Volver arriba"
   },
   "search": {
     "placeholder": "Buscar guías, glosario, temas, recursos...",
@@ -712,7 +713,18 @@
       "howToUseTitle": "Cómo usar las fuentes sin sentirse abrumado",
       "howToUseBody": "No necesita volverse experto en verificar fuentes. Empiece por lo básico, aprenda de maestros de confianza y pregunte a alguien calificado cuando la duda tenga que ver con su adoración, su familia, su salud o su dinero. Las etiquetas están aquí para que pueda revisar nuestro trabajo. No son una cosa más que tenga que dominar.",
       "linkLastChecked": "Enlace revisado por última vez: {date}.",
-      "endorsementNote": "Que una fuente aparezca etiquetada no significa que esa organización respalde a Revert Guide. Indica dónde buscamos información de apoyo y dónde puede seguir leyendo."
+      "endorsementNote": "Que una fuente aparezca etiquetada no significa que esa organización respalde a Revert Guide. Indica dónde buscamos información de apoyo y dónde puede seguir leyendo.",
+      "indexLabel": "Ir a una categoría",
+      "entryCount": {
+        "one": "fuente",
+        "other": "fuentes"
+      },
+      "showSources": {
+        "one": "Mostrar {count} fuente",
+        "other": "Mostrar {count} fuentes"
+      },
+      "columnSource": "Fuente",
+      "columnSupports": "Qué respalda"
     },
     "roadmap": {
       "badge": "Su camino por delante",

@@ -105,7 +105,8 @@
       "now": "En ce moment : {name}. Prévu environ du {start} au {end}.",
       "soon": "Prochainement : {name}. Début prévu vers le {start}.",
       "link": "Lire le guide pour cette période de l'année"
-    }
+    },
+    "backToTop": "Retour en haut"
   },
   "search": {
     "placeholder": "Rechercher des guides, le glossaire, des sujets, des ressources...",
@@ -712,7 +713,18 @@
       "howToUseTitle": "Utiliser les sources sans vous sentir débordé",
       "howToUseBody": "Vous n'avez pas besoin de devenir expert en vérification des sources. Commencez par les bases, apprenez auprès d'enseignants de confiance et demandez à une personne qualifiée quand une question touche votre culte, votre famille, votre santé ou votre argent. Les étiquettes sont là pour que vous puissiez vérifier notre travail. Ce n'est pas une chose de plus à maîtriser.",
       "linkLastChecked": "Lien vérifié pour la dernière fois : {date}.",
-      "endorsementNote": "Une étiquette de source ne veut pas dire que l'organisation soutient Revert Guide. Elle indique où nous avons cherché des informations à l'appui et où vous pouvez continuer à lire."
+      "endorsementNote": "Une étiquette de source ne veut pas dire que l'organisation soutient Revert Guide. Elle indique où nous avons cherché des informations à l'appui et où vous pouvez continuer à lire.",
+      "indexLabel": "Aller à une catégorie",
+      "entryCount": {
+        "one": "référence",
+        "other": "références"
+      },
+      "showSources": {
+        "one": "Afficher {count} référence",
+        "other": "Afficher {count} références"
+      },
+      "columnSource": "Référence",
+      "columnSupports": "Ce qu'elle appuie"
     },
     "roadmap": {
       "badge": "Votre chemin",

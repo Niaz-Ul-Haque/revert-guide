@@ -105,7 +105,8 @@
       "now": "Ngayon: {name}. Inaasahang tatakbo mula mga {start} hanggang {end}.",
       "soon": "Susunod: {name}. Inaasahang magsisimula bandang {start}.",
       "link": "Basahin ang gabay para sa panahong ito ng taon"
-    }
+    },
+    "backToTop": "Bumalik sa itaas"
   },
   "search": {
     "placeholder": "Maghanap sa mga gabay, glosaryo, paksa, mapagkukunan...",
@@ -712,7 +713,18 @@
       "howToUseTitle": "Paano gamitin ang mga sanggunian nang hindi nabibigatan",
       "howToUseBody": "Hindi mo kailangang maging eksperto sa pagsusuri ng mga sanggunian. Magsimula sa mga batayan, matuto sa mga gurong pinagkakatiwalaan mo, at magtanong sa isang kwalipikado kapag ang tanong ay tungkol sa pagsamba, pamilya, kalusugan o pera mo. Narito ang mga tag para masuri mo ang aming gawa. Hindi ito isa pang bagay na kailangan mong pag-aralan nang husto.",
       "linkLastChecked": "Huling nasuri ang link: {date}.",
-      "endorsementNote": "Hindi ibig sabihin ng tag ng sanggunian na inendorso ng organisasyong iyon ang Revert Guide. Ipinapakita lamang nito kung saan kami naghanap ng sumusuportang impormasyon at kung saan ka puwedeng magpatuloy sa pagbabasa."
+      "endorsementNote": "Hindi ibig sabihin ng tag ng sanggunian na inendorso ng organisasyong iyon ang Revert Guide. Ipinapakita lamang nito kung saan kami naghanap ng sumusuportang impormasyon at kung saan ka puwedeng magpatuloy sa pagbabasa.",
+      "indexLabel": "Tumalon sa isang kategorya",
+      "entryCount": {
+        "one": "sanggunian",
+        "other": "sanggunian"
+      },
+      "showSources": {
+        "one": "Ipakita ang {count} sanggunian",
+        "other": "Ipakita ang {count} sanggunian"
+      },
+      "columnSource": "Sanggunian",
+      "columnSupports": "Ano ang sinusuportahan nito"
     },
     "roadmap": {
       "badge": "Ang daan mo pasulong",

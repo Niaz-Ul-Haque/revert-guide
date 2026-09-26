@@ -105,7 +105,8 @@
       "now": "现在：{name}。预计大约从{start}持续到{end}。",
       "soon": "下一个：{name}。预计大约在{start}开始。",
       "link": "阅读这个时节的指南"
-    }
+    },
+    "backToTop": "返回顶部"
   },
   "search": {
     "placeholder": "搜索指南、词汇表、主题、资源…",
@@ -712,7 +713,18 @@
       "howToUseTitle": "如何使用资料来源而不感到不知所措",
       "howToUseBody": "你不需要成为核查资料来源的专家。从基础开始，向你信任的老师学习，当问题涉及你的功修、家庭、健康或金钱时，请教有资质的人。这些来源标签是为了让你可以核对我们的内容，而不是又一件你必须掌握的事。",
       "linkLastChecked": "链接最近检查日期：{date}。",
-      "endorsementNote": "来源标签并不表示该机构认可 Revert Guide。它只是说明我们在哪里查找了支持性的信息，以及你可以在哪里继续阅读。"
+      "endorsementNote": "来源标签并不表示该机构认可 Revert Guide。它只是说明我们在哪里查找了支持性的信息，以及你可以在哪里继续阅读。",
+      "indexLabel": "跳到某个类别",
+      "entryCount": {
+        "one": "个来源",
+        "other": "个来源"
+      },
+      "showSources": {
+        "one": "显示 {count} 个来源",
+        "other": "显示 {count} 个来源"
+      },
+      "columnSource": "来源",
+      "columnSupports": "支持的内容"
     },
     "roadmap": {
       "badge": "你前方的路",
