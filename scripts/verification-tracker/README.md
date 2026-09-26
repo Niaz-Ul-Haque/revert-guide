@@ -1,0 +1,44 @@
+# Content verification tracker
+
+`build.py` generates `docs/content-verification-tracker.xlsx`, the workbook the
+review team (scholars, mentors, Bengali reviewers, professionals) uses to verify
+the site's text one section at a time.
+
+## What is in the workbook
+
+| Sheet | Contents |
+| --- | --- |
+| Read me | How to use the workbook, column legend, review types, house rules (English and Bengali). |
+| Summary | Formula-driven progress counts by area, review type, reviewer, priority and Bengali status. |
+| Review rows | One row per text section: English, Bengali, priority, review needed, suggested reviewer, current `reviewStatus`, sources, key points, pre-check flags, and the team's verdict, reviewer, comment, done and date columns. |
+| Items | One row per content item (step, topic, guide, FAQ entry, glossary entry, tool, page section) with item-level rollups of the rows. |
+| Sources | Every entry of `locales/en/sources.json` with its note, usage count and verdict columns. |
+| Masjids | Every entry of `locales/en/masjids.json` with English and Bengali notes and verdict columns. |
+
+The generated columns come from `locales/en` and `locales/bn`. The yellow
+columns are for the team and are not carried over when the workbook is rebuilt,
+so copy them out (or diff by Row ID and Item key) before regenerating.
+
+## Classification data
+
+`classification/*.json` holds one record per item key (`step:<id>`,
+`topic:<id>`, `guide:<id>`, `seasonal:<id>`, `faq:<id>`, `glossary:<id>`,
+`tool:<name>`, `page:ramadan-planning`, `dawah:personal`, `resource:<id>`,
+`collection:<file>`, `ui:pages.<page>.<key>`) with the review types, suggested
+reviewers, priority, key points to check and pre-check flags. They were
+produced by an assisted read of the English content against the rules in
+CLAUDE.md and can be edited by hand. Items without a record fall back to
+keyword rules in `build.py`. For `ui:` records, `include: false` keeps a
+chrome-only block of `ui.json` out of the workbook.
+
+## Running it
+
+```bash
+pip install openpyxl            # once
+python3 scripts/verification-tracker/build.py
+# or
+python3 scripts/verification-tracker/build.py --out /tmp/tracker.xlsx --dump-json /tmp/rows.json
+```
+
+The script prints the row counts per area and the number of items that had no
+classification record.
