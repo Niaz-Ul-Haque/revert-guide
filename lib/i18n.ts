@@ -86,7 +86,15 @@ export function localizeHref(locale: Locale, href: string): string {
     return `/${locale}`;
   }
 
-  if (href.startsWith(`/${locale}`)) {
+  // Match the locale segment only, so "/faq" is not mistaken for a Persian
+  // ("/fa") path.
+  const prefix = `/${locale}`;
+  if (
+    href === prefix ||
+    href.startsWith(`${prefix}/`) ||
+    href.startsWith(`${prefix}#`) ||
+    href.startsWith(`${prefix}?`)
+  ) {
     return href;
   }
 
