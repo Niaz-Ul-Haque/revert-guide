@@ -1,0 +1,1433 @@
+{
+ "generated": "2026-09-26",
+ "rows": [
+  {
+   "key": "stage:day-0-1 | locales/en/stages.json › [id=day-0-1].title/subtitle/description",
+   "row_id_at_check": "R0001",
+   "batch": "batch-01.json",
+   "text_hash": "9fa29bf3ec",
+   "checked_on": "2026-09-26",
+   "verdict": "Verified with notes",
+   "claims": [
+    {
+     "claim": "A new Muslim makes ghusl in the first day or two (stated as advice, no ruling given)",
+     "result": "matches",
+     "evidence": "IslamQA (search snippets), https://islamqa.info/en/answers/81949/when-is-ghusl-required-and-when-is-it-mustahabb and https://islamqa.info/en/answers/975/causes-that-make-ghusl-a-must: 'The Malikis and Hanbalis are of the view that if a disbeliever becomes Muslim, ghusl is required ... The Hanafis and Shafi'is are of the view that it is encouraged'; 'If a disbeliever becomes Muslim when he is in the state of janabah, then he has to do ghusl.'"
+    },
+    {
+     "claim": "The Prophet told converts to make ghusl (basis of the practice)",
+     "result": "matches",
+     "evidence": "Sunnah.com (search snippet), https://sunnah.com/abudawud:355: Qays ibn Asim came to the Prophet intending to embrace Islam and was commanded to take a bath with water and lote-tree leaves; also in Tirmidhi and Nasa'i."
+    },
+    {
+     "claim": "Ghusl on conversion is recommended, obligatory if in a state of major ritual impurity before praying",
+     "result": "matches",
+     "evidence": "SeekersGuidance (search snippet), https://seekersguidance.org/answers/islamic-belief/is-ghusl-required-after-saying-the-shahada-shaykh-abdul-rahim-reasat/: 'it is recommended that they perform a ritual bath'; 'only obligatory for the one who just enters Islam if they are in a state of major ritual impurity and are going to perform the prayers'."
+    }
+   ],
+   "notes": "Ghusl advice is consistent with the sources. The schools differ: Maliki and Hanbali say obligatory on conversion, Hanafi and Shafi'i say recommended unless the person was in a state of major impurity, in which case all agree it is needed before prayer. The description does not need to choose, but it could say 'before your first prayer'.",
+   "needs_scholar": true,
+   "method": "3 web searches (islamqa.info, sunnah.com, seekersguidance.org snippets); page fetch blocked"
+  },
+  {
+   "key": "stage:day-0-1 | locales/en/stages.json › [id=day-0-1].mainGoal",
+   "row_id_at_check": "R0002",
+   "batch": "batch-01.json",
+   "text_hash": "d1e56151e8",
+   "checked_on": "2026-09-26",
+   "verdict": "Verified with notes",
+   "claims": [
+    {
+     "claim": "Make ghusl 'when you feel ready' (timing left open)",
+     "result": "matches",
+     "evidence": "SeekersGuidance (search snippet), https://seekersguidance.org/answers/islamic-belief/is-ghusl-required-after-saying-the-shahada-shaykh-abdul-rahim-reasat/: 'it is recommended that they perform a ritual bath'; 'only obligatory for the one who just enters Islam if they are in a state of major ritual impurity and are going to perform the prayers'."
+    },
+    {
+     "claim": "Ghusl on conversion: schools differ between obligatory and recommended",
+     "result": "matches",
+     "evidence": "IslamQA (search snippets), https://islamqa.info/en/answers/81949/when-is-ghusl-required-and-when-is-it-mustahabb and https://islamqa.info/en/answers/975/causes-that-make-ghusl-a-must: 'The Malikis and Hanbalis are of the view that if a disbeliever becomes Muslim, ghusl is required ... The Hanafis and Shafi'is are of the view that it is encouraged'; 'If a disbeliever becomes Muslim when he is in the state of janabah, then he has to do ghusl.'"
+    }
+   ],
+   "notes": "Wording point: 'when you feel ready' should be tied to 'before your first prayer'. Per IslamQA and SeekersGuidance, ghusl is required before praying if the person was in a state of major ritual impurity, and the Maliki and Hanbali schools require it for every convert. The site's wudu-ghusl tool already says this; the stage goal should match it.",
+   "needs_scholar": true,
+   "method": "3 web searches (islamqa.info, sunnah.com, seekersguidance.org snippets); page fetch blocked"
+  },
+  {
+   "key": "stage:day-0-1 | locales/en/stages.json › [id=day-0-1].success",
+   "row_id_at_check": "R0003",
+   "batch": "batch-01.json",
+   "text_hash": "73d53c1380",
+   "checked_on": "2026-09-26",
+   "verdict": "No factual claim to check",
+   "claims": [],
+   "notes": "no issues",
+   "needs_scholar": false,
+   "method": "read only; pastoral or navigational text, no search needed"
+  },
+  {
+   "key": "stage:day-0-1 | locales/en/stages.json › [id=day-0-1].dontWorry",
+   "row_id_at_check": "R0004",
+   "batch": "batch-01.json",
+   "text_hash": "00bd5f939e",
+   "checked_on": "2026-09-26",
+   "verdict": "Verified with notes",
+   "claims": [
+    {
+     "claim": "You do not have to change your name; it is not required",
+     "result": "matches",
+     "evidence": "IslamQA (search snippets), https://islamqa.info/en/answers/109208/does-the-one-who-becomes-muslim-have-to-change-his-name, https://islamqa.info/en/answers/23273 and https://islamqa.info/en/answers/122/changing-ones-name-upon-accepting-islam: 'Changing one's name is not obligatory unless the name has a forbidden meaning, such as a name indicative of servitude to someone other than Allah' (e.g. Abdul-Masih); an Arabic name 'is not essential'."
+    },
+    {
+     "claim": "Long prayers can wait; nobody expects them memorised (a learner prays as best they can)",
+     "result": "matches",
+     "evidence": "IslamQA (search snippets), https://islamqa.info/en/answers/5410 and https://islamqa.info/en/answers/378: one who cannot yet recite al-Fatihah 'should recite it as best as they can' or say subhan Allah, alhamdulillah, Allahu akbar, la ilaha illallah in its place; https://islamqa.info/en/answers/193008: prayers offered wrongly while new in Islam need not be repeated."
+    }
+   ],
+   "notes": "Name change is confirmed as not required. IslamQA adds one exception the site omits: a name with a forbidden or bad meaning (for example servitude to other than Allah) should be changed. Suggest 'unless its meaning goes against Islam, which is rare'. The prayer reassurance matches the allowance for beginners to recite as best they can.",
+   "needs_scholar": true,
+   "method": "2 web searches (islamqa.info snippets); page fetch blocked"
+  },
+  {
+   "key": "stage:day-0-1 | locales/en/stages.json › [id=day-0-1].focusNow",
+   "row_id_at_check": "R0005",
+   "batch": "batch-01.json",
+   "text_hash": "123dabceed",
+   "checked_on": "2026-09-26",
+   "verdict": "Verified with notes",
+   "claims": [
+    {
+     "claim": "Make ghusl when you have time to do it calmly (timing open)",
+     "result": "matches",
+     "evidence": "SeekersGuidance (search snippet), https://seekersguidance.org/answers/islamic-belief/is-ghusl-required-after-saying-the-shahada-shaykh-abdul-rahim-reasat/: 'it is recommended that they perform a ritual bath'; 'only obligatory for the one who just enters Islam if they are in a state of major ritual impurity and are going to perform the prayers'."
+    },
+    {
+     "claim": "Ghusl on conversion is a recommended or required act depending on the school",
+     "result": "matches",
+     "evidence": "IslamQA (search snippets), https://islamqa.info/en/answers/81949/when-is-ghusl-required-and-when-is-it-mustahabb and https://islamqa.info/en/answers/975/causes-that-make-ghusl-a-must: 'The Malikis and Hanbalis are of the view that if a disbeliever becomes Muslim, ghusl is required ... The Hanafis and Shafi'is are of the view that it is encouraged'; 'If a disbeliever becomes Muslim when he is in the state of janabah, then he has to do ghusl.'"
+    }
+   ],
+   "notes": "Same point as R0002: ghusl should come before the first prayer when the person was in a state of major ritual impurity, and two schools require it for every convert. 'Calmly' is fine; add 'before you pray'. Picking one person or masjid to contact is pastoral advice.",
+   "needs_scholar": true,
+   "method": "3 web searches (islamqa.info, sunnah.com, seekersguidance.org snippets); page fetch blocked"
+  },
+  {
+   "key": "stage:day-0-1 | locales/en/stages.json › [id=day-0-1].canWait",
+   "row_id_at_check": "R0006",
+   "batch": "batch-01.json",
+   "text_hash": "fca93c073d",
+   "checked_on": "2026-09-26",
+   "verdict": "Verified",
+   "claims": [
+    {
+     "claim": "Changing your name can wait (it is not required)",
+     "result": "matches",
+     "evidence": "IslamQA (search snippets), https://islamqa.info/en/answers/109208/does-the-one-who-becomes-muslim-have-to-change-his-name, https://islamqa.info/en/answers/23273 and https://islamqa.info/en/answers/122/changing-ones-name-upon-accepting-islam: 'Changing one's name is not obligatory unless the name has a forbidden meaning, such as a name indicative of servitude to someone other than Allah' (e.g. Abdul-Masih); an Arabic name 'is not essential'."
+    }
+   ],
+   "notes": "no issues; the exception for a name with a forbidden meaning is noted at R0004",
+   "needs_scholar": true,
+   "method": "shares the islamqa.info name-change search with R0004; page fetch blocked"
+  },
+  {
+   "key": "stage:day-0-1 | locales/en/stages.json › [id=day-0-1].askHelpIf",
+   "row_id_at_check": "R0007",
+   "batch": "batch-01.json",
+   "text_hash": "3ef0c7c6b8",
+   "checked_on": "2026-09-26",
+   "verdict": "Verified with notes",
+   "claims": [
+    {
+     "claim": "A witness or certificate is a practical need, not a condition of becoming Muslim (implied)",
+     "result": "matches",
+     "evidence": "IslamQA (search snippets), https://islamqa.info/en/answers/11936/it-is-not-essential-to-have-witnesses-in-order-to-enter-islam and https://islamqa.info/en/answers/49715: 'It is not essential to take shahadah ... before witnesses. Islam is a matter that is between a person and his Lord.'"
+    }
+   ],
+   "notes": "The row does not claim witnesses are required, and IslamQA confirms they are not: the Shahada counts between the person and Allah. Consider adding that line, since some readers assume a witness or certificate is needed for the Shahada to be valid; the certificate is only paperwork (for example for marriage or Hajj). No safety contact is named here; the get-help page carries them.",
+   "needs_scholar": false,
+   "method": "1 web search (islamqa.info snippets); page fetch blocked"
+  },
+  {
+   "key": "stage:day-0-1 | locales/en/stages.json › [id=day-0-1].learningPath.main",
+   "row_id_at_check": "R0008",
+   "batch": "batch-01.json",
+   "text_hash": "028c4200aa",
+   "checked_on": "2026-09-26",
+   "verdict": "Discrepancy found",
+   "claims": [
+    {
+     "claim": "'Welcome to Islam: A Step-by-Step Guide for New Muslims' by Mustafa Umar, free on his website",
+     "result": "matches",
+     "evidence": "Author's site (search snippet), https://mustafaumar.com/downloads/welcome-to-islam/: the guide is offered for download on this page; also on Internet Archive https://archive.org/details/welcome-to-islam-a-step-by-step-guide-by-for-new-muslims-mustafa-umar."
+    },
+    {
+     "claim": "A 32-page guide",
+     "result": "differs",
+     "evidence": "Amazon https://www.amazon.com/Welcome-Islam-Step-Step-Muslims/dp/1461104777, Biblio https://www.biblio.com/9781461104773 and Goodreads https://www.goodreads.com/book/show/18987447-welcome-to-islam (search snippets): CreateSpace paperback, 19 August 2011, ISBN 978-1461104773, '46 pages'. No listing found gives 32 pages."
+    },
+    {
+     "claim": "Mustafa Umar is a scholar and imam",
+     "result": "matches",
+     "evidence": "Author's About page (search snippet), https://mustafaumar.com/about-2/: imam and Islamic scholar; B.A. Theology and Islamic Law (European Institute of Islamic Sciences, France), M.A. Islamic Studies (University of Gloucestershire)."
+    },
+    {
+     "claim": "Written for your first month",
+     "result": "matches",
+     "evidence": "Author's page and Goodreads (search snippets): 'teaches them the absolute basics of Islam that they should learn within their first month of being a Muslim'."
+    }
+   ],
+   "notes": "Page count does not hold as written: every listing found (Amazon, Biblio, Goodreads) gives the 2011 CreateSpace edition as 46 pages, and the site's source note ties '32-page' to that same edition. If 32 is the count of the free PDF, say so or just say 'short guide'; otherwise correct it. Free download page, author credentials and first-month scope are confirmed.",
+   "needs_scholar": false,
+   "method": "4 web searches (mustafaumar.com, Amazon, Goodreads, Biblio snippets); page fetch blocked, so the PDF itself could not be opened"
+  },
+  {
+   "key": "stage:day-0-1 | locales/en/stages.json › [id=day-0-1].learningPath.optional",
+   "row_id_at_check": "R0009",
+   "batch": "batch-01.json",
+   "text_hash": "09b43addda",
+   "checked_on": "2026-09-26",
+   "verdict": "No factual claim to check",
+   "claims": [],
+   "notes": "no issues; links to the site's own first-24-hours step",
+   "needs_scholar": false,
+   "method": "read only; pastoral or navigational text, no search needed"
+  },
+  {
+   "key": "stage:day-0-1 | locales/en/stages.json › [id=day-0-1].learningPath.guardrails",
+   "row_id_at_check": "R0010",
+   "batch": "batch-01.json",
+   "text_hash": "25ada5b3f7",
+   "checked_on": "2026-09-26",
+   "verdict": "No factual claim to check",
+   "claims": [],
+   "notes": "no issues",
+   "needs_scholar": false,
+   "method": "read only; pastoral or navigational text, no search needed"
+  },
+  {
+   "key": "stage:day-0-1 | locales/en/stages.json › [id=day-0-1].goodNextQuestions",
+   "row_id_at_check": "R0011",
+   "batch": "batch-01.json",
+   "text_hash": "c60abedc9a",
+   "checked_on": "2026-09-26",
+   "verdict": "No factual claim to check",
+   "claims": [],
+   "notes": "no issues; both topic links resolve to existing pages (locales/en/topics/new-muslim-basics.json and family-and-identity.json)",
+   "needs_scholar": false,
+   "method": "checked the two topic slugs exist in the repo; no search needed"
+  },
+  {
+   "key": "stage:week-1 | locales/en/stages.json › [id=week-1].title/subtitle/description",
+   "row_id_at_check": "R0012",
+   "batch": "batch-01.json",
+   "text_hash": "4e2f5446a5",
+   "checked_on": "2026-09-26",
+   "verdict": "No factual claim to check",
+   "claims": [],
+   "notes": "no issues; the resource and prayer claims in this stage are checked at R0015, R0019 and R0020",
+   "needs_scholar": false,
+   "method": "read only; pastoral or navigational text, no search needed"
+  },
+  {
+   "key": "stage:week-1 | locales/en/stages.json › [id=week-1].mainGoal",
+   "row_id_at_check": "R0013",
+   "batch": "batch-01.json",
+   "text_hash": "454229e654",
+   "checked_on": "2026-09-26",
+   "verdict": "No factual claim to check",
+   "claims": [],
+   "notes": "no issues",
+   "needs_scholar": false,
+   "method": "read only; pastoral or navigational text, no search needed"
+  },
+  {
+   "key": "stage:week-1 | locales/en/stages.json › [id=week-1].success",
+   "row_id_at_check": "R0014",
+   "batch": "batch-01.json",
+   "text_hash": "256718a946",
+   "checked_on": "2026-09-26",
+   "verdict": "No factual claim to check",
+   "claims": [],
+   "notes": "no issues",
+   "needs_scholar": false,
+   "method": "read only; pastoral or navigational text, no search needed"
+  },
+  {
+   "key": "stage:week-1 | locales/en/stages.json › [id=week-1].dontWorry",
+   "row_id_at_check": "R0015",
+   "batch": "batch-01.json",
+   "text_hash": "3adde741a3",
+   "checked_on": "2026-09-26",
+   "verdict": "Verified with notes",
+   "claims": [
+    {
+     "claim": "Arabic pronunciation does not have to be right yet (a beginner recites as best they can)",
+     "result": "matches",
+     "evidence": "IslamQA (search snippets), https://islamqa.info/en/answers/5410 and https://islamqa.info/en/answers/378: one who cannot yet recite al-Fatihah 'should recite it as best as they can' or say subhan Allah, alhamdulillah, Allahu akbar, la ilaha illallah in its place; https://islamqa.info/en/answers/193008: prayers offered wrongly while new in Islam need not be repeated."
+    },
+    {
+     "claim": "Missing prayers while still learning is normal (read against the rule that prayers are obligatory from the Shahada and missed ones are made up)",
+     "result": "matches",
+     "evidence": "IslamQA (search snippet), https://islamqa.info/en/answers/13664 (Ruling on making up missed prayers): a prayer missed for forgetting or sleeping is excused 'but you have to make it up as soon as you remember it'; the five prayers are obligatory on every Muslim at their times."
+    },
+    {
+     "claim": "Optional practices can wait until the required ones feel steady",
+     "result": "not checked",
+     "evidence": "Standard priority of obligatory over voluntary worship; not searched."
+    }
+   ],
+   "notes": "The pronunciation and 'pray as best you can' points are supported. Tighten 'Missing prayers while you are still learning is normal': prayer is obligatory from the day of the Shahada, and IslamQA says a missed prayer is made up as soon as one remembers. Suggest 'praying imperfectly is normal; pray as best you can rather than skipping' and point to the site's guidance on making up prayers.",
+   "needs_scholar": true,
+   "method": "2 web searches (islamqa.info snippets); page fetch blocked"
+  },
+  {
+   "key": "stage:week-1 | locales/en/stages.json › [id=week-1].focusNow",
+   "row_id_at_check": "R0016",
+   "batch": "batch-01.json",
+   "text_hash": "87c1afc348",
+   "checked_on": "2026-09-26",
+   "verdict": "No factual claim to check",
+   "claims": [],
+   "notes": "no issues",
+   "needs_scholar": false,
+   "method": "read only; pastoral or navigational text, no search needed"
+  },
+  {
+   "key": "stage:week-1 | locales/en/stages.json › [id=week-1].canWait",
+   "row_id_at_check": "R0017",
+   "batch": "batch-01.json",
+   "text_hash": "e6f2859ffe",
+   "checked_on": "2026-09-26",
+   "verdict": "No factual claim to check",
+   "claims": [],
+   "notes": "no issues",
+   "needs_scholar": false,
+   "method": "read only; pastoral or navigational text, no search needed"
+  },
+  {
+   "key": "stage:week-1 | locales/en/stages.json › [id=week-1].askHelpIf",
+   "row_id_at_check": "R0018",
+   "batch": "batch-01.json",
+   "text_hash": "3cfd832635",
+   "checked_on": "2026-09-26",
+   "verdict": "No factual claim to check",
+   "claims": [],
+   "notes": "no issues",
+   "needs_scholar": false,
+   "method": "read only; pastoral or navigational text, no search needed"
+  },
+  {
+   "key": "stage:week-1 | locales/en/stages.json › [id=week-1].learningPath.main",
+   "row_id_at_check": "R0019",
+   "batch": "batch-01.json",
+   "text_hash": "a8a26f2488",
+   "checked_on": "2026-09-26",
+   "verdict": "Verified with notes",
+   "claims": [
+    {
+     "claim": "Quran.com learning plan 'Seven Days, Seven Verses: Living the Message of Al-Fatihah' exists, one verse a day for seven days",
+     "result": "matches",
+     "evidence": "Quran.com (search snippet), https://quran.com/learning-plans/seven-days-seven-verses-living-the-message-of-al-fatihah: 'a 7-day journey through Surah Al-Fatihah designed to deepen understanding, strengthen prayer'; lessons by Shaykh Hammad Fahim."
+    },
+    {
+     "claim": "Under ten minutes a day",
+     "result": "matches",
+     "evidence": "Same page (search snippet): 'spending about 10 minutes reviewing the day's materials'."
+    },
+    {
+     "claim": "Word by word with its meaning",
+     "result": "unsupported",
+     "evidence": "Search snippets describe understanding, reflection (tadabbur) and 'a personal conversation with Allah'; no snippet mentions a word-by-word breakdown. Page fetch blocked."
+    },
+    {
+     "claim": "Free and readable without an account",
+     "result": "not checked",
+     "evidence": "Quran.com is a free platform (from standard references, not confirmed online); the no-account detail cannot be seen in search results."
+    }
+   ],
+   "notes": "Plan, seven-day structure, teacher and roughly ten minutes a day are confirmed. Two details could not be confirmed from search results: the 'word by word' description (snippets present the plan as reflection on meaning) and reading without an account. Consider 'about ten minutes' and 'verse by verse with its meaning'.",
+   "needs_scholar": false,
+   "method": "2 web searches (quran.com snippets); page fetch blocked"
+  },
+  {
+   "key": "stage:week-1 | locales/en/stages.json › [id=week-1].learningPath.optional",
+   "row_id_at_check": "R0020",
+   "batch": "batch-01.json",
+   "text_hash": "97ec09c0e9",
+   "checked_on": "2026-09-26",
+   "verdict": "Verified with notes",
+   "claims": [
+    {
+     "claim": "New Muslim Academy offers a free prayer course that needs an account",
+     "result": "matches",
+     "evidence": "newmuslimacademy.org (search snippets), https://www.newmuslimacademy.org/register/ 'Register for FREE New Muslim Classes', https://www.newmuslimacademy.org/login/, https://www.newmuslimacademy.org/our-courses/: 'FREE access ... through membership'."
+    },
+    {
+     "claim": "Starts with wudu and prayer videos and short quizzes",
+     "result": "matches",
+     "evidence": "newmuslimacademy.org (search snippets), https://www.newmuslimacademy.org/lessons/wudu/ and https://www.newmuslimacademy.org/lessons/salah/: lesson pages on wudu and salah; 'interactive content including videos and quizzes'; also 'monthly live Prayer classes'."
+    },
+    {
+     "claim": "The site uses analytics and an advertising pixel",
+     "result": "not checked",
+     "evidence": "Cannot be seen in search results; the site's own source note (accessed 2026-09-23) records Google Analytics and a Facebook pixel. Page fetch blocked."
+    }
+   ],
+   "notes": "Free course, account requirement and wudu/prayer lessons with videos and quizzes are confirmed. The analytics and advertising-pixel statement could not be re-checked by search; keep it only while someone re-verifies it periodically, since trackers change.",
+   "needs_scholar": false,
+   "method": "2 web searches (newmuslimacademy.org snippets); page fetch blocked"
+  },
+  {
+   "key": "stage:week-1 | locales/en/stages.json › [id=week-1].learningPath.guardrails",
+   "row_id_at_check": "R0021",
+   "batch": "batch-01.json",
+   "text_hash": "843cfd0cbb",
+   "checked_on": "2026-09-26",
+   "verdict": "No factual claim to check",
+   "claims": [],
+   "notes": "no issues",
+   "needs_scholar": false,
+   "method": "read only; pastoral or navigational text, no search needed"
+  },
+  {
+   "key": "stage:week-1 | locales/en/stages.json › [id=week-1].goodNextQuestions",
+   "row_id_at_check": "R0022",
+   "batch": "batch-01.json",
+   "text_hash": "fa0c56f835",
+   "checked_on": "2026-09-26",
+   "verdict": "No factual claim to check",
+   "claims": [],
+   "notes": "no issues; both topic links resolve (locales/en/topics/masjid-and-community.json and prayer.json)",
+   "needs_scholar": false,
+   "method": "checked the two topic slugs exist in the repo; no search needed"
+  },
+  {
+   "key": "stage:week-2-3 | locales/en/stages.json › [id=week-2-3].title/subtitle/description",
+   "row_id_at_check": "R0023",
+   "batch": "batch-01.json",
+   "text_hash": "270c6c1423",
+   "checked_on": "2026-09-26",
+   "verdict": "No factual claim to check",
+   "claims": [],
+   "notes": "No external claim. Internal inconsistency to fix: the subtitle says 'Weeks 2-4', the duration says '2-3 weeks' and the slug is week-2-3; pick one.",
+   "needs_scholar": false,
+   "method": "read only; pastoral or navigational text, no search needed"
+  },
+  {
+   "key": "stage:week-2-3 | locales/en/stages.json › [id=week-2-3].mainGoal",
+   "row_id_at_check": "R0024",
+   "batch": "batch-01.json",
+   "text_hash": "a944eaf61a",
+   "checked_on": "2026-09-26",
+   "verdict": "No factual claim to check",
+   "claims": [],
+   "notes": "no issues",
+   "needs_scholar": false,
+   "method": "read only; pastoral or navigational text, no search needed"
+  },
+  {
+   "key": "stage:week-2-3 | locales/en/stages.json › [id=week-2-3].success",
+   "row_id_at_check": "R0025",
+   "batch": "batch-01.json",
+   "text_hash": "654fcd34ce",
+   "checked_on": "2026-09-26",
+   "verdict": "No factual claim to check",
+   "claims": [],
+   "notes": "no issues",
+   "needs_scholar": false,
+   "method": "read only; pastoral or navigational text, no search needed"
+  },
+  {
+   "key": "stage:week-2-3 | locales/en/stages.json › [id=week-2-3].dontWorry",
+   "row_id_at_check": "R0026",
+   "batch": "batch-01.json",
+   "text_hash": "33aef5c625",
+   "checked_on": "2026-09-26",
+   "verdict": "No factual claim to check",
+   "claims": [],
+   "notes": "no issues",
+   "needs_scholar": false,
+   "method": "read only; pastoral or navigational text, no search needed"
+  },
+  {
+   "key": "stage:week-2-3 | locales/en/stages.json › [id=week-2-3].focusNow",
+   "row_id_at_check": "R0027",
+   "batch": "batch-01.json",
+   "text_hash": "f5e109ff99",
+   "checked_on": "2026-09-26",
+   "verdict": "No factual claim to check",
+   "claims": [],
+   "notes": "no issues",
+   "needs_scholar": false,
+   "method": "read only; pastoral or navigational text, no search needed"
+  },
+  {
+   "key": "stage:week-2-3 | locales/en/stages.json › [id=week-2-3].canWait",
+   "row_id_at_check": "R0028",
+   "batch": "batch-01.json",
+   "text_hash": "207b42d701",
+   "checked_on": "2026-09-26",
+   "verdict": "No factual claim to check",
+   "claims": [],
+   "notes": "no issues",
+   "needs_scholar": false,
+   "method": "read only; pastoral or navigational text, no search needed"
+  },
+  {
+   "key": "stage:week-2-3 | locales/en/stages.json › [id=week-2-3].askHelpIf",
+   "row_id_at_check": "R0029",
+   "batch": "batch-01.json",
+   "text_hash": "ad6b89e9be",
+   "checked_on": "2026-09-26",
+   "verdict": "No factual claim to check",
+   "claims": [],
+   "notes": "No factual claim. Safety note: the row names no contact; the get-help page carries the Canadian lines (911, 9-8-8), so a link from this bullet would help a reader whose family situation turns unsafe.",
+   "needs_scholar": false,
+   "method": "read only; pastoral or navigational text, no search needed"
+  },
+  {
+   "key": "stage:week-2-3 | locales/en/stages.json › [id=week-2-3].learningPath.main",
+   "row_id_at_check": "R0030",
+   "batch": "batch-01.json",
+   "text_hash": "823078ecbb",
+   "checked_on": "2026-09-26",
+   "verdict": "Verified with notes",
+   "claims": [
+    {
+     "claim": "The Clear Quran is a published English translation",
+     "result": "matches",
+     "evidence": "theclearquran.org and Wikipedia (search snippets), https://theclearquran.org/, https://en.wikipedia.org/wiki/Mustafa_Khattab: Dr Mustafa Khattab's translation, published by Al-Furqaan Foundation, approved by Al-Azhar, default translation on Quran.com since 2020."
+    },
+    {
+     "claim": "Abdel Haleem's translation exists",
+     "result": "matches",
+     "evidence": "Quran.com (search snippet), https://quran.com/1?translations=85%2C131: M.A.S. Abdel Haleem listed among the translations offered."
+    },
+    {
+     "claim": "Masjid reading classes usually go letters, vowel marks, joining letters, short surahs",
+     "result": "not checked",
+     "evidence": "General description of the usual qaida (primer) sequence; not searched."
+    }
+   ],
+   "notes": "Both translations are confirmed as real, mainstream choices. The class sequence is a generalisation about how primers are taught and is not a checkable claim. no other issues",
+   "needs_scholar": false,
+   "method": "1 web search (theclearquran.org, quran.com, Wikipedia snippets); page fetch blocked"
+  },
+  {
+   "key": "stage:week-2-3 | locales/en/stages.json › [id=week-2-3].learningPath.optional",
+   "row_id_at_check": "R0031",
+   "batch": "batch-01.json",
+   "text_hash": "b6177bf500",
+   "checked_on": "2026-09-26",
+   "verdict": "Verified with notes",
+   "claims": [
+    {
+     "claim": "New Muslim Academy runs free live Quran classes covering Al-Fatihah and short surahs",
+     "result": "matches",
+     "evidence": "newmuslimacademy.org (search snippet), https://www.newmuslimacademy.org/sisters-quran-classes/: 'correct recitation of Surah Al Fatihah along with other short surahs ... Surah Al Kauthar, Surah Al Ikhlaas and Surah An Naas'; 'free Arabic and Quran classes'."
+    },
+    {
+     "claim": "Small groups, brothers and sisters taught separately",
+     "result": "matches",
+     "evidence": "Same page (search snippet): 'Live sessions consist of small groups of students ... segregated by gender (brothers only/sisters only)'."
+    },
+    {
+     "claim": "In the evening, Eastern time",
+     "result": "matches",
+     "evidence": "Same page (search snippet): 'The times are listed in Eastern Standard Time (New York City Time)'. The evening slots themselves were not visible in the snippet; the site's source note records 6:00-9:30 pm ET."
+    },
+    {
+     "claim": "You fill in a sign-up form first",
+     "result": "not checked",
+     "evidence": "Not visible in search results; the registration page https://www.newmuslimacademy.org/register/ exists. Page fetch blocked."
+    }
+   ],
+   "notes": "Classes, content, gender-separated small groups and Eastern time are confirmed. Evening hours and the sign-up form could not be seen in snippets. The link goes to the sisters' page while the text addresses everyone; consider linking the general registration page too. Times are quoted by NMA as Eastern Standard Time.",
+   "needs_scholar": false,
+   "method": "2 web searches (newmuslimacademy.org snippets); page fetch blocked"
+  },
+  {
+   "key": "stage:week-2-3 | locales/en/stages.json › [id=week-2-3].learningPath.guardrails",
+   "row_id_at_check": "R0032",
+   "batch": "batch-01.json",
+   "text_hash": "7dd2e1cf63",
+   "checked_on": "2026-09-26",
+   "verdict": "No factual claim to check",
+   "claims": [],
+   "notes": "no issues",
+   "needs_scholar": false,
+   "method": "read only; pastoral or navigational text, no search needed"
+  },
+  {
+   "key": "stage:week-2-3 | locales/en/stages.json › [id=week-2-3].goodNextQuestions",
+   "row_id_at_check": "R0033",
+   "batch": "batch-01.json",
+   "text_hash": "3da4c78178",
+   "checked_on": "2026-09-26",
+   "verdict": "No factual claim to check",
+   "claims": [],
+   "notes": "no issues; both topic links resolve (locales/en/topics/questions-and-doubts.json and family-and-identity.json)",
+   "needs_scholar": false,
+   "method": "checked the two topic slugs exist in the repo; no search needed"
+  },
+  {
+   "key": "stage:month-1-2 | locales/en/stages.json › [id=month-1-2].title/subtitle/description",
+   "row_id_at_check": "R0034",
+   "batch": "batch-01.json",
+   "text_hash": "e7c7051836",
+   "checked_on": "2026-09-26",
+   "verdict": "No factual claim to check",
+   "claims": [],
+   "notes": "No external claim. Internal inconsistency to fix: the subtitle says 'Months 2-3', the duration says '1-2 months' and the slug is month-1-2; pick one.",
+   "needs_scholar": false,
+   "method": "read only; pastoral or navigational text, no search needed"
+  },
+  {
+   "key": "stage:month-1-2 | locales/en/stages.json › [id=month-1-2].mainGoal",
+   "row_id_at_check": "R0035",
+   "batch": "batch-01.json",
+   "text_hash": "3201b2de57",
+   "checked_on": "2026-09-26",
+   "verdict": "No factual claim to check",
+   "claims": [],
+   "notes": "no issues",
+   "needs_scholar": false,
+   "method": "read only; pastoral or navigational text, no search needed"
+  },
+  {
+   "key": "stage:month-1-2 | locales/en/stages.json › [id=month-1-2].success",
+   "row_id_at_check": "R0036",
+   "batch": "batch-01.json",
+   "text_hash": "5550f73e83",
+   "checked_on": "2026-09-26",
+   "verdict": "No factual claim to check",
+   "claims": [],
+   "notes": "no issues",
+   "needs_scholar": false,
+   "method": "read only; pastoral or navigational text, no search needed"
+  },
+  {
+   "key": "stage:month-1-2 | locales/en/stages.json › [id=month-1-2].dontWorry",
+   "row_id_at_check": "R0037",
+   "batch": "batch-01.json",
+   "text_hash": "0e40ff7756",
+   "checked_on": "2026-09-26",
+   "verdict": "No factual claim to check",
+   "claims": [],
+   "notes": "no issues",
+   "needs_scholar": false,
+   "method": "read only; pastoral or navigational text, no search needed"
+  },
+  {
+   "key": "stage:month-1-2 | locales/en/stages.json › [id=month-1-2].focusNow",
+   "row_id_at_check": "R0038",
+   "batch": "batch-01.json",
+   "text_hash": "98f2513107",
+   "checked_on": "2026-09-26",
+   "verdict": "No factual claim to check",
+   "claims": [],
+   "notes": "no issues",
+   "needs_scholar": false,
+   "method": "read only; pastoral or navigational text, no search needed"
+  },
+  {
+   "key": "stage:month-1-2 | locales/en/stages.json › [id=month-1-2].canWait",
+   "row_id_at_check": "R0039",
+   "batch": "batch-01.json",
+   "text_hash": "aaed47f306",
+   "checked_on": "2026-09-26",
+   "verdict": "No factual claim to check",
+   "claims": [],
+   "notes": "no issues",
+   "needs_scholar": false,
+   "method": "read only; pastoral or navigational text, no search needed"
+  },
+  {
+   "key": "stage:month-1-2 | locales/en/stages.json › [id=month-1-2].askHelpIf",
+   "row_id_at_check": "R0040",
+   "batch": "batch-01.json",
+   "text_hash": "22f2f84161",
+   "checked_on": "2026-09-26",
+   "verdict": "Verified",
+   "claims": [
+    {
+     "claim": "A medical condition can affect the duty to fast (premise of the bullet)",
+     "result": "matches",
+     "evidence": "Quran.com (search snippet), https://quran.com/al-baqarah/185 and https://quran.com/al-baqarah/184-185: 'Whoever is ill or on a journey should fast an equal number of other days ... Allah intends for you ease and does not intend for you hardship.'"
+    }
+   ],
+   "notes": "Premise confirmed: Quran 2:184-185 exempts the sick and the traveller, with the days made up later. Which conditions qualify, and fidyah for long-term illness, are for a scholar and a doctor, which is what the bullet tells the reader to do.",
+   "needs_scholar": false,
+   "method": "1 web search (quran.com snippet); page fetch blocked"
+  },
+  {
+   "key": "stage:month-1-2 | locales/en/stages.json › [id=month-1-2].learningPath.main",
+   "row_id_at_check": "R0041",
+   "batch": "batch-01.json",
+   "text_hash": "31b757fa80",
+   "checked_on": "2026-09-26",
+   "verdict": "Discrepancy found",
+   "claims": [
+    {
+     "claim": "SeekersGuidance offers a free live course 'Essentials of Faith, Worship, and Spirituality'",
+     "result": "matches",
+     "evidence": "SeekersGuidance (search snippet), https://seekersguidance.org/live/: 'Essentials of Faith, Worship, and Spirituality: Mulla's Ithaf al-Talib Explained', SeekersGuidance Canada Center, Level One, Shaykh Faraz Rabbani, free to enroll."
+    },
+    {
+     "claim": "Taught on Saturdays at 10:00 Eastern time",
+     "result": "differs",
+     "evidence": "Same page (search snippet, two separate queries): the course meets 'on Sundays at 1:00 PM ET'; the Saturday 10:00 AM ET slot on the page belongs to a different course."
+    },
+    {
+     "claim": "New Muslim Academy has core courses to finish",
+     "result": "matches",
+     "evidence": "newmuslimacademy.org (search snippet), https://www.newmuslimacademy.org/our-courses/: courses 'designed to help you get started on solidifying your faith and learn the basic concepts and core fundamentals of Islam'."
+    }
+   ],
+   "notes": "Day and time do not match: the seekersguidance.org/live search snippet lists this course on Sundays at 1:00 PM ET, not Saturdays at 10:00; a different course sits at Saturday 10:00 AM ET. Either the schedule changed after the 23 September check or the slot was mis-read. A fixed weekday goes stale; say 'check the live page for the current time' and align resources.json and sources.json.",
+   "needs_scholar": false,
+   "method": "2 web searches (seekersguidance.org snippets) plus the NMA courses search; page fetch blocked"
+  },
+  {
+   "key": "stage:month-1-2 | locales/en/stages.json › [id=month-1-2].learningPath.optional",
+   "row_id_at_check": "R0042",
+   "batch": "batch-01.json",
+   "text_hash": "52c9784432",
+   "checked_on": "2026-09-26",
+   "verdict": "Verified with notes",
+   "claims": [
+    {
+     "claim": "Quran.com has learning plans on Al-Ikhlas, Al-Falaq and An-Nas",
+     "result": "matches",
+     "evidence": "Quran.com (search snippets), https://quran.com/learning-plans and https://quran.com/learning-plans/surah-al-ikhlas-the-oneness-of-allah: plans 'Surah Al-Ikhlas: The Oneness of Allah', 'Surah Al-Falaq: Light Before Sunrise' and 'Surah An-Nas: The Ultimate Refuge'."
+    },
+    {
+     "claim": "The plans are free",
+     "result": "not checked",
+     "evidence": "Quran.com (Quran.Foundation) is a free platform, from standard references (not confirmed online); the snippets do not state a price either way."
+    }
+   ],
+   "notes": "All three named plans exist on Quran.com. 'Free' was not stated in the snippets, though the platform has no paywall as far as the team knows. no other issues",
+   "needs_scholar": false,
+   "method": "1 web search (quran.com snippets); page fetch blocked"
+  },
+  {
+   "key": "stage:month-1-2 | locales/en/stages.json › [id=month-1-2].learningPath.guardrails",
+   "row_id_at_check": "R0043",
+   "batch": "batch-01.json",
+   "text_hash": "1077bc8e8a",
+   "checked_on": "2026-09-26",
+   "verdict": "No factual claim to check",
+   "claims": [],
+   "notes": "no issues; privacy advice about prayer apps, no checkable claim",
+   "needs_scholar": false,
+   "method": "read only; pastoral or navigational text, no search needed"
+  },
+  {
+   "key": "stage:month-1-2 | locales/en/stages.json › [id=month-1-2].goodNextQuestions",
+   "row_id_at_check": "R0044",
+   "batch": "batch-01.json",
+   "text_hash": "42feb45324",
+   "checked_on": "2026-09-26",
+   "verdict": "No factual claim to check",
+   "claims": [],
+   "notes": "no issues; both topic links resolve (locales/en/topics/halal-living.json and modesty.json)",
+   "needs_scholar": false,
+   "method": "checked the two topic slugs exist in the repo; no search needed"
+  },
+  {
+   "key": "step:community | locales/en/steps/community.json › title, timeEstimate",
+   "row_id_at_check": "R0093",
+   "batch": "batch-03.json",
+   "text_hash": "bf9466f2f6",
+   "checked_on": "2026-09-26",
+   "verdict": "Verified with notes",
+   "claims": [
+    {
+     "claim": "Convert Care at Islam Care Centre (Ottawa) is a running programme for converts",
+     "result": "matches",
+     "evidence": "islamcare.ca (search snippet), https://islamcare.ca/services/convert-care/: weekly programme for converts, Wednesday evenings at the centre, free of charge; also Welcome to Islam packages, counselling and monthly social gatherings."
+    },
+    {
+     "claim": "Convert Connect at MAC Masjid Toronto is a running programme for converts",
+     "result": "matches",
+     "evidence": "muslimlink.ca directory and MAC Centres programs page (search snippets), https://muslimlink.ca/directory/toronto-gta/muslim-services/New-Muslim-Support/3725-convert-connect and https://centres.macnet.ca/masjidtoronto/programs-mac-masjid-toronto/: meets the 1st and 3rd Sunday after Dhuhr, informal and not led by a scholar; a separate 'After the Shahada' class runs the 2nd and 4th Sunday, 4 to 6 pm."
+    },
+    {
+     "claim": "Khalil Center is a Muslim mental health service serving Canada",
+     "result": "matches",
+     "evidence": "Search snippets: https://khalilcenter.ca/about-us (Canadian site exists); 211 Central https://211central.ca/record/69799488/ and Toronto Central Healthline list Khalil Center with faith-based individual, couple, family and group counselling, web therapy, $150 per hour with subsidised fees, at 201 Consumers Rd, Unit 101, Toronto."
+    },
+    {
+     "claim": "ICNA New Muslim Support is US-based; WhyIslam and AboutIslam have new-Muslim pages",
+     "result": "not checked",
+     "evidence": "Session search budget ran out before this check. From standard references (not confirmed online): ICNA is headquartered in New York and runs WhyIslam; AboutIslam.net has a New Muslims section at the cited address."
+    }
+   ],
+   "notes": "Both named programmes confirmed live. Khalil Center: the source note says services are online only, but 211 Central and Toronto Central Healthline list a Toronto office at 201 Consumers Rd; confirm which is current. Repo bug confirmed: community.json has two relatedLinks keys (lines 81 and 99), so 'Religion or custom? Examples' and 'Everyday phrases' never render.",
+   "needs_scholar": false,
+   "method": "3 web searches (islamcare.ca, muslimlink.ca/macnet.ca, khalilcenter/211 snippets) plus repo read of community.json; page fetch blocked; budget exhausted before ICNA/AboutIslam checks."
+  },
+  {
+   "key": "step:community | locales/en/steps/community.json › whyMatters",
+   "row_id_at_check": "R0094",
+   "batch": "batch-03.json",
+   "text_hash": "cb8e642b14",
+   "checked_on": "2026-09-26",
+   "verdict": "Verified with notes",
+   "claims": [
+    {
+     "claim": "Ummah means the Muslim community",
+     "result": "matches",
+     "evidence": "from standard references (not confirmed online; session search budget exhausted): ummah is the worldwide community of Muslims; matches the site's own glossary entry 'ummah'."
+    }
+   ],
+   "notes": "Pastoral text. The only checkable item is the gloss ummah = Muslim community, which is standard. 'Islam was never meant to be practiced alone' is a framing sentence, not a citation, and reads fine.",
+   "needs_scholar": false,
+   "method": "Read of step text and repo glossary; no web search possible (session search budget exhausted)."
+  },
+  {
+   "key": "step:community | locales/en/steps/community.json › exactActions[0]",
+   "row_id_at_check": "R0095",
+   "batch": "batch-03.json",
+   "text_hash": "bafc83d16b",
+   "checked_on": "2026-09-26",
+   "verdict": "Verified with notes",
+   "claims": [
+    {
+     "claim": "Convert Care at Islam Care Centre (Ottawa) is a running programme for converts",
+     "result": "matches",
+     "evidence": "islamcare.ca (search snippet), https://islamcare.ca/services/convert-care/: weekly programme for converts, Wednesday evenings at the centre, free of charge; also Welcome to Islam packages, counselling and monthly social gatherings."
+    },
+    {
+     "claim": "Convert Connect at MAC Masjid Toronto is a running programme for converts",
+     "result": "matches",
+     "evidence": "muslimlink.ca directory and MAC Centres programs page (search snippets), https://muslimlink.ca/directory/toronto-gta/muslim-services/New-Muslim-Support/3725-convert-connect and https://centres.macnet.ca/masjidtoronto/programs-mac-masjid-toronto/: meets the 1st and 3rd Sunday after Dhuhr, informal and not led by a scholar; a separate 'After the Shahada' class runs the 2nd and 4th Sunday, 4 to 6 pm."
+    },
+    {
+     "claim": "The community topic lists more convert programmes across Canada",
+     "result": "matches",
+     "evidence": "Repo check: locales/en/topics/community.json has a 'Convert programmes in Canada' section, opening with Convert Care (free weekly class, Wednesday 6:00 pm, 375 Somerset St), which agrees with the islamcare.ca snippet."
+    }
+   ],
+   "notes": "Both programmes confirmed. Sourcing point: the site cites https://centres.macnet.ca/masjidtoronto/programs/ while the search surfaced the programme at .../programs-mac-masjid-toronto/; check the cited URL still resolves. Convert Connect is an informal peer group; the scholar-led 'After the Shahada' class is a separate programme at the same masjid, worth naming.",
+   "needs_scholar": false,
+   "method": "2 web searches (islamcare.ca; muslimlink.ca and centres.macnet.ca snippets) plus repo read of the community topic; page fetch blocked."
+  },
+  {
+   "key": "step:community | locales/en/steps/community.json › exactActions[1]",
+   "row_id_at_check": "R0096",
+   "batch": "batch-03.json",
+   "text_hash": "d31544eaa6",
+   "checked_on": "2026-09-26",
+   "verdict": "Verified with notes",
+   "claims": [
+    {
+     "claim": "The imam leads the prayer and is often the person people go to for guidance",
+     "result": "matches",
+     "evidence": "from standard references (not confirmed online; session search budget exhausted): imam means the one who leads the congregational prayer, and in Canadian masjids the imam commonly teaches and advises; matches the site's glossary entry 'imam'."
+    }
+   ],
+   "notes": "Definitional statement; holds. The rest of the row is practical advice.",
+   "needs_scholar": false,
+   "method": "Read of step text and repo glossary; no web search possible (session search budget exhausted)."
+  },
+  {
+   "key": "step:community | locales/en/steps/community.json › exactActions[2]",
+   "row_id_at_check": "R0097",
+   "batch": "batch-03.json",
+   "text_hash": "d7d4b91ad8",
+   "checked_on": "2026-09-26",
+   "verdict": "No factual claim to check",
+   "claims": [],
+   "notes": "no issues",
+   "needs_scholar": false,
+   "method": "Read of step text; nothing to search."
+  },
+  {
+   "key": "step:community | locales/en/steps/community.json › exactActions[3]",
+   "row_id_at_check": "R0098",
+   "batch": "batch-03.json",
+   "text_hash": "032fbb90e5",
+   "checked_on": "2026-09-26",
+   "verdict": "Verified with notes",
+   "claims": [
+    {
+     "claim": "Halaqa means a study circle",
+     "result": "matches",
+     "evidence": "from standard references (not confirmed online; session search budget exhausted): halaqa (Arabic for circle) is a study circle, usually held at a masjid with a teacher; matches the site's glossary entry 'halaqa'."
+    }
+   ],
+   "notes": "Gloss is correct. The rest is practical advice.",
+   "needs_scholar": false,
+   "method": "Read of step text and repo glossary; no web search possible (session search budget exhausted)."
+  },
+  {
+   "key": "step:community | locales/en/steps/community.json › obstacles[0]",
+   "row_id_at_check": "R0099",
+   "batch": "batch-03.json",
+   "text_hash": "288d954a9b",
+   "checked_on": "2026-09-26",
+   "verdict": "Verified with notes",
+   "claims": [
+    {
+     "claim": "Muslims in Canada come from dozens of countries",
+     "result": "matches",
+     "evidence": "Statistics Canada (search snippets), https://www150.statcan.gc.ca/n1/daily-quotidien/221026/dq221026b-eng.htm and https://www.statcan.gc.ca/o1/en/plus/7639-snapshot-muslim-population-canada: 1,775,715 Muslims (4.9%) in 2021, 63.1% of them immigrants; the snapshot covers the most frequent countries of birth of Muslims born abroad. No count of countries is given, but 'dozens' is consistent with the data."
+    },
+    {
+     "claim": "Islam spans more cultures than almost any other religion",
+     "result": "not checked",
+     "evidence": "Session search budget ran out before this check. From standard references (not confirmed online): Pew Research describes Islam as the second-largest religion with large populations in Asia-Pacific, the Middle East and North Africa, sub-Saharan Africa and Europe, and Christianity as the most geographically dispersed. The sentence is a soft generalisation, not a sourced fact."
+    }
+   ],
+   "notes": "The Canadian claim is supported by Statistics Canada. 'More cultures than almost any other religion' is rhetorical and unsourced; 'Islam is practised across many cultures', as Obstacle 3 already says, would be safer.",
+   "needs_scholar": false,
+   "method": "1 web search (statcan.gc.ca snippets); page fetch blocked; budget exhausted before a Pew check."
+  },
+  {
+   "key": "step:community | locales/en/steps/community.json › obstacles[1]",
+   "row_id_at_check": "R0100",
+   "batch": "batch-03.json",
+   "text_hash": "1873e01baf",
+   "checked_on": "2026-09-26",
+   "verdict": "No factual claim to check",
+   "claims": [],
+   "notes": "Advice only. This row suggests joining a local WhatsApp or Telegram group with no privacy caveat; the linked community-groups page and red flags guide carry that, so a short pointer here would help.",
+   "needs_scholar": false,
+   "method": "Read of step text; nothing to search."
+  },
+  {
+   "key": "step:community | locales/en/steps/community.json › obstacles[2]",
+   "row_id_at_check": "R0101",
+   "batch": "batch-03.json",
+   "text_hash": "6924d304a8",
+   "checked_on": "2026-09-26",
+   "verdict": "No factual claim to check",
+   "claims": [],
+   "notes": "no issues",
+   "needs_scholar": false,
+   "method": "Read of step text; nothing to search."
+  },
+  {
+   "key": "step:community | locales/en/steps/community.json › tinyVersion",
+   "row_id_at_check": "R0102",
+   "batch": "batch-03.json",
+   "text_hash": "6c113f13ee",
+   "checked_on": "2026-09-26",
+   "verdict": "No factual claim to check",
+   "claims": [],
+   "notes": "no issues",
+   "needs_scholar": false,
+   "method": "Read of step text; nothing to search."
+  },
+  {
+   "key": "step:community | locales/en/steps/community.json › unlocksNext",
+   "row_id_at_check": "R0103",
+   "batch": "batch-03.json",
+   "text_hash": "7842b7b414",
+   "checked_on": "2026-09-26",
+   "verdict": "No factual claim to check",
+   "claims": [],
+   "notes": "no issues",
+   "needs_scholar": false,
+   "method": "Read of step text; nothing to search."
+  },
+  {
+   "key": "step:community | locales/en/steps/community.json › relatedLinks",
+   "row_id_at_check": "R0104",
+   "batch": "batch-03.json",
+   "text_hash": "f3761c3efa",
+   "checked_on": "2026-09-26",
+   "verdict": "No factual claim to check",
+   "claims": [],
+   "notes": "Navigational. All five targets resolve in the repo (life-guides.json has the four guide slugs; app/[locale]/community-groups exists). Because community.json has two relatedLinks keys, the first list ('Religion or custom? Examples', 'Everyday phrases and how to reply') is discarded by JSON parsing and only these five show.",
+   "needs_scholar": false,
+   "method": "Repo check of the link targets; nothing to search."
+  },
+  {
+   "key": "step:daily-dua-dhikr | locales/en/steps/daily-dua-dhikr.json › title, timeEstimate",
+   "row_id_at_check": "R0105",
+   "batch": "batch-03.json",
+   "text_hash": "fcd54ad549",
+   "checked_on": "2026-09-26",
+   "verdict": "Verified with notes",
+   "claims": [
+    {
+     "claim": "Step-level position: you can make dua in your own language",
+     "result": "matches",
+     "evidence": "IslamQA (search snippets), https://islamqa.info/en/answers/11588/ruling-on-making-duaa-in-english and https://islamqa.info/en/answers/262254: making dua in English or any other language is permissible outside the prayer (salah), especially if it helps the person focus."
+    },
+    {
+     "claim": "Scope: the statement is unqualified; inside the formal prayer the schools restrict non-Arabic dua",
+     "result": "matches",
+     "evidence": "SeekersGuidance Hanafi answer (search snippet), https://seekersguidance.org/answers/hanafi-fiqh/is-supplicating-in-english-in-the-post-tashahhud-supplications-in-the-obligatory-prayer-permissible/: not permissible to supplicate in English in the prayer, prohibitively disliked though it does not invalidate; supplicate after the prayer in any language. IslamQA https://islamqa.info/en/answers/20953: jurists differ (prohibited, disliked, or allowed for one unable to use Arabic)."
+    },
+    {
+     "claim": "Fortress of the Muslim is a sourced dua collection",
+     "result": "not checked",
+     "evidence": "Session search budget ran out before this check. From standard references (not confirmed online): Hisn al-Muslim by Sa'id ibn Ali ibn Wahf al-Qahtani gives a Quran or hadith reference for each supplication; the site links the Darussalam UK product page."
+    }
+   ],
+   "notes": "The step, the dua tool ('the language you actually think in') and the glossary entry 'dua' all state the own-language rule without saying it applies outside the formal prayer (salah). Inside it the Hanafi and Shafi'i answers keep to Arabic and IslamQA records a difference of opinion. Add 'outside the prayer' or a link to the prayer step.",
+   "needs_scholar": true,
+   "method": "2 web searches (islamqa.info and seekersguidance.org snippets) plus repo read of the dua tool and glossary; page fetch blocked; budget exhausted before the Darussalam check."
+  },
+  {
+   "key": "step:daily-dua-dhikr | locales/en/steps/daily-dua-dhikr.json › whyMatters",
+   "row_id_at_check": "R0106",
+   "batch": "batch-03.json",
+   "text_hash": "dc2bd8ad80",
+   "checked_on": "2026-09-26",
+   "verdict": "No factual claim to check",
+   "claims": [],
+   "notes": "no issues",
+   "needs_scholar": false,
+   "method": "Read of step text; nothing to search."
+  },
+  {
+   "key": "step:daily-dua-dhikr | locales/en/steps/daily-dua-dhikr.json › exactActions[0]",
+   "row_id_at_check": "R0107",
+   "batch": "batch-03.json",
+   "text_hash": "51b053fc47",
+   "checked_on": "2026-09-26",
+   "verdict": "Verified with notes",
+   "claims": [
+    {
+     "claim": "Dua may be made in the language you understand best",
+     "result": "matches",
+     "evidence": "IslamQA (search snippets), https://islamqa.info/en/answers/11588/ruling-on-making-duaa-in-english and https://islamqa.info/en/answers/262254: making dua in English or any other language is permissible outside the prayer (salah), especially if it helps the person focus."
+    },
+    {
+     "claim": "Scope: the statement is unqualified; inside the formal prayer the schools restrict non-Arabic dua",
+     "result": "matches",
+     "evidence": "SeekersGuidance Hanafi answer (search snippet), https://seekersguidance.org/answers/hanafi-fiqh/is-supplicating-in-english-in-the-post-tashahhud-supplications-in-the-obligatory-prayer-permissible/: not permissible to supplicate in English in the prayer, prohibitively disliked though it does not invalidate; supplicate after the prayer in any language. IslamQA https://islamqa.info/en/answers/20953: jurists differ (prohibited, disliked, or allowed for one unable to use Arabic)."
+    }
+   ],
+   "notes": "Correct for dua outside the formal prayer, which is what this step is about (Action 2 says 'after prayer'). Add 'outside the prayer' so a reader does not carry it into salah, where the Hanafi and Shafi'i answers say to keep to Arabic.",
+   "needs_scholar": true,
+   "method": "2 web searches (islamqa.info, seekersguidance.org snippets); page fetch blocked."
+  },
+  {
+   "key": "step:daily-dua-dhikr | locales/en/steps/daily-dua-dhikr.json › exactActions[1]",
+   "row_id_at_check": "R0108",
+   "batch": "batch-03.json",
+   "text_hash": "0b3117c1d2",
+   "checked_on": "2026-09-26",
+   "verdict": "No factual claim to check",
+   "claims": [],
+   "notes": "Advice only. 'After prayer' keeps the habit outside the formal prayer, which fits the language point in R0107.",
+   "needs_scholar": false,
+   "method": "Read of step text; nothing to search."
+  },
+  {
+   "key": "step:daily-dua-dhikr | locales/en/steps/daily-dua-dhikr.json › exactActions[2]",
+   "row_id_at_check": "R0109",
+   "batch": "batch-03.json",
+   "text_hash": "0136eb6829",
+   "checked_on": "2026-09-26",
+   "verdict": "No factual claim to check",
+   "claims": [],
+   "notes": "Advice only. The linked Fortress of the Muslim does give a Quran or hadith reference for each dua (standard references, not re-confirmed online because the search budget ran out).",
+   "needs_scholar": false,
+   "method": "Read of step text; nothing to search."
+  },
+  {
+   "key": "step:daily-dua-dhikr | locales/en/steps/daily-dua-dhikr.json › obstacles[0]",
+   "row_id_at_check": "R0110",
+   "batch": "batch-03.json",
+   "text_hash": "f237422607",
+   "checked_on": "2026-09-26",
+   "verdict": "Verified with notes",
+   "claims": [
+    {
+     "claim": "Dua may be made in the language you understand best",
+     "result": "matches",
+     "evidence": "IslamQA (search snippets), https://islamqa.info/en/answers/11588/ruling-on-making-duaa-in-english and https://islamqa.info/en/answers/262254: making dua in English or any other language is permissible outside the prayer (salah), especially if it helps the person focus."
+    },
+    {
+     "claim": "Scope: the statement is unqualified; inside the formal prayer the schools restrict non-Arabic dua",
+     "result": "matches",
+     "evidence": "SeekersGuidance Hanafi answer (search snippet), https://seekersguidance.org/answers/hanafi-fiqh/is-supplicating-in-english-in-the-post-tashahhud-supplications-in-the-obligatory-prayer-permissible/: not permissible to supplicate in English in the prayer, prohibitively disliked though it does not invalidate; supplicate after the prayer in any language. IslamQA https://islamqa.info/en/answers/20953: jurists differ (prohibited, disliked, or allowed for one unable to use Arabic)."
+    }
+   ],
+   "notes": "Holds for dua outside the prayer. Consider 'You can make dua in your own language outside the formal prayer' to match the fiqh answers; the glossary entry 'dua' makes the same unqualified statement and could carry the same qualifier.",
+   "needs_scholar": true,
+   "method": "2 web searches (islamqa.info, seekersguidance.org snippets) plus repo glossary; page fetch blocked."
+  },
+  {
+   "key": "step:daily-dua-dhikr | locales/en/steps/daily-dua-dhikr.json › obstacles[1]",
+   "row_id_at_check": "R0111",
+   "batch": "batch-03.json",
+   "text_hash": "6582fdafd8",
+   "checked_on": "2026-09-26",
+   "verdict": "No factual claim to check",
+   "claims": [],
+   "notes": "no issues",
+   "needs_scholar": false,
+   "method": "Read of step text; nothing to search."
+  },
+  {
+   "key": "step:daily-dua-dhikr | locales/en/steps/daily-dua-dhikr.json › tinyVersion",
+   "row_id_at_check": "R0112",
+   "batch": "batch-03.json",
+   "text_hash": "270a995d61",
+   "checked_on": "2026-09-26",
+   "verdict": "No factual claim to check",
+   "claims": [],
+   "notes": "no issues",
+   "needs_scholar": false,
+   "method": "Read of step text; nothing to search."
+  },
+  {
+   "key": "step:daily-dua-dhikr | locales/en/steps/daily-dua-dhikr.json › unlocksNext",
+   "row_id_at_check": "R0113",
+   "batch": "batch-03.json",
+   "text_hash": "37c56088d4",
+   "checked_on": "2026-09-26",
+   "verdict": "No factual claim to check",
+   "claims": [],
+   "notes": "no issues",
+   "needs_scholar": false,
+   "method": "Read of step text; nothing to search."
+  },
+  {
+   "key": "step:daily-dua-dhikr | locales/en/steps/daily-dua-dhikr.json › commonQuestions[0]",
+   "row_id_at_check": "R0114",
+   "batch": "batch-03.json",
+   "text_hash": "178ee30dab",
+   "checked_on": "2026-09-26",
+   "verdict": "No factual claim to check",
+   "claims": [],
+   "notes": "no issues",
+   "needs_scholar": false,
+   "method": "Read of step text; nothing to search."
+  },
+  {
+   "key": "step:daily-dua-dhikr | locales/en/steps/daily-dua-dhikr.json › relatedLinks",
+   "row_id_at_check": "R0115",
+   "batch": "batch-03.json",
+   "text_hash": "c9621fe19c",
+   "checked_on": "2026-09-26",
+   "verdict": "No factual claim to check",
+   "claims": [],
+   "notes": "Navigational. The /dua-dhikr route exists (app/[locale]/dua-dhikr).",
+   "needs_scholar": false,
+   "method": "Repo check of the link target; nothing to search."
+  },
+  {
+   "key": "step:family-and-friends | locales/en/steps/family-and-friends.json › title, timeEstimate",
+   "row_id_at_check": "R0116",
+   "batch": "batch-03.json",
+   "text_hash": "e2143e44d8",
+   "checked_on": "2026-09-26",
+   "verdict": "Verified",
+   "claims": [
+    {
+     "claim": "Muslims believe Jesus is the Messiah (script for a Christian relative)",
+     "result": "matches",
+     "evidence": "Quran.com (search snippet), https://quran.com/3/45: 'his name will be the Messiah, Jesus, son of Mary; honoured in this world and the Hereafter'."
+    },
+    {
+     "claim": "God is one and has no son",
+     "result": "matches",
+     "evidence": "Quran.com (search snippet), https://quran.com/4/171: 'The Messiah, Jesus, son of Mary, was no more than a messenger of Allah ... do not say Trinity ... He is far above having a son!' Also Quran.com (search snippet), https://quran.com/al-ankabut/46: 'Do not argue with the People of the Book unless gracefully ... Our God and your God is only One.'"
+    },
+    {
+     "claim": "Islam holds you to keeping family ties, not cutting them",
+     "result": "matches",
+     "evidence": "Quran.com (search snippet), https://quran.com/31/15: if parents press you to associate partners with God, 'do not obey them but accompany them in this world with appropriate kindness'. Sunnah.com (search snippet), https://sunnah.com/bukhari:2620: Asma bint Abi Bakr asked about her pagan mother who came to visit; the Prophet said 'Yes, keep good relation with her.' Sunnah.com (search snippet), https://sunnah.com/bukhari:5984 (Jubair bin Mut'im): 'The person who severs the bond of kinship will not enter Paradise.'"
+    },
+    {
+     "claim": "Quran 29:46 (the step's cited source) is quoted correctly: 'our God and your God is one'",
+     "result": "matches",
+     "evidence": "Quran.com (search snippet), https://quran.com/al-ankabut/46: 'Do not argue with the People of the Book unless gracefully ... Our God and your God is only One.'"
+    }
+   ],
+   "notes": "Title row; the detailed checks sit in R0122 and R0129, where the sourcing gaps are noted. The Safety first note names no service; the get-help page does.",
+   "needs_scholar": false,
+   "method": "6 web searches shared with R0122 and R0129 (quran.com and sunnah.com snippets); page fetch blocked."
+  },
+  {
+   "key": "step:family-and-friends | locales/en/steps/family-and-friends.json › whyMatters",
+   "row_id_at_check": "R0117",
+   "batch": "batch-03.json",
+   "text_hash": "0cd27bc251",
+   "checked_on": "2026-09-26",
+   "verdict": "No factual claim to check",
+   "claims": [],
+   "notes": "no issues",
+   "needs_scholar": false,
+   "method": "Read of step text; nothing to search."
+  },
+  {
+   "key": "step:family-and-friends | locales/en/steps/family-and-friends.json › exactActions[0]",
+   "row_id_at_check": "R0118",
+   "batch": "batch-03.json",
+   "text_hash": "8881eb50e8",
+   "checked_on": "2026-09-26",
+   "verdict": "No factual claim to check",
+   "claims": [],
+   "notes": "no issues",
+   "needs_scholar": false,
+   "method": "Read of step text; nothing to search."
+  },
+  {
+   "key": "step:family-and-friends | locales/en/steps/family-and-friends.json › exactActions[1]",
+   "row_id_at_check": "R0119",
+   "batch": "batch-03.json",
+   "text_hash": "c4078b6dc8",
+   "checked_on": "2026-09-26",
+   "verdict": "No factual claim to check",
+   "claims": [],
+   "notes": "no issues",
+   "needs_scholar": false,
+   "method": "Read of step text; nothing to search."
+  },
+  {
+   "key": "step:family-and-friends | locales/en/steps/family-and-friends.json › exactActions[2]",
+   "row_id_at_check": "R0120",
+   "batch": "batch-03.json",
+   "text_hash": "7eb7b5389a",
+   "checked_on": "2026-09-26",
+   "verdict": "No factual claim to check",
+   "claims": [],
+   "notes": "no issues",
+   "needs_scholar": false,
+   "method": "Read of step text; nothing to search."
+  },
+  {
+   "key": "step:family-and-friends | locales/en/steps/family-and-friends.json › exactActions[3]",
+   "row_id_at_check": "R0121",
+   "batch": "batch-03.json",
+   "text_hash": "5fa3bfd3e8",
+   "checked_on": "2026-09-26",
+   "verdict": "No factual claim to check",
+   "claims": [],
+   "notes": "Advice only. 'Ask for support' names no service; a pointer to the get-help page (Canadian lines, 911 for immediate danger) would make this actionable.",
+   "needs_scholar": false,
+   "method": "Read of step text; nothing to search."
+  },
+  {
+   "key": "step:family-and-friends | locales/en/steps/family-and-friends.json › obstacles[0]",
+   "row_id_at_check": "R0122",
+   "batch": "batch-03.json",
+   "text_hash": "92733b7ae9",
+   "checked_on": "2026-09-26",
+   "verdict": "Verified with notes",
+   "claims": [
+    {
+     "claim": "Islam requires keeping family ties even with family who do not share your faith",
+     "result": "matches",
+     "evidence": "Quran.com (search snippet), https://quran.com/31/15: if parents press you to associate partners with God, 'do not obey them but accompany them in this world with appropriate kindness'."
+    },
+    {
+     "claim": "Hadith: a convert keeps good relations with a non-Muslim parent",
+     "result": "matches",
+     "evidence": "Sunnah.com (search snippet), https://sunnah.com/bukhari:2620: Asma bint Abi Bakr asked about her pagan mother who came to visit; the Prophet said 'Yes, keep good relation with her.'"
+    },
+    {
+     "claim": "Cutting family ties is forbidden",
+     "result": "matches",
+     "evidence": "Sunnah.com (search snippet), https://sunnah.com/bukhari:5984 (Jubair bin Mut'im): 'The person who severs the bond of kinship will not enter Paradise.'"
+    },
+    {
+     "claim": "Islam holds you to good character",
+     "result": "not checked",
+     "evidence": "Session search budget ran out before this check. From standard references (not confirmed online): 'I was sent only to perfect good character' (Muwatta Malik, Good Character; Musnad Ahmad) and Bukhari 3559, 'the best of you are those best in character'."
+    }
+   ],
+   "notes": "Well supported. Sourcing gap: this step cites only WhyIslam, the Yaqeen report, Khalil Center and Quran 29:46, although sources.json already holds quran-31-15 and sunnah-bukhari-2620; adding them to the step's sourceIds would let this claim show its evidence.",
+   "needs_scholar": true,
+   "method": "3 web searches (quran.com and sunnah.com snippets) plus repo check of sources.json; page fetch blocked; budget exhausted before the good-character hadith check."
+  },
+  {
+   "key": "step:family-and-friends | locales/en/steps/family-and-friends.json › obstacles[1]",
+   "row_id_at_check": "R0123",
+   "batch": "batch-03.json",
+   "text_hash": "f66563100d",
+   "checked_on": "2026-09-26",
+   "verdict": "No factual claim to check",
+   "claims": [],
+   "notes": "no issues",
+   "needs_scholar": false,
+   "method": "Read of step text; nothing to search."
+  },
+  {
+   "key": "step:family-and-friends | locales/en/steps/family-and-friends.json › tinyVersion",
+   "row_id_at_check": "R0124",
+   "batch": "batch-03.json",
+   "text_hash": "45f70c188f",
+   "checked_on": "2026-09-26",
+   "verdict": "No factual claim to check",
+   "claims": [],
+   "notes": "no issues",
+   "needs_scholar": false,
+   "method": "Read of step text; nothing to search."
+  },
+  {
+   "key": "step:family-and-friends | locales/en/steps/family-and-friends.json › unlocksNext",
+   "row_id_at_check": "R0125",
+   "batch": "batch-03.json",
+   "text_hash": "7f570f050b",
+   "checked_on": "2026-09-26",
+   "verdict": "No factual claim to check",
+   "claims": [],
+   "notes": "no issues",
+   "needs_scholar": false,
+   "method": "Read of step text; nothing to search."
+  },
+  {
+   "key": "step:family-and-friends | locales/en/steps/family-and-friends.json › contextNotes[0]",
+   "row_id_at_check": "R0126",
+   "batch": "batch-03.json",
+   "text_hash": "8a9f5d995f",
+   "checked_on": "2026-09-26",
+   "verdict": "No factual claim to check",
+   "claims": [],
+   "notes": "Safety advice with no claim to check. It names no service or line; elsewhere the site gives 911 and Canadian lines, so a link to the get-help page here would help someone at risk at home.",
+   "needs_scholar": false,
+   "method": "Read of step text; nothing to search."
+  },
+  {
+   "key": "step:family-and-friends | locales/en/steps/family-and-friends.json › gentleScripts[0]",
+   "row_id_at_check": "R0127",
+   "batch": "batch-03.json",
+   "text_hash": "11601e4bb7",
+   "checked_on": "2026-09-26",
+   "verdict": "No factual claim to check",
+   "claims": [],
+   "notes": "Personal script expressing belief in one God; nothing to verify.",
+   "needs_scholar": false,
+   "method": "Read of step text; nothing to search."
+  },
+  {
+   "key": "step:family-and-friends | locales/en/steps/family-and-friends.json › gentleScripts[1]",
+   "row_id_at_check": "R0128",
+   "batch": "batch-03.json",
+   "text_hash": "e55c4f4d04",
+   "checked_on": "2026-09-26",
+   "verdict": "No factual claim to check",
+   "claims": [],
+   "notes": "no issues",
+   "needs_scholar": false,
+   "method": "Read of step text; nothing to search."
+  },
+  {
+   "key": "step:family-and-friends | locales/en/steps/family-and-friends.json › gentleScripts[2]",
+   "row_id_at_check": "R0129",
+   "batch": "batch-03.json",
+   "text_hash": "4615417ec3",
+   "checked_on": "2026-09-26",
+   "verdict": "Verified with notes",
+   "claims": [
+    {
+     "claim": "Muslims believe Jesus is the Messiah and a great prophet",
+     "result": "matches",
+     "evidence": "Quran.com (search snippet), https://quran.com/3/45: 'his name will be the Messiah, Jesus, son of Mary; honoured in this world and the Hereafter'. Quran.com (search snippet), https://quran.com/4/171: 'The Messiah, Jesus, son of Mary, was no more than a messenger of Allah ... do not say Trinity ... He is far above having a son!'"
+    },
+    {
+     "claim": "God is one and has no son",
+     "result": "matches",
+     "evidence": "Quran.com (search snippet), https://quran.com/4/171: 'The Messiah, Jesus, son of Mary, was no more than a messenger of Allah ... do not say Trinity ... He is far above having a son!' The cited source agrees: Quran.com (search snippet), https://quran.com/al-ankabut/46: 'Do not argue with the People of the Book unless gracefully ... Our God and your God is only One.'"
+    },
+    {
+     "claim": "Muslims honour Mary",
+     "result": "matches",
+     "evidence": "from standard references (not confirmed online; session search budget exhausted): Quran 3:42, 'Allah has chosen you and purified you and chosen you above the women of the worlds', and Surah 19 (Maryam) is named after her."
+    },
+    {
+     "claim": "Talk about what you share rather than argue (Quran 29:46, the cited source)",
+     "result": "matches",
+     "evidence": "Quran.com (search snippet), https://quran.com/al-ankabut/46: 'Do not argue with the People of the Book unless gracefully ... Our God and your God is only One.'"
+    }
+   ],
+   "notes": "Creed statements match the Quran; 'Messiah' is the Quran's own title for Jesus (al-Masih). Sourcing points: the step's sourceIds carry only Quran 29:46 although sources.json already has quran-3-45 and quran-4-171, and there is no entry yet for Quran 3:42 (Mary).",
+   "needs_scholar": true,
+   "method": "4 web searches (quran.com snippets); page fetch blocked; budget exhausted before a 3:42 check."
+  },
+  {
+   "key": "step:family-and-friends | locales/en/steps/family-and-friends.json › gentleScripts[3]",
+   "row_id_at_check": "R0130",
+   "batch": "batch-03.json",
+   "text_hash": "0f4f753439",
+   "checked_on": "2026-09-26",
+   "verdict": "No factual claim to check",
+   "claims": [],
+   "notes": "no issues",
+   "needs_scholar": false,
+   "method": "Read of step text; nothing to search."
+  },
+  {
+   "key": "step:family-and-friends | locales/en/steps/family-and-friends.json › gentleScripts[4]",
+   "row_id_at_check": "R0131",
+   "batch": "batch-03.json",
+   "text_hash": "aa778e893e",
+   "checked_on": "2026-09-26",
+   "verdict": "No factual claim to check",
+   "claims": [],
+   "notes": "Personal script. 'Nobody in between' expresses direct access to God in dua (the site elsewhere cites Quran 2:186 for this); no claim to verify.",
+   "needs_scholar": false,
+   "method": "Read of step text; nothing to search."
+  },
+  {
+   "key": "step:family-and-friends | locales/en/steps/family-and-friends.json › gentleScripts[5]",
+   "row_id_at_check": "R0132",
+   "batch": "batch-03.json",
+   "text_hash": "ba1381e009",
+   "checked_on": "2026-09-26",
+   "verdict": "No factual claim to check",
+   "claims": [],
+   "notes": "no issues",
+   "needs_scholar": false,
+   "method": "Read of step text; nothing to search."
+  },
+  {
+   "key": "step:family-and-friends | locales/en/steps/family-and-friends.json › gentleScripts[6]",
+   "row_id_at_check": "R0133",
+   "batch": "batch-03.json",
+   "text_hash": "fd297cc7ff",
+   "checked_on": "2026-09-26",
+   "verdict": "No factual claim to check",
+   "claims": [],
+   "notes": "no issues",
+   "needs_scholar": false,
+   "method": "Read of step text; nothing to search."
+  },
+  {
+   "key": "step:family-and-friends | locales/en/steps/family-and-friends.json › gentleScripts[7]",
+   "row_id_at_check": "R0134",
+   "batch": "batch-03.json",
+   "text_hash": "7daedb6d0a",
+   "checked_on": "2026-09-26",
+   "verdict": "No factual claim to check",
+   "claims": [],
+   "notes": "no issues",
+   "needs_scholar": false,
+   "method": "Read of step text; nothing to search."
+  },
+  {
+   "key": "step:family-and-friends | locales/en/steps/family-and-friends.json › gentleScripts[8]",
+   "row_id_at_check": "R0135",
+   "batch": "batch-03.json",
+   "text_hash": "42831f0f76",
+   "checked_on": "2026-09-26",
+   "verdict": "No factual claim to check",
+   "claims": [],
+   "notes": "Advice only. The red flags guide it points to exists (life-guides.json: red-flags-and-staying-safe).",
+   "needs_scholar": false,
+   "method": "Repo check of the referenced guide; nothing to search."
+  },
+  {
+   "key": "step:family-and-friends | locales/en/steps/family-and-friends.json › relatedLinks",
+   "row_id_at_check": "R0136",
+   "batch": "batch-03.json",
+   "text_hash": "db7377f9fd",
+   "checked_on": "2026-09-26",
+   "verdict": "No factual claim to check",
+   "claims": [],
+   "notes": "Navigational. All seven guide slugs exist in locales/en/life-guides.json.",
+   "needs_scholar": false,
+   "method": "Repo check of the link targets; nothing to search."
+  }
+ ]
+}
