@@ -39,6 +39,7 @@ ROOT = os.path.dirname(os.path.dirname(HERE))
 EN_DIR = os.path.join(ROOT, "locales", "en")
 BN_DIR = os.path.join(ROOT, "locales", "bn")
 CLASS_DIR = os.path.join(HERE, "classification")
+FACTCHECK_FILE = os.path.join(HERE, "fact-checks", "results.json")
 SITE_URL = "https://www.revertguide.com"
 CELL_LIMIT = 32000
 
@@ -1398,6 +1399,48 @@ FILL_AMBER = PatternFill("solid", fgColor="FFEB9C")
 FILL_RED = PatternFill("solid", fgColor="FFC7CE")
 FILL_DONE = PatternFill("solid", fgColor="EEF7EE")
 FILL_FLAG = PatternFill("solid", fgColor="FCE4D6")
+FILL_GREY = PatternFill("solid", fgColor="EDEDED")
+FILL_PALEGREEN = PatternFill("solid", fgColor="E2F0D9")
+
+FACTCHECK_VERDICTS = ["Verified", "Verified with notes", "Discrepancy found", "Could not verify online", "No factual claim to check"]
+FACTCHECKS: dict = {}
+
+
+def text_hash(text):
+    import hashlib
+    return hashlib.sha1((text or "").encode("utf-8")).hexdigest()[:10]
+
+
+def load_factchecks():
+    """Fact-check records keyed by 'item key | JSON location' (see fact-checks/README)."""
+    if not os.path.exists(FACTCHECK_FILE):
+        return {}
+    data = load_json(FACTCHECK_FILE)
+    return {r["key"]: r for r in data.get("rows", []) if r.get("key")}
+
+
+def factcheck_cell(rec, current_hash):
+    """The text of the "Niaz's fact check" cell for one row."""
+    if not rec:
+        return "", ""
+    verdict = rec.get("verdict", "")
+    stale = rec.get("text_hash") and current_hash and rec["text_hash"] != current_hash
+    label = verdict + (" (text changed since this check)" if stale else "")
+    lines_out = [f"Verdict: {label}"]
+    claims = rec.get("claims") or []
+    if claims:
+        lines_out.append("Claims checked:")
+        for c in claims:
+            res = c.get("result", "")
+            lines_out.append(f"• {s(c.get('claim'))} — {res}: {s(c.get('evidence'))}".rstrip(": "))
+    if s(rec.get("notes")) and s(rec.get("notes")).lower() != "no issues":
+        lines_out.append(f"Notes: {s(rec.get('notes'))}")
+    if rec.get("needs_scholar"):
+        lines_out.append("Needs a scholar's judgement: yes (this check confirms the sourcing, not the ruling)")
+    if s(rec.get("method")):
+        lines_out.append(f"How: {s(rec.get('method'))}")
+    lines_out.append(f"Checked {rec.get('checked_on', '')} by Niaz with AI research assistance (web searches of the cited sources; a lay check, not a ruling).")
+    return label, "\n".join(lines_out)
 
 VERDICTS = '"Approved,Needs changes,Rejected,Unsure - ask another reviewer"'
 YES_NO = '"Yes,No"'
@@ -1456,11 +1499,12 @@ REVIEW_HEADERS = [
     "English text", "Bengali text (বাংলা)", "Bengali status",
     "Priority", "Review needed", "Suggested reviewer", "Current status (site)",
     "Sources (n)", "Sources used (id — title)", "Key points to check", "Pre-check flags",
+    "Fact-check verdict", "Niaz's fact check",
     "English verdict", "English reviewer", "English comments",
     "Bengali verdict", "Bengali reviewer", "Bengali comments",
     "Done", "Date done", "Page URL", "Content ID", "JSON location", "Item key",
 ]
-REVIEW_WIDTHS = [8, 18, 30, 30, 85, 85, 13, 9, 30, 22, 13, 8, 42, 55, 42, 15, 16, 40, 15, 16, 40, 8, 12, 42, 24, 46, 24]
+REVIEW_WIDTHS = [8, 18, 30, 30, 85, 85, 13, 9, 30, 22, 13, 8, 42, 55, 42, 18, 75, 15, 16, 40, 15, 16, 40, 8, 12, 42, 24, 46, 24]
 PREVIOUS: dict = {}
 
 
@@ -1525,6 +1569,7 @@ def build_review_sheet(wb):
             n += 1
             first = ri == 0
             json_loc = f"{it.json_file} › {r['json_path']}"
+            fc_label, fc_text = factcheck_cell(FACTCHECKS.get(f"{it.key} | {json_loc}"), text_hash(r["en"]))
             values = {
                 "Row ID": f"R{n:04d}", "Area": it.area, "Item": it.title, "Section": r["section"],
                 "English text": r["en"], "Bengali text (বাংলা)": r["bn"], "Bengali status": r["bn_status"],
@@ -1533,6 +1578,7 @@ def build_review_sheet(wb):
                 "Sources (n)": r["sources_n"], "Sources used (id — title)": r["sources_short"],
                 "Key points to check": "\n".join(f"• {k}" for k in it.key_points) if first else "",
                 "Pre-check flags": "\n".join(f"⚠ {f}" for f in it.flags) if first else "",
+                "Fact-check verdict": fc_label, "Niaz's fact check": fc_text,
                 "Page URL": page_url(r.get("url") or it.url, r.get("anchor")), "Content ID": content_id,
                 "JSON location": json_loc, "Item key": it.key,
             }
@@ -1556,6 +1602,12 @@ def build_review_sheet(wb):
     ws.conditional_formatting.add(f"{b}2:{b}{last}", FormulaRule(formula=[f'AND(${b}2<>"Translated",${b}2<>"Not needed")'], fill=FILL_AMBER))
     f = L["Pre-check flags"]
     ws.conditional_formatting.add(f"{f}2:{f}{last}", FormulaRule(formula=[f'LEN(${f}2)>0'], fill=FILL_FLAG))
+    v = L["Fact-check verdict"]
+    ws.conditional_formatting.add(f"{v}2:{v}{last}", FormulaRule(formula=[f'LEFT(${v}2,17)="Discrepancy found"'], fill=FILL_RED))
+    ws.conditional_formatting.add(f"{v}2:{v}{last}", FormulaRule(formula=[f'LEFT(${v}2,19)="Verified with notes"'], fill=FILL_PALEGREEN))
+    ws.conditional_formatting.add(f"{v}2:{v}{last}", FormulaRule(formula=[f'LEFT(${v}2,8)="Verified"'], fill=FILL_GREEN))
+    ws.conditional_formatting.add(f"{v}2:{v}{last}", FormulaRule(formula=[f'LEFT(${v}2,23)="Could not verify online"'], fill=FILL_AMBER))
+    ws.conditional_formatting.add(f"{v}2:{v}{last}", FormulaRule(formula=[f'LEFT(${v}2,25)="No factual claim to check"'], fill=FILL_GREY))
     d = L["Done"]
     ws.conditional_formatting.add(f"A2:{get_column_letter(len(REVIEW_HEADERS))}{last}", FormulaRule(formula=[f'${d}2="Yes"'], fill=FILL_DONE))
     ws.sheet_properties.tabColor = "1F4E5F"
@@ -1565,10 +1617,10 @@ def build_review_sheet(wb):
 ITEM_HEADERS = [
     "Item key", "Area", "Item", "Priority", "Review needed", "Suggested reviewer", "Current status (site)",
     "Key points to check", "Pre-check flags", "Sources (n)", "Sources used (id — title — link)",
-    "Text rows", "Rows done", "Rows approved (EN)", "Rows approved (BN)", "Progress",
+    "Text rows", "Rows done", "Rows approved (EN)", "Rows approved (BN)", "Progress", "Fact-check discrepancies",
     "Assigned reviewer(s)", "Item verdict", "Item notes", "Page URL", "JSON file",
 ]
-ITEM_WIDTHS = [26, 18, 40, 9, 32, 22, 13, 60, 42, 8, 60, 8, 8, 10, 10, 12, 20, 15, 40, 44, 34]
+ITEM_WIDTHS = [26, 18, 40, 9, 32, 22, 13, 60, 42, 8, 60, 8, 8, 10, 10, 12, 12, 20, 15, 40, 44, 34]
 ITEM_INPUT = ["Assigned reviewer(s)", "Item verdict", "Item notes"]
 
 
@@ -1578,6 +1630,7 @@ def build_items_sheet(wb, review_cols, n_review_rows):
     style_header(ws, ITEM_HEADERS, ITEM_WIDTHS, ITEM_INPUT)
     col = {h: i + 1 for i, h in enumerate(ITEM_HEADERS)}
     rk, rdone, ren, rbn = review_cols["Item key"], review_cols["Done"], review_cols["English verdict"], review_cols["Bengali verdict"]
+    rfc = review_cols["Fact-check verdict"]
     rows = []
     for i, it in enumerate(ITEMS, start=2):
         rows.append(carry("Items", (it.key,), [
@@ -1590,6 +1643,7 @@ def build_items_sheet(wb, review_cols, n_review_rows):
             Formula(f"=COUNTIFS('Review rows'!${rk}$2:${rk}${R},$A{i},'Review rows'!${ren}$2:${ren}${R},\"Approved\")"),
             Formula(f"=COUNTIFS('Review rows'!${rk}$2:${rk}${R},$A{i},'Review rows'!${rbn}$2:${rbn}${R},\"Approved\")"),
             Formula(f"=IF(L{i}=0,\"\",IF(M{i}=L{i},\"Done\",IF(M{i}>0,\"In progress\",\"Not started\")))"),
+            Formula(f"=COUNTIFS('Review rows'!${rk}$2:${rk}${R},$A{i},'Review rows'!${rfc}$2:${rfc}${R},\"Discrepancy found*\")"),
             None, None, None,
             page_url(it.url), it.json_file,
         ], ITEM_HEADERS))
@@ -1610,8 +1664,10 @@ def build_items_sheet(wb, review_cols, n_review_rows):
     f = L["Pre-check flags"]
     ws.conditional_formatting.add(f"{f}2:{f}{last}", FormulaRule(formula=[f'LEN(${f}2)>0'], fill=FILL_FLAG))
     for r in range(2, last + 1):
-        for h in ("Text rows", "Rows done", "Rows approved (EN)", "Rows approved (BN)", "Progress"):
+        for h in ("Text rows", "Rows done", "Rows approved (EN)", "Rows approved (BN)", "Progress", "Fact-check discrepancies"):
             ws.cell(row=r, column=col[h]).fill = GEN_FILL
+    fd = L["Fact-check discrepancies"]
+    ws.conditional_formatting.add(f"{fd}2:{fd}{last}", FormulaRule(formula=[f'${fd}2>0'], fill=FILL_RED))
     return L
 
 
@@ -1798,6 +1854,17 @@ def build_summary_sheet(wb, review_cols, item_cols, src_cols, masjid_cols, n_sou
         put(r, [t, f"=COUNTIF('Review rows'!${RK}:${RK},$A{r})"])
 
     r += 2
+    RFC = review_cols["Fact-check verdict"]
+    header(r, ["Niaz's fact check (verdict)", "Text rows", "Of which need a scholar"])
+    RNF = review_cols["Niaz's fact check"]
+    for t in FACTCHECK_VERDICTS:
+        r += 1
+        put(r, [t, f"=COUNTIF('Review rows'!${RFC}:${RFC},$A{r}&\"*\")",
+                f"=COUNTIFS('Review rows'!${RFC}:${RFC},$A{r}&\"*\",'Review rows'!${RNF}:${RNF},\"*Needs a scholar's judgement: yes*\")"])
+    r += 1
+    put(r, ["Not yet fact-checked", f"=COUNTBLANK('Review rows'!${RFC}$2:${RFC}${R})"])
+
+    r += 2
     header(r, ["Verdicts", "English", "Bengali"])
     for t in ("Approved", "Needs changes", "Rejected", "Unsure*"):
         r += 1
@@ -1821,6 +1888,7 @@ README_EN = [
     ("li", "Open 'Review rows'. Use the filters in the header row to pick your part: filter 'Area' (for example FAQ, Topic, Roadmap step), 'Suggested reviewer' (Scholar, Mentor, Mental health professional, Legal professional, Medical professional) or 'Review needed'. Several values are joined with '; ' in one cell, so type a word into the filter's search box (for example 'Scholar' or 'Medical') rather than picking exact combinations. Most rows are High priority because most of the site is still unreviewed; filter by area or review type to carve out a manageable slice."),
     ("li", "Read the English text. If you review Bengali, read the Bengali text next to it and judge both the meaning and the translation."),
     ("li", "Check the claims against 'Sources used' (the ids point to the 'Sources' sheet, which has every link) and against 'Key points to check'."),
+    ("li", "Read the 'Fact-check verdict' and \"Niaz's fact check\" columns: they show what a first web check of the cited sources found, with links. Treat them as a starting point, not a conclusion; rows marked 'Discrepancy found' are the ones to look at first."),
     ("li", "Fill in the yellow columns only: 'English verdict' (Approved, Needs changes, Rejected, Unsure), 'English reviewer' (your name), 'English comments' (what to change and why; quote the exact words). Bengali reviewers use the three Bengali columns the same way."),
     ("li", "Set 'Done' to Yes once the row is settled in both languages. The 'Items' and 'Summary' sheets count progress automatically."),
     ("li", "Grey and white columns are generated from the site's content files: do not edit them. If a text is wrong, say so in the comments and the site team will fix the content file named in 'JSON location'."),
@@ -1840,6 +1908,14 @@ README_EN = [
     ("kv", "Page URL / JSON location", "Where the text appears on the site (with an anchor to the section where one exists) and where it lives in the content files, for the site team. 'Content ID' and 'Item key' identify the item; 'Item key' plus 'JSON location' is the stable key for merging a filled-in copy into a rebuilt workbook."),
     ("kv", "Date done", "The date the row was settled, in whatever format you like; it is not counted."),
     ("kv", "Items sheet", "One row per item with formulas counting its rows. Its three yellow columns are for assigning a reviewer to the whole item, an item-level verdict, and notes."),
+    ("h2", "Niaz's fact check"),
+    ("p", "The two columns 'Fact-check verdict' and \"Niaz's fact check\" record a first, lay fact-check of every row done by the site owner (Niaz) with AI research assistants before the workbook went to the review team. For each row the assistants listed the checkable claims (rulings, Quran and hadith references, attributions, numbers, Canadian facts, Arabic phrases) and searched the web for the cited source and one mainstream Sunni reference, then wrote down what the search results showed, with the source URL. Pages could not be opened directly from the research environment, so the evidence rests on search-result snippets from the source sites; where a snippet did not settle the point the verdict says so. This is a sourcing check, not a religious ruling: a row can be 'Verified' in the sense that the cited source says what the site says, and still need a scholar's judgement on the ruling itself (the cell says when that is the case)."),
+    ("kv", "Verified", "Every claim that was checked matched an authentic source found online."),
+    ("kv", "Verified with notes", "The checked claims hold, but a wording, scope or precision point should be tightened, or a lesser claim could not be confirmed."),
+    ("kv", "Discrepancy found", "At least one claim conflicts with the source or is unsupported as written. Read the cell for what differs; these rows deserve the reviewers' first attention."),
+    ("kv", "Could not verify online", "The searches did not surface enough to confirm or refute; the cell says what was tried."),
+    ("kv", "No factual claim to check", "Encouraging or navigational text with nothing to verify."),
+    ("kv", "(text changed since this check)", "Appended to a verdict when the English text was edited after the check was made; the check needs repeating."),
     ("h2", "Review types"),
 ] + [("kv", t, REVIEW_TYPE_HELP[t]) for t in REVIEW_TYPES] + [
     ("h2", "House rules the content must follow"),
@@ -1859,6 +1935,7 @@ README_BN = [
     ("li", "দুই ভাষার কাজ শেষ হলে 'Done' কলামে Yes দিন। 'Items' ও 'Summary' শিটে অগ্রগতি স্বয়ংক্রিয়ভাবে গণনা হয়।"),
     ("li", "ধূসর ও সাদা কলামগুলো সাইটের কনটেন্ট ফাইল থেকে স্বয়ংক্রিয়ভাবে তৈরি; সেগুলো সম্পাদনা করবেন না। কোনো লেখা ভুল হলে মন্তব্যে লিখুন, সাইট টিম কনটেন্ট ফাইল ঠিক করবে।"),
     ("li", "'Bengali status' কলামে Missing, Same as English বা Not translated থাকলে বুঝবেন সেই অংশের বাংলা অনুবাদ এখনো নেই বা অসম্পূর্ণ।"),
+    ("li", "'Fact-check verdict' ও \"Niaz's fact check\" কলামে সাইটের মালিক (নিয়াজ) এআই গবেষণা-সহায়ক দিয়ে প্রতিটি সারির উল্লেখিত সূত্র ওয়েবে খুঁজে যা পেয়েছেন তা লেখা আছে, লিংকসহ। এটি প্রাথমিক যাচাই, কোনো ফতোয়া বা আলেমের সিদ্ধান্ত নয়। 'Discrepancy found' চিহ্নিত সারিগুলো আগে দেখুন।"),
 ]
 
 
@@ -1936,6 +2013,10 @@ def main():
     SOURCES_BY_ID = by_id(sources)
     PAGE_SOURCES = load_page_sources()
     count_source_use()
+    global FACTCHECKS
+    FACTCHECKS = load_factchecks()
+    if FACTCHECKS:
+        print(f"fact-check records: {len(FACTCHECKS)}")
     if args.previous:
         PREVIOUS = load_previous(args.previous)
         print("carrying over team input from", args.previous, {k: len(v) for k, v in PREVIOUS.items()})

@@ -10,7 +10,7 @@ the site's text one section at a time.
 | --- | --- |
 | Read me | How to use the workbook, column legend, review types, house rules (English and Bengali). |
 | Summary | Formula-driven progress counts by area, review type, reviewer, priority and Bengali status. |
-| Review rows | One row per text section: English, Bengali, priority, review needed, suggested reviewer, current `reviewStatus`, sources, key points, pre-check flags, and the team's verdict, reviewer, comment, done and date columns. |
+| Review rows | One row per text section: English, Bengali, priority, review needed, suggested reviewer, current `reviewStatus`, sources, key points, pre-check flags, the fact-check verdict and "Niaz's fact check" evidence, and the team's verdict, reviewer, comment, done and date columns. |
 | Items | One row per content item (step, topic, guide, FAQ entry, glossary entry, tool, page section) with item-level rollups of the rows. |
 | Sources | Every entry of `locales/en/sources.json` with its note, usage count and verdict columns. |
 | Masjids | Every entry of `locales/en/masjids.json` with English and Bengali notes and verdict columns. |
@@ -25,6 +25,7 @@ columns are for the team; rebuild with `--previous` (below) to carry them over.
 | `classification/*.json` | Per-item review types, reviewers, priority, key points and pre-check flags (see below). |
 | `ui-inventory.json` | Which second-level keys of `ui.json` carry reviewable text, with a label and the page URL, from a read of the route files. Used together with the `ui:` classification records. |
 | `site-notes.json` | Cross-cutting findings for the 'Site team notes' sheet. Edit or add entries by hand. |
+| `fact-checks/results.json` | One fact-check record per text row (verdict, claims checked, evidence, notes), keyed by item key plus JSON location. See `fact-checks/README.md`. |
 
 ## Classification data
 
