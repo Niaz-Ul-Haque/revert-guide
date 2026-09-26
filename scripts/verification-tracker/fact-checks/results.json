@@ -30216,6 +30216,349 @@
    "notes": "Accurate and suitably cautious. For a convert, a non-Muslim father cannot act as wali and the imam or Islamic centre usually does; IslamQA 208700 (title only) addresses a woman with no wali. Worth a line, since this is the common convert case. The entry has no sourceIds.",
    "needs_scholar": true,
    "method": "1 web search (islamqa.info and seekersguidance.org search-result excerpts); direct page opening was not available"
+  },
+  {
+   "key": "ui:pages.quranStarter.readingPathsBody | locales/en/ui.json › pages.quranStarter.readingPathsBody",
+   "row_id_at_check": "R1672",
+   "batch": "batch-37b.json",
+   "text_hash": "456bd1a67e",
+   "checked_on": "2026-09-26",
+   "verdict": "Verified",
+   "claims": [
+    {
+     "claim": "Nothing on the reading paths is saved (no progress stored on the device)",
+     "result": "matches",
+     "evidence": "Repo check: app/[locale]/quran-starter/page.tsx is a server component with no state; no localStorage, sessionStorage, IndexedDB or cookie code in the page or the components it renders. The only stored value site-wide is the language choice in components/LanguageSwitcher.tsx."
+    },
+    {
+     "claim": "Nothing is tracked (no analytics on the page)",
+     "result": "matches",
+     "evidence": "Repo check: no gtag, analytics, plausible, matomo, fbq or hotjar hooks in app/layout.tsx or app/[locale]/layout.tsx; CLAUDE.md rule 'No analytics scripts, ads, or third-party trackers'."
+    }
+   ],
+   "notes": "Holds for the site itself. The only third-party load on this page is YouTube's privacy-enhanced player (youtube-nocookie.com) for the embedded videos, and components/VideoEmbed.tsx loads it only after the reader presses play.",
+   "needs_scholar": false,
+   "method": "Repo code check (app/[locale]/quran-starter/page.tsx, its components and layouts) for storage, analytics and notification code; no web search needed"
+  },
+  {
+   "key": "ui:pages.quranStarter.weekBody | locales/en/ui.json › pages.quranStarter.weekBody",
+   "row_id_at_check": "R1673",
+   "batch": "batch-37b.json",
+   "text_hash": "7ca853252f",
+   "checked_on": "2026-09-26",
+   "verdict": "Verified",
+   "claims": [
+    {
+     "claim": "The printable first week does not save progress",
+     "result": "matches",
+     "evidence": "Repo check: weekPlan is static content from lib/tool-content.ts rendered as a plain list (app/[locale]/quran-starter/page.tsx line 645); no inputs, checkboxes, state or storage code."
+    },
+    {
+     "claim": "It does not remind you of anything (no notifications)",
+     "result": "matches",
+     "evidence": "Repo check: no Notification, pushManager or showNotification code under app/, components/ or lib/; CLAUDE.md notes push notifications are not used."
+    }
+   ],
+   "notes": "no issues",
+   "needs_scholar": false,
+   "method": "Repo code check (app/[locale]/quran-starter/page.tsx, its components and layouts) for storage, analytics and notification code; no web search needed"
+  },
+  {
+   "key": "ui:pages.quranStarter.listening | locales/en/ui.json › pages.quranStarter.listening",
+   "row_id_at_check": "R1674",
+   "batch": "batch-37b.json",
+   "text_hash": "7eedc51d06",
+   "checked_on": "2026-09-26",
+   "verdict": "No factual claim to check",
+   "claims": [],
+   "notes": "Listening advice only. Despite the review types, this row carries no Quran or hadith citation and no Arabic text. The advice to have recitation corrected by a teacher, imam or class is pastoral and consistent with the page's sources.",
+   "needs_scholar": false,
+   "method": "Offline read only; pastoral or navigational text, no search needed"
+  },
+  {
+   "key": "ui:pages.quranStarter.respect | locales/en/ui.json › pages.quranStarter.respect",
+   "row_id_at_check": "R1675",
+   "batch": "batch-37b.json",
+   "text_hash": "f611129eb9",
+   "checked_on": "2026-09-26",
+   "verdict": "Verified",
+   "claims": [
+    {
+     "claim": "Touching the Arabic mushaf has wudu and purity rules (the site defers them to a teacher)",
+     "result": "matches",
+     "evidence": "IslamQA (search-result excerpt), https://islamqa.info/en/answers/10672: 'According to the majority of scholars, it is forbidden for one who is in a state of impurity to touch the Mushaf without wudu, based on the hadith No one should touch the Quran but one who is pure.' New Muslim Academy (cited source), https://www.newmuslimacademy.org/etiquettes-of-touching-reading-the-quran-in-arabic-written-form/: 'Before touching the Mushaf, you should be in a state of ritual purity.'"
+    },
+    {
+     "claim": "The same handling rules do not all apply to translations",
+     "result": "matches",
+     "evidence": "IslamQA (search-result excerpt), https://islamqa.info/en/answers/118244: 'It is permissible for a person to touch a translation of the meanings of the Quran in a language other than Arabic when he does not have wudu.' New Muslim Academy (cited source): 'ritual purity is not required for touching a book that has only the translation of the Quran', while applying the mushaf's etiquette to it 'out of reverence' is good."
+    },
+    {
+     "claim": "The same handling rules do not all apply to phone apps",
+     "result": "matches",
+     "evidence": "IslamQA (search-result excerpt), https://islamqa.info/en/answers/106961: 'permissible to touch a mobile phone ... on which Quran is recorded, and it is permissible to read from it without wudu. Mobile phones ... do not come under the same rules as the Mushaf'."
+    },
+    {
+     "claim": "Keep a physical mushaf in a clean, respectful place",
+     "result": "matches",
+     "evidence": "New Muslim Academy (cited source, search-result excerpt): treat the Mushaf with honor and care, 'ensuring that it is placed in a clean and respectful location, away from clutter'."
+    }
+   ],
+   "notes": "The cited New Muslim Academy article and IslamQA agree with all four points, including the 'still good adab' line about translations. The hedge 'do not all apply' is apt: a translation printed alongside the Arabic text is treated differently by some scholars, which is why the deferral to a teacher is right.",
+   "needs_scholar": true,
+   "method": "Shared 11 web searches for the batch (sunnah.com, islamqa.info, seekersguidance.org, newmuslimacademy.org, dar-alifta.org, britannica.com search-result excerpts); direct page opening was not available; 2 searches used for this row (islamqa.info, newmuslimacademy.org)"
+  },
+  {
+   "key": "ui:pages.quranStarter.confusingVerse | locales/en/ui.json › pages.quranStarter.confusingVerse[0]",
+   "row_id_at_check": "R1676",
+   "batch": "batch-37b.json",
+   "text_hash": "4e2dacd56f",
+   "checked_on": "2026-09-26",
+   "verdict": "No factual claim to check",
+   "claims": [],
+   "notes": "Study advice ('Pause' card) with no ruling, citation, number or attribution to verify. Tone is calm and non-judgemental.",
+   "needs_scholar": false,
+   "method": "Offline read only; pastoral or navigational text, no search needed"
+  },
+  {
+   "key": "ui:pages.quranStarter.confusingVerse | locales/en/ui.json › pages.quranStarter.confusingVerse[1]",
+   "row_id_at_check": "R1677",
+   "batch": "batch-37b.json",
+   "text_hash": "18c337b873",
+   "checked_on": "2026-09-26",
+   "verdict": "No factual claim to check",
+   "claims": [],
+   "notes": "Study advice ('Read around it' card) with no ruling, citation, number or attribution to verify. Tone is calm and non-judgemental.",
+   "needs_scholar": false,
+   "method": "Offline read only; pastoral or navigational text, no search needed"
+  },
+  {
+   "key": "ui:pages.quranStarter.confusingVerse | locales/en/ui.json › pages.quranStarter.confusingVerse[2]",
+   "row_id_at_check": "R1678",
+   "batch": "batch-37b.json",
+   "text_hash": "77d9c6b105",
+   "checked_on": "2026-09-26",
+   "verdict": "No factual claim to check",
+   "claims": [],
+   "notes": "Study advice ('Write the exact question' card) with no ruling, citation, number or attribution to verify. Tone is calm and non-judgemental.",
+   "needs_scholar": false,
+   "method": "Offline read only; pastoral or navigational text, no search needed"
+  },
+  {
+   "key": "ui:pages.quranStarter.confusingVerse | locales/en/ui.json › pages.quranStarter.confusingVerse[3]",
+   "row_id_at_check": "R1679",
+   "batch": "batch-37b.json",
+   "text_hash": "e951986d83",
+   "checked_on": "2026-09-26",
+   "verdict": "No factual claim to check",
+   "claims": [],
+   "notes": "Study advice ('Ask someone reliable' card) with no ruling, citation, number or attribution to verify. Tone is calm and non-judgemental.",
+   "needs_scholar": false,
+   "method": "Offline read only; pastoral or navigational text, no search needed"
+  },
+  {
+   "key": "ui:pages.quranStarter.resourcesBody | locales/en/ui.json › pages.quranStarter.resourcesBody",
+   "row_id_at_check": "R1680",
+   "batch": "batch-37b.json",
+   "text_hash": "ab05fc85f0",
+   "checked_on": "2026-09-26",
+   "verdict": "No factual claim to check",
+   "claims": [],
+   "notes": "Advice on choosing learning sources; no ruling, citation or attribution to verify. The page's own resource list (Quran.com, Quranic Arabic Corpus, Islamwise, Madinah Arabic, Arabic 101) names publishers, which is consistent with the advice.",
+   "needs_scholar": false,
+   "method": "Offline read only; pastoral or navigational text, no search needed"
+  },
+  {
+   "key": "ui:pages.quranStarter.sourcesNote | locales/en/ui.json › pages.quranStarter.sourcesNote",
+   "row_id_at_check": "R1681",
+   "batch": "batch-37b.json",
+   "text_hash": "f445648d4b",
+   "checked_on": "2026-09-26",
+   "verdict": "No factual claim to check",
+   "claims": [],
+   "notes": "A statement about the site's own review process and a referral to a qualified teacher; nothing external to verify. The page's Quran references and handling notes are checked in their own rows of this workbook.",
+   "needs_scholar": false,
+   "method": "Offline read only; pastoral or navigational text, no search needed"
+  },
+  {
+   "key": "ui:pages.quranStarter.learnArabicBody | locales/en/ui.json › pages.quranStarter.learnArabicBody",
+   "row_id_at_check": "R1682",
+   "batch": "batch-37b.json",
+   "text_hash": "dc73936315",
+   "checked_on": "2026-09-26",
+   "verdict": "Verified with notes",
+   "claims": [
+    {
+     "claim": "Al-Fatihah is the chapter recited in every rak'ah",
+     "result": "matches",
+     "evidence": "Sunnah.com (search-result excerpt), https://sunnah.com/bukhari:756: Ubada bin As-Samit narrated, 'Whoever does not recite Al-Fatiha in his prayer, his prayer is invalid'; the chapter heading reads that recitation of Al-Fatiha is compulsory for the imam and the followers, at home and on a journey, in all prayers."
+    },
+    {
+     "claim": "Whether a follower recites Al-Fatihah behind the imam is disputed between the schools (context for 'every rak'ah')",
+     "result": "matches",
+     "evidence": "IslamQA (search-result excerpt), https://islamqa.info/en/answers/10995 and https://islamqa.info/en/answers/253598: 'two main scholarly opinions: 1- reciting al-Fatihah behind the imam is obligatory; 2- the recitation of the imam is also the recitation of the one who is praying behind him'; the Malikis exempt the follower in prayers recited aloud."
+    },
+    {
+     "claim": "Keep praying with what you know while you learn (a beginner prays before memorising Al-Fatihah)",
+     "result": "matches",
+     "evidence": "Sunnah.com (search-result excerpt), https://sunnah.com/abudawud:832: a man said 'I cannot memorise anything from the Qur'an: so teach me something which is sufficient for me' and was taught 'Glory be to Allah, and praise be to Allah, and there is no god but Allah, and Allah is most great, and there is no might and no strength but in Allah'. Dar al-Ifta (cited source), https://www.dar-alifta.org/en/fatwa/details/8030/...: a new Muslim unable to recite the Fatiha may perform dhikr instead until able."
+    },
+    {
+     "claim": "You do not need the whole language to pray; learn Al-Fatihah's words and meanings",
+     "result": "matches",
+     "evidence": "SeekersGuidance (cited source, search-result excerpt), https://seekersguidance.org/answers/hanafi-fiqh/can-i-recite-prayer-in-english/: 'it is obligatory for a new Muslim to slowly work towards being able to recite sura al-Fatiha and any small sura in Arabic. This can be learned orally or via transliteration.'"
+    }
+   ],
+   "notes": "Sourcing holds. Two precision points: 'recited in every rak'ah' is true for someone praying alone or leading, while the follower's recitation behind the imam differs by school (Hanafi and Maliki positions differ from Shafi'i); and SeekersGuidance says a short surah should eventually be learned as well as Al-Fatihah. Neither needs a change in a beginner intro.",
+   "needs_scholar": true,
+   "method": "Shared 11 web searches for the batch (sunnah.com, islamqa.info, seekersguidance.org, newmuslimacademy.org, dar-alifta.org, britannica.com search-result excerpts); direct page opening was not available; 4 searches used for this row (sunnah.com x2, islamqa.info, seekersguidance.org)"
+  },
+  {
+   "key": "ui:pages.quranStarter.wordByWordBody | locales/en/ui.json › pages.quranStarter.wordByWordBody",
+   "row_id_at_check": "R1683",
+   "batch": "batch-37b.json",
+   "text_hash": "58b56502e2",
+   "checked_on": "2026-09-26",
+   "verdict": "Verified",
+   "claims": [
+    {
+     "claim": "Arabic is read right to left",
+     "result": "matches",
+     "evidence": "Britannica (search-result excerpt), https://www.britannica.com/topic/Arabic-alphabet: 'Like other Semitic scripts, Arabic is written from right to left'; 28 consonantal letters."
+    }
+   ],
+   "notes": "The line 'The English helps you understand. The Arabic is the Quran' matches the page's cited Clear Quran note that a translation carries the meaning and is not the Quran itself; no issues.",
+   "needs_scholar": false,
+   "method": "Shared 11 web searches for the batch (sunnah.com, islamqa.info, seekersguidance.org, newmuslimacademy.org, dar-alifta.org, britannica.com search-result excerpts); direct page opening was not available; 1 search used for this row (britannica.com)"
+  },
+  {
+   "key": "ui:pages.salahCompanion.subtitle | locales/en/ui.json › pages.salahCompanion.subtitle",
+   "row_id_at_check": "R1684",
+   "batch": "batch-37b.json",
+   "text_hash": "e8f5bc17b9",
+   "checked_on": "2026-09-26",
+   "verdict": "No factual claim to check",
+   "claims": [],
+   "notes": "Page subtitle; describes the tool (a two-unit prayer walk-through with beginner recitations). Nothing to verify.",
+   "needs_scholar": false,
+   "method": "Offline read only; pastoral or navigational text, no search needed"
+  },
+  {
+   "key": "ui:pages.salahCompanion.mattersMost | locales/en/ui.json › pages.salahCompanion.mattersMost",
+   "row_id_at_check": "R1685",
+   "batch": "batch-37b.json",
+   "text_hash": "16bff8cbb0",
+   "checked_on": "2026-09-26",
+   "verdict": "Verified with notes",
+   "claims": [
+    {
+     "claim": "A beginner prays sincerely while still learning the words (prayer is not postponed until the recitations are memorised)",
+     "result": "matches",
+     "evidence": "Sunnah.com (search-result excerpt), https://sunnah.com/abudawud:832: the man who could not memorise any Quran was taught 'Glory be to Allah, and praise be to Allah, and there is no god but Allah, and Allah is most great, and there is no might and no strength but in Allah' as sufficient for him. SeekersGuidance (cited source), https://seekersguidance.org/answers/hanafi-fiqh/can-i-recite-prayer-in-english/: a new Muslim may 'recite the translation of the Quranic verses in their own language or ... replace the recitation of the Quran with remembrances like SubhanAllah', the latter 'valid in both "
+    },
+    {
+     "claim": "Ask a qualified imam about anything that turns on your own circumstances",
+     "result": "matches",
+     "evidence": "Pastoral referral consistent with the page's SeekersGuidance source note; no external check needed."
+    }
+   ],
+   "notes": "The sourcing supports praying while learning. What exactly a learner says meanwhile is a fiqh position that varies by school (translation is a Hanafi allowance; Arabic dhikr is the more cautious option per SeekersGuidance), so the referral to an imam is right. 'Get the shape of the prayer down' is pastoral.",
+   "needs_scholar": true,
+   "method": "Shared 11 web searches for the batch (sunnah.com, islamqa.info, seekersguidance.org, newmuslimacademy.org, dar-alifta.org, britannica.com search-result excerpts); direct page opening was not available; searches shared with R1682 (sunnah.com, seekersguidance.org, dar-alifta.org)"
+  },
+  {
+   "key": "ui:pages.salahCompanion.shapeBody | locales/en/ui.json › pages.salahCompanion.shapeBody",
+   "row_id_at_check": "R1686",
+   "batch": "batch-37b.json",
+   "text_hash": "6e2711bc2b",
+   "checked_on": "2026-09-26",
+   "verdict": "No factual claim to check",
+   "claims": [],
+   "notes": "Navigational intro ('a map, not a teacher') with a referral to a local imam or teacher; nothing to verify.",
+   "needs_scholar": false,
+   "method": "Offline read only; pastoral or navigational text, no search needed"
+  },
+  {
+   "key": "ui:pages.salahCompanion.recitationBody | locales/en/ui.json › pages.salahCompanion.recitationBody",
+   "row_id_at_check": "R1687",
+   "batch": "batch-37b.json",
+   "text_hash": "a03b7f1d1b",
+   "checked_on": "2026-09-26",
+   "verdict": "No factual claim to check",
+   "claims": [],
+   "notes": "Describes the recitation cards. The line that the English is a translation of meaning and the Arabic is the Quran matches the page's cited Clear Quran note; nothing to verify.",
+   "needs_scholar": false,
+   "method": "Offline read only; pastoral or navigational text, no search needed"
+  },
+  {
+   "key": "ui:pages.salahCompanion.invalidatesBody | locales/en/ui.json › pages.salahCompanion.invalidatesBody",
+   "row_id_at_check": "R1688",
+   "batch": "batch-37b.json",
+   "text_hash": "27d15c783c",
+   "checked_on": "2026-09-26",
+   "verdict": "Verified",
+   "claims": [
+    {
+     "claim": "The details of what invalidates a prayer differ between schools of law",
+     "result": "matches",
+     "evidence": "SeekersGuidance (search-result excerpt), https://seekersguidance.org/answers/hanafi-fiqh/reciting-from-a-copy-of-the-quran-mushaf-intarawih-and-other-prayers/: reciting from a mushaf in prayer invalidates it according to Imam Abu Hanifa, is valid but disliked according to Abu Yusuf and Muhammad, and is not even disliked according to Imam Shafi'i; SeekersGuidance also notes touching the private parts breaks wudu in the Shafi'i school but not in the Hanafi view."
+    }
+   ],
+   "notes": "A hedge, not a ruling: the cited Islamic Foundation of Ireland booklet's source note on the page already records one such difference (bleeding and vomiting break wudu in the Hanafi view). No issues.",
+   "needs_scholar": false,
+   "method": "Shared 11 web searches for the batch (sunnah.com, islamqa.info, seekersguidance.org, newmuslimacademy.org, dar-alifta.org, britannica.com search-result excerpts); direct page opening was not available; 1 search used for this row (seekersguidance.org)"
+  },
+  {
+   "key": "ui:pages.salahCompanion.askImam | locales/en/ui.json › pages.salahCompanion.askImam",
+   "row_id_at_check": "R1689",
+   "batch": "batch-37b.json",
+   "text_hash": "fd196fae6c",
+   "checked_on": "2026-09-26",
+   "verdict": "Verified with notes",
+   "claims": [
+    {
+     "claim": "Pain, disability or injury that stops standing, bowing, sitting or prostrating changes how one prays (so ask an imam)",
+     "result": "matches",
+     "evidence": "Sunnah.com (search-result excerpt), https://sunnah.com/bukhari:1117: Imran bin Husain, who had piles, asked about the prayer and was told 'Pray while standing and if you can't, pray while sitting and if you cannot do even that, then pray lying on your side.' The page cites this and school-specific SeekersGuidance answers on praying seated."
+    },
+    {
+     "claim": "Someone who keeps missing prayers needs a make-up plan they can follow (missed prayers are made up)",
+     "result": "matches",
+     "evidence": "SeekersGuidance (cited source, search-result excerpt), https://seekersguidance.org/answers/general-counsel/new-converts-making-up-missed-prayers-and-praying-confirmed-sunnas/: 'According to all four schools of Sunni Islamic law, it is obligatory to make up all missed prayers'; converts are not responsible for prayers from before they knew of the obligation; 'make a schedule for making up prayers that you can maintain consistently'."
+    },
+    {
+     "claim": "Not knowing what to recite while learning Arabic is a legitimate question for an imam",
+     "result": "matches",
+     "evidence": "Sunnah.com, https://sunnah.com/abudawud:832 (dhikr taught to the man who could not memorise Quran) and SeekersGuidance, https://seekersguidance.org/answers/hanafi-fiqh/can-i-recite-prayer-in-english/ (translation or Arabic remembrances while learning; the answer differs by school)."
+    }
+   ],
+   "notes": "All points hold and each is framed as a reason to ask an imam, not as a ruling. One note: the four schools require making up missed prayers, but a minority view (Ibn Taymiyyah, followed by some contemporary sites) holds deliberately missed prayers are not made up; SeekersGuidance has an answer on that choice. The site takes no side, which is fine. The trauma and safety lines are pastoral.",
+   "needs_scholar": true,
+   "method": "Shared 11 web searches for the batch (sunnah.com, islamqa.info, seekersguidance.org, newmuslimacademy.org, dar-alifta.org, britannica.com search-result excerpts); direct page opening was not available; 2 searches used for this row (sunnah.com, seekersguidance.org)"
+  },
+  {
+   "key": "ui:pages.salahCompanion.sourcesNote | locales/en/ui.json › pages.salahCompanion.sourcesNote",
+   "row_id_at_check": "R1690",
+   "batch": "batch-37b.json",
+   "text_hash": "0611015bf5",
+   "checked_on": "2026-09-26",
+   "verdict": "No factual claim to check",
+   "claims": [],
+   "notes": "A statement about the site's own review scope and a referral to someone qualified; nothing external to verify. The page's hadith and fatwa references are checked in their own rows.",
+   "needs_scholar": false,
+   "method": "Offline read only; pastoral or navigational text, no search needed"
+  },
+  {
+   "key": "ui:pages.salahCompanion.watchBody | locales/en/ui.json › pages.salahCompanion.watchBody",
+   "row_id_at_check": "R1691",
+   "batch": "batch-37b.json",
+   "text_hash": "8bb2f522a7",
+   "checked_on": "2026-09-26",
+   "verdict": "No factual claim to check",
+   "claims": [],
+   "notes": "Navigational intro to the embedded video; nothing to verify. The video itself (Green Lane Masjid, five prayers, 33:57, with creator timestamps) is documented in the page's source note.",
+   "needs_scholar": false,
+   "method": "Offline read only; pastoral or navigational text, no search needed"
   }
  ]
 }
