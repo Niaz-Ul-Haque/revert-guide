@@ -1554,7 +1554,7 @@ README_EN = [
     ("kv", "Suggested reviewer", "Who should look first. Scholars for religious content, mentors for lived-experience and practical guidance, professionals for clinical, legal or medical claims."),
     ("kv", "Current status (site)", "The reviewStatus recorded in the content file today: " + " ".join(f"'{k}' = {v}" for k, v in STATUS_HELP.items())),
     ("kv", "Bengali status", "Translated: Bengali text exists. Missing: no Bengali text for this section. Same as English / Not translated: the Bengali file still carries the English words. Not needed: the text is Arabic, a link or a number and needs no translation."),
-    ("kv", "Sources used", "The source ids the site cites for this text, with title and organisation. Look the id up on the 'Sources' sheet for the link and the note on what it supports."),
+    ("kv", "Sources used", "The source ids the site cites for this text, with title and organisation, one per line. The column does not wrap, so click the cell (or read the formula bar) to see the whole list, and look the id up on the 'Sources' sheet for the link and the note on what it supports. The 'Items' sheet repeats the list with links."),
     ("kv", "Key points to check", "A machine-generated reading list of the specific claims, citations, numbers and names in the item. It is a pointer, not a verdict. Empty when nothing specific stands out."),
     ("kv", "Pre-check flags", "Machine-generated warnings about a possible breach of the site's own rules (for example suicide-safe wording, 911 before 9-8-8, a missing source). Please confirm or dismiss them in your comments."),
     ("kv", "Page URL / JSON location", "Where the text appears on the site and where it lives in the content files, for the site team."),
@@ -1626,7 +1626,7 @@ def build_readme(wb, meta):
 
     for entry in README_EN[:2]:
         write(*entry)
-    write("kv", "Generated", f"{meta['generated']} from repository commit {meta['commit']}. Re-run scripts/verification-tracker/build.py to refresh it after content changes; the yellow columns are not carried over, so copy them before regenerating.")
+    write("kv", "Generated", f"{meta['generated']} from the content files in the repository (last commit {meta['commit']}). Re-run scripts/verification-tracker/build.py to refresh it after content changes; the yellow columns are not carried over, so copy them before regenerating.")
     write("kv", "Contents", f"{meta['rows']} text rows across {meta['items']} items on 'Review rows'; {meta['sources']} sources on 'Sources'; {meta['masjids']} masjid records on 'Masjids'; {meta['notes']} findings on 'Site team notes'. The counts on 'Items' and 'Summary' are formulas and calculate when the file opens (Excel may ask to save on close because of this).")
     write("kv", "Colour key", "Dark header = generated column (read only). Gold header and pale yellow cells = for the review team to fill in. Grey cells = formulas.")
     for entry in README_EN[2:]:
