@@ -16,8 +16,7 @@ the site's text one section at a time.
 | Masjids | Every entry of `locales/en/masjids.json` with English and Bengali notes and verdict columns. |
 
 The generated columns come from `locales/en` and `locales/bn`. The yellow
-columns are for the team and are not carried over when the workbook is rebuilt,
-so copy them out (or diff by Row ID and Item key) before regenerating.
+columns are for the team; rebuild with `--previous` (below) to carry them over.
 
 ## Inputs kept next to the script
 
@@ -44,15 +43,22 @@ chrome-only block of `ui.json` out of the workbook.
 ```bash
 pip install openpyxl            # once
 python3 scripts/verification-tracker/build.py
-# or
+# after content changes, keep the team's verdicts and comments from the copy they filled in:
+python3 scripts/verification-tracker/build.py --previous ~/Downloads/content-verification-tracker.xlsx
+# other options
 python3 scripts/verification-tracker/build.py --out /tmp/tracker.xlsx --dump-json /tmp/rows.json
 ```
 
+`--previous` matches 'Review rows' on Item key plus JSON location, 'Items' on
+Item key, 'Sources' and 'Masjids' on their ids and 'Site team notes' on the
+finding text, and copies the yellow columns across. Row IDs are positional and
+shift when content is added, so never merge on them.
+
 The script prints the row counts per area and the number of items that had no
 classification record. Formulas are written without cached values and calculate
-when the workbook opens; to store the values (so previews show numbers) open
-and save it once in Excel or LibreOffice, or run the recalc helper from the
-xlsx skill (`recalc.py docs/content-verification-tracker.xlsx`).
+when the workbook opens; the committed copy under `docs/` was opened and saved
+once through LibreOffice so that file previews also show the numbers. Do the
+same (Excel or LibreOffice, save once) after regenerating.
 
 ## What the workbook covers
 

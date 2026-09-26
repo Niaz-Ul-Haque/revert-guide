@@ -112,13 +112,13 @@ RELIGIOUS_TYPES = {
 
 # Row-level keyword rules. They only ADD types to what the item classification says.
 ROW_RULES = [
-    ("Suicide-safe language", re.compile(r"suicid|self-harm|self harm|kill (?:my|your|him|her|them)sel|end(?:ing)? (?:my|your|their|his|her) (?:own )?life|hurt(?:ing)? (?:my|your)self|take (?:my|your|their) (?:own )?life", re.I)),
+    ("Suicide-safe language", re.compile(r"suicid|self-harm|self harm|kill (?:my|your|him|her|them)sel|end(?:ing)? (?:my|your|their|his|her) (?:own )?life|hurt(?:ing)? (?:my|your)self|harm(?:ing)? (?:my|your)self|take (?:my|your|their) (?:own )?life|not alive|want(?:ing)? to die|9-8-8|\b988\b|crisis (?:line|helpline)", re.I)),
     ("Quran or hadith citation", re.compile(r"\b(?:Bukhari|Sahih Muslim|Muslim \d|Tirmidhi|Abu Dawud|Abu Dawood|Nasa'?i|Ibn Majah|Muwatta|Musnad|Riyad|hadith|ahadith|Qur'?an \d|Quran \d|Surah|Surat|Sura\b|ayah|verse \d)", re.I)),
     ("Arabic text or transliteration", re.compile(r"[؀-ۿ]")),
     ("Canadian services or contacts", re.compile(r"\b(?:9-1-1|911|9-8-8|988|1-8\d\d[-\s]\d{3}[-\s]\d{4}|\(\d{3}\) ?\d{3}-\d{4}|\d{3}-\d{3}-\d{4}|Kids Help Phone|Talk Suicide|CAMH|Service Canada|Canada Revenue|Legal Aid|helpline|hotline|crisis line|Hope for Wellness|Wellness Together|Naseeha|Khalil Center|Nisa Helpline)", re.I)),
-    ("Legal (Canada)", re.compile(r"\b(?:lawyer|legal(?:ly)?\b|the law\b|court|custody|\bwills\b|\b(?:a|your|my|their) will\b|last will|will and testament|inheritance|estate\b|notar|immigration|refugee|citizenship|human rights|discriminat|employment standards|tenant|landlord|power of attorney|executor|marriage licen[cs]e|legally married|civil marriage)", re.I)),
+    ("Legal (Canada)", re.compile(r"\b(?:lawyer|legal(?:ly)?\b|the law\b|courts?\b|custody|\bwills\b|\b(?:a|your|my|their) will\b|last will|will and testament|inheritance|estate\b|notar|immigration|refugee|citizenship|human rights|discriminat|employment standards|tenant|landlord|power of attorney|executor|marriage licen[cs]e|legally married|civil marriage)", re.I)),
     ("Financial (zakat, riba, money)", re.compile(r"\b(?:zakat|nisab|riba|interest(?:-| )(?:free|based|bearing)|mortgage|loan|debt|bank(?:ing)?\b|credit card|RRSP|TFSA|taxes?\b|halal invest|insurance|pension|sadaqah|fidya|kaffarah|expiation)", re.I)),
-    ("Medical or health", re.compile(r"\b(?:menstruat|menses|period(?:s)?\b|postnatal|postpartum|pregnan|breastfeed|medication|medicine|doctor|physician|nurse|illness|diabet|hospital|surgery|vaccin|disabilit|injur|wound|bleeding|urin|nosebleed|incontinence|contracept|IVF|autopsy|organ donation|palliative|MAID\b|life support|dementia|chronic)", re.I)),
+    ("Medical or health", re.compile(r"\b(?:menstruat|menses|(?:her|your|my|monthly|menstrual|a) periods?\b|periods? (?:pain|cramps|starts?|ends?|bleeding|blood)|on (?:her|your|my) period|postnatal|postpartum|pregnan|breastfeed|medication|medicine|doctor|physician|nurse|illness|diabet|hospital|surgery|vaccin|disabilit|injur|wound|bleeding|urin|nosebleed|incontinence|contracept|IVF|autopsy|organ donation|palliative|MAID\b|life support|dementia|chronic)", re.I)),
     ("Mental health", re.compile(r"\b(?:anxiety|anxious|depress|therap|counsell?|psycholog|psychiatr|panic|trauma|PTSD|OCD|waswas|burnout|lonel|grie[fv]|bereave|mental health|self-care|overwhelm|intrusive thought|distress)", re.I)),
     ("Safety or abuse", re.compile(r"\b(?:abus(?:e|ive|ed)|violen|assault|harass|threat|unsafe|coerc|stalk|shelter|police|emergency|in danger|forced marriage|honou?r-based)", re.I)),
     ("Family, marriage or intimacy", re.compile(r"\b(?:marri|spouse|husband|wife|divorc|talaq|khula|nikah|mahr|intima|\bsex(?:ual)?\b|dating|boyfriend|girlfriend|in-laws|\bwali\b|polygam|custody)", re.I)),
@@ -262,6 +262,12 @@ class Item:
         self.anchor_rules = {}
         # When not None, a dict with an "id" gets the anchor "#<id><suffix>"
         self.anchor_from_ids = None
+        # Tool-style pages: every top-level field or list is its own section
+        self.split_top = False
+        # Source ids the page prints from code (route file), used when a section has none of its own
+        self.page_sources = []
+        # Keys to leave out for this item only
+        self.skip_keys = set()
 
 
 ITEMS: list[Item] = []
@@ -276,10 +282,18 @@ def new_item(*args, **kwargs):
     return it
 
 
-def add_row(item, section, en_text, bn_text, json_path, source_ids=None, anchor=None):
+def add_row(item, section, en_text, bn_text, json_path, source_ids=None, anchor=None, url=None):
     en_text = s(en_text)
     if not en_text:
         return
+    if len(section) > 110:
+        section = section[:107].rstrip() + "…"
+    if len(en_text) > SPLIT_AT:
+        parts = split_long(en_text, s(bn_text))
+        if len(parts) > 1:
+            for pi, (pe, pb) in enumerate(parts):
+                add_row(item, f"{section} (part {pi + 1} of {len(parts)})", pe, pb, json_path, source_ids, anchor, url)
+            return
     item.rows.append({
         "section": section,
         "en": en_text,
@@ -287,6 +301,7 @@ def add_row(item, section, en_text, bn_text, json_path, source_ids=None, anchor=
         "json_path": json_path,
         "source_ids": [x for x in (source_ids or []) if isinstance(x, str)] or None,
         "anchor": anchor or "",
+        "url": url,
     })
 
 
@@ -295,23 +310,24 @@ def add_row(item, section, en_text, bn_text, json_path, source_ids=None, anchor=
 # ---------------------------------------------------------------------------
 
 SKIP_KEYS = {
-    "id", "slug", "icon", "src", "videoId", "start", "kind", "category", "stageId", "resourceId",
-    "replySource", "coordinatesPrecision", "reviewStatus", "lastSourceChecked", "nodeOrder",
+    "id", "slug", "icon", "src", "videoId", "category", "stageId", "resourceId",
+    "coordinatesPrecision", "reviewStatus", "lastSourceChecked", "nodeOrder",
     "startNodeId", "nextNodeId", "ariaLabel", "sourceIds", "referenceIds", "seeAlso", "relatedStepIds",
     "relatedTopicIds", "relatedGlossaryIds", "relatedResourceIds", "resourceIds", "stepIds", "type",
-    "units", "chapters", "logoAlt", "searchPlaceholder", "searchLabel", "loading", "error",
+    "units", "logoAlt", "searchPlaceholder", "searchLabel", "loading", "error",
     "errorTitle", "liveRegion", "loadingAriaLabel", "listAriaLabel", "latitudePlaceholder",
     "longitudePlaceholder", "locationPlaceholder", "emptyAction", "emptyPrefix", "buttonLabel",
     "linkLabel", "footerLinkLabel", "footerPrefix", "footerSuffix", "seasonalButton", "convertedLinkLabel",
-    "helpLabel", "officialLabel", "prompt", "eyebrow", "goodNextQuestions",
+    "helpLabel", "officialLabel", "prompt",
 }
+REPLY_SOURCE_LABELS = {"text": "Wording from the Quran or hadith", "custom": "Common courtesy, not a Sunnah text"}
 LINK_KEYS = {"href", "url", "officialHref", "linkHref", "warningLinkHref", "sourceUrl"}
 NAV_LIST_KEYS = {"links", "relatedLinks"}
 TITLE_KEYS = ["title", "heading", "name", "question", "term", "phrase", "word", "day", "label", "citation"]
 NO_LABEL_KEYS = {
     "body", "content", "text", "summary", "intro", "description", "desc", "explanation", "answer",
     "solution", "response", "definition", "paragraphs", "items", "points", "steps", "subSteps", "note",
-    "notes", "tips", "help", "value",
+    "notes", "tips", "help", "value", "helperText",
 }
 PARAGRAPH_KEYS = {"paragraphs", "explanation"}
 KEY_LABELS = {
@@ -351,6 +367,10 @@ KEY_LABELS = {
     "badgeBody": "Review badge", "commitment": "Commitment", "limitations": "Known limitations",
     "registryIntro": "Registry intro", "howToUseBody": "How to use",
     "spiritualPractices": "Spiritual practices", "practicalTips": "Practical tips",
+    "crisisDanger": "Crisis block: in danger", "crisisCall911": "Crisis block: call 911", "crisisMentalHealth": "Crisis block: mental health crisis",
+    "crisisCall988": "Crisis block: call or text 9-8-8", "orientation": "Orientation line", "copyright": "Copyright line", "description": "Description",
+    "goodNextQuestions": "Good next questions", "relatedLinks": "Links on this page", "chapters": "Chapters", "kind": "Kind", "eyebrow": "Kicker",
+    "replySource": "Reply source", "checked": "Checked",
 }
 
 
@@ -393,46 +413,64 @@ def dict_is_small(d):
     return total <= 320
 
 
-def small_dict_line(d, bd):
-    """One-line rendering of a small dict, e.g. '• Call: 9-1-1' or '• Yes, they believe — Helper text: ...'."""
+def small_dict_line(d, bd, skip=()):
+    """One-line rendering of a small dict, e.g. 'Call: 9-1-1' or 'Yes, they believe — Move toward ...'."""
     bd = bd if isinstance(bd, dict) else {}
+    keys = [k for k in d if not (is_id_key(k) and k not in LINK_KEYS) and k not in skip]
+    if set(keys) <= {"label", "value", "href"} and isinstance(d.get("value"), str):
+        lab = s(d.get("label")).rstrip(":")
+        blab = s(bd.get("label")).rstrip(":") if isinstance(bd.get("label"), str) else ""
+        en_line = f"{lab}: {d['value']}" if lab else str(d["value"])
+        bval = bd.get("value") if isinstance(bd.get("value"), str) else d["value"]
+        bn_line = f"{blab or lab}: {bval}" if (blab or lab) else str(bval)
+        return en_line, bn_line
     en_parts, bn_parts = [], []
     title_done = False
-    for k, v in d.items():
-        if is_id_key(k) and k not in LINK_KEYS:
-            continue
-        bv = bd.get(k)
+    for k in keys:
+        v, bv = d.get(k), bd.get(k)
         if isinstance(v, str) and v.strip():
             if k in LINK_KEYS:
                 if v.startswith("http"):
                     en_parts.append(f"Link: {v}")
                     bn_parts.append(f"Link: {v}")
                 continue
+            if k == "replySource":
+                en_parts.append(f"Reply source: {REPLY_SOURCE_LABELS.get(v, v)}")
+                bn_parts.append(f"Reply source: {REPLY_SOURCE_LABELS.get(v, v)}")
+                continue
             if (not title_done and k in TITLE_KEYS) or k in NO_LABEL_KEYS:
                 en_parts.append(v.strip())
                 bn_parts.append(bv.strip() if isinstance(bv, str) and bv.strip() else "")
                 title_done = title_done or k in TITLE_KEYS
             else:
-                en_parts.append(f"{humanize(k)}: {v.strip()}")
-                bn_parts.append(f"{humanize(k)}: {bv.strip()}" if isinstance(bv, str) and bv.strip() else "")
+                en_parts.append(f"{key_label(k)}: {v.strip()}")
+                bn_parts.append(f"{key_label(k)}: {bv.strip()}" if isinstance(bv, str) and bv.strip() else "")
+        elif isinstance(v, (int, float)) and not isinstance(v, bool) and k == "start":
+            en_parts.append(f"at {v} s")
+            bn_parts.append(f"at {v} s")
         elif isinstance(v, list) and v and all(isinstance(x, str) for x in v):
             en_parts.append("; ".join(x.strip() for x in v if x.strip()))
             bn_parts.append("; ".join(x.strip() for x in bv if isinstance(x, str) and x.strip()) if isinstance(bv, list) else "")
-    en_line = " — ".join(p for p in en_parts if p)
-    if len(en_parts) == 2 and not any(p.startswith(("Link:",)) for p in en_parts) and en_parts[0].endswith(":"):
-        en_line = f"{en_parts[0]} {en_parts[1]}"
-        bn_line = f"{bn_parts[0] or en_parts[0]} {bn_parts[1] or en_parts[1]}" if any(bn_parts) else ""
-    else:
-        bn_line = " — ".join(p for p in bn_parts if p)
-    return en_line, bn_line
+    return " — ".join(x for x in en_parts if x), " — ".join(x for x in bn_parts if x)
 
 
-def compose_dict(en, bn, *, split_lists=False):
+def labelled_value(k, v, bv):
+    """Scalar field as 'Label: value' unless the key needs no label or the value already starts with it."""
+    label = key_label(k)
+    if k == "replySource":
+        lab = REPLY_SOURCE_LABELS.get(v, v)
+        return f"Reply source: {lab}", f"Reply source: {lab}"
+    if k in NO_LABEL_KEYS or v.strip().lower().startswith(label.lower()):
+        return v.strip(), (bv.strip() if isinstance(bv, str) and bv.strip() else "")
+    return f"{label}: {v.strip()}", (f"{label}: {bv.strip()}" if isinstance(bv, str) and bv.strip() else "")
+
+
+def compose_dict(en, bn, *, split_lists=False, split_scalars=False, skip=()):
     """Compose the scalar, string-list and small-list fields of a dict into one text.
 
     Returns (en_text, bn_text, list_rows, consumed_keys, title_only). list_rows holds
-    (key, en_text, bn_text, source_ids) for string lists that get their own row when
-    split_lists is True (the top level of an item)."""
+    (key, en_text, bn_text, source_ids) for fields that get their own row: string lists when
+    split_lists is True, and non-title scalars when split_scalars is True (tool pages)."""
     en_parts, bn_parts, list_rows, consumed = [], [], [], set()
     bn = bn if isinstance(bn, dict) else {}
     extra_sources = {k[: -len("SourceIds")]: v for k, v in en.items() if k.endswith("SourceIds") and isinstance(v, list)}
@@ -446,7 +484,7 @@ def compose_dict(en, bn, *, split_lists=False):
     title_done = False
     title_text = ""
     for k, v in en.items():
-        if is_id_key(k) and k not in LINK_KEYS:
+        if (is_id_key(k) and k not in LINK_KEYS) or k in skip:
             continue
         bv = bn.get(k)
         if isinstance(v, str):
@@ -465,14 +503,13 @@ def compose_dict(en, bn, *, split_lists=False):
                 if isinstance(bv, str) and bv.strip():
                     bn_parts.append(bv.strip())
                 title_done = True
-            elif k in NO_LABEL_KEYS:
-                en_parts.append(v.strip())
-                if isinstance(bv, str) and bv.strip():
-                    bn_parts.append(bv.strip())
+            elif split_scalars and k not in ("subtitle", "eyebrow"):
+                list_rows.append((k, v.strip(), bv.strip() if isinstance(bv, str) else "", sources_for(k)))
             else:
-                en_parts.append(f"{key_label(k)}: {v.strip()}")
-                if isinstance(bv, str) and bv.strip():
-                    bn_parts.append(f"{key_label(k)}: {bv.strip()}")
+                et, bt = labelled_value(k, v, bv)
+                en_parts.append(et)
+                if bt:
+                    bn_parts.append(bt)
         elif isinstance(v, list) and v and all(isinstance(x, str) for x in v):
             joiner = paragraphs if k in PARAGRAPH_KEYS else bullets
             en_l = joiner(v)
@@ -480,7 +517,7 @@ def compose_dict(en, bn, *, split_lists=False):
             if not en_l:
                 continue
             consumed.add(k)
-            label = "" if k in NO_LABEL_KEYS else f"{key_label(k)}:\n"
+            label = "" if k in NO_LABEL_KEYS else f"{humanize(k)}:\n"
             if split_lists:
                 list_rows.append((k, en_l, bn_l, sources_for(k)))
             else:
@@ -488,19 +525,22 @@ def compose_dict(en, bn, *, split_lists=False):
                 if bn_l:
                     bn_parts.append(f"{label}{bn_l}")
         elif isinstance(v, list) and v and all(isinstance(x, dict) for x in v):
-            if k in NAV_LIST_KEYS and not has_external_link(v):
-                consumed.add(k)
-                continue
-            if all(dict_is_small(x) for x in v) and len(v) <= 14 and sum(text_length(x) for x in v) <= 900:
+            if split_lists:
+                continue  # the caller gives lists of objects their own rows on tool pages
+            nav_only = k in NAV_LIST_KEYS and not has_external_link(v)
+            if nav_only or (all(dict_is_small(x) for x in v) and len(v) <= 14 and sum(text_length(x) for x in v) <= 900):
                 consumed.add(k)
                 en_lines, bn_lines = [], []
                 for i, x in enumerate(v):
-                    el, bl_ = small_dict_line(x, g(bv, i))
+                    if nav_only:
+                        el, bl_ = s(x.get("label")), s(g(bv, i, "label"))
+                    else:
+                        el, bl_ = small_dict_line(x, g(bv, i), skip)
                     if el:
                         en_lines.append(f"• {el}")
                         bn_lines.append(f"• {bl_}" if bl_ else "")
                 if en_lines:
-                    label = "" if k in NO_LABEL_KEYS else f"{key_label(k)}:\n"
+                    label = "" if k in NO_LABEL_KEYS else f"{humanize(k)}:\n"
                     en_parts.append(label + "\n".join(en_lines))
                     if any(bn_lines):
                         bn_parts.append(label + "\n".join(x for x in bn_lines if x))
@@ -520,44 +560,74 @@ def singular_label(k):
     return lab
 
 
+def child_label(parent_label, key, title=""):
+    base = key_label(key)
+    if title and title.lower().startswith(base.lower()):
+        lbl = title
+    elif title and title != base:
+        lbl = f"{base}: {title}"
+    else:
+        lbl = base
+    return f"{parent_label} › {lbl}" if parent_label else lbl
+
+
 def generic_walk(item, en, bn, label_path, json_path, depth=0, inherited_sources=None, anchor=None):
     if isinstance(en, dict):
         if item.anchor_from_ids is not None and isinstance(en.get("id"), str) and en["id"]:
             anchor = f"#{en['id']}{item.anchor_from_ids}"
         own_sources = en.get("sourceIds") if isinstance(en.get("sourceIds"), list) else inherited_sources
-        en_text, bn_text, list_rows, consumed, title_only = compose_dict(en, bn, split_lists=(depth == 0))
-        has_children = any(
-            isinstance(v, (dict, list)) and k not in consumed and not (is_id_key(k) and k not in LINK_KEYS)
+        top = depth == 0 and item.split_top
+        en_text, bn_text, list_rows, consumed, title_only = compose_dict(
+            en, bn, split_lists=top, split_scalars=top, skip=item.skip_keys)
+        children = [
+            k for k, v in en.items()
+            if isinstance(v, (dict, list)) and k not in consumed and k not in item.skip_keys
+            and not (is_id_key(k) and k not in LINK_KEYS)
             and not (isinstance(v, list) and all(isinstance(x, str) for x in v))
-            for k, v in en.items()
-        )
-        if en_text.strip() and not (title_only and has_children):
+        ]
+        title = first_title(en)
+        base_label = label_path
+        if title_only and (children or list_rows):
+            # A heading with sub-sections: the heading becomes the label of the sub-section rows.
+            base_label = label_path or title
+        elif en_text.strip():
             add_row(item, label_path or "Overview", en_text, bn_text, json_path, own_sources, anchor=anchor)
         for k, en_l, bn_l, src_ids in list_rows:
             row_anchor = item.anchor_rules.get(k, anchor) if depth == 0 else anchor
-            add_row(item, f"{label_path} › {key_label(k)}" if label_path else key_label(k), en_l, bn_l,
+            add_row(item, f"{base_label} › {key_label(k)}" if base_label else key_label(k), en_l, bn_l,
                     f"{json_path}.{k}" if json_path else k, src_ids or own_sources, anchor=row_anchor)
-        for k, v in en.items():
-            if k in consumed or (is_id_key(k) and k not in LINK_KEYS):
-                continue
+        for k in children:
+            v = en[k]
             bv = bn.get(k) if isinstance(bn, dict) else None
-            sub_label = f"{label_path} › {key_label(k)}" if label_path else key_label(k)
             sub_path = f"{json_path}.{k}" if json_path else k
             sub_anchor = item.anchor_rules.get(k, anchor) if depth == 0 else anchor
             if isinstance(v, dict):
-                title = first_title(v)
-                lbl = f"{sub_label}: {title}" if title and title != key_label(k) else sub_label
-                generic_walk(item, v, bv, lbl, sub_path, depth + 1, own_sources, sub_anchor)
+                generic_walk(item, v, bv, child_label(base_label, k, first_title(v)), sub_path, depth + 1, own_sources, sub_anchor)
             elif isinstance(v, list) and v and all(isinstance(x, dict) for x in v):
-                base = f"{label_path} › {singular_label(k)}" if label_path else singular_label(k)
+                nav_only = k in NAV_LIST_KEYS and not has_external_link(v)
+                small = all(dict_is_small(x) for x in v) and len(v) <= 14
+                if top and (nav_only or (small and sum(text_length(x) for x in v) <= 600)):
+                    en_lines, bn_lines = [], []
+                    for i, x in enumerate(v):
+                        if nav_only:
+                            el, bl_ = s(x.get("label")), s(g(bv, i, "label"))
+                        else:
+                            el, bl_ = small_dict_line(x, g(bv, i), item.skip_keys)
+                        if el:
+                            en_lines.append(f"• {el}")
+                            bn_lines.append(f"• {bl_}" if bl_ else "")
+                    add_row(item, child_label(base_label, k), "\n".join(en_lines), "\n".join(x for x in bn_lines if x),
+                            sub_path, own_sources, anchor=sub_anchor)
+                    continue
+                stem = f"{base_label} › {singular_label(k)}" if base_label else singular_label(k)
                 for i, x in enumerate(v):
-                    title = first_title(x)
-                    lbl = f"{base} {i + 1} of {len(v)}" + (f": {title}" if title else "")
+                    t = first_title(x)
+                    lbl = f"{stem} {i + 1} of {len(v)}" + (f": {t}" if t else "")
                     generic_walk(item, x, g(bv, i), lbl, f"{sub_path}[{i}]", depth + 1, own_sources, sub_anchor)
             elif isinstance(v, list) and v and not all(isinstance(x, str) for x in v):
                 for i, x in enumerate(v):
                     if isinstance(x, (dict, list)):
-                        generic_walk(item, x, g(bv, i), f"{sub_label} {i + 1}", f"{sub_path}[{i}]", depth + 1, own_sources, sub_anchor)
+                        generic_walk(item, x, g(bv, i), f"{child_label(base_label, k)} {i + 1}", f"{sub_path}[{i}]", depth + 1, own_sources, sub_anchor)
     elif isinstance(en, list):
         if all(isinstance(x, str) for x in en):
             add_row(item, label_path, bullets(en), bullets(bn) if isinstance(bn, list) else "", json_path, inherited_sources, anchor=anchor)
@@ -630,11 +700,15 @@ def video_rows(item, videos, bn_videos, json_path, label="Video", anchor=None):
             continue
         bv = g(bn_videos, i) or {}
         vid = v.get("videoId", "")
+        chapters = v.get("chapters") or []
+        ch_en = bullets([f"{s(c.get('label'))} (at {c.get('start')} s)" for c in chapters if isinstance(c, dict)])
+        ch_bn = bullets([f"{s(c.get('label'))} (at {c.get('start')} s)" for c in (bv.get("chapters") or []) if isinstance(c, dict)])
         en_t = lines(
             s(v.get("title")),
             labelled("Channel", v.get("channel")),
             labelled("Length", v.get("duration")),
             s(v.get("note")),
+            f"Chapters:\n{ch_en}" if ch_en else "",
             f"Link: https://www.youtube.com/watch?v={vid}" if vid else "",
         )
         bn_t = lines(
@@ -642,8 +716,47 @@ def video_rows(item, videos, bn_videos, json_path, label="Video", anchor=None):
             labelled("Channel", bv.get("channel")),
             labelled("Length", bv.get("duration")),
             s(bv.get("note")),
+            f"Chapters:\n{ch_bn}" if ch_bn else "",
         )
         add_row(item, f"{label} {i + 1}: {s(v.get('title'))}", en_t, bn_t, f"{json_path}[{i}]", v.get("sourceIds"), anchor=anchor)
+
+
+def links_row(item, links, bn_links, json_path, label="Links on this page", anchor=None):
+    """Labels of the internal links an item shows (they are visible text too)."""
+    if not links:
+        return
+    en_l = bullets([f"{s(l.get('label'))} → {s(l.get('href'))}" for l in links if isinstance(l, dict) and s(l.get("label"))])
+    bn_l = bullets([f"{s(l.get('label'))} → {s(l.get('href'))}" for l in (bn_links or []) if isinstance(l, dict) and s(l.get("label"))])
+    add_row(item, label, en_l, bn_l, json_path, anchor=anchor)
+
+
+SPLIT_AT = 2800
+SPLIT_TARGET = 2000
+
+
+def split_long(en_text, bn_text):
+    """Split a very long section at paragraph breaks so no Excel row exceeds its height limit.
+
+    The Bengali is split the same way only when it has the same number of paragraphs;
+    otherwise it stays whole on the first part."""
+    if len(en_text) <= SPLIT_AT:
+        return [(en_text, bn_text)]
+    sep = "\n\n" if en_text.count("\n\n") >= 2 else "\n"
+    en_paras = [x for x in en_text.split(sep) if x.strip()]
+    bn_paras = [x for x in (bn_text or "").split(sep) if x.strip()]
+    aligned = len(bn_paras) == len(en_paras)
+    parts, cur_en, cur_bn = [], [], []
+    for i, para in enumerate(en_paras):
+        if cur_en and sum(len(x) for x in cur_en) + len(para) > SPLIT_TARGET:
+            parts.append((sep.join(cur_en), sep.join(cur_bn)))
+            cur_en, cur_bn = [], []
+        cur_en.append(para)
+        if aligned:
+            cur_bn.append(bn_paras[i])
+    parts.append((sep.join(cur_en), sep.join(cur_bn)))
+    if not aligned:
+        parts = [(parts[0][0], bn_text)] + [(e, "(See part 1 for the Bengali text; its paragraphs do not split the same way.)") for e, _ in parts[1:]]
+    return parts
 
 
 def walk_stages():
@@ -669,6 +782,7 @@ def walk_stages():
                 add_row(it, label, lines(r.get("title"), r.get("body"), labelled("Link", r.get("href")) if s(r.get("href")).startswith("http") else ""),
                         lines(br.get("title"), br.get("body")), f"{base}.learningPath.{key}", anchor="#learning-path-heading")
         add_row(it, "Learning path: guardrails", bullets(lp.get("guardrails")), bullets(blp.get("guardrails")), f"{base}.learningPath.guardrails", anchor="#learning-path-heading")
+        links_row(it, st.get("goodNextQuestions"), b.get("goodNextQuestions"), f"{base}.goodNextQuestions", label="Good next questions", anchor="#good-questions-heading")
 
 
 def walk_steps():
@@ -701,6 +815,7 @@ def walk_steps():
                 bn_n = g(b, key, i) or {}
                 add_row(it, f"{label}: {s(n.get('title'))}", lines(n.get("title"), n.get("body")), lines(bn_n.get("title"), bn_n.get("body")), f"{key}[{i}]", anchor=anchor)
         video_rows(it, st.get("videos"), b.get("videos"), "videos", anchor="#videos-heading")
+        links_row(it, st.get("relatedLinks"), b.get("relatedLinks"), "relatedLinks", anchor="#where-next-heading")
 
 
 def walk_topics():
@@ -714,7 +829,10 @@ def walk_topics():
         secs = t.get("sections") or []
         for i, sec in enumerate(secs):
             bs = g(b, "sections", i) or {}
-            add_row(it, f"Section {i + 1} of {len(secs)}: {s(sec.get('heading'))}", lines(sec.get("heading"), sec.get("content")), lines(bs.get("heading"), bs.get("content")), f"sections[{i}]", anchor=f"#section-{i}")
+            parts = split_long(lines(sec.get("heading"), sec.get("content")), lines(bs.get("heading"), bs.get("content")))
+            for pi, (pe, pb) in enumerate(parts):
+                suffix = f" (part {pi + 1} of {len(parts)})" if len(parts) > 1 else ""
+                add_row(it, f"Section {i + 1} of {len(secs)}: {s(sec.get('heading'))}{suffix}", pe, pb, f"sections[{i}]", anchor=f"#section-{i}")
         img, bimg = t.get("image") or {}, b.get("image") or {}
         if img:
             add_row(it, "Illustration text", lines(labelled("Alt text", img.get("alt")), labelled("Caption", img.get("caption")), labelled("Credit", img.get("credit"))),
@@ -741,9 +859,11 @@ def walk_guides(rel, key_prefix, area, url_prefix):
         secs = gd.get("sections") or []
         for i, sec in enumerate(secs):
             bs = g(b, "sections", i) or {}
-            add_row(it, f"Section {i + 1} of {len(secs)}: {s(sec.get('heading'))}",
-                    lines(sec.get("heading"), sec.get("body"), bullets(sec.get("items"))),
-                    lines(bs.get("heading"), bs.get("body"), bullets(bs.get("items"))), f"{base}.sections[{i}]", anchor=f"#section-{i}")
+            parts = split_long(lines(sec.get("heading"), sec.get("body"), bullets(sec.get("items"))),
+                               lines(bs.get("heading"), bs.get("body"), bullets(bs.get("items"))))
+            for pi, (pe, pb) in enumerate(parts):
+                suffix = f" (part {pi + 1} of {len(parts)})" if len(parts) > 1 else ""
+                add_row(it, f"Section {i + 1} of {len(secs)}: {s(sec.get('heading'))}{suffix}", pe, pb, f"{base}.sections[{i}]", anchor=f"#section-{i}")
         for i, sc in enumerate(gd.get("scripts") or []):
             bs = g(b, "scripts", i) or {}
             add_row(it, f"Script: {s(sc.get('title'))}", lines(sc.get("title"), sc.get("body")), lines(bs.get("title"), bs.get("body")), f"{base}.scripts[{i}]", anchor="#scripts-heading")
@@ -751,6 +871,7 @@ def walk_guides(rel, key_prefix, area, url_prefix):
             bs = g(b, "scenarios", i) or {}
             add_row(it, f"Scenario: {s(sc.get('title'))}", lines(sc.get("title"), sc.get("response")), lines(bs.get("title"), bs.get("response")), f"{base}.scenarios[{i}]", anchor="#scenarios-heading")
         video_rows(it, gd.get("videos"), b.get("videos"), f"{base}.videos", anchor="#videos-heading")
+        links_row(it, gd.get("relatedLinks"), b.get("relatedLinks"), f"{base}.relatedLinks", anchor="#related-heading")
 
 
 def walk_faq():
@@ -820,6 +941,45 @@ TOOL_ANCHORS = {
 }
 
 
+PAGE_SOURCE_FILES = {
+    "tool:dua-dhikr": "app/[locale]/dua-dhikr/page.tsx",
+    "tool:quran-starter": "app/[locale]/quran-starter/page.tsx",
+    "tool:salah-companion": "app/[locale]/tools/salah-companion/page.tsx",
+    "tool:wudu-ghusl": "app/[locale]/tools/wudu-ghusl/page.tsx",
+    "page:ramadan-planning": "app/[locale]/ramadan/page.tsx",
+    "ui:ramadan": "app/[locale]/ramadan/page.tsx",
+    "ui:mentalHealth": "app/[locale]/mental-health/page.tsx",
+    "ui:getHelp": "app/[locale]/get-help/page.tsx",
+    "ui:communityGroups": "app/[locale]/community-groups/page.tsx",
+    "ui:asmaAlHusna": "app/[locale]/asma-al-husna/page.tsx",
+    "ui:prayerTimes": "app/[locale]/prayer-times/page.tsx",
+    "ui:qibla": "app/[locale]/qibla/page.tsx",
+    "ui:glossary": "app/[locale]/glossary/page.tsx",
+    "ui:findMasjid": "app/[locale]/resources/find-masjid/page.tsx",
+    "ui:duaDhikr": "app/[locale]/dua-dhikr/page.tsx",
+    "ui:quranStarter": "app/[locale]/quran-starter/page.tsx",
+    "ui:salahCompanion": "app/[locale]/tools/salah-companion/page.tsx",
+    "ui:wuduGhusl": "app/[locale]/tools/wudu-ghusl/page.tsx",
+}
+PAGE_SOURCES: dict = {}
+
+
+def load_page_sources():
+    """Source ids that a page prints from its route code (its 'Sources used' panel)."""
+    out = {}
+    for key, rel in PAGE_SOURCE_FILES.items():
+        path = os.path.join(ROOT, rel)
+        if not os.path.exists(path):
+            continue
+        text = open(path, encoding="utf-8").read()
+        ids = []
+        for lit in re.findall(r'"([a-z0-9][a-z0-9.-]*)"', text):
+            if lit in SOURCES_BY_ID and lit not in ids:
+                ids.append(lit)
+        out[key] = ids
+    return out
+
+
 def walk_tools():
     for stem, (title, url) in TOOL_META.items():
         rel = f"tools/{stem}.json"
@@ -828,20 +988,25 @@ def walk_tools():
         rules, id_suffix = TOOL_ANCHORS.get(stem, ({}, None))
         it.anchor_rules = rules
         it.anchor_from_ids = id_suffix
-        generic_walk(it, en, bn or {}, "", "")
+        it.split_top = True
+        it.page_sources = PAGE_SOURCES.get(it.key, [])
+        generic_walk(it, en, bn or {}, "", "", inherited_sources=it.page_sources or None)
 
 
 def walk_ramadan_page():
     en, bn = load_pair("pages/ramadan-planning.json")
     it = new_item("page:ramadan-planning", "Ramadan guide page", "Ramadan guide: planning sections", "/ramadan", None, None, "locales/en/pages/ramadan-planning.json")
     it.anchor_rules = {"firstRamadanSections": "#first-ramadan-plan-heading", "ramadanCareSections": "#ramadan-care-heading"}
-    generic_walk(it, en, bn or {}, "", "")
+    it.split_top = True
+    it.page_sources = PAGE_SOURCES.get(it.key, [])
+    generic_walk(it, en, bn or {}, "", "", inherited_sources=it.page_sources or None)
 
 
 def walk_dawah():
     en, bn = load_pair("dawah-guides/personal.json")
     bn = bn or {}
     it = new_item("dawah:personal", "Dawah guide (hidden)", en.get("title", "Dawah guide"), f"/{en.get('slug', 'dawah-guide-personal')}", en.get("reviewStatus"), None, "locales/en/dawah-guides/personal.json")
+    it.skip_keys = {"kind", "ariaLabel"}
     add_row(it, "Title and audience note", lines(en.get("title"), en.get("subtitle"), en.get("audienceNote"), labelled("Review note", en.get("reviewNote"))),
             lines(bn.get("title"), bn.get("subtitle"), bn.get("audienceNote")), "title/subtitle/audienceNote")
     add_row(it, "Tone principles", bullets(en.get("tonePrinciples")), bullets(bn.get("tonePrinciples")), "tonePrinciples")
@@ -939,9 +1104,10 @@ def walk_ui():
             continue
         area = UI_PAGE_AREA.get(page, "Other page text")
         page_label = UI_PAGE_LABEL.get(page, humanize(page))
-        cls_label = (cls or {}).get("label") if (cls or {}).get("include") else None
+        classified = bool((cls or {}).get("include"))
+        cls_label = (cls or {}).get("label") if classified else None
         label = cls_label or inv.get("label") or (cls or {}).get("label") or (f"{page_label} > {humanize(key)}" if key else page_label)
-        url = (cls or {}).get("url") or UI_PAGE_URL.get(page, "/")
+        url = ((cls or {}).get("url") if classified else None) or UI_PAGE_URL.get(page, "/")
         anchor = UI_ANCHORS.get((page, key))
         inv_url = inv.get("urlEn") or ""
         if inv_url.startswith("/en"):
@@ -949,16 +1115,28 @@ def walk_ui():
             if "#" in inv_url:
                 inv_url, _, inv_anchor = inv_url.partition("#")
                 anchor = anchor or f"#{inv_anchor}"
-            if not (cls or {}).get("url") and inv_url and "{" not in inv_url and "," not in inv_url:
+            if not (classified and (cls or {}).get("url")) and inv_url and "{" not in inv_url and "," not in inv_url:
                 url = inv_url
         json_path = f"pages.{page}.{key}" if key else page
         it = new_item(item_key, area, label, url, None, None, "locales/en/ui.json")
+        it.page_sources = PAGE_SOURCES.get(f"ui:{page}", [])
+        if page == "footer":
+            it.skip_keys = {"about", "accessibility", "privacy", "terms", "sources", "explore", "information", "quickLinksAriaLabel",
+                            "navigationAriaLabel", "startHere", "help"}
         if (page, key) in UI_ID_ANCHOR_PAGES:
             it.anchor_from_ids = ""
+        if page == "topic" and key == "actions" and isinstance(val, dict):
+            targets = {"quranStarter": "/topics/quran", "salahCompanion": "/topics/prayer", "duaDhikr": "/topics/dua-and-dhikr"}
+            for k2, v2 in val.items():
+                bv2 = g(bval, k2) or {}
+                add_row(it, f"{key_label(k2)}: {s(v2.get('label'))}", lines(v2.get("label"), v2.get("body")), lines(bv2.get("label"), bv2.get("body")),
+                        f"{json_path}.{k2}", url=targets.get(k2, url))
+            continue
         if isinstance(val, str):
-            add_row(it, humanize(key), val, bval if isinstance(bval, str) else "", json_path, anchor=anchor)
+            add_row(it, humanize(key), val, bval if isinstance(bval, str) else "", json_path, it.page_sources or None, anchor=anchor)
         else:
-            generic_walk(it, val, bval, singular_label(key) if isinstance(val, list) and key else "", json_path, anchor=anchor)
+            generic_walk(it, val, bval, singular_label(key) if isinstance(val, list) and key else "", json_path,
+                         inherited_sources=it.page_sources or None, anchor=anchor)
 
 
 SVG_USAGE = {
@@ -991,7 +1169,7 @@ def walk_svgs():
         texts = []
         for el in root.iter(f"{ns}text"):
             t = re.sub(r"\s+", " ", " ".join(el.itertext())).strip()
-            if t and t not in texts:
+            if t and (not texts or texts[-1] != t):
                 texts.append(t)
         url = SVG_USAGE.get(stem, ("", "/"))[1]
         it = new_item(f"svg:{stem}", "Illustration text (SVG)", title, url, None, None, f"public/graphics/{stem}.svg")
@@ -1049,7 +1227,10 @@ def fallback_item_types(item):
     if item.area == "Illustration text (SVG)":
         # Diagrams of worship: keep the religious types only; the keyword rules add the rest per row.
         text = "\n".join(r["en"] for r in item.rows)
-        types = {"Fiqh ruling"}
+        stem = item.key.split(":", 1)[1]
+        types = {"Aqidah (belief)"} if stem == "articles-of-faith" else {"Fiqh ruling"}
+        if stem == "five-pillars":
+            types.add("Aqidah (belief)")
         if re.search(r"[\u0600-\u06FF]", text):
             types.add("Arabic text or transliteration")
         if ROW_RULES[1][1].search(text):
@@ -1085,31 +1266,68 @@ def priority_for(status, types):
     return "Low"
 
 
+AREA_ORDER = [
+    "Roadmap stage", "Roadmap step", "Topic", "Life guide", "Seasonal guide", "FAQ", "Glossary", "Tool page", "Tool page text",
+    "Ramadan guide page", "Mental health page", "Help & community pages", "Site information pages", "Other page text",
+    "Dawah guide (hidden)", "Resource", "Resources page", "Seasonal calendar", "Sources page", "Illustration text (SVG)",
+]
+
+
+def ordered_types(types):
+    return [t for t in REVIEW_TYPES if t in types]
+
+
+def ordered_reviewers(revs):
+    return [r for r in REVIEWERS if r in revs]
+
+
+def reviewers_for_row(base, types):
+    out = set(base)
+    if {"Mental health", "Suicide-safe language"} & set(types):
+        out.add("Mental health professional")
+    if "Legal (Canada)" in types:
+        out.add("Legal professional")
+    if "Medical or health" in types:
+        out.add("Medical professional")
+    return ordered_reviewers(out)
+
+
 def finalize_items():
+    ITEMS.sort(key=lambda it: AREA_ORDER.index(it.area) if it.area in AREA_ORDER else len(AREA_ORDER))
     for it in ITEMS:
         c = CLASSIFICATION.get(it.key)
         it.cls = c
+        # A ui.json key the classifier left out (include: false) has only a placeholder record.
+        if c and c.get("include") is False:
+            c = None
         if c:
-            it.types = norm_types(c.get("reviewTypes")) or fallback_item_types(it)
-            it.reviewers = [r for r in (c.get("suggestedReviewers") or []) if r in REVIEWERS] or fallback_reviewers(it.types)
+            it.types = ordered_types(norm_types(c.get("reviewTypes")) or fallback_item_types(it))
+            it.reviewers = ordered_reviewers([r for r in (c.get("suggestedReviewers") or []) if r in REVIEWERS] or fallback_reviewers(it.types))
             it.priority = c.get("priority") if c.get("priority") in ("High", "Medium", "Low") else priority_for(it.status, it.types)
             it.key_points = [s(x) for x in (c.get("keyPoints") or []) if s(x)]
             it.flags = [s(x) for x in (c.get("preCheckFlags") or []) if s(x)]
         else:
-            it.types = fallback_item_types(it)
-            it.reviewers = fallback_reviewers(it.types)
+            it.types = ordered_types(fallback_item_types(it))
+            it.reviewers = ordered_reviewers(fallback_reviewers(it.types))
             it.priority = priority_for(it.status, it.types)
             it.key_points = []
             it.flags = []
+        # Items without their own sourceIds (tools, pages): roll up what their sections and page code cite.
+        if not it.source_ids:
+            seen = []
+            for sid in list(it.page_sources) + [x for r in it.rows for x in (r["source_ids"] or [])]:
+                if sid not in seen:
+                    seen.append(sid)
+            it.source_ids = seen
         for r in it.rows:
             found = set(row_types_from_text(r["en"]))
             # Types that describe a specific passage stay on the rows where the passage is
             # (or on a single-row item); the broader types apply to every row of the item.
             base = [t for t in it.types if t not in ROW_SPECIFIC_TYPES or t in found or len(it.rows) == 1]
-            extra = [t for t in found if t not in base]
-            r["types"] = base + extra
+            r["types"] = ordered_types(set(base) | found) or list(it.types)
+            r["reviewers"] = reviewers_for_row(it.reviewers, r["types"])
             r["priority"] = it.priority
-            if "Suicide-safe language" in r["types"] or ("Safety or abuse" in extra and it.status != "approved"):
+            if "Suicide-safe language" in r["types"] or ("Safety or abuse" in found and "Safety or abuse" not in it.types and it.status != "approved"):
                 r["priority"] = "High"
             r["bn_status"] = bn_status(r["en"], r["bn"])
             ids = r["source_ids"] or it.source_ids
@@ -1136,7 +1354,7 @@ def count_source_use():
     def walk(o):
         if isinstance(o, dict):
             for k, v in o.items():
-                if k == "sourceIds" and isinstance(v, list):
+                if k.endswith("SourceIds") and isinstance(v, list):
                     for i in v:
                         if isinstance(i, str):
                             SOURCE_USE[i] += 1
@@ -1149,6 +1367,14 @@ def count_source_use():
         if path.endswith("sources.json"):
             continue
         walk(load_json(path))
+    # Page-level lists defined in route code (deduplicated per page file).
+    seen_files = set()
+    for key, rel in PAGE_SOURCE_FILES.items():
+        if rel in seen_files:
+            continue
+        seen_files.add(rel)
+        for sid in PAGE_SOURCES.get(key, []):
+            SOURCE_USE[sid] += 1
 
 
 # ---------------------------------------------------------------------------
@@ -1179,6 +1405,10 @@ YES_NO = '"Yes,No"'
 
 def style_header(ws, headers, widths, input_cols=(), wrap_cols=None, nowrap_cols=()):
     ws.append(headers)
+    widths = list(widths)
+    for i in range(1, len(widths)):
+        if widths[i] == widths[i - 1]:
+            widths[i] = widths[i - 1] + 0.5
     for idx, h in enumerate(headers, start=1):
         c = ws.cell(row=1, column=idx)
         c.font = Font(name=FONT, bold=True, color="FFFFFF", size=10)
@@ -1206,8 +1436,9 @@ def write_rows(ws, rows, input_cols_idx=(), nowrap_idx=(), link_idx=None, first_
                 cell.font = Font(name=FONT, size=10, color="0563C1", underline="single")
 
 
-def add_list_validation(ws, col_letter, formula, last_row):
-    dv = DataValidation(type="list", formula1=formula, allow_blank=True, showErrorMessage=False)
+def add_list_validation(ws, col_letter, formula, last_row, message="Please pick a value from the list so the progress counts work."):
+    dv = DataValidation(type="list", formula1=formula, allow_blank=True, showErrorMessage=True, errorStyle="warning",
+                        errorTitle="Not in the list", error=message, showInputMessage=False)
     ws.add_data_validation(dv)
     dv.add(f"{col_letter}2:{col_letter}{last_row}")
 
@@ -1221,14 +1452,56 @@ def add_verdict_formats(ws, col_letter, last_row):
 
 
 REVIEW_HEADERS = [
-    "Row ID", "Area", "Item", "Section", "Priority", "Review needed", "Suggested reviewer", "Current status (site)",
-    "English text", "Bengali text (বাংলা)", "Bengali status", "Sources (n)", "Sources used (id — title)",
-    "Key points to check", "Pre-check flags",
+    "Row ID", "Area", "Item", "Section",
+    "English text", "Bengali text (বাংলা)", "Bengali status",
+    "Priority", "Review needed", "Suggested reviewer", "Current status (site)",
+    "Sources (n)", "Sources used (id — title)", "Key points to check", "Pre-check flags",
     "English verdict", "English reviewer", "English comments",
     "Bengali verdict", "Bengali reviewer", "Bengali comments",
     "Done", "Date done", "Page URL", "Content ID", "JSON location", "Item key",
 ]
-REVIEW_WIDTHS = [8, 18, 30, 30, 9, 30, 20, 13, 70, 70, 13, 8, 42, 55, 42, 15, 16, 40, 15, 16, 40, 8, 12, 42, 24, 46, 24]
+REVIEW_WIDTHS = [8, 18, 30, 30, 85, 85, 13, 9, 30, 22, 13, 8, 42, 55, 42, 15, 16, 40, 15, 16, 40, 8, 12, 42, 24, 46, 24]
+PREVIOUS: dict = {}
+
+
+def load_previous(path):
+    """Team input from an earlier copy of the workbook, keyed so it survives a rebuild."""
+    from openpyxl import load_workbook
+    wb = load_workbook(path, read_only=True)
+    out = {}
+
+    def grab(sheet, key_cols, cols):
+        if sheet not in wb.sheetnames:
+            return {}
+        ws = wb[sheet]
+        rows = ws.iter_rows(values_only=True)
+        hdr = [str(h) if h is not None else "" for h in next(rows)]
+        idx = {h: i for i, h in enumerate(hdr)}
+        if any(k not in idx for k in key_cols):
+            return {}
+        d = {}
+        for r in rows:
+            key = tuple(r[idx[k]] for k in key_cols)
+            vals = {c: r[idx[c]] for c in cols if c in idx and r[idx[c]] not in (None, "")}
+            if vals:
+                d[key] = vals
+        return d
+
+    out["Review rows"] = grab("Review rows", ("Item key", "JSON location"), REVIEW_INPUT)
+    out["Items"] = grab("Items", ("Item key",), ITEM_INPUT)
+    out["Sources"] = grab("Sources", ("Source ID",), ["Verdict", "Reviewer", "Comments"])
+    out["Masjids"] = grab("Masjids", ("Masjid ID",), ["Verdict", "Reviewer", "Comments"])
+    out["Site team notes"] = grab("Site team notes", ("Finding",), ["Status", "Owner", "Comment"])
+    return out
+
+
+def carry(sheet, key, row, headers):
+    prev = PREVIOUS.get(sheet, {}).get(key)
+    if prev:
+        for h, v in prev.items():
+            if h in headers:
+                row[headers.index(h)] = v
+    return row
 REVIEW_INPUT = ["English verdict", "English reviewer", "English comments", "Bengali verdict", "Bengali reviewer", "Bengali comments", "Done", "Date done"]
 
 
@@ -1248,16 +1521,23 @@ def build_review_sheet(wb):
     n = 0
     for it in ITEMS:
         content_id = it.key.split(":", 1)[1]
-        for r in it.rows:
+        for ri, r in enumerate(it.rows):
             n += 1
-            rows.append([
-                f"R{n:04d}", it.area, it.title, r["section"], r["priority"], ", ".join(r["types"]), ", ".join(it.reviewers),
-                STATUS_LABEL.get(it.status, it.status or "not tracked"),
-                r["en"], r["bn"], r["bn_status"], r["sources_n"], r["sources_short"],
-                "\n".join(f"• {k}" for k in it.key_points), "\n".join(f"⚠ {f}" for f in it.flags),
-                None, None, None, None, None, None, None, None,
-                page_url(it.url, r.get("anchor")), content_id, f"{it.json_file} › {r['json_path']}", it.key,
-            ])
+            first = ri == 0
+            json_loc = f"{it.json_file} › {r['json_path']}"
+            values = {
+                "Row ID": f"R{n:04d}", "Area": it.area, "Item": it.title, "Section": r["section"],
+                "English text": r["en"], "Bengali text (বাংলা)": r["bn"], "Bengali status": r["bn_status"],
+                "Priority": r["priority"], "Review needed": "; ".join(r["types"]), "Suggested reviewer": "; ".join(r["reviewers"]),
+                "Current status (site)": STATUS_LABEL.get(it.status, it.status or "not tracked"),
+                "Sources (n)": r["sources_n"], "Sources used (id — title)": r["sources_short"],
+                "Key points to check": "\n".join(f"• {k}" for k in it.key_points) if first else "",
+                "Pre-check flags": "\n".join(f"⚠ {f}" for f in it.flags) if first else "",
+                "Page URL": page_url(r.get("url") or it.url, r.get("anchor")), "Content ID": content_id,
+                "JSON location": json_loc, "Item key": it.key,
+            }
+            row = [values.get(h) for h in REVIEW_HEADERS]
+            rows.append(carry("Review rows", (it.key, json_loc), row, REVIEW_HEADERS))
     input_idx = tuple(col[h] for h in REVIEW_INPUT)
     write_rows(ws, rows, input_idx, nowrap_idx=(col["Sources used (id — title)"],), link_idx=col["Page URL"])
     last = len(rows) + 1
@@ -1268,7 +1548,6 @@ def build_review_sheet(wb):
         add_list_validation(ws, L[h], VERDICTS, last)
         add_verdict_formats(ws, L[h], last)
     add_list_validation(ws, L["Done"], YES_NO, last)
-    add_list_validation(ws, L["Bengali status"], '"Translated,Missing,Same as English,Not translated,Not needed"', last)
     p = L["Priority"]
     ws.conditional_formatting.add(f"{p}2:{p}{last}", FormulaRule(formula=[f'${p}2="High"'], fill=FILL_HIGH))
     ws.conditional_formatting.add(f"{p}2:{p}{last}", FormulaRule(formula=[f'${p}2="Medium"'], fill=FILL_MED))
@@ -1301,8 +1580,8 @@ def build_items_sheet(wb, review_cols, n_review_rows):
     rk, rdone, ren, rbn = review_cols["Item key"], review_cols["Done"], review_cols["English verdict"], review_cols["Bengali verdict"]
     rows = []
     for i, it in enumerate(ITEMS, start=2):
-        rows.append([
-            it.key, it.area, it.title, it.priority, ", ".join(it.types), ", ".join(it.reviewers),
+        rows.append(carry("Items", (it.key,), [
+            it.key, it.area, it.title, it.priority, "; ".join(it.types), "; ".join(it.reviewers),
             STATUS_LABEL.get(it.status, it.status or "not tracked"),
             "\n".join(f"• {k}" for k in it.key_points), "\n".join(f"⚠ {f}" for f in it.flags),
             len(it.source_ids), source_lines(it.source_ids, with_url=True),
@@ -1313,7 +1592,7 @@ def build_items_sheet(wb, review_cols, n_review_rows):
             Formula(f"=IF(L{i}=0,\"\",IF(M{i}=L{i},\"Done\",IF(M{i}>0,\"In progress\",\"Not started\")))"),
             None, None, None,
             page_url(it.url), it.json_file,
-        ])
+        ], ITEM_HEADERS))
     write_rows(ws, rows, tuple(col[h] for h in ITEM_INPUT), nowrap_idx=(col["Sources used (id — title — link)"],), link_idx=col["Page URL"])
     last = len(rows) + 1
     ws.freeze_panes = "D2"
@@ -1339,7 +1618,7 @@ def build_items_sheet(wb, review_cols, n_review_rows):
 def build_sources_sheet(wb, sources, bn_sources):
     ws = wb.create_sheet("Sources")
     headers = ["Source ID", "Title", "Organisation", "Category", "Source type", "Label", "URL", "Accessed", "Current status (site)",
-               "Note (what it supports)", "Note (Bengali)", "Used by (references)", "Verdict", "Reviewer", "Comments"]
+               "Note (what it supports)", "Note (Bengali)", "Used by (content files and page code)", "Verdict", "Reviewer", "Comments"]
     widths = [30, 40, 26, 18, 24, 16, 46, 11, 14, 60, 60, 10, 15, 16, 40]
     inputs = ["Verdict", "Reviewer", "Comments"]
     style_header(ws, headers, widths, inputs)
@@ -1348,11 +1627,11 @@ def build_sources_sheet(wb, sources, bn_sources):
     rows = []
     for src in sources:
         b = bn_map.get(src.get("id"), {})
-        rows.append([
+        rows.append(carry("Sources", (src.get("id"),), [
             src.get("id"), src.get("title"), src.get("organization"), src.get("category"), src.get("sourceType"), src.get("label"),
             src.get("url"), src.get("accessed"), src.get("reviewStatus"), src.get("note"), b.get("note"), SOURCE_USE.get(src.get("id"), 0),
             None, None, None,
-        ])
+        ], headers))
     write_rows(ws, rows, tuple(col[h] for h in inputs), nowrap_idx=(col["URL"],), link_idx=col["URL"])
     last = len(rows) + 1
     ws.freeze_panes = "C2"
@@ -1384,11 +1663,11 @@ def build_masjids_sheet(wb, masjids, bn_masjids):
         en_notes = lines(*[labelled(lbl, m.get(k)) for k, lbl in MASJID_NOTE_KEYS])
         bn_notes = lines(*[labelled(lbl, b.get(k)) for k, lbl in MASJID_NOTE_KEYS])
         pin = m.get("coordinatesPrecision") or ("street" if m.get("coordinates") else "none")
-        rows.append([
+        rows.append(carry("Masjids", (m.get("id"),), [
             m.get("id"), m.get("name"), m.get("city"), m.get("stateProvince"), m.get("address"), m.get("postalCode"), m.get("phone"), m.get("email"),
             m.get("website"), ", ".join(m.get("serviceIds") or []), en_notes, bn_notes, pin, m.get("reviewStatus"),
             source_lines(m.get("sourceIds") or [], with_url=False), None, None, None,
-        ])
+        ], headers))
     write_rows(ws, rows, tuple(col[h] for h in inputs), nowrap_idx=(col["Website"], col["Sources (id — title)"]), link_idx=col["Website"])
     last = len(rows) + 1
     ws.freeze_panes = "C2"
@@ -1408,7 +1687,7 @@ def build_notes_sheet(wb, notes):
     inputs = ["Status", "Owner", "Comment"]
     style_header(ws, headers, widths, inputs)
     col = {h: i + 1 for i, h in enumerate(headers)}
-    rows = [[i, n.get("area"), n.get("note"), n.get("action"), n.get("from"), None, None, None] for i, n in enumerate(notes, start=1)]
+    rows = [carry("Site team notes", (n.get("note"),), [i, n.get("area"), n.get("note"), n.get("action"), n.get("from"), None, None, None], headers) for i, n in enumerate(notes, start=1)]
     write_rows(ws, rows, tuple(col[h] for h in inputs))
     last = len(rows) + 1
     ws.freeze_panes = "C2"
@@ -1520,7 +1799,7 @@ def build_summary_sheet(wb, review_cols, item_cols, src_cols, masjid_cols, n_sou
 
     r += 2
     header(r, ["Verdicts", "English", "Bengali"])
-    for t in ("Approved", "Needs changes", "Rejected", "Unsure - ask another reviewer"):
+    for t in ("Approved", "Needs changes", "Rejected", "Unsure*"):
         r += 1
         put(r, [t, f"=COUNTIF('Review rows'!${RP}:${RP},$A{r})", f"=COUNTIF('Review rows'!${RS}:${RS},$A{r})"])
 
@@ -1539,7 +1818,7 @@ README_EN = [
     ("h1", "Revert Guide: content verification tracker"),
     ("p", "One workbook for the review team. Every piece of site text that a scholar, mentor or professional should verify is listed on the 'Review rows' sheet, one text section per row, with the English and the Bengali text side by side, the kind of review it needs, the sources it cites, and yellow columns for your verdict and comments."),
     ("h2", "How to use it"),
-    ("li", "Open 'Review rows'. Use the filters in the header row to pick your part: filter 'Area' (for example FAQ, Topic, Roadmap step), 'Suggested reviewer' (Scholar, Mentor, Mental health professional, Legal professional, Medical professional) or 'Priority'. Start with High."),
+    ("li", "Open 'Review rows'. Use the filters in the header row to pick your part: filter 'Area' (for example FAQ, Topic, Roadmap step), 'Suggested reviewer' (Scholar, Mentor, Mental health professional, Legal professional, Medical professional) or 'Review needed'. Several values are joined with '; ' in one cell, so type a word into the filter's search box (for example 'Scholar' or 'Medical') rather than picking exact combinations. Most rows are High priority because most of the site is still unreviewed; filter by area or review type to carve out a manageable slice."),
     ("li", "Read the English text. If you review Bengali, read the Bengali text next to it and judge both the meaning and the translation."),
     ("li", "Check the claims against 'Sources used' (the ids point to the 'Sources' sheet, which has every link) and against 'Key points to check'."),
     ("li", "Fill in the yellow columns only: 'English verdict' (Approved, Needs changes, Rejected, Unsure), 'English reviewer' (your name), 'English comments' (what to change and why; quote the exact words). Bengali reviewers use the three Bengali columns the same way."),
@@ -1547,17 +1826,20 @@ README_EN = [
     ("li", "Grey and white columns are generated from the site's content files: do not edit them. If a text is wrong, say so in the comments and the site team will fix the content file named in 'JSON location'."),
     ("li", "'Sources' and 'Masjids' are separate sheets with their own verdict columns: sources need a citation check (collection, number, grading, working link); masjids need a directory check (mainstream Sunni, details current)."),
     ("li", "'Site team notes' lists cross-cutting findings from the preparation of this workbook (duplicate entries, missing source ids, naming-rule slips, facts to confirm, code-defined text). They are for the site team and a scholar where marked; each has a status column."),
-    ("li", "Not covered here: the 99 names of Allah page, whose names and English meanings are fetched from the AlAdhan API at run time rather than stored in the site; and the live prayer-times data. Everything else that a visitor can read is on one of the sheets."),
+    ("li", "Not covered here: the 99 names of Allah page, whose names and English meanings are fetched from the AlAdhan API at run time rather than stored in the site; the live prayer-times data; and short interface labels (buttons, menu items, form labels). Everything else that a visitor can read is on one of the sheets."),
     ("h2", "What the generated columns mean"),
-    ("kv", "Priority", "High: unreviewed text that carries rulings, belief, suicide or self-harm, safety, legal, financial, medical or mental-health guidance. Medium: unreviewed practical text, or source-checked text that still makes religious claims. Low: everything else."),
+    ("kv", "Priority", "High: unreviewed text that carries rulings, belief, suicide or self-harm, safety, legal, financial, medical or mental-health guidance. Medium: unreviewed practical text, or source-checked text that still makes religious claims. Low: everything else. A row that mentions suicide, self-harm or a crisis line is always High, whatever its item's priority."),
     ("kv", "Review needed", "The kinds of verification the row needs (see the list below). A row can need several."),
     ("kv", "Suggested reviewer", "Who should look first. Scholars for religious content, mentors for lived-experience and practical guidance, professionals for clinical, legal or medical claims."),
-    ("kv", "Current status (site)", "The reviewStatus recorded in the content file today: " + " ".join(f"'{k}' = {v}" for k, v in STATUS_HELP.items())),
-    ("kv", "Bengali status", "Translated: Bengali text exists. Missing: no Bengali text for this section. Same as English / Not translated: the Bengali file still carries the English words. Not needed: the text is Arabic, a link or a number and needs no translation."),
+    ("kv", "Current status (site)", "The reviewStatus recorded in the content file today: " + " ".join(f"'{k}' = {v}" for k, v in STATUS_HELP.items()) + " 'not tracked' covers the stages, the glossary, the site page text, the Ramadan planning sections, the resource collections, the seasonal calendar, the source categories and the illustrations."),
+    ("kv", "Bengali status", "Translated: Bengali text exists. Missing: no Bengali text for this section (the illustration rows are Missing by design: the images carry English text in every language). Same as English / Not translated: the Bengali file still carries the English words. Not needed: the text is Arabic, a link or a number and needs no translation."),
     ("kv", "Sources used", "The source ids the site cites for this text, with title and organisation, one per line. The column does not wrap, so click the cell (or read the formula bar) to see the whole list, and look the id up on the 'Sources' sheet for the link and the note on what it supports. The 'Items' sheet repeats the list with links."),
-    ("kv", "Key points to check", "A machine-generated reading list of the specific claims, citations, numbers and names in the item. It is a pointer, not a verdict. Empty when nothing specific stands out."),
-    ("kv", "Pre-check flags", "Machine-generated warnings about a possible breach of the site's own rules (for example suicide-safe wording, 911 before 9-8-8, a missing source). Please confirm or dismiss them in your comments."),
-    ("kv", "Page URL / JSON location", "Where the text appears on the site and where it lives in the content files, for the site team."),
+    ("kv", "Key points to check", "A machine-generated reading list of the specific claims, citations, numbers and names in the item. It is a pointer, not a verdict. It is shown on the first row of each item (and on the 'Items' sheet), so look there when an item has several rows."),
+    ("kv", "Pre-check flags", "Machine-generated warnings about a possible breach of the site's own rules (for example suicide-safe wording, 911 before 9-8-8, a missing source), shown on the first row of each item and on 'Items'. Please confirm or dismiss them in your comments."),
+    ("kv", "Sources (n)", "How many source ids the row carries. For tool pages and the Ramadan planning sections, sections without their own ids show the page's source list, which the site defines in the page code; every topic row repeats the topic's whole list because topics cite sources at page level."),
+    ("kv", "Page URL / JSON location", "Where the text appears on the site (with an anchor to the section where one exists) and where it lives in the content files, for the site team. 'Content ID' and 'Item key' identify the item; 'Item key' plus 'JSON location' is the stable key for merging a filled-in copy into a rebuilt workbook."),
+    ("kv", "Date done", "The date the row was settled, in whatever format you like; it is not counted."),
+    ("kv", "Items sheet", "One row per item with formulas counting its rows. Its three yellow columns are for assigning a reviewer to the whole item, an item-level verdict, and notes."),
     ("h2", "Review types"),
 ] + [("kv", t, REVIEW_TYPE_HELP[t]) for t in REVIEW_TYPES] + [
     ("h2", "House rules the content must follow"),
@@ -1612,7 +1894,8 @@ def build_readme(wb, meta):
             c = ws.cell(row=r, column=2, value=a)
             c.font = Font(name=FONT, size=10)
             c.alignment = WRAP
-            ws.row_dimensions[r].height = 14 * max(1, len(a) // 130 + 1)
+            per_line = 85 if BENGALI_RE.search(a) else 130
+            ws.row_dimensions[r].height = 15 * max(1, len(a) // per_line + 1)
             r += 1
         elif kind == "kv":
             c = ws.cell(row=r, column=1, value=a)
@@ -1626,7 +1909,7 @@ def build_readme(wb, meta):
 
     for entry in README_EN[:2]:
         write(*entry)
-    write("kv", "Generated", f"{meta['generated']} from the content files in the repository (last commit {meta['commit']}). Re-run scripts/verification-tracker/build.py to refresh it after content changes; the yellow columns are not carried over, so copy them before regenerating.")
+    write("kv", "Generated", f"{meta['generated']} from the content files in the repository (last commit {meta['commit']}). Re-run scripts/verification-tracker/build.py to refresh it after content changes, passing --previous with the filled-in copy so the yellow columns are carried over (rows are matched on 'Item key' plus 'JSON location', items on 'Item key', sources and masjids on their ids).")
     write("kv", "Contents", f"{meta['rows']} text rows across {meta['items']} items on 'Review rows'; {meta['sources']} sources on 'Sources'; {meta['masjids']} masjid records on 'Masjids'; {meta['notes']} findings on 'Site team notes'. The counts on 'Items' and 'Summary' are formulas and calculate when the file opens (Excel may ask to save on close because of this).")
     write("kv", "Colour key", "Dark header = generated column (read only). Gold header and pale yellow cells = for the review team to fill in. Grey cells = formulas.")
     for entry in README_EN[2:]:
@@ -1644,13 +1927,18 @@ def main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("--out", default=os.path.join(ROOT, "docs", "content-verification-tracker.xlsx"))
     ap.add_argument("--dump-json", help="Also write the generated rows as JSON (for checks)")
+    ap.add_argument("--previous", help="An earlier copy of the workbook whose team columns should be carried over")
     args = ap.parse_args()
 
-    global CLASSIFICATION, SOURCES_BY_ID
+    global CLASSIFICATION, SOURCES_BY_ID, PAGE_SOURCES, PREVIOUS
     CLASSIFICATION = load_classification()
     sources, bn_sources = load_pair("sources.json")
     SOURCES_BY_ID = by_id(sources)
+    PAGE_SOURCES = load_page_sources()
     count_source_use()
+    if args.previous:
+        PREVIOUS = load_previous(args.previous)
+        print("carrying over team input from", args.previous, {k: len(v) for k, v in PREVIOUS.items()})
 
     walk_stages()
     walk_steps()
