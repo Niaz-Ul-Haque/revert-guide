@@ -5,6 +5,7 @@ import "../globals.css";
 import { JsonLd } from "@/components/JsonLd";
 import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
+import { BackToTop } from "@/components/BackToTop";
 import { OfflineIndicator } from "@/components/OfflineIndicator";
 import { LocaleProvider } from "@/components/LocaleProvider";
 import { GlobalSearchProvider } from "@/components/GlobalSearchProvider";
@@ -52,6 +53,7 @@ export default function LocaleLayout({
             <Navbar />
             <main id="main-content" className="flex-1">
               {children}
+              <BackToTop />
             </main>
             <Footer />
             <OfflineIndicator />
