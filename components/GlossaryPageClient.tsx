@@ -41,11 +41,11 @@ export function GlossaryPageClient({
 
   const grouped = useMemo(() => {
     const map = new Map<string, GlossaryEntry[]>();
-    const sorted = [...filteredTerms].sort((a, b) =>
-      a.term.localeCompare(b.term),
-    );
 
-    for (const entry of sorted) {
+    // Entries arrive sorted from the server. Sorting again here with the
+    // browser's collation can differ from Node's (it does for Chinese) and
+    // causes a hydration mismatch, so the server order is kept as is.
+    for (const entry of filteredTerms) {
       const letter = entry.term[0].toUpperCase();
       const group = map.get(letter) ?? [];
       group.push(entry);
