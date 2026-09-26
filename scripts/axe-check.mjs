@@ -21,6 +21,7 @@ const PAGES = [
   "/en",
   "/en/get-help",
   "/en/faq",
+  "/en/sources",
   "/en/topics/five-pillars",
   "/en/resources/find-masjid",
   "/en/tools/salah-companion",
