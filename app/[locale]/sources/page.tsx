@@ -2,6 +2,7 @@ import { ContactEmail } from "@/components/ContactEmail";
 import Link from "next/link";
 import { Breadcrumb } from "@/components/Breadcrumb";
 import { AnimateIn } from "@/components/AnimateIn";
+import { DetailsOpener } from "@/components/DetailsOpener";
 import { Icon } from "@/components/Icon";
 import { getAllSources, getSourceCategoryContent } from "@/lib/content";
 import { localizeHref, type Locale, type Messages } from "@/lib/i18n";
@@ -27,8 +28,24 @@ export default function SourcesPage({
   const { groups: sourceGroups, policyNotes } =
     getSourceCategoryContent(locale);
 
+  const collator = new Intl.Collator(locale, {
+    numeric: true,
+    sensitivity: "base",
+  });
+  const groups = sourceGroups
+    .map((group) => ({
+      ...group,
+      sources: registrySources
+        .filter((source) => source.category === group.id)
+        .sort((a, b) => collator.compare(a.title, b.title)),
+    }))
+    .filter((group) => group.sources.length > 0);
+  const plural = (count: number, forms: { one: string; other: string }) =>
+    (count === 1 ? forms.one : forms.other).replace("{count}", String(count));
+
   return (
     <div className="mx-auto max-w-5xl px-5 py-10">
+      <DetailsOpener selector="details[data-sources]" />
       <JsonLd
         data={breadcrumbJsonLd([
           { name: t("nav.home"), url: localeUrl(locale, "/") },
@@ -97,62 +114,122 @@ export default function SourcesPage({
         </section>
       </AnimateIn>
 
-      {sourceGroups.map((group) => {
-        const groupSources = registrySources.filter(
-          (source) => source.category === group.id,
-        );
-        if (groupSources.length === 0) return null;
+      <nav
+        id="sources-index"
+        aria-labelledby="sources-index-heading"
+        className="mb-10 scroll-mt-24 border-y border-border/60 py-5"
+      >
+        <h2
+          id="sources-index-heading"
+          className="mb-3 mt-0 text-base font-semibold text-textPrimary"
+        >
+          {copy.indexLabel}
+        </h2>
+        <ul className="mb-0 grid gap-x-6 gap-y-1 pl-0 sm:grid-cols-2">
+          {groups.map((group) => (
+            <li key={group.id} className="list-none">
+              <a
+                href={`#${group.id}`}
+                className="flex min-h-[44px] items-center justify-between gap-3 rounded-lg px-2 text-sm font-medium text-primary no-underline hover:bg-surfaceElevated hover:text-primaryHover focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-borderStrong"
+              >
+                <span>{group.title}</span>
+                <span className="shrink-0 text-xs font-normal text-textMuted">
+                  {group.sources.length}{" "}
+                  {plural(group.sources.length, copy.entryCount)}
+                </span>
+              </a>
+            </li>
+          ))}
+        </ul>
+      </nav>
 
-        return (
-          <AnimateIn key={group.id}>
-            <section className="mb-10" aria-labelledby={group.id}>
-              <div className="mb-5">
-                <h2
-                  id={group.id}
-                  className="mb-2 font-display text-2xl font-semibold tracking-tight text-textPrimary"
-                >
-                  {group.title}
-                </h2>
-                <p className="mb-0 text-sm leading-relaxed text-textSecondary">
-                  {group.description}
-                </p>
-              </div>
-              <div className="grid gap-4 md:grid-cols-2">
-                {groupSources.map((source) => (
-                  <article
-                    key={source.id}
-                    className="rounded-2xl border border-border/60 bg-surfaceElevated/40 p-5"
-                  >
-                    <div className="mb-2 flex flex-wrap items-center gap-2">
-                      <a
-                        href={source.url}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="inline-flex items-center gap-1.5 text-base font-semibold text-primary no-underline hover:text-primaryHover hover:underline"
-                      >
-                        {source.title}
-                        <Icon name="external-link" size="sm" />
-                      </a>
-                      <span className="rounded-full bg-primary/10 px-2.5 py-0.5 text-[11px] font-semibold text-primaryHover">
-                        {source.label}
-                      </span>
-                    </div>
-                    <p className="mb-2 text-xs font-medium text-textMuted">
-                      {source.organization} - {source.sourceType}
-                    </p>
-                    <p className="mb-3 text-sm leading-relaxed text-textSecondary">
-                      {source.note}
-                    </p>
-                    <p className="mb-0 text-xs text-textMuted">
-                      {copy.linkLastChecked.replace("{date}", source.accessed)}
-                    </p>
-                  </article>
-                ))}
-              </div>
-            </section>
-          </AnimateIn>
-        );
-      })}
+      <div className="mb-12 flex flex-col gap-10">
+        {groups.map((group) => (
+          <section
+            key={group.id}
+            id={group.id}
+            aria-labelledby={`${group.id}-heading`}
+            className="scroll-mt-24"
+          >
+            <h2
+              id={`${group.id}-heading`}
+              className="mb-2 mt-0 font-display text-2xl font-semibold tracking-tight text-textPrimary"
+            >
+              {group.title}
+            </h2>
+            <p className="mb-4 text-sm leading-relaxed text-textSecondary">
+              {group.description}
+            </p>
+            <details
+              data-sources
+              className="group rounded-2xl border border-border/60 bg-white"
+            >
+              <summary className="flex min-h-[44px] cursor-pointer list-none items-center gap-3 px-5 py-3 text-sm font-semibold text-primary focus-visible:outline-2 focus-visible:outline-offset-[-2px] focus-visible:outline-borderStrong [&::-webkit-details-marker]:hidden">
+                <Icon
+                  name="chevron-down"
+                  size="sm"
+                  className="shrink-0 transition-transform duration-200 group-open:rotate-180 motion-reduce:transition-none"
+                />
+                {plural(group.sources.length, copy.showSources)}
+              </summary>
+              <table className="w-full border-collapse border-t border-border/60 text-sm">
+                <thead>
+                  <tr className="text-xs uppercase tracking-wide text-textMuted">
+                    <th
+                      scope="col"
+                      className="w-2/5 px-4 py-2 text-start font-semibold"
+                    >
+                      {copy.columnSource}
+                    </th>
+                    <th
+                      scope="col"
+                      className="px-4 py-2 text-start font-semibold"
+                    >
+                      {copy.columnSupports}
+                    </th>
+                  </tr>
+                </thead>
+                <tbody className="divide-y divide-border/60">
+                  {group.sources.map((source) => (
+                    <tr key={source.id} className="align-top">
+                      <td className="px-4 py-3">
+                        <a
+                          href={source.url}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="inline-flex items-center gap-1.5 font-semibold text-primary no-underline hover:text-primaryHover hover:underline"
+                        >
+                          {source.title}
+                          <Icon
+                            name="external-link"
+                            size="sm"
+                            className="shrink-0"
+                          />
+                        </a>
+                        <p className="mb-1.5 mt-1 text-xs text-textMuted">
+                          {source.organization} - {source.sourceType}
+                        </p>
+                        <span className="inline-block rounded-full bg-primary/10 px-2 py-0.5 text-[11px] font-semibold text-primaryHover">
+                          {source.label}
+                        </span>
+                      </td>
+                      <td className="px-4 py-3 text-textSecondary">
+                        <p className="mb-1 leading-relaxed">{source.note}</p>
+                        <p className="mb-0 text-xs text-textMuted">
+                          {copy.linkLastChecked.replace(
+                            "{date}",
+                            source.accessed,
+                          )}
+                        </p>
+                      </td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </details>
+          </section>
+        ))}
+      </div>
 
       <AnimateIn>
         <section aria-labelledby="closing">
