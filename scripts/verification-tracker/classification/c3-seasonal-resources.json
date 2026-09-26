@@ -1,0 +1,944 @@
+{
+  "items": {
+    "seasonal:eid-al-fitr": {
+      "title": "The festival after Ramadan (Eid al-Fitr)",
+      "reviewTypes": [
+        "Fiqh ruling",
+        "Quran or hadith citation",
+        "Financial (zakat, riba, money)",
+        "Tone and pastoral wording",
+        "Family, marriage or intimacy"
+      ],
+      "suggestedReviewers": [
+        "Scholar",
+        "Mentor"
+      ],
+      "priority": "High",
+      "keyPoints": [
+        "Cites Sahih Muslim 1164: fasting Ramadan then six days of Shawwal is like fasting perpetually; says ask a teacher whether owed make-up fasts come first.",
+        "Says Eid day itself is not a day for fasting; no hadith on the ban on fasting the two Eids is among its sourceIds.",
+        "Says 'many Muslims give' Zakat al-Fitr before the Eid prayer, leaving amount and who pays to local scholars; never says it is obligatory on those able. Cites Abu Dawud 1609.",
+        "Says to eat something small before leaving for the prayer, since this is the Eid after the fasting (cites Bukhari 953).",
+        "Describes Eid prayer as short, held in a masjid, hall or park, usually followed by a khutbah or reminder (Bukhari 964, Muslim 886a, Abu Dawud 1149, SeekersGuidance).",
+        "Scripts ask work or school for the Eid morning off and tell non-Muslim family about the morning prayer; the 'on your own' section suggests messaging a mentor."
+      ],
+      "preCheckFlags": [
+        "Naming rule: heading 'Zakat al-Fitr in brief' leads with the Arabic term instead of plain English."
+      ]
+    },
+    "seasonal:dhul-hijjah-hajj-umrah": {
+      "title": "Pilgrimage season (Hajj and Dhul Hijjah)",
+      "reviewTypes": [
+        "Fiqh ruling",
+        "Canadian services or contacts",
+        "Quran or hadith citation",
+        "Medical or health",
+        "Safety or abuse",
+        "Seerah or history"
+      ],
+      "suggestedReviewers": [
+        "Scholar",
+        "Mentor",
+        "Medical professional"
+      ],
+      "priority": "High",
+      "keyPoints": [
+        "Says fasting the Day of Arafah is recommended for those not on Hajj who are able ('strongly encouraged in hadith'); cites Muslim 1162b.",
+        "Says Hajj is a pillar, obligatory once physically and financially able (no Quran 3:97 among sources), and that qurbani/udhiyah details vary by school, income and charity.",
+        "Defines Umrah as 'a pilgrimage to Makkah outside the Hajj season'; confirm the wording, since in fiqh Umrah is not limited to outside the Hajj months.",
+        "Says travel.gc.ca (checked Sept 2026) expects Hajj around 14-19 May 2027 and advised avoiding non-essential travel to Saudi Arabia, stricter in some regions.",
+        "Says Canada was on Nusuk Hajj's serviced list for 2026, the 2027 list was unpublished on 23 Sep 2026, registering is no guarantee, and Umrah can use any visa type.",
+        "Health: yellow fever proof only if arriving via a yellow fever country; no meningococcal rule stated (defers to Nusuk). Says a masjid conversion certificate may be needed."
+      ],
+      "preCheckFlags": [
+        "Naming rule: headings 'Qurbani and udhiyah in brief', 'Hajj as something ahead of you', 'Umrah basics' and link label 'Zakat and Hajj step' lead with Arabic, not plain English."
+      ]
+    },
+    "seasonal:zakat": {
+      "title": "Yearly charity (zakat) for beginners",
+      "reviewTypes": [
+        "Financial (zakat, riba, money)",
+        "Fiqh ruling",
+        "Quran or hadith citation",
+        "Canadian services or contacts",
+        "Legal (Canada)",
+        "External resource or teacher"
+      ],
+      "suggestedReviewers": [
+        "Scholar",
+        "Legal professional",
+        "Mentor"
+      ],
+      "priority": "High",
+      "keyPoints": [
+        "Nisab: Islamic Relief Canada 87.48 g gold or 612.36 g silver; NZF Canada 85 g or 595 g; Muslim Welfare Canada calculator 88 g or 613 g. Confirm each against the live pages.",
+        "Says 2.5 percent on cash and savings, or 2.577 percent on a calendar year; hawl is one lunar year (about 354 days) above nisab; gold vs silver nisab left to a scholar.",
+        "New Muslims: no zakat for years before Islam; first zakat a lunar year after Shahada (SeekersGuidance, Irshaad Sedick, 2022, Shafi'i); NZF: most scholars allow paying early.",
+        "Cites NZF (Sheikh Nabil Khan, 2022): Maliki, Shafi'i and Hanbali exempt worn women's jewellery, Hanafi requires zakat on all gold and silver; also NZF's RRSP/TFSA method.",
+        "Says most scholars limit zakat to Muslims (help non-Muslim family with sadaqah); Penny Appeal counts new converts among 'those whose hearts are to be reconciled' (Quran 9:60).",
+        "Charity numbers: IRC 821896875RR0001, MWC 89733-1732-RR0001, NZF 839912599RR0001, Penny Appeal 827502741 RR0001 (not CRA-checked); CRA tax credit on line 34900."
+      ],
+      "preCheckFlags": [
+        "Naming rule: heading 'Nisab, hawl, and 2.5 percent' and link label 'Zakat and Hajj step' lead with Arabic terms instead of plain English."
+      ]
+    },
+    "seasonal:islamic-calendar": {
+      "title": "Islamic calendar guide for beginners",
+      "reviewTypes": [
+        "Fiqh ruling",
+        "Quran or hadith citation",
+        "Tone and pastoral wording"
+      ],
+      "suggestedReviewers": [
+        "Scholar",
+        "Mentor"
+      ],
+      "priority": "Medium",
+      "keyPoints": [
+        "Says communities follow local sighting, a regional or global announcement, or a calculated calendar, and advises following the masjid you pray and celebrate with.",
+        "Says Muharram is the first month and holds Ashura, Shawwal opens with Eid al-Fitr, Dhul Hijjah holds Hajj and Eid al-Adha, and Rajab and Sha'ban precede Ramadan.",
+        "Cites Quran 2:189 and 9:36, Bukhari 1909 (moon sighting) and 4662 (sacred months); also cites the AlAdhan prayer-times API, not the FCNA calendar the site's dates use."
+      ],
+      "preCheckFlags": []
+    },
+    "seasonal:muharram-ashura": {
+      "title": "The first month and Ashura (Muharram)",
+      "reviewTypes": [
+        "Fiqh ruling",
+        "Quran or hadith citation",
+        "Seerah or history",
+        "Tone and pastoral wording"
+      ],
+      "suggestedReviewers": [
+        "Scholar",
+        "Mentor"
+      ],
+      "priority": "High",
+      "keyPoints": [
+        "Says Muharram is one of the four sacred months named in hadith (Bukhari 4662; Quran 9:36) and Ashura is its tenth day.",
+        "Says voluntary fasting in Muharram and on Ashura is in authentic hadith (Muslim 1163a, Bukhari 2004) and ties Ashura to gratitude to Allah; not the Ramadan fast.",
+        "Suggests asking whether the community fasts one day or two; no hadith on adding the ninth day (e.g. Muslim 1134) is among its sourceIds.",
+        "'If the day feels heavy' alludes to communities marking painful history in Muharram without naming Karbala; confirm the wording is respectful and neutral.",
+        "Warns against unsourced Ashura rituals, promises and viral checklists; confirm this does not dismiss practices mainstream Sunni scholars accept."
+      ],
+      "preCheckFlags": []
+    },
+    "seasonal:rabi-al-awwal-seerah": {
+      "title": "The Prophet's birth month (Rabi al-Awwal)",
+      "reviewTypes": [
+        "Seerah or history",
+        "Aqidah (belief)",
+        "Fiqh ruling",
+        "Quran or hadith citation",
+        "Tone and pastoral wording"
+      ],
+      "suggestedReviewers": [
+        "Scholar",
+        "Mentor"
+      ],
+      "priority": "High",
+      "keyPoints": [
+        "Title (and the seasonal calendar) calls Rabi al-Awwal the Prophet's birth month; sourceIds are general (Quran 21:107, 33:21, 68:4, seerah links), none specific to the birth month.",
+        "On Mawlid and commemorations: says Muslims differ and a beginner need not take a side; confirm this neutral framing fits mainstream Sunni positions.",
+        "Belief statements: the Prophet is the Messenger of Allah and the example believers follow; his message is worshipping Allah alone.",
+        "Suggests sending blessings on the Prophet 'using a wording you have actually been taught' and taking on one Sunnah of character this month.",
+        "Its sources point beginners to Yaqeen Institute seerah videos, SeekersGuidance and New Muslim Academy."
+      ],
+      "preCheckFlags": []
+    },
+    "seasonal:rajab-shaban-preparation": {
+      "title": "The months before Ramadan (Rajab and Sha'ban)",
+      "reviewTypes": [
+        "Fiqh ruling",
+        "Quran or hadith citation",
+        "Tone and pastoral wording"
+      ],
+      "suggestedReviewers": [
+        "Scholar",
+        "Mentor"
+      ],
+      "priority": "High",
+      "keyPoints": [
+        "Says Rajab is named among the sacred months in hadith (Bukhari 4662) and warns against presenting any specific Rajab prayer, fast or promise as established without a source.",
+        "Says authentic hadith report the Prophet fasting often in Sha'ban (Bukhari 1969); advises asking a teacher how voluntary fasts fit health and schedule.",
+        "Cautions about 'a special night' seen online without naming mid-Sha'ban or Isra and Mi'raj; confirm this reflects the range of Sunni views on the night of mid-Sha'ban.",
+        "Tells readers to ask early about medication, illness, travel, menstruation, missed fasts and fidyah before Ramadan."
+      ],
+      "preCheckFlags": []
+    },
+    "seasonal:year-round-charity-service": {
+      "title": "Charity and service all year",
+      "reviewTypes": [
+        "Financial (zakat, riba, money)",
+        "Fiqh ruling",
+        "Quran or hadith citation",
+        "Tone and pastoral wording"
+      ],
+      "suggestedReviewers": [
+        "Scholar",
+        "Mentor"
+      ],
+      "priority": "Medium",
+      "keyPoints": [
+        "Says zakat is obligatory once its conditions apply and sadaqah is voluntary; says service and everyday decency count as charity (cites Muslim 1005).",
+        "Cites Quran 2:261 and 9:60; also lists LaunchGood's zakat policy and Islamic Relief Canada's nisab page as sources.",
+        "Advises giving only what you can afford, not cutting into rent, food or dependants, and walking away from pressure, vague emergency claims and anonymous payment links.",
+        "Lists 'announcing your donations publicly' under what can wait; says the page does not calculate zakat or advise on tax, investments or fundraising law."
+      ],
+      "preCheckFlags": []
+    },
+    "resource:clear-quran-translation": {
+      "title": "The Clear Quran by Dr. Mustafa Khattab",
+      "reviewTypes": [
+        "External resource or teacher"
+      ],
+      "suggestedReviewers": [
+        "Scholar"
+      ],
+      "priority": "Medium",
+      "keyPoints": [
+        "Recommends The Clear Quran, Dr. Mustafa Khattab's plain-English translation of the meaning (theclearquran.org), for first-time readers.",
+        "trustNote says to use translations as meanings, not as a replacement for the Arabic Quran."
+      ],
+      "preCheckFlags": []
+    },
+    "resource:welcome-to-islam-book": {
+      "title": "Welcome to Islam: A Step-by-Step Guide for New Muslims",
+      "reviewTypes": [
+        "External resource or teacher"
+      ],
+      "suggestedReviewers": [
+        "Scholar",
+        "Mentor"
+      ],
+      "priority": "Medium",
+      "keyPoints": [
+        "Recommends Mustafa Umar's 'Welcome to Islam: A Step-by-Step Guide for New Muslims' for the first month after Shahada.",
+        "trustNote says it is 32 pages and free to read online; confirm (sources.json: CreateSpace 2011, ISBN 9781461104773).",
+        "trustNote says the author is an imam and a member of the Fiqh Council of North America; confirm current membership."
+      ],
+      "preCheckFlags": []
+    },
+    "resource:quran-com": {
+      "title": "Quran.com",
+      "reviewTypes": [
+        "External resource or teacher",
+        "Site policy or legal notice"
+      ],
+      "suggestedReviewers": [
+        "Scholar",
+        "Mentor"
+      ],
+      "priority": "Medium",
+      "keyPoints": [
+        "Recommends Quran.com (Quran.Foundation) for reading, translations, transliteration and audio recitation.",
+        "trustNote says it is a nonprofit with no ads, needs no account, and uses Google Analytics; confirm against the current privacy policy.",
+        "bestFor says 'comparing translations'; confirm the English translations it offers are ones the team is comfortable pointing beginners to."
+      ],
+      "preCheckFlags": []
+    },
+    "resource:new-muslim-academy": {
+      "title": "New Muslim Academy",
+      "reviewTypes": [
+        "External resource or teacher"
+      ],
+      "suggestedReviewers": [
+        "Scholar",
+        "Mentor"
+      ],
+      "priority": "Medium",
+      "keyPoints": [
+        "Recommends New Muslim Academy (newmuslimacademy.org) for structured beginner courses; the entry does not say who runs it. Confirm the operator and that its teachers are mainstream Sunni.",
+        "trustNote: 'Good for foundations. Take personal rulings to a qualified teacher.'"
+      ],
+      "preCheckFlags": []
+    },
+    "resource:yaqeen-institute": {
+      "title": "Yaqeen Institute for Islamic Research",
+      "reviewTypes": [
+        "External resource or teacher",
+        "Aqidah (belief)"
+      ],
+      "suggestedReviewers": [
+        "Scholar",
+        "Mentor"
+      ],
+      "priority": "Medium",
+      "keyPoints": [
+        "Recommends Yaqeen Institute (US-based, founded by Dr. Omar Suleiman) for faith questions and doubts; confirm it suits beginners.",
+        "Description says its articles and videos use 'sourced research'; trustNote says it gives context 'without turning early Islam into debate overload'."
+      ],
+      "preCheckFlags": []
+    },
+    "resource:bayyinah-tv": {
+      "title": "Bayyinah TV",
+      "reviewTypes": [
+        "External resource or teacher",
+        "Canadian services or contacts"
+      ],
+      "suggestedReviewers": [
+        "Scholar",
+        "Mentor"
+      ],
+      "priority": "Medium",
+      "keyPoints": [
+        "Recommends Bayyinah TV (Bayyinah, founded by Nouman Ali Khan per sources.json) for Quran and Arabic courses 'from the alphabet'; confirm suitability and the beginner courses.",
+        "trustNote gives $11 a month (checked 23 Sep 2026) and a free one-year hardship membership; confirm the price and whether it is USD or CAD."
+      ],
+      "preCheckFlags": []
+    },
+    "resource:new-muslim-guide-icna": {
+      "title": "ICNA New Muslim Support",
+      "reviewTypes": [
+        "External resource or teacher",
+        "Canadian services or contacts"
+      ],
+      "suggestedReviewers": [
+        "Mentor",
+        "Scholar"
+      ],
+      "priority": "Medium",
+      "keyPoints": [
+        "Recommends ICNA (Islamic Circle of North America) for new Muslim support, listing Embrace, WhyIslam and a converts' gathering.",
+        "trustNote says its pages focus on the United States and to ask a local masjid for Canada; confirm whether ICNA Canada has new Muslim programs to link instead."
+      ],
+      "preCheckFlags": []
+    },
+    "resource:whyislam": {
+      "title": "WhyIslam",
+      "reviewTypes": [
+        "External resource or teacher",
+        "Canadian services or contacts"
+      ],
+      "suggestedReviewers": [
+        "Mentor",
+        "Scholar"
+      ],
+      "priority": "Medium",
+      "keyPoints": [
+        "Recommends WhyIslam for introductions, one-on-one conversations and new Muslim support; the entry names 'WhyIslam' as the organisation, sources.json names ICNA.",
+        "bestFor suggests it for explaining Islam to family members; confirm its hotline and programs serve people in Canada."
+      ],
+      "preCheckFlags": []
+    },
+    "resource:learn-salah-guide": {
+      "title": "New Muslim Guide - Prayer",
+      "reviewTypes": [
+        "External resource or teacher",
+        "Fiqh ruling"
+      ],
+      "suggestedReviewers": [
+        "Scholar"
+      ],
+      "priority": "Medium",
+      "keyPoints": [
+        "Recommends New Muslim Guide's prayer section (newmuslimguide.com) for preparing, prayer times and what to learn first; the publisher is not named in the entry.",
+        "trustNote says scholars differ on some details; confirm the guide does not present one school's way of praying as the only valid one."
+      ],
+      "preCheckFlags": []
+    },
+    "resource:new-muslim-guide-site": {
+      "title": "New Muslim Guide",
+      "reviewTypes": [
+        "External resource or teacher",
+        "Fiqh ruling"
+      ],
+      "suggestedReviewers": [
+        "Scholar"
+      ],
+      "priority": "Medium",
+      "keyPoints": [
+        "Recommends New Muslim Guide (newmuslimguide.com) as a 'one-stop beginner reference'; publisher not named (believed to be Dr. Fahd Salem Bahammam, Saudi Arabia): confirm.",
+        "trustNote: 'Best used for foundations, not as a personalized fatwa source.' Confirm its rulings acknowledge differences between the Sunni schools."
+      ],
+      "preCheckFlags": []
+    },
+    "resource:quran-recitation-mishary": {
+      "title": "Quran Recitation by Mishary Rashid Alafasy",
+      "reviewTypes": [
+        "External resource or teacher"
+      ],
+      "suggestedReviewers": [
+        "Mentor"
+      ],
+      "priority": "Medium",
+      "keyPoints": [
+        "Recommends Mishary Rashid Alafasy's recitation via quran.com/reciters/7; confirm the link opens his recitation.",
+        "trustNote: listen slowly and learn to recite with a teacher."
+      ],
+      "preCheckFlags": []
+    },
+    "resource:ramadan-guide-yaqeen": {
+      "title": "Ramadan Resources by Yaqeen Institute",
+      "reviewTypes": [
+        "External resource or teacher"
+      ],
+      "suggestedReviewers": [
+        "Scholar",
+        "Mentor"
+      ],
+      "priority": "Medium",
+      "keyPoints": [
+        "Recommends Yaqeen Institute's Ramadan page (yaqeeninstitute.org/ramadan) for spiritual preparation and practical reminders.",
+        "trustNote says personal fasting exceptions should be reviewed with a qualified local scholar."
+      ],
+      "preCheckFlags": []
+    },
+    "resource:khalil-center": {
+      "title": "Khalil Center - Muslim Mental Health",
+      "reviewTypes": [
+        "Mental health",
+        "External resource or teacher",
+        "Canadian services or contacts"
+      ],
+      "suggestedReviewers": [
+        "Mental health professional",
+        "Mentor"
+      ],
+      "priority": "Medium",
+      "keyPoints": [
+        "Recommends Khalil Center (khalilcenter.ca) for faith-sensitive therapy; sources.json says online only, phone 416-901-2244, some insurance accepted.",
+        "Confirm its clinicians are registered with Canadian provincial regulators (sources.json says the home page does not list registrations).",
+        "trustNote says it is not emergency care and to 'use crisis services' for immediate danger, naming neither 911 nor 9-8-8 (only the footer does)."
+      ],
+      "preCheckFlags": []
+    },
+    "resource:becoming-muslim-report": {
+      "title": "Becoming Muslim: The Lives of American Converts to Islam",
+      "reviewTypes": [
+        "External resource or teacher",
+        "Mental health"
+      ],
+      "suggestedReviewers": [
+        "Mentor",
+        "Mental health professional"
+      ],
+      "priority": "Medium",
+      "keyPoints": [
+        "Describes Yaqeen's 2025 report 'Becoming Muslim' (Umarji, Birawi, Desouky, Oduro) as a survey of 618 US converts; confirm year and sample size.",
+        "trustNote says it is about American converts and not a mental health guide, yet resource-collections lists it under 'Mental health and support'."
+      ],
+      "preCheckFlags": []
+    },
+    "resource:seekers-guidance": {
+      "title": "SeekersGuidance",
+      "reviewTypes": [
+        "External resource or teacher"
+      ],
+      "suggestedReviewers": [
+        "Scholar"
+      ],
+      "priority": "Medium",
+      "keyPoints": [
+        "Recommends SeekersGuidance (founded by Shaykh Faraz Rabbani; Canada-based, confirm) for free courses and Q&A 'taught by qualified scholars'.",
+        "trustNote: 'Good for structured knowledge. Ask locally about your own circumstances.'"
+      ],
+      "preCheckFlags": []
+    },
+    "resource:being-muslim-book": {
+      "title": "Being Muslim: A Practical Guide",
+      "reviewTypes": [
+        "External resource or teacher"
+      ],
+      "suggestedReviewers": [
+        "Scholar",
+        "Mentor"
+      ],
+      "priority": "Medium",
+      "keyPoints": [
+        "Recommends 'Being Muslim: A Practical Guide' from Sandala (Hamza Yusuf's publishing arm per sources.json); author not named in the entry (believed Asad Tarsin): confirm.",
+        "Description says it is for new and returning Muslims and covers worship, spirituality and community life."
+      ],
+      "preCheckFlags": []
+    },
+    "resource:halal-living-guide": {
+      "title": "New Muslim Guide - Food and Drink",
+      "reviewTypes": [
+        "External resource or teacher",
+        "Fiqh ruling"
+      ],
+      "suggestedReviewers": [
+        "Scholar"
+      ],
+      "priority": "Medium",
+      "keyPoints": [
+        "Recommends New Muslim Guide's food and drink section; description says it covers reading ingredients, eating out and 'knowing when you have checked enough': confirm.",
+        "trustNote says ingredient and certification details vary by country; confirm its halal rulings (e.g. on meat) fit Canadian practice across the Sunni schools."
+      ],
+      "preCheckFlags": []
+    },
+    "resource:seerah-podcast": {
+      "title": "Seerah Series by Yasir Qadhi",
+      "reviewTypes": [
+        "External resource or teacher",
+        "Seerah or history"
+      ],
+      "suggestedReviewers": [
+        "Scholar"
+      ],
+      "priority": "Medium",
+      "keyPoints": [
+        "Recommends Dr. Yasir Qadhi's Seerah lecture series (YouTube playlist PLAEA99D24CA2F9A8F); confirm the playlist and that the teacher suits new Muslims.",
+        "trustNote says it goes deeper than a first-week resource; sources.json says the episode count was not checked."
+      ],
+      "preCheckFlags": []
+    },
+    "resource:wudu-tutorial": {
+      "title": "New Muslim Guide - Purification",
+      "reviewTypes": [
+        "External resource or teacher",
+        "Fiqh ruling"
+      ],
+      "suggestedReviewers": [
+        "Scholar"
+      ],
+      "priority": "Medium",
+      "keyPoints": [
+        "Recommends New Muslim Guide's purification section for wudu, ghusl and ritual purity; confirm its rulings acknowledge differences between the Sunni schools.",
+        "Same title and URL as resource purification-fiqh-guide (newmuslimguide.com/en/categories/your-purification); confirm both entries are needed."
+      ],
+      "preCheckFlags": []
+    },
+    "resource:convert-story-videos": {
+      "title": "Convert Stories - The Deen Show",
+      "reviewTypes": [
+        "External resource or teacher",
+        "Tone and pastoral wording"
+      ],
+      "suggestedReviewers": [
+        "Mentor",
+        "Scholar"
+      ],
+      "priority": "Medium",
+      "keyPoints": [
+        "Recommends The Deen Show YouTube channel (a dawah talk show since 2006, per sources.json) for convert interviews; individual episodes were not reviewed.",
+        "URL is the whole channel (@TheDeenShowTV), not a convert-stories playlist; confirm the wider channel content suits new Muslims.",
+        "trustNote: stories are personal experiences, not sources for rulings."
+      ],
+      "preCheckFlags": []
+    },
+    "resource:fortress-muslim-dua-book": {
+      "title": "Fortress of the Muslim",
+      "reviewTypes": [
+        "External resource or teacher",
+        "Quran or hadith citation"
+      ],
+      "suggestedReviewers": [
+        "Scholar"
+      ],
+      "priority": "Medium",
+      "keyPoints": [
+        "Recommends 'Fortress of the Muslim' (Hisn al-Muslim; compiler Sa'id al-Qahtani not named) from Darussalam; says every dua is sourced to the Quran or Sunnah: confirm.",
+        "Link is the Darussalam UK store with prices in pounds (sources.json); confirm it is the right link for Canadian readers."
+      ],
+      "preCheckFlags": []
+    },
+    "resource:aboutislam-new-muslims": {
+      "title": "AboutIslam - New Muslims",
+      "reviewTypes": [
+        "External resource or teacher"
+      ],
+      "suggestedReviewers": [
+        "Scholar",
+        "Mentor"
+      ],
+      "priority": "Medium",
+      "keyPoints": [
+        "Recommends AboutIslam's New Muslims section (aboutislam.net) for short articles on faith, identity, family and community; publisher not named: confirm who runs it.",
+        "trustNote: use as supportive reading and confirm detailed rulings with qualified scholars."
+      ],
+      "preCheckFlags": []
+    },
+    "resource:tarteel-ai-app": {
+      "title": "Tarteel AI - Quran Recitation Helper",
+      "reviewTypes": [
+        "External resource or teacher",
+        "Site policy or legal notice"
+      ],
+      "suggestedReviewers": [
+        "Mentor"
+      ],
+      "priority": "Medium",
+      "keyPoints": [
+        "Recommends Tarteel AI for recitation practice; trustNote says app feedback is a practice aid, not a replacement for a teacher.",
+        "trustNote cites a privacy policy dated 26 May 2023: recordings stored in the US, used for AI training, some reviewed by people; analytics and Google cookies. Confirm current.",
+        "Says free users can delete recordings but only Premium users can opt out of AI training; sources.json asks whether it still fits a privacy-first site."
+      ],
+      "preCheckFlags": []
+    },
+    "resource:purification-fiqh-guide": {
+      "title": "New Muslim Guide - Purification",
+      "reviewTypes": [
+        "External resource or teacher",
+        "Fiqh ruling"
+      ],
+      "suggestedReviewers": [
+        "Scholar"
+      ],
+      "priority": "Medium",
+      "keyPoints": [
+        "Recommends New Muslim Guide's purification section for 'the wider rules of purity'; confirm its rulings acknowledge differences between the Sunni schools.",
+        "Same title and URL as resource wudu-tutorial; confirm both entries are needed."
+      ],
+      "preCheckFlags": []
+    },
+    "resource:naseeha-mental-health": {
+      "title": "Naseeha helpline",
+      "reviewTypes": [
+        "Mental health",
+        "Suicide-safe language",
+        "External resource or teacher",
+        "Canadian services or contacts"
+      ],
+      "suggestedReviewers": [
+        "Mental health professional",
+        "Mentor"
+      ],
+      "priority": "Medium",
+      "keyPoints": [
+        "Says Naseeha is a 24/7 helpline for Muslim youth in Canada run by Naseeha Mental Health; sources.json gives 1 (866) 627-3342. Confirm hours, number and age range.",
+        "bestFor says 'Muslim mental health support and helpline routing'; confirm who answers the line and that it is not presented as an emergency service."
+      ],
+      "preCheckFlags": [
+        "trustNote mentions 'risk of self-harm' but gives no numbers (only the site footer does); CLAUDE.md asks for 911 first, then 9-8-8 (call or text)."
+      ]
+    },
+    "resource:launchgood-zakat-policy": {
+      "title": "LaunchGood Zakat Policy",
+      "reviewTypes": [
+        "External resource or teacher",
+        "Financial (zakat, riba, money)",
+        "Fiqh ruling"
+      ],
+      "suggestedReviewers": [
+        "Scholar",
+        "Legal professional"
+      ],
+      "priority": "High",
+      "keyPoints": [
+        "Recommends LaunchGood's zakat policy as an example of how a platform decides which campaigns are zakat eligible; confirm who reviews its eligibility decisions.",
+        "LaunchGood is a crowdfunding platform (not a CRA-registered charity, confirm); check what readers should know about Canadian tax receipts before giving there."
+      ],
+      "preCheckFlags": []
+    },
+    "resource:yaqeen-dhul-hijjah-resources": {
+      "title": "Yaqeen Institute - Dhul Hijjah Resources",
+      "reviewTypes": [
+        "External resource or teacher"
+      ],
+      "suggestedReviewers": [
+        "Scholar",
+        "Mentor"
+      ],
+      "priority": "Medium",
+      "keyPoints": [
+        "Recommends Yaqeen Institute's Dhul Hijjah playlist; description says it has simple worship ideas for the first ten days: confirm the series matches.",
+        "trustNote: use it for spiritual preparation and ask a qualified person about personal rulings."
+      ],
+      "preCheckFlags": []
+    },
+    "resource:nusuk-hajj-official": {
+      "title": "Nusuk Hajj Official Platform",
+      "reviewTypes": [
+        "Canadian services or contacts",
+        "External resource or teacher"
+      ],
+      "suggestedReviewers": [
+        "Mentor"
+      ],
+      "priority": "Medium",
+      "keyPoints": [
+        "Describes Nusuk Hajj as the official Saudi platform, under the Ministry of Hajj and Umrah, where pilgrims from serviced countries choose authorised packages.",
+        "trustNote: check Nusuk serves Canada for your year (listed for 2026; 2027 list unpublished on 23 Sep 2026), read travel.gc.ca first; registering is no guarantee."
+      ],
+      "preCheckFlags": []
+    },
+    "resource:new-muslim-academy-quran-etiquette": {
+      "title": "New Muslim Academy - Quran Etiquette",
+      "reviewTypes": [
+        "Fiqh ruling",
+        "External resource or teacher"
+      ],
+      "suggestedReviewers": [
+        "Scholar"
+      ],
+      "priority": "High",
+      "keyPoints": [
+        "Links New Muslim Academy's article on touching and reading the Arabic Quran; confirm its ruling on wudu for touching the mushaf and how it presents the schools' views.",
+        "Description says it covers handling the mushaf, reading translations and etiquette 'so you do not panic'; trustNote sends detailed purity questions to a local teacher."
+      ],
+      "preCheckFlags": []
+    },
+    "resource:yaqeen-seerah-collection": {
+      "title": "Yaqeen Institute - Life of the Prophet",
+      "reviewTypes": [
+        "External resource or teacher",
+        "Seerah or history"
+      ],
+      "suggestedReviewers": [
+        "Scholar"
+      ],
+      "priority": "Medium",
+      "keyPoints": [
+        "Recommends Yaqeen Institute's 'Life of the Prophet' videos and articles, described as a large set 'from a named research institute'.",
+        "trustNote: take it slowly; there is no need to get through a long series in one go."
+      ],
+      "preCheckFlags": []
+    },
+    "resource:seekersguidance-seerah": {
+      "title": "SeekersGuidance - Study the Life of the Prophet",
+      "reviewTypes": [
+        "External resource or teacher",
+        "Seerah or history"
+      ],
+      "suggestedReviewers": [
+        "Scholar"
+      ],
+      "priority": "Medium",
+      "keyPoints": [
+        "Links a SeekersGuidance article on studying seerah through structured courses and reliable teachers; confirm it is the short piece described."
+      ],
+      "preCheckFlags": []
+    },
+    "resource:new-muslim-academy-prophet-example": {
+      "title": "New Muslim Academy - Following the Messenger",
+      "reviewTypes": [
+        "External resource or teacher",
+        "Aqidah (belief)"
+      ],
+      "suggestedReviewers": [
+        "Scholar"
+      ],
+      "priority": "Medium",
+      "keyPoints": [
+        "Links New Muslim Academy's article on why Muslims follow the Prophet's example; confirm it presents the Sunnah's authority in mainstream Sunni terms."
+      ],
+      "preCheckFlags": []
+    },
+    "resource:quran-com-al-fatihah-plan": {
+      "title": "Seven Days, Seven Verses (Al-Fatihah)",
+      "reviewTypes": [
+        "External resource or teacher"
+      ],
+      "suggestedReviewers": [
+        "Scholar",
+        "Mentor"
+      ],
+      "priority": "Medium",
+      "keyPoints": [
+        "Recommends Quran.com's free 'Seven Days, Seven Verses' plan on Al-Fatihah: one verse a day, word by word, lessons under ten minutes, no account needed.",
+        "trustNote says the lessons are by Shaykh Hammad Fahim (Al-Azhar, per sources.json); confirm."
+      ],
+      "preCheckFlags": []
+    },
+    "resource:new-muslim-academy-quran-classes": {
+      "title": "New Muslim Academy live Quran classes",
+      "reviewTypes": [
+        "External resource or teacher",
+        "Canadian services or contacts",
+        "Site policy or legal notice"
+      ],
+      "suggestedReviewers": [
+        "Mentor"
+      ],
+      "priority": "Medium",
+      "keyPoints": [
+        "Recommends New Muslim Academy's free live small-group classes on Al-Fatihah and short surahs, evenings Eastern (6:00-9:30 pm per sources.json); confirm schedule and cost.",
+        "URL is the sisters' classes page while trustNote says brothers and sisters are taught separately; confirm there is a link for brothers.",
+        "trustNote says sign-up needs a form and the site uses analytics and an advertising pixel (Facebook pixel per sources.json)."
+      ],
+      "preCheckFlags": []
+    },
+    "resource:seekersguidance-essentials-course": {
+      "title": "Essentials of Faith, Worship, and Spirituality",
+      "reviewTypes": [
+        "External resource or teacher",
+        "Canadian services or contacts"
+      ],
+      "suggestedReviewers": [
+        "Scholar",
+        "Mentor"
+      ],
+      "priority": "Medium",
+      "keyPoints": [
+        "Recommends SeekersGuidance's free live 'Essentials of Faith, Worship, and Spirituality' (Level One), Saturdays 10:00 Eastern; confirm the current schedule.",
+        "trustNote says it is taught by Shaykh Faraz Rabbani and that SeekersGuidance says all its courses are free."
+      ],
+      "preCheckFlags": []
+    },
+    "resource:yaqeen-quran-30-for-30": {
+      "title": "Qur'an 30 for 30: Thematic Tafsir",
+      "reviewTypes": [
+        "External resource or teacher"
+      ],
+      "suggestedReviewers": [
+        "Scholar"
+      ],
+      "priority": "Medium",
+      "keyPoints": [
+        "Recommends the free Yaqeen ebook 'Qur'an 30 for 30: Thematic Tafsir' by Dr. Omar Suleiman and Sh. Ismail Kamdar; confirm authorship and free download.",
+        "Link is on yaqeeninstitute.ca while the other Yaqeen links use .org; confirm it resolves."
+      ],
+      "preCheckFlags": []
+    },
+    "resource:mac-elearning": {
+      "title": "MAC eLearning",
+      "reviewTypes": [
+        "External resource or teacher"
+      ],
+      "suggestedReviewers": [
+        "Scholar",
+        "Mentor"
+      ],
+      "priority": "Medium",
+      "keyPoints": [
+        "Recommends MAC eLearning (Muslim Association of Canada); description says 'Free online courses' but sources.json says only featured courses are marked free: confirm.",
+        "trustNote calls MAC 'A Canadian charity'; confirm its registration and that course teachers are mainstream Sunni."
+      ],
+      "preCheckFlags": []
+    },
+    "resource:tafsir-ibn-kathir-juz-amma": {
+      "title": "Tafsir Ibn Kathir, abridged: the 30th part",
+      "reviewTypes": [
+        "External resource or teacher"
+      ],
+      "suggestedReviewers": [
+        "Scholar"
+      ],
+      "priority": "Medium",
+      "keyPoints": [
+        "Recommends Darussalam's abridged Tafsir Ibn Kathir on the 30th part; sources.json says the product page's author credit differs from the set page: confirm the edition.",
+        "trustNote says it is a paid print book best read with a teacher (520-page hardback per sources.json); the link is the Darussalam UK store."
+      ],
+      "preCheckFlags": []
+    },
+    "resource:pillars-app": {
+      "title": "Pillars",
+      "reviewTypes": [
+        "External resource or teacher",
+        "Site policy or legal notice"
+      ],
+      "suggestedReviewers": [
+        "Mentor"
+      ],
+      "priority": "Medium",
+      "keyPoints": [
+        "Recommends the Pillars prayer-times app; says it offers the ISNA method this site uses (the site's tool calls AlAdhan with method=2, ISNA, so this matches).",
+        "trustNote: no ads, no account, location stays on the phone, anonymous analytics can be turned off in Settings (privacy policy dated August 2026 per sources.json)."
+      ],
+      "preCheckFlags": []
+    },
+    "resource:cra-list-of-charities": {
+      "title": "CRA list of charities",
+      "reviewTypes": [
+        "Canadian services or contacts",
+        "Financial (zakat, riba, money)"
+      ],
+      "suggestedReviewers": [
+        "Mentor"
+      ],
+      "priority": "Low",
+      "keyPoints": [
+        "Links the CRA list of charities and other qualified donees for checking registration before giving zakat or sadaqah; sources.json says site charity numbers were not cross-checked."
+      ],
+      "preCheckFlags": []
+    },
+    "resource:cafc-charity-fraud": {
+      "title": "Charity and donation fraud",
+      "reviewTypes": [
+        "Canadian services or contacts",
+        "Financial (zakat, riba, money)"
+      ],
+      "suggestedReviewers": [
+        "Mentor"
+      ],
+      "priority": "Low",
+      "keyPoints": [
+        "Links the Canadian Anti-Fraud Centre's charity fraud page; description says it covers appeals for religious causes and how to check a registration number."
+      ],
+      "preCheckFlags": []
+    },
+    "collection:resource-collections": {
+      "title": "Resource collections, feature cards, choosing checklist and warnings",
+      "reviewTypes": [
+        "External resource or teacher",
+        "Mental health",
+        "Tone and pastoral wording",
+        "Safety or abuse"
+      ],
+      "suggestedReviewers": [
+        "Mentor",
+        "Scholar",
+        "Mental health professional"
+      ],
+      "priority": "Medium",
+      "keyPoints": [
+        "'Mental health and support' is described as 'Counselors and crisis lines that understand faith' and lists Khalil Center, Naseeha and a Yaqeen report; 911 and 9-8-8 appear only in the site footer.",
+        "'Mentor resources' points mentors to ICNA and WhyIslam (US-focused), New Muslim Academy and SeekersGuidance's Essentials course; confirm the Canadian fit.",
+        "'Zakat and giving' says it is enough to understand how zakat works but lists only the CRA charity list, the CAFC fraud page and SeekersGuidance.",
+        "Checklist and warnings: check who made a resource, skip anonymous fatwa screenshots and debate channels, and walk away from teaching that pressures, isolates or shames."
+      ],
+      "preCheckFlags": [
+        "'Mental health and support' body says 'Counselors and crisis lines' but lists becoming-muslim-report, whose own trustNote says it is 'not a mental health guide'.",
+        "Naming rule: collection heading 'Zakat and giving' leads with Arabic (the site's own title is 'Yearly charity (zakat) for beginners')."
+      ]
+    },
+    "collection:seasonal-calendar": {
+      "title": "Seasonal calendar dates (Coming up pointer)",
+      "reviewTypes": [
+        "Canadian services or contacts",
+        "Fiqh ruling",
+        "Seerah or history"
+      ],
+      "suggestedReviewers": [
+        "Scholar",
+        "Mentor"
+      ],
+      "priority": "Medium",
+      "keyPoints": [
+        "Note: approximate dates from the FCNA calculated calendar; local sighting may differ by a day or two. 14 seasons, 14 Aug 2026 to 15 Jan 2029 (1448-1450 AH); the first is past.",
+        "1448: Rabi al-Awwal 14 Aug-12 Sep 2026; Rajab-Sha'ban 10 Dec 2026-7 Feb 2027; Ramadan 8 Feb-8 Mar 2027; Eid al-Fitr 9-11 Mar; Dhul Hijjah 7-19 May 2027.",
+        "1449: Muharram 6 Jun-4 Jul 2027; Rabi al-Awwal 3 Aug-1 Sep; Rajab-Sha'ban 29 Nov-27 Jan 2028; Ramadan 28 Jan-25 Feb 2028; Eid 26-28 Feb; Dhul Hijjah 26 Apr-8 May.",
+        "1450: Muharram 25 May-22 Jun 2028; Rabi al-Awwal 23 Jul-21 Aug; Rajab-Sha'ban to 15 Jan 2029. Our new-moon check puts 3 ends a day off: 11 Sep 2026, 23 Jun and 20 Aug 2028."
+      ],
+      "preCheckFlags": []
+    },
+    "collection:source-categories": {
+      "title": "Source categories and source policy notes",
+      "reviewTypes": [
+        "Site policy or legal notice",
+        "Quran or hadith citation",
+        "Mental health",
+        "Tone and pastoral wording"
+      ],
+      "suggestedReviewers": [
+        "Scholar",
+        "Mentor",
+        "Mental health professional",
+        "Legal professional"
+      ],
+      "priority": "Medium",
+      "keyPoints": [
+        "Policy notes never state the mainstream Sunni orientation or that Shia and Ahmadiyya institutions are not used as sources (CLAUDE.md Site orientation); confirm if they should.",
+        "Says English Quran is a translation of the meaning and Arabic comes from 'a verified Quran text source' (Tanzil in sources.json); hadith citations give collection, number, grading.",
+        "Mental health group says health and crisis content links to official public health bodies or qualified clinicians; confirm Naseeha and Khalil Center fit that description.",
+        "'When to seek professional help' says 'If you are in crisis... you need a qualified professional' without naming 911 or 9-8-8; also carries 'not legal/medical advice' notices."
+      ],
+      "preCheckFlags": []
+    },
+    "collection:events": {
+      "title": "Events list",
+      "reviewTypes": [
+        "Canadian services or contacts"
+      ],
+      "suggestedReviewers": [
+        "Mentor"
+      ],
+      "priority": "Low",
+      "keyPoints": [
+        "events.json is empty: no events are listed (lastUpdated 2026-09-24)."
+      ],
+      "preCheckFlags": []
+    }
+  }
+}

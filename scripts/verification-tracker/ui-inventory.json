@@ -1,0 +1,736 @@
+{
+ "generated": "2026-09-26",
+ "uiPagesContent": {
+  "pages.guides.index": {
+   "label": "Life guides > Index page intro, group intros and \"use these as starting points\" note",
+   "url": "/guides",
+   "urlEn": "/en/guides"
+  },
+  "pages.guides.detail": {
+   "label": "Life guides > Shared \"When to ask someone qualified\" box and sources note (every guide page)",
+   "url": "/guides/{guideSlug}",
+   "urlEn": "/en/guides/family-and-friends#disclaimer-heading"
+  },
+  "pages.seasonal.index": {
+   "label": "Seasonal guides > Index intro, Ramadan card and \"Personal cases need qualified review\" disclaimer",
+   "url": "/seasonal",
+   "urlEn": "/en/seasonal#seasonal-disclaimer-heading"
+  },
+  "pages.seasonal.detail": {
+   "label": "Seasonal guides > Shared \"Ask someone qualified if\" box and sources note (every seasonal guide)",
+   "url": "/seasonal/{guideSlug}",
+   "urlEn": "/en/seasonal/eid-al-fitr#qualified-help-heading"
+  },
+  "pages.home.subtitle": {
+   "label": "Home page > Welcome text",
+   "url": "/",
+   "urlEn": "/en"
+  },
+  "pages.home.paths": {
+   "label": "Home page > \"Where are you right now?\" path cards",
+   "url": "/",
+   "urlEn": "/en"
+  },
+  "pages.home.intro": {
+   "label": "Home page > What Revert Guide is (quote block)",
+   "url": "/",
+   "urlEn": "/en"
+  },
+  "pages.home.trust": {
+   "label": "Home page > \"No ads, no tracking, no account\" line",
+   "url": "/",
+   "urlEn": "/en"
+  },
+  "pages.about.mission": {
+   "label": "About page > Our mission",
+   "url": "/about",
+   "urlEn": "/en/about#mission"
+  },
+  "pages.about.nameBody": {
+   "label": "About page > Why the name Revert Guide (cites Sahih al-Bukhari 1385 and Quran 30:30)",
+   "url": "/about",
+   "urlEn": "/en/about#site-name"
+  },
+  "pages.about.approachItems": {
+   "label": "About page > Our approach (mainstream Sunni, four schools, non-political)",
+   "url": "/about",
+   "urlEn": "/en/about#approach"
+  },
+  "pages.about.whoRunsBody": {
+   "label": "About page > Who runs this site",
+   "url": "/about",
+   "urlEn": "/en/about#who-runs"
+  },
+  "pages.about.reviewIntro": {
+   "label": "About page > How content is checked (intro)",
+   "url": "/about",
+   "urlEn": "/en/about#review"
+  },
+  "pages.about.reviewStates": {
+   "label": "About page > The four review states explained",
+   "url": "/about",
+   "urlEn": "/en/about#review"
+  },
+  "pages.about.badgeBody": {
+   "label": "About page > If a page says review needed",
+   "url": "/about",
+   "urlEn": "/en/about#review"
+  },
+  "pages.about.reviewerBody": {
+   "label": "About page > Who does the scholarly review",
+   "url": "/about",
+   "urlEn": "/en/about#review"
+  },
+  "pages.about.lastReviewed": {
+   "label": "About page > Last reviewed date",
+   "url": "/about",
+   "urlEn": "/en/about"
+  },
+  "pages.about.disclaimer": {
+   "label": "About page > Disclaimer (not a fatwa)",
+   "url": "/about",
+   "urlEn": "/en/about#disclaimer"
+  },
+  "pages.about.contact": {
+   "label": "About page > How to reach us",
+   "url": "/about",
+   "urlEn": "/en/about#contact"
+  },
+  "pages.accessibility.commitment": {
+   "label": "Accessibility statement > Our commitment (WCAG 2.1 AA, AODA claim)",
+   "url": "/accessibility",
+   "urlEn": "/en/accessibility#commitment"
+  },
+  "pages.accessibility.standards": {
+   "label": "Accessibility statement > Standards (screen readers tested)",
+   "url": "/accessibility",
+   "urlEn": "/en/accessibility#standards"
+  },
+  "pages.accessibility.features": {
+   "label": "Accessibility statement > Accessibility features",
+   "url": "/accessibility",
+   "urlEn": "/en/accessibility#features"
+  },
+  "pages.accessibility.limitations": {
+   "label": "Accessibility statement > Known limitations",
+   "url": "/accessibility",
+   "urlEn": "/en/accessibility#limitations"
+  },
+  "pages.accessibility.feedbackBody": {
+   "label": "Accessibility statement > Feedback",
+   "url": "/accessibility",
+   "urlEn": "/en/accessibility#feedback"
+  },
+  "pages.accessibility.lastUpdated": {
+   "label": "Accessibility statement > Last reviewed date",
+   "url": "/accessibility",
+   "urlEn": "/en/accessibility#last-updated"
+  },
+  "pages.privacy.effective": {
+   "label": "Privacy policy > Effective date",
+   "url": "/privacy",
+   "urlEn": "/en/privacy"
+  },
+  "pages.privacy.policySections": {
+   "label": "Privacy policy > Policy sections",
+   "url": "/privacy",
+   "urlEn": "/en/privacy"
+  },
+  "pages.terms.effectiveDate": {
+   "label": "Terms of use > Effective date",
+   "url": "/terms",
+   "urlEn": "/en/terms"
+  },
+  "pages.terms.sections": {
+   "label": "Terms of use > Sections",
+   "url": "/terms",
+   "urlEn": "/en/terms"
+  },
+  "pages.sources.closingContact": {
+   "label": "Sources page > Questions about references (contact line)",
+   "url": "/sources",
+   "urlEn": "/en/sources"
+  },
+  "pages.sources.registryIntro": {
+   "label": "Sources page > Introduction",
+   "url": "/sources",
+   "urlEn": "/en/sources"
+  },
+  "pages.sources.howToUseBody": {
+   "label": "Sources page > How to use sources without feeling overwhelmed",
+   "url": "/sources",
+   "urlEn": "/en/sources#how-to-use-sources-heading"
+  },
+  "pages.sources.endorsementNote": {
+   "label": "Sources page > Source tags are not endorsements",
+   "url": "/sources",
+   "urlEn": "/en/sources"
+  },
+  "pages.roadmap.description": {
+   "label": "Roadmap page > Introduction",
+   "url": "/roadmap",
+   "urlEn": "/en/roadmap"
+  },
+  "pages.roadmap.endingBody": {
+   "label": "Roadmap page > Closing encouragement",
+   "url": "/roadmap",
+   "urlEn": "/en/roadmap"
+  },
+  "pages.stage.finalStageBody": {
+   "label": "Stage pages > Closing note on the last stage",
+   "url": "/roadmap/month-6-plus",
+   "urlEn": "/en/roadmap/month-6-plus#next-heading"
+  },
+  "pages.stage.learningPathIntro": {
+   "label": "Stage pages > \"What to learn in this stage\" intro (all 6 stages)",
+   "url": "/roadmap/{stageId}",
+   "urlEn": "/en/roadmap/day-0-1#learning-path-heading"
+  },
+  "pages.topic.actions": {
+   "label": "Topic pages > Tool cards on the Quran, Prayer and Dua topics",
+   "url": "/topics/quran, /topics/prayer, /topics/dua-and-dhikr",
+   "urlEn": "/en/topics/quran"
+  },
+  "pages.topic.sourcesNote": {
+   "label": "Topic pages > Sources note (every topic page)",
+   "url": "/topics/{topicSlug}",
+   "urlEn": "/en/topics/beliefs#sources-used-heading"
+  },
+  "pages.sourceNotes.findMasjidMap": {
+   "label": "Find a masjid > Sources note (OpenStreetMap, Nominatim, confirm details)",
+   "url": "/resources/find-masjid",
+   "urlEn": "/en/resources/find-masjid#sources-used-heading"
+  },
+  "pages.sourceNotes.mentalHealth": {
+   "label": "Mental health page > Sources note (\"call 9-1-1 now\")",
+   "url": "/mental-health",
+   "urlEn": "/en/mental-health#sources-used-heading"
+  },
+  "pages.sourceNotes.prayerTimes": {
+   "label": "Prayer times > Sources note (AlAdhan, methods differ)",
+   "url": "/prayer-times",
+   "urlEn": "/en/prayer-times#sources-used-heading"
+  },
+  "pages.sourceNotes.qibla": {
+   "label": "Qibla finder > Sources note (bearing to the Kaaba, compass drift)",
+   "url": "/qibla",
+   "urlEn": "/en/qibla#sources-used-heading"
+  },
+  "pages.sourceNotes.asmaAlHusna": {
+   "label": "99 names of Allah > Sources note (names from AlAdhan, hadith on learning the names)",
+   "url": "/asma-al-husna",
+   "urlEn": "/en/asma-al-husna#sources-used-heading"
+  },
+  "pages.sourceNotes.stage": {
+   "label": "Stage pages > Sources note (all 6 stages)",
+   "url": "/roadmap/{stageId}",
+   "urlEn": "/en/roadmap/day-0-1#sources-used-heading"
+  },
+  "pages.sourceNotes.step": {
+   "label": "Step pages > Sources note (all 20 steps)",
+   "url": "/roadmap/{stageId}/{stepSlug}",
+   "urlEn": "/en/roadmap/day-0-1/shahada#sources-used-heading"
+  },
+  "pages.ramadan.whatIsRamadan": {
+   "label": "Ramadan guide > What is Ramadan?",
+   "url": "/ramadan",
+   "urlEn": "/en/ramadan#what-is-ramadan"
+  },
+  "pages.ramadan.forNewMuslims": {
+   "label": "Ramadan guide > For new Muslims (callout and body)",
+   "url": "/ramadan",
+   "urlEn": "/en/ramadan#for-new-muslims"
+  },
+  "pages.ramadan.fastingBasics": {
+   "label": "Ramadan guide > Fasting basics (suhoor, iftar, what to avoid incl. Hanafi note and Bukhari 1927, who is exempt, intention)",
+   "url": "/ramadan",
+   "urlEn": "/en/ramadan#fasting-basics"
+  },
+  "pages.ramadan.preparing": {
+   "label": "Ramadan guide > Preparing for Ramadan",
+   "url": "/ramadan",
+   "urlEn": "/en/ramadan#preparing"
+  },
+  "pages.ramadan.duringRamadan": {
+   "label": "Ramadan guide > During Ramadan (spiritual practices, practical tips)",
+   "url": "/ramadan",
+   "urlEn": "/en/ramadan#during-ramadan"
+  },
+  "pages.ramadan.tarawihAndCommunity": {
+   "label": "Ramadan guide > Night prayers and community (tarawih); the Arabic word for Isha is hard-coded between the two text parts",
+   "url": "/ramadan",
+   "urlEn": "/en/ramadan#tarawih"
+  },
+  "pages.ramadan.laylatAlQadr": {
+   "label": "Ramadan guide > Laylat al-Qadr (the Night of Power)",
+   "url": "/ramadan",
+   "urlEn": "/en/ramadan#laylat-al-qadr"
+  },
+  "pages.ramadan.eidAlFitr": {
+   "label": "Ramadan guide > The festival after Ramadan (Eid al-Fitr)",
+   "url": "/ramadan",
+   "urlEn": "/en/ramadan#eid"
+  },
+  "pages.ramadan.planningBody": {
+   "label": "Ramadan guide > Planning your first Ramadan (intro)",
+   "url": "/ramadan",
+   "urlEn": "/en/ramadan#first-ramadan-plan-heading"
+  },
+  "pages.ramadan.careBody": {
+   "label": "Ramadan guide > The harder questions (intro: religious and medical review)",
+   "url": "/ramadan",
+   "urlEn": "/en/ramadan#ramadan-care-heading"
+  },
+  "pages.ramadan.sourcesNote": {
+   "label": "Ramadan guide > Sources note (illness, travel, menstruation, fidyah referral)",
+   "url": "/ramadan",
+   "urlEn": "/en/ramadan#sources-used-heading"
+  },
+  "pages.ramadan.checklistAlt": {
+   "label": "Ramadan guide > First-Ramadan checklist image alt text (screen readers; mirrors the English SVG)",
+   "url": "/ramadan",
+   "urlEn": "/en/ramadan#first-ramadan-plan-heading"
+  },
+  "pages.mentalHealth.validation": {
+   "label": "Mental health page > Your feelings are valid",
+   "url": "/mental-health",
+   "urlEn": "/en/mental-health#validation"
+  },
+  "pages.mentalHealth.faithAndHelp": {
+   "label": "Mental health page > Faith and professional help (\"tie your camel\")",
+   "url": "/mental-health",
+   "urlEn": "/en/mental-health#islamic-framing"
+  },
+  "pages.mentalHealth.commonExperiences": {
+   "label": "Mental health page > Common experiences (12 cards)",
+   "url": "/mental-health",
+   "urlEn": "/en/mental-health#common-experiences"
+  },
+  "pages.mentalHealth.selfCare": {
+   "label": "Mental health page > Practical self-care",
+   "url": "/mental-health",
+   "urlEn": "/en/mental-health#self-care"
+  },
+  "pages.mentalHealth.seekHelp": {
+   "label": "Mental health page > When to seek professional help (911 and 9-8-8 callout)",
+   "url": "/mental-health",
+   "urlEn": "/en/mental-health#seek-help"
+  },
+  "pages.mentalHealth.disclaimer": {
+   "label": "Mental health page > Disclaimer (not therapy or medical advice)",
+   "url": "/mental-health",
+   "urlEn": "/en/mental-health"
+  },
+  "pages.mentalHealth.resources": {
+   "label": "Mental health page > Support resources (Canadian crisis lines, helplines, directories, choosing a therapist, further reading)",
+   "url": "/mental-health",
+   "urlEn": "/en/mental-health#resources"
+  },
+  "pages.mentalHealth.recovery": {
+   "label": "Mental health page > Alcohol, drugs and recovery (cites Sahih al-Bukhari 6780, names researchers and fellowships)",
+   "url": "/mental-health",
+   "urlEn": "/en/mental-health#recovery"
+  },
+  "pages.resourcesPage.collectionsIntro": {
+   "label": "Resources page > Curated collections intro",
+   "url": "/resources",
+   "urlEn": "/en/resources#curated-collections"
+  },
+  "pages.findMasjid.coverage": {
+   "label": "Find a masjid > What this directory covers (scope: mainstream Sunni, not complete)",
+   "url": "/resources/find-masjid",
+   "urlEn": "/en/resources/find-masjid#masjid-coverage-heading"
+  },
+  "pages.findMasjid.locationHelper": {
+   "label": "Find a masjid > \"Use my location\" privacy note",
+   "url": "/resources/find-masjid",
+   "urlEn": "/en/resources/find-masjid"
+  },
+  "pages.findMasjid.firstVisit": {
+   "label": "Find a masjid > Before your first visit (questions to ask, call script, what to bring)",
+   "url": "/resources/find-masjid",
+   "urlEn": "/en/resources/find-masjid#first-visit-help-heading"
+  },
+  "pages.glossary.pronunciationKey": {
+   "label": "Glossary > How to read the \"say it\" pronunciation guide",
+   "url": "/glossary",
+   "urlEn": "/en/glossary"
+  },
+  "pages.prayerTimes.disclaimer": {
+   "label": "Prayer times > Calculation disclaimer (ISNA method, local time, confirm with masjid)",
+   "url": "/prayer-times",
+   "urlEn": "/en/prayer-times"
+  },
+  "pages.prayerTimes.prayerDescriptions": {
+   "label": "Prayer times > One-line prayer descriptions (e.g. \"Sunrise, when Fajr ends\")",
+   "url": "/prayer-times",
+   "urlEn": "/en/prayer-times"
+  },
+  "pages.qibla.disclaimer": {
+   "label": "Qibla finder > Approximate bearing disclaimer",
+   "url": "/qibla",
+   "urlEn": "/en/qibla"
+  },
+  "pages.qibla.compassTip": {
+   "label": "Qibla finder > \"From Canada, the Qibla points roughly northeast\"",
+   "url": "/qibla",
+   "urlEn": "/en/qibla"
+  },
+  "pages.qibla.compassTipLive": {
+   "label": "Qibla finder > Live compass instruction",
+   "url": "/qibla",
+   "urlEn": "/en/qibla"
+  },
+  "pages.qibla.learnMoreBody": {
+   "label": "Qibla finder > Why do Muslims face the Kaaba?",
+   "url": "/qibla",
+   "urlEn": "/en/qibla"
+  },
+  "pages.asmaAlHusna.subtitle": {
+   "label": "99 names of Allah > Subtitle (statement about the names of Allah)",
+   "url": "/asma-al-husna",
+   "urlEn": "/en/asma-al-husna"
+  },
+  "pages.asmaAlHusna.disclaimer": {
+   "label": "99 names of Allah > Meanings are short renderings",
+   "url": "/asma-al-husna",
+   "urlEn": "/en/asma-al-husna"
+  },
+  "pages.asmaAlHusna.reflectionBody": {
+   "label": "99 names of Allah > Reflection (quotes the hadith \"Allah has ninety-nine names...\")",
+   "url": "/asma-al-husna",
+   "urlEn": "/en/asma-al-husna"
+  },
+  "pages.duaDhikr.subtitle": {
+   "label": "Dua and dhikr > Subtitle",
+   "url": "/dua-dhikr",
+   "urlEn": "/en/dua-dhikr"
+  },
+  "pages.duaDhikr.usingPoints": {
+   "label": "Dua and dhikr > Use this reference gently (3 points)",
+   "url": "/dua-dhikr",
+   "urlEn": "/en/dua-dhikr#using-reference-heading"
+  },
+  "pages.duaDhikr.crisisBody": {
+   "label": "Dua and dhikr > When you need more than a dua card (crisis referral, no numbers)",
+   "url": "/dua-dhikr",
+   "urlEn": "/en/dua-dhikr#crisis-boundary-heading"
+  },
+  "pages.duaDhikr.noArabicNote": {
+   "label": "Dua and dhikr > \"There is no fixed Arabic wording\" note (personal dua card)",
+   "url": "/dua-dhikr",
+   "urlEn": "/en/dua-dhikr#own-words-heading"
+  },
+  "pages.duaDhikr.compactReference": {
+   "label": "Dua and dhikr > Compact daily reference (6 cards)",
+   "url": "/dua-dhikr",
+   "urlEn": "/en/dua-dhikr#compact-reference-heading"
+  },
+  "pages.duaDhikr.sourcesNote": {
+   "label": "Dua and dhikr > Sources note",
+   "url": "/dua-dhikr",
+   "urlEn": "/en/dua-dhikr#sources-used-heading"
+  },
+  "pages.quranStarter.subtitle": {
+   "label": "Quran starter > Subtitle",
+   "url": "/quran-starter",
+   "urlEn": "/en/quran-starter"
+  },
+  "pages.quranStarter.mattersMost": {
+   "label": "Quran starter > What matters most right now",
+   "url": "/quran-starter",
+   "urlEn": "/en/quran-starter#matters-most-heading"
+  },
+  "pages.quranStarter.translationBody": {
+   "label": "Quran starter > What a translation is",
+   "url": "/quran-starter",
+   "urlEn": "/en/quran-starter#translation-policy-heading"
+  },
+  "pages.quranStarter.readingPathsBody": {
+   "label": "Quran starter > Reading paths intro (nothing saved or tracked)",
+   "url": "/quran-starter",
+   "urlEn": "/en/quran-starter#reading-paths-heading"
+  },
+  "pages.quranStarter.weekBody": {
+   "label": "Quran starter > Printable first week intro",
+   "url": "/quran-starter",
+   "urlEn": "/en/quran-starter#week-plan-heading"
+  },
+  "pages.quranStarter.listening": {
+   "label": "Quran starter > Listening without getting overwhelmed",
+   "url": "/quran-starter",
+   "urlEn": "/en/quran-starter#listening-heading"
+  },
+  "pages.quranStarter.respect": {
+   "label": "Quran starter > Handling the Quran with care (wudu and mushaf etiquette)",
+   "url": "/quran-starter",
+   "urlEn": "/en/quran-starter#respect-heading"
+  },
+  "pages.quranStarter.confusingVerse": {
+   "label": "Quran starter > When a verse confuses you (4 steps)",
+   "url": "/quran-starter",
+   "urlEn": "/en/quran-starter#confusing-verse-heading"
+  },
+  "pages.quranStarter.resourcesBody": {
+   "label": "Quran starter > Places to start (choose named publishers, avoid debate channels)",
+   "url": "/quran-starter",
+   "urlEn": "/en/quran-starter#resources-heading"
+  },
+  "pages.quranStarter.sourcesNote": {
+   "label": "Quran starter > Sources note",
+   "url": "/quran-starter",
+   "urlEn": "/en/quran-starter#sources-used-heading"
+  },
+  "pages.quranStarter.learnArabicBody": {
+   "label": "Quran starter > Learn Arabic for prayer (intro)",
+   "url": "/quran-starter",
+   "urlEn": "/en/quran-starter#learn-arabic"
+  },
+  "pages.quranStarter.wordByWordBody": {
+   "label": "Quran starter > Al-Fatihah word by word (intro)",
+   "url": "/quran-starter",
+   "urlEn": "/en/quran-starter#learn-arabic"
+  },
+  "pages.salahCompanion.subtitle": {
+   "label": "Salah companion > Subtitle",
+   "url": "/tools/salah-companion",
+   "urlEn": "/en/tools/salah-companion"
+  },
+  "pages.salahCompanion.mattersMost": {
+   "label": "Salah companion > What matters most right now",
+   "url": "/tools/salah-companion",
+   "urlEn": "/en/tools/salah-companion#matters-most-heading"
+  },
+  "pages.salahCompanion.shapeBody": {
+   "label": "Salah companion > The shape of a two-unit prayer (intro)",
+   "url": "/tools/salah-companion",
+   "urlEn": "/en/tools/salah-companion#shape-heading"
+  },
+  "pages.salahCompanion.recitationBody": {
+   "label": "Salah companion > The recitations you need (intro)",
+   "url": "/tools/salah-companion",
+   "urlEn": "/en/tools/salah-companion#recitation-heading"
+  },
+  "pages.salahCompanion.invalidatesBody": {
+   "label": "Salah companion > What invalidates a prayer (intro)",
+   "url": "/tools/salah-companion",
+   "urlEn": "/en/tools/salah-companion#invalidates-heading"
+  },
+  "pages.salahCompanion.askImam": {
+   "label": "Salah companion > Ask an imam if (5 situations)",
+   "url": "/tools/salah-companion",
+   "urlEn": "/en/tools/salah-companion#ask-imam-heading"
+  },
+  "pages.salahCompanion.sourcesNote": {
+   "label": "Salah companion > Sources note",
+   "url": "/tools/salah-companion",
+   "urlEn": "/en/tools/salah-companion#sources-used-heading"
+  },
+  "pages.salahCompanion.watchBody": {
+   "label": "Salah companion > Watch a full prayer (intro)",
+   "url": "/tools/salah-companion",
+   "urlEn": "/en/tools/salah-companion#watch-heading"
+  },
+  "pages.salahCompanion.phrasesVideoBody": {
+   "label": "Salah companion > Learn the words one phrase at a time (names Islamwise and Green Lane Masjid)",
+   "url": "/tools/salah-companion",
+   "urlEn": "/en/tools/salah-companion#phrase-videos-heading"
+  },
+  "pages.salahCompanion.placementBody": {
+   "label": "Salah companion > Where the sittings fall (tashahhud) intro",
+   "url": "/tools/salah-companion",
+   "urlEn": "/en/tools/salah-companion#placement-heading"
+  },
+  "pages.salahCompanion.notOwedTitle": {
+   "label": "Salah companion > Heading that states a ruling: \"You do not owe the prayers from before Islam\"",
+   "url": "/tools/salah-companion",
+   "urlEn": "/en/tools/salah-companion#table-heading"
+  },
+  "pages.wuduGhusl.subtitle": {
+   "label": "Wudu and ghusl > Subtitle",
+   "url": "/tools/wudu-ghusl",
+   "urlEn": "/en/tools/wudu-ghusl"
+  },
+  "pages.wuduGhusl.mattersMost": {
+   "label": "Wudu and ghusl > What matters most",
+   "url": "/tools/wudu-ghusl",
+   "urlEn": "/en/tools/wudu-ghusl#what-matters-heading"
+  },
+  "pages.wuduGhusl.wuduBody": {
+   "label": "Wudu and ghusl > Wudu intro (cites Quran 5:6)",
+   "url": "/tools/wudu-ghusl",
+   "urlEn": "/en/tools/wudu-ghusl#wudu-heading"
+  },
+  "pages.wuduGhusl.ghuslBody": {
+   "label": "Wudu and ghusl > Ghusl intro (full-body wash)",
+   "url": "/tools/wudu-ghusl",
+   "urlEn": "/en/tools/wudu-ghusl#ghusl-heading"
+  },
+  "pages.wuduGhusl.askQualified": {
+   "label": "Wudu and ghusl > Ask a qualified person if (4 situations)",
+   "url": "/tools/wudu-ghusl",
+   "urlEn": "/en/tools/wudu-ghusl#qualified-help-heading"
+  },
+  "pages.wuduGhusl.sourcesNote": {
+   "label": "Wudu and ghusl > Sources note",
+   "url": "/tools/wudu-ghusl",
+   "urlEn": "/en/tools/wudu-ghusl#sources-used-heading"
+  },
+  "pages.video.privacyNote": {
+   "label": "Video player > Privacy note under every video (nothing loads from YouTube until play)",
+   "url": "(every page with a video)",
+   "urlEn": null
+  },
+  "pages.faq.noteBody": {
+   "label": "FAQ page > General answers, not personal rulings",
+   "url": "/faq",
+   "urlEn": "/en/faq"
+  },
+  "pages.faq.askTeacher": {
+   "label": "FAQ page > \"Ask a qualified teacher\" line (shown on every answer with askTeacher=true, 163 of 222)",
+   "url": "/faq",
+   "urlEn": "/en/faq"
+  },
+  "pages.getHelp.subtitle": {
+   "label": "Get help page > Subtitle (\"a small team reads every request\")",
+   "url": "/get-help",
+   "urlEn": "/en/get-help"
+  },
+  "pages.getHelp.crisis": {
+   "label": "Get help page > Crisis line banner (911, 9-8-8)",
+   "url": "/get-help",
+   "urlEn": "/en/get-help"
+  },
+  "pages.getHelp.placeholderNotice": {
+   "label": "Get help page > Form not live yet notice",
+   "url": "/get-help",
+   "urlEn": "/en/get-help"
+  },
+  "pages.getHelp.whatFor": {
+   "label": "Get help page > What you can ask us for (question, mentor, events, report)",
+   "url": "/get-help",
+   "urlEn": "/en/get-help#what-for"
+  },
+  "pages.getHelp.form": {
+   "label": "Get help page > Send a request (Google Forms, what the form asks)",
+   "url": "/get-help",
+   "urlEn": "/en/get-help#send-request"
+  },
+  "pages.getHelp.whoReads": {
+   "label": "Get help page > Who reads it and when we reply (48 to 72 hours)",
+   "url": "/get-help",
+   "urlEn": "/en/get-help#who-reads"
+  },
+  "pages.getHelp.privacy": {
+   "label": "Get help page > Your privacy (Google may store outside Canada, 6-month deletion)",
+   "url": "/get-help",
+   "urlEn": "/en/get-help#privacy"
+  },
+  "pages.getHelp.report": {
+   "label": "Get help page > Report a mentor, group or admin (Canadian Anti-Fraud Centre 1-888-495-8501)",
+   "url": "/get-help",
+   "urlEn": "/en/get-help#report"
+  },
+  "pages.getHelp.contact": {
+   "label": "Get help page > Rather send an email?",
+   "url": "/get-help",
+   "urlEn": "/en/get-help#contact"
+  },
+  "pages.getHelp.sourcesNote": {
+   "label": "Get help page > Sources note (reply target and retention are our own targets)",
+   "url": "/get-help",
+   "urlEn": "/en/get-help#sources-used-heading"
+  },
+  "pages.communityGroups.subtitle": {
+   "label": "Community groups > Subtitle",
+   "url": "/community-groups",
+   "urlEn": "/en/community-groups"
+  },
+  "pages.communityGroups.placeholderNotice": {
+   "label": "Community groups > Links not live yet notice",
+   "url": "/community-groups",
+   "urlEn": "/en/community-groups"
+  },
+  "pages.communityGroups.channel": {
+   "label": "Community groups > Our WhatsApp Channel (followers cannot see your number)",
+   "url": "/community-groups",
+   "urlEn": "/en/community-groups#channel"
+  },
+  "pages.communityGroups.groups": {
+   "label": "Community groups > Local groups (joining shows your number)",
+   "url": "/community-groups",
+   "urlEn": "/en/community-groups#groups"
+  },
+  "pages.communityGroups.reveals": {
+   "label": "Community groups > What each option shows about you (WhatsApp privacy facts)",
+   "url": "/community-groups",
+   "urlEn": "/en/community-groups#reveals"
+  },
+  "pages.communityGroups.safety": {
+   "label": "Community groups > If you are keeping your conversion private",
+   "url": "/community-groups",
+   "urlEn": "/en/community-groups"
+  },
+  "pages.communityGroups.rules": {
+   "label": "Community groups > Group rules and who the admins are",
+   "url": "/community-groups",
+   "urlEn": "/en/community-groups#rules"
+  },
+  "pages.communityGroups.report": {
+   "label": "Community groups > Reporting a problem",
+   "url": "/community-groups",
+   "urlEn": "/en/community-groups#report"
+  },
+  "pages.communityGroups.sourcesNote": {
+   "label": "Community groups > Sources note (WhatsApp help pages)",
+   "url": "/community-groups",
+   "urlEn": "/en/community-groups#sources-used-heading"
+  },
+  "pages.events.intro": {
+   "label": "Events page > Events are run by organisers, not us",
+   "url": "/events",
+   "urlEn": "/en/events"
+  },
+  "pages.events.noRegistration": {
+   "label": "Events page > No registration on this site",
+   "url": "/events",
+   "urlEn": "/en/events"
+  },
+  "pages.events.empty": {
+   "label": "Events page > Empty-list message (how events are added)",
+   "url": "/events",
+   "urlEn": "/en/events"
+  },
+  "footer.description": {
+   "label": "Footer > Site description (free, no tracking, no ads)",
+   "url": "(every page)",
+   "urlEn": null
+  },
+  "footer.crisisDanger": {
+   "label": "Footer > Crisis block: \"In danger?\" (label for the 911 link)",
+   "url": "(every page)",
+   "urlEn": null
+  },
+  "footer.crisisCall911": {
+   "label": "Footer > Crisis block: \"Call 911.\" (link is tel:911, hard-coded in components/Footer.tsx)",
+   "url": "(every page)",
+   "urlEn": null
+  },
+  "footer.crisisMentalHealth": {
+   "label": "Footer > Crisis block: \"Mental health crisis?\" (label for the 9-8-8 link)",
+   "url": "(every page)",
+   "urlEn": null
+  },
+  "footer.crisisCall988": {
+   "label": "Footer > Crisis block: \"Call or text 9-8-8.\" (link is tel:988 only, hard-coded in components/Footer.tsx; no sms: link)",
+   "url": "(every page)",
+   "urlEn": null
+  },
+  "footer.orientation": {
+   "label": "Footer > \"We follow mainstream Sunni scholarship\" line",
+   "url": "(every page)",
+   "urlEn": null
+  }
+ },
+ "footerKeys": []
+}

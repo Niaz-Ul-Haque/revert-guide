@@ -1,0 +1,695 @@
+{
+  "items": {
+    "step:asking-an-imam": {
+      "title": "Ask an imam a good question",
+      "reviewTypes": [
+        "Tone and pastoral wording",
+        "External resource or teacher"
+      ],
+      "suggestedReviewers": [
+        "Mentor",
+        "Scholar"
+      ],
+      "priority": "Medium",
+      "keyPoints": [
+        "Says marriage, divorce, inheritance, zakat, abuse, medical and legal matters all need careful review, with professional help for medical, legal or financial issues.",
+        "Says online answers often differ because they follow different schools or someone else's situation, so note the source and school of each.",
+        "Recommends SeekersGuidance, New Muslim Academy and ICNA New Muslim Support (a US-based organisation) as resource cards."
+      ],
+      "preCheckFlags": []
+    },
+    "step:character": {
+      "title": "Work on your character (akhlaq)",
+      "reviewTypes": [
+        "Quran or hadith citation",
+        "Seerah or history",
+        "External resource or teacher",
+        "Tone and pastoral wording",
+        "Arabic text or transliteration"
+      ],
+      "suggestedReviewers": [
+        "Scholar",
+        "Mentor"
+      ],
+      "priority": "High",
+      "keyPoints": [
+        "Quotes 'I was sent to perfect good character', 'best of you have the best character', 'actions are by intentions', the strong-man and 'best to their families' hadith; only generic sunnah-com id.",
+        "Cites Muslim 2749 (if people did not sin, Allah would bring people who sin and seek forgiveness), Muslim 2750a (Hanzala feared hypocrisy) and Quran 33:21.",
+        "Calls Martin Lings' 'Muhammad: His Life Based on the Earliest Sources' the usual first seerah; confirm it suits (Lings was a Perennialist Sufi). Resource card is Yasir Qadhi's Seerah.",
+        "Says nightly self-review (muhasabah) was a companions' practice, and advises 'Inna lillahi wa inna ilayhi raji'un' for everyday impatience such as traffic and queues."
+      ],
+      "preCheckFlags": [
+        "Virtue list leads with Arabic: 'Sabr (patience)', 'Sidq (truthfulness)', 'Tawadu (humility)', 'Ihsan', 'Shukr', 'Rahmah'; the naming rule puts plain English first."
+      ]
+    },
+    "step:community": {
+      "title": "Find your local Muslim community",
+      "reviewTypes": [
+        "Canadian services or contacts",
+        "External resource or teacher",
+        "Tone and pastoral wording",
+        "Mental health"
+      ],
+      "suggestedReviewers": [
+        "Mentor",
+        "Mental health professional"
+      ],
+      "priority": "Medium",
+      "keyPoints": [
+        "Names Convert Care at Islam Care Centre (Ottawa) and Convert Connect at MAC Masjid Toronto as convert programmes; confirm both still run and details are current.",
+        "Recommends Khalil Center, a Muslim mental health service (online only per its source note; clinicians' provincial registration not listed); confirm suitability.",
+        "Suggests joining a local WhatsApp or Telegram group for Muslims in your area; the step itself adds no privacy or safety caveat.",
+        "Recommends ICNA New Muslim Support (US-based), WhyIslam and AboutIslam's new-Muslim pages."
+      ],
+      "preCheckFlags": [
+        "The JSON has two 'relatedLinks' keys; the second replaces the first, so 'Religion or custom? Examples' and 'Everyday phrases and how to reply' never show."
+      ]
+    },
+    "step:daily-dua-dhikr": {
+      "title": "Daily remembrance habit (dua and dhikr)",
+      "reviewTypes": [
+        "Tone and pastoral wording",
+        "Fiqh ruling",
+        "External resource or teacher"
+      ],
+      "suggestedReviewers": [
+        "Scholar",
+        "Mentor"
+      ],
+      "priority": "Medium",
+      "keyPoints": [
+        "Says you can make dua in your own language, with no note that the Hanafi school restricts non-Arabic dua inside the prayer (the dua tool limits it to outside fixed recitation).",
+        "Recommends Fortress of the Muslim (Darussalam) as a sourced dua collection, plus Quran.com and New Muslim Academy."
+      ],
+      "preCheckFlags": []
+    },
+    "step:family-and-friends": {
+      "title": "Tell your family and friends",
+      "reviewTypes": [
+        "Family, marriage or intimacy",
+        "Safety or abuse",
+        "Aqidah (belief)",
+        "Tone and pastoral wording",
+        "Quran or hadith citation"
+      ],
+      "suggestedReviewers": [
+        "Mentor",
+        "Scholar"
+      ],
+      "priority": "High",
+      "keyPoints": [
+        "Script for a Christian relative: 'Muslims believe he is the Messiah and a great prophet, and we honour Mary... God is one and has no son' (Quran 29:46 cited).",
+        "Says Islam holds you to good character and to keeping family ties, not cutting them.",
+        "Safety note: if telling someone could cost you housing or risk harm or control, speak to a local support person first; no named service or contact is given.",
+        "Online script: you do not owe anyone your story; wait until settled before posting about your Shahada (links the red flags guide)."
+      ],
+      "preCheckFlags": []
+    },
+    "step:fasting": {
+      "title": "Learn how fasting works (sawm)",
+      "reviewTypes": [
+        "Fiqh ruling",
+        "Medical or health",
+        "Quran or hadith citation",
+        "Tone and pastoral wording"
+      ],
+      "suggestedReviewers": [
+        "Scholar",
+        "Medical professional"
+      ],
+      "priority": "High",
+      "keyPoints": [
+        "Says 'in the Hanafi school' kissing or touching that leads to ejaculation breaks the fast; the other schools hold the same, so the attribution may mislead.",
+        "Exemptions: travel, illness, pregnancy or nursing at risk, menstruation (made up), fidyah only if never able; Diabetes Canada: see a doctor 1 to 3 months before Ramadan.",
+        "Says eating or drinking by forgetting does not break the fast (the Prophet called it a provision from Allah), and a Toronto winter fast is roughly ten hours.",
+        "Quotes Quran 2:183 but the specific id is 2:184; forgetful-eating and dates-and-water hadith have no ids; Nasa'i 2420 and Muslim 1164 are cited but not used in the text."
+      ],
+      "preCheckFlags": [
+        "Validity line says a fast counts only if 'you are not in an exempt category' and omits intercourse; earlier the step lets travellers fast and lists intercourse as breaking it."
+      ]
+    },
+    "step:first-24-hours": {
+      "title": "Your first day as a Muslim",
+      "reviewTypes": [
+        "Tone and pastoral wording",
+        "Safety or abuse",
+        "Fiqh ruling",
+        "External resource or teacher"
+      ],
+      "suggestedReviewers": [
+        "Mentor",
+        "Scholar"
+      ],
+      "priority": "Medium",
+      "keyPoints": [
+        "Says a Shahada certificate can help later for marriage, Hajj, Umrah or community records, but your Islam does not depend on paperwork.",
+        "Advises a safety plan before telling family if safety at home is a concern, and a trusted mentor first if hostility is expected; links red flags guide and Get help.",
+        "Says to start with faith, purification, the basics of prayer and someone to ask, and to ask a mentor for help with Ghusl.",
+        "Recommends New Muslim Academy, WhyIslam and Mustafa Umar's 'Welcome to Islam'."
+      ],
+      "preCheckFlags": []
+    },
+    "step:first-jumuah": {
+      "title": "Go to your first Friday prayer",
+      "reviewTypes": [
+        "Fiqh ruling",
+        "Quran or hadith citation",
+        "Tone and pastoral wording"
+      ],
+      "suggestedReviewers": [
+        "Scholar",
+        "Mentor"
+      ],
+      "priority": "High",
+      "keyPoints": [
+        "Says Friday prayer is an obligation for adult men and not required of women (Abu Dawud 1067); if a woman attends, it takes the place of Dhuhr.",
+        "Reports a Hanafi answer (Mufti Muhammad ibn Adam) that a job regularly preventing Jumuah attendance is not permitted, and tells readers to ask a scholar.",
+        "Says the Friday ghusl is recommended, not a condition, and wudu alone is valid (Abu Dawud 354); say Ameen with the imam after Al-Fatihah (Bukhari 780).",
+        "Says scholars differ on praying two rak'ahs when arriving during the sermon (Muslim 875c); do not step over people (Abu Dawud 1118)."
+      ],
+      "preCheckFlags": []
+    },
+    "step:first-masjid-visit": {
+      "title": "Visit a masjid for the first time",
+      "reviewTypes": [
+        "Canadian services or contacts",
+        "Tone and pastoral wording",
+        "External resource or teacher"
+      ],
+      "suggestedReviewers": [
+        "Mentor"
+      ],
+      "priority": "Medium",
+      "keyPoints": [
+        "Says Convert Care at Islam Care Centre (Ottawa) and Convert Connect at MAC Masjid Toronto can arrange a guide for a first visit; confirm both are current.",
+        "Dress advice: men wear long pants and a sleeved shirt; women bring a scarf to enter the prayer area; many masjids keep spare scarves.",
+        "Etiquette: do not walk in front of someone praying (Bukhari 510); people repeat the adhan softly (Muslim 384); men and women usually pray separately.",
+        "Recommends ICNA New Muslim Support (US-based), WhyIslam and New Muslim Guide, and points to the in-app Masjid Finder."
+      ],
+      "preCheckFlags": []
+    },
+    "step:ghusl": {
+      "title": "Make the full-body wash (ghusl)",
+      "reviewTypes": [
+        "Fiqh ruling",
+        "Tone and pastoral wording",
+        "Medical or health"
+      ],
+      "suggestedReviewers": [
+        "Scholar"
+      ],
+      "priority": "High",
+      "keyPoints": [
+        "Says ghusl is 'recommended' after Shahada; does not say it is required if you were in a state needing ghusl, or that Maliki/Hanbali require it (the wudu-ghusl tool does).",
+        "Says the minimum is water over the whole body plus intention; the Hanafi school also requires rinsing the mouth and nose and does not make intention a condition.",
+        "Its wudu sub-steps (face, arms, head, feet) leave out rinsing the mouth and nose, which the prayer step and the wudu tool include.",
+        "Says tayammum takes the place of ghusl when water is unavailable or unusable; only generic sources (New Muslim Guide, SeekersGuidance) are cited."
+      ],
+      "preCheckFlags": []
+    },
+    "step:halal-eating-practical": {
+      "title": "Eat halal day to day",
+      "reviewTypes": [
+        "Fiqh ruling",
+        "Tone and pastoral wording",
+        "External resource or teacher"
+      ],
+      "suggestedReviewers": [
+        "Scholar",
+        "Mentor"
+      ],
+      "priority": "High",
+      "keyPoints": [
+        "Recommends seafood as an easy early option, twice, with no note that the Hanafi school allows fish only (the halal-haram step says other seafood differs).",
+        "Says buy halal-certified meat when you can and look for certifiers you recognise locally; gelatin, enzymes, cross-contamination and standards vary."
+      ],
+      "preCheckFlags": []
+    },
+    "step:halal-haram": {
+      "title": "Learn the halal and haram basics",
+      "reviewTypes": [
+        "Fiqh ruling",
+        "Quran or hadith citation",
+        "Canadian services or contacts",
+        "Tone and pastoral wording"
+      ],
+      "suggestedReviewers": [
+        "Scholar",
+        "Mentor"
+      ],
+      "priority": "High",
+      "keyPoints": [
+        "Says the Hanafi school allows tiny non-wine alcohol in flavourings (e.g. vanilla extract) when it cannot intoxicate; cooking wine is out; alcohol-free is the careful choice.",
+        "Says many scholars and Canadian certifiers accept only zabiha, while others accept People of the Book meat under Quran 5:5 (AMJA fatwa cited).",
+        "Says fish is halal in every school and other seafood differs; everything is halal unless prohibited; leave doubtful matters; eating haram unknowingly carries no sin.",
+        "Says a Canadian halal label must name its certifier (CFIA), and names HMA and ISNA Canada Halal as common certifiers whose standards differ."
+      ],
+      "preCheckFlags": []
+    },
+    "step:knowledge": {
+      "title": "Keep learning",
+      "reviewTypes": [
+        "External resource or teacher",
+        "Quran or hadith citation",
+        "Tone and pastoral wording"
+      ],
+      "suggestedReviewers": [
+        "Scholar",
+        "Mentor"
+      ],
+      "priority": "Medium",
+      "keyPoints": [
+        "Recommends Tariq Ramadan's 'In the Footsteps of the Prophet'; a Geneva appeals court convicted Ramadan of rape in 2024. Confirm the team still wants it listed.",
+        "Recommends AlMaghrib, Yaqeen, SeekersGuidance, Bayyinah (Nouman Ali Khan), and books by Asad Tarsin, Safiur Rahman Mubarakpuri and Hamza Yusuf.",
+        "Quotes 'Seeking knowledge is an obligation upon every Muslim' (Ibn Majah 224, grading disputed), 'Whoever travels a path...' (Muslim 2699) and 'The cure for ignorance is to ask'.",
+        "Those hadith and 'the first word revealed was Iqra' have no specific ids; the only hadith-collection id is Ibn Sirin's saying in Muslim's introduction."
+      ],
+      "preCheckFlags": []
+    },
+    "step:modesty-and-clothing": {
+      "title": "Take modesty one step at a time",
+      "reviewTypes": [
+        "Fiqh ruling",
+        "Quran or hadith citation",
+        "Safety or abuse",
+        "Tone and pastoral wording"
+      ],
+      "suggestedReviewers": [
+        "Scholar",
+        "Mentor"
+      ],
+      "priority": "High",
+      "keyPoints": [
+        "States the minimum: men cover navel to knee; women cover all but face and hands in front of men who are not close relatives, all day (SeekersGuidance, Quran 24:30-31).",
+        "Scholar to confirm the 'all but face and hands' wording against school differences, e.g. Hanafi on the feet and the Hanbali view on the face.",
+        "If a visible change could provoke hostility or danger at home, talk to a local mentor or get support first; no named service is given.",
+        "Workplace dress rules: find out what is religiously required first, then make a specific accommodation request with local advice."
+      ],
+      "preCheckFlags": []
+    },
+    "step:prayer-on-ramp": {
+      "title": "Ease into prayer without shame",
+      "reviewTypes": [
+        "Fiqh ruling",
+        "Tone and pastoral wording",
+        "External resource or teacher"
+      ],
+      "suggestedReviewers": [
+        "Scholar",
+        "Mentor"
+      ],
+      "priority": "High",
+      "keyPoints": [
+        "Says Hanafis count holding and reading a Quran in prayer 'strongly disliked'; al-Hidayah reports Abu Hanifa held it invalidates the prayer. Says Shafi'is let a learner read Al-Fatihah.",
+        "Rung plan has beginners pray all five prayers in 'simple form', saying remembrance phrases before they know Al-Fatihah and before learning the tashahhud (rung 3).",
+        "For missed prayers, tells readers to ask a teacher how to make them up; recommends the Pillars app, New Muslim Guide and an Islamwise rak'ah video."
+      ],
+      "preCheckFlags": []
+    },
+    "step:prayer": {
+      "title": "Start praying five times a day",
+      "reviewTypes": [
+        "Fiqh ruling",
+        "Arabic text or transliteration",
+        "Tone and pastoral wording",
+        "External resource or teacher",
+        "Legal (Canada)"
+      ],
+      "suggestedReviewers": [
+        "Scholar",
+        "Mentor",
+        "Legal professional"
+      ],
+      "priority": "High",
+      "keyPoints": [
+        "Wudu: once is the minimum, three times Sunnah, head wiped once (the Shafi'i school makes three wipes Sunnah); broken by toilet, gas or deep sleep; bleeding differs.",
+        "If you lose count, take the lower number and add sujud al-sahw (the Hanafi rule differs for a first-time doubt); rak'ah counts 2, 4, 4, 3, 4.",
+        "Transliterations 'Subhana Rabbiyal Adheem', 'Subhana Rabbiyal A'la', 'As-salamu alaykum wa rahmatullah'; says the qibla from most of Canada is roughly northeast.",
+        "Says 'You have the right to pray' at work or school, and that schools differ on combining prayers for work (AMJA; SeekersGuidance Hanafi answer)."
+      ],
+      "preCheckFlags": []
+    },
+    "step:questions-and-doubts": {
+      "title": "Handle questions and doubts well",
+      "reviewTypes": [
+        "Aqidah (belief)",
+        "Mental health",
+        "Quran or hadith citation",
+        "Tone and pastoral wording"
+      ],
+      "suggestedReviewers": [
+        "Scholar",
+        "Mentor",
+        "Mental health professional"
+      ],
+      "priority": "High",
+      "keyPoints": [
+        "Cites Hanzala fearing he was a hypocrite when his feeling of faith faded at home, and the Prophet reassuring him (Sahih Muslim 2750a).",
+        "Says feeling unsettled or having doubts does not make you a bad Muslim, and to keep praying while waiting for answers.",
+        "Advises stepping away from content that leaves you anxious or hopeless; gives no mental health referral in the step itself (Get help is linked).",
+        "Recommends Yaqeen Institute, SeekersGuidance and New Muslim Academy for questions."
+      ],
+      "preCheckFlags": []
+    },
+    "step:quran": {
+      "title": "Start reading the Quran",
+      "reviewTypes": [
+        "External resource or teacher",
+        "Quran or hadith citation",
+        "Aqidah (belief)",
+        "Tone and pastoral wording"
+      ],
+      "suggestedReviewers": [
+        "Scholar",
+        "Mentor"
+      ],
+      "priority": "Medium",
+      "keyPoints": [
+        "Recommends The Clear Quran (Mustafa Khattab), The Gracious Quran (Ahmad Zaki Hammad), Quran.com, an unnamed 'Al-Quran app' and the Tarteel AI app.",
+        "Recommends reciters Mishary Rashid Alafasy, Abdul Rahman Al-Sudais and Omar Hisham Al-Arabi.",
+        "Facts to confirm: revealed over 23 years; Al-Ikhlas has four verses; Al-Kawthar is the shortest surah (three verses); 114 chapters; Juz Amma is the 30th part.",
+        "Says reading a translation on its own is 'completely valid' while the Arabic is out of reach (for understanding, not for recitation in prayer)."
+      ],
+      "preCheckFlags": []
+    },
+    "step:shahada": {
+      "title": "Declare your faith (Shahada)",
+      "reviewTypes": [
+        "Aqidah (belief)",
+        "Fiqh ruling",
+        "Arabic text or transliteration",
+        "Tone and pastoral wording",
+        "External resource or teacher"
+      ],
+      "suggestedReviewers": [
+        "Scholar",
+        "Mentor"
+      ],
+      "priority": "High",
+      "keyPoints": [
+        "Transliteration 'Ash-hadu an la ilaha ill-Allah, wa ash-hadu anna Muhammadan rasul-Allah' and its English meaning; no Arabic script is shown.",
+        "Says the Shahada wipes away what came before and counts said alone; 'Islam wipes out what came before' (Muslim 121) is not among this step's sources.",
+        "Tiny version lets someone say it in their own words ('I believe there is only one God and Muhammad is His messenger') with the Arabic later; confirm this counts.",
+        "Reports SeekersGuidance answers: Shireen Ahmed (better before others, not required), Abdurragmaan Khan (online Shahada valid), Yama Niazi ('ashhadu' more cautious)."
+      ],
+      "preCheckFlags": []
+    },
+    "step:zakat-hajj": {
+      "title": "Charity (zakat) and the pilgrimage (Hajj)",
+      "reviewTypes": [
+        "Financial (zakat, riba, money)",
+        "Fiqh ruling",
+        "Canadian services or contacts",
+        "Quran or hadith citation"
+      ],
+      "suggestedReviewers": [
+        "Scholar",
+        "Mentor"
+      ],
+      "priority": "High",
+      "keyPoints": [
+        "Zakat: 2.5% of qualifying wealth above nisab held a lunar year; nisab 87.48 g gold or 612.36 g silver (Islamic Relief Canada); home, car and belongings excluded.",
+        "Says subtract debts due now, with long-term debts treated differently; names NZF Canada and Muslim Welfare Canada calculators; check charities on the CRA list.",
+        "Travel advice is dated: 'checked September 23, 2026, page last updated September 17, 2026, avoid non-essential travel'; the source note says updated September 24.",
+        "Hajj: once if physically and financially able; says it 'lasts five to six days' and 'ends with Eid al-Adha' (Eid is 10 Dhul Hijjah; rites run to the 12th or 13th)."
+      ],
+      "preCheckFlags": [
+        "Heading 'Understand Sadaqah (voluntary charity)' puts the Arabic term first; the naming rule wants plain English first, e.g. 'Understand voluntary charity (sadaqah)'."
+      ]
+    },
+    "stage:day-0-1": {
+      "title": "Faith and a fresh start (Day 0-1)",
+      "reviewTypes": [
+        "Fiqh ruling",
+        "External resource or teacher",
+        "Safety or abuse",
+        "Tone and pastoral wording"
+      ],
+      "suggestedReviewers": [
+        "Scholar",
+        "Mentor"
+      ],
+      "priority": "High",
+      "keyPoints": [
+        "Says changing your name is not required (scholars usually add: unless the name's meaning conflicts with Islam).",
+        "Says make Ghusl 'when you feel ready'; the wudu-ghusl tool says it is required before prayer if you were in a state needing ghusl.",
+        "Recommends Mustafa Umar's 'Welcome to Islam', described as a free 32-page guide on his website; confirm page count and free access.",
+        "Ask-for-help triggers include not feeling safe telling family and needing a witness or certificate; no contacts are named."
+      ],
+      "preCheckFlags": []
+    },
+    "stage:week-1": {
+      "title": "Getting the basics in place (Week 1)",
+      "reviewTypes": [
+        "Tone and pastoral wording",
+        "External resource or teacher"
+      ],
+      "suggestedReviewers": [
+        "Mentor",
+        "Scholar"
+      ],
+      "priority": "Medium",
+      "keyPoints": [
+        "Says missing prayers while still learning is normal, and optional practices can wait until the required ones feel steady.",
+        "Recommends Quran.com's free 'Seven Days, Seven Verses' Al-Fatihah plan, readable without an account.",
+        "Recommends the New Muslim Academy prayer course and says it needs an account and the site uses analytics and an advertising pixel; confirm still true."
+      ],
+      "preCheckFlags": []
+    },
+    "stage:week-2-3": {
+      "title": "Settling into practice (Weeks 2-4)",
+      "reviewTypes": [
+        "External resource or teacher",
+        "Tone and pastoral wording"
+      ],
+      "suggestedReviewers": [
+        "Mentor",
+        "Scholar"
+      ],
+      "priority": "Medium",
+      "keyPoints": [
+        "Recommends a masjid Arabic-reading class (letters, vowels, joining, short surahs) with The Clear Quran or Abdel Haleem's translation.",
+        "Recommends New Muslim Academy live Quran classes: free, evenings Eastern time, brothers and sisters taught separately, sign-up form first.",
+        "Ask-for-help triggers include family pressure turning unsafe or controlling and doubts that stop you functioning; no contacts are named.",
+        "Guardrails: free before paid, and be careful with one-to-one tutoring from academies you cannot check."
+      ],
+      "preCheckFlags": []
+    },
+    "stage:month-1-2": {
+      "title": "Islam in daily life (Months 2-3)",
+      "reviewTypes": [
+        "External resource or teacher",
+        "Canadian services or contacts",
+        "Tone and pastoral wording"
+      ],
+      "suggestedReviewers": [
+        "Mentor",
+        "Scholar"
+      ],
+      "priority": "Medium",
+      "keyPoints": [
+        "Recommends New Muslim Academy core courses or SeekersGuidance's free live 'Essentials of Faith, Worship, and Spirituality', Saturdays 10:00 Eastern; confirm the schedule.",
+        "Recommends Quran.com learning plans for short surahs such as Al-Ikhlas, Al-Falaq and An-Nas.",
+        "Ask-for-help triggers: food or clothing pressure risking safety at home, a medical condition affecting fasting, a ruling on work, school or money.",
+        "Guardrail: choose a prayer times app that keeps your location on your phone and has no ads."
+      ],
+      "preCheckFlags": []
+    },
+    "stage:month-3-6": {
+      "title": "Character and steady learning (Months 4-6)",
+      "reviewTypes": [
+        "External resource or teacher",
+        "Tone and pastoral wording"
+      ],
+      "suggestedReviewers": [
+        "Mentor",
+        "Scholar"
+      ],
+      "priority": "Medium",
+      "keyPoints": [
+        "Recommends Yaqeen Institute's free ebook 'Qur'an 30 for 30: Thematic Tafsir' by Dr. Omar Suleiman and Sh. Ismail Kamdar.",
+        "Recommends a local halaqa; guardrails say learn from a teacher you can meet or check, and skip debate channels in the first months."
+      ],
+      "preCheckFlags": []
+    },
+    "stage:month-6-plus": {
+      "title": "Growth over a lifetime (Beyond 6 months)",
+      "reviewTypes": [
+        "Fiqh ruling",
+        "Financial (zakat, riba, money)",
+        "External resource or teacher"
+      ],
+      "suggestedReviewers": [
+        "Scholar",
+        "Mentor"
+      ],
+      "priority": "High",
+      "keyPoints": [
+        "Says Hajj is not owed until you are able to go, and zakat does not apply below the threshold (nisab).",
+        "Recommends MAC eLearning, free online courses from the Muslim Association of Canada.",
+        "Recommends Tafsir Ibn Kathir abridged (30th part), a paid Darussalam print book."
+      ],
+      "preCheckFlags": []
+    },
+    "tool:dua-dhikr": {
+      "title": "Supplication and remembrance (dua and dhikr)",
+      "reviewTypes": [
+        "Arabic text or transliteration",
+        "Quran or hadith citation",
+        "Fiqh ruling",
+        "Suicide-safe language",
+        "Mental health",
+        "Tone and pastoral wording"
+      ],
+      "suggestedReviewers": [
+        "Scholar",
+        "Mentor",
+        "Mental health professional"
+      ],
+      "priority": "High",
+      "keyPoints": [
+        "Anxiety section says dua is no substitute for help in crisis, self-harm or abuse; the anxiety dua (Bukhari 6369) cites 988-canada but no numbers appear on the page.",
+        "Adhan wording per Abu Dawud 499 (Hasan Sahih); iqama described as 'most phrases said once' (the Hanafi iqama doubles them); reply 'La hawla...' at the hayya lines (Muslim 385).",
+        "Hadith duas: after the adhan (Bukhari 614, Muslim 384), after salam (Muslim 591), sayyid al-istighfar (transliteration cut off with '...'; check the Arabic against Bukhari 6306).",
+        "Quranic duas 3:8, 2:201, 2:250, 23:109 and 20:25-28 (Musa's dua): check the Arabic, transliteration and translation of meaning.",
+        "Everyday phrases and gradings: Tirmidhi 2035 (hasan), Tirmidhi 3443 (hasan), Abu Dawud 2130 (sahih), Bukhari 6224, 1284, 3616; Eid greeting sourced to IslamQA 36442.",
+        "Other-words list: Namaz (Persian, Urdu, Turkish, Bengali), Roza (given as Persian and Urdu; Bengali also says roja), Abbu/abi, Ammi, Akhi, Ukhti, Habibi, Bhai."
+      ],
+      "preCheckFlags": [
+        "Anxiety section intro mentions 'thinking of hurting yourself' but neither it nor the page's crisis box gives 911 first, then 9-8-8 (call or text), as CLAUDE.md requires.",
+        "Card heading 'Sayyid al-istighfar' leads with Arabic; the naming rule wants plain English first, e.g. 'The best way to ask forgiveness (sayyid al-istighfar)'."
+      ]
+    },
+    "tool:quran-starter": {
+      "title": "Quran starter path",
+      "reviewTypes": [
+        "Arabic text or transliteration",
+        "Quran or hadith citation",
+        "Fiqh ruling",
+        "External resource or teacher",
+        "Tone and pastoral wording"
+      ],
+      "suggestedReviewers": [
+        "Scholar",
+        "Mentor"
+      ],
+      "priority": "High",
+      "keyPoints": [
+        "Letter mistakes: Shafi'i says repeat the word, and the prayer is invalid only if the mistake changes meaning and is deliberate; Hanafi (Ibn Abidin): accidental saad/seen is fine.",
+        "Al-Fatihah word by word: Arabic, transliteration and meanings (e.g. 'Maliki' = 'Master', 'al-maghdubi' = 'those who earned anger'); check against the Quranic Arabic Corpus.",
+        "Sounds guide: ayn, heavy h, kha, ghayn 'close to a French r', qaf, the heavy letters, th/dh and shaddah; a tajweed teacher should confirm the tips.",
+        "Cites Bukhari 6464 (regular deeds), Muslim 798a (double reward for one who struggles to recite) and Quran 73:4; says you do not pause prayer until recitation is perfect.",
+        "Recommends Quran.com, The Clear Quran, New Muslim Academy classes, Mishary al-Afasy, Islamwise, Madinah Arabic (author unnamed, sells lessons) and Arabic 101 (sells classes).",
+        "Reading paths and week plan: Quran 39:53, 2:186, 23:109, Surah Yusuf, 20:14, 2:153 and Al-'Asr; learning timeline from week 1 to month 12 (basic tajweed)."
+      ],
+      "preCheckFlags": []
+    },
+    "tool:salah-companion": {
+      "title": "Learn to pray (salah)",
+      "reviewTypes": [
+        "Fiqh ruling",
+        "Arabic text or transliteration",
+        "Quran or hadith citation",
+        "External resource or teacher",
+        "Tone and pastoral wording"
+      ],
+      "suggestedReviewers": [
+        "Scholar",
+        "Mentor"
+      ],
+      "priority": "High",
+      "keyPoints": [
+        "Sequence and rak'ah map: Al-Fatihah plus a surah in rak'ahs 1-2 only, 'Rabbighfir li' between prostrations, first sitting after rak'ah 2, salawat only in the final sitting.",
+        "Arabic, transliteration and meaning for 11 recitations: takbir, Al-Fatihah, Al-Ikhlas, Al-'Asr, ruku and sujud phrases, Ibn Mas'ud's tashahhud, salawat Ibrahimiyyah, salam.",
+        "Before you can recite: SubhanAllah, Alhamdulillah, La ilaha illallah, Allahu akbar, La hawla... (Abu Dawud 832, Hasan); Hanafi accepts a translation, Maliki and Hanbali do not.",
+        "Calls mushaf reading in prayer makruh tahriman for Hanafis (al-Hidayah: Abu Hanifa held it invalidates); 'what invalidates prayer' list has no sourceIds; sahw: take the lower count.",
+        "Behind the imam: catching ruku catches the rak'ah (Abu Dawud 893); Jumu'ah catch differs (Hanafi: before final salam; Shafi'i: a rak'ah, Nasa'i 1425); khutbah two rak'ahs differ.",
+        "Prayer table (Isha to mid-night, later Hanafi Asr, Canadian summer rules); pre-Islam prayers not owed (Muslim 121); seated prayer (Bukhari 1117); Assim al-Hakeem chair video."
+      ],
+      "preCheckFlags": [
+        "Recitation card headings 'Ruku phrase', 'Sujud phrase', 'Tashahhud' and 'Salam' lead with Arabic; the naming rule wants plain English first, e.g. 'Bowing (ruku) phrase'."
+      ]
+    },
+    "tool:wudu-ghusl": {
+      "title": "Washing before prayer (wudu and ghusl)",
+      "reviewTypes": [
+        "Fiqh ruling",
+        "Quran or hadith citation",
+        "Mental health",
+        "Medical or health",
+        "External resource or teacher",
+        "Tone and pastoral wording"
+      ],
+      "suggestedReviewers": [
+        "Scholar",
+        "Mental health professional",
+        "Medical professional"
+      ],
+      "priority": "High",
+      "keyPoints": [
+        "Wudu breakers: toilet, wind, deep sleep, unconsciousness; a doubt does not break wudu (Bukhari 137); bleeding, vomit, touching private parts and laughing: Hanafi vs Ireland booklet.",
+        "Convert ghusl: Shahada valid without it; recommended in the Hanafi and Shafi'i view but required if in janabah; Maliki and Hanbali reported as requiring it (Abu Dawud 355).",
+        "Q&A rulings: wiping socks (Hanafi 3.5-mile test), nail polish, casts (Hanafi vs Shafi'i), wiping a headscarf (Hanbali view), grooming within 40 nights (Muslim 258).",
+        "Friday wash: Bukhari 879 calls it compulsory for adult males, the tool treats it as Sunnah (Abu Dawud 354); braids need not be undone (Muslim 330a); tayammum one or two strikes.",
+        "Istinja: water after paper (Bukhari 150), left hand (Muslim 262a), paper alone unless spread (Hanafi only); excused-person rule for IBS, leaks or a stoma is Hanafi only (Bukhari 228).",
+        "Waswas/OCD: Muslim 132a, Abu Dawud 5112 and Bukhari 5269 for intrusive thoughts; 'OCD affects about 1 in 40 adults' (CAMH, not in the source note); ERP per Najwa Awad."
+      ],
+      "preCheckFlags": []
+    },
+    "page:ramadan-planning": {
+      "title": "Ramadan guide: planning checklists and care sections",
+      "reviewTypes": [
+        "Fiqh ruling",
+        "Medical or health",
+        "Quran or hadith citation",
+        "Tone and pastoral wording"
+      ],
+      "suggestedReviewers": [
+        "Scholar",
+        "Medical professional",
+        "Mentor"
+      ],
+      "priority": "High",
+      "keyPoints": [
+        "Cites Quran 2:184-185 as the broad rule for making up days missed through sickness and travel; qada, fidyah, pregnancy, nursing and chronic illness go to a scholar.",
+        "Lists menstruation, illness, travel, pregnancy, nursing, medication, disability and serious hardship as affecting fasting; bring in a clinician when health is at risk.",
+        "First fast: intention in the heart, break at Maghrib without delay; Taraweeh described as an extra night prayer, usually after Isha.",
+        "Laylat al-Qadr plan: one dua repeated, two rak'ahs, a little Quran and charity; says 'Do not treat this app as a calculator or as a ruling for you'."
+      ],
+      "preCheckFlags": [
+        "No sourceIds or reviewStatus in this JSON although it cites Quran 2:184-185; only the Ramadan page's hard-coded source list (quran-fasting-2-183-185) covers it."
+      ]
+    },
+    "dawah:personal": {
+      "title": "Dawah Guide",
+      "reviewTypes": [
+        "Aqidah (belief)",
+        "Quran or hadith citation",
+        "Tone and pastoral wording",
+        "Arabic text or transliteration",
+        "Suicide-safe language",
+        "Mental health",
+        "Safety or abuse",
+        "External resource or teacher"
+      ],
+      "suggestedReviewers": [
+        "Scholar",
+        "Mentor",
+        "Mental health professional"
+      ],
+      "priority": "Medium",
+      "keyPoints": [
+        "Angels node says angels were created from light and some record deeds, citing only the Hadith of Jibril (Muslim 8a), which says neither; 'created from light' is Muslim 2996.",
+        "Quran 5:32 excerpt ('Whoever takes a life... as if they killed all of humanity') drops 'unless for murder or corruption in the land'; check it is quoted fairly.",
+        "Crisis referral: 'Emergency services (9-1-1) or crisis support such as 9-8-8'; order is right but '(call or text)' is missing, and scenarios naming self-harm give no numbers.",
+        "Jesus content: miraculous birth to the Virgin Mary and miracles by God's permission, cited only to Quran 3:45; 'Allah' is the same God Abraham, Moses and Jesus worshipped.",
+        "Arguments for God and oneness: signs of creation (52:35) and 'many gods would pull creation apart' (21:22 excerpt) in the GORAP flow; check they are presented soundly.",
+        "'A real smile is a form of charity' (Tirmidhi 1956) has no reference; rights questions go only to the Ontario Human Rights Commission; Quran excerpts use The Clear Quran."
+      ],
+      "preCheckFlags": [
+        "No sourceIds: its verses and hadith point to the guide's own 'references' list (27 entries) instead of sources.json entries, as CLAUDE.md requires.",
+        "Labels lead with Arabic: the guide title 'Dawah Guide' (eyebrow and breadcrumb) and the suggestion 'Istiqamah'; the naming rule wants plain English first."
+      ]
+    }
+  }
+}

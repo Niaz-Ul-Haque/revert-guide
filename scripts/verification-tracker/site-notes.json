@@ -1,0 +1,350 @@
+[
+ {
+  "area": "Seasonal guides",
+  "note": "Headings that lead with an Arabic term instead of plain English (naming rule): 'Zakat al-Fitr in brief' (eid-al-fitr); 'Qurbani and udhiyah in brief', 'Hajj as something ahead of you', 'Umrah basics' (dhul-hijjah-hajj-umrah); 'Nisab, hawl, and 2.5 percent' (zakat); link label 'Zakat and Hajj step' in the zakat and dhul-hijjah guides.",
+  "action": "Decide whether the naming rule applies to sub-headings and link labels; reword if so.",
+  "from": "Assisted read of seasonal-guides.json"
+ },
+ {
+  "area": "Resources",
+  "note": "resource 'naseeha-mental-health' trustNote mentions risk of self-harm without giving 911 then 9-8-8 in the same text (the footer shows the crisis line on every page).",
+  "action": "Add the crisis line sentence to the trustNote, or confirm the footer is enough.",
+  "from": "Assisted read of resources.json"
+ },
+ {
+  "area": "Resources",
+  "note": "resources 'wudu-tutorial' and 'purification-fiqh-guide' share the same title and URL (duplicate entries).",
+  "action": "Merge or differentiate the two resource entries.",
+  "from": "Assisted read of resources.json"
+ },
+ {
+  "area": "Resources page",
+  "note": "The 'Mental health and support' collection is described as 'Counselors and crisis lines' but includes 'becoming-muslim-report', whose own trustNote says it is not a mental health guide. The collection heading 'Zakat and giving' leads with Arabic.",
+  "action": "Move the report to another collection or reword the description; consider 'Charity (zakat) and giving'.",
+  "from": "Assisted read of resource-collections.json"
+ },
+ {
+  "area": "Sources",
+  "note": "sources.json has two entries for the same Islamic Relief Canada nisab page: 'irc-nisab' and 'islamic-relief-canada-nisab'.",
+  "action": "Merge the duplicate source entries and repoint sourceIds.",
+  "from": "Assisted read of sources.json"
+ },
+ {
+  "area": "Sources page",
+  "note": "source-categories.json never states the mainstream Sunni orientation or that Shia and Ahmadiyya institutions are not used as sources, although CLAUDE.md makes this a site rule.",
+  "action": "Consider adding a policy note stating the orientation.",
+  "from": "Assisted read of source-categories.json"
+ },
+ {
+  "area": "Seasonal calendar",
+  "note": "The calendar lists 14 seasons from 14 Aug 2026 to 15 Jan 2029. The first season (Rabi al-Awwal 1448, ending 12 Sep 2026) is already past and nothing is listed after 15 Jan 2029, so Ramadan 1450 is missing. Start dates match the FCNA rule; three end dates differ by one day from an offline new-moon calculation: Rabi al-Awwal 1448 (file 12 Sep 2026 vs 11 Sep), Muharram 1450 (22 Jun 2028 vs 23 Jun), Rabi al-Awwal 1450 (21 Aug 2028 vs 20 Aug).",
+  "action": "Confirm the end dates against the FCNA calendar and extend the calendar past January 2029.",
+  "from": "Assisted read of seasonal-calendar.json"
+ },
+ {
+  "area": "Events",
+  "note": "events.json is empty (lastUpdated 2026-09-24), so the events page shows the empty state.",
+  "action": "None needed unless events should be listed.",
+  "from": "Assisted read of events.json"
+ },
+ {
+  "area": "Resources",
+  "note": "Two attributions could not be confirmed from the text: Dr. Fahd Salem Bahammam as publisher of newmuslimguide.com, and Asad Tarsin as author of 'Being Muslim'.",
+  "action": "Confirm both attributions.",
+  "from": "Assisted read of resources.json"
+ },
+ {
+  "area": "FAQ",
+  "note": "faq-fnd-019 says 'see the next question' for how to pray while learning Arabic, but the next Foundations question on the page is faq-fnd-022 ('Is saying the Shahada enough'); the intended question is faq-pry-006.",
+  "action": "Replace the phrase with a direct link to faq-pry-006.",
+  "from": "Assisted read of faq.json (first half)"
+ },
+ {
+  "area": "FAQ",
+  "note": "faq-wor-004's differences note says NewMuslims.com allows touching translations, but no NewMuslims.com source is attached and none in sources.json covers it.",
+  "action": "Add the source entry or remove the attribution.",
+  "from": "Assisted read of faq.json (first half)"
+ },
+ {
+  "area": "FAQ",
+  "note": "faq-wor-015 says a fast broken by forgetful eating needs no make-up and has no differences note; the Maliki school requires a make-up of an obligatory fast in that case. The fasting topic leaves this out too.",
+  "action": "Ask a scholar whether to add a differences note.",
+  "from": "Assisted read of faq.json (first half)"
+ },
+ {
+  "area": "FAQ",
+  "note": "Cited in answers but with no entry of their own in sources.json: Quran 5:51 (faq-lif-015), Tirmidhi 131 (faq-wor-003), Quran 97:3 (faq-wor-020).",
+  "action": "Add source entries for the three citations.",
+  "from": "Assisted read of faq.json (first half)"
+ },
+ {
+  "area": "FAQ",
+  "note": "Points a scholar should weigh: faq-pry-008 calls reading from a mushaf during prayer 'strongly disliked' in the Hanafi school, while classical Hanafi texts record Abu Hanifa as saying it invalidates the prayer; faq-wor-029 says 'everything except tawaf' for a woman on her period, which comes from a Hajj report and needs checking for Umrah (sa'i and cutting the hair come after tawaf); faq-wor-017 attributes the night-before intention to the Hanafi and Shafi'i schools, but the Maliki and Hanbali schools also require it for obligatory fasts; faq-pry-016 counts intention as part of the minimum ghusl, which the Hanafi school treats as sunnah, and attaches no hadith for the Prophet's method.",
+  "action": "Route to the scholar reviewing the prayer, fasting, purification and menstruation FAQ rows.",
+  "from": "Assisted read of faq.json (first half)"
+ },
+ {
+  "area": "FAQ",
+  "note": "Wording checks: faq-lif-011 quotes Quran 31:15 as 'keep their company' where The Clear Quran reads 'keep them company'; faq-lif-021 says a SeekersGuidance teacher 'leans' against birthdays while the source note says SeekersGuidance reports both views; faq-lrn-004 says classes run separately for men and women but only the sisters' class page is cited.",
+  "action": "Align the wording with the cited sources.",
+  "from": "Assisted read of faq.json (first half)"
+ },
+ {
+  "area": "FAQ",
+  "note": "16 FAQ questions use an Arabic term without an English gloss in brackets: wudu (4), ghusl (2), qurbani, dua and dhikr, rak'ah, tajweed, tafsir, fidyah, shirk, Laylat al-Qadr, Hajj and Umrah. None starts with the term.",
+  "action": "Decide whether the naming rule covers FAQ questions.",
+  "from": "Assisted read of faq.json (first half)"
+ },
+ {
+  "area": "FAQ / Sources",
+  "note": "Two source notes cover less than the answers use them for: 'new-muslim-academy-salah-for-beginners-2-pdf' only mentions the exemption for periods, yet faq-pry-002, -010, -011, -025 and -026 cite it for unit counts, phrases and hand positions; 'newmuslims-some-common-questions-by-recent' only mentions name changes, yet faq-fnd-017 (circumcision) cites it.",
+  "action": "Widen the source notes or add better-matched sources.",
+  "from": "Assisted read of faq.json (first half)"
+ },
+ {
+  "area": "FAQ",
+  "note": "faq-fnd-023 tells the reader to say 'Amantu billah' and cites Bukhari 3276, which only says to seek refuge and stop; the 'amantu billah' wording is in Sahih Muslim 134, which has no entry in sources.json.",
+  "action": "Add a source entry for Sahih Muslim 134 or adjust the citation.",
+  "from": "Assisted read of faq.json (second half)"
+ },
+ {
+  "area": "FAQ",
+  "note": "faq-pry-036 says the linked Hanafi answer requires repeating a seated plane prayer after landing, but that answer's own source note says repeating a seated prayer is not covered there.",
+  "action": "Find a source that covers the repeat ruling or soften the claim.",
+  "from": "Assisted read of faq.json (second half)"
+ },
+ {
+  "area": "FAQ",
+  "note": "faq-pry-044's differences text says all the schools share the rule that a doubt does not break wudu; the Maliki relied-upon view (Mukhtasar Khalil) is that a doubt after known purity requires wudu, except for chronic doubters.",
+  "action": "Ask a scholar to confirm and adjust the differences note.",
+  "from": "Assisted read of faq.json (second half)"
+ },
+ {
+  "area": "FAQ",
+  "note": "faq-rel-003 lists Khalil Center, Naseeha and Kids Help Phone before 911 and 9-8-8; the Naseeha source note says the site lists it after 9-1-1 and 9-8-8. faq-sup-021 lists Kids Help Phone before 911 (no suicide wording there).",
+  "action": "Reorder so 911 and 9-8-8 come first.",
+  "from": "Assisted read of faq.json (second half)"
+ },
+ {
+  "area": "FAQ",
+  "note": "readMore labels that lead with an Arabic term: 'Zakat guide for beginners' (faq-wor-033, faq-wor-035; six other entries call the same page 'Yearly charity (zakat) for beginners'), 'Wudu and ghusl guide' (faq-pry-043, faq-wor-007, faq-pry-014, faq-pry-016, faq-wor-011, faq-wor-012; the nav calls it 'Washing before prayer (wudu and ghusl)'), 'Awrah in the glossary' (faq-rel-014).",
+  "action": "Make the readMore labels consistent with the naming rule.",
+  "from": "Assisted read of faq.json (second half)"
+ },
+ {
+  "area": "FAQ / Sources",
+  "note": "The Amman Message, cited in faq-fnd-032, faq-pry-028 and faq-fnd-033, also recognises the Ja'fari and Zaydi Shia schools.",
+  "action": "Ask a scholar whether it suits the mainstream Sunni source rule as cited.",
+  "from": "Assisted read of faq.json (second half)"
+ },
+ {
+  "area": "FAQ / Sources",
+  "note": "14 FAQ entries cite source entries that are themselves still review-needed: faq-wor-023, faq-wor-024, faq-rel-001, faq-rel-002, faq-rel-004, faq-rel-005, faq-rel-006, faq-rel-007, faq-rel-009, faq-rel-010, faq-rel-012, faq-rel-015, faq-fnd-039, faq-sup-028.",
+  "action": "Review those sources on the Sources sheet alongside the FAQ rows.",
+  "from": "Assisted read of faq.json (second half)"
+ },
+ {
+  "area": "Sources",
+  "note": "Duplicate source entries: 'seekersguidance-alcohol-perfume-deodorant' and 'seekersguidance-deodorants-perfumes-alcohol' point to the same URL.",
+  "action": "Merge the duplicate source entries.",
+  "from": "Assisted read of faq.json (second half)"
+ },
+ {
+  "area": "FAQ",
+  "note": "Points for the reviewing scholar: faq-wor-033 does not say zakat cannot go to one's own parents; faq-rel-005 says 'discharge' where the source says 'fluid after orgasm' as the ghusl trigger; faq-rel-014 says covering when alone is 'not the same duty'; faq-rel-002 uses Bukhari 6243 to separate feeling from act; faq-lif-037 says kosher meat can be eaten 'as most contemporary scholars have ruled'; faq-pry-033 says missing Jumu'ah is nothing to feel guilty about without limiting it to women.",
+  "action": "Route to the scholar reviewing the zakat, relationships and everyday-life FAQ rows.",
+  "from": "Assisted read of faq.json (second half)"
+ },
+ {
+  "area": "FAQ",
+  "note": "Consistency and fact checks: faq-pry-034's workplace source is the federal human rights guide, which covers only federally regulated employers; faq-wor-034 says Ramadan falls in 'winter and spring' for years, but the next several fall mostly in winter; faq-sup-029 says see a counsellor if sadness lasts 'months' while faq-sup-025 uses two weeks; faq-sup-030's sentence 'Your faith and professional help can go together' mixes clinical and religious guidance in one sentence.",
+  "action": "Align thresholds and wording; add a provincial human-rights pointer.",
+  "from": "Assisted read of faq.json (second half)"
+ },
+ {
+  "area": "Roadmap steps",
+  "note": "Naming rule: step 'character' lists virtues Arabic-first ('Sabr (patience)', 'Sidq (truthfulness)'); step 'zakat-hajj' has the heading 'Understand Sadaqah (voluntary charity)'.",
+  "action": "Reword to lead with plain English.",
+  "from": "Assisted read of steps/*.json"
+ },
+ {
+  "area": "Roadmap steps",
+  "note": "steps/community.json has two 'relatedLinks' keys; the second wins, so the links 'Religion or custom? Examples' and 'Everyday phrases and how to reply' never render.",
+  "action": "Merge the two relatedLinks arrays (content bug).",
+  "from": "Assisted read of steps/*.json"
+ },
+ {
+  "area": "Roadmap steps",
+  "note": "step 'fasting': the validity line says a fast counts only if 'you are not in an exempt category' and leaves out intercourse, while the same step lets travellers fast and lists intercourse as breaking the fast; it quotes Quran 2:183 but its source is 2:184; it cites Nasa'i 2420 and Muslim 1164 without using them in the text.",
+  "action": "Tidy the validity sentence and the citations.",
+  "from": "Assisted read of steps/*.json"
+ },
+ {
+  "area": "Roadmap steps",
+  "note": "step 'ghusl': its wudu steps leave out rinsing the mouth and nose; it calls the wash only 'recommended' after Shahada while the wudu-ghusl tool says it is required if you were in a state needing ghusl; its two resource cards point to the same page.",
+  "action": "Reconcile with the wudu-ghusl tool and fix the duplicate card.",
+  "from": "Assisted read of steps/*.json"
+ },
+ {
+  "area": "Roadmap steps",
+  "note": "step 'knowledge' recommends Tariq Ramadan's 'In the Footsteps of the Prophet'; a Geneva appeals court convicted him of rape in 2024. step 'character' calls Martin Lings' biography the usual first one to read.",
+  "action": "Decide whether to keep these recommendations; confirm suitability with a scholar.",
+  "from": "Assisted read of steps/*.json"
+ },
+ {
+  "area": "Roadmap steps",
+  "note": "step 'zakat-hajj': the Saudi Arabia travel-advice paragraph says the page was last updated September 17, 2026 while its source entry says September 24.",
+  "action": "Align the date with the source entry.",
+  "from": "Assisted read of steps/*.json"
+ },
+ {
+  "area": "Tools",
+  "note": "dua-dhikr: the intro to the section on feeling anxious or overwhelmed mentions 'thinking of hurting yourself' but nothing in tools/dua-dhikr.json gives 911 or 9-8-8 (the crisis box lives in ui.json pages.duaDhikr.crisisBody). The card heading 'Sayyid al-istighfar' leads with Arabic.",
+  "action": "Confirm the crisis box renders next to that section and put 911 then 9-8-8 in the text if not.",
+  "from": "Assisted read of tools/*.json"
+ },
+ {
+  "area": "Tools",
+  "note": "salah-companion: recitation headings 'Ruku phrase', 'Sujud phrase', 'Tashahhud' and 'Salam' lead with Arabic. salah-companion and step 'prayer-on-ramp' say the Hanafi school counts reading from a printed Quran during prayer as strongly disliked (matches the cited SeekersGuidance answer), while al-Hidayah reports Abu Hanifa held it invalidates the prayer.",
+  "action": "Reword headings; ask a scholar which position the site states.",
+  "from": "Assisted read of tools/*.json"
+ },
+ {
+  "area": "Tools",
+  "note": "wudu-ghusl: the istinja section says 'You do not need a shower after each visit'. It is not describing ghusl, so it does not break the rule strictly, but the word may confuse.",
+  "action": "Consider rewording.",
+  "from": "Assisted read of tools/*.json"
+ },
+ {
+  "area": "Ramadan guide page",
+  "note": "pages/ramadan-planning.json has no sourceIds and no reviewStatus yet cites Quran 2:184-185; only a source list written into the Ramadan page code covers that verse.",
+  "action": "Add sourceIds and a reviewStatus to the file.",
+  "from": "Assisted read of pages/ramadan-planning.json"
+ },
+ {
+  "area": "Dawah guide",
+  "note": "dawah-guides/personal.json has no sourceIds; its verses and hadith cite its own list of 27 references instead of sources.json. Labels 'Dawah Guide' and 'Istiqamah' lead with Arabic. The angels node says angels were 'created from light' but cites only the Hadith of Jibril (Muslim 8a), which does not say that. Its excerpt of Quran 5:32 leaves out the verse's exception.",
+  "action": "Add the missing hadith source (Muslim 2996) and consider quoting 5:32 with its exception; decide on the labels.",
+  "from": "Assisted read of dawah-guides/personal.json"
+ },
+ {
+  "area": "Roadmap stages",
+  "note": "stages.json has no reviewStatus field. Stages day-0-1 and month-6-plus contain rulings.",
+  "action": "Consider adding reviewStatus to stages.",
+  "from": "Assisted read of stages.json"
+ },
+ {
+  "area": "Life guides",
+  "note": "guide 'facing-hate-and-harassment': the 'After it happens' passage gives 9-8-8 for thoughts of suicide with no 911 before it (every other mention puts 911 first).",
+  "action": "Add 911 first (suicide-safe rule).",
+  "from": "Assisted read of life-guides.json"
+ },
+ {
+  "area": "Topics / Life guides",
+  "note": "Inline citations missing from the item's sourceIds: topic 'beliefs' (Quran 7:156); topic 'community' (Quran 29:8, no entry anywhere in sources.json); guide 'first-masjid-visit' cites 12 hadith and Quran 2:286 but none is among its 4 sourceIds, so they never show in its Sources list; guide 'work-and-school' (Tirmidhi 1295 and 2165, Quran 5:2 and 24:30-31); guide 'holidays-and-family-occasions' (Quran 5:5). Apart from 29:8, matching entries already exist in sources.json.",
+  "action": "Add the source ids to each item; create an entry for Quran 29:8.",
+  "from": "Assisted read of topics/*.json and life-guides.json"
+ },
+ {
+  "area": "Topics",
+  "note": "topic 'prayer' calls Friday (Jumu'ah) prayer 'encouraged'; it is obligatory for adult resident men and the page never says so. topic 'modesty' says the man's list of close family (mahram) 'mirrors' the woman's but leaves out his stepmother (Quran 4:22).",
+  "action": "Correct both statements with a scholar.",
+  "from": "Assisted read of topics/*.json"
+ },
+ {
+  "area": "Topics / Life guides",
+  "note": "Naming rule: section headings that lead with Arabic: beliefs ('Tawhid', 'Qadar'); fasting ('Suhoor and iftar', 'Eid al-Fitr'); grief-and-loss ('Duas for a Muslim who has died'); prophet-muhammad ('Sunnah in daily life'); purification ('Wudu', 'Ghusl', 'Tayammum'); having-a-baby ('Sunnah, custom and what can wait'). Link labels: 'Dua and dhikr' / 'Duas and dhikr' (beliefs, grief-and-loss, questions-and-doubts, facing-hate-and-harassment, coming-back); 'Wudu and ghusl guide' (menstruation-and-worship); 'Salah companion' (why-muslims-differ); 'Wudu with a headscarf' (work-and-school); 'Qibla finder' (travelling-as-a-muslim).",
+  "action": "Decide whether the rule covers sub-headings and link labels; reword if so.",
+  "from": "Assisted read of topics/*.json and life-guides.json"
+ },
+ {
+  "area": "Topics / Life guides",
+  "note": "Facts to confirm: 'modesty-and-clothing' calls its hijab figures a '2021' Yaqeen survey while its source entry describes the 618-convert report as 2025; 'red-flags-and-staying-safe' says registered charities do not accept cryptocurrency; 'end-of-life-decisions' gives 17 March 2027 as the end of the MAID mental-illness exclusion and its Nova Scotia deemed-consent line omits the residency and capacity conditions; 'work-and-school' covers Quebec's 2026 Bill 9 and says it has not checked for a Supreme Court ruling after the March 2026 hearing.",
+  "action": "Confirm each fact against the cited source and update.",
+  "from": "Assisted read of topics/*.json and life-guides.json"
+ },
+ {
+  "area": "Life guides",
+  "note": "'coming-back' summary says prayers from before you knew they were required are not owed, while the body limits that to converts in a non-Muslim country. 'grief-and-loss' lists 'harming yourself' among mourning acts Muslims avoid, which a mental-health reviewer should check cannot read as shaming self-harm. 'family-and-identity' and 'family-and-friends' give safety advice without naming any number or service.",
+  "action": "Align summary and body; review the grief wording; add crisis or safety contacts.",
+  "from": "Assisted read of topics/*.json and life-guides.json"
+ },
+ {
+  "area": "Contacts",
+  "note": "Phone numbers and hours that need confirming across the guides and the mental health page: Nisa Helpline, Sakeenah Canada, Legal Aid Ontario hours, the Canadian Anti-Fraud Centre, and the provincial addiction lines.",
+  "action": "Verify each number against the official site and record the check date.",
+  "from": "Assisted read of life-guides.json"
+ },
+ {
+  "area": "Site page text (ui.json)",
+  "note": "Button and label strings that lead with an Arabic term (naming rule), in ui.json keys that are otherwise chrome: pages.ramadan.zakatButton: Button label 'Zakat beginner guide' leads with Arabic; the FAQ category uses 'Charity (zakat)'; pages.findMasjid.noteLabels: Note label 'Jumu'ah' leads with Arabic; the naming rule wants e.g. 'Friday prayer (Jumu'ah)'; pages.qibla.directionLabel: Label 'Qibla direction' leads with Arabic; the page title uses 'prayer direction (qibla)'; pages.duaDhikr.duaTopicButton: Button label 'Dua topic' leads with Arabic; the naming rule wants plain English first, e.g. 'Supplication (dua) topic'; pages.duaDhikr.salahCompanionButton: Button label 'Salah companion' leads with Arabic; the page it opens is titled 'Learn to pray (salah)'; pages.quranStarter.duaDhikrButton: Button label 'Dua and dhikr' leads with Arabic; the page it opens is titled 'Supplication and remembrance (dua and dhikr)'; pages.salahCompanion.duaDhikrButton: Button label 'Dua and dhikr' leads with Arabic; the page it opens is titled 'Supplication and remembrance (dua and dhikr)'; pages.salahCompanion.tableUnits: Column header 'Rak'ahs' leads with Arabic; the page says 'unit' elsewhere, so e.g. 'Units (rak'ahs)'; pages.wuduGhusl.doubtsClinicalTitle: Heading 'Waswas and OCD' leads with Arabic; the naming rule wants plain English first, e.g. 'Constant doubts (waswas) and OCD'; pages.dawahGuide.trainingCardsTitle: Heading 'Da'ee training cards' leads with Arabic; the naming rule wants plain English first, e.g. 'Training cards for callers (da'ees)'; pages.dawahGuide.duaRemindersTitle: Heading 'Dua reminders' leads with Arabic; the naming rule wants e.g. 'Supplication (dua) reminders'",
+  "action": "Reword the labels to lead with plain English.",
+  "from": "Assisted read of ui.json"
+ },
+ {
+  "area": "Site page text (ui.json)",
+  "note": "About page 'Why the name' cites Bukhari 1385 and Quran 30:30 but the About page shows no sources (entries sunnah-bukhari-1385 and quran-30-30 exist). Mental health 'Faith and professional help' paraphrases the 'tie your camel' hadith (Tirmidhi 2517) and says the Prophet felt grief with no matching source on the page. Ramadan 'During Ramadan' makes hadith-based claims (a fasting person's dua, generosity in Ramadan) with no matching source in the page's list. Qibla 'Why do Muslims face the Kaaba?' cites only the bearing formula (quran-2-144-qibla exists). 99 names 'Reflection' quotes the 99 names hadith with no collection or number.",
+  "action": "Attach the existing source entries in the page source lists (code-defined arrays) or add entries.",
+  "from": "Assisted read of ui.json"
+ },
+ {
+  "area": "Site page text (ui.json)",
+  "note": "Mental health 'Common experiences' winter item says 'Some people sink every November. Isha comes late'; in a Canadian winter Isha is early evening, and the linked faq-pry-005 is about summer.",
+  "action": "Correct the sentence.",
+  "from": "Assisted read of ui.json"
+ },
+ {
+  "area": "Site page text (ui.json)",
+  "note": "Dua and dhikr 'When you need more than a dua card' mentions self-harm ('If you might hurt yourself') but gives no numbers; the rule asks for 911 first, then 9-8-8 (call or text).",
+  "action": "Add the numbers to the crisis box text.",
+  "from": "Assisted read of ui.json"
+ },
+ {
+  "area": "Bengali translation",
+  "note": "locales/bn/life-guides.json, guide 'guide-for-mentors' sections[7].items[2]: the Bengali gives 988 (call or text) before 911 and writes '988' rather than '9-8-8'; the English gives 911 first.",
+  "action": "Fix the Bengali sentence order and format.",
+  "from": "English to Bengali alignment check"
+ },
+ {
+  "area": "Bengali translation",
+  "note": "Text that stays English in the Bengali site by design or by gap: the 99 names' English meanings (AlAdhan API), all 10 SVG diagrams (English text baked into the images), prayer-times strings ('Passed', 'in', h/m/s, AM/PM, API date and holiday names), the About page organisation placeholders, the resource card '(opens in a new tab)' suffix, site-level metadata and the PWA manifest, and the Quran starter word tiles which are Bengali but tagged lang=\"en\". seasonal-calendar.json sits outside the translation checker.",
+  "action": "Decide which of these to translate; add lang=\"bn\" on the word tiles.",
+  "from": "Content inventory"
+ },
+ {
+  "area": "Illustrations (SVG)",
+  "note": "Ten SVG graphics under public/graphics carry English (and some Arabic) text that appears in every locale: al-fatihah-card, articles-of-faith, first-ramadan-checklist, five-pillars, ghusl-steps, prayer-day-timeline, rakah-map-tashahhud, rakah-steps, what-breaks-wudu, wudu-steps. Their text is listed on 'Review rows' under the area 'Illustration text (SVG)' with no Bengali.",
+  "action": "Have the scholar rows verified; plan localized versions if the images should read in Bengali.",
+  "from": "Content inventory"
+ },
+ {
+  "area": "99 names of Allah",
+  "note": "The 99 names page fetches the names, transliterations and English meanings from api.aladhan.com at runtime; they are not in the repository, are English-only in every locale, and are not covered by this workbook.",
+  "action": "Ask a scholar to review the AlAdhan meanings, or store a reviewed list in locales.",
+  "from": "Content inventory"
+ },
+ {
+  "area": "Code-defined text",
+  "note": "Hard-coded in code rather than content files: footer crisis links (tel:911, tel:988; the text says 'call or text 9-8-8' but there is no sms: link); the Khalil Center URL on the mental health page; the Arabic word العشاء on the Ramadan page; prayer-times strings; qibla compass letters; the ISNA method (method=2) and standard Asr (school=0) settings for prayer times; each tool and static page's 'Sources used' list is a code-defined array of source ids.",
+  "action": "Note for the developer; add an sms:988 link.",
+  "from": "Content inventory"
+ },
+ {
+  "area": "Data model",
+  "note": "Fields defined in lib/types.ts but never rendered: Topic.icon (index uses a code map; thinking-about-islam has no entry), Topic.relatedResourceIds, StageLearningItem.resourceId, Masjid.country, the reviewStatus of masjids, resources and sources (no badge anywhere), VideoRef.sourceIds on step and tool pages, DawahGuide.lastSourceChecked and several dawah fields, seasonal-calendar sourceIds.",
+  "action": "Developer clean-up; consider showing review badges for resources.",
+  "from": "Content inventory"
+ },
+ {
+  "area": "Documentation",
+  "note": "CLAUDE.md field names differ from the data: stages use dontWorry (not notWorry); steps use resourceIds (not resources); masjids use stateProvince and coordinates {lat, lng} (not province/lat/lng); the glossary page re-sorts per locale and the Bengali file is in a different order.",
+  "action": "Update CLAUDE.md.",
+  "from": "Content inventory"
+ },
+ {
+  "area": "Glossary",
+  "note": "The glossary has no reviewStatus field and no per-entry sources for most entries, so all 188 entries are listed as 'not tracked'.",
+  "action": "Consider adding reviewStatus and sourceIds to glossary entries.",
+  "from": "Assisted read of glossary.json"
+ }
+]

@@ -19,6 +19,14 @@ The generated columns come from `locales/en` and `locales/bn`. The yellow
 columns are for the team and are not carried over when the workbook is rebuilt,
 so copy them out (or diff by Row ID and Item key) before regenerating.
 
+## Inputs kept next to the script
+
+| File | Purpose |
+| --- | --- |
+| `classification/*.json` | Per-item review types, reviewers, priority, key points and pre-check flags (see below). |
+| `ui-inventory.json` | Which second-level keys of `ui.json` carry reviewable text, with a label and the page URL, from a read of the route files. Used together with the `ui:` classification records. |
+| `site-notes.json` | Cross-cutting findings for the 'Site team notes' sheet. Edit or add entries by hand. |
+
 ## Classification data
 
 `classification/*.json` holds one record per item key (`step:<id>`,
@@ -41,4 +49,17 @@ python3 scripts/verification-tracker/build.py --out /tmp/tracker.xlsx --dump-jso
 ```
 
 The script prints the row counts per area and the number of items that had no
-classification record.
+classification record. Formulas are written without cached values and calculate
+when the workbook opens; to store the values (so previews show numbers) open
+and save it once in Excel or LibreOffice, or run the recalc helper from the
+xlsx skill (`recalc.py docs/content-verification-tracker.xlsx`).
+
+## What the workbook covers
+
+Every reviewable text in `locales/en` (stages, steps, topics, life guides,
+seasonal guides, FAQ, glossary, the four tools, the Ramadan planning sections,
+the hidden dawah guide, resources, resource collections, seasonal calendar,
+source categories), the content-bearing parts of `ui.json`, the English text
+baked into `public/graphics/*.svg`, plus the sources and masjid directories on
+their own sheets. Not covered: the 99 names page (data fetched from the AlAdhan
+API at run time) and live prayer-times data.
